@@ -1,4 +1,4 @@
-import Anthropic from "@anthropic-ai/sdk";
+﻿import Anthropic from "@anthropic-ai/sdk";
 import { figures, AI_CONFIG } from "@/lib/figures";
 import { NextRequest } from "next/server";
 
@@ -15,11 +15,11 @@ export async function POST(req: NextRequest) {
   const catalog = figures
     .map(
       (f) =>
-        `- ${f.slug}: ${f.name} (${f.era}) — domains: ${f.domains.join(", ")}. ${f.knownFor}`
+        `- ${f.slug}: ${f.name} (${f.era}) â€” domains: ${f.domains.join(", ")}. ${f.knownFor}`
     )
     .join("\n");
 
-  const systemPrompt = `You are a routing assistant for legends.guide. Given a user's problem or question, pick the single best legend to mentor them.
+  const systemPrompt = `You are a routing assistant for summon.guide. Given a user's problem or question, pick the single best legend to mentor them.
 
 Available legends:
 ${catalog}
