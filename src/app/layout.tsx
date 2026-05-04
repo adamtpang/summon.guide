@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -23,19 +23,21 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "legends.guide | Talk to History's Greatest Minds",
+  title: "summon.guide | Personal Mentorship from History's Greatest Guides",
   description:
-    "Get personal advice from Rockefeller, Benjamin Franklin, Elon Musk, Alexander the Great, and more. AI mentors grounded in real biographies and primary sources. Voice-enabled. Free to try.",
-  metadataBase: new URL("https://legends.guide"),
+    "Type in any life problem. We'll match you with the legendary human best suited to mentor you through it. Deeply researched AI guides grounded in real biographies and primary sources. Voice-enabled. Free to try.",
+  metadataBase: new URL("https://summon.guide"),
   keywords: [
     "AI mentorship",
+    "personal mentor matching",
+    "summon a mentor",
     "talk to historical figures",
     "Rockefeller advice",
     "Benjamin Franklin wisdom",
     "AI life coach",
-    "historical mentors",
+    "historical guides",
     "biography-based AI",
-    "legends guide",
+    "summon guide",
     "chat with history",
   ],
   icons: {
@@ -46,21 +48,21 @@ export const metadata: Metadata = {
     apple: "/icon-192.png",
   },
   openGraph: {
-    title: "legends.guide | Talk to History's Greatest Minds",
+    title: "summon.guide — Personal Mentorship from History's Greatest Guides",
     description:
-      "Get personal advice from Rockefeller, Franklin, Musk, and more. AI mentors grounded in real biographies. Free to try.",
-    url: "https://legends.guide",
-    siteName: "legends.guide",
+      "Type in any life problem. Get matched with the legendary human best suited to mentor you. Free to try.",
+    url: "https://summon.guide",
+    siteName: "summon.guide",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "legends.guide | Talk to History's Greatest Minds",
+    title: "summon.guide — Personal Mentorship from History's Greatest Guides",
     description:
-      "Get personal advice from Rockefeller, Franklin, Musk, and more. AI mentors grounded in real biographies. Free to try.",
+      "Type in any life problem. Get matched with the legendary human best suited to mentor you. Free to try.",
   },
   alternates: {
-    canonical: "https://legends.guide",
+    canonical: "https://summon.guide",
   },
 };
 
@@ -81,10 +83,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebApplication",
-              name: "legends.guide",
-              url: "https://legends.guide",
+              name: "summon.guide",
+              url: "https://summon.guide",
               description:
-                "Get personal advice from history's greatest minds. AI mentors grounded in real biographies and primary sources.",
+                "Type in any life problem and get matched with the legendary human best suited to mentor you through it. AI guides grounded in real biographies and primary sources.",
               applicationCategory: "EducationalApplication",
               operatingSystem: "Web",
               offers: {

@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/og";
+﻿import { ImageResponse } from "next/og";
 import { getFigure } from "@/lib/figures";
 import { NextRequest } from "next/server";
 
@@ -122,7 +122,7 @@ export async function GET(
                 fontFamily: "system-ui, sans-serif",
               }}
             >
-              legends.guide
+              summon.guide
             </div>
           </div>
         </div>

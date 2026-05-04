@@ -113,16 +113,16 @@ function HomeContent() {
         <header className="mb-6 md:mb-10">
           <div className="flex items-center justify-between mb-4 md:mb-6">
             <p className="text-warm-400 text-xs tracking-[0.3em] uppercase">
-              legends.guide
+              summon.guide
             </p>
             <AuthButton />
           </div>
           <h1 className="text-[26px] md:text-5xl font-serif font-medium leading-tight tracking-tight mb-4">
-            Guidance from humanity&apos;s legends.
+            Summon humanity&apos;s greatest guides.
           </h1>
           <p className="text-warm-500 text-sm md:text-base">
-            Describe what you&apos;re working through. We&apos;ll match you with
-            the right mentor.
+            Type in a life problem. Get matched with the legendary human best
+            suited to mentor you through it.
           </p>
         </header>
 
@@ -178,16 +178,46 @@ function HomeContent() {
           </div>
         </form>
 
+        {/* How it works */}
+        <section className="mb-10 md:mb-14">
+          <p className="text-warm-400 text-xs tracking-[0.2em] uppercase mb-5">
+            How it works
+          </p>
+          <ol className="space-y-3">
+            <li className="flex gap-4 bg-white border border-warm-200 rounded-xl px-4 py-4 md:px-5 md:py-5">
+              <span className="text-warm-400 text-xs tracking-widest font-mono mt-0.5 flex-shrink-0">01</span>
+              <div>
+                <p className="text-ink-950 text-sm md:text-base font-medium mb-1">Describe what you&rsquo;re working through</p>
+                <p className="text-warm-500 text-sm leading-relaxed">A career decision, a hard conversation, an ambition you can&rsquo;t shake.</p>
+              </div>
+            </li>
+            <li className="flex gap-4 bg-white border border-warm-200 rounded-xl px-4 py-4 md:px-5 md:py-5">
+              <span className="text-warm-400 text-xs tracking-widest font-mono mt-0.5 flex-shrink-0">02</span>
+              <div>
+                <p className="text-ink-950 text-sm md:text-base font-medium mb-1">We route you to the right human</p>
+                <p className="text-warm-500 text-sm leading-relaxed">The legendary guide whose life maps best to your situation, picked in real time.</p>
+              </div>
+            </li>
+            <li className="flex gap-4 bg-white border border-warm-200 rounded-xl px-4 py-4 md:px-5 md:py-5">
+              <span className="text-warm-400 text-xs tracking-widest font-mono mt-0.5 flex-shrink-0">03</span>
+              <div>
+                <p className="text-ink-950 text-sm md:text-base font-medium mb-1">Get personal mentorship</p>
+                <p className="text-warm-500 text-sm leading-relaxed">Real conversation grounded in their biographies, with citations to the source.</p>
+              </div>
+            </li>
+          </ol>
+        </section>
+
         {/* Legend grid */}
         <section>
           <h2 className="text-warm-400 text-xs tracking-[0.2em] uppercase mb-6">
-            Or choose a legend
+            Or choose a guide
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {figures.map((figure, idx) => (
               <div key={figure.slug} className="group">
                 <Link
-                  href={`/chat/${figure.slug}`}
+                  href={`/${figure.slug}`}
                   className="block"
                 >
                   <div className="relative aspect-[3/4] rounded-xl overflow-hidden bg-warm-200 mb-2">
@@ -211,7 +241,7 @@ function HomeContent() {
                   </div>
                 </Link>
                 <div className="flex items-start justify-between gap-1">
-                  <Link href={`/chat/${figure.slug}`} className="flex-1 min-w-0">
+                  <Link href={`/${figure.slug}`} className="flex-1 min-w-0">
                     <p className="text-warm-500 text-xs leading-relaxed line-clamp-2">
                       {figure.knownFor}
                     </p>

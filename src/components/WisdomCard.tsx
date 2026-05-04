@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useRef, useEffect, useState, useCallback } from "react";
 import { motion } from "framer-motion";
@@ -50,7 +50,7 @@ function drawCard(
   ctx.fillStyle = color + "33"; // 20% opacity
   ctx.fillText("\u201C", 50, 180);
 
-  // Quote text — word wrapping
+  // Quote text â€” word wrapping
   ctx.font = "italic 36px Georgia";
   ctx.fillStyle = "#F5F3EE";
   ctx.textBaseline = "top";
@@ -90,7 +90,7 @@ function drawCard(
   ctx.lineTo(W - 80, sepY);
   ctx.stroke();
 
-  // Figure name — uppercase
+  // Figure name â€” uppercase
   ctx.font = "600 22px Inter, system-ui, sans-serif";
   ctx.fillStyle = color;
   ctx.letterSpacing = "2px";
@@ -106,7 +106,7 @@ function drawCard(
   ctx.font = "24px Inter, system-ui, sans-serif";
   ctx.fillStyle = "#5A5850";
   ctx.textAlign = "right";
-  ctx.fillText("legends.guide", W - 60, H - 40);
+  ctx.fillText("summon.guide", W - 60, H - 40);
   ctx.textAlign = "left";
 }
 
@@ -137,7 +137,7 @@ export default function WisdomCard({
   }, [figureSlug, figureName]);
 
   const handleCopyForX = useCallback(() => {
-    const shareText = `"${quote}"\n\n— ${figureName} on legends.guide\n\nTalk to ${figureName} yourself: https://legends.guide/chat/${figureSlug}`;
+    const shareText = `"${quote}"\n\nâ€” ${figureName} on summon.guide\n\nTalk to ${figureName} yourself: https://summon.guide/chat/${figureSlug}`;
     navigator.clipboard.writeText(shareText);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -145,8 +145,8 @@ export default function WisdomCard({
   }, [quote, figureName, figureSlug]);
 
   const handleShareToX = useCallback(() => {
-    const shareText = `"${quote}"\n\n— ${figureName} on @legendsguide`;
-    const figureUrl = `https://legends.guide/chat/${figureSlug}`;
+    const shareText = `"${quote}"\n\nâ€” ${figureName} on @summonguide`;
+    const figureUrl = `https://summon.guide/chat/${figureSlug}`;
     const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(figureUrl)}`;
     window.open(url, "_blank");
     console.log("wisdom_card_shared_x", { figure: figureName });

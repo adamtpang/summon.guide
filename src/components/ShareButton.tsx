@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useCallback, useState } from "react";
 
@@ -74,7 +74,7 @@ export default function ShareButton({ quote, figureName, era, figureColor }: Sha
     ctx.fillStyle = "#ffffff30";
     ctx.font = "20px system-ui, sans-serif";
     ctx.textAlign = "center";
-    ctx.fillText("legends.guide", 540, 1840);
+    ctx.fillText("summon.guide", 540, 1840);
     ctx.textAlign = "left";
 
     // Convert to blob and share
@@ -88,8 +88,8 @@ export default function ShareButton({ quote, figureName, era, figureColor }: Sha
         try {
           await navigator.share({
             files: [file],
-            title: `${figureName} on legends.guide`,
-            text: `"${quote.slice(0, 100)}..." Talk to ${figureName} yourself at legends.guide`,
+            title: `${figureName} on summon.guide`,
+            text: `"${quote.slice(0, 100)}..." Talk to ${figureName} yourself at summon.guide`,
           });
           return;
         } catch {
