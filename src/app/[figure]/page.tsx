@@ -1,5 +1,6 @@
 import { figures, getFigure } from "@/lib/figures";
 import { getProfile } from "@/lib/profiles";
+import { getSkillsForFigure, skillGithubUrl } from "@/lib/skills";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -64,6 +65,7 @@ export default async function FigureProfile({
   const allQuotes = [figure.signatureQuote, ...profile.notableQuotes].filter(
     (q, i, arr) => arr.indexOf(q) === i
   );
+  const figureSkills = getSkillsForFigure(figure.slug);
 
   return (
     <main className="min-h-screen bg-warm-50 text-ink-950">
@@ -184,6 +186,84 @@ export default async function FigureProfile({
                 ))}
               </div>
             </section>
+
+            {/* Claude Code skills */}
+            {figureSkills.length > 0 && (
+              <section>
+                <SectionTitle>Claude Code skills</SectionTitle>
+                <p className="text-warm-500 text-sm mb-5 leading-relaxed">
+                  Frameworks from {figure.name.split(" ")[0]}&rsquo;s life,
+                  packaged as Claude Code skills. Install once, then invoke any
+                  of these slash commands when you&rsquo;re working through a
+                  decision they would have something to say about.
+                </p>
+                <div className="space-y-3 mb-5">
+                  {figureSkills.map((skill) => (
+                    <a
+                      key={skill.slug}
+                      href={skillGithubUrl(skill.slug)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block bg-white border border-warm-200 rounded-xl p-5 hover:border-ink-950 transition-colors group"
+                    >
+                      <div className="flex items-start justify-between gap-3 mb-2">
+                        <h3 className="text-ink-950 font-medium text-base md:text-lg">
+                          {skill.title}
+                        </h3>
+                        <code
+                          className="text-[11px] font-mono px-2 py-1 rounded-md flex-shrink-0"
+                          style={{
+                            backgroundColor: `${figure.color}1A`,
+                            color: figure.color,
+                          }}
+                        >
+                          {skill.command}
+                        </code>
+                      </div>
+                      <p className="text-warm-500 text-sm leading-relaxed mb-2">
+                        {skill.tagline}
+                      </p>
+                      <p className="text-warm-400 text-xs italic">
+                        From {skill.source}
+                        {skill.sourceAnchor ? `, ${skill.sourceAnchor}` : ""}
+                      </p>
+                    </a>
+                  ))}
+                </div>
+                <details className="bg-ink-950 text-white rounded-xl p-5">
+                  <summary className="cursor-pointer text-sm font-medium flex items-center gap-2 list-none">
+                    <svg
+                      className="w-3 h-3 transition-transform"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path d="M9 18l6-6-6-6" />
+                    </svg>
+                    Install all of {figure.name.split(" ")[0]}&rsquo;s skills in
+                    Claude Code
+                  </summary>
+                  <pre className="mt-4 text-xs font-mono bg-black/30 rounded-lg p-4 overflow-x-auto leading-relaxed">
+                    <code>{`/plugin marketplace add adamtpang/summon.guide
+/plugin install summon-guide`}</code>
+                  </pre>
+                  <p className="text-white/60 text-xs mt-3 leading-relaxed">
+                    Installs all 13 skills across every guide. Then run any
+                    slash command above. Source on{" "}
+                    <a
+                      href="https://github.com/adamtpang/summon.guide/tree/main/skills"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline hover:text-white"
+                    >
+                      GitHub
+                    </a>
+                    .
+                  </p>
+                </details>
+              </section>
+            )}
 
             {/* Primary sources */}
             <section>

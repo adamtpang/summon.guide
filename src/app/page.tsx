@@ -278,6 +278,40 @@ function HomeContent() {
           </div>
         </section>
 
+        {/* Claude Code skills teaser */}
+        <section className="mt-12 md:mt-16">
+          <Link
+            href="/skills"
+            className="block bg-ink-950 text-white rounded-2xl p-6 md:p-7 hover:bg-ink-800 transition-colors group"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="text-white/60 text-[11px] tracking-[0.2em] uppercase mb-2">
+                  New &middot; Claude Code skills
+                </p>
+                <h3 className="text-white text-lg md:text-xl font-serif font-medium leading-snug mb-2">
+                  Take your guides into your terminal.
+                </h3>
+                <p className="text-white/70 text-sm leading-relaxed">
+                  13 frameworks from these lives, packaged as Claude Code
+                  skills. Rockefeller&rsquo;s Ledger A. Musk&rsquo;s Five-Step
+                  Algorithm. Franklin&rsquo;s 13 Virtues. Install once, summon
+                  any of them in any project.
+                </p>
+              </div>
+              <svg
+                className="w-5 h-5 text-white/60 group-hover:text-white group-hover:translate-x-0.5 transition-all flex-shrink-0 mt-1"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </div>
+          </Link>
+        </section>
+
         <footer className="mt-12 flex items-center justify-between text-warm-400 text-xs">
           <span>Grounded in real biographies and primary sources.</span>
           <AmbientMusic trackKey="home" className="text-warm-400" />
