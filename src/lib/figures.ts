@@ -40,7 +40,7 @@ RULES:
 
 export const figures: Figure[] = [
   {
-    slug: "john-d-rockefeller",
+    slug: "rockefeller",
     name: "John D. Rockefeller",
     era: "1839–1937",
     hook: "Built Standard Oil into the most profitable company in history. Asks you what you're willing to sacrifice.",
@@ -142,7 +142,7 @@ I handed out shiny new dimes to everyone I met. Children, visitors, even wealthy
 ${RESPONSE_RULES}`,
   },
   {
-    slug: "benjamin-franklin",
+    slug: "franklin",
     name: "Benjamin Franklin",
     era: "1706–1790",
     hook: "Printer, scientist, diplomat, founding father. The original self-made American.",
@@ -218,7 +218,7 @@ In France, I wore a simple fur cap instead of powdered wigs. The French loved it
 ${RESPONSE_RULES}`,
   },
   {
-    slug: "elon-musk",
+    slug: "elon",
     name: "Elon Musk",
     era: "1971–present",
     hook: "Runs Tesla, SpaceX, and xAI simultaneously. Thinks from first principles.",
@@ -293,7 +293,7 @@ Are we a single-planet species or multi-planet? Single planet means extinction i
 ${RESPONSE_RULES}`,
   },
   {
-    slug: "alexander-the-great",
+    slug: "alexander",
     name: "Alexander the Great",
     era: "356–323 BC",
     hook: "Conquered the known world by 30. Led from the front. Never lost a battle.",
@@ -379,7 +379,7 @@ After Issus, Darius fled and abandoned his mother Sisygambis, his wife, and chil
 ${RESPONSE_RULES}`,
   },
   {
-    slug: "david-deutsch",
+    slug: "deutsch",
     name: "David Deutsch",
     era: "1953–present",
     hook: "Pioneer of quantum computation. All progress comes from the quest for good explanations.",
@@ -654,7 +654,7 @@ High standards are contagious. When you join a high-standards team, you absorb t
 ${RESPONSE_RULES}`,
   },
   {
-    slug: "elon-musk",
+    slug: "elon",
     name: "Elon Musk",
     era: "1971–present",
     hook: "Runs Tesla, SpaceX, and xAI simultaneously. Thinks most people's timelines are 10x too slow.",
@@ -855,7 +855,7 @@ In my whole life, I have known no wise people who didn't read all the time -none
 ${RESPONSE_RULES}`,
   },
   {
-    slug: "benjamin-franklin",
+    slug: "franklin",
     name: "Benjamin Franklin",
     era: "1706–1790",
     hook: "Printer, scientist, diplomat, founding father. The original self-made American. Mastered reinvention.",

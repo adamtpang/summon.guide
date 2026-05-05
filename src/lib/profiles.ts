@@ -1,152 +1,410 @@
-// Wiki-style profile data per figure. Keyed by figure slug.
+// Wikipedia-style profile data per figure. Keyed by figure slug.
 // Used by /[figure] profile pages. Kept separate from figures.ts so the
 // large system prompts and the readable bio prose live in different files.
 
+export interface InfoboxRow {
+  label: string;
+  /** array so we can render multi-line values like spouses or notable works */
+  values: string[];
+}
+
 export interface Profile {
   slug: string;
-  occupation: string; // short, comma-separated (shown under name)
-  birthplace?: string;
-  bio: string[]; // 2-4 paragraphs of clean prose
-  notableQuotes: string[]; // 4-6 famous quotes
+
+  // Header
+  /** short, comma-separated occupation summary shown under the name */
+  occupation: string;
+  /** Wikipedia article URL for further reading */
   wikipediaUrl: string;
+
+  // Wikipedia-style infobox (rendered as a table on the right)
+  /** the natural, full birth name (e.g., "John Davison Rockefeller Sr.") */
+  fullName?: string;
+  birthDate?: string; // e.g., "July 8, 1839"
+  birthPlace?: string; // e.g., "Richford, New York, U.S."
+  deathDate?: string; // e.g., "May 23, 1937 (aged 97)"
+  deathPlace?: string;
+  nationality?: string;
+  education?: string[]; // ["Cambridge University", "Stanford Law"]
+  occupations?: string[]; // bullet form for infobox
+  yearsActive?: string; // e.g., "1855–1911"
+  notableWorks?: string[]; // books, companies, achievements (max ~5)
+  spouses?: string[];
+  children?: string; // e.g., "5"
+  parents?: string[];
+  awards?: string[];
+  netWorth?: string; // peak
+
+  // Body sections (Wikipedia-style: each renders as its own h2 section)
+  earlyLife: string; // 1–2 paragraphs covering childhood + education
+  career: string; // 2–3 paragraphs covering main work
+  legacy?: string; // 1–2 paragraphs covering impact / death / influence
+
+  // Quotes & sources
+  notableQuotes: string[]; // 4–6 famous quotes
   primarySources: string[]; // books that grounded this guide's training
+
+  // Legacy fields (kept for back-compat with previous v0 of the page)
+  /** @deprecated prefer earlyLife/career/legacy */
+  bio?: string[];
+  /** @deprecated prefer birthPlace */
+  birthplace?: string;
 }
 
 export const profiles: Record<string, Profile> = {
-  "john-d-rockefeller": {
-    slug: "john-d-rockefeller",
+  rockefeller: {
+    slug: "rockefeller",
     occupation: "Industrialist, philanthropist, founder of Standard Oil",
-    birthplace: "Richford, New York",
-    bio: [
-      "John Davison Rockefeller (1839–1937) built Standard Oil into the most profitable company in history and became the richest American who ever lived. Born to a con-man father and a devout Baptist mother, he started as a 16-year-old bookkeeper making 50 cents a day and celebrated “Job Day” every September 26 for the rest of his life.",
-      "Entering the oil business in 1863, he recognized that refining — not drilling — was where the real money was. He incorporated Standard Oil in 1870 and through the Cleveland Massacre of 1872 bought 22 of 26 competing refiners in six weeks. By 1879 he controlled 90% of American oil refining. At his peak he was worth roughly $400 billion in today's dollars.",
-      "After a nervous breakdown in his 50s, he retired at 57 and gave away $540 million through systematic philanthropy guided by Frederick T. Gates. He founded the University of Chicago, Rockefeller University, and the General Education Board, and he lived to 97 — handing out shiny dimes to everyone he met as a lesson on the value of saving.",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+
+    fullName: "John Davison Rockefeller Sr.",
+    birthDate: "July 8, 1839",
+    birthPlace: "Richford, New York, U.S.",
+    deathDate: "May 23, 1937 (aged 97)",
+    deathPlace: "Ormond Beach, Florida, U.S.",
+    nationality: "American",
+    education: ["Folsom's Commercial College, Cleveland (bookkeeping, 1855)"],
+    occupations: ["Industrialist", "Philanthropist", "Bookkeeper (1855–1859)"],
+    yearsActive: "1855–1937",
+    notableWorks: [
+      "Standard Oil (founded 1870)",
+      "University of Chicago (founded 1890)",
+      "Rockefeller University (founded 1901)",
+      "General Education Board (founded 1903)",
+      "Rockefeller Foundation (founded 1913)",
     ],
+    spouses: ["Laura “Cettie” Spelman (m. 1864)"],
+    children: "5",
+    parents: ["William Avery “Devil Bill” Rockefeller", "Eliza Davison"],
+    netWorth: "≈$418 billion (peak, inflation-adjusted to 2025 USD)",
+
+    earlyLife:
+      "Rockefeller was born July 8, 1839, in Richford, New York, the second of six children. His father William “Devil Bill” Rockefeller was a traveling con man and bigamist who once boasted, “I cheat my boys every chance I get.” His mother Eliza was a devout Baptist who insisted he tithe from his very first paycheck. He blended both parents: her thrift and discipline with his cunning. At sixteen he completed a ten-week course in bookkeeping at Folsom's Commercial College in Cleveland and took his first job at Hewitt & Tuttle for fifty cents a day. From that paycheck onward he kept a personal ledger he called Ledger A, recording every penny earned and spent. He celebrated “Job Day” every September 26 for the rest of his life.",
+
+    career:
+      "In 1863 Rockefeller and partners entered the oil refining business in Cleveland, recognizing that refining — not drilling — was where the durable margins lived. He incorporated Standard Oil on January 10, 1870. Through what became known as the Cleveland Massacre of February 1872, he acquired 22 of 26 competing refiners in six weeks, paying generously in Standard Oil stock and cash. By 1879 his company refined 90% of all American oil. He built the first true vertical-and-horizontal industrial monopoly: pipelines, tankers, barrels, and retail. The Sherman Antitrust Act of 1890 was passed largely in response to him, and the U.S. Supreme Court ordered Standard Oil dissolved in 1911 — but the breakup multiplied his wealth, since he held stock in every successor company.",
+
+    legacy:
+      "After a nervous breakdown in his fifties left him with alopecia and the appearance of a much older man, Rockefeller retired from active management at 57 and devoted the rest of his life to systematic philanthropy guided by Frederick T. Gates. He gave away approximately $540 million (roughly $11 billion in 2025 USD), founding the University of Chicago, Rockefeller University (the first U.S. biomedical research institute), the General Education Board which helped end hookworm in the American South, and the Rockefeller Foundation, which played a central role in the Green Revolution. He died May 23, 1937, just two months short of his 98th birthday. He had spent the last decades of his life handing out shiny new dimes to children and adults he met as a teaching gesture about the value of saving.",
+
     notableQuotes: [
       "The secret of success is to do the common things uncommonly well.",
       "Don't be afraid to give up the good to go for the great.",
       "Singleness of purpose is one of the chief essentials for success in life.",
       "I believe the power to make money is a gift from God.",
       "Competition is a sin.",
+      "I always tried to turn every disaster into an opportunity.",
     ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/John_D._Rockefeller",
-    primarySources: ["Titan: The Life of John D. Rockefeller, Sr. by Ron Chernow"],
+    primarySources: [
+      "Titan: The Life of John D. Rockefeller, Sr. by Ron Chernow (1998)",
+    ],
   },
 
-  "benjamin-franklin": {
-    slug: "benjamin-franklin",
+  franklin: {
+    slug: "franklin",
     occupation: "Printer, scientist, diplomat, founding father",
-    birthplace: "Boston, Massachusetts",
-    bio: [
-      "Benjamin Franklin (1706–1790) was the original self-made American — a printer, scientist, diplomat, and founding father who reinvented himself across seven careers. The 15th of 17 children of a Boston candle maker, he had only two years of formal schooling and apprenticed in his brother's print shop at 12.",
-      "He ran away to Philadelphia at 17 and built the most successful printing operation in the colonies. By 30 he was publishing the Pennsylvania Gazette and Poor Richard's Almanack. He retired from active business at 42, financially independent enough to never work again — and used that freedom to prove lightning was electricity, invent the lightning rod, bifocals, and the Franklin stove.",
-      "He helped draft the Declaration of Independence, served as ambassador to France where he secured the alliance that won American independence, and was the oldest delegate to the Constitutional Convention at 81. He died in 1790 at age 84, having shaped a nation through charm, persuasion, and 13 carefully tracked virtues.",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+
+    fullName: "Benjamin Franklin",
+    birthDate: "January 17, 1706",
+    birthPlace: "Boston, Massachusetts Bay, British America",
+    deathDate: "April 17, 1790 (aged 84)",
+    deathPlace: "Philadelphia, Pennsylvania, U.S.",
+    nationality: "American (formerly British)",
+    education: [
+      "Boston Latin School (left at 10)",
+      "Self-educated thereafter",
+      "Honorary doctorates: St. Andrews (1759), Oxford (1762)",
     ],
+    occupations: [
+      "Printer",
+      "Author",
+      "Inventor",
+      "Scientist",
+      "Diplomat",
+      "Statesman",
+      "Postmaster",
+    ],
+    yearsActive: "1718–1790",
+    notableWorks: [
+      "Pennsylvania Gazette (publisher, 1728–1748)",
+      "Poor Richard's Almanack (1733–1758)",
+      "The Autobiography of Benjamin Franklin (begun 1771)",
+      "Lightning rod, bifocals, Franklin stove",
+      "Declaration of Independence (signer, 1776)",
+      "U.S. Constitution (signer, 1787)",
+    ],
+    spouses: ["Deborah Read (common-law, 1730–1774)"],
+    children: "3 (William, Francis, Sarah)",
+    parents: ["Josiah Franklin", "Abiah Folger"],
+    awards: [
+      "Copley Medal of the Royal Society (1753)",
+      "Fellow of the Royal Society (1756)",
+    ],
+
+    earlyLife:
+      "Franklin was born in Boston on January 17, 1706, the fifteenth of seventeen children of Josiah Franklin, a candle and soap maker. He attended Boston Latin School for two years before leaving school at age ten to work in his father's shop. At twelve he was apprenticed to his older brother James, a printer. He taught himself to write by dissecting essays in The Spectator: he would read a piece, make brief notes, set it aside for several days, then try to reconstruct the original from his notes — and compare the result to the model. He read voraciously and at sixteen began submitting essays to his brother's newspaper under the pseudonym Silence Dogood. After clashing with James, he ran away to Philadelphia at seventeen with almost nothing in his pockets.",
+
+    career:
+      "By age thirty Franklin owned the most successful printing operation in the colonies, publishing the Pennsylvania Gazette and the wildly popular Poor Richard's Almanack. He retired from the print business at forty-two, financially independent enough never to need to work again — and used that freedom for the rest of his life. He proved that lightning is electricity with the famous kite experiment of 1752, invented the lightning rod, bifocals, and the Franklin stove, founded the first lending library in America, the first volunteer fire company, the first public hospital, and what became the University of Pennsylvania. As ambassador to France from 1776 to 1785, he secured the alliance that won American independence — charming the French court while wearing a simple fur cap instead of powdered wigs. He helped draft the Declaration of Independence and was the oldest delegate to the Constitutional Convention at age 81.",
+
+    legacy:
+      "Franklin died in Philadelphia on April 17, 1790, at age 84. Twenty thousand people attended his funeral. He had reinvented himself across at least seven distinct careers — printer, author, scientist, postmaster, philanthropist, diplomat, statesman — and produced one of the most influential autobiographies ever written. The 13 Virtues system he designed at twenty became the template for modern habit tracking; the Junto society he founded at twenty-one became the template for the modern peer-improvement group. His face appears on the U.S. $100 bill.",
+
     notableQuotes: [
       "An investment in knowledge pays the best interest.",
       "Well done is better than well said.",
       "By failing to prepare, you are preparing to fail.",
       "Either write something worth reading or do something worth writing.",
       "Energy and persistence conquer all things.",
+      "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
     ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Benjamin_Franklin",
     primarySources: [
-      "The Autobiography of Benjamin Franklin",
-      "Benjamin Franklin: An American Life by Walter Isaacson",
+      "The Autobiography of Benjamin Franklin (1771–1790, published 1791)",
+      "Benjamin Franklin: An American Life by Walter Isaacson (2003)",
     ],
   },
 
-  "elon-musk": {
-    slug: "elon-musk",
+  elon: {
+    slug: "elon",
     occupation: "Engineer, entrepreneur, CEO of Tesla, SpaceX, and xAI",
-    birthplace: "Pretoria, South Africa",
-    bio: [
-      "Elon Musk (b. 1971) runs Tesla, SpaceX, and xAI simultaneously and reasons about engineering problems from first principles rather than analogy. He taught himself programming at 10, sold a video game at 12, and left South Africa at 17 to escape compulsory military service.",
-      "After dropping out of Stanford's PhD program after two days, he co-founded Zip2 (sold for $307M) and X.com/PayPal (sold to eBay for $1.5B). He poured almost all of his $180M after-tax proceeds into SpaceX and Tesla. Between 2006 and 2008 — three failed Falcon 1 launches, Tesla near bankruptcy, marriage falling apart, borrowing money for rent — he came within days of total ruin. The fourth Falcon 1 reached orbit on September 28, 2008. Tesla closed funding on Christmas Eve.",
-      "He has since reduced space launch costs by an order of magnitude, built the world's most valuable automaker, and articulated a five-step manufacturing algorithm: question every requirement, delete any part you can, simplify, accelerate cycle time, automate last. His stated goal is making humanity a multiplanetary species.",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Elon_Musk",
+
+    fullName: "Elon Reeve Musk",
+    birthDate: "June 28, 1971",
+    birthPlace: "Pretoria, Transvaal, South Africa",
+    nationality: "South African, Canadian, American",
+    education: [
+      "Pretoria Boys High School (1988)",
+      "Queen's University, Ontario (transferred)",
+      "University of Pennsylvania (B.S. Economics, B.A. Physics, 1997)",
+      "Stanford University (PhD program, dropped out after 2 days, 1995)",
     ],
+    occupations: [
+      "Engineer",
+      "Entrepreneur",
+      "CEO of Tesla, SpaceX, xAI",
+      "Owner of X (formerly Twitter)",
+    ],
+    yearsActive: "1995–present",
+    notableWorks: [
+      "Zip2 (co-founder, sold for $307M in 1999)",
+      "X.com / PayPal (co-founder, sold to eBay for $1.5B in 2002)",
+      "SpaceX (founder, 2002)",
+      "Tesla, Inc. (joined 2004, CEO since 2008)",
+      "Neuralink (co-founder, 2016)",
+      "The Boring Company (founder, 2017)",
+      "xAI (founder, 2023)",
+    ],
+    spouses: [
+      "Justine Wilson (m. 2000; div. 2008)",
+      "Talulah Riley (m. 2010; div. 2012)",
+      "Talulah Riley (m. 2013; div. 2016)",
+    ],
+    children: "12+",
+    parents: ["Errol Musk", "Maye Musk"],
+    netWorth: "≈$400 billion (one of the richest people in modern history)",
+
+    earlyLife:
+      "Musk was born June 28, 1971, in Pretoria, South Africa, to engineer Errol Musk and model Maye Musk. He has been described as a withdrawn, intensely bookish child who taught himself programming at ten and sold a video game called Blastar for about $500 at twelve. His parents divorced when he was eight; the years that followed were difficult, including periods of severe bullying. At seventeen, partly to avoid compulsory South African military service, he emigrated to Canada, then transferred to the University of Pennsylvania. He earned bachelor's degrees in physics and economics in 1997, was accepted into a Stanford applied physics PhD program, and dropped out after two days to start a company in the dot-com boom.",
+
+    career:
+      "Musk's first company, Zip2, an online city-guide service, sold to Compaq for $307 million in 1999. He immediately founded X.com, an online bank that merged with Confinity to become PayPal; eBay acquired PayPal for $1.5 billion in 2002. He poured almost all of his $180M after-tax proceeds into SpaceX (2002) and Tesla (joined 2004). The years 2006–2008 nearly destroyed him: three consecutive failed Falcon 1 launches, Tesla's near-bankruptcy, a public divorce, and a stretch of borrowing money from friends to pay rent. The fourth Falcon 1 reached orbit on September 28, 2008. Tesla closed an emergency funding round on Christmas Eve 2008. He has since reduced space launch costs by an order of magnitude with the Falcon 9 and Starship programs, taken Tesla to a $1+ trillion market cap, founded Neuralink, The Boring Company, and xAI, and acquired Twitter for $44 billion in 2022 (now X).",
+
+    legacy:
+      "Musk has articulated a five-step manufacturing algorithm — question every requirement, delete any part you can, simplify, accelerate cycle time, automate last — that has become an influential industrial framework outside Tesla and SpaceX. His stated goal of making humanity a multiplanetary species has driven Starship development. He remains one of the most controversial public figures of his era: admired as the most aggressive engineering executive of the twenty-first century, criticized for labor practices, his behavior on X, and his political pronouncements.",
+
     notableQuotes: [
       "When something is important enough, you do it even if the odds are not in your favor.",
       "The most common error of a smart engineer is to optimize a thing that should not exist.",
       "If the schedule is long, it's wrong. If it's tight, it's right.",
       "The best part is no part. The best process is no process.",
       "Failure is an option here. If things are not failing, you are not innovating enough.",
+      "I think it's very important to have a feedback loop.",
     ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Elon_Musk",
     primarySources: [
-      "Elon Musk by Walter Isaacson",
-      "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future by Ashlee Vance",
+      "Elon Musk by Walter Isaacson (2023)",
+      "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future by Ashlee Vance (2015)",
     ],
   },
 
-  "alexander-the-great": {
-    slug: "alexander-the-great",
+  alexander: {
+    slug: "alexander",
     occupation: "King of Macedon, conqueror, founder of cities",
-    birthplace: "Pella, Macedon",
-    bio: [
-      "Alexander III of Macedon (356–323 BC), known to history as Alexander the Great, built the largest empire the ancient world had ever seen — stretching from Greece to the borders of India — and died at 32 having never lost a battle. He carried an annotated copy of the Iliad with him on every campaign, sleeping with it under his pillow alongside a dagger.",
-      "Tutored by Aristotle from age 13 to 16, he commanded the cavalry at the Battle of Chaeronea at 18 and seized the throne of Macedon at 20 after his father Philip II was assassinated. He crossed into Asia with 48,000 infantry and 6,000 cavalry, defeated Darius III at Issus and Gaugamela, built a causeway to take the island fortress of Tyre, and pushed through Afghanistan and across the Indus before his army refused to march further at the Hyphasis.",
-      "He founded over twenty cities including Alexandria, was wounded in nearly every major campaign, and led from the front — once pouring out a helmet of water onto the desert sand because his thirsty men had none. He died in Babylon on June 10, 323 BC. When asked to whom he left his empire, he replied: “To the strongest.”",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Alexander_the_Great",
+
+    fullName: "Alexander III of Macedon (Ἀλέξανδρος, Aléxandros)",
+    birthDate: "20 or 21 July 356 BC",
+    birthPlace: "Pella, Kingdom of Macedon",
+    deathDate: "10 or 11 June 323 BC (aged 32)",
+    deathPlace: "Babylon",
+    nationality: "Macedonian (Greek)",
+    education: [
+      "Tutored by Aristotle at the Temple of the Nymphs at Mieza (343–340 BC)",
     ],
+    occupations: [
+      "King of Macedon (336–323 BC)",
+      "Hegemon of the League of Corinth",
+      "Pharaoh of Egypt",
+      "King of Persia",
+      "Lord of Asia",
+    ],
+    yearsActive: "338–323 BC (military career)",
+    notableWorks: [
+      "Conquest of the Persian Empire (334–330 BC)",
+      "Founding of 20+ cities, including Alexandria, Egypt (331 BC)",
+      "Battle of Issus (333 BC) and Gaugamela (331 BC)",
+      "Siege of Tyre (332 BC)",
+    ],
+    spouses: [
+      "Roxana of Bactria (m. 327 BC)",
+      "Stateira II of Persia (m. 324 BC)",
+      "Parysatis II of Persia (m. 324 BC)",
+    ],
+    children: "Alexander IV (posthumous, with Roxana)",
+    parents: ["Philip II of Macedon", "Olympias of Epirus"],
+
+    earlyLife:
+      "Alexander was born in Pella, the capital of the Kingdom of Macedon, in late July 356 BC, the son of King Philip II and Queen Olympias of Epirus, who claimed descent from Achilles. Plutarch records that on the night of his birth the Temple of Artemis at Ephesus burned down — an omen the priests interpreted as the birth of a destroyer. From age thirteen to sixteen he was tutored by Aristotle at the Temple of the Nymphs at Mieza, where he studied philosophy, medicine, and scientific inquiry, and developed the lifelong love of Homer that led him to carry an annotated copy of the Iliad on every campaign. At twelve he tamed the wild stallion Bucephalus by realizing the horse was afraid of his own shadow; the horse carried him through every major battle for the next twenty years. At eighteen, commanding the Macedonian cavalry at the Battle of Chaeronea (338 BC), he shattered the elite Theban Sacred Band.",
+
+    career:
+      "When Philip II was assassinated in 336 BC, Alexander seized the throne at age twenty and consolidated control of Greece. In 334 BC he crossed the Hellespont into Asia with roughly 48,000 infantry and 6,000 cavalry, beginning the campaign that would destroy the Persian Empire. He defeated Darius III at the Battle of the Granicus (334 BC), the Battle of Issus (333 BC), and finally at Gaugamela (331 BC), where outnumbered roughly four to one he led the Companion Cavalry directly at the Persian king. He took Tyre after a seven-month siege by building a causeway across the strait — the mole still stands today as a peninsula. He founded Alexandria in Egypt in 331 BC, was crowned Pharaoh, then pushed across the Hindu Kush, defeated King Porus on the banks of the Hydaspes despite war elephants, and reached the Beas River in modern Punjab. There, after eight years and 11,000 miles, his troops refused to march further. He turned back through the Gedrosian Desert in one of the most catastrophic marches in military history.",
+
+    legacy:
+      "Alexander died in Babylon on the evening of 10 or 11 June 323 BC at age 32, after a fever following heavy drinking — possibly typhoid, possibly malaria, possibly poisoning, the question is still debated. When asked to whom he left his empire, he reportedly replied: “To the strongest.” His generals immediately fought a series of wars (the Wars of the Diadochi) that broke the empire into the Hellenistic kingdoms — Ptolemaic Egypt, the Seleucid Empire, Antigonid Macedon — which spread Greek language, philosophy, and civic institutions from the Mediterranean to the borders of India for the next three centuries. Twenty cities he founded survive in some form, including Alexandria, Egypt — still the second-largest city in Egypt today.",
+
     notableQuotes: [
       "There is nothing impossible to him who will try.",
       "I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion.",
       "I would rather live a short life of glory than a long one of obscurity.",
       "Remember, upon the conduct of each depends the fate of all.",
       "I do not steal my victories.",
+      "Heaven cannot brook two suns, nor earth two masters.",
     ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Alexander_the_Great",
     primarySources: [
-      "Life of Alexander by Plutarch",
-      "The Campaigns of Alexander by Arrian",
-      "Alexander the Great by Robin Lane Fox",
+      "Life of Alexander by Plutarch (c. 100 AD)",
+      "The Campaigns of Alexander (Anabasis Alexandri) by Arrian (c. 145 AD)",
+      "Alexander the Great by Robin Lane Fox (1973)",
     ],
   },
 
-  "david-deutsch": {
-    slug: "david-deutsch",
+  deutsch: {
+    slug: "deutsch",
     occupation: "Physicist, pioneer of quantum computation, philosopher",
-    birthplace: "Haifa, Israel",
-    bio: [
-      "David Deutsch (b. 1953) is a physicist at the University of Oxford who founded the field of quantum computation and argues that all progress comes from the quest for good explanations. He was born in Haifa, studied at Cambridge and Oxford, and published the foundational paper on the quantum Turing machine in 1985.",
-      "With Richard Jozsa he produced the Deutsch–Jozsa algorithm — one of the first quantum algorithms exponentially faster than any classical counterpart. His first book, The Fabric of Reality (1997), proposed that quantum physics, epistemology (Popper), evolution (Darwin), and computation (Turing) are deeply intertwined strands of a single theory of reality.",
-      "His second book, The Beginning of Infinity (2011), argues that good explanations — ones that are hard to vary while still accounting for what they explain — are the engine of unbounded human progress. He proposed constructor theory with Chiara Marletto in 2012, is a Fellow of the Royal Society, and won the Breakthrough Prize in Fundamental Physics in 2022.",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/David_Deutsch",
+
+    fullName: "David Elieser Deutsch",
+    birthDate: "May 18, 1953",
+    birthPlace: "Haifa, Israel",
+    nationality: "British",
+    education: [
+      "Clare College, Cambridge (B.A. Natural Sciences)",
+      "Wolfson College, Oxford (D.Phil. Theoretical Physics, 1978)",
     ],
+    occupations: [
+      "Theoretical physicist",
+      "Visiting Professor, University of Oxford",
+      "Author",
+    ],
+    yearsActive: "1978–present",
+    notableWorks: [
+      "“Quantum theory, the Church-Turing principle and the universal quantum computer” (1985)",
+      "Deutsch–Jozsa algorithm (1992, with Richard Jozsa)",
+      "The Fabric of Reality (1997)",
+      "The Beginning of Infinity (2011)",
+      "Constructor theory (2012, with Chiara Marletto)",
+    ],
+    awards: [
+      "Dirac Prize (1998)",
+      "Edge of Computation Science Prize (2005)",
+      "Fellow of the Royal Society (2008)",
+      "Isaac Newton Medal (2017)",
+      "Breakthrough Prize in Fundamental Physics (2022)",
+    ],
+
+    earlyLife:
+      "Deutsch was born in Haifa, Israel, on May 18, 1953, to Holocaust survivors Oskar and Tikva Deutsch. The family later moved to London. He read natural sciences at Clare College, Cambridge, and completed his doctorate at Wolfson College, Oxford in 1978 under Dennis Sciama, with a thesis on quantum field theory in curved space-time. He has remained at Oxford ever since, holding a position at the Centre for Quantum Computation at the Clarendon Laboratory.",
+
+    career:
+      "In 1985 Deutsch published “Quantum theory, the Church-Turing principle and the universal quantum computer” — the foundational paper that defined the quantum Turing machine and effectively founded the field of quantum computation. With Richard Jozsa he produced the Deutsch–Jozsa algorithm in 1992, one of the first quantum algorithms exponentially faster than any classical counterpart. His first book, The Fabric of Reality (1997), argued that four strands — quantum physics (the multiverse), epistemology (Popper's conjecture-and-criticism), evolution (Darwin), and computation (Turing) — are deeply intertwined. His second book, The Beginning of Infinity (2011), argues that good explanations — ones that are hard to vary while still accounting for what they explain — are the engine of unbounded human progress. In 2012, with Chiara Marletto, he proposed constructor theory, an attempt to reformulate physics in terms of which transformations are possible and which are not.",
+
+    legacy:
+      "Deutsch is a Fellow of the Royal Society, won the Isaac Newton Medal in 2017, and shared the 2022 Breakthrough Prize in Fundamental Physics for foundational work on quantum information. The Beginning of Infinity has become a touchstone text for a generation of technologists and entrepreneurs as a defense of definite optimism — the view that all problems are soluble unless forbidden by the laws of physics, and that pessimism is bad epistemology, not realism.",
+
     notableQuotes: [
       "Problems are inevitable. Problems are soluble.",
       "Optimism is, in the first instance, a way of explaining failure, not prophesying success.",
       "All evils are caused by insufficient knowledge.",
       "The universe is not there to overwhelm us; it is our home, and our resource. The bigger the better.",
       "An unproblematic state is a state without creative thought. Its other name is death.",
+      "Experience is essential to science, but its role is different from that supposed by empiricism. It is not the source from which theories are derived.",
     ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/David_Deutsch",
     primarySources: [
-      "The Beginning of Infinity by David Deutsch",
-      "The Fabric of Reality by David Deutsch",
+      "The Beginning of Infinity by David Deutsch (2011)",
+      "The Fabric of Reality by David Deutsch (1997)",
     ],
   },
 
   "lee-kuan-yew": {
     slug: "lee-kuan-yew",
     occupation: "Statesman, founding Prime Minister of Singapore",
-    birthplace: "Singapore",
-    bio: [
-      "Lee Kuan Yew (1923–2015) transformed Singapore from a third-world port city with no natural resources into a first-world nation in a single generation. He served as Prime Minister for 31 years and led the city-state from a GDP per capita of $516 to over $80,000 today.",
-      "Born into a Peranakan family, he read law at Cambridge and graduated with a starred First-Class Honours. The Japanese Occupation of 1942–1945 — he narrowly escaped the Sook Ching massacre — taught him that power, not law, decides who lives and dies. He co-founded the People's Action Party in 1954 and became Prime Minister in 1959 at age 35.",
-      "When Singapore was expelled from Malaysia on August 9, 1965, he wept on television. Over the next three decades he attracted multinationals, built corruption-free government, created mass homeownership through HDB housing and the Central Provident Fund, and enforced multiracialism and meritocracy. He died on March 23, 2015, at age 91. Over a million Singaporeans lined the funeral route in the rain.",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Lee_Kuan_Yew",
+
+    fullName: "Lee Kuan Yew (李光耀)",
+    birthDate: "September 16, 1923",
+    birthPlace: "Singapore, Straits Settlements (British Malaya)",
+    deathDate: "March 23, 2015 (aged 91)",
+    deathPlace: "Singapore General Hospital, Singapore",
+    nationality: "Singaporean (formerly British)",
+    education: [
+      "Raffles Institution, Singapore",
+      "Raffles College, Singapore (1940–1942)",
+      "Fitzwilliam College, Cambridge (Law, 1946–1949, starred First-Class Honours)",
+      "Middle Temple, London (called to the Bar, 1950)",
     ],
+    occupations: [
+      "Lawyer (1950–1959)",
+      "Prime Minister of Singapore (1959–1990)",
+      "Senior Minister (1990–2004)",
+      "Minister Mentor (2004–2011)",
+    ],
+    yearsActive: "1954–2011 (political career)",
+    notableWorks: [
+      "Co-founder, People's Action Party (1954)",
+      "The Singapore Story: Memoirs of Lee Kuan Yew (1998)",
+      "From Third World to First (2000)",
+      "One Man's View of the World (2013)",
+    ],
+    spouses: ["Kwa Geok Choo (m. 1950; d. 2010)"],
+    children: "3 (Lee Hsien Loong, Lee Wei Ling, Lee Hsien Yang)",
+    parents: ["Lee Chin Koon", "Chua Jim Neo"],
+    awards: [
+      "Order of the Companions of Honour (1970)",
+      "Presidential Medal of Freedom (USA, 2009)",
+      "Order of the Rising Sun (Japan, 1967)",
+    ],
+
+    earlyLife:
+      "Lee was born in Singapore on September 16, 1923, into a wealthy English-educated Peranakan family of Hakka Chinese descent. English was his first language. He attended Raffles Institution and was top of his class in the 1940 Senior Cambridge examinations. He had begun studies at Raffles College when the Japanese invasion of Malaya halted everything. The Japanese Occupation of 1942–1945 was the defining trauma of his youth: he narrowly escaped the Sook Ching massacre of ethnic Chinese and watched the British surrender 130,000 troops to a numerically smaller Japanese force. He later wrote that the experience taught him that power, not law, decides who lives and who dies. After the war he sailed to Britain, studied law at Fitzwilliam College, Cambridge, graduated with a starred First-Class Honours, and was called to the bar at the Middle Temple in 1950.",
+
+    career:
+      "Lee co-founded the People's Action Party (PAP) in 1954 and led it to victory in the 1959 election, becoming Prime Minister of Singapore at age 35 — the youngest in the Commonwealth. Singapore merged with Malaysia in 1963 but was expelled on August 9, 1965; Lee broke down in tears on television. He was 42 years old, leading a tiny island of 1.9 million with no natural resources, no army, and uncertain water supply. Over the next three decades he attracted multinationals through low taxes, English-language education, and rule of law; built corruption-free government via the Corrupt Practices Investigation Bureau; created mass homeownership through the Housing & Development Board (HDB) and Central Provident Fund (CPF); and enforced multiracialism and meritocracy. Singapore went from a GDP per capita of $516 in 1965 to over $80,000 today, one of the highest in the world. He stepped down as Prime Minister in 1990 after 31 years and continued as Senior Minister and Minister Mentor.",
+
+    legacy:
+      "Lee's wife Geok Choo, his partner of sixty years, died in 2010. He died on March 23, 2015, at age 91. Over a million Singaporeans lined the funeral route in the rain. He is among the most studied and emulated nation-builders of the twentieth century: Deng Xiaoping sent successive Chinese delegations to Singapore to study his model, and figures from Henry Kissinger to Margaret Thatcher to Bill Clinton sought his counsel. His doctrine of pragmatic, results-tested governance — “Does it work? Let's try it. If it doesn't work, toss it out.” — remains influential in policy circles and in private-sector leadership alike.",
+
     notableQuotes: [
       "We are pragmatists. Does it work? Let's try it, and if it does work, fine. If it doesn't work, toss it out.",
       "I was never a prisoner of any theory. What guided me were reason and reality.",
       "A man who owns his home has a stake in the stability of his country.",
       "If you can't think because you can't chew, try a banana.",
       "Democracy is a means to good governance, not an end in itself.",
+      "I have never been over-concerned or obsessed with opinion polls or popularity polls.",
     ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Lee_Kuan_Yew",
     primarySources: [
-      "The Singapore Story by Lee Kuan Yew",
-      "From Third World to First by Lee Kuan Yew",
-      "One Man's View of the World by Lee Kuan Yew",
+      "The Singapore Story: Memoirs of Lee Kuan Yew (1998)",
+      "From Third World to First by Lee Kuan Yew (2000)",
+      "One Man's View of the World by Lee Kuan Yew (2013)",
     ],
   },
 };

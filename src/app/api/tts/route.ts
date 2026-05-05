@@ -5,11 +5,11 @@ import { NextRequest } from "next/server";
 // Living legends need voice clones from public interviews (TODO)
 // Dead legends use closest-matching preset voices
 const VOICE_MAP: Record<string, string> = {
-  "john-d-rockefeller": "onwK4e9ZLuTAKqWW03F9", // Daniel — deep, authoritative, older male
-  "benjamin-franklin": "N2lVS1w4EtoT3dr4eOWO",   // Callum — warm, wise, British-inflected
-  "elon-musk": "TX3LPaxmHKxFdv7VOQHJ",           // Liam — direct, slightly halting
-  "alexander-the-great": "VR6AewLTigWG4xSOukaG",  // Arnold — commanding, powerful
-  "david-deutsch": "pNInz6obpgDQGcFmaJgB",        // Adam — calm, British, academic
+  "rockefeller": "onwK4e9ZLuTAKqWW03F9", // Daniel — deep, authoritative, older male
+  "franklin": "N2lVS1w4EtoT3dr4eOWO",   // Callum — warm, wise, British-inflected
+  "elon": "TX3LPaxmHKxFdv7VOQHJ",        // Liam — direct, slightly halting
+  "alexander": "VR6AewLTigWG4xSOukaG",   // Arnold — commanding, powerful
+  "deutsch": "pNInz6obpgDQGcFmaJgB",     // Adam — calm, British, academic
   "lee-kuan-yew": "yoZ06aMxZJJ28mfd3POQ",         // Sam — clear, authoritative, clipped
 };
 

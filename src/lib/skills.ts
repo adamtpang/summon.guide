@@ -32,7 +32,7 @@ export const skills: Skill[] = [
   // John D. Rockefeller — Titan by Ron Chernow
   {
     slug: "rockefeller-ledger",
-    figureSlug: "john-d-rockefeller",
+    figureSlug: "rockefeller",
     title: "Ledger A Discipline",
     tagline:
       "Track every penny. Find your drop of solder. Tithe before anything else.",
@@ -44,7 +44,7 @@ export const skills: Skill[] = [
   },
   {
     slug: "rockefeller-crisis",
-    figureSlug: "john-d-rockefeller",
+    figureSlug: "rockefeller",
     title: "Crisis as Opportunity",
     tagline:
       "Buy when blood runs in the streets. Pre-commit your buy list. Move generously, execute ruthlessly.",
@@ -58,7 +58,7 @@ export const skills: Skill[] = [
   // Benjamin Franklin — Autobiography + Isaacson
   {
     slug: "franklin-thirteen-virtues",
-    figureSlug: "benjamin-franklin",
+    figureSlug: "franklin",
     title: "13 Virtues System",
     tagline:
       "One virtue per week, on rotation. Mark every failure. Run 4 cycles a year.",
@@ -70,7 +70,7 @@ export const skills: Skill[] = [
   },
   {
     slug: "franklin-junto",
-    figureSlug: "benjamin-franklin",
+    figureSlug: "franklin",
     title: "Build a Junto",
     tagline:
       "12 people, Friday evenings, fixed agenda, one tangible artifact. Compounds for life.",
@@ -85,7 +85,7 @@ export const skills: Skill[] = [
   // Elon Musk — Isaacson + The Anthology of Elon (Eric Jorgenson, et al.)
   {
     slug: "musk-first-principles",
-    figureSlug: "elon-musk",
+    figureSlug: "elon",
     title: "First-Principles Reasoning",
     tagline:
       "Decompose to physics, materials, and hours. Compute the irreducible floor. Attack the process around the constraint.",
@@ -97,7 +97,7 @@ export const skills: Skill[] = [
   },
   {
     slug: "musk-five-step-algorithm",
-    figureSlug: "elon-musk",
+    figureSlug: "elon",
     title: "Five-Step Algorithm",
     tagline:
       "Question, delete, simplify, accelerate, automate — in that order. The order is the algorithm.",
@@ -109,7 +109,7 @@ export const skills: Skill[] = [
   },
   {
     slug: "musk-idiot-index",
-    figureSlug: "elon-musk",
+    figureSlug: "elon",
     title: "The Idiot Index",
     tagline:
       "Finished cost / raw material cost. Above 10x means you are paying for inefficiency, not value.",
@@ -123,7 +123,7 @@ export const skills: Skill[] = [
   // Alexander the Great — Plutarch, Arrian, Robin Lane Fox
   {
     slug: "alexander-lead-from-front",
-    figureSlug: "alexander-the-great",
+    figureSlug: "alexander",
     title: "Lead From the Front",
     tagline:
       "Share the privation you ask of your team. Find your helmet-of-water gesture. Be wounded in their direction.",
@@ -136,7 +136,7 @@ export const skills: Skill[] = [
   },
   {
     slug: "alexander-decisive-point",
-    figureSlug: "alexander-the-great",
+    figureSlug: "alexander",
     title: "Concentrate at the Decisive Point",
     tagline:
       "List every front. Identify the one whose win makes the rest moot. Concentrate force. Strike before they react. Refuse the diversion.",
@@ -150,7 +150,7 @@ export const skills: Skill[] = [
   // David Deutsch — The Beginning of Infinity
   {
     slug: "deutsch-good-explanations",
-    figureSlug: "david-deutsch",
+    figureSlug: "deutsch",
     title: "Hard-to-Vary Explanations",
     tagline:
       "A good explanation is hard to vary while still accounting for what it explains. Test every detail by trying to swap it.",
@@ -162,7 +162,7 @@ export const skills: Skill[] = [
   },
   {
     slug: "deutsch-principle-of-optimism",
-    figureSlug: "david-deutsch",
+    figureSlug: "deutsch",
     title: "The Principle of Optimism",
     tagline:
       "All evils are caused by insufficient knowledge. All problems are soluble unless forbidden by physics.",
