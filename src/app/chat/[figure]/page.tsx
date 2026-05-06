@@ -662,22 +662,22 @@ export default function ChatPage({
 
 function getSuggestedQuestions(slug: string): string[] {
   const questions: Record<string, string[]> = {
-    "john-d-rockefeller": [
+    "rockefeller": [
       "How do I make my first dollar?",
       "What did Ledger A teach you?",
       "Turn a crisis into opportunity?",
     ],
-    "elon-musk": [
+    "elon": [
       "How do you think from first principles?",
       "What was 2008 like for you?",
       "How do you compress timelines?",
     ],
-    "benjamin-franklin": [
+    "franklin": [
       "How did you teach yourself to write?",
       "Tell me about the 13 virtues.",
       "How do you reinvent yourself?",
     ],
-    "alexander-the-great": [
+    "alexander": [
       "How do you lead from the front?",
       "What did Aristotle teach you?",
       "How did you conquer Persia?",
@@ -687,7 +687,7 @@ function getSuggestedQuestions(slug: string): string[] {
       "What makes a nation succeed?",
       "How do you fight corruption?",
     ],
-    "david-deutsch": [
+    "deutsch": [
       "What is the beginning of infinity?",
       "How does knowledge grow?",
       "Why are problems soluble?",

@@ -7,11 +7,11 @@ import { useState, useRef, useEffect, useCallback } from "react";
 // Home page uses "home" key
 const MUSIC_MAP: Record<string, string> = {
   home: "/music/home-ambient.mp3",
-  "john-d-rockefeller": "/music/american-industrial.mp3",
-  "benjamin-franklin": "/music/colonial-american.mp3",
-  "elon-musk": "/music/modern-electronic.mp3",
-  "alexander-the-great": "/music/ancient-greek.mp3",
-  "david-deutsch": "/music/modern-electronic.mp3",
+  "rockefeller": "/music/american-industrial.mp3",
+  "franklin": "/music/colonial-american.mp3",
+  "elon": "/music/modern-electronic.mp3",
+  "alexander": "/music/ancient-greek.mp3",
+  "deutsch": "/music/modern-electronic.mp3",
   "lee-kuan-yew": "/music/east-asian.mp3",
 };
 

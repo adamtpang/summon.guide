@@ -1,6 +1,7 @@
 import { figures, getFigure } from "@/lib/figures";
-import { getProfile } from "@/lib/profiles";
+import { getProfile, type Profile } from "@/lib/profiles";
 import { getSkillsForFigure, skillGithubUrl } from "@/lib/skills";
+import CopyableInstall from "@/components/CopyableInstall";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,7 +25,7 @@ export async function generateMetadata({
   }
 
   const ogImageUrl = `https://summon.guide/api/og/${figure.slug}`;
-  const description = `${figure.knownFor}. Read the life of ${figure.name} (${figure.era}) and summon them as your personal mentor.`;
+  const description = `${figure.knownFor}. Read the life of ${figure.name} (${figure.era}) and summon them as your personal mentor — with deeply researched Claude Code skills derived from their primary biographies.`;
 
   return {
     title: `${figure.name} | summon.guide`,
@@ -67,11 +68,34 @@ export default async function FigureProfile({
   );
   const figureSkills = getSkillsForFigure(figure.slug);
 
+  // Pre-build the Wikipedia infobox rows from profile fields
+  const infobox = buildInfoboxRows(profile, figure);
+
+  // Per-guide install commands (single plugin gives every guide's skills,
+  // but we frame the page around THIS guide so users land here, copy, and
+  // get their frameworks alongside the rest).
+  const installCommands = [
+    "/plugin marketplace add adamtpang/summon.guide",
+    "/plugin install summon-guide",
+  ];
+
+  // Sections that show up in the Table of Contents
+  const tocSections = [
+    { id: "early-life", label: "Early life and education" },
+    { id: "career", label: "Career" },
+    profile.legacy ? { id: "legacy", label: "Legacy and death" } : null,
+    figureSkills.length > 0
+      ? { id: "skills", label: "Claude Code skills" }
+      : null,
+    { id: "quotes", label: "Notable quotes" },
+    { id: "references", label: "References" },
+  ].filter((s): s is { id: string; label: string } => s !== null);
+
   return (
     <main className="min-h-screen bg-warm-50 text-ink-950">
       <div className="max-w-5xl mx-auto px-6 pt-8 md:pt-12 pb-20">
         {/* Brand bar */}
-        <header className="flex items-center justify-between mb-10 md:mb-14">
+        <header className="flex items-center justify-between mb-8 md:mb-10">
           <Link
             href="/"
             className="text-warm-400 text-xs tracking-[0.3em] uppercase hover:text-ink-950 transition-colors"
@@ -82,44 +106,45 @@ export default async function FigureProfile({
             href="/"
             className="text-warm-500 text-xs hover:text-ink-950 transition-colors flex items-center gap-1.5"
           >
-            <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg
+              className="w-3 h-3"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
               <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
             All guides
           </Link>
         </header>
 
-        {/* Hero: portrait + identity */}
-        <section className="grid md:grid-cols-[280px_1fr] gap-8 md:gap-12 mb-12 md:mb-16">
-          <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-warm-200 max-w-[280px] mx-auto md:mx-0 w-full">
-            <Image
-              src={figure.portrait}
-              alt={figure.name}
-              fill
-              className="object-cover object-top"
-              sizes="(max-width: 768px) 280px, 280px"
-              priority
-            />
-          </div>
-
-          <div className="flex flex-col justify-center">
-            <p className="text-warm-400 text-xs tracking-[0.25em] uppercase mb-3">
+        {/* Title block + Wikipedia-style infobox */}
+        <article className="grid md:grid-cols-[1fr_320px] gap-8 md:gap-10 mb-10 md:mb-14">
+          <div>
+            <h1 className="text-4xl md:text-6xl font-serif font-medium leading-[1.05] tracking-tight mb-4">
+              {figure.name}
+            </h1>
+            <p className="text-warm-500 text-base md:text-lg leading-relaxed mb-5 max-w-2xl">
+              {profile.occupation}.
+            </p>
+            <p className="text-warm-400 text-xs tracking-[0.2em] uppercase mb-6">
               {figure.era}
               {figure.location ? ` · ${figure.location}` : ""}
             </p>
-            <h1 className="text-4xl md:text-6xl font-serif font-medium leading-[1.05] tracking-tight mb-5">
-              {figure.name}
-            </h1>
-            <p className="text-warm-500 text-base md:text-lg leading-relaxed mb-6 max-w-xl">
-              {profile.occupation}.
-            </p>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3 mb-8">
               <Link
                 href={`/chat/${figure.slug}`}
                 className="inline-flex items-center gap-2 bg-ink-950 text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-ink-800 active:scale-[0.98] transition-all"
               >
                 Summon {figure.name.split(" ")[0]}
-                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <svg
+                  className="w-4 h-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
               </Link>
@@ -130,181 +155,223 @@ export default async function FigureProfile({
                 className="inline-flex items-center gap-2 bg-white border border-warm-200 text-ink-950 rounded-full px-5 py-3 text-sm font-medium hover:border-ink-950 transition-all"
               >
                 Wikipedia
-                <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M7 17L17 7M7 7h10v10" />
-                </svg>
+                <ExternalIcon />
               </a>
             </div>
+
+            {/* Per-guide install — the headline copy-paste block */}
+            <CopyableInstall
+              commands={installCommands}
+              label={`Install ${figure.name.split(" ")[0]}'s frameworks in Claude Code`}
+              footnote={
+                <>
+                  Installs {figureSkills.length} skill
+                  {figureSkills.length === 1 ? "" : "s"} from{" "}
+                  {figure.name.split(" ")[0]}, plus the rest of summon.guide.
+                  Source on{" "}
+                  <a
+                    href="https://github.com/adamtpang/summon.guide/tree/main/skills"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-white"
+                  >
+                    GitHub
+                  </a>
+                  .
+                </>
+              }
+            />
           </div>
-        </section>
 
-        {/* Body: main column + infobox */}
-        <div className="grid md:grid-cols-[1fr_280px] gap-10 md:gap-14">
-          {/* Main column */}
-          <div className="space-y-12 order-2 md:order-1">
-            {/* Bio */}
-            <section>
-              <SectionTitle>Life</SectionTitle>
-              <div className="space-y-5 text-ink-950/85 text-base leading-[1.75]">
-                {profile.bio.map((para, i) => (
-                  <p key={i}>{para}</p>
-                ))}
+          {/* Wikipedia-style infobox */}
+          <aside>
+            <div className="bg-white border border-warm-200 rounded-2xl overflow-hidden md:sticky md:top-6">
+              <div className="relative aspect-[3/4] bg-warm-200">
+                <Image
+                  src={figure.portrait}
+                  alt={figure.name}
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 320px"
+                  priority
+                />
               </div>
-            </section>
-
-            {/* Accomplishments */}
-            <section>
-              <SectionTitle>Notable accomplishments</SectionTitle>
-              <ul className="space-y-3">
-                {figure.accomplishments.map((item, i) => (
-                  <li
-                    key={i}
-                    className="flex gap-3 text-ink-950/85 text-base leading-relaxed"
-                  >
-                    <span
-                      className="flex-shrink-0 mt-2 w-1.5 h-1.5 rounded-full"
-                      style={{ backgroundColor: figure.color }}
-                    />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </section>
-
-            {/* Quotes */}
-            <section>
-              <SectionTitle>Notable quotes</SectionTitle>
-              <div className="space-y-5">
-                {allQuotes.map((quote, i) => (
-                  <blockquote
-                    key={i}
-                    className="border-l-2 pl-5 py-1 text-ink-950/85 text-base md:text-lg font-serif italic leading-relaxed"
-                    style={{ borderColor: figure.color }}
-                  >
-                    &ldquo;{quote}&rdquo;
-                  </blockquote>
-                ))}
-              </div>
-            </section>
-
-            {/* Claude Code skills */}
-            {figureSkills.length > 0 && (
-              <section>
-                <SectionTitle>Claude Code skills</SectionTitle>
-                <p className="text-warm-500 text-sm mb-5 leading-relaxed">
-                  Frameworks from {figure.name.split(" ")[0]}&rsquo;s life,
-                  packaged as Claude Code skills. Install once, then invoke any
-                  of these slash commands when you&rsquo;re working through a
-                  decision they would have something to say about.
+              <div className="p-4 border-b border-warm-200">
+                <p className="text-ink-950 font-serif font-medium text-base text-center leading-snug">
+                  {profile.fullName ?? figure.name}
                 </p>
-                <div className="space-y-3 mb-5">
-                  {figureSkills.map((skill) => (
-                    <a
-                      key={skill.slug}
-                      href={skillGithubUrl(skill.slug)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block bg-white border border-warm-200 rounded-xl p-5 hover:border-ink-950 transition-colors group"
-                    >
-                      <div className="flex items-start justify-between gap-3 mb-2">
-                        <h3 className="text-ink-950 font-medium text-base md:text-lg">
-                          {skill.title}
-                        </h3>
-                        <code
-                          className="text-[11px] font-mono px-2 py-1 rounded-md flex-shrink-0"
-                          style={{
-                            backgroundColor: `${figure.color}1A`,
-                            color: figure.color,
-                          }}
-                        >
-                          {skill.command}
-                        </code>
-                      </div>
-                      <p className="text-warm-500 text-sm leading-relaxed mb-2">
-                        {skill.tagline}
-                      </p>
-                      <p className="text-warm-400 text-xs italic">
-                        From {skill.source}
-                        {skill.sourceAnchor ? `, ${skill.sourceAnchor}` : ""}
-                      </p>
-                    </a>
-                  ))}
-                </div>
-                <details className="bg-ink-950 text-white rounded-xl p-5">
-                  <summary className="cursor-pointer text-sm font-medium flex items-center gap-2 list-none">
-                    <svg
-                      className="w-3 h-3 transition-transform"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    >
-                      <path d="M9 18l6-6-6-6" />
-                    </svg>
-                    Install all of {figure.name.split(" ")[0]}&rsquo;s skills in
-                    Claude Code
-                  </summary>
-                  <pre className="mt-4 text-xs font-mono bg-black/30 rounded-lg p-4 overflow-x-auto leading-relaxed">
-                    <code>{`/plugin marketplace add adamtpang/summon.guide
-/plugin install summon-guide`}</code>
-                  </pre>
-                  <p className="text-white/60 text-xs mt-3 leading-relaxed">
-                    Installs all 13 skills across every guide. Then run any
-                    slash command above. Source on{" "}
-                    <a
-                      href="https://github.com/adamtpang/summon.guide/tree/main/skills"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline hover:text-white"
-                    >
-                      GitHub
-                    </a>
-                    .
+                {figure.knownFor ? (
+                  <p className="text-warm-500 text-xs text-center mt-1.5 leading-snug italic">
+                    {figure.knownFor}
                   </p>
-                </details>
-              </section>
-            )}
-
-            {/* Primary sources */}
-            <section>
-              <SectionTitle>Sources</SectionTitle>
-              <p className="text-warm-500 text-sm mb-3">
-                Their voice on summon.guide is grounded in:
-              </p>
-              <ul className="space-y-2">
-                {profile.primarySources.map((src, i) => (
-                  <li
-                    key={i}
-                    className="text-ink-950/85 text-base font-serif italic"
-                  >
-                    {src}
-                  </li>
-                ))}
-              </ul>
-            </section>
-          </div>
-
-          {/* Infobox sidebar */}
-          <aside className="order-1 md:order-2">
-            <div className="bg-white border border-warm-200 rounded-2xl p-6 md:sticky md:top-8">
-              <p className="text-warm-400 text-[10px] tracking-[0.3em] uppercase mb-4">
-                Quick facts
-              </p>
-              <dl className="space-y-4 text-sm">
-                <InfoRow label="Era" value={figure.era} />
-                {figure.location && (
-                  <InfoRow label="Based in" value={figure.location} />
-                )}
-                {profile.birthplace && (
-                  <InfoRow label="Born in" value={profile.birthplace} />
-                )}
-                <InfoRow label="Known for" value={figure.knownFor} />
-                {figure.stats.map((stat) => (
-                  <InfoRow key={stat.label} label={stat.label} value={stat.value} />
-                ))}
-              </dl>
+                ) : null}
+              </div>
+              <table className="w-full text-[13px]">
+                <tbody>
+                  {infobox.map((row, i) => (
+                    <tr
+                      key={i}
+                      className="border-b border-warm-100 last:border-b-0"
+                    >
+                      <th className="text-left align-top text-warm-500 text-[11px] tracking-wider uppercase font-medium px-4 py-3 w-[42%]">
+                        {row.label}
+                      </th>
+                      <td className="align-top text-ink-950 px-4 py-3 leading-snug">
+                        {row.values.length === 1 ? (
+                          row.values[0]
+                        ) : (
+                          <ul className="space-y-0.5">
+                            {row.values.map((v, j) => (
+                              <li key={j}>{v}</li>
+                            ))}
+                          </ul>
+                        )}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </aside>
+        </article>
+
+        {/* Table of contents — Wikipedia mini-TOC */}
+        <nav
+          aria-label="Contents"
+          className="bg-white border border-warm-200 rounded-xl p-5 mb-10 md:mb-14 max-w-md"
+        >
+          <p className="text-warm-500 text-[11px] tracking-[0.2em] uppercase mb-3">
+            Contents
+          </p>
+          <ol className="space-y-1.5 text-sm">
+            {tocSections.map((s, i) => (
+              <li key={s.id} className="flex gap-2">
+                <span className="text-warm-400 font-mono text-[11px] mt-0.5">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <a
+                  href={`#${s.id}`}
+                  className="text-ink-950 hover:underline underline-offset-2"
+                >
+                  {s.label}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+
+        {/* Body */}
+        <div className="max-w-3xl space-y-12 md:space-y-14">
+          <Section id="early-life" title="Early life and education">
+            <BodyParagraph>{profile.earlyLife}</BodyParagraph>
+          </Section>
+
+          <Section id="career" title="Career">
+            <BodyParagraph>{profile.career}</BodyParagraph>
+          </Section>
+
+          {profile.legacy ? (
+            <Section id="legacy" title="Legacy and death">
+              <BodyParagraph>{profile.legacy}</BodyParagraph>
+            </Section>
+          ) : null}
+
+          {figureSkills.length > 0 ? (
+            <Section id="skills" title="Claude Code skills">
+              <p className="text-ink-950/85 text-base leading-[1.75] mb-6">
+                Frameworks distilled from {figure.name.split(" ")[0]}&rsquo;s
+                life, packaged as Claude Code skills. Each skill is invoked
+                with a slash command and grounded in the primary biographies
+                listed under References.
+              </p>
+              <div className="space-y-3 mb-6">
+                {figureSkills.map((skill) => (
+                  <a
+                    key={skill.slug}
+                    href={skillGithubUrl(skill.slug)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block bg-white border border-warm-200 rounded-xl p-5 hover:border-ink-950 transition-colors"
+                  >
+                    <div className="flex items-start justify-between gap-3 mb-2">
+                      <h3 className="text-ink-950 font-medium text-base md:text-lg">
+                        {skill.title}
+                      </h3>
+                      <code
+                        className="text-[11px] font-mono px-2 py-1 rounded-md flex-shrink-0"
+                        style={{
+                          backgroundColor: `${figure.color}1A`,
+                          color: figure.color,
+                        }}
+                      >
+                        {skill.command}
+                      </code>
+                    </div>
+                    <p className="text-warm-500 text-sm leading-relaxed mb-2">
+                      {skill.tagline}
+                    </p>
+                    <p className="text-warm-400 text-xs italic">
+                      Source: {skill.source}
+                      {skill.sourceAnchor ? ` — ${skill.sourceAnchor}` : ""}
+                    </p>
+                  </a>
+                ))}
+              </div>
+              <CopyableInstall
+                commands={installCommands}
+                variant="soft"
+                label="Install in Claude Code"
+                footnote={
+                  <>
+                    Bring {figure.name.split(" ")[0]}&rsquo;s frameworks into
+                    your terminal. One install registers every guide&rsquo;s
+                    skills.
+                  </>
+                }
+              />
+            </Section>
+          ) : null}
+
+          <Section id="quotes" title="Notable quotes">
+            <div className="space-y-5">
+              {allQuotes.map((quote, i) => (
+                <blockquote
+                  key={i}
+                  className="border-l-2 pl-5 py-1 text-ink-950/85 text-base md:text-lg font-serif italic leading-relaxed"
+                  style={{ borderColor: figure.color }}
+                >
+                  &ldquo;{quote}&rdquo;
+                </blockquote>
+              ))}
+            </div>
+          </Section>
+
+          <Section id="references" title="References">
+            <p className="text-warm-500 text-sm mb-3">
+              Their voice on summon.guide is grounded in:
+            </p>
+            <ul className="space-y-2 mb-6">
+              {profile.primarySources.map((src, i) => (
+                <li
+                  key={i}
+                  className="text-ink-950/85 text-base font-serif italic"
+                >
+                  {src}
+                </li>
+              ))}
+            </ul>
+            <p className="text-warm-500 text-sm">
+              Further reading:{" "}
+              <a
+                href={profile.wikipediaUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ink-950 underline hover:no-underline"
+              >
+                {profile.wikipediaUrl.replace("https://", "")}
+              </a>
+            </p>
+          </Section>
         </div>
 
         {/* Other guides */}
@@ -339,19 +406,6 @@ export default async function FigureProfile({
           </div>
         </section>
 
-        {/* Final CTA */}
-        <section className="mt-16 text-center">
-          <Link
-            href={`/chat/${figure.slug}`}
-            className="inline-flex items-center gap-2 bg-ink-950 text-white rounded-full px-7 py-4 text-base font-medium hover:bg-ink-800 active:scale-[0.98] transition-all"
-          >
-            Summon {figure.name.split(" ")[0]} now
-            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
-          </Link>
-        </section>
-
         <footer className="mt-20 text-warm-400 text-xs text-center">
           Grounded in real biographies and primary sources.
         </footer>
@@ -360,21 +414,120 @@ export default async function FigureProfile({
   );
 }
 
-function SectionTitle({ children }: { children: React.ReactNode }) {
+function Section({
+  id,
+  title,
+  children,
+}: {
+  id: string;
+  title: string;
+  children: React.ReactNode;
+}) {
   return (
-    <h2 className="text-warm-500 text-xs tracking-[0.25em] uppercase mb-5 font-medium">
+    <section id={id} className="scroll-mt-8">
+      <h2 className="font-serif text-2xl md:text-3xl font-medium text-ink-950 mb-5 pb-2 border-b border-warm-200">
+        {title}
+      </h2>
       {children}
-    </h2>
+    </section>
   );
 }
 
-function InfoRow({ label, value }: { label: string; value: string }) {
+function BodyParagraph({ children }: { children: React.ReactNode }) {
   return (
-    <div>
-      <dt className="text-warm-500 text-[11px] tracking-wider uppercase mb-1">
-        {label}
-      </dt>
-      <dd className="text-ink-950 leading-snug">{value}</dd>
-    </div>
+    <p className="text-ink-950/85 text-base md:text-[17px] leading-[1.75]">
+      {children}
+    </p>
   );
+}
+
+function ExternalIcon() {
+  return (
+    <svg
+      className="w-3.5 h-3.5"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
+      <path d="M7 17L17 7M7 7h10v10" />
+    </svg>
+  );
+}
+
+interface FigureLite {
+  era: string;
+  knownFor: string;
+  location: string;
+  stats: { label: string; value: string }[];
+}
+
+function buildInfoboxRows(
+  profile: Profile,
+  figure: FigureLite
+): Array<{ label: string; values: string[] }> {
+  const rows: Array<{ label: string; values: string[] }> = [];
+
+  if (profile.birthDate || profile.birthPlace) {
+    const value =
+      [profile.birthDate, profile.birthPlace].filter(Boolean).join(" · ") ||
+      "Unknown";
+    rows.push({ label: "Born", values: [value] });
+  }
+  if (profile.deathDate || profile.deathPlace) {
+    const value =
+      [profile.deathDate, profile.deathPlace].filter(Boolean).join(" · ") ||
+      "—";
+    rows.push({ label: "Died", values: [value] });
+  }
+  if (profile.nationality) {
+    rows.push({ label: "Nationality", values: [profile.nationality] });
+  }
+  if (profile.education && profile.education.length > 0) {
+    rows.push({ label: "Education", values: profile.education });
+  }
+  if (profile.occupations && profile.occupations.length > 0) {
+    rows.push({ label: "Occupation", values: profile.occupations });
+  }
+  if (profile.yearsActive) {
+    rows.push({ label: "Years active", values: [profile.yearsActive] });
+  }
+  if (profile.notableWorks && profile.notableWorks.length > 0) {
+    rows.push({ label: "Notable works", values: profile.notableWorks });
+  }
+  if (profile.spouses && profile.spouses.length > 0) {
+    rows.push({
+      label: profile.spouses.length === 1 ? "Spouse" : "Spouses",
+      values: profile.spouses,
+    });
+  }
+  if (profile.children) {
+    rows.push({ label: "Children", values: [profile.children] });
+  }
+  if (profile.parents && profile.parents.length > 0) {
+    rows.push({ label: "Parents", values: profile.parents });
+  }
+  if (profile.netWorth) {
+    rows.push({ label: "Peak net worth", values: [profile.netWorth] });
+  }
+  if (profile.awards && profile.awards.length > 0) {
+    rows.push({ label: "Awards", values: profile.awards });
+  }
+
+  // Figure stats fall in last for any guide-specific scoreboard items
+  // not already covered (skip the obvious ones).
+  for (const s of figure.stats) {
+    const lower = s.label.toLowerCase();
+    if (lower.includes("net worth") || lower.includes("born") || lower.includes("died")) {
+      continue;
+    }
+    rows.push({ label: s.label, values: [s.value] });
+  }
+
+  if (rows.length === 0) {
+    rows.push({ label: "Era", values: [figure.era] });
+    rows.push({ label: "Known for", values: [figure.knownFor] });
+  }
+
+  return rows;
 }
