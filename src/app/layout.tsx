@@ -40,13 +40,9 @@ export const metadata: Metadata = {
     "summon guide",
     "chat with history",
   ],
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon.svg", type: "image/svg+xml" },
-    ],
-    apple: "/icon-192.png",
-  },
+  // icon and apple-icon are auto-discovered from src/app/icon.tsx and
+  // src/app/apple-icon.tsx (Next.js convention). favicon.svg in /public
+  // is also auto-served at /favicon.svg as a vector fallback.
   openGraph: {
     title: "summon.guide — Personal Mentorship from History's Greatest Guides",
     description:
