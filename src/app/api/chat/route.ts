@@ -12,10 +12,21 @@ export async function POST(req: NextRequest) {
     return Response.json({ error: "Figure not found" }, { status: 404 });
   }
 
+  // The per-figure system prompt is ~4K tokens (biographical context +
+  // knowledge base + response rules). It is identical across every turn of
+  // a conversation, so we cache it as the prefix and pay full price only on
+  // the first turn. Cache reads bill at ~10% of input price.
+  // See https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching
   const stream = anthropic.messages.stream({
     model: AI_CONFIG.model,
     max_tokens: AI_CONFIG.maxTokens,
-    system: figure.systemPrompt,
+    system: [
+      {
+        type: "text",
+        text: figure.systemPrompt,
+        cache_control: { type: "ephemeral" },
+      },
+    ],
     messages: messages.map((m: { role: string; content: string }) => ({
       role: m.role as "user" | "assistant",
       content: m.content,
@@ -39,10 +50,21 @@ export async function POST(req: NextRequest) {
         controller.enqueue(encoder.encode("data: [DONE]\n\n"));
         controller.close();
       } catch (error) {
-        const message =
-          error instanceof Error ? error.message : "Stream error";
+        // Distinguish auth errors (invalid/missing ANTHROPIC_API_KEY) from
+        // other failures so a runtime config issue surfaces clearly in the UI.
+        let userMessage = "Stream error";
+        if (error instanceof Anthropic.AuthenticationError) {
+          userMessage =
+            "Server is missing a valid Anthropic API key. Please contact the site owner.";
+        } else if (error instanceof Anthropic.RateLimitError) {
+          userMessage = "Rate limited — please try again in a moment.";
+        } else if (error instanceof Anthropic.APIError) {
+          userMessage = `Upstream API error (${error.status}). Please try again.`;
+        } else if (error instanceof Error) {
+          userMessage = error.message;
+        }
         controller.enqueue(
-          encoder.encode(`data: ${JSON.stringify({ error: message })}\n\n`)
+          encoder.encode(`data: ${JSON.stringify({ error: userMessage })}\n\n`)
         );
         controller.close();
       }
