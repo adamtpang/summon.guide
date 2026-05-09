@@ -1,6 +1,7 @@
 import { figures, getFigure } from "@/lib/figures";
 import { getProfile, type Profile } from "@/lib/profiles";
 import { getSkillsForFigure, skillGithubUrl } from "@/lib/skills";
+import { getBooksForFigure, type Book } from "@/lib/books";
 import CopyableInstall from "@/components/CopyableInstall";
 import { notFound } from "next/navigation";
 import Image from "next/image";
@@ -67,6 +68,7 @@ export default async function FigureProfile({
     (q, i, arr) => arr.indexOf(q) === i
   );
   const figureSkills = getSkillsForFigure(figure.slug);
+  const figureBooks = getBooksForFigure(figure.slug);
 
   // Pre-build the Wikipedia infobox rows from profile fields
   const infobox = buildInfoboxRows(profile, figure);
@@ -87,6 +89,7 @@ export default async function FigureProfile({
     figureSkills.length > 0
       ? { id: "skills", label: "Claude Code skills" }
       : null,
+    figureBooks.length > 0 ? { id: "books", label: "Books" } : null,
     { id: "quotes", label: "Notable quotes" },
     { id: "references", label: "References" },
   ].filter((s): s is { id: string; label: string } => s !== null);
@@ -332,6 +335,25 @@ export default async function FigureProfile({
             </Section>
           ) : null}
 
+          {figureBooks.length > 0 ? (
+            <Section id="books" title="Books">
+              <p className="text-ink-950/85 text-base leading-[1.75] mb-6">
+                Each Claude Code skill above is grounded in a specific passage
+                of a specific book. These are the primary sources we drew from
+                for {figure.name.split(" ")[0]}.
+              </p>
+              <div className="space-y-3">
+                {figureBooks.map((book) => (
+                  <BookCard
+                    key={book.slug}
+                    book={book}
+                    accentColor={figure.color}
+                  />
+                ))}
+              </div>
+            </Section>
+          ) : null}
+
           <Section id="quotes" title="Notable quotes">
             <div className="space-y-5">
               {allQuotes.map((quote, i) => (
@@ -452,6 +474,77 @@ function ExternalIcon() {
     >
       <path d="M7 17L17 7M7 7h10v10" />
     </svg>
+  );
+}
+
+function BookCard({ book, accentColor }: { book: Book; accentColor: string }) {
+  // Translate the book's relationship into a tiny human-readable badge.
+  const roleLabel =
+    book.role === "by"
+      ? "By them"
+      : book.role === "compiled"
+      ? "Compiled from their words"
+      : "About them";
+
+  const skillsCount = book.skillSlugs?.length ?? 0;
+  const isPending = book.status === "pending";
+
+  const cardInner = (
+    <>
+      <div className="flex items-start justify-between gap-3 mb-1.5">
+        <h3 className="text-ink-950 font-medium text-base md:text-lg leading-snug">
+          {book.title}
+        </h3>
+        <span
+          className="text-[10px] font-medium uppercase tracking-wider px-2 py-0.5 rounded flex-shrink-0 mt-1"
+          style={{
+            backgroundColor: `${accentColor}1A`,
+            color: accentColor,
+          }}
+        >
+          {roleLabel}
+        </span>
+      </div>
+      <p className="text-warm-500 text-sm mb-2">
+        {book.author} &middot; {book.year}
+      </p>
+      {book.description ? (
+        <p className="text-ink-950/85 text-sm leading-relaxed mb-3">
+          {book.description}
+        </p>
+      ) : null}
+      <div className="flex items-center justify-between gap-3 text-xs">
+        <span className="text-warm-500">
+          {isPending
+            ? "Skills pending — drop the PDF in /sources to ingest"
+            : `${skillsCount} skill${skillsCount === 1 ? "" : "s"} derived`}
+        </span>
+        {book.amazonUrl ? (
+          <span className="text-ink-950 inline-flex items-center gap-1 group-hover:underline">
+            View on Amazon
+            <ExternalIcon />
+          </span>
+        ) : null}
+      </div>
+    </>
+  );
+
+  if (book.amazonUrl) {
+    return (
+      <a
+        href={book.amazonUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block bg-white border border-warm-200 rounded-xl p-5 hover:border-ink-950 transition-colors group"
+      >
+        {cardInner}
+      </a>
+    );
+  }
+  return (
+    <div className="block bg-white border border-warm-200 rounded-xl p-5">
+      {cardInner}
+    </div>
   );
 }
 
