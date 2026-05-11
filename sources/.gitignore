@@ -1,0 +1,12 @@
+# Source PDFs and other primary texts are not committed.
+# They are usually copyrighted and would balloon the repo.
+# Drop them into subdirectories per figure (e.g. sources/elon/the-book-of-elon.pdf)
+# and Claude reads them locally during ingestion sessions.
+*.pdf
+*.epub
+*.mobi
+*.docx
+*.txt
+# Allow this folder's own README and gitignore so the directory is not empty
+!.gitignore
+!README.md

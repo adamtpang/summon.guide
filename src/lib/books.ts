@@ -1,0 +1,252 @@
+// Books are the second axis of summon.guide.
+// A guide is a person we summon. A book is a primary source we drew from.
+// Every skill in src/lib/skills.ts is grounded in one or more books here.
+//
+// Three roles:
+//   "by"        — the figure wrote it themselves (Franklin's Autobiography,
+//                  Lee Kuan Yew's From Third World to First, Deutsch's
+//                  The Beginning of Infinity)
+//   "about"     — biography by another author (Chernow's Titan, Isaacson's
+//                  Elon Musk, Plutarch on Alexander)
+//   "compiled"  — anthology compiled by another author from the figure's
+//                  own writings, interviews, and talks (Jorgenson's
+//                  The Almanack of Naval Ravikant, The Book of Elon)
+//
+// PDFs are not committed to the repo — see /sources/ and /sources/README.md
+// for the ingestion workflow. The `pdfPath` field is for local Claude
+// sessions to find the file; it is never served from the website.
+
+export interface Book {
+  /** stable kebab-case slug, used as the URL fragment if we ever add /books/<slug> */
+  slug: string;
+  title: string;
+  /** author of THIS book (not necessarily the figure — see `role`) */
+  author: string;
+  /** publication year of the edition we ingested */
+  year: number;
+  /** how the book relates to the figure */
+  role: "by" | "about" | "compiled";
+  /** matches a slug in src/lib/figures.ts */
+  figureSlug: string;
+  /** one-paragraph description shown on the profile page */
+  description?: string;
+  /** external link for "buy / read more" */
+  amazonUrl?: string;
+  /** path under /sources/ if we have a PDF locally (gitignored) */
+  pdfPath?: string;
+  /** skill slugs (from src/lib/skills.ts) derived from this book */
+  skillSlugs?: string[];
+  /** ingestion status of this book in our skills pipeline */
+  status: "pending" | "partial" | "complete";
+}
+
+export const books: Book[] = [
+  // Rockefeller
+  {
+    slug: "titan-chernow",
+    title: "Titan: The Life of John D. Rockefeller, Sr.",
+    author: "Ron Chernow",
+    year: 1998,
+    role: "about",
+    figureSlug: "rockefeller",
+    description:
+      "The definitive 800-page biography. The source of every framework we attribute to Rockefeller — Ledger A, the Cleveland Massacre, the dimes, the systematic philanthropy.",
+    amazonUrl: "https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303",
+    skillSlugs: ["rockefeller-ledger", "rockefeller-crisis"],
+    status: "partial",
+  },
+
+  // Franklin
+  {
+    slug: "autobiography-of-benjamin-franklin",
+    title: "The Autobiography of Benjamin Franklin",
+    author: "Benjamin Franklin",
+    year: 1791,
+    role: "by",
+    figureSlug: "franklin",
+    description:
+      "Franklin's own account, begun 1771, published posthumously. The 13 Virtues, the Junto, his approach to self-education and reinvention all come from here.",
+    amazonUrl: "https://www.amazon.com/Autobiography-Benjamin-Franklin/dp/0486290735",
+    skillSlugs: ["franklin-thirteen-virtues"],
+    status: "partial",
+  },
+  {
+    slug: "benjamin-franklin-an-american-life",
+    title: "Benjamin Franklin: An American Life",
+    author: "Walter Isaacson",
+    year: 2003,
+    role: "about",
+    figureSlug: "franklin",
+    description:
+      "Isaacson's biography. Best modern source for Franklin's diplomatic work in France, the Junto's institutional legacy, and his reinventions across seven careers.",
+    amazonUrl: "https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X",
+    skillSlugs: ["franklin-junto"],
+    status: "partial",
+  },
+
+  // Elon
+  {
+    slug: "elon-musk-isaacson",
+    title: "Elon Musk",
+    author: "Walter Isaacson",
+    year: 2023,
+    role: "about",
+    figureSlug: "elon",
+    description:
+      "Isaacson's authorized biography after two years of shadowing Musk. Source for the manufacturing algorithm, the idiot index, and the 2008 crucible.",
+    amazonUrl: "https://www.amazon.com/Elon-Musk-Walter-Isaacson/dp/1982181281",
+    skillSlugs: [
+      "musk-first-principles",
+      "musk-five-step-algorithm",
+      "musk-idiot-index",
+    ],
+    status: "complete",
+  },
+  {
+    slug: "elon-musk-vance",
+    title: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+    author: "Ashlee Vance",
+    year: 2015,
+    role: "about",
+    figureSlug: "elon",
+    description:
+      "The earlier biography. Best on Musk's South African childhood, Zip2, PayPal, and the SpaceX startup years before Falcon 1 reached orbit.",
+    amazonUrl: "https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X",
+    skillSlugs: [],
+    status: "partial",
+  },
+  {
+    slug: "the-book-of-elon",
+    title: "The Book of Elon",
+    author: "Eric Jorgenson",
+    year: 2025,
+    role: "compiled",
+    figureSlug: "elon",
+    description:
+      "Jorgenson's anthology of Musk's own words — interviews, transcripts, talks. Same compiler as The Almanack of Naval Ravikant. Pending ingestion: drop the PDF in sources/elon/the-book-of-elon.pdf and we'll extract a fresh set of skills.",
+    pdfPath: "sources/elon/the-book-of-elon.pdf",
+    skillSlugs: [],
+    status: "pending",
+  },
+
+  // Alexander
+  {
+    slug: "life-of-alexander-plutarch",
+    title: "Life of Alexander",
+    author: "Plutarch",
+    year: 100,
+    role: "about",
+    figureSlug: "alexander",
+    description:
+      "Roman-era biography written ~AD 100. Source for the taming of Bucephalus, the helmet of water in the Gedrosian Desert, and Alexander's character.",
+    skillSlugs: ["alexander-lead-from-front"],
+    status: "partial",
+  },
+  {
+    slug: "campaigns-of-alexander-arrian",
+    title: "The Campaigns of Alexander (Anabasis Alexandri)",
+    author: "Arrian",
+    year: 145,
+    role: "about",
+    figureSlug: "alexander",
+    description:
+      "The most reliable ancient military account, drawing on Ptolemy I's lost memoirs. Source for Granicus, Issus, Gaugamela, and the siege of Tyre.",
+    skillSlugs: ["alexander-decisive-point"],
+    status: "partial",
+  },
+  {
+    slug: "alexander-the-great-fox",
+    title: "Alexander the Great",
+    author: "Robin Lane Fox",
+    year: 1973,
+    role: "about",
+    figureSlug: "alexander",
+    description:
+      "Modern scholarly biography. Best for synthesizing the ancient sources and assessing strategy, leadership, and the campaign's geography.",
+    amazonUrl: "https://www.amazon.com/Alexander-Great-Robin-Lane-Fox/dp/0140088784",
+    skillSlugs: [],
+    status: "partial",
+  },
+
+  // Deutsch
+  {
+    slug: "the-beginning-of-infinity",
+    title: "The Beginning of Infinity",
+    author: "David Deutsch",
+    year: 2011,
+    role: "by",
+    figureSlug: "deutsch",
+    description:
+      "Deutsch's argument that good explanations — ones that are hard to vary while still accounting for what they explain — are the engine of unbounded human progress.",
+    amazonUrl: "https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359",
+    skillSlugs: [
+      "deutsch-good-explanations",
+      "deutsch-principle-of-optimism",
+    ],
+    status: "complete",
+  },
+  {
+    slug: "the-fabric-of-reality",
+    title: "The Fabric of Reality",
+    author: "David Deutsch",
+    year: 1997,
+    role: "by",
+    figureSlug: "deutsch",
+    description:
+      "Deutsch's first book. Argues that quantum physics, epistemology, evolution, and computation are deeply intertwined strands of a single theory of reality.",
+    amazonUrl: "https://www.amazon.com/Fabric-Reality-Parallel-Universes-Implications/dp/014027541X",
+    skillSlugs: [],
+    status: "partial",
+  },
+
+  // Lee Kuan Yew
+  {
+    slug: "the-singapore-story",
+    title: "The Singapore Story: Memoirs of Lee Kuan Yew",
+    author: "Lee Kuan Yew",
+    year: 1998,
+    role: "by",
+    figureSlug: "lee-kuan-yew",
+    description:
+      "Lee's account of Singapore's founding through 1965 — the British colonial years, the Japanese Occupation, merger with Malaysia, and the traumatic separation.",
+    amazonUrl: "https://www.amazon.com/Singapore-Story-Memoirs-Lee-Kuan/dp/0130208035",
+    skillSlugs: [],
+    status: "partial",
+  },
+  {
+    slug: "from-third-world-to-first",
+    title: "From Third World to First: The Singapore Story 1965–2000",
+    author: "Lee Kuan Yew",
+    year: 2000,
+    role: "by",
+    figureSlug: "lee-kuan-yew",
+    description:
+      "The sequel covering 1965 onward. Source for the HDB housing program, the Corrupt Practices Investigation Bureau, and the pragmatist doctrine.",
+    amazonUrl: "https://www.amazon.com/Third-World-First-Singapore-1965-2000/dp/0060957514",
+    skillSlugs: ["lky-pragmatist-test", "lky-incorruptibility"],
+    status: "partial",
+  },
+  {
+    slug: "one-mans-view-of-the-world",
+    title: "One Man's View of the World",
+    author: "Lee Kuan Yew",
+    year: 2013,
+    role: "by",
+    figureSlug: "lee-kuan-yew",
+    description:
+      "Lee's late-life assessment of geopolitics and Singapore's place in it — the U.S., China, Japan, Europe, Southeast Asia, and small-state survival.",
+    amazonUrl: "https://www.amazon.com/One-Mans-View-World/dp/9814342564",
+    skillSlugs: [],
+    status: "partial",
+  },
+];
+
+/** All books for a single figure. */
+export function getBooksForFigure(figureSlug: string): Book[] {
+  return books.filter((b) => b.figureSlug === figureSlug);
+}
+
+/** A single book by slug. */
+export function getBook(slug: string): Book | undefined {
+  return books.find((b) => b.slug === slug);
+}
