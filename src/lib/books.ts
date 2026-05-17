@@ -239,6 +239,26 @@ export const books: Book[] = [
     skillSlugs: [],
     status: "partial",
   },
+
+  // Marcus Aurelius
+  {
+    slug: "meditations",
+    title: "Meditations",
+    author: "Marcus Aurelius",
+    year: 180,
+    role: "by",
+    figureSlug: "marcus-aurelius",
+    description:
+      "Twelve books of private notes written in Greek on the northern frontier, never meant for publication. The most enduring practical-philosophy text ever written: the dichotomy of control, the view from above, memento mori, and the obstacle becoming the way. Public domain.",
+    amazonUrl:
+      "https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255",
+    skillSlugs: [
+      "marcus-dichotomy-of-control",
+      "marcus-view-from-above",
+      "marcus-memento-mori",
+    ],
+    status: "complete",
+  },
 ];
 
 /** All books for a single figure. */

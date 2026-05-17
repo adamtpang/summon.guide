@@ -11,6 +11,7 @@ const VOICE_MAP: Record<string, string> = {
   "alexander": "VR6AewLTigWG4xSOukaG",   // Arnold — commanding, powerful
   "deutsch": "pNInz6obpgDQGcFmaJgB",     // Adam — calm, British, academic
   "lee-kuan-yew": "yoZ06aMxZJJ28mfd3POQ",         // Sam — clear, authoritative, clipped
+  "marcus-aurelius": "pqHfZKP75CvOlQylNhV4", // Bill — measured, grave, contemplative
 };
 
 const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Fallback to Daniel

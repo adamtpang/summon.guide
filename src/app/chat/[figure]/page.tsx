@@ -692,6 +692,11 @@ function getSuggestedQuestions(slug: string): string[] {
       "How does knowledge grow?",
       "Why are problems soluble?",
     ],
+    "marcus-aurelius": [
+      "How do I stop being controlled by what I can't control?",
+      "How do you stay calm under impossible pressure?",
+      "What would you tell yourself each morning?",
+    ],
   };
   return questions[slug] || ["What was your most important decision?", "What advice for a young person?"];
 }

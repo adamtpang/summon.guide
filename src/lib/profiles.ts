@@ -407,6 +407,59 @@ export const profiles: Record<string, Profile> = {
       "One Man's View of the World by Lee Kuan Yew (2013)",
     ],
   },
+
+  "marcus-aurelius": {
+    slug: "marcus-aurelius",
+    occupation: "Roman emperor, Stoic philosopher",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+
+    fullName: "Marcus Aurelius Antoninus (born Marcus Annius Verus)",
+    birthDate: "April 26, 121 AD",
+    birthPlace: "Rome, Italia, Roman Empire",
+    deathDate: "March 17, 180 AD (aged 58)",
+    deathPlace: "Vindobona (Vienna) or Sirmium, on the northern frontier",
+    nationality: "Roman",
+    education: [
+      "Tutored privately in Rome (rhetoric under Fronto)",
+      "Converted to philosophy by Junius Rusticus, who gave him Epictetus' Discourses",
+    ],
+    occupations: [
+      "Roman Emperor (161–180 AD)",
+      "Stoic philosopher",
+      "Military commander",
+    ],
+    yearsActive: "161–180 AD (reign)",
+    notableWorks: [
+      "Meditations (Ta eis heauton, “To Himself”), 12 books",
+      "Held the empire through the Antonine Plague",
+      "Led the Marcomannic Wars on the Danube frontier",
+    ],
+    spouses: ["Faustina the Younger (m. 145 AD; d. 175 AD)"],
+    children: "13 (including Commodus, his successor)",
+    parents: ["Marcus Annius Verus (father)", "Domitia Lucilla (mother)"],
+
+    earlyLife:
+      "Marcus was born in Rome on April 26, 121 AD, into a prominent senatorial family, originally named Marcus Annius Verus. The emperor Hadrian noticed him as a serious, honest boy and set in motion the succession that would eventually bring him to the throne, arranging his adoption into the family of Antoninus Pius. He was given the finest education in Rome — rhetoric under the famous orator Fronto — but the decisive influence was philosophy. His tutor Junius Rusticus put into his hands the Discourses of Epictetus, a former slave whose Stoicism became the foundation of Marcus's thought. He reportedly wore the rough cloak of a philosopher and slept on the ground as a young man, to the alarm of his mother.",
+
+    career:
+      "Marcus became emperor in 161 AD on the death of Antoninus Pius, and immediately did something unusual: he insisted on ruling jointly with his adoptive brother, Lucius Verus, until Verus died in 169. His reign was defined by crisis rather than triumph. The Antonine Plague — likely smallpox, brought back by returning legions — killed an estimated five million people across the empire. The Marcomannic Wars kept him for years on the cold Danube frontier, personally directing campaigns against the Germanic Quadi and Marcomanni. It was there, in military camp, writing in Greek and for no audience but himself, that he composed the twelve books we call the Meditations — private reminders on how to keep a just and undisturbed mind while carrying the heaviest responsibility in the world.",
+
+    legacy:
+      "Marcus died on March 17, 180 AD, aged 58, still on campaign. He is counted the last of the “Five Good Emperors,” and his death is often marked as the end of the Pax Romana. His one clear failure was his succession: he was followed by his son Commodus, whose unstable, tyrannical reign broke the long tradition of adoptive emperors and is conventionally treated as the beginning of Rome's decline. But the Meditations, never intended for publication, survived — and became the most widely read and practically applied work of philosophy ever written, the operating manual for anyone trying to stay sane, ethical, and undefeated under pressure.",
+
+    notableQuotes: [
+      "You have power over your mind — not outside events. Realize this, and you will find strength.",
+      "The impediment to action advances action. What stands in the way becomes the way.",
+      "Waste no more time arguing what a good man should be. Be one.",
+      "If it is not right, do not do it; if it is not true, do not say it.",
+      "Never let the future disturb you. You will meet it, if you have to, with the same weapons of reason which today arm you against the present.",
+      "The best revenge is to be unlike him who performed the injury.",
+    ],
+    primarySources: [
+      "Meditations by Marcus Aurelius (c. 170–180 AD; Gregory Hays translation, 2002)",
+      "The Inner Citadel: The Meditations of Marcus Aurelius by Pierre Hadot (1998)",
+    ],
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

@@ -19,6 +19,10 @@ export default function Home() {
 function HomeContent() {
   const [query, setQuery] = useState("");
   const [matching, setMatching] = useState(false);
+  const [notFound, setNotFound] = useState<{
+    person: string;
+    reason: string;
+  } | null>(null);
   const [showPurchaseSuccess, setShowPurchaseSuccess] = useState(false);
   const [playingSlug, setPlayingSlug] = useState<string | null>(null);
   const [loadingSlug, setLoadingSlug] = useState<string | null>(null);
@@ -91,6 +95,7 @@ function HomeContent() {
     if (!query.trim() || matching) return;
 
     setMatching(true);
+    setNotFound(null);
     try {
       const res = await fetch("/api/match", {
         method: "POST",
@@ -98,6 +103,15 @@ function HomeContent() {
         body: JSON.stringify({ message: query.trim() }),
       });
       const data = await res.json();
+
+      if (data.type === "not_found" && data.person) {
+        // The user asked for a specific person who isn't a guide yet.
+        // Don't mis-route them to someone else — surface it honestly.
+        setNotFound({ person: data.person, reason: data.reason || "" });
+        setMatching(false);
+        return;
+      }
+
       router.push(
         `/chat/${data.slug}?reason=${encodeURIComponent(data.reason)}&q=${encodeURIComponent(query.trim())}`
       );
@@ -177,6 +191,45 @@ function HomeContent() {
             </button>
           </div>
         </form>
+
+        {/* Not-yet-summoned: the user named someone not on the platform */}
+        {notFound && (
+          <div className="mb-8 md:mb-12 -mt-4 md:-mt-8">
+            <div className="bg-white border border-warm-200 rounded-2xl p-5 md:p-6">
+              <p className="text-warm-400 text-[11px] tracking-[0.2em] uppercase mb-2">
+                Not summoned yet
+              </p>
+              <p className="text-ink-950 text-base md:text-lg font-serif font-medium leading-snug mb-2">
+                {notFound.person} isn&rsquo;t on summon.guide yet.
+              </p>
+              <p className="text-warm-500 text-sm leading-relaxed mb-4">
+                {notFound.reason ||
+                  `We only summon guides we can ground in a real primary source — a book by or about them. ${notFound.person} is on the onboarding list.`}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <a
+                  href={`mailto:adamtpang@gmail.com?subject=${encodeURIComponent(
+                    `Summon request: ${notFound.person}`
+                  )}&body=${encodeURIComponent(
+                    `Please add ${notFound.person} to summon.guide.`
+                  )}`}
+                  className="inline-flex items-center gap-2 bg-ink-950 text-white rounded-full px-5 py-2.5 text-sm font-medium hover:bg-ink-800 transition-colors"
+                >
+                  Request {notFound.person.split(" ")[0]}
+                </a>
+                <button
+                  onClick={() => {
+                    setNotFound(null);
+                    setQuery("");
+                  }}
+                  className="inline-flex items-center gap-2 bg-white border border-warm-200 text-ink-950 rounded-full px-5 py-2.5 text-sm font-medium hover:border-ink-950 transition-colors"
+                >
+                  Choose an existing guide
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* How it works */}
         <section className="mb-10 md:mb-14">
