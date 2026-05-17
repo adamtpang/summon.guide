@@ -12,6 +12,19 @@ const SLUG_REDIRECTS: Array<[string, string]> = [
 
 const nextConfig: NextConfig = {
   reactCompiler: true,
+  images: {
+    // Newly onboarded guides use public-domain Wikimedia portraits until a
+    // local /public/portraits/<slug>.jpg is added. This unblocks the guide
+    // onboarding pipeline (see GUIDE_ONBOARDING.md) without a manual
+    // image-download step per figure.
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+        pathname: "/wikipedia/commons/**",
+      },
+    ],
+  },
   async redirects() {
     return SLUG_REDIRECTS.flatMap(([oldSlug, newSlug]) => [
       // Profile page

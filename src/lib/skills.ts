@@ -198,6 +198,44 @@ export const skills: Skill[] = [
     sourceAnchor: "Chapters 13–15 — the Corrupt Practices Investigation Bureau",
     command: "/lky-incorruptibility",
   },
+
+  // Marcus Aurelius — Meditations
+  {
+    slug: "marcus-dichotomy-of-control",
+    figureSlug: "marcus-aurelius",
+    title: "The Dichotomy of Control",
+    tagline:
+      "Split the situation into what's up to you (judgments, intentions, responses) and what isn't (everything else). Withdraw your peace from the second pile.",
+    whenToUse:
+      "Anxiety, resentment, or spiraling about an outcome, another person, the past, or anything you can't directly move.",
+    source: "Meditations by Marcus Aurelius",
+    sourceAnchor: "Book 9.6 and Book 12.26 (the dichotomy, from Epictetus)",
+    command: "/marcus-dichotomy-of-control",
+  },
+  {
+    slug: "marcus-view-from-above",
+    figureSlug: "marcus-aurelius",
+    title: "The View From Above",
+    tagline:
+      "Zoom out to the scale of a life, a species, an age — until the emergency is one dot in a vast ordered thing. The dot still has duties; it loses the right to terror.",
+    whenToUse:
+      "Catastrophizing, status panic, an offense that feels enormous, or a decision distorted by being too close to it.",
+    source: "Meditations by Marcus Aurelius",
+    sourceAnchor: "Book 7.48 and Book 9.30 (the cosmic perspective)",
+    command: "/marcus-view-from-above",
+  },
+  {
+    slug: "marcus-memento-mori",
+    figureSlug: "marcus-aurelius",
+    title: "Memento Mori as a Priority Filter",
+    tagline:
+      "Run the test on what's agitating you: if I might be dead by evening, does this still deserve this much of me? Most grievances don't survive the question. What survives is what matters.",
+    whenToUse:
+      "Procrastination, trivial grievances, over-investing in things that won't matter, or losing the thread of what's important.",
+    source: "Meditations by Marcus Aurelius",
+    sourceAnchor: "Book 2.11 and Book 4.17",
+    command: "/marcus-memento-mori",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */
