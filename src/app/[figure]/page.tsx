@@ -1,6 +1,6 @@
 import { figures, getFigure } from "@/lib/figures";
 import { getProfile, type Profile } from "@/lib/profiles";
-import { getSkillsForFigure, skillGithubUrl } from "@/lib/skills";
+import { getSkillsForFigure, skillGithubUrl, pluginInstallCommands } from "@/lib/skills";
 import { getBooksForFigure, type Book } from "@/lib/books";
 import CopyableInstall from "@/components/CopyableInstall";
 import { notFound } from "next/navigation";
@@ -73,13 +73,10 @@ export default async function FigureProfile({
   // Pre-build the Wikipedia infobox rows from profile fields
   const infobox = buildInfoboxRows(profile, figure);
 
-  // Per-guide install commands (single plugin gives every guide's skills,
-  // but we frame the page around THIS guide so users land here, copy, and
-  // get their frameworks alongside the rest).
-  const installCommands = [
-    "/plugin marketplace add adamtpang/summon.guide",
-    "/plugin install summon-guide",
-  ];
+  // Per-guide install commands — each guide is its own plugin on the
+  // adamtpang/summon.guide marketplace, so users can pick exactly who
+  // to summon into their Claude chats.
+  const installCommands = pluginInstallCommands(figure.slug);
 
   // Sections that show up in the Table of Contents
   const tocSections = [
@@ -291,7 +288,7 @@ export default async function FigureProfile({
                 {figureSkills.map((skill) => (
                   <a
                     key={skill.slug}
-                    href={skillGithubUrl(skill.slug)}
+                    href={skillGithubUrl(skill.figureSlug, skill.slug)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block bg-white border border-warm-200 rounded-xl p-5 hover:border-ink-950 transition-colors"

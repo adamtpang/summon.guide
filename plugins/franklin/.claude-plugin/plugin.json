@@ -1,0 +1,8 @@
+{
+  "name": "franklin",
+  "description": "Channel Benjamin Franklin in any Claude chat. The 13 Virtues system for habit-tracking. The Junto society for structured peer improvement. Grounded in his Autobiography and Walter Isaacson's biography.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/franklin" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

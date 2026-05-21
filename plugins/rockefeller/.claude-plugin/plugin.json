@@ -1,0 +1,8 @@
+{
+  "name": "rockefeller",
+  "description": "Channel John D. Rockefeller in any Claude chat. Ledger A — track every penny, find the drop of solder. Crisis as opportunity — buy when blood runs in the streets. Grounded in Ron Chernow's Titan.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/rockefeller" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

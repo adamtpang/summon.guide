@@ -1,0 +1,17 @@
+{
+  "name": "summon-guide",
+  "owner": {
+    "name": "summon.guide",
+    "email": "adamtpangelinan@gmail.com"
+  },
+  "description": "Install any historical guide's frameworks as Claude Code skills. One plugin per guide — pick exactly who you want to summon into your chats.",
+  "plugins": [
+    { "name": "elon", "source": "./plugins/elon", "description": "Elon Musk — first principles, the five-step manufacturing algorithm, the idiot index. Grounded in Isaacson's biography." },
+    { "name": "franklin", "source": "./plugins/franklin", "description": "Benjamin Franklin — the 13 virtues system, the Junto. Grounded in his Autobiography + Isaacson." },
+    { "name": "rockefeller", "source": "./plugins/rockefeller", "description": "John D. Rockefeller — Ledger A discipline, crisis as opportunity. Grounded in Chernow's Titan." },
+    { "name": "alexander", "source": "./plugins/alexander", "description": "Alexander the Great — lead from the front, concentrate at the decisive point. Grounded in Plutarch and Arrian." },
+    { "name": "deutsch", "source": "./plugins/deutsch", "description": "David Deutsch — good explanations, the principle of optimism. Grounded in The Beginning of Infinity." },
+    { "name": "lee-kuan-yew", "source": "./plugins/lee-kuan-yew", "description": "Lee Kuan Yew — pragmatist test, incorruptibility lock. Grounded in From Third World to First." },
+    { "name": "marcus-aurelius", "source": "./plugins/marcus-aurelius", "description": "Marcus Aurelius — dichotomy of control, view from above, memento mori. Grounded in Meditations." }
+  ]
+}

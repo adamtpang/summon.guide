@@ -1,0 +1,8 @@
+{
+  "name": "alexander",
+  "description": "Channel Alexander the Great in any Claude chat. Lead from the front. Concentrate force at the decisive point and refuse the diversion. Grounded in Plutarch's Life of Alexander and Arrian's Anabasis Alexandri.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/alexander" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

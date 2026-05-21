@@ -1,0 +1,8 @@
+{
+  "name": "deutsch",
+  "description": "Channel David Deutsch in any Claude chat. Test explanations by trying to vary them — good explanations are hard to vary. Apply the Principle of Optimism: all problems are soluble unless forbidden by physics. Grounded in The Beginning of Infinity.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/deutsch" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}
