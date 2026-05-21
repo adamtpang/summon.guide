@@ -1,0 +1,8 @@
+{
+  "name": "elon",
+  "description": "Channel Elon Musk's engineering mindset in any Claude chat. First-principles reasoning, the five-step manufacturing algorithm, the idiot index. Grounded in Walter Isaacson's biography.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/elon" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

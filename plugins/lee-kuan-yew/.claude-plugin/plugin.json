@@ -1,0 +1,8 @@
+{
+  "name": "lee-kuan-yew",
+  "description": "Channel Lee Kuan Yew in any Claude chat. The pragmatist test — strip ideology, ask only 'does it work?' The incorruptibility lock — pay competitively AND prosecute without exception. Grounded in From Third World to First and The Singapore Story.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/lee-kuan-yew" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

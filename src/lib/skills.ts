@@ -1,18 +1,29 @@
 // Index of Claude Code skills derived from each guide's primary biographies.
-// Source of truth for the SKILL.md content lives at /skills/<slug>/SKILL.md
-// in this same repo, distributed as a Claude Code plugin via .claude-plugin/.
+//
+// Skills live in /plugins/<figureSlug>/skills/<skillSlug>/SKILL.md.
+// The repo's /.claude-plugin/marketplace.json exposes one plugin per guide,
+// so users can pick exactly who to summon into their Claude chats:
+//
+//     /plugin marketplace add adamtpang/summon.guide
+//     /plugin install elon              ← gets ONLY Elon's skills
+//     /plugin install marcus-aurelius   ← gets ONLY Marcus's skills
+//
+// After install, slash commands are namespaced: /<plugin>:<skill>.
+// The umbrella skill for each plugin shares the plugin's name —
+// /elon:elon channels Elon's full mindset; /elon:first-principles is
+// the specific framework.
 //
 // To add a new skill:
-//   1. Create /skills/<slug>/SKILL.md with frontmatter (name, description) and body
-//   2. Add an entry below pointing to the same slug, with figureSlug, source book, etc.
-//
-// The website indexes this file to show skills on each guide's profile page
-// and on /skills.
+//   1. Create /plugins/<figureSlug>/skills/<skillSlug>/SKILL.md
+//   2. Add an entry below with the matching slug + figureSlug
+//   3. Cross-link the skill slug in src/lib/books.ts under the source book
+//   4. Add the plugin entry to /.claude-plugin/marketplace.json if the
+//      guide is brand new
 
 export interface Skill {
-  /** matches the folder under /skills/ and the `name:` in SKILL.md frontmatter */
+  /** matches the directory name under /plugins/<figureSlug>/skills/<slug> */
   slug: string;
-  /** which figure (figures.ts slug) this skill belongs to */
+  /** which figure (figures.ts slug) this skill belongs to — also the plugin name */
   figureSlug: string;
   /** human title shown on the website */
   title: string;
@@ -24,14 +35,29 @@ export interface Skill {
   source: string;
   /** chapters or specific anchors within the source */
   sourceAnchor?: string;
-  /** the claudeOps slash command Claude exposes once installed */
+  /** the namespaced slash command Claude exposes once installed */
   command: string;
+  /** marks the per-guide umbrella skill (slug === figureSlug). The umbrella
+   *  channels the full mindset; non-umbrella skills are specific frameworks. */
+  umbrella?: boolean;
 }
 
 export const skills: Skill[] = [
-  // John D. Rockefeller — Titan by Ron Chernow
+  // ───── Rockefeller ─────
   {
-    slug: "rockefeller-ledger",
+    slug: "rockefeller",
+    figureSlug: "rockefeller",
+    title: "Channel Rockefeller",
+    tagline:
+      "Open Ledger A. Find the drop of solder. Tithe before anything else. Move generously, execute ruthlessly.",
+    whenToUse:
+      "Working through money discipline, recurring spend, unit economics, a market panic, or any moment where iron patience beats aggression.",
+    source: "Titan by Ron Chernow",
+    command: "/rockefeller:rockefeller",
+    umbrella: true,
+  },
+  {
+    slug: "ledger",
     figureSlug: "rockefeller",
     title: "Ledger A Discipline",
     tagline:
@@ -40,10 +66,10 @@ export const skills: Skill[] = [
       "Setting up bookkeeping habits, auditing recurring spend, looking for unit-economic waste, or imposing financial discipline on a chaotic operation.",
     source: "Titan by Ron Chernow",
     sourceAnchor: "Chapter 3 (Ledger A) and Chapter 25 (the dimes and daily habits)",
-    command: "/rockefeller-ledger",
+    command: "/rockefeller:ledger",
   },
   {
-    slug: "rockefeller-crisis",
+    slug: "crisis",
     figureSlug: "rockefeller",
     title: "Crisis as Opportunity",
     tagline:
@@ -52,12 +78,24 @@ export const skills: Skill[] = [
       "A market panic, downturn, layoff wave, or competitor collapse — and you have cash, conviction, or both.",
     source: "Titan by Ron Chernow",
     sourceAnchor: "Chapter 12 (Panic of 1873) and Chapter 6 (Cleveland Massacre)",
-    command: "/rockefeller-crisis",
+    command: "/rockefeller:crisis",
   },
 
-  // Benjamin Franklin — Autobiography + Isaacson
+  // ───── Franklin ─────
   {
-    slug: "franklin-thirteen-virtues",
+    slug: "franklin",
+    figureSlug: "franklin",
+    title: "Channel Franklin",
+    tagline:
+      "Track behavior, not intent. Build structures, not just resolutions. Persuade through charm. Make the project useful.",
+    whenToUse:
+      "Self-improvement, building a habit-tracking system, starting a mastermind, drafting a public letter, or any decision where persuasion beats force.",
+    source: "The Autobiography of Benjamin Franklin",
+    command: "/franklin:franklin",
+    umbrella: true,
+  },
+  {
+    slug: "thirteen-virtues",
     figureSlug: "franklin",
     title: "13 Virtues System",
     tagline:
@@ -66,10 +104,10 @@ export const skills: Skill[] = [
       "Building self-discipline, fixing a recurring personal flaw, designing a habit tracker, or operationalizing 'becoming a better person.'",
     source: "The Autobiography of Benjamin Franklin",
     sourceAnchor: "Part 2 (the bold and arduous project of arriving at moral perfection)",
-    command: "/franklin-thirteen-virtues",
+    command: "/franklin:thirteen-virtues",
   },
   {
-    slug: "franklin-junto",
+    slug: "junto",
     figureSlug: "franklin",
     title: "Build a Junto",
     tagline:
@@ -77,14 +115,25 @@ export const skills: Skill[] = [
     whenToUse:
       "Starting a mastermind, founders circle, weekly dinner, study group, or any structured peer-improvement society.",
     source: "Benjamin Franklin: An American Life by Walter Isaacson",
-    sourceAnchor:
-      "Chapter 5 — Franklin's Junto society, founded 1727",
-    command: "/franklin-junto",
+    sourceAnchor: "Chapter 5 — Franklin's Junto society, founded 1727",
+    command: "/franklin:junto",
   },
 
-  // Elon Musk — Isaacson + The Anthology of Elon (Eric Jorgenson, et al.)
+  // ───── Elon ─────
   {
-    slug: "musk-first-principles",
+    slug: "elon",
+    figureSlug: "elon",
+    title: "Channel Elon",
+    tagline:
+      "Question every requirement. Decompose to first principles. Run the five-step algorithm in order. Apply schedule pressure. The best part is no part.",
+    whenToUse:
+      "Engineering problems, 'this is impossible' claims, long quoted timelines, manufacturing or process bloat, supplier cost audits, or any moment needing bias-to-action under pressure.",
+    source: "Elon Musk by Walter Isaacson",
+    command: "/elon:elon",
+    umbrella: true,
+  },
+  {
+    slug: "first-principles",
     figureSlug: "elon",
     title: "First-Principles Reasoning",
     tagline:
@@ -93,10 +142,10 @@ export const skills: Skill[] = [
       "You are quoted an 'industry standard' cost, told a long timeline, or stuck behind 'this is how it has always been done.'",
     source: "Elon Musk by Walter Isaacson",
     sourceAnchor: "Chapter 2 (the rocket-cost decomposition that founded SpaceX)",
-    command: "/musk-first-principles",
+    command: "/elon:first-principles",
   },
   {
-    slug: "musk-five-step-algorithm",
+    slug: "five-step-algorithm",
     figureSlug: "elon",
     title: "Five-Step Algorithm",
     tagline:
@@ -105,10 +154,10 @@ export const skills: Skill[] = [
       "Simplifying a workflow, killing process bloat, speeding up cycle time, or rebuilding an operation from scratch.",
     source: "Elon Musk by Walter Isaacson",
     sourceAnchor: "Chapter 30 (Musk's manufacturing algorithm, articulated to Tesla and SpaceX teams)",
-    command: "/musk-five-step-algorithm",
+    command: "/elon:five-step-algorithm",
   },
   {
-    slug: "musk-idiot-index",
+    slug: "idiot-index",
     figureSlug: "elon",
     title: "The Idiot Index",
     tagline:
@@ -117,12 +166,24 @@ export const skills: Skill[] = [
       "Auditing supplier prices, vendor contracts, build-vs-buy decisions, or any 'why does this cost so much' question.",
     source: "Elon Musk by Walter Isaacson",
     sourceAnchor: "Chapter 47 (Musk asks engineers for the idiot index on every part)",
-    command: "/musk-idiot-index",
+    command: "/elon:idiot-index",
   },
 
-  // Alexander the Great — Plutarch, Arrian, Robin Lane Fox
+  // ───── Alexander ─────
   {
-    slug: "alexander-lead-from-front",
+    slug: "alexander",
+    figureSlug: "alexander",
+    title: "Channel Alexander",
+    tagline:
+      "Lead from the front. Concentrate at the decisive point. Strike before they react. Refuse the diversion. Magnanimous in victory, ruthless about the line.",
+    whenToUse:
+      "Leading a team into something hard, deciding where to concentrate scarce resource, facing a competitor with more raw power, or wondering whether to delegate what the team needs to see you personally absorb.",
+    source: "Plutarch's Life of Alexander and Arrian's Anabasis Alexandri",
+    command: "/alexander:alexander",
+    umbrella: true,
+  },
+  {
+    slug: "lead-from-front",
     figureSlug: "alexander",
     title: "Lead From the Front",
     tagline:
@@ -132,10 +193,10 @@ export const skills: Skill[] = [
     source: "Life of Alexander by Plutarch and The Campaigns of Alexander by Arrian",
     sourceAnchor:
       "Plutarch on the Gedrosian Desert; Arrian on Alexander leading the cavalry charge at Granicus",
-    command: "/alexander-lead-from-front",
+    command: "/alexander:lead-from-front",
   },
   {
-    slug: "alexander-decisive-point",
+    slug: "decisive-point",
     figureSlug: "alexander",
     title: "Concentrate at the Decisive Point",
     tagline:
@@ -144,12 +205,24 @@ export const skills: Skill[] = [
       "You are spread across too many fronts, facing a competitor with more raw power, or struggling to focus.",
     source: "The Campaigns of Alexander by Arrian",
     sourceAnchor: "The Battle of Gaugamela, 331 BC",
-    command: "/alexander-decisive-point",
+    command: "/alexander:decisive-point",
   },
 
-  // David Deutsch — The Beginning of Infinity
+  // ───── Deutsch ─────
   {
-    slug: "deutsch-good-explanations",
+    slug: "deutsch",
+    figureSlug: "deutsch",
+    title: "Channel Deutsch",
+    tagline:
+      "Examine the question's hidden assumptions. Test explanations by trying to vary them. Reject 'just so' stories. Apply the Principle of Optimism.",
+    whenToUse:
+      "Evaluating a theory, debating an interpretation, detecting bullshit, or paralyzed by the claim that something is just the way things are.",
+    source: "The Beginning of Infinity by David Deutsch",
+    command: "/deutsch:deutsch",
+    umbrella: true,
+  },
+  {
+    slug: "good-explanations",
     figureSlug: "deutsch",
     title: "Hard-to-Vary Explanations",
     tagline:
@@ -158,10 +231,10 @@ export const skills: Skill[] = [
       "Evaluating a theory, debating an interpretation, choosing between competing hypotheses, or detecting bullshit.",
     source: "The Beginning of Infinity by David Deutsch",
     sourceAnchor: "Chapter 1 (the seasons example: Persephone vs axial tilt)",
-    command: "/deutsch-good-explanations",
+    command: "/deutsch:good-explanations",
   },
   {
-    slug: "deutsch-principle-of-optimism",
+    slug: "principle-of-optimism",
     figureSlug: "deutsch",
     title: "The Principle of Optimism",
     tagline:
@@ -170,12 +243,24 @@ export const skills: Skill[] = [
       "Paralysis from 'this is just how it is,' a problem someone declared impossible, or a moment of strategic pessimism.",
     source: "The Beginning of Infinity by David Deutsch",
     sourceAnchor: "Chapter 9 (Optimism)",
-    command: "/deutsch-principle-of-optimism",
+    command: "/deutsch:principle-of-optimism",
   },
 
-  // Lee Kuan Yew — From Third World to First, The Singapore Story
+  // ───── Lee Kuan Yew ─────
   {
-    slug: "lky-pragmatist-test",
+    slug: "lee-kuan-yew",
+    figureSlug: "lee-kuan-yew",
+    title: "Channel Lee Kuan Yew",
+    tagline:
+      "Strip ideology. Run small reversible experiments. Steal what works. Pay competitively AND prosecute without exception. Think in decades.",
+    whenToUse:
+      "Making a decision through an ideological lens, designing incentives, hiring senior leadership, or fixing a culture where rules get bent quietly.",
+    source: "From Third World to First by Lee Kuan Yew",
+    command: "/lee-kuan-yew:lee-kuan-yew",
+    umbrella: true,
+  },
+  {
+    slug: "pragmatist-test",
     figureSlug: "lee-kuan-yew",
     title: "The Pragmatist Test",
     tagline:
@@ -184,10 +269,10 @@ export const skills: Skill[] = [
       "You are debating a policy or strategy through an ideological lens (left/right, agile/waterfall, B2B/B2C orthodoxy) instead of through results.",
     source: "From Third World to First by Lee Kuan Yew",
     sourceAnchor: "The pragmatist doctrine across his three decades as Prime Minister",
-    command: "/lky-pragmatist-test",
+    command: "/lee-kuan-yew:pragmatist-test",
   },
   {
-    slug: "lky-incorruptibility",
+    slug: "incorruptibility",
     figureSlug: "lee-kuan-yew",
     title: "The Incorruptibility Lock",
     tagline:
@@ -196,12 +281,24 @@ export const skills: Skill[] = [
       "Designing incentives, hiring senior leadership, setting conflict-of-interest policy, or fixing a culture where rules get bent quietly.",
     source: "From Third World to First by Lee Kuan Yew",
     sourceAnchor: "Chapters 13–15 — the Corrupt Practices Investigation Bureau",
-    command: "/lky-incorruptibility",
+    command: "/lee-kuan-yew:incorruptibility",
   },
 
-  // Marcus Aurelius — Meditations
+  // ───── Marcus Aurelius ─────
   {
-    slug: "marcus-dichotomy-of-control",
+    slug: "marcus-aurelius",
+    figureSlug: "marcus-aurelius",
+    title: "Channel Marcus Aurelius",
+    tagline:
+      "Apply the dichotomy of control. Take the view from above. Hold mortality close. The body is not you. Premeditate the friction of the day.",
+    whenToUse:
+      "Anxious, stuck in resentment, wrestling with mortality or vanity, ruminating about what others think, troubled by the body, or asking what to do today.",
+    source: "Meditations by Marcus Aurelius",
+    command: "/marcus-aurelius:marcus-aurelius",
+    umbrella: true,
+  },
+  {
+    slug: "dichotomy-of-control",
     figureSlug: "marcus-aurelius",
     title: "The Dichotomy of Control",
     tagline:
@@ -210,31 +307,31 @@ export const skills: Skill[] = [
       "Anxiety, resentment, or spiraling about an outcome, another person, the past, or anything you can't directly move.",
     source: "Meditations by Marcus Aurelius",
     sourceAnchor: "Book 9.6 and Book 12.26 (the dichotomy, from Epictetus)",
-    command: "/marcus-dichotomy-of-control",
+    command: "/marcus-aurelius:dichotomy-of-control",
   },
   {
-    slug: "marcus-view-from-above",
+    slug: "view-from-above",
     figureSlug: "marcus-aurelius",
     title: "The View From Above",
     tagline:
-      "Zoom out to the scale of a life, a species, an age — until the emergency is one dot in a vast ordered thing. The dot still has duties; it loses the right to terror.",
+      "Zoom out to the scale of a life, a species, an age — until the emergency is one dot in a vast ordered thing.",
     whenToUse:
       "Catastrophizing, status panic, an offense that feels enormous, or a decision distorted by being too close to it.",
     source: "Meditations by Marcus Aurelius",
     sourceAnchor: "Book 7.48 and Book 9.30 (the cosmic perspective)",
-    command: "/marcus-view-from-above",
+    command: "/marcus-aurelius:view-from-above",
   },
   {
-    slug: "marcus-memento-mori",
+    slug: "memento-mori",
     figureSlug: "marcus-aurelius",
     title: "Memento Mori as a Priority Filter",
     tagline:
-      "Run the test on what's agitating you: if I might be dead by evening, does this still deserve this much of me? Most grievances don't survive the question. What survives is what matters.",
+      "If I might be dead by evening, does this still deserve this much of me? Most grievances don't survive the question.",
     whenToUse:
       "Procrastination, trivial grievances, over-investing in things that won't matter, or losing the thread of what's important.",
     source: "Meditations by Marcus Aurelius",
     sourceAnchor: "Book 2.11 and Book 4.17",
-    command: "/marcus-memento-mori",
+    command: "/marcus-aurelius:memento-mori",
   },
 ];
 
@@ -243,12 +340,20 @@ export function getSkillsForFigure(figureSlug: string): Skill[] {
   return skills.filter((s) => s.figureSlug === figureSlug);
 }
 
-/** Get a single skill by its slug. */
-export function getSkill(slug: string): Skill | undefined {
-  return skills.find((s) => s.slug === slug);
+/** Get a single skill by its slug + figureSlug — slugs can now repeat across plugins. */
+export function getSkill(figureSlug: string, slug: string): Skill | undefined {
+  return skills.find((s) => s.figureSlug === figureSlug && s.slug === slug);
 }
 
 /** Public GitHub URL where Claude Code resolves the plugin's SKILL.md. */
-export function skillGithubUrl(slug: string): string {
-  return `https://github.com/adamtpang/summon.guide/blob/main/skills/${slug}/SKILL.md`;
+export function skillGithubUrl(figureSlug: string, slug: string): string {
+  return `https://github.com/adamtpang/summon.guide/blob/main/plugins/${figureSlug}/skills/${slug}/SKILL.md`;
+}
+
+/** Plugin install command for a guide. */
+export function pluginInstallCommands(figureSlug: string): string[] {
+  return [
+    "/plugin marketplace add adamtpang/summon.guide",
+    `/plugin install ${figureSlug}`,
+  ];
 }

@@ -76,15 +76,21 @@ export default function SkillsIndex() {
 
           {/* Install block */}
           <div className="bg-ink-950 text-white rounded-2xl p-6">
-            <p className="text-white/70 text-sm mb-3">Install in Claude Code:</p>
+            <p className="text-white/70 text-sm mb-3">
+              One marketplace, one plugin per guide. Install only who you want.
+            </p>
             <pre className="text-sm font-mono bg-black/30 rounded-lg p-4 overflow-x-auto leading-relaxed">
               <code>{`/plugin marketplace add adamtpang/summon.guide
-/plugin install summon-guide`}</code>
+/plugin install elon              # or franklin, rockefeller, alexander,
+                                  #    deutsch, lee-kuan-yew, marcus-aurelius`}</code>
             </pre>
             <p className="text-white/60 text-xs mt-4 leading-relaxed">
-              All {skills.length} skills register automatically. Source on{" "}
+              After install, invoke <code className="bg-black/40 px-1.5 py-0.5 rounded">/elon:elon</code>{" "}
+              to channel the full mindset, or a specific framework like{" "}
+              <code className="bg-black/40 px-1.5 py-0.5 rounded">/elon:first-principles</code>.{" "}
+              Source on{" "}
               <a
-                href="https://github.com/adamtpang/summon.guide/tree/main/skills"
+                href="https://github.com/adamtpang/summon.guide/tree/main/plugins"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-white"
@@ -99,8 +105,8 @@ export default function SkillsIndex() {
                 className="underline hover:text-white"
               >
                 slavingia/skills
-              </a>
-              , which did this for one book — we did it for many.
+              </a>{" "}
+              — Sahil did this for one book; we do it for one guide at a time.
             </p>
           </div>
         </section>
@@ -139,7 +145,7 @@ export default function SkillsIndex() {
               {figureSkills.map((skill) => (
                 <a
                   key={skill.slug}
-                  href={skillGithubUrl(skill.slug)}
+                  href={skillGithubUrl(skill.figureSlug, skill.slug)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block bg-white border border-warm-200 rounded-xl p-5 hover:border-ink-950 transition-colors"

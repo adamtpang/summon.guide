@@ -1,0 +1,8 @@
+{
+  "name": "marcus-aurelius",
+  "description": "Channel Marcus Aurelius in any Claude chat. Dichotomy of control — separate what is up to you from what isn't. View from above — zoom out to right-size anxieties. Memento mori — let mortality determine what you do today. Grounded in Meditations.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/marcus-aurelius" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

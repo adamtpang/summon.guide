@@ -52,7 +52,7 @@ export const books: Book[] = [
     description:
       "The definitive 800-page biography. The source of every framework we attribute to Rockefeller — Ledger A, the Cleveland Massacre, the dimes, the systematic philanthropy.",
     amazonUrl: "https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303",
-    skillSlugs: ["rockefeller-ledger", "rockefeller-crisis"],
+    skillSlugs: ["ledger", "crisis"],
     status: "partial",
   },
 
@@ -67,7 +67,7 @@ export const books: Book[] = [
     description:
       "Franklin's own account, begun 1771, published posthumously. The 13 Virtues, the Junto, his approach to self-education and reinvention all come from here.",
     amazonUrl: "https://www.amazon.com/Autobiography-Benjamin-Franklin/dp/0486290735",
-    skillSlugs: ["franklin-thirteen-virtues"],
+    skillSlugs: ["thirteen-virtues"],
     status: "partial",
   },
   {
@@ -80,7 +80,7 @@ export const books: Book[] = [
     description:
       "Isaacson's biography. Best modern source for Franklin's diplomatic work in France, the Junto's institutional legacy, and his reinventions across seven careers.",
     amazonUrl: "https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X",
-    skillSlugs: ["franklin-junto"],
+    skillSlugs: ["junto"],
     status: "partial",
   },
 
@@ -95,11 +95,7 @@ export const books: Book[] = [
     description:
       "Isaacson's authorized biography after two years of shadowing Musk. Source for the manufacturing algorithm, the idiot index, and the 2008 crucible.",
     amazonUrl: "https://www.amazon.com/Elon-Musk-Walter-Isaacson/dp/1982181281",
-    skillSlugs: [
-      "musk-first-principles",
-      "musk-five-step-algorithm",
-      "musk-idiot-index",
-    ],
+    skillSlugs: ["first-principles", "five-step-algorithm", "idiot-index"],
     status: "complete",
   },
   {
@@ -139,7 +135,7 @@ export const books: Book[] = [
     figureSlug: "alexander",
     description:
       "Roman-era biography written ~AD 100. Source for the taming of Bucephalus, the helmet of water in the Gedrosian Desert, and Alexander's character.",
-    skillSlugs: ["alexander-lead-from-front"],
+    skillSlugs: ["lead-from-front"],
     status: "partial",
   },
   {
@@ -151,7 +147,7 @@ export const books: Book[] = [
     figureSlug: "alexander",
     description:
       "The most reliable ancient military account, drawing on Ptolemy I's lost memoirs. Source for Granicus, Issus, Gaugamela, and the siege of Tyre.",
-    skillSlugs: ["alexander-decisive-point"],
+    skillSlugs: ["decisive-point"],
     status: "partial",
   },
   {
@@ -179,10 +175,7 @@ export const books: Book[] = [
     description:
       "Deutsch's argument that good explanations — ones that are hard to vary while still accounting for what they explain — are the engine of unbounded human progress.",
     amazonUrl: "https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359",
-    skillSlugs: [
-      "deutsch-good-explanations",
-      "deutsch-principle-of-optimism",
-    ],
+    skillSlugs: ["good-explanations", "principle-of-optimism"],
     status: "complete",
   },
   {
@@ -223,7 +216,7 @@ export const books: Book[] = [
     description:
       "The sequel covering 1965 onward. Source for the HDB housing program, the Corrupt Practices Investigation Bureau, and the pragmatist doctrine.",
     amazonUrl: "https://www.amazon.com/Third-World-First-Singapore-1965-2000/dp/0060957514",
-    skillSlugs: ["lky-pragmatist-test", "lky-incorruptibility"],
+    skillSlugs: ["pragmatist-test", "incorruptibility"],
     status: "partial",
   },
   {
@@ -252,11 +245,7 @@ export const books: Book[] = [
       "Twelve books of private notes written in Greek on the northern frontier, never meant for publication. The most enduring practical-philosophy text ever written: the dichotomy of control, the view from above, memento mori, and the obstacle becoming the way. Public domain.",
     amazonUrl:
       "https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255",
-    skillSlugs: [
-      "marcus-dichotomy-of-control",
-      "marcus-view-from-above",
-      "marcus-memento-mori",
-    ],
+    skillSlugs: ["dichotomy-of-control", "view-from-above", "memento-mori"],
     status: "complete",
   },
 ];
