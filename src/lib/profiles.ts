@@ -460,6 +460,116 @@ export const profiles: Record<string, Profile> = {
       "The Inner Citadel: The Meditations of Marcus Aurelius by Pierre Hadot (1998)",
     ],
   },
+
+  "marc-andreessen": {
+    slug: "marc-andreessen",
+    occupation: "Software engineer, entrepreneur, co-founder of Andreessen Horowitz",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Marc_Andreessen",
+
+    fullName: "Marc Lowell Andreessen",
+    birthDate: "July 9, 1971",
+    birthPlace: "Cedar Falls, Iowa, U.S.",
+    nationality: "American",
+    education: [
+      "New Lisbon High School, Wisconsin",
+      "University of Illinois Urbana-Champaign (B.S. Computer Science, 1993)",
+    ],
+    occupations: [
+      "Software engineer",
+      "Entrepreneur",
+      "Venture capitalist",
+      "Co-founder and General Partner, Andreessen Horowitz",
+      "Board member, Meta Platforms",
+    ],
+    yearsActive: "1992–present",
+    notableWorks: [
+      "Mosaic (co-creator, 1993)",
+      "Netscape Navigator (co-founder, Netscape Communications, 1994)",
+      "Opsware (founder, sold to HP for $1.6B, 2007)",
+      "Andreessen Horowitz / a16z (co-founder, 2009)",
+      "“Why Software Is Eating the World” (essay, WSJ, 2011)",
+      "“It's Time to Build” (essay, 2020)",
+      "“The Techno-Optimist Manifesto” (essay, 2023)",
+    ],
+    spouses: ["Laura Arrillaga-Andreessen (m. 2006)"],
+    children: "1",
+    parents: ["Lowell Andreessen", "Patricia Andreessen"],
+
+    earlyLife:
+      "Marc Andreessen was born July 9, 1971, in Cedar Falls, Iowa, and grew up in New Lisbon, Wisconsin, a town of about a thousand people. He taught himself BASIC on a Radio Shack TRS-80 in elementary school. He enrolled at the University of Illinois at Urbana-Champaign as an undergraduate computer science major, where he worked at the National Center for Supercomputing Applications (NCSA). In 1992–1993, working with Eric Bina, he co-created Mosaic — the first graphical web browser to display images inline with text and to run on common consumer operating systems. Mosaic, more than any other single piece of software, was the moment the World Wide Web became something ordinary people could see and use.",
+
+    career:
+      "In 1994, fresh out of college, Andreessen partnered with Jim Clark, the founder of Silicon Graphics, to start Mosaic Communications Corporation, soon renamed Netscape Communications. Netscape Navigator became the dominant web browser of the mid-1990s. The company's IPO on August 9, 1995 — the stock opened at $28 and closed at $58.25 the same day, valuing Netscape at $2.9 billion despite having only modest revenue — is widely cited as the catalyst of the dot-com era. After the U.S. v. Microsoft antitrust suit and the bundling of Internet Explorer with Windows crushed Netscape's market share, AOL acquired Netscape in 1999 for $4.2 billion. Andreessen co-founded Loudcloud in 1999 (one of the earliest commercial cloud-services companies); after the dot-com bust, the company pivoted into Opsware and sold to Hewlett-Packard in 2007 for $1.6 billion. In 2009, Andreessen and Ben Horowitz founded Andreessen Horowitz (a16z) on the contrarian thesis that technical founders should be supported as CEOs of their own companies rather than replaced by professional managers. a16z grew into one of the largest venture firms in the world, with notable early investments in Facebook, Coinbase, Airbnb, GitHub, Lyft, Instagram, Skype, Slack, and Stripe.",
+
+    legacy:
+      "Andreessen's three signature essays — “Why Software Is Eating the World” (2011), “It's Time to Build” (2020), and “The Techno-Optimist Manifesto” (2023) — have each defined the discourse of their moment. He sits on the board of Meta (since 2008) and has remained one of the most public voices in technology and venture capital, prolific on Twitter / X and on the a16z podcast. He is married to Laura Arrillaga-Andreessen, a Stanford professor and philanthropist; they have one son.",
+
+    notableQuotes: [
+      "Software is eating the world.",
+      "It's time to build.",
+      "Strong opinions, loosely held.",
+      "I'm a relentless optimist about the future.",
+      "The world will be made of bits and atoms. We need a lot more of both.",
+      "Every Western institution was unprepared for the coronavirus pandemic… The problem is desire. We need to want these things.",
+    ],
+    primarySources: [
+      "“Why Software Is Eating the World” by Marc Andreessen (Wall Street Journal, August 20, 2011)",
+      "“It's Time to Build” by Marc Andreessen (a16z.com, April 18, 2020)",
+      "“The Techno-Optimist Manifesto” by Marc Andreessen (a16z.com, October 16, 2023)",
+      "a16z podcast and Marc's Substack essays",
+    ],
+  },
+
+  "adam-neumann": {
+    slug: "adam-neumann",
+    occupation: "Entrepreneur, founder of WeWork and Flow",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Adam_Neumann",
+
+    fullName: "Adam Neumann",
+    birthDate: "April 22, 1979",
+    birthPlace: "Tel Aviv, Israel",
+    nationality: "Israeli–American",
+    education: [
+      "Israeli Defense Forces — Naval officer, 5 years",
+      "Baruch College, City University of New York (attended; did not graduate)",
+    ],
+    occupations: [
+      "Entrepreneur",
+      "Co-founder, GreenDesk (2008)",
+      "Co-founder and former CEO, WeWork / The We Company (2010–2019)",
+      "Founder and CEO, Flow (2022–present)",
+    ],
+    yearsActive: "2006–present",
+    notableWorks: [
+      "GreenDesk (co-founder, 2008)",
+      "WeWork (co-founder, 2010; sold control 2019)",
+      "Flow (founder, 2022)",
+    ],
+    spouses: ["Rebekah Paltrow Neumann (m. 2008)"],
+    children: "6",
+
+    earlyLife:
+      "Adam Neumann was born April 22, 1979, in Tel Aviv, Israel. His parents — both physicians — divorced when he was seven. He spent parts of his childhood in Indianapolis and then on Kibbutz Nir Am in southern Israel, where the communal model of living and shared infrastructure later became part of the WeWork pitch. After high school he served five years as an officer in the Israeli Navy. In 2001 he moved to New York City to live with his sister, the model Adi Neumann, and enrolled at Baruch College's Zicklin School of Business, leaving before completing his degree. His earliest entrepreneurial attempts — collapsible high-heeled shoes, and Egg Baby, a line of baby clothing with built-in knee pads — did not scale.",
+
+    career:
+      "In 2008 Neumann co-founded GreenDesk, an environmentally conscious co-working space in Brooklyn, with the architect Miguel McKelvey. They sold GreenDesk and in 2010 launched WeWork at 154 Grand Street in SoHo. WeWork's pitch was distinctive from day one: it sold workspaces not as real estate but as membership in a community — a curated aesthetic, free beer, member events, and the stated mission of “elevating the world's consciousness.” The model attracted aggressive growth capital. By 2014 WeWork was a unicorn; by 2017 SoftBank's Masayoshi Son committed billions through the Vision Fund. By January 2019 the private valuation reached $47 billion — among the highest in the world for a private company. In August 2019 WeWork filed an S-1 to go public. The S-1 made public for the first time the company's unit economics, governance entanglements, and the non-GAAP metric “Community-Adjusted EBITDA.” Public investors rejected the offering; the IPO was withdrawn; within six weeks of the filing Neumann was ousted as CEO. SoftBank paid him approximately $1.7 billion to exit. WeWork eventually went public via SPAC at a fraction of the peak valuation, and filed for Chapter 11 bankruptcy protection in November 2023.",
+
+    legacy:
+      "In 2022 Neumann founded Flow, a residential real estate company applying community-driven design to apartment living; Andreessen Horowitz led the seed round with $350 million, the largest single check in a16z's history. Neumann's career is widely studied — in business schools, in books such as Reeves Wiedeman's *Billion Dollar Loser* (2020) and Eliot Brown and Maureen Farrell's *The Cult of We* (2021), and in Apple TV+'s *WeCrashed* (2022) — as both an exemplar of narrative-driven valuation building and a cautionary tale about what happens when story outruns unit economics. He is married to Rebekah Paltrow Neumann; the couple has six children and lives primarily in Miami.",
+
+    notableQuotes: [
+      "We are here to elevate the world's consciousness.",
+      "The “We” in WeWork stands for the community we are building together.",
+      "Our mission is to create a world where people work to make a life, not just a living.",
+      "Energy and intention are what set the great founders apart from the good ones.",
+    ],
+    primarySources: [
+      "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork by Reeves Wiedeman (2020)",
+      "The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion by Eliot Brown and Maureen Farrell (2021)",
+      "WeWork S-1 (filed August 14, 2019)",
+      "WeCrashed (Apple TV+ documentary series, 2022)",
+    ],
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {
