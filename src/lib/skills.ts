@@ -333,6 +333,107 @@ export const skills: Skill[] = [
     sourceAnchor: "Book 2.11 and Book 4.17",
     command: "/marcus-aurelius:memento-mori",
   },
+
+  // ───── Marc Andreessen ─────
+  {
+    slug: "marc-andreessen",
+    figureSlug: "marc-andreessen",
+    title: "Channel Marc Andreessen",
+    tagline:
+      "Software is eating the world. It's time to build. Strong opinions, loosely held. Read the wave you're in and push faster.",
+    whenToUse:
+      "Deciding what to build, evaluating a startup or investment thesis, choosing how to think about a regulated incumbent industry, or fighting the pessimism that says technology can't make things better.",
+    source: "Marc's essays at a16z.com (2011–2023)",
+    command: "/marc-andreessen:marc-andreessen",
+    umbrella: true,
+  },
+  {
+    slug: "software-eats-the-world",
+    figureSlug: "marc-andreessen",
+    title: "Software Eats the World",
+    tagline:
+      "Identify the industries where the durable winner will be a software company. The incumbents' advantages are in the wrong currency.",
+    whenToUse:
+      "Picking what to build, evaluating an incumbent industry for disruption, or assessing whether your own company is the new-wave or old-wave entrant in your category.",
+    source:
+      "“Why Software Is Eating the World” by Marc Andreessen (WSJ, August 20, 2011)",
+    command: "/marc-andreessen:software-eats-the-world",
+  },
+  {
+    slug: "its-time-to-build",
+    figureSlug: "marc-andreessen",
+    title: "It's Time to Build",
+    tagline:
+      "Replace “what's wrong” with “what do we build to fix it, and what is stopping the build?” Bias to action against analysis paralysis.",
+    whenToUse:
+      "Stuck in analysis, complaining about a problem, or watching an institution fail to do something obvious. Especially in regulated or “mature” sectors that have stopped shipping.",
+    source: "“It's Time to Build” by Marc Andreessen (a16z.com, April 18, 2020)",
+    command: "/marc-andreessen:its-time-to-build",
+  },
+  {
+    slug: "techno-optimism",
+    figureSlug: "marc-andreessen",
+    title: "Techno-Optimism as an Operating Philosophy",
+    tagline:
+      "Treat capability as the goal. Distrust framings that lower capability under the pretense of safety. Pessimism is fashionable and almost always wrong about technology over a 10-year window.",
+    whenToUse:
+      "When pessimism, doom narratives, or institutional caution are framing a decision that should be evaluated on whether it raises or lowers capability.",
+    source:
+      "“The Techno-Optimist Manifesto” by Marc Andreessen (a16z.com, October 16, 2023)",
+    command: "/marc-andreessen:techno-optimism",
+  },
+
+  // ───── Adam Neumann ─────
+  {
+    slug: "adam-neumann",
+    figureSlug: "adam-neumann",
+    title: "Channel Adam Neumann",
+    tagline:
+      "Mission compresses the round. Tribe before scale. Make the feeling of the product as carefully as the function. Watch unit economics or the story turns on you.",
+    whenToUse:
+      "Building a brand, raising a story-led round, designing a community product, or stress-testing whether your narrative is a moat or a hallucination.",
+    source:
+      "Billion Dollar Loser (Wiedeman) + The Cult of We (Brown & Farrell)",
+    command: "/adam-neumann:adam-neumann",
+    umbrella: true,
+  },
+  {
+    slug: "mission-as-moat",
+    figureSlug: "adam-neumann",
+    title: "Mission as Moat",
+    tagline:
+      "A commodity product wrapped in a real mission becomes a brand. The framing is the moat. Anti-pattern: a fake mission wrapped in marketing gloss is not.",
+    whenToUse:
+      "When your product is commoditized on paper and you need a defensible differentiator, or when you suspect competitors are out-narrating you.",
+    source: "Billion Dollar Loser by Reeves Wiedeman",
+    sourceAnchor: "Chapters 3–6 (the early WeWork pitch)",
+    command: "/adam-neumann:mission-as-moat",
+  },
+  {
+    slug: "narrative-arbitrage",
+    figureSlug: "adam-neumann",
+    title: "Narrative Arbitrage in Fundraising",
+    tagline:
+      "Story compresses the round — a great narrative does the work a hundred meetings would. Anti-pattern: every dollar raised on narrative carries an IOU to the next round. If economics don't catch up, the lever you pulled becomes the lever pulled on you.",
+    whenToUse:
+      "Raising a round where the unit economics are nascent and you need to sell the future — or evaluating a competitor's pitch you suspect is narrative-only.",
+    source: "The Cult of We by Eliot Brown and Maureen Farrell",
+    sourceAnchor: "Chapters 8–11 (Masayoshi Son and the WeWork raise)",
+    command: "/adam-neumann:narrative-arbitrage",
+  },
+  {
+    slug: "s1-reality-check",
+    figureSlug: "adam-neumann",
+    title: "The S-1 Reality Check",
+    tagline:
+      "Run the test on your company today: if a stranger had to read your numbers in an S-1, would the story survive? Public reading is a different lens than private storytelling.",
+    whenToUse:
+      "Pre-IPO companies, late-stage startups raising on private narratives, or any company whose growth has outrun its ability to explain unit economics to a hostile reader.",
+    source:
+      "The Cult of We by Eliot Brown and Maureen Farrell; WeWork S-1 (Aug 14, 2019)",
+    sourceAnchor: "Chapters 12–15 (the six weeks between filing and ouster)",
+    command: "/adam-neumann:s1-reality-check",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */

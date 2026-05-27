@@ -1,0 +1,8 @@
+{
+  "name": "marc-andreessen",
+  "description": "Channel Marc Andreessen in any Claude chat. Software is eating the world. It's time to build. Read the wave you're in and push faster. Grounded in his essays at a16z.com — Why Software Is Eating the World (2011), It's Time to Build (2020), The Techno-Optimist Manifesto (2023).",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/marc-andreessen" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

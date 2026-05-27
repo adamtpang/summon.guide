@@ -12,6 +12,8 @@
     { "name": "alexander", "source": "./plugins/alexander", "description": "Alexander the Great — lead from the front, concentrate at the decisive point. Grounded in Plutarch and Arrian." },
     { "name": "deutsch", "source": "./plugins/deutsch", "description": "David Deutsch — good explanations, the principle of optimism. Grounded in The Beginning of Infinity." },
     { "name": "lee-kuan-yew", "source": "./plugins/lee-kuan-yew", "description": "Lee Kuan Yew — pragmatist test, incorruptibility lock. Grounded in From Third World to First." },
-    { "name": "marcus-aurelius", "source": "./plugins/marcus-aurelius", "description": "Marcus Aurelius — dichotomy of control, view from above, memento mori. Grounded in Meditations." }
+    { "name": "marcus-aurelius", "source": "./plugins/marcus-aurelius", "description": "Marcus Aurelius — dichotomy of control, view from above, memento mori. Grounded in Meditations." },
+    { "name": "marc-andreessen", "source": "./plugins/marc-andreessen", "description": "Marc Andreessen — software eats the world, it's time to build, techno-optimism. Grounded in his essays at a16z.com." },
+    { "name": "adam-neumann", "source": "./plugins/adam-neumann", "description": "Adam Neumann — mission as moat, narrative arbitrage, the S-1 reality check. Grounded in Wiedeman's Billion Dollar Loser and Brown & Farrell's The Cult of We." }
   ]
 }

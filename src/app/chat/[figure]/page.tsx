@@ -697,6 +697,16 @@ function getSuggestedQuestions(slug: string): string[] {
       "How do you stay calm under impossible pressure?",
       "What would you tell yourself each morning?",
     ],
+    "marc-andreessen": [
+      "What should I build right now?",
+      "Which wave am I really in?",
+      "How do I stop reading about it and start shipping?",
+    ],
+    "adam-neumann": [
+      "Is my mission a moat or marketing?",
+      "How do I tell a story that compresses my next round?",
+      "Would my company survive an S-1 reading today?",
+    ],
   };
   return questions[slug] || ["What was your most important decision?", "What advice for a young person?"];
 }

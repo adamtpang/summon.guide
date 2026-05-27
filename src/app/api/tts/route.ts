@@ -12,6 +12,8 @@ const VOICE_MAP: Record<string, string> = {
   "deutsch": "pNInz6obpgDQGcFmaJgB",     // Adam — calm, British, academic
   "lee-kuan-yew": "yoZ06aMxZJJ28mfd3POQ",         // Sam — clear, authoritative, clipped
   "marcus-aurelius": "pqHfZKP75CvOlQylNhV4", // Bill — measured, grave, contemplative
+  "marc-andreessen": "ErXwobaYiN019PkySvjV", // Antoni — direct, energetic, declarative
+  "adam-neumann": "VR6AewLTigWG4xSOukaG",     // Arnold — charismatic, expansive
 };
 
 const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Fallback to Daniel

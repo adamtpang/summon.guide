@@ -248,6 +248,79 @@ export const books: Book[] = [
     skillSlugs: ["dichotomy-of-control", "view-from-above", "memento-mori"],
     status: "complete",
   },
+
+  // Marc Andreessen — his own essays
+  {
+    slug: "why-software-is-eating-the-world",
+    title: "Why Software Is Eating the World",
+    author: "Marc Andreessen",
+    year: 2011,
+    role: "by",
+    figureSlug: "marc-andreessen",
+    description:
+      "The 2011 Wall Street Journal essay that named the era. The argument that software companies were poised to take over industry after industry, framed years before it was conventional wisdom.",
+    amazonUrl: "https://a16z.com/why-software-is-eating-the-world/",
+    skillSlugs: ["software-eats-the-world"],
+    status: "partial",
+  },
+  {
+    slug: "its-time-to-build",
+    title: "It's Time to Build",
+    author: "Marc Andreessen",
+    year: 2020,
+    role: "by",
+    figureSlug: "marc-andreessen",
+    description:
+      "The April 2020 essay written in the early weeks of the pandemic. A direct argument that Western institutions had stopped building, and that the right response to any problem is to ask “what do we build to fix it, and what is stopping the build?”",
+    amazonUrl: "https://a16z.com/its-time-to-build/",
+    skillSlugs: ["its-time-to-build"],
+    status: "partial",
+  },
+  {
+    slug: "techno-optimist-manifesto",
+    title: "The Techno-Optimist Manifesto",
+    author: "Marc Andreessen",
+    year: 2023,
+    role: "by",
+    figureSlug: "marc-andreessen",
+    description:
+      "The October 2023 manifesto. Marc's most fully articulated worldview: capability over caution, abundance over scarcity, building over critique. The operating philosophy underneath the other two essays.",
+    amazonUrl: "https://a16z.com/the-techno-optimist-manifesto/",
+    skillSlugs: ["techno-optimism"],
+    status: "partial",
+  },
+
+  // Adam Neumann — books ABOUT him (he has not written one)
+  {
+    slug: "billion-dollar-loser",
+    title:
+      "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork",
+    author: "Reeves Wiedeman",
+    year: 2020,
+    role: "about",
+    figureSlug: "adam-neumann",
+    description:
+      "The first major book on WeWork, by a New York magazine writer who had been reporting on the company throughout the run. Best on the mission-as-moat technique, the cultural details of the WeWork floor, and how the narrative compressed the early rounds.",
+    amazonUrl:
+      "https://www.amazon.com/Billion-Dollar-Loser-Spectacular-Neumann/dp/0316461342",
+    skillSlugs: ["mission-as-moat", "narrative-arbitrage"],
+    status: "partial",
+  },
+  {
+    slug: "the-cult-of-we",
+    title:
+      "The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion",
+    author: "Eliot Brown and Maureen Farrell",
+    year: 2021,
+    role: "about",
+    figureSlug: "adam-neumann",
+    description:
+      "The deeply reported Wall Street Journal account of the SoftBank dynamics, the S-1 disaster, and the six weeks between filing and ouster. The clearest source on what the public-market scrutiny actually exposed.",
+    amazonUrl:
+      "https://www.amazon.com/Cult-We-WeWork-Neumann-Startup/dp/0593237145",
+    skillSlugs: ["s1-reality-check"],
+    status: "partial",
+  },
 ];
 
 /** All books for a single figure. */

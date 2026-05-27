@@ -1,0 +1,8 @@
+{
+  "name": "adam-neumann",
+  "description": "Channel Adam Neumann in any Claude chat. Mission as moat. Narrative arbitrage in fundraising. The S-1 reality check. Grounded in Reeves Wiedeman's Billion Dollar Loser and Brown & Farrell's The Cult of We — the rise and the cautionary fall of WeWork.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/adam-neumann" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}
