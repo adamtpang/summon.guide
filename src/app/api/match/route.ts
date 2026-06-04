@@ -58,14 +58,18 @@ Rules:
   try {
     const response = await anthropic.messages.create({
       model: AI_CONFIG.model,
-      max_tokens: 200,
+      max_tokens: 400,
       system: systemPrompt,
       messages: [{ role: "user", content: message }],
     });
 
     const text =
       response.content[0].type === "text" ? response.content[0].text : "";
-    const parsed = JSON.parse(text);
+
+    // The model sometimes wraps its JSON in ```json fences or prefaces it
+    // with prose. Extract the first {...} block before parsing so a slightly
+    // chatty response doesn't bail us to the fallback.
+    const parsed = JSON.parse(extractJsonObject(text));
 
     if (parsed.type === "not_found" && parsed.person) {
       return Response.json({
@@ -97,4 +101,40 @@ Rules:
       reason: "Let's start with a conversation.",
     });
   }
+}
+
+/**
+ * Pull the first balanced {…} block out of a string. Tolerates code fences
+ * (```json … ```), leading prose, and trailing prose. Throws if no balanced
+ * object is found, which the caller catches into the fallback.
+ */
+function extractJsonObject(text: string): string {
+  const cleaned = text.replace(/```(?:json)?/gi, "").trim();
+  const start = cleaned.indexOf("{");
+  if (start === -1) throw new Error("No JSON object in response");
+  let depth = 0;
+  let inString = false;
+  let escape = false;
+  for (let i = start; i < cleaned.length; i++) {
+    const ch = cleaned[i];
+    if (escape) {
+      escape = false;
+      continue;
+    }
+    if (ch === "\\") {
+      escape = true;
+      continue;
+    }
+    if (ch === '"') {
+      inString = !inString;
+      continue;
+    }
+    if (inString) continue;
+    if (ch === "{") depth++;
+    else if (ch === "}") {
+      depth--;
+      if (depth === 0) return cleaned.slice(start, i + 1);
+    }
+  }
+  throw new Error("Unbalanced JSON in response");
 }
