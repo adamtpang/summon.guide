@@ -112,12 +112,18 @@ Rules:
     });
   } catch (e) {
     // Capture the actual failure so we can fix it instead of silently
-    // falling back forever.
-    console.error("[match] fell to fallback:", e instanceof Error ? e.message : e);
+    // falling back forever. Temporarily leak the diagnostic into the
+    // response body so we can read it via curl without needing Vercel
+    // log access — this gets removed once the root cause is fixed.
+    const msg = e instanceof Error ? e.message : String(e);
+    const stack = e instanceof Error ? e.stack?.split("\n").slice(0, 3).join(" | ") : "";
+    console.error("[match] fell to fallback:", msg, stack);
     return Response.json({
       type: "matched",
       slug: figures[0].slug,
       reason: "Let's start with a conversation.",
+      _debug: msg,
+      _debugStack: stack,
     });
   }
 }
