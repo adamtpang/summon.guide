@@ -14,6 +14,7 @@ const VOICE_MAP: Record<string, string> = {
   "marcus-aurelius": "pqHfZKP75CvOlQylNhV4", // Bill — measured, grave, contemplative
   "marc-andreessen": "ErXwobaYiN019PkySvjV", // Antoni — direct, energetic, declarative
   "adam-neumann": "VR6AewLTigWG4xSOukaG",     // Arnold — charismatic, expansive
+  "seneca": "pNInz6obpgDQGcFmaJgB",            // Adam — calm, deliberate, Roman gravitas
 };
 
 const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Fallback to Daniel

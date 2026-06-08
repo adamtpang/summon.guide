@@ -707,6 +707,11 @@ function getSuggestedQuestions(slug: string): string[] {
       "How do I tell a story that compresses my next round?",
       "Would my company survive an S-1 reading today?",
     ],
+    "seneca": [
+      "Where am I wasting time without noticing?",
+      "How do I stop reacting from anger?",
+      "What practice would actually hold for a year?",
+    ],
   };
   return questions[slug] || ["What was your most important decision?", "What advice for a young person?"];
 }

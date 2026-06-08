@@ -570,6 +570,65 @@ export const profiles: Record<string, Profile> = {
       "WeCrashed (Apple TV+ documentary series, 2022)",
     ],
   },
+
+  seneca: {
+    slug: "seneca",
+    occupation: "Stoic philosopher, dramatist, statesman, advisor to Nero",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Seneca_the_Younger",
+
+    fullName: "Lucius Annaeus Seneca",
+    birthDate: "c. 4 BC",
+    birthPlace: "Corduba (modern Córdoba), Hispania Baetica, Roman Empire",
+    deathDate: "AD 65 (aged approximately 69)",
+    deathPlace: "Rome — forced suicide by order of Emperor Nero",
+    nationality: "Roman",
+    education: [
+      "Rhetoric in Rome under his father, Seneca the Elder",
+      "Philosophy under the Stoic Attalus, the Sextian Sotion, and Papirius Fabianus",
+    ],
+    occupations: [
+      "Stoic philosopher",
+      "Tragedian (Roman drama)",
+      "Statesman, Roman Senate",
+      "Tutor (AD 49–54) and chief advisor (AD 54–62) to Emperor Nero",
+    ],
+    yearsActive: "c. AD 20 – 65",
+    notableWorks: [
+      "Epistulae Morales ad Lucilium (Letters to Lucilius / Letters from a Stoic) — 124 surviving letters",
+      "De Brevitate Vitae (On the Shortness of Life)",
+      "De Ira (On Anger)",
+      "De Vita Beata (On the Happy Life)",
+      "De Providentia (On Providence)",
+      "Naturales Quaestiones (Natural Questions)",
+      "Tragedies: Thyestes, Medea, Phaedra, Oedipus, Hercules Furens, Troades",
+    ],
+    spouses: ["Pompeia Paulina"],
+    parents: ["Lucius Annaeus Seneca the Elder", "Helvia"],
+
+    earlyLife:
+      "Seneca was born around 4 BC in Corduba, the chief city of the Roman province of Hispania Baetica, into the wealthy equestrian Annaeus family. His father, Seneca the Elder, was a celebrated teacher of rhetoric whose textbooks have partly survived; his mother, Helvia, came from a respected provincial family. He was brought to Rome as a child by his aunt and educated in the city — first in rhetoric in the family tradition, then in philosophy under the Stoic Attalus, the Sextian school philosopher Sotion (whose teaching of Pythagorean vegetarianism Seneca followed for a time), and Papirius Fabianus. He suffered from respiratory illness, almost certainly asthma, from his youth and credited philosophy with helping him survive it. His brothers were Junius Gallio (proconsul of Achaea, mentioned in the New Testament Acts of the Apostles for declining to hear charges against the apostle Paul) and Mela, father of the poet Lucan.",
+
+    career:
+      "Seneca entered the Roman Senate under Tiberius or Caligula and was a successful advocate when Claudius came to power in AD 41 and exiled him to Corsica on charges (probably trumped up) of adultery with Julia Livilla. He spent eight years in exile, writing the *Consolations* (to his mother Helvia, to Polybius, to Marcia). In AD 49 Agrippina the Younger arranged his recall to Rome to tutor her twelve-year-old son Lucius Domitius Ahenobarbus — soon to become Emperor Nero. After Nero's accession in AD 54, Seneca and the Praetorian prefect Sextus Afranius Burrus effectively co-managed the state through what later historians called the *Quinquennium Neronis*, the five-good-years of Nero's reign. Seneca composed Nero's first speech to the Senate, drafted policy, and authored most of his surviving moral and philosophical works during these years, including the *Letters to Lucilius* and *On the Shortness of Life*. He also accumulated extraordinary personal wealth — perhaps the largest private fortune of his era — which his enemies (Suillius Rufus, then later Cassius Dio) used to charge him with hypocrisy.",
+
+    legacy:
+      "By AD 62 Burrus was dead and Seneca had effectively retired, though he could not extract himself fully. In AD 65, Nero accused him of complicity in the Pisonian conspiracy on thin evidence and ordered him to take his own life. Tacitus's *Annals* describes the death in detail: Seneca opened his veins, then took hemlock when blood loss was too slow, and finally was carried into a steam bath where he suffocated, dictating final words to scribes. His wife Pompeia Paulina attempted to die with him but was kept alive on Nero's order. Seneca's letters became the most-read philosophical text in the medieval European tradition; Augustine, Erasmus, Montaigne, and Petrarch each treated him as a near-Christian moralist. His prose style — short, paradoxical, aphoristic — shaped European essay-writing through Bacon. The *Epistulae Morales* and *On the Shortness of Life* remain the most accessible Stoic texts ever produced and the entry point most modern readers take into the school.",
+
+    notableQuotes: [
+      "It is not that we have a short time to live, but that we waste much of it.",
+      "While we are postponing, life speeds by.",
+      "Begin at once to live, and count each separate day as a separate life.",
+      "Anger, if not restrained, is frequently more hurtful to us than the injury that provokes it.",
+      "He who is brave is free.",
+      "No servitude is more disgraceful than that which is self-imposed.",
+    ],
+    primarySources: [
+      "Letters from a Stoic (Epistulae Morales ad Lucilium) by Seneca — Robin Campbell translation (Penguin, 1969) and the Loeb Classical Library three-volume edition",
+      "On the Shortness of Life (De Brevitate Vitae) by Seneca — C. D. N. Costa translation (Penguin Great Ideas, 2004)",
+      "Dialogues and Essays by Seneca — John Davie translation (Oxford World's Classics, 2007)",
+      "Tacitus, Annals XV (the contemporary account of Seneca's death)",
+    ],
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {
