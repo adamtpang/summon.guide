@@ -17,10 +17,15 @@ export interface Figure {
   stats: { label: string; value: string }[]; // 3-4 impressive stats
 }
 
-// Abstracted model config -swap provider/model here
+// Abstracted model config -swap provider/model here.
+// IMPORTANT: keep this aligned with a model id Anthropic actually serves.
+// "claude-sonnet-4-6" was rejected by the API with 400 (model not found),
+// breaking BOTH /api/chat and /api/match. Reverting to the date-pinned
+// Sonnet 4.5 documented in CLAUDE.md. Bump deliberately when a newer
+// alias is verified live.
 export const AI_CONFIG = {
   provider: "anthropic" as const,
-  model: "claude-sonnet-4-6",
+  model: "claude-sonnet-4-5-20250514",
   maxTokens: 1024,
 };
 
