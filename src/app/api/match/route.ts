@@ -83,18 +83,37 @@ Rules:
       });
     }
 
-    // matched (or any response carrying a slug) — validate the slug exists
-    const valid = figures.find((f) => f.slug === parsed.slug);
-    if (!valid) throw new Error("Invalid slug");
+    // matched (or any response carrying a slug) — validate the slug exists.
+    // Be tolerant: if the model abbreviates ("marcus" instead of
+    // "marcus-aurelius", "elon" exact match, "seneca" exact match), try a
+    // prefix/contains fallback before giving up.
+    const proposed = String(parsed.slug || "").toLowerCase();
+    let valid = figures.find((f) => f.slug === proposed);
+    if (!valid && proposed) {
+      valid =
+        figures.find((f) => f.slug.startsWith(proposed + "-")) ||
+        figures.find((f) => f.slug.includes(proposed)) ||
+        undefined;
+    }
+    if (!valid) {
+      console.error(
+        "[match] no figure for slug:",
+        proposed,
+        "available:",
+        figures.map((f) => f.slug).join(",")
+      );
+      throw new Error(`Invalid slug "${proposed}"`);
+    }
 
     return Response.json({
       type: "matched",
-      slug: parsed.slug,
+      slug: valid.slug,
       reason: parsed.reason || "Let's begin.",
     });
-  } catch {
-    // Fallback: never hard-fail the user — start a conversation with the
-    // first guide rather than 500.
+  } catch (e) {
+    // Capture the actual failure so we can fix it instead of silently
+    // falling back forever.
+    console.error("[match] fell to fallback:", e instanceof Error ? e.message : e);
     return Response.json({
       type: "matched",
       slug: figures[0].slug,
