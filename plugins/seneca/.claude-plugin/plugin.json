@@ -1,0 +1,8 @@
+{
+  "name": "seneca",
+  "description": "Channel Seneca in any Claude chat. Stoic philosopher, dramatist, advisor to Nero. Time is the one currency you cannot earn back. Anger is brief madness — delay is the cure. Recover the time you call lost. Grounded in Letters from a Stoic, On the Shortness of Life, and On Anger — all public domain.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/seneca" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

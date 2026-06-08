@@ -321,6 +321,47 @@ export const books: Book[] = [
     skillSlugs: ["s1-reality-check"],
     status: "partial",
   },
+
+  // Seneca — his own works, all public domain
+  {
+    slug: "letters-from-a-stoic",
+    title: "Letters from a Stoic (Epistulae Morales ad Lucilium)",
+    author: "Seneca",
+    year: 65,
+    role: "by",
+    figureSlug: "seneca",
+    description:
+      "124 letters written to Seneca's friend Lucilius, governor of Sicily, in the last three years of Seneca's life. Each letter takes one practical idea — time, friendship, anger, crowds, death — and works it down to something you can do today. The single most readable Stoic text ever written.",
+    amazonUrl: "https://www.amazon.com/Letters-Stoic-Penguin-Classics-Seneca/dp/0140442103",
+    skillSlugs: ["letters-from-a-stoic"],
+    status: "partial",
+  },
+  {
+    slug: "on-the-shortness-of-life",
+    title: "On the Shortness of Life (De Brevitate Vitae)",
+    author: "Seneca",
+    year: 49,
+    role: "by",
+    figureSlug: "seneca",
+    description:
+      "A short essay addressed to Seneca's friend Paulinus on the use of time. The core argument: life is long enough if well invested; we make it short by selling it cheaply, hour by hour, to projects we have not chosen.",
+    amazonUrl: "https://www.amazon.com/Shortness-Life-Penguin-Great-Ideas/dp/0143036327",
+    skillSlugs: ["on-the-shortness-of-life"],
+    status: "partial",
+  },
+  {
+    slug: "on-anger",
+    title: "On Anger (De Ira)",
+    author: "Seneca",
+    year: 45,
+    role: "by",
+    figureSlug: "seneca",
+    description:
+      "Three books on anger as a vice — its physiology, its destructiveness, and the practical techniques for not being governed by it. The clearest pre-modern account of what to do between the trigger and the response.",
+    amazonUrl: "https://www.amazon.com/Dialogues-Essays-Oxford-Worlds-Classics/dp/0199552401",
+    skillSlugs: ["on-anger"],
+    status: "partial",
+  },
 ];
 
 /** All books for a single figure. */

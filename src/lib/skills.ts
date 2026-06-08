@@ -434,6 +434,56 @@ export const skills: Skill[] = [
     sourceAnchor: "Chapters 12–15 (the six weeks between filing and ouster)",
     command: "/adam-neumann:s1-reality-check",
   },
+
+  // ───── Seneca ─────
+  {
+    slug: "seneca",
+    figureSlug: "seneca",
+    title: "Channel Seneca",
+    tagline:
+      "Time is the one currency you cannot earn back. Anger is a brief madness — delay is the cure. Withdraw to find yourself. Recover the time you call lost. Begin at once to live.",
+    whenToUse:
+      "Wrestling with how time is being spent, working through anger you don't want to be governed by, navigating a court (corporate or political) where flattery is expected, or designing a personal practice you can sustain.",
+    source: "Letters from a Stoic + On the Shortness of Life + On Anger",
+    command: "/seneca:seneca",
+    umbrella: true,
+  },
+  {
+    slug: "on-the-shortness-of-life",
+    figureSlug: "seneca",
+    title: "On the Shortness of Life",
+    tagline:
+      "Life is long enough if well invested. We make it short by selling it cheaply, hour by hour, to projects we have not chosen. Audit the hours.",
+    whenToUse:
+      "Stuck in a routine you didn't pick, postponing the real work until 'later,' or watching a year pass without being able to say what you spent it on.",
+    source: "De Brevitate Vitae (On the Shortness of Life) by Seneca",
+    sourceAnchor: "§§ 1–3 and 7–10 (the audit of how time is wasted)",
+    command: "/seneca:on-the-shortness-of-life",
+  },
+  {
+    slug: "letters-from-a-stoic",
+    figureSlug: "seneca",
+    title: "Letters from a Stoic — Daily Practice",
+    tagline:
+      "One letter a day to yourself — pick one idea, work it out in writing, and end with what you will actually do about it. The Stoic technology Seneca used for three years on Lucilius works on you.",
+    whenToUse:
+      "Designing a personal philosophy practice that survives more than a week, building a journaling habit that produces decisions instead of feelings, or wanting to study a tradition by walking it daily instead of reading about it.",
+    source: "Epistulae Morales ad Lucilium (Letters to Lucilius) by Seneca",
+    sourceAnchor: "Letters 1, 7, 16, 26, 47 (representative practical letters)",
+    command: "/seneca:letters-from-a-stoic",
+  },
+  {
+    slug: "on-anger",
+    figureSlug: "seneca",
+    title: "On Anger — The Cool Path",
+    tagline:
+      "Anger is brief madness. The best remedy is delay. Beg yourself this favor: do not execute what your anger urges. Do something else first.",
+    whenToUse:
+      "Triggered by a message, a meeting, or a person, and about to respond from the trigger rather than from your considered judgment. Or designing protocols (for yourself or a team) that put time between provocation and reaction.",
+    source: "De Ira (On Anger) by Seneca",
+    sourceAnchor: "Book I §§ 1–7 and Book II §§ 28–29 (the daily examination)",
+    command: "/seneca:on-anger",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */
