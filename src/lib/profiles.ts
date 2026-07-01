@@ -629,6 +629,56 @@ export const profiles: Record<string, Profile> = {
       "Tacitus, Annals XV (the contemporary account of Seneca's death)",
     ],
   },
+  "ricky-gervais": {
+    "slug": "ricky-gervais",
+    "occupation": "Comedian, actor, writer, director, and producer",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ricky_Gervais",
+    "fullName": "Ricky Dene Gervais",
+    "birthDate": "25 June 1961",
+    "birthPlace": "Reading, Berkshire, England",
+    "nationality": "British",
+    "education": [
+      "Whitley Park Infants and Junior Schools, Reading",
+      "Ashmead Comprehensive School, Reading",
+      "University College London (UCL), 1980–1983 — enrolled to read biology, switched to philosophy after about two weeks, graduating with a lower-second-class (2:2) honours degree in philosophy"
+    ],
+    "occupations": [
+      "Stand-up comedian",
+      "Actor",
+      "Writer",
+      "Director",
+      "Producer"
+    ],
+    "yearsActive": "1998–present",
+    "notableWorks": [
+      "The Office (BBC, 2001–2003) — co-created and co-written with Stephen Merchant; Gervais played David Brent",
+      "Extras (BBC/HBO, 2005–2007) — co-created with Stephen Merchant; Gervais played Andy Millman",
+      "After Life (Netflix, 2019–2022) — created, written, directed by and starring Gervais",
+      "Derek (Channel 4, 2012–2014) — written, directed by and starring Gervais",
+      "The Ricky Gervais Show (2005 podcast; HBO animated series, 2010–2012) — with Stephen Merchant and Karl Pilkington",
+      "Netflix stand-up specials: Humanity (2018), SuperNature (2022), Armageddon (2023), Mortality (2025)"
+    ],
+    "spouses": [
+      "Jane Fallon (partner, 1982–present)"
+    ],
+    "netWorth": "Estimated at roughly US$160 million as of 2025 (Celebrity Net Worth); figures vary by source, currency, and year and should be treated as approximate",
+    "earlyLife": "Ricky Dene Gervais was born on 25 June 1961 in Reading, Berkshire, the youngest of four children. His father, Lawrence Raymond \"Jerry\" Gervais (1919–2002), was a labourer of Franco-Ontarian (French-Canadian) descent who met Gervais's mother while stationed in England during the Second World War; his mother, Eva Sophia (née House; 1925–2000), was English. He grew up on a council estate and attended Whitley Park Infants and Junior Schools and Ashmead Comprehensive School in Reading. In 1980 he went to University College London, initially to read biology but switching to philosophy after about two weeks, and graduated in 1983 with a lower-second-class honours degree. An atheist and humanist, Gervais has cited his philosophical education and scientific outlook as central to his comedy and public persona.",
+    "career": "Before his breakthrough, Gervais worked a variety of jobs, including a brief pre-fame stint managing the band Suede and roughly seven years in an office administrative role that later fed his observational comedy. His major success came with The Office, a mockumentary sitcom co-created and co-written with Stephen Merchant for BBC Two, which ran for two series and two Christmas specials between 2001 and 2003. Gervais starred as the self-deluded middle manager David Brent, a character whose comedy derives from the gap between his self-perception and how others see him. The series won multiple BAFTA Awards and a Golden Globe, and its format was adapted internationally, most successfully as the American version of The Office, for which Gervais served as an executive producer.\n\nGervais and Merchant followed with Extras (2005–2007), in which Gervais played struggling actor Andy Millman, and Life's Too Short (2011–2013). Gervais then wrote, directed and starred in Derek (2012–2014) and created the Netflix series After Life (2019–2022), a solo project about a grieving widower that he wrote, directed, executive-produced and starred in across three series. Alongside television, The Ricky Gervais Show began in 2005 as a podcast with Merchant and Karl Pilkington — certified by Guinness World Records as the most-downloaded podcast in 2006 — and was later adapted into an animated HBO series (2010–2012).\n\nGervais built a parallel career in stand-up comedy, touring shows including Animals (2003), Politics (2004), Fame (2007) and Science (2010) before a series of Netflix specials: Humanity (2018), SuperNature (2022), Armageddon (2023) and Mortality (2025). He also hosted the Golden Globe Awards five times (2010, 2011, 2012, 2016 and 2020), where his acerbic monologues drew wide attention. His accolades include seven BAFTA Television Awards, two Primetime Emmy Awards, and Golden Globe wins, including consecutive awards for Best Performance in Stand-Up Comedy on Television for Armageddon (2024) and Mortality (2026).",
+    "legacy": "Gervais is widely regarded as one of the most influential figures in modern British comedy, credited with popularising the mockumentary sitcom format through The Office, whose David Brent became a defining example of cringe comedy built on a character's blind spots and naturalistic performance. His work has been recognised with BAFTA, Emmy and Golden Globe awards, and formats he co-created have been remade around the world. He has also become a prominent and frequently controversial public voice on free speech and the limits of comedy, arguing that offence is \"the collateral damage of free speech\" and distinguishing the subject of a joke from its target. His later projects, particularly After Life, broadened his reputation to include more openly emotional and reflective work, while his Netflix stand-up specials and Golden Globes hosting cemented his standing as a global comedic figure.",
+    "notableQuotes": [
+      "Offence is the collateral damage of free speech.",
+      "Most offence comes from when people mistake the subject of a joke with the actual target.",
+      "The truth is more devastating than a lie."
+    ],
+    "primarySources": [
+      "The Office (BBC Two, 2001–2003) — series co-created, co-written and co-directed by Ricky Gervais and Stephen Merchant",
+      "Extras (BBC/HBO, 2005–2007) — series co-created by Ricky Gervais and Stephen Merchant",
+      "After Life (Netflix, 2019–2022) — series created, written and directed by Ricky Gervais",
+      "Ricky Gervais: Humanity (Netflix, 2018), SuperNature (2022), Armageddon (2023) and Mortality (2025) — stand-up specials",
+      "Wikipedia, \"Ricky Gervais\" (https://en.wikipedia.org/wiki/Ricky_Gervais)",
+      "Golden Globes official profile (https://goldenglobes.com/person/ricky-gervais/) and Television Academy biography (https://www.televisionacademy.com/bios/ricky-gervais)"
+    ]
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

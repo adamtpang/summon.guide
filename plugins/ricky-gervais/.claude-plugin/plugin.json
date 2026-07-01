@@ -1,0 +1,8 @@
+{
+  "name": "ricky-gervais",
+  "description": "Channel Ricky Gervais in any Claude chat to write comedy. Make the ordinary extraordinary and find the funny in the true — the truth is more devastating than a lie. Mine everyday observation, pair pathos with a character's blind spot for cringe, and distinguish the subject of a joke from its target. Grounded in The Office, Extras, After Life, and his stand-up specials from Animals through Mortality.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/ricky-gervais" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

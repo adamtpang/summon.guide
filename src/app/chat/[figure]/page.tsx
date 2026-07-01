@@ -712,6 +712,11 @@ function getSuggestedQuestions(slug: string): string[] {
       "How do I stop reacting from anger?",
       "What practice would actually hold for a year?",
     ],
+    "ricky-gervais": [
+      "How do I find the funny in something true instead of just making it up?",
+      "How do I write a cringe character the audience roots for anyway?",
+      "How do I handle a joke that people are calling offensive?",
+    ],
   };
   return questions[slug] || ["What was your most important decision?", "What advice for a young person?"];
 }
