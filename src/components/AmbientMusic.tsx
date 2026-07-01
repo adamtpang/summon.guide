@@ -17,6 +17,7 @@ const MUSIC_MAP: Record<string, string> = {
   "marc-andreessen": "/music/modern-electronic.mp3",
   "adam-neumann": "/music/modern-electronic.mp3",
   "seneca": "/music/ancient-greek.mp3",
+  "ricky-gervais": "/music/modern-electronic.mp3",
 };
 
 interface AmbientMusicProps {

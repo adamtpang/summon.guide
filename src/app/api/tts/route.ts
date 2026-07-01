@@ -15,6 +15,7 @@ const VOICE_MAP: Record<string, string> = {
   "marc-andreessen": "ErXwobaYiN019PkySvjV", // Antoni — direct, energetic, declarative
   "adam-neumann": "VR6AewLTigWG4xSOukaG",     // Arnold — charismatic, expansive
   "seneca": "pNInz6obpgDQGcFmaJgB",            // Adam — calm, deliberate, Roman gravitas
+  "ricky-gervais": "JBFqnCBsd6RMkjVDRZzb", // George — warm, mature British delivery
 };
 
 const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Fallback to Daniel

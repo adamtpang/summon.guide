@@ -484,6 +484,46 @@ export const skills: Skill[] = [
     sourceAnchor: "Book I §§ 1–7 and Book II §§ 28–29 (the daily examination)",
     command: "/seneca:on-anger",
   },
+  {
+    "slug": "ricky-gervais",
+    "figureSlug": "ricky-gervais",
+    "title": "Ricky Gervais",
+    "tagline": "Find the funny in the true, commit to the character, and take the hit for a joke you'd make again.",
+    "whenToUse": "Summon Ricky Gervais's full comedic operating system: making something funny without making it false, building a character whose blind spot is the joke, deciding whether an offensive bit should be cut or kept, wrestling with cringe and awkward-comedy premises, workshopping stand-up toward a tight hour, or defending a joke that got a reaction you didn't intend.",
+    "source": "The Office, After Life, and the Netflix stand-up specials (Humanity, SuperNature, Armageddon, Mortality)",
+    "command": "/ricky-gervais:ricky-gervais",
+    "umbrella": true
+  },
+  {
+    "slug": "stand-up-writing",
+    "figureSlug": "ricky-gervais",
+    "title": "Stand-Up Writing",
+    "tagline": "Write stand-up from honest observation — premise, act-out, tag, tested live.",
+    "whenToUse": "Use when the user has a rough idea, a bit that isn't landing, a pile of observations that won't cohere, a set that runs long or sags, or a taboo subject they want to be funny about without being merely shocking. Also for finding a persona and point of view, structuring a tight hour, deciding what to cut, and editing lines down to the laugh.",
+    "source": "Ricky Gervais's stand-up specials and stated method — Animals, Politics, Fame, Science, Humanity, SuperNature, Armageddon, Mortality — plus interviews on writing by incubation and touring a work-in-progress hour to iron out the kinks before taping.",
+    "sourceAnchor": "the-talks.com/interview/ricky-gervais/ ; nofilmschool.com/screenwriting-tips-ricky-gervais ; en.wikipedia.org/wiki/Ricky_Gervais",
+    "command": "/ricky-gervais:stand-up-writing"
+  },
+  {
+    "slug": "the-offence-principle",
+    "figureSlug": "ricky-gervais",
+    "title": "The Offence Principle: Writing Taboo & Handling Offence",
+    "tagline": "Offence is the collateral damage of free speech — so the question is never whether it offends, but what the joke is actually about and what it actually attacks.",
+    "whenToUse": "Use when writing a joke, bit, sketch, or satire that touches a taboo or sensitive subject and you want to know whether it holds up — or when something's been called 'offensive' and you need to tell a real craft fault from a mere reaction. Covers subject vs. target, irony vs. endorsement, the comedian's voice vs. a character's, intent and defensibility, and edgy-for-shock vs. edgy-with-a-point.",
+    "source": "Ricky Gervais's stated positions on free speech and offence — 'Offence is the collateral damage of free speech' (Twitter/X, 1 Sep 2014), the subject-vs-target distinction and irony defence of SuperNature (BBC The One Show, Deadline, The Spectator, May 2022), and 'the truth is more devastating than a lie' (The Talks).",
+    "sourceAnchor": "'Most offence comes from when people mistake the subject of a joke with the actual target' — SuperNature defence, 2022",
+    "command": "/ricky-gervais:the-offence-principle"
+  },
+  {
+    "slug": "cringe-and-character",
+    "figureSlug": "ricky-gervais",
+    "title": "Cringe & Character: The David Brent Method",
+    "tagline": "Make them laugh at someone they love — comedy from the gap between how a character sees themselves and how the world sees them.",
+    "whenToUse": "Use when writing a comedy character, sitcom, mockumentary, or cringe scene that lives on someone deluding themselves in public. Also when jokes land but no one cares about the people, when a show gets laughs but has no heart, or when a 'cringe' scene reads as cruelty instead of funny-and-sad.",
+    "source": "Ricky Gervais's work on The Office (2001–2003), Extras, Derek, and After Life (2019–2022), and his stated craft — make the ordinary extraordinary, find the funny in the true, and pair pathos with a character's blind spot.",
+    "sourceAnchor": "David Brent, The Office (UK); Tony Johnson, After Life",
+    "command": "/ricky-gervais:cringe-and-character"
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */
