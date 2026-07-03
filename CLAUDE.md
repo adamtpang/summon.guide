@@ -7,7 +7,7 @@ legends.guide v2 — streaming chat with 10 founders, compare feature, source ci
 
 ### Architecture
 - **Next.js 16 + Tailwind CSS v4 + TypeScript** (App Router)
-- **Claude API** (claude-sonnet-4-5-20250514) for chat via `@anthropic-ai/sdk` with streaming
+- **Claude API** (claude-sonnet-5) for chat via `@anthropic-ai/sdk` with streaming
 - **No database** — knowledge chunks embedded directly in system prompts (sufficient for 10 founders)
 - **Modular AI config** — model/provider swappable via `AI_CONFIG` in figures.ts
 
