@@ -1,4 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { AI_CONFIG } from "@/lib/figures";
 import { NextRequest } from "next/server";
 
 const anthropic = new Anthropic();
@@ -16,7 +17,7 @@ export async function POST(req: NextRequest) {
     .join("\n\n");
 
   const response = await anthropic.messages.create({
-    model: "claude-sonnet-4-5-20250514",
+    model: AI_CONFIG.model,
     max_tokens: 256,
     system: `You are a quote curator. Extract the single most shareable, standalone quote from this conversation with ${figureName}. The quote should make someone stop scrolling on X/Twitter — punchy, wise, and complete without context. Return ONLY the quote text, no attribution, no quote marks, nothing else. Max 180 characters. Strip any source citations like [Source: ...].`,
     messages: [

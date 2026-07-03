@@ -18,14 +18,18 @@ export interface Figure {
 }
 
 // Abstracted model config -swap provider/model here.
-// IMPORTANT: keep this aligned with a model id Anthropic actually serves.
-// "claude-sonnet-4-6" was rejected by the API with 400 (model not found),
-// breaking BOTH /api/chat and /api/match. Reverting to the date-pinned
-// Sonnet 4.5 documented in CLAUDE.md. Bump deliberately when a newer
-// alias is verified live.
+// HISTORY, so we never chase our tails again:
+//   - The 400s that plagued chat/match in June 2026 were an Anthropic
+//     BILLING error (credit balance), not a model-id problem.
+//     "claude-sonnet-4-6" was valid the whole time.
+//   - "claude-sonnet-4-5-20250514" never existed (wrong date suffix) and
+//     404s. It only *looked* fine while billing was masking everything.
+// Current id per Anthropic's model catalog: claude-sonnet-5 (the current
+// Sonnet tier — intro pricing $2/$10 per MTok through 2026-08-31).
+// Use bare aliases from the catalog; never construct date-suffixed ids.
 export const AI_CONFIG = {
   provider: "anthropic" as const,
-  model: "claude-sonnet-4-5-20250514",
+  model: "claude-sonnet-5",
   maxTokens: 1024,
 };
 

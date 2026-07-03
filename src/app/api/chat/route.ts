@@ -59,7 +59,12 @@ export async function POST(req: NextRequest) {
         } else if (error instanceof Anthropic.RateLimitError) {
           userMessage = "Rate limited — please try again in a moment.";
         } else if (error instanceof Anthropic.APIError) {
-          userMessage = `Upstream API error (${error.status}). Please try again.`;
+          // Include the upstream message — a bare status code cost us days
+          // of debugging (billing errors and bad model ids both read as
+          // "Upstream API error (400/404)" without it).
+          const detail = error.message?.slice(0, 200) || "";
+          userMessage = `Upstream API error (${error.status}): ${detail}`;
+          console.error("[chat] Anthropic APIError", error.status, detail);
         } else if (error instanceof Error) {
           userMessage = error.message;
         }
