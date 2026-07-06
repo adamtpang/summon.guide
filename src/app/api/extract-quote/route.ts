@@ -1,8 +1,8 @@
-import Anthropic from "@anthropic-ai/sdk";
+import { anthropicClient } from "@/lib/anthropic";
 import { AI_CONFIG } from "@/lib/figures";
 import { NextRequest } from "next/server";
 
-const anthropic = new Anthropic();
+const anthropic = anthropicClient();
 
 export async function POST(req: NextRequest) {
   const { messages, figureName, era } = await req.json();
