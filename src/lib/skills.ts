@@ -524,6 +524,46 @@ export const skills: Skill[] = [
     "sourceAnchor": "David Brent, The Office (UK); Tony Johnson, After Life",
     "command": "/ricky-gervais:cringe-and-character"
   },
+  {
+    "slug": "marie-curie",
+    "figureSlug": "marie-curie",
+    "title": "Marie Curie",
+    "tagline": "Understand rather than fear — measure it, grind it, weigh it, give it away.",
+    "whenToUse": "Summon Marie Skłodowska-Curie's full operating mindset into the current chat. Use whenever the user is standing before something they do not understand and are tempted to fear it, facing an intractable problem that will yield only to years of unglamorous physical work, drowning in qualitative impressions where an exact measurement would cut through, or deciding what to do with recognition, credit, or money that the work has produced. Channels her method — replace fear with comprehension, grind the problem into a physical process, let measurement lead, give the work away — as one operating philosophy, addressed to a peer at the bench rather than a student in a lecture hall.",
+    "source": "Marie Curie, Pierre Curie (1923) and Autobiographical Notes; her 1903 doctoral thesis Recherches sur les substances radioactives; and Ève Curie, Madame Curie: A Biography (1937).",
+    "command": "/marie-curie:marie-curie",
+    "umbrella": true
+  },
+  {
+    "slug": "the-isolation-method",
+    "figureSlug": "marie-curie",
+    "title": "The Isolation Method",
+    "tagline": "Turn an intractable question into a relentless, well-instrumented physical process — and grind it, measuring every batch, until the thing is in your hand and can be weighed.",
+    "whenToUse": "Use for a hard extraction, purification, or long-horizon problem: finding the one real signal buried in a mountain of noise, isolating a single true cause from a confounded mess, separating what matters from what merely surrounds it — any task where the answer exists but is dilute, and the only path is a repeatable process measured batch by batch until the target is isolated, weighed, and in hand.",
+    "source": "Marie Curie's isolation of radium (1898–1902); her doctoral thesis Recherches sur les substances radioactives (1903); Ève Curie, Madame Curie: A Biography (1937).",
+    "sourceAnchor": "Isolation of ~0.1 g pure radium chloride from several tons of pitchblende via the piezoelectric-quartz electrometer and fractional crystallization; radium-isolation method published without patent.",
+    "command": "/marie-curie:the-isolation-method"
+  },
+  {
+    "slug": "nothing-to-be-feared",
+    "figureSlug": "marie-curie",
+    "title": "Nothing to Be Feared",
+    "tagline": "Convert fear into understanding, then into the next small step.",
+    "whenToUse": "When the user is frozen by something they have not yet looked at squarely — a diagnosis, a scary technical problem, a decision, a confrontation, a grief — and is reacting to the vague shape of it rather than the thing itself. Also when they need to keep working through genuine adversity or grief without drama.",
+    "source": "Theme most associated with Marie Curie ('Nothing in life is to be feared, it is only to be understood...'), grounded in her verified method and life; see Ève Curie, Madame Curie: A Biography (1937).",
+    "sourceAnchor": "On fear, understanding, and endurance",
+    "command": "/marie-curie:nothing-to-be-feared"
+  },
+  {
+    "slug": "science-not-self",
+    "figureSlug": "marie-curie",
+    "title": "Science, Not Self",
+    "tagline": "Keep ego, credit, and money from corrupting the work — optimize for the truth, not your standing.",
+    "whenToUse": "When deciding whether to patent, protect, or freely give away work; when status, credit, or recognition start steering decisions that should be steered by the truth; when public noise, scandal, or reputation-management pulls attention off the actual problem; or when measuring yourself by what you have done rather than what remains to be done.",
+    "source": "Marie Curie's and Pierre's deliberate refusal to patent the radium-isolation process (published freely so any lab could produce radium), her recorded reasoning that radium 'belongs to all people,' and her documented indifference to fame and money through the 1911 press scandal.",
+    "sourceAnchor": "Marie Curie, letter to her brother Józef (1894); Ève Curie, Madame Curie: A Biography (1937).",
+    "command": "/marie-curie:science-not-self"
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */

@@ -717,6 +717,11 @@ function getSuggestedQuestions(slug: string): string[] {
       "How do I write a cringe character the audience roots for anyway?",
       "How do I handle a joke that people are calling offensive?",
     ],
+    "marie-curie": [
+      "How do I keep going when the work is years long and thankless?",
+      "My results don't match what I expected — do I trust them or myself?",
+      "How do I stay focused on the work when everything around me is falling apart?",
+    ],
   };
   return questions[slug] || ["What was your most important decision?", "What advice for a young person?"];
 }
