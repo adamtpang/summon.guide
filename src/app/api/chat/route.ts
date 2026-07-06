@@ -59,12 +59,20 @@ export async function POST(req: NextRequest) {
         } else if (error instanceof Anthropic.RateLimitError) {
           userMessage = "Rate limited — please try again in a moment.";
         } else if (error instanceof Anthropic.APIError) {
-          // Include the upstream message — a bare status code cost us days
-          // of debugging (billing errors and bad model ids both read as
-          // "Upstream API error (400/404)" without it).
           const detail = error.message?.slice(0, 200) || "";
-          userMessage = `Upstream API error (${error.status}): ${detail}`;
+          // Always log the full detail — billing errors and bad model ids
+          // both read as a bare "400" in the UI otherwise (that ambiguity
+          // once cost days of debugging).
           console.error("[chat] Anthropic APIError", error.status, detail);
+          // The most common operational failure is an empty API credit
+          // balance (a 400 whose message mentions "credit balance"). Give
+          // users a calm, honest message instead of raw billing text.
+          if (/credit balance/i.test(detail)) {
+            userMessage =
+              "The guides are resting for a moment — the site is topping up. Please try again shortly.";
+          } else {
+            userMessage = `Upstream API error (${error.status}): ${detail}`;
+          }
         } else if (error instanceof Error) {
           userMessage = error.message;
         }

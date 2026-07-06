@@ -27,10 +27,18 @@ export interface Figure {
 // Current id per Anthropic's model catalog: claude-sonnet-5 (the current
 // Sonnet tier — intro pricing $2/$10 per MTok through 2026-08-31).
 // Use bare aliases from the catalog; never construct date-suffixed ids.
+//
+// COST CONTROL — the API is metered usage (there is no way to bill a
+// server app to a Claude Pro/Max subscription; those are for claude.ai /
+// Claude Code only). To spend less, set AI_MODEL in the environment:
+//   AI_MODEL=claude-haiku-4-5   → ~3x cheaper than Sonnet, still great
+//   AI_MODEL=claude-sonnet-5    → default; best quality
+// AI_MAX_TOKENS caps the reply length (fewer output tokens = lower cost).
+// See docs/billing-and-models.md.
 export const AI_CONFIG = {
   provider: "anthropic" as const,
-  model: "claude-sonnet-5",
-  maxTokens: 1024,
+  model: process.env.AI_MODEL?.trim() || "claude-sonnet-5",
+  maxTokens: Number(process.env.AI_MAX_TOKENS) || 1024,
 };
 
 const RESPONSE_RULES = `
