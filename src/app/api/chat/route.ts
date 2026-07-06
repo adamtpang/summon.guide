@@ -1,8 +1,11 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { anthropicClient } from "@/lib/anthropic";
 import { getFigure, AI_CONFIG } from "@/lib/figures";
 import { NextRequest } from "next/server";
 
-const anthropic = new Anthropic();
+// API key (metered credits) by default, or a Claude subscription OAuth token
+// when ANTHROPIC_AUTH_TOKEN is set. See src/lib/anthropic.ts.
+const anthropic = anthropicClient();
 
 export async function POST(req: NextRequest) {
   const { figure: figureSlug, messages } = await req.json();

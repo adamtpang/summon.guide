@@ -1,8 +1,8 @@
-import Anthropic from "@anthropic-ai/sdk";
+import { anthropicClient } from "@/lib/anthropic";
 import { figures, AI_CONFIG } from "@/lib/figures";
 import { NextRequest } from "next/server";
 
-const anthropic = new Anthropic();
+const anthropic = anthropicClient();
 
 // The router has two jobs now:
 //

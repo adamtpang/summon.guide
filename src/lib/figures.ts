@@ -28,9 +28,11 @@ export interface Figure {
 // Sonnet tier — intro pricing $2/$10 per MTok through 2026-08-31).
 // Use bare aliases from the catalog; never construct date-suffixed ids.
 //
-// COST CONTROL — the API is metered usage (there is no way to bill a
-// server app to a Claude Pro/Max subscription; those are for claude.ai /
-// Claude Code only). To spend less, set AI_MODEL in the environment:
+// COST CONTROL — by default the API bills metered usage credits. You CAN
+// instead bill a Claude Pro/Max subscription by setting ANTHROPIC_AUTH_TOKEN
+// to an OAuth token (see src/lib/anthropic.ts) — but that token expires and
+// is not auto-refreshed on a serverless host, so it suits local/personal use,
+// not the public deployment. For the live site, to spend less set AI_MODEL:
 //   AI_MODEL=claude-haiku-4-5   → ~3x cheaper than Sonnet, still great
 //   AI_MODEL=claude-sonnet-5    → default; best quality
 // AI_MAX_TOKENS caps the reply length (fewer output tokens = lower cost).
