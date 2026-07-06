@@ -28,6 +28,13 @@ interface RequestCard {
   reason: string;
   wikipediaUrl?: string | null;
   years?: string;
+  qid?: string;
+}
+
+interface Pantheon {
+  hpi: number | null;
+  rank: number | null;
+  occupation: string | null;
 }
 
 export default function HumanSearch() {
@@ -38,6 +45,7 @@ export default function HumanSearch() {
   const [searching, setSearching] = useState(false);
   const [matching, setMatching] = useState(false);
   const [requestCard, setRequestCard] = useState<RequestCard | null>(null);
+  const [pantheon, setPantheon] = useState<Pantheon | null>(null);
   const boxRef = useRef<HTMLDivElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const activeQueryRef = useRef("");
@@ -107,10 +115,38 @@ export default function HumanSearch() {
           : `${h.name} isn't in the hall yet. Every guide is deeply researched and grounded in real primary sources before we summon them.`,
         wikipediaUrl: h.wikipediaUrl,
         years: years(h),
+        qid: h.id,
       });
     },
     [router]
   );
+
+  // Enrich the request card with Pantheon historical-significance data
+  // (HPI / all-time rank / occupation) — the seed of the demand-ranked
+  // onboarding queue. Best-effort: the card still works if Pantheon is
+  // silent or doesn't cover the person.
+  useEffect(() => {
+    if (!requestCard) {
+      setPantheon(null);
+      return;
+    }
+    let cancelled = false;
+    setPantheon(null);
+    const param = requestCard.qid
+      ? `qid=${encodeURIComponent(requestCard.qid)}`
+      : `name=${encodeURIComponent(requestCard.person)}`;
+    fetch(`/api/humans/pantheon?${param}`)
+      .then((r) => r.json())
+      .then((d) => {
+        if (cancelled || !d?.found) return;
+        if (d.hpi == null && d.rank == null && !d.occupation) return;
+        setPantheon({ hpi: d.hpi, rank: d.rank, occupation: d.occupation });
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [requestCard]);
 
   // Enter with no selection → problem-route via /api/match
   const handleSubmit = async (e: React.FormEvent) => {
@@ -271,6 +307,35 @@ export default function HumanSearch() {
             {requestCard.reason ||
               `We only summon guides we can ground in real primary sources. ${requestCard.person} is on the onboarding list.`}
           </p>
+
+          {/* Historical-significance strip — MIT Pantheon HPI */}
+          {pantheon && (pantheon.hpi != null || pantheon.occupation) && (
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-4 py-2.5 px-3.5 rounded-xl bg-white/[0.03] border border-white/5">
+              {pantheon.rank != null && (
+                <span className="text-warm-300 text-xs">
+                  <span className="text-gold-500 font-medium">
+                    #{pantheon.rank.toLocaleString()}
+                  </span>{" "}
+                  most notable human, all time
+                </span>
+              )}
+              {pantheon.hpi != null && (
+                <span className="text-warm-500 text-xs">
+                  HPI{" "}
+                  <span className="text-warm-300 font-medium">{pantheon.hpi}</span>
+                </span>
+              )}
+              {pantheon.occupation && (
+                <span className="text-warm-500 text-xs">
+                  {pantheon.occupation}
+                </span>
+              )}
+              <span className="text-warm-500 text-[10px] tracking-wide ml-auto">
+                via MIT Pantheon
+              </span>
+            </div>
+          )}
+
           <div className="flex flex-wrap gap-2">
             <a
               href={`mailto:adamtpang@gmail.com?subject=${encodeURIComponent(
