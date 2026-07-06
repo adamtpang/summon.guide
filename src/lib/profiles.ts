@@ -679,6 +679,72 @@ export const profiles: Record<string, Profile> = {
       "Golden Globes official profile (https://goldenglobes.com/person/ricky-gervais/) and Television Academy biography (https://www.televisionacademy.com/bios/ricky-gervais)"
     ]
   },
+  "marie-curie": {
+    "slug": "marie-curie",
+    "occupation": "Physicist and chemist; pioneer of radioactivity, two-time Nobel laureate",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "fullName": "Maria Salomea Skłodowska-Curie",
+    "birthDate": "7 November 1867",
+    "birthPlace": "Warsaw, Congress Poland (then part of the Russian Empire)",
+    "deathDate": "4 July 1934 (aged 66)",
+    "deathPlace": "Sancellemoz sanatorium, Passy, Haute-Savoie, France — aplastic anaemia attributed to prolonged ionizing-radiation exposure",
+    "nationality": "Polish and French",
+    "education": [
+      "Clandestine 'Flying University' (Uniwersytet Latający), Warsaw, which admitted women barred from formal Polish higher education under Russian rule (c. 1885–1889)",
+      "Licence in physics, University of Paris (the Sorbonne), 1893 — ranked first in her class",
+      "Licence in mathematics, University of Paris, 1894",
+      "Doctorate in physics, University of Paris, defended June 1903 (supervised by Gabriel Lippmann)"
+    ],
+    "occupations": [
+      "Physicist",
+      "Chemist",
+      "Professor at the University of Paris (Sorbonne)",
+      "Director of the Radium Institute (Institut du Radium), Paris"
+    ],
+    "yearsActive": "c. 1894 – 1934",
+    "notableWorks": [
+      "Recherches sur les substances radioactives (doctoral thesis, 1903) — established radioactivity as an atomic property",
+      "Discovery of the elements polonium (July 1898) and radium (December 1898)",
+      "Isolation of pure radium chloride and determination of radium's atomic weight (1902)",
+      "Pierre Curie (1923) — her biography of her husband, containing autobiographical reflection",
+      "Autobiographical Notes (1923) — first-person memoir published with the American editions",
+      "Founding and direction of the Radium Institute; wartime mobile X-ray units, the 'petites Curies' (World War I)"
+    ],
+    "spouses": [
+      "Pierre Curie (m. 1895; d. 1906)"
+    ],
+    "children": "2 — Irène and Ève",
+    "parents": [
+      "Władysław Skłodowski (physics and mathematics teacher)",
+      "Bronisława Skłodowska (née Boguska; teacher and school director)"
+    ],
+    "awards": [
+      "Nobel Prize in Physics, 1903 — shared with Pierre Curie and Antoine Henri Becquerel; first woman to win a Nobel Prize",
+      "Nobel Prize in Chemistry, 1911 — sole laureate, for the discovery of radium and polonium and the isolation and study of radium; first person to win two Nobel Prizes and the only person to win Nobels in two different sciences",
+      "Davy Medal, Royal Society (London), 1903 — jointly with Pierre Curie",
+      "Matteucci Medal, 1904 — shared with Pierre Curie",
+      "Elliott Cresson Medal, Franklin Institute (Philadelphia), 1909",
+      "First woman professor at the University of Paris (Sorbonne), appointed 1906; first woman interred in the Panthéon on her own merits (reburial, 1995)"
+    ],
+    "earlyLife": "Maria Salomea Skłodowska was born on 7 November 1867 in Warsaw, then part of Congress Poland under Russian rule, the youngest of five children in a family of teachers. Her father, Władysław Skłodowski, taught physics and mathematics, and her mother, Bronisława, ran a girls' boarding school; the family's Polish patriotism and financial hardship shaped a childhood marked by both learning and loss. Barred as a woman from Poland's formal universities, she attended the clandestine, movable 'Flying University' in Warsaw and worked for several years as a governess to fund her sister Bronisława's medical studies in Paris, on a reciprocal pact by which Bronisława would later support her in turn.",
+    "career": "In 1891 Skłodowska moved to Paris and enrolled at the Sorbonne, earning a licence in physics in 1893 (ranked first in her class) and one in mathematics in 1894. She met the physicist Pierre Curie, whom she married in a civil ceremony in 1895, and together they turned to the study of the rays recently observed by Henri Becquerel. Replacing Becquerel's fogged photographic plates with a sensitive piezoelectric-quartz electrometer, she measured radiation as an electric current and showed the effect to be an atomic property — coining the term 'radioactivity.' Finding that the mineral pitchblende was far more active than its uranium content could explain, she inferred, and then chased through fraction-by-fraction chemical separation, two previously unknown elements: polonium (named for her occupied homeland, Poland) and radium, both announced in 1898.\n\nOver roughly four years the Curies processed several tons of pitchblende residue by hand to isolate a decigram of pure radium chloride and determine radium's atomic weight, work that earned Marie her 1903 doctorate. That same year she, Pierre, and Becquerel shared the Nobel Prize in Physics, making her the first woman to receive a Nobel. The Curies declined to patent the radium-isolation process, publishing it freely so that radium — and the new medicine of radiotherapy — could be produced by anyone. After Pierre was killed in a Paris street accident in 1906, Marie took over his chair at the Sorbonne, becoming the first woman to hold a professorship there.\n\nIn 1911 she was awarded the Nobel Prize in Chemistry, for the discovery of radium and polonium and the isolation and study of radium, becoming the first person to win two Nobel Prizes and the only person to win them in two distinct sciences. She directed the newly founded Radium Institute in Paris, and during the First World War she organized France's first military radiology service, equipping and often personally driving mobile X-ray units — the 'petites Curies' — to the front. She continued to lead the Radium Institute until her death.",
+    "legacy": "Marie Curie died on 4 July 1934 of aplastic anaemia, a blood disease attributed to her decades of unprotected exposure to ionizing radiation; her notebooks remain radioactive to this day. She was the first woman to win a Nobel Prize, the first person to win two, and the only person to win Nobel Prizes in two different sciences, and her work established radioactivity as a field, opened the way to nuclear physics, and gave medicine the tools of radiotherapy and diagnostic radiology.\n\nReserved, intensely private, and indifferent to wealth and celebrity, she came to embody the ideal of the disinterested scientist working for humanity rather than profit. In 1995 she became the first woman interred in the Panthéon in Paris on the strength of her own achievements, her remains sealed in a lead-lined coffin because of their radioactivity. The Radium Institute she founded endures as the Institut Curie, and her elder daughter, Irène Joliot-Curie, went on to share a Nobel Prize of her own, extending a scientific legacy that made 'Curie' synonymous with rigor, endurance, and discovery.",
+    "notableQuotes": [
+      "One never notices what has been done; one can only see what remains to be done.",
+      "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves. We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.",
+      "I am among those who think that science has great beauty. A scientist in his laboratory is not only a technician: he is also a child placed before natural phenomena which impress him like a fairy tale.",
+      "You cannot hope to build a better world without improving the individuals. To that end, each of us must work for his own improvement and, at the same time, share a general responsibility for all humanity.",
+      "I am working in the laboratory all day long, it is all I can do: I am better off there than anywhere else.",
+      "There is nothing in this but pure science... I believe there is no connection between my scientific work and the facts of private life."
+    ],
+    "primarySources": [
+      "Marie Curie, Pierre Curie (1923), trans. Charlotte & Vernon Kellogg — includes her Autobiographical Notes",
+      "Marie Curie, Recherches sur les substances radioactives (doctoral thesis, 1903)",
+      "The Nobel Prize official records and citations for the 1903 Physics and 1911 Chemistry prizes (NobelPrize.org)",
+      "Ève Curie, Madame Curie: A Biography (1937) — the principal early biography, by her daughter",
+      "Susan Quinn, Marie Curie: A Life (1995) — reputable modern scholarly biography"
+    ]
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

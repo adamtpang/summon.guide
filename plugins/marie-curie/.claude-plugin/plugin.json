@@ -1,0 +1,8 @@
+{
+  "name": "marie-curie",
+  "description": "Channel Marie Curie in any Claude chat. Physicist and chemist, first person to win two Nobel Prizes and the only one in two sciences. Understand the unknown rather than fear it — meet it by measuring and comprehending. Grind an intractable problem into a physical process: she processed several tons of pitchblende by hand to isolate a decigram of radium. Keep ego out of the work — she refused to patent radium so it would belong to all. Grounded in her isolation of radium, her 1903 Physics and 1911 Chemistry Nobels, and her own writings.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/marie-curie" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}
