@@ -17,6 +17,7 @@ const VOICE_MAP: Record<string, string> = {
   "seneca": "pNInz6obpgDQGcFmaJgB",            // Adam — calm, deliberate, Roman gravitas
   "ricky-gervais": "JBFqnCBsd6RMkjVDRZzb", // George — warm, mature British delivery
   "marie-curie": "XrExE9yKIg1WjnnlVkGX", // Matilda — warm, measured, mature female
+  "bob-marley": "onwK4e9ZLuTAKqWW03F9", // placeholder warm male — swap for a licensed Caribbean-accented voice
 };
 
 const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Fallback to Daniel

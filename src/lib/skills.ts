@@ -564,6 +564,46 @@ export const skills: Skill[] = [
     "sourceAnchor": "Marie Curie, letter to her brother Józef (1894); Ève Curie, Madame Curie: A Biography (1937).",
     "command": "/marie-curie:science-not-self"
   },
+  {
+    "slug": "bob-marley",
+    "figureSlug": "bob-marley",
+    "title": "Channel Bob Marley",
+    "tagline": "Turn suffering into a reason to show up. Free your own mind first. Stand up for what's right now, not someday. Answer division with one love, not revenge. Give your one gift to something bigger. Meet hardship with faith, not bitterness.",
+    "whenToUse": "Knocked down by a setback and tempted to quit, caged by a limiting belief or someone else's definition of you, sitting on an injustice you keep meaning to act on, caught in a conflict or rivalry you could escalate or heal, or searching for the one gift that is yours to give in service of something bigger than yourself.",
+    "source": "Bob Marley's songs, life, and documented interviews — Redemption Song, Get Up Stand Up, and One Love; the December 1976 assassination attempt and Smile Jamaica; the 1978 One Love Peace Concert",
+    "command": "/bob-marley:bob-marley",
+    "umbrella": true
+  },
+  {
+    "slug": "redemption-song",
+    "figureSlug": "bob-marley",
+    "title": "Redemption Song — Free Your Own Mind",
+    "tagline": "Emancipate yourself from mental slavery. The first prison to break is the one in your own head. Name the mental chain, find whose voice it really is, reject the borrowed definition, and choose your own ground.",
+    "whenToUse": "You're held back not by an outside obstacle but by an inside one — a limiting belief, someone else's definition of you, a box you never chose ('people like me don't,' 'I could never,' 'I'm not that kind of person'). Also when you're fighting an external battle while still wearing an internal chain.",
+    "source": "Bob Marley, 'Redemption Song' (Uprising, 1980), adapting Marcus Garvey's 1937 speech",
+    "sourceAnchor": "'Emancipate yourselves from mental slavery; none but ourselves can free our minds' — recorded when Marley was already terminally ill, stripped to voice and acoustic guitar; the line adapts Marcus Garvey's speech at Menelik Hall, Nova Scotia, 31 October 1937",
+    "command": "/bob-marley:redemption-song"
+  },
+  {
+    "slug": "get-up-stand-up",
+    "figureSlug": "bob-marley",
+    "title": "Get Up, Stand Up — Act Now",
+    "tagline": "Stand up for what's right, and act now — not someday, not when it's safe, not when someone else moves first. Name the wrong, refuse the 'someday,' use the gift you already have, and take the first public step today.",
+    "whenToUse": "You see an injustice or a wrong — at work, in your community, in your own life — and you keep waiting: for a better time, for more authority, for someone else to go first, or for a reward that never comes. Turn conviction into action today.",
+    "source": "Bob Marley & Peter Tosh, 'Get Up, Stand Up' (Burnin', 1973); Marley playing Smile Jamaica two days after being shot, December 1976",
+    "sourceAnchor": "'Get up, stand up, stand up for your right' — the song's rejection of waiting for a reward 'someday'; and 'the people who are trying to make this world worse aren't taking a day off, how can I?' on performing at Smile Jamaica, 5 December 1976",
+    "command": "/bob-marley:get-up-stand-up"
+  },
+  {
+    "slug": "one-love",
+    "figureSlug": "bob-marley",
+    "title": "One Love — Unity Over Revenge",
+    "tagline": "Answer division with the one thing you still share, not with revenge. Take retaliation off the table, find the shared ground, make the first gesture, hold both the wrong and the unity, and build a together that lasts.",
+    "whenToUse": "De-escalating a conflict, rivalry, or feud — family, team, business, community — that you could either escalate or heal. Especially when you've been wronged and revenge is tempting.",
+    "source": "Bob Marley, 'One Love / People Get Ready' (Exodus, 1977); the One Love Peace Concert, Kingston, 22 April 1978",
+    "sourceAnchor": "After surviving the December 1976 assassination attempt, Marley joined the hands of rival leaders Michael Manley (PNP) and Edward Seaga (JLP) on stage during 'Jamming' at the One Love Peace Concert, 22 April 1978",
+    "command": "/bob-marley:one-love"
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */

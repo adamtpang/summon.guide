@@ -745,6 +745,61 @@ export const profiles: Record<string, Profile> = {
       "Susan Quinn, Marie Curie: A Life (1995) — reputable modern scholarly biography"
     ]
   },
+  "bob-marley": {
+    "slug": "bob-marley",
+    "occupation": "Reggae singer-songwriter, guitarist, and Rastafari icon who took Jamaican music worldwide",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bob_Marley",
+    "fullName": "Robert Nesta Marley",
+    "birthDate": "6 February 1945",
+    "birthPlace": "Nine Mile, Saint Ann Parish, Jamaica",
+    "deathDate": "11 May 1981 (aged 36)",
+    "deathPlace": "Miami, Florida, U.S. — acral lentiginous melanoma",
+    "nationality": "Jamaican",
+    "occupations": [
+      "Singer-songwriter",
+      "Guitarist",
+      "Bandleader — Bob Marley and the Wailers",
+      "Reggae, ska and rocksteady musician",
+      "Rastafari spokesman and activist"
+    ],
+    "yearsActive": "1962–1981",
+    "notableWorks": [
+      "Catch a Fire (1973) — the Wailers' international debut on Island Records",
+      "Burnin' (1973) — includes 'Get Up, Stand Up' and 'I Shot the Sheriff'",
+      "Exodus (1977) — 56 consecutive weeks on the UK albums chart",
+      "Survival (1979) — Pan-African album including 'Zimbabwe' and 'Africa Unite'",
+      "Uprising (1980) — his last studio album released in his lifetime, closing with 'Redemption Song'",
+      "Legend (1984, posthumous) — the best-selling reggae album of all time"
+    ],
+    "spouses": [
+      "Rita Anderson (m. 1966)"
+    ],
+    "children": "11 acknowledged",
+    "awards": [
+      "United Nations Peace Medal of the Third World (1978)",
+      "Jamaican Order of Merit (1981) — the nation's third-highest honour",
+      "Rock and Roll Hall of Fame (inducted 1994)",
+      "Grammy Lifetime Achievement Award (2001)"
+    ],
+    "earlyLife": "Robert Nesta Marley was born on 6 February 1945 at his maternal grandfather's farm in Nine Mile, Saint Ann Parish, in the then-Colony of Jamaica. His father, Norval Sinclair Marley, was a white man of British descent who worked as a rural overseer; he was decades older than Marley's mother, was largely absent, and died when Bob was about ten. His mother, Cedella Malcolm (later Cedella Booker), was a Black Afro-Jamaican, only eighteen when she married.\n\nAround the age of twelve, Marley moved with his mother to Trench Town, a poor government-yard neighbourhood of Kingston that became the crucible of his music and identity, later memorialised in 'No Woman, No Cry' and 'Trench Town Rock'. Growing up mixed-race in the impoverished, all-Black district, he was taunted as a 'half-caste' and wrestled with belonging — a wound he turned into a lifelong refusal to pick a racial side. In Trench Town the musician Joe Higgs taught him guitar and vocal harmony, and he formed a lasting bond with his boyhood friend Bunny Wailer.",
+    "career": "Marley made his first solo recordings in 1962 for producer Leslie Kong, including 'Judge Not'. In 1963 he formed a vocal group with Peter Tosh and Bunny Wailer that became the Wailers, and their 1964 single 'Simmer Down' reached number one in Jamaica. Over the 1960s he embraced Rastafari, grew dreadlocks, and became its first global public face — calling God 'Jah' and revering the Ethiopian emperor Haile Selassie I. He married Rita Anderson in 1966.\n\nThe turning point came in 1972, when the Wailers signed with Chris Blackwell of Island Records, who packaged Jamaican reggae for a worldwide rock audience. Catch a Fire (1973) launched them internationally, and Burnin' (1973) carried 'Get Up, Stand Up' and 'I Shot the Sheriff' — a song Eric Clapton took to number one in the United States in 1974. After Tosh and Bunny left in 1974 the group became Bob Marley and the Wailers, with the I-Threes (including Rita) on backing vocals, and the live 'No Woman, No Cry' broke Marley worldwide in 1975.\n\nOn 3 December 1976, amid near-civil-war between Jamaica's rival political parties, gunmen raided his home at 56 Hope Road and wounded Bob, Rita, and manager Don Taylor; all survived, and two days later, still injured, Marley performed at the free Smile Jamaica concert. He then spent roughly two years in exile in London, where he recorded Exodus (1977), which stayed on the UK chart for 56 consecutive weeks. At the One Love Peace Concert on 22 April 1978 he brought the rival leaders Michael Manley and Edward Seaga onstage and joined their hands above his head. In April 1980 he played Zimbabwe's official independence celebrations at Rufaro Stadium, paying his own way, and released Uprising, whose closing track 'Redemption Song' he recorded stripped to voice and acoustic guitar while already gravely ill.",
+    "legacy": "Bob Marley is the artist who took reggae from Jamaica to the world and made it a global language of resistance and unity. As the genre's first international superstar and the first global face of Rastafari, he sold an estimated 75 million or more records, and the posthumous compilation Legend (1984) remains the best-selling reggae album of all time. His songs held two things together at once — militant demands for justice ('Get Up, Stand Up') and radical calls for unity and love ('One Love') — a synthesis he embodied by joining the hands of political enemies and by playing a nation's liberation.\n\nMarley had been diagnosed in 1977 with acral lentiginous melanoma, which began under the nail of his right big toe. Citing his Rastafari beliefs, he declined amputation; the cancer spread to his lungs, liver, and brain, and he died in Miami on 11 May 1981, aged 36. He received the Jamaican Order of Merit that year and was given a state funeral blending Ethiopian Orthodox and Rastafari rites before burial at Nine Mile. He was inducted into the Rock and Roll Hall of Fame in 1994.",
+    "notableQuotes": [
+      "Emancipate yourselves from mental slavery; none but ourselves can free our minds.",
+      "Get up, stand up: stand up for your right! Don't give up the fight!",
+      "One love, one heart, let's get together and feel all right.",
+      "Don't worry about a thing, 'cause every little thing is gonna be all right.",
+      "One good thing about music, when it hits you feel no pain.",
+      "Money can't buy life."
+    ],
+    "primarySources": [
+      "Bob Marley — Wikipedia (https://en.wikipedia.org/wiki/Bob_Marley)",
+      "Bob Marley — Wikiquote, for sourced song lyrics and documented interview quotes (https://en.wikiquote.org/wiki/Bob_Marley)",
+      "Bob Marley — Encyclopaedia Britannica (https://www.britannica.com/biography/Bob-Marley)",
+      "One Love Peace Concert — Wikipedia (https://en.wikipedia.org/wiki/One_Love_Peace_Concert)",
+      "Portrait photograph by Eddie Mallin (Dublin, 6 July 1980), CC BY 2.0, via Wikimedia Commons"
+    ]
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

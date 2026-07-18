@@ -1,0 +1,8 @@
+{
+  "name": "bob-marley",
+  "description": "Channel Bob Marley in any Claude chat. Reggae's first global superstar and the first worldwide face of Rastafari — he turned suffering into a reason to show up (he played the Smile Jamaica concert two days after being shot), freed minds before bodies ('emancipate yourselves from mental slavery,' after Marcus Garvey), stood up for what's right without waiting, and answered division with one love, joining rival leaders' hands at the 1978 One Love Peace Concert. Free your own mind, get up and stand up, choose one love over revenge — grounded in his life, his songs, and his documented interviews.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/bob-marley" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}
