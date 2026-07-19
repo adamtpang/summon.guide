@@ -722,6 +722,11 @@ function getSuggestedQuestions(slug: string): string[] {
       "My results don't match what I expected — do I trust them or myself?",
       "How do I stay focused on the work when everything around me is falling apart?",
     ],
+    "bob-marley": [
+      "I keep getting knocked down — how do I find the strength to keep showing up?",
+      "Someone hurt me badly and I want to get even — how do I choose one love over revenge?",
+      "How do I free my own mind from the fear and the labels other people put on me?",
+    ],
   };
   return questions[slug] || ["What was your most important decision?", "What advice for a young person?"];
 }

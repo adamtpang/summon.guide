@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+/* Don't scan Markdown for utility classes — every class the app renders lives in
+   .ts/.tsx. Root-level Claude/Codex sync docs (e.g. CODEX_CONTINUE_FROM_CLAUDE.md)
+   are full of absolute Windows paths like ...\3ec60f14-... which Tailwind's content
+   scanner otherwise misreads as a CSS unicode escape (\3ec60f → code point 4113935),
+   throwing "Invalid code point" and breaking the whole build. */
+@source not "../../**/*.md";
+@source not "../../CODEX_CONTINUE_FROM_CLAUDE.md";
+
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

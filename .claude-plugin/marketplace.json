@@ -17,6 +17,7 @@
     { "name": "adam-neumann", "source": "./plugins/adam-neumann", "description": "Adam Neumann — mission as moat, narrative arbitrage, the S-1 reality check. Grounded in Wiedeman's Billion Dollar Loser and Brown & Farrell's The Cult of We." },
     { "name": "seneca", "source": "./plugins/seneca", "description": "Seneca — on the shortness of life, daily Stoic letters, on anger. Grounded in his own letters and essays (all public domain)." },
     { "name": "ricky-gervais", "source": "./plugins/ricky-gervais", "description": "Ricky Gervais — make the ordinary extraordinary, build cringe from a character's blind spot, and say the unsayable through irony. Grounded in The Office, After Life, and his Netflix stand-up specials." },
-    { "name": "marie-curie", "source": "./plugins/marie-curie", "description": "Marie Curie — measure what you fear, trust the anomaly over the expectation, and out-endure the problem. Grounded in her Pierre Curie, Autobiographical Notes, and Ève Curie's Madame Curie." }
+    { "name": "marie-curie", "source": "./plugins/marie-curie", "description": "Marie Curie — measure what you fear, trust the anomaly over the expectation, and out-endure the problem. Grounded in her Pierre Curie, Autobiographical Notes, and Ève Curie's Madame Curie." },
+    { "name": "bob-marley", "source": "./plugins/bob-marley", "description": "Bob Marley — free your own mind, stand up for what's right, and choose one love over division. Grounded in his life, his songs, and his own recorded words." }
   ]
 }
