@@ -1,0 +1,11 @@
+{
+  "name": "james-dyson",
+  "description": "Summon James Dyson. Turns a stalled problem into a disciplined prototype loop: change exactly one variable at a time, treat every failure as the only real source of information, protect the fragile early idea from the experts trying to kill it, and set a persistence budget in attempts rather than a deadline. Built on the method behind the 5,127 hand-built coach house prototypes and the 14 year road to the first working Dual Cyclone.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/james-dyson"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

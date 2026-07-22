@@ -1,0 +1,11 @@
+{
+  "name": "evan-spiegel",
+  "description": "Channel Evan Spiegel in any Claude chat. Facebook cloned Snapchat as Poke in 2012 and Spiegel called it the greatest Christmas present he ever received, because it proved there is no moat in software. Audit which parts of your product a rival could ship in ninety days, then move everything into the few things that stay hard to copy: network effects measured by density rather than node count, owned hardware, a creator and developer ecosystem, and a product vision you can see clearly enough to deliver for years. Grounded in his conversation with David Senra on the Founders interview show.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/evan-spiegel"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

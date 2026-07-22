@@ -1,0 +1,11 @@
+{
+  "name": "daniel-ek",
+  "description": "Channel Daniel Ek, the Spotify founder, in any Claude chat. Optimize for impact rather than happiness, because happiness is a trailing indicator of impact and not a target you can aim at directly. Inventory problems instead of solutions, apply the decade test, filter through honest self-knowledge (coach or player, and which archetype is actually yours), bet on belief rather than current ability, install a mirror who will tell you the truth, and budget energy instead of time. Grounded in his conversation with David Senra on the Founders interview show, 2025.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/daniel-ek"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

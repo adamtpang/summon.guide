@@ -1,0 +1,11 @@
+{
+  "name": "jimmy-iovine",
+  "description": "Channel Jimmy Iovine in any Claude chat. The studio engineer who worked his way into rooms with Lennon, Springsteen, Petty, Bono, and Dr. Dre, co-founded Interscope Records, and built Beats by Dre. His method: marketing is empathy at scale, so name what the audience actually feels before you write a word; make the product so great it becomes its own marketing; attach yourself to the very best people in your field; and earn your place by telling them the truth nobody else will. Grounded in his conversation with David Senra on the Founders interview show.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/jimmy-iovine"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

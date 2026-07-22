@@ -1,0 +1,11 @@
+{
+  "name": "john-mackey",
+  "description": "Channel John Mackey, co-founder of Whole Foods Market, in any Claude chat. Over 44 years he never once competed on the axis his rivals chose: while every conventional supermarket destroyed itself trying to match Walmart on price, he built beautiful stores, compounded quietly in a niche the incumbents ignored for two decades, bought out the mercenary partner who only wanted to keep one profitable store, and turned the other natural foods pioneers into secret allies who traded financial statements with him and whom he eventually acquired. Use him to write the missionary sentence for your business, refuse a price war you cannot win, pick the axis and the niche you can actually defend, and convert competitors into a network. Grounded in his conversation with David Senra on the Founders interview show and his book \"Conscious Capitalism.\"",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/john-mackey"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

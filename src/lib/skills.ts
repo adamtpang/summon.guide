@@ -604,6 +604,110 @@ export const skills: Skill[] = [
     "sourceAnchor": "After surviving the December 1976 assassination attempt, Marley joined the hands of rival leaders Michael Manley (PNP) and Edward Seaga (JLP) on stage during 'Jamming' at the One Love Peace Concert, 22 April 1978",
     "command": "/bob-marley:one-love"
   },
+  // ----- Tobi Lütke -----
+  {
+    slug: "own-axioms",
+    figureSlug: "tobi-lutke",
+    title: "Build From Your Own Axioms",
+    tagline:
+      "Rederive a company, product, or decision from your own axioms instead of copying an industry playbook.",
+    whenToUse:
+      "When the user is imitating a competitor, running a borrowed playbook, or performing the role their title is supposed to require.",
+    source: "Tobi Lütke: 21 Years of Building Shopify, his conversation with David Senra on the Founders interview show, plus his own essays.",
+    sourceAnchor: "content/knowledge/interviews/011-tobi-l-tke-21-years-of-building-shopify.md",
+    command: "/tobi-lutke:own-axioms",
+  },
+  // ----- Todd Graves -----
+  {
+    slug: "one-thing-well",
+    figureSlug: "todd-graves",
+    title: "One Thing Well",
+    tagline:
+      "Do one thing better than anyone alive, keep control of it, and let service pull the money in behind you.",
+    whenToUse:
+      "Use when the user is tempted to add a second product line, expand the menu, take a dilutive round, franchise or sell the company, chase margin over service, or diversify instead of getting devastatingly good at the one thing customers actually come back for. Also use when deciding what to refuse, what detail to obsess over next, or how to keep ownership and control through a downturn.",
+    source: "Todd Graves in conversation with David Senra on the Founders interview show, published 2025-11-09.",
+    sourceAnchor: "content/knowledge/interviews/019-how-todd-graves-built-raising-canes.md",
+    command: "/todd-graves:one-thing-well",
+  },
+  // ----- John Mackey -----
+  {
+    slug: "missionary-not-mercenary",
+    figureSlug: "john-mackey",
+    title: "Missionary, Not Mercenary",
+    tagline:
+      "Build for the mission, refuse the price war, compound in a niche nobody is watching, and turn rivals into allies.",
+    whenToUse:
+      "Use when the user is about to fight a bigger, lower-cost rival on price, when a co-founder or investor wants to harvest a comfortable business instead of build a mission, when the user needs to pick a niche defensible enough to compound in quietly, or when they treat every peer in their category as a threat rather than a potential ally.",
+    source: "John Mackey in conversation with David Senra on the Founders interview show (44 Years of Building Whole Foods), and his book \"Conscious Capitalism\" (2013).",
+    sourceAnchor: "content/knowledge/interviews/023-john-mackey-44-years-of-building-whole-foods.md",
+    command: "/john-mackey:missionary-not-mercenary",
+  },
+  // ----- Jimmy Iovine -----
+  {
+    slug: "empathy-at-scale",
+    figureSlug: "jimmy-iovine",
+    title: "Empathy at Scale",
+    tagline:
+      "Marketing is empathy at scale. Attach yourself to the very best people, then earn the room by telling them the brutal truth.",
+    whenToUse:
+      "Use when positioning or launching a product, writing copy that lists features instead of feelings, deciding who to work with or for, sitting in a room where everyone agrees with you, or holding back hard feedback you are afraid to deliver.",
+    source: "Jimmy Iovine's conversation with David Senra on the Founders interview show",
+    sourceAnchor: "content/knowledge/interviews/006-jimmy-iovine-building-interscope-records-beats-by-dre.md",
+    command: "/jimmy-iovine:empathy-at-scale",
+  },
+  // ----- Daniel Ek -----
+  {
+    slug: "impact-over-happiness",
+    figureSlug: "daniel-ek",
+    title: "Impact Over Happiness",
+    tagline:
+      "Aim at the biggest problem worth a decade of your life. Happiness is the readout, not the lever.",
+    whenToUse:
+      "Use when choosing between career paths or projects, when the question has become 'what would make me happy', when the work is easy but small, or when someone is copying another founder's playbook instead of building something true to who they actually are.",
+    source: "Daniel Ek in conversation with David Senra on the Founders interview show, 2025",
+    sourceAnchor: "content/knowledge/interviews/009-daniel-ek-spotify-david-senra.md",
+    command: "/daniel-ek:impact-over-happiness",
+  },
+  // ----- Evan Spiegel -----
+  {
+    slug: "hard-to-copy",
+    figureSlug: "evan-spiegel",
+    title: "Hard to Copy",
+    tagline:
+      "There is no moat in software, so invest only in what a competitor cannot clone in a quarter.",
+    whenToUse:
+      "Use when a bigger competitor is copying you or about to, when deciding where the next quarter of engineering goes, when defending a feature list as if it were a moat, or when the roadmap is full of surface polish and nothing durable. Runs a ninety day clone test over every feature and asset, sorts what survives into network effects, owned hardware, distribution and ecosystem, or vision plus delivery record, then moves budget and headcount into the hard column.",
+    source: "Evan Spiegel in conversation with David Senra on the Founders interview show, \"Evan Spiegel, Snapchat: Building a Multi-Billion Dollar Company\"",
+    sourceAnchor: "content/knowledge/interviews/018-evan-spiegel-snapchat-building-a-multi-billion-dollar-compan.md",
+    command: "/evan-spiegel:hard-to-copy",
+  },
+  // ----- James Dyson -----
+  {
+    slug: "dogged-iteration",
+    figureSlug: "james-dyson",
+    title: "Dogged Iteration",
+    tagline:
+      "Out-persist the problem instead of trying to out-think it: one variable per prototype, every failure logged as a fact.",
+    whenToUse:
+      "Use when a hard technical or product problem has already resisted your first few clever attempts, when experts have told you it cannot work, when you keep changing several things at once and can no longer tell what helped, when a run of failures has you ready to quit, or when you are hunting for one brilliant insight to skip the grind.",
+    source: "James Dyson's autobiographies, Against the Odds and Invention: A Life of Learning Through Failure, plus his conversation with David Senra on Founders.",
+    sourceAnchor: "content/knowledge/founders/014-the-stubborn-genius-of-james-dyson.md",
+    command: "/james-dyson:dogged-iteration",
+  },
+  // ----- Brian Armstrong -----
+  {
+    slug: "mission-simplifies",
+    figureSlug: "brian-armstrong",
+    title: "Mission Simplifies the Hardest Calls",
+    tagline:
+      "Write the long-term mission down explicitly, then use it to collapse decisions that look impossible, backed by the founder's calm of knowing you could rebuild from zero.",
+    whenToUse:
+      "Use when the user is frozen on a high-stakes decision, is optimizing for short-term approval, is being pulled off-course by whatever is loudest this quarter, or is so afraid of losing what they built that they cannot act. Also use when a team has no written mission and every stakeholder effectively gets a veto.",
+    source: "Brian Armstrong in conversation with David Senra on the Founders interview show, plus Armstrong's 2020 Coinbase mission post.",
+    sourceAnchor: "content/knowledge/interviews/024-brian-armstrong-when-washington-tried-to-kill-coinbase.md",
+    command: "/brian-armstrong:mission-simplifies",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */
