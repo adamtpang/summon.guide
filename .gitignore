@@ -36,6 +36,16 @@ yarn-error.log*
 # vercel
 .vercel
 
+# knowledge corpus
+# The committed files under content/knowledge/ are the SYNTHESIS layer only:
+# frontmatter, the one-line principle, and the Key lessons digest. The verbatim
+# episode transcripts are the original creators' copyrighted work and are not
+# redistributed here. If you pull them down locally (e.g. to build embeddings
+# for semantic retrieval), keep them in these ignored paths.
+content/knowledge/**/_raw/
+content/knowledge/**/_pipeline/
+content/knowledge/_transcripts/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
