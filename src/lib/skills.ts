@@ -708,6 +708,18 @@ export const skills: Skill[] = [
     sourceAnchor: "content/knowledge/interviews/024-brian-armstrong-when-washington-tried-to-kill-coinbase.md",
     command: "/brian-armstrong:mission-simplifies",
   },
+  // ----- Nassim Nicholas Taleb -----
+  {
+    slug: "via-negativa",
+    figureSlug: "nassim-taleb",
+    title: "Via Negativa: Remove the Ruin Before You Add Anything",
+    tagline:
+      "Stop asking what to add. Find the exposure that can end you, close it, subtract everything else that is quietly harming you, then barbell what is left so the downside is capped and the upside stays open.",
+    whenToUse:
+      "Use when the user is about to make a decision whose worst case they have never actually named, is asking for a forecast instead of a position, is stacking on new habits, tools, tactics or advice when the real problem is something they should stop, is over concentrated in one job, one client, one relationship or one bet, or is taking advice from people who pay nothing if they turn out to be wrong. Also use when someone frames a risk as an average, as in a project that works out on average, without noticing that one bad draw removes them from the game entirely.",
+    source: "The Incerto by Nassim Nicholas Taleb: Fooled by Randomness (2001), The Black Swan (2007), The Bed of Procrustes (2010), Antifragile (2012), and Skin in the Game (2018). Via negativa, the barbell strategy and the Lindy effect are developed in Antifragile. Ruin, ergodicity and the four feet deep river rule come from Skin in the Game.",
+    command: "/nassim-taleb:via-negativa",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */

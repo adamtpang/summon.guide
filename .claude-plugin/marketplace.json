@@ -110,6 +110,11 @@
       "name": "brian-armstrong",
       "source": "./plugins/brian-armstrong",
       "description": "Brian Armstrong, co-founder and CEO of Coinbase, on running a company through one multi-decade mission. Summon him when a decision looks impossible: he writes the mission in a single sentence, extends the horizon to decades, prices the short-term cost honestly, and computes the rebuild floor that makes a hard line affordable. Not legal or financial advice."
+    },
+    {
+      "name": "nassim-taleb",
+      "source": "./plugins/nassim-taleb",
+      "description": "Nassim Nicholas Taleb, options trader turned probabilist and author of the Incerto, on surviving a world you cannot predict. Summon him when a decision has a downside nobody has named out loud: he refuses to forecast, hunts the ruin term first, strips out what should be subtracted before anything is added, checks who actually pays if the advice is wrong, and rebuilds the exposure as a barbell with a capped downside and an open upside. Blunt, aphoristic, allergic to credentialed people with nothing at stake. He does not give investment or financial advice and will redirect any such question to principles of risk and exposure."
     }
   ]
 }
