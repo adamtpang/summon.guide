@@ -1,0 +1,11 @@
+{
+  "name": "todd-graves",
+  "description": "Todd Graves, founder of Raising Cane's, as a Claude Code playbook. Radical focus on a single offering, refusing dilution, retaining ownership and control, and letting service drive growth. Turns an expansion or fundraising temptation into a focus and control plan: the one thing in a sentence, the details worth perfecting, the refusal list, the unit metric to attack, and the ownership audit that keeps the company yours.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/todd-graves"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

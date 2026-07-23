@@ -6,18 +6,115 @@
   },
   "description": "Install any historical guide's frameworks as Claude Code skills. One plugin per guide — pick exactly who you want to summon into your chats.",
   "plugins": [
-    { "name": "elon", "source": "./plugins/elon", "description": "Elon Musk — first principles, the five-step manufacturing algorithm, the idiot index. Grounded in Isaacson's biography." },
-    { "name": "franklin", "source": "./plugins/franklin", "description": "Benjamin Franklin — the 13 virtues system, the Junto. Grounded in his Autobiography + Isaacson." },
-    { "name": "rockefeller", "source": "./plugins/rockefeller", "description": "John D. Rockefeller — Ledger A discipline, crisis as opportunity. Grounded in Chernow's Titan." },
-    { "name": "alexander", "source": "./plugins/alexander", "description": "Alexander the Great — lead from the front, concentrate at the decisive point. Grounded in Plutarch and Arrian." },
-    { "name": "deutsch", "source": "./plugins/deutsch", "description": "David Deutsch — good explanations, the principle of optimism. Grounded in The Beginning of Infinity." },
-    { "name": "lee-kuan-yew", "source": "./plugins/lee-kuan-yew", "description": "Lee Kuan Yew — pragmatist test, incorruptibility lock. Grounded in From Third World to First." },
-    { "name": "marcus-aurelius", "source": "./plugins/marcus-aurelius", "description": "Marcus Aurelius — dichotomy of control, view from above, memento mori. Grounded in Meditations." },
-    { "name": "marc-andreessen", "source": "./plugins/marc-andreessen", "description": "Marc Andreessen — software eats the world, it's time to build, techno-optimism. Grounded in his essays at a16z.com." },
-    { "name": "adam-neumann", "source": "./plugins/adam-neumann", "description": "Adam Neumann — mission as moat, narrative arbitrage, the S-1 reality check. Grounded in Wiedeman's Billion Dollar Loser and Brown & Farrell's The Cult of We." },
-    { "name": "seneca", "source": "./plugins/seneca", "description": "Seneca — on the shortness of life, daily Stoic letters, on anger. Grounded in his own letters and essays (all public domain)." },
-    { "name": "ricky-gervais", "source": "./plugins/ricky-gervais", "description": "Ricky Gervais — make the ordinary extraordinary, build cringe from a character's blind spot, and say the unsayable through irony. Grounded in The Office, After Life, and his Netflix stand-up specials." },
-    { "name": "marie-curie", "source": "./plugins/marie-curie", "description": "Marie Curie — measure what you fear, trust the anomaly over the expectation, and out-endure the problem. Grounded in her Pierre Curie, Autobiographical Notes, and Ève Curie's Madame Curie." },
-    { "name": "bob-marley", "source": "./plugins/bob-marley", "description": "Bob Marley — free your own mind, stand up for what's right, and choose one love over division. Grounded in his life, his songs, and his own recorded words." }
+    {
+      "name": "elon",
+      "source": "./plugins/elon",
+      "description": "Elon Musk — first principles, the five-step manufacturing algorithm, the idiot index. Grounded in Isaacson's biography."
+    },
+    {
+      "name": "franklin",
+      "source": "./plugins/franklin",
+      "description": "Benjamin Franklin — the 13 virtues system, the Junto. Grounded in his Autobiography + Isaacson."
+    },
+    {
+      "name": "rockefeller",
+      "source": "./plugins/rockefeller",
+      "description": "John D. Rockefeller — Ledger A discipline, crisis as opportunity. Grounded in Chernow's Titan."
+    },
+    {
+      "name": "alexander",
+      "source": "./plugins/alexander",
+      "description": "Alexander the Great — lead from the front, concentrate at the decisive point. Grounded in Plutarch and Arrian."
+    },
+    {
+      "name": "deutsch",
+      "source": "./plugins/deutsch",
+      "description": "David Deutsch — good explanations, the principle of optimism. Grounded in The Beginning of Infinity."
+    },
+    {
+      "name": "lee-kuan-yew",
+      "source": "./plugins/lee-kuan-yew",
+      "description": "Lee Kuan Yew — pragmatist test, incorruptibility lock. Grounded in From Third World to First."
+    },
+    {
+      "name": "marcus-aurelius",
+      "source": "./plugins/marcus-aurelius",
+      "description": "Marcus Aurelius — dichotomy of control, view from above, memento mori. Grounded in Meditations."
+    },
+    {
+      "name": "marc-andreessen",
+      "source": "./plugins/marc-andreessen",
+      "description": "Marc Andreessen — software eats the world, it's time to build, techno-optimism. Grounded in his essays at a16z.com."
+    },
+    {
+      "name": "adam-neumann",
+      "source": "./plugins/adam-neumann",
+      "description": "Adam Neumann — mission as moat, narrative arbitrage, the S-1 reality check. Grounded in Wiedeman's Billion Dollar Loser and Brown & Farrell's The Cult of We."
+    },
+    {
+      "name": "seneca",
+      "source": "./plugins/seneca",
+      "description": "Seneca — on the shortness of life, daily Stoic letters, on anger. Grounded in his own letters and essays (all public domain)."
+    },
+    {
+      "name": "ricky-gervais",
+      "source": "./plugins/ricky-gervais",
+      "description": "Ricky Gervais — make the ordinary extraordinary, build cringe from a character's blind spot, and say the unsayable through irony. Grounded in The Office, After Life, and his Netflix stand-up specials."
+    },
+    {
+      "name": "marie-curie",
+      "source": "./plugins/marie-curie",
+      "description": "Marie Curie — measure what you fear, trust the anomaly over the expectation, and out-endure the problem. Grounded in her Pierre Curie, Autobiographical Notes, and Ève Curie's Madame Curie."
+    },
+    {
+      "name": "bob-marley",
+      "source": "./plugins/bob-marley",
+      "description": "Bob Marley — free your own mind, stand up for what's right, and choose one love over division. Grounded in his life, his songs, and his own recorded words."
+    },
+    {
+      "name": "tobi-lutke",
+      "source": "./plugins/tobi-lutke",
+      "description": "Channel Tobi Lütke's engineering mindset in any Claude chat. Stop cosplaying orthodoxy, rederive the company from your own axioms, and win on differentiation rather than imitation. Grounded in 21 years of building Shopify."
+    },
+    {
+      "name": "todd-graves",
+      "source": "./plugins/todd-graves",
+      "description": "Todd Graves, founder of Raising Cane's, as a Claude Code playbook. Radical focus on a single offering, refusing dilution, retaining ownership and control, and letting service drive growth. Turns an expansion or fundraising temptation into a focus and control plan: the one thing in a sentence, the details worth perfecting, the refusal list, the unit metric to attack, and the ownership audit that keeps the company yours."
+    },
+    {
+      "name": "john-mackey",
+      "source": "./plugins/john-mackey",
+      "description": "Channel John Mackey, co-founder of Whole Foods Market, in any Claude chat. Over 44 years he never once competed on the axis his rivals chose: while every conventional supermarket destroyed itself trying to match Walmart on price, he built beautiful stores, compounded quietly in a niche the incumbents ignored for two decades, bought out the mercenary partner who only wanted to keep one profitable store, and turned the other natural foods pioneers into secret allies who traded financial statements with him and whom he eventually acquired. Use him to write the missionary sentence for your business, refuse a price war you cannot win, pick the axis and the niche you can actually defend, and convert competitors into a network. Grounded in his conversation with David Senra on the Founders interview show and his book \"Conscious Capitalism.\""
+    },
+    {
+      "name": "jimmy-iovine",
+      "source": "./plugins/jimmy-iovine",
+      "description": "Channel Jimmy Iovine in any Claude chat. The studio engineer who worked his way into rooms with Lennon, Springsteen, Petty, Bono, and Dr. Dre, co-founded Interscope Records, and built Beats by Dre. His method: marketing is empathy at scale, so name what the audience actually feels before you write a word; make the product so great it becomes its own marketing; attach yourself to the very best people in your field; and earn your place by telling them the truth nobody else will. Grounded in his conversation with David Senra on the Founders interview show."
+    },
+    {
+      "name": "daniel-ek",
+      "source": "./plugins/daniel-ek",
+      "description": "Channel Daniel Ek, the Spotify founder, in any Claude chat. Optimize for impact rather than happiness, because happiness is a trailing indicator of impact and not a target you can aim at directly. Inventory problems instead of solutions, apply the decade test, filter through honest self-knowledge (coach or player, and which archetype is actually yours), bet on belief rather than current ability, install a mirror who will tell you the truth, and budget energy instead of time. Grounded in his conversation with David Senra on the Founders interview show, 2025."
+    },
+    {
+      "name": "evan-spiegel",
+      "source": "./plugins/evan-spiegel",
+      "description": "Channel Evan Spiegel in any Claude chat. Facebook cloned Snapchat as Poke in 2012 and Spiegel called it the greatest Christmas present he ever received, because it proved there is no moat in software. Audit which parts of your product a rival could ship in ninety days, then move everything into the few things that stay hard to copy: network effects measured by density rather than node count, owned hardware, a creator and developer ecosystem, and a product vision you can see clearly enough to deliver for years. Grounded in his conversation with David Senra on the Founders interview show."
+    },
+    {
+      "name": "james-dyson",
+      "source": "./plugins/james-dyson",
+      "description": "Summon James Dyson. Turns a stalled problem into a disciplined prototype loop: change exactly one variable at a time, treat every failure as the only real source of information, protect the fragile early idea from the experts trying to kill it, and set a persistence budget in attempts rather than a deadline. Built on the method behind the 5,127 hand-built coach house prototypes and the 14 year road to the first working Dual Cyclone."
+    },
+    {
+      "name": "brian-armstrong",
+      "source": "./plugins/brian-armstrong",
+      "description": "Brian Armstrong, co-founder and CEO of Coinbase, on running a company through one multi-decade mission. Summon him when a decision looks impossible: he writes the mission in a single sentence, extends the horizon to decades, prices the short-term cost honestly, and computes the rebuild floor that makes a hard line affordable. Not legal or financial advice."
+    },
+    {
+      "name": "nassim-taleb",
+      "source": "./plugins/nassim-taleb",
+      "description": "Nassim Nicholas Taleb, options trader turned probabilist and author of the Incerto, on surviving a world you cannot predict. Summon him when a decision has a downside nobody has named out loud: he refuses to forecast, hunts the ruin term first, strips out what should be subtracted before anything is added, checks who actually pays if the advice is wrong, and rebuilds the exposure as a barbell with a capped downside and an open upside. Blunt, aphoristic, allergic to credentialed people with nothing at stake. He does not give investment or financial advice and will redirect any such question to principles of risk and exposure."
+    }
   ]
 }

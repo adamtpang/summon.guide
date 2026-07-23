@@ -1,0 +1,438 @@
+{
+  "generated": "2026-07-22",
+  "count": 48,
+  "episodes": [
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/001-how-elon-works.md",
+      "title": "How Elon Works",
+      "subject": "Elon Musk",
+      "principle": "Run Elon's algorithm on everything: question every requirement, delete relentlessly, then simplify, accelerate, and automate last.",
+      "sourceBook": "Elon Musk by Walter Isaacson",
+      "youtube": "https://www.youtube.com/watch?v=aStHTTPxlis"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/002-how-jensen-works.md",
+      "title": "How Jensen Works",
+      "subject": "Jensen Huang",
+      "principle": "War on complacency: keep the organization flat, criticize in public so everyone learns, and torture yourself and your team into greatness.",
+      "sourceBook": "The Nvidia Way by Tae Kim",
+      "youtube": "https://www.youtube.com/watch?v=Sywq2Ua4GXw"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/003-how-rockefeller-worked.md",
+      "title": "How Rockefeller Worked",
+      "subject": "John D. Rockefeller",
+      "principle": "Stack advantages into a flywheel: know your numbers, own your biggest cost, keep the deepest war chest, and turn competitors into partners.",
+      "sourceBook": "John D.: The Founding Father of the Rockefellers by David Freeman Hawke",
+      "youtube": "https://www.youtube.com/watch?v=M_TiZJapSLw"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/004-john-d-rockefeller-38-letters-rockefeller-wrote-to-his-son.md",
+      "title": "John D  Rockefeller: 38 Letters Rockefeller Wrote to His Son",
+      "subject": "John D. Rockefeller",
+      "principle": "Belief comes before ability: destiny is determined by your actions, not your origins — build what you're proud of and never make excuses.",
+      "sourceBook": "The 38 Letters from J.D. Rockefeller to His Son by John D. Rockefeller",
+      "youtube": "https://www.youtube.com/watch?v=wLWBzHbD9jg"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/005-the-billionaire-who-automates-everything-thomas-peterffy.md",
+      "title": "The Billionaire Who Automates Everything: Thomas Peterffy",
+      "subject": "Thomas Peterffy",
+      "principle": "Automate everything so the business runs on math, not intuition, and route around every arbitrary rule between you and growth.",
+      "sourceBook": "Colossus Review profile of Thomas Peterffy by Dom Cook",
+      "youtube": "https://www.youtube.com/watch?v=Q5WIv9vGKpA"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/006-how-bill-gates-works.md",
+      "title": "How Bill Gates Works",
+      "subject": "Bill Gates",
+      "principle": "Build a business that fits your innate talents, then win through fanatical focus, ruthless cost control, and decades of endurance.",
+      "sourceBook": "Source Code: My Beginnings by Bill Gates (with notes from Hard Drive, Overdrive, Idea Man, and In the Company of Giants)",
+      "youtube": "https://www.youtube.com/watch?v=IMXm123V3Co"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/007-steve-jobs-in-his-own-words-make-something-wonderful.md",
+      "title": "Steve Jobs In His Own Words (Make Something Wonderful)",
+      "subject": "Steve Jobs",
+      "principle": "Life is short and the world is malleable, so impose rigor on yourself and make something wonderful that advances human progress.",
+      "sourceBook": "Make Something Wonderful: Steve Jobs in His Own Words (The Steve Jobs Archive)",
+      "youtube": "https://www.youtube.com/watch?v=zGEOQ6I2Sv4"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/008-peter-thiel-on-how-to-build-a-creative-monopoly.md",
+      "title": "Peter Thiel on How to Build a Creative Monopoly",
+      "subject": "Peter Thiel",
+      "principle": "Go from zero to one by building a creative monopoly no one can copy, not by competing in an existing market; think for yourself.",
+      "sourceBook": "Zero to One: Notes on Startups, or How to Build the Future by Peter Thiel and Blake Masters",
+      "youtube": "https://www.youtube.com/watch?v=b9tB9Q1XOM0"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/009-how-elon-thinks.md",
+      "title": "How Elon Thinks",
+      "subject": "Elon Musk",
+      "principle": "Reason from physics and first principles, not analogy; be useful, delete relentlessly, and endure the pain the mission demands.",
+      "sourceBook": "The Book of Elon: Elon Musk's Most Useful Ideas in His Own Words by Eric Jorgenson",
+      "youtube": "https://www.youtube.com/watch?v=nqiuSshC9GA"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/010-how-larry-ellison-thinks.md",
+      "title": "How Larry Ellison Thinks",
+      "subject": "Larry Ellison",
+      "principle": "You can't get rich doing what everyone else does: pick a contrarian bet, burn the boats, obsess over costs, and engineer every process.",
+      "sourceBook": "Softwar: An Intimate Portrait of Larry Ellison and Oracle by Matthew Symonds",
+      "youtube": "https://www.youtube.com/watch?v=z__KpHVSglE"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/011-400-pages-of-warren-buffett-and-charlie-munger-in-their-own-.md",
+      "title": "400 Pages of Warren Buffett and Charlie Munger In Their Own Words",
+      "subject": "Warren Buffett and Charlie Munger",
+      "principle": "Think in opportunity costs, concentrate on a few wonderful businesses you understand, and let focus and compounding do the work.",
+      "sourceBook": "Buffett and Munger Unscripted: Three Decades of Investment and Business Insights from the Berkshire Hathaway Shareholder Meetings by Alex Morris",
+      "youtube": "https://www.youtube.com/watch?v=t47NBQqlzbk"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/012-how-spacex-works.md",
+      "title": "How SpaceX Works",
+      "subject": "SpaceX",
+      "principle": "Atoms are cheap, process is pricey: redesign the whole stack around cost and validate it with fast, failure-driven iteration.",
+      "sourceBook": "Atoms Are Cheap, Process Is Pricey — essay by Max Olson, from the forthcoming book SpaceX Foundation",
+      "youtube": "https://www.youtube.com/watch?v=owZ6xh_gOdY"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/013-lessons-from-jeff-bezoss-shareholder-letters.md",
+      "title": "Lessons from Jeff Bezos's Shareholder Letters",
+      "subject": "Jeff Bezos",
+      "principle": "Obsess over customers and think in decades; patient invention compounds into free cash flow and a franchise rivals cannot copy.",
+      "sourceBook": "Jeff Bezos's Amazon shareholder letters (collected in Invent and Wander: The Collected Writings of Jeff Bezos)",
+      "youtube": "https://www.youtube.com/watch?v=zt9e6vVBdP4"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/014-the-stubborn-genius-of-james-dyson.md",
+      "title": "The Stubborn Genius of James Dyson",
+      "subject": "James Dyson",
+      "principle": "Demand difference and retain total control, then out-persist everyone: determination, not cleverness, is what builds a real breakthrough.",
+      "sourceBook": "Against the Odds and Invention: A Life of Learning Through Failure (James Dyson's two autobiographies)",
+      "youtube": "https://www.youtube.com/watch?v=hagy0fhiPpY"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/015-li-lu-and-charlie-munger-and-warren-buffett.md",
+      "title": "Li Lu and Charlie Munger and Warren Buffett",
+      "subject": "Li Lu",
+      "principle": "Do one thing you love well, then concentrate: buy wonderful businesses cheaply and bet big on your few best ideas, the way Munger taught.",
+      "sourceBook": "Li Lu's lectures, interviews, and writings (incl. his foreword to Poor Charlie's Almanack)",
+      "youtube": "https://www.youtube.com/watch?v=8TnhiapOfpE"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/016-how-roger-federer-works.md",
+      "title": "How Roger Federer Works.",
+      "subject": "Roger Federer",
+      "principle": "Play the long game: master your emotions, build a team you fully trust, and compound excellence over decades, not seasons.",
+      "sourceBook": "The Master: The Long Run and the Beautiful Game of Roger Federer by Christopher Clarey",
+      "youtube": "https://www.youtube.com/watch?v=g2-duG1-Jxc"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/017-napoleon-the-mind-of-napoleon.md",
+      "title": "Napoleon (The Mind of Napoleon)",
+      "subject": "Napoleon Bonaparte",
+      "principle": "Fix your destiny, then bend the world to it with relentless action; plan timidly by imagining every danger, then act with total boldness.",
+      "sourceBook": "The Mind of Napoleon: A Selection of His Written and Spoken Words (edited by J. Christopher Herold)",
+      "youtube": "https://www.youtube.com/watch?v=AuRDLXuLZE8"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/018-the-life-of-jesus.md",
+      "title": "The Life of Jesus",
+      "subject": "Jesus",
+      "principle": "Lead an inward revolution of love and self-transformation, winning people through reason and example rather than spectacle or force.",
+      "sourceBook": "Jesus: A Biography from a Believer (by Paul Johnson)",
+      "youtube": "https://www.youtube.com/watch?v=F1lmA_bYZow"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/019-rockefellers-autobiography.md",
+      "title": "Rockefeller's Autobiography",
+      "subject": "John D. Rockefeller",
+      "principle": "Be brutally honest with your numbers, keep a fortress of cash, and compound first-class decisions with partners you keep for decades.",
+      "sourceBook": "Random Reminiscences of Men and Events (by John D. Rockefeller)",
+      "youtube": "https://www.youtube.com/watch?v=seMvuxRct1Q"
+    },
+    {
+      "set": "founders-podcast",
+      "file": "content/knowledge/founders/020-how-steve-jobs-kept-things-simple.md",
+      "title": "How Steve Jobs Kept Things Simple",
+      "subject": "Steve Jobs",
+      "principle": "Wield simplicity as a weapon: blunt talk, small teams, one message per idea, and attack markets full of complex, second-rate products.",
+      "sourceBook": "Insanely Simple: The Obsession That Drives Apple's Success (by Ken Segall)",
+      "youtube": "https://www.youtube.com/watch?v=Mf8MZ8Iy8sE"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/001-rick-rubin-on-finding-your-life-s-work.md",
+      "title": "Rick Rubin on Finding Your Life’s Work",
+      "subject": "Rick Rubin",
+      "principle": "Strip a work down until only its essential magic remains, then protect that fragile moment instead of thinking it to death.",
+      "sourceBook": "Def Jam Recordings, Tetragrammaton",
+      "youtube": "https://www.youtube.com/watch?v=g6MEDOY7tHo"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/002-the-man-behind-grand-theft-auto-6-strauss-zelnick.md",
+      "title": "The Man Behind Grand Theft Auto 6: Strauss Zelnick",
+      "subject": "Strauss Zelnick",
+      "principle": "Sustained success comes from being rational over decades and serving creative talent — hits are unexpected and can't be manufactured.",
+      "sourceBook": "Take-Two Interactive",
+      "youtube": "https://www.youtube.com/watch?v=1ZgUcrR0K7I"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/003-marc-andreessen-the-world-is-more-malleable-than-you-think.md",
+      "title": "Marc Andreessen: The World Is More Malleable Than You Think",
+      "subject": "Marc Andreessen",
+      "principle": "The world is far more malleable than it looks — determined founders thinking from first principles can bend reality to their will.",
+      "sourceBook": "Andreessen Horowitz, Netscape",
+      "youtube": "https://www.youtube.com/watch?v=qBVe3M2g_SA"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/004-james-dyson-5-127-prototypes.md",
+      "title": "James Dyson: 5,127 Prototypes",
+      "subject": "James Dyson",
+      "principle": "Progress comes from doggedness, not cleverness — treat failure as the most interesting teacher and iterate relentlessly until it works.",
+      "sourceBook": "Dyson",
+      "youtube": "https://www.youtube.com/watch?v=Se64B8TKfjA"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/005-how-elon-thinks.md",
+      "title": "How Elon Thinks",
+      "subject": "Eric Jorgenson",
+      "principle": "Attack problems the future needs solved, reason from first principles, and treat time as the only true currency.",
+      "sourceBook": "Scribe Media (author of The Book of Elon)",
+      "youtube": "https://www.youtube.com/watch?v=CdBcZSau5iA"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/006-jimmy-iovine-building-interscope-records-beats-by-dre.md",
+      "title": "Jimmy Iovine: Building Interscope Records & Beats by Dre",
+      "subject": "Jimmy Iovine",
+      "principle": "Marketing is empathy at scale; win by attaching yourself to the very best people and telling them the brutal truth.",
+      "sourceBook": "Interscope Records, Beats by Dre",
+      "youtube": "https://www.youtube.com/watch?v=niqahsc9jfo"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/007-jason-fried-your-only-competition-is-your-costs.md",
+      "title": "Jason Fried: Your Only Competition Is Your Costs",
+      "subject": "Jason Fried",
+      "principle": "Your only competition is your costs: keep them low enough that a few customers are enough, and stay independent.",
+      "sourceBook": "37signals (Basecamp, HEY, ONCE)",
+      "youtube": "https://www.youtube.com/watch?v=BdDCtMA1gSw"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/008-dana-white-the-man-behind-the-ufc.md",
+      "title": "Dana White: The Man Behind the UFC",
+      "subject": "Dana White",
+      "principle": "Own your content and its story, keep no Plan B, and let loyalty, not middlemen, build the empire.",
+      "sourceBook": "UFC",
+      "youtube": "https://www.youtube.com/watch?v=35IY2ILCAio"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/009-daniel-ek-spotify-david-senra.md",
+      "title": "Daniel Ek, Spotify | David Senra",
+      "subject": "Daniel Ek",
+      "principle": "Optimize for impact over happiness; happiness is a trailing indicator of impact, and greatness requires building a company true to yourself.",
+      "sourceBook": "Spotify",
+      "youtube": "https://www.youtube.com/watch?v=qiXH0y2V3_8"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/010-ivanka-trump-on-building-an-authentic-life.md",
+      "title": "Ivanka Trump on Building an Authentic Life",
+      "subject": "Ivanka Trump",
+      "principle": "Know who you are before you build; a life and company authentic to you escapes competition and is the least replicable thing you can make.",
+      "sourceBook": "Planet Harvest, Alexandria AI (formerly the Trump Organization)",
+      "youtube": "https://www.youtube.com/watch?v=VhsiMd9ZFNk"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/011-tobi-l-tke-21-years-of-building-shopify.md",
+      "title": "Tobi Lütke: 21 Years of Building Shopify",
+      "subject": "Tobi Lütke",
+      "principle": "Don't cosplay orthodoxy — build from your own axioms and intuition; differentiation, not imitation, is the only path to excellence.",
+      "sourceBook": "Shopify",
+      "youtube": "https://www.youtube.com/watch?v=ZSM2uFnJ5bs"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/012-how-brad-jacobs-built-8-billion-dollar-companies.md",
+      "title": "How Brad Jacobs Built 8 Billion-Dollar Companies",
+      "subject": "Brad Jacobs",
+      "principle": "Treat problems as opportunities, get the major trend right, hire people smarter than you, and repeat one disciplined playbook everywhere.",
+      "sourceBook": "QXO, XPO, United Rentals, United Waste",
+      "youtube": "https://www.youtube.com/watch?v=3WXZg4_xcGs"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/013-the-marketing-genius-of-steve-stoute.md",
+      "title": "The Marketing Genius of Steve Stoute",
+      "subject": "Steve Stoute",
+      "principle": "Run toward the unknown when it beats the known, and give creators ownership: if artists knew their fans, they wouldn't need a label.",
+      "sourceBook": "Translation, UnitedMasters",
+      "youtube": "https://www.youtube.com/watch?v=kpgn7DCiJPE"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/014-tony-xu-of-doordash-surviving-1-000-days-of-startup-hell.md",
+      "title": "Tony Xu of DoorDash: Surviving 1,000 Days of Startup Hell",
+      "subject": "Tony Xu",
+      "principle": "The data you can't see is what kills you: do the work yourself, run relentless experiments, and control what you can control.",
+      "sourceBook": "DoorDash",
+      "youtube": "https://www.youtube.com/watch?v=a8LWEMD9VJA"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/015-michael-dell-dell-technologies-david-senra.md",
+      "title": "Michael Dell, Dell Technologies | David Senra",
+      "subject": "Michael Dell",
+      "principle": "Take things apart until you understand them: curiosity finds the structural cost edge, and belief comes before ability.",
+      "sourceBook": "Dell Technologies",
+      "youtube": "https://www.youtube.com/watch?v=9WSsLSq40Yw"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/016-building-pixar-working-with-steve-jobs-and-cultivating-creat.md",
+      "title": "Building Pixar, Working With Steve Jobs, and Cultivating Creativity | Ed Catmull",
+      "subject": "Ed Catmull",
+      "principle": "Put the problem, never who's right, at the center: candor works only when you strip authority from feedback and manage the room's dynamics.",
+      "sourceBook": "Pixar, Disney Animation",
+      "youtube": "https://www.youtube.com/watch?v=6ffhW9WAUv0"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/017-caa-co-founder-michael-ovitz-failure-is-not-an-option.md",
+      "title": "CAA Co-founder Michael Ovitz: Failure Is Not an Option",
+      "subject": "Michael Ovitz",
+      "principle": "Your edge is frame of reference—a lifetime of meetings and outcomes; compound it with integrity, follow-up, and refusing to fail.",
+      "sourceBook": "Creative Artists Agency (CAA)",
+      "youtube": "https://www.youtube.com/watch?v=yhh-J0zVsik"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/018-evan-spiegel-snapchat-building-a-multi-billion-dollar-compan.md",
+      "title": "Evan Spiegel, Snapchat: Building a Multi-Billion Dollar Company",
+      "subject": "Evan Spiegel",
+      "principle": "No moat exists in software, so invest only in what is hard to copy—network effects, owned hardware, and a clear product vision.",
+      "sourceBook": "Snap Inc. (Snapchat)",
+      "youtube": "https://www.youtube.com/watch?v=Sr6n-9mzYnk"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/019-how-todd-graves-built-raising-canes.md",
+      "title": "How Todd Graves Built Raising Cane's",
+      "subject": "Todd Graves",
+      "principle": "Do one thing better than anyone and keep control of your baby; the distracted never beat the focused, and money follows service.",
+      "sourceBook": "Raising Cane's",
+      "youtube": "https://www.youtube.com/watch?v=B5rRIdQKB0A"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/020-the-future-of-software-ai-cognition-s-scott-wu.md",
+      "title": "The Future of Software & AI | Cognition’s Scott Wu",
+      "subject": "Scott Wu",
+      "principle": "A startup has no right to win except by a concentrated first-principles bet on the future, run like hell—and a refusal to sell.",
+      "sourceBook": "Cognition (Devin)",
+      "youtube": "https://www.youtube.com/watch?v=PYobZzjW_ic"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/021-bootstrapping-a-business-to-5-billion-in-free-cash-flow-appl.md",
+      "title": "Bootstrapping a Business to $5 Billion in Free Cash Flow | AppLovin’s Adam Foroughi",
+      "subject": "Adam Foroughi",
+      "principle": "Ruthless efficiency—a few A-players plus a product that makes customers measurably richer—beats VC money, headcount, and a sales force.",
+      "sourceBook": "AppLovin",
+      "youtube": "https://www.youtube.com/watch?v=SCBFXL_Sn44"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/022-my-conversation-with-patrick-oshaughnessy-founder-of-colossu.md",
+      "title": "My Conversation With Patrick O'Shaughnessy, Founder of Colossus & Positive Sum | David Senra",
+      "subject": "Patrick O'Shaughnessy",
+      "principle": "Betting on talented people before the world does is the highest-return act; grow without goals and run on clean fuel, not resentment.",
+      "sourceBook": "Colossus & Positive Sum",
+      "youtube": "https://www.youtube.com/watch?v=E8B-P1oGuz4"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/023-john-mackey-44-years-of-building-whole-foods.md",
+      "title": "John Mackey: 44 Years of Building Whole Foods",
+      "subject": "John Mackey",
+      "principle": "Build as a missionary, not a mercenary—never fight the low-cost rival on price, compound in your niche, and turn competitors into allies.",
+      "sourceBook": "Whole Foods Market",
+      "youtube": "https://www.youtube.com/watch?v=U8zqsiePKsg"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/024-brian-armstrong-when-washington-tried-to-kill-coinbase.md",
+      "title": "Brian Armstrong: When Washington Tried to Kill Coinbase",
+      "subject": "Brian Armstrong",
+      "principle": "A long-term mission simplifies the hardest calls—even suing your regulator—and a founder's edge is knowing he could rebuild from scratch.",
+      "sourceBook": "Coinbase",
+      "youtube": "https://www.youtube.com/watch?v=WcrPOElyjiI"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/025-from-near-death-to-a-20b-nvidia-deal-jonathan-ross-groq.md",
+      "title": "From Near Death to a $20B NVIDIA Deal | Jonathan Ross, Groq",
+      "subject": "Jonathan Ross",
+      "principle": "Faster inference makes AI models smarter, and leaders move faster by declaring intent rather than asking opinions and inviting pessimism.",
+      "sourceBook": "Groq",
+      "youtube": "https://www.youtube.com/watch?v=hwY4bfZN8E8"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/026-roblox-s-david-baszucki-built-the-biggest-playground-on-eart.md",
+      "title": "Roblox’s David Baszucki Built the Biggest Playground on Earth",
+      "subject": "David Baszucki",
+      "principle": "Build a perpetual motion machine: a closed-loop system where users become creators and an owned economy compounds virally for decades.",
+      "sourceBook": "Roblox",
+      "youtube": "https://www.youtube.com/watch?v=osuOwvEhVfQ"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/027-the-company-apple-couldnt-kill-spotify-co-ceo-gustav-s-derst.md",
+      "title": "The Company Apple Couldn't Kill | Spotify Co-CEO Gustav Söderström",
+      "subject": "Gustav Söderström",
+      "principle": "Optimize for time well spent: prioritize the user over engagement metrics, and be great at the one thing that matters, average at the rest.",
+      "sourceBook": "Spotify",
+      "youtube": "https://www.youtube.com/watch?v=qYnVDIgZxlI"
+    },
+    {
+      "set": "david-senra-conversations",
+      "file": "content/knowledge/interviews/028-the-44-billion-company-building-self-driving-money-eric-glym.md",
+      "title": "The $44 Billion Company Building Self-Driving Money | Eric Glyman, Ramp",
+      "subject": "Eric Glyman",
+      "principle": "Invert your industry: help customers spend less money and time, not more, and run every process through question, simplify, then automate.",
+      "sourceBook": "Ramp",
+      "youtube": "https://www.youtube.com/watch?v=lbGX3cbvMI4"
+    }
+  ]
+}

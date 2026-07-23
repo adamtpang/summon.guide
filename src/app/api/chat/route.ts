@@ -1,6 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { anthropicClient } from "@/lib/anthropic";
 import { getFigure, AI_CONFIG } from "@/lib/figures";
+import { buildGroundingBlock } from "@/lib/figureSources";
 import { NextRequest } from "next/server";
 
 // API key (metered credits) by default, or a Claude subscription OAuth token
@@ -15,10 +16,22 @@ export async function POST(req: NextRequest) {
     return Response.json({ error: "Figure not found" }, { status: 404 });
   }
 
+  // Ground the figure in the real corpus. buildGroundingBlock returns the
+  // figure's documented record (principle + Key lessons per episode, plus the
+  // exact citation string to use) so RESPONSE_RULES' [Source: ...] citations
+  // point at actual files in content/knowledge/. Figures with no corpus
+  // coverage get "" and simply run on their system prompt, as before.
+  const grounding = buildGroundingBlock(figure.slug);
+  const systemText = grounding
+    ? `${figure.systemPrompt}\n\n${grounding}`
+    : figure.systemPrompt;
+
   // The per-figure system prompt is ~4K tokens (biographical context +
-  // knowledge base + response rules). It is identical across every turn of
-  // a conversation, so we cache it as the prefix and pay full price only on
-  // the first turn. Cache reads bill at ~10% of input price.
+  // knowledge base + response rules), plus up to ~1.7K of grounding. It is
+  // identical across every turn of a conversation, so we cache it as the
+  // prefix and pay full price only on the first turn. Cache reads bill at
+  // ~10% of input price. Keeping the grounding inside this same cached block
+  // is why it costs almost nothing after the first turn.
   // See https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching
   const stream = anthropic.messages.stream({
     model: AI_CONFIG.model,
@@ -26,7 +39,7 @@ export async function POST(req: NextRequest) {
     system: [
       {
         type: "text",
-        text: figure.systemPrompt,
+        text: systemText,
         cache_control: { type: "ephemeral" },
       },
     ],

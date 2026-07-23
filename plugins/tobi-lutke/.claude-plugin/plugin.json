@@ -1,0 +1,11 @@
+{
+  "name": "tobi-lutke",
+  "description": "Channel Tobi Lütke's engineering mindset in any Claude chat. Stop cosplaying orthodoxy, rederive the company from your own axioms, and win on differentiation rather than imitation. Grounded in 21 years of building Shopify.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/tobi-lutke"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}
