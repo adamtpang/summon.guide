@@ -1,5 +1,5 @@
 import { figures, getFigure } from "@/lib/figures";
-import { skills, skillGithubUrl } from "@/lib/skills";
+import { skills, skillGithubUrl, skillsByTheme, THEMES } from "@/lib/skills";
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
@@ -28,6 +28,11 @@ export default function SkillsIndex() {
       skills: skills.filter((s) => s.figureSlug === figure.slug),
     }))
     .filter((g) => g.skills.length > 0);
+
+  // People arrive with a problem, not with the name of a framework, so the
+  // library is also browsable by what is wrong. Themes with no skills are
+  // omitted; within a theme, skills whose PRIMARY theme it is come first.
+  const byTheme = skillsByTheme();
 
   return (
     <main className="min-h-screen bg-warm-50 text-ink-950">
@@ -108,6 +113,63 @@ export default function SkillsIndex() {
               </a>{" "}
               — Sahil did this for one book; we do it for one guide at a time.
             </p>
+          </div>
+        </section>
+
+        {/* Browse by problem — the entry point for someone who knows what is
+            wrong but not who to ask. */}
+        <section className="mb-16" id="by-problem">
+          <div className="mb-6 pb-4 border-b border-warm-200">
+            <h2 className="text-xl md:text-2xl font-serif font-medium text-ink-950 leading-tight">
+              Start with the problem
+            </h2>
+            <p className="text-warm-500 text-sm mt-1.5">
+              You arrive with a problem, not with the name of a framework. Pick
+              what is wrong and the library narrows to the playbooks that
+              answer it.
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            {byTheme.map(({ theme, skills: themeSkills }) => (
+              <div key={theme}>
+                <div className="flex items-baseline gap-3 mb-3">
+                  <h3 className="font-serif text-lg text-ink-950 capitalize">
+                    {theme}
+                  </h3>
+                  <span className="text-warm-400 text-xs">
+                    {THEMES[theme]}
+                  </span>
+                  <span className="text-warm-300 text-xs ml-auto tabular-nums">
+                    {themeSkills.length}
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {themeSkills.map((skill) => {
+                    const owner = getFigure(skill.figureSlug);
+                    return (
+                      <a
+                        key={`${skill.figureSlug}:${skill.slug}`}
+                        href={skillGithubUrl(skill.figureSlug, skill.slug)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={skill.problemHint || skill.whenToUse}
+                        className="group inline-flex items-baseline gap-2 border border-warm-200 hover:border-ink-950 rounded-lg px-3 py-2 bg-white transition-colors"
+                      >
+                        <span className="font-mono text-[11px] text-warm-500 group-hover:text-ink-950 transition-colors">
+                          {skill.command}
+                        </span>
+                        {owner && (
+                          <span className="text-[11px] text-warm-400">
+                            {owner.name}
+                          </span>
+                        )}
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
           </div>
         </section>
 

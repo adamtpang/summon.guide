@@ -40,12 +40,48 @@ export interface Skill {
   /** marks the per-guide umbrella skill (slug === figureSlug). The umbrella
    *  channels the full mindset; non-umbrella skills are specific frameworks. */
   umbrella?: boolean;
+  /** life-problem themes this skill answers, most relevant first. The first
+   *  entry is the skill's primary home in the library. See THEMES. */
+  themes?: Theme[];
+  /** one line in the USER's voice describing the moment they'd need this.
+   *  Feeds the router, and reads better than a feature description. */
+  problemHint?: string;
 }
+
+/**
+ * The life-problem taxonomy. A person arrives with a problem, not with the
+ * name of a framework, so the library is organised by what is wrong rather
+ * than by who said it.
+ */
+export const THEMES = {
+  deciding: "hard calls, decisions under uncertainty, choosing between options",
+  starting: "beginning something, validating an idea, the first version",
+  focus: "attention, saying no, cutting scope, prioritization",
+  money: "pricing, capital, unit economics, cost discipline",
+  selling: "persuasion, customers, deals, negotiation",
+  building: "product, craft, engineering, making the thing",
+  marketing: "positioning, brand, attention, messaging",
+  leading: "teams, hiring, culture, managing people",
+  persisting: "failure, setbacks, endurance, rejection",
+  thinking: "mental models, first principles, learning, clear reasoning",
+  risk: "fragility, downside, ruin, protecting yourself",
+  growth: "scaling, distribution, compounding, going bigger",
+  meaning: "purpose, happiness, life direction, what matters",
+  conflict: "adversaries, criticism, hard conversations, standing your ground",
+  self: "discipline, habits, character, self-command",
+} as const;
+
+export type Theme = keyof typeof THEMES;
+
+export const ALL_THEMES = Object.keys(THEMES) as Theme[];
 
 export const skills: Skill[] = [
   // ───── Rockefeller ─────
   {
     slug: "rockefeller",
+    themes: ["money","self","risk"],
+    problemHint:
+      "Money keeps coming in but I have no system and no idea if any of it is actually profit.",
     figureSlug: "rockefeller",
     title: "Channel Rockefeller",
     tagline:
@@ -58,6 +94,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "ledger",
+    themes: ["money","self"],
+    problemHint:
+      "I have no idea where my money actually goes each month.",
     figureSlug: "rockefeller",
     title: "Ledger A Discipline",
     tagline:
@@ -70,6 +109,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "crisis",
+    themes: ["risk","money","growth"],
+    problemHint:
+      "Everything is crashing and I cannot tell if I should hide or start buying.",
     figureSlug: "rockefeller",
     title: "Crisis as Opportunity",
     tagline:
@@ -84,6 +126,9 @@ export const skills: Skill[] = [
   // ───── Franklin ─────
   {
     slug: "franklin",
+    themes: ["self","selling","leading"],
+    problemHint:
+      "I keep saying I will get my act together and then nothing actually changes.",
     figureSlug: "franklin",
     title: "Channel Franklin",
     tagline:
@@ -96,6 +141,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "thirteen-virtues",
+    themes: ["self"],
+    problemHint:
+      "I know exactly which habit is wrecking me and I still cannot make the fix stick.",
     figureSlug: "franklin",
     title: "13 Virtues System",
     tagline:
@@ -108,6 +156,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "junto",
+    themes: ["leading","self"],
+    problemHint:
+      "Nobody around me pushes me and I want a real circle of people who do.",
     figureSlug: "franklin",
     title: "Build a Junto",
     tagline:
@@ -122,6 +173,9 @@ export const skills: Skill[] = [
   // ───── Elon ─────
   {
     slug: "elon",
+    themes: ["building","thinking","focus"],
+    problemHint:
+      "I was told this takes a year and costs a fortune and I do not believe it.",
     figureSlug: "elon",
     title: "Channel Elon",
     tagline:
@@ -134,6 +188,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "first-principles",
+    themes: ["thinking","money"],
+    problemHint:
+      "The vendor says this is just what it costs and I want to know if that is true.",
     figureSlug: "elon",
     title: "First-Principles Reasoning",
     tagline:
@@ -146,6 +203,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "five-step-algorithm",
+    themes: ["building","focus"],
+    problemHint:
+      "Our process has grown into a monster and everything takes three times longer than it should.",
     figureSlug: "elon",
     title: "Five-Step Algorithm",
     tagline:
@@ -158,6 +218,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "idiot-index",
+    themes: ["money","deciding"],
+    problemHint:
+      "This part costs way more than the material inside it and I want to know why.",
     figureSlug: "elon",
     title: "The Idiot Index",
     tagline:
@@ -172,6 +235,9 @@ export const skills: Skill[] = [
   // ───── Alexander ─────
   {
     slug: "alexander",
+    themes: ["leading","focus","conflict"],
+    problemHint:
+      "I am leading people into something genuinely hard and I am not sure they will follow me.",
     figureSlug: "alexander",
     title: "Channel Alexander",
     tagline:
@@ -184,6 +250,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "lead-from-front",
+    themes: ["leading"],
+    problemHint:
+      "I am about to ask my team for a big sacrifice and I know it will sound hollow coming from me.",
     figureSlug: "alexander",
     title: "Lead From the Front",
     tagline:
@@ -197,6 +266,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "decisive-point",
+    themes: ["focus","conflict"],
+    problemHint:
+      "I am fighting on five fronts at once and slowly losing all of them.",
     figureSlug: "alexander",
     title: "Concentrate at the Decisive Point",
     tagline:
@@ -211,6 +283,9 @@ export const skills: Skill[] = [
   // ───── Deutsch ─────
   {
     slug: "deutsch",
+    themes: ["thinking","persisting"],
+    problemHint:
+      "Someone gave me an explanation that sounds smart and I cannot tell if it is real.",
     figureSlug: "deutsch",
     title: "Channel Deutsch",
     tagline:
@@ -223,6 +298,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "good-explanations",
+    themes: ["thinking","deciding"],
+    problemHint:
+      "Two people gave me opposite theories and both of them sound convincing.",
     figureSlug: "deutsch",
     title: "Hard-to-Vary Explanations",
     tagline:
@@ -235,6 +313,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "principle-of-optimism",
+    themes: ["persisting","thinking"],
+    problemHint:
+      "Everyone keeps telling me this problem is just unsolvable and I am starting to believe them.",
     figureSlug: "deutsch",
     title: "The Principle of Optimism",
     tagline:
@@ -249,6 +330,9 @@ export const skills: Skill[] = [
   // ───── Lee Kuan Yew ─────
   {
     slug: "lee-kuan-yew",
+    themes: ["leading","thinking","deciding"],
+    problemHint:
+      "We are arguing about principles when I just want to know what will actually work.",
     figureSlug: "lee-kuan-yew",
     title: "Channel Lee Kuan Yew",
     tagline:
@@ -261,6 +345,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "pragmatist-test",
+    themes: ["thinking","deciding"],
+    problemHint:
+      "This debate turned into ideology and nobody is asking whether the thing works.",
     figureSlug: "lee-kuan-yew",
     title: "The Pragmatist Test",
     tagline:
@@ -273,6 +360,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "incorruptibility",
+    themes: ["leading","risk"],
+    problemHint:
+      "People here quietly bend the rules and I do not know how to stop it without a witch hunt.",
     figureSlug: "lee-kuan-yew",
     title: "The Incorruptibility Lock",
     tagline:
@@ -287,6 +377,9 @@ export const skills: Skill[] = [
   // ───── Marcus Aurelius ─────
   {
     slug: "marcus-aurelius",
+    themes: ["self","meaning","persisting"],
+    problemHint:
+      "I am anxious about things I cannot control and it is eating my whole day.",
     figureSlug: "marcus-aurelius",
     title: "Channel Marcus Aurelius",
     tagline:
@@ -299,6 +392,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "dichotomy-of-control",
+    themes: ["self","persisting"],
+    problemHint:
+      "I keep replaying something in my head that I cannot do anything about.",
     figureSlug: "marcus-aurelius",
     title: "The Dichotomy of Control",
     tagline:
@@ -311,6 +407,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "view-from-above",
+    themes: ["self","meaning"],
+    problemHint:
+      "Something small happened and it feels like the end of the world.",
     figureSlug: "marcus-aurelius",
     title: "The View From Above",
     tagline:
@@ -323,6 +422,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "memento-mori",
+    themes: ["focus","meaning"],
+    problemHint:
+      "I am spending my best hours on things that will not matter in a year.",
     figureSlug: "marcus-aurelius",
     title: "Memento Mori as a Priority Filter",
     tagline:
@@ -337,6 +439,9 @@ export const skills: Skill[] = [
   // ───── Marc Andreessen ─────
   {
     slug: "marc-andreessen",
+    themes: ["building","starting","thinking"],
+    problemHint:
+      "I want to build something big and I cannot decide where to point it.",
     figureSlug: "marc-andreessen",
     title: "Channel Marc Andreessen",
     tagline:
@@ -349,6 +454,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "software-eats-the-world",
+    themes: ["starting","thinking","growth"],
+    problemHint:
+      "This industry feels ancient and slow and I want to know if it is actually takeable.",
     figureSlug: "marc-andreessen",
     title: "Software Eats the World",
     tagline:
@@ -361,6 +469,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "its-time-to-build",
+    themes: ["starting","building"],
+    problemHint:
+      "I have been researching and complaining for months and I still have not built anything.",
     figureSlug: "marc-andreessen",
     title: "It's Time to Build",
     tagline:
@@ -372,6 +483,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "techno-optimism",
+    themes: ["deciding","thinking"],
+    problemHint:
+      "Everyone around me says this is too risky to try and I think they are just scared.",
     figureSlug: "marc-andreessen",
     title: "Techno-Optimism as an Operating Philosophy",
     tagline:
@@ -386,6 +500,9 @@ export const skills: Skill[] = [
   // ───── Adam Neumann ─────
   {
     slug: "adam-neumann",
+    themes: ["marketing","money","risk"],
+    problemHint:
+      "My story is way ahead of my numbers and I am not sure how long that can last.",
     figureSlug: "adam-neumann",
     title: "Channel Adam Neumann",
     tagline:
@@ -399,6 +516,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "mission-as-moat",
+    themes: ["marketing","selling"],
+    problemHint:
+      "My product is basically the same as everyone else's and I need a reason people pick me.",
     figureSlug: "adam-neumann",
     title: "Mission as Moat",
     tagline:
@@ -411,6 +531,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "narrative-arbitrage",
+    themes: ["money","selling","risk"],
+    problemHint:
+      "I am raising on a vision because the numbers are not there yet.",
     figureSlug: "adam-neumann",
     title: "Narrative Arbitrage in Fundraising",
     tagline:
@@ -423,6 +546,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "s1-reality-check",
+    themes: ["money","risk"],
+    problemHint:
+      "If a stranger read my actual numbers I do not think the story would survive.",
     figureSlug: "adam-neumann",
     title: "The S-1 Reality Check",
     tagline:
@@ -438,6 +564,9 @@ export const skills: Skill[] = [
   // ───── Seneca ─────
   {
     slug: "seneca",
+    themes: ["self","meaning"],
+    problemHint:
+      "I am busy every single day and somehow have nothing to show for the year.",
     figureSlug: "seneca",
     title: "Channel Seneca",
     tagline:
@@ -450,6 +579,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "on-the-shortness-of-life",
+    themes: ["meaning","focus"],
+    problemHint:
+      "Another year went by and I cannot say what I spent it on.",
     figureSlug: "seneca",
     title: "On the Shortness of Life",
     tagline:
@@ -462,6 +594,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "letters-from-a-stoic",
+    themes: ["self","thinking"],
+    problemHint:
+      "I want a daily practice that sticks instead of another journal I abandon in a week.",
     figureSlug: "seneca",
     title: "Letters from a Stoic — Daily Practice",
     tagline:
@@ -474,6 +609,9 @@ export const skills: Skill[] = [
   },
   {
     slug: "on-anger",
+    themes: ["self","conflict"],
+    problemHint:
+      "I am furious and about to send something I will regret.",
     figureSlug: "seneca",
     title: "On Anger — The Cool Path",
     tagline:
@@ -486,6 +624,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "ricky-gervais",
+    "themes": ["building","conflict"],
+    "problemHint":
+      "I am trying to be funny about something real and I do not know how far I can push it.",
     "figureSlug": "ricky-gervais",
     "title": "Ricky Gervais",
     "tagline": "Find the funny in the true, commit to the character, and take the hit for a joke you'd make again.",
@@ -496,6 +637,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "stand-up-writing",
+    "themes": ["building","focus"],
+    "problemHint":
+      "I have a pile of funny observations and no idea how to turn them into a set.",
     "figureSlug": "ricky-gervais",
     "title": "Stand-Up Writing",
     "tagline": "Write stand-up from honest observation — premise, act-out, tag, tested live.",
@@ -506,6 +650,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "the-offence-principle",
+    "themes": ["conflict","building"],
+    "problemHint":
+      "People called my joke offensive and I cannot tell if they are right or just reacting.",
     "figureSlug": "ricky-gervais",
     "title": "The Offence Principle: Writing Taboo & Handling Offence",
     "tagline": "Offence is the collateral damage of free speech — so the question is never whether it offends, but what the joke is actually about and what it actually attacks.",
@@ -516,6 +663,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "cringe-and-character",
+    "themes": ["building"],
+    "problemHint":
+      "The jokes land but nobody cares about the people in my story.",
     "figureSlug": "ricky-gervais",
     "title": "Cringe & Character: The David Brent Method",
     "tagline": "Make them laugh at someone they love — comedy from the gap between how a character sees themselves and how the world sees them.",
@@ -526,6 +676,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "marie-curie",
+    "themes": ["persisting","thinking","self"],
+    "problemHint":
+      "The problem in front of me is huge and boring and honestly it scares me.",
     "figureSlug": "marie-curie",
     "title": "Marie Curie",
     "tagline": "Understand rather than fear — measure it, grind it, weigh it, give it away.",
@@ -536,6 +689,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "the-isolation-method",
+    "themes": ["thinking","persisting"],
+    "problemHint":
+      "There is one real signal buried in all this noise and I cannot get to it.",
     "figureSlug": "marie-curie",
     "title": "The Isolation Method",
     "tagline": "Turn an intractable question into a relentless, well-instrumented physical process — and grind it, measuring every batch, until the thing is in your hand and can be weighed.",
@@ -546,6 +702,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "nothing-to-be-feared",
+    "themes": ["persisting","self"],
+    "problemHint":
+      "I keep avoiding something because I am scared to look at it properly.",
     "figureSlug": "marie-curie",
     "title": "Nothing to Be Feared",
     "tagline": "Convert fear into understanding, then into the next small step.",
@@ -556,6 +715,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "science-not-self",
+    "themes": ["self","meaning"],
+    "problemHint":
+      "I am starting to care more about getting credit than about the work itself.",
     "figureSlug": "marie-curie",
     "title": "Science, Not Self",
     "tagline": "Keep ego, credit, and money from corrupting the work — optimize for the truth, not your standing.",
@@ -566,6 +728,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "bob-marley",
+    "themes": ["persisting","meaning","conflict"],
+    "problemHint":
+      "I got knocked down hard and I am trying not to turn bitter about it.",
     "figureSlug": "bob-marley",
     "title": "Channel Bob Marley",
     "tagline": "Turn suffering into a reason to show up. Free your own mind first. Stand up for what's right now, not someday. Answer division with one love, not revenge. Give your one gift to something bigger. Meet hardship with faith, not bitterness.",
@@ -576,6 +741,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "redemption-song",
+    "themes": ["self","meaning"],
+    "problemHint":
+      "I keep telling myself I am not the kind of person who does things like this.",
     "figureSlug": "bob-marley",
     "title": "Redemption Song — Free Your Own Mind",
     "tagline": "Emancipate yourself from mental slavery. The first prison to break is the one in your own head. Name the mental chain, find whose voice it really is, reject the borrowed definition, and choose your own ground.",
@@ -586,6 +754,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "get-up-stand-up",
+    "themes": ["conflict","starting"],
+    "problemHint":
+      "Something wrong is happening and I keep waiting for a better time to say it.",
     "figureSlug": "bob-marley",
     "title": "Get Up, Stand Up — Act Now",
     "tagline": "Stand up for what's right, and act now — not someday, not when it's safe, not when someone else moves first. Name the wrong, refuse the 'someday,' use the gift you already have, and take the first public step today.",
@@ -596,6 +767,9 @@ export const skills: Skill[] = [
   },
   {
     "slug": "one-love",
+    "themes": ["conflict","leading"],
+    "problemHint":
+      "This feud keeps escalating and part of me wants revenge more than peace.",
     "figureSlug": "bob-marley",
     "title": "One Love — Unity Over Revenge",
     "tagline": "Answer division with the one thing you still share, not with revenge. Take retaliation off the table, find the shared ground, make the first gesture, hold both the wrong and the unity, and build a together that lasts.",
@@ -607,6 +781,9 @@ export const skills: Skill[] = [
   // ----- Tobi Lütke -----
   {
     slug: "own-axioms",
+    themes: ["thinking","building"],
+    problemHint:
+      "I am running a competitor's playbook and it does not even fit my business.",
     figureSlug: "tobi-lutke",
     title: "Build From Your Own Axioms",
     tagline:
@@ -620,6 +797,9 @@ export const skills: Skill[] = [
   // ----- Todd Graves -----
   {
     slug: "one-thing-well",
+    themes: ["focus","building","money"],
+    problemHint:
+      "I want to add more products when the one I already have is not great yet.",
     figureSlug: "todd-graves",
     title: "One Thing Well",
     tagline:
@@ -633,6 +813,9 @@ export const skills: Skill[] = [
   // ----- John Mackey -----
   {
     slug: "missionary-not-mercenary",
+    themes: ["money","meaning","growth"],
+    problemHint:
+      "A bigger rival is undercutting my price and I am about to race them to the bottom.",
     figureSlug: "john-mackey",
     title: "Missionary, Not Mercenary",
     tagline:
@@ -646,6 +829,9 @@ export const skills: Skill[] = [
   // ----- Jimmy Iovine -----
   {
     slug: "empathy-at-scale",
+    themes: ["marketing","selling","conflict"],
+    problemHint:
+      "My copy lists features and nobody feels anything when they read it.",
     figureSlug: "jimmy-iovine",
     title: "Empathy at Scale",
     tagline:
@@ -659,6 +845,9 @@ export const skills: Skill[] = [
   // ----- Daniel Ek -----
   {
     slug: "impact-over-happiness",
+    themes: ["meaning","deciding"],
+    problemHint:
+      "I keep asking which path would make me happy and getting nowhere.",
     figureSlug: "daniel-ek",
     title: "Impact Over Happiness",
     tagline:
@@ -672,6 +861,9 @@ export const skills: Skill[] = [
   // ----- Evan Spiegel -----
   {
     slug: "hard-to-copy",
+    themes: ["building","conflict","growth"],
+    problemHint:
+      "A much bigger competitor just cloned my main feature.",
     figureSlug: "evan-spiegel",
     title: "Hard to Copy",
     tagline:
@@ -685,6 +877,9 @@ export const skills: Skill[] = [
   // ----- James Dyson -----
   {
     slug: "dogged-iteration",
+    themes: ["persisting","building"],
+    problemHint:
+      "I have failed at this the same way a dozen times and I am ready to quit.",
     figureSlug: "james-dyson",
     title: "Dogged Iteration",
     tagline:
@@ -698,6 +893,9 @@ export const skills: Skill[] = [
   // ----- Brian Armstrong -----
   {
     slug: "mission-simplifies",
+    themes: ["deciding","meaning","leading"],
+    problemHint:
+      "I am frozen on a huge decision because every option upsets someone important.",
     figureSlug: "brian-armstrong",
     title: "Mission Simplifies the Hardest Calls",
     tagline:
@@ -711,6 +909,9 @@ export const skills: Skill[] = [
   // ----- Nassim Nicholas Taleb -----
   {
     slug: "via-negativa",
+    themes: ["risk","deciding","focus"],
+    problemHint:
+      "I keep piling on new tactics and I have never once named what could actually wipe me out.",
     figureSlug: "nassim-taleb",
     title: "Via Negativa: Remove the Ruin Before You Add Anything",
     tagline:
@@ -723,6 +924,9 @@ export const skills: Skill[] = [
   // ----- Ray Dalio -----
   {
     slug: "pain-plus-reflection",
+    themes: ["persisting","thinking"],
+    problemHint:
+      "I just blew something badly and I do not want to make the same mistake a fourth time.",
     figureSlug: "ray-dalio",
     title: "Pain Plus Reflection",
     tagline:
@@ -755,4 +959,43 @@ export function pluginInstallCommands(figureSlug: string): string[] {
     "/plugin marketplace add adamtpang/summon.guide",
     `/plugin install ${figureSlug}`,
   ];
+}
+
+/** Every skill that answers a given life-problem theme. */
+export function getSkillsByTheme(theme: Theme): Skill[] {
+  return skills.filter((s) => s.themes?.includes(theme));
+}
+
+/**
+ * The library grouped by theme, primary-home first within each group, and
+ * themes with no skills omitted. This is what the browse-by-problem view
+ * renders, so a person can arrive with "I keep procrastinating" rather than
+ * with the name of a framework.
+ */
+export function skillsByTheme(): { theme: Theme; label: string; skills: Skill[] }[] {
+  return ALL_THEMES.map((theme) => ({
+    theme,
+    label: THEMES[theme],
+    skills: getSkillsByTheme(theme).sort((a, b) => {
+      // a skill whose PRIMARY theme is this one leads the group
+      const ap = a.themes?.[0] === theme ? 0 : 1;
+      const bp = b.themes?.[0] === theme ? 0 : 1;
+      return ap - bp || a.title.localeCompare(b.title);
+    }),
+  })).filter((g) => g.skills.length > 0);
+}
+
+/**
+ * Compact catalog for the router's prompt. One line per skill carrying the
+ * command, its themes, and the user-voice problem hint, which is what the
+ * model actually matches a stated problem against.
+ */
+export function skillCatalogForRouting(): string {
+  return skills
+    .map((s) => {
+      const themes = s.themes?.length ? ` [${s.themes.join(", ")}]` : "";
+      const hint = s.problemHint ? ` Use when: ${s.problemHint}` : ` Use when: ${s.whenToUse}`;
+      return `- ${s.command}${themes} ${s.title}.${hint}`;
+    })
+    .join("\n");
 }
