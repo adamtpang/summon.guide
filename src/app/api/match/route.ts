@@ -1,20 +1,25 @@
 import { anthropicClient } from "@/lib/anthropic";
 import { figures, AI_CONFIG } from "@/lib/figures";
+import { skills, skillCatalogForRouting } from "@/lib/skills";
 import { NextRequest } from "next/server";
 
 const anthropic = anthropicClient();
 
-// The router has two jobs now:
+// The router has three jobs now:
 //
 //  1. Problem-based request ("I can't stop procrastinating") → pick the
-//     existing guide whose life best addresses it.
+//     existing guide whose life best addresses it, AND the single skill in
+//     the library that most directly attacks that problem.
 //  2. Person-named request ("carnivore aurelius advice for X") → normalize
 //     the name (tolerate typos and nicknames), and either route to that
 //     guide if they're on the platform, or return a `not_found` signal with
 //     the canonical name so the UI can offer to onboard them.
+//  3. Skill routing — a person arrives with a problem, not with the name of
+//     a framework. The skill is the thing they can actually run, so a match
+//     without one leaves them on a chat page wondering what to type.
 //
-// Response shapes:
-//   { type: "matched",   slug, reason }
+// Response shapes (the `skill` field is additive; older callers ignore it):
+//   { type: "matched",   slug, reason, skill?: { figureSlug, slug, command, title, why } }
 //   { type: "not_found", person, suggestedSlug, reason }
 
 export async function POST(req: NextRequest) {
@@ -31,6 +36,8 @@ export async function POST(req: NextRequest) {
     )
     .join("\n");
 
+  const skillCatalog = skillCatalogForRouting();
+
   const systemPrompt = `You are the routing intelligence for summon.guide. The user wants mentorship. Decide how to route them.
 
 Guides currently on the platform:
@@ -46,12 +53,19 @@ STEP 2 — Resolve:
   - If they are NOT → return not_found with their canonical name and a suggested kebab-case slug (e.g. "Steve Jobs" → "steve-jobs").
 - If "problem": pick the single guide above whose life most directly addresses it.
 
+STEP 3 — Pick the playbook (only for "matched" responses):
+From the skill library below, choose the ONE skill that most directly attacks the user's stated problem. Match on the problem, not on the guide: it is fine, and often better, to return a skill belonging to a different guide than the one you matched. If nothing in the library genuinely fits, omit the skill rather than forcing one.
+
+Skill library:
+${skillCatalog}
+
 Respond with ONLY valid JSON, one of:
-{"type":"matched","slug":"<slug from the list>","reason":"<one compelling sentence, under 120 chars, referencing what this guide actually did that fits the user's need>"}
+{"type":"matched","slug":"<slug from the guide list>","reason":"<one compelling sentence, under 120 chars, referencing what this guide actually did that fits the user's need>","command":"<the /plugin:skill command from the library, or omit>","why":"<under 90 chars: what this playbook will do for them, or omit>"}
 {"type":"not_found","person":"<canonical full name>","suggestedSlug":"<kebab-case-slug>","reason":"<one sentence: who they are and that they aren't summoned yet, under 140 chars>"}
 
 Rules:
 - Never invent a slug that is not in the list for a "matched" response.
+- Never invent a command. It must appear verbatim in the skill library above.
 - For "named" requests where the person clearly exists in the list, always prefer "matched".
 - Never mention you are an AI or a routing system. Never use em dashes.`;
 
@@ -59,7 +73,17 @@ Rules:
     const response = await anthropic.messages.create({
       model: AI_CONFIG.model,
       max_tokens: 400,
-      system: systemPrompt,
+      // The guide catalog plus the ~50-entry skill library is roughly 4K
+      // tokens and is byte-identical on every routing call, so it is cached
+      // as the prefix. Without this, adding skill routing would have made
+      // every "find my mentor" request several times more expensive.
+      system: [
+        {
+          type: "text",
+          text: systemPrompt,
+          cache_control: { type: "ephemeral" },
+        },
+      ],
       messages: [{ role: "user", content: message }],
     });
 
@@ -105,10 +129,37 @@ Rules:
       throw new Error(`Invalid slug "${proposed}"`);
     }
 
+    // Resolve the proposed command against the real library. The model is
+    // told never to invent one, but an invented command would send someone
+    // to a plugin that does not exist, so it is verified rather than trusted.
+    let matchedSkill: {
+      figureSlug: string;
+      slug: string;
+      command: string;
+      title: string;
+      why: string;
+    } | undefined;
+    const proposedCmd = String(parsed.command || "").trim();
+    if (proposedCmd) {
+      const hit = skills.find((s) => s.command === proposedCmd);
+      if (hit) {
+        matchedSkill = {
+          figureSlug: hit.figureSlug,
+          slug: hit.slug,
+          command: hit.command,
+          title: hit.title,
+          why: String(parsed.why || hit.tagline).slice(0, 140),
+        };
+      } else {
+        console.error("[match] invented command ignored:", proposedCmd);
+      }
+    }
+
     return Response.json({
       type: "matched",
       slug: valid.slug,
       reason: parsed.reason || "Let's begin.",
+      ...(matchedSkill ? { skill: matchedSkill } : {}),
     });
   } catch (e) {
     // Capture the actual failure so we can fix it instead of silently
