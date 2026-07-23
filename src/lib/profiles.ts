@@ -1727,6 +1727,62 @@ export const profiles: Record<string, Profile> = {
       "Entrepreneur, 'How to Develop the Mindset for a Billion-Dollar Success, According to Raising Cane's Founder,' July 29, 2025, drawn from his interview on The Playbook. Source for the thirty dollar first month, the startup balance line, and the succession line."
     ]
   },
+  "nassim-taleb": {
+    "slug": "nassim-taleb",
+    "occupation": "Essayist, probabilist and former options trader; author of the five volume Incerto and the man who put black swan and antifragile into ordinary language",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb",
+    "fullName": "Nassim Nicholas Taleb",
+    "birthDate": "12 September 1960",
+    "birthPlace": "Amioun, Lebanon",
+    "nationality": "Lebanese-American",
+    "education": [
+      "Grand Lycee Franco-Libanais, Beirut",
+      "University of Paris, bachelor's and master's degrees",
+      "The Wharton School, University of Pennsylvania, MBA, 1983",
+      "University of Paris (Paris Dauphine), PhD in management science, 1998, supervised by Helyette Geman, with a dissertation on the mathematics of derivatives pricing"
+    ],
+    "occupations": [
+      "Essayist and author of the Incerto",
+      "Probabilist and applied statistician",
+      "Former options and derivatives trader",
+      "Risk analyst and scientific adviser on tail risk",
+      "University professor, retired"
+    ],
+    "yearsActive": "1984–present",
+    "notableWorks": [
+      "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets (2001), the first Incerto volume",
+      "The Black Swan: The Impact of the Highly Improbable (2007), the second Incerto volume",
+      "The Bed of Procrustes: Philosophical and Practical Aphorisms (2010), the third Incerto volume",
+      "Antifragile: Things That Gain from Disorder (2012), the fourth Incerto volume",
+      "Skin in the Game: Hidden Asymmetries in Daily Life (2018), the fifth Incerto volume"
+    ],
+    "awards": [
+      "Named to Forbes's list of the most influential management gurus (2009)",
+      "Named to Bloomberg's 50 Most Influential people in global finance (2011)",
+      "Listed by the Gottlieb Duttweiler Institute among the 100 most influential thought leaders in the world (2013, 2014 and 2015)",
+      "Honorary doctorate from the American University of Beirut (2016), where he also delivered the commencement address",
+      "Wolfram Innovator Award (2018), for work on decision making under complicated and less idealized probabilistic structures"
+    ],
+    "earlyLife": "Nassim Nicholas Taleb was born on 12 September 1960 in Amioun, a town in the Koura district of northern Lebanon, to Nagib Taleb, a physician, oncologist and researcher in anthropology, and Minerva Ghosn. The family was Greek Orthodox of Antiochian Greek descent, part of the Levantine Christian establishment, and politically prominent across generations. His paternal grandfather, also named Nassim Taleb, sat as a supreme court judge, and both a grandfather and a great grandfather served as deputy prime ministers of Lebanon between the 1940s and the 1970s. An ancestor, Ibrahim Taleb, was a governor of Mount Lebanon in 1866. His parents held French citizenship, and he was sent to the Grand Lycee Franco-Libanais in Beirut, growing up multilingual in a country that appeared to him permanent and legible.\n\nIn 1975 the Lebanese civil war broke out. Almost everyone expected it to be settled in days or weeks. It lasted fifteen years, ended Lebanon's standing as a stable Levantine centre, and stripped the family of much of its wealth and position. Taleb has returned to that experience repeatedly as the root of everything he later wrote: the experts had been confident, the experts had been wrong, and afterward their confidence was quietly revised into a tidy story that made the war look inevitable all along. He left for higher education in France, taking bachelor's and master's degrees at the University of Paris, then an MBA from the Wharton School at the University of Pennsylvania in 1983. Much later, in 1998, while already a working trader, he took a PhD in management science from Paris Dauphine under Helyette Geman, with a dissertation on the mathematics of derivatives pricing.",
+    "career": "Taleb began as a derivatives trader in December 1984 at First Boston, and spent roughly two decades in the options business across a run of institutions: Banque Indosuez, where he was chief currency derivatives trader, CIBC Wood Gundy, Bankers Trust, BNP Paribas and UBS, together with a stint as an independent pit trader on the floor of the Chicago Mercantile Exchange. He has estimated that he executed several hundred thousand options transactions over that period. The defining episode came on Black Monday, 19 October 1987, when a hedged position that the standard pricing models treated as effectively impossible paid out and made him financially independent at twenty seven. The lesson he drew was not that he had predicted the crash, which he denies, but that he had been positioned so that prediction was unnecessary. His first book, Dynamic Hedging (1997), was a technical manual for practitioners and preceded the popular work by years.\n\nIn 1999 he founded the hedge fund Empirica Capital, built on the inversion of the prevailing approach: rather than collect small steady gains while carrying a hidden risk of catastrophic loss, buy cheap far out of the money options, bleed slowly and survive to collect when a crash arrives. He closed Empirica in 2004. Since 2007 he has been Distinguished Scientific Advisor to Universa Investments, the tail hedging firm founded by his former Empirica partner Mark Spitznagel, a role he describes as deliberately passive. He does not run Universa, manage its capital or trade for it. He is also a co-founder of the Real World Risk Institute, which teaches practitioners rather than academics.\n\nHis academic career ran alongside and then past the trading. He joined the NYU Tandon School of Engineering in September 2008 as Distinguished Professor of Risk Engineering; NYU Tandon now lists him as Retired Distinguished Professor in the Department of Finance and Risk Engineering, with research interests in risk, tail risk, quantitative finance and applied probability. He was Distinguished Research Scholar at Oxford's Said Business School from 2009 to 2013, and has held or taught positions at the University of Massachusetts Amherst, the London Business School and NYU's Courant Institute. The technical work continued in parallel with the essays, culminating in Statistical Consequences of Fat Tails (2020), which he posted free on arXiv. The five volumes of the Incerto appeared across seventeen years: Fooled by Randomness (2001), The Black Swan (2007), The Bed of Procrustes (2010), Antifragile (2012) and Skin in the Game (2018).",
+    "legacy": "The Incerto is a single argument in five parts, and its terms have escaped into ordinary speech. The Black Swan sold more than three million copies and was named by the Sunday Times, in a line the publisher has quoted ever since, as one of the twelve most influential books written since the Second World War; black swan is now the standard shorthand for a rare, high consequence event that only looks predictable afterward. Antifragile supplied a word that did not exist for the thing that gains from disorder rather than merely surviving it, along with the barbell strategy, via negativa and a popular account of the Lindy effect. Skin in the Game gave a name to asymmetric accountability, the condition in which one party takes the decision and another bears the consequence. Taleb is careful to note that the black swan metaphor itself is not his invention, since it goes back to the Roman satirist Juvenal and was a standing European figure of speech; what is his is the repurposing.\n\nHis standing is genuinely contested, which is close to a design goal. He has spent decades attacking Gaussian risk models and the people who use them, including a long running and public dispute with Myron Scholes, and he coined the term Intellectual Yet Idiot for the credentialed class that prescribes what others should do, eat, think and vote for while bearing none of the consequences. Critics find the manner insufferable and the mathematics contested at the edges. What has proved durable is a shift of attention rather than a forecast. Taleb does not predict, and says so; his contribution is to move the question from what is going to happen to what you are exposed to if you are wrong, to insist that survival precedes optimisation because a ruinous outcome removes you from the sample, and to demand that anyone giving advice be made to pay for being wrong. That framing is now standard vocabulary in risk management, in epidemiology and public health argument, and among founders and investors who have never opened any of the books.",
+    "notableQuotes": [
+      "Mild success can be explainable by skills and labor. Wild success is attributable to variance.",
+      "Missing a train is only painful if you run after it!",
+      "The three most harmful addictions are heroin, carbohydrates, and a monthly salary.",
+      "Wind extinguishes a candle and energizes fire.",
+      "If you see fraud and do not say fraud, you are a fraud.",
+      "Never cross a river if it is on average four feet deep."
+    ],
+    "primarySources": [
+      "Nassim Nicholas Taleb, the Incerto: Fooled by Randomness (2001), The Black Swan (2007), The Bed of Procrustes (2010), Antifragile (2012) and Skin in the Game (2018), all Random House",
+      "Nassim Nicholas Taleb, Antifragile: Things That Gain from Disorder (Random House, 2012). Taleb publishes the complete prologue in the publisher's typeset form on his own site at https://www.fooledbyrandomness.com/prologue.pdf, which was read directly and used as the source for two quotations here",
+      "Nassim Nicholas Taleb, The Logic of Risk Taking, published by the author on Medium's Incerto publication, 25 August 2017 (https://medium.com/incerto/the-logic-of-risk-taking-107bf41029d3), the on record source for the river crossing rule later carried into Skin in the Game",
+      "NYU Tandon School of Engineering faculty page for Nassim Nicholas Taleb (https://engineering.nyu.edu/faculty/nassim-nicholas-taleb), the source for the Retired Distinguished Professor title in the Department of Finance and Risk Engineering",
+      "Wikipedia, Nassim Nicholas Taleb (https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb), for dates, family lineage, degrees, employers, academic posts and honours",
+      "Open Library full text search inside the scanned trade editions (https://openlibrary.org/search/inside), used to confirm that three of the quotations below occur in the named books rather than only on quotation sites"
+    ]
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

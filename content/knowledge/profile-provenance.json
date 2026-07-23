@@ -756,6 +756,104 @@
           "reason": "He appeared on the Fox version of Secret Millionaire, in the premiere episode, reported by Nation's Restaurant News on December 1, 2008 ahead of its December 3, 2008 air date. ABC revived the format later, which is the source of the mixed up network and year in some write ups."
         }
       ]
+    },
+    "nassim-taleb": {
+      "quoteSources": [
+        {
+          "quote": "Mild success can be explainable by skills and labor. Wild success is attributable to variance.",
+          "source": "Nassim Nicholas Taleb, Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets (2001). Verified two ways. Open Library full text search inside the scanned trade edition returns Fooled by Randomness as a matching book for the phrase \"Wild success is attributable to variance\", so the sentence is in the book itself and not only on quotation sites. The WIST quotation database independently cites it to Fooled by Randomness, Part 1, Chapter 1, page 12, with a link to the corresponding Internet Archive page image."
+        },
+        {
+          "quote": "Missing a train is only painful if you run after it!",
+          "source": "Nassim Nicholas Taleb, The Black Swan: The Impact of the Highly Improbable (2007). Open Library full text search inside the scanned trade editions returns The Black Swan under Taleb's name, in more than one edition and in the Incerto four book bundle, as containing the phrase \"Missing a train is only painful if you run after it\". In the book it follows Taleb's account of the advice \"I don't run for trains\", which he credits to his friend Jean-Olivier Tedesco, and it is immediately extended to not matching the idea of success that others expect of you. The exclamation mark is as printed."
+        },
+        {
+          "quote": "The three most harmful addictions are heroin, carbohydrates, and a monthly salary.",
+          "source": "Nassim Nicholas Taleb, The Bed of Procrustes: Philosophical and Practical Aphorisms (2010). Open Library full text search inside the scanned trade edition returns The Bed of Procrustes as a matching book for the phrase \"heroin, carbohydrates, and a monthly salary\", confirming the aphorism is in the book. The Week also printed it with that book attribution in its collection of aphorisms drawn from The Bed of Procrustes."
+        },
+        {
+          "quote": "Wind extinguishes a candle and energizes fire.",
+          "source": "Nassim Nicholas Taleb, Antifragile: Things That Gain from Disorder (Random House, 2012), the opening sentence of the Prologue, section I, headed HOW TO LOVE THE WIND. Read directly in the publisher's typeset prologue that Taleb hosts on his own site at fooledbyrandomness.com/prologue.pdf, so this is the book text rather than an aggregator. In the book the sentence continues into the instruction to use randomness, uncertainty and chaos rather than hide from them."
+        },
+        {
+          "quote": "If you see fraud and do not say fraud, you are a fraud.",
+          "source": "Nassim Nicholas Taleb, Antifragile: Things That Gain from Disorder (Random House, 2012), Prologue, where it is introduced by the words \"First ethical rule\". Read directly in the publisher's typeset prologue on Taleb's own site at fooledbyrandomness.com/prologue.pdf. This line is very widely cited to Skin in the Game; that attribution is wrong, and the correction is confirmed here against the Antifragile text itself."
+        },
+        {
+          "quote": "Never cross a river if it is on average four feet deep.",
+          "source": "Nassim Nicholas Taleb, Skin in the Game: Hidden Asymmetries in Daily Life (2018), where the rule appears in his treatment of ruin, sequence and non ergodicity. The sentence was verified in Taleb's own signed essay The Logic of Risk Taking, published by him on Medium's Incerto publication on 25 August 2017, which prints it as \"never cross a river if it is on average four feet deep\" alongside \"in order to succeed, you must first survive\"; that essay is Incerto material that was carried into the book. The initial capital here is house style for a standalone sentence, with no change of wording. Note that Skin in the Game is not in the Open Library scanned corpus, so the phrase could not be checked against a scan of the book itself; the author's own published essay is the traceable source used."
+        }
+      ],
+      "excludedMisattributions": [
+        {
+          "text": "\"Don't tell me what you think, tell me what you have in your portfolio.\"",
+          "reason": "HELD BACK, NOT USED. Almost certainly genuine and almost certainly from Skin in the Game, where it accompanies his account of refusing to comment on Microsoft stock on television because he was neither long nor short it. But Skin in the Game is not in the Open Library scanned corpus, so it could not be checked against the book text, and every source found for it was a book summary blog, a quote site or Goodreads. Under the standard applied here that is not enough, so it was left out of the quotation list rather than presented as verified."
+        },
+        {
+          "text": "\"Antifragility is beyond resilience or robustness.\"",
+          "reason": "VERIFIED BUT NOT SELECTED. Confirmed directly in the Antifragile prologue on Taleb's own site, immediately after he coins the word. Dropped only so that the six quotations span all five Incerto volumes instead of taking three from Antifragile. Available if a replacement quote is ever needed."
+        },
+        {
+          "text": "\"What doesn't kill me makes me stronger.\"",
+          "reason": "Nietzsche, from Twilight of the Idols. Constantly presented as a Taleb line or as a one sentence summary of antifragility. Taleb discusses and complicates it in Antifragile; he did not write it."
+        },
+        {
+          "text": "\"We suffer more often in imagination than in reality.\"",
+          "reason": "Seneca, quoted by Taleb in Antifragile. Routinely reattributed to Taleb by quotation aggregators. Taleb quotes the ancients constantly and credits them, which is exactly why lines he merely cites get laundered into lines he wrote."
+        },
+        {
+          "text": "\"Absence of evidence is not evidence of absence.\"",
+          "reason": "Not original to Taleb. The formulation long predates him and is popularly associated with Carl Sagan and Martin Rees. Taleb uses it in The Black Swan as an inherited maxim, so it is not presented as his."
+        },
+        {
+          "text": "\"The market can remain irrational longer than you can remain solvent.\"",
+          "reason": "Attributed to Keynes, itself on thin evidence, and not Taleb's. Filed under his name on several quote sites because of the subject matter."
+        },
+        {
+          "text": "\"The stock market is a device for transferring money from the impatient to the patient.\"",
+          "reason": "Warren Buffett. Not Taleb's, and not in any Incerto volume."
+        },
+        {
+          "text": "Any inspirational, TED style aphorism in the register of \"enrich lives\" circulating under Taleb's name.",
+          "reason": "Taleb publicly denounced a fabricated quotation attributed to him on X in March 2019, stating that he never uses phrasing of that kind and calling it a fake quote. Every circulating aphorism in that register was therefore treated as suspect and excluded."
+        },
+        {
+          "text": "\"You will never fully convince someone that he is wrong; only reality can.\"",
+          "reason": "SOURCE UNSETTLED. Better sourced references place it in Skin in the Game while several aggregators file it under The Bed of Procrustes, and Open Library full text search returned no match at all, which is inconclusive rather than disconfirming since Skin in the Game is not in that scanned corpus. Because the volume cannot be named with confidence, and every quotation here must carry a named volume, it was excluded."
+        },
+        {
+          "text": "\"Not everything that happens happens for a reason, but everything that survives survives for a reason.\"",
+          "reason": "Commonly attributed to Antifragile. The exact wording could not be confirmed against the book text, only against aggregators, so it was left out."
+        },
+        {
+          "text": "Taleb coined the term black swan.",
+          "reason": "He did not. The black swan as a figure for the supposedly impossible traces to the Roman satirist Juvenal and was a standing European expression. Taleb repurposed it for rare, high impact, retrospectively rationalised events, and says so himself. The legacy section states it as a repurposing, not an invention."
+        },
+        {
+          "text": "Nassim Nicholas Taleb is Distinguished Professor of Risk Engineering at NYU Tandon.",
+          "reason": "TITLE CORRECTED. Most profiles, including Wikipedia, still use the present tense. NYU Tandon's own faculty page now lists him as Retired Distinguished Professor in the Department of Finance and Risk Engineering, verified on the university page in July 2026. The profile states the September 2008 appointment and the current retired title separately."
+        },
+        {
+          "text": "Taleb runs, manages or trades for the hedge fund Universa Investments.",
+          "reason": "ROLE CLARIFIED. He is Distinguished Scientific Advisor to Universa and describes the involvement as deliberately passive. Mark Spitznagel, his former Empirica partner, is Universa's founder and chief investment officer. Claims that Taleb runs a hedge fund today are wrong."
+        },
+        {
+          "text": "Empirica's fund returned 56.86% in 2000; Universa returned 65% to 115% in October 2008, or roughly 4,000% in the first quarter of 2020.",
+          "reason": "EXCLUDED FROM THE PROFILE. These figures are reported secondhand, are not audited public numbers, and in the Universa cases Taleb did not manage the capital. They are not presented as his personal results."
+        },
+        {
+          "text": "Spouse and children.",
+          "reason": "OMITTED. Wikipedia's article body mentions a 1988 marriage and two children. Taleb is markedly private about his family, the detail is thinly cited, and no primary or infobox confirmation was found, so under the standard of omitting anything not well documented both fields were left out rather than asserted."
+        },
+        {
+          "text": "Net worth.",
+          "reason": "OMITTED. No credible published figure exists. Taleb has said he became financially independent after Black Monday in 1987, which is stated in the career section, but the circulating net worth numbers trace to celebrity finance sites with no methodology and were not used."
+        },
+        {
+          "text": "METHOD NOTE.",
+          "reason": "BrainyQuote, AZQuotes, QuoteFancy, QuotePark, Quote Catalog, Bookey, thecitesite and user submitted Goodreads pages were treated only as leads to be checked, never as sources. Goodreads states plainly that its quotations are community added and unverified. Every quotation in this profile was confirmed either by reading the publisher's typeset text on Taleb's own site, by full text search inside the scanned trade edition of the named book, or in Taleb's own signed essay."
+        }
+      ]
     }
   }
 }
