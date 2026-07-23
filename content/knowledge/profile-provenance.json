@@ -1,0 +1,761 @@
+{
+  "note": "Verification receipts for src/lib/profiles.ts. Every notableQuote is traced to a primary source; every rejected misattribution is recorded so it is never reintroduced.",
+  "generated": "2026-07-23",
+  "profiles": {
+    "charlie-munger": {
+      "quoteSources": [
+        {
+          "quote": "It is remarkable how much long-term advantage people like us have gotten by trying to be consistently not stupid, instead of trying to be very intelligent.",
+          "source": "Letter to Wesco Financial shareholders, dated March 5, 1990, published in the Wesco Financial Corporation 1989 Annual Report. This is the earliest documented appearance of the line, confirmed by Quote Investigator."
+        },
+        {
+          "quote": "Show me the incentive and I will show you the outcome.",
+          "source": "A signature Munger maxim repeated at Berkshire Hathaway and Daily Journal annual meetings. His fullest treatment of incentive-caused bias is the talk The Psychology of Human Misjudgment, collected in Poor Charlie's Almanack (2005). Wording is stable across citations, though Munger stated it conversationally rather than in a single canonical text."
+        },
+        {
+          "quote": "The big money is not in the buying and the selling, but in the waiting.",
+          "source": "Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger, edited by Peter D. Kaufman (2005)."
+        },
+        {
+          "quote": "A great business at a fair price is superior to a fair business at a great price.",
+          "source": "Poor Charlie's Almanack (2005). This is the principle Buffett repeatedly credits Munger with teaching him, moving Berkshire beyond Benjamin Graham style bargain hunting."
+        },
+        {
+          "quote": "The safest way to try to get what you want is to try to deserve what you want.",
+          "source": "USC Law School commencement address, May 13, 2007, where it is the opening idea of the speech. Also appears in Poor Charlie's Almanack (2005). Some transcripts render it as 'try and get' and 'try and deserve'; the sense is identical."
+        },
+        {
+          "quote": "I constantly see people rise in life who were not the smartest, sometimes not even the most diligent, but they are learning machines.",
+          "source": "USC Law School commencement address, May 13, 2007, immediately preceding his line that such people go to bed every night a little wiser than when they got up."
+        }
+      ],
+      "excludedMisattributions": [
+        "'To the man with only a hammer, every problem looks like a nail.' Munger cited this constantly and it is central to his case for multidisciplinary thinking, but it is a pre-existing proverb, known in psychology as Maslow's law of the instrument (1966). Excluded because it is not original to Munger.",
+        "'Invert, always invert.' Munger made inversion famous as a thinking tool, but he explicitly credited it to the nineteenth century mathematician Carl Gustav Jacob Jacobi. Excluded as a quotation of Munger's own.",
+        "'It's not supposed to be easy. Anyone who finds it easy is stupid.' Almost certainly said by Munger, but the circulating version traces to Howard Marks recounting a private conversation rather than to any Munger transcript, letter, or book, so the exact wording and context cannot be verified against a primary source.",
+        "'Spend each day trying to be a little wiser than you were when you woke up.' A polished paraphrase widely sold on posters. The documented 2007 USC wording is that learning machines go to bed every night a little wiser than when they got up. Excluded in favor of the verifiable sentence about learning machines.",
+        "'The world is not driven by greed, it's driven by envy.' Circulates in several incompatible wordings. Munger's verifiable framing, from the 2007 USC address, is that envy, resentment, revenge, and self-pity are disastrous modes of thought. Excluded because no single wording of the greed and envy version can be pinned to a primary source.",
+        "'Take a simple idea and take it seriously.' Genuinely Munger's, but the primary text in Poor Charlie's Almanack presents it as a two part rule, to take a simple, basic idea and then take it very seriously. Left out of the quote list because the popular one line form is a compression rather than his exact sentence.",
+        "'All I want to know is where I'm going to die, so I'll never go there.' Frequently posted as a Munger original. He used it as a joke to illustrate inversion, and it is his retelling of a folk formulation rather than a line he coined."
+      ]
+    },
+    "jeff-bezos": {
+      "quoteSources": [
+        {
+          "quote": "But this is Day 1 for the Internet and, if we execute well, for Amazon.com.",
+          "source": "Jeff Bezos, 1997 Letter to Shareholders, Amazon.com, Inc., published with the 1997 annual report and reprinted at https://www.aboutamazon.com/news/company-news/amazons-original-1997-letter-to-shareholders. Verified verbatim against Amazon's own reprint."
+        },
+        {
+          "quote": "We will continue to make investment decisions in light of long-term market leadership considerations rather than short-term profitability considerations or short-term Wall Street reactions.",
+          "source": "Jeff Bezos, 1997 Letter to Shareholders, Amazon.com, Inc., first bullet of the section headed \"It's All About the Long Term.\" Verified verbatim against Amazon's reprint at https://www.aboutamazon.com/news/company-news/amazons-original-1997-letter-to-shareholders."
+        },
+        {
+          "quote": "Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death. And that is why it is always Day 1.",
+          "source": "Jeff Bezos, 2016 Letter to Shareholders, Amazon.com, Inc., released April 2017 (https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders). Verified verbatim; the two sentences are consecutive in the letter's opening section."
+        },
+        {
+          "quote": "I believe we are the best place in the world to fail (we have plenty of practice!), and failure and invention are inseparable twins.",
+          "source": "Jeff Bezos, 2015 Letter to Shareholders, Amazon.com, Inc., released April 2016 (https://s2.q4cdn.com/299287126/files/doc_financials/annual/2015-Letter-to-Shareholders.PDF); the same passage is quoted in Ryan Mac, \"Jeff Bezos Calls Amazon 'Best Place In The World To Fail' In Shareholder Letter,\" Forbes, April 5, 2016."
+        },
+        {
+          "quote": "I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not ever having tried.",
+          "source": "Jeff Bezos, interview with the Academy of Achievement, San Antonio, Texas, May 4, 2001 (https://achievement.org/achiever/jeffrey-p-bezos/), describing the regret minimization framework he used when deciding to leave D. E. Shaw. He restated the same idea in the 2010 Princeton Baccalaureate address."
+        },
+        {
+          "quote": "Cleverness is a gift, kindness is a choice.",
+          "source": "Jeff Bezos, \"We Are What We Choose,\" Baccalaureate address to the Princeton University Class of 2010, May 30, 2010 (https://www.princeton.edu/news/2010/05/30/2010-baccalaureate-remarks). Verified verbatim against Princeton's published text."
+        }
+      ],
+      "excludedMisattributions": [
+        {
+          "quote": "Your margin is my opportunity.",
+          "reason": "Excluded. The Quote Investigator study of this line traces its earliest appearance to Adam Lashinsky's November 2012 Fortune profile, \"Amazon's Jeff Bezos: The Ultimate Disrupter,\" where it is characterized as \"a favorite Bezos aphorism\" rather than quoted from Bezos in the first person. No shareholder letter, speech, interview transcript or filing has been found in which Bezos says it. It may be a journalist's paraphrase of Amazon's pricing posture, so it fails the primary source test."
+        },
+        {
+          "quote": "Your brand is what other people say about you when you're not in the room.",
+          "reason": "Excluded. Circulates on quote aggregator sites with no primary citation. The closest documented Bezos line, \"A brand for a company is like a reputation for a person,\" is attributed to a 2004 BusinessWeek online interview with Robert D. Hof, but the original interview text could not be retrieved and verified, so both were left out."
+        },
+        {
+          "quote": "Work hard, have fun, make history.",
+          "reason": "Excluded. This is an Amazon corporate slogan that appears on internal posters and recruiting material. It is routinely presented as a Bezos quotation, but no letter, speech or interview in his own words could be found as its origin."
+        },
+        {
+          "quote": "We are stubborn on vision. We are flexible on details.",
+          "reason": "Excluded. Widely cited, usually to an unspecified shareholder letter or to a Wired interview, but the exact wording could not be confirmed against any primary text. Bezos has expressed the idea in interviews in looser form, so the crisp aphoristic version appears to be a compression by others."
+        },
+        {
+          "quote": "If you double the number of experiments you do per year, you're going to double your inventiveness.",
+          "reason": "Excluded from the quote list. Bezos has made this argument repeatedly and a close variant appears in Amazon's 2015 shareholder letter discussion of experimentation, but this exact popular phrasing could not be matched verbatim to a primary source, so the verified 2015 letter sentence on failure and invention was used instead."
+        }
+      ]
+    },
+    "jensen-huang": {
+      "quoteSources": [
+        {
+          "quote": "Either you are running for food, or you are running from becoming food. And oftentimes, you can't tell which. Either way, run.",
+          "source": "Commencement address, National Taiwan University, 26 May 2023. Transcript excerpts published by NVIDIA (https://blogs.nvidia.com/blog/2023/05/26/huang-ntu-commencement/). Delivered immediately after the better known line from the same speech, 'Run. Don't walk.' Punctuation normalized from the published semicolon; wording unchanged."
+        },
+        {
+          "quote": "For all of you Stanford students, I wish upon you ample doses of pain and suffering.",
+          "source": "View From The Top interview, Stanford Graduate School of Business, 1 March 2024. Quoted verbatim in Fortune's report on the session (https://fortune.com/article/jensen-huang-advice-high-expectations-make-it-hard-to-succeed/) and in CNBC's coverage of 15 March 2024."
+        },
+        {
+          "quote": "Greatness comes from character, and character isn't formed out of smart people. It's formed out of people who suffered.",
+          "source": "View From The Top interview, Stanford Graduate School of Business, 1 March 2024, as quoted by Fortune. The published transcript renders the second clause after a dash; a period is substituted here with no change to the words."
+        },
+        {
+          "quote": "Your pain and suffering will strengthen your character, your resilience and agility, and they are the ultimate superpowers.",
+          "source": "Keynote address, Caltech 130th Annual Commencement, 14 June 2024. Present in the full published transcript of the address and in Caltech's own coverage of the ceremony."
+        },
+        {
+          "quote": "Our company is thirty days from going out of business.",
+          "source": "Huang's standing opener for internal Nvidia presentations, dating to the near bankruptcy of 1996 and 1997. Documented in Tae Kim, The Nvidia Way (2024), and confirmed on the record by Huang, who said in a 2025 interview on The Joe Rogan Experience that he had used the phrase for thirty three years."
+        },
+        {
+          "quote": "Building a company and building Nvidia turned out to have been a million times harder than I expected it to be.",
+          "source": "Interview on the Acquired podcast, episode 'NVIDIA CEO Jensen Huang', October 2023 (https://www.acquired.fm/episodes/jensen-huang). Said in answer to whether he would found the company again, to which his immediate reply was 'I wouldn't do it.'"
+        }
+      ],
+      "excludedMisattributions": [
+        {
+          "quote": "AI won't replace humans, but humans with AI will replace humans without AI.",
+          "reason": "Not Huang's line. The aphorism traces to Harvard Business School professor Karim Lakhani. Huang has said a distinct version of the idea, 'You're not going to lose your job to an AI, but you're going to lose your job to someone who uses AI,' at the Milken Institute Global Conference on 6 May 2025, but the Lakhani formulation is routinely reposted under Huang's name and was excluded."
+        },
+        {
+          "quote": "Don't learn to code.",
+          "reason": "A three word clip that inverts the argument. At the World Governments Summit in Dubai in February 2024 Huang said it is the industry's job to build computers that nobody has to program, that 'everybody in the world is now a programmer,' and that students should therefore go deep on domains such as biology, chemistry and finance. Excluded as a distortion rather than a quote."
+        },
+        {
+          "quote": "I'd rather torture my employees into greatness than fire them.",
+          "reason": "Paraphrase, not verbatim. In a fireside conversation with Patrick Collison at Stripe Sessions in May 2024 Huang said, 'I'd rather torture you into greatness because I believe in you,' speaking in the second person about coaching rather than about employees as a class. The circulated third person version was excluded."
+        },
+        {
+          "quote": "Nvidia GPUs power Ethereum and Solana, and this crypto mass adoption event will double your holdings.",
+          "reason": "Entirely fabricated. Taken from an AI generated deepfake livestream impersonating an official Nvidia GTC keynote, which drew roughly 95,000 concurrent viewers before YouTube removed it and which directed viewers to a QR code crypto doubling scam. No such statement was ever made."
+        },
+        {
+          "quote": "Stay hungry, stay foolish.",
+          "reason": "Not Huang. The line comes from the final issue of the Whole Earth Catalog and was popularized by Steve Jobs in his 2005 Stanford commencement address. It circulates on quote aggregator sites under Huang's name alongside other unsourced hustle aphorisms, all of which were excluded for lacking any primary source."
+        },
+        {
+          "quote": "Purported Huang predictions of specific Nvidia share prices or market capitalization targets.",
+          "reason": "No such statement appears in his keynotes, earnings calls or on the record interviews; he does not give share price guidance. These typically originate in investment promotion content and were excluded. Relatedly, all valuation and net worth figures in this profile carry explicit as of dates because they move daily."
+        }
+      ]
+    },
+    "naval-ravikant": {
+      "quoteSources": [
+        {
+          "quote": "Seek wealth, not money or status. Wealth is having assets that earn while you sleep. Money is how we transfer time and wealth. Status is your place in the social hierarchy.",
+          "source": "Opening post of the How to Get Rich (Without Getting Lucky) thread, May 31, 2018 (x.com/naval/status/1002103360646823936); reprinted verbatim in The Almanack of Naval Ravikant (2020), p. 30."
+        },
+        {
+          "quote": "You will get rich by giving society what it wants but does not yet know how to get. At scale.",
+          "source": "How to Get Rich (Without Getting Lucky) thread, May 31, 2018; reprinted verbatim in The Almanack of Naval Ravikant (2020), p. 30."
+        },
+        {
+          "quote": "Pick an industry where you can play long-term games with long-term people.",
+          "source": "How to Get Rich (Without Getting Lucky) thread, May 31, 2018; reprinted verbatim in The Almanack of Naval Ravikant (2020), p. 31, and the title of the chapter Play Long-Term Games with Long-Term People."
+        },
+        {
+          "quote": "Specific knowledge is knowledge you cannot be trained for. If society can train you, it can train someone else and replace you.",
+          "source": "How to Get Rich (Without Getting Lucky) thread, May 31, 2018; reprinted verbatim in The Almanack of Naval Ravikant (2020), p. 32."
+        },
+        {
+          "quote": "Escape competition through authenticity.",
+          "source": "A standalone Naval tweet, identified as such by Ravikant himself in The Almanack of Naval Ravikant (2020), p. 43, where he says it was a tweet that did not go into the How to Get Rich tweetstorm."
+        },
+        {
+          "quote": "A fit body, a calm mind, a house full of love. These things cannot be bought - they must be earned.",
+          "source": "Naval tweet, February 2018 (x.com/naval/status/966512979066765313). He calls it his favourite tweet and unpacks it in his own essay A Calm Mind, a Fit Body, a House Full of Love (nav.al/finally-wealthy, May 21, 2019)."
+        }
+      ],
+      "excludedMisattributions": [
+        {
+          "text": "Give me a lever long enough and a place to stand, and I will move the earth.",
+          "reason": "Archimedes, not Ravikant. He quoted it inside the How to Get Rich thread and the Almanack prints it with an explicit Archimedes attribution (p. 33), but it circulates widely on quote pages as a Naval original."
+        },
+        {
+          "text": "Play stupid games, win stupid prizes.",
+          "reason": "Appears in the Almanack as a line of Ravikant's, but the proverb long predates him. Variants of win stupid prizes are in print by the early 1990s and the phrase spread as an internet image macro from roughly 2012. Not original to him, so excluded."
+        },
+        {
+          "text": "To find a worthy mate, be worthy of a worthy mate.",
+          "reason": "Charlie Munger, quoted by Ravikant in the Almanack with attribution to Munger. Frequently reposted under Ravikant's name."
+        },
+        {
+          "text": "Compound interest is the eighth wonder of the world.",
+          "reason": "Apocryphal, usually pinned on Albert Einstein with no documented source. It attaches to Ravikant because of his compounding posts, but he did not write it."
+        },
+        {
+          "text": "Happiness is a state where nothing is missing.",
+          "reason": "A compressed paraphrase, not a verbatim quote. What Ravikant actually wrote is: Happiness is what's there when you remove the sense that something is missing in your life (Almanack, Learning Happiness). The short version is excluded as unverifiable in that wording."
+        },
+        {
+          "text": "A calm mind, a fit body, and a house full of love. These things cannot be bought. They must be earned.",
+          "reason": "Reordered. The Almanack prints this word order, but the original February 2018 tweet reads A fit body, a calm mind, a house full of love. The tweet wording is used above instead."
+        },
+        {
+          "text": "Unsourced aphorisms circulated by Naval-quote fan accounts and quote-aggregation sites",
+          "reason": "General exclusion. Large volumes of generic self-improvement lines are published under his name with no tweet, essay, podcast or Almanack page behind them. Nothing was included here that could not be traced to his own posts, his own essays, an on-record appearance, or the Almanack's free full text."
+        },
+        {
+          "text": "Spouse and marriage details",
+          "reason": "Not a quote, but excluded on the same standard. Ravikant refers to his wife in the Almanack, yet no reliable source names her; the circulating name comes only from low-quality celebrity-biography sites. The spouses field is therefore omitted, as is net worth, for which no well-documented figure exists."
+        }
+      ]
+    },
+    "peter-thiel": {
+      "quoteSources": [
+        {
+          "quote": "Every moment in business happens only once. The next Bill Gates will not build an operating system. The next Larry Page or Sergey Brin won't make a search engine. And the next Mark Zuckerberg won't create a social network. If you are copying these guys, you aren't learning from them.",
+          "source": "Peter Thiel with Blake Masters, Zero to One (Crown Business, 2014), p. 1. Cited to that page on Wikiquote."
+        },
+        {
+          "quote": "What important truth do very few people agree with you on?",
+          "source": "Peter Thiel with Blake Masters, Zero to One (Crown Business, 2014), p. 5. The same question appears verbatim in Blake Masters' notes on CS183 Class 1, Stanford, Spring 2012."
+        },
+        {
+          "quote": "All happy companies are different: each one earns a monopoly by solving a unique problem. All failed companies are the same: they failed to escape competition.",
+          "source": "Peter Thiel with Blake Masters, Zero to One (Crown Business, 2014), chapter 3, \"All Happy Companies Are Different.\" Thiel presents it as an inversion of the opening line of Tolstoy's Anna Karenina."
+        },
+        {
+          "quote": "Monopoly is the condition of every successful business.",
+          "source": "Peter Thiel, \"Competition Is for Losers,\" The Wall Street Journal, September 12, 2014, an essay adapted from Zero to One; the same claim runs through chapter 3 of the book."
+        },
+        {
+          "quote": "Brilliant thinking is rare, but courage is in even shorter supply than genius.",
+          "source": "Peter Thiel with Blake Masters, Zero to One (Crown Business, 2014). Thiel restated and expanded the point in a 2015 Independent Institute talk."
+        },
+        {
+          "quote": "We wanted flying cars, instead we got 140 characters.",
+          "source": "Tagline of the Founders Fund manifesto \"What Happened to the Future?\" (2011). Wikiquote records Thiel delivering the line himself in his 2014 talk at Yale."
+        }
+      ],
+      "excludedMisattributions": [
+        "\"Madness is rare in individuals, but in groups, parties, nations and ages it is the rule.\" Friedrich Nietzsche, Beyond Good and Evil, aphorism 156. Thiel quotes it approvingly in Zero to One, so quote sites frequently credit it to him. It is not his line.",
+        "\"All happy families are alike; each unhappy family is unhappy in its own way.\" Leo Tolstoy, Anna Karenina. Thiel builds his monopoly maxim by inverting it, and aggregators often attribute the Tolstoy half to Thiel. Only the inverted business sentence is his.",
+        "\"Don't fuck up the culture.\" Widely repeated as Thiel's advice to Airbnb after Founders Fund invested in 2012, but it is attested only secondhand, through Brian Chesky's April 2014 Medium post recounting the meeting. No on-record Thiel statement of it exists, so it is not presented as a quotation.",
+        "\"Show me the incentive and I will show you the outcome.\" Charlie Munger. It appears on several quote aggregators under Thiel's name. Not his.",
+        "\"Competition is for losers, and monopolies are for winners.\" A distorted mashup circulating on social media. The sourced lines are the WSJ headline \"Competition Is for Losers\" (September 12, 2014) and, separately, \"Monopoly is the condition of every successful business.\" The compound sentence is not something he wrote.",
+        "\"The Singularity is near.\" Ray Kurzweil, whose work Thiel has discussed and funded adjacent research to. Not a Thiel quotation.",
+        "Facebook stake figures: the 2004 investment is frequently rounded to \"10 percent\" or inflated to later valuations. The documented terms are $500,000 in August 2004 for 10.2 percent, structured as a convertible note tied to a 1.5 million user milestone that Facebook narrowly missed and that Thiel converted anyway.",
+        "PayPal founding framing: PayPal is often described as founded by Thiel and Elon Musk together in 1998. Thiel cofounded Confinity in December 1998 with Max Levchin, Luke Nosek, and Ken Howery; Musk's separate company X.com merged with Confinity in March 2000, and the merged entity was renamed PayPal in June 2001.",
+        "Palantir founding date and sole-founder framing: Palantir was founded in 2003 by Thiel with Alex Karp, Joe Lonsdale, Stephen Cohen, and Nathan Gettings. Karp, not Thiel, has been CEO since 2004; Thiel is chairman. Claims that Thiel founded it alone, or dates of 2004 or 2005, are inaccurate.",
+        "Thiel Fellowship amount: the figure is often quoted as a flat \"$100,000\" without qualification. That was the grant at the 2010 launch, paid over two years; the amount has since been increased, and the age ceiling has moved from under 20 to 22 or younger.",
+        "Gawker litigation motive: many secondary accounts assign Thiel specific motives for funding the Bollea suit. Only the verifiable record is stated here, namely the funding amount reported by Forbes in May 2016, the March 2016 verdict, the June 2016 bankruptcy, and the November 2016 settlement.",
+        "Net worth: trackers disagree sharply, with figures from roughly $12 billion to $28 billion in 2026. Only the Forbes figure and its as-of date are stated, with the New York Times December 2025 estimate given for comparison.",
+        "Children: several low-quality aggregator sites give specific ages and details for Thiel's children. Wikipedia's infobox lists none. The field is left deliberately hedged rather than repeating unsourced particulars about minors."
+      ]
+    },
+    "sam-walton": {
+      "quoteSources": [
+        {
+          "quote": "There is only one boss. The customer. And he can fire everybody in the company from the chairman on down, simply by spending his money somewhere else.",
+          "source": "Sam Walton with John Huey, Sam Walton: Made in America, My Story (Doubleday, 1992). Cited to that book under Sam Walton in Oxford Essential Quotations (Oxford University Press), which is the strongest scholarly attribution available; no page number is given there."
+        },
+        {
+          "quote": "The secret of successful retailing is to give your customers what they want.",
+          "source": "Sam Walton: Made in America, My Story, p. 221 in the Bantam paperback edition. Walton introduces it as the one guiding principle he stuck to for his whole career in retail."
+        },
+        {
+          "quote": "Every time Wal-Mart spends one dollar foolishly, it comes right out of our customers' pockets.",
+          "source": "Sam Walton: Made in America, My Story, chapter 1, p. 13."
+        },
+        {
+          "quote": "If I had to single out one element in my life that has made a difference for me, it would be a passion to compete.",
+          "source": "Sam Walton: Made in America, My Story, foreword, p. xiii."
+        },
+        {
+          "quote": "I have always been driven to buck the system, to innovate, to take things beyond where they've been.",
+          "source": "Sam Walton: Made in America, My Story, p. 61. Exact substring of the full sentence, which reads: 'for some reason in business, I have always been driven to buck the system, to innovate, to take things beyond where they've been.'"
+        },
+        {
+          "quote": "Swim upstream. Go the other way. Ignore the conventional wisdom. If everybody else is doing it one way, there's a good chance you can find your niche by going in exactly the opposite direction.",
+          "source": "Rule 10 of Sam Walton's Ten Rules for Building a Business, set out in Sam Walton: Made in America, My Story and reproduced verbatim by Walmart at corporate.walmart.com/about/sam-walton/10-rules-for-building-a-better-business."
+        }
+      ],
+      "excludedMisattributions": [
+        {
+          "quote": "Capital isn't scarce; vision is.",
+          "reason": "Everywhere online under Walton's name, but it traces only to a 2004 quotation anthology (Leslie Pockell, The 101 Greatest Business Principles of All Time) and downstream quote aggregators. No text in Made in America, none of the Ten Rules, and no documented Walton speech or interview supports it. Excluded."
+        },
+        {
+          "quote": "High expectations are the key to everything.",
+          "reason": "One of the most reproduced Walton lines on quote sites, with no primary source anywhere. The nearest thing he actually wrote is in Made in America, chapter 2: 'I've always held the bar pretty high for myself: I've set extremely high personal goals.' Excluded in favour of sourced material."
+        },
+        {
+          "quote": "Outstanding leaders go out of their way to boost the self-esteem of their personnel. If people believe in themselves, it's amazing what they can accomplish.",
+          "reason": "A staple of leadership training decks, but attributed to Walton only through the same 2004 quotation anthology and the aggregators that copied it. It appears neither in Made in America nor in the Ten Rules. Excluded."
+        },
+        {
+          "quote": "I pay low wages. I can take advantage of that. We're going to be successful, but the basis is a very low-wage, low-benefit model of employment.",
+          "reason": "The only quotation Wikiquote lists for Walton, yet its earliest traceable appearance is a Wired column by Adam L. Penenberg published April 21, 2005, thirteen years after Walton's death, with no contemporaneous transcript, interview, or document behind it. Excluded as unverifiable in either direction."
+        },
+        {
+          "quote": "The first Walmart opened in Bentonville, Arkansas.",
+          "reason": "A recurring factual misattribution rather than a quotation. Bentonville is where Walton's 5 & 10 variety store opened in 1950 and where Walmart's headquarters sits. The first Walmart, branded Wal-Mart Discount City, opened at 719 West Walnut Street in Rogers, Arkansas, on July 2, 1962."
+        }
+      ]
+    },
+    "steve-jobs": {
+      "quoteSources": [
+        {
+          "quote": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.",
+          "source": "Stanford University commencement address, June 12, 2005. Official Stanford transcript and video; also carried verbatim in the sourced section of Wikiquote."
+        },
+        {
+          "quote": "Your time is limited, so don't waste it living someone else's life.",
+          "source": "Stanford University commencement address, June 12, 2005. Quoted here as the opening clause only; the full sentence continues about not being trapped by dogma."
+        },
+        {
+          "quote": "It's not just what it looks like and feels like. Design is how it works.",
+          "source": "Interview with Rob Walker for \"The Guts of a New Machine,\" The New York Times Magazine, November 30, 2003. Full passage begins \"Most people make the mistake of thinking design is what it looks like.\""
+        },
+        {
+          "quote": "A lot of times, people don't know what they want until you show it to them.",
+          "source": "BusinessWeek interview, May 25, 1998. Listed in the sourced section of Wikiquote with that citation."
+        },
+        {
+          "quote": "Focusing is about saying no.",
+          "source": "Closing question-and-answer session at Apple's Worldwide Developers Conference, May 1997. On video and in published transcripts of the session, in the context of cancelling OpenDoc."
+        },
+        {
+          "quote": "Being the richest man in the cemetery doesn't matter to me ... Going to bed at night saying we've done something wonderful ... that's what matters to me.",
+          "source": "The Wall Street Journal, 1993. Ellipses reproduce the elisions in the published citation. Note that the cemetery figure of speech long predates Jobs and was used by the comedian Ed Wynn in the 1930s; Jobs is the source of this sentence, not of the image."
+        }
+      ],
+      "excludedMisattributions": [
+        "\"Stay hungry. Stay foolish.\" Jobs really did say this, as the last line of the 2005 Stanford address, but it is not his. He states in the speech itself that it was the farewell message on the back cover of the final issue of Stewart Brand's Whole Earth Catalog, the 1974 Whole Earth Epilog. Excluded because presenting it as a Jobs aphorism reverses the credit he was careful to give.",
+        "\"Here's to the crazy ones. The misfits. The rebels ... the ones who do.\" This is advertising copy for Apple's 1997 Think Different campaign, written at TBWA\\Chiat\\Day by copywriter Rob Siltanen with Ken Segall, from a concept by art director Craig Tanimoto under Lee Clow. Jobs approved it and recorded a narration that Apple did not air, but he did not write it. Excluded as agency copy, not a Jobs statement.",
+        "\"Good artists copy; great artists steal.\" Jobs did say this on camera in the PBS documentary Triumph of the Nerds (1996), but he explicitly attributed it to Picasso. The Picasso attribution is itself unverified and the sentiment traces to T. S. Eliot's 1920 essay on Philip Massinger. Excluded because it is a quotation of a quotation of doubtful origin.",
+        "\"Innovation distinguishes between a leader and a follower.\" One of the most reproduced Jobs lines on the internet and it has no primary source. It circulates only through quote aggregators and secondary business books such as Carmine Gallo's The Innovation Secrets of Steve Jobs (2010). No interview, speech, keynote or published transcript containing it has been located. Excluded.",
+        "\"I want to put a ding in the universe.\" Widely attributed and widely used, but it circulates in at least two incompatible wordings, ding and dent, with no agreed date, publication or transcript behind either. Excluded pending a citable primary source.",
+        "\"Simplicity is the ultimate sophistication.\" Used in Apple's 1977 Apple II brochure and therefore associated with Jobs, but it is an aphorism attributed to Leonardo da Vinci and predates him by centuries. Excluded.",
+        "\"The musicians play their instruments. I play the orchestra.\" Line of dialogue written for the 2013 feature film Jobs. There is no record of Jobs saying it. Excluded.",
+        "The viral deathbed essay beginning \"I reached the pinnacle of success in the business world\" and continuing that wealth is meaningless. A hoax. It first surfaced online in November 2015, more than four years after his death, was never published by any outlet with access to Jobs, and has been debunked by Snopes and Truth or Fiction. His reported last words, per his sister Mona Simpson's eulogy in The New York Times of October 30, 2011, were \"OH WOW. OH WOW. OH WOW.\" Excluded.",
+        "\"Do you want to sell sugared water for the rest of your life, or do you want to come with me and change the world?\" Almost certainly said in substance, but the only source is John Sculley's own memoir Odyssey: Pepsi to Apple (1987), that is, one participant's recollection of a private 1983 recruiting conversation, quoted from memory years later. Excluded from the quote list as secondhand and unverifiable, though it is retained in the record as a documented Sculley account.",
+        "\"My girlfriend always laughs during sex, no matter what she's reading.\" Circulates on quote sites under Jobs's name. It is a joke by the comedian Emo Philips. Excluded."
+      ]
+    },
+    "tobi-lutke": {
+      "quoteSources": [
+        {
+          "quote": "You earn your job not by knowing what to do. You earn your job by making great decisions when you don't know what to do.",
+          "source": "Tobi Lütke, \"Good at making decisions,\" personal blog tobi.lutke.com, October 30, 2013 (https://tobi.lutke.com/blogs/news/11280225-good-at-making-decisions)."
+        },
+        {
+          "quote": "Experiencing and learning things quickly is the ultimate life skill.",
+          "source": "Tobi Lütke, \"The Apprentice Programmer,\" personal blog tobi.lutke.com, March 3, 2013 (https://tobi.lutke.com/blogs/news/11280301-the-apprentice-programmer)."
+        },
+        {
+          "quote": "This taught me not to tangle my ego up in the code I write.",
+          "source": "Tobi Lütke, \"The Apprentice Programmer,\" personal blog tobi.lutke.com, March 3, 2013, describing the red-marker code reviews of his apprenticeship."
+        },
+        {
+          "quote": "We like the constraint of being human, and seeing what's possible from within those boundaries.",
+          "source": "Tobi Lütke, \"The Future Role of Human Excellence,\" personal blog tobi.lutke.com (also published in Quartz), July 17, 2018."
+        },
+        {
+          "quote": "Reflexive AI usage is now a baseline expectation at Shopify.",
+          "source": "Tobi Lütke, internal Shopify memo, which he published himself on X, April 7, 2025 (https://x.com/tobi/status/1909251946235437514)."
+        },
+        {
+          "quote": "Shopify is a team, not a family.",
+          "source": "Tobi Lütke, internal Shopify leadership memo, August 2020, later reported by Business Insider in 2021."
+        }
+      ],
+      "excludedMisattributions": [
+        "\"Make it different, even if it's worse.\" This is James Dyson's line, quoted to Lütke by David Senra in their January 2026 conversation. Lütke endorses it but did not originate it, so it is not presented as his.",
+        "\"Don't do anything that somebody else can do.\" Edwin Land's personal motto, quoted by Senra in the same conversation. Not Lütke's.",
+        "\"If you don't read books, you live a lifetime. If you read books, you live a thousand.\" Attested only in the machine-generated transcript of the Senra podcast, so it is excluded. His separately published remark that books are \"the closest thing you'll ever come to finding cheat codes for real life\" (The Knowledge Project, 2019) is the sourced version of the same idea.",
+        "\"In the short term the stock market is a voting machine, in the long term a weighing machine.\" Benjamin Graham, popularized by Warren Buffett, raised by Senra in conversation. Not Lütke's.",
+        "\"Don't cosplay orthodoxy, build from your own axioms and intuition.\" A corpus editor's synthesis of the Senra episode, not a Lütke quotation. The underlying ideas are his, but the sentence is not, so it is never quoted.",
+        "Birth date: Wikipedia lists only the birth year (1980), and a minority of biographical databases give 1981. The commonly cited full date, July 16, 1980, is used here.",
+        "2026 Le Mans finishing position: a specific result appears on Wikipedia but could not be corroborated against verifiable race results, so no racing placement is claimed. Lütke's amateur sports-car racing itself is confirmed by the Wikipedia infobox and race previews.",
+        "Amazon as a former employer: listed on the Wikimedia Commons / Wikidata entity for Lütke but unsupported by any reputable source, so it is excluded.",
+        "Sole-founder framing: Shopify was cofounded with Daniel Weinand and Scott Lake, and Scott Lake was the first CEO until Lütke took the role in 2008. Any suggestion that Lütke founded it alone is false."
+      ]
+    },
+    "daniel-ek": {
+      "quoteSources": [
+        {
+          "quote": "Music was too important to me to let piracy take down the industry.",
+          "source": "Spotify Technology S.A., Form F-1 filed with the SEC on 28 February 2018, founder letter \"Our Path: A Note from Daniel Ek, Co-Founder, Chief Executive Officer, and Chairman\", page 92. Verified verbatim against the filing text on EDGAR (https://www.sec.gov/Archives/edgar/data/1639920/000119312518063434/d494294df1.htm). Note: the filing renders the separator in the section heading as an em dash, written here as a colon for house style."
+        },
+        {
+          "quote": "We start with human creativity, augment it with our expertise and understanding, and then leverage with the efficiency of algorithms.",
+          "source": "Same F-1 founder letter, page 92. Verified verbatim. It follows the sentence \"So while some companies rely entirely on data, we take a different approach.\""
+        },
+        {
+          "quote": "We really do believe that we can improve the world, one song at a time.",
+          "source": "Same F-1 founder letter, closing line, page 93. Verified verbatim. This is the letter's most widely reproduced sentence and was quoted in contemporaneous coverage by NPR, Business Insider and Music Week."
+        },
+        {
+          "quote": "I have always thought about roles as missions. At Spotify, I have had about nine missions while keeping the same title.",
+          "source": "Daniel Ek, \"Evolving How We Lead\", note to all Spotify employees published in full on the Spotify Newsroom, 30 September 2025 (https://newsroom.spotify.com/2025-09-30/daniel-ek-letter-evolving-how-we-lead/). Verified verbatim; two consecutive sentences from the fourth paragraph, quoted unbroken."
+        },
+        {
+          "quote": "I think happiness is a trailing indicator of impact.",
+          "source": "Spoken by Ek in his conversation with David Senra, published 28 September 2025. His full spoken sentence was \"I think happiness is a trailing indicator of impact, and I think truly sustained happiness comes from impact\"; the quote here is the opening independent clause, unaltered. Independently corroborated by Startup Archive's transcription of the same clip. The hedge \"I think\" is deliberately kept."
+        },
+        {
+          "quote": "Advice is useless unless it's tied to who you are as a person.",
+          "source": "Spoken by Ek in the same 28 September 2025 conversation with David Senra, in the passage on founder archetypes and why imitating Jobs, Bezos, Gates or Schultz failed for him. Corroborated across multiple independent transcriptions and summaries of the episode. Some transcripts render the sentence with a leading \"The\"; the article-free form used here is the one that recurs across sources."
+        }
+      ],
+      "excludedMisattributions": [
+        "\"Since when is life about happiness? It's about impact.\" Widely circulated as an Ek quote. It is Dara Khosrowshahi's recollection of something Ek said to him, read aloud to Ek by the host David Senra from a Khosrowshahi interview. Ek did not repeat the sentence; he answered by explaining the underlying idea in his own words. Excluded as a direct quote, and deliberately not reintroduced.",
+        "\"Quality is never an accident. It is always the result of intelligent effort.\" Read TO Ek by David Senra. Commonly attributed to John Ruskin or William A. Foster. Ek's own formulation, that quality for him is less, is focus, and is improving day by day, would be the correct substitute.",
+        "\"The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself.\" George Bernard Shaw, Man and Superman (1903), read aloud by the host. Ek says he has it painted on his wall, which is a fact about him, but the line is Shaw's.",
+        "\"In life the challenge is not so much to figure out how best to play the game; the challenge is to figure out what game you're playing.\" Kwame Anthony Appiah. Ek keeps it on his wall and endorses it, but it is not his. Auto-transcripts of the episode garble the attribution, which is why the name needed independent checking.",
+        "\"The value of a company is the sum of all problems solved.\" Ek explicitly attributes this to his Spotify co-founder Martin Lorentzon. Usable only with that attribution.",
+        "\"Money comes naturally as a result of service\" is Henry Ford; \"all a business is is an idea to make somebody else's life better\" is Richard Branson; \"trust is one of the greatest economic forces in the world\" and \"a seamless web of deserved trust\" are Charlie Munger. All were quoted TO Ek by the host. He agrees with them but did not originate them.",
+        "Several passages in podcast transcripts that read like Ek's opinions are the host monologuing, including the Michael Jordan lock screen anecdote, which belongs to David Senra. The transcript was checked speaker by speaker.",
+        "Quote aggregator sites such as BrainyQuote, Bookey and GraciousQuotes list dozens of \"Daniel Ek quotes\" with no primary citation, including variations on \"we're not in the music business, we're in the moment business\". None could be traced to a primary source and none are used.",
+        "The Advertigo sale price is stated nowhere in this profile. The March 2006 TradeDoubler acquisition itself is well documented, but reported consideration varies across sources (one widely repeated figure is SEK 10 million) and no primary confirmation was found. Ek's own \"ten million dollars by twenty two\" framing describes a personal wealth target he set as a teenager after reading Rich Dad Poor Dad, not the transaction value.",
+        "Net worth is given as a range with sourcing rather than a single number. July 2026 published estimates spanned roughly $3 billion to $9.4 billion depending on the tracker, and Forbes's own profile page was serving a stale April 2025 figure at the time of writing. Any single figure stated as fact would be wrong.",
+        "All Spotify user, subscriber and payout metrics are stamped with an explicit as-of date because they change quarterly. Q1 2026 figures (761 million monthly active users, 293 million Premium subscribers) were reported on 28 April 2026; Q2 2026 results had not been published as of the research date of 23 July 2026. Spotify guided to about 778 million monthly active users and 299 million subscribers for Q2 2026, and that guidance is deliberately not stated here as an achieved result.",
+        "Spotify's founding month is given only as 2006. Ek and Lorentzon incorporated Spotify AB in Stockholm that year and April 2006 is frequently cited, but Wikipedia and the company's own materials state only the year, so the month is not asserted as fact.",
+        "Ek has never received an honorary doctorate, the Polar Music Prize, or a Swedish royal order that could be verified, despite such claims appearing on low quality biography sites. Only the TIME 100, MIT Technology Review, Forbes and Billboard recognitions listed above could be confirmed against the publishers' own pages."
+      ]
+    },
+    "evan-spiegel": {
+      "quoteSources": [
+        {
+          "quote": "The things that make us human are those times we listen to the whispers of our soul and allow ourselves to be pulled in another direction.",
+          "source": "Evan Spiegel, USC Marshall School of Business undergraduate commencement address, May 15, 2015. Rendered verbatim in contemporaneous coverage, including Fox News, 'The 3 smartest things Snapchat CEO Evan Spiegel told grads' (May 2015), which quotes the surrounding sentence in full."
+        },
+        {
+          "quote": "I am now convinced that the fastest way to figure out if you are doing something truly important to you is to have someone offer you a bunch of money to part with it.",
+          "source": "Evan Spiegel, USC Marshall School of Business undergraduate commencement address, May 15, 2015, as carried in the published text of the address and in May 2015 press coverage of the speech."
+        },
+        {
+          "quote": "Someone will always have an opinion about you. Whatever you do won't ever be enough. So find something important to you. Find something that you love.",
+          "source": "Evan Spiegel, USC Marshall School of Business undergraduate commencement address, May 15, 2015. Quoted verbatim by Fox News (May 2015); the closing two sentences also appear in TIME's excerpt of the speech."
+        },
+        {
+          "quote": "Squeezed between the tech giants and smaller competitors, on the verge of greatness, we find ourselves in a crucible moment.",
+          "source": "Evan Spiegel, '14 Years at Snap Inc.', annual letter published on Snap Newsroom, September 8, 2025 (https://newsroom.snap.com/14-year-letter). Verified against the primary text."
+        },
+        {
+          "quote": "The crucible is where strength is forged.",
+          "source": "Evan Spiegel, '14 Years at Snap Inc.', annual letter published on Snap Newsroom, September 8, 2025 (https://newsroom.snap.com/14-year-letter). Verified against the primary text."
+        },
+        {
+          "quote": "We believe the time is right for a revolution in computing that naturally integrates our digital experiences with the physical world, and we can't wait to publicly launch our new Specs next year.",
+          "source": "Evan Spiegel, quoted by name in Snap Inc.'s press release 'Snap to Launch New Lightweight, Immersive Specs in 2026', issued at Augmented World Expo on June 10, 2025 and distributed via Business Wire the same day."
+        }
+      ],
+      "excludedMisattributions": [
+        "'The founder is the guardian of the company's soul.' A key lessons summary of the April 2026 Founders podcast episode attributes this to Spiegel, but in the underlying transcript the line is spoken by host David Senra while asking about Jensen Huang's org structure. Rejected entirely and never used in any field.",
+        "'Conformity is the jailer of freedom and the enemy of growth.' Spiegel used this line in the 2015 USC Marshall address, but it is John F. Kennedy's, which he was quoting. Excluded from notableQuotes to avoid crediting him with someone else's sentence.",
+        "'We must welcome our own erasure.' Genuinely his phrasing in the same speech, but it lands only alongside the Willem de Kooning anecdote he was retelling, so it was left out rather than presented as a standalone aphorism.",
+        "'There are very few people in the world who get to build a business like this. I think trading that for some short-term gain isn't very interesting.' Widely recirculated as Spiegel's explanation for refusing Facebook, but no primary interview transcript or dated on the record citation could be confirmed, so it is excluded from notableQuotes.",
+        "'There is no moat in software' and 'You don't need 500 friends on Snapchat, you just need your best friend.' Real Spiegel ideas from the April 2026 Founders podcast conversation, but the wording comes from a machine generated transcript with visible errors elsewhere. Carried only as themes, never quoted.",
+        "'Kind is not nice' as an aphorism. The distinction is his, but the phrasing is auto transcribed. The verified values line, 'We've done that by holding fast to our values: kind, smart, and creative,' from his published September 8, 2025 annual letter, is the trustworthy version.",
+        "'The greatest Christmas present I ever received,' about Facebook's Poke app. Sourced by David Senra to Billy Gallagher's book rather than to Spiegel speaking, so not used as a direct quote.",
+        "'I don't handle it, I like it.' Herb Kelleher of Southwest Airlines, quoted by David Senra in the same episode. Not Spiegel's line.",
+        "'Snapchat's almost a $7 billion revenue business.' Spiegel's loose framing in conversation. Snap reported $5.93 billion in FY2025 revenue and $1.53 billion in Q1 2026, so only reported figures appear here.",
+        "'There are more selfies taken on Snapchat than on iPhone in total.' Said by Spiegel in the podcast, but no independent confirmation exists, so it is omitted.",
+        "Facebook's earlier reported roughly $1 billion approach to Snapchat. Frequently repeated but less firmly documented than the November 2013 $3 billion cash offer, so only the $3 billion figure is stated.",
+        "Reggie Brown's precise founding contribution. Contested and litigated. This profile states only what the record supports: he brought the disappearing photo concept, he was pushed out within months, he sued, and the September 2014 settlement paid him $157.5 million and credited him as a co-founder. No further characterization is made.",
+        "A $20 million gift to Stockton Scholars. Attributed to Spiegel by multiple aggregators but with conflicting years (2018 versus 2022) and no primary confirmation located, so it is omitted from the philanthropy passage.",
+        "Absolute superlatives such as 'youngest CEO in the S&P 500.' Contemporary coverage supports 'one of the youngest chief executives of a United States public company at 26' and no stronger claim, especially since Snap was excluded from the S&P indices. The softer wording is used.",
+        "Net worth precision. Spiegel's wealth is almost entirely SNAP stock and moves daily, so the figure is stamped with the exact Forbes as of date rather than presented as a stable number."
+      ]
+    },
+    "jimmy-iovine": {
+      "quoteSources": [
+        {
+          "quote": "Everything you know could already be wrong.",
+          "source": "Commencement address, University of Southern California, May 17, 2013. Confirmed verbatim in two independent published transcripts, The Hollywood Reporter's full text and the whatrocks commencement transcript archive. The Hollywood Reporter renders it in capital letters for emphasis; the sentence itself is identical."
+        },
+        {
+          "quote": "I was once fired from two jobs within 90 days. I felt as if the sidewalk was collapsing behind me, but that insecure feeling always kept me moving forward.",
+          "source": "Commencement address, University of Southern California, May 17, 2013. Reproduced verbatim from the whatrocks transcript archive; the first sentence is independently confirmed in The Hollywood Reporter's transcript."
+        },
+        {
+          "quote": "Rather than stop me in my tracks like a headwind, I began to learn how to make those same insecurities the tailwinds to propel me forward.",
+          "source": "Commencement address, University of Southern California, May 17, 2013. Confirmed verbatim in both the whatrocks transcript archive and The Hollywood Reporter's published text."
+        },
+        {
+          "quote": "I never met a great artist who wasn't afraid of not living up to people's expectations.",
+          "source": "Commencement address, University of Southern California, May 17, 2013. Confirmed verbatim in both published transcripts. In the speech the thought continues that all of the greats used their fear to inspire them."
+        },
+        {
+          "quote": "When you learn to harness the power of your fears, it can take you places beyond your wildest dreams.",
+          "source": "Commencement address, University of Southern California, May 17, 2013. Confirmed verbatim in both published transcripts, which begin the sentence with a linking Because; that word is dropped here so the sentence can stand alone. No other wording is altered."
+        },
+        {
+          "quote": "I've always known in my heart that Beats belonged with Apple.",
+          "source": "Statement attributed to Jimmy Iovine in Apple's newsroom release announcing the acquisition of Beats Music and Beats Electronics, May 28, 2014. Quoted here as the opening sentence only; it continues that the idea for the company was inspired by Apple's ability to marry culture and technology."
+        }
+      ],
+      "excludedMisattributions": [
+        "\"If you can figure out a way to wrestle that fear to push you from behind rather than to stand in front of you, that's very powerful.\" REJECTED as a verbatim quote. It circulates widely as a line from the 2013 USC address but appears in neither full published transcript of that speech. The verified headwind and tailwind sentence is used instead.",
+        "\"Marketing is empathy at scale; win by attaching yourself to the very best people and telling them the brutal truth.\" REJECTED. This is an editorial synthesis line written by the Founders podcast, not spoken by Iovine. Never attribute it to him.",
+        "\"Marketing is empathy. Understanding what somebody else is feeling on a massive scale.\" NOT quoted. The substance is genuinely his and appears in his conversation with David Senra, but the only available text is an auto-generated machine transcript, which is unreliable for exact wording. The idea is carried in prose form only, never inside quotation marks.",
+        "\"You want Jimmy in the room because he'll tell you the truth.\" REJECTED as a self-quote. This is how Bruce Springsteen and others describe Iovine, relayed secondhand. It is a characterization of him, not his own words.",
+        "\"Oscilloscopes don't buy headphones, people do.\" EXCLUDED. Widely attributed to Iovine and echoed in coverage of a 2023 speech, but no primary transcript could be retrieved to confirm the exact wording.",
+        "$3.2 billion as the Beats sale price. REJECTED. That figure came from early Financial Times reporting before the deal was announced and was repeated in headlines. Apple's own newsroom release of May 28, 2014 states $3 billion total, about $2.6 billion in cash plus roughly $400 million vesting over time.",
+        "Interscope founded in 1989. REJECTED in favor of 1990. One Wikipedia sentence gives 1989, but the Interscope label history dates the founding to September 1990, and Rolling Stone and the Los Angeles Business Journal place the Atlantic joint venture in late 1990.",
+        "A hard dollar figure for Interscope's founding capital. NOT asserted. Rolling Stone describes a $30 million joint venture with the Atlantic Group; most other accounts, including Wikipedia, say $20 million. Because the sources conflict, the profile describes the venture without naming a figure.",
+        "Beats founded in 2006. NOT used. Some profiles, including Wikipedia, date the Iovine and Dre partnership to 2006, but Apple's acquisition release states Beats was formally established in 2008, which is also when the first headphones shipped. The profile uses 2008.",
+        "Rock and Roll Hall of Fame induction in 2024, or induction as a performer. REJECTED. Iovine received the Ahmet Ertegun Award, the non performer honor, in the class of 2022 alongside Allen Grubman and Sylvia Robinson, at the November 5, 2022 ceremony in Los Angeles.",
+        "USC commencement date of May 16, 2013. CORRECTED to May 17, 2013. NPR's commencement archive labels the speech May 16, but USC's own record places the 130th commencement at Alumni Memorial Park on Friday, May 17, 2013, and contemporaneous Billboard and Hollywood Reporter coverage describes a Friday ceremony.",
+        "Producers and Engineers Wing honor in 2011. CORRECTED to February 8, 2012. Wikipedia gives 2011, but the Recording Academy's own announcement places the fifth annual Grammy Week celebration honoring Iovine at The Village in Los Angeles on February 8, 2012.",
+        "\"A Very Special Christmas has raised over $145 million.\" NOT asserted as a flat figure. Wikipedia states $145 million, Special Olympics material has cited roughly $131 million, and the widely repeated older figure is $100 million as of 2012. The profile states more than $100 million and notes the higher reported tallies rather than picking one unverified number.",
+        "Claims that Iovine personally banked $1 billion, or exactly $750 million, from the Beats sale. NOT asserted. The $3 billion was the price for the company, split among shareholders including Dr. Dre, HTC and Carlyle. Reported personal splits vary by outlet and none is confirmed by a filing.",
+        "Net worth figures from celebrity net worth aggregator sites, including the $1 billion and $1.1 billion figures now circulating for 2026. REJECTED as unsourced. The profile cites only the Forbes figure of $800 million from August 2015 and states plainly that Forbes has published nothing more recent.",
+        "MOG acquired in 2011. NOT used. Iovine has said 2011 from memory, but contemporaneous reporting places Beats' acquisition of MOG in 2012. The profile avoids stating a year for that purchase.",
+        "Production credit on Meat Loaf's Bat Out of Hell (1977). EXCLUDED from notable works. The album was produced by Todd Rundgren; Iovine's involvement is listed inconsistently across sources and is not a production credit."
+      ]
+    },
+    "john-mackey": {
+      "quoteSources": [
+        {
+          "quote": "We believe that business is good because it creates value, it is ethical because it is based on voluntary exchange, it is noble because it can elevate our existence, and it is heroic because it lifts people out of poverty and creates prosperity.",
+          "source": "The Conscious Capitalism Credo, published as the afterword of Conscious Capitalism: Liberating the Heroic Spirit of Business by John Mackey and Raj Sisodia (Harvard Business Review Press, 2013). Wording independently cross checked against Mackey's January 15, 2013 Forbes interview with Dan Schawbel, where he restates the same formulation. The credo is co-authored and phrased in the first person plural, so it is presented as his stated creed rather than an offhand personal remark."
+        },
+        {
+          "quote": "When businesses operate with higher purpose beyond profits and create value for all stakeholders, tradeoffs are largely eliminated, performance is elevated and the entire system flourishes. Everyone wins.",
+          "source": "John Mackey, interviewed by Dan Schawbel, Forbes, January 15, 2013 (https://www.forbes.com/sites/danschawbel/2013/01/15/john-mackey-why-companies-should-embrace-conscious-capitalism/). Spoken by Mackey, on the record, in answer to a question about conscious capitalism."
+        },
+        {
+          "quote": "I am now 53 years old and I have reached a place in my life where I no longer want to work for money, but simply for the joy of the work itself and to better answer the call to service that I feel so clearly in my own heart.",
+          "source": "John Mackey, letter distributed to all Whole Foods Market team members on November 2, 2006, announcing that he was reducing his salary to $1 a year, giving up bonuses and stock grants, donating his stock options to charity and seeding a Global Team Member Emergency Fund. Published by Whole Foods Market as Compensation at Whole Foods Market and reported at the time by Fast Company. Verified verbatim against the company's own posting of the letter."
+        },
+        {
+          "quote": "The ability to innovate is your only real lasting competitive advantage.",
+          "source": "John Mackey, interviewed by Adam Grant on the TED podcast Rethinking, episode published as John Mackey doesn't follow business plans, official TED transcript (https://www.ted.com/podcasts/rethinking-with-adam-grant/john-mackey-doesnt-follow-business-plans-transcript). Confirmed against the transcript as spoken by Mackey, in the passage where he notes that retail has no patents."
+        },
+        {
+          "quote": "I think profits are an indirect result of creating value for other people.",
+          "source": "John Mackey, same TED Rethinking with Adam Grant transcript. Confirmed as spoken by Mackey, immediately after he says he is not a shareholder value person."
+        },
+        {
+          "quote": "As a parent, I have always loved Whole Foods with all my heart.",
+          "source": "John Mackey, My Goodbye to Whole Foods, published on johnpmackey.com in September 2022 around his September 1, 2022 retirement (https://johnpmackey.com/my-goodbye-to-whole-foods/). Verified verbatim, including the word always, against the post itself."
+        }
+      ],
+      "excludedMisattributions": [
+        "HOST SYNTHESIS, NOT MACKEY: The Founders podcast framing 'Build as a missionary, not a mercenary, never fight the low-cost rival on price, compound in your niche, and turn competitors into allies' is the podcast corpus editor's summary, not a Mackey quote, and is not attributed to him anywhere in this profile.",
+        "HOST WORDS, NOT MACKEY: In the Founders episode it is David Senra, not Mackey, who says 'missionary founders make better longer term decisions.' Also Senra's rather than Mackey's: 'belief is irresistible,' 'passion is infectious,' and the paraphrase 'you said capitalism was the greatest thing that humans have ever invented.' None are used as Mackey quotes. The missionary versus mercenary framing itself was popularized by the investor John Doerr, not coined by Mackey.",
+        "BORROWED TERM: 'Secret allies' is Rockefeller's term, applied to Mackey by Senra during that interview. Mackey's own name for his alliance of early natural foods retailers was the Natural Foods Network, and he credits Peter Roy with actually convening it.",
+        "AUTO-TRANSCRIPT UNRELIABLE FOR EXACT WORDING: The machine transcript of the Founders episode contains visible corruptions ('safer way' for SaferWay, 'Alalfa's' for Alfalfa's, 'Wellspring Growthy' for Wellspring Grocery, 'grosser' for grocer). No verbatim quote in this profile is taken from it. All six notableQuotes come from independently published sources: his 2013 book, his January 2013 Forbes interview, his November 2, 2006 letter to team members, the official TED Rethinking transcript, and his September 2022 farewell post.",
+        "STAT REJECTED: Mackey has said from memory in interviews that Whole Foods 'does 550 stores right now.' Published counts range from roughly 487 to 549 depending on year and country mix, so no such figure is used. The profile uses only firmly documented numbers: a staff of 19 at the first store in 1980, more than 460 stores at the June 2017 Amazon announcement, and 'more than 500 stores' for the modern chain.",
+        "DETAIL REJECTED: The frequently repeated claim that the first Whole Foods was 10,500 square feet at 914 North Lamar Boulevard could not be traced to a primary source. Confirmed and used instead: it opened September 20, 1980 in the 900 block of North Lamar Boulevard in Austin with a staff of 19. No street number and no square footage are asserted.",
+        "CREDIT CORRECTED: Mackey is a co-founder, not the sole founder. Mackey, Renee Lawson (Hardy), Craig Weller and Mark Skiles are all recognized co-founders of Whole Foods Market, and the profile says so.",
+        "UNSOURCED QUOTE AGGREGATORS REJECTED: Popular 'John Mackey quotes' circulating on BrainyQuote, Bookey, QuotesWise and similar sites were all rejected because they carry no traceable book, letter, article or transcript. Only quotes with a named, datable source were kept.",
+        "NET WORTH HANDLED WITH CARE: Estimates for Mackey's net worth range from roughly $76 million (Forbes, June 16, 2017) to $85 million or $100 million on unsourced celebrity net worth aggregators. Only the dated Forbes figure is stated, and it is labeled as an estimate with its as-of date.",
+        "OUT OF SCOPE BY BRIEF: Mackey's politically contested public statements and a 2000s era reputational controversy documented on his Wikipedia page are deliberately not reproduced here, per the business focused scope of this profile. The legacy section notes only, neutrally and factually, that he is a self-described libertarian whose outspoken public commentary has at times drawn controversy.",
+        "QUOTE NOT USED FOR PUNCTUATION FIDELITY: Mackey's memoir line calling his venture capital backers 'hitchhikers with credit cards' is genuine and appears as an attributed phrase inside the career section, but the full sentence in the book is joined by an em dash, so it was not lifted into notableQuotes rather than being silently repunctuated."
+      ]
+    },
+    "brian-armstrong": {
+      "quoteSources": [
+        {
+          "quote": "In short, I want Coinbase to be laser focused on achieving its mission, because I believe that this is the way that we can have the biggest impact on the world.",
+          "source": "Brian Armstrong, 'Coinbase is a mission focused company', The Coinbase Blog, September 27, 2020. Verified verbatim against the author's Medium mirror at https://medium.com/the-coinbase-blog/coinbase-is-a-mission-focused-company-af882df8804. His own written prose, not a transcript."
+        },
+        {
+          "quote": "Change happens in the world only when a smart, talented, group of people come together to focus on a hard problem for a decade or more.",
+          "source": "Same post, September 27, 2020, from the section 'Why are we mission focused?'. Verified verbatim, including his comma after 'talented'."
+        },
+        {
+          "quote": "There is never enough time to do everything, so companies need to choose what change they want to see in the world and focus there.",
+          "source": "Same post, September 27, 2020, from the section 'Focus on building'. Verified verbatim."
+        },
+        {
+          "quote": "I recognize that our approach is not for everyone, and may be controversial. I know that many people may not agree, and some employees may resign.",
+          "source": "Same post, September 27, 2020, from the conclusion. Verified verbatim, two consecutive sentences."
+        },
+        {
+          "quote": "Technology is the longest lever we can pull to improve the human condition.",
+          "source": "Brian Armstrong, 'How crypto enables economic freedom', The Coinbase Blog, September 23, 2021, from the conclusion. Verified verbatim against the post's text under his byline."
+        },
+        {
+          "quote": "Our core thesis is that greater adoption and usage of cryptocurrency will increase economic freedom in the world.",
+          "source": "Same post, September 23, 2021, opening summary line, where it appears after a 'Tl;dr:' label and continues 'because crypto solves many of the shortcomings of the current financial system that hinder economic freedom'. Quoted as the leading clause. This is his stated company thesis, not investment advice."
+        }
+      ],
+      "excludedMisattributions": [
+        "CRITICAL, carried forward: the Third Circuit ruling of January 13, 2025 and the SEC enforcement dismissal of February 27, 2025 are two separate events, not one. The first concerned the SEC's denial of Coinbase's July 2022 rulemaking petition and was remanded for a reasoned explanation. The second was the SEC's 2023 civil enforcement case, dismissed with prejudice. Popular retellings, including Armstrong's own spoken recollection on a podcast, blur them into a single 'we won'. This profile states them separately and takes no position on any regulator's motives.",
+        "REJECTED as a quote: 'A long-term mission simplifies the hardest calls, even suing your regulator, and a founder's edge is knowing he could rebuild from scratch.' This is a corpus editor's synthesis of a podcast episode, not Armstrong's language.",
+        "REJECTED as a quote: 'I could go back to being on my laptop again if I had to.' The substance is genuinely his, but the only available text is a machine-generated auto-transcript with visible mistranscriptions elsewhere, so exact wording is unverifiable. No notableQuote in this profile comes from that transcript.",
+        "REJECTED as his: the 'iron in my veins' line about rebuilding a country from scratch. That is Lee Kuan Yew, and Armstrong cites it as such.",
+        "REJECTED as his: 'You can't save souls in an empty church.' Said by David Senra in conversation with him and attributed to David Ogilvy. Armstrong only replies 'well said'.",
+        "REJECTED as his: 'What is the limiting factor.' Armstrong credits this framing to Elon Musk.",
+        "REJECTED as his: 'You have to be contrarian but right.' Armstrong attributes this to Peter Thiel while speaking.",
+        "REJECTED as his: 'First they ignore you, then they laugh at you, then they fight you, then you win.' He references it as a Gandhi quote; it is itself widely misattributed and is not his line.",
+        "REJECTED: 'It's a marathon, not a sprint' and similar aphorisms circulating under his name on quote-aggregator sites. No primary source; searches surface only unsourced quote farms.",
+        "REJECTED: 'It's not the gold diggers who get rich, it's the shovel sellers.' An old proverb repeated in profiles about him, not an original Armstrong line.",
+        "REJECTED as current: 'Coinbase's mission is to create an open financial system for the world.' Verbatim from the 2020 post and the 2021 S-1, and accurate only as of that period. Coinbase's stated mission today is to increase economic freedom in the world. The two must not be conflated, so this is described in the career and legacy text with its date rather than listed as a standing quote.",
+        "EXCLUDED from notableQuotes: 'I would like us to all in crypto think about how we actually go create physical places in the world to preserve freedom over the long term. I think that's ultimately crypto's destiny.' Reported by The New Republic as a line from a podcast interview. The wording is secondhand from a magazine quoting audio, so it does not meet this profile's primary-source bar for a verbatim quote.",
+        "EXCLUDED as unverifiable text: the 'Letter from our Co-Founder and CEO' in Coinbase's February 25, 2021 Form S-1 is filed as page images rather than machine-readable text in the EDGAR document, so no quotation was drawn from it. The S-1 is used only for facts stated in its text body.",
+        "FLAGGED as opinion, not fact: his podcast characterizations of specific officials and of the SEC acting unlawfully are his stated beliefs, partly relayed hearsay, not established findings. They are excluded from this profile entirely, and the regulatory section states only what was filed, when, and how it resolved.",
+        "EXCLUDED from figures: his on-air estimates that the legal fight cost 'maybe in the 50 to 100 million range' and depressed the stock by 'I don't know, 10, 20 billion maybe more'. Rough spoken recollections, not audited or independently verified.",
+        "CORRECTED from the podcast transcript: he recalls the $25 million round as Union Square Ventures and Ribbit with Andreessen Horowitz at Series B. The documented record is a roughly $5 million Series A led by Union Square Ventures in May 2013 and a $25 million Series B led by Andreessen Horowitz in December 2013 with Union Square Ventures and Ribbit Capital participating. This profile uses the documented version.",
+        "CLARIFIED on valuation: first-day Coinbase valuations were reported anywhere from about $65 billion to over $112 billion depending on the price point and share count used. This profile uses the $328.28 closing price and the roughly $85 billion figure reported at the close.",
+        "CLARIFIED on the founding date: Coinbase's SEC filings say inception in May 2012, while the company and most accounts date the founding to June 2012, when it launched publicly. Both are stated rather than one being silently chosen.",
+        "CORRECTED on the Giving Pledge: he signed it in 2018 as the first cryptocurrency entrepreneur to do so, but Bloomberg reported in July 2024 that he had been removed from the signatory list. He must not be described as a current signatory. Likewise GiveCrypto.org, launched in 2018, wound down in 2023 and must not be described as active.",
+        "CLARIFIED on net worth: trackers disagreed materially through 2026, with published estimates ranging from roughly $7.4 billion to $9.4 billion depending on the date and the source. This profile cites one source with one as-of date rather than averaging them.",
+        "CLARIFIED on Fairshake: Fairshake is an industry super political action committee funded by multiple companies and investors, not Armstrong's personal committee. Coinbase, the corporation, was among its largest donors. Descriptions of it as 'Armstrong's super PAC' are imprecise.",
+        "NOT INCLUDED: any assessment of Coinbase stock, cryptocurrency, or any asset as an investment. This profile contains no investment or financial advice and none should be inferred from the quotations, which describe his company's stated mission and thesis."
+      ]
+    },
+    "james-dyson": {
+      "quoteSources": [
+        {
+          "quote": "I aim not to be clever, but to be dogged.",
+          "source": "James Dyson, Against the Odds: An Autobiography (1997). His full sentence in the book is \"As I have often said, I aim not to be clever, but to be dogged.\" Reproduced with that book attribution in David Senra's published reading notes on Against the Odds (world.hey.com/davidsenra) and by SUCCESS magazine's profile of Dyson. Dyson restated the line himself, unprompted, in his 2025 filmed conversation with Senra."
+        },
+        {
+          "quote": "There is no such thing as a quantum leap. There is only dogged persistence, and in the end you make it look like a quantum leap.",
+          "source": "James Dyson, Against the Odds: An Autobiography (1997). Printed on Goodreads' quote page for the book as \"There is no such thing as a quantum leap. There is only dogged persistence, and in the end you make it look like a quantum leap.\" The published text uses a dash before the final clause; it is rendered here as a comma to match house style, with no change of wording."
+        },
+        {
+          "quote": "I am claiming nothing but the virtues of a mule.",
+          "source": "James Dyson, Against the Odds: An Autobiography (1997), from the passage \"At any stage in my story where I talk of vision, and arrogance seems to have got the better of me, remember that I am celebrating only my stubbornness. I am claiming nothing but the virtues of a mule.\" Quoted with that book attribution in the Founders podcast episodes on the book and in published reading notes on it."
+        },
+        {
+          "quote": "Misfits are not born or made; they make themselves.",
+          "source": "James Dyson, Against the Odds: An Autobiography (1997). Listed as a direct quotation from the book, alongside \"I have been a misfit throughout my professional life, and that seems to have worked to my advantage\", in getAbstract's summary of Against the Odds (citing the Thomson Texere edition, 2003) and in David Senra's published reading notes on the same book. Some quote sites file these lines under Invention: A Life; the sourced attributions point to Against the Odds, so that is the attribution used here."
+        },
+        {
+          "quote": "Invention is often more about endurance and patient observation than brainwaves.",
+          "source": "James Dyson, Invention: A Life (2021), from the passage \"Research is about conducting experiments, accepting and even enjoying failures, but going on and on, following a theory garnered from observing the science. Invention is often more about endurance and patient observation than brainwaves.\" Carried verbatim on Goodreads' quote page for the book."
+        },
+        {
+          "quote": "Failure is interesting. It's part of making progress. You never learn from success, but you do learn from failure.",
+          "source": "James Dyson, interviewed by Nadia Goodman for Entrepreneur, November 2012, \"James Dyson on Using Failure to Drive Success\" (entrepreneur.com/growing-a-business/james-dyson-on-using-failure-to-drive-success/224855), also syndicated by NBC News. The article prints an em dash after \"interesting\"; it is rendered here as a period to match house style, with no change of wording."
+        }
+      ],
+      "excludedMisattributions": [
+        {
+          "text": "5,127 prototypes over 15 years.",
+          "reason": "The most common Dyson myth, and a conflation of two separate spans. The 5,127 hand built prototypes are concentrated in the coach house years at Bathford, roughly 1979 into the early 1980s, ending with the Kleeneze Rotork Cyclon of 1983 and 1984 and then the G-Force in Japan in March 1986. The fourteen year arc in Against the Odds runs from tearing the bag off his Hoover at the age of thirty one to the first fully operational and visually perfect Dual Cyclone on 2 May 1992, his forty fifth birthday. Both are stated separately in this profile and never merged."
+        },
+        {
+          "text": "He spent 15 years creating 5,126 versions that failed before he made one that worked.",
+          "reason": "The framing used in Entrepreneur's own 2012 article and repeated by many aggregators. The interview quotation from that article is used here, but its surrounding arithmetic is not, since it merges the two spans and revises the prototype count."
+        },
+        {
+          "text": "After five years and about 5,127 prototypes, Dyson launched the G-Force cleaner in 1983.",
+          "reason": "A compressed sentence in the English Wikipedia article on James Dyson that runs two products together. The machine sold in 1983 and 1984 was the Kleeneze Rotork Cyclon, roughly 500 units; the G-Force was a reworked version put into production in Japan by Apex in March 1986. The company article on Wikipedia states the corrected sequence, which is what this profile follows."
+        },
+        {
+          "text": "A clever person doesn't spend 14 years building 5,127 prototypes of the world's first cyclonic vacuum cleaner. A determined person does.",
+          "reason": "David Senra's own line, written while reading the books and stated as such in the Founders episode. It is not a Dyson quotation and circulates as one."
+        },
+        {
+          "text": "Difference and retention of total control.",
+          "reason": "Senra's one line compression of Dyson's philosophy. Dyson's own phrasings are difference for the sake of it and retain total control, so the compound slogan is not quoted as his."
+        },
+        {
+          "text": "Successes teach you nothing. Failures teach you everything. Making mistakes is the most important thing you can do.",
+          "reason": "Circulates widely on quote aggregator sites with no primary citation traceable to a book, interview or speech. The sourced Entrepreneur line about never learning from success is used instead."
+        },
+        {
+          "text": "I made 5,127 prototypes and there were 5,126 failures.",
+          "reason": "The prototype count is his and is documented, but this exact sentence is an aggregator construction. No quoted form of the number is used anywhere in this profile."
+        },
+        {
+          "text": "You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.",
+          "reason": "Buckminster Fuller, whom Dyson admires and quotes. Frequently reposted under Dyson's name."
+        },
+        {
+          "text": "If you ask people what they want, they want a faster horse.",
+          "reason": "An apocryphal Henry Ford line, raised in conversation around Dyson's dismissal of market research. Not Dyson's, and not Ford's on any documented record."
+        },
+        {
+          "text": "Excellence is the capacity to take pain, and the hard way is the right way.",
+          "reason": "Senra's maxims, used while narrating Dyson's story, the second credited by him to Jerry Seinfeld. Not Dyson's words."
+        },
+        {
+          "text": "His father was forty when he died.",
+          "reason": "Not a quote, but excluded on the same standard. Sources disagree on Alec Dyson's age at death, giving both forty and forty three, so no age is stated. What is consistently documented is that he died of cancer in 1956, when James was nine, and that the school allowed James to remain."
+        },
+        {
+          "text": "Motor speed figures of 130,000 or 140,000 rpm, and the Dyson Institute salary quoted in dollars.",
+          "reason": "Dyson cites motor speeds conversationally with varying numbers, and published Institute salary figures are in pounds and have changed over time. No rpm figure and no salary number is asserted in this profile, only that Institute students are paid and pay no tuition fees."
+        }
+      ]
+    },
+    "todd-graves": {
+      "quoteSources": [
+        {
+          "quote": "Nothing ever happens unless someone pursues a vision fanatically.",
+          "source": "inRegister Magazine (Baton Rouge), 'Todd Graves, Founder and CEO, Raising Cane's Chicken Fingers,' published April 30, 2013, where it appears as his own line in a first person profile. Verified by fetching the article. He has repeated it verbatim in later interviews, which gives it two attestations more than a decade apart."
+        },
+        {
+          "quote": "When you're an entrepreneur and you believe in something to your core, you use every no and every 'it's not going to work' as fuel.",
+          "source": "Chase Withorn, Forbes, September 24, 2025, in the profile of Graves as America's richest restaurateur, quoted in the passage about being turned down by every bank he approached."
+        },
+        {
+          "quote": "If you try to be all things to all people, you won't be special.",
+          "source": "Chase Withorn, Forbes, September 24, 2025, quoted in the passage on why the menu has never expanded. Verified by fetching the article."
+        },
+        {
+          "quote": "I profited $30 my first month, and I was thrilled.",
+          "source": "Entrepreneur, 'How to Develop the Mindset for a Billion-Dollar Success, According to Raising Cane's Founder,' July 29, 2025, from his on the record interview on The Playbook. Independently corroborated by other outlets that report the thirty dollar first month profit."
+        },
+        {
+          "quote": "There is not a balance of life at a startup. You have to put 100% into it.",
+          "source": "Entrepreneur, July 29, 2025, same interview, on what the first years actually cost. Consistent with his CNBC Make It remarks of November 4, 2024 about working fifteen and sixteen hour days in a row."
+        },
+        {
+          "quote": "I'm gonna grow old and die with this business, and the kids are gonna take it on and keep those values going.",
+          "source": "Entrepreneur, July 29, 2025, same interview, on why he will not sell. Consistent with his CNBC remark of October 5, 2024 that he wants his kids in the business so they can carry the values on after their mother and he are gone."
+        }
+      ],
+      "excludedMisattributions": [
+        {
+          "quote": "His professor gave the Raising Cane's business plan a failing grade.",
+          "reason": "The most repeated version of the founding story and it is wrong. Graves has said on the record that the grade was a B minus, the lowest in the class, and that the instructor's problem was the single item concept rather than the plan itself. The F grade version appears in aggregator write ups and headlines with no primary source. Excluded, and the B minus is used in the prose."
+        },
+        {
+          "quote": "Todd Graves is an LSU graduate.",
+          "reason": "A factual misattribution, not a quotation. His degree is a Bachelor of Arts from the University of Georgia. The LSU connection is real but indirect: the business plan went in through a course his co founder Craig Silvey was taking at LSU, and the first restaurant opened at the LSU North Gates."
+        },
+        {
+          "quote": "The distracted don't beat the focused.",
+          "reason": "Spoken by podcast host David Senra in a 2025 Founders episode about Graves, who only agreed with it. It is the host's framing, not a Graves quote, and it is excluded along with everything else in that machine generated transcript that is not clearly in his own voice."
+        },
+        {
+          "quote": "Money comes naturally as a result of service.",
+          "reason": "Attributed by David Senra to Henry Ford during the same episode. Graves' own version of the thought is that if you do things for the right reasons in business the money will come, so the idea is paraphrased in prose and the Ford line is not quoted as his."
+        },
+        {
+          "quote": "Praise costs nothing and means everything.",
+          "reason": "Speaker attribution is ambiguous in the auto generated podcast transcript, where Graves' recorded reply is only an agreement. Excluded rather than quoted as his."
+        },
+        {
+          "quote": "Raising Cane's has never franchised, ever.",
+          "reason": "Overstated. Graves did sell franchises in a handful of markets early on and later bought them back, a small number of franchised restaurants remain in the United States, and all international restaurants operate through franchise partners. The accurate claim is that he stopped selling domestic franchises and bought back the ones he had sold, which is how the prose puts it."
+        },
+        {
+          "quote": "He opened the first restaurant with a $90,000 SBA loan and $60,000 from shareholders.",
+          "reason": "Startup funding figures diverge across reputable outlets. Forbes reports roughly $50,000 of his own savings, $90,000 from investors and a $50,000 SBA loan; other 2024 reporting gives $50,000 of savings, about $100,000 from friends and family, and an SBA loan. Because the sources conflict, the prose names the three sources of capital and states plainly that published accounts differ on the amounts."
+        },
+        {
+          "quote": "Raising Cane's employs 75,000 crew members and the business is worth more than $20 billion.",
+          "reason": "Both figures come from Graves speaking on a podcast and neither is independently documented for a private company. Published sources put the crew count around 65,000 to 70,000 for 2025, and the only well sourced valuation style number is the Forbes estimate of his personal fortune. The company debt figure quoted in the same conversation is likewise undocumented and excluded."
+        },
+        {
+          "quote": "He is worth $11.5 billion.",
+          "reason": "Not false so much as stale and method dependent. Wealth trackers have diverged sharply on Graves because Raising Cane's is private: Bloomberg published a figure near $11.5 billion in April 2025 while Forbes had him at $22 billion in July 2026. The profile uses the Forbes number, attributes it to Forbes, and gives the as of date rather than stating a flat valuation."
+        },
+        {
+          "quote": "The 1,000th Raising Cane's opened on March 18, 2026.",
+          "reason": "Sources disagree by a day: some coverage ties March 18, 2026 to the preview and celebration event and other coverage gives March 19, 2026 as the public opening. The profile says March 2026 rather than pick a contested day."
+        },
+        {
+          "quote": "Graves appeared on ABC's Secret Millionaire in 2011.",
+          "reason": "He appeared on the Fox version of Secret Millionaire, in the premiere episode, reported by Nation's Restaurant News on December 1, 2008 ahead of its December 3, 2008 air date. ABC revived the format later, which is the source of the mixed up network and year in some write ups."
+        }
+      ]
+    }
+  }
+}
