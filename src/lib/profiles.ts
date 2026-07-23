@@ -1783,6 +1783,71 @@ export const profiles: Record<string, Profile> = {
       "Open Library full text search inside the scanned trade editions (https://openlibrary.org/search/inside), used to confirm that three of the quotations below occur in the named books rather than only on quotation sites"
     ]
   },
+  "ray-dalio": {
+    "slug": "ray-dalio",
+    "occupation": "Investor and author who founded Bridgewater Associates in 1975 and built it into the largest hedge fund in the world, then wrote down the decision rules he used as Principles",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ray_Dalio",
+    "fullName": "Raymond Thomas Dalio",
+    "birthDate": "August 8, 1949",
+    "birthPlace": "Jackson Heights, Queens, New York, U.S.",
+    "nationality": "American",
+    "education": [
+      "Herricks High School, New Hyde Park, New York",
+      "C.W. Post College, Long Island University (B.S. in finance, 1971)",
+      "Harvard Business School (M.B.A., 1973)"
+    ],
+    "occupations": [
+      "Hedge fund manager and founder of Bridgewater Associates",
+      "Author of the Principles books",
+      "Macroeconomic researcher and writer on debt cycles",
+      "Philanthropist, Dalio Philanthropies and the Giving Pledge",
+      "Public educator on how economies and world orders work"
+    ],
+    "yearsActive": "1975–present",
+    "notableWorks": [
+      "Bridgewater Associates (founded 1975), the firm he built into the largest hedge fund in the world",
+      "Pure Alpha (launched 1991), Bridgewater's flagship actively managed macro strategy",
+      "All Weather (launched 1996), the fund that popularized the risk parity approach to portfolio construction",
+      "How the Economic Machine Works (2013), a thirty minute animated video he wrote and narrated, published free online",
+      "Principles: Life and Work (2017), his collected decision rules and the book that made him widely read outside finance",
+      "Principles for Navigating Big Debt Crises (2018) and Principles for Dealing with the Changing World Order (2021), both released free as PDFs alongside print editions"
+    ],
+    "spouses": [
+      "Barbara Dalio (m. 1977)"
+    ],
+    "children": "Four sons. The eldest, Devon Dalio, died on December 17, 2020, at the age of 42, in a car crash in Greenwich, Connecticut. The second, Paul Dalio, is a film director.",
+    "parents": [
+      "Marino Dallolio (1911 to 2002), a jazz clarinetist and saxophonist who played Manhattan clubs",
+      "Ann Dallolio, a homemaker"
+    ],
+    "awards": [
+      "Named to the Time 100 list of the most influential people in the world (2012)",
+      "Named to Bloomberg Markets' list of the 50 Most Influential people in global finance (2012)",
+      "Signatory of the Giving Pledge (2011), through which he and Barbara Dalio have committed the majority of their wealth to philanthropy",
+      "Principles: Life and Work reached number one on the New York Times business bestseller list (2017)",
+      "Honored by Long Island University, his undergraduate alma mater, as one of its most prominent alumni"
+    ],
+    "netWorth": "Estimated at $15.4 billion by Forbes as of July 23, 2026, placing him around 196th in the world. Bloomberg's Billionaires Index carried a higher figure of roughly $21.5 billion in June 2026. The estimates differ because the two publications value his private holdings and past distributions differently, and because he sold his remaining Bridgewater stake in July 2025.",
+    "earlyLife": "Raymond Thomas Dalio was born on August 8, 1949, in Jackson Heights, Queens, the only child of Marino Dallolio, a jazz clarinetist and saxophonist who worked Manhattan clubs, and Ann, a homemaker. The family was Italian American and middle class, and when Dalio was eight they moved out to Manhasset on Long Island. He was, by his own repeated account, a poor and unmotivated student who disliked memorizing what he was told to memorize. What he did like was earning money, and from around the age of twelve he caddied at the Links Golf Club, an exclusive course on Long Island whose members included Wall Street professionals. He carried bags and listened to them talk about markets during the bull market of the early 1960s.\n\nWith about three hundred dollars saved from caddying he bought his first stock, Northeast Airlines, on a rationale he has since described as stupid but lucky. It was the only company he had heard of trading for less than five dollars a share, and he assumed that cheaper shares meant more shares and therefore more money. The airline was taken over in a merger and his stake roughly tripled, which hooked him. He read annual reports, kept trading through high school, and barely got into college. At C.W. Post College, part of Long Island University, he found that being allowed to choose his own subjects changed everything, and he earned a bachelor's degree in finance in 1971 with grades good enough for Harvard Business School, where he took an M.B.A. in 1973. Between terms he clerked on the floor of the New York Stock Exchange in the summer of 1971, the summer the United States severed the dollar's link to gold, and traded commodities at Merrill Lynch the following summer. He also learned Transcendental Meditation in 1969 and has practiced it since.",
+    "career": "After Harvard, Dalio worked briefly at Dominick and Dominick and then at Shearson Hayden Stone as a futures trader, a job that ended after he punched his boss at a New Year's Eve party. In 1975, at twenty six, he started Bridgewater Associates out of his two bedroom Manhattan apartment. The early business was not a hedge fund at all. It sold research and risk consulting, helping corporate clients hedge their currency and interest rate exposures, and Dalio wrote a daily commentary called Daily Observations that became the firm's calling card. The operation moved to Connecticut in 1981, working for a period out of a converted barn, and in 1985 it landed its first large institutional mandate, a five million dollar allocation from the World Bank's pension fund.\n\nThe episode Dalio returns to more than any other came in 1982. Mexico defaulted on its debt that August, other countries followed, and he concluded that the United States was headed for a depression. He said so publicly, testifying before Congress and appearing that November on Wall Street Week with Louis Rukeyser, then the most watched program in American financial television. He was emphatically wrong. The Federal Reserve's easing set off one of the longest bull markets in history. Dalio lost his own money and his clients' money, had to let go of nearly everyone he had hired until he was effectively alone, and borrowed four thousand dollars from his father to cover family bills. He has called it the most painful and most valuable experience of his career, the thing that replaced the question of whether he was right with the question of how he knew he was right. Out of it came the habits that defined the firm: writing down every decision rule so it could be tested against outcomes, actively hunting for the smartest people who disagreed with him, and diversifying across genuinely uncorrelated bets rather than concentrating on a single view.\n\nThe rebuilt firm ran on those systematized rules. Pure Alpha, launched in 1991, separated active macro bets from market exposure and became Bridgewater's flagship. All Weather, launched in 1996 and originally built to hold Dalio's own family trust assets, balanced risk rather than capital across asset classes and popularized what the industry now calls risk parity. Bridgewater grew into the largest hedge fund in the world by assets under management by the mid 2000s, at its peak overseeing well above one hundred and fifty billion dollars for pension funds, sovereign wealth funds, endowments and central banks. Dalio stepped out of the operating business in stages. He gave up the chief executive title in 2011 and left the co chief executive role in 2017. On September 30, 2022, he transferred his voting rights to Bridgewater's board and stepped down as a co chief investment officer, ending his control of the firm. In July 2025 he sold his remaining equity stake and separated entirely, staying on as a mentor and an investor in the firm's strategies while running the Dalio Family Office. Bridgewater's hedge fund assets stood at about ninety two billion dollars as of the end of September 2025, a figure Forbes still carried in July 2026, and the firm has said it deliberately capped its size to preserve flexibility rather than gather assets.",
+    "legacy": "Dalio's largest effect outside finance came from writing down how he decides. Principles: Life and Work, published in 2017 after a free self published version had circulated for years, set out several hundred numbered rules covering how to face reality, how to learn from pain, and how to run an organization. It reached number one on the New York Times business list and became a fixture on founders' shelves. Bridgewater's operating model is built on what Dalio calls an idea meritocracy, which he defines as radical truth plus radical transparency plus believability weighted decision making. In practice that meant taping almost every meeting, rating colleagues on visible scorecards, and expecting people to criticize each other, including the founder, to their faces. He has argued for four decades that this is the only reliable way to find out what is actually true. The culture is genuinely contested. Admirers, including many chief executives who have copied parts of it, describe it as the most honest workplace they have encountered. Critics describe something harsher. A former employee's complaint characterized the firm as a place of fear and intimidation, outside observers have compared its confrontational meetings to struggle sessions, and the journalist Rob Copeland's 2023 book The Fund argued that the transparency system produced surveillance and fear rather than truth. Dalio rejected the book as fiction presented as fact and Bridgewater called it a false depiction of its past. No lawsuit followed. Both accounts are on the public record and neither has been settled.\n\nHis second lasting contribution is public economic education. In 2013 he published How the Economic Machine Works, a thirty minute animated video that reduces an economy to productivity growth, a short term debt cycle and a long term debt cycle, and released it free in many languages. He followed the same pattern with Principles for Navigating Big Debt Crises in 2018, a study of forty eight debt crises released as a free PDF on the tenth anniversary of the 2008 collapse, and with Principles for Dealing with the Changing World Order in 2021, which traced the rise and decline of the Dutch, British and American reserve currency empires across five hundred years and argued that the period ahead would look unlike anything in living memory though familiar from history. How Countries Go Broke followed in 2025. Taken together the books, the video and the essays he publishes directly to his own channels made a hedge fund founder into one of the most widely read popular explainers of debt, currencies and the mechanics of national decline, a role he now occupies full time.",
+    "notableQuotes": [
+      "Pain + Reflection = Progress.",
+      "The two biggest barriers to good decision making are your ego and your blind spots.",
+      "Rather than thinking, 'I'm right,' I started to ask myself, 'How do I know I'm right?'",
+      "I gained a humility that I needed in order to balance my audacity.",
+      "If you're not failing, you're not pushing your limits, and if you're not pushing your limits, you're not maximizing your potential.",
+      "Radical truth and radical transparency are fundamental to having a real idea meritocracy."
+    ],
+    "primarySources": [
+      "Ray Dalio, Principles: Life and Work (Simon and Schuster, 2017). The complete numbered text is published by Dalio himself at https://www.principles.com/principles/, which was read directly and used to verify four of the quotations here",
+      "Ray Dalio, Principles for Dealing with the Changing World Order: Why Nations Succeed and Fail (Avid Reader Press, 2021), and Principles for Navigating Big Debt Crises (Bridgewater, 2018), both also released free by the author",
+      "Ray Dalio, How to build a company where the best ideas win, TED2017, April 2017, the on record source for his account of the 1982 failure and for two quotations here (https://www.ted.com/talks/ray_dalio_how_to_build_a_company_where_the_best_ideas_win)",
+      "Ray Dalio, How the Economic Machine Works (2013), published by the author at https://www.economicprinciples.org, the source for his three force model of an economy",
+      "Bridgewater Associates, Our Founder (https://www.bridgewater.com/our-founder), the firm's own account of the 1975 founding from a two bedroom New York apartment, the 1981 move to Connecticut, the 1985 World Bank mandate, and his role transitions",
+      "Wikipedia, Ray Dalio (https://en.wikipedia.org/wiki/Ray_Dalio) and Bridgewater Associates (https://en.wikipedia.org/wiki/Bridgewater_Associates), for dates, fund launch years, assets under management figures, family details and the documented criticism of the firm's culture"
+    ]
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {
