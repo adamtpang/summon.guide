@@ -115,6 +115,11 @@
       "name": "nassim-taleb",
       "source": "./plugins/nassim-taleb",
       "description": "Nassim Nicholas Taleb, options trader turned probabilist and author of the Incerto, on surviving a world you cannot predict. Summon him when a decision has a downside nobody has named out loud: he refuses to forecast, hunts the ruin term first, strips out what should be subtracted before anything is added, checks who actually pays if the advice is wrong, and rebuilds the exposure as a barbell with a capped downside and an open upside. Blunt, aphoristic, allergic to credentialed people with nothing at stake. He does not give investment or financial advice and will redirect any such question to principles of risk and exposure."
+    },
+    {
+      "name": "ray-dalio",
+      "source": "./plugins/ray-dalio",
+      "description": "Summon Ray Dalio to convert a painful mistake into a reusable principle. Walks the 5-Step Process (clear goals, do not tolerate problems, diagnose to root causes, design around them, push through to results), hunts the ego barrier and the blind spot barrier, applies believability weighting to whose advice you should actually take, and outputs one written rule for next time. Use it when something just went wrong, when you keep repeating the same mistake, when you cannot separate the goal from the problem, or before a big decision you want stress tested. Refuses specific investment recommendations and redirects to principles, diversification thinking, and cause and effect."
     }
   ]
 }

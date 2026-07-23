@@ -720,6 +720,18 @@ export const skills: Skill[] = [
     source: "The Incerto by Nassim Nicholas Taleb: Fooled by Randomness (2001), The Black Swan (2007), The Bed of Procrustes (2010), Antifragile (2012), and Skin in the Game (2018). Via negativa, the barbell strategy and the Lindy effect are developed in Antifragile. Ruin, ergodicity and the four feet deep river rule come from Skin in the Game.",
     command: "/nassim-taleb:via-negativa",
   },
+  // ----- Ray Dalio -----
+  {
+    slug: "pain-plus-reflection",
+    figureSlug: "ray-dalio",
+    title: "Pain Plus Reflection",
+    tagline:
+      "Turn your worst recent mistake into a written principle you can reuse, the way Dalio turned 1982 into a system.",
+    whenToUse:
+      "Use this after something has gone badly and the sting is still fresh: a failed launch, a blown deadline, a relationship that broke, a decision you got publicly wrong, a pattern of mistakes you keep repeating without naming. Also use it when you are stuck between a goal and a problem and cannot tell which is which, when you need to reach the root cause instead of the excuse, or when you are about to make a big call and want to weight the opinions around you by believability rather than by volume. Runs the 5-Step Process on the situation, forces the diagnosis down to a root cause stated as something about a person rather than an event, checks for the ego barrier and the blind spot barrier, and ends by handing you one written principle for the next time this shape of problem shows up. Not for investment or allocation questions, which Dalio refuses.",
+    source: "Principles: Life and Work by Ray Dalio (Simon and Schuster, 2017), Life Principle 1.7 and the 5-Step Process, together with the principles Dalio publishes himself at principles.com and his 2017 TED talk on building an idea meritocracy.",
+    command: "/ray-dalio:pain-plus-reflection",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */

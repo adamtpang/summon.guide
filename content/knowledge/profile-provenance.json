@@ -854,6 +854,42 @@
           "reason": "BrainyQuote, AZQuotes, QuoteFancy, QuotePark, Quote Catalog, Bookey, thecitesite and user submitted Goodreads pages were treated only as leads to be checked, never as sources. Goodreads states plainly that its quotations are community added and unverified. Every quotation in this profile was confirmed either by reading the publisher's typeset text on Taleb's own site, by full text search inside the scanned trade edition of the named book, or in Taleb's own signed essay."
         }
       ]
+    },
+    "ray-dalio": {
+      "quoteSources": [
+        {
+          "quote": "Pain + Reflection = Progress.",
+          "source": "Principles: Life and Work (2017), Life Principles. Published verbatim by Dalio at https://www.principles.com/principles/4a903526-2db6-4a0a-9b71-889868f0f475/ under the heading 'Pain + Reflection = Progress.'"
+        },
+        {
+          "quote": "The two biggest barriers to good decision making are your ego and your blind spots.",
+          "source": "Principles: Life and Work (2017), Life Principle 'Recognize your two barriers,' under 'Be Radically Open-Minded.' Published verbatim by Dalio at https://www.principles.com/principles/a46a8d1b-7bc8-420c-92ec-903f30b4be36/ and repeated in his own posts on LinkedIn and X."
+        },
+        {
+          "quote": "Rather than thinking, 'I'm right,' I started to ask myself, 'How do I know I'm right?'",
+          "source": "Ray Dalio, TED2017 talk 'How to build a company where the best ideas win,' April 2017, describing the aftermath of his 1982 depression call. Present in the talk transcript and corroborated in TED's own session report at https://blog.ted.com/the-human-response-the-talks-of-session-3-of-ted2017/"
+        },
+        {
+          "quote": "I gained a humility that I needed in order to balance my audacity.",
+          "source": "Ray Dalio, TED2017 talk 'How to build a company where the best ideas win,' April 2017, spoken in the same passage about 1982. Present in the talk transcript; TED's session report carries the same line in slightly compressed form."
+        },
+        {
+          "quote": "If you're not failing, you're not pushing your limits, and if you're not pushing your limits, you're not maximizing your potential.",
+          "source": "Principles: Life and Work (2017), Life Principles, in the passage on embracing failure. Published verbatim by Dalio at https://www.principles.com/principles/4a903526-2db6-4a0a-9b71-889868f0f475/"
+        },
+        {
+          "quote": "Radical truth and radical transparency are fundamental to having a real idea meritocracy.",
+          "source": "Principles: Life and Work (2017), Work Principle 'Trust in Radical Truth and Radical Transparency.' Published verbatim by Dalio at https://www.principles.com/principles/f6412dca-b3f9-4dd0-bb65-274869dd21ed and reposted by him on X."
+        }
+      ],
+      "excludedMisattributions": [
+        "'He who lives by the crystal ball will eat shattered glass,' and its variant ending 'is destined to eat ground glass.' Quotefancy, BrainyQuote, AZ Quotes and dozens of finance accounts credit this to Dalio. The line is an older Wall Street aphorism associated with the economist Edgar R. Fiedler (1929 to 2003), who is quoted with it as 'He who lives by the crystal ball soon learns to eat ground glass.' Dalio repeats it; he did not originate it. Excluded as a line he merely quotes from others.",
+        "'The economy is now flat, teetering on the brink of failure.' Widely reproduced as his 1982 congressional testimony, but every version traces back to secondary retellings rather than to a located transcript of the hearing. Excluded pending a primary source.",
+        "'Diversification is the Holy Grail of investing.' A compressed aggregator paraphrase. What Dalio actually argues is a longer and more specific claim about combining fifteen to twenty genuinely uncorrelated return streams. The one line version is not his sentence, and the underlying point is investment strategy rather than a life principle, so it is excluded on both grounds.",
+        "'Cash is trash.' Genuinely said by Dalio on CNBC at Davos on January 21, 2020, so it is not a misattribution, but it is time bound market commentary rather than a durable principle, it was followed within weeks by the COVID crash, and it would read as investment advice. Excluded deliberately.",
+        "'The quality of your life is determined by the quality of your decisions.' Circulated under Dalio's name on quote sites, but it is a generic self help formulation attached to many different authors with no primary Dalio source. Excluded.",
+        "Quotes sourced only to Goodreads, BrainyQuote, AZ Quotes, Quotefancy or similar aggregators were rejected as a class. Dalio is heavily quote farmed, and every line kept above traces to text he published himself at principles.com or to his own recorded TED2017 talk."
+      ]
     }
   }
 }
