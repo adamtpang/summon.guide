@@ -1,0 +1,21 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "franklin",
+  "guideName": "Benjamin Franklin",
+  "bookSlug": "autobiography-of-benjamin-franklin",
+  "bookTitle": "The Autobiography of Benjamin Franklin",
+  "episodeCount": 1,
+  "totalWords": 283,
+  "totalSeconds": 117,
+  "hasMappedVoice": true,
+  "episodes": [
+    {
+      "slug": "thirteen-virtues",
+      "title": "Thirteen Virtues",
+      "words": 283,
+      "estimatedSeconds": 117,
+      "script": "content/episodes/franklin/thirteen-virtues.md",
+      "handoff": "content/episodes/franklin/thirteen-virtues.handoff.json"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "franklin",
+  "guideName": "Benjamin Franklin",
+  "episodeSlug": "thirteen-virtues",
+  "title": "Thirteen Virtues",
+  "sourceBook": "The Autobiography of Benjamin Franklin",
+  "sourceAnchor": "Part 2",
+  "audio": "franklin-thirteen-virtues-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/franklin/thirteen-virtues.md",
+  "words": 283,
+  "estimatedSeconds": 117,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 21,
+      "text": "You want to become a better person. Most people wish for it, and stop at the wishing. I tried to engineer it. At twenty years of age, with little money and less schooling, I conceived a bold and arduous project of arriving at moral perfection. Not a sermon. A system."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 24,
+      "text": "I listed thirteen virtues: Temperance, Silence, Order, Resolution, Frugality, Industry, Sincerity, Justice, Moderation, Cleanliness, Tranquility, Chastity, and Humility. Not thirteen goals for someday. Thirteen daily practices. I made a little book, a page for each virtue, and marked every failure with a black spot. The book was plain. The rule was plain. The honesty was the hard part."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 26,
+      "text": "I focused on one virtue per week, and cycled through the list four times a year. Order gave me the most trouble. My papers would not stay in their places, and my schedule slipped, again and again. I never achieved perfection. I stopped pretending I would. But I was a better man for the attempt, and that was the only score that mattered."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 26,
+      "text": "The method matters more than the scorecard. You do not need my thirteen. Take three habits that would change your year if you kept them. Write them down where you will see them. Review them every evening. Mark the misses without drama and without excuses. Improvement is a science, not a mood. Track it, or you are only daydreaming in better language."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 21,
+      "text": "Well done is better than well said. An investment in knowledge pays the best interest only when knowledge becomes conduct. Begin tonight, not on Monday. One virtue. One page. One honest mark. That is how a printer's apprentice, with two years of school, remakes himself into a man worth knowing."
+    }
+  ],
+  "portrait": "/portraits/benjamin-franklin.jpg",
+  "aesthetic": "editorial-print"
+}
