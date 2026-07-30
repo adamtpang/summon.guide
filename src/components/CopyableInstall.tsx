@@ -9,7 +9,7 @@ interface CopyableInstallProps {
   label?: string;
   /** small footnote shown under the block */
   footnote?: React.ReactNode;
-  /** visual variant — dark for hero placement, soft for inline placement */
+  /** visual variant, dark for hero placement, soft for inline placement */
   variant?: "dark" | "soft";
 }
 
@@ -32,7 +32,7 @@ export default function CopyableInstall({
       setCopied(true);
       setTimeout(() => setCopied(false), 2200);
     } catch {
-      // older browsers — fall back to selectable code block
+      // older browsers, fall back to selectable code block
     }
   }, [text]);
 

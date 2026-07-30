@@ -29,14 +29,14 @@ export async function generateMetadata({
     title: `${book.title} | summon.guide`,
     description,
     openGraph: {
-      title: `${title} — summon.guide`,
+      title: `${title}: summon.guide`,
       description,
       url: `https://summon.guide/books/${book.slug}`,
       type: "book",
     },
     twitter: {
       card: "summary_large_image",
-      title: `${title} — summon.guide`,
+      title: `${title}: summon.guide`,
       description,
     },
     alternates: { canonical: `https://summon.guide/books/${book.slug}` },

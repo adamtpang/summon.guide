@@ -6,18 +6,18 @@ import Anthropic from "@anthropic-ai/sdk";
 //
 // Two modes, chosen by env at cold-start:
 //
-//   1. SUBSCRIPTION (Claude Pro/Max) — set ANTHROPIC_AUTH_TOKEN to an OAuth
+//   1. SUBSCRIPTION (Claude Pro/Max), set ANTHROPIC_AUTH_TOKEN to an OAuth
 //      token minted from a subscription login (`claude setup-token`, or
 //      `ant auth print-credentials --access-token`). We send it as a Bearer
 //      token plus the required `anthropic-beta: oauth-2025-04-20` header, and
-//      explicitly DISABLE the api-key path (apiKey: null) — if both an
+//      explicitly DISABLE the api-key path (apiKey: null), if both an
 //      x-api-key and a Bearer token are sent, the API returns 401. Usage then
 //      draws on the subscription instead of API credits.
 //
-//   2. API CREDITS (default) — no ANTHROPIC_AUTH_TOKEN, so the SDK uses
+//   2. API CREDITS (default), no ANTHROPIC_AUTH_TOKEN, so the SDK uses
 //      ANTHROPIC_API_KEY and bills metered pay-as-you-go credits.
 //
-// ⚠️ IMPORTANT — subscription mode is fragile on a deployed server. OAuth
+// ⚠️ IMPORTANT, subscription mode is fragile on a deployed server. OAuth
 // access tokens are SHORT-LIVED and are NOT auto-refreshed here (the refresh
 // machinery lives in the local CLI profile, which a Vercel serverless
 // function doesn't have). When the token expires, every guide 401s until you

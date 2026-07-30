@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-// Apple touch icon — used by iOS Safari for home-screen bookmarks
+// Apple touch icon, used by iOS Safari for home-screen bookmarks
 // and by some Android browsers as the high-res favicon.
 // Next.js convention: this file is auto-served at /apple-icon and
 // referenced from <link rel="apple-touch-icon">.

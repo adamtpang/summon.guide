@@ -1,7 +1,7 @@
 import { NextRequest } from "next/server";
 
 // Historical-significance lookup for a single human, from MIT Pantheon's
-// Historical Popularity Index (HPI) — the cross-lingual fame score that
+// Historical Popularity Index (HPI), the cross-lingual fame score that
 // rewards legends whose renown survives across languages and centuries
 // (and penalizes flash-in-the-pan trends). Free, no-auth PostgREST API.
 //
@@ -9,7 +9,7 @@ import { NextRequest } from "next/server";
 // a data-driven on-ramp: "Marie Curie · HPI 94 · #27 of all time · Physicist"
 // → the seed of the demand-ranked onboarding queue.
 //
-// GET /api/humans/pantheon?qid=Q7186   (preferred — Wikidata Q-ID)
+// GET /api/humans/pantheon?qid=Q7186   (preferred: Wikidata Q-ID)
 //     /api/humans/pantheon?name=Marie%20Curie   (fallback)
 // → { found, name, hpi, rank, occupation, birthYear, deathYear, alive }
 //   HPI/rank are null when Pantheon has the person but no rank row.
@@ -68,7 +68,7 @@ export async function GET(req: NextRequest) {
         deathYear = rows[0].deathyear ?? null;
         alive = rows[0].alive ?? null;
       } else if (!nameParam) {
-        // Pantheon simply doesn't cover this person — common; not an error.
+        // Pantheon simply doesn't cover this person, common; not an error.
         return Response.json(
           { found: false },
           { headers: { "Cache-Control": "public, s-maxage=86400" } }

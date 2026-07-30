@@ -122,7 +122,7 @@ export default function HumanSearch() {
   );
 
   // Enrich the request card with Pantheon historical-significance data
-  // (HPI / all-time rank / occupation) — the seed of the demand-ranked
+  // (HPI / all-time rank / occupation), the seed of the demand-ranked
   // onboarding queue. Best-effort: the card still works if Pantheon is
   // silent or doesn't cover the person.
   useEffect(() => {
@@ -206,7 +206,7 @@ export default function HumanSearch() {
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={onKeyDown}
             onFocus={() => results.length > 0 && setOpen(true)}
-            placeholder="Summon anyone — a name, or a problem…"
+            placeholder="Summon anyone, a name, or a problem…"
             disabled={matching}
             className="relative w-full bg-ink-900 border border-white/10 rounded-2xl px-5 py-4 pr-14 text-warm-50 text-base placeholder:text-warm-500 focus:outline-none focus:border-gold-500/60 transition-all disabled:opacity-50"
           />
@@ -308,7 +308,7 @@ export default function HumanSearch() {
               `We only summon guides we can ground in real primary sources. ${requestCard.person} is on the onboarding list.`}
           </p>
 
-          {/* Historical-significance strip — MIT Pantheon HPI */}
+          {/* Historical-significance strip, MIT Pantheon HPI */}
           {pantheon && (pantheon.hpi != null || pantheon.occupation) && (
             <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-4 py-2.5 px-3.5 rounded-xl bg-white/[0.03] border border-white/5">
               {pantheon.rank != null && (

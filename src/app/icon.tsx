@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 // Next.js convention: this file generates the site icon at /icon and
 // also overrides /favicon.ico when there's no static public/favicon.ico.
 // We use ImageResponse so the icon stays in sync with the brand the
-// moment we change it — no separate ICO regeneration step.
+// moment we change it, no separate ICO regeneration step.
 
 export const size = { width: 32, height: 32 };
 export const contentType = "image/png";

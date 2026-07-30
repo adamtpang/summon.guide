@@ -7,12 +7,12 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Claude Code Skills | summon.guide",
   description:
-    "13 Claude Code skills derived from the lives and books of history's greatest guides. Install once, invoke any framework — Rockefeller's Ledger A, Musk's Five-Step Algorithm, Franklin's 13 Virtues — when you're working through a decision they would have something to say about.",
+    "13 Claude Code skills derived from the lives and books of history's greatest guides. Install once, invoke any framework (Rockefeller's Ledger A, Musk's Five-Step Algorithm, Franklin's 13 Virtues) when you're working through a decision they would have something to say about.",
   alternates: {
     canonical: "https://summon.guide/skills",
   },
   openGraph: {
-    title: "Claude Code Skills — summon.guide",
+    title: "Claude Code Skills: summon.guide",
     description:
       "13 frameworks from history's greatest guides, packaged as Claude Code skills.",
     url: "https://summon.guide/skills",
@@ -72,7 +72,7 @@ export default function SkillsIndex() {
           </h1>
           <p className="text-warm-500 text-base md:text-lg leading-relaxed mb-6 max-w-2xl">
             Each skill captures one specific framework, principle, or method
-            from the source biography or primary text — Rockefeller&rsquo;s
+            from the source biography or primary text: Rockefeller&rsquo;s
             Ledger A, Musk&rsquo;s Five-Step Algorithm, Franklin&rsquo;s 13
             Virtues, Alexander&rsquo;s decisive point doctrine, and more.
             Install once, then invoke any slash command when you&rsquo;re
@@ -111,12 +111,12 @@ export default function SkillsIndex() {
               >
                 slavingia/skills
               </a>{" "}
-              — Sahil did this for one book; we do it for one guide at a time.
+, Sahil did this for one book; we do it for one guide at a time.
             </p>
           </div>
         </section>
 
-        {/* Browse by problem — the entry point for someone who knows what is
+        {/* Browse by problem, the entry point for someone who knows what is
             wrong but not who to ask. */}
         <section className="mb-16" id="by-problem">
           <div className="mb-6 pb-4 border-b border-warm-200">
@@ -236,7 +236,7 @@ export default function SkillsIndex() {
                     </p>
                     <p className="text-warm-400 italic">
                       Source: {skill.source}
-                      {skill.sourceAnchor ? ` — ${skill.sourceAnchor}` : ""}
+                      {skill.sourceAnchor ? `, ${skill.sourceAnchor}` : ""}
                     </p>
                   </div>
                 </a>
