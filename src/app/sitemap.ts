@@ -1,4 +1,5 @@
 ﻿import { figures } from "@/lib/figures";
+import { books } from "@/lib/books";
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -17,6 +18,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/speak`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/books`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    // Book pages are meant to be linked and shared, so they belong in the
+    // sitemap alongside the guide profiles.
+    ...books.map((book) => ({
+      url: `${baseUrl}/books/${book.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
     ...figures.flatMap((figure) => [
       {
         url: `${baseUrl}/${figure.slug}`,
