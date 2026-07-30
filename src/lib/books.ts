@@ -188,7 +188,7 @@ export const books: Book[] = [
     description:
       "Deutsch's first book. Argues that quantum physics, epistemology, evolution, and computation are deeply intertwined strands of a single theory of reality.",
     amazonUrl: "https://www.amazon.com/Fabric-Reality-Parallel-Universes-Implications/dp/014027541X",
-    skillSlugs: [],
+    skillSlugs: ["four-strands"],
     status: "partial",
   },
 

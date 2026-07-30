@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "prisma generate && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "book:extract": "node scripts/pdf-to-md.mjs",
+    "book:scaffold": "node scripts/scaffold-skills.mjs",
+    "book:fixture": "node scripts/make-test-pdf.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
@@ -32,6 +35,7 @@
     "eslint-config-next": "16.2.0",
     "prisma": "^6.19.2",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "unpdf": "^1.8.0"
   }
 }

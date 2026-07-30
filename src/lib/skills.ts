@@ -936,6 +936,23 @@ export const skills: Skill[] = [
     source: "Principles: Life and Work by Ray Dalio (Simon and Schuster, 2017), Life Principle 1.7 and the 5-Step Process, together with the principles Dalio publishes himself at principles.com and his 2017 TED talk on building an idea meritocracy.",
     command: "/ray-dalio:pain-plus-reflection",
   },
+
+  // The Fabric of Reality
+  {
+    slug: "four-strands",
+    figureSlug: "deutsch",
+    title: "The Four Strands",
+    tagline:
+      "Quantum physics, epistemology, evolution, and computation are one theory, not four.",
+    whenToUse:
+      "A problem looks unsolvable inside one discipline and you suspect the explanation lives across several.",
+    source: "The Fabric of Reality by David Deutsch",
+    sourceAnchor: "Chapter 1",
+    command: "/deutsch:four-strands",
+    themes: ["thinking"],
+    problemHint:
+      "I keep going in circles because I am only looking at this from one angle.",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */

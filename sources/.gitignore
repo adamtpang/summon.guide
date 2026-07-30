@@ -7,6 +7,16 @@
 *.mobi
 *.docx
 *.txt
+
+# Text extracted by scripts/pdf-to-md.mjs. This is the book itself in another
+# format, so it is exactly as copyrighted as the PDF it came from and must not
+# be committed. Only the skills derived from it belong in the repo.
+_md/
+
+# Generated test fixture. scripts/make-test-pdf.mjs recreates it on demand, so
+# there is nothing to preserve here.
+_fixtures/
+
 # Allow this folder's own README and gitignore so the directory is not empty
 !.gitignore
 !README.md

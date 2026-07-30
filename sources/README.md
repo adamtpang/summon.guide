@@ -24,13 +24,41 @@ The subfolder name matches the figure's slug in `src/lib/figures.ts`. The filena
 
 ## How to ingest a new book
 
-### 1. Drop the PDF
+This is now a scripted pipeline rather than a prose prompt. Run the skill:
 
-Save it as `sources/<figure-slug>/<book-slug>.pdf`. Both slugs come from `src/lib/books.ts` — if the book isn't in `books.ts` yet, add an entry first with `status: "pending"` and `pdfPath` set.
+```
+/book-to-skills
+```
 
-### 2. Start a Claude session in this repo
+It lives at `.claude/skills/book-to-skills/SKILL.md` and drives all three stages.
+The two mechanical stages are scripts you can also run directly:
 
-Use this prompt template (substitute the path):
+```bash
+# Stage 1: PDF to a clean book.md (strips running heads, page numbers, hyphen breaks)
+node scripts/pdf-to-md.mjs sources/deutsch/the-fabric-of-reality.pdf
+
+# Stage 3: scaffold SKILL.md files and register them everywhere
+node scripts/scaffold-skills.mjs plan.json --dry
+node scripts/scaffold-skills.mjs plan.json
+```
+
+Stage 2, deciding which frameworks deserve to be skills, is the judgment step and
+is described in the skill. It is the only part that cannot be automated.
+
+`scaffold-skills.mjs` updates all four places a skill has to appear (the plugin
+directory, `skills.ts`, the book's `skillSlugs` in `books.ts`, and
+`marketplace.json`) and refuses to write anything if the figure or book is
+missing, a skill already exists, or any content contains an em dash.
+
+### Prerequisites
+
+Save the PDF as `sources/<figure-slug>/<book-slug>.pdf`. Both slugs come from
+`src/lib/books.ts`; if the book is not there yet, add an entry first with
+`status: "pending"`. The figure must exist in `src/lib/figures.ts`.
+
+### The old manual template
+
+Kept for reference. The pipeline above supersedes it.
 
 > I dropped `sources/elon/the-book-of-elon.pdf`. Read it and extract 3–5 frameworks that Elon **actually used** (not generic startup advice). For each framework:
 >
