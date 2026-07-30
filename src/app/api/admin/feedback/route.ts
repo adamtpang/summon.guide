@@ -1,7 +1,7 @@
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 
-// Simple admin check — only your email can access
+// Simple admin check, only your email can access
 const ADMIN_EMAIL = "adamtpang@gmail.com";
 
 export async function GET() {

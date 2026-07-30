@@ -719,12 +719,12 @@ function getSuggestedQuestions(slug: string): string[] {
     ],
     "marie-curie": [
       "How do I keep going when the work is years long and thankless?",
-      "My results don't match what I expected — do I trust them or myself?",
+      "My results don't match what I expected: do I trust them or myself?",
       "How do I stay focused on the work when everything around me is falling apart?",
     ],
     "bob-marley": [
-      "I keep getting knocked down — how do I find the strength to keep showing up?",
-      "Someone hurt me badly and I want to get even — how do I choose one love over revenge?",
+      "I keep getting knocked down, how do I find the strength to keep showing up?",
+      "Someone hurt me badly and I want to get even: how do I choose one love over revenge?",
       "How do I free my own mind from the fear and the labels other people put on me?",
     ],
   };

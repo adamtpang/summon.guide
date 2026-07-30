@@ -1,23 +1,23 @@
 import { ElevenLabsClient } from "elevenlabs";
 import { NextRequest } from "next/server";
 
-// Voice IDs per legend — curated from ElevenLabs library
+// Voice IDs per legend, curated from ElevenLabs library
 // Living legends need voice clones from public interviews (TODO)
 // Dead legends use closest-matching preset voices
 const VOICE_MAP: Record<string, string> = {
-  "rockefeller": "onwK4e9ZLuTAKqWW03F9", // Daniel — deep, authoritative, older male
-  "franklin": "N2lVS1w4EtoT3dr4eOWO",   // Callum — warm, wise, British-inflected
-  "elon": "TX3LPaxmHKxFdv7VOQHJ",        // Liam — direct, slightly halting
-  "alexander": "VR6AewLTigWG4xSOukaG",   // Arnold — commanding, powerful
-  "deutsch": "pNInz6obpgDQGcFmaJgB",     // Adam — calm, British, academic
-  "lee-kuan-yew": "yoZ06aMxZJJ28mfd3POQ",         // Sam — clear, authoritative, clipped
-  "marcus-aurelius": "pqHfZKP75CvOlQylNhV4", // Bill — measured, grave, contemplative
-  "marc-andreessen": "ErXwobaYiN019PkySvjV", // Antoni — direct, energetic, declarative
-  "adam-neumann": "VR6AewLTigWG4xSOukaG",     // Arnold — charismatic, expansive
-  "seneca": "pNInz6obpgDQGcFmaJgB",            // Adam — calm, deliberate, Roman gravitas
-  "ricky-gervais": "JBFqnCBsd6RMkjVDRZzb", // George — warm, mature British delivery
-  "marie-curie": "XrExE9yKIg1WjnnlVkGX", // Matilda — warm, measured, mature female
-  "bob-marley": "onwK4e9ZLuTAKqWW03F9", // placeholder warm male — swap for a licensed Caribbean-accented voice
+  "rockefeller": "onwK4e9ZLuTAKqWW03F9", // Daniel: deep, authoritative, older male
+  "franklin": "N2lVS1w4EtoT3dr4eOWO",   // Callum: warm, wise, British-inflected
+  "elon": "TX3LPaxmHKxFdv7VOQHJ",        // Liam: direct, slightly halting
+  "alexander": "VR6AewLTigWG4xSOukaG",   // Arnold: commanding, powerful
+  "deutsch": "pNInz6obpgDQGcFmaJgB",     // Adam: calm, British, academic
+  "lee-kuan-yew": "yoZ06aMxZJJ28mfd3POQ",         // Sam: clear, authoritative, clipped
+  "marcus-aurelius": "pqHfZKP75CvOlQylNhV4", // Bill: measured, grave, contemplative
+  "marc-andreessen": "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative
+  "adam-neumann": "VR6AewLTigWG4xSOukaG",     // Arnold: charismatic, expansive
+  "seneca": "pNInz6obpgDQGcFmaJgB",            // Adam: calm, deliberate, Roman gravitas
+  "ricky-gervais": "JBFqnCBsd6RMkjVDRZzb", // George: warm, mature British delivery
+  "marie-curie": "XrExE9yKIg1WjnnlVkGX", // Matilda: warm, measured, mature female
+  "bob-marley": "onwK4e9ZLuTAKqWW03F9", // placeholder warm male, swap for a licensed Caribbean-accented voice
 };
 
 const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Fallback to Daniel

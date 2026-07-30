@@ -14,7 +14,7 @@ const anthropic = anthropicClient();
 //     the name (tolerate typos and nicknames), and either route to that
 //     guide if they're on the platform, or return a `not_found` signal with
 //     the canonical name so the UI can offer to onboard them.
-//  3. Skill routing — a person arrives with a problem, not with the name of
+//  3. Skill routing, a person arrives with a problem, not with the name of
 //     a framework. The skill is the thing they can actually run, so a match
 //     without one leaves them on a chat page wondering what to type.
 //
@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
   const catalog = figures
     .map(
       (f) =>
-        `- ${f.slug}: ${f.name} (${f.era}) — domains: ${f.domains.join(", ")}. ${f.knownFor}`
+        `- ${f.slug}: ${f.name} (${f.era}), domains: ${f.domains.join(", ")}. ${f.knownFor}`
     )
     .join("\n");
 
@@ -43,17 +43,17 @@ export async function POST(req: NextRequest) {
 Guides currently on the platform:
 ${catalog}
 
-STEP 1 — Classify the request:
-- "named": the user is explicitly asking for a SPECIFIC named person ("Marcus Aurelius advice on X", "what would Steve Jobs do", "channel Naval"). Tolerate typos, nicknames, and misspellings — "carnivore aurelius" means Marcus Aurelius; "the PayPal guy who does rockets" means Elon Musk.
+STEP 1, Classify the request:
+- "named": the user is explicitly asking for a SPECIFIC named person ("Marcus Aurelius advice on X", "what would Steve Jobs do", "channel Naval"). Tolerate typos, nicknames, and misspellings, "carnivore aurelius" means Marcus Aurelius; "the PayPal guy who does rockets" means Elon Musk.
 - "problem": the user is describing a situation or problem with no specific person named ("I keep procrastinating", "how do I price my product").
 
-STEP 2 — Resolve:
-- If "named": normalize to the person's canonical full name. Check if that person is a guide above (match on who they ARE, not exact string — "Elon" = the elon slug).
+STEP 2, Resolve:
+- If "named": normalize to the person's canonical full name. Check if that person is a guide above (match on who they ARE, not exact string, "Elon" = the elon slug).
   - If they ARE on the platform → route to them.
   - If they are NOT → return not_found with their canonical name and a suggested kebab-case slug (e.g. "Steve Jobs" → "steve-jobs").
 - If "problem": pick the single guide above whose life most directly addresses it.
 
-STEP 3 — Pick the playbook (only for "matched" responses):
+STEP 3, Pick the playbook (only for "matched" responses):
 From the skill library below, choose the ONE skill that most directly attacks the user's stated problem. Match on the problem, not on the guide: it is fine, and often better, to return a skill belonging to a different guide than the one you matched. If nothing in the library genuinely fits, omit the skill rather than forcing one.
 
 Skill library:
@@ -107,7 +107,7 @@ Rules:
       });
     }
 
-    // matched (or any response carrying a slug) — validate the slug exists.
+    // matched (or any response carrying a slug), validate the slug exists.
     // Be tolerant: if the model abbreviates ("marcus" instead of
     // "marcus-aurelius", "elon" exact match, "seneca" exact match), try a
     // prefix/contains fallback before giving up.

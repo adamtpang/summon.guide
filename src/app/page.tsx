@@ -116,8 +116,8 @@ function HomeContent() {
             className="text-warm-400 text-sm md:text-base leading-relaxed max-w-md rise"
             style={{ animationDelay: "160ms" }}
           >
-            Search any great human in history — or describe what you&apos;re
-            facing — and summon the mind best suited to walk you through it.
+            Search any great human in history, or describe what you&apos;re
+            facing, and summon the mind best suited to walk you through it.
           </p>
         </header>
 
@@ -202,7 +202,7 @@ function HomeContent() {
           </div>
         </section>
 
-        {/* How it works — one quiet strip */}
+        {/* How it works, one quiet strip */}
         <section className="mt-12 md:mt-16">
           <div className="border-t border-white/5 pt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
@@ -235,10 +235,10 @@ function HomeContent() {
           </div>
         </section>
 
-        {/* Claude Code skills teaser */}
-        <section className="mt-12 md:mt-16">
+        {/* Voiceover + skills */}
+        <section className="mt-12 md:mt-16 space-y-3">
           <Link
-            href="/skills"
+            href="/speak"
             className="block bg-ink-900 border border-white/10 hover:border-gold-500/40 text-warm-50 rounded-2xl p-6 md:p-7 transition-colors group"
           >
             <div className="flex items-start justify-between gap-4">

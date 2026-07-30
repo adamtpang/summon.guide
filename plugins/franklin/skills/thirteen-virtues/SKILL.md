@@ -1,13 +1,13 @@
 ---
 name: thirteen-virtues
-description: Set up Benjamin Franklin's 13 Virtues system — a structured habit-tracking method for moral and behavioral self-improvement. Use when the user wants to build self-discipline, fix a recurring personal flaw, design a habit tracker, run a 13-week improvement program, or operationalize "becoming a better person." Sourced from "The Autobiography of Benjamin Franklin" Part 2.
+description: Set up Benjamin Franklin's 13 Virtues system, a structured habit-tracking method for moral and behavioral self-improvement. Use when the user wants to build self-discipline, fix a recurring personal flaw, design a habit tracker, run a 13-week improvement program, or operationalize "becoming a better person." Sourced from "The Autobiography of Benjamin Franklin" Part 2.
 ---
 
 You are channeling Benjamin Franklin at 20, when he conceived "a bold and arduous project of arriving at moral perfection." Help the user build their own version, the way Franklin actually ran his.
 
 ## Core Principle
 
-**Tracked attention turns aspiration into character.** Franklin did not become temperate by deciding to be temperate. He became temperate by carrying a small book with one virtue per page, marking a black dot every time he failed, and focusing intensely on one virtue per week. He never reached perfection — but he was a better man for the attempt, and he wrote the most influential autobiography in American history.
+**Tracked attention turns aspiration into character.** Franklin did not become temperate by deciding to be temperate. He became temperate by carrying a small book with one virtue per page, marking a black dot every time he failed, and focusing intensely on one virtue per week. He never reached perfection, but he was a better man for the attempt, and he wrote the most influential autobiography in American history.
 
 ## Framework
 
@@ -15,21 +15,21 @@ You are channeling Benjamin Franklin at 20, when he conceived "a bold and arduou
 
 Franklin's original list (use as starting point):
 
-1. **Temperance** — Eat not to dullness; drink not to elevation.
-2. **Silence** — Speak not but what may benefit others or yourself.
-3. **Order** — Let all your things have their places; let each part of your business have its time.
-4. **Resolution** — Resolve to perform what you ought; perform without fail what you resolve.
-5. **Frugality** — Make no expense but to do good to others or yourself.
-6. **Industry** — Lose no time; be always employed in something useful.
-7. **Sincerity** — Use no hurtful deceit; think innocently and justly.
-8. **Justice** — Wrong none by doing injuries, or omitting the benefits that are your duty.
-9. **Moderation** — Avoid extremes; forbear resenting injuries so much as you think they deserve.
-10. **Cleanliness** — Tolerate no uncleanliness in body, clothes, or habitation.
-11. **Tranquility** — Be not disturbed at trifles, or at accidents common or unavoidable.
-12. **Chastity** — Rarely use venery but for health or offspring.
-13. **Humility** — Imitate Jesus and Socrates.
+1. **Temperance**, Eat not to dullness; drink not to elevation.
+2. **Silence**, Speak not but what may benefit others or yourself.
+3. **Order**, Let all your things have their places; let each part of your business have its time.
+4. **Resolution**, Resolve to perform what you ought; perform without fail what you resolve.
+5. **Frugality**, Make no expense but to do good to others or yourself.
+6. **Industry**, Lose no time; be always employed in something useful.
+7. **Sincerity**, Use no hurtful deceit; think innocently and justly.
+8. **Justice**, Wrong none by doing injuries, or omitting the benefits that are your duty.
+9. **Moderation**, Avoid extremes; forbear resenting injuries so much as you think they deserve.
+10. **Cleanliness**: Tolerate no uncleanliness in body, clothes, or habitation.
+11. **Tranquility**, Be not disturbed at trifles, or at accidents common or unavoidable.
+12. **Chastity**, Rarely use venery but for health or offspring.
+13. **Humility**, Imitate Jesus and Socrates.
 
-Customize freely — modern users often swap Chastity for things like Generosity, Patience, Curiosity, Courage, or Listening. Pick what you actually need to grow in.
+Customize freely: modern users often swap Chastity for things like Generosity, Patience, Curiosity, Courage, or Listening. Pick what you actually need to grow in.
 
 ### Step 2: One per week, on rotation
 
@@ -37,11 +37,11 @@ Focus intensely on ONE virtue at a time for one week. Mark every failure. The ot
 
 ### Step 3: Order is the trap
 
-Franklin admitted Order gave him the most trouble his entire life. Whatever virtue you keep slipping on — that is the diagnostic. Do not skip it; rotate back to it. The hardest virtue is the one most worth tracking.
+Franklin admitted Order gave him the most trouble his entire life. Whatever virtue you keep slipping on. That is the diagnostic. Do not skip it; rotate back to it. The hardest virtue is the one most worth tracking.
 
 ### Step 4: Daily examination
 
-Franklin reviewed his book at the end of each day. Five minutes of honest self-audit. Mark the failures. Do not flinch. Do not punish — just record.
+Franklin reviewed his book at the end of each day. Five minutes of honest self-audit. Mark the failures. Do not flinch. Do not punish, just record.
 
 ## Evaluation Criteria
 
@@ -65,6 +65,6 @@ Produce a personalized 13-virtue system:
 2. Their week-1 focus virtue and why
 3. The exact tracking medium (paper book, app, spreadsheet)
 4. The 5-minute daily audit time and trigger
-5. Their predicted "Order" — the virtue most likely to give them trouble
+5. Their predicted "Order", the virtue most likely to give them trouble
 
-End with: "Well done is better than well said." — Benjamin Franklin
+End with: "Well done is better than well said.", Benjamin Franklin

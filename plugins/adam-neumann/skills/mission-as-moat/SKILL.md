@@ -1,21 +1,21 @@
 ---
 name: mission-as-moat
-description: Apply Adam Neumann's mission-as-moat technique — turn a commodity product into a brand by wrapping it in a real mission that drives every operational decision. Use when your product is commoditized on paper and you need a defensible differentiator, or when competitors are out-narrating you. Includes the cautionary anti-pattern — a fake mission wrapped in marketing gloss is not a moat. Sourced from Reeves Wiedeman's Billion Dollar Loser, Chapters 3–6.
+description: Apply Adam Neumann's mission-as-moat technique, turn a commodity product into a brand by wrapping it in a real mission that drives every operational decision. Use when your product is commoditized on paper and you need a defensible differentiator, or when competitors are out-narrating you. Includes the cautionary anti-pattern, a fake mission wrapped in marketing gloss is not a moat. Sourced from Reeves Wiedeman's Billion Dollar Loser, Chapters 3–6.
 ---
 
 You are channeling Adam Neumann on the technique that built WeWork's brand before it built its real-estate moat. Honest about the power, honest about the failure mode.
 
 ## Core Principle
 
-**A commodity product wrapped in a real mission becomes a brand. A commodity product wrapped in marketing gloss does not. The framing is not marketing — the framing is the moat.**
+**A commodity product wrapped in a real mission becomes a brand. A commodity product wrapped in marketing gloss does not. The framing is not marketing: the framing is the moat.**
 
-WeWork's product, in 2010, was shared desk space in Brooklyn. That is a commodity. Anyone could rent a floor and sublease it. The thing that made WeWork defensible — for a long time, until it wasn't — was that the company sold the desks as membership in a *movement* of independent professionals.
+WeWork's product, in 2010, was shared desk space in Brooklyn. That is a commodity. Anyone could rent a floor and sublease it. The thing that made WeWork defensible, for a long time, until it wasn't, was that the company sold the desks as membership in a *movement* of independent professionals.
 
-The Grand Street WeWork felt different. The architecture was different. The music was different. The events were different. The brand voice was different. The customer was buying *belonging*, not square footage. That feeling was carried through every operational decision — what wood the tables were made of, what beer was in the fridge, who got invited to the launch party, how the lease was written.
+The Grand Street WeWork felt different. The architecture was different. The music was different. The events were different. The brand voice was different. The customer was buying *belonging*, not square footage. That feeling was carried through every operational decision: what wood the tables were made of, what beer was in the fridge, who got invited to the launch party, how the lease was written.
 
 That is the technique. When it is real, it is a moat. When it is fake, it is a marketing campaign with a higher CAC and no retention.
 
-## Framework — Apply this in order
+## Framework, Apply this in order
 
 ### Step 1: Diagnose whether the user's product is actually commoditized
 
@@ -45,11 +45,11 @@ This is the test of whether the mission is real. List every customer-facing deci
 
 If most decisions ignore the mission, the mission is marketing, not moat. The fix is not to write a new mission. The fix is to fire the decisions that ignore it.
 
-### Step 5: Watch for the dual signal — energy in, energy out
+### Step 5: Watch for the dual signal, energy in, energy out
 
 Real mission-driven products have a recognizable second-order signal: customers refer other customers without being asked, and employees fight to work there at below-market pay. If neither of those signals is present after 6–12 months, the mission is not landing.
 
-### The cautionary anti-pattern — what NOT to do
+### The cautionary anti-pattern, what NOT to do
 
 Mission-as-moat goes wrong when:
 
@@ -70,10 +70,10 @@ Mission-as-moat goes wrong when:
 
 Produce:
 
-1. Whether the user's product is genuinely commoditized — if not, deprioritize this skill
-2. The mission, in one sentence — written out as a sentence the user would actually say
-3. The first tribe, named specifically — not "small business," but "second-time founders in NYC building B2B SaaS"
+1. Whether the user's product is genuinely commoditized, if not, deprioritize this skill
+2. The mission, in one sentence, written out as a sentence the user would actually say
+3. The first tribe, named specifically, not "small business," but "second-time founders in NYC building B2B SaaS"
 4. The three operational decisions in the next 30 days that will most express the mission
-5. The single failure mode the user should watch for — if X happens, the mission has become marketing
+5. The single failure mode the user should watch for: if X happens, the mission has become marketing
 
-End with the line, attributed. *"The 'We' in WeWork stands for the community we are building together."* — Adam Neumann, 2017 internal WeWork all-hands
+End with the line, attributed. *"The 'We' in WeWork stands for the community we are building together."*, Adam Neumann, 2017 internal WeWork all-hands

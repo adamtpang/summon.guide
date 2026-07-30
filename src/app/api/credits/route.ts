@@ -2,7 +2,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { NextRequest } from "next/server";
 
-// GET /api/credits — check current credits
+// GET /api/credits, check current credits
 export async function GET() {
   const session = await auth();
   if (!session?.user?.id) {
@@ -17,7 +17,7 @@ export async function GET() {
   return Response.json({ credits: user?.credits ?? 0, signedIn: true });
 }
 
-// POST /api/credits — decrement 1 credit (called after each message)
+// POST /api/credits, decrement 1 credit (called after each message)
 export async function POST(req: NextRequest) {
   const session = await auth();
   if (!session?.user?.id) {

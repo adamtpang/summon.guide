@@ -26,13 +26,13 @@ export async function generateMetadata({
   }
 
   const ogImageUrl = `https://summon.guide/api/og/${figure.slug}`;
-  const description = `${figure.knownFor}. Read the life of ${figure.name} (${figure.era}) and summon them as your personal mentor — with deeply researched Claude Code skills derived from their primary biographies.`;
+  const description = `${figure.knownFor}. Read the life of ${figure.name} (${figure.era}) and summon them as your personal mentor, with deeply researched Claude Code skills derived from their primary biographies.`;
 
   return {
     title: `${figure.name} | summon.guide`,
     description,
     openGraph: {
-      title: `${figure.name} — summon.guide`,
+      title: `${figure.name}: summon.guide`,
       description,
       url: `https://summon.guide/${figure.slug}`,
       images: [{ url: ogImageUrl, width: 1200, height: 630 }],
@@ -40,7 +40,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${figure.name} — summon.guide`,
+      title: `${figure.name}: summon.guide`,
       description,
       images: [ogImageUrl],
     },
@@ -73,7 +73,7 @@ export default async function FigureProfile({
   // Pre-build the Wikipedia infobox rows from profile fields
   const infobox = buildInfoboxRows(profile, figure);
 
-  // Per-guide install commands — each guide is its own plugin on the
+  // Per-guide install commands, each guide is its own plugin on the
   // adamtpang/summon.guide marketplace, so users can pick exactly who
   // to summon into their Claude chats.
   const installCommands = pluginInstallCommands(figure.slug);
@@ -159,7 +159,7 @@ export default async function FigureProfile({
               </a>
             </div>
 
-            {/* Per-guide install — the headline copy-paste block */}
+            {/* Per-guide install, the headline copy-paste block */}
             <CopyableInstall
               commands={installCommands}
               label={`Install ${figure.name.split(" ")[0]}'s frameworks in Claude Code`}
@@ -235,7 +235,7 @@ export default async function FigureProfile({
           </aside>
         </article>
 
-        {/* Table of contents — Wikipedia mini-TOC */}
+        {/* Table of contents, Wikipedia mini-TOC */}
         <nav
           aria-label="Contents"
           className="bg-white border border-warm-200 rounded-xl p-5 mb-10 md:mb-14 max-w-md"
@@ -312,7 +312,7 @@ export default async function FigureProfile({
                     </p>
                     <p className="text-warm-400 text-xs italic">
                       Source: {skill.source}
-                      {skill.sourceAnchor ? ` — ${skill.sourceAnchor}` : ""}
+                      {skill.sourceAnchor ? `, ${skill.sourceAnchor}` : ""}
                     </p>
                   </a>
                 ))}
@@ -513,7 +513,7 @@ function BookCard({ book, accentColor }: { book: Book; accentColor: string }) {
       <div className="flex items-center justify-between gap-3 text-xs">
         <span className="text-warm-500">
           {isPending
-            ? "Skills pending — drop the PDF in /sources to ingest"
+            ? "Skills pending, drop the PDF in /sources to ingest"
             : `${skillsCount} skill${skillsCount === 1 ? "" : "s"} derived`}
         </span>
         {book.amazonUrl ? (
@@ -567,7 +567,7 @@ function buildInfoboxRows(
   if (profile.deathDate || profile.deathPlace) {
     const value =
       [profile.deathDate, profile.deathPlace].filter(Boolean).join(" · ") ||
-      "—";
+      ": ";
     rows.push({ label: "Died", values: [value] });
   }
   if (profile.nationality) {

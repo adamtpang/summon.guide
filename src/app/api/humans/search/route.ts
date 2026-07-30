@@ -1,7 +1,7 @@
 import { figures } from "@/lib/figures";
 import { NextRequest } from "next/server";
 
-// Search the index of ALL humans — backed by Wikidata (~12M humans with
+// Search the index of ALL humans, backed by Wikidata (~12M humans with
 // P31=Q5), so any person with a Wikipedia presence is findable. Results are
 // ranked by sitelink count (how many language editions cover them), the
 // classic cheap notability proxy, and cross-referenced against our own
@@ -138,7 +138,7 @@ export async function GET(req: NextRequest) {
         return b!.notability - a!.notability;
       })
       // Several Wikidata items can share a label (three people are just
-      // "Seneca") and alias-match to the same guide — keep only the most
+      // "Seneca") and alias-match to the same guide, keep only the most
       // notable one per platform slug.
       .filter((r, i, arr) => {
         if (!r!.onPlatform) return true;

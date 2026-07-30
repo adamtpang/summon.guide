@@ -73,10 +73,10 @@ export async function POST(req: NextRequest) {
           userMessage =
             "Server is missing a valid Anthropic API key. Please contact the site owner.";
         } else if (error instanceof Anthropic.RateLimitError) {
-          userMessage = "Rate limited — please try again in a moment.";
+          userMessage = "Rate limited, please try again in a moment.";
         } else if (error instanceof Anthropic.APIError) {
           const detail = error.message?.slice(0, 200) || "";
-          // Always log the full detail — billing errors and bad model ids
+          // Always log the full detail, billing errors and bad model ids
           // both read as a bare "400" in the UI otherwise (that ambiguity
           // once cost days of debugging).
           console.error("[chat] Anthropic APIError", error.status, detail);
@@ -85,7 +85,7 @@ export async function POST(req: NextRequest) {
           // users a calm, honest message instead of raw billing text.
           if (/credit balance/i.test(detail)) {
             userMessage =
-              "The guides are resting for a moment — the site is topping up. Please try again shortly.";
+              "The guides are resting for a moment, the site is topping up. Please try again shortly.";
           } else {
             userMessage = `Upstream API error (${error.status}): ${detail}`;
           }

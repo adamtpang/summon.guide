@@ -3,16 +3,16 @@
 // Every skill in src/lib/skills.ts is grounded in one or more books here.
 //
 // Three roles:
-//   "by"        — the figure wrote it themselves (Franklin's Autobiography,
+//   "by": the figure wrote it themselves (Franklin's Autobiography,
 //                  Lee Kuan Yew's From Third World to First, Deutsch's
 //                  The Beginning of Infinity)
-//   "about"     — biography by another author (Chernow's Titan, Isaacson's
+//   "about": biography by another author (Chernow's Titan, Isaacson's
 //                  Elon Musk, Plutarch on Alexander)
-//   "compiled"  — anthology compiled by another author from the figure's
+//   "compiled": anthology compiled by another author from the figure's
 //                  own writings, interviews, and talks (Jorgenson's
 //                  The Almanack of Naval Ravikant, The Book of Elon)
 //
-// PDFs are not committed to the repo — see /sources/ and /sources/README.md
+// PDFs are not committed to the repo, see /sources/ and /sources/README.md
 // for the ingestion workflow. The `pdfPath` field is for local Claude
 // sessions to find the file; it is never served from the website.
 
@@ -20,7 +20,7 @@ export interface Book {
   /** stable kebab-case slug, used as the URL fragment if we ever add /books/<slug> */
   slug: string;
   title: string;
-  /** author of THIS book (not necessarily the figure — see `role`) */
+  /** author of THIS book (not necessarily the figure, see `role`) */
   author: string;
   /** publication year of the edition we ingested */
   year: number;
@@ -50,7 +50,7 @@ export const books: Book[] = [
     role: "about",
     figureSlug: "rockefeller",
     description:
-      "The definitive 800-page biography. The source of every framework we attribute to Rockefeller — Ledger A, the Cleveland Massacre, the dimes, the systematic philanthropy.",
+      "The definitive 800-page biography. The source of every framework we attribute to Rockefeller: Ledger A, the Cleveland Massacre, the dimes, the systematic philanthropy.",
     amazonUrl: "https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303",
     skillSlugs: ["ledger", "crisis"],
     status: "partial",
@@ -119,7 +119,7 @@ export const books: Book[] = [
     role: "compiled",
     figureSlug: "elon",
     description:
-      "Jorgenson's anthology of Musk's own words — interviews, transcripts, talks. Same compiler as The Almanack of Naval Ravikant. Pending ingestion: drop the PDF in sources/elon/the-book-of-elon.pdf and we'll extract a fresh set of skills.",
+      "Jorgenson's anthology of Musk's own words: interviews, transcripts, talks. Same compiler as The Almanack of Naval Ravikant. Pending ingestion: drop the PDF in sources/elon/the-book-of-elon.pdf and we'll extract a fresh set of skills.",
     pdfPath: "sources/elon/the-book-of-elon.pdf",
     skillSlugs: [],
     status: "pending",
@@ -173,7 +173,7 @@ export const books: Book[] = [
     role: "by",
     figureSlug: "deutsch",
     description:
-      "Deutsch's argument that good explanations — ones that are hard to vary while still accounting for what they explain — are the engine of unbounded human progress.",
+      "Deutsch's argument that good explanations, ones that are hard to vary while still accounting for what they explain, are the engine of unbounded human progress.",
     amazonUrl: "https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359",
     skillSlugs: ["good-explanations", "principle-of-optimism"],
     status: "complete",
@@ -201,7 +201,7 @@ export const books: Book[] = [
     role: "by",
     figureSlug: "lee-kuan-yew",
     description:
-      "Lee's account of Singapore's founding through 1965 — the British colonial years, the Japanese Occupation, merger with Malaysia, and the traumatic separation.",
+      "Lee's account of Singapore's founding through 1965: the British colonial years, the Japanese Occupation, merger with Malaysia, and the traumatic separation.",
     amazonUrl: "https://www.amazon.com/Singapore-Story-Memoirs-Lee-Kuan/dp/0130208035",
     skillSlugs: [],
     status: "partial",
@@ -227,7 +227,7 @@ export const books: Book[] = [
     role: "by",
     figureSlug: "lee-kuan-yew",
     description:
-      "Lee's late-life assessment of geopolitics and Singapore's place in it — the U.S., China, Japan, Europe, Southeast Asia, and small-state survival.",
+      "Lee's late-life assessment of geopolitics and Singapore's place in it: the U.S., China, Japan, Europe, Southeast Asia, and small-state survival.",
     amazonUrl: "https://www.amazon.com/One-Mans-View-World/dp/9814342564",
     skillSlugs: [],
     status: "partial",
@@ -249,7 +249,7 @@ export const books: Book[] = [
     status: "complete",
   },
 
-  // Marc Andreessen — his own essays
+  // Marc Andreessen: his own essays
   {
     slug: "why-software-is-eating-the-world",
     title: "Why Software Is Eating the World",
@@ -290,7 +290,7 @@ export const books: Book[] = [
     status: "partial",
   },
 
-  // Adam Neumann — books ABOUT him (he has not written one)
+  // Adam Neumann, books ABOUT him (he has not written one)
   {
     slug: "billion-dollar-loser",
     title:
@@ -322,7 +322,7 @@ export const books: Book[] = [
     status: "partial",
   },
 
-  // Seneca — his own works, all public domain
+  // Seneca: his own works, all public domain
   {
     slug: "letters-from-a-stoic",
     title: "Letters from a Stoic (Epistulae Morales ad Lucilium)",
@@ -331,7 +331,7 @@ export const books: Book[] = [
     role: "by",
     figureSlug: "seneca",
     description:
-      "124 letters written to Seneca's friend Lucilius, governor of Sicily, in the last three years of Seneca's life. Each letter takes one practical idea — time, friendship, anger, crowds, death — and works it down to something you can do today. The single most readable Stoic text ever written.",
+      "124 letters written to Seneca's friend Lucilius, governor of Sicily, in the last three years of Seneca's life. Each letter takes one practical idea (time, friendship, anger, crowds, death) and works it down to something you can do today. The single most readable Stoic text ever written.",
     amazonUrl: "https://www.amazon.com/Letters-Stoic-Penguin-Classics-Seneca/dp/0140442103",
     skillSlugs: ["letters-from-a-stoic"],
     status: "partial",
@@ -357,7 +357,7 @@ export const books: Book[] = [
     role: "by",
     figureSlug: "seneca",
     description:
-      "Three books on anger as a vice — its physiology, its destructiveness, and the practical techniques for not being governed by it. The clearest pre-modern account of what to do between the trigger and the response.",
+      "Three books on anger as a vice: its physiology, its destructiveness, and the practical techniques for not being governed by it. The clearest pre-modern account of what to do between the trigger and the response.",
     amazonUrl: "https://www.amazon.com/Dialogues-Essays-Oxford-Worlds-Classics/dp/0199552401",
     skillSlugs: ["on-anger"],
     status: "partial",

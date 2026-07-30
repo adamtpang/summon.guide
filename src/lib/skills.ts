@@ -9,7 +9,7 @@
 //     /plugin install marcus-aurelius   ← gets ONLY Marcus's skills
 //
 // After install, slash commands are namespaced: /<plugin>:<skill>.
-// The umbrella skill for each plugin shares the plugin's name —
+// The umbrella skill for each plugin shares the plugin's name, 
 // /elon:elon channels Elon's full mindset; /elon:first-principles is
 // the specific framework.
 //
@@ -23,11 +23,11 @@
 export interface Skill {
   /** matches the directory name under /plugins/<figureSlug>/skills/<slug> */
   slug: string;
-  /** which figure (figures.ts slug) this skill belongs to — also the plugin name */
+  /** which figure (figures.ts slug) this skill belongs to, also the plugin name */
   figureSlug: string;
   /** human title shown on the website */
   title: string;
-  /** one-line "what this skill does" — the long form of the frontmatter description */
+  /** one-line "what this skill does", the long form of the frontmatter description */
   tagline: string;
   /** when Claude should reach for this skill */
   whenToUse: string;
@@ -117,7 +117,7 @@ export const skills: Skill[] = [
     tagline:
       "Buy when blood runs in the streets. Pre-commit your buy list. Move generously, execute ruthlessly.",
     whenToUse:
-      "A market panic, downturn, layoff wave, or competitor collapse — and you have cash, conviction, or both.",
+      "A market panic, downturn, layoff wave, or competitor collapse, and you have cash, conviction, or both.",
     source: "Titan by Ron Chernow",
     sourceAnchor: "Chapter 12 (Panic of 1873) and Chapter 6 (Cleveland Massacre)",
     command: "/rockefeller:crisis",
@@ -166,7 +166,7 @@ export const skills: Skill[] = [
     whenToUse:
       "Starting a mastermind, founders circle, weekly dinner, study group, or any structured peer-improvement society.",
     source: "Benjamin Franklin: An American Life by Walter Isaacson",
-    sourceAnchor: "Chapter 5 — Franklin's Junto society, founded 1727",
+    sourceAnchor: "Chapter 5: Franklin's Junto society, founded 1727",
     command: "/franklin:junto",
   },
 
@@ -209,7 +209,7 @@ export const skills: Skill[] = [
     figureSlug: "elon",
     title: "Five-Step Algorithm",
     tagline:
-      "Question, delete, simplify, accelerate, automate — in that order. The order is the algorithm.",
+      "Question, delete, simplify, accelerate, automate, in that order. The order is the algorithm.",
     whenToUse:
       "Simplifying a workflow, killing process bloat, speeding up cycle time, or rebuilding an operation from scratch.",
     source: "Elon Musk by Walter Isaacson",
@@ -258,7 +258,7 @@ export const skills: Skill[] = [
     tagline:
       "Share the privation you ask of your team. Find your helmet-of-water gesture. Be wounded in their direction.",
     whenToUse:
-      "You are asking the team to absorb something hard — late nights, a pay cut, a risky pivot — and you need them to follow.",
+      "You are asking the team to absorb something hard (late nights, a pay cut, a risky pivot) and you need them to follow.",
     source: "Life of Alexander by Plutarch and The Campaigns of Alexander by Arrian",
     sourceAnchor:
       "Plutarch on the Gedrosian Desert; Arrian on Alexander leading the cavalry charge at Granicus",
@@ -370,7 +370,7 @@ export const skills: Skill[] = [
     whenToUse:
       "Designing incentives, hiring senior leadership, setting conflict-of-interest policy, or fixing a culture where rules get bent quietly.",
     source: "From Third World to First by Lee Kuan Yew",
-    sourceAnchor: "Chapters 13–15 — the Corrupt Practices Investigation Bureau",
+    sourceAnchor: "Chapters 13–15: the Corrupt Practices Investigation Bureau",
     command: "/lee-kuan-yew:incorruptibility",
   },
 
@@ -413,7 +413,7 @@ export const skills: Skill[] = [
     figureSlug: "marcus-aurelius",
     title: "The View From Above",
     tagline:
-      "Zoom out to the scale of a life, a species, an age — until the emergency is one dot in a vast ordered thing.",
+      "Zoom out to the scale of a life, a species, an age: until the emergency is one dot in a vast ordered thing.",
     whenToUse:
       "Catastrophizing, status panic, an offense that feels enormous, or a decision distorted by being too close to it.",
     source: "Meditations by Marcus Aurelius",
@@ -537,9 +537,9 @@ export const skills: Skill[] = [
     figureSlug: "adam-neumann",
     title: "Narrative Arbitrage in Fundraising",
     tagline:
-      "Story compresses the round — a great narrative does the work a hundred meetings would. Anti-pattern: every dollar raised on narrative carries an IOU to the next round. If economics don't catch up, the lever you pulled becomes the lever pulled on you.",
+      "Story compresses the round, a great narrative does the work a hundred meetings would. Anti-pattern: every dollar raised on narrative carries an IOU to the next round. If economics don't catch up, the lever you pulled becomes the lever pulled on you.",
     whenToUse:
-      "Raising a round where the unit economics are nascent and you need to sell the future — or evaluating a competitor's pitch you suspect is narrative-only.",
+      "Raising a round where the unit economics are nascent and you need to sell the future, or evaluating a competitor's pitch you suspect is narrative-only.",
     source: "The Cult of We by Eliot Brown and Maureen Farrell",
     sourceAnchor: "Chapters 8–11 (Masayoshi Son and the WeWork raise)",
     command: "/adam-neumann:narrative-arbitrage",
@@ -570,7 +570,7 @@ export const skills: Skill[] = [
     figureSlug: "seneca",
     title: "Channel Seneca",
     tagline:
-      "Time is the one currency you cannot earn back. Anger is a brief madness — delay is the cure. Withdraw to find yourself. Recover the time you call lost. Begin at once to live.",
+      "Time is the one currency you cannot earn back. Anger is a brief madness, delay is the cure. Withdraw to find yourself. Recover the time you call lost. Begin at once to live.",
     whenToUse:
       "Wrestling with how time is being spent, working through anger you don't want to be governed by, navigating a court (corporate or political) where flattery is expected, or designing a personal practice you can sustain.",
     source: "Letters from a Stoic + On the Shortness of Life + On Anger",
@@ -598,9 +598,9 @@ export const skills: Skill[] = [
     problemHint:
       "I want a daily practice that sticks instead of another journal I abandon in a week.",
     figureSlug: "seneca",
-    title: "Letters from a Stoic — Daily Practice",
+    title: "Letters from a Stoic: Daily Practice",
     tagline:
-      "One letter a day to yourself — pick one idea, work it out in writing, and end with what you will actually do about it. The Stoic technology Seneca used for three years on Lucilius works on you.",
+      "One letter a day to yourself: pick one idea, work it out in writing, and end with what you will actually do about it. The Stoic technology Seneca used for three years on Lucilius works on you.",
     whenToUse:
       "Designing a personal philosophy practice that survives more than a week, building a journaling habit that produces decisions instead of feelings, or wanting to study a tradition by walking it daily instead of reading about it.",
     source: "Epistulae Morales ad Lucilium (Letters to Lucilius) by Seneca",
@@ -613,7 +613,7 @@ export const skills: Skill[] = [
     problemHint:
       "I am furious and about to send something I will regret.",
     figureSlug: "seneca",
-    title: "On Anger — The Cool Path",
+    title: "On Anger, The Cool Path",
     tagline:
       "Anger is brief madness. The best remedy is delay. Beg yourself this favor: do not execute what your anger urges. Do something else first.",
     whenToUse:
@@ -642,9 +642,9 @@ export const skills: Skill[] = [
       "I have a pile of funny observations and no idea how to turn them into a set.",
     "figureSlug": "ricky-gervais",
     "title": "Stand-Up Writing",
-    "tagline": "Write stand-up from honest observation — premise, act-out, tag, tested live.",
+    "tagline": "Write stand-up from honest observation: premise, act-out, tag, tested live.",
     "whenToUse": "Use when the user has a rough idea, a bit that isn't landing, a pile of observations that won't cohere, a set that runs long or sags, or a taboo subject they want to be funny about without being merely shocking. Also for finding a persona and point of view, structuring a tight hour, deciding what to cut, and editing lines down to the laugh.",
-    "source": "Ricky Gervais's stand-up specials and stated method — Animals, Politics, Fame, Science, Humanity, SuperNature, Armageddon, Mortality — plus interviews on writing by incubation and touring a work-in-progress hour to iron out the kinks before taping.",
+    "source": "Ricky Gervais's stand-up specials and stated method (Animals, Politics, Fame, Science, Humanity, SuperNature, Armageddon, Mortality) plus interviews on writing by incubation and touring a work-in-progress hour to iron out the kinks before taping.",
     "sourceAnchor": "the-talks.com/interview/ricky-gervais/ ; nofilmschool.com/screenwriting-tips-ricky-gervais ; en.wikipedia.org/wiki/Ricky_Gervais",
     "command": "/ricky-gervais:stand-up-writing"
   },
@@ -655,10 +655,10 @@ export const skills: Skill[] = [
       "People called my joke offensive and I cannot tell if they are right or just reacting.",
     "figureSlug": "ricky-gervais",
     "title": "The Offence Principle: Writing Taboo & Handling Offence",
-    "tagline": "Offence is the collateral damage of free speech — so the question is never whether it offends, but what the joke is actually about and what it actually attacks.",
-    "whenToUse": "Use when writing a joke, bit, sketch, or satire that touches a taboo or sensitive subject and you want to know whether it holds up — or when something's been called 'offensive' and you need to tell a real craft fault from a mere reaction. Covers subject vs. target, irony vs. endorsement, the comedian's voice vs. a character's, intent and defensibility, and edgy-for-shock vs. edgy-with-a-point.",
-    "source": "Ricky Gervais's stated positions on free speech and offence — 'Offence is the collateral damage of free speech' (Twitter/X, 1 Sep 2014), the subject-vs-target distinction and irony defence of SuperNature (BBC The One Show, Deadline, The Spectator, May 2022), and 'the truth is more devastating than a lie' (The Talks).",
-    "sourceAnchor": "'Most offence comes from when people mistake the subject of a joke with the actual target' — SuperNature defence, 2022",
+    "tagline": "Offence is the collateral damage of free speech, so the question is never whether it offends, but what the joke is actually about and what it actually attacks.",
+    "whenToUse": "Use when writing a joke, bit, sketch, or satire that touches a taboo or sensitive subject and you want to know whether it holds up, or when something's been called 'offensive' and you need to tell a real craft fault from a mere reaction. Covers subject vs. target, irony vs. endorsement, the comedian's voice vs. a character's, intent and defensibility, and edgy-for-shock vs. edgy-with-a-point.",
+    "source": "Ricky Gervais's stated positions on free speech and offence: 'Offence is the collateral damage of free speech' (Twitter/X, 1 Sep 2014), the subject-vs-target distinction and irony defence of SuperNature (BBC The One Show, Deadline, The Spectator, May 2022), and 'the truth is more devastating than a lie' (The Talks).",
+    "sourceAnchor": "'Most offence comes from when people mistake the subject of a joke with the actual target': SuperNature defence, 2022",
     "command": "/ricky-gervais:the-offence-principle"
   },
   {
@@ -668,9 +668,9 @@ export const skills: Skill[] = [
       "The jokes land but nobody cares about the people in my story.",
     "figureSlug": "ricky-gervais",
     "title": "Cringe & Character: The David Brent Method",
-    "tagline": "Make them laugh at someone they love — comedy from the gap between how a character sees themselves and how the world sees them.",
+    "tagline": "Make them laugh at someone they love, comedy from the gap between how a character sees themselves and how the world sees them.",
     "whenToUse": "Use when writing a comedy character, sitcom, mockumentary, or cringe scene that lives on someone deluding themselves in public. Also when jokes land but no one cares about the people, when a show gets laughs but has no heart, or when a 'cringe' scene reads as cruelty instead of funny-and-sad.",
-    "source": "Ricky Gervais's work on The Office (2001–2003), Extras, Derek, and After Life (2019–2022), and his stated craft — make the ordinary extraordinary, find the funny in the true, and pair pathos with a character's blind spot.",
+    "source": "Ricky Gervais's work on The Office (2001–2003), Extras, Derek, and After Life (2019–2022), and his stated craft: make the ordinary extraordinary, find the funny in the true, and pair pathos with a character's blind spot.",
     "sourceAnchor": "David Brent, The Office (UK); Tony Johnson, After Life",
     "command": "/ricky-gervais:cringe-and-character"
   },
@@ -681,8 +681,8 @@ export const skills: Skill[] = [
       "The problem in front of me is huge and boring and honestly it scares me.",
     "figureSlug": "marie-curie",
     "title": "Marie Curie",
-    "tagline": "Understand rather than fear — measure it, grind it, weigh it, give it away.",
-    "whenToUse": "Summon Marie Skłodowska-Curie's full operating mindset into the current chat. Use whenever the user is standing before something they do not understand and are tempted to fear it, facing an intractable problem that will yield only to years of unglamorous physical work, drowning in qualitative impressions where an exact measurement would cut through, or deciding what to do with recognition, credit, or money that the work has produced. Channels her method — replace fear with comprehension, grind the problem into a physical process, let measurement lead, give the work away — as one operating philosophy, addressed to a peer at the bench rather than a student in a lecture hall.",
+    "tagline": "Understand rather than fear: measure it, grind it, weigh it, give it away.",
+    "whenToUse": "Summon Marie Skłodowska-Curie's full operating mindset into the current chat. Use whenever the user is standing before something they do not understand and are tempted to fear it, facing an intractable problem that will yield only to years of unglamorous physical work, drowning in qualitative impressions where an exact measurement would cut through, or deciding what to do with recognition, credit, or money that the work has produced. Channels her method (replace fear with comprehension, grind the problem into a physical process, let measurement lead, give the work away) as one operating philosophy, addressed to a peer at the bench rather than a student in a lecture hall.",
     "source": "Marie Curie, Pierre Curie (1923) and Autobiographical Notes; her 1903 doctoral thesis Recherches sur les substances radioactives; and Ève Curie, Madame Curie: A Biography (1937).",
     "command": "/marie-curie:marie-curie",
     "umbrella": true
@@ -694,8 +694,8 @@ export const skills: Skill[] = [
       "There is one real signal buried in all this noise and I cannot get to it.",
     "figureSlug": "marie-curie",
     "title": "The Isolation Method",
-    "tagline": "Turn an intractable question into a relentless, well-instrumented physical process — and grind it, measuring every batch, until the thing is in your hand and can be weighed.",
-    "whenToUse": "Use for a hard extraction, purification, or long-horizon problem: finding the one real signal buried in a mountain of noise, isolating a single true cause from a confounded mess, separating what matters from what merely surrounds it — any task where the answer exists but is dilute, and the only path is a repeatable process measured batch by batch until the target is isolated, weighed, and in hand.",
+    "tagline": "Turn an intractable question into a relentless, well-instrumented physical process, and grind it, measuring every batch, until the thing is in your hand and can be weighed.",
+    "whenToUse": "Use for a hard extraction, purification, or long-horizon problem: finding the one real signal buried in a mountain of noise, isolating a single true cause from a confounded mess, separating what matters from what merely surrounds it, any task where the answer exists but is dilute, and the only path is a repeatable process measured batch by batch until the target is isolated, weighed, and in hand.",
     "source": "Marie Curie's isolation of radium (1898–1902); her doctoral thesis Recherches sur les substances radioactives (1903); Ève Curie, Madame Curie: A Biography (1937).",
     "sourceAnchor": "Isolation of ~0.1 g pure radium chloride from several tons of pitchblende via the piezoelectric-quartz electrometer and fractional crystallization; radium-isolation method published without patent.",
     "command": "/marie-curie:the-isolation-method"
@@ -708,7 +708,7 @@ export const skills: Skill[] = [
     "figureSlug": "marie-curie",
     "title": "Nothing to Be Feared",
     "tagline": "Convert fear into understanding, then into the next small step.",
-    "whenToUse": "When the user is frozen by something they have not yet looked at squarely — a diagnosis, a scary technical problem, a decision, a confrontation, a grief — and is reacting to the vague shape of it rather than the thing itself. Also when they need to keep working through genuine adversity or grief without drama.",
+    "whenToUse": "When the user is frozen by something they have not yet looked at squarely (a diagnosis, a scary technical problem, a decision, a confrontation, a grief) and is reacting to the vague shape of it rather than the thing itself. Also when they need to keep working through genuine adversity or grief without drama.",
     "source": "Theme most associated with Marie Curie ('Nothing in life is to be feared, it is only to be understood...'), grounded in her verified method and life; see Ève Curie, Madame Curie: A Biography (1937).",
     "sourceAnchor": "On fear, understanding, and endurance",
     "command": "/marie-curie:nothing-to-be-feared"
@@ -720,7 +720,7 @@ export const skills: Skill[] = [
       "I am starting to care more about getting credit than about the work itself.",
     "figureSlug": "marie-curie",
     "title": "Science, Not Self",
-    "tagline": "Keep ego, credit, and money from corrupting the work — optimize for the truth, not your standing.",
+    "tagline": "Keep ego, credit, and money from corrupting the work: optimize for the truth, not your standing.",
     "whenToUse": "When deciding whether to patent, protect, or freely give away work; when status, credit, or recognition start steering decisions that should be steered by the truth; when public noise, scandal, or reputation-management pulls attention off the actual problem; or when measuring yourself by what you have done rather than what remains to be done.",
     "source": "Marie Curie's and Pierre's deliberate refusal to patent the radium-isolation process (published freely so any lab could produce radium), her recorded reasoning that radium 'belongs to all people,' and her documented indifference to fame and money through the 1911 press scandal.",
     "sourceAnchor": "Marie Curie, letter to her brother Józef (1894); Ève Curie, Madame Curie: A Biography (1937).",
@@ -735,7 +735,7 @@ export const skills: Skill[] = [
     "title": "Channel Bob Marley",
     "tagline": "Turn suffering into a reason to show up. Free your own mind first. Stand up for what's right now, not someday. Answer division with one love, not revenge. Give your one gift to something bigger. Meet hardship with faith, not bitterness.",
     "whenToUse": "Knocked down by a setback and tempted to quit, caged by a limiting belief or someone else's definition of you, sitting on an injustice you keep meaning to act on, caught in a conflict or rivalry you could escalate or heal, or searching for the one gift that is yours to give in service of something bigger than yourself.",
-    "source": "Bob Marley's songs, life, and documented interviews — Redemption Song, Get Up Stand Up, and One Love; the December 1976 assassination attempt and Smile Jamaica; the 1978 One Love Peace Concert",
+    "source": "Bob Marley's songs, life, and documented interviews: Redemption Song, Get Up Stand Up, and One Love; the December 1976 assassination attempt and Smile Jamaica; the 1978 One Love Peace Concert",
     "command": "/bob-marley:bob-marley",
     "umbrella": true
   },
@@ -745,11 +745,11 @@ export const skills: Skill[] = [
     "problemHint":
       "I keep telling myself I am not the kind of person who does things like this.",
     "figureSlug": "bob-marley",
-    "title": "Redemption Song — Free Your Own Mind",
+    "title": "Redemption Song, Free Your Own Mind",
     "tagline": "Emancipate yourself from mental slavery. The first prison to break is the one in your own head. Name the mental chain, find whose voice it really is, reject the borrowed definition, and choose your own ground.",
-    "whenToUse": "You're held back not by an outside obstacle but by an inside one — a limiting belief, someone else's definition of you, a box you never chose ('people like me don't,' 'I could never,' 'I'm not that kind of person'). Also when you're fighting an external battle while still wearing an internal chain.",
+    "whenToUse": "You're held back not by an outside obstacle but by an inside one: a limiting belief, someone else's definition of you, a box you never chose ('people like me don't,' 'I could never,' 'I'm not that kind of person'). Also when you're fighting an external battle while still wearing an internal chain.",
     "source": "Bob Marley, 'Redemption Song' (Uprising, 1980), adapting Marcus Garvey's 1937 speech",
-    "sourceAnchor": "'Emancipate yourselves from mental slavery; none but ourselves can free our minds' — recorded when Marley was already terminally ill, stripped to voice and acoustic guitar; the line adapts Marcus Garvey's speech at Menelik Hall, Nova Scotia, 31 October 1937",
+    "sourceAnchor": "'Emancipate yourselves from mental slavery; none but ourselves can free our minds', recorded when Marley was already terminally ill, stripped to voice and acoustic guitar; the line adapts Marcus Garvey's speech at Menelik Hall, Nova Scotia, 31 October 1937",
     "command": "/bob-marley:redemption-song"
   },
   {
@@ -758,11 +758,11 @@ export const skills: Skill[] = [
     "problemHint":
       "Something wrong is happening and I keep waiting for a better time to say it.",
     "figureSlug": "bob-marley",
-    "title": "Get Up, Stand Up — Act Now",
-    "tagline": "Stand up for what's right, and act now — not someday, not when it's safe, not when someone else moves first. Name the wrong, refuse the 'someday,' use the gift you already have, and take the first public step today.",
-    "whenToUse": "You see an injustice or a wrong — at work, in your community, in your own life — and you keep waiting: for a better time, for more authority, for someone else to go first, or for a reward that never comes. Turn conviction into action today.",
+    "title": "Get Up, Stand Up: Act Now",
+    "tagline": "Stand up for what's right, and act now: not someday, not when it's safe, not when someone else moves first. Name the wrong, refuse the 'someday,' use the gift you already have, and take the first public step today.",
+    "whenToUse": "You see an injustice or a wrong (at work, in your community, in your own life) and you keep waiting: for a better time, for more authority, for someone else to go first, or for a reward that never comes. Turn conviction into action today.",
     "source": "Bob Marley & Peter Tosh, 'Get Up, Stand Up' (Burnin', 1973); Marley playing Smile Jamaica two days after being shot, December 1976",
-    "sourceAnchor": "'Get up, stand up, stand up for your right' — the song's rejection of waiting for a reward 'someday'; and 'the people who are trying to make this world worse aren't taking a day off, how can I?' on performing at Smile Jamaica, 5 December 1976",
+    "sourceAnchor": "'Get up, stand up, stand up for your right', the song's rejection of waiting for a reward 'someday'; and 'the people who are trying to make this world worse aren't taking a day off, how can I?' on performing at Smile Jamaica, 5 December 1976",
     "command": "/bob-marley:get-up-stand-up"
   },
   {
@@ -771,9 +771,9 @@ export const skills: Skill[] = [
     "problemHint":
       "This feud keeps escalating and part of me wants revenge more than peace.",
     "figureSlug": "bob-marley",
-    "title": "One Love — Unity Over Revenge",
+    "title": "One Love: Unity Over Revenge",
     "tagline": "Answer division with the one thing you still share, not with revenge. Take retaliation off the table, find the shared ground, make the first gesture, hold both the wrong and the unity, and build a together that lasts.",
-    "whenToUse": "De-escalating a conflict, rivalry, or feud — family, team, business, community — that you could either escalate or heal. Especially when you've been wronged and revenge is tempting.",
+    "whenToUse": "De-escalating a conflict, rivalry, or feud (family, team, business, community) that you could either escalate or heal. Especially when you've been wronged and revenge is tempting.",
     "source": "Bob Marley, 'One Love / People Get Ready' (Exodus, 1977); the One Love Peace Concert, Kingston, 22 April 1978",
     "sourceAnchor": "After surviving the December 1976 assassination attempt, Marley joined the hands of rival leaders Michael Manley (PNP) and Edward Seaga (JLP) on stage during 'Jamming' at the One Love Peace Concert, 22 April 1978",
     "command": "/bob-marley:one-love"
@@ -943,7 +943,7 @@ export function getSkillsForFigure(figureSlug: string): Skill[] {
   return skills.filter((s) => s.figureSlug === figureSlug);
 }
 
-/** Get a single skill by its slug + figureSlug — slugs can now repeat across plugins. */
+/** Get a single skill by its slug + figureSlug, slugs can now repeat across plugins. */
 export function getSkill(figureSlug: string, slug: string): Skill | undefined {
   return skills.find((s) => s.figureSlug === figureSlug && s.slug === slug);
 }

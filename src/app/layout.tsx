@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   // src/app/apple-icon.tsx (Next.js convention). favicon.svg in /public
   // is also auto-served at /favicon.svg as a vector fallback.
   openGraph: {
-    title: "summon.guide — Personal Mentorship from History's Greatest Guides",
+    title: "summon.guide, Personal Mentorship from History's Greatest Guides",
     description:
       "Type in any life problem. Get matched with the legendary human best suited to mentor you. Free to try.",
     url: "https://summon.guide",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "summon.guide — Personal Mentorship from History's Greatest Guides",
+    title: "summon.guide, Personal Mentorship from History's Greatest Guides",
     description:
       "Type in any life problem. Get matched with the legendary human best suited to mentor you. Free to try.",
   },
