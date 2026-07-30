@@ -1,0 +1,77 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "franklin",
+  "guideName": "Benjamin Franklin",
+  "bookSlug": "autobiography-of-benjamin-franklin",
+  "bookTitle": "The Autobiography of Benjamin Franklin",
+  "episodeCount": 8,
+  "totalWords": 2126,
+  "totalSeconds": 879,
+  "hasMappedVoice": true,
+  "episodes": [
+    {
+      "slug": "three-puffy-rolls",
+      "title": "Three Puffy Rolls",
+      "words": 266,
+      "estimatedSeconds": 110,
+      "script": "content/episodes/franklin/three-puffy-rolls.md",
+      "handoff": "content/episodes/franklin/three-puffy-rolls.handoff.json"
+    },
+    {
+      "slug": "vegetarian-for-books",
+      "title": "How I Ate Rice and Bought Books",
+      "words": 278,
+      "estimatedSeconds": 115,
+      "script": "content/episodes/franklin/vegetarian-for-books.md",
+      "handoff": "content/episodes/franklin/vegetarian-for-books.handoff.json"
+    },
+    {
+      "slug": "errata",
+      "title": "Call It an Erratum",
+      "words": 251,
+      "estimatedSeconds": 104,
+      "script": "content/episodes/franklin/errata.md",
+      "handoff": "content/episodes/franklin/errata.handoff.json"
+    },
+    {
+      "slug": "the-junto",
+      "title": "Write the Rules, Not the Guest List",
+      "words": 252,
+      "estimatedSeconds": 104,
+      "script": "content/episodes/franklin/the-junto.md",
+      "handoff": "content/episodes/franklin/the-junto.handoff.json"
+    },
+    {
+      "slug": "the-subscription-library",
+      "title": "Fifty Subscribers at Forty Shillings",
+      "words": 259,
+      "estimatedSeconds": 107,
+      "script": "content/episodes/franklin/the-subscription-library.md",
+      "handoff": "content/episodes/franklin/the-subscription-library.handoff.json"
+    },
+    {
+      "slug": "out-of-sight",
+      "title": "Put Yourself Out of Sight",
+      "words": 266,
+      "estimatedSeconds": 110,
+      "script": "content/episodes/franklin/out-of-sight.md",
+      "handoff": "content/episodes/franklin/out-of-sight.handoff.json"
+    },
+    {
+      "slug": "certainly-undoubtedly",
+      "title": "I Stopped Saying Certainly",
+      "words": 271,
+      "estimatedSeconds": 112,
+      "script": "content/episodes/franklin/certainly-undoubtedly.md",
+      "handoff": "content/episodes/franklin/certainly-undoubtedly.handoff.json"
+    },
+    {
+      "slug": "thirteen-virtues",
+      "title": "Thirteen Virtues",
+      "words": 283,
+      "estimatedSeconds": 117,
+      "script": "content/episodes/franklin/thirteen-virtues.md",
+      "handoff": "content/episodes/franklin/thirteen-virtues.handoff.json"
+    }
+  ]
+}

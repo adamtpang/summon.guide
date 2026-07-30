@@ -9,7 +9,8 @@
     "lint": "eslint",
     "book:extract": "node scripts/pdf-to-md.mjs",
     "book:scaffold": "node scripts/scaffold-skills.mjs",
-    "book:fixture": "node scripts/make-test-pdf.mjs"
+    "book:fixture": "node scripts/make-test-pdf.mjs",
+    "book:episodes": "node scripts/episodes-from-plan.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",

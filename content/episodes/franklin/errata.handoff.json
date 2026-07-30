@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "franklin",
+  "guideName": "Benjamin Franklin",
+  "episodeSlug": "errata",
+  "title": "Call It an Erratum",
+  "sourceBook": "The Autobiography of Benjamin Franklin",
+  "sourceAnchor": "Chapter II, Beginning Life as a Printer",
+  "audio": "franklin-errata-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/franklin/errata.md",
+  "words": 251,
+  "estimatedSeconds": 104,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 21,
+      "text": "I was a printer by trade, and printers have a particular word for the mistakes that survive into a finished book. We call them errata. When I came to write the account of my own life, I deliberately used that same shop word for the things I had done wrong."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 20,
+      "text": "I did not call them sins and I did not call them regrets. I wrote that taking unfair advantage of my brother over the indentures was one of the first errata of my life. A plain technical word, borrowed from the trade, applied on purpose to my own conduct."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 23,
+      "text": "Consider what the word actually does. A sin needs forgiveness from somebody else. A regret has no remedy at all, it only aches. An erratum is a printing error. It is factual, it is specific, it is locatable on the page, and the printer's response to finding one is not shame. It is a correction."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 24,
+      "text": "So I kept a list of mine. Not to punish myself with and not to explain away. I set down what the error was, where it happened, and what the corrected line ought to read. Some I could repair directly by paying a debt or making an apology. Some I could only record honestly and leave standing."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 17,
+      "text": "Change the word and you change what you do next. Stop calling it a failure. Call it an erratum, write out the corrected line, and set the next edition. No printer burns the book because one page came out wrong."
+    }
+  ],
+  "portrait": "/portraits/benjamin-franklin.jpg",
+  "aesthetic": "editorial-print"
+}

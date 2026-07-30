@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "franklin",
+  "guideName": "Benjamin Franklin",
+  "episodeSlug": "three-puffy-rolls",
+  "title": "Three Puffy Rolls",
+  "sourceBook": "The Autobiography of Benjamin Franklin",
+  "sourceAnchor": "Chapter III, Arrival in Philadelphia",
+  "audio": "franklin-three-puffy-rolls-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/franklin/three-puffy-rolls.md",
+  "words": 266,
+  "estimatedSeconds": 110,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 19,
+      "text": "I arrived in Philadelphia at seventeen with a Dutch dollar and a shilling in copper, wearing the dirtiest clothes I owned, because my good ones were coming round by sea. I was hungry. I went into a baker's and asked for three-penny worth of anything he had."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 23,
+      "text": "He gave me three great puffy rolls. I had not expected so much bread for so little money and I had no room in my pockets. So I put a roll under each arm and walked up Market Street eating the third. Picture that clearly. Filthy shirt, no lodging, no plan, bread under both arms."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 24,
+      "text": "I passed the door of Mr Read. His daughter Deborah was standing in it, and she saw me, and she thought I made a most awkward and ridiculous appearance. She was right. I certainly did. That is not modesty talking. That is my own account, written down near forty years later, when I could easily have left it out."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 24,
+      "text": "Some years afterward I married her. The woman who watched me stagger up a strange street with a roll under each arm became my wife for the rest of her life. I did not know that then. I could not have known it. I only knew I was hungry and that I needed work in the morning."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 20,
+      "text": "Do not confuse your worst afternoon with your reputation. Nobody is keeping the ledger you imagine they are keeping. Walk up the street. Eat the roll. The person who sees you at your most ridiculous may turn out to be the best thing that ever happens to you."
+    }
+  ],
+  "portrait": "/portraits/benjamin-franklin.jpg",
+  "aesthetic": "editorial-print"
+}
