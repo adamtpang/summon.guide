@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "franklin",
+  "guideName": "Benjamin Franklin",
+  "episodeSlug": "out-of-sight",
+  "title": "Put Yourself Out of Sight",
+  "sourceBook": "The Autobiography of Benjamin Franklin",
+  "sourceAnchor": "Chapter VIII, Business Success and First Public Service",
+  "audio": "franklin-out-of-sight-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/franklin/out-of-sight.md",
+  "words": 266,
+  "estimatedSeconds": 110,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 21,
+      "text": "When I first went round proposing the library, my applications were often refused, and I began to notice the reason. People do not resist a good project nearly so much as they resist the man who appears to want the credit for it. So I took myself out of the proposal."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 24,
+      "text": "I stopped presenting the library as my own idea. I put myself as much as I could out of sight and stated it as the scheme of a number of friends, who had asked me to go about and propose it to such people as they judged to be lovers of reading. That was the only thing I changed."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 22,
+      "text": "My affair went on a great deal more smoothly from that day forward. I practised the same method ever after on every public thing I attempted, and from frequent success I can heartily recommend it. This is not modesty. It is a calculation about what other men's vanity does when it collides with yours."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 23,
+      "text": "The little sacrifice of your own vanity gets amply repaid later. If it stays uncertain for a while whose idea it was, someone vainer than you will step forward and claim it, and then even envy becomes useful, because the room will pluck those borrowed feathers off him and hand them back to their owner."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 19,
+      "text": "Decide which you actually want, the credit or the thing built. You may well have both, but not in that order. Put yourself out of sight, call it the scheme of a number of friends, and let the work get adopted. The feathers find their way home."
+    }
+  ],
+  "portrait": "/portraits/benjamin-franklin.jpg",
+  "aesthetic": "editorial-print"
+}

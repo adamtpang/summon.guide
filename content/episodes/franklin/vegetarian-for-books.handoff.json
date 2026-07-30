@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "franklin",
+  "guideName": "Benjamin Franklin",
+  "episodeSlug": "vegetarian-for-books",
+  "title": "How I Ate Rice and Bought Books",
+  "sourceBook": "The Autobiography of Benjamin Franklin",
+  "sourceAnchor": "Chapter II, Beginning Life as a Printer",
+  "audio": "franklin-vegetarian-for-books-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/franklin/vegetarian-for-books.md",
+  "words": 278,
+  "estimatedSeconds": 115,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 22,
+      "text": "At sixteen I read a book by a man named Tryon recommending a vegetable diet, and I determined to go into it. Everyone around me found this irritating and I was frequently chid for my singularity. But I had not taken it up for my health, and not for my conscience either."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 26,
+      "text": "My brother did not keep house, so he boarded me and his other apprentices with another family, and he paid for it. I taught myself Tryon's way of preparing a few cheap dishes, boiling potatoes and rice, making hasty pudding. Then I proposed that if he gave me half of what he paid weekly for my board, I would feed myself. He agreed instantly."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 24,
+      "text": "Here is what he did not calculate. Feeding myself on rice and potatoes cost me a good deal less than half. So I kept the difference, and the difference bought books. I also ate alone at the printing house while the others went out to dinner, which left me the shop to myself and time to read in it."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 24,
+      "text": "That is the whole method, and it is not really about food. I found one line in my own accounts where what I preferred and what was cheap happened to point the same direction, and I converted the gap into the only thing I actually wanted. Nobody had to grant me anything. I did not need better wages."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 19,
+      "text": "Look through your own spending for the place where your taste and the cheap option agree. Take that difference in cash and put it into the thing that compounds. I bought my education at sixteen with money my brother believed he was spending on meat."
+    }
+  ],
+  "portrait": "/portraits/benjamin-franklin.jpg",
+  "aesthetic": "editorial-print"
+}

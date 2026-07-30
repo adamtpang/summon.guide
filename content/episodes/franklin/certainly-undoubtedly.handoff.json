@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "franklin",
+  "guideName": "Benjamin Franklin",
+  "episodeSlug": "certainly-undoubtedly",
+  "title": "I Stopped Saying Certainly",
+  "sourceBook": "The Autobiography of Benjamin Franklin",
+  "sourceAnchor": "Chapter IX, Plan for Attaining Moral Perfection",
+  "audio": "franklin-certainly-undoubtedly-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/franklin/certainly-undoubtedly.md",
+  "words": 271,
+  "estimatedSeconds": 112,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 21,
+      "text": "I was a fierce arguer as a young man and tolerably good at it. I won a great many disputes and persuaded almost nobody. Around the time I began the project of my own improvement I gave up the habit of speaking with certainty, and I never took it up again."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 21,
+      "text": "I made a rule against particular words. When I advanced anything that might possibly be disputed, I would not say certainly, or undoubtedly, or use any other word that gives an opinion the air of being already settled. I took them out of my speech entirely and kept them out."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 25,
+      "text": "In their place I said that I conceive a thing to be so, or I apprehend it to be so, or it appears to me at present to be so. When a man asserted something I judged an error, I denied myself the pleasure of contradicting him flatly, and began instead by granting that in certain cases he would be right."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 22,
+      "text": "The change felt like a loss and was not one. Conversations stopped being contests. When I was wrong I got corrected early and cheaply, before the error had cost me anything. When I was right, people came round to it without first having to be beaten, which is the reason they stayed there."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 23,
+      "text": "You are not trying to be right in the room. You are trying to be right in the end, and to bring people with you when you are. Take certainly and undoubtedly out of your mouth for one week. You will lose a few arguments and win a good deal more of what you were after."
+    }
+  ],
+  "portrait": "/portraits/benjamin-franklin.jpg",
+  "aesthetic": "editorial-print"
+}

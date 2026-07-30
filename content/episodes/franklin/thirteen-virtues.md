@@ -1,7 +1,7 @@
 # Thirteen Virtues
 
 **Guide:** Benjamin Franklin (`franklin`)  
-**Source:** The Autobiography of Benjamin Franklin (Part 2)  
+**Source:** The Autobiography of Benjamin Franklin (Chapter IX, Plan for Attaining Moral Perfection)  
 **Path:** `/speak` -> paste this script -> Generate and play / Download mp3  
 **Length:** 283 words, about 117s spoken at 145 wpm  
 **Style:** Hook, 3 points, close
