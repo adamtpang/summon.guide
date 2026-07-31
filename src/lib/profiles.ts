@@ -15,7 +15,9 @@ export interface Profile {
   /** short, comma-separated occupation summary shown under the name */
   occupation: string;
   /** Wikipedia article URL for further reading */
-  wikipediaUrl: string;
+  /** Wikipedia article URL, when one exists. Not every notable living person
+   *  has an article; the profile page hides the link when absent. */
+  wikipediaUrl?: string;
 
   // Wikipedia-style infobox (rendered as a table on the right)
   /** the natural, full birth name (e.g., "John Davison Rockefeller Sr.") */
@@ -1847,6 +1849,40 @@ export const profiles: Record<string, Profile> = {
       "Bridgewater Associates, Our Founder (https://www.bridgewater.com/our-founder), the firm's own account of the 1975 founding from a two bedroom New York apartment, the 1981 move to Connecticut, the 1985 World Bank mandate, and his role transitions",
       "Wikipedia, Ray Dalio (https://en.wikipedia.org/wiki/Ray_Dalio) and Bridgewater Associates (https://en.wikipedia.org/wiki/Bridgewater_Associates), for dates, fund launch years, assets under management figures, family details and the documented criticism of the firm's culture"
     ]
+  },
+  vervaeke: {
+    slug: "vervaeke",
+    occupation:
+      "Cognitive scientist, psychologist, lecturer at the University of Toronto",
+
+    fullName: "John Vervaeke",
+    nationality: "Canadian",
+    occupations: ["Cognitive scientist", "Psychologist", "Lecturer"],
+    yearsActive: "1994 to present",
+    notableWorks: [
+      "Awakening from the Meaning Crisis (lecture series, 50 episodes)",
+      "After Socrates (lecture series)",
+      "Zombies in Western Culture: A Twenty-First Century Crisis (2017)",
+      "Relevance realization (research programme)",
+    ],
+
+    earlyLife:
+      "Vervaeke is Canadian and has spent his academic career at the University of Toronto, where he has taught in the Psychology department and the Cognitive Science programme since 1994. His scholarly work sits at the meeting point of cognitive science, philosophy, and the psychology of religion, and he has been recognised repeatedly for teaching rather than only for research, including the Students' Administrative Council and Association of Part-time Undergraduate Students Teaching Award in 2001 and the Ranjini Ghosh Excellence in Teaching Award in 2012.",
+
+    career:
+      "His research programme centres on relevance realization, an account of how a finite mind selects what matters from a combinatorially explosive world. The problem is a version of what artificial intelligence calls the frame problem: no rule can specify which rules to apply, yet human beings navigate open situations continuously. Vervaeke argues that relevance realization is not a rule or an algorithm but a self-organizing process that shapes a person's salience landscape, and that it can be trained. Around this he has built related work on general intelligence, mindfulness, metaphor, and wisdom.\n\nIn 2019 he released Awakening from the Meaning Crisis, a fifty part lecture series published free on YouTube, which traces the historical and cognitive roots of what he calls the meaning crisis, from the axial age through Christianity, the scientific revolution, and the collapse of the frameworks that connected people to meaning. It reached an audience far outside the university and is the work he is best known for. A second series, After Socrates, followed, focused on moving from dialectic into dialogos and on the cultivation of wisdom through practice. He co-authored the open access book Zombies in Western Culture with Christopher Mastropietro and Filip Miscevic in 2017, using the zombie figure to examine cultural alienation and the loss of shared frameworks.",
+
+    legacy:
+      "Vervaeke's contribution is to treat wisdom as a subject for cognitive science rather than for sentiment. By defining the meaning crisis in terms of specific cognitive machinery, and by distinguishing four irreducible kinds of knowing, he gave a generation of readers a vocabulary for a problem they could feel but not name. His insistence on an ecology of practices, where practices are chosen so they correct each other's failure modes, has been widely adopted by people building contemplative and educational programmes.",
+
+    notableQuotes: [
+      "We are suffering from a wisdom famine in the West.",
+    ],
+    primarySources: [
+      "Awakening from the Meaning Crisis (lecture series, 2019)",
+      "After Socrates (lecture series)",
+      "Zombies in Western Culture: A Twenty-First Century Crisis (2017)",
+    ],
   },
 };
 

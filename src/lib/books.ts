@@ -362,6 +362,19 @@ export const books: Book[] = [
     skillSlugs: ["on-anger"],
     status: "partial",
   },
+  {
+    slug: "zombies-in-western-culture",
+    title: "Zombies in Western Culture: A Twenty-First Century Crisis",
+    author: "John Vervaeke, Christopher Mastropietro and Filip Miscevic",
+    year: 2017,
+    role: "by",
+    figureSlug: "vervaeke",
+    description:
+      "An open access study that reads the zombie figure as a diagnosis of cultural alienation: a body without inner life, moving without meaning. The authors use it to describe the loss of the shared frameworks that connect people to each other and to the world.",
+    amazonUrl: "https://www.openbookpublishers.com/books/10.11647/obp.0113",
+    skillSlugs: ["vervaeke", "four-kinds-of-knowing", "relevance-realization", "ecology-of-practices"],
+    status: "partial",
+  },
 ];
 
 /** All books for a single figure. */

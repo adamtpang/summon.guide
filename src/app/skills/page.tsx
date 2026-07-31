@@ -181,13 +181,19 @@ export default function SkillsIndex() {
                 href={`/${figure.slug}`}
                 className="relative w-14 h-14 flex-shrink-0 rounded-xl overflow-hidden bg-warm-200 hover:opacity-90 transition-opacity"
               >
-                <Image
-                  src={figure.portrait}
-                  alt={figure.name}
-                  fill
-                  className="object-cover object-top"
-                  sizes="56px"
-                />
+                {figure.portrait ? (
+                  <Image
+                    src={figure.portrait}
+                    alt={figure.name}
+                    fill
+                    className="object-cover object-top"
+                    sizes="56px"
+                  />
+                ) : (
+                  <div
+                    className={`absolute inset-0 bg-gradient-to-b ${figure.gradient}`}
+                  />
+                )}
               </Link>
               <div className="min-w-0">
                 <Link

@@ -6,6 +6,7 @@ import CopyableInstall from "@/components/CopyableInstall";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import AiPersonaNotice from "@/components/AiPersonaNotice";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
@@ -148,15 +149,22 @@ export default async function FigureProfile({
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
               </Link>
-              <a
-                href={profile.wikipediaUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-white border border-warm-200 text-ink-950 rounded-full px-5 py-3 text-sm font-medium hover:border-ink-950 transition-all"
-              >
-                Wikipedia
-                <ExternalIcon />
-              </a>
+              {/* Only when an article exists. TypeScript accepts href={undefined}
+                  on an anchor, so this needed a guard rather than a type fix. */}
+              {profile.wikipediaUrl && (
+                <a
+                  href={profile.wikipediaUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-white border border-warm-200 text-ink-950 rounded-full px-5 py-3 text-sm font-medium hover:border-ink-950 transition-all"
+                >
+                  Wikipedia
+                  <ExternalIcon />
+                </a>
+              )}
+            </div>
+            <div className="mb-8">
+              <AiPersonaNotice slug={figure.slug} name={figure.name} />
             </div>
 
             {/* Per-guide install, the headline copy-paste block */}
@@ -187,14 +195,21 @@ export default async function FigureProfile({
           <aside>
             <div className="bg-white border border-warm-200 rounded-2xl overflow-hidden md:sticky md:top-6">
               <div className="relative aspect-[3/4] bg-warm-200">
-                <Image
-                  src={figure.portrait}
-                  alt={figure.name}
-                  fill
-                  className="object-cover object-top"
-                  sizes="(max-width: 768px) 100vw, 320px"
-                  priority
-                />
+                {!figure.portrait && (
+                  <div
+                    className={`absolute inset-0 bg-gradient-to-b ${figure.gradient}`}
+                  />
+                )}
+                {figure.portrait && (
+                  <Image
+                    src={figure.portrait}
+                    alt={figure.name}
+                    fill
+                    className="object-cover object-top"
+                    sizes="(max-width: 768px) 100vw, 320px"
+                    priority
+                  />
+                )}
               </div>
               <div className="p-4 border-b border-warm-200">
                 <p className="text-ink-950 font-serif font-medium text-base text-center leading-snug">
@@ -379,17 +394,19 @@ export default async function FigureProfile({
                 </li>
               ))}
             </ul>
-            <p className="text-warm-500 text-sm">
-              Further reading:{" "}
-              <a
-                href={profile.wikipediaUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-ink-950 underline hover:no-underline"
-              >
-                {profile.wikipediaUrl.replace("https://", "")}
-              </a>
-            </p>
+            {profile.wikipediaUrl && (
+              <p className="text-warm-500 text-sm">
+                Further reading:{" "}
+                <a
+                  href={profile.wikipediaUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-ink-950 underline hover:no-underline"
+                >
+                  {profile.wikipediaUrl.replace("https://", "")}
+                </a>
+              </p>
+            )}
           </Section>
         </div>
 
@@ -406,13 +423,19 @@ export default async function FigureProfile({
                 className="group flex items-center gap-3 bg-white border border-warm-200 rounded-xl p-3 hover:border-ink-950 transition-colors"
               >
                 <div className="relative w-12 h-12 flex-shrink-0 rounded-lg overflow-hidden bg-warm-200">
-                  <Image
-                    src={other.portrait}
-                    alt={other.name}
-                    fill
-                    className="object-cover object-top"
-                    sizes="48px"
-                  />
+                  {other.portrait ? (
+                    <Image
+                      src={other.portrait}
+                      alt={other.name}
+                      fill
+                      className="object-cover object-top"
+                      sizes="48px"
+                    />
+                  ) : (
+                    <div
+                      className={`absolute inset-0 bg-gradient-to-b ${other.gradient}`}
+                    />
+                  )}
                 </div>
                 <div className="min-w-0">
                   <p className="text-ink-950 text-sm font-medium truncate">
