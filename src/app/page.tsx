@@ -145,14 +145,20 @@ function HomeContent() {
               >
                 <Link href={`/${figure.slug}`} className="block">
                   <div className="relative aspect-[3/4] rounded-xl overflow-hidden bg-ink-900 mb-2 border border-white/5 group-hover:border-gold-500/40 transition-colors duration-500">
-                    <Image
-                      src={figure.portrait}
-                      alt={figure.name}
-                      fill
-                      className="object-cover object-top grayscale-[60%] sepia-[15%] brightness-[0.85] group-hover:grayscale-0 group-hover:sepia-0 group-hover:brightness-100 group-hover:scale-105 transition-all duration-700"
-                      sizes="(max-width: 768px) 50vw, 33vw"
-                      priority={idx < 2}
-                    />
+                    {figure.portrait ? (
+                      <Image
+                        src={figure.portrait}
+                        alt={figure.name}
+                        fill
+                        className="object-cover object-top grayscale-[60%] sepia-[15%] brightness-[0.85] group-hover:grayscale-0 group-hover:sepia-0 group-hover:brightness-100 group-hover:scale-105 transition-all duration-700"
+                        sizes="(max-width: 768px) 50vw, 33vw"
+                        priority={idx < 2}
+                      />
+                    ) : (
+                      <div
+                        className={`absolute inset-0 bg-gradient-to-b ${figure.gradient}`}
+                      />
+                    )}
                     <div className="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/10 to-transparent" />
                     <div className="absolute bottom-3 left-3 right-3">
                       <h3 className="text-warm-50 text-sm font-serif font-medium leading-tight">

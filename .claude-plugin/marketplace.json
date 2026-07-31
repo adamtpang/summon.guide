@@ -120,6 +120,11 @@
       "name": "ray-dalio",
       "source": "./plugins/ray-dalio",
       "description": "Summon Ray Dalio to convert a painful mistake into a reusable principle. Walks the 5-Step Process (clear goals, do not tolerate problems, diagnose to root causes, design around them, push through to results), hunts the ego barrier and the blind spot barrier, applies believability weighting to whose advice you should actually take, and outputs one written rule for next time. Use it when something just went wrong, when you keep repeating the same mistake, when you cannot separate the goal from the problem, or before a big decision you want stress tested. Refuses specific investment recommendations and redirects to principles, diversification thinking, and cause and effect."
+    },
+    {
+      "name": "vervaeke",
+      "source": "./plugins/vervaeke",
+      "description": "Frameworks from Zombies in Western Culture: A Twenty-First Century Crisis by John Vervaeke, Christopher Mastropietro and Filip Miscevic."
     }
   ]
 }

@@ -953,6 +953,69 @@ export const skills: Skill[] = [
     problemHint:
       "I keep going in circles because I am only looking at this from one angle.",
   },
+
+  // Zombies in Western Culture: A Twenty-First Century Crisis
+  {
+    slug: "vervaeke",
+    figureSlug: "vervaeke",
+    title: "Channel Vervaeke",
+    tagline:
+      "Work out which of the four kinds of knowing your problem actually lives in, then train what becomes salient rather than trying harder.",
+    whenToUse:
+      "You understand a problem intellectually and still cannot act on it, nothing feels meaningful, or more information keeps failing to help.",
+    source: "Awakening from the Meaning Crisis (lecture series) by John Vervaeke",
+    sourceAnchor: "Awakening from the Meaning Crisis, lecture series",
+    command: "/vervaeke:vervaeke",
+    umbrella: true,
+    themes: ["meaning","thinking","self"],
+    problemHint:
+      "I understand my problem perfectly and I still cannot do anything about it.",
+  },
+  {
+    slug: "four-kinds-of-knowing",
+    figureSlug: "vervaeke",
+    title: "The Four Kinds of Knowing",
+    tagline:
+      "Propositional, procedural, perspectival, participatory. Naming which one a problem lives in explains why the advice you were given does not work.",
+    whenToUse:
+      "Advice keeps failing, you have read everything and changed nothing, or you can explain the solution perfectly and still cannot perform it.",
+    source: "Awakening from the Meaning Crisis (lecture series) by John Vervaeke",
+    sourceAnchor: "Awakening from the Meaning Crisis, lecture series",
+    command: "/vervaeke:four-kinds-of-knowing",
+    themes: ["thinking","self"],
+    problemHint:
+      "I can explain exactly what I should do and I still do not do it.",
+  },
+  {
+    slug: "relevance-realization",
+    figureSlug: "vervaeke",
+    title: "Relevance Realization",
+    tagline:
+      "You cannot check every option and no rule tells you which rules to use. What you notice is a trainable process, not a fixed fact about you.",
+    whenToUse:
+      "You are overwhelmed by options, cannot tell what matters, or keep attending to the wrong thing despite knowing better.",
+    source: "Awakening from the Meaning Crisis (lecture series) by John Vervaeke",
+    sourceAnchor: "Awakening from the Meaning Crisis, lecture series",
+    command: "/vervaeke:relevance-realization",
+    themes: ["focus","thinking","deciding"],
+    problemHint:
+      "There is too much to pay attention to and I keep focusing on the wrong things.",
+  },
+  {
+    slug: "ecology-of-practices",
+    figureSlug: "vervaeke",
+    title: "Build an Ecology of Practices",
+    tagline:
+      "Every practice has a failure mode. Choose a small set that correct each other rather than one technique you hope is sufficient.",
+    whenToUse:
+      "You are choosing habits or practices, a practice that used to work has curdled, or you want change that lasts beyond enthusiasm.",
+    source: "Awakening from the Meaning Crisis (lecture series) by John Vervaeke",
+    sourceAnchor: "Awakening from the Meaning Crisis, lecture series",
+    command: "/vervaeke:ecology-of-practices",
+    themes: ["self","meaning"],
+    problemHint:
+      "I keep picking up practices and they either stop working or make me strange.",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */

@@ -1,0 +1,11 @@
+{
+  "name": "vervaeke",
+  "description": "Work out which of the four kinds of knowing your problem actually lives in, then train what becomes salient rather than trying harder. Grounded in Zombies in Western Culture: A Twenty-First Century Crisis.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/vervaeke"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

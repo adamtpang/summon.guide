@@ -662,6 +662,11 @@ export default function ChatPage({
 
 function getSuggestedQuestions(slug: string): string[] {
   const questions: Record<string, string[]> = {
+    vervaeke: [
+      "I have read everything about this and I still cannot do it. Why?",
+      "Nothing feels meaningful and I cannot tell if that is depression or something else.",
+      "How do I train what I notice, instead of just trying harder to focus?",
+    ],
     "rockefeller": [
       "How do I make my first dollar?",
       "What did Ledger A teach you?",

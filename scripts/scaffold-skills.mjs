@@ -137,9 +137,10 @@ const entries = planned
     L.push('    title: ' + J(s.title) + ',');
     L.push('    tagline:\n      ' + J(s.tagline) + ',');
     L.push('    whenToUse:\n      ' + J(s.whenToUse) + ',');
-    L.push('    source: ' + J(bookTitle + ' by ' + bookAuthor) + ',');
+    L.push('    source: ' + J(s.source || bookTitle + ' by ' + bookAuthor) + ',');
     if (s.sourceAnchor) L.push('    sourceAnchor: ' + J(s.sourceAnchor) + ',');
     L.push('    command: ' + J('/' + figureSlug + ':' + s.slug) + ',');
+    if (s.slug === figureSlug) L.push('    umbrella: true,');
     if (s.themes) L.push('    themes: ' + J(s.themes) + ',');
     if (s.problemHint) L.push('    problemHint:\n      ' + J(s.problemHint) + ',');
     L.push('  },');
@@ -173,6 +174,31 @@ writes.push({ file: 'src/lib/skills.ts', content: newSkillsSrc });
     ? nextBlock.replace(/status:\s*"[^"]*"/, 'status: "partial"')
     : nextBlock + '\n    status: "partial",';
   writes.push({ file: 'src/lib/books.ts', content: booksSrc.slice(0, at) + nextBlock + booksSrc.slice(objEnd) });
+}
+
+// ── 3b. plugin.json descriptor, required for the plugin to install ──
+{
+  const pj = path.join('plugins', figureSlug, '.claude-plugin', 'plugin.json');
+  if (!fs.existsSync(pj)) {
+    const umb = planned.find((x) => x.slug === figureSlug);
+    const desc = (umb ? umb.tagline : 'Frameworks from ' + bookTitle + '.') + ' Grounded in ' + bookTitle + '.';
+    writes.push({
+      file: pj,
+      content:
+        JSON.stringify(
+          {
+            name: figureSlug,
+            description: desc,
+            version: '0.1.0',
+            author: { name: 'summon.guide', url: 'https://summon.guide/' + figureSlug },
+            repository: 'https://github.com/adamtpang/summon.guide',
+            license: 'MIT',
+          },
+          null,
+          2
+        ) + '\n',
+    });
+  }
 }
 
 // ── 4. marketplace.json if the plugin is new ─────────────────────────────────
