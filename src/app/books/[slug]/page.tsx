@@ -1,5 +1,6 @@
 import { books, getBook } from "@/lib/books";
 import { getBookProfile } from "@/lib/bookProfiles";
+import { getSeriesForBook, formatRuntime } from "@/lib/episodes";
 import { getFigure } from "@/lib/figures";
 import { getSkill, skillGithubUrl } from "@/lib/skills";
 import { notFound } from "next/navigation";
@@ -57,6 +58,9 @@ export default async function BookPage({
   // a time.
   const profile = getBookProfile(slug);
   const figure = getFigure(book.figureSlug);
+
+  // the watchable series for this book, when one has been produced
+  const bookSeries = getSeriesForBook(book.slug);
 
   const derivedSkills = (book.skillSlugs || [])
     .map((s) => getSkill(book.figureSlug, s))
@@ -217,6 +221,43 @@ export default async function BookPage({
                       </div>
                     ))}
                   </div>
+                </Section>
+              )}
+
+              {bookSeries && bookSeries.episodes.length > 0 && (
+                <Section id="watch" title="Watch the series">
+                  <p className="text-warm-500 text-sm mb-5">
+                    {bookSeries.episodes.length} episodes drawn from this book,
+                    about {formatRuntime(bookSeries.totalSeconds)} in total. Each
+                    one opens on the problem rather than on the summary.
+                  </p>
+                  <ol className="space-y-2">
+                    {bookSeries.episodes.map((ep, i) => (
+                      <li key={ep.slug}>
+                        <Link
+                          href={`/watch/${bookSeries.guideSlug}/${ep.slug}`}
+                          className="group grid grid-cols-[26px_1fr_auto] gap-3 items-baseline border border-warm-200 hover:border-ink-950 rounded-xl px-4 py-3 bg-white transition-colors"
+                        >
+                          <span className="font-mono text-[11px] text-warm-400 tabular-nums">
+                            {String(i + 1).padStart(2, "0")}
+                          </span>
+                          <span className="min-w-0">
+                            <span className="block font-serif text-base leading-snug">
+                              {ep.title}
+                            </span>
+                            {ep.hook && (
+                              <span className="block text-warm-500 text-sm mt-0.5 line-clamp-1">
+                                {ep.hook}
+                              </span>
+                            )}
+                          </span>
+                          <span className="text-warm-400 text-xs tabular-nums">
+                            {formatRuntime(ep.seconds)}
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ol>
                 </Section>
               )}
 
