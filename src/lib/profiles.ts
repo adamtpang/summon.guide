@@ -1884,6 +1884,40 @@ export const profiles: Record<string, Profile> = {
       "Zombies in Western Culture: A Twenty-First Century Crisis (2017)",
     ],
   },
+  pressfield: {
+    slug: "pressfield",
+    occupation: "Author of historical fiction, nonfiction, and screenplays",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Steven_Pressfield",
+
+    fullName: "Steven Pressfield",
+    birthDate: "1943",
+    nationality: "American",
+    occupations: ["Author", "Screenwriter"],
+    notableWorks: [
+      "The War of Art (2002)",
+      "The Legend of Bagger Vance (1995)",
+      "Gates of Fire (1998)",
+      "Turning Pro (2012)",
+      "Do the Work (2011)",
+    ],
+
+    earlyLife:
+      "Pressfield served in the United States Marine Corps and then spent a long stretch of years working ordinary jobs while trying to write. He has been candid that this period lasted about seventeen years before he sold anything, and that the failure was not a shortage of ideas but an inability to sit down and finish. That experience is the source of everything he later wrote about Resistance, and it is why he writes about the subject as a survivor rather than as an expert.",
+
+    career:
+      "His first published novel, The Legend of Bagger Vance, appeared in 1995 and was adapted into a film. Gates of Fire, his 1998 novel about the Spartans at Thermopylae, became required or recommended reading at several military institutions. He has continued to write historical fiction alongside his nonfiction.\n\nThe War of Art, published in 2002, is the book he is best known for. It is organised in three parts: a definition of Resistance as the force that opposes creative work, an argument that the cure is to stop behaving as an amateur and turn professional, and a final section on the sources people draw on once the work is underway. Its form is unusual, a sequence of very short chapters, some only a paragraph long, which makes it read less like an argument than like a series of blows. He extended the case in Do the Work and Turning Pro.",
+
+    legacy:
+      "The War of Art gave a name to something people had felt without being able to describe, and Resistance has passed into general use among writers, founders, and artists well beyond readers of the book. Its central move, treating fear and self-doubt as navigational instruments rather than as verdicts, is now a common piece of creative advice, usually repeated without attribution.",
+
+    notableQuotes: [
+      "The more important a call or action is to our soul's evolution, the more Resistance we will feel toward pursuing it.",
+      "Resistance is not out to get you personally.",
+      "The amateur plays for fun. The professional plays for keeps.",
+      "Nothing else matters except sitting down every day and trying.",
+    ],
+    primarySources: ["The War of Art (2002)", "Turning Pro (2012)", "Do the Work (2011)"],
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

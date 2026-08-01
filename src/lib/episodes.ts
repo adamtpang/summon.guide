@@ -342,6 +342,269 @@ export const series: Series[] = [
         "handoff": "content/episodes/franklin/thirteen-virtues.handoff.json"
       }
     ]
+  },
+  {
+    "guideSlug": "pressfield",
+    "guideName": "Steven Pressfield",
+    "bookSlug": "the-war-of-art",
+    "bookTitle": "The War of Art",
+    "episodeCount": 7,
+    "totalSeconds": 623,
+    "hasMappedVoice": false,
+    "episodes": [
+      {
+        "slug": "resistance-has-a-name",
+        "title": "It Has a Name",
+        "words": 226,
+        "seconds": 94,
+        "hook": "You have a thing you are supposed to be doing. You are not doing it. You have explained this to yourself as laziness, or bad timing, or not being ready. I want to take all of that away from you and give you one word instead.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 19,
+            "text": "You have a thing you are supposed to be doing. You are not doing it. You have explained this to yourself as laziness, or bad timing, or not being ready. I want to take all of that away from you and give you one word instead."
+          },
+          {
+            "role": "point1",
+            "seconds": 18,
+            "text": "Call it Resistance. Not a mood, not a flaw in your character, not a scheduling problem. A force. I write about it the way you would write about weather, because that is closer to what it is than anything in the language of psychology."
+          },
+          {
+            "role": "point2",
+            "seconds": 20,
+            "text": "Naming it does something immediately. As long as the enemy was your own weakness, every failure to start was evidence about you. Once it has a name and a nature of its own, the failure is a report from a battle rather than a verdict on your worth."
+          },
+          {
+            "role": "point3",
+            "seconds": 19,
+            "text": "And it changes what you do next. You do not fix a force by becoming a better person. You fix it by knowing when it shows up, in what shape, and having something prepared for that moment. That is the whole of what I have to teach."
+          },
+          {
+            "role": "close",
+            "seconds": 17,
+            "text": "So stop diagnosing yourself. You are not broken and you are not uniquely weak. You are up against something that everybody with a body is up against. Give it its name today, and tomorrow we can talk about how it fights."
+          }
+        ],
+        "script": "content/episodes/pressfield/resistance-has-a-name.md",
+        "handoff": "content/episodes/pressfield/resistance-has-a-name.handoff.json"
+      },
+      {
+        "slug": "it-is-not-personal",
+        "title": "It Is Not Personal",
+        "words": 208,
+        "seconds": 86,
+        "hook": "It feels like it is aimed at you. It arrives exactly when you sit down. It finds the precise excuse you cannot argue with. It seems to know you. I am telling you it does not know you at all.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 17,
+            "text": "It feels like it is aimed at you. It arrives exactly when you sit down. It finds the precise excuse you cannot argue with. It seems to know you. I am telling you it does not know you at all."
+          },
+          {
+            "role": "point1",
+            "seconds": 19,
+            "text": "Resistance is not out to get you personally. It does not know who you are and it does not care. It acts objectively, with the indifference of rain. It falls on the ambitious and the lazy, the talented and the ordinary, at the same strength."
+          },
+          {
+            "role": "point2",
+            "seconds": 20,
+            "text": "That indifference is the good news, though it does not feel like good news at first. If it were personal, you would have to become a different person to escape it. Since it is not, you only have to learn its habits, and habits can be learned by anyone."
+          },
+          {
+            "role": "point3",
+            "seconds": 16,
+            "text": "It also means the shame is misplaced. You have been treating an encounter with a force of nature as a private moral failure. Nobody feels ashamed of being rained on. They get a coat and they go outside anyway."
+          },
+          {
+            "role": "close",
+            "seconds": 14,
+            "text": "Take it personally and you will spend your energy defending yourself. Take it as weather and you will spend your energy on the work. Only one of those produces anything. Get the coat. Go outside."
+          }
+        ],
+        "script": "content/episodes/pressfield/it-is-not-personal.md",
+        "handoff": "content/episodes/pressfield/it-is-not-personal.handoff.json"
+      },
+      {
+        "slug": "resistance-as-compass",
+        "title": "Follow the Fear",
+        "words": 215,
+        "seconds": 89,
+        "hook": "There is a piece of work you keep circling and never begin. Every time you get near it something in you goes cold. You have read that as a warning. I want to argue it is the opposite of a warning.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 17,
+            "text": "There is a piece of work you keep circling and never begin. Every time you get near it something in you goes cold. You have read that as a warning. I want to argue it is the opposite of a warning."
+          },
+          {
+            "role": "point1",
+            "seconds": 20,
+            "text": "Here is the rule I navigate by. The more important a call is to your soul, the more Resistance you will feel toward it. That relationship is reliable enough to steer by. Resistance is not an obstacle in front of the path. It is a needle pointing at it."
+          },
+          {
+            "role": "point2",
+            "seconds": 18,
+            "text": "Fear works the same way. Are you paralysed with fear? That is a good sign. Fear tells you what you have to do. The degree of fear equals the strength of Resistance, and the strength of Resistance tells you how much the thing matters."
+          },
+          {
+            "role": "point3",
+            "seconds": 17,
+            "text": "So the question changes. Instead of asking what you feel ready for, ask what you have been avoiding hardest and longest. The project you cannot look at directly. That one. The avoidance is your own instrument telling you where the value is."
+          },
+          {
+            "role": "close",
+            "seconds": 16,
+            "text": "Make a list tonight of everything you have been putting off. Find the one that produces the most dread when you imagine starting it. That is not the item to postpone until you are braver. That is the assignment."
+          }
+        ],
+        "script": "content/episodes/pressfield/resistance-as-compass.md",
+        "handoff": "content/episodes/pressfield/resistance-as-compass.handoff.json"
+      },
+      {
+        "slug": "self-doubt-is-evidence",
+        "title": "Self-Doubt Is Evidence",
+        "words": 204,
+        "seconds": 84,
+        "hook": "You keep asking whether you are really a writer. Really a founder. Really an artist. You take the question itself as the answer, and the answer you hear is no. You have that exactly backwards.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 14,
+            "text": "You keep asking whether you are really a writer. Really a founder. Really an artist. You take the question itself as the answer, and the answer you hear is no. You have that exactly backwards."
+          },
+          {
+            "role": "point1",
+            "seconds": 19,
+            "text": "Self-doubt can be an ally, because it is an indicator of aspiration. It reflects love, love of something you dream of doing, and desire to do it. If you find yourself asking whether you are really a writer, the chances are good that you are."
+          },
+          {
+            "role": "point2",
+            "seconds": 18,
+            "text": "Think about who never asks. The person with no aspiration in that direction has no doubt in that direction either. Nobody agonises over whether they are a real accountant unless being an accountant means something to them. Doubt clusters exactly where caring is."
+          },
+          {
+            "role": "point3",
+            "seconds": 16,
+            "text": "The counterfeit version is the person who is entirely certain. Confidence without any tremor usually means the stakes are not real yet, or the work has not been attempted honestly. The genuine article is frequently scared to death."
+          },
+          {
+            "role": "close",
+            "seconds": 18,
+            "text": "So stop treating the question as a verdict and start treating it as a receipt. It is proof of what you want. Then set the question down, because it cannot be answered by thinking, only by the work, and the work is waiting."
+          }
+        ],
+        "script": "content/episodes/pressfield/self-doubt-is-evidence.md",
+        "handoff": "content/episodes/pressfield/self-doubt-is-evidence.handoff.json"
+      },
+      {
+        "slug": "turning-pro",
+        "title": "Turning Pro",
+        "words": 228,
+        "seconds": 94,
+        "hook": "There is a difference between the person who does this seriously and the person who does not, and it is not talent. I want to be precise about what it actually is, because the usual explanations are flattering and wrong.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 17,
+            "text": "There is a difference between the person who does this seriously and the person who does not, and it is not talent. I want to be precise about what it actually is, because the usual explanations are flattering and wrong."
+          },
+          {
+            "role": "point1",
+            "seconds": 17,
+            "text": "The amateur plays for fun. The professional plays for keeps. To the amateur it is an avocation, to the professional a vocation. The amateur plays part time and is a weekend warrior. The professional is there seven days a week."
+          },
+          {
+            "role": "point2",
+            "seconds": 24,
+            "text": "Here is my provocation. The word amateur comes from a root meaning to love, and the usual reading is that the amateur does it for love while the professional does it for money. I see it the other way. The amateur does not love the work enough. If he did, he would not hold it at arm's length."
+          },
+          {
+            "role": "point3",
+            "seconds": 19,
+            "text": "Turning pro costs nothing and requires no permission. It is not a credential or an income. It is a decision about how you will behave tomorrow morning, made today, and then not revisited on the basis of how you happen to feel when tomorrow arrives."
+          },
+          {
+            "role": "close",
+            "seconds": 19,
+            "text": "You are not waiting to become good enough to be serious. You are waiting to be serious, and that is available immediately. Pick the hour. Pick the place. Show up in it tomorrow whether or not you feel like it. That is the entire conversion."
+          }
+        ],
+        "script": "content/episodes/pressfield/turning-pro.md",
+        "handoff": "content/episodes/pressfield/turning-pro.handoff.json"
+      },
+      {
+        "slug": "sit-down-every-day",
+        "title": "Nothing Else Matters",
+        "words": 213,
+        "seconds": 88,
+        "hook": "People ask me about inspiration, about where ideas come from, about how to know when something is ready. I have stressed professionalism so heavily for a reason, and here it is, plainly.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 13,
+            "text": "People ask me about inspiration, about where ideas come from, about how to know when something is ready. I have stressed professionalism so heavily for a reason, and here it is, plainly."
+          },
+          {
+            "role": "point1",
+            "seconds": 18,
+            "text": "The most important thing about the work is to work. Nothing else matters except sitting down every day and trying. Not the quality of what you produce on any given day. Not whether you felt it. Sitting down, and trying, and coming back."
+          },
+          {
+            "role": "point2",
+            "seconds": 17,
+            "text": "And something happens when you do that which I cannot fully account for. Sit down day after day and keep grinding, and a process gets set in motion. Circumstances start to arrange themselves in your favour. Serendipity reinforces your purpose."
+          },
+          {
+            "role": "point3",
+            "seconds": 19,
+            "text": "I am aware of how that sounds and I am going to say it anyway. It is the most reliable observation I have from a working life, and I would rather report it honestly than trim it into something more respectable that is less true."
+          },
+          {
+            "role": "close",
+            "seconds": 22,
+            "text": "So do not organise your life around finding inspiration, or around the conditions you think it needs. Organise it around being present at the desk on an ordinary morning, so that inspiration has somewhere to arrive when it does. The showing up is not the preparation for the work. It is the work."
+          }
+        ],
+        "script": "content/episodes/pressfield/sit-down-every-day.md",
+        "handoff": "content/episodes/pressfield/sit-down-every-day.handoff.json"
+      },
+      {
+        "slug": "territory-not-hierarchy",
+        "title": "Territory, Not Hierarchy",
+        "words": 213,
+        "seconds": 88,
+        "hook": "You keep checking how you are doing relative to other people. Where you rank. Who is ahead. I want to show you why that particular habit will drain you no matter how well you place.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 14,
+            "text": "You keep checking how you are doing relative to other people. Where you rank. Who is ahead. I want to show you why that particular habit will drain you no matter how well you place."
+          },
+          {
+            "role": "point1",
+            "seconds": 19,
+            "text": "Individuals define themselves in one of two ways. By rank within a hierarchy, the way a hen does in a pecking order or a wolf in a pack. Or by connection to a territory, a home base, a hunting ground, a patch of ground that is theirs."
+          },
+          {
+            "role": "point2",
+            "seconds": 17,
+            "text": "The hierarchy orientation makes your sense of yourself depend on other people's estimation, which you do not control and which changes. It also fails precisely when you need it most, because when the work is hard the ranking is unflattering."
+          },
+          {
+            "role": "point3",
+            "seconds": 19,
+            "text": "The territory orientation puts you in relation to the work itself. The desk, the practice, the ground you return to. A territory gives back in proportion to what you put in, it does not care what anyone thinks, and it is available on the worst day."
+          },
+          {
+            "role": "close",
+            "seconds": 19,
+            "text": "Ask a plain question about anything you are doing. If you were the last person alive and nobody would ever know, would you still do it? What survives that question is your territory. Spend your life there, and let the rankings fall where they fall."
+          }
+        ],
+        "script": "content/episodes/pressfield/territory-not-hierarchy.md",
+        "handoff": "content/episodes/pressfield/territory-not-hierarchy.handoff.json"
+      }
+    ]
   }
 ];
 

@@ -1,0 +1,69 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "pressfield",
+  "guideName": "Steven Pressfield",
+  "bookSlug": "the-war-of-art",
+  "bookTitle": "The War of Art",
+  "episodeCount": 7,
+  "totalWords": 1507,
+  "totalSeconds": 623,
+  "hasMappedVoice": false,
+  "episodes": [
+    {
+      "slug": "resistance-has-a-name",
+      "title": "It Has a Name",
+      "words": 226,
+      "estimatedSeconds": 94,
+      "script": "content/episodes/pressfield/resistance-has-a-name.md",
+      "handoff": "content/episodes/pressfield/resistance-has-a-name.handoff.json"
+    },
+    {
+      "slug": "it-is-not-personal",
+      "title": "It Is Not Personal",
+      "words": 208,
+      "estimatedSeconds": 86,
+      "script": "content/episodes/pressfield/it-is-not-personal.md",
+      "handoff": "content/episodes/pressfield/it-is-not-personal.handoff.json"
+    },
+    {
+      "slug": "resistance-as-compass",
+      "title": "Follow the Fear",
+      "words": 215,
+      "estimatedSeconds": 89,
+      "script": "content/episodes/pressfield/resistance-as-compass.md",
+      "handoff": "content/episodes/pressfield/resistance-as-compass.handoff.json"
+    },
+    {
+      "slug": "self-doubt-is-evidence",
+      "title": "Self-Doubt Is Evidence",
+      "words": 204,
+      "estimatedSeconds": 84,
+      "script": "content/episodes/pressfield/self-doubt-is-evidence.md",
+      "handoff": "content/episodes/pressfield/self-doubt-is-evidence.handoff.json"
+    },
+    {
+      "slug": "turning-pro",
+      "title": "Turning Pro",
+      "words": 228,
+      "estimatedSeconds": 94,
+      "script": "content/episodes/pressfield/turning-pro.md",
+      "handoff": "content/episodes/pressfield/turning-pro.handoff.json"
+    },
+    {
+      "slug": "sit-down-every-day",
+      "title": "Nothing Else Matters",
+      "words": 213,
+      "estimatedSeconds": 88,
+      "script": "content/episodes/pressfield/sit-down-every-day.md",
+      "handoff": "content/episodes/pressfield/sit-down-every-day.handoff.json"
+    },
+    {
+      "slug": "territory-not-hierarchy",
+      "title": "Territory, Not Hierarchy",
+      "words": 213,
+      "estimatedSeconds": 88,
+      "script": "content/episodes/pressfield/territory-not-hierarchy.md",
+      "handoff": "content/episodes/pressfield/territory-not-hierarchy.handoff.json"
+    }
+  ]
+}

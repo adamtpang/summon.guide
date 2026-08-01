@@ -5,6 +5,7 @@ import { NextRequest } from "next/server";
 // Living legends need voice clones from public interviews (TODO)
 // Dead legends use closest-matching preset voices
 const VOICE_MAP: Record<string, string> = {
+  "pressfield": "onwK4e9ZLuTAKqWW03F9", // Daniel: direct, weathered, plain
   "vervaeke": "pNInz6obpgDQGcFmaJgB", // Adam: calm, measured, academic
   "rockefeller": "onwK4e9ZLuTAKqWW03F9", // Daniel: deep, authoritative, older male
   "franklin": "N2lVS1w4EtoT3dr4eOWO",   // Callum: warm, wise, British-inflected

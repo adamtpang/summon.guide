@@ -375,6 +375,20 @@ export const books: Book[] = [
     skillSlugs: ["vervaeke", "four-kinds-of-knowing", "relevance-realization", "ecology-of-practices"],
     status: "partial",
   },
+  {
+    slug: "the-war-of-art",
+    title: "The War of Art",
+    author: "Steven Pressfield",
+    year: 2002,
+    role: "by",
+    figureSlug: "pressfield",
+    description:
+      "Pressfield's account of Resistance, the impersonal force that opposes any work that matters, and of turning pro as the only reliable defence against it. Written in very short chapters, arranged in three parts: defining the enemy, combating it, and what shows up once you are working.",
+    amazonUrl: "https://www.amazon.com/War-Art-Through-Creative-Battles/dp/1936891026",
+    pdfPath: "sources/pressfield/the-war-of-art.pdf",
+    skillSlugs: [],
+    status: "partial",
+  },
 ];
 
 /** All books for a single figure. */
