@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "hesse",
+  "guideName": "Hermann Hesse",
+  "episodeSlug": "wisdom-cannot-be-taught",
+  "title": "Knowledge Can Be Conveyed, But Not Wisdom",
+  "sourceBook": "Siddhartha",
+  "sourceAnchor": "Chapter: Govinda",
+  "audio": "hesse-wisdom-cannot-be-taught-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/hesse/wisdom-cannot-be-taught.md",
+  "words": 235,
+  "estimatedSeconds": 97,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 19,
+      "text": "At the end of his life my seeker meets his old friend again. Govinda has followed the Buddha faithfully for fifty years and is still searching. He asks for a teaching, and what he gets is the sentence the whole book was built to reach."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 19,
+      "text": "Knowledge can be conveyed, but not wisdom. Knowledge is a thing that moves intact from one head to another. Wisdom is a property of a person who has been changed, and there is no arrangement of words that performs the change on someone else's behalf."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 22,
+      "text": "This is why Govinda has spent fifty years near the truth without arriving. He was not lazy and he was not stupid. He was doing the thing everyone recommends, which is to find the right teacher and stay close, and it is the one method that cannot work for the thing he wanted."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 18,
+      "text": "And it is why Siddhartha refused at the beginning. Not because he thought he knew better, but because he had already noticed that being told did not change him. Fifty years apart, one of them lived the answer and the other collected it."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 20,
+      "text": "Notice that I put this at the end of a book, where it cannot be extracted and used. If it could be, it would refute itself. You have now been told the thing, and being told it will do nothing, which is the last and best proof of it."
+    }
+  ],
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/da/Hermann_Hesse_2.jpg",
+  "aesthetic": "editorial-print"
+}

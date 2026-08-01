@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "hesse",
+  "guideName": "Hermann Hesse",
+  "episodeSlug": "think-wait-fast",
+  "title": "I Can Think, I Can Wait, I Can Fast",
+  "sourceBook": "Siddhartha",
+  "sourceAnchor": "Chapter: Kamala",
+  "audio": "hesse-think-wait-fast-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/hesse/think-wait-fast.md",
+  "words": 221,
+  "estimatedSeconds": 91,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 16,
+      "text": "A woman asks my seeker what he can actually do. He owns nothing. He has spent three years as an ascetic in the forest and has no trade, no property, and no prospects. His answer is three short sentences."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 19,
+      "text": "I can think. I can wait. I can fast. He says it without apology, and the merchant who later employs him treats it as a joke, because none of the three is a skill you can put on a sign or sell by the hour."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 24,
+      "text": "But look at what they actually are. To think is to work a problem to the end instead of accepting the first answer. To wait is to be unhurried while others are forced by their impatience. To fast is to need less, and therefore to be unable to be bought cheaply or frightened into a bad deal."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 16,
+      "text": "The merchant has money and cannot do any of the three. And so, quietly, the arrangement inverts. The man with nothing negotiates from strength, because he can walk away from any of it, and the man with everything cannot."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 17,
+      "text": "Those three are not spiritual decoration. They are the closest thing to leverage a person with no capital can hold. Whatever you are negotiating this month, ask which of the three you have, and which one the other side is missing."
+    }
+  ],
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/da/Hermann_Hesse_2.jpg",
+  "aesthetic": "editorial-print"
+}

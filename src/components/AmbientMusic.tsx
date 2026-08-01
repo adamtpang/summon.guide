@@ -6,6 +6,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 // Place mp3 files in /public/music/
 // Home page uses "home" key
 const MUSIC_MAP: Record<string, string> = {
+  "hesse": "/music/ancient-greek.mp3",
   "pressfield": "/music/modern-electronic.mp3",
   "vervaeke": "/music/modern-electronic.mp3",
   home: "/music/home-ambient.mp3",

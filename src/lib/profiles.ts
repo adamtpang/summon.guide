@@ -1918,6 +1918,43 @@ export const profiles: Record<string, Profile> = {
     ],
     primarySources: ["The War of Art (2002)", "Turning Pro (2012)", "Do the Work (2011)"],
   },
+  hesse: {
+    slug: "hesse",
+    occupation: "Novelist, poet, Nobel laureate in Literature",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Hermann_Hesse",
+
+    fullName: "Hermann Karl Hesse",
+    birthDate: "2 July 1877",
+    birthPlace: "Calw, Germany",
+    deathDate: "9 August 1962 (aged 85)",
+    deathPlace: "Montagnola, Switzerland",
+    nationality: "German-Swiss",
+    occupations: ["Novelist", "Poet", "Painter"],
+    yearsActive: "1904 to 1962",
+    notableWorks: [
+      "Siddhartha (1922)",
+      "Steppenwolf (1927)",
+      "Demian (1919)",
+      "Narcissus and Goldmund (1930)",
+      "The Glass Bead Game (1943)",
+    ],
+    awards: ["Nobel Prize in Literature (1946)"],
+
+    earlyLife:
+      "Hesse was born in Calw in 1877 into a family of missionaries and scholars, and was expected to enter the clergy. He rebelled against that expectation early and painfully, fleeing a seminary, and spent his adolescence in conflict with the institutions arranged around him. He worked as a bookseller before he was able to write full time. That early collision between an inherited vocation and an unwilling temperament is the pattern his novels return to repeatedly.",
+
+    career:
+      "His early novels found an audience in Germany, but the First World War and a series of personal collapses, including the illness of his wife and the death of his father, brought him to a breakdown. He entered psychoanalysis with a student of Jung, and the work that followed was different in kind: inward, mythic, and concerned with individuation rather than with social life.\n\nSiddhartha, published in 1922 and dedicated to Romain Rolland, came out of that period and out of a long interest in Indian religious thought, which he had grown up around and travelled to see. It follows a Brahman's son through asceticism, sensuality, wealth, despair, and finally a life as a ferryman, and it turns on a refusal: its seeker meets the Buddha, judges the teaching perfect, and declines to become a follower. Hesse continued in this vein with Steppenwolf and Narcissus and Goldmund, and completed The Glass Bead Game in 1943. He was awarded the Nobel Prize in Literature in 1946 and lived his last decades quietly in Switzerland.",
+
+    legacy:
+      "Siddhartha found its largest audience decades after publication, among readers in the 1960s and after who took its argument about self-discovery as permission to leave the paths arranged for them. That reception has been both its fortune and its distortion: the book is frequently read as a licence to wander, when its actual claim is stricter and less comfortable, that wisdom cannot be received from anyone and that the years a person writes off as failure may be the ones that did the work.",
+
+    notableQuotes: [
+      "Knowledge can be conveyed, but not wisdom.",
+      "I can think. I can wait. I can fast.",
+    ],
+    primarySources: ["Siddhartha (1922)", "Steppenwolf (1927)", "Demian (1919)"],
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

@@ -662,6 +662,11 @@ export default function ChatPage({
 
 function getSuggestedQuestions(slug: string): string[] {
   const questions: Record<string, string[]> = {
+    hesse: [
+      "Why does Siddhartha refuse the Buddha?",
+      "I feel like I wasted years. Were they wasted?",
+      "Everyone keeps giving me advice and none of it helps.",
+    ],
     pressfield: [
       "I have wanted to start this for two years and I still have not.",
       "How do I tell real doubt from Resistance?",
