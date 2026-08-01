@@ -45,6 +45,197 @@ export interface Series {
 
 export const series: Series[] = [
   {
+    "guideSlug": "hesse",
+    "guideName": "Hermann Hesse",
+    "bookSlug": "siddhartha",
+    "bookTitle": "Siddhartha",
+    "episodeCount": 5,
+    "totalSeconds": 474,
+    "hasMappedVoice": false,
+    "episodes": [
+      {
+        "slug": "refusing-the-buddha",
+        "title": "He Met the Buddha and Walked Away",
+        "words": 236,
+        "seconds": 98,
+        "hook": "I put my seeker in front of the Buddha. Not a false teacher, not a fraud to be exposed. The real one, whose teaching my seeker examines and finds without a single flaw. And then he does not join.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 16,
+            "text": "I put my seeker in front of the Buddha. Not a false teacher, not a fraud to be exposed. The real one, whose teaching my seeker examines and finds without a single flaw. And then he does not join."
+          },
+          {
+            "role": "point1",
+            "seconds": 23,
+            "text": "His friend Govinda joins that same evening. Govinda is not weak and not foolish. He recognises something true and does the sensible thing, which is to stay near it. He spends the rest of his life close to the truth and outside it, and every reader who is honest recognises Govinda before they recognise Siddhartha."
+          },
+          {
+            "role": "point2",
+            "seconds": 22,
+            "text": "Siddhartha's reason is not that the teaching is wrong. He says plainly that it is not. His reason is that the one thing the Buddha will never be able to hand over is the experience by which the Buddha himself arrived. That was found, not received, and no words carry it across."
+          },
+          {
+            "role": "point3",
+            "seconds": 18,
+            "text": "Readers take this as arrogance. It is closer to the opposite. He is not claiming to know better. He is admitting that being told a true thing has never once changed him, and refusing to pretend otherwise for the comfort of belonging to something."
+          },
+          {
+            "role": "close",
+            "seconds": 19,
+            "text": "So ask it about the thing you have been circling. Are you looking for someone to explain it, or have you already been explained to, several times, and nothing moved? If it is the second, no further teacher will help you. Only the thing itself will."
+          }
+        ],
+        "script": "content/episodes/hesse/refusing-the-buddha.md",
+        "handoff": "content/episodes/hesse/refusing-the-buddha.handoff.json"
+      },
+      {
+        "slug": "think-wait-fast",
+        "title": "I Can Think, I Can Wait, I Can Fast",
+        "words": 221,
+        "seconds": 91,
+        "hook": "A woman asks my seeker what he can actually do. He owns nothing. He has spent three years as an ascetic in the forest and has no trade, no property, and no prospects. His answer is three short sentences.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 16,
+            "text": "A woman asks my seeker what he can actually do. He owns nothing. He has spent three years as an ascetic in the forest and has no trade, no property, and no prospects. His answer is three short sentences."
+          },
+          {
+            "role": "point1",
+            "seconds": 19,
+            "text": "I can think. I can wait. I can fast. He says it without apology, and the merchant who later employs him treats it as a joke, because none of the three is a skill you can put on a sign or sell by the hour."
+          },
+          {
+            "role": "point2",
+            "seconds": 24,
+            "text": "But look at what they actually are. To think is to work a problem to the end instead of accepting the first answer. To wait is to be unhurried while others are forced by their impatience. To fast is to need less, and therefore to be unable to be bought cheaply or frightened into a bad deal."
+          },
+          {
+            "role": "point3",
+            "seconds": 16,
+            "text": "The merchant has money and cannot do any of the three. And so, quietly, the arrangement inverts. The man with nothing negotiates from strength, because he can walk away from any of it, and the man with everything cannot."
+          },
+          {
+            "role": "close",
+            "seconds": 17,
+            "text": "Those three are not spiritual decoration. They are the closest thing to leverage a person with no capital can hold. Whatever you are negotiating this month, ask which of the three you have, and which one the other side is missing."
+          }
+        ],
+        "script": "content/episodes/hesse/think-wait-fast.md",
+        "handoff": "content/episodes/hesse/think-wait-fast.handoff.json"
+      },
+      {
+        "slug": "sansara",
+        "title": "The Years You Would Call Wasted",
+        "words": 235,
+        "seconds": 97,
+        "hook": "My seeker leaves the forest and becomes exactly what he despised. Rich, comfortable, a merchant, a gambler, a man of appetites. It lasts for years. I want to be clear that I did not write those years as a mistake.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 17,
+            "text": "My seeker leaves the forest and becomes exactly what he despised. Rich, comfortable, a merchant, a gambler, a man of appetites. It lasts for years. I want to be clear that I did not write those years as a mistake."
+          },
+          {
+            "role": "point1",
+            "seconds": 20,
+            "text": "He begins as an amused observer among the people he privately calls childlike, playing at their game because it costs him nothing. He is above it, and being above it is precisely what makes him vulnerable to it. You do not get pulled under by what you respect."
+          },
+          {
+            "role": "point2",
+            "seconds": 21,
+            "text": "It takes him a long time to notice the change, because it happens at the speed at which nothing feels like it is happening. The contempt fades, then the detachment, then the discipline. One day he is simply one of them, and worse than them, because they never claimed otherwise."
+          },
+          {
+            "role": "point3",
+            "seconds": 21,
+            "text": "And it brings him to disgust so complete that he goes to the river to end it. Only from there does anything open. Not from the forest, where he was admirable and stuck. From the bottom of the part of his life he would have been most ashamed to describe."
+          },
+          {
+            "role": "close",
+            "seconds": 19,
+            "text": "You have a stretch of years you file under wasted. I am not going to tell you they were secretly productive. I am telling you that no one arrives anywhere without them, and that the account of your life which skips them is not the true one."
+          }
+        ],
+        "script": "content/episodes/hesse/sansara.md",
+        "handoff": "content/episodes/hesse/sansara.handoff.json"
+      },
+      {
+        "slug": "the-river",
+        "title": "Listen to It Instead of Looking at It",
+        "words": 221,
+        "seconds": 91,
+        "hook": "He ends as a ferryman, which is the least distinguished thing he could possibly become. He carries people across a river, and the river turns out to be the teacher that no teacher could be.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 14,
+            "text": "He ends as a ferryman, which is the least distinguished thing he could possibly become. He carries people across a river, and the river turns out to be the teacher that no teacher could be."
+          },
+          {
+            "role": "point1",
+            "seconds": 21,
+            "text": "What he learns first is that the river is everywhere at once. The source, the mouth, the waterfall, the sea. Not in sequence. Simultaneously. And so, he sees, is a person. The child he was is not behind him. It is present, now, along with everything else he has ever been."
+          },
+          {
+            "role": "point2",
+            "seconds": 19,
+            "text": "This dissolves the thing that had been tormenting him, which was the idea that his life was a line with wasted stretches on it. If everything is present at once, there is nothing to have wasted. There is only what is here, containing all of it."
+          },
+          {
+            "role": "point3",
+            "seconds": 17,
+            "text": "And notice how he learns it. Not by studying the river. By listening to it. He had spent decades looking at things and taking them apart. The river gave him nothing until he stopped interrogating it and simply attended to it."
+          },
+          {
+            "role": "close",
+            "seconds": 20,
+            "text": "You have some question you have been analysing for a long time without moving. Try attending to it instead of examining it. Sit with it for an hour without trying to solve it. That is not mysticism, it is a different faculty, and most people never use it."
+          }
+        ],
+        "script": "content/episodes/hesse/the-river.md",
+        "handoff": "content/episodes/hesse/the-river.handoff.json"
+      },
+      {
+        "slug": "wisdom-cannot-be-taught",
+        "title": "Knowledge Can Be Conveyed, But Not Wisdom",
+        "words": 235,
+        "seconds": 97,
+        "hook": "At the end of his life my seeker meets his old friend again. Govinda has followed the Buddha faithfully for fifty years and is still searching. He asks for a teaching, and what he gets is the sentence the whole book was built to reach.",
+        "beats": [
+          {
+            "role": "hook",
+            "seconds": 19,
+            "text": "At the end of his life my seeker meets his old friend again. Govinda has followed the Buddha faithfully for fifty years and is still searching. He asks for a teaching, and what he gets is the sentence the whole book was built to reach."
+          },
+          {
+            "role": "point1",
+            "seconds": 19,
+            "text": "Knowledge can be conveyed, but not wisdom. Knowledge is a thing that moves intact from one head to another. Wisdom is a property of a person who has been changed, and there is no arrangement of words that performs the change on someone else's behalf."
+          },
+          {
+            "role": "point2",
+            "seconds": 22,
+            "text": "This is why Govinda has spent fifty years near the truth without arriving. He was not lazy and he was not stupid. He was doing the thing everyone recommends, which is to find the right teacher and stay close, and it is the one method that cannot work for the thing he wanted."
+          },
+          {
+            "role": "point3",
+            "seconds": 18,
+            "text": "And it is why Siddhartha refused at the beginning. Not because he thought he knew better, but because he had already noticed that being told did not change him. Fifty years apart, one of them lived the answer and the other collected it."
+          },
+          {
+            "role": "close",
+            "seconds": 20,
+            "text": "Notice that I put this at the end of a book, where it cannot be extracted and used. If it could be, it would refute itself. You have now been told the thing, and being told it will do nothing, which is the last and best proof of it."
+          }
+        ],
+        "script": "content/episodes/hesse/wisdom-cannot-be-taught.md",
+        "handoff": "content/episodes/hesse/wisdom-cannot-be-taught.handoff.json"
+      }
+    ]
+  },
+  {
     "guideSlug": "franklin",
     "guideName": "Benjamin Franklin",
     "bookSlug": "autobiography-of-benjamin-franklin",

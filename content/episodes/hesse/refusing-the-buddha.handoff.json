@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "hesse",
+  "guideName": "Hermann Hesse",
+  "episodeSlug": "refusing-the-buddha",
+  "title": "He Met the Buddha and Walked Away",
+  "sourceBook": "Siddhartha",
+  "sourceAnchor": "Chapter: Gotama",
+  "audio": "hesse-refusing-the-buddha-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/hesse/refusing-the-buddha.md",
+  "words": 236,
+  "estimatedSeconds": 98,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 16,
+      "text": "I put my seeker in front of the Buddha. Not a false teacher, not a fraud to be exposed. The real one, whose teaching my seeker examines and finds without a single flaw. And then he does not join."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 23,
+      "text": "His friend Govinda joins that same evening. Govinda is not weak and not foolish. He recognises something true and does the sensible thing, which is to stay near it. He spends the rest of his life close to the truth and outside it, and every reader who is honest recognises Govinda before they recognise Siddhartha."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 22,
+      "text": "Siddhartha's reason is not that the teaching is wrong. He says plainly that it is not. His reason is that the one thing the Buddha will never be able to hand over is the experience by which the Buddha himself arrived. That was found, not received, and no words carry it across."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 18,
+      "text": "Readers take this as arrogance. It is closer to the opposite. He is not claiming to know better. He is admitting that being told a true thing has never once changed him, and refusing to pretend otherwise for the comfort of belonging to something."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 19,
+      "text": "So ask it about the thing you have been circling. Are you looking for someone to explain it, or have you already been explained to, several times, and nothing moved? If it is the second, no further teacher will help you. Only the thing itself will."
+    }
+  ],
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/da/Hermann_Hesse_2.jpg",
+  "aesthetic": "editorial-print"
+}

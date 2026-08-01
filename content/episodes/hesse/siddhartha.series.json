@@ -1,0 +1,53 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "hesse",
+  "guideName": "Hermann Hesse",
+  "bookSlug": "siddhartha",
+  "bookTitle": "Siddhartha",
+  "episodeCount": 5,
+  "totalWords": 1148,
+  "totalSeconds": 474,
+  "hasMappedVoice": false,
+  "episodes": [
+    {
+      "slug": "refusing-the-buddha",
+      "title": "He Met the Buddha and Walked Away",
+      "words": 236,
+      "estimatedSeconds": 98,
+      "script": "content/episodes/hesse/refusing-the-buddha.md",
+      "handoff": "content/episodes/hesse/refusing-the-buddha.handoff.json"
+    },
+    {
+      "slug": "think-wait-fast",
+      "title": "I Can Think, I Can Wait, I Can Fast",
+      "words": 221,
+      "estimatedSeconds": 91,
+      "script": "content/episodes/hesse/think-wait-fast.md",
+      "handoff": "content/episodes/hesse/think-wait-fast.handoff.json"
+    },
+    {
+      "slug": "sansara",
+      "title": "The Years You Would Call Wasted",
+      "words": 235,
+      "estimatedSeconds": 97,
+      "script": "content/episodes/hesse/sansara.md",
+      "handoff": "content/episodes/hesse/sansara.handoff.json"
+    },
+    {
+      "slug": "the-river",
+      "title": "Listen to It Instead of Looking at It",
+      "words": 221,
+      "estimatedSeconds": 91,
+      "script": "content/episodes/hesse/the-river.md",
+      "handoff": "content/episodes/hesse/the-river.handoff.json"
+    },
+    {
+      "slug": "wisdom-cannot-be-taught",
+      "title": "Knowledge Can Be Conveyed, But Not Wisdom",
+      "words": 235,
+      "estimatedSeconds": 97,
+      "script": "content/episodes/hesse/wisdom-cannot-be-taught.md",
+      "handoff": "content/episodes/hesse/wisdom-cannot-be-taught.handoff.json"
+    }
+  ]
+}
