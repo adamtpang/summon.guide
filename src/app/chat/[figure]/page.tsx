@@ -662,6 +662,11 @@ export default function ChatPage({
 
 function getSuggestedQuestions(slug: string): string[] {
   const questions: Record<string, string[]> = {
+    pressfield: [
+      "I have wanted to start this for two years and I still have not.",
+      "How do I tell real doubt from Resistance?",
+      "What does turning pro actually change on Monday morning?",
+    ],
     vervaeke: [
       "I have read everything about this and I still cannot do it. Why?",
       "Nothing feels meaningful and I cannot tell if that is depression or something else.",

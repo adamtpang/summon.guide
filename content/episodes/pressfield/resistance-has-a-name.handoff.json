@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "pressfield",
+  "guideName": "Steven Pressfield",
+  "episodeSlug": "resistance-has-a-name",
+  "title": "It Has a Name",
+  "sourceBook": "The War of Art",
+  "sourceAnchor": "Book One, Resistance: Defining the Enemy",
+  "audio": "pressfield-resistance-has-a-name-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/pressfield/resistance-has-a-name.md",
+  "words": 226,
+  "estimatedSeconds": 94,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 19,
+      "text": "You have a thing you are supposed to be doing. You are not doing it. You have explained this to yourself as laziness, or bad timing, or not being ready. I want to take all of that away from you and give you one word instead."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 18,
+      "text": "Call it Resistance. Not a mood, not a flaw in your character, not a scheduling problem. A force. I write about it the way you would write about weather, because that is closer to what it is than anything in the language of psychology."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 20,
+      "text": "Naming it does something immediately. As long as the enemy was your own weakness, every failure to start was evidence about you. Once it has a name and a nature of its own, the failure is a report from a battle rather than a verdict on your worth."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 19,
+      "text": "And it changes what you do next. You do not fix a force by becoming a better person. You fix it by knowing when it shows up, in what shape, and having something prepared for that moment. That is the whole of what I have to teach."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 17,
+      "text": "So stop diagnosing yourself. You are not broken and you are not uniquely weak. You are up against something that everybody with a body is up against. Give it its name today, and tomorrow we can talk about how it fights."
+    }
+  ],
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Author_Steven_Pressfield%2C_June_2011.JPG",
+  "aesthetic": "editorial-print"
+}

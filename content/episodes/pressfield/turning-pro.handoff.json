@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "pressfield",
+  "guideName": "Steven Pressfield",
+  "episodeSlug": "turning-pro",
+  "title": "Turning Pro",
+  "sourceBook": "The War of Art",
+  "sourceAnchor": "Book Two, Combating Resistance: Turning Pro",
+  "audio": "pressfield-turning-pro-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/pressfield/turning-pro.md",
+  "words": 228,
+  "estimatedSeconds": 94,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 17,
+      "text": "There is a difference between the person who does this seriously and the person who does not, and it is not talent. I want to be precise about what it actually is, because the usual explanations are flattering and wrong."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 17,
+      "text": "The amateur plays for fun. The professional plays for keeps. To the amateur it is an avocation, to the professional a vocation. The amateur plays part time and is a weekend warrior. The professional is there seven days a week."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 24,
+      "text": "Here is my provocation. The word amateur comes from a root meaning to love, and the usual reading is that the amateur does it for love while the professional does it for money. I see it the other way. The amateur does not love the work enough. If he did, he would not hold it at arm's length."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 19,
+      "text": "Turning pro costs nothing and requires no permission. It is not a credential or an income. It is a decision about how you will behave tomorrow morning, made today, and then not revisited on the basis of how you happen to feel when tomorrow arrives."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 19,
+      "text": "You are not waiting to become good enough to be serious. You are waiting to be serious, and that is available immediately. Pick the hour. Pick the place. Show up in it tomorrow whether or not you feel like it. That is the entire conversion."
+    }
+  ],
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Author_Steven_Pressfield%2C_June_2011.JPG",
+  "aesthetic": "editorial-print"
+}

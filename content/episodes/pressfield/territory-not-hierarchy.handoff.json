@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "pressfield",
+  "guideName": "Steven Pressfield",
+  "episodeSlug": "territory-not-hierarchy",
+  "title": "Territory, Not Hierarchy",
+  "sourceBook": "The War of Art",
+  "sourceAnchor": "Book Three, Territory Versus Hierarchy",
+  "audio": "pressfield-territory-not-hierarchy-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/pressfield/territory-not-hierarchy.md",
+  "words": 213,
+  "estimatedSeconds": 88,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 14,
+      "text": "You keep checking how you are doing relative to other people. Where you rank. Who is ahead. I want to show you why that particular habit will drain you no matter how well you place."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 19,
+      "text": "Individuals define themselves in one of two ways. By rank within a hierarchy, the way a hen does in a pecking order or a wolf in a pack. Or by connection to a territory, a home base, a hunting ground, a patch of ground that is theirs."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 17,
+      "text": "The hierarchy orientation makes your sense of yourself depend on other people's estimation, which you do not control and which changes. It also fails precisely when you need it most, because when the work is hard the ranking is unflattering."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 19,
+      "text": "The territory orientation puts you in relation to the work itself. The desk, the practice, the ground you return to. A territory gives back in proportion to what you put in, it does not care what anyone thinks, and it is available on the worst day."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 19,
+      "text": "Ask a plain question about anything you are doing. If you were the last person alive and nobody would ever know, would you still do it? What survives that question is your territory. Spend your life there, and let the rankings fall where they fall."
+    }
+  ],
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Author_Steven_Pressfield%2C_June_2011.JPG",
+  "aesthetic": "editorial-print"
+}

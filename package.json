@@ -10,7 +10,8 @@
     "book:extract": "node scripts/pdf-to-md.mjs",
     "book:scaffold": "node scripts/scaffold-skills.mjs",
     "book:fixture": "node scripts/make-test-pdf.mjs",
-    "book:episodes": "node scripts/episodes-from-plan.mjs"
+    "book:episodes": "node scripts/episodes-from-plan.mjs",
+    "book:find": "node scripts/find-book.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",

@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "pressfield",
+  "guideName": "Steven Pressfield",
+  "episodeSlug": "it-is-not-personal",
+  "title": "It Is Not Personal",
+  "sourceBook": "The War of Art",
+  "sourceAnchor": "Book One, Resistance Is Impersonal",
+  "audio": "pressfield-it-is-not-personal-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/pressfield/it-is-not-personal.md",
+  "words": 208,
+  "estimatedSeconds": 86,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 17,
+      "text": "It feels like it is aimed at you. It arrives exactly when you sit down. It finds the precise excuse you cannot argue with. It seems to know you. I am telling you it does not know you at all."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 19,
+      "text": "Resistance is not out to get you personally. It does not know who you are and it does not care. It acts objectively, with the indifference of rain. It falls on the ambitious and the lazy, the talented and the ordinary, at the same strength."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 20,
+      "text": "That indifference is the good news, though it does not feel like good news at first. If it were personal, you would have to become a different person to escape it. Since it is not, you only have to learn its habits, and habits can be learned by anyone."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 16,
+      "text": "It also means the shame is misplaced. You have been treating an encounter with a force of nature as a private moral failure. Nobody feels ashamed of being rained on. They get a coat and they go outside anyway."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 14,
+      "text": "Take it personally and you will spend your energy defending yourself. Take it as weather and you will spend your energy on the work. Only one of those produces anything. Get the coat. Go outside."
+    }
+  ],
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Author_Steven_Pressfield%2C_June_2011.JPG",
+  "aesthetic": "editorial-print"
+}
