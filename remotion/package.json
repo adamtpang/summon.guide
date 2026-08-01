@@ -1,0 +1,21 @@
+{
+  "name": "book.movie-remotion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Editorial renderer: a summon.guide handoff.json becomes a video, cut on its own beat timings.",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "node scripts/render.mjs",
+    "still": "remotion still Episode out/frame.png --props=props.json"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.290",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.290"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "typescript": "^5"
+  }
+}
