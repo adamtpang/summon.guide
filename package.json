@@ -11,7 +11,9 @@
     "book:scaffold": "node scripts/scaffold-skills.mjs",
     "book:fixture": "node scripts/make-test-pdf.mjs",
     "book:episodes": "node scripts/episodes-from-plan.mjs",
-    "book:find": "node scripts/find-book.mjs"
+    "book:find": "node scripts/find-book.mjs",
+    "video:render": "cd remotion && node scripts/render.mjs",
+    "video:studio": "cd remotion && npx remotion studio"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
