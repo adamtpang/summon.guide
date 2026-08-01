@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "pressfield",
+  "guideName": "Steven Pressfield",
+  "episodeSlug": "resistance-as-compass",
+  "title": "Follow the Fear",
+  "sourceBook": "The War of Art",
+  "sourceAnchor": "Book One, Resistance and Fear",
+  "audio": "pressfield-resistance-as-compass-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/pressfield/resistance-as-compass.md",
+  "words": 215,
+  "estimatedSeconds": 89,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 17,
+      "text": "There is a piece of work you keep circling and never begin. Every time you get near it something in you goes cold. You have read that as a warning. I want to argue it is the opposite of a warning."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 20,
+      "text": "Here is the rule I navigate by. The more important a call is to your soul, the more Resistance you will feel toward it. That relationship is reliable enough to steer by. Resistance is not an obstacle in front of the path. It is a needle pointing at it."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 18,
+      "text": "Fear works the same way. Are you paralysed with fear? That is a good sign. Fear tells you what you have to do. The degree of fear equals the strength of Resistance, and the strength of Resistance tells you how much the thing matters."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 17,
+      "text": "So the question changes. Instead of asking what you feel ready for, ask what you have been avoiding hardest and longest. The project you cannot look at directly. That one. The avoidance is your own instrument telling you where the value is."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 16,
+      "text": "Make a list tonight of everything you have been putting off. Find the one that produces the most dread when you imagine starting it. That is not the item to postpone until you are braver. That is the assignment."
+    }
+  ],
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Author_Steven_Pressfield%2C_June_2011.JPG",
+  "aesthetic": "editorial-print"
+}

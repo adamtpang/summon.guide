@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "pressfield",
+  "guideName": "Steven Pressfield",
+  "episodeSlug": "self-doubt-is-evidence",
+  "title": "Self-Doubt Is Evidence",
+  "sourceBook": "The War of Art",
+  "sourceAnchor": "Book One, Resistance and Self-Doubt",
+  "audio": "pressfield-self-doubt-is-evidence-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/pressfield/self-doubt-is-evidence.md",
+  "words": 204,
+  "estimatedSeconds": 84,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 14,
+      "text": "You keep asking whether you are really a writer. Really a founder. Really an artist. You take the question itself as the answer, and the answer you hear is no. You have that exactly backwards."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 19,
+      "text": "Self-doubt can be an ally, because it is an indicator of aspiration. It reflects love, love of something you dream of doing, and desire to do it. If you find yourself asking whether you are really a writer, the chances are good that you are."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 18,
+      "text": "Think about who never asks. The person with no aspiration in that direction has no doubt in that direction either. Nobody agonises over whether they are a real accountant unless being an accountant means something to them. Doubt clusters exactly where caring is."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 16,
+      "text": "The counterfeit version is the person who is entirely certain. Confidence without any tremor usually means the stakes are not real yet, or the work has not been attempted honestly. The genuine article is frequently scared to death."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 18,
+      "text": "So stop treating the question as a verdict and start treating it as a receipt. It is proof of what you want. Then set the question down, because it cannot be answered by thinking, only by the work, and the work is waiting."
+    }
+  ],
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Author_Steven_Pressfield%2C_June_2011.JPG",
+  "aesthetic": "editorial-print"
+}

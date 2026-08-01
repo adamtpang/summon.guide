@@ -1,0 +1,59 @@
+{
+  "source": "summon.guide",
+  "guideSlug": "pressfield",
+  "guideName": "Steven Pressfield",
+  "episodeSlug": "sit-down-every-day",
+  "title": "Nothing Else Matters",
+  "sourceBook": "The War of Art",
+  "sourceAnchor": "Book Three, Beyond Resistance",
+  "audio": "pressfield-sit-down-every-day-voiceover.mp3",
+  "format": "audio/mpeg",
+  "scriptPath": "content/episodes/pressfield/sit-down-every-day.md",
+  "words": 213,
+  "estimatedSeconds": 88,
+  "targetSeconds": [
+    90,
+    120
+  ],
+  "structure": [
+    "hook",
+    "point1",
+    "point2",
+    "point3",
+    "close"
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "role": "hook",
+      "seconds": 13,
+      "text": "People ask me about inspiration, about where ideas come from, about how to know when something is ready. I have stressed professionalism so heavily for a reason, and here it is, plainly."
+    },
+    {
+      "index": 1,
+      "role": "point1",
+      "seconds": 18,
+      "text": "The most important thing about the work is to work. Nothing else matters except sitting down every day and trying. Not the quality of what you produce on any given day. Not whether you felt it. Sitting down, and trying, and coming back."
+    },
+    {
+      "index": 2,
+      "role": "point2",
+      "seconds": 17,
+      "text": "And something happens when you do that which I cannot fully account for. Sit down day after day and keep grinding, and a process gets set in motion. Circumstances start to arrange themselves in your favour. Serendipity reinforces your purpose."
+    },
+    {
+      "index": 3,
+      "role": "point3",
+      "seconds": 19,
+      "text": "I am aware of how that sounds and I am going to say it anyway. It is the most reliable observation I have from a working life, and I would rather report it honestly than trim it into something more respectable that is less true."
+    },
+    {
+      "index": 4,
+      "role": "close",
+      "seconds": 22,
+      "text": "So do not organise your life around finding inspiration, or around the conditions you think it needs. Organise it around being present at the desk on an ordinary morning, so that inspiration has somewhere to arrive when it does. The showing up is not the preparation for the work. It is the work."
+    }
+  ],
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Author_Steven_Pressfield%2C_June_2011.JPG",
+  "aesthetic": "editorial-print"
+}
