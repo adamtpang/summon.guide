@@ -389,6 +389,19 @@ export const books: Book[] = [
     skillSlugs: [],
     status: "partial",
   },
+  {
+    slug: "siddhartha",
+    title: "Siddhartha",
+    author: "Hermann Hesse",
+    year: 1922,
+    role: "by",
+    figureSlug: "hesse",
+    description:
+      "A Brahman's son leaves everything arranged for him, tries asceticism, meets the Buddha and refuses to follow him, falls into wealth and self-disgust, and finally learns to listen to a river. Its argument is that wisdom cannot be transmitted, only arrived at, and that the ruin on the way was not a detour.",
+    amazonUrl: "https://www.gutenberg.org/ebooks/2500",
+    skillSlugs: [],
+    status: "partial",
+  },
 ];
 
 /** All books for a single figure. */

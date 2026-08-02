@@ -13,7 +13,8 @@
     "book:episodes": "node scripts/episodes-from-plan.mjs",
     "book:find": "node scripts/find-book.mjs",
     "video:render": "cd remotion && node scripts/render.mjs",
-    "video:studio": "cd remotion && npx remotion studio"
+    "video:studio": "cd remotion && npx remotion studio",
+    "book:index": "node scripts/gen-episodes.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
