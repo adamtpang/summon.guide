@@ -76,6 +76,48 @@ Sketch:
 and `remotion/src/Episode.tsx` would switch on `shot.type` instead of rendering
 every beat the same way.
 
+### book.movie's actual beat-generation prompt
+
+Before the repo was retired, `backend/services/essayPipeline.js` had a working
+prompt that generated a `visualPrompt` per beat. It is the closest thing that
+existed to a solved version of the `shot` field above, so it is worth reading
+before writing a new one from scratch. Its system prompt, verbatim:
+
+```
+You are a video essay director for short-form social video (60-120 seconds).
+Turn the essay into exactly 5 beats with roles: hook, beat_1, beat_2, beat_3, close.
+Each beat needs:
+- role (one of those five)
+- narration (spoken line, 1-3 sentences, concise)
+- visualPrompt (detailed image/video generation prompt; cinematic; <style>)
+- durationSec (integer; sum should be 60-120, prefer ~90)
+
+Respond ONLY with JSON: { "beats": [ ... ] }
+```
+
+It also shipped a rule-based fallback for when no LLM key was present: split
+the body into sentences, chunk them evenly across the five roles, and build
+`visualPrompt` from a template (`Cinematic short-form vertical video for a
+{roleLabel} about "{title}". Scene: {chunk}`). That fallback is not worth
+reusing (it is generic sentence-slicing, not a real judgment about what to
+show), but the schema shape (`role`, `narration`, `visualPrompt`, `durationSec`
+per beat, exactly 5 beats, JSON-only response) is a reasonable starting point
+for the prompt that would ask an LLM to fill in `shot` instead of
+`visualPrompt`, e.g.:
+
+```
+Turn this essay beat into exactly one of six shots: quote, diagram, number,
+timeline, comparison, portrait. Respond with { "type": ..., and the fields
+that shot needs (a "value" and "label" for number, "steps" for timeline, etc.) }.
+Prefer quote only when nothing more specific is true of the beat.
+```
+
+The difference from book.movie's version is the target: book.movie's prompt
+aimed at a generative video model and had to describe a whole cinematic scene
+in prose. This one aims at a fixed Remotion component and only has to name
+the type and hand it structured data, which is a smaller and more reliable
+thing to ask an LLM for.
+
 ## What was not carried over
 
 - The React frontend. It was a separate product surface and summon.guide already
