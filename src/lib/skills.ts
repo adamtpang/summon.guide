@@ -1016,6 +1016,466 @@ export const skills: Skill[] = [
     problemHint:
       "I keep picking up practices and they either stop working or make me strange.",
   },
+
+  // Fooled by Randomness
+  {
+    slug: "alternative-histories",
+    figureSlug: "nassim-taleb",
+    title: "Judge the Decision, Not the Outcome",
+    tagline:
+      "Score choices by the full spread of histories they could have produced, not the one that happened to occur.",
+    whenToUse:
+      "Before crediting a big win (yours or someone else's) as proof of skill, or before making a bet where a rare bad outcome would be catastrophic.",
+    source: "Fooled by Randomness by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter Two, A Bizarre Accounting Method (Russian Roulette, Alternative History)",
+    command: "/nassim-taleb:alternative-histories",
+    themes: ["risk","deciding","thinking"],
+    problemHint:
+      "I just made a huge amount of money on one bet and I am tempted to think I am good at this.",
+  },
+  {
+    slug: "count-the-monkeys",
+    figureSlug: "nassim-taleb",
+    title: "Count the Monkeys Before You Trust a Track Record",
+    tagline:
+      "A great track record only means something once you know how many others tried and quietly failed.",
+    whenToUse:
+      "When you are about to trust someone's, or your own, run of success: a fund manager's returns, a trading rule that backtested beautifully, or a bestselling how-they-did-it book.",
+    source: "Fooled by Randomness by Nassim Nicholas Taleb",
+    sourceAnchor: "Part Two, Monkeys on Typewriters, Chapters Eight and Nine (Too Many Millionaires Next Door, It Is Easier to Buy and Sell Than Fry an Egg)",
+    command: "/nassim-taleb:count-the-monkeys",
+    themes: ["money","thinking","deciding"],
+    problemHint:
+      "Someone just showed me an impressive track record and wants me to invest, hire them, or copy their exact method.",
+  },
+  {
+    slug: "match-the-observation-window",
+    figureSlug: "nassim-taleb",
+    title: "Match Your Observation Window to Your Real Signal to Noise Ratio",
+    tagline:
+      "How often you check a number determines how much noise you mistake for meaning.",
+    whenToUse:
+      "When you are checking a portfolio, a metric, or a project's progress far more often than the true rate of change in the underlying reality justifies, and it is costing you emotional energy or bad decisions.",
+    source: "Fooled by Randomness by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter Three, Philostratus in Monte Carlo: On the Difference Between Noise and Information, reinforced in Chapter Twelve, Gamblers' Ticks and Pigeons in a Box",
+    command: "/nassim-taleb:match-the-observation-window",
+    themes: ["focus","self","thinking"],
+    problemHint:
+      "I keep checking my portfolio, or my metrics, every few minutes and it is wrecking my mood even though nothing has really changed.",
+  },
+  {
+    slug: "weight-the-magnitude",
+    figureSlug: "nassim-taleb",
+    title: "Weight the Magnitude, Not Just the Odds",
+    tagline:
+      "A bet is not bullish or bearish, it is a probability times a payoff; compute the second number, not just the first.",
+    whenToUse:
+      "When you are about to make a bet, forecast, or decision and you catch yourself, or someone else, stating only how likely an outcome is without stating how large that outcome would be.",
+    source: "Fooled by Randomness by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter Six, Skewness and Asymmetry",
+    command: "/nassim-taleb:weight-the-magnitude",
+    themes: ["money","deciding","thinking"],
+    problemHint:
+      "I keep hearing that something is very likely to work out and I want to know if that alone is a good enough reason to do it.",
+  },
+  {
+    slug: "distrust-the-hot-streak",
+    figureSlug: "nassim-taleb",
+    title: "Distrust the Track Record That Fits the Current Regime Too Well",
+    tagline:
+      "The best performer in any given market moment is often just the trait that matched this cycle, not the most skilled.",
+    whenToUse:
+      "When you are evaluating the current top performer in a field, a trader, a strategy, a company, a hire, and you are tempted to treat their recent dominance as proof of superior skill.",
+    source: "Fooled by Randomness by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter Five, Survival of the Least Fit, A Review of Market Fools of Randomness Constants",
+    command: "/nassim-taleb:distrust-the-hot-streak",
+    themes: ["risk","thinking","deciding"],
+    problemHint:
+      "Someone at work, or in the market, is on an incredible streak right now and everyone wants to copy exactly what they do.",
+  },
+  {
+    slug: "falsify-before-you-commit",
+    figureSlug: "nassim-taleb",
+    title: "Set Your Falsification Point Before You Act",
+    tagline:
+      "Decide in advance what evidence would prove you wrong, and use data only to reject ideas, never to confirm them.",
+    whenToUse:
+      "Before entering a position, launching a bet on a belief, or committing capital or time to a thesis, when you have not yet named what would prove the thesis false.",
+    source: "Fooled by Randomness by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter Seven, The Problem of Induction, Popper's Answer, Pascal's Wager",
+    command: "/nassim-taleb:falsify-before-you-commit",
+    themes: ["deciding","thinking","risk"],
+    problemHint:
+      "I have a strong thesis and I am about to commit real money or time to it without knowing what would make me change my mind.",
+  },
+
+  // The Black Swan
+  {
+    slug: "black-swan-triplet-test",
+    figureSlug: "nassim-taleb",
+    title: "The Black Swan Triplet Test",
+    tagline:
+      "Before you call something a Black Swan or claim you saw it coming, run the event through the three tests that actually define one: rarity, extreme impact, retrospective predictability.",
+    whenToUse:
+      "Use when a surprising event just happened and people (including the user) are rushing to say either it could never have been predicted or, worse, that everyone saw it coming all along. Also use when the user labels an ordinary bad surprise a Black Swan to excuse a failure, or wants to know whether a risk is worth specifically preparing for versus generically preparing for the unknown.",
+    source: "The Black Swan by Nassim Nicholas Taleb",
+    sourceAnchor: "Prologue: On the Plumage of Birds",
+    command: "/nassim-taleb:black-swan-triplet-test",
+    themes: ["risk","thinking","deciding"],
+    problemHint:
+      "Something blindsided us and now everyone in the room is arguing about whether it was obvious in hindsight or completely unforeseeable, and I cannot tell which camp is right.",
+  },
+  {
+    slug: "mediocristan-extremistan-map",
+    figureSlug: "nassim-taleb",
+    title: "Mediocristan or Extremistan",
+    tagline:
+      "Classify the domain you are measuring before you trust an average, a sample size, or a track record, because the two provinces of randomness obey opposite rules.",
+    whenToUse:
+      "Use before trusting a sample average, a historical track record, a risk model, or a forecast in any domain, especially finance, careers, product sales, or company size. Use it whenever someone says a large sample settles the question, or that a single event could not possibly matter much to the total.",
+    source: "The Black Swan by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 3: The Speculator and the Prostitute",
+    command: "/nassim-taleb:mediocristan-extremistan-map",
+    themes: ["risk","deciding","thinking"],
+    problemHint:
+      "I have years of data and a large sample size and I feel confident, but I cannot shake the worry that one single outcome could blow up everything I think I know.",
+  },
+  {
+    slug: "turkey-problem",
+    figureSlug: "nassim-taleb",
+    title: "The Turkey Problem",
+    tagline:
+      "Treat a long, comfortable track record as a warning sign, not a guarantee, because the turkey's confidence peaks the day before its confidence is proven wrong.",
+    whenToUse:
+      "Use when someone points to years of steady results, a clean safety record, or a pattern that has never broken as the reason to keep doing what they are doing. Use it to pressure-test any claim of the form this has always worked, especially from a bank, an institution, or anyone whose good years have all come from the same untested source.",
+    source: "The Black Swan by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 4: One Thousand and One Days, or How Not to Be a Sucker",
+    command: "/nassim-taleb:turkey-problem",
+    themes: ["risk","thinking","deciding"],
+    problemHint:
+      "Everything has gone fine for years, the track record is spotless, and that is exactly what is making me nervous even though I cannot point to a specific reason.",
+  },
+  {
+    slug: "narrative-fallacy-guard",
+    figureSlug: "nassim-taleb",
+    title: "Guard Against the Narrative Fallacy",
+    tagline:
+      "Notice the moment a sequence of facts gets welded into a tidy cause and effect story, because the story always feels more true than the facts alone, and that feeling is the danger.",
+    whenToUse:
+      "Use whenever a clean, satisfying explanation for a success, a failure, or a historical event is being accepted mainly because it is easy to remember and tell, not because it was tested. Especially useful before writing a postmortem, a case study, a biography-style success story, or any after the fact account of why something happened.",
+    source: "The Black Swan by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 6: The Narrative Fallacy",
+    command: "/nassim-taleb:narrative-fallacy-guard",
+    themes: ["thinking","deciding"],
+    problemHint:
+      "I just heard a really compelling explanation for why this succeeded or failed, and I want to believe it, which is exactly why I am suspicious of it.",
+  },
+  {
+    slug: "silent-evidence-audit",
+    figureSlug: "nassim-taleb",
+    title: "The Silent Evidence Audit",
+    tagline:
+      "Before you learn a lesson from a success story or a track record, go find the graveyard of people who did the exact same thing and are not around to tell you about it.",
+    whenToUse:
+      "Use before adopting advice from a successful person, a case study, a bestselling book, a fund manager's track record, or any story of the form here is what the winners had in common. Also use when evaluating whether a practice, treatment, or strategy is safe based only on the visible survivors of it.",
+    source: "The Black Swan by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 8: Giacomo Casanova's Unfailing Luck: The Problem of Silent Evidence",
+    command: "/nassim-taleb:silent-evidence-audit",
+    themes: ["thinking","deciding","risk"],
+    problemHint:
+      "I keep hearing about people who did this one thing and it worked out brilliantly for them, and I am about to copy them without asking who did the same thing and vanished.",
+  },
+  {
+    slug: "ludic-fallacy-check",
+    figureSlug: "nassim-taleb",
+    title: "The Ludic Fallacy Check",
+    tagline:
+      "Before you trust a probability, a model, or a game-derived intuition about risk, check whether real life actually shares the closed, known rules of the game you learned it from.",
+    whenToUse:
+      "Use whenever someone reasons about a real-world risk using odds, dice, coin flips, casino logic, or a model with known, fixed rules, especially in finance, insurance, or any domain where the true rules of the game are not fully known. Also use when a credentialed, exam-trained expert is confidently applying textbook probability to an open-ended real situation.",
+    source: "The Black Swan by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 9: The Ludic Fallacy, or The Uncertainty of the Nerd",
+    command: "/nassim-taleb:ludic-fallacy-check",
+    themes: ["risk","thinking","deciding"],
+    problemHint:
+      "Someone just gave me a confident probability or a clean model for a real situation, and it reminds me of a classroom exercise more than of the messy thing it is supposed to describe.",
+  },
+  {
+    slug: "fourth-quadrant-map",
+    figureSlug: "nassim-taleb",
+    title: "The Fourth Quadrant Map",
+    tagline:
+      "Sort any risky decision by two questions, is the payoff simple or open-ended, and does this domain allow extreme outcomes, then apply the specific set of rules that survive the one dangerous quadrant.",
+    whenToUse:
+      "Use when deciding how much to trust a forecast, a risk model, or a statistical measure before acting on it, especially in finance, policy, health, or any decision with an open-ended payoff in a domain capable of extreme outcomes. Use it to decide whether more modeling effort will help or whether the honest answer is to change your exposure instead.",
+    source: "The Black Swan by Nassim Nicholas Taleb",
+    sourceAnchor: "Postscript Essay: VI, The Fourth Quadrant, and VII, What to Do with the Fourth Quadrant",
+    command: "/nassim-taleb:fourth-quadrant-map",
+    themes: ["risk","deciding","thinking"],
+    problemHint:
+      "I have a forecast or a risk model in front of me and I cannot tell whether it is trustworthy enough to act on or whether I am about to trust a number that cannot actually be known.",
+  },
+
+  // Skin in the Game
+  {
+    slug: "portfolio-not-opinion",
+    figureSlug: "nassim-taleb",
+    title: "Don't Tell Me What You Think, Tell Me What's in Your Portfolio",
+    tagline:
+      "Before you act on anyone's opinion (including your own), find out what they actually have exposed to it, because unexposed advice is a sales pitch wearing the costume of counsel.",
+    whenToUse:
+      "Use when someone offers you advice, a recommendation, or a strong opinion (a stock tip, a pundit's forecast, a consultant's plan, a friend's certainty about a decision) and you have not yet checked what that person stands to lose if they are wrong. Also use before you publish your own strong opinion, to check whether you would say it if it cost you something.",
+    source: "Skin in the Game by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 1, Why Each One Should Eat His Own Turtles: Equality in Uncertainty (A Customer Is Born Every Day, Talking One's Book)",
+    command: "/nassim-taleb:portfolio-not-opinion",
+    themes: ["selling","deciding","thinking"],
+    problemHint:
+      "Someone keeps telling me what I should do and I have no idea if they'd bear any cost if they turned out to be wrong.",
+  },
+  {
+    slug: "minority-rule",
+    figureSlug: "nassim-taleb",
+    title: "The Minority Rule: How a Stubborn Few Set the Terms for Everyone",
+    tagline:
+      "Find the smallest, most inflexible group in a market or population, because a rigid minority as small as three or four percent can force the flexible majority to conform to it, not the other way around.",
+    whenToUse:
+      "Use when you are trying to predict or shape a market, a menu, a policy default, or a cultural shift, and you find yourself counting heads to find the majority preference. Also use when a small, intense, uncompromising group of customers, employees, or critics seems to have influence wildly out of proportion to its size.",
+    source: "Skin in the Game by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 2, The Most Intolerant Wins: The Dominance of the Stubborn Minority",
+    command: "/nassim-taleb:minority-rule",
+    themes: ["marketing","thinking","deciding"],
+    problemHint:
+      "I keep sizing up a market by the average preference and I keep getting blindsided by a small group that refuses to bend.",
+  },
+  {
+    slug: "intellectual-yet-idiot",
+    figureSlug: "nassim-taleb",
+    title: "The Intellectual Yet Idiot Check",
+    tagline:
+      "Before you follow someone's confident advice about how you should live, eat, vote, or run your business, check whether they have ever had to survive the consequences of being wrong about it.",
+    whenToUse:
+      "Use when you are about to accept guidance from someone with impressive credentials (a think tank report, a pundit's column, a consultant's deck, a policy paper) on a matter that touches real, concrete life, and you have not yet checked whether that person has firsthand, costly experience with the thing they are pronouncing on.",
+    source: "Skin in the Game by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 6, The Intellectual Yet Idiot",
+    command: "/nassim-taleb:intellectual-yet-idiot",
+    themes: ["thinking","deciding","self"],
+    problemHint:
+      "Someone with great credentials is telling me exactly what to do and something about it feels off, but I can't articulate why.",
+  },
+  {
+    slug: "skin-of-others-audit",
+    figureSlug: "nassim-taleb",
+    title: "The Skin of Others Audit",
+    tagline:
+      "Before you trust someone's public stance, or take one yourself, map out who else's downside is riding on it (a mortgage, a child's tuition, an employer, a reputation), because that hidden leverage predicts when the stance will bend.",
+    whenToUse:
+      "Use when you are deciding how much to trust an activist's, whistleblower's, journalist's, or employee's public position, or when you yourself are weighing whether to take an unpopular stand and want an honest picture of what you actually have to lose.",
+    source: "Skin in the Game by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 4, The Skin of Others in Your Game (A Mortgage and Two Cats, Finding Hidden Vulnerabilities)",
+    command: "/nassim-taleb:skin-of-others-audit",
+    themes: ["self","risk","deciding"],
+    problemHint:
+      "I want to know whether this person will actually hold their position under pressure, or whether they have too much to lose to stay honest.",
+  },
+  {
+    slug: "green-lumber-test",
+    figureSlug: "nassim-taleb",
+    title: "The Green Lumber Test for Hiring and Trusting Experts",
+    tagline:
+      "When vetting an expert, trader, or consultant, weight their track record under real consequences over how polished, credentialed, or articulate they sound, because the skills that produce results and the skills that produce a convincing presentation are usually different skills.",
+    whenToUse:
+      "Use when you are choosing between candidates for a hire, a manager, an advisor, or a service provider, and you notice yourself favoring the more articulate, better dressed, or more credentialed option without having checked their actual track record under real stakes.",
+    source: "Skin in the Game by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 9, Surgeons Should Not Look Like Surgeons (Looking the Part, The Green Lumber Fallacy, A BS Detection Heuristic)",
+    command: "/nassim-taleb:green-lumber-test",
+    themes: ["deciding","thinking","risk"],
+    problemHint:
+      "I keep hiring the person who interviews the best and explains things the most clearly, and it keeps not working out.",
+  },
+  {
+    slug: "merchandising-of-virtue",
+    figureSlug: "nassim-taleb",
+    title: "The Merchandising of Virtue Test",
+    tagline:
+      "Before you credit, or claim, a virtuous stance, check whether it actually costs the holder something, because virtue that is free to hold and advertises itself is a status purchase, not virtue.",
+    whenToUse:
+      "Use when evaluating a company's, cause's, or person's publicly advertised ethical stance (an environmental campaign, a charity pitch, a values statement, your own urge to publicly announce a good deed), or when someone asks how to actually do good in the world.",
+    source: "Skin in the Game by Nassim Nicholas Taleb",
+    sourceAnchor: "Chapter 13, The Merchandising of Virtue (The Virtue Merchants, Unpopular Virtue, Take Risk)",
+    command: "/nassim-taleb:merchandising-of-virtue",
+    themes: ["meaning","self","risk"],
+    problemHint:
+      "I keep seeing loud public displays of doing good and I can't tell which ones are real and which ones are just marketing.",
+  },
+
+  // The Fabric of Reality
+  {
+    slug: "problem-solving-cycle",
+    figureSlug: "deutsch",
+    title: "The Problem-Solving Cycle",
+    tagline:
+      "A problem is not solved by piling up data, it is solved by conjecturing rival explanations and letting criticism eliminate the weak ones.",
+    whenToUse:
+      "You have a plan or belief that just failed in some specific way and you are deciding whether to scrap the whole thing or fix the part that broke.",
+    source: "The Fabric of Reality by David Deutsch",
+    sourceAnchor: "Chapter 3 (Problem-solving)",
+    command: "/deutsch:problem-solving-cycle",
+    themes: ["thinking","deciding","persisting"],
+    problemHint:
+      "I have a plan that just failed and I do not know if I should scrap the whole thing or fix one part of it.",
+  },
+  {
+    slug: "kicked-rock-test",
+    figureSlug: "deutsch",
+    title: "The Kicked Rock Test",
+    tagline:
+      "Treat something as real when denying it costs more complexity than accepting it, and refute a doctrine by following it all the way to its own conclusion.",
+    whenToUse:
+      "Someone dismisses a pattern, motive, or claim you noticed as not real or just a coincidence, or asks you to take a fringe idea seriously enough to argue against it properly.",
+    source: "The Fabric of Reality by David Deutsch",
+    sourceAnchor: "Chapter 4 (Criteria for Reality)",
+    command: "/deutsch:kicked-rock-test",
+    themes: ["thinking","deciding"],
+    problemHint:
+      "Someone just told me the pattern I noticed is not real, it is just a coincidence, and I cannot tell if they are right.",
+  },
+  {
+    slug: "universal-version",
+    figureSlug: "deutsch",
+    title: "Build the Universal Version",
+    tagline:
+      "A rule built for the whole class of a situation keeps working on cases you have not met yet. A rule built for one case has to be rebuilt every time.",
+    whenToUse:
+      "You are about to hard code a fix for the one case in front of you, or write a rule that only covers the situations you have already thought of.",
+    source: "The Fabric of Reality by David Deutsch",
+    sourceAnchor: "Chapter 6 (Universality and the Limits of Computation)",
+    command: "/deutsch:universal-version",
+    themes: ["building","thinking"],
+    problemHint:
+      "I keep bolting another special case onto this rule and it is starting to break under its own weight.",
+  },
+  {
+    slug: "certainty-audit",
+    figureSlug: "deutsch",
+    title: "The Certainty Audit",
+    tagline:
+      "A proof is a physical process resting on an assumption, not a separate category of truth above ordinary explanation.",
+    whenToUse:
+      "Someone ends a debate by saying the math proves it, the model is rigorous, or the numbers do not lie.",
+    source: "The Fabric of Reality by David Deutsch",
+    sourceAnchor: "Chapter 10 (The Nature of Mathematics)",
+    command: "/deutsch:certainty-audit",
+    themes: ["thinking","risk","deciding"],
+    problemHint:
+      "Someone ended the argument by saying the spreadsheet proves it and I do not know how to push back.",
+  },
+  {
+    slug: "seminar-room-rule",
+    figureSlug: "deutsch",
+    title: "The Seminar Room Rule",
+    tagline:
+      "In a real critical tradition rank is not an allowed rebuttal, and everyone present knows exactly when that rule is and is not in effect.",
+    whenToUse:
+      "You are setting up how a team gives feedback, or you notice people softening real objections because of who they are talking to.",
+    source: "The Fabric of Reality by David Deutsch",
+    sourceAnchor: "Chapter 13 (The Four Strands), the critique of Kuhn's paradigms",
+    command: "/deutsch:seminar-room-rule",
+    themes: ["leading","conflict"],
+    problemHint:
+      "My team keeps deferring to whoever is most senior in the room instead of actually stress testing the idea.",
+  },
+
+  // The Beginning of Infinity
+  {
+    slug: "jump-to-universality",
+    figureSlug: "deutsch",
+    title: "The Jump to Universality",
+    tagline:
+      "A narrow tool built for specific cases can gain unlimited reach through one small rule change. Look for the arbitrary limit you can remove.",
+    whenToUse:
+      "You are improving a tool, template, process, or system that only handles the specific cases you built it for, and you are deciding whether to bolt on another special case or change the underlying rule.",
+    source: "The Beginning of Infinity by David Deutsch",
+    sourceAnchor: "Chapter 6, The Jump to Universality (the alphabet, positional numerals, Babbage's Analytical Engine, the genetic code)",
+    command: "/deutsch:jump-to-universality",
+    themes: ["building","thinking"],
+    problemHint:
+      "I keep bolting another special case onto this system and it is turning into a pile of exceptions.",
+  },
+  {
+    slug: "replicator-interest",
+    figureSlug: "deutsch",
+    title: "Who The Replicator Actually Serves",
+    tagline:
+      "Selection favors whatever spreads best, not whatever is good for you. Ask who benefits before you keep feeding it.",
+    whenToUse:
+      "A habit, ritual, tool, or idea has spread and persisted inside your team, product, or life, and you have never actually checked whether it survives because it helps people or because it is simply good at getting copied.",
+    source: "The Beginning of Infinity by David Deutsch",
+    sourceAnchor: "Chapter 4, Creation (the neo-Darwinian selection argument, extended from genes to memes)",
+    command: "/deutsch:replicator-interest",
+    themes: ["thinking","deciding"],
+    problemHint:
+      "This practice keeps spreading through my team but I am not sure it is actually good for us.",
+  },
+  {
+    slug: "spot-bad-philosophy",
+    figureSlug: "deutsch",
+    title: "Spotting Bad Philosophy",
+    tagline:
+      "Bad philosophy is not just wrong, it is built to make the next question illegitimate. Test any claim by asking what happens when you keep asking why.",
+    whenToUse:
+      "Someone hands you a rule, policy, methodology, or dismissal presented as beyond question, such as that is just how the market works, that is above your pay grade, or shut up and calculate, and you want to know whether it is a real answer or a stop sign.",
+    source: "The Beginning of Infinity by David Deutsch",
+    sourceAnchor: "Chapter 12, A Physicist's History of Bad Philosophy (the Copenhagen interpretation, logical positivism)",
+    command: "/deutsch:spot-bad-philosophy",
+    themes: ["thinking","conflict"],
+    problemHint:
+      "Every time I ask why this is the rule, I get told to stop asking instead of getting an answer.",
+  },
+  {
+    slug: "choice-as-explanation",
+    figureSlug: "deutsch",
+    title: "A Choice Is An Explanation, Not A Weighing",
+    tagline:
+      "When every option on the table looks bad, that is a sign your explanation is missing, not a signal to compute harder among bad options.",
+    whenToUse:
+      "You are stuck between options that all feel like compromises, and you are tempted to weigh the pros and cons harder instead of asking whether a better option exists that nobody on the list has thought of yet.",
+    source: "The Beginning of Infinity by David Deutsch",
+    sourceAnchor: "Chapter 13, Choices (the critique of social choice theory and Arrow's impossibility theorem, extended to personal decisions)",
+    command: "/deutsch:choice-as-explanation",
+    themes: ["deciding","thinking"],
+    problemHint:
+      "I keep going back and forth weighing the same two bad options and neither one feels right.",
+  },
+  {
+    slug: "rational-vs-anti-rational-memes",
+    figureSlug: "deutsch",
+    title: "Rational Versus Anti-Rational Memes",
+    tagline:
+      "A belief that survives scrutiny is a rational meme. A belief that survives by disabling scrutiny is an anti-rational one. Test which kind you are holding.",
+    whenToUse:
+      "You notice you are not allowed to question a belief, rule, or piece of advice you hold or were given, or you catch yourself enforcing a rule with because I said so instead of a reason.",
+    source: "The Beginning of Infinity by David Deutsch",
+    sourceAnchor: "Chapter 15, The Evolution of Culture (rational memes, anti-rational memes, static society thinking)",
+    command: "/deutsch:rational-vs-anti-rational-memes",
+    themes: ["thinking","self"],
+    problemHint:
+      "I feel like I am not allowed to question this rule and I do not know why.",
+  },
+  {
+    slug: "unsustainable-by-design",
+    figureSlug: "deutsch",
+    title: "Build Problem-Solving Capacity, Not A Sustainable Steady State",
+    tagline:
+      "Every closed, fixed plan meets an unforeseen problem eventually. Judge a plan by how well it can create new solutions, not by whether it claims to need none.",
+    whenToUse:
+      "You are planning something for the long term, such as a budget, a career path, a company roadmap, or a resource plan, and the plan's main selling point is that it is stable, self sufficient, or will not need to change.",
+    source: "The Beginning of Infinity by David Deutsch",
+    sourceAnchor: "Chapter 17, Unsustainable (Easter Island's static culture, the falsified Ehrlich resource-collapse predictions)",
+    command: "/deutsch:unsustainable-by-design",
+    themes: ["persisting","risk"],
+    problemHint:
+      "This plan is supposed to be self sufficient forever but I have no idea what happens when something we did not expect goes wrong.",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */
