@@ -175,8 +175,8 @@ export const books: Book[] = [
     description:
       "Deutsch's argument that good explanations, ones that are hard to vary while still accounting for what they explain, are the engine of unbounded human progress.",
     amazonUrl: "https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359",
-    skillSlugs: ["good-explanations", "principle-of-optimism"],
-    status: "complete",
+    skillSlugs: ["jump-to-universality", "replicator-interest", "spot-bad-philosophy", "choice-as-explanation", "rational-vs-anti-rational-memes", "unsustainable-by-design"],
+    status: "partial",
   },
   {
     slug: "the-fabric-of-reality",
@@ -188,7 +188,52 @@ export const books: Book[] = [
     description:
       "Deutsch's first book. Argues that quantum physics, epistemology, evolution, and computation are deeply intertwined strands of a single theory of reality.",
     amazonUrl: "https://www.amazon.com/Fabric-Reality-Parallel-Universes-Implications/dp/014027541X",
-    skillSlugs: ["four-strands"],
+    skillSlugs: ["problem-solving-cycle", "kicked-rock-test", "universal-version", "certainty-audit", "seminar-room-rule"],
+    status: "partial",
+  },
+
+  // Taleb, the Incerto. Registered here as separate books because each one
+  // stands alone; "via-negativa" cites the whole collection and is not
+  // reattached to a single title. Antifragile and The Bed of Procrustes are
+  // not registered yet: the only local PDFs found for them are third-party
+  // Bookey chapter-quiz summaries, not Taleb's own text.
+  {
+    slug: "fooled-by-randomness",
+    title: "Fooled by Randomness",
+    author: "Nassim Nicholas Taleb",
+    year: 2001,
+    role: "by",
+    figureSlug: "nassim-taleb",
+    description:
+      "The first Incerto book. On the difference between skill and luck, why rare, unseen events dominate outcomes people attribute to competence, and how a trader survives long enough for competence to matter.",
+    amazonUrl: "https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219",
+    skillSlugs: ["alternative-histories", "count-the-monkeys", "match-the-observation-window", "weight-the-magnitude", "distrust-the-hot-streak", "falsify-before-you-commit"],
+    status: "partial",
+  },
+  {
+    slug: "the-black-swan",
+    title: "The Black Swan",
+    author: "Nassim Nicholas Taleb",
+    year: 2007,
+    role: "by",
+    figureSlug: "nassim-taleb",
+    description:
+      "Rare, high-impact, retrospectively-rationalized events, and why forecasting and expert prediction routinely miss them. The book that made Taleb's name.",
+    amazonUrl: "https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X",
+    skillSlugs: ["black-swan-triplet-test", "mediocristan-extremistan-map", "turkey-problem", "narrative-fallacy-guard", "silent-evidence-audit", "ludic-fallacy-check", "fourth-quadrant-map"],
+    status: "partial",
+  },
+  {
+    slug: "skin-in-the-game",
+    title: "Skin in the Game",
+    author: "Nassim Nicholas Taleb",
+    year: 2018,
+    role: "by",
+    figureSlug: "nassim-taleb",
+    description:
+      "Hidden asymmetries in daily life: who bears the downside of a decision, why symmetry of risk is the precondition for trust, and how removing skin in the game corrupts a system.",
+    amazonUrl: "https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/0425284639",
+    skillSlugs: ["portfolio-not-opinion", "minority-rule", "intellectual-yet-idiot", "skin-of-others-audit", "green-lumber-test", "merchandising-of-virtue"],
     status: "partial",
   },
 
