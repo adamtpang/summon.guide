@@ -3,8 +3,6 @@ import { figures, AI_CONFIG } from "@/lib/figures";
 import { skills, skillCatalogForRouting } from "@/lib/skills";
 import { NextRequest } from "next/server";
 
-const anthropic = anthropicClient();
-
 // The router has three jobs now:
 //
 //  1. Problem-based request ("I can't stop procrastinating") → pick the
@@ -23,6 +21,8 @@ const anthropic = anthropicClient();
 //   { type: "not_found", person, suggestedSlug, reason }
 
 export async function POST(req: NextRequest) {
+  // Built per request; see the comment in src/app/api/chat/route.ts for why.
+  const anthropic = await anthropicClient();
   const { message } = await req.json();
 
   if (!message || typeof message !== "string") {

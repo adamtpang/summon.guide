@@ -59,3 +59,27 @@ model Feedback {
   @@index([figureSlug])
   @@index([userId])
 }
+
+// Holds the Claude subscription (Pro/Max) OAuth credential the guide chat route bills
+// against, instead of a metered ANTHROPIC_API_KEY. A single row, id fixed to "default".
+//
+// Why this exists: an env-var access token (the previous approach, ANTHROPIC_AUTH_TOKEN)
+// expires in hours and a Vercel function has nowhere to write its own env vars, so the
+// token silently goes stale until someone re-mints it by hand. Persisting BOTH the access
+// token and the refresh token here lets the server refresh itself: read this row, and if
+// accessTokenExpiresAt is close, exchange refreshToken for a new pair via Anthropic's OAuth
+// endpoint and write the result back. See src/lib/anthropicOAuth.ts.
+//
+// refreshToken ROTATES on every use (Anthropic invalidates the old one), so the row is
+// updated with a compare-and-swap on the refresh token value: whichever concurrent request
+// wins the race persists its refresh, the other reads the now-current row instead of
+// retrying with a refresh token that's already been spent.
+model AnthropicOAuthToken {
+  id                    String   @id @default("default")
+  accessToken           String
+  refreshToken          String
+  accessTokenExpiresAt  DateTime
+  refreshTokenExpiresAt DateTime?
+  scopes                String?
+  updatedAt             DateTime @updatedAt
+}

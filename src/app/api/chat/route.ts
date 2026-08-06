@@ -4,11 +4,12 @@ import { getFigure, AI_CONFIG } from "@/lib/figures";
 import { buildGroundingBlock } from "@/lib/figureSources";
 import { NextRequest } from "next/server";
 
-// API key (metered credits) by default, or a Claude subscription OAuth token
-// when ANTHROPIC_AUTH_TOKEN is set. See src/lib/anthropic.ts.
-const anthropic = anthropicClient();
-
 export async function POST(req: NextRequest) {
+  // Built fresh per request, not once at cold start: the subscription-auth path
+  // refreshes its token in-request when it is close to expiring, so a client built
+  // once and reused across a warm serverless instance's whole lifetime (hours) would
+  // keep using a token that had since gone stale. See src/lib/anthropic.ts.
+  const anthropic = await anthropicClient();
   const { figure: figureSlug, messages } = await req.json();
 
   const figure = getFigure(figureSlug);

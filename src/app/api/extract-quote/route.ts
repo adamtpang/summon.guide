@@ -2,9 +2,9 @@ import { anthropicClient } from "@/lib/anthropic";
 import { AI_CONFIG } from "@/lib/figures";
 import { NextRequest } from "next/server";
 
-const anthropic = anthropicClient();
-
 export async function POST(req: NextRequest) {
+  // Built per request; see the comment in src/app/api/chat/route.ts for why.
+  const anthropic = await anthropicClient();
   const { messages, figureName, era } = await req.json();
 
   if (!messages?.length || !figureName) {
