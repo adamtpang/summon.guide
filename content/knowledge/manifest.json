@@ -1,7 +1,16 @@
 {
-  "generated": "2026-07-22",
-  "count": 48,
+  "generated": "2026-08-03",
+  "count": 72,
   "episodes": [
+    {
+      "set": "primary-sources",
+      "file": "content/knowledge/berkshire-shareholder-letters.md",
+      "title": "Berkshire Hathaway Shareholder Letters, 1977-2024",
+      "subject": "Warren Buffett and Charlie Munger",
+      "principle": "Think like an owner, protect the ability to continue, and allocate each dollar where its long-term economics are strongest.",
+      "sourceBook": "Berkshire Hathaway Shareholder Letters, 1977-2024 by Warren E. Buffett",
+      "youtube": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
     {
       "set": "founders-podcast",
       "file": "content/knowledge/founders/001-how-elon-works.md",
@@ -433,6 +442,213 @@
       "principle": "Invert your industry: help customers spend less money and time, not more, and run every process through question, simplify, then automate.",
       "sourceBook": "Ramp",
       "youtube": "https://www.youtube.com/watch?v=lbGX3cbvMI4"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/001-how-to-get-rich.md",
+      "title": "How to Get Rich",
+      "subject": "Naval Ravikant",
+      "principle": "Wealth is equity that earns while you sleep, built through specific knowledge, leverage, and judgment — not rented time, and not luck.",
+      "sourceBook": "Naval Ravikant, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=1-TZqOsVCNM"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/002-kapil-gupta-conquering-the-mind.md",
+      "title": "Kapil Gupta: Conquering the Mind",
+      "subject": "Naval Ravikant",
+      "principle": "Freedom comes only from understanding the mind, not from following any prescription — the solution to any problem lies inside the problem itself.",
+      "sourceBook": "Naval Ravikant interviewing Kapil Gupta, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=sBtuqpNZwio"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/004-let-us-not-talk-falsely-now.md",
+      "title": "Let Us Not Talk Falsely Now",
+      "subject": "Naval Ravikant",
+      "principle": "Life is a single-player game you get to design — clarity of thought and ruthless prioritization of your time are the real cheat codes, not status.",
+      "sourceBook": "Naval Ravikant interviewing Brett Hall and live Twitter Spaces callers, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=euzoOkBUzsQ"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/005-the-beginning-of-infinity-part-1.md",
+      "title": "The Beginning of Infinity, Part 1",
+      "subject": "Naval Ravikant",
+      "principle": "Good explanations — testable, hard to vary, risky in their predictions — create real knowledge; accumulated data alone never does.",
+      "sourceBook": "Naval Ravikant interviewing Brett Hall, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=jEmJIA0pEf0"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/006-on-artificial-intelligence.md",
+      "title": "On Artificial Intelligence",
+      "subject": "Naval Ravikant",
+      "principle": "Vibe coding makes English the programming language, but the only true test of intelligence — AI's included — is getting what you want out of life.",
+      "sourceBook": "Naval Ravikant, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=sXCKgEl9hBo"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/007-full-episode-the-ai-industrial-revolution.md",
+      "title": "Full Episode: The AI Industrial Revolution",
+      "subject": "Naval Ravikant",
+      "principle": "AI is commoditizing software and hardware, so the last moats are frontier models and human taste — and everyone's job shifts from producer to verifier.",
+      "sourceBook": "Naval Ravikant interviewing Guillermo Rauch, Blake Scholl, Max Hodak, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=v6MWNrVbM4E"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/008-david-deutsch-knowledge-creation-and-the-human-race-part-1.md",
+      "title": "David Deutsch: Knowledge Creation and The Human Race, Part 1",
+      "subject": "Naval Ravikant",
+      "principle": "David Deutsch argues true intelligence must be able to disobey its own programming — until an AI can do that, it isn't AGI, no matter how fluent it sounds.",
+      "sourceBook": "Naval Ravikant interviewing David Deutsch, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=YyxepLfH1ZU"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/009-riding-agi-ai-anxiety-who-funded-covid-defending-taiwan-and-california-empire.md",
+      "title": "Riding AGI, AI Anxiety, Who Funded COVID, Defending Taiwan, and California Empire",
+      "subject": "Naval Ravikant",
+      "principle": "Naval argues AI anxiety is really fear of economic displacement, and the fix isn't retreat — it's becoming an 'AI handler' who pairs taste with agents.",
+      "sourceBook": "Naval Ravikant interviewing Garry Tan, Daniel Francis, Farbood Nivi, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=6m-ZZBCiiEE"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/010-on-vibe-coding.md",
+      "title": "On Vibe Coding",
+      "subject": "Naval Ravikant",
+      "principle": "Vibe coding removes the friction of building software, letting anyone ship a zero-compromise product — which is why Naval calls pure software uninvestable now.",
+      "sourceBook": "Naval Ravikant, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=hTdSU7q5WCo"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/011-matt-ridley-how-innovation-works-part-1.md",
+      "title": "Matt Ridley: How Innovation Works, Part 1",
+      "subject": "Naval Ravikant",
+      "principle": "Ridley argues innovation is evolutionary and incremental, not the work of lone geniuses — freedom to trial, err, and recombine ideas is what actually drives it.",
+      "sourceBook": "Naval Ravikant interviewing Matt Ridley, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=33plHpo3rzU"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/012-sell-the-truth.md",
+      "title": "Sell the Truth",
+      "subject": "Naval Ravikant",
+      "principle": "Sales is a byproduct of credibility, not a skill — persuade by being so honest and objective that people trust you completely.",
+      "sourceBook": "Naval Ravikant, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=l1DQgwomzxU"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/013-on-recruiting.md",
+      "title": "On Recruiting",
+      "subject": "Naval Ravikant",
+      "principle": "Founders can never outsource recruiting — the team you build is the company you build, and the founder's own taste is the ceiling on everyone they hire.",
+      "sourceBook": "Naval Ravikant, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=S8x978NnZSI"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/014-vitalik-ethereum-part-1.md",
+      "title": "Vitalik: Ethereum, Part 1",
+      "subject": "Naval Ravikant",
+      "principle": "Ethereum trades raw computing efficiency for a rarer good — a trustless, censorship-resistant computer verified by thousands of independent nodes instead of one company.",
+      "sourceBook": "Naval Ravikant interviewing Vitalik Buterin and Haseeb Qureshi, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=g87ZSTomZDY"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/015-how-to-angel-invest-part-1.md",
+      "title": "How to Angel Invest, Part 1",
+      "subject": "Naval Ravikant",
+      "principle": "Angel investing rewards patient, plugged-in insiders who chase access and brand inside a real tech hub, because a handful of power-law outcomes decide the whole portfolio.",
+      "sourceBook": "Naval Ravikant, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=YLFHVye3Q7w"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/017-in-the-arena.md",
+      "title": "In the Arena",
+      "subject": "Naval Ravikant",
+      "principle": "Knowledge only becomes usable through action — life is lived in the arena, and abstract principles are just kindling until you test them against a real problem.",
+      "sourceBook": "Naval Ravikant, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=SIkf-4r4DuU"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/018-the-deutsch-files-i.md",
+      "title": "The Deutsch Files I",
+      "subject": "Naval Ravikant",
+      "principle": "Personhood is a binary, not a spectrum — it means being a universal explainer capable of genuine creative disobedience, which is exactly what current AI cannot do.",
+      "sourceBook": "Naval Ravikant interviewing David Deutsch, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=NI1l94sT4oc"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/019-matt-ridley-how-innovation-works-part-2.md",
+      "title": "Matt Ridley: How Innovation Works, Part 2",
+      "subject": "Naval Ravikant",
+      "principle": "Innovation is the child of freedom — a free, creative attempt to satisfy freely expressed human desires, and the safest way to save the planet, not the surest way to destroy it.",
+      "sourceBook": "Naval Ravikant interviewing Matt Ridley, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=pJSwY1LQRGk"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/021-periscope-may-2020.md",
+      "title": "Periscope - May 2020",
+      "subject": "Naval Ravikant",
+      "principle": "Thinking for yourself is the only advice worth giving, precisely because it's a paradox — take it and you're already failing at it.",
+      "sourceBook": "Naval Ravikant, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=fdFxfOJW0gg"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/022-the-deutsch-files-iii.md",
+      "title": "The Deutsch Files III",
+      "subject": "Naval Ravikant",
+      "principle": "Knowledge-laden information is more resilient than any physical object — a civilization that keeps creating explanations outlasts even its own monuments.",
+      "sourceBook": "Naval Ravikant interviewing David Deutsch, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=fizPWAAo-lc"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/023-the-deutsch-files-iv.md",
+      "title": "The Deutsch Files IV",
+      "subject": "Naval Ravikant",
+      "principle": "The four strands of reality are one theory: knowledge is information that survives error correction, and it converges like a crystal across the multiverse.",
+      "sourceBook": "Naval Ravikant interviewing David Deutsch, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=WUEUozkGXes"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/024-david-deutsch-knowledge-creation-and-the-human-race-part-2.md",
+      "title": "David Deutsch: Knowledge Creation and The Human Race, Part 2",
+      "subject": "Naval Ravikant",
+      "principle": "Science isn't a bucket you fill with final truths — it's endless problem-solving, and even our sense of what's 'simple' is downstream of the physics we currently believe.",
+      "sourceBook": "Naval Ravikant interviewing David Deutsch, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=aQfeYBa1MTk"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/025-the-deutsch-files-ii.md",
+      "title": "The Deutsch Files II",
+      "subject": "Naval Ravikant",
+      "principle": "Free will is real: it is the act of creating genuinely new explanatory knowledge that never existed anywhere in the universe before you thought of it.",
+      "sourceBook": "Naval Ravikant interviewing David Deutsch, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=I6GNK6BR4E8"
+    },
+    {
+      "set": "naval-youtube",
+      "file": "content/knowledge/naval/026-vitalik-ethereum-part-2.md",
+      "title": "Vitalik: Ethereum, Part 2",
+      "subject": "Naval Ravikant",
+      "principle": "Protocol politics runs on fear, not greed — and the DAO fork taught Ethereum that moderation, not purity, is what lets a decentralized system survive its own crises.",
+      "sourceBook": "Naval Ravikant interviewing Vitalik Buterin and Haseeb Qureshi, on his own YouTube channel",
+      "youtube": "https://www.youtube.com/watch?v=CdgjGykrByM"
     }
   ]
 }
