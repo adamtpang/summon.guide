@@ -43,6 +43,10 @@ export interface Book {
   skillSlugs?: string[];
   /** ingestion status of this book in our skills pipeline */
   status: "pending" | "partial" | "complete";
+  /** channel only: content/knowledge/ subdirectories holding this channel's
+   *  episode synthesis files. Read by scripts/gen-source-corpus.mjs to build
+   *  src/lib/sourceCorpus.ts, which grounds /chat/source/<slug>. */
+  corpusPaths?: string[];
 }
 
 export const books: Book[] = [
@@ -494,6 +498,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.founderspodcast.com",
     skillSlugs: [],
     status: "partial",
+    corpusPaths: ["content/knowledge/founders", "content/knowledge/interviews"],
   },
 ];
 

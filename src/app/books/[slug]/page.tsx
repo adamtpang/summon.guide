@@ -158,6 +158,23 @@ export default async function BookPage({
                   </svg>
                 </Link>
               )}
+              {book.role === "channel" && (
+                <Link
+                  href={`/chat/source/${book.slug}`}
+                  className="inline-flex items-center gap-2 border border-ink-950 text-ink-950 rounded-full px-5 py-2.5 text-sm font-medium hover:bg-ink-950 hover:text-white transition-all"
+                >
+                  Chat with this corpus
+                  <svg
+                    className="w-4 h-4"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              )}
               {book.amazonUrl && (
                 <a
                   href={book.amazonUrl}
