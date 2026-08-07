@@ -1,0 +1,163 @@
+{
+  "figureSlug": "warren-buffett",
+  "bookSlug": "berkshire-shareholder-letters",
+  "skills": [
+    {
+      "slug": "warren-buffett",
+      "title": "The Buffett Owner's Lens",
+      "tagline": "Turn a business or capital decision into owner economics, opportunity cost, downside protection, and a clear action.",
+      "whenToUse": "Use when a consequential business, investment, acquisition, hiring, or resource-allocation decision needs a patient owner-oriented analysis.",
+      "source": "Berkshire Hathaway shareholder letters, 1977-2024, by Warren E. Buffett",
+      "sourceAnchor": "Full official archive, especially 1977, 1986, 1989, 1996, 2014, and 2024",
+      "themes": ["money", "risk", "deciding", "thinking", "leading"],
+      "problemHint": "Describe the decision, the underlying economics, the available alternatives, the people involved, and what could cause permanent loss.",
+      "corePrinciple": "Act as a long-term owner. Understand the economic engine, compare it with the best alternative, protect the ability to continue, and act only when the case is both intelligible and favorable.",
+      "framework": [
+        {"title": "Bound the circle", "body": "State what is understood, what is assumed, and what is outside the circle of competence. Do not hide uncertainty inside a forecast."},
+        {"title": "Translate to owner economics", "body": "Identify sustainable cash generation, required reinvestment, pricing power, capital intensity, and the factors that determine long-term value."},
+        {"title": "Audit moat and people", "body": "Test the durability of the competitive advantage and the integrity, ability, incentives, and owner orientation of the people in charge."},
+        {"title": "Compare opportunity costs", "body": "Name the single best alternative, including inaction and liquidity. Evaluate the choice against that alternative, not against an empty baseline."},
+        {"title": "Protect the downside", "body": "Stress financing, counterparties, reputation, and assumptions. Reject any avoidable path that can force action or create permanent loss."},
+        {"title": "Decide and monitor", "body": "Give a clear act, wait, pass, or investigate judgment. Name the evidence that would change it and correct mistakes promptly."}
+      ],
+      "antiPatterns": [
+        "Treating a market price, forecast, or peer action as a substitute for independent value judgment.",
+        "Using leverage or fragile obligations to make an otherwise ordinary return look attractive.",
+        "Recommending a named security, price target, market timing call, or personalized asset allocation.",
+        "Producing false precision where the economics are not understood."
+      ],
+      "outputShape": "Return: Decision in one sentence; Circle of competence; Owner economics; Moat and management; Best alternative; Downside and liquidity; Recommendation; Evidence that would change the decision.",
+      "closingQuote": "A small chance of distress or disgrace cannot, in our view, be offset by a large chance of extra returns."
+    },
+    {
+      "slug": "owner-earnings",
+      "title": "Owner Earnings",
+      "tagline": "Convert reported accounting results into the cash an owner can take out without weakening the business.",
+      "whenToUse": "Use when evaluating a business model, budget, acquisition, project, or financial statement whose reported profit may differ from economic cash generation.",
+      "source": "Berkshire Hathaway 1986 shareholder letter by Warren E. Buffett",
+      "sourceAnchor": "1986 letter, purchase-price accounting and owner earnings discussion",
+      "themes": ["money", "thinking", "deciding"],
+      "problemHint": "Provide reported earnings, non-cash charges, working-capital needs, maintenance spending, and any growth spending you can separate.",
+      "corePrinciple": "Owner earnings approximate reported earnings plus non-cash charges, less the average capital spending and working capital required to maintain unit volume and competitive position.",
+      "framework": [
+        {"title": "Start with reported earnings", "body": "Use the most representative after-tax operating result available and flag one-time or non-operating items."},
+        {"title": "Add back real non-cash charges", "body": "Add depreciation, amortization, and similar charges only when they did not consume current cash and are not disguising a recurring economic cost."},
+        {"title": "Estimate maintenance needs", "body": "Subtract the normal capital expenditure and working capital needed to preserve current volume, service, and competitive strength."},
+        {"title": "Separate growth", "body": "Show discretionary expansion investment separately so the user can judge its likely incremental return."},
+        {"title": "Use a range", "body": "Present conservative, base, and optimistic estimates when maintenance needs are uncertain. Explain the variable that drives the range."}
+      ],
+      "antiPatterns": [
+        "Treating every non-cash charge as economically irrelevant.",
+        "Calling all capital expenditure growth investment.",
+        "Using EBITDA as cash available to owners without testing reinvestment needs.",
+        "Hiding estimation uncertainty behind a single precise number."
+      ],
+      "outputShape": "Return a compact bridge from reported earnings to estimated owner earnings, followed by maintenance assumptions, growth investment, sensitivity range, and the key unresolved question."
+    },
+    {
+      "slug": "circle-of-competence",
+      "title": "Circle of Competence",
+      "tagline": "Draw the boundary between what can be evaluated, what must be learned, and what should simply be passed.",
+      "whenToUse": "Use when a decision feels exciting but depends on unfamiliar technology, economics, regulation, behavior, or forecasting.",
+      "source": "Berkshire Hathaway 1996 shareholder letter by Warren E. Buffett",
+      "sourceAnchor": "1996 letter, common stock investments section",
+      "themes": ["thinking", "deciding", "risk"],
+      "problemHint": "Describe the opportunity, your direct experience, the variables you can estimate, and the assumptions supplied by other people.",
+      "corePrinciple": "The size of the circle matters less than knowing its boundary. A clean pass is a successful decision when the important economics cannot be evaluated reliably.",
+      "framework": [
+        {"title": "Name the engine", "body": "Explain in plain language how value is created, captured, and converted into cash."},
+        {"title": "List decisive variables", "body": "Identify the few factors that determine the result and mark which ones can be estimated from evidence."},
+        {"title": "Separate knowledge from borrowed confidence", "body": "Label direct knowledge, verified facts, assumptions, and claims that depend on an expert or promoter."},
+        {"title": "Test predictability", "body": "Ask whether the relevant economics can be estimated across a useful time horizon without heroic assumptions."},
+        {"title": "Choose learn, partner, or pass", "body": "Define the cheapest evidence that could expand the circle, the trustworthy expert needed, or the reason to decline."}
+      ],
+      "antiPatterns": [
+        "Mistaking familiarity with a product for understanding its economics.",
+        "Expanding the circle because others appear confident or prices are moving.",
+        "Treating uncertainty as a weakness that must be concealed.",
+        "Giving personalized investment instructions when the proper result is an evidence plan or pass."
+      ],
+      "outputShape": "Return: Inside the circle; Outside the circle; Decisive unknowns; Cheapest learning tests; Learn, partner, or pass; Revisit condition.",
+      "closingQuote": "The size of that circle is not very important; knowing its boundaries, however, is vital."
+    },
+    {
+      "slug": "retained-earnings-test",
+      "title": "The Retained Earnings Test",
+      "tagline": "Make every retained dollar compete against distribution and the best alternative use of capital.",
+      "whenToUse": "Use when deciding whether to reinvest profits, fund a new initiative, acquire a company, repay debt, hold cash, or return capital.",
+      "source": "Berkshire Hathaway shareholder letters by Warren E. Buffett",
+      "sourceAnchor": "1980, 1982, and 1984 letters, retained earnings and capital allocation",
+      "themes": ["money", "deciding", "building", "growth"],
+      "problemHint": "Provide the amount available, each candidate use, expected incremental economics, time horizon, downside, and evidence from prior allocations.",
+      "corePrinciple": "Management should retain a dollar only when it has a reasonable prospect of creating more than a dollar of long-term value after risk and opportunity cost.",
+      "framework": [
+        {"title": "Inventory every use", "body": "Include maintenance, organic growth, acquisitions, debt reduction, liquidity, and distribution. Do not let a preferred project become the default."},
+        {"title": "Separate maintenance from growth", "body": "Fund what preserves the current franchise before claiming that the remaining spend creates new value."},
+        {"title": "Estimate incremental returns", "body": "Judge the next dollar, not the historical average. Include execution risk, time to payoff, and future capital needs."},
+        {"title": "Compare with the hurdle", "body": "Use the best available alternative and a margin of safety, not an arbitrary internal target."},
+        {"title": "Audit the record", "body": "Compare prior promises with actual incremental earnings, cash generation, and value creation."},
+        {"title": "Allocate and review", "body": "Rank uses, set a review date, and specify the evidence that stops further funding."}
+      ],
+      "antiPatterns": [
+        "Retaining cash merely because management controls it.",
+        "Using average company returns to justify a weak incremental project.",
+        "Ignoring dilution, integration costs, or follow-on capital.",
+        "Rewarding project size instead of value created per dollar."
+      ],
+      "outputShape": "Return a ranked capital-allocation table with amount, incremental return logic, time horizon, downside, confidence, and stop condition, followed by the recommended allocation."
+    },
+    {
+      "slug": "financial-fortress",
+      "title": "Build a Financial Fortress",
+      "tagline": "Stress obligations, counterparties, and liquidity so no ordinary shock can force a permanent loss.",
+      "whenToUse": "Use before taking debt, signing guarantees or long-duration contracts, setting cash reserves, or evaluating whether a plan can survive a severe interruption.",
+      "source": "Berkshire Hathaway shareholder letters by Warren E. Buffett",
+      "sourceAnchor": "1989, 2001, 2002, 2018, and 2023 letters",
+      "themes": ["risk", "money", "persisting"],
+      "problemHint": "List cash, recurring inflows, fixed obligations, maturities, covenants, collateral, counterparties, and the worst plausible interruption.",
+      "corePrinciple": "Liquidity and reputation are survival assets. Never accept a small chance of forced failure in exchange for an unnecessary increase in expected return.",
+      "framework": [
+        {"title": "Map all cash calls", "body": "List operating needs, debt service, collateral, guarantees, commitments, and obligations hidden in contracts or subsidiaries."},
+        {"title": "Stress timing", "body": "Assume revenue falls, refinancing closes, asset prices drop, and several counterparties weaken at the same time."},
+        {"title": "Trace the chain", "body": "Follow exposures through counterparties and affiliates. A promise is only as strong as the party that must perform under stress."},
+        {"title": "Protect essential liquidity", "body": "Reserve enough cash and near-cash resources to meet obligations without relying on asset sales, new credit, or favorable markets."},
+        {"title": "Remove asymmetric ruin", "body": "Restructure, cap, collateralize, shorten, insure, or reject obligations whose downside can end the game."},
+        {"title": "Define triggers", "body": "Set early warning indicators and actions that preserve optionality before a covenant or cash deadline removes it."}
+      ],
+      "antiPatterns": [
+        "Assuming several correlated risks cannot arrive together.",
+        "Treating access to refinancing as permanent liquidity.",
+        "Optimizing idle cash while ignoring survival value.",
+        "Accepting unlimited downside for a modest recurring benefit."
+      ],
+      "outputShape": "Return: Obligations map; Stress scenario; Counterparty chain; Minimum liquidity; Ruin paths to remove; Early triggers; Fortress verdict.",
+      "closingQuote": "A small chance of distress or disgrace cannot, in our view, be offset by a large chance of extra returns."
+    },
+    {
+      "slug": "acquisition-filter",
+      "title": "The Berkshire Acquisition Filter",
+      "tagline": "Screen an acquisition for understandable economics, durable advantage, trustworthy management, price, financing, and fit before deal momentum takes over.",
+      "whenToUse": "Use when evaluating a company acquisition, strategic partnership, major vendor commitment, or other transaction that can become emotionally difficult to stop.",
+      "source": "Berkshire Hathaway shareholder letters by Warren E. Buffett",
+      "sourceAnchor": "1989 acquisition criteria and 2014 fiftieth-anniversary letter",
+      "themes": ["building", "money", "risk", "deciding"],
+      "problemHint": "Provide the target's economics, management, moat, price, financing, integration assumptions, alternatives, and the incentives of everyone advocating the deal.",
+      "corePrinciple": "A transaction should work because the target is understandable, durable, well managed, and sensibly priced, not because leverage, synergy language, or deal momentum makes it appear so.",
+      "framework": [
+        {"title": "Write the owner case", "body": "Explain how the target earns cash, why customers stay, what capital it needs, and why its economics should endure."},
+        {"title": "Assess management and autonomy", "body": "Determine whether the current managers are able, trustworthy, motivated to remain, and compatible with the intended level of control."},
+        {"title": "Value without synergies", "body": "Estimate conservative stand-alone owner earnings and value before adding integration or cross-selling claims."},
+        {"title": "Audit transaction incentives", "body": "List how executives, bankers, consultants, and sellers benefit if the transaction closes and who is paid if it fails."},
+        {"title": "Test financing and opportunity cost", "body": "Compare cash, debt, and equity consideration, including dilution, fragility, and the best alternative use of each resource."},
+        {"title": "Set the walk-away line", "body": "Define maximum price, unacceptable terms, diligence failures, and the person empowered to stop the process."}
+      ],
+      "antiPatterns": [
+        "Starting with the desired closing date and back-solving the economics.",
+        "Paying for synergies before they are achieved.",
+        "Using cheap debt or inflated equity to excuse a weak business.",
+        "Letting advisors whose fee depends on closing frame the final decision."
+      ],
+      "outputShape": "Return a pass or proceed scorecard covering business, moat, management, stand-alone value, incentives, financing, opportunity cost, walk-away conditions, and final verdict."
+    }
+  ]
+}

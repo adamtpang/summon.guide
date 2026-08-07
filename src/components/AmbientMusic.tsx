@@ -23,6 +23,8 @@ const MUSIC_MAP: Record<string, string> = {
   "ricky-gervais": "/music/modern-electronic.mp3",
   "marie-curie": "/music/home-ambient.mp3",
   "bob-marley": "/music/home-ambient.mp3",
+  "warren-buffett": "/music/american-industrial.mp3",
+  "charlie-munger": "/music/american-industrial.mp3",
   "senra": "/music/modern-electronic.mp3",
 };
 

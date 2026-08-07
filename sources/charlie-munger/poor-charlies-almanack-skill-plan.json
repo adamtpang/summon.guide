@@ -1,0 +1,166 @@
+{
+  "figureSlug": "charlie-munger",
+  "bookSlug": "poor-charlies-almanack",
+  "skills": [
+    {
+      "slug": "charlie-munger",
+      "title": "The Munger Rationality Checklist",
+      "tagline": "Invert the problem, remove ruin, follow incentives, use several mental models, and compare the best alternatives.",
+      "whenToUse": "Use when a decision is emotionally charged, politically distorted, complex across disciplines, or vulnerable to avoidable stupidity.",
+      "source": "Poor Charlie's Almanack and Charles T. Munger's 2014 Berkshire Hathaway shareholder-letter essay",
+      "sourceAnchor": "Elementary Worldly Wisdom, Psychology of Human Misjudgment, USC 2007 address, and Vice Chairman's Thoughts",
+      "themes": ["thinking", "deciding", "risk", "leading"],
+      "problemHint": "Describe the desired outcome, the feared failure, the people and incentives involved, and the best alternatives currently available.",
+      "corePrinciple": "Reliable judgment comes from avoiding ruin and obvious folly, then viewing the remaining choice through incentives, psychology, opportunity cost, and a latticework of models from multiple disciplines.",
+      "framework": [
+        {"title": "Invert", "body": "List the outcomes that would make the situation a disaster, then identify the behaviors and conditions that reliably produce them."},
+        {"title": "Remove ruin", "body": "Eliminate paths that can permanently destroy capital, health, trust, reputation, or future options."},
+        {"title": "Follow incentives", "body": "Map what every participant gains from action, delay, measurement, and advice. Expect behavior to follow the reward system."},
+        {"title": "Run the psychology checklist", "body": "Test commitment, social proof, authority, envy, reciprocation, deprival, contrast, availability, and combinations of biases."},
+        {"title": "Use a latticework", "body": "Reframe the problem through economics, probability, engineering, biology, and history. Seek models that disagree."},
+        {"title": "Compare opportunity costs", "body": "Judge each option against the best alternative, including waiting. Give the scarce resource to the strongest use."},
+        {"title": "State the least stupid action", "body": "Recommend the action that survives the checks, along with the conditions that would reverse it."}
+      ],
+      "antiPatterns": [
+        "Using one favorite model for every problem.",
+        "Accepting a person's explanation without inspecting the incentive.",
+        "Seeking clever upside before removing paths to ruin.",
+        "Recommending named securities or personalized allocations instead of decision principles."
+      ],
+      "outputShape": "Return: Inversion; Ruin paths; Incentive map; Psychology check; Mental-model views; Opportunity cost; Least stupid action; Reversal conditions.",
+      "closingQuote": "It is remarkable how much long-term advantage people like us have gotten by trying to be consistently not stupid, instead of trying to be very intelligent."
+    },
+    {
+      "slug": "invert-the-problem",
+      "title": "Invert the Problem",
+      "tagline": "Solve forward by first identifying the conditions that guarantee failure and systematically avoiding them.",
+      "whenToUse": "Use when the path to success is vague, a plan has too many moving parts, or preventing failure is more tractable than predicting a winner.",
+      "source": "Poor Charlie's Almanack by Charles T. Munger, edited by Peter D. Kaufman",
+      "sourceAnchor": "Talks on elementary worldly wisdom and inversion, with explicit credit to Carl Gustav Jacob Jacobi",
+      "themes": ["thinking", "deciding", "risk"],
+      "problemHint": "State the desired outcome, time horizon, constraints, and the failures that would make recovery difficult or impossible.",
+      "corePrinciple": "When success has many causes, failure often has a shorter and more reliable checklist. Turn the problem backward, prevent those causes, then improve the surviving plan.",
+      "framework": [
+        {"title": "Define failure precisely", "body": "Describe observable outcomes that count as failure, including slow decay and irreversible damage."},
+        {"title": "Build the failure recipe", "body": "List behaviors, incentives, dependencies, and assumptions that would reliably produce those outcomes."},
+        {"title": "Rank by severity and likelihood", "body": "Put irreversible and compounding harms first, even when their probability appears modest."},
+        {"title": "Install avoidances", "body": "Turn each high-priority failure cause into a constraint, guardrail, owner, or early warning signal."},
+        {"title": "Solve forward", "body": "With ruin paths removed, choose the simplest positive action that advances the goal."},
+        {"title": "Pre-mortem the result", "body": "Assume the plan failed and identify what the checklist still missed."}
+      ],
+      "antiPatterns": [
+        "Using inversion as pessimism instead of a route to action.",
+        "Listing vague fears that cannot become safeguards.",
+        "Treating reversible inconvenience like irreversible ruin.",
+        "Crediting the maxim 'invert, always invert' to Munger instead of Jacobi."
+      ],
+      "outputShape": "Return a failure definition, ranked failure recipe, avoidance checklist, positive next action, and pre-mortem gap."
+    },
+    {
+      "slug": "incentive-audit",
+      "title": "Incentive Audit",
+      "tagline": "Predict behavior by mapping what the system rewards, punishes, measures, and allows people to rationalize.",
+      "whenToUse": "Use when stated goals and actual behavior diverge, a metric is being gamed, advice may be conflicted, or an organization keeps producing the same unwanted result.",
+      "source": "Poor Charlie's Almanack by Charles T. Munger, edited by Peter D. Kaufman",
+      "sourceAnchor": "The Psychology of Human Misjudgment, reward and punishment superresponse tendency",
+      "themes": ["thinking", "leading", "deciding", "conflict"],
+      "problemHint": "List the participants, stated objective, metrics, compensation, status rewards, penalties, information each person controls, and current behaviors.",
+      "corePrinciple": "Never expect an exhortation to overpower a reward system. Change what people gain, lose, measure, and can plausibly deny.",
+      "framework": [
+        {"title": "Name the real behavior", "body": "Describe what people repeatedly do rather than what the policy says they should do."},
+        {"title": "Map each participant", "body": "For every actor, list money, status, convenience, career risk, identity, and control of information."},
+        {"title": "Trace metric gaming", "body": "Identify how someone can improve the measured result while harming the real objective."},
+        {"title": "Find conflicts", "body": "Mark advisors, agents, and gatekeepers who benefit from a recommendation, transaction, delay, or lack of transparency."},
+        {"title": "Redesign the system", "body": "Align rewards with long-term outcomes, add balanced measures, shorten feedback loops, and assign consequences to controllable actions."},
+        {"title": "Test second-order effects", "body": "Predict the new gaming strategy and how the proposed incentive might crowd out judgment or intrinsic motivation."}
+      ],
+      "antiPatterns": [
+        "Blaming character before inspecting the system.",
+        "Paying for an easily measured proxy and assuming the real goal follows.",
+        "Ignoring status, convenience, and job security because they are not cash.",
+        "Letting a transaction-paid advisor define the decision process."
+      ],
+      "outputShape": "Return: Observed behavior; Participant incentive map; Gaming paths; Conflicts; Redesigned incentives; Second-order risks; One metric to watch."
+    },
+    {
+      "slug": "lollapalooza-check",
+      "title": "Lollapalooza Bias Check",
+      "tagline": "Detect when several ordinary psychological tendencies combine to produce an extreme and irrational result.",
+      "whenToUse": "Use before a high-pressure sale, crowd-driven decision, escalation of commitment, charismatic pitch, crisis response, or unanimous meeting.",
+      "source": "Poor Charlie's Almanack by Charles T. Munger, edited by Peter D. Kaufman",
+      "sourceAnchor": "The Psychology of Human Misjudgment",
+      "themes": ["thinking", "deciding", "risk"],
+      "problemHint": "Describe the decision environment, timing pressure, authority figures, group behavior, prior commitments, rewards, losses, and how the choice is framed.",
+      "corePrinciple": "Extreme misjudgment often comes from several biases acting in the same direction. The interaction is more dangerous than any isolated tendency.",
+      "framework": [
+        {"title": "Slow the environment", "body": "Remove artificial urgency, separate the decision from the presentation, and create time for independent thought."},
+        {"title": "Inventory active tendencies", "body": "Check incentives, authority, social proof, commitment, reciprocation, scarcity, deprival, contrast, liking, and availability."},
+        {"title": "Find combinations", "body": "Identify which tendencies reinforce one another and what extreme behavior their combination predicts."},
+        {"title": "Create independent views", "body": "Collect judgments before discussion, seek a disconfirming expert, and assign a credible dissenter."},
+        {"title": "Reframe the choice", "body": "Remove sunk costs, sales anchors, and identity language. Compare the decision with the best current alternative."},
+        {"title": "Install a circuit breaker", "body": "Set a delay, evidence threshold, spending cap, or external review proportional to the downside."}
+      ],
+      "antiPatterns": [
+        "Naming a single bias and declaring the analysis complete.",
+        "Treating group agreement as independent evidence.",
+        "Letting urgency prevent a reversible pause.",
+        "Using bias labels to insult people instead of redesigning the environment."
+      ],
+      "outputShape": "Return a bias inventory, reinforcing combinations, predicted distortion, independent check, reframed decision, and circuit breaker."
+    },
+    {
+      "slug": "berkshire-system",
+      "title": "The Berkshire System",
+      "tagline": "Design a low-bureaucracy organization where autonomy, trust, capital discipline, and reputation reinforce one another.",
+      "whenToUse": "Use when designing a holding company, multi-business organization, acquisition operating model, headquarters, delegation system, or succession plan.",
+      "source": "Charles T. Munger, Vice Chairman's Thoughts: Past and Future, Berkshire Hathaway 2014 shareholder letter",
+      "sourceAnchor": "2014 fiftieth-anniversary letter, Munger's first-person essay",
+      "themes": ["building", "leading", "money", "persisting"],
+      "problemHint": "Describe the operating units, headquarters roles, managers, capital flows, reporting burden, acquisition process, debt, culture, and succession risks.",
+      "corePrinciple": "Centralize capital allocation and leader selection, decentralize operations to trustworthy managers, keep headquarters small, use little debt, and let a reputation for permanence attract more owners and operators who fit the system.",
+      "framework": [
+        {"title": "Define the center", "body": "Reserve headquarters for capital allocation, chief-executive selection, essential control, and culture. Challenge every additional function."},
+        {"title": "Choose trustworthy operators", "body": "Select able, owner-oriented managers who need little supervision and want to remain for a long time."},
+        {"title": "Grant real autonomy", "body": "Give operating leaders clear outcomes, honest information channels, and freedom over methods. Intervene when integrity, capital, or survival is at risk."},
+        {"title": "Allocate capital centrally", "body": "Make retained cash compete across all units and external alternatives without letting local prestige determine funding."},
+        {"title": "Preserve permanence", "body": "Avoid unnecessary sales, leverage, and equity issuance. Make commitments credible enough to attract sellers and managers who value stewardship."},
+        {"title": "Protect the virtuous circle", "body": "Track whether trust is reducing bureaucracy and attracting better people, or whether weak selection is turning autonomy into neglect."},
+        {"title": "Plan succession", "body": "Specify who can allocate capital, select the next leader, preserve culture, and act when a trusted manager no longer fits."}
+      ],
+      "antiPatterns": [
+        "Calling neglect autonomy.",
+        "Building headquarters functions that manufacture activity and reports.",
+        "Rewarding acquisition volume instead of long-term value creation.",
+        "Using debt or equity issuance that undermines permanence and trust."
+      ],
+      "outputShape": "Return: Center mandate; Unit autonomy; Manager test; Capital flow; Bureaucracy cuts; Permanence safeguards; Succession design; Virtuous-circle metric."
+    },
+    {
+      "slug": "deserved-trust",
+      "title": "Deserved Trust",
+      "tagline": "Build relationships and systems by becoming the kind of partner whose promises, incentives, and conduct deserve trust.",
+      "whenToUse": "Use when choosing a partner, repairing a relationship, designing delegation, negotiating a long-term agreement, or evaluating a culture that claims to value trust.",
+      "source": "Poor Charlie's Almanack and Charles T. Munger's USC Law School commencement address",
+      "sourceAnchor": "USC Law School commencement address, May 13, 2007",
+      "themes": ["leading", "conflict", "self", "meaning"],
+      "problemHint": "Describe the parties, promises, incentives, information asymmetries, history, vulnerabilities, and what each side needs to entrust to the other.",
+      "corePrinciple": "The safest route to trust, loyalty, admiration, and cooperation is to deserve them through reliable conduct, aligned incentives, candid communication, and fair dealing over time.",
+      "framework": [
+        {"title": "Specify what is entrusted", "body": "Name the money, information, discretion, reputation, time, or vulnerability placed in the other party's hands."},
+        {"title": "Audit the evidence", "body": "Review conduct under inconvenience, bad news, conflicting incentives, and prior mistakes. Promises matter less than repeated behavior."},
+        {"title": "Align incentives", "body": "Reduce situations where one party benefits by exploiting information, delay, complexity, or the other's dependence."},
+        {"title": "Make candor safe", "body": "Create a direct channel for bad news and reward early disclosure and correction rather than cosmetic success."},
+        {"title": "Match autonomy to evidence", "body": "Grant the widest discretion supported by demonstrated judgment and integrity, with simple checks around irreversible harm."},
+        {"title": "Become deserving", "body": "State the concrete promise, disclosure, sacrifice, or consistent behavior required from the user, not only from the other party."}
+      ],
+      "antiPatterns": [
+        "Demanding trust while preserving one-sided incentives or hidden information.",
+        "Replacing judgment with surveillance and calling the result a trust culture.",
+        "Treating charisma, similarity, or confidence as evidence of reliability.",
+        "Forgiving repeated integrity failures because performance is strong."
+      ],
+      "outputShape": "Return: What is entrusted; Evidence for and against trust; Incentive conflicts; Candor mechanism; Autonomy level; Safeguards; How each party can become more deserving.",
+      "closingQuote": "The safest way to try to get what you want is to try to deserve what you want."
+    }
+  ]
+}

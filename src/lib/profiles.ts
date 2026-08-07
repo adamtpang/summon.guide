@@ -802,6 +802,61 @@ export const profiles: Record<string, Profile> = {
       "Portrait photograph by Eddie Mallin (Dublin, 6 July 1980), CC BY 2.0, via Wikimedia Commons"
     ]
   },
+  "warren-buffett": {
+    slug: "warren-buffett",
+    occupation: "Investor and philanthropist; chairman and former CEO of Berkshire Hathaway",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Warren_Buffett",
+    fullName: "Warren Edward Buffett",
+    birthDate: "August 30, 1930",
+    birthPlace: "Omaha, Nebraska, U.S.",
+    nationality: "American",
+    education: [
+      "Wharton School of the University of Pennsylvania (1947 to 1949)",
+      "University of Nebraska, B.S. in business administration (1950)",
+      "Columbia University, M.S. in economics (1951)",
+      "New York Institute of Finance",
+    ],
+    occupations: [
+      "Investor",
+      "Chairman of Berkshire Hathaway",
+      "CEO of Berkshire Hathaway, 1970 to 2025",
+      "Philanthropist",
+    ],
+    yearsActive: "1951-present",
+    notableWorks: [
+      "Buffett Partnership Ltd., founded in 1956 and dissolved in 1969",
+      "Berkshire Hathaway, controlled since 1965 and chaired since 1970",
+      "Berkshire Hathaway annual shareholder letters, 1977 to 2024",
+      "The Giving Pledge, co-founded with Bill and Melinda Gates in 2010",
+    ],
+    spouses: [
+      "Susan Thompson (m. 1952; d. 2004)",
+      "Astrid Menks (m. 2006)",
+    ],
+    children: "3: Susan Alice, Howard Graham, and Peter Andrew",
+    parents: ["Howard Homan Buffett", "Leila Stahl Buffett"],
+    awards: ["Presidential Medal of Freedom (2011)"],
+    earlyLife: "Warren Edward Buffett was born in Omaha, Nebraska, on August 30, 1930, the second of three children of Leila Stahl Buffett and Howard Buffett, a stockbroker who later served in Congress. Fascinated by numbers and business, he sold chewing gum and Coca-Cola door to door, delivered newspapers, bought his first shares at eleven, and filed his first tax return at thirteen. He attended the Wharton School before transferring to the University of Nebraska, then earned a master's degree in economics at Columbia, where Benjamin Graham and David Dodd taught him to treat a share as ownership in a business and to demand a margin of safety.\n\nAfter Columbia, Buffett studied public speaking with Dale Carnegie and taught an investment class in Omaha. Graham initially declined to hire him, but Buffett joined Graham-Newman in New York in 1954. When Graham retired two years later, Buffett returned to Omaha and formed Buffett Partnership Ltd. with capital from family and friends. His partnership letters already emphasized alignment, measured performance, independent judgment, and avoiding permanent loss rather than predicting markets.",
+    career: "Buffett took control of the struggling textile manufacturer Berkshire Hathaway in 1965 after a dispute over a tender offer. He later called the purchase a major mistake, but used the corporate shell to build a radically different enterprise. The acquisition of National Indemnity in 1967 gave Berkshire insurance float that could be invested until claims came due. Subsequent purchases, including See's Candies, GEICO, Nebraska Furniture Mart, BNSF, and a collection of large public-company holdings, turned Berkshire into a decentralized conglomerate with capital allocation and manager selection concentrated at its tiny Omaha headquarters.\n\nCharlie Munger, whom Buffett met in 1959, persuaded him to move beyond Benjamin Graham's bargain-priced cigar butts and pay sensible prices for exceptional businesses. Buffett described See's as the decisive lesson: a company with pricing power, low incremental capital needs, loyal customers, and managers who could operate autonomously. The Berkshire partnership combined Buffett's capital allocation and communication with Munger's insistence on business quality, opportunity cost, incentives, and avoiding obvious folly.\n\nBuffett served as Berkshire's chief executive from 1970 through 2025. Greg Abel became CEO on January 1, 2026, while Buffett remained chairman. From 1977 through 2024 Buffett's annual letters explained Berkshire's results and operating principles to shareholders in unusually plain language, including owner earnings, the retained-earnings test, economic moats, the institutional imperative, acquisition discipline, liquidity, reputation, and the prompt correction of mistakes.",
+    legacy: "Buffett is among the most influential investors and business writers of the modern era. His distinctive contribution was not merely buying underpriced securities, but joining disciplined valuation to a permanent-capital company designed around trust, decentralized authority, conservative financing, and patient ownership. The shareholder letters became a practical course in accounting, capital allocation, management, psychology, and stewardship because they exposed errors as well as successes and addressed shareholders as partners.\n\nHe has pledged to give away more than 99 percent of his wealth and, with Bill and Melinda Gates, created the Giving Pledge to encourage other wealthy people to commit most of their fortunes to philanthropy. His most durable lesson is temperamental: stay inside what you can understand, wait for a favorable opportunity, avoid risks that can end the game, choose trustworthy partners, and let sound economics compound for a very long time.",
+    notableQuotes: [
+      "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.",
+      "Time is the friend of the wonderful business, the enemy of the mediocre.",
+      "Our favorite holding period is forever.",
+      "Mr. Market is there to serve you, not to guide you.",
+      "The size of that circle is not very important; knowing its boundaries, however, is vital.",
+      "A small chance of distress or disgrace cannot, in our view, be offset by a large chance of extra returns.",
+    ],
+    primarySources: [
+      "Berkshire Hathaway shareholder letters, 1977 to 2024 (official archive)",
+      "Buffett Partnership letters, 1959 to 1969",
+      "Berkshire Hathaway 2014 shareholder letter, fiftieth-anniversary reflections by Buffett and Munger",
+      "Berkshire Hathaway 2024 shareholder letter",
+      "Warren Buffett's November 2025 Thanksgiving message to shareholders",
+      "The Snowball: Warren Buffett and the Business of Life by Alice Schroeder (2008)",
+    ],
+  },
+
   "charlie-munger": {
     "slug": "charlie-munger",
     "occupation": "Investor, lawyer, and vice chairman of Berkshire Hathaway; Warren Buffett's partner for more than sixty years",
