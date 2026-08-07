@@ -291,7 +291,11 @@ export default function ChatPage({
             if (data === "[DONE]") continue;
             try {
               const parsed = JSON.parse(data);
-              if (parsed.error) { accumulated = "I cannot respond right now."; setStreamingContent(accumulated); break; }
+              if (parsed.error) {
+                accumulated = parsed.error;
+                setStreamingContent(accumulated);
+                break;
+              }
               if (parsed.text) { accumulated += parsed.text; setStreamingContent(accumulated); }
             } catch { /* skip */ }
           }
@@ -741,6 +745,11 @@ function getSuggestedQuestions(slug: string): string[] {
       "I keep getting knocked down, how do I find the strength to keep showing up?",
       "Someone hurt me badly and I want to get even: how do I choose one love over revenge?",
       "How do I free my own mind from the fear and the labels other people put on me?",
+    ],
+    "senra": [
+      "What's the one book I should actually be reading for the problem I'm dealing with right now?",
+      "How do I know if I actually believe in what I'm building, or if I'm just performing confidence?",
+      "Is my problem really about money, or is it about losing control?",
     ],
   };
   return questions[slug] || ["What was your most important decision?", "What advice for a young person?"];

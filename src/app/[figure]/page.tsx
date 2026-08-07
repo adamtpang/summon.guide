@@ -541,7 +541,7 @@ function BookCard({ book, accentColor }: { book: Book; accentColor: string }) {
         </span>
         {book.amazonUrl ? (
           <span className="text-ink-950 inline-flex items-center gap-1 group-hover:underline">
-            View on Amazon
+            {book.role === "channel" ? "Listen" : "View on Amazon"}
             <ExternalIcon />
           </span>
         ) : null}

@@ -165,7 +165,7 @@ export default async function BookPage({
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 border border-warm-300 rounded-full px-5 py-2.5 text-sm hover:border-ink-950 transition-colors"
                 >
-                  Read the book
+                  {book.role === "channel" ? "Listen" : "Read the book"}
                   <svg
                     className="w-3.5 h-3.5"
                     viewBox="0 0 24 24"

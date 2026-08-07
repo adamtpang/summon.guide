@@ -1476,6 +1476,99 @@ export const skills: Skill[] = [
     problemHint:
       "This plan is supposed to be self sufficient forever but I have no idea what happens when something we did not expect goes wrong.",
   },
+
+  // Founders Podcast
+  {
+    slug: "senra",
+    figureSlug: "senra",
+    title: "The Senra Reading",
+    tagline:
+      "Run a decision through the same four tests Senra runs on every founder he studies: primary sources, belief before ability, control over money, and money as a byproduct of service.",
+    whenToUse:
+      "Use when you need to size up a founder, a business decision, or your own situation the way Senra sizes up a subject before he will trust a lesson from it.",
+    source: "Founders Podcast by David Senra",
+    sourceAnchor: "Recurring pattern across the full catalog, especially the Rockefeller, Elon Musk, Daniel Ek, James Dyson, and Todd Graves episodes",
+    command: "/senra:senra",
+    umbrella: true,
+    themes: ["deciding","starting","thinking"],
+    problemHint:
+      "I want to know if this founder, this deal, or this plan of mine actually holds up, not just whether the story sounds good.",
+  },
+  {
+    slug: "primary-source-first",
+    figureSlug: "senra",
+    title: "Read the Primary Source First",
+    tagline:
+      "Before trusting what anyone says about a person's methods, including a summary like this one, go to their own letters, autobiography, or collected words first.",
+    whenToUse:
+      "You are about to base a decision on what someone said a founder, a competitor, or an expert believes or did, and you have not gone to that person's own words yet.",
+    source: "Founders Podcast by David Senra",
+    sourceAnchor: "Reading pattern across the catalog: Steve Jobs in His Own Words, 38 Letters John D. Rockefeller Wrote to His Son, 400 Pages of Warren Buffett and Charlie Munger in Their Own Words, Lessons from Jeff Bezos's Shareholder Letters, Napoleon: His Written and Spoken Words",
+    command: "/senra:primary-source-first",
+    themes: ["thinking","deciding"],
+    problemHint:
+      "I keep forming an opinion of someone from what other people say about them and I have never actually read their own words.",
+  },
+  {
+    slug: "belief-before-ability",
+    figureSlug: "senra",
+    title: "Belief Before Ability",
+    tagline:
+      "Check whether conviction showed up before any evidence justified it. That order, not talent, is what actually predicts who builds the thing.",
+    whenToUse:
+      "You or someone you are evaluating is waiting to feel qualified, waiting for proof, or asking whether they are good enough before they start or commit further.",
+    source: "Founders Podcast by David Senra",
+    sourceAnchor: "38 Letters John D. Rockefeller Wrote to His Son, and the interview episodes with Daniel Ek (Spotify) and Michael Dell",
+    command: "/senra:belief-before-ability",
+    themes: ["self","starting","risk"],
+    problemHint:
+      "I do not feel ready and I am waiting to feel more confident before I actually commit to this.",
+  },
+  {
+    slug: "control-not-money",
+    figureSlug: "senra",
+    title: "Control and Creation, Not Money",
+    tagline:
+      "Look at what a founder refuses to sell, not what they say they want. Control of the thing they are building predicts their choices better than a stated price ever will.",
+    whenToUse:
+      "You are deciding whether to sell, dilute, partner, or hand off control of something you built, or you are trying to understand why someone else made a decision that did not maximize money.",
+    source: "Founders Podcast by David Senra",
+    sourceAnchor: "The Stubborn Genius of James Dyson, and the interview episodes with Evan Spiegel, Todd Graves (Raising Cane's), and Jason Fried",
+    command: "/senra:control-not-money",
+    themes: ["deciding","building"],
+    problemHint:
+      "Someone is offering to buy or take over part of what I built and I cannot tell if I should say yes.",
+  },
+  {
+    slug: "money-follows-service",
+    figureSlug: "senra",
+    title: "Money Follows Service",
+    tagline:
+      "Aim at the service, not the money. Across every industry Senra has studied, from oil to streaming to fried chicken, the founders who chased money directly did worse than the ones treating it as the byproduct of a job done well.",
+    whenToUse:
+      "You are making a pricing, product, or growth decision by asking what makes the most money right now, instead of what serves the customer best.",
+    source: "Founders Podcast by David Senra",
+    sourceAnchor: "Rockefeller's Autobiography, and the interview episodes with Daniel Ek (Spotify) and Todd Graves (Raising Cane's), each independently citing Henry Ford's line that money comes as a result of service",
+    command: "/senra:money-follows-service",
+    themes: ["money","selling"],
+    problemHint:
+      "I am optimizing every decision for revenue right now and I think it is making the actual product worse.",
+  },
+  {
+    slug: "reread-the-source",
+    figureSlug: "senra",
+    title: "Reread the Source You Already Trust",
+    tagline:
+      "A book, a mentor, or a body of work you have already learned from once still has more in it. Go back to it from your current problem instead of searching for something new.",
+    whenToUse:
+      "You are hunting for new advice, a new book, or a new expert for a problem, when a source you already trust and have not revisited in years likely already has the answer.",
+    source: "Founders Podcast by David Senra",
+    sourceAnchor: "Rockefeller covered three separate times across the catalog (How Rockefeller Worked, 38 Letters, Rockefeller's Autobiography), and Steve Jobs covered twice (Make Something Wonderful, How Steve Jobs Kept Things Simple)",
+    command: "/senra:reread-the-source",
+    themes: ["growth","persisting"],
+    problemHint:
+      "I am looking for a new book or a new guru for this problem instead of going back to the one I already know has the answer.",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */
