@@ -43,8 +43,10 @@ export interface Book {
   skillSlugs?: string[];
   /** ingestion status of this book in our skills pipeline */
   status: "pending" | "partial" | "complete";
-  /** channel only: content/knowledge/ subdirectories holding this channel's
-   *  episode synthesis files. Read by scripts/gen-source-corpus.mjs to build
+  /** content/knowledge/ subdirectories holding this source's synthesis
+   *  files (episode digests for a channel, chapter digests for a book via
+   *  book-to-knowledge). Presence of this field, not `role`, is what makes
+   *  a book chat-eligible. Read by scripts/gen-source-corpus.mjs to build
    *  src/lib/sourceCorpus.ts, which grounds /chat/source/<slug>. */
   corpusPaths?: string[];
 }
@@ -483,6 +485,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.gutenberg.org/ebooks/2500",
     skillSlugs: [],
     status: "partial",
+    corpusPaths: ["content/knowledge/siddhartha"],
   },
 
   // Senra: a channel, not a book. See the "channel" role note above.
