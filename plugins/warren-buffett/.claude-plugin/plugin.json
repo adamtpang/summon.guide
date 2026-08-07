@@ -1,0 +1,11 @@
+{
+  "name": "warren-buffett",
+  "description": "Turn a business or capital decision into owner economics, opportunity cost, downside protection, and a clear action. Grounded in Berkshire Hathaway Shareholder Letters, 1977-2024.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/warren-buffett"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

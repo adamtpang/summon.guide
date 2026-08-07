@@ -1,0 +1,11 @@
+{
+  "name": "charlie-munger",
+  "description": "Invert the problem, remove ruin, follow incentives, use several mental models, and compare the best alternatives. Grounded in Poor Charlie's Almanack.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/charlie-munger"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

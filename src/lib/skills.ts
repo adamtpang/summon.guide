@@ -1017,6 +1017,192 @@ export const skills: Skill[] = [
       "I keep picking up practices and they either stop working or make me strange.",
   },
 
+  // Berkshire Hathaway Shareholder Letters, 1977-2024
+  {
+    slug: "warren-buffett",
+    figureSlug: "warren-buffett",
+    title: "The Buffett Owner's Lens",
+    tagline:
+      "Turn a business or capital decision into owner economics, opportunity cost, downside protection, and a clear action.",
+    whenToUse:
+      "Use when a consequential business, investment, acquisition, hiring, or resource-allocation decision needs a patient owner-oriented analysis.",
+    source: "Berkshire Hathaway shareholder letters, 1977-2024, by Warren E. Buffett",
+    sourceAnchor: "Full official archive, especially 1977, 1986, 1989, 1996, 2014, and 2024",
+    command: "/warren-buffett:warren-buffett",
+    umbrella: true,
+    themes: ["money","risk","deciding","thinking","leading"],
+    problemHint:
+      "Describe the decision, the underlying economics, the available alternatives, the people involved, and what could cause permanent loss.",
+  },
+  {
+    slug: "owner-earnings",
+    figureSlug: "warren-buffett",
+    title: "Owner Earnings",
+    tagline:
+      "Convert reported accounting results into the cash an owner can take out without weakening the business.",
+    whenToUse:
+      "Use when evaluating a business model, budget, acquisition, project, or financial statement whose reported profit may differ from economic cash generation.",
+    source: "Berkshire Hathaway 1986 shareholder letter by Warren E. Buffett",
+    sourceAnchor: "1986 letter, purchase-price accounting and owner earnings discussion",
+    command: "/warren-buffett:owner-earnings",
+    themes: ["money","thinking","deciding"],
+    problemHint:
+      "Provide reported earnings, non-cash charges, working-capital needs, maintenance spending, and any growth spending you can separate.",
+  },
+  {
+    slug: "circle-of-competence",
+    figureSlug: "warren-buffett",
+    title: "Circle of Competence",
+    tagline:
+      "Draw the boundary between what can be evaluated, what must be learned, and what should simply be passed.",
+    whenToUse:
+      "Use when a decision feels exciting but depends on unfamiliar technology, economics, regulation, behavior, or forecasting.",
+    source: "Berkshire Hathaway 1996 shareholder letter by Warren E. Buffett",
+    sourceAnchor: "1996 letter, common stock investments section",
+    command: "/warren-buffett:circle-of-competence",
+    themes: ["thinking","deciding","risk"],
+    problemHint:
+      "Describe the opportunity, your direct experience, the variables you can estimate, and the assumptions supplied by other people.",
+  },
+  {
+    slug: "retained-earnings-test",
+    figureSlug: "warren-buffett",
+    title: "The Retained Earnings Test",
+    tagline:
+      "Make every retained dollar compete against distribution and the best alternative use of capital.",
+    whenToUse:
+      "Use when deciding whether to reinvest profits, fund a new initiative, acquire a company, repay debt, hold cash, or return capital.",
+    source: "Berkshire Hathaway shareholder letters by Warren E. Buffett",
+    sourceAnchor: "1980, 1982, and 1984 letters, retained earnings and capital allocation",
+    command: "/warren-buffett:retained-earnings-test",
+    themes: ["money","deciding","building","growth"],
+    problemHint:
+      "Provide the amount available, each candidate use, expected incremental economics, time horizon, downside, and evidence from prior allocations.",
+  },
+  {
+    slug: "financial-fortress",
+    figureSlug: "warren-buffett",
+    title: "Build a Financial Fortress",
+    tagline:
+      "Stress obligations, counterparties, and liquidity so no ordinary shock can force a permanent loss.",
+    whenToUse:
+      "Use before taking debt, signing guarantees or long-duration contracts, setting cash reserves, or evaluating whether a plan can survive a severe interruption.",
+    source: "Berkshire Hathaway shareholder letters by Warren E. Buffett",
+    sourceAnchor: "1989, 2001, 2002, 2018, and 2023 letters",
+    command: "/warren-buffett:financial-fortress",
+    themes: ["risk","money","persisting"],
+    problemHint:
+      "List cash, recurring inflows, fixed obligations, maturities, covenants, collateral, counterparties, and the worst plausible interruption.",
+  },
+  {
+    slug: "acquisition-filter",
+    figureSlug: "warren-buffett",
+    title: "The Berkshire Acquisition Filter",
+    tagline:
+      "Screen an acquisition for understandable economics, durable advantage, trustworthy management, price, financing, and fit before deal momentum takes over.",
+    whenToUse:
+      "Use when evaluating a company acquisition, strategic partnership, major vendor commitment, or other transaction that can become emotionally difficult to stop.",
+    source: "Berkshire Hathaway shareholder letters by Warren E. Buffett",
+    sourceAnchor: "1989 acquisition criteria and 2014 fiftieth-anniversary letter",
+    command: "/warren-buffett:acquisition-filter",
+    themes: ["building","money","risk","deciding"],
+    problemHint:
+      "Provide the target's economics, management, moat, price, financing, integration assumptions, alternatives, and the incentives of everyone advocating the deal.",
+  },
+
+  // Poor Charlie's Almanack
+  {
+    slug: "charlie-munger",
+    figureSlug: "charlie-munger",
+    title: "The Munger Rationality Checklist",
+    tagline:
+      "Invert the problem, remove ruin, follow incentives, use several mental models, and compare the best alternatives.",
+    whenToUse:
+      "Use when a decision is emotionally charged, politically distorted, complex across disciplines, or vulnerable to avoidable stupidity.",
+    source: "Poor Charlie's Almanack and Charles T. Munger's 2014 Berkshire Hathaway shareholder-letter essay",
+    sourceAnchor: "Elementary Worldly Wisdom, Psychology of Human Misjudgment, USC 2007 address, and Vice Chairman's Thoughts",
+    command: "/charlie-munger:charlie-munger",
+    umbrella: true,
+    themes: ["thinking","deciding","risk","leading"],
+    problemHint:
+      "Describe the desired outcome, the feared failure, the people and incentives involved, and the best alternatives currently available.",
+  },
+  {
+    slug: "invert-the-problem",
+    figureSlug: "charlie-munger",
+    title: "Invert the Problem",
+    tagline:
+      "Solve forward by first identifying the conditions that guarantee failure and systematically avoiding them.",
+    whenToUse:
+      "Use when the path to success is vague, a plan has too many moving parts, or preventing failure is more tractable than predicting a winner.",
+    source: "Poor Charlie's Almanack by Charles T. Munger, edited by Peter D. Kaufman",
+    sourceAnchor: "Talks on elementary worldly wisdom and inversion, with explicit credit to Carl Gustav Jacob Jacobi",
+    command: "/charlie-munger:invert-the-problem",
+    themes: ["thinking","deciding","risk"],
+    problemHint:
+      "State the desired outcome, time horizon, constraints, and the failures that would make recovery difficult or impossible.",
+  },
+  {
+    slug: "incentive-audit",
+    figureSlug: "charlie-munger",
+    title: "Incentive Audit",
+    tagline:
+      "Predict behavior by mapping what the system rewards, punishes, measures, and allows people to rationalize.",
+    whenToUse:
+      "Use when stated goals and actual behavior diverge, a metric is being gamed, advice may be conflicted, or an organization keeps producing the same unwanted result.",
+    source: "Poor Charlie's Almanack by Charles T. Munger, edited by Peter D. Kaufman",
+    sourceAnchor: "The Psychology of Human Misjudgment, reward and punishment superresponse tendency",
+    command: "/charlie-munger:incentive-audit",
+    themes: ["thinking","leading","deciding","conflict"],
+    problemHint:
+      "List the participants, stated objective, metrics, compensation, status rewards, penalties, information each person controls, and current behaviors.",
+  },
+  {
+    slug: "lollapalooza-check",
+    figureSlug: "charlie-munger",
+    title: "Lollapalooza Bias Check",
+    tagline:
+      "Detect when several ordinary psychological tendencies combine to produce an extreme and irrational result.",
+    whenToUse:
+      "Use before a high-pressure sale, crowd-driven decision, escalation of commitment, charismatic pitch, crisis response, or unanimous meeting.",
+    source: "Poor Charlie's Almanack by Charles T. Munger, edited by Peter D. Kaufman",
+    sourceAnchor: "The Psychology of Human Misjudgment",
+    command: "/charlie-munger:lollapalooza-check",
+    themes: ["thinking","deciding","risk"],
+    problemHint:
+      "Describe the decision environment, timing pressure, authority figures, group behavior, prior commitments, rewards, losses, and how the choice is framed.",
+  },
+  {
+    slug: "berkshire-system",
+    figureSlug: "charlie-munger",
+    title: "The Berkshire System",
+    tagline:
+      "Design a low-bureaucracy organization where autonomy, trust, capital discipline, and reputation reinforce one another.",
+    whenToUse:
+      "Use when designing a holding company, multi-business organization, acquisition operating model, headquarters, delegation system, or succession plan.",
+    source: "Charles T. Munger, Vice Chairman's Thoughts: Past and Future, Berkshire Hathaway 2014 shareholder letter",
+    sourceAnchor: "2014 fiftieth-anniversary letter, Munger's first-person essay",
+    command: "/charlie-munger:berkshire-system",
+    themes: ["building","leading","money","persisting"],
+    problemHint:
+      "Describe the operating units, headquarters roles, managers, capital flows, reporting burden, acquisition process, debt, culture, and succession risks.",
+  },
+  {
+    slug: "deserved-trust",
+    figureSlug: "charlie-munger",
+    title: "Deserved Trust",
+    tagline:
+      "Build relationships and systems by becoming the kind of partner whose promises, incentives, and conduct deserve trust.",
+    whenToUse:
+      "Use when choosing a partner, repairing a relationship, designing delegation, negotiating a long-term agreement, or evaluating a culture that claims to value trust.",
+    source: "Poor Charlie's Almanack and Charles T. Munger's USC Law School commencement address",
+    sourceAnchor: "USC Law School commencement address, May 13, 2007",
+    command: "/charlie-munger:deserved-trust",
+    themes: ["leading","conflict","self","meaning"],
+    problemHint:
+      "Describe the parties, promises, incentives, information asymmetries, history, vulnerabilities, and what each side needs to entrust to the other.",
+  },
+
   // Fooled by Randomness
   {
     slug: "alternative-histories",

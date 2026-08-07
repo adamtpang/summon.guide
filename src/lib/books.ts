@@ -46,6 +46,34 @@ export interface Book {
 }
 
 export const books: Book[] = [
+  // Buffett and Munger
+  {
+    slug: "berkshire-shareholder-letters",
+    title: "Berkshire Hathaway Shareholder Letters, 1977-2024",
+    author: "Warren E. Buffett",
+    year: 2024,
+    role: "by",
+    figureSlug: "warren-buffett",
+    description:
+      "The complete official Berkshire Hathaway archive of Warren Buffett's annual shareholder letters from 1977 through 2024: 48 primary-source lessons in owner economics, capital allocation, business quality, management, risk, mistakes, and compounding.",
+    amazonUrl: "https://www.berkshirehathaway.com/letters/letters.html",
+    skillSlugs: ["warren-buffett", "owner-earnings", "circle-of-competence", "retained-earnings-test", "financial-fortress", "acquisition-filter"],
+    status: "partial",
+  },
+  {
+    slug: "poor-charlies-almanack",
+    title: "Poor Charlie's Almanack",
+    author: "Charles T. Munger, edited by Peter D. Kaufman",
+    year: 2005,
+    role: "compiled",
+    figureSlug: "charlie-munger",
+    description:
+      "Munger's talks, speeches, and practical maxims on multidisciplinary thinking, incentives, human misjudgment, inversion, opportunity cost, and becoming a learning machine, supplemented here by his first-person account of the Berkshire system in the 2014 shareholder letter.",
+    amazonUrl: "https://www.stripe.press/poor-charlies-almanack",
+    skillSlugs: ["charlie-munger", "invert-the-problem", "incentive-audit", "lollapalooza-check", "berkshire-system", "deserved-trust"],
+    status: "partial",
+  },
+
   // Rockefeller
   {
     slug: "titan-chernow",

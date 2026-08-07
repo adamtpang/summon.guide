@@ -127,6 +127,16 @@
       "description": "Frameworks from Zombies in Western Culture: A Twenty-First Century Crisis by John Vervaeke, Christopher Mastropietro and Filip Miscevic."
     },
     {
+      "name": "warren-buffett",
+      "source": "./plugins/warren-buffett",
+      "description": "Frameworks from Berkshire Hathaway Shareholder Letters, 1977-2024 by Warren E. Buffett."
+    },
+    {
+      "name": "charlie-munger",
+      "source": "./plugins/charlie-munger",
+      "description": "Frameworks from Poor Charlie's Almanack by Charles T. Munger, edited by Peter D. Kaufman."
+    },
+    {
       "name": "senra",
       "source": "./plugins/senra",
       "description": "David Senra, host of Founders Podcast, on reading a founder's own words before trusting anyone else's account of them. Grounded in the show's catalog: check whether belief showed up before ability did, look at what a founder refuses to sell, ask whether money is the target or the byproduct of service, and go to the primary source before trusting a summary."

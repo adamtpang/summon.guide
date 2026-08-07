@@ -17,6 +17,11 @@ _md/
 # there is nothing to preserve here.
 _fixtures/
 
+# Official Berkshire shareholder-letter mirror and searchable extracts.
+# The manifest stays tracked; the copyrighted source text stays local.
+warren-buffett/berkshire-shareholder-letters/raw/
+warren-buffett/berkshire-shareholder-letters/text/
+
 # Allow this folder's own README and gitignore so the directory is not empty
 !.gitignore
 !README.md
