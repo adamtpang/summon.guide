@@ -22,15 +22,14 @@ function extractChannelBooks(src) {
   let m;
   while ((m = blockRe.exec(src))) {
     const block = m[0];
-    if (!/role: "channel"/.test(block)) continue;
+    // Chat-eligibility is "has a synthesized knowledge corpus", not "is a
+    // channel". role: "channel" was the first source type to get one, but
+    // a book digested via book-to-knowledge is exactly as eligible.
+    const pathsMatch = /corpusPaths:\s*\[([^\]]*)\]/.exec(block);
+    if (!pathsMatch) continue;
     const slug = m[1];
     const title = (/title: "([^"]+)"/.exec(block) || [])[1] || slug;
     const author = (/author: "([^"]+)"/.exec(block) || [])[1] || "";
-    const pathsMatch = /corpusPaths:\s*\[([^\]]*)\]/.exec(block);
-    if (!pathsMatch) {
-      console.warn(`WARNING: channel book "${slug}" has no corpusPaths, skipping`);
-      continue;
-    }
     const corpusPaths = pathsMatch[1]
       .split(",")
       .map((s) => s.trim().replace(/^["']|["']$/g, ""))
@@ -193,7 +192,7 @@ export function buildSourceSystemPrompt(bookSlug: string): string | null {
   const corpus = sourceCorpus[bookSlug];
   if (!corpus) return null;
   const grounding = buildSourceGroundingBlock(bookSlug);
-  return \`You are a guide to \${corpus.title}\${corpus.host ? \`, hosted by \${corpus.host}\` : ""}. You answer questions using only the corpus of episodes below, nothing invented and nothing assumed from outside knowledge.
+  return \`You are a guide to \${corpus.title}\${corpus.host ? \`, by \${corpus.host}\` : ""}. You answer questions using only the corpus of episodes below, nothing invented and nothing assumed from outside knowledge.
 
 \${grounding}
 \${SOURCE_RESPONSE_RULES}\`;

@@ -120,7 +120,7 @@ export default function SourceChatPage({
     inputRef.current?.focus();
   }, []);
 
-  if (!book || book.role !== "channel" || !corpus) {
+  if (!book || !book.corpusPaths?.length || !corpus) {
     return (
       <div className="min-h-screen bg-ink-950 text-warm-100 flex items-center justify-center">
         <p className="text-warm-400">
@@ -241,7 +241,7 @@ export default function SourceChatPage({
               {corpus.title}
             </h1>
             <p className="text-white/50 text-sm mb-4">
-              Hosted by {corpus.host} &middot; {corpus.episodes.length} episodes synthesized
+              By {corpus.host} &middot; {corpus.episodes.length} episodes synthesized
             </p>
             <p className="text-white/60 text-sm mb-4">
               This answers only from the corpus below. It is not {corpus.host}, it does not

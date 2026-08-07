@@ -158,7 +158,7 @@ export default async function BookPage({
                   </svg>
                 </Link>
               )}
-              {book.role === "channel" && (
+              {!!book.corpusPaths?.length && (
                 <Link
                   href={`/chat/source/${book.slug}`}
                   className="inline-flex items-center gap-2 border border-ink-950 text-ink-950 rounded-full px-5 py-2.5 text-sm font-medium hover:bg-ink-950 hover:text-white transition-all"

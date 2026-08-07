@@ -27,6 +27,214 @@ export interface SourceCorpus {
 }
 
 export const sourceCorpus: Record<string, SourceCorpus> = {
+  "siddhartha": {
+    "title": "Siddhartha",
+    "host": "Hermann Hesse",
+    "episodes": [
+      {
+        "file": "content/knowledge/siddhartha/001-the-brahmans-son.md",
+        "title": "The Brahman's Son",
+        "principle": "Siddhartha has every gift his world can give him — beauty, intellect, his father's pride, Govinda's devotion — and none of it touches the thirst underneath, because the thirst is for something rituals and inherited teachings cannot supply.",
+        "keyLessons": [
+          "Siddhartha grows up by the river with his friend Govinda, already expert in meditation, debate, and silently speaking the Om while breathing — outwardly the perfect Brahman's son, destined by every observer (his father, his mother, the town's young women, Govinda) for greatness.",
+          "He alone is dissatisfied. The chapter is explicit that his discontent isn't rebellion against authority; it's the discovery that ablutions \"did not wash off the sin,\" sacrifices \"did not relieve the fear in his heart,\" and knowledge of Atman remained a doctrine he had never actually reached or lived.",
+          "His decisive evidence: even his father, \"the pure one, the scholar, the most venerable one,\" still has to wash off sins every day and drink from holy sources like a thirsty man — proof that intellectual mastery of the Brahmans' teachings does not itself produce the peace those teachings promise.",
+          "Govinda's devotion is total and one-directional: he loves Siddhartha's mind and will, and has already decided to follow him \"as his friend, his companion, his servant, his spear-carrier, his shadow\" wherever he goes — a dynamic that will define their friendship for the rest of the book.",
+          "Siddhartha announces to his father that he will join the wandering ascetics known as the Samanas. His father refuses and falls silent in anger; Siddhartha responds by standing motionless in the chamber all night with his arms folded, saying only \"You know what\" when asked what he is waiting for.",
+          "The standoff ends at dawn: the father, seeing Siddhartha's knees tremble but his resolve unbroken, gives permission, telling him to return and teach him blissfulness if he finds it, or return and make offerings together again if he finds only disappointment.",
+          "Govinda, who has been waiting near the edge of town, joins Siddhartha as he leaves — the first of many times he attaches himself to Siddhartha's path rather than walking one of his own.",
+          "The chapter sets the book's central question: is spiritual peace something that can be received from a father, a teacher, or a text, or must it be found by each person for themselves? Every later chapter tests this question from a different angle."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/002-with-the-samanas.md",
+        "title": "With the Samanas",
+        "principle": "Three years of extreme self-denial teach Siddhartha every technique for fleeing the self, and also teach him that every one of those techniques always leads back to the self — escape is not the same as transformation.",
+        "keyLessons": [
+          "Siddhartha gives away his clothes, wears only a loincloth, eats once a day, and fasts for stretches of fifteen and twenty-eight days; his body wastes away and he comes to view ordinary human life — merchants, princes, lovers, mourners — with the Samana's contempt, as \"concealed putrefaction.\"",
+          "His stated goal is to become completely empty: empty of thirst, wishing, dreams, joy, and sorrow, so that once his self has fully died, something deeper than the self can awaken.",
+          "He learns extreme techniques: standing motionless in blazing sun or freezing rain until he stops feeling it, slowing his own heartbeat and breath, and a meditative practice of imagining himself into other forms of life — living as a heron, then as a decaying jackal carcass — as a way of leaving the self behind.",
+          "The chapter's central insight, in Siddhartha's own reasoning to Govinda: every one of these paths of self-denial, whether through pain or through meditation, \"led away from the self\" but always \"nevertheless led back to the self\" — the return was inevitable every time.",
+          "He compares Samana practice directly to intoxication: an ox-cart driver who drinks himself into oblivion finds the exact same brief numbing of the self that Siddhartha and Govinda find through fasting and breath control — the only difference is which method is respected.",
+          "He estimates that even the oldest Samana, after sixty years of practice, has not reached enlightenment, and doubts that any Samana ever will this way — they find comfort, numbness, and impressive feats, but not \"the path of paths.\"",
+          "News reaches the Samana camp of a man named Gotama, called the Buddha, who is said to have ended the cycle of rebirth and teaches surrounded by disciples. Govinda is eager to seek him out; Siddhartha agrees to go, though he already suspects the calling-away itself — not any specific doctrine — may be the only gift Gotama has to offer them.",
+          "Before leaving, Siddhartha uses the concentration he learned as a Samana to subdue the old Samana leader's will with a fixed stare, forcing him to bless their departure — a small demonstration that Siddhartha has mastered the Samanas' methods even as he rejects their promise."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/003-gotama.md",
+        "title": "Gotama",
+        "principle": "Siddhartha recognizes the Buddha's perfection instantly and admires his teaching completely, then walks away from it, because he concludes Gotama's own enlightenment came from lived experience no teaching could have handed him, and so no teaching can hand it to Siddhartha either.",
+        "keyLessons": [
+          "Arriving at Savathi, the two Samanas find Gotama's community camped in the grove given to him by the merchant Anathapindika; Siddhartha recognizes the Buddha on sight among hundreds of yellow-robed monks, purely from the unsearching, undesiring calm of his walk and his quietly hanging hand.",
+          "That evening they hear Gotama teach the doctrine of suffering, its origin, and the path to relieve it — the four main doctrines and the eightfold path — delivered with a voice Siddhartha experiences as itself an expression of perfected peace.",
+          "Govinda steps forward that same night and takes refuge in the teachings, joining the community of monks; this is the moment their decades-long friendship splits, and Govinda openly asks Siddhartha why he hesitates to do the same.",
+          "Siddhartha tells Govinda he wishes him well but will not follow, and privately seeks out Gotama the next morning to explain himself directly rather than simply leaving in silence.",
+          "His argument to Gotama: the teaching presents the world as a single unbroken chain of cause and effect, clearer than anything Siddhartha has heard — except at one point, where the teaching of salvation itself breaks that chain, since it describes something Gotama experienced in his own unrepeatable hour of enlightenment, not something derived by the chain of causes.",
+          "Gotama's reply does not dispute the logic; he tells Siddhartha the teachings are not meant to explain the world to the curious, only to offer a path out of suffering, and warns him gently to be wary of cleverness and the \"thicket of opinions.\"",
+          "Siddhartha's core conclusion, spoken to Gotama's face: no one obtains salvation through teachings, because what happened to Gotama in his hour of enlightenment cannot be put into words and handed to another person — a claim Siddhartha will spend the rest of the book proving through his own life rather than through argument.",
+          "He leaves the grove having lost his oldest friend to Gotama's order, but reflects that in exchange the Buddha, without meaning to, has given him something: himself, Siddhartha, freed from the last teacher and the last teaching he will ever seek out."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/004-awakening.md",
+        "title": "Awakening",
+        "principle": "Walking away from Gotama, Siddhartha realizes his entire search for Atman was actually a form of fleeing himself, and resolves for the first time to learn from no one but Siddhartha — a resolve immediately followed by the terror of having no home, caste, or teacher left to belong to.",
+        "keyLessons": [
+          "Walking slowly out of the grove, Siddhartha traces the sensation of loss back to its cause and names it precisely: what he had sought from every teacher and teaching was the self, and what none of them could give him was the self, because he had been trying to capture it by dissecting and fleeing it rather than facing it.",
+          "His new resolve: \"I want to learn from myself, want to be my student, want to get to know myself, the secret of Siddhartha\" — no more Vedas, no more ascetic exercises, no more teachers of any kind.",
+          "The world itself transforms in his eyes in this moment. Where he once treated visible things — blue sky, green river, forest — as a deceptive veil to be seen through to reach a truth hiding behind them, he now sees the color and shape of the world as the truth itself, not a veil over it.",
+          "He compares his old approach to someone who scorns the letters of a text while trying to read only its meaning: he had scorned the visible world in the same way, and now recognizes that the meaning was in the letters all along.",
+          "The euphoria breaks abruptly: he realizes he has no plan, and had unconsciously assumed he would return home to his father as a Brahman again — but he is no longer a Brahman, ascetic, or disciple of anyone, so that assumption dissolves too.",
+          "This produces the chapter's sharpest moment: a cold, bird-like terror at realizing he belongs to no caste at all — not noble, not worker, not Brahman, not Samana, not (like Govinda now) one of Gotama's monks — a solitude he names as more complete than any he has felt before.",
+          "He experiences this fear as the final contraction of a birth rather than a defeat, and comes out of it \"more a self than before.\" He walks on with new determination, no longer heading toward home or his father, for the first time genuinely uncertain what comes next."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/005-kamala.md",
+        "title": "Kamala",
+        "principle": "Siddhartha crosses from the ascetic's world into the sensual one on purpose, choosing the courtesan Kamala as his deliberate teacher in love and pointing himself toward wealth, because he has decided the body and the senses deserve the same attention he once gave only to Atman.",
+        "keyLessons": [
+          "Traveling on, Siddhartha experiences the natural world — sunrise, stars, apes, a hunting pike — as vivid and beautiful in itself, a sharp contrast to his years as a Samana when he treated the visible world as a veil of illusion to see past.",
+          "He has a dream in which Govinda turns into a woman whose breast he nurses at, tasting \"of woman and man, of sun and forest\" — a dream that foreshadows the turn his path is about to take toward the senses and the world.",
+          "He is ferried across a river by a friendly, unnamed ferryman (later revealed as Vasudeva) who refuses payment and tells him \"everything is coming back,\" predicting Siddhartha will return to this river one day.",
+          "In a village, a young woman washing clothes propositions him; Siddhartha feels desire rising but hears an inner voice say \"No\" and withdraws — his first real test of the senses, still resolved by the old ascetic's restraint.",
+          "Entering the city, he sees the beautiful courtesan Kamala carried past in a sedan-chair and instantly decides to become her student; he first has a barber's assistant shave and groom him, since he arrives filthy and long-haired like the beggar-ascetic he still is.",
+          "Meeting Kamala, Siddhartha offers himself as her pupil in \"the art of love,\" explaining that he already knows how to think, wait, and fast — skills she initially dismisses as useless, until she sees he can also read and write, which she cannot.",
+          "Kamala tells him plainly that love can be begged for, bought, given as a gift, or found in the street, \"but it cannot be stolen\" — and that he first needs fine clothes, shoes, and money in his purse before she will take him seriously; she directs him toward the rich merchant Kamaswami to get them.",
+          "The chapter closes on Siddhartha's own theory of himself: that when he sets a goal, he is drawn to it the way a stone thrown in water sinks to the bottom, without struggle — a self-description of a will so absolute it barely feels like effort, which Kamala finds both charming and a little unsettling."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/006-with-the-childlike-people.md",
+        "title": "With the Childlike People",
+        "principle": "Siddhartha becomes rich and successful in Kamaswami's trade and expert in Kamala's art of love using nothing but Samana discipline, yet remains a spectator to both — he plays the world's games perfectly without ever being caught by them, which he and Kamala both recognize as the very thing that separates them from people who can truly love.",
+        "keyLessons": [
+          "Siddhartha talks his way into Kamaswami's household by demonstrating he can read a sales contract and write a clever line on demand; when asked what he can offer as a man with no possessions, he answers only \"I can think. I can wait. I can fast.\"",
+          "He insists, per Kamala's earlier advice, on being treated as Kamaswami's equal rather than his servant, and largely gets his way by simply refusing to be shaken by profit or loss.",
+          "Kamaswami is baffled that Siddhartha treats a lost rice deal, or a wasted business trip spent making friends in a village instead of turning back immediately, as worthwhile regardless of the money — Siddhartha's genuine indifference to gain and loss becomes, ironically, what makes him good at business.",
+          "Daily visits to Kamala continue; she teaches him thoroughly that pleasure requires giving pleasure in return, and that lovers should part feeling equally \"victorious\" rather than one having simply taken from the other.",
+          "Siddhartha comes to see himself and Kamala as alike, and unlike most people: both have \"a peace and refuge\" inside themselves they can retreat to at any hour, a self-possession most people lack even though he believes, in principle, everyone could have it.",
+          "He watches the \"childlike people\" — merchants, gamblers, ordinary townspeople — toil and suffer over money, honor, and small pleasures, feeling both contempt and a genuine, growing envy for how much they care.",
+          "After a night of lovemaking, Kamala observes that despite being the best lover she has known, Siddhartha does not love her, or anyone; he agrees, and offers his own explanation: people of their kind, who have an inner refuge, may simply be incapable of the kind of love that \"childlike people\" have as their one real secret."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/007-sansara.md",
+        "title": "Sansara",
+        "principle": "The inner voice that once guided Siddhartha falls silent for years while wealth, gambling, and sensual excess slowly overtake him; a dream of a dead songbird finally shows him, all at once, that the entire game — Sansara — has become worthless to him, and he walks out that same night.",
+        "keyLessons": [
+          "Over years of prosperity, Siddhartha's old Samana qualities — moderation, joy in thinking, hours of meditation — are gradually buried, \"like humidity entering the dying stem of a tree,\" while his senses grow ever more accustomed to luxury.",
+          "He takes up gambling with high stakes, not for the money but as an angry, self-mocking demonstration of contempt for wealth; the fear of losing becomes the one intense feeling left in an otherwise dull, satiated life, and he chases that fear compulsively.",
+          "The very greed and sloth he once mocked in \"childlike people\" as the most foolish of vices become his own; his face begins to show discontent, sickliness, and a lack of love — features he had previously watched only on other rich men.",
+          "One night after a painful, almost desperate encounter with an aging, tired-looking Kamala, he dreams that Kamala's rare caged songbird has died and lies stiff in its cage; throwing the dead bird away in the dream, he feels he has thrown away everything of value in himself.",
+          "He wakes in deep sadness, sits alone under a mango tree in his own pleasure-garden for a full day and night, and reviews his entire life, recognizing that the guiding inner voice that once said \"Go on! Go on! You are called upon!\" has not spoken to him in years.",
+          "He concludes that the whole game — which the chapter names directly as Sansara, the child's game of possession and pleasure — is over for him, and that nothing is left worth staying for, not the pleasure-garden, not the mango tree, not even Kamala.",
+          "That same night he leaves the city and never returns; Kamaswami sends people to search for him, assuming robbers, while Kamala makes no search at all, having long expected this.",
+          "Kamala, on hearing of his disappearance, opens her own songbird's cage and lets it fly free — and only afterward discovers she is pregnant with Siddhartha's child from their last night together."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/008-by-the-river.md",
+        "title": "By the River",
+        "principle": "At the edge of drowning himself, Siddhartha is interrupted by the sacred syllable Om rising from somewhere deep in his memory, and afterward realizes that his years of wealth and vice were not a wrong turn but the only way to finally kill the last, subtlest form of his self: spiritual pride.",
+        "keyLessons": [
+          "Siddhartha walks back to the same great river, leans against a coconut tree at the bank, and prepares to let himself fall and drown, wishing only for annihilation of the \"failure\" he has made of his life.",
+          "As he is about to let go, the sacred word \"Om\" — the beginning and end of every Brahman prayer — rises from deep in his memory without his willing it, and its sound shocks his dormant spirit awake, so that he sees the foolishness of what he was about to do.",
+          "He collapses at the tree's base and falls into a deep, dreamless sleep unlike any he has had in years; when he wakes, he feels renewed, as though ten years had passed, and finds a monk watching over him — Govinda, now a follower of Gotama, who does not recognize his old friend.",
+          "The two talk without Govinda realizing who he is speaking to, until Siddhartha reveals himself by name; Govinda is astonished, and after a brief, slightly awkward reunion, continues on his pilgrimage.",
+          "Alone again, Siddhartha reflects that his old Samana powers — fasting, waiting, thinking — had abandoned him during his years of wealth, and that he has, in effect, become fully \"a childlike person\" himself; he resolves to start over as if he were a child again, despite his graying hair.",
+          "Reviewing his whole life by the river, he concludes that every stage — Brahman, Samana, disciple who left the Buddha, merchant, gambler, lover — was a necessary detour, because his arrogant, \"spiritual\" self had simply retreated into pride and thinking rather than dying, and only total immersion in sin, greed, and despair could finally kill it.",
+          "His stated conclusion: he had to become a fool and had to sin in order to be able to live again — the book's clearest statement that the \"wasted\" years were not wasted but were the actual path to whatever comes next.",
+          "He decides, watching the river's endless downhill flow and hearing something in it he cannot yet name, to stay near it rather than continue wandering."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/009-the-ferryman.md",
+        "title": "The Ferryman",
+        "principle": "Siddhartha apprentices himself to the ferryman Vasudeva and learns, above all, to listen — to the river, which teaches that past, present, and future all exist at once — and his hard-won peace is interrupted when Kamala, dying of a snakebite at the ferry, delivers him the son he never knew he had.",
+        "keyLessons": [
+          "Siddhartha returns to the ferry from his despair by the river, recognizes the same ferryman who once carried him across for free, offers his fine clothes as payment, and asks to stay on as his assistant. The ferryman's name, revealed here for the first time, is Vasudeva.",
+          "Vasudeva teaches him the practical craft of the boat, but tells him plainly that the river itself is the real teacher, and that Vasudeva learned everything he knows — including how to listen — from it rather than from any person or book.",
+          "The single lesson Siddhartha values most: the river is simultaneously at its source, its waterfall, its rapids, and the sea, and exists \"only in the present time, not the shadow of the past, not the shadow of the future\" — evidence, to Siddhartha, that his own past selves and future death are likewise not truly separate from who he is now.",
+          "Over years, Siddhartha and Vasudeva come to resemble each other so closely that travelers take them for brothers; local rumor calls them wise men or sorcerers, though the two of them claim no special wisdom and mostly sit together in silence, listening to the water.",
+          "News arrives that Gotama is dying, and pilgrims stream past the ferry toward him, including Kamala, who long ago gave her pleasure-garden to Gotama's monks and is traveling with her young son (also named Siddhartha) to see the Buddha before he dies.",
+          "Near the ferry, Kamala is bitten by a small black snake; Vasudeva carries her to the hut, where Siddhartha recognizes both her and, from the boy's face, his own son for the first time.",
+          "Kamala dies in the hut after telling the boy Siddhartha is his father and telling Siddhartha himself that she can see he has found peace; Siddhartha closes her eyes and reflects on the \"indestructibility of every life, the eternity of every moment\" as he sits with her body.",
+          "Vasudeva and Siddhartha build Kamala's funeral pyre on the same hill where Vasudeva had, years earlier, cremated his own wife."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/010-the-son.md",
+        "title": "The Son",
+        "principle": "Siddhartha loves his orphaned son so blindly he cannot practice the very patience and non-attachment he learned from the river, and Vasudeva warns him — accurately — that no parent, however wise, can protect a child from having to live and err through their own path.",
+        "keyLessons": [
+          "The eleven-year-old boy, raised in wealth and now suddenly parentless and poor, mourns silently for days, refuses to eat properly, and shows no warmth toward the father he never knew.",
+          "Siddhartha, out of love, refuses to force or punish him, hoping patience and gentleness will eventually win the boy over; Vasudeva quietly takes over full ferry duty so Siddhartha can devote himself to the boy.",
+          "Vasudeva eventually confronts Siddhartha directly: he says the boy's stubborn resentment is really the objection of a \"young bird\" used to a different nest, and warns that Siddhartha's endless gentle patience is its own form of coercion — a daily reminder to the boy of how unlike his father he is expected to become.",
+          "Vasudeva's central argument, aimed squarely at Siddhartha's own history: no father — not Siddhartha's own father, not Siddhartha himself — has ever been able to protect a son from having to live his own life, sin his own sins, and find his own path; \"even if you would die ten times for him, you would not be able to take the slightest part of his destiny upon yourself.\"",
+          "Siddhartha recognizes the truth of this but cannot act on it — his love for the boy is stronger than his own hard-won wisdom, revealing that even a man near enlightenment is not immune to attachment.",
+          "The boy finally erupts, screaming that he hates Siddhartha and would rather become \"a highway-robber and murderer\" than turn out like him; the next morning he runs away, stealing the ferrymen's coin basket and stranding their boat on the far bank.",
+          "Siddhartha chases him toward the city and stands for hours outside the gate of Kamala's old pleasure-garden (now given to Gotama's monks), reliving his own youth there, until he recognizes his pursuit is useless and that he must let his son go rather than cling to him.",
+          "Vasudeva finds him there, silent and worn out, and walks him home without either of them speaking the boy's name."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/011-om.md",
+        "title": "Om",
+        "principle": "Grieving his lost son teaches Siddhartha to love the ordinary 'childlike people' he once only envied, and confessing his pain fully to Vasudeva lets him finally hear the river's thousand voices resolve into one word, Om — the moment his suffering stops fighting his fate and becomes acceptance.",
+        "keyLessons": [
+          "Ferrying ordinary travelers, Siddhartha now envies every parent he sees and grieves that even thieves and murderers have children who love them while he does not — a bluntly \"childlike,\" unphilosophical grief he recognizes in himself with some surprise.",
+          "The grief changes how he sees people: the blind love of a mother, the vain pride of a father, the desires he once dismissed as childish now strike him as worthy of veneration, since he sees the same indestructible life-force in their passions that he once sought only in meditation.",
+          "He begins to suspect that his old advantage over \"childlike people\" — conscious awareness of the oneness of life — might itself be a comparatively small thing next to their capacity to live fully inside their passions.",
+          "One day, driven by longing, he sets out toward the city to find his son again; on the way he hears the river laughing at him, and realizes with a shock that he is repeating exactly the grief his own father once suffered when Siddhartha himself left home.",
+          "Returning to the hut, he tells Vasudeva the entire story for the first time — his walk to the city, the burning wound, his envy of other fathers — and experiences Vasudeva's total, silent listening as though he were confessing to the river itself, or to God.",
+          "Vasudeva tells him to listen to the river again; this time Siddhartha hears all its countless voices — his father's grief, his own, his son's, Kamala's, Govinda's — merge into a single word: Om, the sound of perfection and unity.",
+          "In this moment Siddhartha stops fighting his fate; his wound \"blossoms\" into a cheerfulness \"no longer opposed by any will,\" and his face begins to shine with the same smile Vasudeva has worn for years.",
+          "Recognizing what has happened, Vasudeva tells Siddhartha he has been waiting for this hour, says his farewells to the river and to Siddhartha, and walks into the forest to dissolve into the oneness, leaving Siddhartha alone as the ferry's keeper."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/siddhartha/012-govinda.md",
+        "title": "Govinda",
+        "principle": "An aged, still-searching Govinda meets the ferryman without recognizing his old friend, and Siddhartha's final teaching to him is that wisdom cannot be taught at all — only shown — which Siddhartha demonstrates by having Govinda kiss his forehead and witness a wordless vision of every face and form dissolving into one eternal, smiling unity.",
+        "keyLessons": [
+          "An elderly Govinda, hearing of a wise old ferryman, seeks him out without recognizing Siddhartha; Siddhartha tells him that a person fixed on searching for a goal often becomes unable to find anything, since \"having a goal\" narrows what the mind can perceive.",
+          "Once Govinda recognizes his friend, he asks whether Siddhartha follows any teaching or faith that helps him live rightly; Siddhartha answers that he has had many teachers — Kamala, Kamaswami, dice-gamblers, even a nameless monk of Gotama's who once guarded his sleep — but above all learned from the river and from Vasudeva.",
+          "Siddhartha's central claim, offered as his hardest-won thought: wisdom cannot be passed from one person to another the way knowledge can; anything a wise man tries to hand over as wisdom inevitably \"sounds like foolishness\" to the person receiving it.",
+          "His companion claim is that \"the opposite of every truth is just as true,\" because any truth put into words becomes one-sided; since time itself is not real to him, Sansara and Nirvana, sinner and Buddha are not separated by time as stages on a journey but coexist in every being right now — \"within the sinner is now and today already the future Buddha.\"",
+          "He tells Govinda he has come to love things directly — a stone, the river, a piece of bark — rather than words or doctrines, because words distort whatever they touch; his own former Samana-teacher, Vasudeva, \"knew everything\" simply by believing in the river, without books or teachers.",
+          "Govinda, unconvinced by the words themselves, nonetheless senses something genuinely holy in Siddhartha's face, hands, and manner unlike anything he has felt since Gotama's death, and asks for one final thing to carry with him on his path.",
+          "Siddhartha tells him to kiss his forehead. As Govinda does, he sees Siddhartha's face dissolve into an unbroken flow of thousands of other faces — a dying fish, a newborn, a murderer, corpses, animals, gods — all constantly transforming and all wearing, underneath, the same eternal, smiling mask.",
+          "Govinda recognizes that smile as identical to the one he once saw on Gotama the Buddha himself; wordlessly, through this single vision rather than through any argument, he finally receives what a lifetime of searching and doctrine could not give him, and bows to his friend in tears."
+        ],
+        "youtube": "",
+        "guest": ""
+      }
+    ]
+  },
   "founders-podcast": {
     "title": "Founders Podcast",
     "host": "David Senra",
@@ -851,7 +1059,7 @@ export function buildSourceSystemPrompt(bookSlug: string): string | null {
   const corpus = sourceCorpus[bookSlug];
   if (!corpus) return null;
   const grounding = buildSourceGroundingBlock(bookSlug);
-  return `You are a guide to ${corpus.title}${corpus.host ? `, hosted by ${corpus.host}` : ""}. You answer questions using only the corpus of episodes below, nothing invented and nothing assumed from outside knowledge.
+  return `You are a guide to ${corpus.title}${corpus.host ? `, by ${corpus.host}` : ""}. You answer questions using only the corpus of episodes below, nothing invented and nothing assumed from outside knowledge.
 
 ${grounding}
 ${SOURCE_RESPONSE_RULES}`;
