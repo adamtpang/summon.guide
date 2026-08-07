@@ -1955,6 +1955,37 @@ export const profiles: Record<string, Profile> = {
     ],
     primarySources: ["Siddhartha (1922)", "Steppenwolf (1927)", "Demian (1919)"],
   },
+  senra: {
+    slug: "senra",
+    occupation: "Podcast host, creator of Founders Podcast",
+
+    fullName: "David Senra",
+    nationality: "American",
+    occupations: ["Podcast host", "Writer"],
+    yearsActive: "2016 to present",
+    notableWorks: [
+      "Founders Podcast (2016 to present, 400+ episodes)",
+      "David Senra interview series, a companion long form interview feed",
+    ],
+
+    earlyLife:
+      "Senra is the son of a Cuban immigrant family and grew up in Florida. He was the first in his family to graduate college, attending the University of Central Florida at night while working full time. Before podcasting he ran small businesses, including boat and car detailing and a startup that traced the origin of robocalls.",
+
+    career:
+      "Senra started Founders Podcast in 2016, recording alone in his Miami kitchen with a hundred dollar microphone. For roughly five and a half years the show had almost no audience. His method has stayed the same throughout: he reads one founder biography at a time, annotates the physical book by hand with a pen and a six inch ruler, photographs the annotated pages, and records his synthesis from those highlights with no outline and no co-host, a format he has described as sashimi style, no intro music, starting cold. He has read and narrated more than four hundred founder biographies this way. He later added a second, interview format feed under the same Founders Podcast banner, in which he talks with living founders and operators rather than reading about historical ones. He has said he turned down a reported eight figure acquisition offer, and that he does not want the show to reach the scale of the largest interview podcasts, preferring a dense audience of working founders over mass reach.",
+
+    legacy:
+      "Founders Podcast has become a fixture in the daily routine of a number of well known operators and investors, several of whom have appeared as guests on the interview feed. Its central contribution is less any single idea than a method: reading a founder's own words instead of secondhand accounts of them, testing every subject against the same handful of questions regardless of era or industry, chiefly whether belief preceded any evidence that justified it, and whether the founder was actually chasing control rather than money.",
+
+    notableQuotes: [
+      "Mute the world and then build your own.",
+      "I don't think of it as a business. I think of it as an obsession that just happens to generate money.",
+    ],
+    primarySources: [
+      "Founders Podcast (2016 to present)",
+      "David Senra interview series",
+    ],
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

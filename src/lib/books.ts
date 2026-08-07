@@ -2,7 +2,7 @@
 // A guide is a person we summon. A book is a primary source we drew from.
 // Every skill in src/lib/skills.ts is grounded in one or more books here.
 //
-// Three roles:
+// Four roles:
 //   "by": the figure wrote it themselves (Franklin's Autobiography,
 //                  Lee Kuan Yew's From Third World to First, Deutsch's
 //                  The Beginning of Infinity)
@@ -11,6 +11,10 @@
 //   "compiled": anthology compiled by another author from the figure's
 //                  own writings, interviews, and talks (Jorgenson's
 //                  The Almanack of Naval Ravikant, The Book of Elon)
+//   "channel": a podcast or YouTube channel is the figure's own primary
+//                  source, the way a book is for everyone else (Founders
+//                  Podcast for David Senra). `year` is the year the channel
+//                  started rather than a publication year.
 //
 // PDFs are not committed to the repo, see /sources/ and /sources/README.md
 // for the ingestion workflow. The `pdfPath` field is for local Claude
@@ -20,12 +24,13 @@ export interface Book {
   /** stable kebab-case slug, used as the URL fragment if we ever add /books/<slug> */
   slug: string;
   title: string;
-  /** author of THIS book (not necessarily the figure, see `role`) */
+  /** author of THIS book (not necessarily the figure, see `role`); for a
+   *  channel, the host */
   author: string;
-  /** publication year of the edition we ingested */
+  /** publication year of the edition we ingested, or the year a channel started */
   year: number;
   /** how the book relates to the figure */
-  role: "by" | "about" | "compiled";
+  role: "by" | "about" | "compiled" | "channel";
   /** matches a slug in src/lib/figures.ts */
   figureSlug: string;
   /** one-paragraph description shown on the profile page */
@@ -444,6 +449,21 @@ export const books: Book[] = [
     description:
       "A Brahman's son leaves everything arranged for him, tries asceticism, meets the Buddha and refuses to follow him, falls into wealth and self-disgust, and finally learns to listen to a river. Its argument is that wisdom cannot be transmitted, only arrived at, and that the ruin on the way was not a detour.",
     amazonUrl: "https://www.gutenberg.org/ebooks/2500",
+    skillSlugs: [],
+    status: "partial",
+  },
+
+  // Senra: a channel, not a book. See the "channel" role note above.
+  {
+    slug: "founders-podcast",
+    title: "Founders Podcast",
+    author: "David Senra",
+    year: 2016,
+    role: "channel",
+    figureSlug: "senra",
+    description:
+      "Since 2016, Senra has read and narrated over four hundred founder biographies alone, no co-host, no outline, reading from his own pen and ruler annotations. A companion interview feed, under the same banner, talks with living founders and operators directly.",
+    amazonUrl: "https://www.founderspodcast.com",
     skillSlugs: [],
     status: "partial",
   },

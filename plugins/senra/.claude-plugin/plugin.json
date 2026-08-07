@@ -1,0 +1,11 @@
+{
+  "name": "senra",
+  "description": "David Senra, host of Founders Podcast, on reading a founder's own words before trusting anyone else's account of them. Summon him when you need to size up a person, a company, or a decision the way he sizes up a subject: check whether belief showed up before ability did, look at what they refuse to sell rather than what they say they want, ask whether money is the target or the byproduct of service, and go to the primary source before trusting a summary, including this one.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/senra"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}
