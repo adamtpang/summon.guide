@@ -140,6 +140,16 @@
       "name": "senra",
       "source": "./plugins/senra",
       "description": "David Senra, host of Founders Podcast, on reading a founder's own words before trusting anyone else's account of them. Grounded in the show's catalog: check whether belief showed up before ability did, look at what a founder refuses to sell, ask whether money is the target or the byproduct of service, and go to the primary source before trusting a summary."
+    },
+    {
+      "name": "sivers",
+      "source": "./plugins/sivers",
+      "description": "Derek Sivers, founder of CD Baby, on compressing decisions, ideas, and beliefs down to a blunt, useful test. Grounded in his five short books: is this a hell yeah or a no, is the idea actually being executed, is a belief worth holding because it is useful right now, and what can you only earn, never be given."
+    },
+    {
+      "name": "visakan",
+      "source": "./plugins/visakan",
+      "description": "Visakan Veerasamy, Singaporean writer known for the identity Friendly Ambitious Nerd, on writing in public to think and deviating from the norm on purpose. Grounded in his self published book and essay archive: give yourself permission to want things, write the messy version before the clean one, and claim a name for what you actually are."
     }
   ]
 }

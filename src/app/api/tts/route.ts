@@ -24,6 +24,8 @@ const VOICE_MAP: Record<string, string> = {
   "warren-buffett": "onwK4e9ZLuTAKqWW03F9", // Daniel: mature, warm, measured
   "charlie-munger": "onwK4e9ZLuTAKqWW03F9", // Daniel: mature, dry, measured
   "senra": "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative, no accent documented
+  "sivers": "onwK4e9ZLuTAKqWW03F9", // Daniel: calm, plain American, unhurried, matter of fact
+  "visakan": "TX3LPaxmHKxFdv7VOQHJ", // Liam: direct, associative, slightly halting, no accent documented
 };
 
 const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Fallback to Daniel

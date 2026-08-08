@@ -26,6 +26,8 @@ const MUSIC_MAP: Record<string, string> = {
   "warren-buffett": "/music/american-industrial.mp3",
   "charlie-munger": "/music/american-industrial.mp3",
   "senra": "/music/modern-electronic.mp3",
+  "sivers": "/music/modern-electronic.mp3",
+  "visakan": "/music/modern-electronic.mp3",
 };
 
 interface AmbientMusicProps {

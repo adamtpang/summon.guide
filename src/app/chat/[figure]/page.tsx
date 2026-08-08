@@ -758,6 +758,16 @@ function getSuggestedQuestions(slug: string): string[] {
       "How do I know if I actually believe in what I'm building, or if I'm just performing confidence?",
       "Is my problem really about money, or is it about losing control?",
     ],
+    "sivers": [
+      "I have an opportunity in front of me and I can't tell if it's a hell yeah or just a maybe I'm talking myself into.",
+      "I have an idea I think is great but I don't trust my own judgment of it anymore.",
+      "I believe something that helps me but I'm not sure it's actually true. Should I let it go?",
+    ],
+    "visakan": [
+      "I feel like an impostor even when things are going well, what's actually going on?",
+      "I have a big ambitious idea but I'm scared to say it out loud. What do I do?",
+      "How do I write my way through something I don't understand yet instead of waiting until I do?",
+    ],
   };
   return questions[slug] || ["What was your most important decision?", "What advice for a young person?"];
 }

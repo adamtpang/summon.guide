@@ -21,6 +21,8 @@ export const VOICE_MAP: Record<string, string> = {
   "marie-curie": "XrExE9yKIg1WjnnlVkGX", // Matilda: warm, measured, mature female
   "bob-marley": "onwK4e9ZLuTAKqWW03F9", // placeholder warm male
   senra: "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative, no accent documented
+  sivers: "onwK4e9ZLuTAKqWW03F9", // Daniel: calm, plain American, unhurried, matter of fact
+  visakan: "TX3LPaxmHKxFdv7VOQHJ", // Liam: direct, associative, slightly halting, no accent documented
 };
 
 export const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Daniel fallback

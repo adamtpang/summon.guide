@@ -1,0 +1,11 @@
+{
+  "name": "visakan",
+  "description": "Visakan Veerasamy, Singaporean writer known for the identity Friendly Ambitious Nerd, on writing in public to think, deviating from the norm on purpose, and claiming a name for what you actually are. Summon him when you are stuck between wanting to achieve something and wanting to be liked, or when you need to write your way through something confusing instead of solving it in your head first.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/visakan"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}
