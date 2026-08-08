@@ -47,6 +47,54 @@ go back to metered credits — no code change.
    gray-to-red area. (Confirm the exact current Consumer Terms / Usage Policy
    before relying on it.)
 
+## What's actually deployed now: the Postgres-backed token, not the env var
+
+The steps above (`ANTHROPIC_AUTH_TOKEN` env var) are the simple version and
+still work, but the live site actually runs the sturdier mechanism described
+in the header comment of `src/lib/anthropic.ts`: an `AnthropicOAuthToken` row
+in Postgres (`prisma/schema.prisma`), seeded from a local machine's own
+`claude` login and refreshed automatically in-request by `getValidAccessToken()`
+(`src/lib/anthropicOAuth.ts`) as it nears expiry. This was built specifically
+to remove blocker 1 above (env-var tokens expiring in hours with no way to
+refresh themselves on serverless). It mostly works. It has one real failure
+mode of its own, below.
+
+## Troubleshooting: "Server is missing a valid Anthropic API key"
+
+If every guide (and `/chat/source/<slug>`) starts returning this, check the
+Vercel runtime logs (`get_deployment` / `get_runtime_errors` if you have the
+Vercel MCP, or the dashboard) for `OAuthRateLimitError` on
+`https://console.anthropic.com/v1/oauth/token`. If you see that specific
+error, this is **not** a billing problem and not your account being
+throttled generally — the account and normal Claude usage can be completely
+fine while this happens.
+
+**Root cause: the refresh token is single-use and rotating, and two things
+are refreshing the same underlying credential.** The Postgres row was seeded
+from a snapshot of whichever machine's `~/.claude/.credentials.json` ran the
+seed script. If that same machine is later used for ordinary interactive
+Claude Code work, its local CLI silently refreshes its own copy of the token
+in the background, which rotates out the refresh token the deployed app's
+copy depends on. The deployed app's next refresh attempt then gets rejected,
+not with a clean "invalid token" but as a 429 on the refresh endpoint, which
+does not clear on its own the way a normal rate limit would.
+
+The clean fix is a **dedicated login**: run `claude login` once from a
+device or session that is never opened interactively again afterward, so
+nothing else ever rotates its refresh token. We have not set that up. The
+accepted tradeoff for now is periodic reseeding instead:
+
+```bash
+node -r dotenv/config scripts/seed-anthropic-oauth-token.mjs dotenv_config_path=.env.local
+```
+
+Run this from a machine that is currently logged into `claude` and has
+`DATABASE_URL` in `.env.local` (pull it with `vercel env pull .env.local` if
+missing). No redeploy needed, the app reads the Postgres row live. Rerun it
+whenever the symptom above reappears; there is no way to predict when the
+local session will next rotate the shared credential, so this is genuinely
+periodic, not a one-time fix.
+
 ## Recommendation
 
 - **Public live site → API credits.** Keep `ANTHROPIC_API_KEY`, set
