@@ -503,6 +503,88 @@ export const books: Book[] = [
     status: "partial",
     corpusPaths: ["content/knowledge/founders", "content/knowledge/interviews"],
   },
+
+  // Sivers: five short, self published books
+  {
+    slug: "anything-you-want",
+    title: "Anything You Want",
+    author: "Derek Sivers",
+    year: 2011,
+    role: "by",
+    figureSlug: "sivers",
+    description:
+      "Forty short lessons from founding and selling CD Baby: business as accidental problem solving, ideas as a multiplier of execution rather than a substitute for it, and staying small and controlled on purpose rather than chasing growth.",
+    amazonUrl: "https://sive.rs/a",
+    skillSlugs: [],
+    status: "pending",
+  },
+  {
+    slug: "your-music-and-people",
+    title: "Your Music and People",
+    author: "Derek Sivers",
+    year: 2020,
+    role: "by",
+    figureSlug: "sivers",
+    description:
+      "Marketing and reputation lessons drawn from CD Baby, reframed for any creator: marketing as an extension of the art itself, being considerate as a form of being memorable, and proudly excluding most people to matter more to the few.",
+    amazonUrl: "https://sive.rs/m",
+    skillSlugs: [],
+    status: "pending",
+  },
+  {
+    slug: "hell-yeah-or-no",
+    title: "Hell Yeah or No",
+    author: "Derek Sivers",
+    year: 2020,
+    role: "by",
+    figureSlug: "sivers",
+    description:
+      "The expansion of a 2009 essay into a full decision filter: if it is not a hell yeah, it is a no. Argues most overcommitment comes from saying yes to too many medium options out of fear rather than genuine desire.",
+    amazonUrl: "https://sive.rs/n",
+    skillSlugs: [],
+    status: "pending",
+  },
+  {
+    slug: "how-to-live",
+    title: "How to Live",
+    author: "Derek Sivers",
+    year: 2021,
+    role: "by",
+    figureSlug: "sivers",
+    description:
+      "Twenty seven short chapters, each fully convinced of a different and often contradictory way to live. Independence and commitment, mastery and always staying a beginner, are each argued completely on their own terms rather than resolved into one rule.",
+    amazonUrl: "https://sive.rs/h",
+    skillSlugs: [],
+    status: "pending",
+  },
+  {
+    slug: "useful-not-true",
+    title: "Useful Not True",
+    author: "Derek Sivers",
+    year: 2024,
+    role: "by",
+    figureSlug: "sivers",
+    description:
+      "Argues that a belief is worth holding not because it is objectively true but because holding it is useful right now. A short, deliberately uncomfortable case for treating beliefs as tools rather than as claims about reality.",
+    amazonUrl: "https://sive.rs/u",
+    skillSlugs: [],
+    status: "pending",
+  },
+
+  // Visakan: self published, no traditional book beyond this one
+  {
+    slug: "friendly-ambitious-nerd",
+    title: "Friendly Ambitious Nerd",
+    author: "Visakan Veerasamy",
+    year: 2020,
+    role: "by",
+    figureSlug: "visakan",
+    description:
+      "A self compiled, self published collection of Veerasamy's best essays and threads from over a decade of writing, naming and defending the identity of the title: smart, striving, a little awkward, and allowed to want things in public.",
+    amazonUrl: "https://visakanv.gumroad.com/l/FANbook",
+    skillSlugs: [],
+    status: "pending",
+  },
 ];
 
 /** All books for a single figure. */
