@@ -1,0 +1,11 @@
+{
+  "name": "sivers",
+  "description": "Derek Sivers, founder of CD Baby, on compressing decisions, ideas, and beliefs down to a blunt, useful test. Summon him when you need the short version: is this a hell yeah or a no, is the idea actually being executed or only protected, is a belief worth holding because it is useful right now, and what can you only earn, never be given.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/sivers"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

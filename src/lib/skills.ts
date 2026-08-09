@@ -1755,6 +1755,192 @@ export const skills: Skill[] = [
     problemHint:
       "I am looking for a new book or a new guru for this problem instead of going back to the one I already know has the answer.",
   },
+
+  // Derek Sivers
+  {
+    slug: "sivers",
+    figureSlug: "sivers",
+    title: "The Sivers Filter",
+    tagline:
+      "Run a decision, an idea, or a belief through the same short tests Sivers built out of founding and selling CD Baby: is it a hell yeah, is it actually useful, and have you executed on it at all.",
+    whenToUse:
+      "Use when you have an idea, an opportunity, or a belief you are holding onto, and you want the compressed, no filler version of whether it is actually worth your time.",
+    source: "Derek Sivers, across Anything You Want, Hell Yeah or No, How to Live, and Useful Not True",
+    sourceAnchor: "Recurring across all five books",
+    command: "/sivers:sivers",
+    umbrella: true,
+    themes: ["deciding", "starting", "self"],
+    problemHint:
+      "I have too many half considered options and I want the fast, blunt version of which ones actually matter.",
+  },
+  {
+    slug: "hell-yeah-or-no",
+    figureSlug: "sivers",
+    title: "Hell Yeah or No",
+    tagline:
+      "If the honest answer to a decision is not a hell yeah, the answer is no. Most overcommitment comes from saying yes out of fear, not desire.",
+    whenToUse:
+      "You are deciding whether to take on a commitment, opportunity, or request, and you notice you are talking yourself into a lukewarm yes.",
+    source: "Hell Yeah or No by Derek Sivers",
+    sourceAnchor: "Title essay, originally published August 26, 2009, expanded into the 2020 book",
+    command: "/sivers:hell-yeah-or-no",
+    themes: ["deciding", "focus"],
+    problemHint:
+      "I keep saying yes to things I am not actually excited about and my calendar is full of obligations I resent.",
+  },
+  {
+    slug: "obvious-to-you-amazing-to-others",
+    figureSlug: "sivers",
+    title: "Obvious to You, Amazing to Others",
+    tagline:
+      "You are a bad judge of your own ideas, because what you already know feels too obvious to be worth saying. Put it out and let other people decide.",
+    whenToUse:
+      "You have an idea, a skill, or a piece of knowledge you are dismissing as too basic or too obvious to share, teach, or build something around.",
+    source: "Derek Sivers, essay Obvious to You. Amazing to Others.",
+    sourceAnchor: "sive.rs/obvious",
+    command: "/sivers:obvious-to-you-amazing-to-others",
+    themes: ["self", "starting"],
+    problemHint:
+      "I have knowledge or a skill that feels too basic to be worth anything, but people keep asking me about it.",
+  },
+  {
+    slug: "execution-multiplier",
+    figureSlug: "sivers",
+    title: "Ideas Are Just a Multiplier of Execution",
+    tagline:
+      "A brilliant idea with no execution is worth nothing. Build to solve your own problem first, and let the next problem, not a plan, decide what you build next.",
+    whenToUse:
+      "You are stuck rating or protecting an idea instead of building anything, or you are looking for a business idea instead of noticing the problem already in front of you.",
+    source: "Anything You Want by Derek Sivers",
+    sourceAnchor: "The CD Baby origin story, built to sell his own CD before anyone else asked",
+    command: "/sivers:execution-multiplier",
+    themes: ["starting", "building"],
+    problemHint:
+      "I have an idea I think is great and I am protecting it instead of actually building anything.",
+  },
+  {
+    slug: "hold-the-contradiction",
+    figureSlug: "sivers",
+    title: "Hold the Contradiction",
+    tagline:
+      "Two fully opposite ways of living can both be true. Argue each side completely on its own terms instead of collapsing into one rule too early.",
+    whenToUse:
+      "You are stuck between two approaches that seem to contradict each other, such as independence versus commitment, or mastering one thing versus staying a beginner, and you are trying to resolve it into a single correct answer.",
+    source: "How to Live by Derek Sivers",
+    sourceAnchor: "27 chapters, each fully convinced of a different way to live",
+    command: "/sivers:hold-the-contradiction",
+    themes: ["thinking", "self"],
+    problemHint:
+      "I feel torn between two completely opposite pieces of advice and I want to know which one is actually right.",
+  },
+  {
+    slug: "earn-what-cant-be-given",
+    figureSlug: "sivers",
+    title: "Earn What Can't Be Given",
+    tagline:
+      "Mastery is the one goal the rich cannot buy, the impatient cannot rush, and the privileged cannot inherit. Aim at it specifically because nobody can hand it to you.",
+    whenToUse:
+      "You are choosing between goals and one option is status, money, or connections that could be given to you, while another is a skill that can only be earned.",
+    source: "How to Live by Derek Sivers",
+    sourceAnchor: "Chapter, Master something",
+    command: "/sivers:earn-what-cant-be-given",
+    themes: ["growth", "persisting"],
+    problemHint:
+      "I am chasing something that other people could just hand me instead of building the one thing that has to be earned.",
+  },
+  {
+    slug: "useful-not-true",
+    figureSlug: "sivers",
+    title: "Useful, Not True",
+    tagline:
+      "Ask whether a belief is useful to hold right now, not whether it is objectively true. Treat beliefs as tools you pick up and put down, not as claims you must defend.",
+    whenToUse:
+      "You are stuck defending or attacking a belief as factually correct, when the real question is whether holding it is actually helping you act.",
+    source: "Useful Not True by Derek Sivers",
+    sourceAnchor: "The book's central argument",
+    command: "/sivers:useful-not-true",
+    themes: ["thinking", "meaning"],
+    problemHint:
+      "I am arguing about whether something is true when what actually matters is whether believing it helps me do anything.",
+  },
+
+  // Visakan Veerasamy
+  {
+    slug: "visakan",
+    figureSlug: "visakan",
+    title: "The Friendly Ambitious Nerd Method",
+    tagline:
+      "Give the smart, striving, slightly awkward part of yourself permission to want things out loud, and treat writing about it, unedited, as a real way of figuring yourself out.",
+    whenToUse:
+      "Use when you are stuck between wanting to achieve something and wanting to be liked, as if you have to choose, or when you need to think through something messy by writing it out rather than solving it in your head.",
+    source: "Visakan Veerasamy, Friendly Ambitious Nerd and the visakanv.com essay archive",
+    sourceAnchor: "Recurring across the essay archive",
+    command: "/visakan:visakan",
+    umbrella: true,
+    themes: ["self", "meaning"],
+    problemHint:
+      "I feel like I have to choose between being ambitious and being likable, and I do not know how to want things out loud.",
+  },
+  {
+    slug: "greatness-is-deviance",
+    figureSlug: "visakan",
+    title: "Greatness Is Deviance",
+    tagline:
+      "Nobody does something nobody else can yet see without passing through cringe. If you want to do something great, you have to behave differently than most people first.",
+    whenToUse:
+      "You have an ambition or a piece of work you are holding back on because it would look strange, embarrassing, or premature to the people around you.",
+    source: "Visakan Veerasamy, essay Greatness is Deviance",
+    sourceAnchor: "visakanv.com/blog/greatness-is-deviance",
+    command: "/visakan:greatness-is-deviance",
+    themes: ["starting", "self"],
+    problemHint:
+      "I have an idea that would look strange or embarrassing to the people around me and that is the only thing stopping me.",
+  },
+  {
+    slug: "word-magic",
+    figureSlug: "visakan",
+    title: "Word Magic",
+    tagline:
+      "Write to figure yourself out, not to perform an already finished thought. Experiment with the phrasing until you find the handful of words that actually carry weight.",
+    whenToUse:
+      "You are trying to think through something confusing or emotionally loaded and you keep waiting until you understand it before writing anything down.",
+    source: "Visakan Veerasamy, essay Word Magic",
+    sourceAnchor: "visakanv.com/blog/word-magic, and the 1000wordvomits project begun 2012",
+    command: "/visakan:word-magic",
+    themes: ["thinking", "meaning"],
+    problemHint:
+      "I have a confusing feeling or situation I cannot think through until I already understand it, which means I never start writing about it.",
+  },
+  {
+    slug: "write-for-outliers",
+    figureSlug: "visakan",
+    title: "Write for the Outliers, Not Most People",
+    tagline:
+      "Aim at the 0.1 percent outliers in optimism, thoughtfulness, and drive, not the average reader. Optimizing for the median produces nothing worth reading or becoming.",
+    whenToUse:
+      "You are diluting a piece of work, a message, or a standard for yourself to make it acceptable to the average person, instead of aiming it at the people it is actually for.",
+    source: "Visakan Veerasamy, essay Most People",
+    sourceAnchor: "visakanv.com/blog/most-people",
+    command: "/visakan:write-for-outliers",
+    themes: ["focus", "growth"],
+    problemHint:
+      "I am watering down my work or my standards to not alienate anyone, and I think it is making the work worse.",
+  },
+  {
+    slug: "claim-the-identity",
+    figureSlug: "visakan",
+    title: "Claim the Identity",
+    tagline:
+      "Name the identity you have been living without permission to claim. A named identity, like friendly ambitious nerd, gives you somewhere to stand instead of feeling alone in a contradiction.",
+    whenToUse:
+      "You feel like a contradiction, too ambitious to fit in, too nerdy to be taken seriously, too sensitive to compete, and you have not yet found a name for what you actually are.",
+    source: "Visakan Veerasamy, essay Friendly Ambitious Nerd",
+    sourceAnchor: "visakanv.com/blog/friendly-ambitious-nerd",
+    command: "/visakan:claim-the-identity",
+    themes: ["self", "meaning"],
+    problemHint:
+      "I feel like a contradiction, too much of one thing and not enough of another, and I do not have a name for what I actually am.",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */

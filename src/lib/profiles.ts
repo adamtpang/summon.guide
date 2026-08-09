@@ -2041,6 +2041,78 @@ export const profiles: Record<string, Profile> = {
       "David Senra interview series",
     ],
   },
+  sivers: {
+    slug: "sivers",
+    occupation: "Writer, founder of CD Baby",
+
+    fullName: "Derek Sivers",
+    birthDate: "1969",
+    birthPlace: "Berkeley, California",
+    nationality: "American",
+    occupations: ["Writer", "Entrepreneur", "Musician", "Programmer"],
+    yearsActive: "1990 to present",
+    notableWorks: [
+      "Anything You Want (2011, expanded 2022)",
+      "Your Music and People (2020)",
+      "Hell Yeah or No (2020)",
+      "How to Live (2021)",
+      "Useful Not True (2024)",
+    ],
+
+    earlyLife:
+      "Sivers was born in 1969 in Berkeley, California, and moved almost every year for his first six years following his physicist father's work. He began music training at seven and programming at nine, and decided at fourteen he wanted to be a professional musician. He studied at Berklee College of Music in Boston, graduating in 1990, and spent a decade as a circus ringleader and musician alongside his early music career, including a 1992 tour of Japan and Europe as Ryuichi Sakamoto's guitarist.",
+
+    career:
+      "In 1998 Sivers built a webpage to sell his own CD, and when friends asked him to sell theirs too, CD Baby grew almost by accident into the largest online seller of independent music, eventually serving over 150,000 musician clients and 100 million dollars in sales. In 2008 he sold the company for 22 million dollars, but not directly: he first transferred ownership into the Independent Musicians Charitable Trust, then had the trust complete the sale, so the proceeds fund music education causes rather than his own accounts. He has given four TED talks with over seven million combined views. Since 2011 he has written five short, self published books, each under 135 pages, distilling specific lessons from founding and selling CD Baby into standalone arguments: that execution multiplies ideas rather than the reverse, that a decision worth making should feel like a hell yeah, that contradictory ways of living can both be true at once, and most recently that a belief is worth holding not because it is true but because it is useful.",
+
+    legacy:
+      "Sivers turned one company's origin story into five distinct short books rather than one long memoir, each built around a single reusable claim rather than a general account of his career. His decision to route CD Baby's sale through a charitable trust, giving away money he could have kept, is frequently cited alongside his writing as evidence the ideas are not merely marketing for a personal brand. He does not currently have a standalone Wikipedia article, a 2022 deletion discussion found insufficient independent secondary coverage, so his own site, sive.rs, remains the most complete record of his own work.",
+
+    notableQuotes: [
+      "If you're not saying HELL YEAH about something, say no.",
+      "Ideas are just a multiplier of execution. The most brilliant idea is worthless with no execution.",
+      "Everybody's ideas seem obvious to them.",
+    ],
+    primarySources: [
+      "Anything You Want (2011, expanded 2022)",
+      "How to Live (2021)",
+      "Useful Not True (2024)",
+    ],
+  },
+  visakan: {
+    slug: "visakan",
+    occupation: "Writer",
+
+    fullName: "Visakan Veerasamy",
+    birthDate: "1990",
+    nationality: "Singaporean",
+    occupations: ["Writer"],
+    yearsActive: "2005 to present",
+    notableWorks: [
+      "Friendly Ambitious Nerd (2020)",
+      "1000wordvomits (ongoing since 2012, a commitment to 1,000 unedited essays)",
+      "frame studies (ongoing Substack, formerly voltaic verses)",
+    ],
+
+    earlyLife:
+      "Veerasamy was born in 1990 in Singapore and began blogging in 2005, writing initially about Singapore politics and current affairs through his early twenties before turning toward psychology, ambition, and self expression. He was the first marketing hire and blog editor at ReferralCandy, a Singapore based marketing company, where he grew the company blog from roughly two thousand to over one hundred thirty thousand monthly hits between 2013 and 2018, and co-founded Statement.sg, a Singaporean apparel brand.",
+
+    career:
+      "He left ReferralCandy in 2018 to write full time, continuing a project he started in 2012 called 1000wordvomits, a public commitment to write one thousand unedited essays of at least one thousand words each; as of 2026 he remains short of completing it. In 2020 he self published Friendly Ambitious Nerd, an edited collection of his best essays and threads from over a decade of writing, and coined the phrase as a name for a specific identity, someone smart, striving, and a little awkward, who wants to build things and be liked without yet believing both are possible. His current project, published under the name frame studies, examines how a person's frameworks rather than the facts in front of them determine what they are able to see and do.",
+
+    legacy:
+      "Veerasamy has no traditionally published book and no standalone Wikipedia article; his primary body of work lives entirely on his own site and in roughly a quarter million tweets, an unusually large first person corpus for a writer working almost entirely outside traditional publishing. His recurring contribution is less a single argument than a stance: that writing unedited, in public, over many years, is itself a legitimate method for figuring out who you are, not only a way of sharing a conclusion already reached.",
+
+    notableQuotes: [
+      "Greatness is deviance from the norm, ie insanity.",
+      "Nobody achieves greatness without passing through the crucible of cringe.",
+      "Live your life like you're in a heroic anime, jrpg. Make friends. Help people on their side quests.",
+    ],
+    primarySources: [
+      "Friendly Ambitious Nerd (2020)",
+      "visakanv.com essay archive",
+    ],
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {
