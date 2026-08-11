@@ -52,7 +52,7 @@ let out = `  "${slug}": {\n    coverage: "partial",\n    sources: [\n`;
 for (const f of files) {
   const { fm, lessons } = parseFile(DIR, f);
   const show = fm.series || fm.show || "";
-  const sourceBook = show ? `${show}: ${fm.title}` : fm.title;
+  const sourceBook = show && !fm.title.startsWith(show) ? `${show}: ${fm.title}` : fm.title;
   const youtubeUrl = fm.youtube_url || (fm.youtube_id ? `https://www.youtube.com/watch?v=${fm.youtube_id}` : "");
   out += "      {\n";
   out += `        file: "${corpusDirArg}/${f}",\n`;
