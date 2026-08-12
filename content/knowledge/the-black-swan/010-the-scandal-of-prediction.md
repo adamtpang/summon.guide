@@ -1,0 +1,26 @@
+---
+title: "Chapter 10: The Scandal of Prediction"
+principle: "We are demonstrably arrogant about the limits of our own knowledge, and this epistemic arrogance infects every profession built on forecasting; the real scandal is not that predictions fail, but that almost nobody tracks the failure rate."
+tags: [the-black-swan, prediction, epistemic-arrogance, experts, economics, forecasting]
+---
+
+# Chapter 10: The Scandal of Prediction
+
+> **Key principle:** Taleb opens with the Sydney Opera House, a decade late and roughly fourteen times over its original budget, as a monument to humanity's chronic overconfidence about the future. He then builds the case, through calibration experiments, the "expert problem," and the toxic effect of extra information, that professional forecasters in fields governed by Extremistan are not just imprecise but systematically self-deceived about how imprecise they are.
+
+*Synthesized from Chapter 10 of The Black Swan by Nassim Nicholas Taleb.*
+
+## Key lessons
+
+- The chapter opens with the Sydney Opera House: budgeted at AU$7 million for a 1963 opening, it actually opened a decade-plus later at roughly AU$104 million, which Taleb uses as a symbol of "epistemic arrogance," our built-in tendency to think we know more than we do about the future.
+- Taleb describes a calibration exercise (originating with researchers Albert and Raiffa): ask people to give a range for an unknown quantity (e.g., the number of lovers Catherine the Great had, later revealed as twelve) such that they are 98% confident the true value falls inside it. The expected error rate should be about 2%, but across many replications the actual error rate runs 15-45%, meaning people's stated confidence vastly exceeds their real accuracy. This held even for sophisticated groups like Harvard MBAs.
+- "Information is bad for knowledge": more data does not reliably improve accuracy but does reliably increase confidence. Taleb cites an experiment where subjects shown a blurry image resolving in fewer steps recognized it faster than those given more incremental steps, because extra intermediate "information" generates competing false hypotheses that then stick (belief perseverance, confirmation bias). He also cites Stuart Oskamp's 1965 study of clinical psychologists whose diagnostic confidence rose with more patient data while diagnostic accuracy did not, and Paul Slovic's study of bookmakers whose predictive accuracy on horse races didn't improve with more variables even as their confidence did.
+- "The expert problem, or the tragedy of the empty suit": epistemic arrogance doesn't preclude real skill. Some professions have genuine experts (livestock judges, astronomers, chess masters, physicists, accountants, grain inspectors) because their subject matter is stable and repeatable ("things that don't move"). Others have essentially no predictive expertise despite great confidence (stockbrokers, clinical psychologists, political scientists, economists, financial forecasters) because they deal with the nonrepeatable future, "things that move," which is Black-Swan-prone.
+- Philip Tetlock's study of roughly 300 political and economic experts making around 27,000 predictions found error rates far higher than the experts' own estimates, no advantage for PhDs over generalists, and, strikingly, a negative correlation between reputation and accuracy: the more famous the forecaster, the worse the track record. Tetlock's "hedgehogs" (wedded to one big narrative) fared worse than "foxes" (adaptable, holding many small theories).
+- When wrong, experts in Tetlock's study reliably explained away failure with an "almost right" defense: they claimed the event was an unforeseeable outlier, or that they'd been playing a "different game" (e.g., citing hidden Soviet economic weakness rather than admitting a failed political forecast), or narrated a near-miss that made a wrong call feel almost correct in hindsight.
+- Studies of security analysts (Tyszka and Zielonka, and a Bouchaud-supervised study of 2,000 predictions) found forecasters did no better than a naive model that simply repeats the last known figure, while also "herding," clustering their forecasts near one another rather than spreading out around the true value, which Taleb reads as self-protective behavior rather than genuine analysis.
+- The chapter closes on the asymmetry between Mediocristan and Extremistan predictions: for Mediocristan variables like human life expectancy, expected remaining time shrinks the longer you've already survived; for Extremistan/scalable variables like project completion times, the longer a project overruns, the longer its expected remaining delay grows. Taleb's practical rule, "don't cross a river that is on average four feet deep," argues that the variability (error rate) around a forecast matters more than the point estimate itself, and that unmeasured error rates, plus forecast degradation over longer horizons, make most published projections nearly worthless as guides to policy.
+
+---
+
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: The Black Swan by Nassim Nicholas Taleb, https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X.*
