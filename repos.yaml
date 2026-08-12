@@ -1,0 +1,42 @@
+# repos.yaml v0 — see github.com/adamtpang/repo-protocol
+repo: summon.guide
+is: Streaming chat with 10 legends whose actual life decisions get quoted back with sources, not generic advice.
+url: https://summon.guide
+cluster: wealth-mentors
+
+provides:
+  - id: legend-chat
+    what: streaming character chat, one legend at a time, source-cited responses
+    at: src/app/chat/[figure]/page.tsx
+  - id: legend-knowledge
+    what: 10 figure definitions, deeply researched system prompts, knowledge chunks with source citations
+    at: src/lib/figures.ts
+  - id: legend-match
+    what: routes a free-text question to the figure whose domains best fit it
+    at: src/app/api/match
+  - id: corpus-grounding
+    what: turns curated YouTube-corpus episode files into cited grounding blocks injected into a chat figure's system prompt, so [Source: ...] citations point at real episodes instead of being invented
+    at: src/lib/figureSources.ts
+  - id: book-ingestion
+    what: finds, dedupes, and extracts text from a local PDF library (359 books ingested, ~23M words), the same pipeline that could source book-grounded figures the way figureSources.ts sources YouTube-grounded ones
+    at: scripts/ingest-shelf.mjs
+
+stack: [next, tailwind, anthropic-sdk]
+
+kin:
+  - repo: book.movie
+    why: book.movie's remotion/scripts/render.mjs renders summon.guide episode handoff.json files into parchment-style print video, fetching the real read from this repo's /api/tts (src/app/api/tts/route.ts) and cutting on its measured duration rather than the words-per-minute estimate in scripts/episodes-from-plan.mjs. Adam lost the book.movie domain and considers it expensive to reacquire, so book.movie's code is now effectively the video-rendering arm of summon.guide rather than a standalone product.
+  - repo: youchop.app
+    why: youchop.app is the free, no-API-key YouTube extraction pipeline; summon.guide's figure grounding (figureSources.ts) is built directly from its output, e.g. the John Vervaeke figure's 6 curated episodes trace back to a youchop.app corpus run.
+  - repo: summon.company
+    why: summon.company/knowledge is the canonical corpus store; figureSources.ts pulls specific curated episode files from there for chat grounding, never copying the raw multi-MB corpora.
+  - repo: moneymeta.fun
+    why: moneymeta ranks the income paths with public data; summon.guide's wealth-themed legends (Rockefeller, Bezos, Musk, Walton, Munger, Franklin) are the mentor layer on top, live people to argue with about the same decisions moneymeta scores
+  - repo: skill.supply
+    why: skill.supply packages a person for hiring; summon.guide's legends can coach the decision, not just the resume
+  - repo: company.university
+    why: shares the same builder audience and could cross-link the skills board against a legend's domain
+  - repo: vitals.run
+    why: vitals.run states Adam's own sleep/diet/training protocol as static rules; a health-mentor guide layer here (Bryan Johnson, Andrew Huberman, Carnivore Aurelius framing) would give those pages sourced reasoning to chat against instead of a flat page
+  - repo: ness.city
+    why: ness.city's civic layer for the Network School community faces the same "we got kicked out, now what" moment Singapore did in 1965; a sourced Lee Kuan Yew legend here is the mentor to chat against while ness.city works out its own build-an-internet-Singapore strategy
