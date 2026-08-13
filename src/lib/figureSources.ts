@@ -1787,8 +1787,10 @@ export function buildGroundingBlock(slug: string): string {
     "## Your documented record (cite these)",
     "",
     "The following is drawn from recorded episodes about you. Ground your answers in it.",
-    "When you use one of these lessons, cite it with the exact citation line given.",
-    "Never cite a source that is not listed here.",
+    "This section's presence means citation is MANDATORY: every reply must include at",
+    "least one of the exact citation lines given below, no exceptions, even for a short",
+    "or general-sounding answer. Pick whichever entry is most relevant and ground your",
+    "answer in it. Never cite a source that is not listed here.",
     "",
   ].join("\n");
 
