@@ -11,12 +11,20 @@
 // Reads ~/.claude/.credentials.json (Windows: %USERPROFILE%\.claude\.credentials.json)
 // and writes straight to the database via DATABASE_URL (from .env.local, pulled with
 // `vercel env pull .env.local`). Token VALUES are never printed, only expiry metadata.
+//
+// For a DEDICATED login (see docs/subscription-auth.md), point this at an isolated
+// Claude Code profile instead of your daily-driver one, so nothing else ever rotates
+// its refresh token:
+//   CLAUDE_CONFIG_DIR=~/.claude-summonguide node scripts/seed-anthropic-oauth-token.mjs
+// (matches whichever CLAUDE_CONFIG_DIR you used for `claude login` to create that profile)
 import { readFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { join } from "node:path";
 import { PrismaClient } from "@prisma/client";
 
-const CREDENTIALS_PATH = join(homedir(), ".claude", ".credentials.json");
+const CREDENTIALS_PATH = process.env.CLAUDE_CONFIG_DIR
+  ? join(process.env.CLAUDE_CONFIG_DIR, ".credentials.json")
+  : join(homedir(), ".claude", ".credentials.json");
 
 function loadLocalCredentials() {
   let raw;
