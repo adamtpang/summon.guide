@@ -768,6 +768,41 @@ function getSuggestedQuestions(slug: string): string[] {
       "I have a big ambitious idea but I'm scared to say it out loud. What do I do?",
       "How do I write my way through something I don't understand yet instead of waiting until I do?",
     ],
+    "james-clear": [
+      "I keep starting habits and quitting after a week. What am I doing wrong?",
+      "How do I actually change my identity, not just my behavior?",
+      "My habit isn't sticking even though I want it to. Is it my willpower or my environment?",
+    ],
+    "cal-newport": [
+      "My day is full but I don't feel like I made anything. What's actually happening?",
+      "Should I quit social media, or just be more disciplined about how I use it?",
+      "How do I find the rare, valuable skill I should actually be building?",
+    ],
+    "tim-ferriss": [
+      "I've wanted to do this for years and keep talking myself out of it. Help me fear-set it.",
+      "What's the smallest test I could run this week to get a real answer instead of guessing?",
+      "What would this problem look like if it were easy?",
+    ],
+    "annie-duke": [
+      "A decision I made worked out badly. Was it actually a bad decision, or just bad luck?",
+      "How do I know if I'm staying in something out of stubbornness instead of good reasons?",
+      "How do I get honest with myself about how uncertain I actually am?",
+    ],
+    "carol-dweck": [
+      "I failed at something and now I don't want to try again. What's going on in my head?",
+      "How do I actually build a growth mindset, not just say the words?",
+      "Am I praising the people around me in a way that's helping or hurting them?",
+    ],
+    "paul-millerd": [
+      "I have a stable job that looks great from the outside but I feel like I'm disappearing into it.",
+      "How do I know if I actually chose this path or just inherited it?",
+      "I want to leave but I'm terrified of having no plan. What was the void actually like?",
+    ],
+    "napoleon-hill": [
+      "I want something big but I'm not sure I actually believe I can have it.",
+      "How do I know if my desire is a burning desire or just a passing wish?",
+      "What is a mastermind, and how do I build one around my own goal?",
+    ],
   };
   return questions[slug] || ["What was your most important decision?", "What advice for a young person?"];
 }
