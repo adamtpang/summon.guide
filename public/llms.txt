@@ -1,0 +1,41 @@
+# summon.guide
+
+> Every legend who ever lived, on call. Type in any life problem and summon.guide
+> matches you with a deeply-researched historical guide, grounded in real
+> biographies and primary sources, for streaming chat counsel on your hardest
+> decisions. Includes a voiceover tool that turns a short essay into a
+> 90-120 second MP3 in a guide's voice, ready for video.
+
+## What it is
+
+summon.guide is a mentorship product for founders and operators facing lonely,
+high-stakes decisions, plus creators who want essay-to-voice for video. Each
+guide (Rockefeller, Jobs, Bezos, Musk, Huang, Thiel, Munger, Franklin, Walton,
+Naval, and others) is grounded in cited biography knowledge chunks, not a
+free-floating persona prompt. Responses cite sources back to the underlying
+biography or primary text.
+
+It is not a generic chatbot wrapper, not a therapy or crisis-counseling
+product, and not a video generation tool itself (video visuals are handed off
+to a separate product, book.movie).
+
+## Pricing
+
+25 free messages, then a founding license of $10 for 100 messages via a live
+Stripe payment link on the paywall CTA.
+
+## Key routes
+
+- / — home: search or browse the full roster of guides
+- /[figure] — a guide's profile page (e.g. /john-d-rockefeller)
+- /chat/[figure] — streaming chat with a guide
+- /chat/source/[slug] — chat grounded directly in a specific book's corpus
+- /skills — Claude Code skills packaged from these guides' frameworks, installable in a terminal
+- /speak — paste an essay, pick a guide, generate a 90-120s MP3 voiceover for video
+- /books — books that ground the guides, browsable by title
+- /library — knowledge library / episode index
+- /watch — video episodes made from the books
+
+## Contact
+
+Built and operated by Adam Pangelinan / Anchor Marianas LLC.
