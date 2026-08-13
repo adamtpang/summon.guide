@@ -2113,6 +2113,302 @@ export const profiles: Record<string, Profile> = {
       "visakanv.com essay archive",
     ],
   },
+
+  "james-clear": {
+    slug: "james-clear",
+    occupation: "Author, speaker, habit and behavior change researcher",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/James_Clear",
+
+    birthDate: "January 22, 1986",
+    birthPlace: "Hamilton, Ohio, U.S.",
+    nationality: "American",
+    education: [
+      "Denison University (biomechanics, 2008)",
+      "Ohio State University (MBA)",
+    ],
+    occupations: ["Author", "Writer", "Speaker"],
+    yearsActive: "2012–present",
+    notableWorks: [
+      "Atomic Habits (2018)",
+      "3-2-1 Thursday newsletter (weekly, since 2012)",
+    ],
+
+    earlyLife:
+      "Clear grew up partly on his grandparents' farm before settling in Hamilton, Ohio. In high school he was struck in the face by an errant baseball bat during a game, an injury severe enough to put him in a medically induced coma with a shattered nose, a fractured skull, and permanent damage to one eye. He recovered slowly through physical therapy and returned to competitive baseball, later serving as captain of the team at Denison University, where he earned a degree in biomechanics in 2008. He went on to complete an MBA at Ohio State University.",
+
+    career:
+      "Clear began publishing articles on his own website on November 12, 2012, writing consistently about habits, decision making, and deliberate practice, much of it drawn from his own recovery and return to athletic performance after the injury. The site's growing readership, built through the weekly newsletter he still writes today, eventually drew the attention of Penguin Random House, which signed him to write Atomic Habits. Published in October 2018 under the Avery imprint, the book laid out the Four Laws of Behavior Change, make it obvious, make it attractive, make it easy, make it satisfying, along with the idea that habits function as votes for the type of person someone wishes to become. It became a number one New York Times bestseller and, by 2024, had spent roughly five years on that list and sold close to 20 million copies worldwide in more than 60 languages.",
+
+    legacy:
+      "Clear remains one of the best selling nonfiction authors of the past decade, and the Four Laws of Behavior Change have become standard vocabulary in coaching, corporate training, and everyday conversation about self improvement. He continues to write his weekly 3-2-1 Thursday newsletter, speak publicly on habits and performance, and lives in Columbus, Ohio.",
+
+    notableQuotes: [
+      "You do not rise to the level of your goals. You fall to the level of your systems.",
+      "Every action you take is a vote for the type of person you wish to become.",
+      "Habits are the compound interest of self-improvement.",
+      "You should be far more concerned with your current trajectory than with your current results.",
+      "Success is the product of daily habits—not once-in-a-lifetime transformations.",
+    ],
+    primarySources: ["Atomic Habits by James Clear (2018)"],
+  },
+
+  "cal-newport": {
+    slug: "cal-newport",
+    occupation: "Computer scientist, author, Georgetown University professor",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Cal_Newport",
+
+    fullName: "Calvin C. Newport",
+    birthDate: "June 23, 1982",
+    birthPlace: "Pennington, New Jersey, U.S.",
+    nationality: "American",
+    education: [
+      "Dartmouth College (B.A., 2004)",
+      "Massachusetts Institute of Technology (M.S. and Ph.D. in Computer Science, 2009)",
+    ],
+    occupations: ["Computer scientist", "Author", "Professor"],
+    yearsActive: "2007–present (writing); 2011–present (Georgetown faculty)",
+    notableWorks: [
+      "So Good They Can't Ignore You (2012)",
+      "Deep Work (2016)",
+      "Digital Minimalism (2019)",
+      "A World Without Email (2021)",
+      "Slow Productivity (2024)",
+    ],
+
+    earlyLife:
+      "Newport grew up in Pennington, New Jersey, where his grandfather had served as a Baptist minister and theologian. He graduated from Hopewell Valley Central High School in 2000 and earned his undergraduate degree at Dartmouth College in 2004. He then went to MIT for graduate school, completing a master's degree and a PhD in computer science in 2009 under Nancy Lynch, with a dissertation on distributed algorithms in difficult networking environments.",
+
+    career:
+      "While still a graduate student, Newport launched Study Hacks, a blog on student and career strategy, in 2007, and published his first two books before finishing his PhD. He joined Georgetown University's computer science department as an assistant professor in 2011, earned tenure in 2017, and was promoted to full professor in 2024, all while continuing an active line of academic research on distributed algorithms and, later, the theoretical study of communication in nature. In parallel, his popular writing developed a signature argument: that deep, distraction free concentration on cognitively demanding work is both increasingly rare and increasingly valuable in a knowledge economy organized around shallow, easily measured busywork. Digital Minimalism (2019) extended that argument to personal technology use, and A World Without Email (2021) took aim specifically at the always on messaging culture he calls the hyperactive hive mind.",
+
+    legacy:
+      "Newport has never held a social media account, a deliberate professional stance rather than an accident, and has become one of the most cited voices arguing against treating constant connectivity and busyness as proxies for real productivity. He continues to publish books, write the newsletter and host the podcast Deep Questions, and hold a full professorship at Georgetown while remaining outside the platforms most authors in his genre depend on for reach.",
+
+    notableQuotes: [
+      "Human beings, it seems, are at their best when immersed deeply in something challenging.",
+      "Clarity about what matters provides clarity about what does not.",
+      "If you don't produce, you won't thrive—no matter how skilled or talented you are.",
+      "Spend enough time in a state of frenetic shallowness and you permanently reduce your capacity to perform deep work.",
+      "Think like artists but work like accountants.",
+    ],
+    primarySources: ["Deep Work by Cal Newport (2016)"],
+  },
+
+  "tim-ferriss": {
+    slug: "tim-ferriss",
+    occupation: "Author, podcaster, angel investor",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Tim_Ferriss",
+
+    fullName: "Timothy Ferriss",
+    birthDate: "July 20, 1977",
+    birthPlace: "East Hampton, New York, U.S.",
+    nationality: "American",
+    education: [
+      "St. Paul's School, Concord, New Hampshire",
+      "Princeton University (B.A., East Asian Studies, 2000)",
+    ],
+    occupations: ["Author", "Podcaster", "Entrepreneur", "Angel investor"],
+    yearsActive: "2001–present",
+    notableWorks: [
+      "The 4-Hour Workweek (2007)",
+      "The 4-Hour Body (2010)",
+      "The 4-Hour Chef (2012)",
+      "Tools of Titans (2016)",
+      "Tribe of Mentors (2017)",
+    ],
+
+    earlyLife:
+      "Ferriss grew up in East Hampton, New York, dealing with health struggles as a child that helped shape his later fascination with self experimentation. At fifteen he spent a year in Japan as an exchange student, an experience he has credited with permanently widening his sense of what a normal life could look like. He wrestled competitively in high school, attended St. Paul's School, and graduated from Princeton University in 2000 with a degree in East Asian Studies.",
+
+    career:
+      "In 2001 Ferriss founded BrainQUICKEN, an online nutritional supplements company he ran while still holding a day job, an experience that became the basis for The 4-Hour Workweek, published in 2007, which popularized the phrase lifestyle design and argued for applying the 80/20 principle to an entire life rather than just a task list. He sold BrainQUICKEN to a private equity firm in 2010, and by then had already become a prolific early angel investor and advisor to a wide range of startups, including Uber, Facebook, Twitter, and Shopify, well before most of them were widely recognized as major companies. Since 2014 he has hosted The Tim Ferriss Show, an interview podcast that has passed one billion downloads and become one of the most influential long form interview shows in business and self improvement media, deconstructing the habits and routines of hundreds of world class performers across sport, business, and the arts. He distilled hundreds of those interviews into Tools of Titans (2016) and Tribe of Mentors (2017).",
+
+    legacy:
+      "Ferriss remains one of the most listened to interviewers in business and self improvement media, and continues to write, invest, and produce his podcast. His fear setting exercise, an adaptation of Stoic premeditatio malorum for modern decision making, and his framing of the 80/20 principle as a life philosophy rather than only a business tool have become widely repeated reference points well outside his own audience.",
+
+    notableQuotes: [
+      "What we fear doing most is usually what we most need to do.",
+      "Focus on being productive instead of busy.",
+      "You are the average of the five people you associate with most, so do not underestimate the effects of your pessimistic, unambitious, or disorganized friends.",
+      "“Someday” is a disease that will take your dreams to the grave with you.",
+      "Being able to quit things that don't work is integral to being a winner.",
+    ],
+    primarySources: [
+      "Tools of Titans by Tim Ferriss (2016)",
+      "Tribe of Mentors by Tim Ferriss (2017)",
+    ],
+  },
+
+  "annie-duke": {
+    slug: "annie-duke",
+    occupation: "Author, decision strategist, former professional poker player",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Annie_Duke",
+
+    fullName: "Anne LaBarr Lederer Duke",
+    birthDate: "September 13, 1965",
+    birthPlace: "Concord, New Hampshire, U.S.",
+    nationality: "American",
+    education: [
+      "St. Paul's School, Concord, New Hampshire",
+      "Columbia University (B.A., English and Psychology)",
+      "University of Pennsylvania (Ph.D., Cognitive Psychology, 2023)",
+    ],
+    occupations: [
+      "Professional poker player (1992–2010)",
+      "Author",
+      "Decision strategist",
+    ],
+    yearsActive: "1992–present",
+    notableWorks: [
+      "Thinking in Bets (2018)",
+      "How to Decide (2020)",
+      "Quit (2022)",
+    ],
+
+    earlyLife:
+      "Duke was born Anne LaBarr Lederer in Concord, New Hampshire, where her father Richard Lederer taught English at St. Paul's School and her mother taught at Concord High School; both parents were card players, and games were a constant presence at home. She studied English and psychology at Columbia University, part of the first fully co-educational class in the school's 230-year history, then began a doctoral program in cognitive psychology at the University of Pennsylvania on a National Science Foundation fellowship. One month before she was scheduled to defend her dissertation in 1991, she left academia to play poker professionally, following her older brother Howard Lederer, already an established professional, into the game.",
+
+    career:
+      "Duke won $70,000 in her first month playing at the 1994 World Series of Poker and moved to Las Vegas soon after to play full time. In 2000, nine months pregnant with her third child, she finished tenth in the WSOP Main Event, at the time the second best finish by a woman in the tournament's history. She won a WSOP gold bracelet in 2004 and, that same year, took first place in the inaugural WSOP Tournament of Champions for two million dollars, and in 2010 became the first, and to date only, woman to win the NBC National Heads-Up Poker Championship. Across her tournament career she won more than four million dollars. She stepped back from professional poker around 2010 and turned to writing and consulting on decision making under uncertainty, publishing Thinking in Bets in 2018, followed by How to Decide in 2020 and Quit in 2022. In 2014 she co-founded the Alliance for Decision Education, a nonprofit working to bring decision science into K-12 classrooms, and in 2023, three decades after leaving her doctoral program a month short of finishing, she completed her Ph.D. in cognitive psychology at the University of Pennsylvania.",
+
+    legacy:
+      "Duke is now a leading popularizer of decision science outside academia, teaching as an adjunct at the Wharton School's executive education program and lecturing at the Harvard Kennedy School. Her central contribution, naming and popularizing resulting, the error of judging a decision's quality by its outcome rather than by the process that produced it, has become common vocabulary well beyond poker, in business strategy, medicine, and public discussion of risk.",
+
+    notableQuotes: [
+      "Life is more like poker than chess.",
+      "Drawing an overly tight relationship between results and decision quality affects our decisions every day, potentially with far-reaching, catastrophic consequences.",
+      "Diversity and dissent are not the only checks on fallibility, but the only means of testing the ultimate truth of an opinion.",
+      "Just as we are almost never 100% wrong or right, outcomes are almost never 100% due to luck or skill.",
+    ],
+    primarySources: ["Thinking in Bets by Annie Duke (2018)"],
+  },
+
+  "carol-dweck": {
+    slug: "carol-dweck",
+    occupation: "Psychologist, Stanford University professor",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Carol_Dweck",
+
+    fullName: "Carol Susan Dweck",
+    birthDate: "October 17, 1946",
+    birthPlace: "New York City, New York, U.S.",
+    nationality: "American",
+    education: [
+      "Barnard College (B.A., 1967)",
+      "Yale University (Ph.D., Psychology, 1972)",
+    ],
+    occupations: ["Psychologist", "Professor of Psychology"],
+    yearsActive: "1972–present",
+    notableWorks: [
+      "Mindset: The New Psychology of Success (2006)",
+      "Research on implicit theories of intelligence (1988 onward)",
+    ],
+
+    earlyLife:
+      "Dweck was born in New York City, the middle of three children and the only daughter, to parents who worked in the export-import and advertising businesses. A sixth grade classroom at P.S. 153 in Brooklyn, where the teacher seated students by IQ score and gave the highest scorers special privileges, left a lasting impression on her: she has described becoming increasingly afraid to risk her reputation as one of the smart kids, and avoiding challenges that might expose her as less capable. That early experience of watching intelligence treated as a fixed, rankable trait became the question her later research career was built to answer.",
+
+    career:
+      "Dweck earned her Ph.D. in psychology from Yale in 1972 and joined the faculty at the University of Illinois, later holding positions at Harvard's Laboratory of Human Development and at Columbia University before moving to Stanford in 2004, where she holds the Lewis and Virginia Eaton Professorship in Psychology. Her research beginning in 1988 introduced what she called implicit theories of intelligence, the finding that people tend to hold one of two underlying beliefs about ability, that it is a fixed trait or that it can be developed, and that this belief shapes how they respond to failure and challenge. In a series of studies with children, she found that praising a child for being smart after a success made them more likely to choose easier tasks afterward, give up sooner when a task got hard, and misreport their scores to protect their reputation, while praising the same children for their effort or strategy made them more likely to choose a harder task and treat a poor result as useful information rather than a verdict on their worth. She popularized this fixed versus growth mindset distinction for a general audience in Mindset: The New Psychology of Success, published in 2006.",
+
+    legacy:
+      "Dweck has been elected to the National Academy of Sciences, won the E. L. Thorndike Award in 2009, and received the Yidan Prize for Education Research in 2017. Growth mindset has become one of the most widely adopted frameworks in K-12 education and corporate training worldwide, though large scale replication studies in the years since Mindset's publication have found smaller real world effects than the original popular framing suggested, a nuance Dweck herself has pushed back into the public conversation, repeatedly warning against watered down versions of the idea that equate it with simply praising effort or telling people to try harder.",
+
+    notableQuotes: [
+      "Becoming is better than being.",
+      "Why waste time proving over and over how great you are, when you could be getting better?",
+      "Did I win? Did I lose? Those are the wrong questions. The correct question is: Did I make my best effort?",
+      "So what should we praise? The effort, the strategies, the doggedness and persistence, the grit people show, the resilience that they show in the face of obstacles.",
+      "When people with the fixed mindset opt for success over growth, what are they really trying to prove? That they're special. Even superior.",
+    ],
+    primarySources: [
+      "Mindset: The New Psychology of Success by Carol S. Dweck (2006)",
+    ],
+  },
+
+  "paul-millerd": {
+    slug: "paul-millerd",
+    occupation: "Writer, former management consultant",
+    // No confirmed Wikipedia article as of this writing.
+
+    birthPlace: "Connecticut, U.S.",
+    nationality: "American",
+    education: [
+      "University of Connecticut (B.S., Industrial Engineering and Management)",
+      "Massachusetts Institute of Technology (MBA and M.S., Systems Engineering)",
+    ],
+    occupations: [
+      "Writer",
+      "Independent consultant",
+      "Former management consultant",
+    ],
+    yearsActive: "2017–present (writing)",
+    notableWorks: ["The Pathless Path (2022)", "Good Work (2024)"],
+
+    earlyLife:
+      "Millerd grew up in Connecticut and studied industrial engineering and management at the University of Connecticut before earning an MBA and a master's degree in systems engineering from MIT.",
+
+    career:
+      "Millerd spent roughly a decade in management strategy consulting, including time at McKinsey & Company and Boston Consulting Group, and later worked at a New York executive search firm focused on CEO succession, before leaving corporate work entirely in 2017 with no other job lined up. An eighteen month battle with Lyme disease had already made the pace of consulting work increasingly untenable, and he has written about the departure as less a single dramatic decision than the end point of a slow realization that the prestige and pay of his career were not answering the actual question of how he wanted to live. After leaving, he spent an extended, deliberately unstructured stretch without a clear plan before building a self-directed life around writing, coaching people trying to leave or break into consulting through his practice StrategyU, and independent consulting projects. His newsletter, launched in 2017 and first called Boundless before being renamed Pathless, has grown to more than 26,000 subscribers across 400-plus issues. In 2022 he self-published The Pathless Path, which has earned him more than $300,000 in royalties and been read in multiple languages, followed by a second book, Good Work, in 2024.",
+
+    legacy:
+      "Millerd continues to publish his newsletter most weeks, coach clients through StrategyU, and is widely cited in career writing that pushes back against the default script of school, then a prestigious job, then a career ladder, then retirement, as one of the clearer voices arguing that a life built from many smaller, self-directed commitments is a legitimate alternative to a single employer and a single ladder.",
+
+    notableQuotes: [
+      "On the pathless path, the goal is not to find a job, make money, build a business, or achieve any other metric. It's to actively and consciously search for the work that you want to keep doing.",
+      "It's having the courage to walk away from an identity that seems to make sense in the context of the default path in order to aspire towards things you don't understand.",
+      "Your life is too short and too valuable to fritter away in work.",
+      "As we age we do become more mentally rigid and minor challenges to our routines can be landmines threatening to blow up our weeks, and suggestions that we live in new ways are treated as acts of war.",
+    ],
+    primarySources: ["The Pathless Path by Paul Millerd (2022)"],
+  },
+
+  "napoleon-hill": {
+    slug: "napoleon-hill",
+    occupation: "Author, journalist, lecturer",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Napoleon_Hill",
+
+    fullName: "Oliver Napoleon Hill",
+    birthDate: "October 26, 1883",
+    birthPlace: "Pound, Wise County, Virginia, U.S.",
+    deathDate: "November 8, 1970 (aged 87)",
+    deathPlace: "Greenville, South Carolina, U.S.",
+    nationality: "American",
+    education: [
+      "Local schooling through his early teens",
+      "Business school, Tazewell, Virginia",
+      "Law school (withdrew for lack of funds)",
+    ],
+    occupations: ["Author", "Journalist", "Salesman", "Lecturer"],
+    yearsActive: "1928–1970",
+    notableWorks: [
+      "The Law of Success (1928)",
+      "Think and Grow Rich (1937)",
+      "Outwitting the Devil (written 1938, published 2011)",
+    ],
+    spouses: [
+      "Edith Whitman (m. 1903; div. 1908)",
+      "Florence Elizabeth Horner (m. 1910; div. 1935)",
+      "Rosa Lee Beeland (m. 1937; div. 1940)",
+      "Annie Lou Norman (m. 1943–1970)",
+    ],
+
+    earlyLife:
+      "Hill was born in a one room cabin near Pound, in the mountains of southwestern Virginia. His mother died when he was nine, and his father remarried two years later to a stepmother, Martha, whom Hill credited with pushing him toward education and away from the trouble he had been getting into as a boy. At thirteen he began writing as a mountain reporter for his father's newspaper, and at seventeen he moved to Tazewell, Virginia, for business school before working for a time for coal magnate Rufus A. Ayers and later enrolling in law school, which he left without finishing for lack of money.",
+
+    career:
+      "Hill worked as a journalist, salesman, and promoter across a series of ventures in Alabama, Washington D.C., and Chicago that repeatedly ended in financial collapse, and later used the title Attorney at Law despite no clear record of having practiced. He claimed that a meeting with steel magnate Andrew Carnegie set the course of his career, that Carnegie challenged him to spend twenty years, unpaid, interviewing the most successful men in America to distill the principles behind their success, and gave him letters of introduction to figures including Henry Ford, Thomas Edison, and Alexander Graham Bell. That claimed research became the basis first for his sixteen volume The Law of Success in 1928, which brought him enough money for a Rolls-Royce and a large Catskills estate before the Great Depression forced their loss, and then for its far more famous, condensed successor, Think and Grow Rich, published in 1937. The later book organized his material into thirteen principles, definiteness of purpose, the mastermind principle, and persistence among them, built around the claim that whatever the mind can conceive and believe, it can achieve.",
+
+    legacy:
+      "Hill died in 1970 with an estate of roughly a million dollars, and historians have long questioned several of his central claims, including the extent, and even the occurrence, of his relationship with Carnegie and some of the other figures he said he interviewed. Despite that unresolved controversy over his own biography, Think and Grow Rich has sold an estimated 100 million copies across editions and translations by publisher's account, and its structure, definite goals, a mastermind group, sustained persistence through failure, became a direct template for the modern personal success and self help genre that followed it. The Napoleon Hill Foundation, established in 1963, continues to promote his work and maintain his papers.",
+
+    notableQuotes: [
+      "Whatever the mind can conceive and believe, it can achieve.",
+      "The starting point of all achievement is desire. Weak desire brings weak results, just as a small fire makes a small amount of heat.",
+      "Set your mind on a definite goal and observe how quickly the world stands aside to let you pass.",
+      "The time will never be “just right.” Start where you stand, work with whatever tools you may have at your command, and better tools will be found as you go along.",
+      "There are no limitations to the mind except those we acknowledge. Both poverty and riches are the offspring of thought.",
+    ],
+    primarySources: ["Think and Grow Rich by Napoleon Hill (1937)"],
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

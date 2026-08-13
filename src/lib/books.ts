@@ -78,6 +78,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.stripe.press/poor-charlies-almanack",
     skillSlugs: ["charlie-munger", "invert-the-problem", "incentive-audit", "lollapalooza-check", "berkshire-system", "deserved-trust"],
     status: "partial",
+    corpusPaths: ["content/knowledge/poor-charlies-almanack"],
   },
 
   // Rockefeller
@@ -108,6 +109,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Autobiography-Benjamin-Franklin/dp/0486290735",
     skillSlugs: ["thirteen-virtues"],
     status: "partial",
+    corpusPaths: ["content/knowledge/autobiography-of-benjamin-franklin"],
   },
   {
     slug: "benjamin-franklin-an-american-life",
@@ -336,6 +338,7 @@ export const books: Book[] = [
       "https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255",
     skillSlugs: ["dichotomy-of-control", "view-from-above", "memento-mori"],
     status: "complete",
+    corpusPaths: ["content/knowledge/meditations"],
   },
 
   // Marc Andreessen: his own essays
@@ -424,6 +427,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Letters-Stoic-Penguin-Classics-Seneca/dp/0140442103",
     skillSlugs: ["letters-from-a-stoic"],
     status: "partial",
+    corpusPaths: ["content/knowledge/letters-from-a-stoic"],
   },
   {
     slug: "on-the-shortness-of-life",
@@ -477,6 +481,7 @@ export const books: Book[] = [
     pdfPath: "sources/pressfield/the-war-of-art.pdf",
     skillSlugs: [],
     status: "partial",
+    corpusPaths: ["content/knowledge/the-war-of-art"],
   },
   {
     slug: "siddhartha",
@@ -521,7 +526,8 @@ export const books: Book[] = [
       "Forty short lessons from founding and selling CD Baby: business as accidental problem solving, ideas as a multiplier of execution rather than a substitute for it, and staying small and controlled on purpose rather than chasing growth.",
     amazonUrl: "https://sive.rs/a",
     skillSlugs: [],
-    status: "pending",
+    status: "partial",
+    corpusPaths: ["content/knowledge/anything-you-want"],
   },
   {
     slug: "your-music-and-people",
@@ -547,7 +553,8 @@ export const books: Book[] = [
       "The expansion of a 2009 essay into a full decision filter: if it is not a hell yeah, it is a no. Argues most overcommitment comes from saying yes to too many medium options out of fear rather than genuine desire.",
     amazonUrl: "https://sive.rs/n",
     skillSlugs: [],
-    status: "pending",
+    status: "partial",
+    corpusPaths: ["content/knowledge/hell-yeah-or-no"],
   },
   {
     slug: "how-to-live",
@@ -560,7 +567,8 @@ export const books: Book[] = [
       "Twenty seven short chapters, each fully convinced of a different and often contradictory way to live. Independence and commitment, mastery and always staying a beginner, are each argued completely on their own terms rather than resolved into one rule.",
     amazonUrl: "https://sive.rs/h",
     skillSlugs: [],
-    status: "pending",
+    status: "partial",
+    corpusPaths: ["content/knowledge/how-to-live"],
   },
   {
     slug: "useful-not-true",
@@ -573,7 +581,8 @@ export const books: Book[] = [
       "Argues that a belief is worth holding not because it is objectively true but because holding it is useful right now. A short, deliberately uncomfortable case for treating beliefs as tools rather than as claims about reality.",
     amazonUrl: "https://sive.rs/u",
     skillSlugs: [],
-    status: "pending",
+    status: "partial",
+    corpusPaths: ["content/knowledge/useful-not-true"],
   },
 
   // Visakan: self published, no traditional book beyond this one
@@ -588,7 +597,124 @@ export const books: Book[] = [
       "A self compiled, self published collection of Veerasamy's best essays and threads from over a decade of writing, naming and defending the identity of the title: smart, striving, a little awkward, and allowed to want things in public.",
     amazonUrl: "https://visakanv.gumroad.com/l/FANbook",
     skillSlugs: [],
-    status: "pending",
+    status: "partial",
+    corpusPaths: ["content/knowledge/friendly-ambitious-nerd"],
+  },
+
+  // James Clear, Cal Newport, Tim Ferriss, Annie Duke, Carol Dweck,
+  // Paul Millerd, Napoleon Hill: registered for the book-to-knowledge
+  // pipeline. corpusPaths intentionally omitted until digests exist.
+  {
+    slug: "atomic-habits",
+    title: "Atomic Habits",
+    author: "James Clear",
+    year: 2018,
+    role: "by",
+    figureSlug: "james-clear",
+    description:
+      "A practical guide to building good habits and breaking bad ones through the Four Laws of Behavior Change: make it obvious, make it attractive, make it easy, make it satisfying, built on the claim that habits are the compound interest of self improvement.",
+    amazonUrl: "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/atomic-habits"],
+  },
+  {
+    slug: "deep-work",
+    title: "Deep Work",
+    author: "Cal Newport",
+    year: 2016,
+    role: "by",
+    figureSlug: "cal-newport",
+    description:
+      "A case for distraction free, cognitively demanding work as an increasingly rare and valuable skill, distinguishing deep work from shallow, logistical busywork and laying out rules for cultivating it in a fragmented attention economy.",
+    amazonUrl: "https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/deep-work"],
+  },
+  {
+    slug: "tools-of-titans",
+    title: "Tools of Titans",
+    author: "Timothy Ferriss",
+    year: 2016,
+    role: "by",
+    figureSlug: "tim-ferriss",
+    description:
+      "A distilled playbook of the tactics, routines, and habits of hundreds of world class performers interviewed on The Tim Ferriss Show, organized around health, wealth, and wisdom.",
+    amazonUrl: "https://www.amazon.com/Tools-Titans-Billionaires-World-Class-Performers/dp/1328683788",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/tools-of-titans"],
+  },
+  {
+    slug: "tribe-of-mentors",
+    title: "Tribe of Mentors",
+    author: "Timothy Ferriss",
+    year: 2017,
+    role: "by",
+    figureSlug: "tim-ferriss",
+    description:
+      "A collection of short, high density interviews with over 100 world class performers, each answering the same compact set of questions on failure, habits, and what they would tell their younger selves.",
+    amazonUrl: "https://www.amazon.com/Tribe-Mentors-Short-Life-Changing-Prescriptions/dp/1328995947",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/tribe-of-mentors"],
+  },
+  {
+    slug: "thinking-in-bets",
+    title: "Thinking in Bets",
+    author: "Annie Duke",
+    year: 2018,
+    role: "by",
+    figureSlug: "annie-duke",
+    description:
+      "A former professional poker player's case for thinking in probabilities rather than certainties, naming 'resulting', the error of judging a decision's quality by its outcome, and arguing life is more like poker than chess.",
+    amazonUrl: "https://www.amazon.com/Thinking-Bets-Making-Smarter-Decisions/dp/0735216355",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/thinking-in-bets"],
+  },
+  {
+    slug: "mindset",
+    title: "Mindset: The New Psychology of Success",
+    author: "Carol S. Dweck",
+    year: 2006,
+    role: "by",
+    figureSlug: "carol-dweck",
+    description:
+      "A Stanford psychologist's research based case for the distinction between a fixed mindset, believing ability is a static trait, and a growth mindset, believing ability develops through effort and strategy, and how that belief shapes achievement.",
+    amazonUrl: "https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/mindset"],
+  },
+  {
+    slug: "the-pathless-path",
+    title: "The Pathless Path",
+    author: "Paul Millerd",
+    year: 2022,
+    role: "by",
+    figureSlug: "paul-millerd",
+    description:
+      "A former strategy consultant's argument against the default script of school, career ladder, and retirement, drawn from his own extended, unstructured period he calls the void, and a case for building identity from more than a job title.",
+    amazonUrl: "https://www.amazon.com/Pathless-Path-Paul-Millerd/dp/B09KYZ8B4C",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/the-pathless-path"],
+  },
+  {
+    slug: "think-and-grow-rich",
+    title: "Think and Grow Rich",
+    author: "Napoleon Hill",
+    year: 1937,
+    role: "by",
+    figureSlug: "napoleon-hill",
+    description:
+      "Hill's claimed twenty year distillation of interviews with leading industrialists of his era into thirteen principles of success: definiteness of purpose, the mastermind principle, persistence, and the transmutation of desire into achievement.",
+    amazonUrl: "https://www.amazon.com/Think-Grow-Rich-Landmark-Bestseller/dp/1585424331",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/think-and-grow-rich"],
   },
 ];
 

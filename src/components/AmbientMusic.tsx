@@ -28,6 +28,13 @@ const MUSIC_MAP: Record<string, string> = {
   "senra": "/music/modern-electronic.mp3",
   "sivers": "/music/modern-electronic.mp3",
   "visakan": "/music/modern-electronic.mp3",
+  "james-clear": "/music/modern-electronic.mp3",
+  "cal-newport": "/music/modern-electronic.mp3",
+  "tim-ferriss": "/music/modern-electronic.mp3",
+  "annie-duke": "/music/modern-electronic.mp3",
+  "carol-dweck": "/music/modern-electronic.mp3",
+  "paul-millerd": "/music/modern-electronic.mp3",
+  "napoleon-hill": "/music/american-industrial.mp3",
 };
 
 interface AmbientMusicProps {

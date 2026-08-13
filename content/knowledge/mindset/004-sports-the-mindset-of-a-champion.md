@@ -1,0 +1,26 @@
+---
+title: "Chapter 4: Sports: The Mindset of a Champion"
+principle: "Sports is where the myth of \"the natural\" runs deepest, yet Dweck's case studies (Billy Beane, Muhammad Ali, Michael Jordan, Babe Ruth) show that physical gifts without a growth mindset stall out, while what sportswriters vaguely call \"character\" is really the growth mindset's habit of treating setbacks as fuel and staying in charge of the process rather than the outcome."
+tags: [mindset, sports, michael-jordan, billy-beane, muhammad-ali, moneyball, character, tiger-woods]
+---
+
+# Chapter 4: Sports: The Mindset of a Champion
+
+> **Key principle:** Dweck opens with Billy Beane, a can't-miss high school "natural" whose fixed mindset made every failed at-bat unbearable and ended his playing career, contrasted with teammate Lenny Dykstra's fearless resilience; Beane later applied that lesson as Oakland A's general manager, building a low-payroll contender around process and mindset rather than raw talent, and the rest of the chapter uses named champions to show that what looks like innate "character" is really the growth mindset in action.
+
+*Synthesized from Chapter 4 of Mindset: The New Psychology of Success by Carol S. Dweck.*
+
+## Key lessons
+
+- Muhammad Ali failed every physical "tale of the tape" measurement scouts used to identify boxing naturals, and Sonny Liston, the reigning natural, was expected to demolish him; Ali won by studying Liston's psychology and unsettling him mentally rather than by superior physique, yet history still remembers Ali's greatness as physical rather than strategic.
+- Michael Jordan was cut from his high school varsity team and responded by leaving the house at 6 a.m. to practice; Babe Ruth was an inconsistent hitter early in his career who committed himself to off-season conditioning after a poor 1925 season and then produced his best years; Wilma Rudolph, paralyzed in one leg by childhood polio, spent eight years in physical therapy before becoming an Olympic sprint champion. All three are treated by fans as naturals despite documented years of unglamorous work.
+- The chapter defines "character" through contrasting cases: Pedro Martinez, pitching for the Red Sox in the pivotal 2003 ALCS game against the Yankees, lost his composure under pressure (hitting a batter, threatening another, shoving a 70-year-old coach) and the Sox lost the series; Pete Sampras, down 4-1 in a Wimbledon final tiebreaker, deliberately recalled past comebacks to steady himself and won. Dweck frames character as the growth mindset's capacity to raise your level of play specifically when things are going wrong.
+- Finding 1, "What Is Success": growth-mindset athletes like Jackie Joyner-Kersee and Mia Hamm locate success in playing their best and improving, not only in winning; both explicitly say they take as much pride in effort and personal-best performances as in trophies, while fixed-mindset players like John McEnroe describe their satisfaction almost entirely in terms of proving superiority over others.
+- Finding 2, "What Is Failure": Michael Jordan treats missed shots as information (his famous Nike ad recounts nearly 9,000 missed shots and 300 lost games as the foundation of his success) and returned from his baseball hiatus determined never to "coast" again; Kareem Abdul-Jabbar, when college basketball briefly banned his signature dunk, responded by building out his skyhook and bank shot rather than treating the rule change as career-ending, in contrast to McEnroe, who once smashed a guitar rather than take lessons after a loss.
+- Finding 3, "Taking Charge of Success": Tiger Woods's father deliberately trained him from childhood to manage distraction and course strategy, and Woods continually treated his swing as a permanent work in progress even at the height of his career; McEnroe, by contrast, described his slumps as things that "happened to" him and wished he played a team sport so his flaws could be hidden, illustrating the fixed mindset's aversion to taking responsibility for the process.
+- "What Does It Mean to Be a Star": Coach John Wooden says he could have made Kareem Abdul-Jabbar the greatest individual scorer in college history but doing so would have cost UCLA its national championships; Patrick Ewing's reluctance to accept a non-center role reportedly cost the Knicks a championship pairing, and football player Keyshawn Johnson's insistence on being "the No. 1 guy" led to him being traded and later deactivated, illustrating how the fixed mindset's need to validate individual talent can work directly against team success.
+- The chapter closes contrasting two young athletes to show the mindsets forming in real time: Duke basketball star Iciss Tillis, fixated on not becoming "a nobody" like her estranged father, underperformed relative to her talent, while Candace Parker, whose father pushed her to treat effort as the whole game ("if you work hard at something, you get out what you put in"), became the first woman to win a slam-dunk contest against men.
+
+---
+
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: Mindset: The New Psychology of Success by Carol S. Dweck, https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/1400062756.*

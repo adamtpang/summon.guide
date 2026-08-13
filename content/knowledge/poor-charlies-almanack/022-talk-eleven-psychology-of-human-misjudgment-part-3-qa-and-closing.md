@@ -1,0 +1,26 @@
+---
+title: "Talk Eleven: The Psychology of Human Misjudgment (Part 3 — Q&A, Reflections, and the Book's Closing Note)"
+principle: "Munger closes his own book by defending the messiness of his tendency system, admitting its overlaps are unfixable the way pure mathematics can't remove all paradox, and offering a reading list that reveals as much about how he thinks as any of his talks — before ending, fittingly, on the model for the whole book: Ben Franklin's own Poor Richard's Almanack."
+tags: [poor-charlies-almanack, charlie-munger, judith-rich-harris, recommended-books, poor-richards-almanack, checklists]
+---
+
+# Talk Eleven: The Psychology of Human Misjudgment (Part 3 — Q&A, Reflections, and the Book's Closing Note)
+
+> **Key principle:** In self-posed closing questions, Munger concedes his 25-tendency system overlaps and isn't perfectly rigorous, argues this doesn't matter because psychology as a soft science can't be made fully clean, and demonstrates the system's practical use with the McDonnell Douglas evacuation-test case before closing the entire book with a reading list and a tribute to the almanac's actual namesake, Ben Franklin's Poor Richard's Almanack.
+
+*Synthesized from the closing Q&A and "Talk Eleven Revisited" addendum to Talk Eleven, plus the book's closing "Charlie Munger's Recommended Books" and "Poor Richard" sections, Poor Charlie's Almanack.*
+
+## Key lessons
+
+- Asked whether his tendency list is tautological or arbitrarily organized, Munger answers "yes, yes, and yes" — but argues this matters only moderately, since "a significant amount of messiness is unfixable in a soft science like psychology," the same way pure mathematics (via Gödel) can't eliminate all internal paradox.
+- Asked for a real-world illustration beyond controlled psychology experiments, Munger walks through the McDonnell Douglas airliner evacuation-test disaster in full: reward pressure to pass the test, doubt-avoidance driving a fast decision, authority-misinfluence from government "realism" requirements, inconsistency-avoidance once the plan was set, social proof from employees not objecting, and finally deprival-super reaction pushing the team to repeat a dangerous test *after* its first run had already caused serious injuries.
+- He lists ten real institutional "antidotes" that already exist and work — Carl Braun's communication rules, pilot simulator training, Alcoholics Anonymous, clinical "see one, do one, and then teach one" medical training, the U.S. Constitutional Convention's secrecy and reversible-vote rules, Granny's Rule (do the unpleasant task before the pleasant one), Harvard Business School's decision-tree teaching, Johnson & Johnson's practice of revisiting old acquisition predictions against outcomes, Darwin's confirmation-bias discipline (now formalized as double-blind drug trials), and Buffett's rule against attending open-outcry auctions.
+- Asked whether knowing these tendencies creates moral problems, Munger says yes directly: deliberately manipulating someone's trust using this knowledge is both a moral error and usually a *practical* error too, since intelligent targets often eventually recognize the manipulation and resent it — Captain Cook's honest, protective use of psychology to prevent scurvy is offered as the ethical contrast case.
+- The "Talk Eleven Revisited" addendum tells the story of psychologist Judith Rich Harris, dismissed from Harvard's PhD program as unsuited to research, who later won a prestigious award named for the very Harvard official who'd signed her dismissal — Munger tried and failed to get Harvard to award her an honorary doctorate, framing her story as proof that "impertinent and skeptical" outsiders sometimes see what credentialed insiders miss.
+- Munger's closing self-assessment, offered without false modesty: the talk was revised from memory over roughly fifty hours by an 81-year-old with no formal psychology training, so factual and reasoning errors are "almost surely" present — but he expects the "totality" to hold up, and hopes future psychology professors will adopt inversion, aim for a more complete checklist-style system, and pay more attention to combinations of tendencies.
+- "Charlie Munger's Recommended Books" closes the talks proper — a wide-ranging list spanning Deep Simplicity, Guns Germs and Steel, The Selfish Gene, Titan (the Rockefeller biography), Influence, and Ben Franklin's Autobiography — which functions less as a syllabus than as a portrait of the same multidisciplinary appetite driving all eleven talks.
+- The book's very last note explains its own title: Poor Charlie's Almanack is deliberately modeled on Ben Franklin's Poor Richard's Almanack (published 1733-1758 under Franklin's pen name, mixing practical aphorisms with calendars and weather forecasts) — a closing acknowledgment that the entire project is Munger's attempt to leave behind the kind of durable, aphoristic, practically useful bequest Franklin left, updated for a different century.
+
+---
+
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: Poor Charlie's Almanack by Charles T. Munger, edited by Peter D. Kaufman: https://www.stripe.press/poor-charlies-almanack.*
