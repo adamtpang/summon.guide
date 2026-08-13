@@ -26,6 +26,13 @@ const VOICE_MAP: Record<string, string> = {
   "senra": "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative, no accent documented
   "sivers": "onwK4e9ZLuTAKqWW03F9", // Daniel: calm, plain American, unhurried, matter of fact
   "visakan": "TX3LPaxmHKxFdv7VOQHJ", // Liam: direct, associative, slightly halting, no accent documented
+  "james-clear": "onwK4e9ZLuTAKqWW03F9", // Daniel: calm, plain, matter of fact
+  "cal-newport": "pNInz6obpgDQGcFmaJgB", // Adam: calm, measured, academic
+  "tim-ferriss": "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative
+  "annie-duke": "21m00Tcm4TlvDq8ikWAM", // Rachel: calm, precise, professional female
+  "carol-dweck": "EXAVITQu4vr4xnSDxMaL", // Bella: warm, professional female
+  "paul-millerd": "N2lVS1w4EtoT3dr4eOWO", // Callum: warm, reflective, measured
+  "napoleon-hill": "pqHfZKP75CvOlQylNhV4", // Bill: measured, grave, period gravitas
 };
 
 const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Fallback to Daniel

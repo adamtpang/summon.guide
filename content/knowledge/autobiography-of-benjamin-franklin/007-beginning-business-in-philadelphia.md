@@ -1,0 +1,26 @@
+---
+title: "Beginning Business in Philadelphia"
+principle: "Back in Philadelphia, Franklin loses his mentor Denham to illness, gets exploited and then reconciled with Keimer, founds the Junto club of tradesmen for mutual improvement, and finally sets up his own print shop, financed only after his drunken, ill-suited partner Meredith voluntarily steps aside."
+tags: [autobiography-of-benjamin-franklin, benjamin-franklin, junto, philadelphia, printing-business, deborah-read, industry]
+---
+
+# Beginning Business in Philadelphia
+
+> **Key principle:** Returning from London to find Deborah Read married to another man in his absence and his old employer Keimer running a chaotic shop, Franklin rebuilds his position through visible, almost theatrical industry, staying up to redistribute broken type rather than leave a day's work undone, and founds the Junto, a club of tradesmen bound by rules against dogmatism, that becomes his central engine of self-improvement and connections for decades. The chapter ends with him sole owner of his own printing house after his incompetent partner exits by mutual agreement.
+
+*Synthesized from Chapter VII of The Autobiography of Benjamin Franklin.*
+
+## Key lessons
+
+- On the voyage home in 1726, Franklin drafts a personal plan for regulating his future conduct, noting to his son that it's remarkable both for how young he was and for how faithfully he kept to it into old age (the plan's text itself wasn't preserved with the manuscript).
+- Arriving back in Philadelphia, he finds Deborah Read married off to a potter named Rogers after his letters gave her family no reason to expect his return; the marriage proves unhappy and possibly bigamous, and Rogers eventually flees to the West Indies and dies there, leaving Deborah's situation unresolved for years.
+- His mentor Denham, who had set Franklin up as a store clerk with real promise of advancement, falls ill and dies within months, ending that path and forcing Franklin back into printing, this time managing Keimer's shop and secretly training a crew of cheap, poorly qualified hands (a runaway Irishman, a witty but reckless indentured Oxford dropout, a heavy-drinking Welshman) whom Keimer intends to use to replace him once trained.
+- A public shouting match with Keimer over a trivial incident ends Franklin's employment there; his co-worker Hugh Meredith proposes a printing partnership funded by Meredith's father, betting that Keimer's chronic mismanagement and debt would soon create an opening. Franklin agrees, and after a brief return to finish a lucrative New Jersey currency-printing job (where he builds a network of provincial notables including a surveyor-general who correctly predicts Franklin will overtake Keimer's business), the partnership sets up shop.
+- Franklin narrates his religious drift here in full: a Boston-era turn toward outright Deism after reading anti-Deist tracts whose refuted arguments struck him as stronger than the refutations, followed by disillusionment with that same doctrine once he watched it fail to keep Collins, Ralph, Keith, and even himself honest in their dealings with others. He lands on a practical standard, truth, sincerity, and integrity as ends in themselves, useful regardless of revelation, and calls this settled resolution what preserved his character through his most exposed years.
+- Franklin founds the Junto in the autumn before opening his shop: a Friday-evening club of about a dozen tradesmen and thinkers (a deed-copyist and poetry lover, a self-taught mathematician who invented what became Hadley's Quadrant, two future surveyors-general, a master joiner, a young man of fortune, and William Coleman, whom Franklin calls one of the finest characters he ever knew) bound by rules that banned direct contradiction and expressions of certainty to keep debate civil. He calls it "the best school of philosophy, morality, and politics that then existed in the province," and it ran, in one form or another, for decades.
+- Financially exposed when a New Jersey printer's father can only pay half the promised investment, Franklin and Meredith are sued by a creditor; two Junto friends, William Coleman and Robert Grace, independently and privately offer to fund Franklin alone if he'll drop Meredith, whose public drunkenness embarrassed the shop. Franklin refuses to abandon Meredith while any hope of his fulfilling the partnership remained.
+- Meredith himself resolves it: admitting printing was the wrong trade for him at thirty, he proposes to relinquish the partnership for reimbursement of his father's investment plus a small settlement, and leaves for North Carolina farming. Franklin, careful not to show favoritism, splits his two friends' offers evenly, pays off the company's debts, and becomes sole proprietor of his print shop around 1729, the founding moment of the business that would make him prosperous. The chapter also notes his careful repayment, with interest and thanks, of the old debt to Vernon that had troubled him since Chapter IV.
+
+---
+
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: The Autobiography of Benjamin Franklin, public domain, available via Project Gutenberg.*

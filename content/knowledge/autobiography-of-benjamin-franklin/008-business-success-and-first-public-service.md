@@ -1,0 +1,26 @@
+---
+title: "Business Success and First Public Service"
+principle: "Franklin's paper-currency pamphlet, his marriage to Deborah Read, and his founding of the Library Company all show the same engine at work: writing ability converted into public trust, trust converted into paying business, and profit reinvested into a civic institution he deliberately declines credit for building."
+tags: [autobiography-of-benjamin-franklin, benjamin-franklin, library-company, deborah-read, junto, printing-business, self-effacement]
+---
+
+# Business Success and First Public Service
+
+> **Key principle:** A pamphlet Franklin writes for the Junto's paper-currency debate wins him the House's business printing money itself; visible frugality and industry (hauling his own paper through the streets in a wheelbarrow) wins him merchant credit and outlasts two rival printers. He marries Deborah Read after correcting his earlier neglect of her, then founds the Library Company of Philadelphia, explicitly disguising his own role as "a scheme of a number of friends" to avoid the resentment that open self-promotion invites. This chapter also marks the manuscript's real seam: it ends the 1771 Twyford writing and resumes, years later, at Passy in 1784.
+
+*Synthesized from Chapter VIII of The Autobiography of Benjamin Franklin.*
+
+## Key lessons
+
+- Franklin argues the pro-paper-money side in the Junto, then anonymously publishes "The Nature and Necessity of a Paper Currency," swaying opinion because the wealthy opposition had no writer able to answer it; the measure passes, and the House rewards him with the profitable job of printing the money itself, one of several instances where his writing directly generated business.
+- He builds his reputation as a tradesman deliberately, not just by being frugal and industrious but by being visibly so: plain dress, no idle diversions, and hauling purchased paper home through the streets on a wheelbarrow rather than have it delivered, so no one could suspect him too proud for his own business.
+- Both established rivals fall away within a few years: Keimer's shop fails and he decamps to Barbados in poverty; his former apprentice David Harry inherits the business, overreaches with gentlemanly spending, and eventually fails too, leaving only the older, complacent printer Bradford as competition, whose control of the post office (and refusal to let Franklin's papers travel by post) Franklin resents but says he never imitated once he later controlled the same office himself.
+- A courtship arranged by his landlady toward a relative's daughter collapses when her parents, hearing from Bradford that printing was a poor trade, demand Franklin pay off his shop debt as a dowry condition and then abruptly forbid the match, which Franklin suspects (but never confirms) was a ploy assuming the couple would elope rather than lose each other.
+- This failure turns his attention back to Deborah Read, still unhappily separated from her first husband under a shadow of possible bigamy and unpaid debts. Franklin, blaming his own earlier "giddiness and inconstancy" in London for her situation, marries her on September 1, 1730, over the legal uncertainty, calling it correcting "that great erratum as well as I could"; he reports the marriage as genuinely happy, with Deborah actively working the shop, folding pamphlets, tending customers, and buying rag paper stock.
+- The Junto's habit of bringing personal books to their meeting room, so members could borrow from a shared pool, inspires Franklin's first fully public project: a subscription library. He drafts the plan, gets it formalized by a scrivener, and recruits fifty subscribers at forty shillings each plus ten shillings annually, founding what becomes, in his words, "the mother of all the North American subscription libraries."
+- Franklin states outright the tactic he used to get the library funded and would use for the rest of his civic career: presenting a project as the idea of "a number of friends" rather than his own, to avoid the resentment neighbors feel toward someone visibly angling for status through their help. He recommends the practice to his son directly, noting that credit withheld quietly tends to be restored later, once envy has stripped it from whoever wrongly claimed it.
+- The chapter closes with an account of his practical, non-doctrinal religion: raised Presbyterian, unconvinced by predestination and election, he settles on a minimal creed (a Deity exists, governs by providence, is best served by doing good to others, and rewards virtue and punishes vice) that he treats as common ground across all sects, and he stops attending Presbyterian services entirely once a series of sermons proves to be sectarian argument rather than moral instruction, preferring a private liturgy he wrote for himself in 1728. A brief editorial note (the "Mem.") marks the real end of the 1771 Twyford writing here; the following material, restarting the library story mid-account, was written years later at Passy in 1784.
+
+---
+
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: The Autobiography of Benjamin Franklin, public domain, available via Project Gutenberg.*
