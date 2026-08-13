@@ -1,0 +1,26 @@
+---
+title: "Time Travel"
+principle: "Past-directed time travel is not logically paradoxical: because the multiverse is real, a traveler who reaches the past always arrives in a different, parallel history from the one they left, so nothing they do there can contradict the universe they departed."
+tags: [the-fabric-of-reality, david-deutsch, time-travel, multiverse, grandfather-paradox, general-relativity, epistemology, virtual-reality]
+---
+
+# Time Travel
+
+> **Key principle:** The grandfather paradox and its variants only look impossible if you assume a time traveler returns to the single history they started from. Once you accept that many parallel snapshots of the universe really exist, entering the past just means arriving in a different, self-consistent branch of the multiverse, one where your actions were always part of that branch's history, so no contradiction ever arises.
+
+*Synthesized from Chapter 12 of The Fabric of Reality by David Deutsch.*
+
+## Key lessons
+
+- Deutsch defines time travel precisely: it happens whenever there is a mismatch between the interval separating two dated "snapshots" of the multiverse and how much time the traveler subjectively experienced passing between them. Future-directed time travel (aging less than external clocks, as in relativistic time dilation) is unproblematic; only past-directed travel raises the real puzzles.
+- He builds the case through a thought experiment about rendering a time machine in virtual reality: a revolving-door device that, if walked through, redisplays an earlier five-minute period. With interaction switched off, the machine can only play back a recording of what already happened, which is trivially consistent but not real interactive time travel.
+- With interaction switched on, the generator must produce a version of the user's own future self, and repeated use produces multiple co-existing copies, each seeing only the copies that arrived before it. This is only "tidy and non-paradoxical" if the copies are choreographed to mimic each other exactly, which breaks down the moment the traveler tries to genuinely interact or test the rendering, for instance by deliberately behaving differently from what they remember their copy doing.
+- The classic grandfather paradox (preventing your own past self from building the time machine) and a formal version built purely from a stated intention ("if I see a future visitor today, I won't travel tomorrow; if I don't, I will") both generate contradictions only under the classical, single-history view of time.
+- The multiverse resolves this: when a traveler acts differently from how they remember acting, they are not overwriting their own past, they are arriving in a parallel, initially identical universe that diverges from theirs at the moment of contact. Deutsch's own worked "enact a paradox" example (Figure 12.3) shows a 50/50 split across two universes: in one, the traveler's counterpart never appears in the lab; in the paired universe, the traveler themself becomes the visitor. Both outcomes are simultaneously real, and neither is a contradiction of the other's own history.
+- A single sharp line captures why identical copies can end up with different fates without any deeper fact settling which one "really" does what: "Parallel universes do not have hidden serial numbers: they are distinguished only by what happens in them."
+- Time machines, if they exist, are places or pathways rather than vehicles: you can only travel to a time and location the machine itself has already occupied, never to a moment before the machine was built, and any given machine has a finite through-capacity. Physically, Einstein's general relativity already has solutions permitting closed timelike paths near sufficiently fast-spinning massive objects (rotating black holes), and there is nothing in known physics that rules time travel out; historically, similarly "unphysical"-looking solutions (the expanding universe, black holes themselves) were wrongly dismissed before being confirmed.
+- Deutsch closes with the "knowledge paradox": stories (like a time traveler handing Shakespeare his own future plays) where information or a finished creative work seems to appear in a closed loop with no one ever actually inventing it. He argues this genuinely would be paradoxical, because his epistemology (Chapter 3) holds that knowledge only ever arises through incremental, error-correcting creative or evolutionary processes, never fully formed. The multiverse resolution again applies: the traveler cannot visit the Shakespeare of their own universe, only a different-universe Shakespeare, so the "borrowed" play always had a real author somewhere in the multiverse, just not in the branch that received it. Time machines, on this view, function as a computational resource letting universes trade the fruits of each other's problem-solving, though a strict conservation law still holds for the total number of copies of any traveler across all universes, even though there is no equivalent conservation law for knowledge itself.
+
+---
+
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: The Fabric of Reality by David Deutsch, https://www.amazon.com/Fabric-Reality-Parallel-Universes-Implications/dp/014027541X.*

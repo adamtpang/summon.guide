@@ -218,6 +218,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359",
     skillSlugs: ["jump-to-universality", "replicator-interest", "spot-bad-philosophy", "choice-as-explanation", "rational-vs-anti-rational-memes", "unsustainable-by-design"],
     status: "partial",
+    corpusPaths: ["content/knowledge/the-beginning-of-infinity"],
   },
   {
     slug: "the-fabric-of-reality",
@@ -231,6 +232,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Fabric-Reality-Parallel-Universes-Implications/dp/014027541X",
     skillSlugs: ["problem-solving-cycle", "kicked-rock-test", "universal-version", "certainty-audit", "seminar-room-rule"],
     status: "partial",
+    corpusPaths: ["content/knowledge/the-fabric-of-reality"],
   },
 
   // Taleb, the Incerto. Registered here as separate books because each one
@@ -250,6 +252,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219",
     skillSlugs: ["alternative-histories", "count-the-monkeys", "match-the-observation-window", "weight-the-magnitude", "distrust-the-hot-streak", "falsify-before-you-commit"],
     status: "partial",
+    corpusPaths: ["content/knowledge/fooled-by-randomness"],
   },
   {
     slug: "the-black-swan",
@@ -263,6 +266,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X",
     skillSlugs: ["black-swan-triplet-test", "mediocristan-extremistan-map", "turkey-problem", "narrative-fallacy-guard", "silent-evidence-audit", "ludic-fallacy-check", "fourth-quadrant-map"],
     status: "partial",
+    corpusPaths: ["content/knowledge/the-black-swan"],
   },
   {
     slug: "skin-in-the-game",
@@ -276,6 +280,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/0425284639",
     skillSlugs: ["portfolio-not-opinion", "minority-rule", "intellectual-yet-idiot", "skin-of-others-audit", "green-lumber-test", "merchandising-of-virtue"],
     status: "partial",
+    corpusPaths: ["content/knowledge/skin-in-the-game"],
   },
 
   // Lee Kuan Yew
