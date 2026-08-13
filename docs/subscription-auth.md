@@ -95,6 +95,37 @@ whenever the symptom above reappears; there is no way to predict when the
 local session will next rotate the shared credential, so this is genuinely
 periodic, not a one-time fix.
 
+### Setting up the dedicated login (does this permanently)
+
+`scripts/seed-anthropic-oauth-token.mjs` reads credentials from
+`CLAUDE_CONFIG_DIR` if set, or `~/.claude/.credentials.json` otherwise. Use
+this to create an isolated login profile that nothing else ever touches, so
+its refresh token can't get rotated out from under the deployed site:
+
+1. **Log in to a fresh, isolated profile** (one-time, interactive — has to be
+   run by a human, this step can't be scripted or done on the person's
+   behalf):
+   ```bash
+   CLAUDE_CONFIG_DIR=~/.claude-summonguide claude login
+   ```
+   This opens the normal browser OAuth flow. Log in with whichever Anthropic
+   account should back the deployed site (your own subscription works — the
+   isolation is per-*session*, not per-account, since nothing else will ever
+   open this specific profile again).
+2. **Seed from that profile instead of the default one:**
+   ```bash
+   CLAUDE_CONFIG_DIR=~/.claude-summonguide node -r dotenv/config scripts/seed-anthropic-oauth-token.mjs dotenv_config_path=.env.local
+   ```
+3. **Never run `claude` with `CLAUDE_CONFIG_DIR=~/.claude-summonguide` again**
+   for ordinary interactive work — that's the entire point. If a rare
+   re-auth is ever needed (refresh token itself expired, ~90 days unused),
+   repeat step 1 with the same `CLAUDE_CONFIG_DIR` and reseed.
+
+Once this is done, the periodic-reseed problem above stops recurring,
+because the only thing that can rotate `~/.claude-summonguide`'s refresh
+token is this exact reseed script running against it — nothing else on the
+machine will ever open that profile.
+
 ## Recommendation
 
 - **Public live site → API credits.** Keep `ANTHROPIC_API_KEY`, set
