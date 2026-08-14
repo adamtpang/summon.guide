@@ -75,7 +75,7 @@ function HomeContent() {
   }, []);
 
   useEffect(() => {
-    if (searchParams.get("payment") === "success") {
+    if (searchParams?.get("payment") === "success") {
       setShowPurchaseSuccess(true);
       window.history.replaceState({}, "", "/");
     }

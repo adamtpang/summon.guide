@@ -12,6 +12,7 @@
     "book:fixture": "node scripts/make-test-pdf.mjs",
     "book:episodes": "node scripts/episodes-from-plan.mjs",
     "book:find": "node scripts/find-book.mjs",
+    "berkshire:download": "node scripts/download-berkshire-letters.mjs",
     "video:render": "cd remotion && node scripts/render.mjs",
     "video:studio": "cd remotion && npx remotion studio",
     "book:index": "node scripts/gen-episodes.mjs"
@@ -19,6 +20,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
     "@auth/prisma-adapter": "^2.11.1",
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "@prisma/client": "^6.19.2",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
@@ -28,7 +30,8 @@
     "next-auth": "^5.0.0-beta.30",
     "posthog-js": "^1.363.1",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

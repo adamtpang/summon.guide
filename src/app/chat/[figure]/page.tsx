@@ -62,8 +62,8 @@ export default function ChatPage({
   const { figure: figureSlug } = use(params);
   const figure = figures.find((f) => f.slug === figureSlug);
   const searchParams = useSearchParams();
-  const matchReason = searchParams.get("reason");
-  const preloadedQuery = searchParams.get("q");
+  const matchReason = searchParams?.get("reason") ?? null;
+  const preloadedQuery = searchParams?.get("q") ?? null;
   const posthog = usePostHog();
 
   const { data: session, status: sessionStatus } = useSession();
