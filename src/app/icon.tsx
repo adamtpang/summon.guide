@@ -18,15 +18,14 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background:
-            "linear-gradient(135deg, #1a1814 0%, #0f0e0c 100%)",
+          background: "#2563eb",
           borderRadius: 7,
           position: "relative",
         }}
       >
         <span
           style={{
-            color: "#D4A028",
+            color: "#ffffff",
             fontFamily: "Georgia, serif",
             fontWeight: 700,
             fontSize: 22,
@@ -45,8 +44,7 @@ export default function Icon() {
             width: 4,
             height: 4,
             borderRadius: "50%",
-            background: "#D4A028",
-            opacity: 0.85,
+            background: "#059669",
           }}
         />
       </div>
