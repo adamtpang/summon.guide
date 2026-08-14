@@ -150,7 +150,8 @@ export const books: Book[] = [
       "The earlier biography. Best on Musk's South African childhood, Zip2, PayPal, and the SpaceX startup years before Falcon 1 reached orbit.",
     amazonUrl: "https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X",
     skillSlugs: [],
-    status: "partial",
+    status: "complete",
+    corpusPaths: ["content/knowledge/elon-musk-vance"],
   },
   {
     slug: "the-book-of-elon",
