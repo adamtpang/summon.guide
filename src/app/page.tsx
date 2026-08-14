@@ -143,7 +143,7 @@ function HomeContent() {
                 style={{ animationDelay: `${Math.min(360 + idx * 12, 900)}ms` }}
               >
                 <div className="flex items-center gap-3 py-2.5 hover:bg-slate-50 rounded-lg transition-colors duration-200 -mx-2 px-2">
-                  <Link href={`/${figure.slug}`} className="flex items-center gap-3 flex-1 min-w-0">
+                  <Link href={`/chat/${figure.slug}`} className="flex items-center gap-3 flex-1 min-w-0">
                     <div className="relative w-10 h-10 rounded-full overflow-hidden bg-slate-100 flex-shrink-0 border border-slate-200">
                       {figure.portrait ? (
                         <Image

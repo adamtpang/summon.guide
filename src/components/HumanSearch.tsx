@@ -105,7 +105,7 @@ export default function HumanSearch() {
     (h: HumanResult) => {
       setOpen(false);
       if (h.onPlatform) {
-        router.push(`/${h.onPlatform}`);
+        router.push(`/chat/${h.onPlatform}`);
         return;
       }
       setRequestCard({
