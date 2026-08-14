@@ -119,7 +119,7 @@ export default function ShareButton({ quote, figureName, era, figureColor }: Sha
   return (
     <button
       onClick={generateAndShare}
-      className="flex items-center gap-1 text-[11px] text-white/25 hover:text-white/50 transition-colors mt-1"
+      className="flex items-center gap-1 text-[11px] text-slate-400 hover:text-slate-600 transition-colors mt-1"
       title="Share this wisdom"
     >
       <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">

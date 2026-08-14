@@ -258,8 +258,8 @@ export default function ChatPage({
 
   if (!figure) {
     return (
-      <div className="min-h-screen bg-ink-950 text-warm-100 flex items-center justify-center">
-        <p className="text-warm-400">Figure not found. <Link href="/" className="underline">Back</Link></p>
+      <div className="min-h-screen bg-white text-slate-900 flex items-center justify-center">
+        <p className="text-slate-500">Figure not found. <Link href="/" className="underline">Back</Link></p>
       </div>
     );
   }
@@ -372,7 +372,7 @@ export default function ChatPage({
   };
 
   return (
-    <div className="h-[100dvh] bg-ink-950 text-warm-100 flex flex-col overflow-hidden relative">
+    <div className="h-[100dvh] bg-white text-slate-900 flex flex-col overflow-hidden relative">
       {/* Full-bleed portrait background - always visible */}
       {figure.portrait && (
         <div className="absolute inset-0 z-0">
@@ -384,19 +384,19 @@ export default function ChatPage({
             sizes="100vw"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/70 to-ink-950/30" />
+          <div className="absolute inset-0 bg-gradient-to-t from-white via-white/85 to-white/45" />
         </div>
       )}
 
       {/* Top bar */}
       <div className="relative z-10 flex items-center justify-between px-4 pt-[max(12px,env(safe-area-inset-top))] pb-2 shrink-0">
         <div className="flex items-center gap-2">
-          <Link href="/" className="w-10 h-10 rounded-full bg-black/30 backdrop-blur-sm flex items-center justify-center text-white/70 hover:text-white hover:bg-black/50 transition-all">
+          <Link href="/" className="w-10 h-10 rounded-full bg-white/50 backdrop-blur-sm border border-white/40 shadow-sm flex items-center justify-center text-slate-700 hover:text-slate-900 hover:bg-white/70 transition-all">
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
           </Link>
-          <AmbientMusic trackKey={figureSlug} className="text-white/60 hover:text-white/80" />
+          <AmbientMusic trackKey={figureSlug} className="text-slate-700 hover:text-slate-900 bg-white/50 backdrop-blur-sm border border-white/40 shadow-sm rounded-full px-3 py-2" />
         </div>
 
         <AnimatePresence mode="wait">
@@ -407,14 +407,14 @@ export default function ChatPage({
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
               onClick={stopSpeaking}
-              className="flex items-center gap-2 bg-black/30 backdrop-blur-sm rounded-full px-4 py-2.5 hover:bg-black/50 transition-all min-h-[44px]"
+              className="flex items-center gap-2 bg-white/50 backdrop-blur-sm border border-white/40 shadow-sm rounded-full px-4 py-2.5 hover:bg-white/70 transition-all min-h-[44px]"
             >
               <div className="flex items-end gap-[2px] h-3">
                 {[0, 1, 2, 3, 4].map((i) => (
-                  <div key={i} className="w-[2px] bg-white rounded-full waveform-bar" style={{ height: "100%", animationDelay: `${i * 0.15}s` }} />
+                  <div key={i} className="w-[2px] bg-blue-600 rounded-full waveform-bar" style={{ height: "100%", animationDelay: `${i * 0.15}s` }} />
                 ))}
               </div>
-              <span className="text-xs text-white/80">Speaking</span>
+              <span className="text-xs text-slate-700">Speaking</span>
             </motion.button>
           ) : canReplay ? (
             <motion.button
@@ -423,12 +423,12 @@ export default function ChatPage({
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
               onClick={replayAudio}
-              className="flex items-center gap-2 bg-black/30 backdrop-blur-sm rounded-full px-4 py-2.5 hover:bg-black/50 transition-all min-h-[44px]"
+              className="flex items-center gap-2 bg-white/50 backdrop-blur-sm border border-white/40 shadow-sm rounded-full px-4 py-2.5 hover:bg-white/70 transition-all min-h-[44px]"
             >
-              <svg className="w-4 h-4 text-white/80" viewBox="0 0 24 24" fill="currentColor">
+              <svg className="w-4 h-4 text-slate-700" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M8 5v14l11-7z" />
               </svg>
-              <span className="text-xs text-white/80">Listen again</span>
+              <span className="text-xs text-slate-700">Listen again</span>
             </motion.button>
           ) : null}
         </AnimatePresence>
@@ -440,23 +440,23 @@ export default function ChatPage({
           /* Empty state */
           <div className="flex-1 flex flex-col justify-end px-4 pb-4 overflow-y-auto">
             {showReason && matchReason && (
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-4 py-3 mb-4 border border-white/10">
-                <p className="text-sm text-white/80 italic">{matchReason}</p>
+              <div className="bg-blue-50 backdrop-blur-sm rounded-xl px-4 py-3 mb-4 border border-blue-100">
+                <p className="text-sm text-blue-800 italic">{matchReason}</p>
               </div>
             )}
 
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif font-medium text-white mb-1">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif font-medium text-slate-900 mb-1">
               {figure.name}
             </h1>
-            <p className="text-white/50 text-sm mb-1">{figure.era} &middot; {figure.location}</p>
-            <p className="text-white/60 text-sm italic mb-4">{figure.knownFor}</p>
+            <p className="text-slate-500 text-sm mb-1">{figure.era} &middot; {figure.location}</p>
+            <p className="text-slate-500 text-sm italic mb-4">{figure.knownFor}</p>
 
             {/* Stats pills */}
             <div className="flex flex-wrap gap-1.5 mb-4">
               {figure.stats.map((s, i) => (
-                <div key={i} className="bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 text-xs text-white/70">
-                  <span className="text-white/40">{s.label}</span>{" "}
-                  <span className="font-medium text-white">{s.value}</span>
+                <div key={i} className="bg-slate-100 border border-slate-200 rounded-full px-3 py-1.5 text-xs text-slate-600">
+                  <span className="text-slate-400">{s.label}</span>{" "}
+                  <span className="font-medium text-slate-900">{s.value}</span>
                 </div>
               ))}
             </div>
@@ -469,7 +469,7 @@ export default function ChatPage({
                     setShowReason(false);
                     sendQuickMessage(q);
                   }}
-                  className="text-sm text-white/80 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2.5 hover:bg-white/20 transition-all min-h-[44px]"
+                  className="text-sm text-slate-700 bg-slate-100 border border-slate-200 rounded-full px-4 py-2.5 hover:bg-blue-50 hover:text-blue-700 hover:border-blue-200 transition-all min-h-[44px]"
                 >
                   {q}
                 </button>
@@ -484,7 +484,7 @@ export default function ChatPage({
                 if (msg.role === "user") {
                   return (
                     <div key={i} className="flex justify-end">
-                      <div className="max-w-[85%] bg-white/15 backdrop-blur-sm rounded-2xl rounded-br-sm px-4 py-3">
+                      <div className="max-w-[85%] bg-blue-600 rounded-2xl rounded-br-sm px-4 py-3">
                         <p className="text-sm text-white leading-relaxed whitespace-pre-wrap break-words">{msg.content}</p>
                       </div>
                     </div>
@@ -496,13 +496,13 @@ export default function ChatPage({
                 return (
                   <div key={i} className="flex flex-col justify-start gap-1">
                     <div className={`max-w-[90%] ${isLatest ? "" : "opacity-60"}`}>
-                      <p className="text-[15px] text-white leading-[1.8] whitespace-pre-wrap break-words">{cleanBody}</p>
+                      <p className="text-[15px] text-slate-900 leading-[1.8] whitespace-pre-wrap break-words">{cleanBody}</p>
                     </div>
                     {/* Citations styled differently */}
                     {msgCitations.length > 0 && (
                       <div className="max-w-[90%] mt-1">
                         {msgCitations.map((c, ci) => (
-                          <p key={ci} className="text-[11px] text-white/30 italic flex items-center gap-1">
+                          <p key={ci} className="text-[11px] text-slate-400 italic flex items-center gap-1">
                             <svg className="w-3 h-3 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                               <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                             </svg>
@@ -525,9 +525,9 @@ export default function ChatPage({
               {streamingContent && (
                 <div className="flex justify-start">
                   <div className="max-w-[90%]">
-                    <p className="text-[15px] text-white leading-[1.8] whitespace-pre-wrap break-words">
+                    <p className="text-[15px] text-slate-900 leading-[1.8] whitespace-pre-wrap break-words">
                       {streamingContent}
-                      <span className="inline-block w-[2px] h-[16px] bg-white/60 ml-0.5 animate-pulse align-text-bottom" />
+                      <span className="inline-block w-[2px] h-[16px] bg-slate-400 ml-0.5 animate-pulse align-text-bottom" />
                     </p>
                   </div>
                 </div>
@@ -535,9 +535,9 @@ export default function ChatPage({
 
               {loading && !streamingContent && (
                 <div className="flex gap-1.5 py-2">
-                  <span className="w-1.5 h-1.5 bg-white/50 rounded-full animate-bounce [animation-delay:0ms]" />
-                  <span className="w-1.5 h-1.5 bg-white/50 rounded-full animate-bounce [animation-delay:150ms]" />
-                  <span className="w-1.5 h-1.5 bg-white/50 rounded-full animate-bounce [animation-delay:300ms]" />
+                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full animate-bounce [animation-delay:0ms]" />
+                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full animate-bounce [animation-delay:150ms]" />
+                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full animate-bounce [animation-delay:300ms]" />
                 </div>
               )}
 
@@ -555,7 +555,7 @@ export default function ChatPage({
               <button
                 key={i}
                 onClick={() => sendQuickMessage(q)}
-                className="text-xs text-white/70 bg-white/10 backdrop-blur-sm rounded-full px-3 py-2 hover:bg-white/20 transition-all min-h-[36px] text-left"
+                className="text-xs text-slate-600 bg-slate-100 border border-slate-200 rounded-full px-3 py-2 hover:bg-blue-50 hover:text-blue-700 hover:border-blue-200 transition-all min-h-[36px] text-left"
               >
                 {q}
               </button>
@@ -567,7 +567,7 @@ export default function ChatPage({
       {/* Credits indicator */}
       {effectiveCredits !== null && (
         <div className="relative z-10 px-4 py-1 flex justify-center shrink-0">
-          <span className="text-[10px] text-white/30">
+          <span className="text-[10px] text-slate-400">
             {effectiveCredits} messages remaining{!session?.user ? " (free trial)" : ""}
           </span>
         </div>
@@ -582,7 +582,7 @@ export default function ChatPage({
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder={`Ask ${figure.name}...`}
-            className="flex-1 min-w-0 bg-white/10 backdrop-blur-sm border border-white/10 rounded-2xl px-4 py-3 text-[16px] text-white placeholder-white/30 resize-none focus:outline-none focus:border-white/25 transition-colors leading-normal"
+            className="flex-1 min-w-0 bg-white border border-slate-200 shadow-sm rounded-2xl px-4 py-3 text-[16px] text-slate-900 placeholder-slate-400 resize-none focus:outline-none focus:border-blue-400 transition-colors leading-normal"
             rows={1}
             disabled={loading}
             style={{ fontSize: "16px" }}
@@ -590,7 +590,7 @@ export default function ChatPage({
           <button
             onClick={sendMessage}
             disabled={loading || !input.trim()}
-            className="bg-white text-ink-950 w-12 h-12 min-w-[48px] min-h-[48px] rounded-full flex items-center justify-center transition-all disabled:opacity-20 disabled:cursor-not-allowed hover:scale-105 active:scale-95 shrink-0"
+            className="bg-blue-600 text-white w-12 h-12 min-w-[48px] min-h-[48px] rounded-full flex items-center justify-center transition-all disabled:opacity-20 disabled:cursor-not-allowed hover:bg-blue-700 hover:scale-105 active:scale-95 shrink-0"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 12h14M12 5l7 7-7 7" />
@@ -633,18 +633,18 @@ export default function ChatPage({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="absolute inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4"
+            className="absolute inset-0 z-50 bg-slate-900/50 backdrop-blur-sm flex items-center justify-center p-4"
           >
             <motion.div
               initial={{ scale: 0.95, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.95, opacity: 0 }}
-              className="bg-white rounded-2xl p-6 sm:p-8 max-w-sm w-full text-center"
+              className="bg-white rounded-2xl p-6 sm:p-8 max-w-sm w-full text-center shadow-2xl"
             >
-              <h2 className="text-xl sm:text-2xl font-serif font-medium text-ink-950 mb-2">
+              <h2 className="text-xl sm:text-2xl font-serif font-medium text-slate-900 mb-2">
                 Keep the conversation going
               </h2>
-              <p className="text-warm-400 text-sm mb-6">
+              <p className="text-slate-500 text-sm mb-6">
                 You&apos;ve used all your free messages. Get 100 more to continue learning from humanity&apos;s greatest.
               </p>
               <a
@@ -653,13 +653,13 @@ export default function ChatPage({
                   posthog?.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat" });
                   track("checkout_click", { plan: "100_messages", price: 10, source: "chat" });
                 }}
-                className="block w-full bg-ink-950 text-white rounded-full py-3 px-6 text-sm font-medium hover:bg-ink-800 transition-colors mb-3 min-h-[48px] flex items-center justify-center"
+                className="block w-full bg-blue-600 text-white rounded-full py-3 px-6 text-sm font-medium hover:bg-blue-700 transition-colors mb-3 min-h-[48px] flex items-center justify-center"
               >
                 100 messages for $10
               </a>
               <button
                 onClick={() => setShowPaywall(false)}
-                className="text-sm text-warm-400 hover:text-ink-950 transition-colors"
+                className="text-sm text-slate-500 hover:text-slate-900 transition-colors"
               >
                 Maybe later
               </button>
