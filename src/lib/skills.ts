@@ -1941,6 +1941,68 @@ export const skills: Skill[] = [
     problemHint:
       "I feel like a contradiction, too much of one thing and not enough of another, and I do not have a name for what I actually am.",
   },
+
+  // ───── Brad Jacobs ─────
+  {
+    slug: "brad-jacobs",
+    themes: ["deciding", "money", "growth"],
+    problemHint:
+      "I'm sitting on a boring, fragmented industry that nobody wants to touch and I can't tell if it's an opportunity or a trap.",
+    figureSlug: "brad-jacobs",
+    title: "Channel Brad Jacobs",
+    tagline:
+      "Pick a big, fragmented, growing industry. Find the bingo quadrant. Hire for intelligence, hunger, integrity, and kindness. Integrate fast and radically accept what goes wrong.",
+    whenToUse:
+      "Evaluating a fragmented industry for a roll-up, sizing up a big and messy deal, deciding whether to keep or cut an executive, planning the first 100 days after an acquisition, or absorbing a loss without spiraling.",
+    source: "How to Make a Few Billion Dollars by Brad Jacobs (2024)",
+    command: "/brad-jacobs:brad-jacobs",
+    umbrella: true,
+  },
+  {
+    slug: "bingo-quadrant",
+    themes: ["deciding", "money", "growth"],
+    problemHint:
+      "Everyone tells me this deal or this market is too big and too messy to touch, and I want to know if that's actually true.",
+    figureSlug: "brad-jacobs",
+    title: "Find the Bingo Quadrant",
+    tagline:
+      "Screen a fragmented industry the way Jacobs screens one before committing a dollar: big enough, growing faster than GDP, and a real technology or data lever the incumbents don't have.",
+    whenToUse:
+      "You're sizing up whether to enter a fragmented industry or chase a large, complicated deal, and you need a real test instead of a gut feeling.",
+    source: "How to Make a Few Billion Dollars by Brad Jacobs (2024)",
+    sourceAnchor: "The industry-research method behind United Waste Systems, United Rentals, XPO, and QXO",
+    command: "/brad-jacobs:bingo-quadrant",
+  },
+  {
+    slug: "hundred-day-integration",
+    themes: ["building", "leading", "growth"],
+    problemHint:
+      "I just closed a deal (or a merger, or a big hire) and I don't have a real plan for the first few months, just good intentions.",
+    figureSlug: "brad-jacobs",
+    title: "The First 100 Days",
+    tagline:
+      "Assign individual ownership, not committees. Ask the frontline two blunt questions. Push good practices out fast. Integration, not the signing, is where the value is won or lost.",
+    whenToUse:
+      "Planning or running the first 100 days after an acquisition, merger, or major reorg, when the deal is done and the real work of combining two organizations is about to start.",
+    source: "How to Make a Few Billion Dollars by Brad Jacobs (2024)",
+    sourceAnchor: "The post-acquisition integration playbook behind United Rentals and XPO",
+    command: "/brad-jacobs:hundred-day-integration",
+  },
+  {
+    slug: "resignation-test",
+    themes: ["leading", "deciding"],
+    problemHint:
+      "I have a senior hire or an existing team member and I genuinely can't tell if I should be worried about losing them or relieved.",
+    figureSlug: "brad-jacobs",
+    title: "The Resignation Test",
+    tagline:
+      "Screen for intelligence, hunger, integrity, and kindness. Run 7-8 real interviews. Then imagine they just quit: panic means an A-player, relief means you already know the answer.",
+    whenToUse:
+      "Deciding whether to hire, keep, promote, or let go of an executive or key team member, or designing a hiring process that filters harder than a resume review.",
+    source: "How to Make a Few Billion Dollars by Brad Jacobs (2024)",
+    sourceAnchor: "The four-quality hiring filter and the resignation test",
+    command: "/brad-jacobs:resignation-test",
+  },
 ];
 
 /** Get all skills attached to a particular figure (by figure slug). */
