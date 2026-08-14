@@ -60,7 +60,7 @@ function buildServer(): McpServer {
       description:
         "List every guide currently on summon.guide: slug, name, era, and what they're known for. Use this to browse the roster or confirm a specific person is available before naming them to match_guide.",
       inputSchema: {},
-      annotations: { readOnlyHint: true },
+      annotations: { title: "List guides", readOnlyHint: true },
     },
     async () => {
       const list = figures.map((f) => ({
@@ -80,7 +80,7 @@ function buildServer(): McpServer {
       description:
         "List every book on summon.guide that has its own real chat corpus (chat_with_book-eligible). Each has real chapter-digest grounding, not a generic persona.",
       inputSchema: {},
-      annotations: { readOnlyHint: true },
+      annotations: { title: "List books", readOnlyHint: true },
     },
     async () => {
       const list = books
@@ -106,6 +106,7 @@ function buildServer(): McpServer {
           .string()
           .describe("The situation, problem, or named person, as the user actually described it"),
       },
+      annotations: { title: "Match a guide", readOnlyHint: true },
     },
     async ({ situation }) => {
       const res = await fetch(`${SITE_URL}/api/match`, {
@@ -128,6 +129,7 @@ function buildServer(): McpServer {
         slug: z.string().describe("The guide's slug, e.g. \"rockefeller\""),
         message: z.string().describe("The message to send"),
       },
+      annotations: { title: "Chat with a guide", readOnlyHint: true },
     },
     async ({ slug, message }) => {
       const res = await fetch(`${SITE_URL}/api/chat`, {
@@ -150,6 +152,7 @@ function buildServer(): McpServer {
         slug: z.string().describe("The book's slug, e.g. \"poor-charlies-almanack\""),
         message: z.string().describe("The message to send"),
       },
+      annotations: { title: "Chat with a book", readOnlyHint: true },
     },
     async ({ slug, message }) => {
       const res = await fetch(`${SITE_URL}/api/chat/source`, {
