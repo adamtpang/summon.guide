@@ -10,22 +10,22 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <main className="min-h-screen bg-ink-950 text-warm-50">
+    <main className="min-h-screen bg-white text-slate-900">
       <div className="max-w-2xl mx-auto px-6 pt-8 md:pt-14 pb-20">
         <Link
           href="/"
-          className="text-gold-500 text-xs tracking-[0.35em] uppercase"
+          className="text-blue-600 text-xs tracking-[0.35em] uppercase font-medium"
         >
           summon.guide
         </Link>
         <h1 className="text-[32px] md:text-[44px] font-serif font-medium leading-[1.08] tracking-tight mt-5 mb-2">
           Privacy Policy
         </h1>
-        <p className="text-warm-500 text-xs mb-10">
+        <p className="text-slate-400 text-xs mb-10">
           Effective August 14, 2026
         </p>
 
-        <div className="space-y-8 text-warm-300 text-sm leading-relaxed [&_h2]:text-warm-50 [&_h2]:font-serif [&_h2]:text-lg [&_h2]:font-medium [&_h2]:mb-3 [&_h2]:mt-10 [&_strong]:text-warm-100 [&_a]:text-gold-500 [&_a]:underline [&_a]:underline-offset-2">
+        <div className="space-y-8 text-slate-600 text-sm leading-relaxed [&_h2]:text-slate-900 [&_h2]:font-serif [&_h2]:text-lg [&_h2]:font-medium [&_h2]:mb-3 [&_h2]:mt-10 [&_strong]:text-slate-900 [&_a]:text-blue-600 [&_a]:underline [&_a]:underline-offset-2">
           <p>
             summon.guide (&quot;we,&quot; &quot;us,&quot; &quot;the
             site&quot;) is operated by Adam Pangelinan. This policy explains
@@ -126,29 +126,29 @@ export default function PrivacyPage() {
             <div className="mt-4 overflow-x-auto">
               <table className="w-full text-xs border-collapse">
                 <thead>
-                  <tr className="border-b border-white/10 text-warm-400">
+                  <tr className="border-b border-slate-200 text-slate-500">
                     <th className="text-left py-2 pr-4 font-medium">Service</th>
                     <th className="text-left py-2 pr-4 font-medium">What they receive</th>
                     <th className="text-left py-2 font-medium">Why</th>
                   </tr>
                 </thead>
-                <tbody className="text-warm-400">
-                  <tr className="border-b border-white/5">
+                <tbody className="text-slate-500">
+                  <tr className="border-b border-slate-100">
                     <td className="py-2 pr-4">Google</td>
                     <td className="py-2 pr-4">(nothing from us, you sign in directly with them)</td>
                     <td className="py-2">Sign-in</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-2 pr-4">Anthropic</td>
                     <td className="py-2 pr-4">Your chat message, the guide&apos;s grounding data</td>
                     <td className="py-2">Generating the guide&apos;s reply</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-2 pr-4">ElevenLabs</td>
                     <td className="py-2 pr-4">Text of a response you asked to hear spoken</td>
                     <td className="py-2">Voice generation</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-2 pr-4">Stripe</td>
                     <td className="py-2 pr-4">(nothing from us, you pay directly on their checkout)</td>
                     <td className="py-2">Payment processing</td>
@@ -210,8 +210,8 @@ export default function PrivacyPage() {
           </section>
         </div>
 
-        <div className="mt-16 pt-6 border-t border-white/10">
-          <Link href="/" className="text-warm-500 text-xs hover:text-gold-500 transition-colors">
+        <div className="mt-16 pt-6 border-t border-slate-200">
+          <Link href="/" className="text-slate-400 text-xs hover:text-blue-600 transition-colors">
             &larr; Back to summon.guide
           </Link>
         </div>
