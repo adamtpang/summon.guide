@@ -160,19 +160,19 @@ export default function WisdomCard({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 60 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
-      className="absolute bottom-0 left-0 right-0 z-40 bg-ink-950/95 backdrop-blur-md border-t border-white/10 rounded-t-2xl p-5 pb-8"
+      className="absolute bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 shadow-2xl rounded-t-2xl p-5 pb-8"
     >
       {/* Dismiss button */}
       <button
         onClick={onDismiss}
-        className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/20 transition-all"
+        className="absolute top-3 right-3 w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500 hover:text-slate-900 hover:bg-slate-200 transition-all"
       >
         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M18 6L6 18M6 6l12 12" />
         </svg>
       </button>
 
-      <p className="text-xs text-white/40 uppercase tracking-widest mb-3">Share this wisdom</p>
+      <p className="text-xs text-slate-400 uppercase tracking-widest mb-3">Share this wisdom</p>
 
       {/* Canvas card preview */}
       <div className="w-full max-w-md mx-auto mb-4">
@@ -187,7 +187,7 @@ export default function WisdomCard({
       <div className="flex gap-2 max-w-md mx-auto">
         <button
           onClick={handleDownload}
-          className="flex-1 flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white text-sm rounded-full py-3 px-4 transition-all min-h-[44px]"
+          className="flex-1 flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm rounded-full py-3 px-4 transition-all min-h-[44px]"
         >
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
@@ -197,11 +197,11 @@ export default function WisdomCard({
 
         <button
           onClick={handleCopyForX}
-          className="flex-1 flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white text-sm rounded-full py-3 px-4 transition-all min-h-[44px]"
+          className="flex-1 flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm rounded-full py-3 px-4 transition-all min-h-[44px]"
         >
           {copied ? (
             <>
-              <svg className="w-4 h-4 text-green-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg className="w-4 h-4 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M20 6L9 17l-5-5" />
               </svg>
               Copied
@@ -219,7 +219,7 @@ export default function WisdomCard({
 
         <button
           onClick={handleShareToX}
-          className="flex-1 flex items-center justify-center gap-2 bg-white hover:bg-white/90 text-ink-950 text-sm font-medium rounded-full py-3 px-4 transition-all min-h-[44px]"
+          className="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-full py-3 px-4 transition-all min-h-[44px]"
         >
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
