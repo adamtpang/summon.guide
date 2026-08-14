@@ -1,0 +1,28 @@
+---
+title: "Chapter 11: If You Build It, Will They Come?"
+principle: "Thiel argues Silicon Valley systematically underrates distribution: a great product does not sell itself, and 'the best sales is hidden,' operating under euphemistic job titles like 'account executive' or 'business development.' He lays out a distribution spectrum from complex enterprise sales to viral growth, argues distribution itself follows a power law (only one channel usually works per company), and insists everyone, including engineers, is always selling something."
+tags: [zero-to-one, peter-thiel, sales, distribution, customer-acquisition-cost, viral-growth, paypal]
+---
+
+# Chapter 11: If You Build It, Will They Come?
+
+> **Key principle:** Thiel opens with a joke about the Hitchhiker's Guide to the Galaxy's B Ship (the useless salespeople and consultants, tricked into leaving first and left to found Earth) to name Silicon Valley's actual bias: engineers assume good products sell themselves, but customers never arrive automatically, distribution has to be built as deliberately as the product itself.
+
+*Synthesized from Chapter 11 of Zero to One: Notes on Startups, or How to Build the Future by Peter Thiel with Blake Masters.*
+
+## Key lessons
+
+- Sales is bigger and more hidden than engineers assume: the US sales industry (about $450 billion annually, 3.2 million workers) dwarfs advertising ($150 billion), yet nerds distrust it because, unlike engineering, where a solution either works or doesn't, sales is "an orchestrated campaign to change surface appearances," which strikes engineers as dishonest even though it takes real skill to make look easy.
+- Sales works best hidden, which is why almost every distribution-related job has a euphemistic title: ad sellers are "account executives," people who sell customers do "business development," people who sell companies are "investment bankers," and people who sell themselves are "politicians"; Thiel's Tom Sawyer reference (getting friends to pay him to whitewash a fence) is his model of a sales grandmaster whose "victims" never notice they were sold.
+- Two metrics bound any distribution strategy: Customer Lifetime Value (CLV, total profit earned from a customer over the relationship) must exceed Customer Acquisition Cost (CAC); higher-priced products generally justify and require higher-touch, higher-cost sales.
+- Complex sales (seven-figure-plus deals, months of relationship-building, only a few deals a year) work for a company's most valuable products; Thiel's examples are SpaceX winning billion-dollar NASA contracts against entrenched aerospace-industry political interests, and Palantir, where CEO Alex Karp himself, not a dedicated sales team, spends 25 days a month closing $1-100 million deals, since at that price point buyers expect to talk to the CEO.
+- Personal sales (roughly $10,000-$100,000 deals, a modest sales team) is illustrated by Box, which in 2008 started by solving acute file-sharing pain for small user groups (its first meaningful account was the Stanford Sleep Clinic in 2009) before scaling to become the default cloud storage vendor across all of Stanford; a premature enterprise-wide pitch would have killed the deal.
+- Between personal sales and mass advertising sits the "distribution doldrums," a dead zone (Thiel's example: a roughly $1,000/year inventory tool for convenience stores) where a product is too cheap to justify a salesperson visiting every prospect but too narrow and unglamorous for broad advertising to work, which is why many useful tools never reach small businesses.
+- Advertising and marketing work only when CAC and CLV rule out every other channel; Warby Parker's roughly $100 glasses (a few hundred dollars of lifetime value per customer) justified national TV ads ("TV is a great big megaphone") because no other channel was economical at that price point; Thiel's own PayPal counterexample, hiring Star Trek's James Doohan ("Scotty") as a spokesman, flopped, a reminder that even celebrity stunts don't beat matching the channel to the actual unit economics.
+- Viral growth is the fastest and cheapest channel when it's available: PayPal's referral bonuses ($20 per acquired customer, paid directly) produced 7% daily growth (user base doubling roughly every 10 days) after banner ads proved too expensive; PayPal also deliberately targeted eBay's few thousand high-velocity "PowerSellers" rather than diffuse Western Union-style remittance customers, since dominating the most valuable segment first made PayPal the last mover in the whole market.
+- Distribution itself follows a power law: most startups get zero channels to work, and the "kitchen sink" approach (a little advertising, a little sales, a little virality bolted on as an afterthought) fails; getting even one channel to truly work is enough for a great business, while spreading effort across several without nailing any one of them tends to be fatal, poor sales, not a bad product, is the most common real cause of startup failure.
+- The chapter's final move widens the claim beyond product sales: a company must also sell itself to employees, investors, and the media, since none of that "clamor" around a hot startup happens without deliberate pitching underneath; Thiel's closing line makes the point universal, "if you don't see any salespeople, you're the salesperson."
+
+---
+
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: Zero to One: Notes on Startups, or How to Build the Future by Peter Thiel with Blake Masters, https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296.*

@@ -166,6 +166,40 @@ export const books: Book[] = [
     status: "pending",
   },
 
+  // Jensen Huang
+  {
+    slug: "the-nvidia-way",
+    title: "The Nvidia Way",
+    author: "Tae Kim",
+    year: 2024,
+    role: "about",
+    figureSlug: "jensen-huang",
+    description:
+      "The first full account of Nvidia's thirty-year history, built on more than one hundred interviews including Jensen Huang himself. Traces the Denny's founding with cofounders Curtis Priem and Chris Malachowsky, three separate near-death experiences (the NV1, the RIVA production crisis, the NV30), the coining of the term GPU, the two-decade CUDA bet, and the culture of 'Speed of Light' standards and public criticism that Kim calls the Nvidia Way.",
+    amazonUrl: "https://www.amazon.com/Nvidia-Way-Jensen-Huangs-Silicon/dp/1324086712",
+    pdfPath: "sources/jensen-huang/the-nvidia-way.pdf",
+    skillSlugs: [],
+    status: "complete",
+    corpusPaths: ["content/knowledge/the-nvidia-way"],
+  },
+
+  // Peter Thiel
+  {
+    slug: "zero-to-one",
+    title: "Zero to One: Notes on Startups, or How to Build the Future",
+    author: "Peter Thiel with Blake Masters",
+    year: 2014,
+    role: "by",
+    figureSlug: "peter-thiel",
+    description:
+      "Thiel's own primer on startups, expanded from a 2012 Stanford class Blake Masters took notes on. Argues that competition destroys profits and every valuable company is some kind of monopoly; lays out the definite-optimist 2x2 for thinking about the future, the power law that governs venture returns, the 'Thiel's law' foundations every founder gets one shot at, why distribution is as important as product, and the seven questions every business must answer, illustrated by the cleantech bubble and Tesla's escape from it.",
+    amazonUrl: "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296",
+    pdfPath: "sources/peter-thiel/zero-to-one.pdf",
+    skillSlugs: [],
+    status: "complete",
+    corpusPaths: ["content/knowledge/zero-to-one"],
+  },
+
   // Alexander
   {
     slug: "life-of-alexander-plutarch",
@@ -176,8 +210,10 @@ export const books: Book[] = [
     figureSlug: "alexander",
     description:
       "Roman-era biography written ~AD 100. Source for the taming of Bucephalus, the helmet of water in the Gedrosian Desert, and Alexander's character.",
+    amazonUrl: "https://www.gutenberg.org/ebooks/674",
     skillSlugs: ["lead-from-front"],
-    status: "partial",
+    status: "complete",
+    corpusPaths: ["content/knowledge/life-of-alexander-plutarch"],
   },
   {
     slug: "campaigns-of-alexander-arrian",
