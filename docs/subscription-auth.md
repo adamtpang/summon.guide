@@ -104,16 +104,35 @@ its refresh token can't get rotated out from under the deployed site:
 
 1. **Log in to a fresh, isolated profile** (one-time, interactive — has to be
    run by a human, this step can't be scripted or done on the person's
-   behalf):
+   behalf). `CLAUDE_CONFIG_DIR=... command` bash-style prefix syntax does
+   **not** work in PowerShell, it silently runs `command` with the env var
+   unset instead of erroring, which is exactly the trap: it looks like it
+   worked (a real login flow opens) but logs into the *default* profile,
+   not the isolated one. Use whichever matches your shell:
+   ```powershell
+   # PowerShell (Windows default)
+   $env:CLAUDE_CONFIG_DIR = "$HOME\.claude-summonguide"
+   claude login
+   ```
    ```bash
+   # bash / zsh
    CLAUDE_CONFIG_DIR=~/.claude-summonguide claude login
    ```
    This opens the normal browser OAuth flow. Log in with whichever Anthropic
    account should back the deployed site (your own subscription works — the
    isolation is per-*session*, not per-account, since nothing else will ever
-   open this specific profile again).
+   open this specific profile again). Verify it actually landed in the
+   isolated dir before moving on: the credentials file should now exist at
+   `~/.claude-summonguide/.credentials.json` (PowerShell: `Test-Path
+   "$HOME\.claude-summonguide\.credentials.json"`), not just `~/.claude/`.
 2. **Seed from that profile instead of the default one:**
+   ```powershell
+   # PowerShell — reuse the same $env:CLAUDE_CONFIG_DIR set in step 1,
+   # or set it again if it's a new shell session
+   node -r dotenv/config scripts/seed-anthropic-oauth-token.mjs dotenv_config_path=.env.local
+   ```
    ```bash
+   # bash / zsh
    CLAUDE_CONFIG_DIR=~/.claude-summonguide node -r dotenv/config scripts/seed-anthropic-oauth-token.mjs dotenv_config_path=.env.local
    ```
 3. **Never run `claude` with `CLAUDE_CONFIG_DIR=~/.claude-summonguide` again**
