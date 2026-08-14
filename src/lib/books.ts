@@ -602,8 +602,8 @@ export const books: Book[] = [
   },
 
   // James Clear, Cal Newport, Tim Ferriss, Annie Duke, Carol Dweck,
-  // Paul Millerd, Napoleon Hill: registered for the book-to-knowledge
-  // pipeline. corpusPaths intentionally omitted until digests exist.
+  // Paul Millerd, Napoleon Hill: digested via the book-to-knowledge
+  // pipeline, corpusPaths set on each entry below.
   {
     slug: "atomic-habits",
     title: "Atomic Habits",
