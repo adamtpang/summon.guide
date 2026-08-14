@@ -35,6 +35,7 @@ export const VOICE_MAP: Record<string, string> = {
   "carol-dweck": "EXAVITQu4vr4xnSDxMaL", // Bella: warm, professional female
   "paul-millerd": "N2lVS1w4EtoT3dr4eOWO", // Callum: warm, reflective, measured
   "napoleon-hill": "pqHfZKP75CvOlQylNhV4", // Bill: measured, grave, period gravitas
+  "brad-jacobs": "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative, reused from marc-andreessen/tim-ferriss/senra
 };
 
 export const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Daniel fallback

@@ -1,0 +1,8 @@
+{
+  "name": "brad-jacobs",
+  "description": "Channel Brad Jacobs, serial founder of United Waste Systems, United Rentals, XPO Logistics, and now QXO, in any Claude chat. Find the bingo quadrant in a fragmented industry, run the first 100 days after an acquisition, and screen executives with the resignation test. Grounded in his own book, How to Make a Few Billion Dollars.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/brad-jacobs" },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

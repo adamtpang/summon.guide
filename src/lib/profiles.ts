@@ -2409,6 +2409,65 @@ export const profiles: Record<string, Profile> = {
     ],
     primarySources: ["Think and Grow Rich by Napoleon Hill (1937)"],
   },
+
+  "brad-jacobs": {
+    slug: "brad-jacobs",
+    occupation: "Entrepreneur, chairman and CEO of QXO, serial founder of billion-dollar roll-ups",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Brad_Jacobs_(businessman)",
+
+    fullName: "Bradley S. Jacobs",
+    birthDate: "August 3, 1956",
+    birthPlace: "Providence, Rhode Island, U.S.",
+    nationality: "American",
+    education: [
+      "Northfield Mount Hermon School",
+      "Bennington College",
+      "Brown University (studied math and music; left without a degree, 1976)",
+    ],
+    occupations: [
+      "Founder and CEO, Amerex Oil Associates (1979–1983)",
+      "Founder, Hamilton Resources (1984)",
+      "Founder, chairman and CEO, United Waste Systems (1989–1997)",
+      "Founder, chairman and CEO, United Rentals (1997–2011)",
+      "Chairman and CEO, XPO Logistics (2011–2024)",
+      "Founder, chairman and CEO, QXO (2024–present)",
+    ],
+    yearsActive: "1979–present",
+    notableWorks: [
+      "United Waste Systems (founded 1989, sold for $2.5B in 1997)",
+      "United Rentals (founded 1997; still the world's largest equipment-rental company)",
+      "XPO Logistics (built from a ~$150M investment in 2011; spun off GXO Logistics and RXO)",
+      "QXO (founded 2024; consolidating the ~$800B North American building-products distribution industry)",
+      "How to Make a Few Billion Dollars (2024) and How to Make a Few More Billion Dollars (2025)",
+    ],
+    spouses: ["Lamia Jacobs"],
+    children: "4",
+    parents: ["Albert Jordan Jacobs", "Charlotte Sybil Bander Jacobs"],
+    netWorth: "Roughly $14–15 billion; estimates vary by source and move with QXO's stock price (figures read August 2026)",
+
+    earlyLife:
+      "Bradley S. Jacobs was born August 3, 1956, in Providence, Rhode Island, to Albert Jordan Jacobs, a fashion jewelry importer, and Charlotte Sybil Bander Jacobs. He attended Northfield Mount Hermon School and Bennington College before enrolling at Brown University, where he studied mathematics and music, including classical piano, and left in 1976 without completing a degree. In 1979, at age 23, he co-founded Amerex Oil Associates, an oil brokerage, and served as its CEO until the firm was sold in 1983; within four years it was doing close to $4.7 billion a year in brokerage volume. In 1984 he moved to London and founded Hamilton Resources, an oil-trading firm generating roughly $1 billion a year, where he met his future wife, Lamia. They have four children and live in Greenwich, Connecticut.",
+
+    career:
+      "In August 1989 Jacobs founded United Waste Systems in Greenwich, Connecticut, applying a roll-up strategy to small, family-owned rural waste-hauling companies with overlapping routes. He took the company public in 1992 and sold it to USA Waste Services for $2.5 billion in August 1997. That same September he founded United Rentals and applied the identical consolidation playbook to equipment-rental dealers, building it, by his own account, into the world's largest equipment-rental company within roughly 13 months; United Rentals still holds that position. In June 2011 he invested about $150 million to take control of Express-1 Expedited Solutions, renamed it XPO Logistics, and grew it through acquisition into a major freight and logistics company, later spinning off GXO Logistics (valued around $7 billion, 2021) and RXO (valued around $5 billion, 2022) as independent public companies.",
+
+    legacy:
+      "In June 2024 Jacobs founded QXO to consolidate the roughly $800 billion North American building-products distribution industry, personally investing close to $1 billion of his own capital and raising more than $5 billion in equity, which Bloomberg called the largest building-products-sector offering and the largest PIPE ever completed for an industrial company. QXO acquired Beacon Building Products for roughly $11 billion in April 2025. In June 2025 QXO made a roughly $5 billion all-cash bid for GMS Inc. and lost it to Home Depot's SRS Distribution subsidiary, which closed its own, higher acquisition of GMS on September 4, 2025. QXO went on to acquire Kodiak Building Partners for about $2.25 billion in April 2026 and agreed to acquire TopBuild, the largest insulation distributor in North America, for about $17 billion later that same month, a deal expected to close around mid-2026, bringing QXO's total deployed capital since founding to roughly $30 billion in under two years. Analysts covering QXO have described Jacobs as a genuine 'key man': as of August 2026, at age 70, no successor has been publicly named, and a meaningful share of the market's confidence in QXO's acquisition pace rides on his personal track record and capital rather than an institutional bench proven to survive his departure. Jacobs has written two books distilling his approach, How to Make a Few Billion Dollars (2024) and How to Make a Few More Billion Dollars (2025), and has spoken publicly, including on Shane Parrish's The Knowledge Project, about using therapy and cognitive behavioral techniques as working tools in business decision-making.",
+
+    notableQuotes: [
+      "If you can find a big, hairy deal with solvable problems, that's where the real money is.",
+      "If you resist embracing an imperfect situation today, you might lose the opportunity to capitalize on it tomorrow.",
+      "A healthy fear of failure has kept me sharp.",
+      "The question, 'What was the happiest part of your day?' has a more uplifting effect than 'How was your day?'",
+    ],
+    primarySources: [
+      "How to Make a Few Billion Dollars by Brad Jacobs (Greenleaf Book Group Press, 2024, ISBN 979-8886451740)",
+      "How to Make a Few More Billion Dollars by Brad Jacobs (Greenleaf Book Group Press, 2025)",
+      "Brad Jacobs: How Therapy Made Me Billions, The Knowledge Project with Shane Parrish, Episode 190",
+      "Founders podcast, Episode 335: How to Make a Few Billion Dollars: Brad Jacobs",
+      "Wikipedia, \"Brad Jacobs (businessman),\" and contemporaneous press coverage of QXO's Beacon, GMS, Kodiak, and TopBuild transactions (2025–2026)",
+    ],
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

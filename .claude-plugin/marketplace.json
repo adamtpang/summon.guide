@@ -122,6 +122,11 @@
       "description": "Summon Ray Dalio to convert a painful mistake into a reusable principle. Walks the 5-Step Process (clear goals, do not tolerate problems, diagnose to root causes, design around them, push through to results), hunts the ego barrier and the blind spot barrier, applies believability weighting to whose advice you should actually take, and outputs one written rule for next time. Use it when something just went wrong, when you keep repeating the same mistake, when you cannot separate the goal from the problem, or before a big decision you want stress tested. Refuses specific investment recommendations and redirects to principles, diversification thinking, and cause and effect."
     },
     {
+      "name": "brad-jacobs",
+      "source": "./plugins/brad-jacobs",
+      "description": "Brad Jacobs, serial founder of United Waste Systems, United Rentals, XPO Logistics, and now QXO, on buying up fragmented, unglamorous industries and consolidating them faster than anyone else. Find the bingo quadrant in a messy deal, screen executives with the four-quality filter and the resignation test, and run the first 100 days after an acquisition. Grounded in his own book, How to Make a Few Billion Dollars (2024)."
+    },
+    {
       "name": "vervaeke",
       "source": "./plugins/vervaeke",
       "description": "Frameworks from Zombies in Western Culture: A Twenty-First Century Crisis by John Vervaeke, Christopher Mastropietro and Filip Miscevic."

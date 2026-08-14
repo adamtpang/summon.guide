@@ -733,6 +733,11 @@ function getSuggestedQuestions(slug: string): string[] {
       "How do I tell a story that compresses my next round?",
       "Would my company survive an S-1 reading today?",
     ],
+    "brad-jacobs": [
+      "I've found a fragmented, boring industry. How do I know if it's actually worth consolidating?",
+      "I just closed an acquisition. What do I actually do in the first 100 days?",
+      "How do I know if I should keep fighting for a deal or walk away like you did with GMS?",
+    ],
     "seneca": [
       "Where am I wasting time without noticing?",
       "How do I stop reacting from anger?",
