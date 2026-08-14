@@ -751,6 +751,59 @@ export const books: Book[] = [
     status: "partial",
     corpusPaths: ["content/knowledge/principles-for-dealing-with-the-changing-world-order"],
   },
+
+  // Tao Te Ching: a pure-text corpus, deliberately with no guide persona.
+  // Traditional attribution to "Lao Tzu" is semi-legendary and historically
+  // disputed, so figureSlug points at no entry in figures.ts on purpose,
+  // this book grounds /chat/source/tao-te-ching only, chat with the text
+  // itself rather than with a claimed author.
+  {
+    slug: "tao-te-ching",
+    title: "Tao Te Ching",
+    author: "Laozi",
+    year: 1891,
+    role: "by",
+    figureSlug: "unattributed",
+    description:
+      "Eighty-one short chapters traditionally split into the Tao Ching and the Teh Ching, teaching government and self-cultivation by yielding, emptiness, and non-action (wu wei). This is James Legge's 1891 scholarly translation, the widely cited public-domain edition. Authorship is traditionally credited to Lao Tzu, a semi-legendary figure with no settled historical record, so this source is registered as a text to chat with directly, not a guide.",
+    amazonUrl: "https://www.gutenberg.org/ebooks/216",
+    skillSlugs: [],
+    status: "complete",
+    corpusPaths: ["content/knowledge/tao-te-ching"],
+  },
+
+  // The Bible: Wisdom & Teaching. Same pure-text pattern as Tao Te Ching,
+  // deliberately no guide persona, figureSlug points at no entry in
+  // figures.ts on purpose. Scripture has no single human author in the
+  // sense this schema otherwise assumes, and this project's own
+  // notability/onboarding docs already flag religious founders as a
+  // landmine to handle with care, so this grounds /chat/source/bible
+  // only, chat with the text itself, never a persona claiming to speak
+  // as God, Jesus, Solomon, or David. Scoped deliberately to the
+  // wisdom/advice-oriented books (Proverbs, Ecclesiastes, selected
+  // Psalms, the Sermon on the Mount) rather than the full 66-book canon,
+  // most of which (genealogies, ritual law, historical narrative) doesn't
+  // serve "ask this book for advice." Source is the King James Version,
+  // public domain, via Project Gutenberg.
+  {
+    slug: "bible",
+    title: "The Bible: Wisdom & Teaching",
+    author: "the biblical authors",
+    year: 1611,
+    role: "compiled",
+    figureSlug: "unattributed",
+    description:
+      "A scoped selection from the King James Version covering the Bible's advice-oriented core: Proverbs (aphorisms on speech, wealth, discipline, and character), Ecclesiastes (a sustained meditation on mortality and meaning), a selection of wisdom and reflection Psalms, and the Sermon on the Mount (Matthew 5-7). Not the full 66-book canon, this is the material people actually turn to for guidance, digested as a text to chat with directly rather than through any persona.",
+    amazonUrl: "https://www.gutenberg.org/ebooks/10",
+    skillSlugs: [],
+    status: "complete",
+    corpusPaths: [
+      "content/knowledge/bible-proverbs",
+      "content/knowledge/bible-ecclesiastes",
+      "content/knowledge/bible-psalms-wisdom",
+      "content/knowledge/bible-sermon-on-the-mount",
+    ],
+  },
 ];
 
 /** All books for a single figure. */
