@@ -1,0 +1,28 @@
+---
+title: "The Next Fifty Years and the Index Bet"
+principle: "Berkshire is built to keep compounding after Buffett and Munger are gone because its blueprint and decentralized culture don't depend on them personally, and the same discipline that guides Berkshire's own capital allocation, avoiding needless costs, is what let a plain S&P 500 index fund crush a hand-picked basket of hedge funds over nine years of real, audited results."
+tags: [berkshire-shareholder-letters, warren-buffett, berkshire-hathaway, investing, index-funds, active-management, succession, insurance-float]
+---
+
+# The Next Fifty Years and the Index Bet
+
+> **Key principle:** Berkshire is built to keep compounding after Buffett and Munger are gone because its blueprint and decentralized culture don't depend on them personally, and the same discipline that guides Berkshire's own capital allocation, avoiding needless costs, is what let a plain S&P 500 index fund crush a hand-picked basket of hedge funds over nine years of real, audited results.
+
+*Synthesized from Berkshire Hathaway's 2015 and 2016 Chairman's Letters to shareholders, by Warren E. Buffett.*
+
+## Key lessons
+
+- Buffett tells shareholders the model, not his own presence, is what will keep Berkshire compounding: he describes a five-point "blueprint" for his successors to follow, improving the earning power of existing subsidiaries, growing them through bolt-on acquisitions, benefiting from the retained earnings of investee companies, repurchasing shares when they trade below intrinsic value, and occasionally making a large acquisition, while avoiding issuing new Berkshire stock.
+- He argues Berkshire's durability comes from "money, talent and culture" rather than from any one industry bet, pointing out that when he and Munger took over in 1965 the entire company was a dying New England textile mill, a single-sentence risk that simply required adapting rather than a fatal flaw; the same adaptive posture, he says, will carry Berkshire through future threats like coal decline at BNSF or driverless cars eventually denting GEICO's premiums.
+- The "almost unheard of" decentralization at Berkshire is presented as a structural, not personal, advantage: operating CEOs run their businesses with minimal interference from headquarters, which Buffett expects to continue after he and Munger are gone, since it doesn't depend on either of them personally evaluating day-to-day decisions.
+- Buffett names one danger to Berkshire's long-term future that he and Munger are explicitly powerless against: a "successful" cyber, biological, nuclear or chemical attack on the United States, a risk he says is shared by all of American business and cannot be diversified away.
+- The famous ten-year bet, proposed in Berkshire's 2005 annual report, wagered $500,000 that no investment professional could select five hedge funds that would beat an unmanaged, low-cost Vanguard S&P 500 index fund over ten years (2008-2017); only one man, Ted Seides of Protégé Partners, took the bet, picking five funds-of-funds invested across more than 100 underlying hedge funds.
+- Through the nine years reported in the 2016 letter, the index fund had compounded at 7.1% annually while the five funds-of-funds averaged just 2.2% annually; on $1 million invested, that gap meant $854,000 gained in the index fund versus only $220,000 gained across the five funds-of-funds.
+- Buffett's explanation is almost entirely about fees: he estimates roughly 60% of the funds-of-funds' total gains over the period were siphoned off by the two stacked layers of managers, the underlying hedge funds' typical "2 and 20" terms plus an additional 1% fixed fee (and occasional performance fee) charged by the fund-of-funds managers themselves, even though the underlying results were mediocre.
+- His underlying argument, reprinted from the original 2005 bet posting, is an aggregation logic: passive investors as a group must earn roughly the market average by definition, so active investors as a group must also average out to roughly the market before costs, meaning whichever group pays lower costs wins on net, and funds of hedge funds stack costs on costs.
+- He credits Jack Bogle by name as the person who has done the most for American investors by popularizing ultra-low-cost index funds, noting Bogle was mocked early in his career, and observes that his own wealthy friends, institutions and pension funds rarely take his standing advice to just buy a low-cost S&P 500 index fund, instead chasing high-fee managers or consultants who cannot afford to recommend something as unglamorous as "just buy the index" year after year.
+- Beyond the bet and succession themes, the two letters record real 2015-2016 business specifics: the 2015 purchase of Precision Castparts (PCC) for over $32 billion under CEO Mark Donegan; the "Powerhouse Five" (BNSF, Berkshire Hathaway Energy, Marmon, Lubrizol, IMC) earning $13.1 billion in 2015; the Heinz-Kraft merger creating Kraft Heinz; insurance float growing from $87.7 billion (2015) to $91.6 billion (2016) with 13-14 consecutive years of underwriting profit; and Buffett's repurchase-policy explainer that buybacks only benefit continuing shareholders when done below intrinsic value ("What is smart at one price is stupid at another").
+
+---
+
+*Synthesis only. The full text of this letter is not redistributed here. Read the original: Berkshire Hathaway's 2015 and 2016 Chairman's Letters, freely published by Berkshire Hathaway Inc. at https://www.berkshirehathaway.com/letters/2015ltr.pdf and https://www.berkshirehathaway.com/letters/2016ltr.pdf.*
