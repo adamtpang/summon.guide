@@ -198,8 +198,8 @@ export default function HumanSearch() {
     <div ref={boxRef} className="relative">
       <form onSubmit={handleSubmit}>
         <div className="relative group">
-          {/* Gold glow behind the summoning circle */}
-          <div className="absolute -inset-px rounded-2xl bg-gradient-to-r from-gold-500/40 via-gold-500/10 to-gold-500/40 opacity-40 group-focus-within:opacity-100 blur-[2px] transition-opacity duration-500 pointer-events-none" />
+          {/* Blue glow behind the summoning circle */}
+          <div className="absolute -inset-px rounded-2xl bg-gradient-to-r from-blue-500/20 via-blue-500/5 to-blue-500/20 opacity-40 group-focus-within:opacity-100 blur-[2px] transition-opacity duration-500 pointer-events-none" />
           <input
             type="text"
             value={query}
@@ -208,12 +208,12 @@ export default function HumanSearch() {
             onFocus={() => results.length > 0 && setOpen(true)}
             placeholder="Summon anyone, a name, or a problem…"
             disabled={matching}
-            className="relative w-full bg-ink-900 border border-white/10 rounded-2xl px-5 py-4 pr-14 text-warm-50 text-base placeholder:text-warm-500 focus:outline-none focus:border-gold-500/60 transition-all disabled:opacity-50"
+            className="relative w-full bg-white border border-slate-200 rounded-2xl px-5 py-4 pr-14 text-slate-900 text-base placeholder:text-slate-400 focus:outline-none focus:border-blue-500/60 shadow-sm transition-all disabled:opacity-50"
           />
           <button
             type="submit"
             disabled={!query.trim() || matching}
-            className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-gold-500 text-ink-950 flex items-center justify-center disabled:opacity-20 hover:bg-gold-600 active:scale-95 transition-all"
+            className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center disabled:opacity-20 hover:bg-blue-700 active:scale-95 transition-all"
             title="Summon"
           >
             {matching || searching ? (
@@ -232,17 +232,17 @@ export default function HumanSearch() {
 
       {/* Typeahead: the index of humans */}
       {open && results.length > 0 && (
-        <div className="absolute z-30 mt-2 w-full bg-ink-900 border border-white/10 rounded-2xl overflow-hidden shadow-2xl shadow-black/60">
+        <div className="absolute z-30 mt-2 w-full bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-xl shadow-slate-900/10">
           {results.map((h, i) => (
             <button
               key={h.id}
               onClick={() => selectHuman(h)}
               onMouseEnter={() => setHighlighted(i)}
               className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors ${
-                highlighted === i ? "bg-white/5" : ""
+                highlighted === i ? "bg-slate-50" : ""
               }`}
             >
-              <div className="w-9 h-9 rounded-full overflow-hidden bg-white/5 flex-shrink-0 border border-white/10">
+              <div className="w-9 h-9 rounded-full overflow-hidden bg-slate-100 flex-shrink-0 border border-slate-200">
                 {h.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
@@ -252,36 +252,36 @@ export default function HumanSearch() {
                     loading="lazy"
                   />
                 ) : (
-                  <div className="w-full h-full flex items-center justify-center text-warm-500 text-xs font-serif">
+                  <div className="w-full h-full flex items-center justify-center text-slate-400 text-xs font-serif">
                     {h.name[0]}
                   </div>
                 )}
               </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-baseline gap-2">
-                  <span className="text-warm-50 text-sm font-medium truncate">
+                  <span className="text-slate-900 text-sm font-medium truncate">
                     {h.name}
                   </span>
                   {years(h) && (
-                    <span className="text-warm-500 text-[11px] flex-shrink-0">
+                    <span className="text-slate-400 text-[11px] flex-shrink-0">
                       {years(h)}
                     </span>
                   )}
                 </div>
-                <p className="text-warm-500 text-xs truncate">{h.description}</p>
+                <p className="text-slate-500 text-xs truncate">{h.description}</p>
               </div>
               {h.onPlatform ? (
-                <span className="flex-shrink-0 text-[10px] tracking-[0.15em] uppercase text-gold-500 border border-gold-500/40 rounded-full px-2.5 py-1">
+                <span className="flex-shrink-0 text-[10px] tracking-[0.15em] uppercase text-blue-600 border border-blue-200 rounded-full px-2.5 py-1">
                   In the hall
                 </span>
               ) : (
-                <span className="flex-shrink-0 text-[10px] tracking-[0.15em] uppercase text-warm-500 border border-white/10 rounded-full px-2.5 py-1">
+                <span className="flex-shrink-0 text-[10px] tracking-[0.15em] uppercase text-slate-400 border border-slate-200 rounded-full px-2.5 py-1">
                   Not summoned
                 </span>
               )}
             </button>
           ))}
-          <div className="px-4 py-2.5 border-t border-white/5 text-warm-500 text-[11px]">
+          <div className="px-4 py-2.5 border-t border-slate-100 text-slate-400 text-[11px]">
             Searching all of humanity via Wikidata · press Enter to describe a
             problem instead
           </div>
@@ -290,47 +290,47 @@ export default function HumanSearch() {
 
       {/* Not-summoned-yet request card */}
       {requestCard && (
-        <div className="mt-4 bg-ink-900 border border-white/10 rounded-2xl p-5 md:p-6">
-          <p className="text-gold-500 text-[11px] tracking-[0.2em] uppercase mb-2">
+        <div className="mt-4 bg-slate-50 border border-slate-200 rounded-2xl p-5 md:p-6">
+          <p className="text-blue-600 text-[11px] tracking-[0.2em] uppercase mb-2 font-medium">
             Not summoned yet
           </p>
-          <p className="text-warm-50 text-base md:text-lg font-serif font-medium leading-snug mb-2">
+          <p className="text-slate-900 text-base md:text-lg font-serif font-medium leading-snug mb-2">
             {requestCard.person}
             {requestCard.years ? (
-              <span className="text-warm-500 text-sm font-sans font-normal">
+              <span className="text-slate-400 text-sm font-sans font-normal">
                 {" "}
                 · {requestCard.years}
               </span>
             ) : null}
           </p>
-          <p className="text-warm-400 text-sm leading-relaxed mb-4">
+          <p className="text-slate-500 text-sm leading-relaxed mb-4">
             {requestCard.reason ||
               `We only summon guides we can ground in real primary sources. ${requestCard.person} is on the onboarding list.`}
           </p>
 
           {/* Historical-significance strip, MIT Pantheon HPI */}
           {pantheon && (pantheon.hpi != null || pantheon.occupation) && (
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-4 py-2.5 px-3.5 rounded-xl bg-white/[0.03] border border-white/5">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-4 py-2.5 px-3.5 rounded-xl bg-white border border-slate-200">
               {pantheon.rank != null && (
-                <span className="text-warm-300 text-xs">
-                  <span className="text-gold-500 font-medium">
+                <span className="text-slate-600 text-xs">
+                  <span className="text-blue-600 font-medium">
                     #{pantheon.rank.toLocaleString()}
                   </span>{" "}
                   most notable human, all time
                 </span>
               )}
               {pantheon.hpi != null && (
-                <span className="text-warm-500 text-xs">
+                <span className="text-slate-400 text-xs">
                   HPI{" "}
-                  <span className="text-warm-300 font-medium">{pantheon.hpi}</span>
+                  <span className="text-slate-600 font-medium">{pantheon.hpi}</span>
                 </span>
               )}
               {pantheon.occupation && (
-                <span className="text-warm-500 text-xs">
+                <span className="text-slate-400 text-xs">
                   {pantheon.occupation}
                 </span>
               )}
-              <span className="text-warm-500 text-[10px] tracking-wide ml-auto">
+              <span className="text-slate-400 text-[10px] tracking-wide ml-auto">
                 via MIT Pantheon
               </span>
             </div>
@@ -343,7 +343,7 @@ export default function HumanSearch() {
               )}&body=${encodeURIComponent(
                 `Please add ${requestCard.person} to summon.guide.`
               )}`}
-              className="inline-flex items-center gap-2 bg-gold-500 text-ink-950 rounded-full px-5 py-2.5 text-sm font-medium hover:bg-gold-600 transition-colors"
+              className="inline-flex items-center gap-2 bg-blue-600 text-white rounded-full px-5 py-2.5 text-sm font-medium hover:bg-blue-700 transition-colors"
             >
               Request {requestCard.person.split(" ")[0]}
             </a>
@@ -352,7 +352,7 @@ export default function HumanSearch() {
                 href={requestCard.wikipediaUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 border border-white/15 text-warm-300 rounded-full px-5 py-2.5 text-sm font-medium hover:border-gold-500/60 hover:text-warm-50 transition-colors"
+                className="inline-flex items-center gap-2 border border-slate-200 text-slate-600 rounded-full px-5 py-2.5 text-sm font-medium hover:border-blue-400 hover:text-slate-900 transition-colors"
               >
                 Wikipedia
               </a>
@@ -362,7 +362,7 @@ export default function HumanSearch() {
                 setRequestCard(null);
                 setQuery("");
               }}
-              className="inline-flex items-center gap-2 border border-white/15 text-warm-300 rounded-full px-5 py-2.5 text-sm font-medium hover:border-gold-500/60 hover:text-warm-50 transition-colors"
+              className="inline-flex items-center gap-2 border border-slate-200 text-slate-600 rounded-full px-5 py-2.5 text-sm font-medium hover:border-blue-400 hover:text-slate-900 transition-colors"
             >
               Browse the hall
             </button>

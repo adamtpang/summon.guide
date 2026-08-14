@@ -82,38 +82,37 @@ function HomeContent() {
   }, [searchParams]);
 
   return (
-    <main className="min-h-screen bg-ink-950 text-warm-50 relative overflow-x-clip">
-      {/* Atmosphere: candle-glow + grain */}
+    <main className="min-h-screen bg-white text-slate-900 relative overflow-x-clip">
+      {/* Atmosphere: soft daylight glow */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-x-0 top-0 h-[70vh]"
         style={{
           background:
-            "radial-gradient(ellipse 80% 55% at 50% -10%, rgba(184,157,79,0.16), rgba(184,157,79,0.05) 45%, transparent 70%)",
+            "radial-gradient(ellipse 80% 55% at 50% -10%, rgba(37,99,235,0.06), rgba(16,185,129,0.03) 45%, transparent 70%)",
         }}
       />
-      <div aria-hidden className="pointer-events-none absolute inset-0 grain" />
 
       <div className="relative max-w-2xl mx-auto px-6 pt-8 md:pt-14 pb-8">
         {/* Header */}
         <header className="mb-8 md:mb-12">
           <div className="flex items-center justify-between mb-8 md:mb-12 rise">
-            <p className="text-gold-500 text-xs tracking-[0.35em] uppercase">
+            <p className="text-blue-600 text-xs tracking-[0.35em] uppercase font-medium">
               summon.guide
             </p>
-            <AuthButton dark />
+            <AuthButton />
           </div>
           <h1
-            className="text-[32px] md:text-[54px] font-serif font-medium leading-[1.08] tracking-tight mb-5 rise"
+            className="text-[32px] md:text-[54px] font-serif font-medium leading-[1.08] tracking-tight mb-5 rise text-slate-900"
             style={{ animationDelay: "80ms" }}
           >
             Every legend who ever lived,{" "}
-            <em className="text-gold-500 not-italic md:italic">
+            <em className="text-blue-600 not-italic md:italic">
               on call.
             </em>
           </h1>
           <p
-            className="text-warm-400 text-sm md:text-base leading-relaxed max-w-md rise"
+            className="text-slate-500 text-sm md:text-base leading-relaxed max-w-md rise"
             style={{ animationDelay: "160ms" }}
           >
             Search any great human in history, or describe what you&apos;re
@@ -126,55 +125,60 @@ function HomeContent() {
           <HumanSearch />
         </div>
 
-        {/* The Hall */}
+        {/* The Hall — compressed list view */}
         <section>
           <div
-            className="flex items-baseline justify-between mb-6 rise"
+            className="flex items-baseline justify-between mb-3 rise"
             style={{ animationDelay: "320ms" }}
           >
-            <h2 className="text-warm-400 text-xs tracking-[0.25em] uppercase">
-              The Hall <span className="text-gold-500">· {figures.length} summoned</span>
+            <h2 className="text-slate-400 text-xs tracking-[0.25em] uppercase">
+              The Hall <span className="text-blue-600 font-medium">· {figures.length} summoned</span>
             </h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="divide-y divide-slate-100 border-y border-slate-100">
             {figures.map((figure, idx) => (
               <div
                 key={figure.slug}
                 className="group rise"
-                style={{ animationDelay: `${360 + idx * 50}ms` }}
+                style={{ animationDelay: `${Math.min(360 + idx * 12, 900)}ms` }}
               >
-                <Link href={`/${figure.slug}`} className="block">
-                  <div className="relative aspect-[3/4] rounded-xl overflow-hidden bg-ink-900 mb-2 border border-white/5 group-hover:border-gold-500/40 transition-colors duration-500">
-                    {figure.portrait ? (
-                      <Image
-                        src={figure.portrait}
-                        alt={figure.name}
-                        fill
-                        className="object-cover object-top grayscale-[60%] sepia-[15%] brightness-[0.85] group-hover:grayscale-0 group-hover:sepia-0 group-hover:brightness-100 group-hover:scale-105 transition-all duration-700"
-                        sizes="(max-width: 768px) 50vw, 33vw"
-                        priority={idx < 2}
-                      />
-                    ) : (
-                      <div
-                        className={`absolute inset-0 bg-gradient-to-b ${figure.gradient}`}
-                      />
-                    )}
-                    <div className="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/10 to-transparent" />
-                    <div className="absolute bottom-3 left-3 right-3">
-                      <h3 className="text-warm-50 text-sm font-serif font-medium leading-tight">
-                        {figure.name}
-                      </h3>
-                      <p className="text-warm-400 text-[10px] mt-0.5 tracking-wide">
-                        {figure.era} &middot; {figure.location}
+                <div className="flex items-center gap-3 py-2.5 hover:bg-slate-50 rounded-lg transition-colors duration-200 -mx-2 px-2">
+                  <Link href={`/${figure.slug}`} className="flex items-center gap-3 flex-1 min-w-0">
+                    <div className="relative w-10 h-10 rounded-full overflow-hidden bg-slate-100 flex-shrink-0 border border-slate-200">
+                      {figure.portrait ? (
+                        <Image
+                          src={figure.portrait}
+                          alt={figure.name}
+                          fill
+                          className="object-cover object-top"
+                          sizes="40px"
+                          priority={idx < 6}
+                        />
+                      ) : (
+                        <div
+                          className={`absolute inset-0 bg-gradient-to-b ${figure.gradient} flex items-center justify-center text-white/70 text-[11px] font-serif`}
+                        >
+                          {figure.name
+                            .split(" ")
+                            .map((n) => n[0])
+                            .join("")
+                            .slice(0, 2)}
+                        </div>
+                      )}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-baseline gap-2">
+                        <h3 className="text-slate-900 text-sm font-medium leading-tight group-hover:text-blue-600 transition-colors truncate">
+                          {figure.name}
+                        </h3>
+                        <span className="text-slate-400 text-[10px] flex-shrink-0 hidden sm:inline">
+                          {figure.era}
+                        </span>
+                      </div>
+                      <p className="text-slate-500 text-xs leading-relaxed truncate">
+                        {figure.knownFor}
                       </p>
                     </div>
-                  </div>
-                </Link>
-                <div className="flex items-start justify-between gap-1">
-                  <Link href={`/${figure.slug}`} className="flex-1 min-w-0">
-                    <p className="text-warm-500 text-xs leading-relaxed line-clamp-2">
-                      {figure.knownFor}
-                    </p>
                   </Link>
                   <button
                     onClick={(e) => {
@@ -182,21 +186,21 @@ function HomeContent() {
                       e.stopPropagation();
                       playIntro(figure.slug, figure.introLine);
                     }}
-                    className="shrink-0 w-7 h-7 rounded-full bg-white/5 hover:bg-gold-500/20 flex items-center justify-center transition-all mt-0.5"
+                    className="shrink-0 w-8 h-8 rounded-full bg-emerald-50 hover:bg-emerald-100 flex items-center justify-center transition-all"
                     title={`Hear ${figure.name} introduce themselves`}
                   >
                     {loadingSlug === figure.slug ? (
-                      <svg className="w-3 h-3 animate-spin text-warm-400" viewBox="0 0 24 24" fill="none">
+                      <svg className="w-3.5 h-3.5 animate-spin text-emerald-600" viewBox="0 0 24 24" fill="none">
                         <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" opacity="0.3" />
                         <path d="M12 2a10 10 0 0 1 10 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                       </svg>
                     ) : playingSlug === figure.slug ? (
-                      <svg className="w-3 h-3 text-gold-500" viewBox="0 0 24 24" fill="currentColor">
+                      <svg className="w-3.5 h-3.5 text-emerald-600" viewBox="0 0 24 24" fill="currentColor">
                         <rect x="6" y="5" width="4" height="14" rx="1" />
                         <rect x="14" y="5" width="4" height="14" rx="1" />
                       </svg>
                     ) : (
-                      <svg className="w-3 h-3 text-warm-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <svg className="w-3.5 h-3.5 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <path d="M11 5L6 9H2v6h4l5 4V5z" />
                         <path d="M15.54 8.46a5 5 0 0 1 0 7.07" strokeLinecap="round" />
                       </svg>
@@ -210,31 +214,34 @@ function HomeContent() {
 
         {/* How it works, one quiet strip */}
         <section className="mt-12 md:mt-16">
-          <div className="border-t border-white/5 pt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="border-t border-slate-100 pt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
                 n: "01",
                 t: "Ask for anyone, or anything",
                 d: "Name a legend, or describe the problem you're carrying.",
+                color: "text-blue-600",
               },
               {
                 n: "02",
                 t: "We summon the right mind",
                 d: "Deeply researched, grounded in their real biographies and words.",
+                color: "text-emerald-600",
               },
               {
                 n: "03",
                 t: "Talk it through",
                 d: "Real conversation, with citations back to the source.",
+                color: "text-rose-600",
               },
             ].map((s) => (
               <div key={s.n} className="flex gap-3">
-                <span className="text-gold-500/70 text-xs tracking-widest font-mono mt-0.5">
+                <span className={`${s.color} text-xs tracking-widest font-mono mt-0.5`}>
                   {s.n}
                 </span>
                 <div>
-                  <p className="text-warm-50 text-sm font-medium mb-1">{s.t}</p>
-                  <p className="text-warm-500 text-xs leading-relaxed">{s.d}</p>
+                  <p className="text-slate-900 text-sm font-medium mb-1">{s.t}</p>
+                  <p className="text-slate-500 text-xs leading-relaxed">{s.d}</p>
                 </div>
               </div>
             ))}
@@ -245,17 +252,17 @@ function HomeContent() {
         <section className="mt-12 md:mt-16 space-y-3">
           <Link
             href="/speak"
-            className="block bg-ink-900 border border-white/10 hover:border-gold-500/40 text-warm-50 rounded-2xl p-6 md:p-7 transition-colors group"
+            className="block bg-slate-50 border border-slate-200 hover:border-blue-300 text-slate-900 rounded-2xl p-6 md:p-7 transition-colors group"
           >
             <div className="flex items-start justify-between gap-4">
               <div>
-                <p className="text-gold-500 text-[11px] tracking-[0.2em] uppercase mb-2">
+                <p className="text-blue-600 text-[11px] tracking-[0.2em] uppercase mb-2 font-medium">
                   Claude Code skills
                 </p>
-                <h3 className="text-warm-50 text-lg md:text-xl font-serif font-medium leading-snug mb-2">
+                <h3 className="text-slate-900 text-lg md:text-xl font-serif font-medium leading-snug mb-2">
                   Take your guides into your terminal.
                 </h3>
-                <p className="text-warm-400 text-sm leading-relaxed">
+                <p className="text-slate-500 text-sm leading-relaxed">
                   Frameworks from these lives, packaged as installable Claude
                   Code skills. Rockefeller&rsquo;s Ledger A. Musk&rsquo;s
                   Five-Step Algorithm. Seneca on anger. Install once, summon
@@ -263,7 +270,7 @@ function HomeContent() {
                 </p>
               </div>
               <svg
-                className="w-5 h-5 text-warm-500 group-hover:text-gold-500 group-hover:translate-x-0.5 transition-all flex-shrink-0 mt-1"
+                className="w-5 h-5 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all flex-shrink-0 mt-1"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -275,38 +282,38 @@ function HomeContent() {
           </Link>
         </section>
 
-        <footer className="mt-12 flex items-center justify-between text-warm-500 text-xs">
+        <footer className="mt-12 flex items-center justify-between text-slate-400 text-xs">
           <span>Grounded in real biographies and primary sources.</span>
           <div className="flex items-center gap-4">
-            <Link href="/privacy" className="hover:text-gold-500 transition-colors">
+            <Link href="/privacy" className="hover:text-blue-600 transition-colors">
               Privacy
             </Link>
-            <AmbientMusic trackKey="home" className="text-warm-500" />
+            <AmbientMusic trackKey="home" className="text-slate-400 hover:text-slate-600" />
           </div>
         </footer>
       </div>
 
       {/* Purchase success modal */}
       {showPurchaseSuccess && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-ink-900 border border-white/10 rounded-2xl p-8 max-w-sm w-full text-center shadow-2xl shadow-black/60">
-            <div className="w-16 h-16 bg-gold-500/15 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg className="w-8 h-8 text-gold-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-white border border-slate-200 rounded-2xl p-8 max-w-sm w-full text-center shadow-2xl shadow-slate-900/10">
+            <div className="w-16 h-16 bg-emerald-50 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </div>
-            <h2 className="text-2xl font-serif font-medium text-warm-50 mb-2">
+            <h2 className="text-2xl font-serif font-medium text-slate-900 mb-2">
               Welcome back
             </h2>
-            <p className="text-warm-400 text-sm mb-2">
+            <p className="text-slate-500 text-sm mb-2">
               100 credits have been added to your account.
             </p>
-            <p className="text-warm-500 text-xs mb-6">
+            <p className="text-slate-400 text-xs mb-6">
               Continue your conversations with any legend.
             </p>
             <button
               onClick={() => setShowPurchaseSuccess(false)}
-              className="w-full bg-gold-500 text-ink-950 rounded-full py-3 px-6 text-sm font-medium hover:bg-gold-600 transition-colors"
+              className="w-full bg-blue-600 text-white rounded-full py-3 px-6 text-sm font-medium hover:bg-blue-700 transition-colors"
             >
               Start chatting
             </button>
