@@ -277,7 +277,12 @@ function HomeContent() {
 
         <footer className="mt-12 flex items-center justify-between text-warm-500 text-xs">
           <span>Grounded in real biographies and primary sources.</span>
-          <AmbientMusic trackKey="home" className="text-warm-500" />
+          <div className="flex items-center gap-4">
+            <Link href="/privacy" className="hover:text-gold-500 transition-colors">
+              Privacy
+            </Link>
+            <AmbientMusic trackKey="home" className="text-warm-500" />
+          </div>
         </footer>
       </div>
 
