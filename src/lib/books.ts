@@ -716,6 +716,41 @@ export const books: Book[] = [
     status: "partial",
     corpusPaths: ["content/knowledge/think-and-grow-rich"],
   },
+
+  // Ray Dalio: his own free-distributed PDFs, the direct precursors to his
+  // retail books. "Principles" (2011) is the original free document Life
+  // and Work Principles later expanded into. "Principles for Dealing with
+  // the Changing World Order" is Dalio's own free chart-and-table companion
+  // to the 2021 retail hardcover, not the prose edition, corpusPaths
+  // reflects that: real frameworks/timelines/data, not narrative chapters.
+  {
+    slug: "principles",
+    title: "Principles",
+    author: "Ray Dalio",
+    year: 2011,
+    role: "by",
+    figureSlug: "ray-dalio",
+    description:
+      "Dalio's original free PDF, the direct precursor to Principles: Life and Work. Three parts: why principles matter, his most fundamental life principles, and his management principles as lived out at Bridgewater, roughly 200 principles covering culture, hiring, and decision-making.",
+    amazonUrl: "https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/principles"],
+  },
+  {
+    slug: "principles-for-dealing-with-the-changing-world-order",
+    title: "Principles for Dealing with the Changing World Order",
+    author: "Ray Dalio",
+    year: 2021,
+    role: "by",
+    figureSlug: "ray-dalio",
+    description:
+      "Dalio's framework for reading empires rising and falling through a repeating Big Cycle of money, credit, debt, and power, tested against the Dutch, British, American, and Chinese empires. This source is Dalio's own free chart-and-table companion PDF, not the prose edition, so the grounding here draws on real frameworks, historical timelines, and data tables rather than extended narrative.",
+    amazonUrl: "https://www.amazon.com/Principles-Dealing-Changing-World-Order/dp/1982160272",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/principles-for-dealing-with-the-changing-world-order"],
+  },
 ];
 
 /** All books for a single figure. */
