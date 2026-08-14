@@ -1,4 +1,10 @@
 {
+  "tim-ferriss": {
+    "file": "tim-ferriss.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Timothy_Ferriss.jpg",
+    "article": "https://en.wikipedia.org/wiki/Tim_Ferriss",
+    "note": "CC BY-SA 3.0, photo by Olivier Ezratty, via Wikimedia Commons"
+  },
   "ricky-gervais": {
     "file": "ricky-gervais.jpg",
     "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/GervaisPall230921_%285_of_17%29_%2851528328440%29_%28cropped%29.jpg/330px-GervaisPall230921_%285_of_17%29_%2851528328440%29_%28cropped%29.jpg",

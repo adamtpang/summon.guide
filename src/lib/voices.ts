@@ -5,6 +5,9 @@
  */
 export const VOICE_MAP: Record<string, string> = {
   hesse: "N2lVS1w4EtoT3dr4eOWO", // Callum: warm, measured, European
+  "nassim-taleb": "pqHfZKP75CvOlQylNhV4", // Bill: measured, grave, aphoristic
+  "peter-thiel": "pNInz6obpgDQGcFmaJgB", // Adam: calm, deliberate, contrarian
+  "jensen-huang": "VR6AewLTigWG4xSOukaG", // Arnold: commanding, energetic keynote presence
   pressfield: "onwK4e9ZLuTAKqWW03F9", // Daniel: direct, weathered, plain
   vervaeke: "pNInz6obpgDQGcFmaJgB", // Adam: calm, measured, academic
   rockefeller: "onwK4e9ZLuTAKqWW03F9", // Daniel: deep, authoritative, older male
