@@ -61,10 +61,11 @@ export const books: Book[] = [
     role: "by",
     figureSlug: "warren-buffett",
     description:
-      "The complete official Berkshire Hathaway archive of Warren Buffett's annual shareholder letters from 1977 through 2024: 48 primary-source lessons in owner economics, capital allocation, business quality, management, risk, mistakes, and compounding.",
+      "The official Berkshire Hathaway archive of Warren Buffett's annual shareholder letters, 1977 through 2024: primary-source lessons in owner economics, capital allocation, business quality, management, risk, mistakes, and compounding. This corpus is a curated selection of the most substantive letters (34 of the ~48 years), not every single year digested in full.",
     amazonUrl: "https://www.berkshirehathaway.com/letters/letters.html",
     skillSlugs: ["warren-buffett", "owner-earnings", "circle-of-competence", "retained-earnings-test", "financial-fortress", "acquisition-filter"],
     status: "partial",
+    corpusPaths: ["content/knowledge/berkshire-shareholder-letters"],
   },
   {
     slug: "poor-charlies-almanack",
@@ -93,7 +94,8 @@ export const books: Book[] = [
       "The definitive 800-page biography. The source of every framework we attribute to Rockefeller: Ledger A, the Cleveland Massacre, the dimes, the systematic philanthropy.",
     amazonUrl: "https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303",
     skillSlugs: ["ledger", "crisis"],
-    status: "partial",
+    corpusPaths: ["content/knowledge/titan-chernow"],
+    status: "complete",
   },
 
   // Franklin
@@ -123,6 +125,21 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X",
     skillSlugs: ["junto"],
     status: "partial",
+  },
+
+  // Jobs
+  {
+    slug: "steve-jobs-isaacson",
+    title: "Steve Jobs",
+    author: "Walter Isaacson",
+    year: 2011,
+    role: "about",
+    figureSlug: "steve-jobs",
+    description:
+      "Isaacson's authorized biography, based on more than forty interviews with Jobs over two years plus interviews with over a hundred family members, friends, adversaries, and colleagues. The definitive account of the garage founding, the 1985 ouster, the NeXT and Pixar wilderness years, the 1997 return and turnaround, and the product decisions behind the iMac, iPod, iPhone, and iPad, in Jobs's own words as well as those who worked with him.",
+    amazonUrl: "https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537",
+    status: "partial",
+    corpusPaths: ["content/knowledge/steve-jobs-isaacson"],
   },
 
   // Elon
@@ -167,6 +184,40 @@ export const books: Book[] = [
     status: "pending",
   },
 
+  // Jensen Huang
+  {
+    slug: "the-nvidia-way",
+    title: "The Nvidia Way",
+    author: "Tae Kim",
+    year: 2024,
+    role: "about",
+    figureSlug: "jensen-huang",
+    description:
+      "The first full account of Nvidia's thirty-year history, built on more than one hundred interviews including Jensen Huang himself. Traces the Denny's founding with cofounders Curtis Priem and Chris Malachowsky, three separate near-death experiences (the NV1, the RIVA production crisis, the NV30), the coining of the term GPU, the two-decade CUDA bet, and the culture of 'Speed of Light' standards and public criticism that Kim calls the Nvidia Way.",
+    amazonUrl: "https://www.amazon.com/Nvidia-Way-Jensen-Huangs-Silicon/dp/1324086712",
+    pdfPath: "sources/jensen-huang/the-nvidia-way.pdf",
+    skillSlugs: [],
+    status: "complete",
+    corpusPaths: ["content/knowledge/the-nvidia-way"],
+  },
+
+  // Peter Thiel
+  {
+    slug: "zero-to-one",
+    title: "Zero to One: Notes on Startups, or How to Build the Future",
+    author: "Peter Thiel with Blake Masters",
+    year: 2014,
+    role: "by",
+    figureSlug: "peter-thiel",
+    description:
+      "Thiel's own primer on startups, expanded from a 2012 Stanford class Blake Masters took notes on. Argues that competition destroys profits and every valuable company is some kind of monopoly; lays out the definite-optimist 2x2 for thinking about the future, the power law that governs venture returns, the 'Thiel's law' foundations every founder gets one shot at, why distribution is as important as product, and the seven questions every business must answer, illustrated by the cleantech bubble and Tesla's escape from it.",
+    amazonUrl: "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296",
+    pdfPath: "sources/peter-thiel/zero-to-one.pdf",
+    skillSlugs: [],
+    status: "complete",
+    corpusPaths: ["content/knowledge/zero-to-one"],
+  },
+
   // Alexander
   {
     slug: "life-of-alexander-plutarch",
@@ -177,8 +228,10 @@ export const books: Book[] = [
     figureSlug: "alexander",
     description:
       "Roman-era biography written ~AD 100. Source for the taming of Bucephalus, the helmet of water in the Gedrosian Desert, and Alexander's character.",
+    amazonUrl: "https://www.gutenberg.org/ebooks/674",
     skillSlugs: ["lead-from-front"],
-    status: "partial",
+    status: "complete",
+    corpusPaths: ["content/knowledge/life-of-alexander-plutarch"],
   },
   {
     slug: "campaigns-of-alexander-arrian",
@@ -354,7 +407,8 @@ export const books: Book[] = [
       "The 2011 Wall Street Journal essay that named the era. The argument that software companies were poised to take over industry after industry, framed years before it was conventional wisdom.",
     amazonUrl: "https://a16z.com/why-software-is-eating-the-world/",
     skillSlugs: ["software-eats-the-world"],
-    status: "partial",
+    status: "complete",
+    corpusPaths: ["content/knowledge/why-software-is-eating-the-world"],
   },
   {
     slug: "its-time-to-build",
@@ -367,7 +421,8 @@ export const books: Book[] = [
       "The April 2020 essay written in the early weeks of the pandemic. A direct argument that Western institutions had stopped building, and that the right response to any problem is to ask “what do we build to fix it, and what is stopping the build?”",
     amazonUrl: "https://a16z.com/its-time-to-build/",
     skillSlugs: ["its-time-to-build"],
-    status: "partial",
+    status: "complete",
+    corpusPaths: ["content/knowledge/its-time-to-build"],
   },
   {
     slug: "techno-optimist-manifesto",
@@ -380,7 +435,8 @@ export const books: Book[] = [
       "The October 2023 manifesto. Marc's most fully articulated worldview: capability over caution, abundance over scarcity, building over critique. The operating philosophy underneath the other two essays.",
     amazonUrl: "https://a16z.com/the-techno-optimist-manifesto/",
     skillSlugs: ["techno-optimism"],
-    status: "partial",
+    status: "complete",
+    corpusPaths: ["content/knowledge/techno-optimist-manifesto"],
   },
 
   // Adam Neumann, books ABOUT him (he has not written one)
