@@ -33,18 +33,37 @@ export interface RankedBook extends CatalogBook {
 
 const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
-function readJson<T>(rel: string, fallback: T): T {
-  const p = path.join(process.cwd(), rel);
-  if (!fs.existsSync(p)) return fallback;
+// Each reader below uses its own literal path (not a shared helper taking a
+// `rel` parameter) so Next's build-time file tracer can statically narrow
+// the /library route's serverless bundle to just these two small JSON
+// files. A dynamic path.join(process.cwd(), someVariable) defeats that
+// analysis and makes the tracer conservatively include the whole repo,
+// which is what pushed the bundle past Vercel's 250MB function limit once
+// content/knowledge/ grew past a few hundred digest files.
+function readLibraryJson(): { books?: CatalogBook[] } {
+  const p = path.join(process.cwd(), "data/library.json");
+  if (!fs.existsSync(p)) return {};
   try {
-    return JSON.parse(fs.readFileSync(p, "utf8")) as T;
+    return JSON.parse(fs.readFileSync(p, "utf8"));
   } catch {
-    return fallback;
+    return {};
+  }
+}
+
+function readRankingJson(): {
+  scored?: { match: string; skill: number; video: number; why: string }[];
+} {
+  const p = path.join(process.cwd(), "data/ranking.json");
+  if (!fs.existsSync(p)) return {};
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch {
+    return {};
   }
 }
 
 export function loadCatalog(): CatalogBook[] {
-  const j = readJson<{ books?: CatalogBook[] }>("data/library.json", {});
+  const j = readLibraryJson();
   return Array.isArray(j.books) ? j.books : [];
 }
 
@@ -54,9 +73,7 @@ export function loadRanked(): {
   catalog: CatalogBook[];
 } {
   const catalog = loadCatalog();
-  const scores = readJson<{
-    scored?: { match: string; skill: number; video: number; why: string }[];
-  }>("data/ranking.json", {}).scored ?? [];
+  const scores = readRankingJson().scored ?? [];
 
   const ranked: RankedBook[] = [];
   const claimed = new Set<string>();
