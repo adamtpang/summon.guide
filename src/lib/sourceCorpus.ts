@@ -7997,6 +7997,485 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
       }
     ]
   },
+  "starter-story": {
+    "title": "Starter Story",
+    "host": "Pat Walls",
+    "episodes": [
+      {
+        "file": "content/knowledge/starter-story/001-i-spent-24-hours-with-roblox-millionaires.md",
+        "title": "I Spent 24 Hours With Roblox Millionaires",
+        "principle": "Test a game concept fast and cheap before you build it for years, because a clickable, social, replayable idea that ships in two weeks can outperform a polished project that took three years and $300,000.",
+        "keyLessons": [
+          "Roblox's scale is the underlying opportunity: about 400 million monthly active users, roughly one in two US kids under 16 playing daily, and kids spending twice as much time on Roblox as on TikTok, with the audience still expanding as new demographics (like older girls, via the fashion game Dress to Impress) get unlocked.",
+          "Cole's game Hide or Die pulls in about a million daily active users and grosses around $70,000 a month at the time of filming, split 50/50 with his programmer business partner, after burning roughly $300,000 and three years on an earlier game that never took off; he only broke through once he switched from \"build then test\" to shipping a minimal version in two weeks and seeing if it caught on.",
+          "Cole's framework for a hit Roblox game is that it needs to be clickable (a title and premise dramatic enough to get clicked), social (playable with or against friends), and replayable (levels and unlocks that build curiosity to come back).",
+          "Ian's game Bathe the Baby (formerly Baked the Baby) has about 150,000 daily active users, monetizes through cosmetic skins and in-game currency at a very high average revenue per paying user (about $1.50), and brings in around $25,000 a month split with his business partner, plus roughly $5,000 a month more from brand deals; the game first went viral after major Roblox YouTubers, including IShowSpeed, played it.",
+          "Jake's agency Vector3 makes short-form video content and social campaigns for brands entering Roblox (including Nicki Minaj and SpongeBob activations), has produced around 450 videos with over 100 million views, and brought in about $36,000 in the month shown, mostly from $20,000-$25,000 in monthly retainers plus per-project fees; costs run $10,000-$15,000 a month across two full-time staff and contractors.",
+          "Jake's client acquisition channel is almost entirely LinkedIn: he built a following by posting educational content and his own work, avoided cold outreach entirely, and used paid consulting calls as a lead-generation funnel where clients who needed execution afterward became agency clients.",
+          "Neither game studio pays for advertising: Cole compares organic Roblox discovery to a YouTube video that \"just gets shown to people,\" while spend goes instead toward contractors (modelers, graphic artists) rather than paid acquisition.",
+          "All three emphasize following genuine interest broadly before specializing: Jake describes bouncing between graphic design, video editing, and freelance programming through his teens until video production stuck, framing this exploration (not a fixed business plan) as what let him find the skill worth scaling."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=8xgnm6SynH4",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/002-zero-to-1-1b-from-flipping-websites.md",
+        "title": "Zero to $1.1B from Flipping Websites",
+        "principle": "Buy a small, cheap, already-making-money business to learn the process of buying and selling, since the skill of turning $100 into $200 is the same skill that later turns $1M into $2M.",
+        "keyLessons": [
+          "Thomas's first deal, around 2008-2009, was buying a small website for $100, financed on his credit card, and reselling it a month later for around $500 once it was earning a bit of monthly income; the ticking credit-card interest was itself a forcing function to close deals fast.",
+          "He backed into M&A by accident: after writing a book on how to buy and sell websites/domains, students who'd read it started asking him to sell their businesses for them, and since no brokerage firms existed yet for small online businesses, he had a wide-open niche with zero direct competition.",
+          "Early on, a Pareto-principle audit of his own time (a mentor pointed out he was spending 80% of his hours on the 20% of activities generating the money) led him to cut everything else and focus purely on the profitable service line — a deliberate, data-driven decision, not just following passion.",
+          "His buyer-side advice: pick a budget and a business model you're comfortable with first, then reach out to sellers directly and personally (never a generic \"love what you're building\" message) — small deals under roughly $10,000 don't need brokers or professional advisors, just a human conversation.",
+          "What makes a business good to buy, in his framework: it's evergreen (the audience/niche will stay interested long-term, even if the specific product changes), it has repeat or recurring customers (so marketing dollars go further reactivating existing buyers than acquiring new ones), and it's actively growing, since buyers pay a premium for growth.",
+          "Small businesses typically sell on a multiple of profit, not revenue (a common source of confusion, since very lean solo-founder businesses often have similar revenue and profit numbers) — the typical range is roughly 4x-10x annual profit, with better businesses commanding more and low-quality or shrinking businesses commanding less or being unsellable.",
+          "FE International's first eight-figure deal (a business sold for over $10 million) came from a referral by a past, smaller client, and pushing past that first big deal is what compounds a brokerage into consistently closing eight-figure transactions; commissions scale down as deal size scales up, starting around 15% on small deals and tapering to well under that on nine-figure-plus deals.",
+          "On negotiation: decide up front what matters most to you (max cash vs. shortest transition period vs. keeping the team intact), don't fight every point on the other side's list, and let the other party win on what they care about while you hold firm on what you care about — the best deals resolve when buyer and seller are optimizing for different things.",
+          "His advice for someone starting with zero capital: get any amount of money first (a few days of work, a small loan), because $100 opens far more deal options than $0; the early goal isn't income, it's building a demonstrable track record (e.g., \"I turned $10K into $20K three times\") that later attracts investors or bigger deals."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=Km0FNcBI9CM",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/003-the-10m-ai-saas-playbook.md",
+        "title": "The $10M AI SaaS Playbook",
+        "principle": "Reverse-engineer virality before you shoot anything: study exactly who your ideal viewer already follows and why those specific videos worked, so every new video starts from a validated hook instead of a guess.",
+        "keyLessons": [
+          "David frames growth around three pillars — distribution (getting eyeballs), conversion (turning views into paying trials), and retention (keeping users after purchase) — and states that dominating even one pillar alone can build a genuinely profitable company; this episode focuses entirely on the distribution pillar.",
+          "His research method: identify which influencers your actual target users follow (by asking users directly for their Instagram handles, then using \"suggest similar accounts\"), and judge influencers by their ceiling (do they have at least one video with 1-10 million views?) rather than their consistent floor, since a viral outlier proves an audience will respond.",
+          "Content ideas come from four sources: what those influencers already post, what direct or adjacent competitors post on their own social accounts, scrolling your own \"for you\" feed until something naturally grabs you, and treating each of those as a testable hypothesis rather than a final plan.",
+          "Outreach to influencers should combine email and DMs (DMs get much higher response rates since most creators aren't checking email daily), be specific and personalized (never generic partnership requests), and expect over 50% non-response as normal — the fastest-improving skill is writing better, more tailored pitches over time.",
+          "Deal structure should align incentives: avoid paying 100% upfront (split payment against performance via a coupon code or UTM link), pay per video rather than per follower count (a creator with 768 followers once outperformed one with 2.7M for Jenny), and buy in bundles of 3-10 videos to drop the price per video and build a longer relationship.",
+          "UGC (user-generated content) creators, hired directly rather than sponsored, typically cost around $2,000/month base plus performance incentives (or $3,000-$5,000/month if they already have an audience) and are far more stable than one-off influencer sponsorships since posting 20-30 videos a month means a handful of flops don't sink the campaign.",
+          "Once a video goes viral, David's team turns it into a \"series\" — reposting the same concept with small tweaks (his example: a \"point of view, you have an essay due\" bit reused twice a week for six months, driving hundreds of millions of views and tens of thousands of paid users from that single format) — and then multiplies reach further by running the same series across multiple branded and language-specific accounts (they ran Jenny AI USA, Jenny Germany, Jenny Australia, and a Mandarin-language account).",
+          "Real virality, in David's view, isn't raw view count — it's a video hitting the exact pocket of viewers who become evangelists for the product, which can matter more than a million-view video that converts almost no one."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=KcCnqLBhvXY",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/004-the-1m-mobile-app-playbook.md",
+        "title": "The $1M Mobile App Playbook",
+        "principle": "Market research before a single line of code: study what's already going viral in your niche on TikTok, log the hook/storyline/call-to-action of the best videos in a spreadsheet, and only then start posting — organic validation should always precede paid ad spend.",
+        "keyLessons": [
+          "Steven's three-phase framework: (1) market research — find what's already going viral in your niche and use it to validate and shape the product itself; (2) post organic volume based on that research; (3) once winning content formats emerge, scale them with paid ads. He credits doing the market research first as the entire reason PuffCount succeeded.",
+          "His concrete research method: search niche keywords on TikTok, filter by most-liked videos of all time, and for each viral video log the hook (first 1-3 seconds), the storyline, and the call to action in a spreadsheet — he personally scrolled and logged videos for seven straight days before posting a single PuffCount video.",
+          "A specific example: a video of dropping a vape into a glass of water wasn't his original idea, but recognizing it resonated with the target audience and adapting it drove one of his highest-performing posts; he stresses replicating small production details (camera movement, framing) alongside the concept itself.",
+          "His posting-side framework for individual videos is hook, problem, solution/call-to-action, with a genuinely soft, non-salesy CTA (often just visually showing the product for 2 seconds) because TikTok audiences reject anything that reads like a straight ad.",
+          "Consistency beats perfectionism: post daily regardless of early low view counts, since the algorithm's trust in an account increases after the first viral hit, raising the view \"floor\" on everything posted afterward; repost across TikTok, Instagram Reels, and YouTube Shorts since the same video can perform wildly differently by platform.",
+          "Not every viral video converts — one PuffCount video hit 11.6M views but drove almost no installs because it lacked a call to action and didn't address a pain point, so Steven tracks conversions per video (not just views) and pins the highest-converting videos to the top of his profile to turn the profile itself into a funnel.",
+          "Posted, his new company, exists specifically to solve the pain of manually emailing hundreds of creators for scraps of response: brands post a project brief with reference/inspiration content, creators submit finished videos on spec with a bid price, and the brand only pays for videos it approves and then owns the footage plus usage rights for paid ads (example given: a creator with 552K followers made a post for $110 that got 30,000 views).",
+          "On scaling into paid ads: PuffCount's customer acquisition cost ran $20-$24 against a lifetime value of $55-$70, funded by $82,000 in total ad spend that took the business from $3K to $44K MRR; the key tactic is feeding a mobile measurement partner (Adjust, AppsFlyer) with organically-validated winning content first, optimizing top-of-funnel (views, clicks) before shifting optimization to installs, trials, and subscriptions once enough data accumulates. A roughly 3:1 LTV-to-CAC ratio is his benchmark for a scalable ad account."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=hKqLceTPLWM",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/005-how-i-built-it-40k-month-iphone-app.md",
+        "title": "How I Built It: $40K/Month iPhone App",
+        "principle": "Build with no technical skill of your own: sketch the app on paper, crowdsource the UI design on 99designs, hire an Eastern European developer on Upwork for a flat project fee under $5K, and spend the real effort on marketing, since marketing — not code — is 95% of a mobile app's success.",
+        "keyLessons": [
+          "Idea sourcing came from personal experience (Steven and friends struggled with vaping in college) crossed with three validation signals: it was a painful problem he'd lived through, it was already going viral and controversial on TikTok, and it solved a real problem for a large audience.",
+          "Formal validation before building: checking Sensor Tower and Google Trends for category momentum, studying competitor quit-smoking/quit-drinking apps that were already succeeding, and specifically scanning TikTok to confirm vape-related content was getting massive organic engagement.",
+          "Build process with zero technical skill: brain-dump features and competitors in a Google Doc, hand-sketch the app on paper, upload those sketches to 99designs where 50-70+ freelance UI designers submit interpretations, then hire an Upwork developer (he recommends Eastern Europe for cost-quality tradeoff) on a flat per-project-completion basis, not hourly — PuffCount's MVP cost under $5,000.",
+          "Revenue trajectory: PuffCount did roughly $43,000 in the last 30 days and about $112,000 over the trailing 90 days at time of filming, but the first four to six months after launch produced no meaningful revenue — the business only took off once marketing was locked in, which Steven calls \"90% of being successful.\"",
+          "Marketing method mirrors his later Posted-era playbook: search TikTok for the niche keyword, save the most viral videos to a spreadsheet, extract the hook/value prop/shooting style, and replicate the concept (his example: a viral video of someone disassembling a vape led him to make a similar video, ending in a soft call-to-action, which drove tens of thousands of downloads).",
+          "Monetization is via in-app purchase and a hard paywall placed after onboarding — free to download and browse onboarding, but no feature access without starting a free trial/subscription; switching to a hard, unskippable paywall changed the business overnight, pushing conversion up to 20-25%.",
+          "Pricing was found through live A/B testing (tried price points from $4 to $12) using Superwall to remotely swap paywall prices without app-store updates, optimizing for whichever price point produced the highest lifetime value (LTV), not the highest raw conversion rate.",
+          "Onboarding is deliberately long and detailed — walking the user through their own problem before they hit the paywall — because Steven's data showed users who spend more time reflecting on their pain point during onboarding convert at a meaningfully higher rate once they reach the paywall.",
+          "His stated tech stack: Upwork (developers), 99designs (UI), Superwall (paywall A/B testing), RevenueCat (LTV/subscription analytics), AppsFlyer (mobile measurement partner feeding ad platforms), Mixpanel/Amplitude (in-app behavior analytics, kept on free tiers rather than upgraded)."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=loXc0Tyi4R4",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/006-the-underdog-from-10-hr-to-1-5m-year.md",
+        "title": "The Underdog: From $10/hr to $1.5M/Year",
+        "principle": "Remove expectations and ship the smallest possible version fast, over and over, because product-market fit is unmistakable when it hits — and it only shows up after enough small, low-stakes bets, not one big perfect one.",
+        "keyLessons": [
+          "Marc's first three ventures all failed the same way: a solo Tinder-for-sports-lovers app with no business plan (a full year of work, then scrapped in 24 hours), a VC-funded AI startup with a technical co-founder but zero marketing skill (six months to build, zero customers), and a physical-product Facebook ad test (sold about 30 pairs of gloves total) — the common thread was building first and validating never, or validating in a channel he had no skill in.",
+          "His first real dollar came from flipping the model: he built a lead-gen tool for escape-room businesses, but a marketer friend told him to sell it before building it — a single cold-call resulted in his first paying customer, proving the idea before writing code.",
+          "That escape-room tool grew to about $4,000/month in recurring revenue while he lived in Bali, then dropped to zero in 24 hours when COVID shut down the physical businesses he served — a concentration-risk lesson in serving a single vulnerable customer segment.",
+          "After the pandemic wiped out his income, Marc took a $9,000/month software engineering job (versus the roughly $1,000/month he'd averaged as a founder for years) specifically for the psychological stability and sense of \"worthiness\" that steady employment gave him, until the trade-off of freedom for structure stopped feeling worth it and he got laid off six months later.",
+          "His reset strategy after being fired: never spend more than a short window on a single product, never raise money, never hire employees, and build in public so a following compounds across projects even if any single one flops — he shipped six small apps in seven months (a movie-mood recommender, a habit tracker, a landing-page generator, etc.).",
+          "The shift from \"vitamin\" products (fun but skippable, like the habit tracker) to \"painkiller\" products (solving an acknowledged, felt problem) was the unlock that took his revenue from about $1,000/month to about $4,000/month — painkillers are inherently easier to sell because the buyer already knows they're in pain.",
+          "ShipFast itself came from noticing he repeated the same setup work (landing page, payments, auth, email) on every new project; he built a reusable boilerplate in under a week with zero revenue expectations, and it made $500 in its first two hours live, roughly $3,000-$4,000 by the next day, and around $40,000 in its first month — a scale of instant demand he says he could physically feel as product-market fit.",
+          "ShipFast's growth compounded through free tools with embedded promotion (e.g., a free logo generator linking back to \"build your startup fast with ShipFast\") plus organic word of mouth, scaling through a run of roughly $50K → $85K → $135K → $135K monthly revenue months before settling to around $80K/month.",
+          "His closing advice: start with the smallest possible version of the idea, pick one platform to share your process on (text on Twitter, video on TikTok, images on Instagram) based on where you're personally comfortable, and treat quitting — not failing — as the only real risk, since he counts roughly 30 failed projects before the one that worked."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=WGVxAmmJUmY",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/007-how-to-use-ai-to-find-a-1m-idea.md",
+        "title": "How to Use AI to Find a $1M Idea [Reddit, Claude]",
+        "principle": "Mine real people's own words for pain points on Reddit before inventing a solution, then feed those verbatim frustrations into an LLM to generate business ideas and landing-page copy, because language pulled straight from the audience converts better than any invented pitch.",
+        "keyLessons": [
+          "Step one is picking a market inside the three categories people reliably spend money on — health, wealth, relationships — starting from personal edge, interest, or network rather than a cold guess, then using an AI \"market idea expander\" prompt to branch a broad topic (e.g., stress management) down into specific sub-niches (massage therapy, breathing techniques, meditation types).",
+          "Step two validates demand with free/cheap tools rather than assumption: the Keywords Everywhere Chrome extension surfaces real search volume for candidate niches (example given: \"Swedish massage near me\" pulling 20,000 searches), and Google Trends distinguishes a genuinely stable/growing market from a spiky fad — Steph explicitly favors \"topic\" over \"search term\" in Trends because it aggregates related queries and languages.",
+          "Step three is gathering raw customer language from Reddit using a specific advanced Google search query (site-restricted to Reddit, combined with pain-point phrasing) to surface threads where people are actually venting about the niche's problems, rather than relying on Reddit's native search; each relevant thread is skimmed for genuine relevance before being copied in full.",
+          "Step four processes the gathered Reddit threads through a sequence of three prompts fed into an LLM (Steph prefers Claude for \"more human,\" emotionally resonant copywriting, switching to Gemini only when she needs its larger context window): first extract and categorize pain points with supporting quotes, second run a \"market gap generator\" prompt that applies a differentiation framework (new paradigm, new technology, product differentiation) to turn those pain points into 2-3 concrete business idea options.",
+          "Step five: once a specific business idea is chosen, a \"landing page prompt creator\" prompt converts the accumulated research and chosen idea into a single, comprehensive build-prompt formatted specifically for the AI app-builder Lovable (itself distilled from researching Lovable's own prompting best practices), which is then pasted directly into Lovable to generate a working, published landing page.",
+          "The worked example (a co-parenting app) went from \"stress management\" as a starting seed to a live landing page called \"Transition Garden,\" addressing child custody handoffs, complete with features, an FAQ, and a signup form — assembled inside roughly an hour, using language lifted directly from real Reddit posts about co-parenting conflict.",
+          "Markdown formatting matters when feeding data to LLMs: Steph consistently copies source material \"as markdown\" rather than as plain text, since preserving structure (headers, lists) measurably improves how well the model parses and uses long research documents.",
+          "Steph's recommended next step after generating a landing page is not to build the full app immediately — instead, add a waiting-list quiz popup to the page (asking a few qualifying questions plus an opt-in for updates) to validate real demand and build an email list before committing engineering time, only building once a meaningful list (her example: 100 signups) is reached."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=L_FY6aW9cJ4",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/008-he-turned-500-into-10m.md",
+        "title": "He Turned $500 Into $10M",
+        "principle": "Stack multiple licensed-apparel brands on one operational backbone and grow through B2B hustle (cold outreach, licensing rights, free marketplaces) rather than paid ads.",
+        "keyLessons": [
+          "Started Greek House with $500 in a fraternity common room, hustling text outreach and campus meetings to sell custom apparel to sororities and fraternities; grew from $50K in year one to $100K in year two while still a full-time student.",
+          "Worked two demanding day jobs after graduation (an overnight Amazon shift, later a 8-to-5 at Salesforce) while building the business every night until midnight, six days a week, for about two and a half years.",
+          "Got hit with a surprise $40,000 licensing-royalty audit four months into going full-time, when the company was doing under $1M in sales and didn't have the cash on hand — negotiated a lump sum plus a 12-14 month payment plan instead of paying it all at once.",
+          "Expanded methodically: Greek House (fraternity/sorority merch) led to 300 college department licenses (College Thread), which led to B2B custom apparel for businesses and nonprofits (Threadly), which led to Athlete's Thread after the Supreme Court's NIL ruling opened up co-branded college-athlete merchandise.",
+          "Built proprietary vendor-management tech so outside print and production partners can fulfill orders roughly ten times faster than for their other clients, which is what won and kept the best manufacturing partners.",
+          "Grew largely without paid ads: outbound one-to-one email/sales outreach first, then an affiliate/ambassador program (free product in exchange for content and promotion), Google paid search for high-intent buyers, and free listings on marketplaces like Etsy and Google Shopping.",
+          "Differentiates on barriers competitors can't easily clear: licensing rights are hard to obtain, a guaranteed under-4-hour customer response time, and 2-3 business day shipping SLAs enforced on their vendor network."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=CnE_fLDqa7M",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/009-the-underdog-he-turned-his-last-1000-into-150m.md",
+        "title": "The Underdog: He Turned His Last $1,000 Into $150M",
+        "principle": "Pick a proven, competitive market instead of an unproven blue-ocean idea, then win on one sharp differentiator tied directly to customer ROI, using yourself as the product's first obsessive user.",
+        "keyLessons": [
+          "Chose a \"red ocean\" market on purpose after a failed blue-ocean personalization startup: competitors already making real money proves product-market fit exists, so the job becomes building something meaningfully better on one dimension, not inventing demand from scratch.",
+          "Built the first MVP in two weeks and personally closed the first 100 customers through live demos and outbound, writing customers' first cold-email campaigns himself in exchange for using them as success-story case studies.",
+          "Grew to $600 in month one at 40% month-over-month growth, but noticed activation (percent of signups who actually launched a campaign) stuck around only 15%.",
+          "Made the risky call to rebuild the product from scratch mid-growth; the relaunch crashed growth to 0% for a month and drew public complaints, but after personally getting on Zoom calls with unhappy users until 4am to fix what broke, activation rose to 35% and growth resumed at 60% the following month.",
+          "Scaled ARR from $0 to $250K in year one, $1M by year two, $8M by year three, and $10M by three and a half years, then hit a plateau — describes real company growth as an S-curve, not a straight exponential line.",
+          "Broke through the plateau after losing both co-founders (forcing him to run tech, support, product, sales, and marketing alone for over a year) by identifying sales reps as the \"magnet persona\" and repositioning lemlist explicitly as the tool built for sales teams, rather than trying to serve everyone.",
+          "Now runs lemlist at roughly $30M ARR and $10M EBITDA with about 100 employees and customers in more than 100 countries."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=ZEIPj7QbZeI",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/010-i-built-a-1m-saas-in-87-days.md",
+        "title": "I Built A $1M SaaS In 87 Days",
+        "principle": "Validate a SaaS idea as a manually-fulfilled 'productized service' first, so you prove demand and generate cash before spending on real software, then relaunch to the warm audience you already built.",
+        "keyLessons": [
+          "Before building real software, ran ListKit as a \"product-ified service\": customers filled out a simple onboarding form specifying how many leads they wanted, and the team fulfilled it manually within 24 hours using their existing lead-gen agency's processes — no dev cost, real market feedback, and real revenue.",
+          "Burned tens of thousands of dollars reinvesting agency profit into developers and designers who never shipped a working app, reaching a point of near giving up, before a former coaching student (Oliver) joined and actually built it; the relaunch hit $1M ARR in 87 days.",
+          "The fast relaunch worked because of an already-warm audience: customers from the coaching program, the agency, and the manual service had been kept updated through the entire multi-year struggle via emails, live calls, and public tweets, and rushed to buy the moment it launched.",
+          "Priced by first calculating true cost, then benchmarking competitor (Apollo) pricing and directly asking competitors' customers what they liked and disliked about it, landing on a simple pay-per-credit model.",
+          "Deliberately skipped free trials in favor of a money-back guarantee, arguing free trials mainly attract \"freebie seekers\" rather than real buyers, while a guarantee still captures cash up front.",
+          "Grew mainly through cold email — their own core competency — using a lead-magnet hook (offering 50 free leads in exchange for a reply) instead of pitching the product directly, plus paid ads with roughly 20 new creatives tested every week, content marketing, and affiliates.",
+          "Runs a deliberately low-cost 40-person team, mostly contractors in Ukraine and Lebanon paid $1,000-$2,000/month versus $5,000-$8,000/month for US equivalents, against a total team and marketing spend of $150K-$175K a month.",
+          "Built a five-person co-founder team with complementary skills (marketing, sales, technical execution, and a team leader) rather than trying to do everything himself, calling it the single biggest driver of ListKit's success."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=WctFUP4w0sc",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/011-the-multipreneur-10m-portfolio-of-income-streams.md",
+        "title": "The Multipreneur: He's Building A $10M Portfolio of Income Streams",
+        "principle": "Validate demand with a single tweet before building anything, then install an outside CEO and step back to run each company as chairman, rather than personally operating every business you launch.",
+        "keyLessons": [
+          "Defines a \"personal holding company\" (or \"multipreneur\" model, per a term coined by Greg Isenberg) as launching a portfolio of small bootstrapped businesses, each with its own CEO, where the founder stays involved only as co-founder and chairman rather than day-to-day operator.",
+          "Validated Storyarb, a ghostwriting agency for B2B executives on Twitter and LinkedIn, with a single tweet asking who would pay $5K-$10K/year for the service — got 25 DMs before building anything, then personally connected the first clients to two ghostwriters over Slack to prove demand before hiring a CEO.",
+          "Storyarb now has 12 clients paying $7,000/month each (about $1M in annualized revenue), run day-to-day by two full-time employees and three freelance ghostwriters at a 30-35% profit margin, targeting $10M revenue and $3-3.5M in annual profit.",
+          "Measures product-market fit with two specific numbers: at least 50% of current clients willing to recommend the service to their own network, and average customer retention of 10 months, against an industry norm of 3-5 months for ghostwriting agencies.",
+          "Hires CEOs for portfolio businesses based on four \"unteachable\" traits — obsessiveness with the business, strong critical thinking, aligned values, and work ethic — compensating with a $100K-$200K salary plus 10-50% equity, with quarterly profit distributions to equity holders once a business hits product-market fit.",
+          "Refuses to launch a second business until the first reaches product-market fit, naming lack of focus and dilution as the biggest risk of the holding-company model, and treats himself as a \"product\" whose value to CEOs and portfolio companies has to stay high enough to keep attracting top talent.",
+          "Recommends validating any new idea in cheap, incremental steps rather than treating entrepreneurship as one big leap: test with a tweet, then a thread, then a newsletter, then a video, only building further once each step shows real interest."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=nzVcbrLl9VU",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/012-i-vibe-coded-a-20k-month-mobile-app-in-14-days.md",
+        "title": "I vibe coded a $20K/month mobile app in 14 days",
+        "principle": "Design the onboarding with as much rigor as the core feature set, since most paywalled-app users only ever see the onboarding — and prep AI coding tools with a clear data-structure document before vibe-coding the build.",
+        "keyLessons": [
+          "Built Payout in under two weeks using 100% AI coding (Claude), after his first app — a social app that took 6-8 months to build — failed, teaching him that utility and tool apps scale much more easily than social apps for a solo builder.",
+          "Research phase before writing code: downloads roughly 20 competitor and well-designed apps, screenshots every onboarding screen into one large Figma board, then remixes the best elements from each into his own themed onboarding flow before touching functionality.",
+          "Treats onboarding as the make-or-break part of the app since about 90% of users only ever see the onboarding before hitting a paywall — it needs to invoke emotion, clearly show the app's benefit, feel personalized to the user, and include charts/graphs that signal legitimacy.",
+          "Preps a text and JSON document describing the app's exact data structures before prompting AI coding tools, so the AI doesn't have to guess — this materially speeds up and improves vibe-coded output.",
+          "Grew Payout from 0 to $20,000/month and over 12,000 downloads (1,300+ subscriptions) in 50 days, primarily through influencer/UGC partnerships with a creator already active in the app's niche, which drove direct downloads and built a reusable ad-creative library for later paid campaigns.",
+          "Won the \"build and grow\" award in RevenueCat's Shipaton hackathon (over 55,000 entrants, $65,000 total prize pool) for the app with the most growth over a two-month window.",
+          "Picks app ideas around core human desires (money, health, attractiveness) and validates new ideas cheaply by checking TikTok and Instagram comments for people already asking how to solve the target problem, rather than doing extensive upfront market research."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=CwHD6Fg-Mjs",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/013-my-app-made-120k-in-24-hours.md",
+        "title": "My App Made $120K in 24 Hours",
+        "principle": "Launch with a time-limited lifetime deal instead of a free trial, converting early-stage assumptions about your product straight into cash and a committed feedback community before you have any usage data.",
+        "keyLessons": [
+          "Floga's May 2025 lifetime-deal launch generated $117,000-$120,000 in its first 24 hours from roughly 500-600 buyers; the app now runs about $9,000-$10,000/month in recurring revenue from around 4,000 active users, split between paid and free.",
+          "Background: a non-developer with a failed 2012 startup, past careers as a ski instructor and photographer, who later built a physical yoga card-deck brand (Play Pause Be) that raised over $200K on Kickstarter — that same audience and mission carried over into building the Floga app.",
+          "Ran a month-plus pre-launch email sequence structured as a slow reveal: early emails build curiosity through storytelling without showing the product, middle emails partially unveil it, and only the final pre-launch email shows the app itself — critically, price is never shown until launch day so buyers evaluate on features and vision, not cost.",
+          "Structured lifetime pricing in three tiers (about $109 / $199 / $349), with the cheaper tiers making the top tier look more reasonable and capturing price-sensitive skeptics while the top tier captures maximum willingness to pay.",
+          "Made the deal strictly no-refund and limited to 5-7 days and a fixed number of spots to force decisions and cut procrastination, and argues committed lifetime buyers generate far more useful bug reports and feedback than subscribers who can churn any time.",
+          "General launch playbook: validate with 5-10 unbiased customer conversations (recommends the book \"The Mom Test\"), define the minimum launchable product, build a full buffer of content (emails, landing pages, videos) before promoting at all, then launch with full transparency about current limitations.",
+          "Tech stack: Flutter for development, Firebase (about $25/month), RevenueCat for subscription handling, Vimeo for video hosting, and OneSignal for push notifications."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=DkmStHS8NP0",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/014-i-built-a-1m-app-in-5-hours.md",
+        "title": "I Built A $1M App In 5 Hours",
+        "principle": "Ship the simplest possible solution to a problem you already live as a user, let a single well-crafted launch tweet drive organic virality, then monetize by paywalling only the highest-value part of the experience.",
+        "keyLessons": [
+          "Built nfy in roughly four to five hours total during a month-long hackathon, spending the first few weeks deliberately not coding and letting the idea settle in his head so execution was fast and confident once he actually sat down.",
+          "Grew to 250,000 free users and 5,000 paying users, crossing $1M ARR, with the average paying customer discovering around $750 in unclaimed airdrops through the tool.",
+          "His launch tweet included a short demo video of a wallet address with a large unclaimed balance, deliberately teasing the value on offer; it went viral and drove 10,000 organic email signups in 48 hours, helped by a high-contrast, above-the-fold call-to-action button.",
+          "Monetized with an \"anti-spam\" email strategy — only ever emailing users when they had a new, specific dollar amount available to claim — which kept open rates unusually high, then paywalled the actual claim details behind a subscription.",
+          "Ran public Twitter campaigns like \"25 Days of Christmas,\" tagging individual users with screenshots of exactly how much unclaimed money they had, which created social pressure that drove further signups and claims.",
+          "Differentiated in a crowded crypto space purely on trust and selectivity — being deliberately more accurate and higher-quality about which airdrops it surfaced — arguing that competitors who included too much low-quality data lost user trust in a space full of scams.",
+          "Built and ran the entire product solo in TypeScript, Next.js, Node, and React, and sold the company to Bankless after its host DM'd him following roughly two years of solo growth."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=u8sW-NhGfXw",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/015-i-make-5m-year-with-3-businesses.md",
+        "title": "I Make $5M/Year With 3 Businesses",
+        "principle": "Build one profitable cash-generating agency first, then use its profits to buy or build a portfolio of businesses that don't need you personally to run them.",
+        "keyLessons": [
+          "Stoddart's holding company will do about $5.2-5.5M in 2024, with Stodzy (his SEO/lead-gen agency, roughly $2.5M this year) as the main driver funding everything else, including Recovery Local (the parent company of sober.com and related addiction-treatment sites) and Copyblogger (writing/SEO education).",
+          "The origin was a personal recovery blog he started after getting sober, following advice to \"start a blog, don't tell anybody, write every day\"; addiction-treatment centers began asking how he built the audience, and he converted that into a lead-generation service, landing his first client at $2,000/month.",
+          "His SEO approach is deliberately narrow and mechanical rather than \"just be yourself, make great content\": pick one keyword (his first was \"drug rehab marketing\"), check search volume in Google Trends, and write the single article that best answers what a person searching that term actually needs.",
+          "He argues agencies are the best beginner business because there's no real startup capital required, just one client, though they're hard to scale since each new client adds workload and roughly every 2-4 clients forces another hire.",
+          "His closing framework: ask questions until the prospect states their own pain points, get price objections out of the way early in the call rather than at the end, then say only \"are you ready to get started?\" and stay silent until they answer.",
+          "His acquisition filter for any new company is three questions: do I like the founder, is it already cash-flowing (not a bet-on-becoming-Facebook moonshot), and is the niche evergreen (healthcare, for him, since people always need care) — his holdings include Moving Local, Stem Cell Authority, and stakes in Koala AI, SparkLoop, and Your Boulder.",
+          "His stack for running multiple companies: Slack for communication, Loom for one-time explainer videos instead of live meetings, Todoist for his own personal task list, ClickUp for Stodzy's team-scale project management, and HubSpot as CRM.",
+          "He credits \"The E-Myth Revisited\" with the biggest management shift: realizing he was personally the biggest bottleneck in the business, and that his job is to document processes, teach them, and then get out of the way."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=zTKYJWAEl78",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/016-he-built-a-600k-one-person-business-with-video-editing.md",
+        "title": "He Built A $600,000 One Person Business (with video editing)",
+        "principle": "Turn a creative skill into a productized service with fixed packages instead of hourly work, then niche the offer down until it's obvious exactly who it's for.",
+        "keyLessons": [
+          "His service is short, attention-grabbing \"scroll-stopper\" animated video ads sold to VC-backed, Series A-and-later B2B SaaS companies specifically because funded companies can actually afford a productized service; the videos aim to stop the scroll and drive a demo booking, not to close the sale directly.",
+          "Revenue runs roughly $35K-55K/month depending on the month, built from $0 starting around 2019-2020 after years making at most $40-50K/year pre-tax in general freelance video, design, and web work.",
+          "The single biggest lesson he points to is a mindset shift from scarcity to abundance: fully deploying his existing money, knowledge, and network instead of hoarding them changed the trajectory of the business.",
+          "His path to the offer: post consistently on a platform (he used Twitter/X) about the specific skill for about an hour a day, get comfortable with that platform's format, then convert that audience into a productized-service offer rather than selling hourly time.",
+          "Pricing evolved from a single flat-fee video (first sale: $500) to structured packages once he added multi-platform reformatting and retargeting-ad setup on top of the raw video, pushing average order value to about $3K and newer packages to $6-12K; revenue jumped from stalling around $12K/month to $23K then $33K/month once the package model launched.",
+          "Niching down in stages (video -> short video -> short video for online brands -> short video for B2B SaaS specifically) made the offer obviously right for a smaller audience, which counterintuitively converted faster, and let him raise prices.",
+          "Growth channels were organic content plus cold outreach: cold email (roughly a 4% reply rate for his target ICP, sent in volume, kept to two blunt sentences with no subject line filler) and direct DMs via Twitter and LinkedIn Sales Navigator, funneled through a simple top-of-funnel (organic posts, DMs, cold email) to middle-funnel (sales call) to bottom-funnel (close) structure.",
+          "Team and margins: about 65% gross margin and 40-50% net; a small team of ~4 international contractors (no full-timers) found mostly through inbound interest from his own audience rather than job boards, plus roughly $1,200/month total tech-stack spend (cold email software, Slack, Stripe fees)."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=BskeAo66er0",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/017-i-make-2-4m-year-with-6-youtube-channels.md",
+        "title": "I Make $2.4M/Year With 6 YouTube Channels",
+        "principle": "Chase searchable, evergreen SEO-style video topics over pure virality, and keep making enough content that one eventually breaks out, while pivoting your niche to whatever's currently trending.",
+        "keyLessons": [
+          "The media business does roughly $200-250K/month typically, with a best month near $300K; revenue splits about 50-55% affiliate marketing, 20-25% brand sponsorships, and 20-25% AdSense across the channels (main \"Charlie Chang\" channel has 1.1M subscribers).",
+          "Growth after years of grinding (side hustles, agency work, ~$50K/year) came from a single breakout AdSense day of $750 in 2020, after which he went all-in on daily uploads and subscriber growth hit 500-1,000/day at its fastest.",
+          "His content philosophy: don't chase virality alone, aim for videos people are actively searching for (evergreen SEO topics like \"how to invest in stocks\") combined with big relatable numbers and curiosity-driving titles (e.g., a video about his income sources, or asking Coachella attendees what they do for a living, timed to the event trending).",
+          "He deliberately pivots his content topics to whatever is currently having a moment (crypto content during the crypto boom, stock content during the stock boom, side-hustle content when that trend peaked) rather than sticking to one evergreen niche.",
+          "Team and cost: 26 people total for the media business (a COO, 2-3 project managers each overseeing editors/thumbnail/graphics/website staff) costing about $20-25K/month, sourced mainly through his own staffing company Paired plus Upwork and Fiverr; a full-time overseas hire through Paired runs about $600-1,000/month via a one-time placement fee model with no revenue cut.",
+          "Production stack: ClickUp for content planning, Frame.io for editor review/revisions, Slack for team comms, Hubstaff for time tracking, and AI tools (Submagic, Descript, Opus) to cut long-form videos into short-form clips.",
+          "He started Paired (a low-six-figure staffing business as of the interview) to build equity in a \"real\" company beyond a personal-brand media business, using his channels' audience and marketing muscle to help it grow, with an eye toward a future acquisition.",
+          "His advice against overthinking idea selection: pick something and move fast, since speed lets you either confirm the idea is wrong quickly or capitalize on it being right; he also stresses not staying a solo operator forever, since hiring your first person is what turns a personal hustle into an actual business."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=G5cbMnFXcj0",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/018-i-make-11m-year-selling-one-product.md",
+        "title": "I Make $11M/Year Selling One Product",
+        "principle": "Pick a product novel enough to trigger genuine emotional reaction on short-form video, then build brand equity with a content army instead of ad spend or dropshipping arbitrage.",
+        "keyLessons": [
+          "The idea came from spotting a competitor's sex-chocolate TikTok that hit 8 million views and 2 million likes despite the competitor having no real website or brand presence; Brocato recognized the concept was already validated and set out to build the \"real\" version.",
+          "He self-funded with about $30,000 (his entire savings from prior ventures), spent roughly a year in R&D and supply-chain setup before ever launching, and sold out within the first three weeks, hitting over $280,000 in revenue in month one at roughly 50% net margins.",
+          "Manufacturing is split deliberately: packaging/boxes made in China, the chocolate and everything that touches it made in the United States; each supplement ingredient inside the chocolate has its own separate niche manufacturer, sourced by cold-calling dozens of contract manufacturers found through pages of Google search results.",
+          "His worst operational mistake was ocean freight: shipping a large box order by boat to save money took four times longer than air, the container got delayed, and the company had to pause sales and shift to pre-orders, causing revenue to crater; the company was out of stock more months than in stock in year one and still did $4M.",
+          "His core growth engine is organic UGC (user-generated content): over 60 creators plus a wider network of \"thousands\" of accounts posting native-feeling videos daily, styled to match whatever sound or trend is currently popular so viewers don't recognize it as an ad; this is supplemented lightly with paid placements on large meme-page accounts, some Google ads, and email/SMS.",
+          "He explicitly rejects dropshipping as a wealth-building model, arguing dropshippers have no competitive advantage and no brand equity, so the real money in dropshipping courses flows to the course-sellers, not the dropshippers; brand equity, by contrast, compounds and is what actually gets rewarded at an eventual exit.",
+          "The product itself was engineered for \"emotional arousal\": something visually novel enough on a For You page that viewers feel a strong reaction (shock, curiosity, humor), which drives both watch-through and shares, which drives virality.",
+          "His closing advice to aspiring founders: there's no secret formula or special intelligence required, just consistent execution compounding daily until, without a single dramatic moment, the business is suddenly worth millions."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=5C3YCTL-36c",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/019-how-i-used-reddit-to-hit-17k-mrr.md",
+        "title": "How I Used Reddit to Hit $17K MRR (With ZERO Audience)",
+        "principle": "You don't need a personal audience to grow a SaaS: post genuinely useful, non-promotional content across many targeted subreddits and let the product link ride along at the end.",
+        "keyLessons": [
+          "AppAlchemy is an AI tool (he compares it to \"Cursor but for designing mobile apps\") that generates mobile app designs; the idea came from his own frustration paying a freelance designer hundreds of dollars per iteration on Upwork.",
+          "He built the MVP in about two weeks and started marketing on Reddit immediately; within four months the product had over 1,000 paying customers, ~20K signups, about 20K monthly traffic, and $17K MRR, all with $0 spent on marketing.",
+          "His five-step Reddit playbook: (1) become an active Reddit user first so your account isn't filtered as new/spam and so you learn what performs; (2) build a large list of relevant subreddits using the Reddit Ads targeting tool's community search (free to use without running actual ads); (3) write one \"killer\" organic post with a catchy, non-promotional headline that leads with real value (e.g., a case study) and only links the product near the end, or links a complementary product instead when a subreddit bans self-promotion; (4) post that same content across as many relevant subreddits as possible, since even modest per-post views (e.g., ~10K each) compound across 10 posts into real reach; (5) repeat and iterate on post format (video, case study, etc.).",
+          "His stated rule of thumb: post to Reddit no more than 2-3 times per week per account, since higher frequency risks a ban.",
+          "Tech stack: Cursor for development, Next.js/React, Firebase for auth and database; monthly costs are roughly $20 for Cursor, $40 for Vercel hosting, and about $2,500/month for AI API backends, on roughly 70% overall margins.",
+          "His broader lessons: pick a SaaS problem in a growing market (contrasting a declining market like newspapers with an exploding one like vibe-coding tools), prioritize marketing and distribution from day one over adding unrequested features, and treat speed as a solo founder's biggest structural advantage.",
+          "His advice to someone starting today: ship the simplest possible MVP and start marketing it immediately rather than waiting for the product to feel finished."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=BaWUPamqWlA",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/020-zero-to-40k-month-with-one-marketing-channel.md",
+        "title": "Zero to $40K/Month With One Marketing Channel (No Social Media)",
+        "principle": "Pick one high-intent growth channel, get obsessed with it, and use the same content to compound both organic SEO rankings and paid search at once instead of spreading thin across many channels.",
+        "keyLessons": [
+          "Late wraps the official Facebook, Instagram, Twitter/X, and LinkedIn APIs into a single unified API for developers building social-media-scheduling and automation products, sold on three usage tiers (Build, Accelerate, Unlimited) priced by number of connected accounts.",
+          "Growth: launched roughly seven months before the interview, crossed 40K MRR from more than 700 paying users, 50K total signups since launch, and under 10% churn, after Palet's prior venture-backed startup experience running an ed-tech company in Spain.",
+          "His core thesis: organic reach on social platforms is largely dead and oversaturated, so instead of trying to manufacture demand through viral content, he targets people already actively searching for a solution (\"social media scheduling API,\" \"Twitter automation tool\") because that search intent converts far higher than cold attention.",
+          "Organic SEO side: uses Ahrefs to find bottom-of-funnel keywords with roughly 300-800 monthly searches, low competition, and high buying intent; writes in-depth guides answering that specific intent, maintains clean site structure/fast load times/proper metadata, and builds backlinks both through tools and manual paid outreach — this channel alone produces over $8K of the $40K in monthly revenue.",
+          "Paid side: runs Google Search ads on the exact same high-intent keywords targeted organically, with a dedicated landing page per ad group/keyword, automated Google bidding set to a $120 target CPA, and continuous A/B testing of headlines/descriptions/landing pages tracked in PostHog; spends about $8K/month on ads and gets roughly $2.50 back per dollar spent, producing about $15K of monthly revenue.",
+          "His five-step playbook for a founder starting today: (1) find core high-intent keywords obviously tied to your value proposition using tools like Ahrefs, log search volume and difficulty; (2) publish 10-15 high-quality articles in the first week to build momentum, each with a clear signup CTA and internal linking, without overproducing thin content Google penalizes; (3) launch Google Ads on the same keyword set with 3-5 ad copy variations focused on value propositions, not just features; (4) identify which keywords convert, double down budget on high-ROI ones, and keep testing ad copy/landing pages; (5) track cost of acquisition against a target of 20-40% of lifetime value, aiming to keep CAC under 30% of first-year revenue.",
+          "Tech/marketing stack: Claude Code for development speed, Datafast for revenue attribution, roughly $8K/month on Google Ads, and about $200/month on Ahrefs for organic monitoring.",
+          "His framing on \"SEO is dead\": informational queries (how-to questions) are losing traffic to AI chat tools, but transactional/intent-based queries (people searching for a specific tool to buy) still route through Google and still convert, so SEO is far from dead for commercial intent.",
+          "His closing advice: stop trying to be everywhere on every channel; picking one growth lever and getting obsessed with it beats being mediocre across ten."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=E_rX4JJrYkY",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/021-how-i-used-twitter-to-hit-10k-month.md",
+        "title": "How I Used Twitter to Hit $10K/Month",
+        "principle": "Build in public by sharing failures as openly as wins to build trust and a storyline, then systemize what goes viral using data instead of guessing, and use that same audience to launch and grow the eventual product.",
+        "keyLessons": [
+          "SuperX helps users grow on X by surfacing which posts go viral and why, then helping generate similar content; it runs on $29/month subscriptions, does about $13K MRR with roughly 450 active subscribers, a ~30% trial rate, and churn was around 30% (being worked down) at the time of the interview, four months after public launch.",
+          "Hallam's path there was five failed products over two and a half years that made a combined $0, which taught him three things: distribution matters, monetization needs to start from day one, and you should build painkillers, not vitamins.",
+          "His actual breakthrough was a vulnerable post about those failures that hit ~150,000 views; a single comment suggesting he start a dev agency using his coding skills led directly to his first $3,000 client, launching a client-services business sourced entirely through inbound X DMs.",
+          "SuperX itself came from partnering with Tibo (former Tweet Hunter co-founder) after Hallam had already built an internal analytics/content process for his own growth; the launch post got 32,000 views and 26 signups, but a simple selfie-style personal post the same day outperformed it and drove SuperX's first $1,000 MRR within 24 hours.",
+          "His 7-step build-in-public playbook: (1) set up your profile (real photo, one-line bio, a pinned post stating your concrete goal); (2) pick one specific goal and document daily progress toward it publicly for consistency and a storyline; (3) run a content loop of entertaining -> educational/selling -> inspirational posts, repeating; (4) systemize what works by analyzing top posts in your niche for the underlying concept (not copying verbatim) and adapting it in your own voice/style; (5) double down on formats and topics that perform and kill even viral posts that don't serve the business (he killed a feature that went viral but nobody used); (6) build real relationships via genuine replies and engagement, not AI-generated spam comments; (7) lean into whatever format the platform is currently pushing (video, at time of interview, gave him 10x the reach of text).",
+          "Tech/marketing stack: Next.js, Node.js, Tailwind, SQLite for database; the X API costs $2-3K/month, OpenAI and Anthropic's Claude Sonnet API around $1K/month, AWS about $200/month, Zilliz Cloud (vector embeddings for semantic tweet search) about $200/month, plus Claude Code, Screen Studio, and Framer for smaller recurring costs.",
+          "His stated philosophy on tooling: pick one tech stack, learn it deeply, and ignore chasing new technologies in favor of shipping.",
+          "His closing advice: breathe, act with intention rather than emotion, cut out noise, and put in volume with intention — treating consistent, high-volume, intentional output as the actual lever, not luck."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=VYT-ip21P08",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/022-he-quit-his-job-and-makes-10m-year-writing-online.md",
+        "title": "He Quit His Job And Makes $10M/Year Writing Online",
+        "principle": "Borrow someone else's audience through ghostwriting first to build real income fast, then reinvest that abundance into your own writing career instead of starting from zero followers.",
+        "keyLessons": [
+          "Dickie ran his side hustle in the gaps of a 60-hour BlackRock trading job: up at 4:30am to write for two hours, work the day job, then build his business in the evenings, only quitting once his side income had already doubled his six-figure salary.",
+          "His breakout moment came from committing publicly to a 30-day writing challenge; a post on day 27 got zero engagement, but the very next morning it went viral after a high-profile retweet, taking his newsletter from roughly 250 to 1,000 subscribers overnight.",
+          "The virality led to inbound ghostwriting requests. On his first paid gig he let the client name the price rather than quoting one himself, spent an entire weekend (about 15 hours) over-delivering, and was paid $5,000, far more than the few hundred dollars he had been prepared to ask for.",
+          "He explicitly recommends ghostwriting as the fastest way to monetize writing: build the skill, then \"borrow\" an established audience instead of waiting years to grow your own, because it produces sustainable income (roughly $5-10K/month) without needing tens of thousands of followers first.",
+          "His first product came from turning his own 30-day challenge into a paid accountability group: $50 with a refund for completion, which validated demand, then became a $99 product after 50 customer interviews and made about $30,000 in its first month (December).",
+          "Partnering with an established writer (Nicholas Cole) turned that $99 product into Ship 30 for 30, a full cohort-based course that did roughly $1 million in year one at about 90% margin, before scaling into a four-business portfolio (Ship 30 for 30, Premium Ghostwriting Academy, Write with AI, and the Typeshare SaaS tool) on pace for $10 million in 2024.",
+          "His operating rhythm alternates between \"monk mode\" (fully scheduled 5am wakeups, single-outcome sprints run three or four times a year) and \"maintenance mode\" (more rest and slower days to let new ideas surface).",
+          "His core advice: if your current job or project isn't rewarding extra effort with extra results, that's the signal to leave; learn \"just in time\" rather than \"just in case\" by only studying a skill once you have a real project that needs it; and don't wait for a \"perfect time\" to start."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=OoFqTMPW_3E",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/023-i-flipped-4-apps-and-made-500k.md",
+        "title": "I flipped 4 apps and made $500,000",
+        "principle": "Build simple, single-player apps in a niche you understand deeply, grow them fast with cheap UGC-driven ads, and sell at 10-20K MRR to the third-highest bidder who can close quickly rather than chasing the top offer.",
+        "keyLessons": [
+          "After a VC-backed startup failed, Lotts pivoted to building apps solo starting in 2022, right as GPT was commercializing; his four apps (Bible Buddy, an AI-powered Bible chatbot; Magic Music, a wrapper on an AI music generator; Toxic Traits, which analyzes chat screenshots for personality traits; and Pray Screen, an app-blocker that requires prayer to unlock) collectively passed a million users and $500K in sales.",
+          "His idea process is systematic: check the App Store's top-20 in a category, cross-reference revenue estimates on Sensor Tower, and if multiple competitors are clearing $100K-500K MRR, treat that as validation, then differentiate by serving an underserved niche (he leans into the Christian market because he understands it personally and because faith-focused apps are underserved by tech).",
+          "He deliberately keeps apps single-player (usable for value without inviting anyone else) because social/multiplayer mechanics double the marketing burden by requiring two people to onboard at once.",
+          "Growth comes from making an app \"shareable by accident\": Magic Music let users share a generated song via a web link with a \"create your own\" button embedded, so listeners became new users without ever being asked to \"share the app\" directly.",
+          "Pray Screen hit an unusually high 60% day-30 retention by combining a functional hook (it blocks other apps) with an emotional/spiritual one (you must pray to unlock them) — his framework is to engineer either high shareability or high retention into the core mechanic.",
+          "His acquisition playbook: build to roughly 10-20K MRR, show an upward trend in the final three months before listing (never sell into a decline), list on platforms like MicroAcquire and Twitter, and expect valuations around 2-4x EBITDA (annual profit) since these are cash-flow assets, not deep-tech acquisitions.",
+          "When negotiating, he avoids the highest bidder (deals that chase the top price tend to drag out and fall through) and instead offers the third-highest bidder the deal if they can close in 3-4 days, which creates urgency and a sense of being chosen.",
+          "Bible Buddy's original build ran on a third-party WhatsApp integration that ballooned to $15K/month in messaging costs before he moved it to a cheaper custom iOS/Android build with an Upwork-hired engineer; for user acquisition he runs TikTok UGC content designed to provoke engagement/argument in comments, then feeds the winning hooks into Meta Ads, getting cost-per-install as low as $0.30-0.50 in the US for Pray Screen."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=PmyXmpkTIdc",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/024-i-made-2-5m-selling-a-digital-product.md",
+        "title": "I Made $2.5M Selling A Digital Product",
+        "principle": "Build a niche YouTube channel that fulfills demand already searching for answers (like a productivity software's own userbase), fund it with near-zero-cost digital products (Notion templates), and pitch free or paid templates directly inside the free content.",
+        "keyLessons": [
+          "Thomas sells two premium Notion templates: Ultimate Brain (personal productivity: task management, notes, project tracking) and Creator's Companion (a productized version of his own YouTube/content workflow); together they've generated about $2.5M from roughly 30,000 customers across a 200,000-person email list.",
+          "He started the niche channel because deep Notion tutorials didn't fit his main channel's broader productivity branding; Creator's Companion launched at around $3,000/month and scaled to $155,000/month within six months, largely from one 45-minute \"the whole video is an ad but still fully educational\" walkthrough.",
+          "Ultimate Brain launched to a 3,200-person waitlist and made about $90,000 in its first 30 days from an email-only launch, later climbing to around $100,000/month after a dedicated demo video.",
+          "Pricing evolved from $99 (Creator's Companion) plus a $49 upsell at launch to a current $19 (Ultimate Brain alone) up to $229 for the full bundle; a price increase reduced unit volume slightly but grew total revenue.",
+          "He staffed his own customer support for roughly 8 hours a day during the first month post-launch specifically to learn firsthand where users got stuck, calling this a practice every founder should do at least once.",
+          "His funnel: free \"build guide\" videos (e.g., \"how to build a habit tracker\") that ship with a free template, general Notion fundamentals content, and listicle-style content, all routing into an email list; a welcome autoresponder then offers more free templates plus a discount toward the paid Ultimate Brain template.",
+          "Because a Notion template is just a public, duplicable page, the entire product has near-zero marginal cost to produce; the whole business runs on a lean stack (Circle for gated community support, Lemon Squeezy as merchant-of-record for payments/taxes, ConvertKit for email, Pipedream for automation) that he estimates could run for a few hundred dollars a month.",
+          "His marketing model, explicitly borrowed from Zapier: cast a wide net around an adjacent broader topic (productivity/workflow software generally) rather than only the exact niche product, so a wider audience discovers content before narrowing into paying customers."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=OKl0C3zg0LU",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/025-i-quit-my-job-and-accidentally-built-a-10m-business.md",
+        "title": "I Quit My Job & Accidentally Built A $10M Business",
+        "principle": "Build a service business around genuine word-of-mouth by making every customer look like a hero for referring you, and spend the painful early months personally proving out quality before ever spending on paid marketing.",
+        "keyLessons": [
+          "After a failed VC-backed app startup taught him he didn't want to answer to a board, Ian started Ocean's Talent in late 2021, signed his first contract in February 2022, did $650K in revenue that first year, and grew to about $15 million in revenue and multiple millions in profit by the time of the interview.",
+          "The business model: hire skilled full-time staff (mostly in Sri Lanka, some South Africa) who fully integrate into a client's team (Slack, all-hands, calendar), charging clients roughly $3,000-4,000/month per headcount depending on role (an EA on the lower end, a financial controller higher), and pocketing the margin after paying staff wages and benefits.",
+          "He validated the idea with zero marketing spend: hired a 10-year EA veteran to build an internal training course, recruited his first three VAs through personal Sri Lanka connections, and sold at heavily discounted rates to friends purely to get the service into real hands and see if it held up.",
+          "His growth engine from day one was referrals, not ads: he deliberately engineered the service experience so customers would want to \"look like a hero\" recommending Ocean's Talent to peers, on the logic that services people already need constantly (like lawn care or house cleaning) grow through word of mouth if the service is genuinely excellent.",
+          "Service quality tactics he named specifically: 5-minute email response times, comping a month of service immediately when something goes wrong rather than debating it, and being willing to personally stay hands-on with the first 20-50 clients even after the business no longer strictly required it.",
+          "Scaling from roughly 5-8 people (where all institutional knowledge lived in his head) to a real organization was the hardest transition — codifying tacit knowledge into repeatable processes so new hires could operate without him, while hiring 30-40 people a month.",
+          "He hires deliberately from non-traditional professional backgrounds (e.g., a former summer-camp director became his chief of staff, on the logic that someone who calmly manages screaming kids and angry parents will handle sales calls easily) rather than filtering strictly for prior EA/ops experience.",
+          "His tech stack is intentionally minimal: mostly Google Sheets for internal dashboards, Stripe for payments, Notion for reference docs, tl;dv for meeting recording, and HubSpot for CRM — he explicitly advises against over-spending on tools early."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=gU9FtZIfb_M",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/026-how-to-build-a-100m-podcast-empire.md",
+        "title": "How To Build A $100M Podcast Empire",
+        "principle": "Land big podcast guests by publicly, unapologetically asking for them (Twitter DMs and tweets included), then grow the show by chopping every episode into daily clips that tap into a bigger conversation than your own name.",
+        "keyLessons": [
+          "Danny started his podcast in September 2020 purely to have an excuse to talk to people he admired for an hour, publishing three episodes a week from day one; two and a half years and 359 episodes later, the show hit roughly 30,000-50,000 downloads a month.",
+          "His framework for landing guests: start with friends and comfortable low-stakes guests for the first 10 episodes to build reps, then move to \"hacking attention\" by reaching people on the platform where they're most active — for him, that's Twitter/X.",
+          "His breakout guest, Gary Vaynerchuk (episode 39), came from publicly tweeting that Gary was a dream guest along with a screenshot of a 2009 blog post about him; Gary followed him, Danny tweeted that Gary had followed him, and public replies pressured Gary into agreeing to come on.",
+          "He argues most people talk themselves out of outreach before ever sending the message, underestimating how many people will actually say yes; his tip is simply to send more messages and treat rejection odds as acceptable since a single \"yes\" from a big guest is a home run.",
+          "Guest research is intensive: he'll spend 5-20 hours per guest (Googling, reading past interviews, social media) to be able to ask questions that give the guest a genuinely new insight about themselves, not generic questions.",
+          "Growth doesn't come from big guests alone — his content strategy is to publish at least one full episode daily, plus two YouTube Shorts, three Instagram Reels, and five Twitter clips every single day, and to frame each clip around a broader topic (e.g. \"entrepreneurship\") rather than his own or the guest's name, since audiences are drawn to the bigger conversation before they're drawn to a specific host.",
+          "Getting started requires almost no equipment: he names a Shure MV7 mic and a Zoom call as sufficient, with free hosting via Anchor — the constraint isn't tooling, it's consistency and outreach effort.",
+          "He frames the broader podcasting opportunity as still early (comparing it to radio's early decades) and cites Joe Rogan's $100M Spotify deal and reported $300M Spotify sale, and Alex Cooper's $20M/year deal, as signals of where podcast-driven businesses (advertising, courses/subscriptions, consulting, and live events/summits built from a guest network) are headed."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=Fk2J2U7669o",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/027-i-became-a-venture-capitalist-with-only-1000.md",
+        "title": "I Became A Venture Capitalist With Only $1,000",
+        "principle": "Build a venture-investing side hustle without capital of your own by becoming the person who reliably sources and shares great deals with VCs and founders, which earns you allocation into rounds you couldn't otherwise access.",
+        "keyLessons": [
+          "Alex runs a syndicate: rather than raising a blind-pool fund, he secures allocation in a specific deal, then lets individual limited partners (LPs) invest directly into that single company via an SPV for as little as $1,000, giving people without venture-scale capital direct cap-table access.",
+          "Operating this as roughly a 70% full-time-job / 30% side-hustle split, he has backed around 270-275 companies and deployed about $60 million in total capital, entirely without managing a traditional fund or raising his own AUM.",
+          "He started by backing another investor's syndicate (Jason Calacanis) to learn the mechanics and see real deal flow, then began co-syndicating deals with other syndicate leads, pooling both deal flow and LP bases to close bigger rounds; that shift around late 2020 was when volume really took off.",
+          "His first deal was a $1,000 check into a company's final funding tranche at a $6M valuation (raising $2M total); that company later raised at a $500M valuation, an example of the 50-100x-plus outlier returns venture investors chase to offset the majority of deals that lose money.",
+          "He sources deals through five channels: co-syndicating with other syndicate leads, relationships with venture funds who share overflow allocation, referrals from founders he's already backed, relationships with angel investors, and his own LP base (many of whom are founders, execs, or heads of function at other startups).",
+          "His underwriting criteria centers on the founder first (relevant background, prior success, ability to navigate pivots), then market size and growth potential, early signs of product-market fit, and who else is co-investing, since he relies on the diligence of the lead institutional fund rather than doing it all himself.",
+          "The business model is carried interest: he takes a 20% cut of profits above the original invested principal only after a successful exit (IPO or acquisition), meaning LPs keep 80% of any upside and he earns nothing unless capital is actually returned.",
+          "Closing a deal typically takes about 1-2 weeks end to end: securing allocation and drafting a deal memo (roughly two days in parallel with setting up the SPV), then giving LPs 1-2 weeks to commit before wiring capital to the company."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=p3xa6mpxvOY",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/starter-story/028-i-made-500k-from-8-different-income-streams.md",
+        "title": "I Made $500K From 8 Different Income Streams",
+        "principle": "Instead of betting everything on one big idea, build a portfolio of smaller projects serving the same niche and audience, so income compounds and diversifies risk the way a stock index does.",
+        "keyLessons": [
+          "Florin's roughly $500K in combined earnings breaks down across a coding course ($180K+), his first SaaS product (made $68K in revenue, later sold for $50K), YouTube ad/sponsorship revenue ($100K+), freelancing (tens of thousands), an ebook ($30K+), consulting ($14K), and a group of smaller products ($10-15K combined) — none individually huge, but resilient together.",
+          "After quitting a two-year corporate developer job in 2019 because he felt he was \"wasting his potential,\" he initially chased one big idea at a time and burned out repeatedly before realizing most projects fail due to timing, distribution, or market fit rather than a bad idea or a personal failure.",
+          "His portfolio strategy explicitly mirrors investing: rather than \"one big stock,\" he treats each project like a diversified position, so a slowdown in one income stream doesn't threaten the whole business.",
+          "Crucially, his projects aren't scattered across unrelated niches — he deliberately keeps everything serving the same audience (developers), moving from content for developers, to products for developers, to a learning platform for developers, so products can cross-sell (a course buyer signs up for the SaaS, etc.).",
+          "He runs projects sequentially, not simultaneously: build and focus on one project until it can run itself or he can step back from day-to-day involvement, then move to the next, rather than actively juggling eight projects at once.",
+          "His five-step \"first win\" playbook: (1) build something small and useful you can ship in days or weeks, ideally solving your own problem, (2) ship it publicly on whatever platform your audience uses — most projects fail from lack of visibility, not quality, (3) gather real usage feedback, (4) add a paid tier early as the real validation test of whether people will pay, and (5) after a few weeks or months, make a clear decision to double down or move on without guilt.",
+          "Once something works, his next move is to reduce his own involvement: automate what can be automated, simplify the product, and remove himself from daily operations, both to free time for the next project and to make the asset easier to eventually sell (as with his coding course, which now generates passive revenue years after launch).",
+          "His current tech stack: Next.js for development, Supabase for database/auth, Stripe for payments, Vercel for hosting, Beehiiv for newsletters, an analytics tool (referred to in-episode as \"DFS\") for site analytics, and ChatGPT as his primary AI tool."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=47QXbPGyzBI",
+        "guest": ""
+      }
+    ]
+  },
   "anything-you-want": {
     "title": "Anything You Want",
     "host": "Derek Sivers",

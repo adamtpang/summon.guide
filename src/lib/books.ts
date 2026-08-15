@@ -571,6 +571,22 @@ export const books: Book[] = [
     corpusPaths: ["content/knowledge/founders", "content/knowledge/interviews"],
   },
 
+  // Starter Story: an interview library, not a single narrator. See the
+  // "channel" role note above.
+  {
+    slug: "starter-story",
+    title: "Starter Story",
+    author: "Pat Walls",
+    year: 2017,
+    role: "channel",
+    figureSlug: "unattributed",
+    description:
+      "Pat Walls's YouTube show interviewing founders about exactly how they built a specific business: real revenue numbers, real customer-acquisition tactics, real pricing and unit economics, not generic advice. This corpus is a curated selection of 28 of the channel's highest-signal episodes out of roughly 170 long-form interviews, weighted toward substantive case studies over thin clip-show entries, digested as a text to chat with directly rather than through any single persona.",
+    amazonUrl: "https://www.youtube.com/@starterstory",
+    status: "partial",
+    corpusPaths: ["content/knowledge/starter-story"],
+  },
+
   // Sivers: five short, self published books
   {
     slug: "anything-you-want",
