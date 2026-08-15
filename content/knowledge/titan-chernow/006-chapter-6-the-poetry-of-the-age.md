@@ -1,0 +1,28 @@
+---
+title: "Chapter 6: The Poetry of the Age"
+principle: "Riding the Gilded Age's money mania, Rockefeller expanded his refining empire with brother William and new partner Henry Flagler, mastered bank borrowing, and in 1868 struck the secretive Lake Shore railroad rebate deal that gave Cleveland decisive freight advantages, the same deal Ida Tarbell would later call his original sin."
+tags: [titan-chernow, rockefeller, henry-flagler, railroad-rebates, standard-oil-precursor, gilded-age, william-rockefeller]
+---
+
+# Chapter 6: The Poetry of the Age
+
+> **Key principle:** In postwar America's frenzied money culture, Rockefeller built out his refining operation with his brother William running exports from New York and new partner Henry Flagler driving expansion, then used Cleveland's competing rail lines to extract an enormous secret rebate from the Lake Shore Railroad in 1868, a deal that made Cleveland's dominance possible and became the central grievance of his later critics.
+
+*Synthesized from Chapter 6 of Titan: The Life of John D. Rockefeller, Sr. by Ron Chernow.*
+
+## Key lessons
+
+- Chernow frames the post-Civil War years (1863-1873) as an era banker Thomas Mellon called uniquely easy for getting rich, when, as one Gilded Age novel put it, money itself was "the romance, the poetry of our age"; Rockefeller comes across as the era's purest embodiment, someone who had trained himself, despite an admittedly "ugly temper," to subordinate every impulse to steady, disciplined profit-seeking.
+- In December 1865 Rockefeller and Sam Andrews opened a second refinery, the Standard Works, nominally headed by brother William; Rockefeller drove relentless cost-cutting, including manufacturing his own cheap oak barrels (getting the price down to under a dollar each) rather than paying coopers up to $2.50, and personally rushed to rail yards to expedite shipments.
+- Fire was a constant, terrifying hazard in refining (Edwin Drake's own well had burned in 1859, and Mark Hanna's Cleveland refinery burned to the ground in 1867); refiners also feared the Pennsylvania oil fields would simply run dry, a fear Rockefeller nightly talked himself through even as he maintained near-religious faith the supply and demand for oil would endure.
+- To manage the crucial and lucrative export trade (two-thirds of Cleveland kerosene was going overseas by 1866), Rockefeller sent his brother William to New York in 1866 to found Rockefeller and Company at 181 Pearl Street; William proved a warmer, more intuitive counterpart to John and also became the firm's key liaison to Wall Street bankers for the massive capital the business needed.
+- Rockefeller developed a reputation among Cleveland bankers as scrupulously honest and always creditworthy, famously projecting confidence rather than need (telling one hesitant banker, "I shall be very glad to demonstrate the strength of my credit at any time... Soon I shall have a great deal of money to invest") and once mobilizing every bank in Cleveland in a single afternoon to raise cash for a snap refinery purchase.
+- Henry Morrison Flagler, a fellow strict Protestant and self-made businessman nine years Rockefeller's senior, joined as a partner in 1867 after his own Michigan salt-business venture collapsed into bankruptcy; the new firm, Rockefeller, Andrews and Flagler, was capitalized partly through a $100,000 investment from Cleveland financier Stephen V. Harkness (Flagler's step-relative), who made Flagler his personal "watchdog" in the business.
+- Rockefeller and Flagler became virtually inseparable working partners, walking to and from the office together, sharing back-to-back desks, and co-drafting letters that Laura Rockefeller herself often reviewed as "the most valued adviser"; Rockefeller later said Flagler's aggressive energy drove much of the firm's early rapid growth, though he also noted Flagler sometimes needed "a restraining influence."
+- With teamsters violently resisting the new pipeline technology and railroads still dominating oil transport, Rockefeller and Flagler played Cleveland's three rail lines (New York Central/Lake Shore, Erie, and Pennsylvania Railroad) against one another; when the Pennsylvania Railroad threatened to "wipe out" Cleveland as a refining center in favor of routing crude straight to seaboard refineries, Rockefeller retaliated by cutting a secret deal with rivals.
+- In spring 1868 Jay Gould's Erie Railroad granted Rockefeller and Flagler a roughly 75 percent rebate through a subsidiary pipeline company, and Flagler separately negotiated with the Lake Shore Railroad's General J. H. Devereux a rate of $1.65 per barrel (versus the official $2.40) in exchange for promising a massive, steady volume of sixty carloads of refined oil daily, an arrangement kept as an unwritten oral understanding specifically so it could later be denied.
+- This Lake Shore deal, which Ida Tarbell later branded Rockefeller's "original sin," cemented Cleveland's dominance over Pittsburgh as a refining hub and gave the railroads a direct financial stake in the growth of one dominant refiner over many small ones; Chernow notes rebates were a widespread, then-legal industry practice (not outlawed until the 1887 Interstate Commerce Act and 1903 Elkins Act), but that no other firm secured rebates as consistently or on as vast a scale as Rockefeller's for so many years.
+
+---
+
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: Titan: The Life of John D. Rockefeller, Sr. by Ron Chernow, https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303.*
