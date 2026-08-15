@@ -861,6 +861,26 @@ export const books: Book[] = [
       "content/knowledge/bible-sermon-on-the-mount",
     ],
   },
+
+  // Lulie Tanett: her own essays, published at lulie.co.uk. Self-educated
+  // Oxford-based writer working in the Popper/Deutsch epistemic tradition
+  // (fallibilism, anti-coercion, Taking Children Seriously). Living author,
+  // still actively publishing, so this corpus is a snapshot of her essays
+  // as of August 2026, not a closed canon.
+  {
+    slug: "reason-is-fun-essays",
+    title: "Reason Is Fun: Selected Essays",
+    author: "Lulie Tanett",
+    year: 2024,
+    role: "by",
+    figureSlug: "lulie-tanett",
+    description:
+      "A curated set of essays from Lulie Tanett's blog, lulie.co.uk, working in the Popper/Deutsch tradition of fallibilist epistemology applied to personal life: why discipline is usually internal conflict, why coercion (including self-coercion) can't manufacture new thoughts, how knowledge actually grows, and her open research questions.",
+    amazonUrl: "https://www.lulie.co.uk/",
+    skillSlugs: [],
+    status: "complete",
+    corpusPaths: ["content/knowledge/reason-is-fun-essays"],
+  },
 ];
 
 /** All books for a single figure. */
