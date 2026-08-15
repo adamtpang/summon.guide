@@ -2468,6 +2468,43 @@ export const profiles: Record<string, Profile> = {
       "Wikipedia, \"Brad Jacobs (businessman),\" and contemporaneous press coverage of QXO's Beacon, GMS, Kodiak, and TopBuild transactions (2025–2026)",
     ],
   },
+
+  "lulie-tanett": {
+    slug: "lulie-tanett",
+    occupation: "Writer, philosopher, and artist",
+
+    occupations: ["Writer", "Philosopher", "Artist"],
+    yearsActive: "2010s–present",
+    notableWorks: [
+      "Reason Is Fun (blog, lulie.co.uk)",
+      "\"Discipline is fighting yourself\"",
+      "\"Self-improvement is Self-aggression\"",
+      "\"Why people get stuck\"",
+      "\"How knowledge works\"",
+    ],
+
+    earlyLife:
+      "Lulie Tanett chose not to attend school or university, educating herself instead by following real problems wherever they led, an approach she'd trace directly to Karl Popper's idea that inquiry should organize around problems, not subjects. She splits her time between Oxford, England, Waterloo, Canada, and Northern California.",
+
+    career:
+      "Tanett writes the blog Reason Is Fun at lulie.co.uk, applying the epistemology of Karl Popper and David Deutsch, fallibilism, conjecture and criticism, anti-authoritarianism, to personal life rather than only to science: why forced \"discipline\" usually signals unresolved internal conflict, why coercion (including self-directed coercion) can block a thought but never manufacture one, and how knowledge actually grows through cycles of problem, conjecture, and criticism. Her worldview draws heavily on Deutsch's The Beginning of Infinity and on the Taking Children Seriously (TCS) community, which extends Popperian anti-authoritarianism into parenting and everyday life. Alongside the philosophical writing, she works as an artist across painting, illustration, comics, and design. She maintains a running, public list of open problems she's actively investigating rather than presenting her views as a closed system.",
+
+    notableQuotes: [
+      "Discipline is fighting yourself.",
+      "Self-improvement is self-aggression.",
+      "Coercion can't make you think particular things.",
+      "You don't really know what the problem is until after you solve it.",
+      "Problems are soluble.",
+    ],
+    primarySources: [
+      "\"Discipline is fighting yourself,\" lulie.co.uk",
+      "\"Self-improvement is Self-aggression,\" lulie.co.uk",
+      "\"Why people get stuck,\" lulie.co.uk",
+      "\"Coercion can't make you think particular things,\" lulie.co.uk",
+      "\"How knowledge works,\" lulie.co.uk",
+      "\"Answers,\" lulie.co.uk",
+    ],
+  },
 };
 
 export function getProfile(slug: string): Profile | undefined {

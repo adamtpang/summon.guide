@@ -12818,6 +12818,168 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
         "guest": ""
       }
     ]
+  },
+  "reason-is-fun-essays": {
+    "title": "Reason Is Fun: Selected Essays",
+    "host": "Lulie Tanett",
+    "episodes": [
+      {
+        "file": "content/knowledge/reason-is-fun-essays/001-discipline-is-fighting-yourself.md",
+        "title": "Discipline Is Fighting Yourself",
+        "principle": "What people call 'discipline' is usually internal conflict, forcing yourself to do something part of you doesn't actually want, and the fix is not more willpower but resolving the underlying disagreement about what you actually want.",
+        "keyLessons": [
+          "The essay reframes discipline away from a character trait to acquire and toward a diagnostic signal: needing to force yourself means part of you disagrees with the plan, and the forcing is a workaround rather than a solution.",
+          "Drawing on Popperian and Deutschian epistemology, she treats a person's motivations as competing ideas that can be in genuine rational conflict, not a single unified will that simply needs more resolve.",
+          "The practical move is to find and resolve the contradiction (what is the part of you that resists actually objecting to?) rather than overriding it, because overriding a live disagreement doesn't make the disagreement go away, it just suppresses it until it resurfaces as procrastination, burnout, or resentment.",
+          "Authentic commitment, once the internal disagreement is actually resolved, produces intrinsically motivated action that doesn't feel like discipline at all, it feels like wanting to do the thing.",
+          "The piece sits inside a broader argument she returns to across her writing: that coercion (including self-coercion) is a poor problem-solving method compared to using reason to find out what the underlying disagreement actually is."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/reason-is-fun-essays/002-self-improvement-is-self-aggression.md",
+        "title": "Self-Improvement Is Self-Aggression",
+        "principle": "Treating yourself as a broken object to be fixed through 'self-improvement' misidentifies the self with the content of your thoughts, and imports the same coercive, predetermined-answer logic as traditional schooling onto your own mind.",
+        "keyLessons": [
+          "She separates identity from its momentary contents: the running internal monologue and current set of beliefs are \"content you produced,\" not the same thing as the underlying awareness that produced them, so criticizing the content is not the same as the content being who you are.",
+          "Framing yourself as needing to be fixed borrows the same authoritarian structure as coercive schooling: a predetermined correct answer is imposed on a person from outside (or, in this case, by one part of your mind onto another) instead of letting a real problem get discovered and solved on its own terms.",
+          "She argues genuine progress comes from correctly identifying an actual problem, proposing a solution, and testing it, and that you typically don't know what the real problem was until after you've solved it, which \"self-improvement\" as a generic, goal-first program tends to skip.",
+          "Her proposed reframe is \"self-discovery\" rather than \"self-improvement\": what's actually happening when people grow is that they're updating true beliefs about themselves and the world, not correcting a defective object.",
+          "The essay connects back to her broader thesis on coercion: self-improvement programs that start from \"something is wrong with me\" set up the same kind of internal conflict she describes in \"Discipline is fighting yourself,\" attacking the self rather than working out what it actually wants."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/reason-is-fun-essays/003-alexander-technique-not-posture.md",
+        "title": "The Alexander Technique Is Not About Posture",
+        "principle": "The Alexander Technique is a way of thinking and approaching action, expanding awareness, pausing before reacting, and allowing effortless action rather than straining for it, and better posture is a side effect of that, not the goal.",
+        "keyLessons": [
+          "She frames \"expanded awareness\" as attention that includes the whole environment rather than collapsing onto one narrow point, and argues this broader awareness is what lets someone respond fluidly to new information rather than executing a fixed, habitual reaction.",
+          "Posture, in her account, \"just happens\" as a byproduct of expanded awareness; chasing posture directly, by contrast, tends to produce the same kind of effortful straining the technique is designed to dissolve.",
+          "The core mechanism she describes is inhibition: pausing before an automatic reaction fires, which she is careful to distinguish from social suppression, the pause creates room to actually choose with your full mind rather than to simply not act.",
+          "She describes \"non-doing\" as the technique's central paradox: it's possible to pick up an object without the muscular over-effort of \"trying\" to pick it up, effortless action that still includes conscious intention rather than mindless reflex.",
+          "The sequence she lays out is: set an intention, expand awareness, notice the urge to \"do\" (over-effort, straining), decline that urge, and allow spontaneous, effortless action to follow, a structure that echoes her broader theme of resolving internal conflict rather than forcing outcomes through sheer effort."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/reason-is-fun-essays/004-why-people-get-stuck-coercive-scripts.md",
+        "title": "Why People Get Stuck: Coercive Scripts",
+        "principle": "People get stuck when fear, hurt, or anger activates unconscious 'coercive scripts', anti-rational mental patterns that turn a person's own creativity against their own problem-solving, and getting unstuck means noticing the script nonjudgmentally rather than fighting it harder.",
+        "keyLessons": [
+          "She defines coercive scripts as anti-rational memes, patterns of thought that operate below conscious awareness and get triggered specifically by fear, hurt, or anger, at which point they can hijack otherwise-capable thinking.",
+          "The mechanism she describes is self-sabotage through misapplied creativity: the same imaginative capacity a person could use to solve a problem instead gets used, unconsciously, to keep the problem in place, typically because the script is trying to avoid an anticipated punishment.",
+          "One effect of the script running is impaired self-awareness, the person loses track of feeling bad, or loses track of why it matters, which she treats as part of what keeps the pattern invisible from the inside.",
+          "She notes the paradox that childhood suffering under coercive conditions is recognized as horrific in the moment, yet many people normalize a similarly deadened adult state without noticing the parallel.",
+          "As a partial explanation for why some people escape entrenchment despite very different temperaments, she points to Elon Musk and David Deutsch as examples of people who route a large share of their creative energy into actually solving problems rather than avoiding them, suggesting the way out isn't a personality type but a shift in where creativity gets pointed.",
+          "Her proposed remedies are compassion toward yourself and others, redirecting attention toward what you actually want in life, and repeatedly, nonjudgmentally noticing the pattern when it recurs rather than treating its recurrence as a personal failure."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/reason-is-fun-essays/005-coercion-cant-make-you-think.md",
+        "title": "Coercion Can't Make You Think Particular Things",
+        "principle": "Coercive, anti-rational forces can only block or repel certain thoughts, they cannot compel a specific new thought into existence, so real progress requires creativity to supply positive direction, not just the removal of blocks.",
+        "keyLessons": [
+          "The essay's central asymmetry: coercive, \"anti-rational memes\" work by repulsion, closing off certain avenues of thought, while positive new ideas can only come from creativity, meaning removing a block does not by itself supply a replacement thought.",
+          "Her practical creativity boosters include orienting toward what's enjoyable, navigating toward a desired outcome rather than only away from a feared one, treating ideas as experiments, and asking \"what would be awesome?\" instead of settling for merely acceptable options.",
+          "She connects this to critical thinking directly: when someone is not operating under fear-driven blocks, criticism can function as useful, constructive feedback rather than as something painful to be defended against, the same criticism lands differently depending on whether the person is coerced or not.",
+          "She draws an explicit parallel to scientific method: a theory is not abandoned merely because it's criticized, it's replaced once a better theory is available, and she applies the same logic to personal change, moving past a problem requires a positive alternative to move toward, not just criticism of the current state.",
+          "Read alongside \"Why people get stuck,\" this essay supplies the other half of the mechanism: coercive scripts explain how people get blocked, and this essay explains why simply fighting the block harder can't be the fix, only supplying a genuinely wanted alternative can."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/reason-is-fun-essays/006-the-fun-criterion.md",
+        "title": "The Fun Criterion",
+        "principle": "David Deutsch's 'fun criterion,' Marie Kondo's 'spark joy,' and Derek Sivers' 'HELL YEAH or no' are the same underlying test: the absence of conflict between your own inexplicit ideas, and can be used as a genuine decision-making tool rather than three unrelated pieces of advice.",
+        "keyLessons": [
+          "Her unifying claim is that \"fun,\" in Deutsch's sense, isn't mere pleasure-seeking, it functions as a signal of the absence of conflict or blocks between a person's inexplicit (tacit, not-yet-articulated) ideas, the same underlying test Kondo and Sivers are pointing at with different vocabulary.",
+          "Because the three frameworks come from unrelated fields (epistemology, home organization, and startup/lifestyle advice), she treats their convergence as evidence the underlying pattern is real rather than a coincidence of language.",
+          "The practical use she draws out is diagnostic: when a choice produces resistance, dread, or a flat \"meh,\" that's information about an unresolved internal conflict, not a character flaw to override, connecting directly to her essays on discipline and coercive scripts.",
+          "She frames this as a genuinely usable decision tool rather than just a motivational slogan, a way to notice, before committing to a plan, whether your own tacit judgment is already on board or is quietly objecting.",
+          "The piece is intentionally short, functioning as a connective observation across thinkers she draws on elsewhere (Deutsch especially) rather than a fully worked-out standalone argument."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/reason-is-fun-essays/007-how-knowledge-works.md",
+        "title": "How Knowledge Works",
+        "principle": "Knowledge grows through a repeating cycle: start from existing ideas, notice a real problem (an internal contradiction), conjecture a change, subject it to criticism, and let the surviving idea generate its own next problem, a Popperian, fallibilist model applied to personal as well as scientific knowledge.",
+        "keyLessons": [
+          "She starts the cycle from existing knowledge, models, traditions, genes, and memes already held, rather than from a blank slate, knowledge growth is always a modification of something already there, not creation from nothing.",
+          "A real problem, in her framing, is an internal contradiction inside that existing knowledge, not an externally assigned task, which is why she treats \"finding the real problem\" as itself a nontrivial, valuable step rather than a given.",
+          "The next step is conjecture: proposing a change intended to resolve the contradiction, followed by criticism, testing whether the proposed change actually holds up or introduces new problems of its own.",
+          "Crucially, a conjecture surviving criticism does not end the process, it generates a new problem in turn, so she frames knowledge growth as open-ended and iterative rather than as a process that terminates in a finished, certain answer.",
+          "This is fallibilism applied broadly: she extends the same structure she'd apply to a scientific theory to biological knowledge (genes), cultural knowledge (traditions and memes), and personal beliefs, treating them as different instances of the same underlying growth mechanism rather than fundamentally different kinds of knowing.",
+          "The essay functions as connective tissue for her other pieces: \"Discipline is fighting yourself\" and \"Why people get stuck\" both describe failure modes of this cycle (a real problem getting suppressed instead of engaged), while this piece describes what the cycle looks like when it's working."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/reason-is-fun-essays/008-answers-a-worldview-in-qa.md",
+        "title": "Answers: A Worldview in Q&A",
+        "principle": "Across a long set of quiz-style philosophical questions, Tanett lays out a consistent worldview: morality is objective but context-dependent, emotion and reason are complementary rather than opposed, and persuasion is preferable to coercion in parenting, law, and politics alike, with 'problems are soluble' as the connecting optimism.",
+        "keyLessons": [
+          "On morality, she rejects both strict moral relativism and rigid universalism, arguing instead that morality is \"context-dependent but objective,\" meaning better and worse choices genuinely exist in a given situation even though the right answer can vary with circumstances, illustrated with a desert-island scenario to show that choice-quality doesn't collapse just because the setting is unusual.",
+          "On reason and emotion, she declines the idea that reason should simply override feeling, instead treating emotions as legitimate critical input into a person's thinking, dismissing them by default is itself a kind of irrational dogmatism rather than a rational stance.",
+          "On social change, drawing on Karl Popper and William Godwin, she consistently favors persuasion and reasoned argument over force, applying the same underlying principle across parenting, disagreements over law, and politics, citing vaccine mandates as an example where she prefers persuasion to compulsion, and parliamentary tradition as a model for resolving conflict through argument rather than violence.",
+          "Her recurring optimism, \"problems are soluble,\" treats large-scale suffering as contingent rather than inevitable, in line with the Deutschian view that human problem-solving capacity, applied consistently, can address civilization-scale challenges rather than just personal ones.",
+          "A notable stylistic feature: she frequently pushes back on the quiz's own multiple-choice framing, arguing the available options miss a more precise position she actually holds, treating the interview format itself as an object for the same critical scrutiny she applies elsewhere."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/reason-is-fun-essays/009-genes-dont-control-people.md",
+        "title": "Genes Don't Control People",
+        "principle": "Calling a behavior 'natural' or 'unnatural' based on evolutionary origin is a poor argument, because humans routinely and successfully override even their strongest biological drives (hunger, pain, sexual desire) through reason, so weaker genetic tendencies around relationships and lifestyle have even less claim to being unchangeable.",
+        "keyLessons": [
+          "Her core move is to distinguish genetic capacity (an inclination genes create) from genetic destiny (a behavior genes supposedly force), arguing that humans possess reason specifically because it lets them \"judge that some of our inborn ideas are actually not good\" and change how they respond to them.",
+          "She builds the case from evolution's own strongest levers, hunger, pain, and sexual desire, arguing these are the most basic, highest-priority drives evolution could install, and yet people routinely override all three: dieting or deliberately overeating against hunger signals, choosing painful exercise or enduring discomfort by reasoning through it, and (citing William Godwin) the way a piece of distressing information can instantly override sexual arousal.",
+          "The structure of the argument is a fortiori: if reason can override evolution's strongest, most basic imperatives, then it can certainly override weaker, more socially contingent tendencies, which she applies to debates about monogamy, polyamory, and other relationship structures often defended or attacked on \"it's natural\" grounds.",
+          "The essay's underlying point is a distinction between biological capacity and behavioral choice: genes supply inclinations and starting tendencies, not a deterministic program a person is powerless to reason their way past.",
+          "This connects to her broader epistemology: if genes were simply in control, the conjecture-and-criticism model of \"How knowledge works\" couldn't apply to personal behavior at all, the essay is effectively defending the premise that reasoned self-revision of even deep-seated impulses is genuinely possible."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/reason-is-fun-essays/010-capitalistmas-tree.md",
+        "title": "Capitalistmas Tree (Satire)",
+        "principle": "A satirical, mock-serious debate between a plastic Christmas tree (flashy, reusable consumerism) and a real tree (organic, Hayekian 'piecemeal prosperity'), used as a playful vehicle for economic and libertarian ideas rather than a genuine tree recommendation.",
+        "keyLessons": [
+          "The plastic tree's case is built on practicality dressed as ideology: reusability and long-run cost savings, portability and storage efficiency, and safety (no shedding needles), decorated in the piece with references to Ayn Rand, Steve Jobs, and Adam Smith as a wink at \"man-made, flashy, in-your-face\" consumerism.",
+          "The real tree's case leans on organic, decentralized growth as a metaphor for free-market \"piecemeal prosperity,\" explicitly invoking Hayekian economics, tradition, and sensory experience (smell, appearance), decorated in the piece with anarchocapitalist black-and-gold colors and actual currency as ornaments.",
+          "The tone throughout is intentionally playful rather than persuasive in the way her other essays are, it's tagged and framed as humor, applying real economic reasoning to a deliberately silly question to make an ideological point through comic exaggeration rather than direct argument.",
+          "Read alongside her more serious essays, it shows the same underlying intellectual toolkit, market economics, Hayek, decentralized problem-solving, applied here for entertainment rather than to a live personal or philosophical problem."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/reason-is-fun-essays/011-open-problems.md",
+        "title": "Open Problems",
+        "principle": "Following Popper's dictum that inquiry should be organized around problems rather than subjects, Tanett maintains a running list of open questions she's actively working on, spanning memetics, what blocks progress, goals and coercion, epistemology, and aesthetics, and invites outside input on them.",
+        "keyLessons": [
+          "On memetics, her open questions include whether replication strategies exist beyond David Deutsch's \"dynamic\" and \"static\" meme categories, whether anti-rational memes can only repel certain thoughts or can actively compel specific ones (directly connected to the claim made in \"Coercion can't make you think particular things\"), and whether memes functioning as mind control is in tension with a strong notion of human universality.",
+          "On progress and mental blocks, she's asking what most blocks progress, exactly how memes disable thought, what causes thought-loops and how minds escape them, whether sabotage mechanisms exist beyond loops, and when meta-level discussion (talking about the conversation instead of the problem) helps versus derails.",
+          "On goals, coercion, and productivity, her open questions include whether valuable work can happen without being goal-oriented, how to live without internal coercion, whether a \"follow fun\" epistemology actually works reliably, whether economic participation is possible without coercion, and why she suspects interestingness is a better guide to action than importance.",
+          "On epistemology, she's asking what role enjoyment plays in the growth of knowledge, whether suffering is a necessary part of error-correction, and whether epistemology and suffering are in some deeper tension.",
+          "On aesthetics, her questions include whether a subject's content is relevant to a work's aesthetic value, whether aesthetics can be separated from morality, and whether an immoral subject necessarily caps a work's aesthetic potential.",
+          "The page functions less as a claim to have answers and more as a transparent map of what she doesn't yet know, useful for grounding a guide persona of her in genuine intellectual humility rather than a closed system of settled conclusions."
+        ],
+        "youtube": "",
+        "guest": ""
+      }
+    ]
   }
 };
 
