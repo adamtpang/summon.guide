@@ -448,7 +448,12 @@ export default function ChatPage({
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif font-medium text-slate-900 mb-1">
               {figure.name}
             </h1>
-            <p className="text-slate-500 text-sm mb-1">{figure.era} &middot; {figure.location}</p>
+            <p className="text-slate-500 text-sm mb-1">
+              {figure.era} &middot; {figure.location}{" "}
+              <Link href={`/${figure.slug}`} className="text-blue-600 hover:text-blue-700 transition-colors">
+                &middot; Full profile
+              </Link>
+            </p>
             <p className="text-slate-500 text-sm italic mb-4">{figure.knownFor}</p>
 
             {/* Stats pills */}
