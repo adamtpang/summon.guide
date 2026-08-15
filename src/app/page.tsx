@@ -1,86 +1,21 @@
-"use client";
-
 import { figures } from "@/lib/figures";
 import Image from "next/image";
 import Link from "next/link";
-import { Suspense, useState, useEffect, useRef, useCallback } from "react";
-import { useSearchParams } from "next/navigation";
 import AuthButton from "@/components/AuthButton";
 import AmbientMusic from "@/components/AmbientMusic";
 import HumanSearch from "@/components/HumanSearch";
+import IntroPlayButton from "@/components/IntroPlayButton";
+import PurchaseSuccessModal from "@/components/PurchaseSuccessModal";
 
+// Server Component on purpose: this is the homepage AI crawlers (GPTBot,
+// ClaudeBot, etc.) fetch. It must ship real HTML on the raw first response,
+// not an empty shell that only fills in after client-side hydration.
+// The only genuinely interactive bits (audio playback, the ?payment=success
+// modal) are split into small client components below so a useSearchParams()
+// Suspense boundary can't blank out the whole page. See git history for the
+// prior all-client-component version that caused the 0/100 AI-visibility
+// audit score (empty <div hidden><!--$--><!--/$--></div> in place of content).
 export default function Home() {
-  return (
-    <Suspense>
-      <HomeContent />
-    </Suspense>
-  );
-}
-
-function HomeContent() {
-  const [showPurchaseSuccess, setShowPurchaseSuccess] = useState(false);
-  const [playingSlug, setPlayingSlug] = useState<string | null>(null);
-  const [loadingSlug, setLoadingSlug] = useState<string | null>(null);
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const searchParams = useSearchParams();
-
-  // Play intro audio for a legend
-  const playIntro = useCallback(
-    async (slug: string, introLine: string) => {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        URL.revokeObjectURL(audioRef.current.src);
-        audioRef.current = null;
-      }
-      if (playingSlug === slug) {
-        setPlayingSlug(null);
-        return;
-      }
-      setLoadingSlug(slug);
-      setPlayingSlug(null);
-      try {
-        const res = await fetch("/api/tts", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ text: introLine, figureSlug: slug }),
-        });
-        if (!res.ok) {
-          setLoadingSlug(null);
-          return;
-        }
-        const blob = await res.blob();
-        const url = URL.createObjectURL(blob);
-        const audio = new Audio(url);
-        audioRef.current = audio;
-        audio.onended = () => setPlayingSlug(null);
-        audio.onerror = () => setPlayingSlug(null);
-        setLoadingSlug(null);
-        setPlayingSlug(slug);
-        await audio.play();
-      } catch {
-        setLoadingSlug(null);
-        setPlayingSlug(null);
-      }
-    },
-    [playingSlug]
-  );
-
-  useEffect(() => {
-    return () => {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        URL.revokeObjectURL(audioRef.current.src);
-      }
-    };
-  }, []);
-
-  useEffect(() => {
-    if (searchParams?.get("payment") === "success") {
-      setShowPurchaseSuccess(true);
-      window.history.replaceState({}, "", "/");
-    }
-  }, [searchParams]);
-
   return (
     <main className="min-h-screen bg-white text-slate-900 relative overflow-x-clip">
       {/* Atmosphere: soft daylight glow */}
@@ -180,32 +115,11 @@ function HomeContent() {
                       </p>
                     </div>
                   </Link>
-                  <button
-                    onClick={(e) => {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      playIntro(figure.slug, figure.introLine);
-                    }}
-                    className="shrink-0 w-8 h-8 rounded-full bg-emerald-50 hover:bg-emerald-100 flex items-center justify-center transition-all"
-                    title={`Hear ${figure.name} introduce themselves`}
-                  >
-                    {loadingSlug === figure.slug ? (
-                      <svg className="w-3.5 h-3.5 animate-spin text-emerald-600" viewBox="0 0 24 24" fill="none">
-                        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" opacity="0.3" />
-                        <path d="M12 2a10 10 0 0 1 10 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                      </svg>
-                    ) : playingSlug === figure.slug ? (
-                      <svg className="w-3.5 h-3.5 text-emerald-600" viewBox="0 0 24 24" fill="currentColor">
-                        <rect x="6" y="5" width="4" height="14" rx="1" />
-                        <rect x="14" y="5" width="4" height="14" rx="1" />
-                      </svg>
-                    ) : (
-                      <svg className="w-3.5 h-3.5 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <path d="M11 5L6 9H2v6h4l5 4V5z" />
-                        <path d="M15.54 8.46a5 5 0 0 1 0 7.07" strokeLinecap="round" />
-                      </svg>
-                    )}
-                  </button>
+                  <IntroPlayButton
+                    slug={figure.slug}
+                    introLine={figure.introLine}
+                    name={figure.name}
+                  />
                 </div>
               </div>
             ))}
@@ -293,33 +207,8 @@ function HomeContent() {
         </footer>
       </div>
 
-      {/* Purchase success modal */}
-      {showPurchaseSuccess && (
-        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-white border border-slate-200 rounded-2xl p-8 max-w-sm w-full text-center shadow-2xl shadow-slate-900/10">
-            <div className="w-16 h-16 bg-emerald-50 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg className="w-8 h-8 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </div>
-            <h2 className="text-2xl font-serif font-medium text-slate-900 mb-2">
-              Welcome back
-            </h2>
-            <p className="text-slate-500 text-sm mb-2">
-              100 credits have been added to your account.
-            </p>
-            <p className="text-slate-400 text-xs mb-6">
-              Continue your conversations with any legend.
-            </p>
-            <button
-              onClick={() => setShowPurchaseSuccess(false)}
-              className="w-full bg-blue-600 text-white rounded-full py-3 px-6 text-sm font-medium hover:bg-blue-700 transition-colors"
-            >
-              Start chatting
-            </button>
-          </div>
-        </div>
-      )}
+      {/* Purchase success modal (client island, self-contained Suspense) */}
+      <PurchaseSuccessModal />
     </main>
   );
 }
