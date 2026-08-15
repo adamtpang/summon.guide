@@ -61,10 +61,11 @@ export const books: Book[] = [
     role: "by",
     figureSlug: "warren-buffett",
     description:
-      "The complete official Berkshire Hathaway archive of Warren Buffett's annual shareholder letters from 1977 through 2024: 48 primary-source lessons in owner economics, capital allocation, business quality, management, risk, mistakes, and compounding.",
+      "The official Berkshire Hathaway archive of Warren Buffett's annual shareholder letters, 1977 through 2024: primary-source lessons in owner economics, capital allocation, business quality, management, risk, mistakes, and compounding. This corpus is a curated selection of the most substantive letters (34 of the ~48 years), not every single year digested in full.",
     amazonUrl: "https://www.berkshirehathaway.com/letters/letters.html",
     skillSlugs: ["warren-buffett", "owner-earnings", "circle-of-competence", "retained-earnings-test", "financial-fortress", "acquisition-filter"],
     status: "partial",
+    corpusPaths: ["content/knowledge/berkshire-shareholder-letters"],
   },
   {
     slug: "poor-charlies-almanack",
@@ -93,7 +94,8 @@ export const books: Book[] = [
       "The definitive 800-page biography. The source of every framework we attribute to Rockefeller: Ledger A, the Cleveland Massacre, the dimes, the systematic philanthropy.",
     amazonUrl: "https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303",
     skillSlugs: ["ledger", "crisis"],
-    status: "partial",
+    corpusPaths: ["content/knowledge/titan-chernow"],
+    status: "complete",
   },
 
   // Franklin
@@ -123,6 +125,21 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X",
     skillSlugs: ["junto"],
     status: "partial",
+  },
+
+  // Jobs
+  {
+    slug: "steve-jobs-isaacson",
+    title: "Steve Jobs",
+    author: "Walter Isaacson",
+    year: 2011,
+    role: "about",
+    figureSlug: "steve-jobs",
+    description:
+      "Isaacson's authorized biography, based on more than forty interviews with Jobs over two years plus interviews with over a hundred family members, friends, adversaries, and colleagues. The definitive account of the garage founding, the 1985 ouster, the NeXT and Pixar wilderness years, the 1997 return and turnaround, and the product decisions behind the iMac, iPod, iPhone, and iPad, in Jobs's own words as well as those who worked with him.",
+    amazonUrl: "https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537",
+    status: "partial",
+    corpusPaths: ["content/knowledge/steve-jobs-isaacson"],
   },
 
   // Elon
@@ -389,7 +406,8 @@ export const books: Book[] = [
       "The 2011 Wall Street Journal essay that named the era. The argument that software companies were poised to take over industry after industry, framed years before it was conventional wisdom.",
     amazonUrl: "https://a16z.com/why-software-is-eating-the-world/",
     skillSlugs: ["software-eats-the-world"],
-    status: "partial",
+    status: "complete",
+    corpusPaths: ["content/knowledge/why-software-is-eating-the-world"],
   },
   {
     slug: "its-time-to-build",
@@ -402,7 +420,8 @@ export const books: Book[] = [
       "The April 2020 essay written in the early weeks of the pandemic. A direct argument that Western institutions had stopped building, and that the right response to any problem is to ask “what do we build to fix it, and what is stopping the build?”",
     amazonUrl: "https://a16z.com/its-time-to-build/",
     skillSlugs: ["its-time-to-build"],
-    status: "partial",
+    status: "complete",
+    corpusPaths: ["content/knowledge/its-time-to-build"],
   },
   {
     slug: "techno-optimist-manifesto",
@@ -415,7 +434,8 @@ export const books: Book[] = [
       "The October 2023 manifesto. Marc's most fully articulated worldview: capability over caution, abundance over scarcity, building over critique. The operating philosophy underneath the other two essays.",
     amazonUrl: "https://a16z.com/the-techno-optimist-manifesto/",
     skillSlugs: ["techno-optimism"],
-    status: "partial",
+    status: "complete",
+    corpusPaths: ["content/knowledge/techno-optimist-manifesto"],
   },
 
   // Adam Neumann, books ABOUT him (he has not written one)
