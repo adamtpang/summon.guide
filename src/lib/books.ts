@@ -571,6 +571,50 @@ export const books: Book[] = [
     corpusPaths: ["content/knowledge/founders", "content/knowledge/interviews"],
   },
 
+  // Starter Story: an interview library, not a single narrator. See the
+  // "channel" role note above.
+  {
+    slug: "starter-story",
+    title: "Starter Story",
+    author: "Pat Walls",
+    year: 2017,
+    role: "channel",
+    figureSlug: "unattributed",
+    description:
+      "Pat Walls's YouTube show interviewing founders about exactly how they built a specific business: real revenue numbers, real customer-acquisition tactics, real pricing and unit economics, not generic advice. This corpus is a curated selection of 28 of the channel's highest-signal episodes out of roughly 170 long-form interviews, weighted toward substantive case studies over thin clip-show entries, digested as a text to chat with directly rather than through any single persona.",
+    amazonUrl: "https://www.youtube.com/@starterstory",
+    status: "partial",
+    corpusPaths: ["content/knowledge/starter-story"],
+  },
+
+  {
+    slug: "invest-like-the-best",
+    title: "Invest Like the Best",
+    author: "Patrick O'Shaughnessy",
+    year: 2016,
+    role: "channel",
+    figureSlug: "unattributed",
+    description:
+      "Patrick O'Shaughnessy's long-form interview show with investors, operators, and founders: specific capital-allocation decisions, real deal mechanics, and named theses rather than generic market commentary. This corpus is a curated selection of 28 of the show's highest-signal episodes out of roughly 64 long-form interviews, digested as a text to chat with directly rather than through any single persona.",
+    amazonUrl: "https://www.youtube.com/@Invest_Like_the_Best",
+    status: "partial",
+    corpusPaths: ["content/knowledge/invest-like-the-best"],
+  },
+
+  {
+    slug: "y-combinator",
+    title: "Y Combinator",
+    author: "Y Combinator",
+    year: 2005,
+    role: "channel",
+    figureSlug: "unattributed",
+    description:
+      "The startup accelerator's own YouTube channel: Startup School lectures and partner talks on ideas, product-market fit, MVPs, fundraising, co-founders, pricing, sales, and metrics, taught by YC partners (Michael Seibel, Dalton Caldwell, Kirsty Nathoo, Garry Tan, and others) and credible alumni founders (Patrick Collison, Suhail Doshi, Tom Blomfield). This corpus is a curated selection of 35 episodes out of roughly 558 long-form videos, chosen for topic coverage rather than duplicating the same lecture, digested as a text to chat with directly rather than through any single persona.",
+    amazonUrl: "https://www.youtube.com/@ycombinator",
+    status: "partial",
+    corpusPaths: ["content/knowledge/y-combinator"],
+  },
+
   // Sivers: five short, self published books
   {
     slug: "anything-you-want",
