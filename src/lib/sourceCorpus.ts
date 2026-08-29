@@ -7547,6 +7547,23 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
         "guest": ""
       },
       {
+        "file": "content/knowledge/founders/021-how-to-make-ads-that-sell-scientific-advertising-by-claude-h.md",
+        "title": "How to Make Ads That Sell: Scientific Advertising by Claude Hopkins",
+        "principle": "Advertising is salesmanship in print: sell service instead of yourself, speak to one person at a time, prove claims with specific facts, and put most of your effort into the headline.",
+        "keyLessons": [
+          "**Advertising is multiplied salesmanship.** Hopkins built his whole philosophy on one test: would this help a salesman close the sale if he were standing in front of the customer right now? A mediocre salesman loses one sale; mediocre advertising loses all of them, so hold every headline, every line of copy to the same standard you'd hold a person making the pitch face to face.",
+          "**Sell service, not yourself.** \"The average salesman seeks favors... he makes a selfish appeal to selfish people, and of course, he meets resistance.\" The best ads never ask anyone to buy; they offer wanted information and let the natural result be a purchase. Boasts, \"buy my brand,\" and \"avoid imitations\" all repel because they reveal a selfish motive readers can't sympathize with.",
+          "**Tell the pains you take to excel, even when they're not unique to you.** Hired to save Schlitz beer (stuck at fifth place), Hopkins toured the brewery and found nothing but standard-issue purity processes every competitor also used, just never advertised. He put the plate-glass filter rooms and the artesian wells in print anyway, \"a story which had never been told,\" and Schlitz jumped to a near tie for first within months. The maker is too close to his own product to see that ordinary methods can be vast distinctions to an outsider.",
+          "**Treat every reader as the one person standing in front of you, not \"the masses.\"** When a woman wrote in asking about one sewing machine, the company's habit was to mail her a full catalog of every model; Hopkins changed it to send exactly what she asked about plus the names of buyers in her own town. \"We must treat people in advertising as we treat them in person.\" Consider the individual, because units are all that make up size.",
+          "**Be specific: numbers beat superlatives.** \"Lowest prices in America\" changes nothing; \"my net profit is 3%\" is a specific, checkable claim that lands. A clothier who stated an exact profit margin, and a razor maker who advertised a 78-second shave, both outsold rivals who only claimed to be \"the best,\" because platitudes \"roll off human understanding like water from a duck.\"",
+          "**The headline is where the majority of the work should go.** Hopkins reported spending more hours on a single headline than on the rest of an ad combined, since a changed headline alone could multiply returns five to tenfold; \"you can't save souls in an empty church.\" Whatever the single strongest benefit is (Steve Jobs's \"a thousand songs in your pocket\" is the modern echo), put it in the opening line, because nothing else in the ad gets read unless the headline first earns attention.",
+          "**Stop changing what already works.** \"You're not advertising to a standing army, you're advertising to a moving parade.\" The advertiser reads every version of his own ad and gets bored of it; his customers, seeing it for the first time, don't. Abandoning a winning ad out of the writer's own restlessness throws away proven returns for novelty nobody asked for.",
+          "**Genius is the art of taking pains.** Hopkins worked from before dawn to past midnight for decades, without a secretary, reading volumes of dry technical material to mine the single fact (the artesian well, the mother yeast cell) that could carry an entire campaign. \"The man who works twice as long as his fellows is bound to go twice as far, especially in advertising.\" He treated the work itself as the reward, not merely the money it produced."
+        ],
+        "youtube": "https://www.youtube.com/watch?v=9YrcSWczGdg",
+        "guest": ""
+      },
+      {
         "file": "content/knowledge/interviews/001-rick-rubin-on-finding-your-life-s-work.md",
         "title": "Rick Rubin on Finding Your Life’s Work",
         "principle": "Strip a work down until only its essential magic remains, then protect that fragile moment instead of thinking it to death.",
@@ -14399,6 +14416,84 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
           "The Sermon's very last lines report audience reaction rather than more content: \"the people were astonished at his doctrine: for he taught them as one having authority, and not as the scribes\" (7:28-29), closing the entire three-chapter teaching on a note about the source's authority rather than a final restated rule."
         ],
         "youtube": "",
+        "guest": ""
+      }
+    ]
+  },
+  "paul-graham-essays": {
+    "title": "Paul Graham: Selected Essays",
+    "host": "Paul Graham",
+    "episodes": [
+      {
+        "file": "content/knowledge/paul-graham-essays/001-how-to-start-a-startup.md",
+        "title": "How to Start a Startup",
+        "principle": "A startup's controllable foundations are good people, a product customers actually want, and spending little enough to survive learning what that product is.",
+        "keyLessons": [
+          "The useful test for an idea is not how impressive it sounds but whether it gives people a meaningfully better way to do something they care about.",
+          "Graham treats the founding team, customer demand, and cost discipline as a system: weakness in any one can kill the company even when the other two look strong.",
+          "Viaweb began with a small amount of seed money and a concrete technical advantage, browser-based store building, rather than with a large organization or a polished corporate plan."
+        ],
+        "youtube": "https://www.paulgraham.com/start.html",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/paul-graham-essays/002-do-things-that-dont-scale.md",
+        "title": "Do Things that Don't Scale",
+        "principle": "The manual work that looks too small to matter is often the fastest way for an early startup to learn who wants the product and what would make them care more.",
+        "keyLessons": [
+          "Founders should recruit early users directly instead of waiting for a launch or acquisition channel to produce them automatically.",
+          "A deliberately over-attentive first-user experience reveals needs, vocabulary, and edge cases that cannot be inferred from analytics alone.",
+          "The point is not to preserve manual operations forever. It is to learn the shape of demand while both product and process are still cheap to change."
+        ],
+        "youtube": "https://www.paulgraham.com/ds.html",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/paul-graham-essays/003-default-alive-or-default-dead.md",
+        "title": "Default Alive or Default Dead?",
+        "principle": "A company is default alive only when its present cash, burn, and growth reach profitability before the cash reaches zero without assuming another funding round.",
+        "keyLessons": [
+          "The test uses the company's current trajectory, not a future plan: present revenue growth, expenses, and cash determine whether profitability arrives in time.",
+          "Founders often avoid the calculation because a negative answer feels like a verdict. It is actually most useful while there is still time to change burn or growth.",
+          "A company that waits until the fatal pinch has fewer real choices because fundraising under obvious time pressure weakens both leverage and judgment."
+        ],
+        "youtube": "https://www.paulgraham.com/aord.html",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/paul-graham-essays/004-makers-schedule-managers-schedule.md",
+        "title": "Maker's Schedule, Manager's Schedule",
+        "principle": "Creative work requires long blocks because its working model takes time to load; a manager's calendar of hourly appointments can quietly destroy a maker's entire day.",
+        "keyLessons": [
+          "A manager can divide time into short appointments because coordination is the work; a programmer or writer often cannot because each interruption discards expensive mental context.",
+          "A single meeting does more than consume its duration. It can split a long block into pieces too small to begin difficult work with confidence.",
+          "Cluster meetings and office hours rather than sprinkling them through every day, preserving full days or half-days for making."
+        ],
+        "youtube": "https://www.paulgraham.com/makersschedule.html",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/paul-graham-essays/005-putting-ideas-into-words.md",
+        "title": "Putting Ideas into Words",
+        "principle": "Writing is a method of discovering ideas because clear sentences expose gaps, force distinctions, and create thoughts that did not exist before the attempt to state them.",
+        "keyLessons": [
+          "Writing is not merely a delivery step after thinking. The attempt to make a claim precise changes and extends the thought itself.",
+          "A sentence that will not become clear is evidence of unfinished reasoning, not a signal to hide it behind more elaborate language.",
+          "The essay form is useful because it permits discovery: the writer can begin with a question, follow implications, and arrive somewhere not known at the start."
+        ],
+        "youtube": "https://www.paulgraham.com/words.html",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/paul-graham-essays/006-how-to-do-great-work.md",
+        "title": "How to Do Great Work",
+        "principle": "Great work grows from choosing a field, reaching its frontier, noticing a gap that genuinely interests you, and pursuing it through projects that generate their own feedback.",
+        "keyLessons": [
+          "Learn enough of a field to reach its edge, then pay attention to questions experts overlook, dismiss, or cannot yet answer.",
+          "Ambitious work often looks eccentric early because the worker sees importance before the surrounding prestige system recognizes it.",
+          "Projects are a search instrument: each attempt exposes new questions, and the sequence of better questions is part of the work rather than a detour from it."
+        ],
+        "youtube": "https://www.paulgraham.com/greatwork.html",
         "guest": ""
       }
     ]
