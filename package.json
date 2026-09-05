@@ -22,7 +22,14 @@
     "berkshire:download": "node scripts/download-berkshire-letters.mjs",
     "video:render": "cd remotion && node scripts/render.mjs",
     "video:studio": "cd remotion && npx remotion studio",
-    "book:index": "node scripts/gen-episodes.mjs"
+    "book:index": "node scripts/gen-episodes.mjs",
+    "corpus:web": "node scripts/sync-web-corpus.mjs",
+    "corpus:youtube": "node scripts/sync-youtube-corpus.mjs",
+    "corpus:build": "node scripts/gen-source-corpus.mjs",
+    "corpus:founders:status": "node scripts/gen-founders-corpus-status.mjs",
+    "corpus:founders:refresh": "node scripts/refresh-founders-corpus.mjs",
+    "eval:founders": "node --no-warnings --experimental-strip-types scripts/eval-founders-retrieval.mjs",
+    "smoke:council": "node --no-warnings --experimental-transform-types --env-file-if-exists=.env.local --import ./scripts/node-server-shim.mjs scripts/smoke-council.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
