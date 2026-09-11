@@ -1,0 +1,62 @@
+---
+title: "The Nvidia Way"
+slug: "the-nvidia-way"
+author: "Tae Kim"
+domain: "surviving long enough for a technology bet to pay off"
+guideSlug: "jensen-huang"
+description: "Operating rules for staying alive through the years between placing a technology bet and the market arriving, drawn from Kim's account of three near-death experiences, the six-month cadence, and the decade Nvidia spent funding CUDA against its own margins."
+---
+
+# The Nvidia Way
+
+This governs the gap between making a technical bet and the market showing up for it, which in Nvidia's case ran roughly two decades and included three separate near-death experiences. Kim's claim is that the thing keeping the company alive across that gap was not foresight or capital but a set of mechanisms designed against complacency: measuring against physics rather than competitors, shipping fast enough that no rival's lead can hold, and keeping information moving directly to and from the top. The same mechanisms produce a working environment the book does not soften, and that part is below too.
+
+## Do
+
+- **Measure against the physical limit, not against the competition or your own last result.** "Speed of Light" means breaking a project into tasks with a theoretical minimum completion time assuming zero delays, then judging performance against that ceiling. Jensen reprimands anyone who benchmarks against what has already been done, on the reasoning that a competitor's number tells you nothing about what is possible. [Source: "Chapter 5: Ultra-Aggressive"]
+
+- **Ship on a cadence faster than any lead can be held.** He diagnosed that no graphics-chip company had ever held a lead more than two years and answered it structurally: three parallel engineering teams releasing derivative chips every six months. Curtis Priem's virtualized-objects resource manager made it work, because unfinished hardware features could be emulated in software instead of delaying a launch. His summary was that competitors would always be shooting behind the duck. [Source: "Chapter 5: Ultra-Aggressive"]
+
+- **Reverse the build order so the software exists before the hardware does.** To hit a nine-month schedule for the RIVA 128 against a two-year industry norm, Jensen bought a $1 million Ikos emulator so drivers could be written and debugged before physical silicon existed. Testers sat through fifteen-minute mouse-click delays on the emulator to find bugs before tape-out. It became permanent practice: drivers ready and tested before any new chip ships. [Source: "Chapter 4: All In"]
+
+- **Check whether the message failed before you conclude the technology did.** A board member's question about how he would position the NV1 stumped him and sent him to Ries and Trout's Positioning, which argues customers want a simple, emotionally resonant claim rather than to be persuaded by facts. Malachowsky's own postmortem was that they had built great technology and not a great product, and the complexity of the message was inseparable from the complexity of the chip. [Source: "Chapter 4: All In"]
+
+- **Sell the units that failed the top-tier test rather than scrapping them.** Discovering that packaging a rejected chip cost about $1.32, Jensen launched "ship the whole cow," repurposing chips that failed top-tier speed tests into cheaper derivative product lines. It was a deliberate defense against Christensen's disruption-from-below, and it nearly bankrupted rival S3 Graphics. [Source: "Chapter 7: GeForce and the Innovator's Dilemma"]
+
+- **Put the long bet in every unit you sell, including the cheap ones.** CUDA could have launched only on professional Quadro cards. Jensen insisted every GeForce gaming card be CUDA-compatible so that saturation would make it the standard faster. The G80 cost roughly $475 million to develop, about a third of four years of R&D budget, and gross margin fell from 45.6 percent in fiscal 2008 to 35.4 percent in fiscal 2010, during an 80-percent-plus stock decline. [Source: "Chapter 8: The Era of the GPU"]
+
+- **Keep information moving straight to and from the top, with one name on each project.** Every project gets a "Pilot in Command," a single owner reporting effectively to Jensen, so no team can shelter behind collective responsibility; he runs forty and now sixty-plus direct reports and has refused repeated board suggestions to hire a chief operating officer. In the other direction, mandatory Top 5 emails come from every level, five action-oriented points on current work and market observations, tagged so he can search them; he reads roughly a hundred a day, and a thread about the RAPIDS data-science library is what convinced him to redirect engineers toward it. [Source: "Chapter 9: Tortured into Greatness"]
+
+- **Reallocate the company the week the result appears, not the year the market agrees.** At the 2012 ImageNet competition, AlexNet hit nearly 85 percent accuracy where prior entrants had never broken 75, trained on ordinary consumer GPUs. Despite executives who read deep learning as a fad, Jensen declared at a 2013 executive meeting that the company should go all in, and later had Bill Dally's team add an entirely new processor type, the Tensor Core, to the already-in-development Volta architecture just months before its tape-out deadline, an unusually late and costly design change. [Source: "Chapter 11: The Road to AI"]
+
+- **Fund a second track whose payoff is a decade out.** Nvidia Research was formed in 2006 with David Luebke as its first hire and loose instructions to pursue work important to the company that the rest of Nvidia was not set up to do. GPU architect Jonah Alben would not commit engineering resources on the argument that it was obvious, so the team spent a year building proof-of-concept demos to earn buy-in. Real-time ray tracing took about a decade to reach a shipping product in 2018's Turing architecture. [Source: "Chapter 13: Lighting the Future"]
+
+## Don't
+
+- **Don't build a product that requires the rest of the world to change for you.** The NV1 used quadrilateral texture mapping instead of the industry-standard triangle approach and bundled proprietary audio, both of which meant developers had to rewrite games specifically for Nvidia. Then memory prices collapsed from $50 to $5 per megabyte, erasing the advantage the choice was made for, and the chip could not properly run DOOM, the most popular game in the world. Diamond Multimedia returned nearly all 250,000 chips it had ordered. [Source: "Chapter 4: All In"]
+
+- **Don't keep improving the thing that already lost.** With $3 million left, about nine months of runway, Jensen told the team to stop polishing it and committed the company to a market-standard approach for the next chip. Staff went from over a hundred to forty. Sunk engineering effort is the most persuasive argument for staying on a dead path, and it is not a reason. [Source: "Chapter 4: All In"]
+
+- **Don't let a deck stand in for reasoning.** He strongly favors live whiteboarding over PowerPoint and insists managers build every argument from a blank board, because weak reasoning becomes immediately visible when nobody can hide behind a prepared slide. He summarizes the agreed conclusions at the end of each session so nobody walks out with a different version of what was decided. [Source: "Chapter 9: Tortured into Greatness"]
+
+- **Don't let the teams stop talking while the external numbers still look fine.** On the NV30, hardware engineers removed features that the software and developer-relations teams still assumed were present, discovered only late in development. The chip shipped five months late, ran hot enough to need a loud dual-slot fan that became an industry joke, and lost badly to a rival that had launched on time; the stock fell 80 percent from its peak. Jensen's own postmortem named the cause as three teams that hardly communicated with each other. [Source: "Chapter 7: GeForce and the Innovator's Dilemma"]
+
+- **Don't buy the distribution channel you are still competing through.** 3dfx, once confident enough in Nvidia's imminent bankruptcy to skip acquiring it, chased feature-creep perfectionism and bought board-maker STB Systems for $141 million. Other board partners fled to Nvidia and STB's distribution problems consumed management attention; 3dfx filed for bankruptcy in 2002. Its engineers arrived at Nvidia expecting to find a secret and found schedules. [Source: "Chapter 6: Just Go Win"]
+
+- **Don't demand individual credit for something the company built, and don't crush the person who does.** Cofounder Curtis Priem insisted on personal ownership of the chip architecture, including after unilaterally deleting documentation the software team was still using. Jensen overruled him flatly on the grounds that it was the company's architecture, moved him off engineering into IP work, and Priem took leave in 2003 and resigned, saying he was tired, beaten up and demoralized, and that he always wished he could have stayed. Both halves of that are in the record. [Source: "Chapter 6: Just Go Win"]
+
+- **Don't wall off the cheap path once your own users have found it.** Professor Ross Walker adapted the molecular-simulation program AMBER to run on inexpensive consumer GeForce cards and got a 50x speedup in 2009, putting computational chemistry within reach of labs that could not afford supercomputers. Nvidia pushed back citing error-correction concerns and restricted bulk GeForce purchases to steer researchers toward pricier Tesla cards, which Walker criticized publicly. The saturation strategy that made CUDA a standard was walked back the moment it touched margin. [Source: "Chapter 8: The Era of the GPU"]
+
+- **Don't price a genuinely differentiated product like a commodity.** In 1997 Jensen overruled a proposed $10 price for the RIVA 128 in favor of $15 on the grounds that $10 was too cheap, and Nvidia's average selling prices have climbed across the decades instead of falling the way commodity hardware does; the flagship Blackwell GB200 server system now runs $2 to $3 million. The naming worked the same way: marketing coined "GPU" for the GeForce 256 in a thirty-minute brainstorm, deliberately inviting comparison to the CPU precisely to justify premium pricing, and chose not to trademark it so the whole industry would adopt Nvidia's framing. [Source: "Chapter 14: The Big Bang"]
+
+## Hold
+
+- **The mechanism that removes politics also makes the boss's disapproval a public event.** He deliberately gives critical feedback in front of groups, on the reasoning that feedback is learning and a mistake should teach everyone rather than one person; he once had a cameraman zoom in on a project manager during an all-hands dressing-down, and that manager left within the year. The same doctrine sits alongside fiscal 2024 turnover under 3 percent against a 13 percent industry average, and former employees describing relief at the bluntness after the office politics they had met elsewhere. Both are true and the corpus does not reconcile them. Holding it stops you importing the public part as though it were free. [Source: "Chapter 9: Tortured into Greatness"]
+
+- **The company that survived is not the company that was right.** Jensen resists nostalgia about the founding and says plainly that Nvidia was not a great company on day one, listing the NV1 and NV2 as products built before it was any good, and that the company was its own worst enemy. Priem's version is blunter: Nvidia would have been a failure if the NV1 had not failed. Held, you stop reading a survivor's early decisions as evidence they were correct, including your own. [Source: "Introduction"]
+
+- **A long bet only looks like conviction from the far side of it.** CUDA meant carrying a $475 million development cost and roughly ten points of gross margin for years through an 80-percent-plus stock decline in the financial crisis, while explaining the thesis to a skeptical Wall Street; the moment Jensen actually articulated it publicly came off an offhand analyst lunch question about Photoshop slowing down on large photos. There is nothing to perform here, only a refusal to treat a decade of unrewarded spending as proof you were wrong. [Source: "Chapter 8: The Era of the GPU"]
+
+## The one line
+
+Measure against physics rather than the competition, ship fast enough that no lead matters, and put the long bet into every unit you sell so that when the market finally arrives it has nowhere else to go.

@@ -1,5 +1,6 @@
-import { anthropicClient } from "@/lib/anthropic";
-import { figures, AI_CONFIG } from "@/lib/figures";
+import { figures } from "@/lib/figures";
+import { extractJsonObject } from "@/lib/jsonExtract";
+import { completeOpenRouter } from "@/lib/openrouter";
 import { skills, skillCatalogForRouting } from "@/lib/skills";
 import { NextRequest } from "next/server";
 
@@ -21,8 +22,6 @@ import { NextRequest } from "next/server";
 //   { type: "not_found", person, suggestedSlug, reason }
 
 export async function POST(req: NextRequest) {
-  // Built per request; see the comment in src/app/api/chat/route.ts for why.
-  const anthropic = await anthropicClient();
   const { message } = await req.json();
 
   if (!message || typeof message !== "string") {
@@ -37,21 +36,24 @@ export async function POST(req: NextRequest) {
     .join("\n");
 
   const skillCatalog = skillCatalogForRouting();
+  const routingMessage = message.slice(0, 12_000);
 
   const systemPrompt = `You are the routing intelligence for summon.guide. The user wants mentorship. Decide how to route them.
 
 Guides currently on the platform:
 ${catalog}
 
+The user may send either a short request or a structured personal context brief with current situation, problems, goals, priorities, constraints, and patterns. For a context brief, identify the highest-leverage current bottleneck. Weight explicit priorities and constraints more heavily than background details.
+
 STEP 1, Classify the request:
 - "named": the user is explicitly asking for a SPECIFIC named person ("Marcus Aurelius advice on X", "what would Steve Jobs do", "channel Naval"). Tolerate typos, nicknames, and misspellings, "carnivore aurelius" means Marcus Aurelius; "the PayPal guy who does rockets" means Elon Musk.
-- "problem": the user is describing a situation or problem with no specific person named ("I keep procrastinating", "how do I price my product").
+- "problem": the user is describing a situation, problem, goal, decision, pattern, or personal context with no explicit request for a specific person ("I keep procrastinating", "how do I price my product"). A person's name appearing only as background context does not make the request "named".
 
 STEP 2, Resolve:
 - If "named": normalize to the person's canonical full name. Check if that person is a guide above (match on who they ARE, not exact string, "Elon" = the elon slug).
   - If they ARE on the platform → route to them.
   - If they are NOT → return not_found with their canonical name and a suggested kebab-case slug (e.g. "Steve Jobs" → "steve-jobs").
-- If "problem": pick the single guide above whose life most directly addresses it.
+- If "problem": pick the single guide above whose work most directly addresses the user's highest-priority bottleneck. Use goals, priorities, and constraints to break ties. Do not simply choose the most famous guide.
 
 STEP 3, Pick the playbook (only for "matched" responses):
 From the skill library below, choose the ONE skill that most directly attacks the user's stated problem. Match on the problem, not on the guide: it is fine, and often better, to return a skill belonging to a different guide than the one you matched. If nothing in the library genuinely fits, omit the skill rather than forcing one.
@@ -70,25 +72,14 @@ Rules:
 - Never mention you are an AI or a routing system. Never use em dashes.`;
 
   try {
-    const response = await anthropic.messages.create({
-      model: AI_CONFIG.model,
-      max_tokens: 400,
-      // The guide catalog plus the ~50-entry skill library is roughly 4K
-      // tokens and is byte-identical on every routing call, so it is cached
-      // as the prefix. Without this, adding skill routing would have made
-      // every "find my mentor" request several times more expensive.
-      system: [
-        {
-          type: "text",
-          text: systemPrompt,
-          cache_control: { type: "ephemeral" },
-        },
-      ],
-      messages: [{ role: "user", content: message }],
+    const response = await completeOpenRouter({
+      system: systemPrompt,
+      messages: [{ role: "user", content: routingMessage }],
+      maxTokens: 800,
+      temperature: 0.2,
     });
 
-    const text =
-      response.content[0].type === "text" ? response.content[0].text : "";
+    const text = response.text;
 
     // The model sometimes wraps its JSON in ```json fences or prefaces it
     // with prose. Extract the first {...} block before parsing so a slightly
@@ -171,40 +162,4 @@ Rules:
       reason: "Let's start with a conversation.",
     });
   }
-}
-
-/**
- * Pull the first balanced {…} block out of a string. Tolerates code fences
- * (```json … ```), leading prose, and trailing prose. Throws if no balanced
- * object is found, which the caller catches into the fallback.
- */
-function extractJsonObject(text: string): string {
-  const cleaned = text.replace(/```(?:json)?/gi, "").trim();
-  const start = cleaned.indexOf("{");
-  if (start === -1) throw new Error("No JSON object in response");
-  let depth = 0;
-  let inString = false;
-  let escape = false;
-  for (let i = start; i < cleaned.length; i++) {
-    const ch = cleaned[i];
-    if (escape) {
-      escape = false;
-      continue;
-    }
-    if (ch === "\\") {
-      escape = true;
-      continue;
-    }
-    if (ch === '"') {
-      inString = !inString;
-      continue;
-    }
-    if (inString) continue;
-    if (ch === "{") depth++;
-    else if (ch === "}") {
-      depth--;
-      if (depth === 0) return cleaned.slice(start, i + 1);
-    }
-  }
-  throw new Error("Unbalanced JSON in response");
 }

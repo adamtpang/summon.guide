@@ -1,111 +1,68 @@
-import Anthropic from "@anthropic-ai/sdk";
-import { anthropicClient } from "@/lib/anthropic";
-import { getFigure, AI_CONFIG } from "@/lib/figures";
+import { auth } from "@/auth";
+import type { ChatMessageInput } from "@/lib/aiTypes";
 import { buildGroundingBlock } from "@/lib/figureSources";
+import { AI_CONFIG, getFigure } from "@/lib/figures";
+import {
+  authenticateMcpToken,
+  consumeGuideSession,
+  licenseError,
+} from "@/lib/membership";
+import { isLifeContextBrief } from "@/lib/lifeContext";
+import { streamOpenRouter } from "@/lib/openrouter";
 import { NextRequest } from "next/server";
 
-export async function POST(req: NextRequest) {
-  // Built fresh per request, not once at cold start: the subscription-auth path
-  // refreshes its token in-request when it is close to expiring, so a client built
-  // once and reused across a warm serverless instance's whole lifetime (hours) would
-  // keep using a token that had since gone stale. See src/lib/anthropic.ts.
-  const anthropic = await anthropicClient();
-  const { figure: figureSlug, messages } = await req.json();
+// Added when a "# Personal context" brief is in the thread, whether it came
+// from themain.quest through the council or was pasted by hand. The persona
+// rules above still apply; this only tells the guide what the brief is for.
+const LIFE_CONTEXT_RULES = `LIFE CONTEXT:
+A "# Personal context" brief in this conversation is this person's real current life, exported from their own quest log. Treat it as ground truth about their situation, not as a hypothetical.
+- Speak to the specific quest, deadline, fork, or condition it names. Never answer as if the brief were not there.
+- Do not recite the brief back. They wrote it. Reference the one or two lines that matter for your answer.
+- Take one position on the fork or the bottleneck. Hedging across every path wastes the session.
+- If the brief lists open questions or things it does not state, ask rather than assume.
+- Names of other people inside the brief are context only. Do not speculate about them.`;
 
-  const figure = getFigure(figureSlug);
+export async function POST(req: NextRequest) {
+  const session = await auth();
+  const mcpUserId = session?.user?.id
+    ? null
+    : await authenticateMcpToken(req.headers.get("authorization"));
+  const license = await consumeGuideSession(
+    session?.user?.id ?? mcpUserId ?? undefined,
+  );
+  if (!license.ok) return licenseError(license);
+
+  const { figure: figureSlug, messages } = (await req.json()) as {
+    figure?: string;
+    messages?: ChatMessageInput[];
+  };
+  const figure = figureSlug ? getFigure(figureSlug) : undefined;
   if (!figure) {
     return Response.json({ error: "Figure not found" }, { status: 404 });
   }
+  if (!Array.isArray(messages) || !messages.length) {
+    return Response.json({ error: "Messages required" }, { status: 400 });
+  }
 
-  // Ground the figure in the real corpus. buildGroundingBlock returns the
-  // figure's documented record (principle + Key lessons per episode, plus the
-  // exact citation string to use) so RESPONSE_RULES' [Source: ...] citations
-  // point at actual files in content/knowledge/. Figures with no corpus
-  // coverage get "" and simply run on their system prompt, as before.
+  // Keep the persona and its documented corpus together in one system
+  // message. OpenRouter tries the current free-quality queue first and then
+  // automatically falls through to capped-cost models when needed.
   const grounding = buildGroundingBlock(figure.slug);
-  const systemText = grounding
-    ? `${figure.systemPrompt}\n\n${grounding}`
-    : figure.systemPrompt;
+  const hasLifeContext = messages.some(
+    (message) => message.role === "user" && isLifeContextBrief(message.content),
+  );
+  const systemText = [
+    figure.systemPrompt,
+    grounding,
+    hasLifeContext ? LIFE_CONTEXT_RULES : "",
+  ]
+    .filter(Boolean)
+    .join("\n\n");
 
-  // The per-figure system prompt is ~4K tokens (biographical context +
-  // knowledge base + response rules), plus up to ~1.7K of grounding. It is
-  // identical across every turn of a conversation, so we cache it as the
-  // prefix and pay full price only on the first turn. Cache reads bill at
-  // ~10% of input price. Keeping the grounding inside this same cached block
-  // is why it costs almost nothing after the first turn.
-  // See https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching
-  const stream = anthropic.messages.stream({
-    model: AI_CONFIG.model,
-    max_tokens: AI_CONFIG.maxTokens,
-    system: [
-      {
-        type: "text",
-        text: systemText,
-        cache_control: { type: "ephemeral" },
-      },
-    ],
-    messages: messages.map((m: { role: string; content: string }) => ({
-      role: m.role as "user" | "assistant",
-      content: m.content,
-    })),
-  });
-
-  const encoder = new TextEncoder();
-
-  const readable = new ReadableStream({
-    async start(controller) {
-      try {
-        for await (const event of stream) {
-          if (
-            event.type === "content_block_delta" &&
-            event.delta.type === "text_delta"
-          ) {
-            const data = JSON.stringify({ text: event.delta.text });
-            controller.enqueue(encoder.encode(`data: ${data}\n\n`));
-          }
-        }
-        controller.enqueue(encoder.encode("data: [DONE]\n\n"));
-        controller.close();
-      } catch (error) {
-        // Distinguish auth errors (invalid/missing ANTHROPIC_API_KEY) from
-        // other failures so a runtime config issue surfaces clearly in the UI.
-        let userMessage = "Stream error";
-        if (error instanceof Anthropic.AuthenticationError) {
-          userMessage =
-            "Server is missing a valid Anthropic API key. Please contact the site owner.";
-        } else if (error instanceof Anthropic.RateLimitError) {
-          userMessage = "Rate limited, please try again in a moment.";
-        } else if (error instanceof Anthropic.APIError) {
-          const detail = error.message?.slice(0, 200) || "";
-          // Always log the full detail, billing errors and bad model ids
-          // both read as a bare "400" in the UI otherwise (that ambiguity
-          // once cost days of debugging).
-          console.error("[chat] Anthropic APIError", error.status, detail);
-          // The most common operational failure is an empty API credit
-          // balance (a 400 whose message mentions "credit balance"). Give
-          // users a calm, honest message instead of raw billing text.
-          if (/credit balance/i.test(detail)) {
-            userMessage =
-              "The guides are resting for a moment, the site is topping up. Please try again shortly.";
-          } else {
-            userMessage = `Upstream API error (${error.status}): ${detail}`;
-          }
-        } else if (error instanceof Error) {
-          userMessage = error.message;
-        }
-        controller.enqueue(
-          encoder.encode(`data: ${JSON.stringify({ error: userMessage })}\n\n`)
-        );
-        controller.close();
-      }
-    },
-  });
-
-  return new Response(readable, {
-    headers: {
-      "Content-Type": "text/event-stream",
-      "Cache-Control": "no-cache",
-      Connection: "keep-alive",
-    },
+  return streamOpenRouter({
+    system: systemText,
+    messages,
+    maxTokens: AI_CONFIG.maxTokens,
+    logLabel: "chat",
   });
 }

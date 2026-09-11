@@ -1,0 +1,62 @@
+---
+title: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future"
+slug: "elon-musk-vance"
+author: "Ashlee Vance"
+domain: "building hard-engineering companies against long odds"
+guideSlug: "elon"
+description: "Rules for building physical things when the incumbent price is wrong and the money runs out, drawn from Vance's account of Zip2 through the 2008 crucible and the Model S, with the human cost recorded rather than absorbed."
+---
+
+# Elon Musk
+
+This governs companies that have to make objects: rockets, cars, batteries, anything where the bill of materials is real and the schedule is enforced by physics rather than by a sprint board. The claim running through Vance's account is that most established prices in those industries are conventions rather than costs, and that a company willing to recompute them from raw materials and build in-house can undercut an entire sector. The corpus is equally clear that the method as practiced ran on a level of personal and organizational punishment that it does not pretend was optional.
+
+## Do
+
+- **Recompute the price from raw materials before you accept the incumbent's number.** After three trips to Russia to buy refurbished ICBMs, a negotiator quoted $8 million per missile and dismissed his counteroffer for two. On the flight home in February 2002 Musk built a spreadsheet showing he could build a rocket from raw materials for less. He had spent months first working through texts like Rocket Propulsion Elements, and it was the level of detail, not the conviction, that converted Griffin and Cantrell, who had both been dismissive. [Source: "Mice in Space, Part 1: Founding SpaceX"]
+
+- **Make it yourself when the supplier's price has no physics behind it.** SpaceX builds 80 to 90 percent of its rockets, engines and electronics in-house against a competitor like ULA depending on more than 1,200 suppliers. A homemade radio cost about $5,000 against $50,000 to $100,000 for aerospace-grade equipment. Steve Davis spent nine months building an actuator quoted at $120,000 and delivered it at $3,900. [Source: "Liftoff, Part 1: Building Falcon 9 and Dragon"]
+
+- **Set the cost target as an interview question, not as a stretch goal.** Kevin Watson, a twenty-four-year JPL veteran, promised in his 2008 job interview that he could deliver a rocket's full avionics platform for around $10,000 against the $10 million-plus such systems traditionally cost. His first build passed NASA's protocol tests on the first try, and the full Dragon and Falcon 9 platform landed just over the target. [Source: "Liftoff, Part 2: NASA and Cost Engineering"]
+
+- **Put the desks where people have to walk through the manufacturing.** The Hawthorne headquarters has a three-story glass office structure built in the dead center of a 550,000-square-foot factory floor, specifically so that engineers pass the hardware to reach their chairs. [Source: "Liftoff, Part 1: Building Falcon 9 and Dragon"]
+
+- **Compress the distance between finding a fault and shipping the fix.** SpaceX built a test bed replicating a rocket's full electronics end to end. In one case engineers caught a software error, patched it, tested it, and uploaded the fix to a Falcon 9 already sitting on the pad in under thirty minutes, against a shuttle-era norm of a three-week delay for any in-flight problem. [Source: "Liftoff, Part 2: NASA and Cost Engineering"]
+
+- **Set the hiring bar on the work itself, not on the résumé.** Dolly Singh's recruiters cold-called researchers off academic papers and handed out blank envelopes at trade shows inviting selected candidates to private interviews. Software candidates were given problems requiring more than five hundred lines of code against a normal couple of dozen, every finalist wrote an essay to Musk, and Musk personally interviewed nearly all of the first thousand hires, janitors included. [Source: "Liftoff, Part 1: Building Falcon 9 and Dragon"]
+
+- **Redesign from a blank sheet when the adapted version already failed once.** The Roadster had to cram a battery pack into a Lotus Elise chassis. The Model S put a 1,300-pound pack flat along the car's base for a low center of gravity, and Musk overrode his own engineers on an all-aluminum body, on a 17-inch capacitive touchscreen no supplier had ever built for a car, and on the pop-out door handles, rejecting a prototype that had quietly substituted pivoting ones. [Source: "The Revenge of the Electric Car, Part 1: The Model S and Its Financing"]
+
+- **When the pipeline stops converting, put the whole company on the phones.** By February 2013 Tesla had reservations that would not turn into sales, a factory at risk of idling, and a couple of weeks of cash. Musk moved staff out of every department onto phone sales, personally guaranteed Model S resale values, replaced underperforming leaders, and lined up a handshake sale to Google as the fallback. The ad hoc sales team closed enough volume in about two weeks that the Google deal became unnecessary, and Tesla posted its first quarterly profit that May. [Source: "The Revenge of the Electric Car, Part 2: Factory, IPO, and Launch"]
+
+- **Write down the first-principles case against the option everyone assumes is good.** His June 2013 company-wide email on going public states the test explicitly (if being public lowers the odds of establishing life on Mars, do not do it), discloses that SpaceX had just had an awful quarter, cites Tesla being punished brutally for running three weeks late on Q4 production, and proposes structuring private rounds to approximate a public share price without the swings or the reporting burden. He put the numbers in the memo rather than only the argument. [Source: "Appendix 3: The Going Public Memo"]
+
+## Don't
+
+- **Don't take outside money and expect to keep the seat.** Mohr Davidow's $3 million into Zip2 in early 1996 came with Musk pushed out of the CEO role into chief technology officer and Rich Sorkin installed above him. When he later pushed the board to reverse it, they stripped his chairman title instead. Vance treats this as the founding wound of his career, and Musk still calls that board's judgment simply wrong. [Source: "Elon's First Start-Up"]
+
+- **Don't push a technical direction past the person who has to live inside it.** His own post-mortem on losing the PayPal CEO job is unusually free of self-pity: the brand timing was wrong, and the real failure was relational, that he should have spent far more time getting Max Levchin comfortable with a Microsoft-based stack instead of driving the change past him, given Levchin's attachment to the Linux system he and his friends had built. He concluded he would probably have made the board's decision with the board's information. [Source: "The PayPal Ouster, In His Own Words"]
+
+- **Don't declare a production date that no plan supports.** Tesla's new finance director asked the operations head how the car would actually get built and was told, roughly, that production would be declared and a miracle would happen. Tim Watkins's audit found people estimating bulk discounts rather than negotiating real prices, and reported to Musk in mid-2007 that full-scale production could run $170,000 to $200,000 per car against an $85,000 price, with about a third of the cars not working. [Source: "All Electric, Part 2: The Roadster's Manufacturing Crisis and Eberhard's Ouster"]
+
+- **Don't stretch the supply chain across the planet to shave unit cost.** Roadster cells came from China, packs were assembled in Thailand in a bare concrete slab under a roof meant for stove and tire manufacturing, body panels came from France, motors from Taiwan, final assembly from Lotus in England, then shipping around Cape Horn. Tesla paid for most of each car six to nine months before it could book any revenue. [Source: "All Electric, Part 2: The Roadster's Manufacturing Crisis and Eberhard's Ouster"]
+
+- **Don't spend the schedule you saved on a demonstration.** SpaceX announced the five-engine Falcon 5 before Falcon 1 had flown once, and in December 2003 hauled a seven-story Falcon 1 mock-up to sit outside FAA headquarters in Washington. Engineers including Jeremy Hollman saw it as a boondoggle pulled off real work while the engine still would not burn for its full duration. [Source: "Mice in Space, Part 2: Falcon 1 and the Kwajalein Launch Attempts"]
+
+- **Don't assign blame before the analysis comes back.** After the first Falcon 1 launch caught fire twenty-five seconds up in March 2006, Musk and SpaceX initially pinned it on a fitting attributed to technician Jeremy Hollman, who confronted him directly about it. Analysis then showed the fitting had cracked from months of salt corrosion, which Tom Mueller called dumb luck rather than human error. Naming a person costs you that person whether or not the finding holds. [Source: "Mice in Space, Part 2: Falcon 1 and the Kwajalein Launch Attempts"]
+
+- **Don't run a deadline as a consent trick.** His technique was to ask an engineer whether they could do the impossible by a named hour rather than to order it, so the person felt they had personally signed up for the date. Kevin Brogan describes him picking the most aggressive schedule imaginable and then accelerating it further, and Gwynne Shotwell was routinely left managing customers when internal targets leaked out as public promises. Manufactured agreement is not agreement, and the schedule slips anyway. [Source: "Liftoff, Part 1: Building Falcon 9 and Dragon"]
+
+- **Don't treat people as consumable and expect the account not to come due.** A former employee's summary was that people who worked for him were used "like ammunition," spent for a purpose and discarded; several communications staff lasted weeks. Mary Beth Brown ran his schedule and press across two companies for more than a decade, and when she asked to be paid on par with SpaceX's top executives, Musk sent her on leave, absorbed her duties himself, and told her on her return that he no longer needed her. Straubel describes employees going shell-shocked under the impatience. [Source: "The Unified Field Theory of Elon Musk, Part 1: Management Style and the Machine of Musk Co."]
+
+## Hold
+
+- **The capacity to absorb punishment is the actual differentiator, and it is not a technique you can adopt.** Antonio Gracias's verdict on 2008 was that Musk did not merely survive it, he kept working and stayed focused, and that he had never seen anything like the man's ability to take pain. Vance describes him in that stretch with sunken, shadowed eyes after weeks of little sleep. Holding this stops you reading the cost decisions as the cause of the outcome. Refusing it lets you copy the spreadsheets and expect the same ending. [Source: "The Crucible of 2008, Part 2: The December Save"]
+
+- **The coldness toward individuals and the seriousness about the mission are one fact, not two.** Vance rejects the armchair diagnosis and argues instead that Musk experiences a colleague's mistake as a delay to a species-level project rather than as a personal failing, which is why he can be genuinely warm to his inner circle and unsentimental in the office. Straubel's stated method for surviving it is to set his own ego aside, understand Musk's goals, keep his own in sync, and translate. Held, you can take the standard without pretending the treatment was incidental to it. Not held, you start telling yourself the mission requires the treatment. [Source: "The Unified Field Theory of Elon Musk, Part 2: The Inner Circle and Vance's Theory of Musk"]
+
+- **The personal bill arrives at the same time as the win, not afterward.** 2008 is the year Falcon 1 reached orbit on its fourth attempt and NASA awarded a $1.6 billion resupply contract days before Christmas. It is also the year he filed for divorce after a same-day ultimatum and cut off Justine's credit card, gave up his jet for commercial flights, borrowed from friends, and watched his brother Kimbal sell his remaining investments and come near personal bankruptcy to help. His and Justine's infant son had died in 2002, and his refusal to grieve openly stayed a permanent fracture between them. There is nothing to perform here, only a refusal to file the cost under someone else's account. [Source: "The Crucible of 2008, Part 1: Collapse"]
+
+## The one line
+
+Recompute the price from raw materials, build in-house whatever no supplier can justify by physics, and count the human cost as a line in the budget rather than as something the mission is allowed to excuse.

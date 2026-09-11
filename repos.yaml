@@ -13,17 +13,45 @@ provides:
     at: src/lib/figures.ts
   - id: legend-match
     what: routes a free-text question to the figure whose domains best fit it
-    at: src/app/api/match
+    at: src/app/api/match/route.ts
   - id: corpus-grounding
     what: turns curated YouTube-corpus episode files into cited grounding blocks injected into a chat figure's system prompt, so [Source: ...] citations point at real episodes instead of being invented
     at: src/lib/figureSources.ts
   - id: book-ingestion
     what: finds, dedupes, and extracts text from a local PDF library (359 books ingested, ~23M words), the same pipeline that could source book-grounded figures the way figureSources.ts sources YouTube-grounded ones
     at: scripts/ingest-shelf.mjs
+  - id: openrouter-waterfall
+    what: ranks the live OpenRouter catalog into two free quality models plus one capped-cost fallback, retries empty responses, and streams the actual route metadata to chat clients
+    at: src/lib/openrouter.ts
+  - id: source-retrieval
+    what: ranks synthesized source episodes against the current question before source chat, preserving cited evidence while keeping prompt size bounded as corpora grow
+    at: src/lib/sourceRetrieval.ts
+  - id: founders-workspace
+    what: completes the controllable Sage-like loop with a live-decision composer, curated discovery, ranked synthesis search, expandable evidence, and device-private saved questions
+    at: src/components/FoundersLensLibrary.tsx
+  - id: founders-corpus-operations
+    what: refreshes both private David Senra feeds through YouChop, reports coverage and local-index readiness, and generates the editorial synthesis queue without publishing transcripts
+    at: scripts/refresh-founders-corpus.mjs
+  - id: source-runtime-policy
+    what: enforces per-source retrieval depth, source exclusions, citation requirements, raw-transcript blocking, and provider-retention policy
+    at: src/lib/sourcePolicy.ts
+  - id: life-context-inbox
+    what: reads the newest "# Personal context" brief that themain.quest mailed as a repos.chat notice (subject life-context) from this repository's local mailbox; returns null on Vercel where no mailbox exists
+    at: src/lib/lifeContext.ts
+  - id: life-council
+    what: seats three guides against a life-context brief, each with a role, the specific thing they did that fits, and the first question to ask them; model-routed with a pure domain-overlap fallback so the council is never empty
+    at: src/lib/council.ts
+  - id: council-room
+    what: the /council page and API: loads the mailed brief (or a pasted one), shows it for review, seats the council, and opens the chosen guide's chat with the brief attached through the same session-only intake the homepage uses
+    at: src/app/api/council/route.ts
 
-stack: [next, tailwind, anthropic-sdk]
+stack: [next, tailwind, openrouter-api]
 
 kin:
+  - repo: bookbox.ink
+    why: bookbox.ink is the canonical owner of book discovery, rights-aware ingestion, book corpora, book distillations, book chat, frameworks, skills, exercises, and book agents; summon.guide remains the people-and-guides surface and consumes Bookbox through a compatibility contract.
+  - repo: waterfall.sh
+    why: summon.guide reuses waterfall.sh's proven routing shape, live catalog ranking, bounded free-to-paid fallback, empty-response detection, and visible route metadata, adapted to a server-side Next.js stream rather than importing its Python runtime.
   - repo: book.movie
     why: book.movie's remotion/scripts/render.mjs renders summon.guide episode handoff.json files into parchment-style print video, fetching the real read from this repo's /api/tts (src/app/api/tts/route.ts) and cutting on its measured duration rather than the words-per-minute estimate in scripts/episodes-from-plan.mjs. Adam lost the book.movie domain and considers it expensive to reacquire, so book.movie's code is now effectively the video-rendering arm of summon.guide rather than a standalone product.
   - repo: youchop.app
@@ -34,9 +62,25 @@ kin:
     why: moneymeta ranks the income paths with public data; summon.guide's wealth-themed legends (Rockefeller, Bezos, Musk, Walton, Munger, Franklin) are the mentor layer on top, live people to argue with about the same decisions moneymeta scores
   - repo: skill.supply
     why: skill.supply packages a person for hiring; summon.guide's legends can coach the decision, not just the resume
-  - repo: company.university
-    why: shares the same builder audience and could cross-link the skills board against a legend's domain
-  - repo: vitals.run
-    why: vitals.run states Adam's own sleep/diet/training protocol as static rules; a health-mentor guide layer here (Bryan Johnson, Andrew Huberman, Carnivore Aurelius framing) would give those pages sourced reasoning to chat against instead of a flat page
-  - repo: ness.city
-    why: ness.city's civic layer for the Network School community faces the same "we got kicked out, now what" moment Singapore did in 1965; a sourced Lee Kuan Yew legend here is the mentor to chat against while ness.city works out its own build-an-internet-Singapore strategy
+  - repo: themain.quest
+    why: themain.quest is the present life this council of past lives serves. It mails its "# Personal context" brief (boss, fork, one move, conditions, vitals with amounts redacted) as a repos.chat notice; src/lib/lifeContext.ts reads it, src/lib/council.ts seats the three guides whose own lives answer it, and /council opens the chosen guide's chat with the brief attached for that session only. The Deutsch guide (figures.ts slug "deutsch") stays the grounded mentor for the questbook's fallibilist design.
+  - repo: optimism.fun
+    why: optimism.fun owns problem selection and the private-on-device Last Company commitment brief; summon.guide supplies the cited historical precedent council that pressure-tests the reviewed brief without receiving it until the user explicitly copies it.
+
+exchanges:
+  - id: handoff-book-system
+    with: bookbox.ink
+    trigger: manual
+    asks: inspect summon.guide's book registry, rights metadata, ingestion scripts, private corpora, one-page distillations, profiles, chat runtime, frameworks, and derived skills; migrate the smallest coherent vertical for one rights-verified book without breaking existing Summon users
+    returns: one end-to-end Bookbox book agent with source verification, corpus, chapter map, citations, canonical distillation, chat, and derived skills, plus a stable compatibility contract and migration evidence for Summon
+    permission: branch-pr
+    approval: human-required
+    at: src/lib/books.ts
+  - id: life-context
+    with: themain.quest
+    trigger: manual
+    asks: nothing; themain.quest sends its current "# Personal context" brief as a notice whenever its questbook or outbox changes
+    returns: a seated council (three guides with role, reason, and first question) and a guide chat opened with the brief attached; the brief is never stored on the account and never leaves the browser session except inside the chat request
+    permission: read-inbox
+    approval: signed-in-owner
+    at: src/lib/lifeContext.ts
