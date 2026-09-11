@@ -10,6 +10,8 @@
     "summon": "scripts/summon.mjs"
   },
   "scripts": {
+    "agents:generate": "node --experimental-strip-types scripts/gen-eve-guides.mjs",
+    "agents:check": "node --experimental-strip-types scripts/gen-eve-guides.mjs --check",
     "dev": "next dev",
     "build": "prisma generate && next build",
     "start": "next start",
@@ -30,6 +32,15 @@
     "corpus:founders:refresh": "node scripts/refresh-founders-corpus.mjs",
     "eval:founders": "node --no-warnings --experimental-strip-types scripts/eval-founders-retrieval.mjs",
     "smoke:council": "node --no-warnings --experimental-transform-types --env-file-if-exists=.env.local --import ./scripts/node-server-shim.mjs scripts/smoke-council.mjs",
+    "rag:build": "node scripts/sage-rag/pilot.mjs build",
+    "rag:search": "node scripts/sage-rag/pilot.mjs search",
+    "rag:answer": "node scripts/sage-rag/pilot.mjs answer",
+    "rag:eval": "node --experimental-strip-types scripts/sage-rag/evaluate.mjs",
+    "rag:test": "node --test scripts/sage-rag/pilot.test.mjs",
+    "rag:catalog": "python scripts/sage-rag/reconcile-catalog.py",
+    "rag:reconcile": "python scripts/sage-rag/reconcile-catalog.py",
+    "rag:catalog:details": "python scripts/sage-rag/catalog-details.py",
+    "rag:eval:generation": "node scripts/sage-rag/evaluate-generation.mjs",
     "handles:generate": "node --experimental-strip-types scripts/gen-summon-handles.mjs",
     "handles:check": "node --experimental-strip-types scripts/gen-summon-handles.mjs --check"
   },
@@ -44,6 +55,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "elevenlabs": "^1.59.0",
+    "eve": "^0.52.2",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.33.0",
     "next": "16.2.0",

@@ -7,6 +7,11 @@
   "description": "Install any historical guide's frameworks as Claude Code skills. One plugin per guide — pick exactly who you want to summon into your chats.",
   "plugins": [
     {
+      "name": "pendleton-ward",
+      "source": "./plugins/pendleton-ward",
+      "description": "Creative play and kindness, with exercises derived from public interviews."
+    },
+    {
       "name": "elon",
       "source": "./plugins/elon",
       "description": "Elon Musk — first principles, the five-step manufacturing algorithm, the idiot index. Grounded in Isaacson's biography."
@@ -155,6 +160,11 @@
       "name": "visakan",
       "source": "./plugins/visakan",
       "description": "Visakan Veerasamy, Singaporean writer known for the identity Friendly Ambitious Nerd, on writing in public to think and deviating from the norm on purpose. Grounded in his self published book and essay archive: give yourself permission to want things, write the messy version before the clean one, and claim a name for what you actually are."
+    },
+    {
+      "name": "paul-graham",
+      "source": "./plugins/paul-graham",
+      "description": "Paul Graham's source-backed operating tests for startups, users, maker time, runway, writing, and ambitious work. Grounded in his essays at paulgraham.com."
     }
   ]
 }

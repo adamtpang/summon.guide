@@ -1,4 +1,5 @@
 import { auth } from "@/auth";
+import { isTestingAccess } from "@/lib/membership";
 import { prisma } from "@/lib/prisma";
 import { NextRequest } from "next/server";
 
@@ -7,6 +8,9 @@ export async function GET() {
   const session = await auth();
   if (!session?.user?.id) {
     return Response.json({ credits: 0, signedIn: false });
+  }
+  if (isTestingAccess()) {
+    return Response.json({ credits: null, signedIn: true, unlimited: true });
   }
 
   const user = await prisma.user.findUnique({
@@ -22,6 +26,9 @@ export async function POST(req: NextRequest) {
   const session = await auth();
   if (!session?.user?.id) {
     return Response.json({ error: "Not signed in" }, { status: 401 });
+  }
+  if (isTestingAccess()) {
+    return Response.json({ credits: null, unlimited: true });
   }
 
   const user = await prisma.user.findUnique({

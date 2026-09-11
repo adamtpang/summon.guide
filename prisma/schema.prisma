@@ -8,17 +8,106 @@ datasource db {
 }
 
 model User {
-  id            String    @id @default(cuid())
-  name          String?
-  email         String?   @unique
-  emailVerified DateTime?
-  image         String?
-  credits       Int       @default(10)
-  accounts      Account[]
-  sessions      Session[]
-  feedbacks     Feedback[]
-  createdAt     DateTime  @default(now())
-  updatedAt     DateTime  @updatedAt
+  id                     String                 @id @default(cuid())
+  name                   String?
+  email                  String?                @unique
+  emailVerified          DateTime?
+  image                  String?
+  credits                Int                    @default(10)
+  membershipStatus       MembershipStatus       @default(FREE)
+  membershipSessionsUsed Int                    @default(0)
+  membershipSessionLimit Int                    @default(5)
+  membershipRenewsAt     DateTime?
+  stripeCustomerId       String?                @unique
+  stripeSubscriptionId   String?                @unique
+  accounts               Account[]
+  sessions               Session[]
+  feedbacks              Feedback[]
+  guideRequests          GuideRequest[]
+  mcpAuthorizationCodes  McpAuthorizationCode[]
+  mcpAccessTokens        McpAccessToken[]
+  createdAt              DateTime               @default(now())
+  updatedAt              DateTime               @updatedAt
+}
+
+enum MembershipStatus {
+  FREE
+  ACTIVE
+  PAST_DUE
+  CANCELED
+}
+
+enum GuideRequestKind {
+  PERSON
+  CHANNEL
+  BOOK
+}
+
+enum GuideRequestStatus {
+  REQUESTED
+  TRIAGED
+  SOURCING
+  CORPUS_BUILDING
+  DISTILLING
+  VERIFYING
+  READY
+  DECLINED
+}
+
+model GuideRequest {
+  id             String             @id @default(cuid())
+  userId         String
+  requestedName  String
+  normalizedName String
+  kind           GuideRequestKind
+  problem        String?
+  sourceUrl      String?
+  status         GuideRequestStatus @default(REQUESTED)
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+  user           User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, normalizedName])
+  @@index([normalizedName])
+  @@index([status, createdAt])
+}
+
+model McpOAuthClient {
+  id                 String                 @id @default(cuid())
+  clientId           String                 @unique
+  clientName         String?
+  redirectUris       String
+  createdAt          DateTime               @default(now())
+  authorizationCodes McpAuthorizationCode[]
+  accessTokens       McpAccessToken[]
+}
+
+model McpAuthorizationCode {
+  id            String         @id @default(cuid())
+  codeHash      String         @unique
+  clientId      String
+  userId        String
+  redirectUri   String
+  codeChallenge String
+  expiresAt     DateTime
+  usedAt        DateTime?
+  createdAt     DateTime       @default(now())
+  client        McpOAuthClient @relation(fields: [clientId], references: [clientId], onDelete: Cascade)
+  user          User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model McpAccessToken {
+  id               String         @id @default(cuid())
+  tokenHash        String         @unique
+  refreshTokenHash String?        @unique
+  clientId         String
+  userId           String
+  expiresAt        DateTime
+  revokedAt        DateTime?
+  createdAt        DateTime       @default(now())
+  lastUsedAt       DateTime?
+  client           McpOAuthClient @relation(fields: [clientId], references: [clientId], onDelete: Cascade)
+  user             User           @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model Account {
@@ -51,7 +140,7 @@ model Feedback {
   id         String   @id @default(cuid())
   userId     String
   figureSlug String
-  rating     Int      // 1-5
+  rating     Int // 1-5
   comment    String?
   createdAt  DateTime @default(now())
   user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
@@ -75,11 +164,11 @@ model Feedback {
 // wins the race persists its refresh, the other reads the now-current row instead of
 // retrying with a refresh token that's already been spent.
 model AnthropicOAuthToken {
-  id                    String   @id @default("default")
+  id                    String    @id @default("default")
   accessToken           String
   refreshToken          String
   accessTokenExpiresAt  DateTime
   refreshTokenExpiresAt DateTime?
   scopes                String?
-  updatedAt             DateTime @updatedAt
+  updatedAt             DateTime  @updatedAt
 }

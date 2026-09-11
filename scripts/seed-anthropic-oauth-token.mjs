@@ -20,7 +20,16 @@
 import { readFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { join } from "node:path";
+import { execSync } from "node:child_process";
 import { PrismaClient } from "@prisma/client";
+
+// The CLI caches its access token and only refreshes it lazily, on the next real
+// API call. So the credentials file routinely holds an ALREADY-EXPIRED access
+// token while the CLI still reports "logged in". Seeding that verbatim used to
+// look like it worked and then fail in production with "missing a valid
+// Anthropic API key", because the site then had to refresh the token itself and
+// that refresh is rate-limited. Refresh locally first, then copy the result.
+const FRESHNESS_BUFFER_MS = 10 * 60 * 1000;
 
 const CREDENTIALS_PATH = process.env.CLAUDE_CONFIG_DIR
   ? join(process.env.CLAUDE_CONFIG_DIR, ".credentials.json")
@@ -44,8 +53,46 @@ function loadLocalCredentials() {
   return oauth;
 }
 
+/**
+ * Returns credentials whose access token is actually still valid.
+ *
+ * `claude auth status` does NOT trigger a refresh (it reports logged-in against
+ * an expired access token), so the only reliable way to make the CLI renew is a
+ * real, minimal prompt call. The CLI owns its own credentials file, including
+ * rotating the refresh token, so letting it do the refresh is what keeps the
+ * local login intact. Refreshing here by hand would rotate the refresh token out
+ * from under the CLI and break it.
+ */
+function loadFreshCredentials() {
+  let oauth = loadLocalCredentials();
+  const msLeft = new Date(oauth.expiresAt).getTime() - Date.now();
+  if (msLeft > FRESHNESS_BUFFER_MS) return oauth;
+
+  console.log(
+    msLeft <= 0
+      ? "Local access token is expired, asking the Claude CLI to refresh it..."
+      : "Local access token expires shortly, asking the Claude CLI to refresh it..."
+  );
+  try {
+    execSync('claude -p "ok"', { stdio: "ignore", timeout: 120_000 });
+  } catch (err) {
+    console.error(`Could not force a token refresh via the Claude CLI: ${err.message}`);
+    console.error('Run `claude -p "ok"` yourself to confirm the login still works, then retry.');
+    process.exit(1);
+  }
+
+  oauth = loadLocalCredentials();
+  if (new Date(oauth.expiresAt).getTime() <= Date.now()) {
+    console.error("Access token is STILL expired after a refresh attempt. Not seeding a dead token.");
+    console.error("Log in again with `claude` on this machine, then retry.");
+    process.exit(1);
+  }
+  console.log("Refreshed.");
+  return oauth;
+}
+
 async function main() {
-  const oauth = loadLocalCredentials();
+  const oauth = loadFreshCredentials();
   const accessTokenExpiresAt = new Date(oauth.expiresAt);
   const refreshTokenExpiresAt = oauth.refreshTokenExpiresAt
     ? new Date(oauth.refreshTokenExpiresAt)

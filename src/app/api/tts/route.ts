@@ -44,12 +44,11 @@ export async function POST(req: NextRequest) {
     return new Response(audioBuffer, {
       headers: {
         "Content-Type": "audio/mpeg",
-        "Cache-Control": "public, max-age=3600",
+        "Cache-Control": "private, no-store",
       },
     });
   } catch (error) {
-    console.error("TTS error:", error);
-    const message = error instanceof Error ? error.message : "TTS failed";
-    return Response.json({ error: message }, { status: 500 });
+    console.error("TTS request failed", error instanceof Error ? error.name : "UnknownError");
+    return Response.json({ error: "Voice is unavailable right now." }, { status: 503, headers: { "Cache-Control": "private, no-store" } });
   }
 }

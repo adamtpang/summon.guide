@@ -42,6 +42,22 @@ const norm = (s) =>
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
 
+const titleMatches = (query, candidate) => {
+  const ignored = new Set(['a', 'an', 'the']);
+  const queryTokens = norm(query).split(' ').filter((token) => token && !ignored.has(token));
+  const candidateTokens = new Set(norm(candidate || '').split(' ').filter(Boolean));
+  return queryTokens.length > 0 && queryTokens.every((token) => candidateTokens.has(token));
+};
+
+const INGESTIBLE_LICENSES = new Set([
+  'public domain',
+  'public domain scan',
+  'open access',
+  'author authorized',
+]);
+
+const isIngestible = (hit) => INGESTIBLE_LICENSES.has(hit.license);
+
 const jget = async (url) => {
   try {
     const r = await fetch(url, { headers: { 'User-Agent': 'summon.guide book finder' } });
@@ -68,7 +84,14 @@ function findLocal(t) {
       if (!/\.(pdf|epub|mobi|azw3)$/i.test(e.name)) continue;
       const n = norm(e.name);
       if (n.includes(want) || want.includes(n)) {
-        hits.push({ source: 'your library', title: e.name, url: p.replace(/\\/g, '/'), format: path.extname(e.name).slice(1), license: 'owned' });
+        hits.push({
+          source: 'your library (unverified)',
+          title: e.name,
+          url: p.replace(/\\/g, '/'),
+          format: path.extname(e.name).slice(1),
+          license: 'local candidate',
+          verification: 'Confirm the title/copyright pages and lawful acquisition before ingestion.',
+        });
       }
     }
   }
@@ -129,13 +152,16 @@ async function findDOAB(t) {
     'https://directory.doabooks.org/rest/search?query=' + encodeURIComponent(t) + '&expand=metadata'
   );
   if (!Array.isArray(j) || !j.length) return [];
-  return j.slice(0, 2).map((b) => ({
-    source: 'DOAB (open access)',
-    title: b.name || t,
-    url: b.handle ? 'https://directory.doabooks.org/handle/' + b.handle : 'https://directory.doabooks.org',
-    format: 'pdf',
-    license: 'open access',
-  }));
+  return j
+    .filter((b) => titleMatches(t, b.name))
+    .slice(0, 2)
+    .map((b) => ({
+      source: 'DOAB (open access)',
+      title: b.name || t,
+      url: b.handle ? 'https://directory.doabooks.org/handle/' + b.handle : 'https://directory.doabooks.org',
+      format: 'pdf',
+      license: 'open access',
+    }));
 }
 
 async function findAll(t) {
@@ -157,12 +183,13 @@ if (BACKLOG) {
   const results = [];
   for (const w of wanted.slice(0, 40)) {
     const hits = await findAll(w);
-    const legal = hits.filter((h) => h.license !== 'controlled digital lending');
-    results.push({ title: w, hits: hits.length, best: hits[0] || null });
-    const mark = legal.length ? 'FREE ' : hits.length ? 'lend ' : '  .  ';
+    const ingestible = hits.filter(isIngestible);
+    const localCandidate = hits.some((h) => h.license === 'local candidate');
+    results.push({ title: w, hits: hits.length, best: hits[0] || null, ingestible: ingestible.length > 0 });
+    const mark = ingestible.length ? 'FREE ' : localCandidate ? 'check' : hits.length ? 'lend ' : '  .  ';
     console.log('  ' + mark + w.slice(0, 52).padEnd(54) + (hits[0] ? hits[0].source : 'no legal source found'));
   }
-  const free = results.filter((r) => r.best && r.best.license !== 'controlled digital lending').length;
+  const free = results.filter((r) => r.ingestible).length;
   console.log('\n' + free + ' of ' + results.length + ' have a freely ingestible source.');
   process.exit(0);
 }
@@ -191,10 +218,13 @@ if (JSON_OUT) {
     console.log('    ' + h.format + ', ' + h.license);
     console.log('');
   }
-  const ingestible = hits.filter((h) => h.license !== 'controlled digital lending');
+  const ingestible = hits.filter(isIngestible);
   if (ingestible.length) {
     console.log('Ingestible now: ' + ingestible.length + ' of ' + hits.length + '.');
     console.log('  node scripts/pdf-to-md.mjs <downloaded file>');
+  } else if (hits.some((h) => h.license === 'local candidate')) {
+    console.log('Local candidate found, but it is not corpus-ready yet.');
+    console.log('Verify the exact edition, title/copyright pages, and lawful acquisition first.');
   } else {
     console.log('Only lending copies found. Borrowable to read, not ingestible.');
   }

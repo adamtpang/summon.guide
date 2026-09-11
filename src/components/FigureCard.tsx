@@ -9,7 +9,7 @@ export default function FigureCard({ figure }: { figure: Figure }) {
   const [imgError, setImgError] = useState(false);
 
   return (
-    <Link href={`/chat/${figure.slug}`}>
+    <Link href={`/${figure.slug}`}>
       <div className="group relative bg-ink-900/40 border border-ink-700/30 rounded-xl overflow-hidden hover:border-gold-500/30 transition-all duration-500 cursor-pointer hover:shadow-[0_0_40px_rgba(201,168,76,0.06)]">
         <div className="aspect-[3/4] relative overflow-hidden">
           {/* Portrait image or gradient fallback */}

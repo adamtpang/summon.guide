@@ -17,7 +17,7 @@ export default function AuthButton({ dark = false }: { dark?: boolean }) {
     return (
       <button
         onClick={() => signOut()}
-        className={`flex items-center gap-2 text-sm transition-colors ${
+        className={`flex min-h-11 items-center gap-2 px-1 text-sm transition-colors ${
           dark
             ? "text-warm-400 hover:text-warm-50"
             : "text-warm-400 hover:text-ink-950"
@@ -45,7 +45,7 @@ export default function AuthButton({ dark = false }: { dark?: boolean }) {
   return (
     <button
       onClick={() => signIn("google")}
-      className={`text-sm transition-colors border rounded-full px-4 py-2 ${
+      className={`min-h-11 text-sm transition-colors border rounded-full px-4 py-2 ${
         dark
           ? "text-warm-400 border-white/15 hover:text-warm-50 hover:border-gold-500/60"
           : "text-warm-500 border-warm-300 hover:text-ink-950 hover:border-ink-950"

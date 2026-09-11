@@ -1,0 +1,4568 @@
+{
+  "source": "sivers-articles",
+  "label": "Derek Sivers articles",
+  "indexUrl": "https://sive.rs/blog",
+  "syncedAt": "2026-08-24T07:26:36.019Z",
+  "pages": [
+    {
+      "rank": 1,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/search",
+      "file": "001-derek-sivers.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fetchedAt": "2026-08-24T07:20:51.317Z"
+    },
+    {
+      "rank": 2,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/sx",
+      "file": "002-derek-sivers.md",
+      "sha256": "4bf0fcef6e39c417a18285a6aac340d6fd63360f97ddd54f08f1fee6679298e8",
+      "fetchedAt": "2026-08-24T07:20:51.865Z"
+    },
+    {
+      "rank": 3,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u",
+      "file": "003-derek-sivers.md",
+      "sha256": "2d93e6feadb8a394bb2aadd1b764914054d922d775b2211a30f77ef8176f4a16",
+      "fetchedAt": "2026-08-24T07:20:52.687Z"
+    },
+    {
+      "rank": 4,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/scr",
+      "file": "004-derek-sivers.md",
+      "sha256": "b188143326deb6c77f720fcdf8f05474c1b464d43bb88b450312f90656f4e9c4",
+      "fetchedAt": "2026-08-24T07:20:53.192Z"
+    },
+    {
+      "rank": 5,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/a",
+      "file": "005-derek-sivers.md",
+      "sha256": "4a9b70596a593b93ee9d4cd292ad78b8e36b8d1268db957ea26a2a56f38df0f1",
+      "fetchedAt": "2026-08-24T07:20:53.793Z"
+    },
+    {
+      "rank": 6,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/n",
+      "file": "006-derek-sivers.md",
+      "sha256": "f0c85a0b2cb42d9975f0ccc74e59d8093c92ef75faf496ff2a456815acf87d35",
+      "fetchedAt": "2026-08-24T07:20:55.826Z"
+    },
+    {
+      "rank": 7,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/no",
+      "file": "007-derek-sivers.md",
+      "sha256": "22a64d0b8c3df50605f8d7e9d52cfd7652c2afa4e5355e85348d4f7b0002e0d7",
+      "fetchedAt": "2026-08-24T07:20:56.337Z"
+    },
+    {
+      "rank": 8,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/h",
+      "file": "008-derek-sivers.md",
+      "sha256": "78b9fc7f0a7d967c392a7bb8104b12c2da5e9839fc8d063b2a7e161bb0fa8a7c",
+      "fetchedAt": "2026-08-24T07:20:58.406Z"
+    },
+    {
+      "rank": 9,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/m",
+      "file": "009-derek-sivers.md",
+      "sha256": "b1d0dd03ca208a493349e85f8b6ed91252df8b581d822523505f530b6adb1b56",
+      "fetchedAt": "2026-08-24T07:20:59.208Z"
+    },
+    {
+      "rank": 10,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mo",
+      "file": "010-derek-sivers.md",
+      "sha256": "fa1a7e51407e23390ae95ecb07749889917482f70e91b89f0b0d06effd6a3438",
+      "fetchedAt": "2026-08-24T07:20:59.696Z"
+    },
+    {
+      "rank": 11,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/j",
+      "file": "011-derek-sivers.md",
+      "sha256": "7dcd000c1f60257ffcd1005eab64824fd0d7e0f1d54fdb66503c5e4d7531e580",
+      "fetchedAt": "2026-08-24T07:21:00.255Z"
+    },
+    {
+      "rank": 12,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/op",
+      "file": "012-derek-sivers.md",
+      "sha256": "8d61a7c7e4c86341a316f007cf3c076fc666ab1cca99111126f08604377d5b76",
+      "fetchedAt": "2026-08-24T07:21:00.737Z"
+    },
+    {
+      "rank": 13,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/z",
+      "file": "013-derek-sivers.md",
+      "sha256": "7746c9462d098a52433f5967e688f7e047a61a56f58dc5bfcab32b93b024d35b",
+      "fetchedAt": "2026-08-24T07:21:01.253Z"
+    },
+    {
+      "rank": 14,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/this",
+      "file": "014-derek-sivers.md",
+      "sha256": "ac02cc5943ef6cc2919a50e3bf72b0482107a49ddd61b93b427ba7a100df6194",
+      "fetchedAt": "2026-08-24T07:21:01.735Z"
+    },
+    {
+      "rank": 15,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/fit",
+      "file": "015-derek-sivers.md",
+      "sha256": "15fb1c264f255e2f17b546a78feb38be36937e119fc65eb902d3e03712160001",
+      "fetchedAt": "2026-08-24T07:21:02.496Z"
+    },
+    {
+      "rank": 16,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/n0",
+      "file": "016-derek-sivers.md",
+      "sha256": "084c3038812a451b561c041b6d4c7a65014886c8787730d029cf793edc01cc9e",
+      "fetchedAt": "2026-08-24T07:21:03.076Z"
+    },
+    {
+      "rank": 17,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/4s4b",
+      "file": "017-derek-sivers.md",
+      "sha256": "3a82e4486be434877ebcaa17bcfaa40ab064eddc29ab9821f618f743d1dec6f7",
+      "fetchedAt": "2026-08-24T07:21:03.844Z"
+    },
+    {
+      "rank": 18,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/4d",
+      "file": "018-derek-sivers.md",
+      "sha256": "e28fb776b24a7de74bc59800ddc1c1cf1463ae56db5b6430f2301e63372cb508",
+      "fetchedAt": "2026-08-24T07:21:04.496Z"
+    },
+    {
+      "rank": 19,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/netizen",
+      "file": "019-derek-sivers.md",
+      "sha256": "6529d6fbdb8ddc191a51c540c6a4c41fc1ac75f79571468fba4884cc665858b6",
+      "fetchedAt": "2026-08-24T07:21:05.259Z"
+    },
+    {
+      "rank": 20,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/socials",
+      "file": "020-derek-sivers.md",
+      "sha256": "0f737a322da56b0874d3bfd07e122d8ba582a5fc5c653e4dc1187a97808524a4",
+      "fetchedAt": "2026-08-24T07:21:06.137Z"
+    },
+    {
+      "rank": 21,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/bfaq",
+      "file": "021-derek-sivers.md",
+      "sha256": "25c9310ccc411abb67ad7d1438afcbb124851cea855a78d7c2d848e90d434fa7",
+      "fetchedAt": "2026-08-24T07:21:06.854Z"
+    },
+    {
+      "rank": 22,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/off23",
+      "file": "022-derek-sivers.md",
+      "sha256": "b17509cd102164fb35f02ba6459be38011b08d4c027da48c135d999cadc64524",
+      "fetchedAt": "2026-08-24T07:21:07.319Z"
+    },
+    {
+      "rank": 23,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u61",
+      "file": "023-derek-sivers.md",
+      "sha256": "a20074aa879a03aba5a1783eb014dd27942676cd1b52f7c173d6a6d79e9dc2f2",
+      "fetchedAt": "2026-08-24T07:21:07.926Z"
+    },
+    {
+      "rank": 24,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u60",
+      "file": "024-derek-sivers.md",
+      "sha256": "8eb1d142152beb2695698ad59e9645054fab375453625baaf1a9aef030160360",
+      "fetchedAt": "2026-08-24T07:21:08.426Z"
+    },
+    {
+      "rank": 25,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u59",
+      "file": "025-derek-sivers.md",
+      "sha256": "dfbff25c4aaf6446bbebad809810310d95eff1a18be51891f2214f5826074c13",
+      "fetchedAt": "2026-08-24T07:21:08.987Z"
+    },
+    {
+      "rank": 26,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u58",
+      "file": "026-derek-sivers.md",
+      "sha256": "16777f3e1172e52fb3db35805143e9f8cae95ac4ec8ef2cc5e90c72d5219e2c9",
+      "fetchedAt": "2026-08-24T07:21:09.481Z"
+    },
+    {
+      "rank": 27,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u57",
+      "file": "027-derek-sivers.md",
+      "sha256": "4957c26cdf425ba58653756ab66bd63f703253d0e70b3c45bf55ce96415e899c",
+      "fetchedAt": "2026-08-24T07:21:09.954Z"
+    },
+    {
+      "rank": 28,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u56",
+      "file": "028-derek-sivers.md",
+      "sha256": "f9ea5b6a9a40004c2c07be4adf8eae66b7547c2656e65cb1e36116ab7cb52217",
+      "fetchedAt": "2026-08-24T07:21:10.489Z"
+    },
+    {
+      "rank": 29,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u55",
+      "file": "029-derek-sivers.md",
+      "sha256": "83d852310eab729feb3114151f4ca21cc758dd630e5a8ec66c3e4b51a619bcf9",
+      "fetchedAt": "2026-08-24T07:21:11.110Z"
+    },
+    {
+      "rank": 30,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u54",
+      "file": "030-derek-sivers.md",
+      "sha256": "756dc778fc3fd18e59db99bf996b25bef936a5739280dfb0dfe53fdfe70d8e40",
+      "fetchedAt": "2026-08-24T07:21:11.641Z"
+    },
+    {
+      "rank": 31,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u53",
+      "file": "031-derek-sivers.md",
+      "sha256": "46972ded65a1658522bc56792f7092f22f8e49c0665ab79af67f7554d1c91a52",
+      "fetchedAt": "2026-08-24T07:21:12.258Z"
+    },
+    {
+      "rank": 32,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u52",
+      "file": "032-derek-sivers.md",
+      "sha256": "257bfc508c8fb47b5f823878e3d48f82d06266e08ad4776cdd0da13b7348a980",
+      "fetchedAt": "2026-08-24T07:21:12.734Z"
+    },
+    {
+      "rank": 33,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u51",
+      "file": "033-derek-sivers.md",
+      "sha256": "657e5b69c1f7aba3ba260e5ffdc8c40dac9300fa100faab5671e5f084818e01d",
+      "fetchedAt": "2026-08-24T07:21:13.252Z"
+    },
+    {
+      "rank": 34,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u50",
+      "file": "034-derek-sivers.md",
+      "sha256": "3b87ec6d9b4348be33bbf12e3a15005b8a27e9ed324f1231dc996d9d8ad48e7e",
+      "fetchedAt": "2026-08-24T07:21:13.758Z"
+    },
+    {
+      "rank": 35,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u49",
+      "file": "035-derek-sivers.md",
+      "sha256": "7f7ea05f126e2bc206c1549aa2ff970f0d8f4cb741d07f47c12dece48a0ce0c4",
+      "fetchedAt": "2026-08-24T07:21:14.274Z"
+    },
+    {
+      "rank": 36,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u48",
+      "file": "036-derek-sivers.md",
+      "sha256": "e8d8516e84077ca7c7f695449e40f53ad478411976863f446206ce281eddc95b",
+      "fetchedAt": "2026-08-24T07:21:14.737Z"
+    },
+    {
+      "rank": 37,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u47",
+      "file": "037-derek-sivers.md",
+      "sha256": "39c78e1fe533360263261cc38cea20002c4797eaf746e71eb41b6268be5aa2b7",
+      "fetchedAt": "2026-08-24T07:21:15.542Z"
+    },
+    {
+      "rank": 38,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u46",
+      "file": "038-derek-sivers.md",
+      "sha256": "40e1d61e451484abf5fc08fb71d4a5957150d7c59e8d6965aafb3f80c240daf3",
+      "fetchedAt": "2026-08-24T07:21:16.024Z"
+    },
+    {
+      "rank": 39,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u45",
+      "file": "039-derek-sivers.md",
+      "sha256": "d896f2b0e0e4e7e956f59d1ee4e02984c18c257d16d67a751c09e18385d65b35",
+      "fetchedAt": "2026-08-24T07:21:16.610Z"
+    },
+    {
+      "rank": 40,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u44",
+      "file": "040-derek-sivers.md",
+      "sha256": "2412d74dee33314b845788a898e8d663a1ad77470eda0c4034ef76f15376aef8",
+      "fetchedAt": "2026-08-24T07:21:17.086Z"
+    },
+    {
+      "rank": 41,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u43",
+      "file": "041-derek-sivers.md",
+      "sha256": "f1d7cf0fa43685ac9993b244e4a2a204dfc7da578401ac5cd3f20c71cd179fef",
+      "fetchedAt": "2026-08-24T07:21:17.586Z"
+    },
+    {
+      "rank": 42,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u42",
+      "file": "042-derek-sivers.md",
+      "sha256": "a216dccc6a7e8d62aa7105d488342f9540de48ef832f31ca65fa088184fb6f53",
+      "fetchedAt": "2026-08-24T07:21:18.067Z"
+    },
+    {
+      "rank": 43,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u41",
+      "file": "043-derek-sivers.md",
+      "sha256": "2f881f740e34e60ee16d51b09ec198cdaa5942ff09d66c117eec9c87abdc663d",
+      "fetchedAt": "2026-08-24T07:21:18.845Z"
+    },
+    {
+      "rank": 44,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u40",
+      "file": "044-derek-sivers.md",
+      "sha256": "655a27fddd237661f6b383deeca7b4f0702821a17e877b020b973555a437f67d",
+      "fetchedAt": "2026-08-24T07:21:19.322Z"
+    },
+    {
+      "rank": 45,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u39",
+      "file": "045-derek-sivers.md",
+      "sha256": "5c8988c289be3e281463d25728203cb47a51a52c4db95acd69753b5531a44724",
+      "fetchedAt": "2026-08-24T07:21:19.799Z"
+    },
+    {
+      "rank": 46,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u38",
+      "file": "046-derek-sivers.md",
+      "sha256": "33b56219ff4803b30f7b30a40c3e6e729487163cb59cdd506418f8f3aec65eb9",
+      "fetchedAt": "2026-08-24T07:21:20.338Z"
+    },
+    {
+      "rank": 47,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u37",
+      "file": "047-derek-sivers.md",
+      "sha256": "d7a3eb936814b40765e13c3cc1a02283aab527cbc663dc458040b96d53cbb319",
+      "fetchedAt": "2026-08-24T07:21:20.845Z"
+    },
+    {
+      "rank": 48,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u36",
+      "file": "048-derek-sivers.md",
+      "sha256": "3a77a4a9212344a54f3e81e84e9a01be49aba0d540ca073f12afc3cc968446e3",
+      "fetchedAt": "2026-08-24T07:21:21.303Z"
+    },
+    {
+      "rank": 49,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u35",
+      "file": "049-derek-sivers.md",
+      "sha256": "93e8566d519807b99fbe56f0251f32489f7e95cd25e54dd3abccd9045ae6de0e",
+      "fetchedAt": "2026-08-24T07:21:21.849Z"
+    },
+    {
+      "rank": 50,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u34",
+      "file": "050-derek-sivers.md",
+      "sha256": "eecacf23f71c66d0bc788674a64a9043733acf48aded2e0d269e9e5d9a67bcf9",
+      "fetchedAt": "2026-08-24T07:21:22.374Z"
+    },
+    {
+      "rank": 51,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u33",
+      "file": "051-derek-sivers.md",
+      "sha256": "62278c0e771bc818a8e99241c791a79d697a94b67a4c84f4f74b398961aaf989",
+      "fetchedAt": "2026-08-24T07:21:23.075Z"
+    },
+    {
+      "rank": 52,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u32",
+      "file": "052-derek-sivers.md",
+      "sha256": "6e93759010946e67119693fbe8224509bb184d5b61c40491b78e04acc5a72a05",
+      "fetchedAt": "2026-08-24T07:21:23.584Z"
+    },
+    {
+      "rank": 53,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u31",
+      "file": "053-derek-sivers.md",
+      "sha256": "d6064e6259b056b8fa7c2829247c4dc5e160350ff0dfbf33da34b098452f975a",
+      "fetchedAt": "2026-08-24T07:21:24.146Z"
+    },
+    {
+      "rank": 54,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u30",
+      "file": "054-derek-sivers.md",
+      "sha256": "766477d891d577337c4370fef1e0e93d8d24296f8f6f96f33ec4f533696fea8b",
+      "fetchedAt": "2026-08-24T07:21:24.819Z"
+    },
+    {
+      "rank": 55,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u29",
+      "file": "055-derek-sivers.md",
+      "sha256": "d46a591e4e703ec0e4c71123cd231b09648d363743cbd5439b8b7c04fdd7dca2",
+      "fetchedAt": "2026-08-24T07:21:25.472Z"
+    },
+    {
+      "rank": 56,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u28",
+      "file": "056-derek-sivers.md",
+      "sha256": "4268821555b74a602a4b15966e2b1d23dd859727d95098a1f89964f72ff67685",
+      "fetchedAt": "2026-08-24T07:21:26.015Z"
+    },
+    {
+      "rank": 57,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u27",
+      "file": "057-derek-sivers.md",
+      "sha256": "d1778204c5697fee89c12c9a1331a13134275fa6d81846fb396154acb2c892c5",
+      "fetchedAt": "2026-08-24T07:21:26.605Z"
+    },
+    {
+      "rank": 58,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u26",
+      "file": "058-derek-sivers.md",
+      "sha256": "b9599666abe735fe4ef291ecf1fbce9f252df3a345018f99460dd11b33e369b7",
+      "fetchedAt": "2026-08-24T07:21:27.107Z"
+    },
+    {
+      "rank": 59,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u25",
+      "file": "059-derek-sivers.md",
+      "sha256": "68966872e3d3f6438b82c2feb5a5b6d8858aa88779d94de23c92e12f3d3d212b",
+      "fetchedAt": "2026-08-24T07:21:27.648Z"
+    },
+    {
+      "rank": 60,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u24",
+      "file": "060-derek-sivers.md",
+      "sha256": "7b0c47429a1fdb31150db64aeb2bd2e7b59d14bbd4f90a55dfe3492ce8b45afe",
+      "fetchedAt": "2026-08-24T07:21:28.171Z"
+    },
+    {
+      "rank": 61,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u23",
+      "file": "061-derek-sivers.md",
+      "sha256": "5233f2012a1208638e713b4330ca67b11f2ff8309863d1887663702ff88430a5",
+      "fetchedAt": "2026-08-24T07:21:28.714Z"
+    },
+    {
+      "rank": 62,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u22",
+      "file": "062-derek-sivers.md",
+      "sha256": "6d9b2654ce903b52ffe7ff221cfb491936becd671e3ad1b4522b41aa0969f669",
+      "fetchedAt": "2026-08-24T07:21:29.231Z"
+    },
+    {
+      "rank": 63,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u21",
+      "file": "063-derek-sivers.md",
+      "sha256": "5141a3611fa7020bbaa272ec483435889d43c0ff82bad6ad84f5a4d554a723f0",
+      "fetchedAt": "2026-08-24T07:21:29.701Z"
+    },
+    {
+      "rank": 64,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u20",
+      "file": "064-derek-sivers.md",
+      "sha256": "f7e2fc884f60bf85139d2d88aad2e55efc6ebe61bbd03319d046bf5a2aef972c",
+      "fetchedAt": "2026-08-24T07:21:30.227Z"
+    },
+    {
+      "rank": 65,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u19",
+      "file": "065-derek-sivers.md",
+      "sha256": "6bb35adf47658cdff591fd027502c8c8682326d60689b163eb7cf4490a46135d",
+      "fetchedAt": "2026-08-24T07:21:30.770Z"
+    },
+    {
+      "rank": 66,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u18",
+      "file": "066-derek-sivers.md",
+      "sha256": "25dc94c3885b0c8476348146596cdf531cd02ebbb8c10b127af6e2612b3a2a97",
+      "fetchedAt": "2026-08-24T07:21:31.235Z"
+    },
+    {
+      "rank": 67,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u17",
+      "file": "067-derek-sivers.md",
+      "sha256": "c1c3e486be77dddfdc530d9239286d48de09d31cea18f0bb351f75b99398f79a",
+      "fetchedAt": "2026-08-24T07:21:31.710Z"
+    },
+    {
+      "rank": 68,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u16",
+      "file": "068-derek-sivers.md",
+      "sha256": "222976063dc33cc0be3c612ea2728b9d17eccc4d1bc6a34268a5b5bab2a9bc6f",
+      "fetchedAt": "2026-08-24T07:21:32.203Z"
+    },
+    {
+      "rank": 69,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u15",
+      "file": "069-derek-sivers.md",
+      "sha256": "68f51e7955c1c63aa848204d8e42a4730c6427a205d500a7af28778af2d2bb62",
+      "fetchedAt": "2026-08-24T07:21:32.735Z"
+    },
+    {
+      "rank": 70,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u14",
+      "file": "070-derek-sivers.md",
+      "sha256": "5720e4b2ddb0a78aeaec44e69aec23bc34a51965f2cea049edde73ca7849c296",
+      "fetchedAt": "2026-08-24T07:21:33.249Z"
+    },
+    {
+      "rank": 71,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u13",
+      "file": "071-derek-sivers.md",
+      "sha256": "2b5de6d3e4d73c437ebee88ebdee69e430c39cf9ef0b1df233bf7fc84588df88",
+      "fetchedAt": "2026-08-24T07:21:33.724Z"
+    },
+    {
+      "rank": 72,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u12",
+      "file": "072-derek-sivers.md",
+      "sha256": "826c8a51507155601da0c2acfe05e009de33ba00b3cd80bb84cebb2114ad4827",
+      "fetchedAt": "2026-08-24T07:21:34.238Z"
+    },
+    {
+      "rank": 73,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u11",
+      "file": "073-derek-sivers.md",
+      "sha256": "8d02df9115a549da5f270b9cda34057916513a2b2eae2a79965338d7968dff4d",
+      "fetchedAt": "2026-08-24T07:21:34.739Z"
+    },
+    {
+      "rank": 74,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u10",
+      "file": "074-derek-sivers.md",
+      "sha256": "ab56923de362eb5707f77097fe4f1201401e82c56e64938e4107b6092f1f7f4a",
+      "fetchedAt": "2026-08-24T07:21:35.225Z"
+    },
+    {
+      "rank": 75,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u09",
+      "file": "075-derek-sivers.md",
+      "sha256": "c5d2339ee15a73543e4fd2ba68cafbec8d5f59ebee2f5256f1f39ca321c0297f",
+      "fetchedAt": "2026-08-24T07:21:35.710Z"
+    },
+    {
+      "rank": 76,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u08",
+      "file": "076-derek-sivers.md",
+      "sha256": "50d56d821439474108311578be2d49f5544c1a49a5387bbc75bda26e924472d0",
+      "fetchedAt": "2026-08-24T07:21:36.184Z"
+    },
+    {
+      "rank": 77,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u07",
+      "file": "077-derek-sivers.md",
+      "sha256": "c59504370784c6aea7ae989a458a9818dad9b10ebf6344a86b57ac650a580c33",
+      "fetchedAt": "2026-08-24T07:21:36.661Z"
+    },
+    {
+      "rank": 78,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u06",
+      "file": "078-derek-sivers.md",
+      "sha256": "2d6129397aa6cec4d7f9c2a163aae00143f0a5e330f185ab6f23b741121d7927",
+      "fetchedAt": "2026-08-24T07:21:37.154Z"
+    },
+    {
+      "rank": 79,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u05",
+      "file": "079-derek-sivers.md",
+      "sha256": "259c4e3a8cad6ce435f14c9c0f1d34448a44fd0b7012fd37dacf89675d3a3cf2",
+      "fetchedAt": "2026-08-24T07:21:37.639Z"
+    },
+    {
+      "rank": 80,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u04",
+      "file": "080-derek-sivers.md",
+      "sha256": "e99f6bed2c6b92867e96ac05b6d69be77f869bb2f2e0f8c558afe05eb629acb1",
+      "fetchedAt": "2026-08-24T07:21:38.131Z"
+    },
+    {
+      "rank": 81,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u03",
+      "file": "081-derek-sivers.md",
+      "sha256": "f1a3837bc6525e066110a7c4b864f8b3d0c133efd1a31584412a3edfb8be6c28",
+      "fetchedAt": "2026-08-24T07:21:38.678Z"
+    },
+    {
+      "rank": 82,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u02",
+      "file": "082-derek-sivers.md",
+      "sha256": "bd77d2719dd2e1121225db4af4deb18231ff0158a3df740b1ef9dc73d5dba096",
+      "fetchedAt": "2026-08-24T07:21:39.236Z"
+    },
+    {
+      "rank": 83,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/u01",
+      "file": "083-derek-sivers.md",
+      "sha256": "03c403375aa0f13c95cdd55fc38f37a6e2feed883196760146d63a767a3f2b5f",
+      "fetchedAt": "2026-08-24T07:21:39.816Z"
+    },
+    {
+      "rank": 84,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/nz0",
+      "file": "084-derek-sivers.md",
+      "sha256": "2f6b1f49e6bb2cbc714ce54be150f9f419fa569fcc1fdd6c0eacd8f36b0ed2c0",
+      "fetchedAt": "2026-08-24T07:21:40.343Z"
+    },
+    {
+      "rank": 85,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ulysses",
+      "file": "085-derek-sivers.md",
+      "sha256": "bdbc589db904172448b2dbf7e8480155c6beca551a246d1656fac3b9007b9027",
+      "fetchedAt": "2026-08-24T07:21:41.078Z"
+    },
+    {
+      "rank": 86,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/brf",
+      "file": "086-derek-sivers.md",
+      "sha256": "a2280357013a5832c699d7ecd079881e1e3c3eb6b88d3ea8fc49fe7f1f6608b1",
+      "fetchedAt": "2026-08-24T07:21:41.566Z"
+    },
+    {
+      "rank": 87,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/anna",
+      "file": "087-derek-sivers.md",
+      "sha256": "dc71fe1bfd548b0161883fdad93269ab4e653a9dd35dd20c2dc0e96bf711b56b",
+      "fetchedAt": "2026-08-24T07:21:42.180Z"
+    },
+    {
+      "rank": 88,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/married",
+      "file": "088-derek-sivers.md",
+      "sha256": "43f97f6519777ee29a9305fe9225139fd9e24354b9a5c26ad3424416e769b112",
+      "fetchedAt": "2026-08-24T07:21:42.735Z"
+    },
+    {
+      "rank": 89,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/jf",
+      "file": "089-derek-sivers.md",
+      "sha256": "f8c3155cea6fc74a7a8d8ae616ebb6487b7d3902feaa9cfba203b711265499d6",
+      "fetchedAt": "2026-08-24T07:21:43.243Z"
+    },
+    {
+      "rank": 90,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ripple",
+      "file": "090-derek-sivers.md",
+      "sha256": "8e2b2f8f54f0bd22fd816fae3f3aecb5613d55542222dcddb278e0627663ec90",
+      "fetchedAt": "2026-08-24T07:21:43.882Z"
+    },
+    {
+      "rank": 91,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/getme",
+      "file": "091-derek-sivers.md",
+      "sha256": "69462ac6f6311c48ab86eab4e574bb49cb41f59be652424c115dc8161c42fd92",
+      "fetchedAt": "2026-08-24T07:21:44.547Z"
+    },
+    {
+      "rank": 92,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/f3",
+      "file": "092-derek-sivers.md",
+      "sha256": "767b21974fb3779aad7a91f44bbac3f1bcb3698a90f93e3d464e7f43240eb9d8",
+      "fetchedAt": "2026-08-24T07:21:45.046Z"
+    },
+    {
+      "rank": 93,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pk",
+      "file": "093-derek-sivers.md",
+      "sha256": "127a1ee51adfdfed0217c3dad205df04728e479a5a355465608168794289dfe7",
+      "fetchedAt": "2026-08-24T07:21:45.537Z"
+    },
+    {
+      "rank": 94,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/locust",
+      "file": "094-derek-sivers.md",
+      "sha256": "ff20d6741ab97993d172002a06f8f750efd54c8bc872b4fe1c5e422b0b0191b6",
+      "fetchedAt": "2026-08-24T07:21:46.027Z"
+    },
+    {
+      "rank": 95,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dis",
+      "file": "095-derek-sivers.md",
+      "sha256": "63173a900e7cf8755fc2791b5322494e6004cab22d8fa2713aebb449b770a612",
+      "fetchedAt": "2026-08-24T07:21:46.542Z"
+    },
+    {
+      "rank": 96,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dxb",
+      "file": "096-derek-sivers.md",
+      "sha256": "dc8c6345f4edce7ee3d09d59b23b0a0242cd31350f2edb4637fe36870c0e551e",
+      "fetchedAt": "2026-08-24T07:21:47.084Z"
+    },
+    {
+      "rank": 97,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/qcc",
+      "file": "097-derek-sivers.md",
+      "sha256": "1ccfe30e530caf20af164d008051fc749dee3cb61d778a7153cd88122ea4522a",
+      "fetchedAt": "2026-08-24T07:21:47.589Z"
+    },
+    {
+      "rank": 98,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/rats",
+      "file": "098-derek-sivers.md",
+      "sha256": "5d4eae7d042f826389a899653b2a90563413e42a16ffef00509e79bf1d7b36c1",
+      "fetchedAt": "2026-08-24T07:21:48.144Z"
+    },
+    {
+      "rank": 99,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/salt",
+      "file": "099-derek-sivers.md",
+      "sha256": "3dada0a35a697a174a03f3da133690ba7671282ca5cef4c7aaf667287e4c9308",
+      "fetchedAt": "2026-08-24T07:21:48.659Z"
+    },
+    {
+      "rank": 100,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/whn",
+      "file": "100-derek-sivers.md",
+      "sha256": "3e0446ae778ebce8bcd84b496d35f818c23e2e42123eb9355a3c28eedc062a47",
+      "fetchedAt": "2026-08-24T07:21:49.229Z"
+    },
+    {
+      "rank": 101,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/macx",
+      "file": "101-derek-sivers.md",
+      "sha256": "3ef2b0276cc8c7faff59e39eb7c99b4089062273c5d70b9e0c8d52b2b03f5d5e",
+      "fetchedAt": "2026-08-24T07:21:49.827Z"
+    },
+    {
+      "rank": 102,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/bpt",
+      "file": "102-derek-sivers.md",
+      "sha256": "410cf56146b88425e1c63352f7b5c0594e317e9b61944ba6bbc20a492c31dc51",
+      "fetchedAt": "2026-08-24T07:21:50.314Z"
+    },
+    {
+      "rank": 103,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/now2",
+      "file": "103-derek-sivers.md",
+      "sha256": "e574efb1ca8f47a3519bd0b297eb4aec5ca7a387c06019977f76b8a072961e92",
+      "fetchedAt": "2026-08-24T07:21:50.889Z"
+    },
+    {
+      "rank": 104,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl00",
+      "file": "104-derek-sivers.md",
+      "sha256": "026ff1b4fa2451bce177d5246d877a78ecc55bcbf797693a063f8de26e4a6803",
+      "fetchedAt": "2026-08-24T07:21:51.481Z"
+    },
+    {
+      "rank": 105,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ben-kihnel",
+      "file": "105-derek-sivers.md",
+      "sha256": "178c2bd2d9731e4d770a1f6ef8d245463481b7e992dbb8f7be3589d5f84d98d5",
+      "fetchedAt": "2026-08-24T07:21:51.985Z"
+    },
+    {
+      "rank": 106,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/n2b",
+      "file": "106-derek-sivers.md",
+      "sha256": "15c32fbb486c51002defbd653299c91561174e398636a89c344229d9522a472d",
+      "fetchedAt": "2026-08-24T07:21:52.466Z"
+    },
+    {
+      "rank": 107,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ainews",
+      "file": "107-derek-sivers.md",
+      "sha256": "86a392534401d3f2934ee305e72e3ac1534266cfc464c375012bfca441e4a845",
+      "fetchedAt": "2026-08-24T07:21:52.951Z"
+    },
+    {
+      "rank": 108,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/learn-js",
+      "file": "108-derek-sivers.md",
+      "sha256": "e726510e43339996abdd6a2da9c9bb624787c28042cbcb8db0ff72bf8832d57a",
+      "fetchedAt": "2026-08-24T07:21:53.437Z"
+    },
+    {
+      "rank": 109,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/backup",
+      "file": "109-derek-sivers.md",
+      "sha256": "a4fd3d4321f6ce3093f11e5108a0f5cfa1ba3185c993d9d877b36db8b138ecb4",
+      "fetchedAt": "2026-08-24T07:21:53.939Z"
+    },
+    {
+      "rank": 110,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/esperanto",
+      "file": "110-derek-sivers.md",
+      "sha256": "e04969d28bdc8d2abf61697223b86caa087dd80628ae5716ae20e09750267d4a",
+      "fetchedAt": "2026-08-24T07:21:54.439Z"
+    },
+    {
+      "rank": 111,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/wt",
+      "file": "111-derek-sivers.md",
+      "sha256": "81e34a4938169c4f2a36292441678274a87f5624a0f26981fc2a8724ff77a0b6",
+      "fetchedAt": "2026-08-24T07:21:54.996Z"
+    },
+    {
+      "rank": 112,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pnt",
+      "file": "112-derek-sivers.md",
+      "sha256": "08e48a76865a8e93771a5fc528b987aa6b9a2ef79babaf6c4680e43a89a0857b",
+      "fetchedAt": "2026-08-24T07:21:55.473Z"
+    },
+    {
+      "rank": 113,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pdog",
+      "file": "113-derek-sivers.md",
+      "sha256": "c6406c3359caa58f9a678bb7e8cd69312a07cd2d104fc156eddb878c45ebf5ae",
+      "fetchedAt": "2026-08-24T07:21:56.041Z"
+    },
+    {
+      "rank": 114,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/575k",
+      "file": "114-derek-sivers.md",
+      "sha256": "aef26f1a8e2d004278a7a9497397d7f45c61b3257454a08b62bd968701ae2a3e",
+      "fetchedAt": "2026-08-24T07:21:56.511Z"
+    },
+    {
+      "rank": 115,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/nor",
+      "file": "115-derek-sivers.md",
+      "sha256": "30424a5a9d8a2a6858687108406bf66f1a95f43eaab0fc3c9c22772dac702306",
+      "fetchedAt": "2026-08-24T07:21:57.017Z"
+    },
+    {
+      "rank": 116,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/xus",
+      "file": "116-derek-sivers.md",
+      "sha256": "8f7d6a03ad875e83989bb2fd9f05315c03ba5510f96a1fb62aeb71c5f7b55de8",
+      "fetchedAt": "2026-08-24T07:21:57.499Z"
+    },
+    {
+      "rank": 117,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/suits",
+      "file": "117-derek-sivers.md",
+      "sha256": "7471939c8fe8622ef67227065478be56516b0b447a686536bcae57123dfd1e0c",
+      "fetchedAt": "2026-08-24T07:21:57.977Z"
+    },
+    {
+      "rank": 118,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/aim",
+      "file": "118-derek-sivers.md",
+      "sha256": "b7c2c6abf2bacfa70657bb3d91d40feb7cc2146a81b6cdfee563607a1fc4bb45",
+      "fetchedAt": "2026-08-24T07:21:58.524Z"
+    },
+    {
+      "rank": 119,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/nice",
+      "file": "119-derek-sivers.md",
+      "sha256": "bcb734d01a93e6f25e9d5ac8358ebff5c4171cc674aa0814de1eb6b00477c3c0",
+      "fetchedAt": "2026-08-24T07:21:59.013Z"
+    },
+    {
+      "rank": 120,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/meet-chbg",
+      "file": "120-derek-sivers.md",
+      "sha256": "faad8996c25b45c5665ed87854843db8dd2aea56816ffe2963b203e0f9bf1d6f",
+      "fetchedAt": "2026-08-24T07:21:59.482Z"
+    },
+    {
+      "rank": 121,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/exled",
+      "file": "121-derek-sivers.md",
+      "sha256": "03d0a8758d47f32d80f377227b5a2114e375b8d9b11e50a3154570ff0de15912",
+      "fetchedAt": "2026-08-24T07:22:00.117Z"
+    },
+    {
+      "rank": 122,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/travp",
+      "file": "122-derek-sivers.md",
+      "sha256": "a89b5c1bd2a5db0ca992694ead2cc163c11a045243c112884f7aa9d9091b98aa",
+      "fetchedAt": "2026-08-24T07:22:00.632Z"
+    },
+    {
+      "rank": 123,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/anon",
+      "file": "123-derek-sivers.md",
+      "sha256": "a5755158ef493050e22b594680519d82e12753954a64276a28f2f651cb72432f",
+      "fetchedAt": "2026-08-24T07:22:01.175Z"
+    },
+    {
+      "rank": 124,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/led",
+      "file": "124-derek-sivers.md",
+      "sha256": "6025743735e358e2b97c862c38f24b9f62bc9227507f863df24b948e14124a46",
+      "fetchedAt": "2026-08-24T07:22:01.811Z"
+    },
+    {
+      "rank": 125,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tyler",
+      "file": "125-derek-sivers.md",
+      "sha256": "2499a6e87c521025c098273bb435e398c298983672d33120f9eb1a784d4a133e",
+      "fetchedAt": "2026-08-24T07:22:02.331Z"
+    },
+    {
+      "rank": 126,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/bible",
+      "file": "126-derek-sivers.md",
+      "sha256": "92b7ac69e93f72f6f5460ca82d9f7c76df5c220a33fd503cc2d70aab5a77c086",
+      "fetchedAt": "2026-08-24T07:22:02.910Z"
+    },
+    {
+      "rank": 127,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mb",
+      "file": "127-derek-sivers.md",
+      "sha256": "52ec29676cd6249ee24ded01fabcb93ea51b19dcdb4c3bf3122969ec3ce03130",
+      "fetchedAt": "2026-08-24T07:22:03.428Z"
+    },
+    {
+      "rank": 128,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/run2",
+      "file": "128-derek-sivers.md",
+      "sha256": "4916dcaeab4b0af58930a9959c75bdddb3a09a54eda4b72e0e37edafb1b779ee",
+      "fetchedAt": "2026-08-24T07:22:03.962Z"
+    },
+    {
+      "rank": 129,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/shc",
+      "file": "129-derek-sivers.md",
+      "sha256": "3d2a6ce90918afe4a1416bd6c6fb9e8b9f41a577abddbffaf8e286cb39ce5077",
+      "fetchedAt": "2026-08-24T07:22:04.601Z"
+    },
+    {
+      "rank": 130,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/run",
+      "file": "130-derek-sivers.md",
+      "sha256": "b6d98e54cf21ebe026187533dffae929e191d89c23537757c1f96a8d4ff2c7ed",
+      "fetchedAt": "2026-08-24T07:22:05.191Z"
+    },
+    {
+      "rank": 131,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/confab",
+      "file": "131-derek-sivers.md",
+      "sha256": "e7033646c2f2c1edc17dfa9df14bbe54eca226b35a770257cacc39e1fc7a41cf",
+      "fetchedAt": "2026-08-24T07:22:05.739Z"
+    },
+    {
+      "rank": 132,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ketchup",
+      "file": "132-derek-sivers.md",
+      "sha256": "6daf91133c52763922a94a6a8481e3cf9f53c848bcc8093cde40aab1ab4e8a6b",
+      "fetchedAt": "2026-08-24T07:22:06.292Z"
+    },
+    {
+      "rank": 133,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ymap",
+      "file": "133-derek-sivers.md",
+      "sha256": "f337cfab9d8e35180aea0572a6d473e964453dd5d8d1e374ae1cf15241faee02",
+      "fetchedAt": "2026-08-24T07:22:06.880Z"
+    },
+    {
+      "rank": 134,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/a3",
+      "file": "134-derek-sivers.md",
+      "sha256": "384dcc67011bc71ab273e974347d85b1b83b894350d5731ec4fe1f08d541848c",
+      "fetchedAt": "2026-08-24T07:22:07.625Z"
+    },
+    {
+      "rank": 135,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dive",
+      "file": "135-derek-sivers.md",
+      "sha256": "2c070361d092ac704eee2ec19fac62ba4dc781e0ab353a470754c3339c47c9f7",
+      "fetchedAt": "2026-08-24T07:22:08.542Z"
+    },
+    {
+      "rank": 136,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/1s",
+      "file": "136-derek-sivers.md",
+      "sha256": "1eb7d5eae03423248b1defd3b64bbe88b2141dfc1a059674fad710ccd9884600",
+      "fetchedAt": "2026-08-24T07:22:09.351Z"
+    },
+    {
+      "rank": 137,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/joke",
+      "file": "137-derek-sivers.md",
+      "sha256": "e97c95d842a80be2f03cecf82cd8d6f0d6cff9a33cdc2f5e46fd863e7fd5e976",
+      "fetchedAt": "2026-08-24T07:22:10.133Z"
+    },
+    {
+      "rank": 138,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/com",
+      "file": "138-derek-sivers.md",
+      "sha256": "c5fda116b5b4e1b221b226ecbd0a999af76e791f7bfd232e58798dc5518a59a9",
+      "fetchedAt": "2026-08-24T07:22:10.940Z"
+    },
+    {
+      "rank": 139,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tk",
+      "file": "139-derek-sivers.md",
+      "sha256": "40a18fc993481b8a7671779a7baedbf49eafc121ebdce3828d82594158c50954",
+      "fetchedAt": "2026-08-24T07:22:11.506Z"
+    },
+    {
+      "rank": 140,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/su",
+      "file": "140-derek-sivers.md",
+      "sha256": "ee79a5be52bad4acfe5de0bf39d9bc2013854d7b9606fd5250aef83ebc4cd18f",
+      "fetchedAt": "2026-08-24T07:22:12.088Z"
+    },
+    {
+      "rank": 141,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ald",
+      "file": "141-derek-sivers.md",
+      "sha256": "9953776e95b5da4f6ff524ecf937b6f66c5da0570830810b75d6e59f452a2b72",
+      "fetchedAt": "2026-08-24T07:22:12.611Z"
+    },
+    {
+      "rank": 142,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/left",
+      "file": "142-derek-sivers.md",
+      "sha256": "12246c1c381259bcdc013cb1a65c0c8b4241684c4d945fd5d8af534c1ff099eb",
+      "fetchedAt": "2026-08-24T07:22:13.272Z"
+    },
+    {
+      "rank": 143,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/plaintext",
+      "file": "143-derek-sivers.md",
+      "sha256": "ec8ae5d45e09bcb1a129aa0bfc967fc68f5e97cb19b289800ccbf27a31aed34f",
+      "fetchedAt": "2026-08-24T07:22:14.288Z"
+    },
+    {
+      "rank": 144,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/clean1",
+      "file": "144-derek-sivers.md",
+      "sha256": "aac95eb76546a1dc29deca0177659c72af0989b2f4785b198f0171965a16b602",
+      "fetchedAt": "2026-08-24T07:22:15.049Z"
+    },
+    {
+      "rank": 145,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/rand1",
+      "file": "145-derek-sivers.md",
+      "sha256": "7b2793d8086d1521c361d68c8706f3fe434494400ff5d8841782af5239063ee9",
+      "fetchedAt": "2026-08-24T07:22:15.852Z"
+    },
+    {
+      "rank": 146,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/api01",
+      "file": "146-derek-sivers.md",
+      "sha256": "ec7310bd34e8e8515e12a4c988799bebbd80e858c4acc613d005dc393a1e9e15",
+      "fetchedAt": "2026-08-24T07:22:16.390Z"
+    },
+    {
+      "rank": 147,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/recalc",
+      "file": "147-derek-sivers.md",
+      "sha256": "644b317239d8135572765ad3721e60efaaa8bb5c5019bc0a4f7dbc41ac792929",
+      "fetchedAt": "2026-08-24T07:22:17.115Z"
+    },
+    {
+      "rank": 148,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl28",
+      "file": "148-derek-sivers.md",
+      "sha256": "28a1bba326941293c81c58a596588612012ae02083ac8f50bc8434342cb2c31a",
+      "fetchedAt": "2026-08-24T07:22:17.956Z"
+    },
+    {
+      "rank": 149,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl27",
+      "file": "149-derek-sivers.md",
+      "sha256": "65884761ef62acc55dcfa935955149ce86387237b5447d84f8018559085df65c",
+      "fetchedAt": "2026-08-24T07:22:18.741Z"
+    },
+    {
+      "rank": 150,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl26",
+      "file": "150-derek-sivers.md",
+      "sha256": "a164a8829d9949686a7d1b5221f1979f0c126a2a3183dd714c0fa08fae2a937a",
+      "fetchedAt": "2026-08-24T07:22:19.388Z"
+    },
+    {
+      "rank": 151,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl25",
+      "file": "151-derek-sivers.md",
+      "sha256": "f41b783b00bea7f2ede0e488e1876c255a1d30a0527a4958b78510fa59a99198",
+      "fetchedAt": "2026-08-24T07:22:20.019Z"
+    },
+    {
+      "rank": 152,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl24",
+      "file": "152-derek-sivers.md",
+      "sha256": "1060ed51336ffc7f140ab476ec0bf2dc4db9e5b45ba022c312bf43c490bcd5be",
+      "fetchedAt": "2026-08-24T07:22:20.647Z"
+    },
+    {
+      "rank": 153,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl23",
+      "file": "153-derek-sivers.md",
+      "sha256": "dc8c280659352c128ca38233ed69246e9b467da02342d28e0475305d6f10fc8e",
+      "fetchedAt": "2026-08-24T07:22:21.281Z"
+    },
+    {
+      "rank": 154,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl22",
+      "file": "154-derek-sivers.md",
+      "sha256": "a079c03d0aab15fde615131123b5a10a116ae4ab6353a0648424741d5dadbcd0",
+      "fetchedAt": "2026-08-24T07:22:21.951Z"
+    },
+    {
+      "rank": 155,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl21",
+      "file": "155-derek-sivers.md",
+      "sha256": "cab8c2a58b53498b8ab394bc4bf5d2b30a39719a35b4e7484c21847d1c4871db",
+      "fetchedAt": "2026-08-24T07:22:22.489Z"
+    },
+    {
+      "rank": 156,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl20",
+      "file": "156-derek-sivers.md",
+      "sha256": "e3c9d39239d55142aec3d32b1c4061bf82f94e8e07e0bafd58c4cae33158c683",
+      "fetchedAt": "2026-08-24T07:22:23.211Z"
+    },
+    {
+      "rank": 157,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl19",
+      "file": "157-derek-sivers.md",
+      "sha256": "a9c53f84f694a6bef0e50e01567d183b63bf54c25e8ac1d979e0c02fb733adce",
+      "fetchedAt": "2026-08-24T07:22:23.885Z"
+    },
+    {
+      "rank": 158,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl18",
+      "file": "158-derek-sivers.md",
+      "sha256": "268b56cfc393e8c0256cfe92017a3f86450079f4635830fa4f889e0b7fd51861",
+      "fetchedAt": "2026-08-24T07:22:24.517Z"
+    },
+    {
+      "rank": 159,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl17",
+      "file": "159-derek-sivers.md",
+      "sha256": "ef1ed12d22bb940cf7a2c75f55d983ba8966787040c3eccf5832a7c8500848f7",
+      "fetchedAt": "2026-08-24T07:22:25.093Z"
+    },
+    {
+      "rank": 160,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl16",
+      "file": "160-derek-sivers.md",
+      "sha256": "186d1c9e7c6bd98c9bd6f0a4d35b081dd8f3694d290c754573b33348ccbfbb18",
+      "fetchedAt": "2026-08-24T07:22:25.649Z"
+    },
+    {
+      "rank": 161,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl15",
+      "file": "161-derek-sivers.md",
+      "sha256": "b62b488ecd8aaf60308292710b02d04a3b5be5c2b1c4338142b50211898d0bc1",
+      "fetchedAt": "2026-08-24T07:22:26.212Z"
+    },
+    {
+      "rank": 162,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl14",
+      "file": "162-derek-sivers.md",
+      "sha256": "2b6fbc549f8d3f561772b4d0b2c3e34a6061d1ffea5cc6b9f4f1d37e9475d297",
+      "fetchedAt": "2026-08-24T07:22:26.924Z"
+    },
+    {
+      "rank": 163,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl13",
+      "file": "163-derek-sivers.md",
+      "sha256": "3faca4d513bf0a590c3445b48053c65b646aa06aaca635cebee212d3c4a236f5",
+      "fetchedAt": "2026-08-24T07:22:27.886Z"
+    },
+    {
+      "rank": 164,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl12",
+      "file": "164-derek-sivers.md",
+      "sha256": "e1d7cc47a0afc50328a0bf05cea061b4636686c2d38c6ee409acf431090b8af4",
+      "fetchedAt": "2026-08-24T07:22:28.619Z"
+    },
+    {
+      "rank": 165,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl11",
+      "file": "165-derek-sivers.md",
+      "sha256": "fce813548f08cab560368f03817c058659e87cad9156425e675b269a3aaacb71",
+      "fetchedAt": "2026-08-24T07:22:29.190Z"
+    },
+    {
+      "rank": 166,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl10",
+      "file": "166-derek-sivers.md",
+      "sha256": "62aef3a4883c0083759023eee9322c64925d9f5d118c32395117f1b580026ab3",
+      "fetchedAt": "2026-08-24T07:22:29.709Z"
+    },
+    {
+      "rank": 167,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl09",
+      "file": "167-derek-sivers.md",
+      "sha256": "e0d8f757c13abc07c548513b070974737b001ca291115f52ba0fa50019d7f3f5",
+      "fetchedAt": "2026-08-24T07:22:30.249Z"
+    },
+    {
+      "rank": 168,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl08",
+      "file": "168-derek-sivers.md",
+      "sha256": "79c1a8eb73305eb8f28701c47845ba62eebf3c7ea8727632bc66b4ab6c4aa977",
+      "fetchedAt": "2026-08-24T07:22:31.015Z"
+    },
+    {
+      "rank": 169,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl07",
+      "file": "169-derek-sivers.md",
+      "sha256": "69e52b087d1c3e2e2cf4b2789637f12044cdc04122284d7a56e6baef6b099efc",
+      "fetchedAt": "2026-08-24T07:22:31.552Z"
+    },
+    {
+      "rank": 170,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl06",
+      "file": "170-derek-sivers.md",
+      "sha256": "29f80183fd2bc16f90597883958d0b4e76d6ba7d7a84b6538362526c386178e9",
+      "fetchedAt": "2026-08-24T07:22:32.184Z"
+    },
+    {
+      "rank": 171,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl05",
+      "file": "171-derek-sivers.md",
+      "sha256": "ebe82012f8f1cb4d78e6dae0b28a0a4180d9c5be8bb61016465fd57e9d1ec981",
+      "fetchedAt": "2026-08-24T07:22:32.786Z"
+    },
+    {
+      "rank": 172,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl04",
+      "file": "172-derek-sivers.md",
+      "sha256": "8f44b94ac3b6077dfff01fcfd1d6937c49d7e59612dd859b43589eed1b8296c3",
+      "fetchedAt": "2026-08-24T07:22:33.391Z"
+    },
+    {
+      "rank": 173,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl03",
+      "file": "173-derek-sivers.md",
+      "sha256": "d0dbf22c5674e71e703a06e50c5a173dc5c74e2a3ff788dcbcb21ebc0ac0bb26",
+      "fetchedAt": "2026-08-24T07:22:34.065Z"
+    },
+    {
+      "rank": 174,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl02",
+      "file": "174-derek-sivers.md",
+      "sha256": "c243bf5582485654d44e7271807ee56fc2c09d04e8784df49ff9aa7b0e79368d",
+      "fetchedAt": "2026-08-24T07:22:34.981Z"
+    },
+    {
+      "rank": 175,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/htl01",
+      "file": "175-derek-sivers.md",
+      "sha256": "dfc8a6666226361788de4177486a8eb975be0dc164573bb353a37af1e9b9a7db",
+      "fetchedAt": "2026-08-24T07:22:35.584Z"
+    },
+    {
+      "rank": 176,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/bp",
+      "file": "176-derek-sivers.md",
+      "sha256": "ca6c149ae091beeb6621a74cb765428140789882d7059d8dbb4fd6f2009ce797",
+      "fetchedAt": "2026-08-24T07:22:36.244Z"
+    },
+    {
+      "rank": 177,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pets",
+      "file": "177-derek-sivers.md",
+      "sha256": "cf67963945105a707829275cc53f7868356ebd77dc37c8520121a99042c17d9e",
+      "fetchedAt": "2026-08-24T07:22:36.768Z"
+    },
+    {
+      "rank": 178,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/250k",
+      "file": "178-derek-sivers.md",
+      "sha256": "d238a8f3646f01cfd3d1978461c5abf6ba51375018e200fe37a4f15a44d37a03",
+      "fetchedAt": "2026-08-24T07:22:37.287Z"
+    },
+    {
+      "rank": 179,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mny",
+      "file": "179-derek-sivers.md",
+      "sha256": "20601031fc3f9151da8605a58fbcf118eeaca27a535fe95c14feae6a9c48036f",
+      "fetchedAt": "2026-08-24T07:22:37.819Z"
+    },
+    {
+      "rank": 180,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/eml",
+      "file": "180-derek-sivers.md",
+      "sha256": "c973323f2e58397b8edfb82df12795d52dfde25068cf237b0e861ed775b420fc",
+      "fetchedAt": "2026-08-24T07:22:38.533Z"
+    },
+    {
+      "rank": 181,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/nod",
+      "file": "181-derek-sivers.md",
+      "sha256": "7e761034e2216f6c0004f4def53eeb8c91453cc603390ebbfde6dd1ebbdb0038",
+      "fetchedAt": "2026-08-24T07:22:39.146Z"
+    },
+    {
+      "rank": 182,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/richand",
+      "file": "182-derek-sivers.md",
+      "sha256": "7a575d7f5378d2d178e848f5081b84f4f0d1e9380e067275e1615b5066ba632f",
+      "fetchedAt": "2026-08-24T07:22:39.720Z"
+    },
+    {
+      "rank": 183,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pinit2",
+      "file": "183-derek-sivers.md",
+      "sha256": "f7c0bb5d24392dd864c19802e31ef3a1508e844cdc9bf5246067d8adce0e1783",
+      "fetchedAt": "2026-08-24T07:22:40.206Z"
+    },
+    {
+      "rank": 184,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/trd",
+      "file": "184-derek-sivers.md",
+      "sha256": "b489b390fc93142a78f03bf2c0d7338d20c23990866d96a3fd171526fe5832c0",
+      "fetchedAt": "2026-08-24T07:22:40.702Z"
+    },
+    {
+      "rank": 185,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/exan",
+      "file": "185-derek-sivers.md",
+      "sha256": "56f4167be5d973f8fa15d6508102c8b683b49bf35d29904664ea9926e0be6319",
+      "fetchedAt": "2026-08-24T07:22:41.243Z"
+    },
+    {
+      "rank": 186,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/trav1",
+      "file": "186-derek-sivers.md",
+      "sha256": "0551481350b399cb34f7214753d063cfda908a52d7dfd7b80853fda0a784b52e",
+      "fetchedAt": "2026-08-24T07:22:41.832Z"
+    },
+    {
+      "rank": 187,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pg2",
+      "file": "187-derek-sivers.md",
+      "sha256": "ed969775ad2eb470c5d992485a6ea9bbc503cbfff2ceb2ffb20f5f1dcd496211",
+      "fetchedAt": "2026-08-24T07:22:42.382Z"
+    },
+    {
+      "rank": 188,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/masch",
+      "file": "188-derek-sivers.md",
+      "sha256": "30d0e5fa08a1c07cdec5027b34ac803d4c22f631428901f2d0ef9e10c81d76a1",
+      "fetchedAt": "2026-08-24T07:22:42.925Z"
+    },
+    {
+      "rank": 189,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/exex",
+      "file": "189-derek-sivers.md",
+      "sha256": "b9e8909e384e5a45110338e3b11e49a8ffb0c27a68a0e2c36499970b3fd75e9f",
+      "fetchedAt": "2026-08-24T07:22:43.398Z"
+    },
+    {
+      "rank": 190,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/vls1",
+      "file": "190-derek-sivers.md",
+      "sha256": "ab6b431b33a387c59883b31abf8f7a25bc1a55d3d0bd993f5998455ee7e71f46",
+      "fetchedAt": "2026-08-24T07:22:43.950Z"
+    },
+    {
+      "rank": 191,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ment",
+      "file": "191-derek-sivers.md",
+      "sha256": "4b1fe9d08dba3f363f9ebdbf2897a3554b4022b5187ecaae6d0bfe4c25fdb63b",
+      "fetchedAt": "2026-08-24T07:22:44.525Z"
+    },
+    {
+      "rank": 192,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/wtg",
+      "file": "192-derek-sivers.md",
+      "sha256": "b4a36f3c8e3d50cd570d8b66f7d72118a915934a0f871938db99a58bd2e4aa0c",
+      "fetchedAt": "2026-08-24T07:22:45.004Z"
+    },
+    {
+      "rank": 193,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/polut",
+      "file": "193-derek-sivers.md",
+      "sha256": "ff034540be2b98414060118e519f760a014269eee28985d97a318ad62e1f5af7",
+      "fetchedAt": "2026-08-24T07:22:45.653Z"
+    },
+    {
+      "rank": 194,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/d22",
+      "file": "194-derek-sivers.md",
+      "sha256": "33b5914d5eaabc3574e27c529907d87702c6cfa7b1e6e87bdc650f332b8b6db1",
+      "fetchedAt": "2026-08-24T07:22:47.297Z"
+    },
+    {
+      "rank": 195,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/gofear",
+      "file": "195-derek-sivers.md",
+      "sha256": "7438d94c8e87549000f2f21ec1b017327bca06360d36a1cb89998c42cc4d1848",
+      "fetchedAt": "2026-08-24T07:22:47.887Z"
+    },
+    {
+      "rank": 196,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/daydream",
+      "file": "196-derek-sivers.md",
+      "sha256": "de615010c809a2a14993c5744c3cae41ce9297407d0baa73fa8f189d56170ac8",
+      "fetchedAt": "2026-08-24T07:22:48.496Z"
+    },
+    {
+      "rank": 197,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/antic",
+      "file": "197-derek-sivers.md",
+      "sha256": "156395232535974ed2c16b78f819374443f448f036a5cdc93022265163f4b173",
+      "fetchedAt": "2026-08-24T07:22:49.236Z"
+    },
+    {
+      "rank": 198,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/autom",
+      "file": "198-derek-sivers.md",
+      "sha256": "87efc4eb8fdb2fc517f6ec0cbc549d9ac2c3377901fd3fb4d94b9f6535b85b4d",
+      "fetchedAt": "2026-08-24T07:22:50.057Z"
+    },
+    {
+      "rank": 199,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/negz",
+      "file": "199-derek-sivers.md",
+      "sha256": "78248e5ccea7978d004b60d52be4a4f127e27bc6bffc8bd72f60e5f8ae4b8361",
+      "fetchedAt": "2026-08-24T07:22:50.537Z"
+    },
+    {
+      "rank": 200,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/sauna",
+      "file": "200-derek-sivers.md",
+      "sha256": "7ea2d292e1d9d900cd20f137078b27f9db8f0c84e7d395336adbdc2a45eae14d",
+      "fetchedAt": "2026-08-24T07:22:51.491Z"
+    },
+    {
+      "rank": 201,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/erra",
+      "file": "201-derek-sivers.md",
+      "sha256": "bfb08735ce0871e77fa18478c34e57999aa0682a64aba91728d1fceba2c1e51b",
+      "fetchedAt": "2026-08-24T07:22:51.976Z"
+    },
+    {
+      "rank": 202,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hooky",
+      "file": "202-derek-sivers.md",
+      "sha256": "513c4109122a2d54cc83b0965f94ea5ed01a3762ebb75133f6152006cca400fb",
+      "fetchedAt": "2026-08-24T07:22:52.688Z"
+    },
+    {
+      "rank": 203,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ldn",
+      "file": "203-derek-sivers.md",
+      "sha256": "880cc7854a3840f0ae5997bd6d35b69da030001f49abc2659215ea6360f52393",
+      "fetchedAt": "2026-08-24T07:22:53.161Z"
+    },
+    {
+      "rank": 204,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/isms",
+      "file": "204-derek-sivers.md",
+      "sha256": "998b2d98f65896d8d052d686d6dc74ab5df568cbac4e8d9dbd312085d4158673",
+      "fetchedAt": "2026-08-24T07:22:53.759Z"
+    },
+    {
+      "rank": 205,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/metac",
+      "file": "205-derek-sivers.md",
+      "sha256": "3b0a0ad084daebd1a90c05d76430338c1742f3f2015c52f6af11db6cbff2ca11",
+      "fetchedAt": "2026-08-24T07:22:54.506Z"
+    },
+    {
+      "rank": 206,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ddown",
+      "file": "206-derek-sivers.md",
+      "sha256": "59fbe55ceb306fc959eed500e853b04c9c0fb2bb5b465e65adb23a88d5c92e27",
+      "fetchedAt": "2026-08-24T07:22:55.110Z"
+    },
+    {
+      "rank": 207,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/uncomf",
+      "file": "207-derek-sivers.md",
+      "sha256": "5100b824d6a5b97ba9c2b3338ac02318decee9a538be8b9c370a313cc2293a3d",
+      "fetchedAt": "2026-08-24T07:22:55.689Z"
+    },
+    {
+      "rank": 208,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hf",
+      "file": "208-derek-sivers.md",
+      "sha256": "c647044f153b6ebaf8ddbe75e3ff0c34d1c256241e5e957a2076c91b2e8a3f2e",
+      "fetchedAt": "2026-08-24T07:22:56.262Z"
+    },
+    {
+      "rank": 209,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dq",
+      "file": "209-derek-sivers.md",
+      "sha256": "03bff945af5939adc8a26247fad45e1588abff5f96583a02307d5195c9e24274",
+      "fetchedAt": "2026-08-24T07:22:56.949Z"
+    },
+    {
+      "rank": 210,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pe",
+      "file": "210-derek-sivers.md",
+      "sha256": "538c10df59a77486152eff515b0c8c6f5db1199fdc30a817d27807f7b4b05aa9",
+      "fetchedAt": "2026-08-24T07:22:57.661Z"
+    },
+    {
+      "rank": 211,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/4",
+      "file": "211-derek-sivers.md",
+      "sha256": "966c12ce3d1c966766702c3fb8abdc047176fb8a11d9e640ad97f707d5c3a1b7",
+      "fetchedAt": "2026-08-24T07:22:58.129Z"
+    },
+    {
+      "rank": 212,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/abio",
+      "file": "212-derek-sivers.md",
+      "sha256": "ccb3b4d60da49b787e59eded70688712a6392cdc2ff9bf352bb90f671194d802",
+      "fetchedAt": "2026-08-24T07:22:58.855Z"
+    },
+    {
+      "rank": 213,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ww",
+      "file": "213-derek-sivers.md",
+      "sha256": "0214d47b3845a1d98f2e06b5653ad6ffab8d8ef37867432ce9553fcfe321ee70",
+      "fetchedAt": "2026-08-24T07:22:59.314Z"
+    },
+    {
+      "rank": 214,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tp3",
+      "file": "214-derek-sivers.md",
+      "sha256": "5ac97fa4e4e3e59e0598ef5d5d48c320fc7fce8b5e60c988ccd1cae5fd8eda29",
+      "fetchedAt": "2026-08-24T07:23:00.004Z"
+    },
+    {
+      "rank": 215,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tp2",
+      "file": "215-derek-sivers.md",
+      "sha256": "bd5cb376ac51e2ae0bf9505bb215fcacb2df406cda975290d5b8f8f7743de52f",
+      "fetchedAt": "2026-08-24T07:23:01.171Z"
+    },
+    {
+      "rank": 216,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tp1",
+      "file": "216-derek-sivers.md",
+      "sha256": "cdf1811ccca794cc9690829ed13a18ca3e8233eac8e038f08f5a8294743ef47d",
+      "fetchedAt": "2026-08-24T07:23:02.092Z"
+    },
+    {
+      "rank": 217,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pinit",
+      "file": "217-derek-sivers.md",
+      "sha256": "c28f6501e75d2c63260a0ddc7274ab5b3cc44fbd0f317a1d4210fc0e938d4347",
+      "fetchedAt": "2026-08-24T07:23:03.432Z"
+    },
+    {
+      "rank": 218,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/clothes",
+      "file": "218-derek-sivers.md",
+      "sha256": "07f92e4eca43e9d72fc447378715b1611cb3cbc48936b8604a3bee9740af50a8",
+      "fetchedAt": "2026-08-24T07:23:04.077Z"
+    },
+    {
+      "rank": 219,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dw",
+      "file": "219-derek-sivers.md",
+      "sha256": "4ba05b6c56b85e32d71b6d8bd9d40802301bde56e3a2d5a4be43050aa3307193",
+      "fetchedAt": "2026-08-24T07:23:04.544Z"
+    },
+    {
+      "rank": 220,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ox1",
+      "file": "220-derek-sivers.md",
+      "sha256": "74f35e8a89069443907c904ec0b2267e6f46358bb7991e415158a7b14604dabc",
+      "fetchedAt": "2026-08-24T07:23:05.003Z"
+    },
+    {
+      "rank": 221,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dj",
+      "file": "221-derek-sivers.md",
+      "sha256": "304989a08e1747c714544c892a212d6ffb0050ca2354fedefcac18b77c5e5305",
+      "fetchedAt": "2026-08-24T07:23:05.459Z"
+    },
+    {
+      "rank": 222,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/subtract",
+      "file": "222-derek-sivers.md",
+      "sha256": "d8137175262041fbf5f59432b5c59a990042e7355a258c8faa0af334fc823ca3",
+      "fetchedAt": "2026-08-24T07:23:06.135Z"
+    },
+    {
+      "rank": 223,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/aos",
+      "file": "223-derek-sivers.md",
+      "sha256": "fde5189c7c5b148f5e059f01fb51cd44782efaf0991285efffc745158673f723",
+      "fetchedAt": "2026-08-24T07:23:06.607Z"
+    },
+    {
+      "rank": 224,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/contrib",
+      "file": "224-derek-sivers.md",
+      "sha256": "752f791ba74450ad56e7cf4b50c2a7ea801a7b774d43c1f7213a03dcb48348d0",
+      "fetchedAt": "2026-08-24T07:23:07.177Z"
+    },
+    {
+      "rank": 225,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/unlearning",
+      "file": "225-derek-sivers.md",
+      "sha256": "6e12ff56181963f059474b900d1a55a11c24ed3def4f58f1c1816754c80aab39",
+      "fetchedAt": "2026-08-24T07:23:07.659Z"
+    },
+    {
+      "rank": 226,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hyn",
+      "file": "226-derek-sivers.md",
+      "sha256": "d07d7d1bd11de8df1c832d30f2702e672ff986f9ff079367005bc17f0d0adfc6",
+      "fetchedAt": "2026-08-24T07:23:08.130Z"
+    },
+    {
+      "rank": 227,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hy1",
+      "file": "227-derek-sivers.md",
+      "sha256": "e8b7e653d676417d6cb6f0d452e8f60a32739bceb05ffc58902850424627babc",
+      "fetchedAt": "2026-08-24T07:23:08.977Z"
+    },
+    {
+      "rank": 228,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/openbsd",
+      "file": "228-derek-sivers.md",
+      "sha256": "74992754c3885bcd90bee900fa9c98cffc14cd4a3a44f21d70d936989cb51267",
+      "fetchedAt": "2026-08-24T07:23:09.448Z"
+    },
+    {
+      "rank": 229,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mfg",
+      "file": "229-derek-sivers.md",
+      "sha256": "37e6608eddf4a4f45f8de908a7b642be4a795c75b96d313f0f3c83e8ebfe9983",
+      "fetchedAt": "2026-08-24T07:23:10.287Z"
+    },
+    {
+      "rank": 230,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/details",
+      "file": "230-derek-sivers.md",
+      "sha256": "7de07ee90666ba6a50bb7eadacf7e766b126ee65b0cc0138daa053b2ba8a0fd1",
+      "fetchedAt": "2026-08-24T07:23:10.934Z"
+    },
+    {
+      "rank": 231,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/inclev",
+      "file": "231-derek-sivers.md",
+      "sha256": "9e81861af801ebe76ff03b54d3a8b7dd367a1c750a106019c835590c33c0ac4d",
+      "fetchedAt": "2026-08-24T07:23:12.062Z"
+    },
+    {
+      "rank": 232,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/7",
+      "file": "232-derek-sivers.md",
+      "sha256": "04f2f3e3ffe6d750a5226efda4cb4553a6fe0a62e241a712bd1798e590b73459",
+      "fetchedAt": "2026-08-24T07:23:12.529Z"
+    },
+    {
+      "rank": 233,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/kit",
+      "file": "233-derek-sivers.md",
+      "sha256": "1d907d9b7690a92e43be6099076f5383ed18274a03dfbc66db74860b1a0884f8",
+      "fetchedAt": "2026-08-24T07:23:12.988Z"
+    },
+    {
+      "rank": 234,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/evers",
+      "file": "234-derek-sivers.md",
+      "sha256": "19c366e74796e104f300555313b0ab1fed4050acd75446b0b5c28d77cdddadad",
+      "fetchedAt": "2026-08-24T07:23:13.450Z"
+    },
+    {
+      "rank": 235,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/get-specific",
+      "file": "235-derek-sivers.md",
+      "sha256": "3ed234ebcbb00dee68716f981dffc9ac0400997261657e47da5ac725c4f07e23",
+      "fetchedAt": "2026-08-24T07:23:13.970Z"
+    },
+    {
+      "rank": 236,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/res",
+      "file": "236-derek-sivers.md",
+      "sha256": "87cf415026e817e32e861b0ec836fdc75ef1d687aca3734f3a2f2d291a94d2eb",
+      "fetchedAt": "2026-08-24T07:23:14.593Z"
+    },
+    {
+      "rank": 237,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/noboss",
+      "file": "237-derek-sivers.md",
+      "sha256": "bf543d4b8af5a21104b7b805f9ec35632e45bff00bfe575090fd0eb205119ed3",
+      "fetchedAt": "2026-08-24T07:23:15.044Z"
+    },
+    {
+      "rank": 238,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/neverwait",
+      "file": "238-derek-sivers.md",
+      "sha256": "5f5518683cfa31eadc48310a384f3f72fee46c74c3dd3a103253975710d16df9",
+      "fetchedAt": "2026-08-24T07:23:15.837Z"
+    },
+    {
+      "rank": 239,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/morepay",
+      "file": "239-derek-sivers.md",
+      "sha256": "54a1e4f3cbe6f0dc891d05dc5e96df49e559601c910f1f29e75a5b41d15b4e01",
+      "fetchedAt": "2026-08-24T07:23:16.584Z"
+    },
+    {
+      "rank": 240,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ccom",
+      "file": "240-derek-sivers.md",
+      "sha256": "8d1a24be7ed095668a0f6401e33f3bfacbfb9a58c096b83a5c6d377254aebccf",
+      "fetchedAt": "2026-08-24T07:23:17.881Z"
+    },
+    {
+      "rank": 241,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/reach",
+      "file": "241-derek-sivers.md",
+      "sha256": "2d80f63929d44d7d6dadf5a05b8e62abb9bbb06a8d453a4d8244c44d7e1d0ae3",
+      "fetchedAt": "2026-08-24T07:23:18.343Z"
+    },
+    {
+      "rank": 242,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/gpers",
+      "file": "242-derek-sivers.md",
+      "sha256": "49bbe86edf9633f890830e5790f5d992c59ace51471b72c01557bfd70b552b22",
+      "fetchedAt": "2026-08-24T07:23:19.716Z"
+    },
+    {
+      "rank": 243,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pedestal",
+      "file": "243-derek-sivers.md",
+      "sha256": "8adb1c9690547ffbef98958d178473c397650a61a79c80fe9e092799131a87c0",
+      "fetchedAt": "2026-08-24T07:23:20.630Z"
+    },
+    {
+      "rank": 244,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/netskill",
+      "file": "244-derek-sivers.md",
+      "sha256": "ab338494fa5b750bc0c3a32fc6acf08bbffeec18799cc01ed2b23ed9521b98c4",
+      "fetchedAt": "2026-08-24T07:23:21.193Z"
+    },
+    {
+      "rank": 245,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/city",
+      "file": "245-derek-sivers.md",
+      "sha256": "b2e9c0c79b1ddda1c4ff41f1889555f33cd83ef483878f4087bff24b8919acbe",
+      "fetchedAt": "2026-08-24T07:23:21.803Z"
+    },
+    {
+      "rank": 246,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dbt",
+      "file": "246-derek-sivers.md",
+      "sha256": "6f1101048cb5d68ef07058bfc6e3c72322580e3f2775df1afcf6419f98b6dd24",
+      "fetchedAt": "2026-08-24T07:23:22.554Z"
+    },
+    {
+      "rank": 247,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mn1",
+      "file": "247-derek-sivers.md",
+      "sha256": "f1582206849e28a54f64dd85fba067e754a73d1687a46ab1fb07f4b536b9e348",
+      "fetchedAt": "2026-08-24T07:23:23.272Z"
+    },
+    {
+      "rank": 248,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pp",
+      "file": "248-derek-sivers.md",
+      "sha256": "151794d5309d998b2eedbf56a6b05b1f0bf9543982f7db267bd1a2b12f9356e9",
+      "fetchedAt": "2026-08-24T07:23:23.742Z"
+    },
+    {
+      "rank": 249,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ext",
+      "file": "249-derek-sivers.md",
+      "sha256": "7e0c6c889cc468e361cac1bf71e4498c5b9e0741d5ffb88e9f116f579276bb28",
+      "fetchedAt": "2026-08-24T07:23:24.320Z"
+    },
+    {
+      "rank": 250,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/stage",
+      "file": "250-derek-sivers.md",
+      "sha256": "7f74e5ed4c68babf67ef82075dcc3176c7164619fd9170176428358c34355f63",
+      "fetchedAt": "2026-08-24T07:23:24.845Z"
+    },
+    {
+      "rank": 251,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/cons",
+      "file": "251-derek-sivers.md",
+      "sha256": "7372c50ae0ce69591867e446585e345c8b5f2260548744440ad205a85530ca6a",
+      "fetchedAt": "2026-08-24T07:23:25.571Z"
+    },
+    {
+      "rank": 252,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/3in",
+      "file": "252-derek-sivers.md",
+      "sha256": "46b39de402fb6722f129b0ec2b902300c651a67ed9aeaabdb7435db555ad5a06",
+      "fetchedAt": "2026-08-24T07:23:26.476Z"
+    },
+    {
+      "rank": 253,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/unun",
+      "file": "253-derek-sivers.md",
+      "sha256": "45cf9fde963504db6200f47dc24d2d974b919081862182ce9aa2475eaa53de67",
+      "fetchedAt": "2026-08-24T07:23:27.142Z"
+    },
+    {
+      "rank": 254,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/odds",
+      "file": "254-derek-sivers.md",
+      "sha256": "a95d9ddb258919c37f5f8897bc3dcd131456d52e75e68d8d26d86c4812e7ca3e",
+      "fetchedAt": "2026-08-24T07:23:27.629Z"
+    },
+    {
+      "rank": 255,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pa",
+      "file": "255-derek-sivers.md",
+      "sha256": "406ba3db7ff9b2dacdc311c8ce5c45eb07aabefe60b4752fac1d4abe13dde619",
+      "fetchedAt": "2026-08-24T07:23:28.403Z"
+    },
+    {
+      "rank": 256,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tra",
+      "file": "256-derek-sivers.md",
+      "sha256": "40d0f9d827568878d57c46a630f1433461a0ad0788add88aa96a13c0a968f504",
+      "fetchedAt": "2026-08-24T07:23:28.916Z"
+    },
+    {
+      "rank": 257,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ego",
+      "file": "257-derek-sivers.md",
+      "sha256": "39a25561f9477ca52a43adf7cfa77d8ca33e00b87d8ad43e8392add8b2938689",
+      "fetchedAt": "2026-08-24T07:23:29.442Z"
+    },
+    {
+      "rank": 258,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/arv",
+      "file": "258-derek-sivers.md",
+      "sha256": "d68009f14c78dcfb3127a1c070c448b3b8dce756961fb602b18543a9bda93e69",
+      "fetchedAt": "2026-08-24T07:23:30.155Z"
+    },
+    {
+      "rank": 259,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/bronze",
+      "file": "259-derek-sivers.md",
+      "sha256": "6c329971cb5d5b391350d37e59edf82bcd61b891f52c0fa3761020eca1f5ddaa",
+      "fetchedAt": "2026-08-24T07:23:30.740Z"
+    },
+    {
+      "rank": 260,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/useless",
+      "file": "260-derek-sivers.md",
+      "sha256": "4da1ab0a06832c9f9b1f6fd2404e9de411df54f5e220807b8f21427e31c5de2f",
+      "fetchedAt": "2026-08-24T07:23:31.480Z"
+    },
+    {
+      "rank": 261,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/quit",
+      "file": "261-derek-sivers.md",
+      "sha256": "e724a5f82aea402720e049bf6cda99b6e3cc314f21ba79fa375c6da99003ac33",
+      "fetchedAt": "2026-08-24T07:23:32.284Z"
+    },
+    {
+      "rank": 262,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/soso",
+      "file": "262-derek-sivers.md",
+      "sha256": "48e1e9bc19afd5ef859983afb48d91d8afda88689467eccd27623e910cb7d6ad",
+      "fetchedAt": "2026-08-24T07:23:32.869Z"
+    },
+    {
+      "rank": 263,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/faq",
+      "file": "263-derek-sivers.md",
+      "sha256": "ae89765e996c3e535c79fce938df5022260f2f47a94fc58bd64a22ac92fe7f53",
+      "fetchedAt": "2026-08-24T07:23:33.590Z"
+    },
+    {
+      "rank": 264,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/balance",
+      "file": "264-derek-sivers.md",
+      "sha256": "01ea1ef0b238e42b020fe6d1d52fd9da734a9be675ae61536950d3a6a93530fb",
+      "fetchedAt": "2026-08-24T07:23:34.153Z"
+    },
+    {
+      "rank": 265,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tilt",
+      "file": "265-derek-sivers.md",
+      "sha256": "8d33df6c2a9bd06201a7a1d0f585e90181c6f73652995dae7306d8696d17981a",
+      "fetchedAt": "2026-08-24T07:23:34.756Z"
+    },
+    {
+      "rank": 266,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/why",
+      "file": "266-derek-sivers.md",
+      "sha256": "cd6a4b15515544e1f8849421423dd9c65649ef9f4c5a473b64dc688a63ea720f",
+      "fetchedAt": "2026-08-24T07:23:35.357Z"
+    },
+    {
+      "rank": 267,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/slow",
+      "file": "267-derek-sivers.md",
+      "sha256": "96ca19398ce5c0463a26e9cb3dd60406b76a7756ce5903fe0549de58c4c719ac",
+      "fetchedAt": "2026-08-24T07:23:35.862Z"
+    },
+    {
+      "rank": 268,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/expire",
+      "file": "268-derek-sivers.md",
+      "sha256": "900b6f407a7b1eea6727517d0b2d0ae28e2ea022de72486934bf7f3aaca800e4",
+      "fetchedAt": "2026-08-24T07:23:36.884Z"
+    },
+    {
+      "rank": 269,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/unmo",
+      "file": "269-derek-sivers.md",
+      "sha256": "a0543cf626b4c94b8dd9133f57105cac6c5a4fa98d962a61107759c7699b5dc4",
+      "fetchedAt": "2026-08-24T07:23:38.187Z"
+    },
+    {
+      "rank": 270,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dc",
+      "file": "270-derek-sivers.md",
+      "sha256": "e26d7292b67a9301d90910a54ed664e5840d2c7ed0052413fefd4d7506ce5f46",
+      "fetchedAt": "2026-08-24T07:23:39.152Z"
+    },
+    {
+      "rank": 271,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/2c",
+      "file": "271-derek-sivers.md",
+      "sha256": "2259381772327c2500d75e609ec6a8e6b4a41da322364e9a6227c42397ae49ce",
+      "fetchedAt": "2026-08-24T07:23:40.134Z"
+    },
+    {
+      "rank": 272,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/futures",
+      "file": "272-derek-sivers.md",
+      "sha256": "662a58930baf6c2f3fc9b327f314256aa99b59b28278f5ab11465e297f8bcb16",
+      "fetchedAt": "2026-08-24T07:23:40.809Z"
+    },
+    {
+      "rank": 273,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/counter",
+      "file": "273-derek-sivers.md",
+      "sha256": "d3ae9f8037fe46b080be5cc374c00d2a4c90656484f1dc683b562b88fd522d4d",
+      "fetchedAt": "2026-08-24T07:23:41.396Z"
+    },
+    {
+      "rank": 274,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/d1r",
+      "file": "274-derek-sivers.md",
+      "sha256": "a1f53693e1e75d223e38a7e97722f8e80097851ea8c883008846fd87960bd3b6",
+      "fetchedAt": "2026-08-24T07:23:41.999Z"
+    },
+    {
+      "rank": 275,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/d1",
+      "file": "275-derek-sivers.md",
+      "sha256": "7427e960c56f977088bf14968d4d403b2793ed9d3b12fe01e6081b05ddbdbd5e",
+      "fetchedAt": "2026-08-24T07:23:42.652Z"
+    },
+    {
+      "rank": 276,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/d1s",
+      "file": "276-derek-sivers.md",
+      "sha256": "9f87c14c9f433113f4124d39d3bdccfefdfcaf0d125c6d95160118d0ed7abd6b",
+      "fetchedAt": "2026-08-24T07:23:43.234Z"
+    },
+    {
+      "rank": 277,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/d1x",
+      "file": "277-derek-sivers.md",
+      "sha256": "34b4f23bdab80b848636dbe647958c663db46656ff103eb6a47070ec21f07c3f",
+      "fetchedAt": "2026-08-24T07:23:43.898Z"
+    },
+    {
+      "rank": 278,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/d1t",
+      "file": "278-derek-sivers.md",
+      "sha256": "088ce8041e5a0202e9da09724a7870d4fc97c3c4fd202724587db642542d29e1",
+      "fetchedAt": "2026-08-24T07:23:44.545Z"
+    },
+    {
+      "rank": 279,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/d1p",
+      "file": "279-derek-sivers.md",
+      "sha256": "80e409d6cfbdfaf9976321fcf5b9e508a585d8f5cacaaefcad8b5989717130f1",
+      "fetchedAt": "2026-08-24T07:23:45.221Z"
+    },
+    {
+      "rank": 280,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/d1u",
+      "file": "280-derek-sivers.md",
+      "sha256": "6da9cb16f7f773460d425d2380181250c340d0afb6bc7f381477342f40ece48b",
+      "fetchedAt": "2026-08-24T07:23:45.905Z"
+    },
+    {
+      "rank": 281,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/asking",
+      "file": "281-derek-sivers.md",
+      "sha256": "0669d836758ca02e29fddc4bca18e8ce3fcaf37ee430638897e96ec42a5ea8ec",
+      "fetchedAt": "2026-08-24T07:23:46.640Z"
+    },
+    {
+      "rank": 282,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/interviews",
+      "file": "282-derek-sivers.md",
+      "sha256": "457d07b986e7647152bf69ec2a21011284bc4973f68b55f9ee65f244741a3f8f",
+      "fetchedAt": "2026-08-24T07:23:47.219Z"
+    },
+    {
+      "rank": 283,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/nopr",
+      "file": "283-derek-sivers.md",
+      "sha256": "cd11acd07ba8bd446695435f90fa7fbbe35bd6b756b6d40e5f6199206260ee7f",
+      "fetchedAt": "2026-08-24T07:23:47.812Z"
+    },
+    {
+      "rank": 284,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hsu",
+      "file": "284-derek-sivers.md",
+      "sha256": "0e0c8e7522e0ad00124d6afa7b79ea94344c620386ae59f3827510692d366b1b",
+      "fetchedAt": "2026-08-24T07:23:48.456Z"
+    },
+    {
+      "rank": 285,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mw",
+      "file": "285-derek-sivers.md",
+      "sha256": "9f10b1299a2c99ca197c871a587f17f57cc6bdb14d4efbfed2007bbc053cd40e",
+      "fetchedAt": "2026-08-24T07:23:48.984Z"
+    },
+    {
+      "rank": 286,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/advice",
+      "file": "286-derek-sivers.md",
+      "sha256": "4444c65104cfef927236a4e5f358214b4f2d89a4029a2906cba81626d5a87ae7",
+      "fetchedAt": "2026-08-24T07:23:49.620Z"
+    },
+    {
+      "rank": 287,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/compensate",
+      "file": "287-derek-sivers.md",
+      "sha256": "7648497c8403306e83ca9de324bcc67d4c03dbffbcf9fc39cb7ec32e4fed01a1",
+      "fetchedAt": "2026-08-24T07:23:50.122Z"
+    },
+    {
+      "rank": 288,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/thx",
+      "file": "288-derek-sivers.md",
+      "sha256": "ec733b0cd26627c3df45dbb4be7d8f8e948398e6f06edf4d3b4ccea572fea5fa",
+      "fetchedAt": "2026-08-24T07:23:50.751Z"
+    },
+    {
+      "rank": 289,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/gifts",
+      "file": "289-derek-sivers.md",
+      "sha256": "77119065c79eaf9ed3bd4c4426396cee4fec9d0d04930f9f319905870f7e098f",
+      "fetchedAt": "2026-08-24T07:23:51.352Z"
+    },
+    {
+      "rank": 290,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/prog",
+      "file": "290-derek-sivers.md",
+      "sha256": "313fd911e6a05609d3d3907218e28d32e34d999c4e86cd071af6504632e1cba2",
+      "fetchedAt": "2026-08-24T07:23:51.856Z"
+    },
+    {
+      "rank": 291,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/switch",
+      "file": "291-derek-sivers.md",
+      "sha256": "63da977d67466b4efab96f4d51425c2dccd6dfb70ec3548985d183e2d38facc0",
+      "fetchedAt": "2026-08-24T07:23:52.452Z"
+    },
+    {
+      "rank": 292,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/now3",
+      "file": "292-derek-sivers.md",
+      "sha256": "4f4b793a4288f1225a3ffe079958be65ecf206f152a1e917413264a18fb5d9d9",
+      "fetchedAt": "2026-08-24T07:23:53.060Z"
+    },
+    {
+      "rank": 293,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/nowff",
+      "file": "293-derek-sivers.md",
+      "sha256": "3d095e3d394334893c93a37ccc6d2c8b6a413283facff6a98966a3503e151e67",
+      "fetchedAt": "2026-08-24T07:23:53.577Z"
+    },
+    {
+      "rank": 294,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/relax",
+      "file": "294-derek-sivers.md",
+      "sha256": "c1af944532760a32b6c8c6ac4722319cebc0e703e4fe7ffad4d0244e9246e3e4",
+      "fetchedAt": "2026-08-24T07:23:54.086Z"
+    },
+    {
+      "rank": 295,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/no2",
+      "file": "295-derek-sivers.md",
+      "sha256": "969a5442e101f3890546fe74fa947342f8f023bdcda9c0fea90b26eb22a000e4",
+      "fetchedAt": "2026-08-24T07:23:54.572Z"
+    },
+    {
+      "rank": 296,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/2do",
+      "file": "296-derek-sivers.md",
+      "sha256": "1f7a2e3b57c1a479fb63166b8350e53a62b8356a79164ead463c39d1baee9e3e",
+      "fetchedAt": "2026-08-24T07:23:55.127Z"
+    },
+    {
+      "rank": 297,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pg",
+      "file": "297-derek-sivers.md",
+      "sha256": "28aa2c0a1596b3f0cafa2d81a8d3cce08c24a0f901962533d63e5e7336bebd43",
+      "fetchedAt": "2026-08-24T07:23:55.705Z"
+    },
+    {
+      "rank": 298,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/bad",
+      "file": "298-derek-sivers.md",
+      "sha256": "028e3ee313ed7084cfd0d720a9f8fcbdf1be4d87b47315212e311cd41fb56063",
+      "fetchedAt": "2026-08-24T07:23:56.255Z"
+    },
+    {
+      "rank": 299,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/career",
+      "file": "299-derek-sivers.md",
+      "sha256": "33251d9983b1e52f89ce2786999b83f329752d28b62d08082514ce751fb32aad",
+      "fetchedAt": "2026-08-24T07:23:56.792Z"
+    },
+    {
+      "rank": 300,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mindset",
+      "file": "300-derek-sivers.md",
+      "sha256": "54b154f0cbae2e489c02e472f8d14bae02e0462f6d9cb7e31bba97fc97fb3666",
+      "fetchedAt": "2026-08-24T07:23:57.337Z"
+    },
+    {
+      "rank": 301,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/lw",
+      "file": "301-derek-sivers.md",
+      "sha256": "02f085d71b1921d84223daa819b09f1c101637dbe12b87bd04343989789a6023",
+      "fetchedAt": "2026-08-24T07:23:57.824Z"
+    },
+    {
+      "rank": 302,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/afford",
+      "file": "302-derek-sivers.md",
+      "sha256": "4c1311285bdc1ff40084ff2ebb177c6d315970d6b3c7b565be339db2265e196b",
+      "fetchedAt": "2026-08-24T07:23:58.361Z"
+    },
+    {
+      "rank": 303,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/cs3",
+      "file": "303-derek-sivers.md",
+      "sha256": "9faad2e40713dcd9023ce5677a06c6e0dd9c38671633da529d43078798e6d3c4",
+      "fetchedAt": "2026-08-24T07:23:58.963Z"
+    },
+    {
+      "rank": 304,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/cs2",
+      "file": "304-derek-sivers.md",
+      "sha256": "304a7479d68ef8c6aa9bc55f1f99f0a7402b68fbc61806369178ceefee7bdeb2",
+      "fetchedAt": "2026-08-24T07:23:59.586Z"
+    },
+    {
+      "rank": 305,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/cs1",
+      "file": "305-derek-sivers.md",
+      "sha256": "87a78676185ffd72980a82768e2a341d94761fd5948fb40d4e74dceb90fc93bf",
+      "fetchedAt": "2026-08-24T07:24:00.077Z"
+    },
+    {
+      "rank": 306,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/cs",
+      "file": "306-derek-sivers.md",
+      "sha256": "773496d1582e7dd45ffadfee65cd4b2d5107ba9b23c02138cd5b9915b31b2048",
+      "fetchedAt": "2026-08-24T07:24:00.613Z"
+    },
+    {
+      "rank": 307,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hate",
+      "file": "307-derek-sivers.md",
+      "sha256": "7ad7e6a59151f65f35ced67ec30e334320f8e6b0d0a0d5a3e6eb3be130fb1cc8",
+      "fetchedAt": "2026-08-24T07:24:01.096Z"
+    },
+    {
+      "rank": 308,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ml",
+      "file": "308-derek-sivers.md",
+      "sha256": "319d0b66c5d56177f2011126940fe15c40c6288e7fd3271701a3999f51642c73",
+      "fetchedAt": "2026-08-24T07:24:01.562Z"
+    },
+    {
+      "rank": 309,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tarzan",
+      "file": "309-derek-sivers.md",
+      "sha256": "e4e086371f3d466bc210bd3aa58dcf27688c548756672f463c167fcc4a933a97",
+      "fetchedAt": "2026-08-24T07:24:02.105Z"
+    },
+    {
+      "rank": 310,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/full",
+      "file": "310-derek-sivers.md",
+      "sha256": "ea55d72b511ee06c548ff68eeb054d357bd6617a80816d13e766cd014a7b6228",
+      "fetchedAt": "2026-08-24T07:24:02.587Z"
+    },
+    {
+      "rank": 311,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/game",
+      "file": "311-derek-sivers.md",
+      "sha256": "d87ad39b12a03a161d3b1014a625bd91c654f1cf45ea38f0a7efbbc5824d22a4",
+      "fetchedAt": "2026-08-24T07:24:03.054Z"
+    },
+    {
+      "rank": 312,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mirror",
+      "file": "312-derek-sivers.md",
+      "sha256": "3d45778a456f5b725f81c4dca75e275114bd687957690c5ea224a22825731fbd",
+      "fetchedAt": "2026-08-24T07:24:03.630Z"
+    },
+    {
+      "rank": 313,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/id14",
+      "file": "313-derek-sivers.md",
+      "sha256": "d56cdcacd49f6f7625dc6522b9596e81f2cb5bdd3e3107cc35a4fc4ff5706303",
+      "fetchedAt": "2026-08-24T07:24:04.094Z"
+    },
+    {
+      "rank": 314,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/vn14",
+      "file": "314-derek-sivers.md",
+      "sha256": "cf21f9d35d372d269ae9f1c3604cd5741d1a37139bcd4e4b2f943571f16be5cd",
+      "fetchedAt": "2026-08-24T07:24:04.620Z"
+    },
+    {
+      "rank": 315,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/sg14",
+      "file": "315-derek-sivers.md",
+      "sha256": "8fb5e84f38613664e77b9fcb4ff3558a7dd5ae75beef5049c269e5a54f6bd559",
+      "fetchedAt": "2026-08-24T07:24:05.100Z"
+    },
+    {
+      "rank": 316,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/jp14",
+      "file": "316-derek-sivers.md",
+      "sha256": "18f8fd118c2eecbefa388cfed550ba422d871884dfc0cd4e158fd556c7cf3170",
+      "fetchedAt": "2026-08-24T07:24:05.672Z"
+    },
+    {
+      "rank": 317,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/quality",
+      "file": "317-derek-sivers.md",
+      "sha256": "b766889f7b32737292e33bdc2680553d02d4d0edea63611d3ccec9aa9eb573c5",
+      "fetchedAt": "2026-08-24T07:24:06.236Z"
+    },
+    {
+      "rank": 318,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/we14",
+      "file": "318-derek-sivers.md",
+      "sha256": "ec6e02eeceb2f9f02169e1e2cae877e27d8ca2f3fc629cf12b544a7c4e735c0e",
+      "fetchedAt": "2026-08-24T07:24:06.703Z"
+    },
+    {
+      "rank": 319,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/jac",
+      "file": "319-derek-sivers.md",
+      "sha256": "9ed60e20ef30d8a6045febf57f19e5dc6e54b9db1b567a7f2a540ee5f6de3fd9",
+      "fetchedAt": "2026-08-24T07:24:07.220Z"
+    },
+    {
+      "rank": 320,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/here",
+      "file": "320-derek-sivers.md",
+      "sha256": "35acbb5854215d4f5ddab2adbff6cefdae389087037a7466530af00493943fa9",
+      "fetchedAt": "2026-08-24T07:24:07.721Z"
+    },
+    {
+      "rank": 321,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ws",
+      "file": "321-derek-sivers.md",
+      "sha256": "c19b7fe0b38dc5619c2d865afec3478aa4f5f82cd4b14c802d22f9c9d6be6e8e",
+      "fetchedAt": "2026-08-24T07:24:08.220Z"
+    },
+    {
+      "rank": 322,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/milt",
+      "file": "322-derek-sivers.md",
+      "sha256": "bc5ea15c573dac59a5636034b3c75189952b569a6e66cfdcee447570d393d163",
+      "fetchedAt": "2026-08-24T07:24:08.790Z"
+    },
+    {
+      "rank": 323,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/robust",
+      "file": "323-derek-sivers.md",
+      "sha256": "5f4d6eacdc6cb29867f01d22ba816b19bfb7262ded8e4278a6523c64538c9e2d",
+      "fetchedAt": "2026-08-24T07:24:09.363Z"
+    },
+    {
+      "rank": 324,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/eg",
+      "file": "324-derek-sivers.md",
+      "sha256": "733cffe07d4b8a49e6ccc3ca4743189d8b803d2b5289dd53468db60e5a726d6e",
+      "fetchedAt": "2026-08-24T07:24:09.869Z"
+    },
+    {
+      "rank": 325,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/wrong",
+      "file": "325-derek-sivers.md",
+      "sha256": "f8219edc843a8ec8c913d983683147d82b539585ce32a1b621b4fc5011011850",
+      "fetchedAt": "2026-08-24T07:24:10.382Z"
+    },
+    {
+      "rank": 326,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/360",
+      "file": "326-derek-sivers.md",
+      "sha256": "e50bcbe8e58581962f6dca97254d6f6390306cc978a028298b42d8c5c9014810",
+      "fetchedAt": "2026-08-24T07:24:10.934Z"
+    },
+    {
+      "rank": 327,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/io",
+      "file": "327-derek-sivers.md",
+      "sha256": "d38dc2f8e0d1becc3cb3fbb28c3d1568992c84553dc64b0f6d0f6a8e0912b7e1",
+      "fetchedAt": "2026-08-24T07:24:11.480Z"
+    },
+    {
+      "rank": 328,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ebert2",
+      "file": "328-derek-sivers.md",
+      "sha256": "072bbdeb2c4e48bfdd2107a5326aaf6a26bd6b2983621a4eed22386029fc657e",
+      "fetchedAt": "2026-08-24T07:24:12.060Z"
+    },
+    {
+      "rank": 329,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hi",
+      "file": "329-derek-sivers.md",
+      "sha256": "781b8abad509c6d4b6ad667047ac5f60082aad5f9e934a5497c1ac551d7ebfee",
+      "fetchedAt": "2026-08-24T07:24:12.589Z"
+    },
+    {
+      "rank": 330,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/xn",
+      "file": "330-derek-sivers.md",
+      "sha256": "f2ed24c7a2b874a680beb36e8083cfb9409d3cb8a2c9b4b5719dda0923e6ec3d",
+      "fetchedAt": "2026-08-24T07:24:13.187Z"
+    },
+    {
+      "rank": 331,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/boring",
+      "file": "331-derek-sivers.md",
+      "sha256": "fa157ceac08ff4c5a1e19641dc24de28ff9cc41bfb12bc61697d9d49c32dea71",
+      "fetchedAt": "2026-08-24T07:24:13.798Z"
+    },
+    {
+      "rank": 332,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/srs",
+      "file": "332-derek-sivers.md",
+      "sha256": "f5dd6f4b66e8033d8f06e931a612f9deb249b5ea461c81d760ad9484b787d84f",
+      "fetchedAt": "2026-08-24T07:24:14.257Z"
+    },
+    {
+      "rank": 333,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/my-fault",
+      "file": "333-derek-sivers.md",
+      "sha256": "0f5f8ec17c11b9ea909120779e04068b7961357212b478e410318b5be9f75cba",
+      "fetchedAt": "2026-08-24T07:24:14.714Z"
+    },
+    {
+      "rank": 334,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/local",
+      "file": "334-derek-sivers.md",
+      "sha256": "9e18bf93aabf1c541de4075e241519a60dd89b5e771ba836332cb20fa17e5cd2",
+      "fetchedAt": "2026-08-24T07:24:15.203Z"
+    },
+    {
+      "rank": 335,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/comfort",
+      "file": "335-derek-sivers.md",
+      "sha256": "b1f1e74ca137881df10a5c1689c4deca5bfec5d014ad65e623a224ea8d753ce7",
+      "fetchedAt": "2026-08-24T07:24:15.817Z"
+    },
+    {
+      "rank": 336,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ss",
+      "file": "336-derek-sivers.md",
+      "sha256": "9f93b9e511bb29af3d534b8b28492c5dc8461d019e8bdfa231b2b45df8651cc3",
+      "fetchedAt": "2026-08-24T07:24:16.315Z"
+    },
+    {
+      "rank": 337,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/la",
+      "file": "337-derek-sivers.md",
+      "sha256": "e9359b9f5e31755f1d6b2f1e8f09649132832ffc49a35b0c602664bd7da276f0",
+      "fetchedAt": "2026-08-24T07:24:16.795Z"
+    },
+    {
+      "rank": 338,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/friends",
+      "file": "338-derek-sivers.md",
+      "sha256": "2fa47e1a706208711cc1d631815d261592ea2760d522517c293e4b64198b7277",
+      "fetchedAt": "2026-08-24T07:24:17.301Z"
+    },
+    {
+      "rank": 339,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/sharing",
+      "file": "339-derek-sivers.md",
+      "sha256": "fdc28c903d982a6b09bc952ff93cf790f8907a63fbf5b2c391c70016988a988b",
+      "fetchedAt": "2026-08-24T07:24:17.788Z"
+    },
+    {
+      "rank": 340,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/232",
+      "file": "340-derek-sivers.md",
+      "sha256": "a1ef2eb42cd0accd05e4298d0500947f3e9886b378c1d6070727223e5aca62a9",
+      "fetchedAt": "2026-08-24T07:24:18.268Z"
+    },
+    {
+      "rank": 341,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/andor",
+      "file": "341-derek-sivers.md",
+      "sha256": "1adc39adfe2552e346d52cba18fd9ad643340355eb8d7f0896bc0a124b37aa31",
+      "fetchedAt": "2026-08-24T07:24:18.815Z"
+    },
+    {
+      "rank": 342,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ayw8",
+      "file": "342-derek-sivers.md",
+      "sha256": "8f1debcafdb2dbbecc75d94e034121c025c2c316797c8b1141fcb1e8082d3c9a",
+      "fetchedAt": "2026-08-24T07:24:19.276Z"
+    },
+    {
+      "rank": 343,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/abdicate",
+      "file": "343-derek-sivers.md",
+      "sha256": "c740a5306d3e6d1c5b0ccaa839571afcd043725bcf01d75703e52d0b8a06559f",
+      "fetchedAt": "2026-08-24T07:24:19.770Z"
+    },
+    {
+      "rank": 344,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ayw7",
+      "file": "344-derek-sivers.md",
+      "sha256": "5d7be333c7122f52cad1ccc7df4dd4eed3755e656fadb4c7240c6e37970a9aea",
+      "fetchedAt": "2026-08-24T07:24:20.248Z"
+    },
+    {
+      "rank": 345,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/being",
+      "file": "345-derek-sivers.md",
+      "sha256": "38c4c83c6d3acdb2858c3fdff62909da9b114d4b10f95b491bade003c72c06a2",
+      "fetchedAt": "2026-08-24T07:24:20.748Z"
+    },
+    {
+      "rank": 346,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/double",
+      "file": "346-derek-sivers.md",
+      "sha256": "2417eb636e202c99c080aa0f62f4002c651ba593b9be59d02470acd8e570c830",
+      "fetchedAt": "2026-08-24T07:24:21.328Z"
+    },
+    {
+      "rank": 347,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/casual",
+      "file": "347-derek-sivers.md",
+      "sha256": "50f0110d92d4bf12494bc2174d9471fae56dc531d6d3a1be8742552014e051d3",
+      "fetchedAt": "2026-08-24T07:24:21.825Z"
+    },
+    {
+      "rank": 348,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/cdbf",
+      "file": "348-derek-sivers.md",
+      "sha256": "ac6cbd6f99c7d618748a58c3d38837cf52f6afadc285b79cb410c5d5cbe3131c",
+      "fetchedAt": "2026-08-24T07:24:22.487Z"
+    },
+    {
+      "rank": 349,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/cdbe",
+      "file": "349-derek-sivers.md",
+      "sha256": "aa40a2e661c66a9699ce4110559716e68cd9338adf51d01b0950145baf047099",
+      "fetchedAt": "2026-08-24T07:24:23.061Z"
+    },
+    {
+      "rank": 350,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dontneed",
+      "file": "350-derek-sivers.md",
+      "sha256": "224c55302fa4dc8bd105a2c0036261f38ec3452cdb02dd0bd3090d1e07a14684",
+      "fetchedAt": "2026-08-24T07:24:23.537Z"
+    },
+    {
+      "rank": 351,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/caremore",
+      "file": "351-derek-sivers.md",
+      "sha256": "71cbf41882bd116afb4e428d5daa72f3df558c0ce544e555a23f262ae2f3b697",
+      "fetchedAt": "2026-08-24T07:24:24.009Z"
+    },
+    {
+      "rank": 352,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/noplan",
+      "file": "352-derek-sivers.md",
+      "sha256": "9e7ee2c713947a60a8a50307a2d8299b6b5721685920ca4d2abcf05195d0a7c6",
+      "fetchedAt": "2026-08-24T07:24:24.529Z"
+    },
+    {
+      "rank": 353,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/noads",
+      "file": "353-derek-sivers.md",
+      "sha256": "a7693743e46b59c407f74de85b886c703952acba19ed3f8eacfd36a1874f06bf",
+      "fetchedAt": "2026-08-24T07:24:25.030Z"
+    },
+    {
+      "rank": 354,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/exclude2",
+      "file": "354-derek-sivers.md",
+      "sha256": "3767fbff37211acd262f2bbc886a206aa9504fc6cfbe11d308566676edc63748",
+      "fetchedAt": "2026-08-24T07:24:25.491Z"
+    },
+    {
+      "rank": 355,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/formalities",
+      "file": "355-derek-sivers.md",
+      "sha256": "da37ecdff2ed19461c1c9673eb302b84a20a25ee39d8ccb7b2a22d93c2bf5dab",
+      "fetchedAt": "2026-08-24T07:24:25.988Z"
+    },
+    {
+      "rank": 356,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/startnow",
+      "file": "356-derek-sivers.md",
+      "sha256": "a2ca3965cb69b98adfd94988ae2bfffb706cfd21531994df2075c79bc1ac16d1",
+      "fetchedAt": "2026-08-24T07:24:26.455Z"
+    },
+    {
+      "rank": 357,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/nofund",
+      "file": "357-derek-sivers.md",
+      "sha256": "ec1f6ceafd37ac397ec4660b99f372ac98e4e0e2787f38f46e6538f59890d206",
+      "fetchedAt": "2026-08-24T07:24:26.923Z"
+    },
+    {
+      "rank": 358,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/changeplan",
+      "file": "358-derek-sivers.md",
+      "sha256": "45ba25383e1acbbd30e9bd1d54581a97980d7f33a6514adc3329a74d95f432da",
+      "fetchedAt": "2026-08-24T07:24:27.394Z"
+    },
+    {
+      "rank": 359,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hitswitch",
+      "file": "359-derek-sivers.md",
+      "sha256": "f225d6d532acf3446df20cae9e16a8bfc8a65148a814e6e385be47cf4d0fa8ad",
+      "fetchedAt": "2026-08-24T07:24:27.884Z"
+    },
+    {
+      "rank": 360,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ayw6",
+      "file": "360-derek-sivers.md",
+      "sha256": "64bfa3b8bc325915acf90e1acafa6888f60c7095bd6e42a8f2e2be4a54759d70",
+      "fetchedAt": "2026-08-24T07:24:28.382Z"
+    },
+    {
+      "rank": 361,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ayw5",
+      "file": "361-derek-sivers.md",
+      "sha256": "b460f3649e0094ac44497ea099e19f01079c39432ce400b304014489f17f9f28",
+      "fetchedAt": "2026-08-24T07:24:28.862Z"
+    },
+    {
+      "rank": 362,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ayw4",
+      "file": "362-derek-sivers.md",
+      "sha256": "110d229a0acaa0eb557bb3a790d48dfe2a5263f279c3162776e490c223986a7d",
+      "fetchedAt": "2026-08-24T07:24:29.360Z"
+    },
+    {
+      "rank": 363,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ayw3",
+      "file": "363-derek-sivers.md",
+      "sha256": "79e343d9a9c9ab92b54d581cdccc86d9fc95b008830aadaface3e54677bb22d4",
+      "fetchedAt": "2026-08-24T07:24:29.849Z"
+    },
+    {
+      "rank": 364,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ayw2",
+      "file": "364-derek-sivers.md",
+      "sha256": "0e53a55253db8a5a87ebb28ea6bcecaea34ee3aec7604a26614657c3572a32fa",
+      "fetchedAt": "2026-08-24T07:24:30.317Z"
+    },
+    {
+      "rank": 365,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ayw1",
+      "file": "365-derek-sivers.md",
+      "sha256": "e73aba35a9b96a9511ca2167ae894de3680a70367b425418fdb2b1f7a8fc3b74",
+      "fetchedAt": "2026-08-24T07:24:30.809Z"
+    },
+    {
+      "rank": 366,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ayw",
+      "file": "366-derek-sivers.md",
+      "sha256": "9cc30422cc18a884a1a12424a8fda749751938e2bacce7a872f5323bac74b54a",
+      "fetchedAt": "2026-08-24T07:24:31.323Z"
+    },
+    {
+      "rank": 367,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/meaning",
+      "file": "367-derek-sivers.md",
+      "sha256": "a23e74af8b8f98db61bebed392ce3df7cdc77b24b5fad99397fc71b02e998d40",
+      "fetchedAt": "2026-08-24T07:24:31.836Z"
+    },
+    {
+      "rank": 368,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/fish",
+      "file": "368-derek-sivers.md",
+      "sha256": "998a7013f46133d8165258b130efb7901f9d93933be9d2e0aa7b683099594f22",
+      "fetchedAt": "2026-08-24T07:24:32.408Z"
+    },
+    {
+      "rank": 369,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/donkey",
+      "file": "369-derek-sivers.md",
+      "sha256": "55b4413224fb035d16d5a4a6b289d92117f89fa93f81881c7f1b769418438682",
+      "fetchedAt": "2026-08-24T07:24:32.901Z"
+    },
+    {
+      "rank": 370,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/aq",
+      "file": "370-derek-sivers.md",
+      "sha256": "175fcf2a756fb15ac50558bfb37831705b0bcc5d46dd5d4924a0537b9148a7ea",
+      "fetchedAt": "2026-08-24T07:24:33.375Z"
+    },
+    {
+      "rank": 371,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/singapore",
+      "file": "371-derek-sivers.md",
+      "sha256": "f0c6df51ac1399a67ee76c4090d00efde703de206be544d046f50281b3bf8da4",
+      "fetchedAt": "2026-08-24T07:24:33.867Z"
+    },
+    {
+      "rank": 372,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/homeless",
+      "file": "372-derek-sivers.md",
+      "sha256": "03de1342a314adab7c794af7072996021c67ea41ee952f99c0af900695d736d2",
+      "fetchedAt": "2026-08-24T07:24:34.444Z"
+    },
+    {
+      "rank": 373,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/delegate",
+      "file": "373-derek-sivers.md",
+      "sha256": "b20f938e33cc56f82bf51639f8b6be27d97d9346d5c9daa006222e9a5fd4e8df",
+      "fetchedAt": "2026-08-24T07:24:34.964Z"
+    },
+    {
+      "rank": 374,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/obvious",
+      "file": "374-derek-sivers.md",
+      "sha256": "e955f8f8dd9346155f709eafafb9e724efc2014c385d569ac6101fcf2736abad",
+      "fetchedAt": "2026-08-24T07:24:35.523Z"
+    },
+    {
+      "rank": 375,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/blank",
+      "file": "375-derek-sivers.md",
+      "sha256": "343a890d7e2ff057c8c8bf285f12eb33acdbe2e45b0a11744334f43b90b46c59",
+      "fetchedAt": "2026-08-24T07:24:36.069Z"
+    },
+    {
+      "rank": 376,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/itunes",
+      "file": "376-derek-sivers.md",
+      "sha256": "b0176c39f16304d8edfc1f6b417543b2013e657ca889f5d004493b6d0263160e",
+      "fetchedAt": "2026-08-24T07:24:36.575Z"
+    },
+    {
+      "rank": 377,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/kl",
+      "file": "377-derek-sivers.md",
+      "sha256": "e109dc7b8cc3c12e7589e30b0f9fb83aa8e5e5334de6b7f86286e1dda338a642",
+      "fetchedAt": "2026-08-24T07:24:37.047Z"
+    },
+    {
+      "rank": 378,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/starv",
+      "file": "378-derek-sivers.md",
+      "sha256": "1540c596093f1819fe76a52c469a4faf7705e70ccba4e72afdf3401ddb6b085f",
+      "fetchedAt": "2026-08-24T07:24:37.569Z"
+    },
+    {
+      "rank": 379,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/quirks",
+      "file": "379-derek-sivers.md",
+      "sha256": "f45e92ae5e2dd44fedf370b835f27b35daf6e54b4e67cd862d5b8f85f5b18016",
+      "fetchedAt": "2026-08-24T07:24:38.032Z"
+    },
+    {
+      "rank": 380,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/loss",
+      "file": "380-derek-sivers.md",
+      "sha256": "88fe560f7edbd27f1603ab88117798c46059e14a469b43b6fd96321fd2587087",
+      "fetchedAt": "2026-08-24T07:24:38.485Z"
+    },
+    {
+      "rank": 381,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/below-average",
+      "file": "381-derek-sivers.md",
+      "sha256": "6521ea5451d8a3eeb2d78728cc68d74d3c11fb1e40c9ad0ea57f97d6e65603ba",
+      "fetchedAt": "2026-08-24T07:24:39.065Z"
+    },
+    {
+      "rank": 382,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/gethired",
+      "file": "382-derek-sivers.md",
+      "sha256": "f745d5056553c2d7bd36fa86eeb004eb4bbd9e378dc4c0f6d00a893af143818a",
+      "fetchedAt": "2026-08-24T07:24:39.551Z"
+    },
+    {
+      "rank": 383,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/how2hire",
+      "file": "383-derek-sivers.md",
+      "sha256": "bcd57754564ffdb9bc0ce1fc8e14e0e6d025c150371dfe18c9e192e93b812865",
+      "fetchedAt": "2026-08-24T07:24:40.057Z"
+    },
+    {
+      "rank": 384,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/15-years",
+      "file": "384-derek-sivers.md",
+      "sha256": "e5127125bcfceeb587d10dac5d87b664467a8983c2e0155dbb06ca22ddc6afbc",
+      "fetchedAt": "2026-08-24T07:24:40.569Z"
+    },
+    {
+      "rank": 385,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/sakamoto",
+      "file": "385-derek-sivers.md",
+      "sha256": "0ae6bcdc39a8fee807fedbe92f60227597543a08664d850f4f5f3ae004627095",
+      "fetchedAt": "2026-08-24T07:24:41.077Z"
+    },
+    {
+      "rank": 386,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/nq",
+      "file": "386-derek-sivers.md",
+      "sha256": "54338c4570dd5a9b15c9c6977ef7637f8f904c2dcba019695c6a997abe8fbb1a",
+      "fetchedAt": "2026-08-24T07:24:41.557Z"
+    },
+    {
+      "rank": 387,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/thor",
+      "file": "387-derek-sivers.md",
+      "sha256": "352f6da8c1413e366bc1010e082cdde953570434e733c15350d4c48f5e16f3a9",
+      "fetchedAt": "2026-08-24T07:24:42.043Z"
+    },
+    {
+      "rank": 388,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/real",
+      "file": "388-derek-sivers.md",
+      "sha256": "c050be3860504084816735cc7b2c939dd0f497817fe75834a1af6452984f65e9",
+      "fetchedAt": "2026-08-24T07:24:42.542Z"
+    },
+    {
+      "rank": 389,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/flipstick",
+      "file": "389-derek-sivers.md",
+      "sha256": "ca72396c7a20d3ef0ba67e0b4d45dcc0128925c44fc33b704322bcb28b5a741f",
+      "fetchedAt": "2026-08-24T07:24:43.035Z"
+    },
+    {
+      "rank": 390,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ff2",
+      "file": "390-derek-sivers.md",
+      "sha256": "27d2468b577564c4b2a87e27c1b6e90aa4c7f38daaba39656a776160207000e6",
+      "fetchedAt": "2026-08-24T07:24:43.534Z"
+    },
+    {
+      "rank": 391,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ff",
+      "file": "391-derek-sivers.md",
+      "sha256": "a10795b97f43978db46bffc06e0305c8686656e319a2fa171f6373a3d49356ad",
+      "fetchedAt": "2026-08-24T07:24:44.049Z"
+    },
+    {
+      "rank": 392,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/punish",
+      "file": "392-derek-sivers.md",
+      "sha256": "aa10f7e5ee32ed344f096347dd585a8b20a05a7bb9f67526d53226fab9a5b400",
+      "fetchedAt": "2026-08-24T07:24:44.562Z"
+    },
+    {
+      "rank": 393,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/options",
+      "file": "393-derek-sivers.md",
+      "sha256": "aa5462f981944ab9b79ff00ae950f4a1fb9acca8307086f4f2cb3299ca77c107",
+      "fetchedAt": "2026-08-24T07:24:45.039Z"
+    },
+    {
+      "rank": 394,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/prism",
+      "file": "394-derek-sivers.md",
+      "sha256": "51e43eebe215e7f9a0baed7fc691bd70ecae67c6c09cbf9dfe1afd7a5678a090",
+      "fetchedAt": "2026-08-24T07:24:45.648Z"
+    },
+    {
+      "rank": 395,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/seth-godin",
+      "file": "395-derek-sivers.md",
+      "sha256": "a0243c4494742ae3c69c04e3bf0da52fec3c52e886147b1865d988194a4fa038",
+      "fetchedAt": "2026-08-24T07:24:46.120Z"
+    },
+    {
+      "rank": 396,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/papabill",
+      "file": "396-derek-sivers.md",
+      "sha256": "844b09ad5f6f86ff2fa149dfd0abf63704b4df17c55a8953407e4fcf30426720",
+      "fetchedAt": "2026-08-24T07:24:46.638Z"
+    },
+    {
+      "rank": 397,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/busk",
+      "file": "397-derek-sivers.md",
+      "sha256": "279d7b409a88d86ccdb421105acd94eaac3068ec5df23ff77633483a06a25d37",
+      "fetchedAt": "2026-08-24T07:24:47.108Z"
+    },
+    {
+      "rank": 398,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tv",
+      "file": "398-derek-sivers.md",
+      "sha256": "673366328bd4bdbe9e81cf5f8f92745480a00fb275fda70175e11cebd9ac79c1",
+      "fetchedAt": "2026-08-24T07:24:47.570Z"
+    },
+    {
+      "rank": 399,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/trust",
+      "file": "399-derek-sivers.md",
+      "sha256": "cc60d76b65e09ba1da28729d673349d78ce0ea2baf0882879e63727a47b2a9a1",
+      "fetchedAt": "2026-08-24T07:24:48.039Z"
+    },
+    {
+      "rank": 400,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/kimo",
+      "file": "400-derek-sivers.md",
+      "sha256": "61a2b1ff4f392c26be80212a1f992e6b4ec2a8cb6171bed02e401cbeaafa7fbc",
+      "fetchedAt": "2026-08-24T07:24:48.515Z"
+    },
+    {
+      "rank": 401,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/1idea",
+      "file": "401-derek-sivers.md",
+      "sha256": "8b4c172e6271e7ff541f44287865f2103821f56bc9a71d568487e59afc14a399",
+      "fetchedAt": "2026-08-24T07:24:48.996Z"
+    },
+    {
+      "rank": 402,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/futuretense",
+      "file": "402-derek-sivers.md",
+      "sha256": "3590352bde1b692e7e6c44c32ea18ec022615d22712d5224728a05841336b997",
+      "fetchedAt": "2026-08-24T07:24:49.476Z"
+    },
+    {
+      "rank": 403,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/trustbut",
+      "file": "403-derek-sivers.md",
+      "sha256": "1d4f99ec8da95f9ad1fcd33c835365b3136c7b75b9b272e7fbbc31a93b4ffee1",
+      "fetchedAt": "2026-08-24T07:24:49.971Z"
+    },
+    {
+      "rank": 404,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/walkways",
+      "file": "404-derek-sivers.md",
+      "sha256": "8b3308e8eb8cbb6f6204e50bcc32c0ccc680d15e6be73bf0aed1cfbbf73a49da",
+      "fetchedAt": "2026-08-24T07:24:50.433Z"
+    },
+    {
+      "rank": 405,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/fela-kuti",
+      "file": "405-derek-sivers.md",
+      "sha256": "7924f785bf07b22bff7dabb62d88ec4272def7f963bfdb55b2f6c7328cd6603e",
+      "fetchedAt": "2026-08-24T07:24:50.933Z"
+    },
+    {
+      "rank": 406,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/confidence",
+      "file": "406-derek-sivers.md",
+      "sha256": "71fa35fa6d7bc0398f8c70f635467be8a0256817edf41331f2f7bf9a246c077b",
+      "fetchedAt": "2026-08-24T07:24:51.461Z"
+    },
+    {
+      "rank": 407,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/passion",
+      "file": "407-derek-sivers.md",
+      "sha256": "dea1d372c8ea853ed1c620179579da9d5d420e32d4d3ca1012d58cc192a0331c",
+      "fetchedAt": "2026-08-24T07:24:51.935Z"
+    },
+    {
+      "rank": 408,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/notwork",
+      "file": "408-derek-sivers.md",
+      "sha256": "010e8f93d9797a9134bb616ae8704ddb650ba8fbe6a39e75a8a6e4a9bb720528",
+      "fetchedAt": "2026-08-24T07:24:52.494Z"
+    },
+    {
+      "rank": 409,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/metaphor",
+      "file": "409-derek-sivers.md",
+      "sha256": "0ed3bcd097a8c691b583a5773042d468123866c5d00942b831b22fb051fc2c47",
+      "fetchedAt": "2026-08-24T07:24:52.968Z"
+    },
+    {
+      "rank": 410,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/done",
+      "file": "410-derek-sivers.md",
+      "sha256": "0768e1538e11fc821601ae7166746d887aeac5486e82d122e0ccaf4a14fb74fa",
+      "fetchedAt": "2026-08-24T07:24:53.455Z"
+    },
+    {
+      "rank": 411,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/unclear",
+      "file": "411-derek-sivers.md",
+      "sha256": "c7b8344efdd7cad6d75d573c00d23f68deb681edbf79620d6ed123c1f5465f5b",
+      "fetchedAt": "2026-08-24T07:24:53.945Z"
+    },
+    {
+      "rank": 412,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/grade",
+      "file": "412-derek-sivers.md",
+      "sha256": "16a100c04aca708b0c5056d5efa1c6191ddbab6efcb5e528233400ec3f0df649",
+      "fetchedAt": "2026-08-24T07:24:54.576Z"
+    },
+    {
+      "rank": 413,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/makenew",
+      "file": "413-derek-sivers.md",
+      "sha256": "0778238175d67eb4fcfd6d8ec7d71f0ccfe8f29a4ea7ccb484d5101ea7b2770c",
+      "fetchedAt": "2026-08-24T07:24:55.204Z"
+    },
+    {
+      "rank": 414,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/inlove",
+      "file": "414-derek-sivers.md",
+      "sha256": "df07b7539d12d345118a74be2cd05f4f70a38998c22d1709cd0bc8d22855b4e2",
+      "fetchedAt": "2026-08-24T07:24:55.766Z"
+    },
+    {
+      "rank": 415,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/1pct",
+      "file": "415-derek-sivers.md",
+      "sha256": "72f699573d65c811474943ab36a5afac7abfe06fcbb1ccd2613faa9a7c216fe7",
+      "fetchedAt": "2026-08-24T07:24:56.345Z"
+    },
+    {
+      "rank": 416,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/sms",
+      "file": "416-derek-sivers.md",
+      "sha256": "8d9f5d7899122df4c8946b65d141345fb91aed2873d208bd220b04b79ea04bb5",
+      "fetchedAt": "2026-08-24T07:24:56.974Z"
+    },
+    {
+      "rank": 417,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/biking",
+      "file": "417-derek-sivers.md",
+      "sha256": "6d0685c5b9753f4589fba27ed72a721a10428ae8d10655f7eff4a75a8c4b0a2d",
+      "fetchedAt": "2026-08-24T07:24:57.541Z"
+    },
+    {
+      "rank": 418,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/venuemix",
+      "file": "418-derek-sivers.md",
+      "sha256": "e904a89fa6d0d7ecf1ef43c660e4da8e2da273f31511f2591e6e73fa574f4f22",
+      "fetchedAt": "2026-08-24T07:24:58.115Z"
+    },
+    {
+      "rank": 419,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/livecd",
+      "file": "419-derek-sivers.md",
+      "sha256": "37eb9fc312618715b15632f57546cb068910440135da1e35cc475da9817c3d38",
+      "fetchedAt": "2026-08-24T07:24:58.750Z"
+    },
+    {
+      "rank": 420,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/freedom",
+      "file": "420-derek-sivers.md",
+      "sha256": "8df95abd51345503805bf4b55b385be9fa65f25328ec730694962793d47961e8",
+      "fetchedAt": "2026-08-24T07:24:59.279Z"
+    },
+    {
+      "rank": 421,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dont-fight-it",
+      "file": "421-derek-sivers.md",
+      "sha256": "eef146a2c124ef76b4ebf21f3ecd4e1287b4638174602e9935de39b70b99df11",
+      "fetchedAt": "2026-08-24T07:24:59.784Z"
+    },
+    {
+      "rank": 422,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/safety",
+      "file": "422-derek-sivers.md",
+      "sha256": "c04847e35339e5964ebda82291d9b6cc2893d31b1577587f5fddc8bc6bd4f219",
+      "fetchedAt": "2026-08-24T07:25:00.596Z"
+    },
+    {
+      "rank": 423,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/steps",
+      "file": "423-derek-sivers.md",
+      "sha256": "c5d4450d371a7a1b34eb62fe4604aae3d056c5ac8bf35f76cd33cd186b1f03e6",
+      "fetchedAt": "2026-08-24T07:25:01.241Z"
+    },
+    {
+      "rank": 424,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/desperate2",
+      "file": "424-derek-sivers.md",
+      "sha256": "630f72cd0c07dc6e885f534f07537750ba707604371145900f3d76920fc628ac",
+      "fetchedAt": "2026-08-24T07:25:03.251Z"
+    },
+    {
+      "rank": 425,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/desperate",
+      "file": "425-derek-sivers.md",
+      "sha256": "d124bbca9d363c2bb56e7c9ea6bf1bb418490cca0c429fb2bd81c219146679d8",
+      "fetchedAt": "2026-08-24T07:25:04.008Z"
+    },
+    {
+      "rank": 426,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ladders",
+      "file": "426-derek-sivers.md",
+      "sha256": "5b959b3cb9836385b35d32820e042e4755c0ff679e4f393612bbea3fa9f37146",
+      "fetchedAt": "2026-08-24T07:25:04.514Z"
+    },
+    {
+      "rank": 427,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/heroes",
+      "file": "427-derek-sivers.md",
+      "sha256": "fd92bd1eb7bb23ec277f23fde1401f829fa496f459d78ca7c0f51ba54e447e25",
+      "fetchedAt": "2026-08-24T07:25:05.147Z"
+    },
+    {
+      "rank": 428,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/drama",
+      "file": "428-derek-sivers.md",
+      "sha256": "dd23addf5b41a0dd2d5f14f61e693df38109b808e02acf935f60ccf02082712e",
+      "fetchedAt": "2026-08-24T07:25:05.933Z"
+    },
+    {
+      "rank": 429,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/emailer",
+      "file": "429-derek-sivers.md",
+      "sha256": "dc0889446cda15d163faef684eec49dc3b2ae701712be5cd8702d513300f7470",
+      "fetchedAt": "2026-08-24T07:25:06.976Z"
+    },
+    {
+      "rank": 430,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/sprezzatura",
+      "file": "430-derek-sivers.md",
+      "sha256": "1fbcad5449ae5154363c86e056ff1111116db880479e332e2eaa9751943e7f07",
+      "fetchedAt": "2026-08-24T07:25:07.858Z"
+    },
+    {
+      "rank": 431,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hatenot",
+      "file": "431-derek-sivers.md",
+      "sha256": "dace23bd533bccccba9848371d68d7523e094987f0cc1d831a19ac4585c7ea3c",
+      "fetchedAt": "2026-08-24T07:25:08.570Z"
+    },
+    {
+      "rank": 432,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mhost",
+      "file": "432-derek-sivers.md",
+      "sha256": "435a4aeac3d22bc7a479dfbad6423c42ff24a7e44acf3f66610e96c4c4a848d3",
+      "fetchedAt": "2026-08-24T07:25:09.048Z"
+    },
+    {
+      "rank": 433,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hellyeah",
+      "file": "433-derek-sivers.md",
+      "sha256": "d7fa69ec02a1a474b032b92273b8f0ee0a085b335bddafa9536a6a711d417ebf",
+      "fetchedAt": "2026-08-24T07:25:09.549Z"
+    },
+    {
+      "rank": 434,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/kidspc",
+      "file": "434-derek-sivers.md",
+      "sha256": "56688cc14b2865c3902b52a9261b6050036636b8d8aceae02ff45923545fbaed",
+      "fetchedAt": "2026-08-24T07:25:10.054Z"
+    },
+    {
+      "rank": 435,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/the-mob",
+      "file": "435-derek-sivers.md",
+      "sha256": "066c6db4d7b794d0ea9592609be85388d9a10ecf22851ef0c7853c1ab86cf38d",
+      "fetchedAt": "2026-08-24T07:25:10.681Z"
+    },
+    {
+      "rank": 436,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/letmeknow2",
+      "file": "436-derek-sivers.md",
+      "sha256": "18df96930513b0c4f24962f84d4c5c695209b1e1ffebfe1c68877ed551ab2f31",
+      "fetchedAt": "2026-08-24T07:25:11.752Z"
+    },
+    {
+      "rank": 437,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/barking",
+      "file": "437-derek-sivers.md",
+      "sha256": "3ca037881c6080ccd8b2d6fa979b6f62108fccfa420a2d1d520af47418ef5de2",
+      "fetchedAt": "2026-08-24T07:25:12.650Z"
+    },
+    {
+      "rank": 438,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tom-williams",
+      "file": "438-derek-sivers.md",
+      "sha256": "d0f4816f42ff28924868b309a51cf7a74c34bad4ca8a3cc0a2568561bcaeffb7",
+      "fetchedAt": "2026-08-24T07:25:13.572Z"
+    },
+    {
+      "rank": 439,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/no-reward",
+      "file": "439-derek-sivers.md",
+      "sha256": "2b1eb54f5eb297fc585d5f952d4583fee0e28b6d6adb25c04b423733df9d959a",
+      "fetchedAt": "2026-08-24T07:25:15.919Z"
+    },
+    {
+      "rank": 440,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/you-not-them",
+      "file": "440-derek-sivers.md",
+      "sha256": "bb4ee64599ad6472cf0b384bf94bb456dde42143587cb605784df4dd1e9c3b78",
+      "fetchedAt": "2026-08-24T07:25:17.104Z"
+    },
+    {
+      "rank": 441,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/semi-expert",
+      "file": "441-derek-sivers.md",
+      "sha256": "493a7935c63d68a2ede2eacc38eebe737c3c25f2b3f1bdb7b04560dd8e5292da",
+      "fetchedAt": "2026-08-24T07:25:17.585Z"
+    },
+    {
+      "rank": 442,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/novc",
+      "file": "442-derek-sivers.md",
+      "sha256": "bc3ea2c218841d36203f6c27b84f3fb81a4a1ef3128a4a418fb27d557dff7bc7",
+      "fetchedAt": "2026-08-24T07:25:19.320Z"
+    },
+    {
+      "rank": 443,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/lofi",
+      "file": "443-derek-sivers.md",
+      "sha256": "4e4f7cf40e3adaf208d0b132d19a8f1de0d61db20af05f5f95bba708c3c5a5bc",
+      "fetchedAt": "2026-08-24T07:25:20.028Z"
+    },
+    {
+      "rank": 444,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/early",
+      "file": "444-derek-sivers.md",
+      "sha256": "1f8efb8fd7e82aa6c287a14b3b3eb6ccf44e255795d66f2f59ed0692af084dc0",
+      "fetchedAt": "2026-08-24T07:25:20.848Z"
+    },
+    {
+      "rank": 445,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/contrarian",
+      "file": "445-derek-sivers.md",
+      "sha256": "b855d4ae45b1feafe0c6ab767e380bd097573f0e883196048987842103daf356",
+      "fetchedAt": "2026-08-24T07:25:21.576Z"
+    },
+    {
+      "rank": 446,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/jadr",
+      "file": "446-derek-sivers.md",
+      "sha256": "1f417b45027d384668b65aa8d174f6d180773b6503e1d2835ba33feeedfb42bc",
+      "fetchedAt": "2026-08-24T07:25:22.034Z"
+    },
+    {
+      "rank": 447,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/jam",
+      "file": "447-derek-sivers.md",
+      "sha256": "8b7e95a4776d87a8ee0f510ee236b62d27433857c4e2f1b13330b2a5666225ab",
+      "fetchedAt": "2026-08-24T07:25:22.803Z"
+    },
+    {
+      "rank": 448,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/zipit",
+      "file": "448-derek-sivers.md",
+      "sha256": "a01cb6d77ea0c0fba7ac2464b0c079c484569846623e9d25b90c0996c50f1f9e",
+      "fetchedAt": "2026-08-24T07:25:23.334Z"
+    },
+    {
+      "rank": 449,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/infinity",
+      "file": "449-derek-sivers.md",
+      "sha256": "fe1213a579e69bb22cf7ca692c8544d4986c506622171555e333e501eb853f88",
+      "fetchedAt": "2026-08-24T07:25:24.199Z"
+    },
+    {
+      "rank": 450,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/success-first",
+      "file": "450-derek-sivers.md",
+      "sha256": "f283662bd216bb2d6b9aaba0790b961d8dc6a93e98ba16798d873e66ac82ec80",
+      "fetchedAt": "2026-08-24T07:25:25.234Z"
+    },
+    {
+      "rank": 451,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/laboratory",
+      "file": "451-derek-sivers.md",
+      "sha256": "833c8e55d6a068f398b1835aa50774cb14a07012025a107a52b5734b2b672891",
+      "fetchedAt": "2026-08-24T07:25:25.753Z"
+    },
+    {
+      "rank": 452,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/musicthoughts2",
+      "file": "452-derek-sivers.md",
+      "sha256": "9a33cccf12cfa18eb35daf501674c848d4e4e4b417b71ce6f031dced0d979d04",
+      "fetchedAt": "2026-08-24T07:25:26.255Z"
+    },
+    {
+      "rank": 453,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dance-lessons",
+      "file": "453-derek-sivers.md",
+      "sha256": "31a7af1f2fd1a1016dd69c6b25e6748abfb744ff54aa162870d7959e64a9e927",
+      "fetchedAt": "2026-08-24T07:25:26.750Z"
+    },
+    {
+      "rank": 454,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/enough",
+      "file": "454-derek-sivers.md",
+      "sha256": "c8843d89c007a809087e8a64c1364f7acaaeddc0e841ec6db1a57d609f19b56e",
+      "fetchedAt": "2026-08-24T07:25:27.232Z"
+    },
+    {
+      "rank": 455,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/time",
+      "file": "455-derek-sivers.md",
+      "sha256": "48608252bba356b553f413eebc80105d4c3c2296d2f6e267ae61e1bf5cc2df5a",
+      "fetchedAt": "2026-08-24T07:25:27.945Z"
+    },
+    {
+      "rank": 456,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ppay",
+      "file": "456-derek-sivers.md",
+      "sha256": "94eeb7bd241855f3bc268f79b2675edb0f51b08ab8b27ae6ec0023d09a441204",
+      "fetchedAt": "2026-08-24T07:25:28.411Z"
+    },
+    {
+      "rank": 457,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/purplecow",
+      "file": "457-derek-sivers.md",
+      "sha256": "9cfb76c06a5a06a4e4a7a5af74a10a3b864c4f1973485c4ee1a4dbf72a7b47bc",
+      "fetchedAt": "2026-08-24T07:25:28.866Z"
+    },
+    {
+      "rank": 458,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/no9to5",
+      "file": "458-derek-sivers.md",
+      "sha256": "3a30bc059997b60a3157ff00a5ddfd5efdab7df6b7c846b3003efdb494b2667d",
+      "fetchedAt": "2026-08-24T07:25:29.325Z"
+    },
+    {
+      "rank": 459,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/super-power",
+      "file": "459-derek-sivers.md",
+      "sha256": "b117922c4b3a83bdfb7160458aa08c0f07f0f5f9d66befd1d899693754273f34",
+      "fetchedAt": "2026-08-24T07:25:29.976Z"
+    },
+    {
+      "rank": 460,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/sustainable",
+      "file": "460-derek-sivers.md",
+      "sha256": "5127cf26669598db8195010113c768add9ae646e0af8adcfb062aa4ca8f46768",
+      "fetchedAt": "2026-08-24T07:25:30.939Z"
+    },
+    {
+      "rank": 461,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mistake",
+      "file": "461-derek-sivers.md",
+      "sha256": "74637e75eaf2d5d356f78a16b5513e5924c80a3a29162e3d1218880e89586f74",
+      "fetchedAt": "2026-08-24T07:25:31.496Z"
+    },
+    {
+      "rank": 462,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/chickens",
+      "file": "462-derek-sivers.md",
+      "sha256": "ec3d10d9b718a8cb598a39451a70751d75a01a68f0d148bcaddd90d84cb8fdd6",
+      "fetchedAt": "2026-08-24T07:25:31.990Z"
+    },
+    {
+      "rank": 463,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/decaying",
+      "file": "463-derek-sivers.md",
+      "sha256": "9b4c2b425ddf43938bfc1a23028eb666bd1402a05dc83f1cbd5536646134239e",
+      "fetchedAt": "2026-08-24T07:25:32.505Z"
+    },
+    {
+      "rank": 464,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/character",
+      "file": "464-derek-sivers.md",
+      "sha256": "1844fa12d100361a5c21ada20b1692dd96c8098c9af2ee279f5109158535a61c",
+      "fetchedAt": "2026-08-24T07:25:32.980Z"
+    },
+    {
+      "rank": 465,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/goals",
+      "file": "465-derek-sivers.md",
+      "sha256": "11bcf5e5e1eb4527f1570a3a3b9568a0d664dd144a24f64ef1389197501fa091",
+      "fetchedAt": "2026-08-24T07:25:33.468Z"
+    },
+    {
+      "rank": 466,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/sammy-cahn",
+      "file": "466-derek-sivers.md",
+      "sha256": "184b0585fba26756780cc248086550c476aa50f89ddb47e0b532c1ddbbde2f67",
+      "fetchedAt": "2026-08-24T07:25:34.176Z"
+    },
+    {
+      "rank": 467,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/accch",
+      "file": "467-derek-sivers.md",
+      "sha256": "56517ac92787e5f14f123ab20a9e97248d3d1ad6d7e6d240ac1352c0a573e7a0",
+      "fetchedAt": "2026-08-24T07:25:34.728Z"
+    },
+    {
+      "rank": 468,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/aimee-mullins",
+      "file": "468-derek-sivers.md",
+      "sha256": "aea7a31abdb9c7b15fda030651b6d38b3014c3f464eac01fd9d5f3468e9969fd",
+      "fetchedAt": "2026-08-24T07:25:35.260Z"
+    },
+    {
+      "rank": 469,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/horses",
+      "file": "469-derek-sivers.md",
+      "sha256": "b1bc91a493163d91064d571e7152d94fb7ff8e864c30e19fff4d1f791f8aec98",
+      "fetchedAt": "2026-08-24T07:25:36.041Z"
+    },
+    {
+      "rank": 470,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/songfeedback",
+      "file": "470-derek-sivers.md",
+      "sha256": "cd7c5daa5333d354049d3c6e141362feab5cffa5d52134f8a559291f4a322cbe",
+      "fetchedAt": "2026-08-24T07:25:36.646Z"
+    },
+    {
+      "rank": 471,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ideas2",
+      "file": "471-derek-sivers.md",
+      "sha256": "4233a3e522997b2d6dcbf213ca107f74bab1dea91946dc2eab000e2f20af298f",
+      "fetchedAt": "2026-08-24T07:25:37.308Z"
+    },
+    {
+      "rank": 472,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/songtesti",
+      "file": "472-derek-sivers.md",
+      "sha256": "22ff8c2f4669af0183476b1bc32459f1f640bd12db57a2674d053fc7de8eaf2f",
+      "fetchedAt": "2026-08-24T07:25:37.794Z"
+    },
+    {
+      "rank": 473,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/see-musicthoughts",
+      "file": "473-derek-sivers.md",
+      "sha256": "4b76b9b878d01deb1539729eff2e4f6a2639b623b2e255ec3ae9ae0b6bd201a7",
+      "fetchedAt": "2026-08-24T07:25:38.252Z"
+    },
+    {
+      "rank": 474,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/amber-rubarth",
+      "file": "474-derek-sivers.md",
+      "sha256": "6c1d65003e9e9a517fcde4e2ef3486a7a9ff72441cb5d15b549ac90b50fcf624",
+      "fetchedAt": "2026-08-24T07:25:40.240Z"
+    },
+    {
+      "rank": 475,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/session-musician",
+      "file": "475-derek-sivers.md",
+      "sha256": "993e1889b70b5213a3841be37524b0ae4bf42526c35a28dfab4ec72b851e2703",
+      "fetchedAt": "2026-08-24T07:25:41.146Z"
+    },
+    {
+      "rank": 476,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/complainers",
+      "file": "476-derek-sivers.md",
+      "sha256": "11338a69d42e492d0004a1c78727059e7896f040f3b0b1de6f4a9a391336657f",
+      "fetchedAt": "2026-08-24T07:25:41.643Z"
+    },
+    {
+      "rank": 477,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/make-you-happy",
+      "file": "477-derek-sivers.md",
+      "sha256": "4061f8c14cddf874d0a73906034c2cd4d0016a252d675a2bca68925deb047979",
+      "fetchedAt": "2026-08-24T07:25:42.143Z"
+    },
+    {
+      "rank": 478,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pastit",
+      "file": "478-derek-sivers.md",
+      "sha256": "76fedbd77aec06f71849570a6219f21d8fd311acba750854343f40b4285ffefb",
+      "fetchedAt": "2026-08-24T07:25:42.644Z"
+    },
+    {
+      "rank": 479,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/up2you",
+      "file": "479-derek-sivers.md",
+      "sha256": "87e4ebf5a79e1e0e146990e36e2cdb94e8b129f078eb03f9f80c288b8589df7f",
+      "fetchedAt": "2026-08-24T07:25:43.213Z"
+    },
+    {
+      "rank": 480,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/villain",
+      "file": "480-derek-sivers.md",
+      "sha256": "89cbab1f37f226b29f27563267f0f6da857f9395a1f7591033c50879912a239e",
+      "fetchedAt": "2026-08-24T07:25:43.994Z"
+    },
+    {
+      "rank": 481,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/conferences",
+      "file": "481-derek-sivers.md",
+      "sha256": "d5c1bb1beed841f7c0f948d7514e612a3984d8938d0ecbaeaec79acffc38d226",
+      "fetchedAt": "2026-08-24T07:25:44.461Z"
+    },
+    {
+      "rank": 482,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mystery",
+      "file": "482-derek-sivers.md",
+      "sha256": "7ff8bb41d90342d6212ca59b7d4192b5e9258b27782fbf228490a1ff9c67804b",
+      "fetchedAt": "2026-08-24T07:25:44.911Z"
+    },
+    {
+      "rank": 483,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/realrebel",
+      "file": "483-derek-sivers.md",
+      "sha256": "956f924d4915d80adb7df9ee344414181b89704782ff21bb3ad0db15a9e67e80",
+      "fetchedAt": "2026-08-24T07:25:45.882Z"
+    },
+    {
+      "rank": 484,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/more-than-one",
+      "file": "484-derek-sivers.md",
+      "sha256": "2ade5ed3c67c0909112db6d4de16de91f2863fd4fccc5c54b9474d6df7dae86e",
+      "fetchedAt": "2026-08-24T07:25:46.479Z"
+    },
+    {
+      "rank": 485,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/accents",
+      "file": "485-derek-sivers.md",
+      "sha256": "3c922e9b0dddbb2730dcdf77edc14af6e55144496bdc2c9d3307c3d350321c29",
+      "fetchedAt": "2026-08-24T07:25:47.027Z"
+    },
+    {
+      "rank": 486,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/no-oracle",
+      "file": "486-derek-sivers.md",
+      "sha256": "d806f426e4b5a48279cf34fe54d1bc6b53fb4d988b708619b834ac400c6dad3c",
+      "fetchedAt": "2026-08-24T07:25:47.517Z"
+    },
+    {
+      "rank": 487,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/grand-pursuit",
+      "file": "487-derek-sivers.md",
+      "sha256": "83f639a69cccf29fb8c6ae1b0572f38f70538a0de3d02dc4c943902632d48d2b",
+      "fetchedAt": "2026-08-24T07:25:48.024Z"
+    },
+    {
+      "rank": 488,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/uncomparable",
+      "file": "488-derek-sivers.md",
+      "sha256": "855039642ee8c49a6ca4740fd82d734960a64b60765d748eb4bc0a9879eb45f8",
+      "fetchedAt": "2026-08-24T07:25:49.011Z"
+    },
+    {
+      "rank": 489,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/lines",
+      "file": "489-derek-sivers.md",
+      "sha256": "e5d8156c894d8c3ba9600c35ddbd342cc1a23ff21615596d7bce92b17bc4b056",
+      "fetchedAt": "2026-08-24T07:25:49.675Z"
+    },
+    {
+      "rank": 490,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mentre",
+      "file": "490-derek-sivers.md",
+      "sha256": "27c5b1a38a5d75f8cfc68aaa91023b89ff6112f326ecd7c1c40e7cc3a32203ce",
+      "fetchedAt": "2026-08-24T07:25:50.162Z"
+    },
+    {
+      "rank": 491,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/actid",
+      "file": "491-derek-sivers.md",
+      "sha256": "96ad7583d613bf57f1fe291f6c73c09e2ce514dd9b4a1245c80f2529b1f9114b",
+      "fetchedAt": "2026-08-24T07:25:50.676Z"
+    },
+    {
+      "rank": 492,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/iceland",
+      "file": "492-derek-sivers.md",
+      "sha256": "c23f2fc29728503f48de233ecdb3c960ad2f0c101e3f15c217912bc413889644",
+      "fetchedAt": "2026-08-24T07:25:51.164Z"
+    },
+    {
+      "rank": 493,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/berklee",
+      "file": "493-derek-sivers.md",
+      "sha256": "dc4278e1c20ba2d6ed9ce338d04589160eb9279257969d0b2c4c0754e1749da6",
+      "fetchedAt": "2026-08-24T07:25:51.620Z"
+    },
+    {
+      "rank": 494,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tim-ferriss",
+      "file": "494-derek-sivers.md",
+      "sha256": "339847ce182c2e2e6bda7882ef00b3fee766e6fa6ef9339b01b55fb2820fb110",
+      "fetchedAt": "2026-08-24T07:25:52.347Z"
+    },
+    {
+      "rank": 495,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/reversible",
+      "file": "495-derek-sivers.md",
+      "sha256": "f8f29f0163bcdeef3c482639141e6b9e3e94bb8dfab277c0a830cd71354beeb3",
+      "fetchedAt": "2026-08-24T07:25:52.876Z"
+    },
+    {
+      "rank": 496,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/bye-bye-baby",
+      "file": "496-derek-sivers.md",
+      "sha256": "189786a78a1811c01af8035a1609acc5a9742a336e5573acc0b0b2c88ef94fda",
+      "fetchedAt": "2026-08-24T07:25:53.795Z"
+    },
+    {
+      "rank": 497,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/own-nothing",
+      "file": "497-derek-sivers.md",
+      "sha256": "5cbb7ba2c6d5d58f16969f26edd53c803c54b10511eb46542e2109cd0f34b7be",
+      "fetchedAt": "2026-08-24T07:25:54.270Z"
+    },
+    {
+      "rank": 498,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/songwriters-only",
+      "file": "498-derek-sivers.md",
+      "sha256": "16f407ece9cda646754f0222c48b652affe588c0367126b24284484b75019127",
+      "fetchedAt": "2026-08-24T07:25:54.783Z"
+    },
+    {
+      "rank": 499,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/action-reaction",
+      "file": "499-derek-sivers.md",
+      "sha256": "cc3188d160e551294c84aebd079cfe075be3878a105503570852c25511b46f56",
+      "fetchedAt": "2026-08-24T07:25:55.453Z"
+    },
+    {
+      "rank": 500,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/college",
+      "file": "500-derek-sivers.md",
+      "sha256": "3396a35cb164f98bc29fd46fa68973ec0ed920b399aff91026e35bc9d48a300b",
+      "fetchedAt": "2026-08-24T07:25:56.351Z"
+    },
+    {
+      "rank": 501,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/candles",
+      "file": "501-derek-sivers.md",
+      "sha256": "85dc2f7f1b3597cccb893db36e17fb8bfb69b21405c2e6988b6a7ddff82b08c8",
+      "fetchedAt": "2026-08-24T07:25:57.141Z"
+    },
+    {
+      "rank": 502,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/how-was-india",
+      "file": "502-derek-sivers.md",
+      "sha256": "86242d38efee5f290ee7c4e52362c16d65d7982d9ed47b26cf70bf9da6d52027",
+      "fetchedAt": "2026-08-24T07:25:57.954Z"
+    },
+    {
+      "rank": 503,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/buyable",
+      "file": "503-derek-sivers.md",
+      "sha256": "0630be3718c0dd66497dc0f3d2b2186116d32482f901cd8d0945db86cbe9f0b3",
+      "fetchedAt": "2026-08-24T07:25:58.425Z"
+    },
+    {
+      "rank": 504,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/fela",
+      "file": "504-derek-sivers.md",
+      "sha256": "88821bdf9b19020fd71e077ce3aa6f9f95111296fac4b7aedd203c33c89d2013",
+      "fetchedAt": "2026-08-24T07:25:58.881Z"
+    },
+    {
+      "rank": 505,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/no-bullseye",
+      "file": "505-derek-sivers.md",
+      "sha256": "f32f5f4c6d3a3dc9fe9f2175edbf7fc52ffbd4430708742b05d888eba6be54fd",
+      "fetchedAt": "2026-08-24T07:25:59.586Z"
+    },
+    {
+      "rank": 506,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/restr",
+      "file": "506-derek-sivers.md",
+      "sha256": "eacfd9faca6a0e85f722856515e0357420f087f15894b145ff126788fb048d4e",
+      "fetchedAt": "2026-08-24T07:26:00.169Z"
+    },
+    {
+      "rank": 507,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/thinking-doing",
+      "file": "507-derek-sivers.md",
+      "sha256": "60d9e59d8bb31e719e0c5a1fa3a929194e43940d6d3b976ee58751db9487f4f1",
+      "fetchedAt": "2026-08-24T07:26:00.678Z"
+    },
+    {
+      "rank": 508,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/label-list",
+      "file": "508-derek-sivers.md",
+      "sha256": "5ef407fbcaeaf8ca8188faea101873d8d912c84936d2b5cb05a0c0dc9588dab8",
+      "fetchedAt": "2026-08-24T07:26:01.328Z"
+    },
+    {
+      "rank": 509,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/circles",
+      "file": "509-derek-sivers.md",
+      "sha256": "3f74ced6fc886b92e3bb1bc08f273d232aa85c531fcec82a542388bb1563a971",
+      "fetchedAt": "2026-08-24T07:26:01.795Z"
+    },
+    {
+      "rank": 510,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/pigs-sharks",
+      "file": "510-derek-sivers.md",
+      "sha256": "357f10a61202ce8fd76042324a6d19c32d9897589adc562567dae93e1189315f",
+      "fetchedAt": "2026-08-24T07:26:02.312Z"
+    },
+    {
+      "rank": 511,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/letmeknow",
+      "file": "511-derek-sivers.md",
+      "sha256": "6d1bd97210b31505519b4820ff33f554e161bf0b3931fb7521a801c7747848b7",
+      "fetchedAt": "2026-08-24T07:26:02.781Z"
+    },
+    {
+      "rank": 512,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/nolimit",
+      "file": "512-derek-sivers.md",
+      "sha256": "47aa05bf2499463ddbecb69d1b44b123a1c4b63f9c071e86de347e107c4abf72",
+      "fetchedAt": "2026-08-24T07:26:03.240Z"
+    },
+    {
+      "rank": 513,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/scares",
+      "file": "513-derek-sivers.md",
+      "sha256": "2729ce38abd0c5fbff2c4b3cbc77aeecb3bfe55d446b06b2505f7234cd430d7c",
+      "fetchedAt": "2026-08-24T07:26:03.697Z"
+    },
+    {
+      "rank": 514,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/bilbo",
+      "file": "514-derek-sivers.md",
+      "sha256": "b404ffd053340c0335331a9e430da2ada3c6512b5966779f511da78bfeb9a940",
+      "fetchedAt": "2026-08-24T07:26:04.181Z"
+    },
+    {
+      "rank": 515,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/blc",
+      "file": "515-derek-sivers.md",
+      "sha256": "1e9aab332c6d00596d9a331e0b4c784d1fe00aed4448d5a17d933ad2b4c5ec74",
+      "fetchedAt": "2026-08-24T07:26:04.638Z"
+    },
+    {
+      "rank": 516,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/publicu",
+      "file": "516-derek-sivers.md",
+      "sha256": "710a4c2ddddc35489a44d67e9b494c935efff7aca314b5c501bab3fb2467ca38",
+      "fetchedAt": "2026-08-24T07:26:05.106Z"
+    },
+    {
+      "rank": 517,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/rails2php",
+      "file": "517-derek-sivers.md",
+      "sha256": "4c2bfaaf713f5e73e46cb01baf99b68bb298258ea196341f1169952766a9d39c",
+      "fetchedAt": "2026-08-24T07:26:05.569Z"
+    },
+    {
+      "rank": 518,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/multiply",
+      "file": "518-derek-sivers.md",
+      "sha256": "58aabffc21bbeae6f442b1af4a0ede563a52a73947c16cc2d545d9213793e829",
+      "fetchedAt": "2026-08-24T07:26:06.097Z"
+    },
+    {
+      "rank": 519,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/compass",
+      "file": "519-derek-sivers.md",
+      "sha256": "1f3f66f6c88e952271b32e0bf4207b9727a08c60a99dad6ec773a000299299d9",
+      "fetchedAt": "2026-08-24T07:26:06.557Z"
+    },
+    {
+      "rank": 520,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/drain",
+      "file": "520-derek-sivers.md",
+      "sha256": "a004fe7dc7341b7b0a3260f56a031d60d016691e59d474a8fc69fe56ae57a0b5",
+      "fetchedAt": "2026-08-24T07:26:07.110Z"
+    },
+    {
+      "rank": 521,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/oyh",
+      "file": "521-derek-sivers.md",
+      "sha256": "153d697de9d690e4deb2d3f8683e477ce403133e96198184fc939d90b05cc477",
+      "fetchedAt": "2026-08-24T07:26:07.576Z"
+    },
+    {
+      "rank": 522,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/extremex",
+      "file": "522-derek-sivers.md",
+      "sha256": "165da59f42f43b1629b5dbc5fa76ab9eba7897f0718e3805ac66a824e368e906",
+      "fetchedAt": "2026-08-24T07:26:08.126Z"
+    },
+    {
+      "rank": 523,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/novicex",
+      "file": "523-derek-sivers.md",
+      "sha256": "b4ab608b5798dd27467d0ecdf333cd7d999d8d8eab6ce987a8af55239ee46db1",
+      "fetchedAt": "2026-08-24T07:26:08.578Z"
+    },
+    {
+      "rank": 524,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/insidr",
+      "file": "524-derek-sivers.md",
+      "sha256": "be96b0dbf143914997d785c209725d037f0ac6c648f9c84f286fe62a03bae625",
+      "fetchedAt": "2026-08-24T07:26:09.343Z"
+    },
+    {
+      "rank": 525,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/quantity",
+      "file": "525-derek-sivers.md",
+      "sha256": "ac54fb266d1ba864438e6e65f41968e33209ef37f64a61bc5889b3c3f5438297",
+      "fetchedAt": "2026-08-24T07:26:10.059Z"
+    },
+    {
+      "rank": 526,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/gofilt",
+      "file": "526-derek-sivers.md",
+      "sha256": "f1ffc7fb439610b87b23bdd904e98471b59df53e6083a7917e5b7a6be8ee59f3",
+      "fetchedAt": "2026-08-24T07:26:10.663Z"
+    },
+    {
+      "rank": 527,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/phoaud",
+      "file": "527-derek-sivers.md",
+      "sha256": "a17a136f73f1bbe5a6824a26e0509f5e4ec658aa7ef781c9c9b8278b652c8b2d",
+      "fetchedAt": "2026-08-24T07:26:11.219Z"
+    },
+    {
+      "rank": 528,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/fanwork",
+      "file": "528-derek-sivers.md",
+      "sha256": "c91885f5acfe06c0948665923c9f70ebefca67278124271a004aa6bf119f261f",
+      "fetchedAt": "2026-08-24T07:26:11.974Z"
+    },
+    {
+      "rank": 529,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/destdir",
+      "file": "529-derek-sivers.md",
+      "sha256": "e77805e7baa30a48704f81a6a2bb4897ebb361f2d3fa7d6cd87c87688b66b156",
+      "fetchedAt": "2026-08-24T07:26:12.621Z"
+    },
+    {
+      "rank": 530,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/intrweb",
+      "file": "530-derek-sivers.md",
+      "sha256": "f17863d35489152b7376029e2a83272d4cb7ed6fb56d1127c1ba6b1228da26d3",
+      "fetchedAt": "2026-08-24T07:26:13.203Z"
+    },
+    {
+      "rank": 531,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/promobox",
+      "file": "531-derek-sivers.md",
+      "sha256": "536dd4339ab238e73fcf8896103be03a19d08c1d01c60819915b3ad9aef8ea6f",
+      "fetchedAt": "2026-08-24T07:26:13.704Z"
+    },
+    {
+      "rank": 532,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/notalk",
+      "file": "532-derek-sivers.md",
+      "sha256": "86b13ca9d997d5d127f9a17de0e90df759ee978e8722c6cb82c39e8bdd70efc0",
+      "fetchedAt": "2026-08-24T07:26:14.268Z"
+    },
+    {
+      "rank": 533,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/nomu",
+      "file": "533-derek-sivers.md",
+      "sha256": "eec5adb7de23a05bc0ba4450dff9bc0aac96dcefc5ff85aa50be2f18dfa4fd50",
+      "fetchedAt": "2026-08-24T07:26:14.753Z"
+    },
+    {
+      "rank": 534,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/whycare",
+      "file": "534-derek-sivers.md",
+      "sha256": "602f5698d31e787a6b03e12b0828c8692ded6201ba3723188f040d445fb46321",
+      "fetchedAt": "2026-08-24T07:26:15.542Z"
+    },
+    {
+      "rank": 535,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hillbf",
+      "file": "535-derek-sivers.md",
+      "sha256": "4080c6383b2dfe3533bbc490f5c04ade672e369e59cf17c8f08dab590a3fe1b6",
+      "fetchedAt": "2026-08-24T07:26:16.191Z"
+    },
+    {
+      "rank": 536,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/dym",
+      "file": "536-derek-sivers.md",
+      "sha256": "76e06be7ea7ab8bba4a04798c1a9c2a7a46313d463b040ed11eb2f6afe96ea67",
+      "fetchedAt": "2026-08-24T07:26:16.693Z"
+    },
+    {
+      "rank": 537,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/shrtd",
+      "file": "537-derek-sivers.md",
+      "sha256": "bd5534fb1714391b8e7f1782ab91dbcf934b107597e43d762a05960f55c0343c",
+      "fetchedAt": "2026-08-24T07:26:17.497Z"
+    },
+    {
+      "rank": 538,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/wordsm",
+      "file": "538-derek-sivers.md",
+      "sha256": "240dd44876aaed11e6c05bca5de4d97b1e93531ec912fc99625064cf290560f0",
+      "fetchedAt": "2026-08-24T07:26:18.135Z"
+    },
+    {
+      "rank": 539,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/rayko",
+      "file": "539-derek-sivers.md",
+      "sha256": "ec90bc036e6f00f72de15197b0a5995380fc4dd022c25189124e461512efe71f",
+      "fetchedAt": "2026-08-24T07:26:18.744Z"
+    },
+    {
+      "rank": 540,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hs",
+      "file": "540-derek-sivers.md",
+      "sha256": "05d9d687957af9e6a49f16905e98762b750f3dc33d338614af4a8e8c74ac5170",
+      "fetchedAt": "2026-08-24T07:26:19.379Z"
+    },
+    {
+      "rank": 541,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/smgf",
+      "file": "541-derek-sivers.md",
+      "sha256": "fd611854c4ad28a9cb3e224a6dcaa854e6ec2aa620565b6f276506ea81a9e76b",
+      "fetchedAt": "2026-08-24T07:26:19.949Z"
+    },
+    {
+      "rank": 542,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/favors",
+      "file": "542-derek-sivers.md",
+      "sha256": "c0488bf24dbb0e6c3e69040215aa261b645782f01c474a3051d6c58a7866abb0",
+      "fetchedAt": "2026-08-24T07:26:20.541Z"
+    },
+    {
+      "rank": 543,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hych",
+      "file": "543-derek-sivers.md",
+      "sha256": "444e043ae50b097dff2bf74c14ef26bbed8156e891f29c9801cf81fcc4ba876a",
+      "fetchedAt": "2026-08-24T07:26:21.116Z"
+    },
+    {
+      "rank": 544,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ppweek",
+      "file": "544-derek-sivers.md",
+      "sha256": "dc0f3e7b2fdb99b875198c20689cad1f5f1b9b3958a9fe3a8d61a1ab0105b70b",
+      "fetchedAt": "2026-08-24T07:26:21.620Z"
+    },
+    {
+      "rank": 545,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/hundreds",
+      "file": "545-derek-sivers.md",
+      "sha256": "0f69c90cd51840788a20863926c63066a93e55ee5924de3dfea977baa0e8fbae",
+      "fetchedAt": "2026-08-24T07:26:22.238Z"
+    },
+    {
+      "rank": 546,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/persistence",
+      "file": "546-derek-sivers.md",
+      "sha256": "78146f4aa6c5a94ffe79db9520e3174c58df3e01b5b0b5d99b729682c787333f",
+      "fetchedAt": "2026-08-24T07:26:22.912Z"
+    },
+    {
+      "rank": 547,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/mosquito",
+      "file": "547-derek-sivers.md",
+      "sha256": "0d50ec6efe379a5d318868cb23296b89d18e5d698507696e95921475062b713d",
+      "fetchedAt": "2026-08-24T07:26:23.408Z"
+    },
+    {
+      "rank": 548,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/syk",
+      "file": "548-derek-sivers.md",
+      "sha256": "ca947a5e0e5e23c3d34b91d9d5bd8a53b312e7a9a80ba6e42da7f15027511f3b",
+      "fetchedAt": "2026-08-24T07:26:23.900Z"
+    },
+    {
+      "rank": 549,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/capt",
+      "file": "549-derek-sivers.md",
+      "sha256": "be6ed8efe3981fc41d49341fdd0fe7d6f47c7753b2dc21ee30a32b5fe4a76222",
+      "fetchedAt": "2026-08-24T07:26:24.474Z"
+    },
+    {
+      "rank": 550,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/bizriff",
+      "file": "550-derek-sivers.md",
+      "sha256": "48790dd30828423f9056d8c2771f6dde86b01dc8295f56a718bf2cfa7abdf09e",
+      "fetchedAt": "2026-08-24T07:26:24.997Z"
+    },
+    {
+      "rank": 551,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/tvtest",
+      "file": "551-derek-sivers.md",
+      "sha256": "7b84ba543454d789efd455128adacd67a03d32fea2c45880c7715ea57705ff44",
+      "fetchedAt": "2026-08-24T07:26:25.513Z"
+    },
+    {
+      "rank": 552,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/diy",
+      "file": "552-derek-sivers.md",
+      "sha256": "17057bee0e6c6755f907bb695ca9c0b0519ae942fc18901c4352b2803292045f",
+      "fetchedAt": "2026-08-24T07:26:26.036Z"
+    },
+    {
+      "rank": 553,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/1090",
+      "file": "553-derek-sivers.md",
+      "sha256": "3a8ebc1c7f981b2135dedb8f909b256c8b2758b732a5c64b67f39cc7557331ae",
+      "fetchedAt": "2026-08-24T07:26:26.743Z"
+    },
+    {
+      "rank": 554,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/gbp",
+      "file": "554-derek-sivers.md",
+      "sha256": "f023078dd4e49ef2884c23d077e8c3e7e8dc5ab316c80d6a621bdae043ada2d1",
+      "fetchedAt": "2026-08-24T07:26:27.305Z"
+    },
+    {
+      "rank": 555,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/testm",
+      "file": "555-derek-sivers.md",
+      "sha256": "f795c97fa0a2d7e07c55f9381c843d4242aabf0ecca695f73b9edbbf99b8746d",
+      "fetchedAt": "2026-08-24T07:26:27.824Z"
+    },
+    {
+      "rank": 556,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/rounded",
+      "file": "556-derek-sivers.md",
+      "sha256": "2d5592d045f0d4774e8b769dbdfbc67bbf114643158fb5e6a3905716117b2f3d",
+      "fetchedAt": "2026-08-24T07:26:28.339Z"
+    },
+    {
+      "rank": 557,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/actors",
+      "file": "557-derek-sivers.md",
+      "sha256": "580f80f44f5232c1808229155ec42a1592dd35d79031ac6a074644c94bb56900",
+      "fetchedAt": "2026-08-24T07:26:29.045Z"
+    },
+    {
+      "rank": 558,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/ncorp",
+      "file": "558-derek-sivers.md",
+      "sha256": "3efc9d36b7ceb68e8191eac19bb6fc97cb5fa200855102fe21e901e2a045d5e6",
+      "fetchedAt": "2026-08-24T07:26:29.506Z"
+    },
+    {
+      "rank": 559,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/senses",
+      "file": "559-derek-sivers.md",
+      "sha256": "92b69208d314fb5741a94a43362b4020d81681cc56d0b24ea429e4ce3fb0c7c3",
+      "fetchedAt": "2026-08-24T07:26:30.080Z"
+    },
+    {
+      "rank": 560,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/prgrk",
+      "file": "560-derek-sivers.md",
+      "sha256": "c1b2257d67bcc29ebab629b093817fcc8652bfca1545d401855f7b2d7331e783",
+      "fetchedAt": "2026-08-24T07:26:30.557Z"
+    },
+    {
+      "rank": 561,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/trshr",
+      "file": "561-derek-sivers.md",
+      "sha256": "d9f6e709ced71c96f30d1e20700f80aac5f2bf2fb46a020368f5f0bb3c20ed14",
+      "fetchedAt": "2026-08-24T07:26:31.108Z"
+    },
+    {
+      "rank": 562,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/vodka",
+      "file": "562-derek-sivers.md",
+      "sha256": "787ad11a5564b0b6433add6483e429a0618c19b45e9d6c34851d6dc82f3f04f5",
+      "fetchedAt": "2026-08-24T07:26:31.657Z"
+    },
+    {
+      "rank": 563,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/exclude",
+      "file": "563-derek-sivers.md",
+      "sha256": "eb28bcb06226c88b093448cce4619952051e02c135f625df9bcfcd580d12d119",
+      "fetchedAt": "2026-08-24T07:26:32.121Z"
+    },
+    {
+      "rank": 564,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/wysl",
+      "file": "564-derek-sivers.md",
+      "sha256": "391570baef97d4642ec9e8feb725baa24003e1a222e071c08d6058e247141de9",
+      "fetchedAt": "2026-08-24T07:26:32.578Z"
+    },
+    {
+      "rank": 565,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/wwoy",
+      "file": "565-derek-sivers.md",
+      "sha256": "0e99ec1618819e78d2dc3836f8e43dc2fdebbf24c562e9acabe907488d597eaf",
+      "fetchedAt": "2026-08-24T07:26:33.030Z"
+    },
+    {
+      "rank": 566,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/wdtrw",
+      "file": "566-derek-sivers.md",
+      "sha256": "d5274542159b0ea7fff89c41f51a8cf506a5918df9a077ebe71507f3e7901b93",
+      "fetchedAt": "2026-08-24T07:26:33.584Z"
+    },
+    {
+      "rank": 567,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/solicited",
+      "file": "567-derek-sivers.md",
+      "sha256": "c8e80a637aa202e432f05b331b6eb39ebd1f83545f520cb167fb85b483375867",
+      "fetchedAt": "2026-08-24T07:26:34.123Z"
+    },
+    {
+      "rank": 568,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/people1",
+      "file": "568-derek-sivers.md",
+      "sha256": "237f1753e6cad71b890d5fe23f4a350bdab9382c710dd196187a55348bae2f5b",
+      "fetchedAt": "2026-08-24T07:26:34.583Z"
+    },
+    {
+      "rank": 569,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/m2",
+      "file": "569-derek-sivers.md",
+      "sha256": "5e37bc941e36949a6e16eb6ec09cdfe8f47ee74d6dc4f16cb9485adb8a7f83e1",
+      "fetchedAt": "2026-08-24T07:26:35.053Z"
+    },
+    {
+      "rank": 570,
+      "title": "Derek Sivers",
+      "url": "https://sive.rs/m1",
+      "file": "570-derek-sivers.md",
+      "sha256": "facdbc66d62b4f016d580d76a6ff839450698b2bfed2d8d5de0ef2f48ebda3f1",
+      "fetchedAt": "2026-08-24T07:26:35.708Z"
+    }
+  ]
+}

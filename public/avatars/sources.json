@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "vervaeke",
+    "portrait": "/avatars/vervaeke-portrait.png",
+    "source": "https://johnvervaeke.com/",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "senra",
+    "portrait": "/avatars/senra-portrait.avif",
+    "source": "https://www.davidsenra.com/",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "visakan",
+    "portrait": "/avatars/visakan-portrait.jpg",
+    "source": "https://www.visakanv.com/",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "cal-newport",
+    "portrait": "/avatars/cal-newport-portrait.jpg",
+    "source": "https://calnewport.com/about/",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "paul-millerd",
+    "portrait": "/avatars/paul-millerd-portrait.jpg",
+    "source": "https://pmillerd.com/about/",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "lulie-tanett",
+    "portrait": "/avatars/lulie-tanett-portrait.jpg",
+    "source": "https://www.lulie.co.uk/about/",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "paul-graham",
+    "portrait": "/avatars/paul-graham-portrait.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Paulgraham_240x320.jpg",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "brad-jacobs",
+    "portrait": "/avatars/brad-jacobs-portrait.jpg",
+    "source": "https://en.wikipedia.org/wiki/File:Brad_Jacobs_XPO,_GXO,_RXO_chairman.jpg",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "james-clear",
+    "portrait": "/avatars/james-clear-portrait.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Clear_in_2010.jpg",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "annie-duke",
+    "portrait": "/avatars/annie-duke-portrait.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Annie_Duke_jgphoto_002.jpg",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "carol-dweck",
+    "portrait": "/avatars/carol-dweck-portrait.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Carol_Dweck_for_Innovation_documentary.jpg",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "napoleon-hill",
+    "portrait": "/avatars/napoleon-hill-portrait.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Napoleon_Hill_headshot.jpg",
+    "kind": "source portrait"
+  },
+  {
+    "slug": "sage",
+    "portrait": "/avatars/sage-silhouette-v2.png",
+    "kind": "original AI-generated faceless wise elder silhouette"
+  }
+]

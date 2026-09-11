@@ -1,0 +1,27 @@
+---
+title: "Taiwan: The Other China"
+principle: "Lee built a genuine, decades-long personal partnership with Taiwan grounded in shared anti-communism and military necessity, but watched it curdle as democratization let Lee Teng-hui pursue a separate Taiwanese identity that neither Beijing nor Lee himself could accept as compatible with stability."
+tags: [from-third-world-to-first, lee-kuan-yew, singapore, taiwan, chiang-ching-kuo, lee-teng-hui, one-china, cross-strait-relations]
+---
+
+# Taiwan: The Other China
+
+> **Key principle:** Singapore turned to Taiwan from 1967 for military training the Israelis could not provide, building a close, secret friendship with Premier Chiang Ching-kuo under a firm "one China" policy that recognized no formal state ties. That equilibrium broke down under Chiang's successor Lee Teng-hui, whose drive for a distinct Taiwanese identity and eventual UN-membership ambitions provoked Beijing's 1995-96 missile crisis and left the reunification question as Asia's most dangerous unresolved fault line by 2000.
+
+*Synthesized from Chapter 35 of From Third World to First: The Singapore Story 1965-2000 by Lee Kuan Yew.*
+
+## Key lessons
+
+- Talks with Taiwan began in 1967 because Singapore wanted to train pilots and naval officers somewhere the Israelis, its main military partner, could not offer facilities; a 1969 "Office of the Trade Representative of the Republic of China" in Singapore was explicitly agreed not to constitute diplomatic recognition, and Singapore voted to admit the PRC to the UN in 1971 while abstaining on Taiwan's expulsion, holding to a strict "one China, internal matter" line.
+- Lee's May 1973 visit to Taipei, kept under a total news blackout at his request, launched a close personal friendship with Premier Chiang Ching-kuo built on shared anti-communism (Chiang against the CCP, Lee against the Malayan Communist Party) and helped by Lee's Mandarin and by his medical-student daughter's fluent Chinese, which visibly reassured Chiang about the family's cultural authenticity.
+- By April 1975 the two sides had agreed "Exercise Starlight," letting the Singapore Armed Forces train infantry, artillery, armour and commando units across Taiwan at cost only; from 1973 to 1990 Lee visited roughly annually, watching Taiwan compound 8-10 percent growth as it moved from textiles and shoes to pirated then licensed textbooks to, by the 1990s, computer chips and PCs.
+- Finance minister K.T. Li reversed a brain drain (only 500 of roughly 4,500 annual PhD students returning) by building a science park near Taipei with cheap loans, seeding the semiconductor industry; but the mainlander elite, only about 15 percent of the population, knew Taiwanese would eventually dominate politically, and Chiang groomed reliable native Taiwanese, including Lee Teng-hui, to inherit power without ever declaring independence.
+- Chiang lifted martial law under pressure from the US media and Congress before his death in January 1988; his successor, President Lee Teng-hui, methodically removed old-guard mainlanders (Premier Hau Pei-tsun, foreign minister Fredrick Chien) and democratized the KMT until many members split off to form the New Party, consolidating his own power through popular elections.
+- Lee Teng-hui progressively redefined "one China" as the Republic of China requiring the mainland to democratize first (1992), gave a 1994 interview to journalist Ryotaro Shiba invoking Moses leading his people out of Egypt, and reopened the long-suppressed grievance of the 1947 "2-28" killings of native Taiwanese by Nationalist troops, while democratization also let secret societies (triads) buy their way into roughly 10 percent of the national and 30 percent of local legislatures by 1996, entrenching "black gold" corruption.
+- Lee received President Lee Teng-hui in Singapore in 1989, the first visit by a Taiwanese president to Southeast Asia, but deliberately withheld head-of-state protocol; Singapore's neutral standing let it host the first-ever PRC-Taiwan "Wang-Koo Talks" in April 1993, though Beijing's Wang Daohan wanted substantive reunification talks while Taipei's Koo Chen-fu was authorized only to discuss technical matters.
+- Lee Teng-hui's 1995 Cornell visit, secured through US congressional pressure and a speech emphasizing Taiwan over "one China," convinced Beijing he sought independence and triggered the most serious cross-strait confrontation since 1958: China fired missiles into waters near Taiwan's west coast in March 1996, and Lee's own public plea as "an older friend of Taiwan" than China's own claimed friendship drew a rebuff from Chinese foreign minister Qian Qichen as interference in an internal matter.
+- The chapter closes on the March 2000 election of Chen Shui-bian, whose Democratic Progressive Party had long fought for independence, over KMT candidate Lien Chan; Lee assesses that Taiwan's separation since 1895 makes reabsorption unwelcome to nearly everyone there, that the United States could likely deter Chinese force for another 20-30 years, and that if force were ever used and repelled by American technology, "that is the beginning of the story," not the end, given the nationalist backlash it would ignite in China.
+
+---
+
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: From Third World to First: The Singapore Story 1965-2000 by Lee Kuan Yew, https://www.amazon.com/Third-World-First-Singapore-1965-2000/dp/0060957514.*

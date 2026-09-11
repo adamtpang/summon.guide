@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
       title: `Talk to ${figure.name} | summon.guide`,
       description: `Chat with ${figure.name}. ${figure.knownFor}. AI-powered wisdom from real biographies.`,
-      url: `https://summon.guide/chat/${figure.slug}`,
+      url: `https://summon.guide/${figure.slug}`,
       images: [{ url: ogImageUrl, width: 1200, height: 630 }],
       type: "website",
     },
@@ -32,7 +32,7 @@ export async function generateMetadata({
       images: [ogImageUrl],
     },
     alternates: {
-      canonical: `https://summon.guide/chat/${figure.slug}`,
+      canonical: `https://summon.guide/${figure.slug}`,
     },
   };
 }

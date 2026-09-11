@@ -30,6 +30,95 @@ export interface FigureCoverage {
 }
 
 export const figureSources: Record<string, FigureCoverage> = {
+  "paul-graham": {
+    coverage: "partial",
+    sources: [
+      {
+        file: "content/knowledge/paul-graham-essays/001-how-to-start-a-startup.md",
+        title: "How to Start a Startup",
+        show: "Paul Graham's essays",
+        subject: "Paul Graham",
+        sourceBook: "How to Start a Startup",
+        youtube: "https://www.paulgraham.com/start.html",
+        principle: "A startup's controllable foundations are good people, a product customers actually want, and spending little enough to survive learning what that product is.",
+        keyLessons: [
+          "The useful test for an idea is not how impressive it sounds but whether it gives people a meaningfully better way to do something they care about.",
+          "Graham treats the founding team, customer demand, and cost discipline as a system: weakness in any one can kill the company even when the other two look strong.",
+          "Viaweb began with a small amount of seed money and a concrete technical advantage, browser-based store building, rather than with a large organization or a polished corporate plan.",
+        ],
+      },
+      {
+        file: "content/knowledge/paul-graham-essays/002-do-things-that-dont-scale.md",
+        title: "Do Things that Don't Scale",
+        show: "Paul Graham's essays",
+        subject: "Paul Graham",
+        sourceBook: "Do Things that Don't Scale",
+        youtube: "https://www.paulgraham.com/ds.html",
+        principle: "The manual work that looks too small to matter is often the fastest way for an early startup to learn who wants the product and what would make them care more.",
+        keyLessons: [
+          "Founders should recruit early users directly instead of waiting for a launch or acquisition channel to produce them automatically.",
+          "A deliberately over-attentive first-user experience reveals needs, vocabulary, and edge cases that cannot be inferred from analytics alone.",
+          "The point is not to preserve manual operations forever. It is to learn the shape of demand while both product and process are still cheap to change.",
+        ],
+      },
+      {
+        file: "content/knowledge/paul-graham-essays/003-default-alive-or-default-dead.md",
+        title: "Default Alive or Default Dead?",
+        show: "Paul Graham's essays",
+        subject: "Paul Graham",
+        sourceBook: "Default Alive or Default Dead?",
+        youtube: "https://www.paulgraham.com/aord.html",
+        principle: "A company is default alive only when its present cash, burn, and growth reach profitability before the cash reaches zero without assuming another funding round.",
+        keyLessons: [
+          "The test uses the company's current trajectory, not a future plan: present revenue growth, expenses, and cash determine whether profitability arrives in time.",
+          "Founders often avoid the calculation because a negative answer feels like a verdict. It is actually most useful while there is still time to change burn or growth.",
+          "A company that waits until the fatal pinch has fewer real choices because fundraising under obvious time pressure weakens both leverage and judgment.",
+        ],
+      },
+      {
+        file: "content/knowledge/paul-graham-essays/004-makers-schedule-managers-schedule.md",
+        title: "Maker's Schedule, Manager's Schedule",
+        show: "Paul Graham's essays",
+        subject: "Paul Graham",
+        sourceBook: "Maker's Schedule, Manager's Schedule",
+        youtube: "https://www.paulgraham.com/makersschedule.html",
+        principle: "Creative work requires long blocks because its working model takes time to load; a manager's calendar of hourly appointments can quietly destroy a maker's entire day.",
+        keyLessons: [
+          "A manager can divide time into short appointments because coordination is the work; a programmer or writer often cannot because each interruption discards expensive mental context.",
+          "A single meeting does more than consume its duration. It can split a long block into pieces too small to begin difficult work with confidence.",
+          "Cluster meetings and office hours rather than sprinkling them through every day, preserving full days or half-days for making.",
+        ],
+      },
+      {
+        file: "content/knowledge/paul-graham-essays/005-putting-ideas-into-words.md",
+        title: "Putting Ideas into Words",
+        show: "Paul Graham's essays",
+        subject: "Paul Graham",
+        sourceBook: "Putting Ideas into Words",
+        youtube: "https://www.paulgraham.com/words.html",
+        principle: "Writing is a method of discovering ideas because clear sentences expose gaps, force distinctions, and create thoughts that did not exist before the attempt to state them.",
+        keyLessons: [
+          "Writing is not merely a delivery step after thinking. The attempt to make a claim precise changes and extends the thought itself.",
+          "A sentence that will not become clear is evidence of unfinished reasoning, not a signal to hide it behind more elaborate language.",
+          "The essay form is useful because it permits discovery: the writer can begin with a question, follow implications, and arrive somewhere not known at the start.",
+        ],
+      },
+      {
+        file: "content/knowledge/paul-graham-essays/006-how-to-do-great-work.md",
+        title: "How to Do Great Work",
+        show: "Paul Graham's essays",
+        subject: "Paul Graham",
+        sourceBook: "How to Do Great Work",
+        youtube: "https://www.paulgraham.com/greatwork.html",
+        principle: "Great work grows from choosing a field, reaching its frontier, noticing a gap that genuinely interests you, and pursuing it through projects that generate their own feedback.",
+        keyLessons: [
+          "Learn enough of a field to reach its edge, then pay attention to questions experts overlook, dismiss, or cannot yet answer.",
+          "Ambitious work often looks eccentric early because the worker sees importance before the surrounding prestige system recognizes it.",
+          "Projects are a search instrument: each attempt exposes new questions, and the sequence of better questions is part of the work rather than a detour from it.",
+        ],
+      },
+    ],
+  },
   "lulie-tanett": {
     coverage: "full",
     sources: [

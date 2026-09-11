@@ -137,7 +137,7 @@ export default function WisdomCard({
   }, [figureSlug, figureName]);
 
   const handleCopyForX = useCallback(() => {
-    const shareText = `"${quote}"\n\nâ€” ${figureName} on summon.guide\n\nTalk to ${figureName} yourself: https://summon.guide/chat/${figureSlug}`;
+    const shareText = `"${quote}"\n\nâ€” ${figureName} on summon.guide\n\nTalk to ${figureName} yourself: https://summon.guide/${figureSlug}`;
     navigator.clipboard.writeText(shareText);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -146,7 +146,7 @@ export default function WisdomCard({
 
   const handleShareToX = useCallback(() => {
     const shareText = `"${quote}"\n\nâ€” ${figureName} on @summonguide`;
-    const figureUrl = `https://summon.guide/chat/${figureSlug}`;
+    const figureUrl = `https://summon.guide/${figureSlug}`;
     const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(figureUrl)}`;
     window.open(url, "_blank");
     console.log("wisdom_card_shared_x", { figure: figureName });

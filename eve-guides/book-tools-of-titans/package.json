@@ -1,0 +1,11 @@
+{
+  "name": "summon-book-tools-of-titans",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "eve": "0.52.2"
+  },
+  "scripts": {
+    "build": "eve build --skip-sandbox-prewarm"
+  }
+}

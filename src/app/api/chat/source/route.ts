@@ -1,85 +1,53 @@
-import Anthropic from "@anthropic-ai/sdk";
-import { anthropicClient } from "@/lib/anthropic";
+import type { ChatMessageInput } from "@/lib/aiTypes";
 import { AI_CONFIG } from "@/lib/figures";
-import { buildSourceSystemPrompt } from "@/lib/sourceCorpus";
+import { streamOpenRouter } from "@/lib/openrouter";
+import { buildSourceSystemPrompt, getSourceCorpus } from "@/lib/sourceCorpus";
+import {
+  applySourceRuntimePolicy,
+  getSourceRuntimePolicy,
+} from "@/lib/sourcePolicy";
+import { retrieveSourceEpisodes } from "@/lib/sourceRetrieval";
 import { NextRequest } from "next/server";
 
-// Mirrors api/chat/route.ts, but grounds a channel's own corpus directly
-// instead of a person's persona. See docs/pipeline.md for the split between
-// "chat with a guide" and "chat with a source" and why they are two routes.
+// Grounds a channel or book corpus directly instead of simulating a person.
 export async function POST(req: NextRequest) {
-  const anthropic = await anthropicClient();
-  const { source: bookSlug, messages } = await req.json();
-
-  const systemText = buildSourceSystemPrompt(bookSlug);
-  if (!systemText) {
+  const { source: sourceSlug, messages } = (await req.json()) as {
+    source?: string;
+    messages?: ChatMessageInput[];
+  };
+  if (!Array.isArray(messages) || !messages.length) {
+    return Response.json({ error: "Messages required" }, { status: 400 });
+  }
+  const corpus = sourceSlug ? getSourceCorpus(sourceSlug) : null;
+  if (!corpus) {
     return Response.json({ error: "Source not found" }, { status: 404 });
   }
 
-  const stream = anthropic.messages.stream({
-    model: AI_CONFIG.model,
-    max_tokens: AI_CONFIG.maxTokens,
-    system: [
-      {
-        type: "text",
-        text: systemText,
-        cache_control: { type: "ephemeral" },
-      },
-    ],
-    messages: messages.map((m: { role: string; content: string }) => ({
-      role: m.role as "user" | "assistant",
-      content: m.content,
-    })),
-  });
+  const policy = getSourceRuntimePolicy(sourceSlug!);
+  const eligibleEpisodes = applySourceRuntimePolicy(sourceSlug!, corpus.episodes);
+  const query = messages
+    .filter((message) => message.role === "user")
+    .slice(-3)
+    .map((message) => message.content)
+    .join("\n")
+    .slice(0, 8_000);
+  const limit = eligibleEpisodes.length <= 24
+    ? eligibleEpisodes.length
+    : policy.maxRetrievedEpisodes;
+  const retrieved = retrieveSourceEpisodes(eligibleEpisodes, query, limit);
+  const selectedEpisodes = retrieved.map((result) => result.episode);
+  const systemText = buildSourceSystemPrompt(sourceSlug!, selectedEpisodes);
+  if (!systemText) {
+    return Response.json({ error: "Source not found" }, { status: 404 });
+  }
+  console.info(
+    `[chat/source] retrieved ${selectedEpisodes.length}/${eligibleEpisodes.length} policy-eligible episodes for ${sourceSlug}`,
+  );
 
-  const encoder = new TextEncoder();
-
-  const readable = new ReadableStream({
-    async start(controller) {
-      try {
-        for await (const event of stream) {
-          if (
-            event.type === "content_block_delta" &&
-            event.delta.type === "text_delta"
-          ) {
-            const data = JSON.stringify({ text: event.delta.text });
-            controller.enqueue(encoder.encode(`data: ${data}\n\n`));
-          }
-        }
-        controller.enqueue(encoder.encode("data: [DONE]\n\n"));
-        controller.close();
-      } catch (error) {
-        let userMessage = "Stream error";
-        if (error instanceof Anthropic.AuthenticationError) {
-          userMessage =
-            "Server is missing a valid Anthropic API key. Please contact the site owner.";
-        } else if (error instanceof Anthropic.RateLimitError) {
-          userMessage = "Rate limited, please try again in a moment.";
-        } else if (error instanceof Anthropic.APIError) {
-          const detail = error.message?.slice(0, 200) || "";
-          console.error("[chat/source] Anthropic APIError", error.status, detail);
-          if (/credit balance/i.test(detail)) {
-            userMessage =
-              "The guides are resting for a moment, the site is topping up. Please try again shortly.";
-          } else {
-            userMessage = `Upstream API error (${error.status}): ${detail}`;
-          }
-        } else if (error instanceof Error) {
-          userMessage = error.message;
-        }
-        controller.enqueue(
-          encoder.encode(`data: ${JSON.stringify({ error: userMessage })}\n\n`)
-        );
-        controller.close();
-      }
-    },
-  });
-
-  return new Response(readable, {
-    headers: {
-      "Content-Type": "text/event-stream",
-      "Cache-Control": "no-cache",
-      Connection: "keep-alive",
-    },
+  return streamOpenRouter({
+    system: systemText,
+    messages,
+    maxTokens: AI_CONFIG.maxTokens,
+    logLabel: "chat/source",
   });
 }

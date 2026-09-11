@@ -18,6 +18,7 @@ import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/
 import { z } from "zod";
 import { figures } from "@/lib/figures";
 import { books } from "@/lib/books";
+import { authenticateMcpToken } from "@/lib/membership";
 
 const SITE_URL = "https://summon.guide";
 
@@ -45,7 +46,7 @@ async function consumeSSE(res: Response): Promise<string> {
   return text;
 }
 
-function buildServer(): McpServer {
+function buildServer(authorization?: string): McpServer {
   const server = new McpServer(
     { name: "summon-guide", version: "0.1.0" },
     {
@@ -134,7 +135,10 @@ function buildServer(): McpServer {
     async ({ slug, message }) => {
       const res = await fetch(`${SITE_URL}/api/chat`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          ...(authorization ? { Authorization: authorization } : {}),
+        },
         body: JSON.stringify({ figure: slug, messages: [{ role: "user", content: message }] }),
       });
       if (!res.ok) throw new Error(`chat_with_guide: ${res.status} ${await res.text()}`);
@@ -180,7 +184,14 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     res.status(405).json({ error: "Method not allowed, POST only" });
     return;
   }
-  const server = buildServer();
+  const authorization = typeof req.headers.authorization === "string" ? req.headers.authorization : undefined;
+  const userId = await authenticateMcpToken(authorization ?? null);
+  if (!userId) {
+    res.setHeader("WWW-Authenticate", 'Bearer resource_metadata="https://summon.guide/.well-known/oauth-protected-resource/api/mcp"');
+    res.status(401).json({ error: "Summon Member authorization required" });
+    return;
+  }
+  const server = buildServer(authorization);
   const transport = new StreamableHTTPServerTransport({
     sessionIdGenerator: undefined, // stateless, matches the SDK's simplest mode
   });

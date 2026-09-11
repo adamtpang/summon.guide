@@ -4,10 +4,17 @@ import { useState, useRef, useEffect, use, useCallback } from "react";
 import { getBook } from "@/lib/books";
 import { getSourceCorpus } from "@/lib/sourceCorpus";
 import Link from "next/link";
+import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSession, signIn } from "next-auth/react";
 import { usePostHog } from "posthog-js/react";
 import { track } from "@vercel/analytics";
+import ModelRouteBadge from "@/components/ModelRouteBadge";
+import ChatComposer from "@/components/ChatComposer";
+import { Button } from "@/components/ui/button";
+import type { ModelRouteMeta } from "@/lib/aiTypes";
+import { readChatStream } from "@/lib/readChatStream";
+import { FOUNDERS_LENS_PROMPTS } from "@/lib/foundersLens";
 
 interface Message {
   role: "user" | "assistant";
@@ -46,7 +53,10 @@ function cleanResponse(text: string): { displayText: string; citations: string[]
 
 // Corpus-chat has no persona, so no per-figure question voice; these lean on
 // "what does the material say" rather than "give me your advice."
-function defaultSuggestedQuestions(title: string): string[] {
+function defaultSuggestedQuestions(title: string, slug: string): string[] {
+  if (slug === "founders-podcast") {
+    return FOUNDERS_LENS_PROMPTS.slice(0, 3).map((item) => item.prompt);
+  }
   return [
     `What's a recurring idea across ${title}?`,
     "What's a specific story or example worth knowing?",
@@ -56,23 +66,28 @@ function defaultSuggestedQuestions(title: string): string[] {
 
 export default function SourceChatPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ q?: string | string[] }>;
 }) {
   const { slug } = use(params);
+  const query = use(searchParams);
+  const requestedPrompt = Array.isArray(query.q) ? query.q[0] : query.q;
   const book = getBook(slug);
   const corpus = getSourceCorpus(slug);
   const posthog = usePostHog();
 
   const { data: session } = useSession();
   const [messages, setMessages] = useState<Message[]>([]);
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState(() => requestedPrompt?.slice(0, 1200) || "");
   const [loading, setLoading] = useState(false);
   const [streamingContent, setStreamingContent] = useState("");
   const [credits, setCredits] = useState<number | null>(null);
   const [anonCredits, setAnonCredits] = useState<number>(25);
   const [showPaywall, setShowPaywall] = useState(false);
   const [followups, setFollowups] = useState<string[]>([]);
+  const [modelRoute, setModelRoute] = useState<ModelRouteMeta | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
@@ -137,6 +152,7 @@ export default function SourceChatPage({
     setLoading(true);
     setStreamingContent("");
     setFollowups([]);
+    setModelRoute(null);
 
     try {
       const res = await fetch("/api/chat/source", {
@@ -144,49 +160,31 @@ export default function SourceChatPage({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ source: slug, messages: newMessages }),
       });
-      if (!res.ok) throw new Error("Failed");
+      const accumulated = await readChatStream(res, {
+        onText: setStreamingContent,
+        onMeta: setModelRoute,
+      });
 
-      const reader = res.body?.getReader();
-      if (!reader) throw new Error("No reader");
-
-      const decoder = new TextDecoder();
-      let accumulated = "";
-
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        const chunk = decoder.decode(value);
-        for (const line of chunk.split("\n")) {
-          if (line.startsWith("data: ")) {
-            const data = line.slice(6);
-            if (data === "[DONE]") continue;
-            try {
-              const parsed = JSON.parse(data);
-              if (parsed.error) {
-                accumulated = parsed.error;
-                setStreamingContent(accumulated);
-                break;
-              }
-              if (parsed.text) {
-                accumulated += parsed.text;
-                setStreamingContent(accumulated);
-              }
-            } catch {
-              /* skip */
-            }
-          }
-        }
-      }
-
-      const { displayText, followups: newFollowups } = cleanResponse(accumulated);
-      const assistantMessage = { role: "assistant" as const, content: displayText };
+      const {
+        displayText,
+        citations: newCitations,
+        followups: newFollowups,
+      } = cleanResponse(accumulated);
+      const citationText = newCitations
+        .map((citation) => `[Source: "${citation}"]`)
+        .join("\n");
+      const assistantMessage = {
+        role: "assistant" as const,
+        content: [displayText, citationText].filter(Boolean).join("\n\n"),
+      };
       const finalMessages = [...newMessages, assistantMessage];
       setMessages(finalMessages);
       setStreamingContent("");
       setFollowups(newFollowups);
       decrementCredits();
-    } catch {
-      setMessages([...newMessages, { role: "assistant", content: "Something went wrong. Try again." }]);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Something went wrong. Try again.";
+      setMessages([...newMessages, { role: "assistant", content: message }]);
       setStreamingContent("");
     } finally {
       setLoading(false);
@@ -222,10 +220,11 @@ export default function SourceChatPage({
   return (
     <div className="h-[100dvh] bg-ink-950 text-warm-100 flex flex-col overflow-hidden relative">
       {/* Top bar */}
-      <div className="relative z-10 flex items-center justify-between px-4 pt-[max(12px,env(safe-area-inset-top))] pb-2 shrink-0">
+      <div className="relative z-10 mx-auto flex w-full max-w-3xl items-center justify-between px-4 pt-[max(12px,env(safe-area-inset-top))] pb-2 shrink-0">
         <Link
           href={`/books/${slug}`}
-          className="w-10 h-10 rounded-full bg-black/30 backdrop-blur-sm flex items-center justify-center text-white/70 hover:text-white hover:bg-black/50 transition-all"
+          aria-label="Back to source"
+          className="w-11 h-11 rounded-full border border-white/10 bg-white/[0.06] backdrop-blur-sm flex items-center justify-center text-white/55 hover:text-white hover:bg-white/10 transition-colors"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
             <path d="M19 12H5M12 19l-7-7 7-7" />
@@ -236,42 +235,57 @@ export default function SourceChatPage({
       {/* Middle content area */}
       <div className="relative z-10 flex-1 flex flex-col min-h-0">
         {!hasMessages ? (
-          <div className="flex-1 flex flex-col justify-end px-4 pb-4 overflow-y-auto">
-            <p className="text-warm-400 text-xs tracking-[0.25em] uppercase mb-2">
+          <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col justify-end px-4 pb-5 overflow-y-auto">
+            <p className="text-white/35 text-xs tracking-[0.25em] uppercase mb-2">
               A corpus, not a person
             </p>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif font-medium text-white mb-1">
-              {corpus.title}
-            </h1>
-            <p className="text-white/50 text-sm mb-4">
+            <div className="flex items-start gap-4 mb-2">
+              {book.image && (
+                <Image
+                  src={book.image}
+                  alt=""
+                  width={56}
+                  height={56}
+                  className="w-16 h-20 rounded-md object-cover shrink-0 border border-white/10"
+                />
+              )}
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-medium tracking-tight text-white">
+                {corpus.title}
+              </h1>
+            </div>
+            <p className="text-white/45 text-sm mb-4">
               By {corpus.host} &middot; {corpus.episodes.length} episodes synthesized
             </p>
-            <p className="text-white/60 text-sm mb-4">
+            <p className="max-w-xl text-white/55 text-sm leading-relaxed mb-5">
               This answers only from the corpus below. It is not {corpus.host}, it does not
               pretend to be, and it will say so if you ask.
             </p>
 
-            <div className="flex flex-wrap gap-2">
-              {defaultSuggestedQuestions(corpus.title).map((q, i) => (
-                <button
+            <p className="mb-2 text-[10px] tracking-[0.2em] text-white/35 uppercase">
+              Ask the source
+            </p>
+            <div className="grid gap-2 sm:grid-cols-3">
+              {defaultSuggestedQuestions(corpus.title, slug).map((q, i) => (
+                <Button
                   key={i}
                   onClick={() => sendQuickMessage(q)}
-                  className="text-sm text-white/80 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2.5 hover:bg-white/20 transition-all min-h-[44px]"
+                  variant="outline"
+                  className="h-auto min-h-12 justify-start rounded-xl border-white/10 bg-white/[0.06] px-4 py-3 text-left text-xs font-normal leading-relaxed text-white/70 backdrop-blur-sm hover:bg-white/10 hover:text-white"
                 >
                   {q}
-                </button>
+                </Button>
               ))}
             </div>
           </div>
         ) : (
-          <div className="flex-1 overflow-y-auto px-4 py-3 chat-scroll">
-            <div className="max-w-2xl mx-auto space-y-3">
+          <div className="chat-scroll flex-1 overflow-y-auto px-4 py-4">
+            <div className="mx-auto max-w-2xl space-y-6">
               {messages.map((msg, i) => {
                 if (msg.role === "user") {
                   return (
                     <div key={i} className="flex justify-end">
-                      <div className="max-w-[85%] bg-white/15 backdrop-blur-sm rounded-2xl rounded-br-sm px-4 py-3">
-                        <p className="text-sm text-white leading-relaxed whitespace-pre-wrap break-words">
+                      <div className="max-w-[85%] rounded-2xl rounded-br-sm bg-warm-50 px-4 py-3 text-ink-950 sm:max-w-[78%]">
+                        <p className="whitespace-pre-wrap break-words text-sm leading-relaxed">
                           {msg.content}
                         </p>
                       </div>
@@ -280,46 +294,96 @@ export default function SourceChatPage({
                 }
                 const { body, citations: msgCitations } = parseCitations(msg.content);
                 const { body: cleanBody } = parseFollowups(body);
-                const isLatest = i === messages.length - 1;
                 return (
-                  <div key={i} className="flex flex-col justify-start gap-1">
-                    <div className={`max-w-[90%] ${isLatest ? "" : "opacity-60"}`}>
-                      <p className="text-[15px] text-white leading-[1.8] whitespace-pre-wrap break-words">
-                        {cleanBody}
-                      </p>
+                  <div key={i} className="flex items-start gap-3">
+                    <div className="mt-5 shrink-0">
+                      {book.image ? (
+                        <Image
+                          src={book.image}
+                          alt=""
+                          width={32}
+                          height={40}
+                          className="h-10 w-8 rounded object-cover ring-1 ring-white/15"
+                        />
+                      ) : (
+                        <div className="flex size-8 items-center justify-center rounded-md bg-white/10 font-serif text-sm text-white/65">
+                          {corpus.title[0]}
+                        </div>
+                      )}
                     </div>
-                    {msgCitations.length > 0 && (
-                      <div className="max-w-[90%] mt-1">
-                        {msgCitations.map((c, ci) => (
-                          <p key={ci} className="text-[11px] text-white/30 italic flex items-center gap-1">
-                            <svg className="w-3 h-3 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                              <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                            </svg>
-                            {c}
-                          </p>
-                        ))}
+                    <div className="min-w-0 flex-1">
+                      <p className="mb-1.5 text-[10px] tracking-[0.18em] text-white/35 uppercase">
+                        Source synthesis
+                      </p>
+                      <div className="rounded-xl border border-white/10 bg-white/[0.06] px-4 py-4">
+                        <p className="whitespace-pre-wrap break-words text-[15px] leading-[1.8] text-white/85">
+                          {cleanBody}
+                        </p>
+                        {msgCitations.length > 0 && (
+                          <div className="mt-4 space-y-1.5 border-t border-white/10 pt-3">
+                            {msgCitations.map((c, ci) => (
+                              <p
+                                key={ci}
+                                className="flex items-start gap-1.5 text-[11px] italic leading-relaxed text-white/35"
+                              >
+                                <svg className="mt-0.5 size-3 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                                  <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                </svg>
+                                {c}
+                              </p>
+                            ))}
+                          </div>
+                        )}
                       </div>
-                    )}
+                    </div>
                   </div>
                 );
               })}
 
               {streamingContent && (
-                <div className="flex justify-start">
-                  <div className="max-w-[90%]">
-                    <p className="text-[15px] text-white leading-[1.8] whitespace-pre-wrap break-words">
-                      {streamingContent}
-                      <span className="inline-block w-[2px] h-[16px] bg-white/60 ml-0.5 animate-pulse align-text-bottom" />
+                <div className="flex items-start gap-3">
+                  <div className="mt-5 shrink-0">
+                    {book.image ? (
+                      <Image
+                        src={book.image}
+                        alt=""
+                        width={32}
+                        height={40}
+                        className="h-10 w-8 rounded object-cover ring-1 ring-white/15"
+                      />
+                    ) : (
+                      <div className="flex size-8 items-center justify-center rounded-md bg-white/10 font-serif text-sm text-white/65">
+                        {corpus.title[0]}
+                      </div>
+                    )}
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <p className="mb-1.5 text-[10px] tracking-[0.18em] text-white/35 uppercase">
+                      Source synthesis
                     </p>
+                    <div className="rounded-xl border border-white/10 bg-white/[0.06] px-4 py-4">
+                      <p className="whitespace-pre-wrap break-words text-[15px] leading-[1.8] text-white/85">
+                        {streamingContent}
+                        <span className="ml-0.5 inline-block h-4 w-0.5 animate-pulse bg-white/60 align-text-bottom" />
+                      </p>
+                    </div>
                   </div>
                 </div>
               )}
 
               {loading && !streamingContent && (
-                <div className="flex gap-1.5 py-2">
-                  <span className="w-1.5 h-1.5 bg-white/50 rounded-full animate-bounce [animation-delay:0ms]" />
-                  <span className="w-1.5 h-1.5 bg-white/50 rounded-full animate-bounce [animation-delay:150ms]" />
-                  <span className="w-1.5 h-1.5 bg-white/50 rounded-full animate-bounce [animation-delay:300ms]" />
+                <div className="flex items-start gap-3">
+                  <div className="mt-5 size-8 shrink-0 rounded-md bg-white/10" />
+                  <div className="flex-1">
+                    <p className="mb-1.5 text-[10px] tracking-[0.18em] text-white/35 uppercase">
+                      Searching the corpus
+                    </p>
+                    <div className="space-y-2 rounded-xl border border-white/10 bg-white/[0.06] px-4 py-4">
+                      <span className="block h-2 w-11/12 animate-pulse rounded-full bg-white/10" />
+                      <span className="block h-2 w-8/12 animate-pulse rounded-full bg-white/10" />
+                      <span className="block h-2 w-9/12 animate-pulse rounded-full bg-white/10" />
+                    </div>
+                  </div>
                 </div>
               )}
 
@@ -331,50 +395,46 @@ export default function SourceChatPage({
 
       {followups.length > 0 && !loading && hasMessages && (
         <div className="relative z-10 px-4 py-2 shrink-0">
-          <div className="max-w-2xl mx-auto flex flex-wrap gap-1.5">
+          <div className="mx-auto flex max-w-2xl gap-2 overflow-x-auto pb-1">
             {followups.map((q, i) => (
-              <button
+              <Button
                 key={i}
                 onClick={() => sendQuickMessage(q)}
-                className="text-xs text-white/70 bg-white/10 backdrop-blur-sm rounded-full px-3 py-2 hover:bg-white/20 transition-all min-h-[36px] text-left"
+                variant="outline"
+                className="h-10 shrink-0 rounded-full border-white/10 bg-white/[0.06] px-4 text-xs font-normal text-white/65 hover:bg-white/10 hover:text-white"
               >
                 {q}
-              </button>
+              </Button>
             ))}
           </div>
         </div>
       )}
 
-      {effectiveCredits !== null && (
+      {(effectiveCredits !== null || modelRoute) && (
         <div className="relative z-10 px-4 py-1 flex justify-center shrink-0">
-          <span className="text-[10px] text-white/30">
-            {effectiveCredits} messages remaining{!session?.user ? " (free trial)" : ""}
-          </span>
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            {modelRoute && <ModelRouteBadge route={modelRoute} tone="dark" />}
+            {effectiveCredits !== null && (
+              <span className="text-[10px] text-white/30">
+                {effectiveCredits} messages remaining{!session?.user ? " (free trial)" : ""}
+              </span>
+            )}
+          </div>
         </div>
       )}
 
       <div className="relative z-10 px-3 pb-[max(12px,env(safe-area-inset-bottom))] pt-1 shrink-0">
-        <div className="flex gap-2 max-w-2xl mx-auto items-end">
-          <textarea
-            ref={inputRef}
+        <div className="mx-auto max-w-2xl">
+          <ChatComposer
             value={input}
-            onChange={(e) => setInput(e.target.value)}
+            onChange={setInput}
             onKeyDown={handleKeyDown}
+            onSend={sendMessage}
             placeholder={`Ask ${corpus.title}...`}
-            className="flex-1 min-w-0 bg-white/10 backdrop-blur-sm border border-white/10 rounded-2xl px-4 py-3 text-[16px] text-white placeholder-white/30 resize-none focus:outline-none focus:border-white/25 transition-colors leading-normal"
-            rows={1}
             disabled={loading}
-            style={{ fontSize: "16px" }}
+            textareaRef={inputRef}
+            tone="dark"
           />
-          <button
-            onClick={sendMessage}
-            disabled={loading || !input.trim()}
-            className="bg-white text-ink-950 w-12 h-12 min-w-[48px] min-h-[48px] rounded-full flex items-center justify-center transition-all disabled:opacity-20 disabled:cursor-not-allowed hover:scale-105 active:scale-95 shrink-0"
-          >
-            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
-          </button>
         </div>
       </div>
 

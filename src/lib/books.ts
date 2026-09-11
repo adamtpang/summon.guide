@@ -1,6 +1,8 @@
-// Books are the second axis of summon.guide.
-// A guide is a person we summon. A book is a primary source we drew from.
-// Every skill in src/lib/skills.ts is grounded in one or more books here.
+// This remains the source metadata registry. src/lib/guideAgents.ts promotes
+// every entry into a durable book or channel agent, while preserving these
+// fields for ingestion, profiles, and citations. People, books, and channels
+// are all guides at the product layer.
+// Every skill in src/lib/skills.ts is grounded in one or more sources here.
 //
 // Four roles:
 //   "by": the figure wrote it themselves (Franklin's Autobiography,
@@ -37,6 +39,10 @@ export interface Book {
   description?: string;
   /** external link for "buy / read more" */
   amazonUrl?: string;
+  /** small thumbnail shown near the /chat/source header: book cover or
+   *  channel avatar, under /public. Not a full-bleed background, just a
+   *  header-adjacent identifier, same weight as a figure's portrait. */
+  image?: string;
   /** path under /sources/ if we have a PDF locally (gitignored) */
   pdfPath?: string;
   /** skill slugs (from src/lib/skills.ts) derived from this book */
@@ -52,6 +58,29 @@ export interface Book {
 }
 
 export const books: Book[] = [
+  {
+    slug: "pendleton-ward-selected-interviews",
+    title: "Pendleton Ward: Selected Public Interviews",
+    author: "Pendleton Ward, interviewed by Max Eddy, GeekDad, and Rollin Bishop",
+    year: 2020,
+    role: "compiled",
+    figureSlug: "pendleton-ward",
+    description: "Summon reading list of three interviews from 2012 and 2020. Selected evidence is summarized in the guide prompt; this is not a published book or a complete transcript corpus.",
+    amazonUrl: "https://www.themarysue.com/pendleton-ward-interview/",
+    skillSlugs: ["creative-play", "practice-kindness"],
+    status: "partial",
+  },
+  {
+    slug: "adventure-time-art-of-ooo",
+    title: "Adventure Time: The Art of Ooo",
+    author: "Chris McDonnell",
+    year: 2014,
+    role: "about",
+    figureSlug: "pendleton-ward",
+    description: "Behind-the-scenes art book published by Abrams. Reference only; full text has not been ingested and does not ground this guide.",
+    amazonUrl: "https://books.google.com/books/about/Adventure_Time_The_Art_of_Ooo.html?id=Hk4nngEACAAJ",
+    status: "pending",
+  },
   // Buffett and Munger
   {
     slug: "berkshire-shareholder-letters",
@@ -566,6 +595,7 @@ export const books: Book[] = [
     description:
       "Since 2016, Senra has read and narrated over four hundred founder biographies alone, no co-host, no outline, reading from his own pen and ruler annotations. A companion interview feed, under the same banner, talks with living founders and operators directly.",
     amazonUrl: "https://www.founderspodcast.com",
+    image: "/channels/founders-podcast.jpg",
     skillSlugs: [],
     status: "partial",
     corpusPaths: ["content/knowledge/founders", "content/knowledge/interviews"],
@@ -583,6 +613,7 @@ export const books: Book[] = [
     description:
       "Pat Walls's YouTube show interviewing founders about exactly how they built a specific business: real revenue numbers, real customer-acquisition tactics, real pricing and unit economics, not generic advice. This corpus is a curated selection of 28 of the channel's highest-signal episodes out of roughly 170 long-form interviews, weighted toward substantive case studies over thin clip-show entries, digested as a text to chat with directly rather than through any single persona.",
     amazonUrl: "https://www.youtube.com/@starterstory",
+    image: "/channels/starter-story.jpg",
     status: "partial",
     corpusPaths: ["content/knowledge/starter-story"],
   },
@@ -597,6 +628,7 @@ export const books: Book[] = [
     description:
       "Patrick O'Shaughnessy's long-form interview show with investors, operators, and founders: specific capital-allocation decisions, real deal mechanics, and named theses rather than generic market commentary. This corpus is a curated selection of 28 of the show's highest-signal episodes out of roughly 64 long-form interviews, digested as a text to chat with directly rather than through any single persona.",
     amazonUrl: "https://www.youtube.com/@Invest_Like_the_Best",
+    image: "/channels/invest-like-the-best.jpg",
     status: "partial",
     corpusPaths: ["content/knowledge/invest-like-the-best"],
   },
@@ -611,6 +643,7 @@ export const books: Book[] = [
     description:
       "The startup accelerator's own YouTube channel: Startup School lectures and partner talks on ideas, product-market fit, MVPs, fundraising, co-founders, pricing, sales, and metrics, taught by YC partners (Michael Seibel, Dalton Caldwell, Kirsty Nathoo, Garry Tan, and others) and credible alumni founders (Patrick Collison, Suhail Doshi, Tom Blomfield). This corpus is a curated selection of 35 episodes out of roughly 558 long-form videos, chosen for topic coverage rather than duplicating the same lecture, digested as a text to chat with directly rather than through any single persona.",
     amazonUrl: "https://www.youtube.com/@ycombinator",
+    image: "/channels/y-combinator.jpg",
     status: "partial",
     corpusPaths: ["content/knowledge/y-combinator"],
   },
@@ -904,6 +937,23 @@ export const books: Book[] = [
       "content/knowledge/bible-psalms-wisdom",
       "content/knowledge/bible-sermon-on-the-mount",
     ],
+  },
+
+  // Paul Graham: living essay archive. Raw pages stay private under sources/;
+  // content/knowledge contains only original synthesis with links back.
+  {
+    slug: "paul-graham-essays",
+    title: "Paul Graham: Selected Essays",
+    author: "Paul Graham",
+    year: 2026,
+    role: "by",
+    figureSlug: "paul-graham",
+    description:
+      "A growing synthesis of Paul Graham's official essay archive on startups, users, programming, writing, taste, ambition, and doing great work. The first source-backed slice covers six canonical essays; the private sync pipeline can backfill the rest without republishing his full text.",
+    amazonUrl: "https://www.paulgraham.com/articles.html",
+    skillSlugs: ["paul-graham", "do-things-that-dont-scale", "default-alive", "maker-schedule", "great-work-project"],
+    status: "partial",
+    corpusPaths: ["content/knowledge/paul-graham-essays"],
   },
 
   // Lulie Tanett: her own essays, published at lulie.co.uk. Self-educated

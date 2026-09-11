@@ -1,9 +1,24 @@
-/**
- * ElevenLabs voice IDs per guide slug.
- * Living legends: prefer licensed clones from public interviews (TODO).
- * Dead legends: closest-matching library voices.
+/** Per-guide ElevenLabs library casting. These are synthetic voices, not clones.
+ * Dedicated account voices can override each assignment with
+ * ELEVENLABS_VOICE_<SLUG_WITH_UNDERSCORES> in server environment settings.
  */
 export const VOICE_MAP: Record<string, string> = {
+  "pendleton-ward": "ErXwobaYiN019PkySvjV", // Library casting, not Ward's voice or a clone.
+  sage: "JBFqnCBsd6RMkjVDRZzb", // George: mature, calm storyteller
+  "tobi-lutke": "N2lVS1w4EtoT3dr4eOWO",
+  "todd-graves": "TX3LPaxmHKxFdv7VOQHJ",
+  "john-mackey": "onwK4e9ZLuTAKqWW03F9",
+  "jimmy-iovine": "ErXwobaYiN019PkySvjV",
+  "daniel-ek": "N2lVS1w4EtoT3dr4eOWO",
+  "evan-spiegel": "TX3LPaxmHKxFdv7VOQHJ",
+  "james-dyson": "JBFqnCBsd6RMkjVDRZzb",
+  "brian-armstrong": "pNInz6obpgDQGcFmaJgB",
+  "steve-jobs": "ErXwobaYiN019PkySvjV",
+  "jeff-bezos": "VR6AewLTigWG4xSOukaG",
+  "sam-walton": "onwK4e9ZLuTAKqWW03F9",
+  "naval-ravikant": "pNInz6obpgDQGcFmaJgB",
+  "ray-dalio": "pqHfZKP75CvOlQylNhV4",
+  "lulie-tanett": "XrExE9yKIg1WjnnlVkGX",
   hesse: "N2lVS1w4EtoT3dr4eOWO", // Callum: warm, measured, European
   "nassim-taleb": "pqHfZKP75CvOlQylNhV4", // Bill: measured, grave, aphoristic
   "peter-thiel": "pNInz6obpgDQGcFmaJgB", // Adam: calm, deliberate, contrarian
@@ -36,6 +51,7 @@ export const VOICE_MAP: Record<string, string> = {
   "paul-millerd": "N2lVS1w4EtoT3dr4eOWO", // Callum: warm, reflective, measured
   "napoleon-hill": "pqHfZKP75CvOlQylNhV4", // Bill: measured, grave, period gravitas
   "brad-jacobs": "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative, reused from marc-andreessen/tim-ferriss/senra
+  "paul-graham": "pNInz6obpgDQGcFmaJgB", // Adam: calm, measured, analytical; library voice, not a clone
 };
 
 export const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Daniel fallback
@@ -48,7 +64,10 @@ export const TTS_LIMITS = {
 } as const;
 
 export function getVoiceId(figureSlug?: string | null): string {
-  if (figureSlug && VOICE_MAP[figureSlug]) return VOICE_MAP[figureSlug];
+  if (figureSlug && VOICE_MAP[figureSlug]) {
+    const key = `ELEVENLABS_VOICE_${figureSlug.replace(/-/g, "_").toUpperCase()}`;
+    return process.env[key]?.trim() || VOICE_MAP[figureSlug];
+  }
   return DEFAULT_VOICE_ID;
 }
 

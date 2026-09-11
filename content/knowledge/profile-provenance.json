@@ -2,6 +2,39 @@
   "note": "Verification receipts for src/lib/profiles.ts. Every notableQuote is traced to a primary source; every rejected misattribution is recorded so it is never reintroduced.",
   "generated": "2026-07-23",
   "profiles": {
+    "warren-buffett": {
+      "quoteSources": [
+        {
+          "quote": "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.",
+          "source": "Warren E. Buffett, Berkshire Hathaway 1989 shareholder letter, Mistakes of the First Twenty-five Years section. Verified against Berkshire Hathaway's official archive."
+        },
+        {
+          "quote": "Time is the friend of the wonderful business, the enemy of the mediocre.",
+          "source": "Warren E. Buffett, Berkshire Hathaway 1989 shareholder letter, in the discussion of the cigar-butt approach. Verified against Berkshire Hathaway's official archive."
+        },
+        {
+          "quote": "Our favorite holding period is forever.",
+          "source": "Warren E. Buffett, Berkshire Hathaway 1988 shareholder letter, describing ownership of outstanding businesses with outstanding managements. Verified against Berkshire Hathaway's official archive."
+        },
+        {
+          "quote": "Mr. Market is there to serve you, not to guide you.",
+          "source": "Warren E. Buffett, Berkshire Hathaway 1987 shareholder letter, in his explanation of Benjamin Graham's Mr. Market allegory. Verified against Berkshire Hathaway's official archive."
+        },
+        {
+          "quote": "The size of that circle is not very important; knowing its boundaries, however, is vital.",
+          "source": "Warren E. Buffett, Berkshire Hathaway 1996 shareholder letter, in his discussion of the circle of competence. Verified against Berkshire Hathaway's official archive."
+        },
+        {
+          "quote": "A small chance of distress or disgrace cannot, in our view, be offset by a large chance of extra returns.",
+          "source": "Warren E. Buffett, Berkshire Hathaway 1989 shareholder letter, explaining Berkshire's rejection of conventional leverage. Verified against Berkshire Hathaway's official archive."
+        }
+      ],
+      "excludedMisattributions": [
+        "'Price is what you pay; value is what you get.' Buffett used this line in Berkshire letters, but explicitly called it Ben Graham's adage. Excluded as a Buffett original.",
+        "'Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1.' Widely attributed to Buffett, but no primary-source origin in the official shareholder-letter archive was found. Excluded in favor of verifiable language on permanent loss and leverage.",
+        "'Be fearful when others are greedy and greedy when others are fearful.' This is genuine Buffett wording from the 2004 shareholder letter, but it is commonly stripped of its market-pricing context. Left out of the compact profile quote list to avoid presenting it as market-timing advice."
+      ]
+    },
     "charlie-munger": {
       "quoteSources": [
         {

@@ -1,6 +1,6 @@
-# Sources — book ingestion workflow
+# Sources: book ingestion workflow
 
-This folder holds the **primary-source PDFs** we use to extract Claude Code skills. The PDFs themselves are **not committed** (`.gitignore` excludes them) — they are usually copyrighted, large, and not needed at runtime.
+This folder holds the **primary-source PDFs** we use to extract Claude Code skills. The PDFs themselves are **not committed** (`.gitignore` excludes them): they are usually copyrighted, large, and not needed at runtime.
 
 The website never reads from here. Only Claude reads from here, during local ingestion sessions.
 
@@ -62,7 +62,7 @@ Kept for reference. The pipeline above supersedes it.
 
 > I dropped `sources/elon/the-book-of-elon.pdf`. Read it and extract 3–5 frameworks that Elon **actually used** (not generic startup advice). For each framework:
 >
-> 1. Create `/skills/elon-<short-name>/SKILL.md` following the structural pattern of `/skills/musk-five-step-algorithm/SKILL.md` — frontmatter (`name`, `description`), then sections: *Core Principle*, *Framework*, *Evaluation Criteria*, *Anti-patterns*, *Output*. End with one of his signature quotes attributed to him.
+> 1. Create `/skills/elon-<short-name>/SKILL.md` following the structural pattern of `/skills/musk-five-step-algorithm/SKILL.md`: frontmatter (`name`, `description`), then sections: *Core Principle*, *Framework*, *Evaluation Criteria*, *Anti-patterns*, *Output*. End with one of his signature quotes attributed to him.
 > 2. Add an entry to `src/lib/skills.ts` with `figureSlug: "elon"`, the source book in `source` and the chapter or anchor in `sourceAnchor`.
 > 3. In `src/lib/books.ts`, add the new skill slug to that book's `skillSlugs` array and update `status` to `partial` or `complete` depending on coverage.
 >
@@ -70,7 +70,7 @@ Kept for reference. The pipeline above supersedes it.
 
 ### 3. Verify and ship
 
-The website auto-picks up new entries — no separate registration step.
+The website auto-picks up new entries, no separate registration step.
 
 - `summon.guide/<figure>` shows the new skills in the *Claude Code skills* section
 - `summon.guide/skills` lists every skill across every guide
@@ -80,7 +80,7 @@ Open a PR with title format: `Add N skills from <Book Title> by <Author> to /<fi
 
 ## Quality bar for extracted skills
 
-Already covered in `/BOOKS.md` — read that before generating skills if it's your first ingestion session. Short version: be specific, name the procedure, call out the failure mode, and cite the source.
+Already covered in `/BOOKS.md`: read that before generating skills if it's your first ingestion session. Short version: be specific, name the procedure, call out the failure mode, and cite the source.
 
 ## Activating a new figure (not just a new book)
 

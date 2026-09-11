@@ -118,7 +118,7 @@ export default function HumanSearch() {
     (h: HumanResult) => {
       setOpen(false);
       if (h.onPlatform) {
-        router.push(`/chat/${h.onPlatform}`);
+        router.push(`/${h.onPlatform}`);
         return;
       }
       setRequestCard({
@@ -190,7 +190,7 @@ export default function HumanSearch() {
       // chat reads this once, removes it, and sends it as the first message.
       window.sessionStorage.setItem("summon_intake", q);
       router.push(
-        `/chat/${data.slug}?reason=${encodeURIComponent(data.reason)}&intake=1`
+        `/${data.slug}?reason=${encodeURIComponent(data.reason)}&intake=1`
       );
     } catch {
       setMatching(false);

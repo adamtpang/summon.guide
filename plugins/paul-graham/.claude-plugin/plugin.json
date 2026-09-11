@@ -1,0 +1,11 @@
+{
+  "name": "paul-graham",
+  "description": "Paul Graham's source-backed operating tests for startups, users, maker time, runway, writing, and ambitious work. Grounded in his essays at paulgraham.com.",
+  "version": "0.1.0",
+  "author": {
+    "name": "summon.guide",
+    "url": "https://summon.guide/paul-graham"
+  },
+  "repository": "https://github.com/adamtpang/summon.guide",
+  "license": "MIT"
+}

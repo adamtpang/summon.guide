@@ -27,6 +27,7 @@ const PREFERRED_SLUGS = [
   "marcus-aurelius",
   "rockefeller",
   "naval-ravikant",
+  "warren-buffett",
   "charlie-munger",
   "elon",
   "marie-curie",

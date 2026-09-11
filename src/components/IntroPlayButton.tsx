@@ -71,21 +71,22 @@ export default function IntroPlayButton({
         e.stopPropagation();
         playIntro();
       }}
-      className="shrink-0 w-8 h-8 rounded-full bg-emerald-50 hover:bg-emerald-100 flex items-center justify-center transition-all"
+      className="flex size-11 shrink-0 items-center justify-center rounded-full border border-warm-200 bg-white text-warm-500 transition-colors hover:border-warm-300 hover:text-ink-950"
+      aria-label={`Hear ${name} introduce themselves`}
       title={`Hear ${name} introduce themselves`}
     >
       {loadingSlug === slug ? (
-        <svg className="w-3.5 h-3.5 animate-spin text-emerald-600" viewBox="0 0 24 24" fill="none">
+        <svg className="w-3.5 h-3.5 animate-spin" viewBox="0 0 24 24" fill="none">
           <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" opacity="0.3" />
           <path d="M12 2a10 10 0 0 1 10 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
         </svg>
       ) : playingSlug === slug ? (
-        <svg className="w-3.5 h-3.5 text-emerald-600" viewBox="0 0 24 24" fill="currentColor">
+        <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
           <rect x="6" y="5" width="4" height="14" rx="1" />
           <rect x="14" y="5" width="4" height="14" rx="1" />
         </svg>
       ) : (
-        <svg className="w-3.5 h-3.5 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M11 5L6 9H2v6h4l5 4V5z" />
           <path d="M15.54 8.46a5 5 0 0 1 0 7.07" strokeLinecap="round" />
         </svg>

@@ -1,10 +1,7 @@
-import { anthropicClient } from "@/lib/anthropic";
-import { AI_CONFIG } from "@/lib/figures";
+import { completeOpenRouter } from "@/lib/openrouter";
 import { NextRequest } from "next/server";
 
 export async function POST(req: NextRequest) {
-  // Built per request; see the comment in src/app/api/chat/route.ts for why.
-  const anthropic = await anthropicClient();
   const { messages, figureName, era } = await req.json();
 
   if (!messages?.length || !figureName) {
@@ -16,16 +13,16 @@ export async function POST(req: NextRequest) {
     .map((m: { role: string; content: string }) => `${m.role}: ${m.content}`)
     .join("\n\n");
 
-  const response = await anthropic.messages.create({
-    model: AI_CONFIG.model,
-    max_tokens: 256,
+  const response = await completeOpenRouter({
     system: `You are a quote curator. Extract the single most shareable, standalone quote from this conversation with ${figureName}. The quote should make someone stop scrolling on X/Twitter: punchy, wise, and complete without context. Return ONLY the quote text, no attribution, no quote marks, nothing else. Max 180 characters. Strip any source citations like [Source: ...].`,
     messages: [
       { role: "user", content: conversationText },
     ],
+    maxTokens: 400,
+    temperature: 0.3,
   });
 
-  const quote = response.content[0].type === "text" ? response.content[0].text.trim() : "";
+  const quote = response.text.trim();
 
   return Response.json({ quote, figureName, era: era || "" });
 }

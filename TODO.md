@@ -1,4 +1,4 @@
-# legends.guide — Master TODO
+# legends.guide: Master TODO
 
 ## ✅ Done
 - [x] Google OAuth (sign in with Google)
@@ -19,7 +19,7 @@
 
 ## 🔥 Priority: First Dollar (do TODAY)
 - [ ] Test full payment flow end-to-end on prod
-- [ ] Demo at NS.com — show 3 people, see if anyone buys
+- [ ] Demo at NS.com: show 3 people, see if anyone buys
 - [ ] Post screen recording to X with legends.guide link
 - [ ] Share in 1 group chat / community
 
@@ -83,12 +83,12 @@
 - Voice should be opt-in or premium tier
 
 ## 📡 Distribution Strategy (ranked)
-1. TikTok/Reels — wisdom clips with watermark → viral → free
-2. SEO — "rockefeller advice on money" → own the long-tail
-3. X/Twitter — wisdom cards → every conversation = distribution
-4. Referral loop — "give a friend 5 msgs, get 5 yourself"
-5. NS.com beta testing — in-person demos
-6. Paid ads — Facebook/Instagram after unit economics proven
+1. TikTok/Reels: wisdom clips with watermark → viral → free
+2. SEO: "rockefeller advice on money" → own the long-tail
+3. X/Twitter: wisdom cards → every conversation = distribution
+4. Referral loop: "give a friend 5 msgs, get 5 yourself"
+5. NS.com beta testing: in-person demos
+6. Paid ads: Facebook/Instagram after unit economics proven
 
 ## 🏆 Competitors
 | App | Price | Moat |
@@ -98,3 +98,9 @@
 | Sage (Senra) | $1,500 lifetime | Deeply researched |
 | Humy.ai | Free-$129/yr | Education focus |
 | Delphi.ai | $79-399/mo | Creator clone platform |
+
+## Per-guide ElevenLabs voices
+
+- [ ] Replace rejected ELEVENLABS_API_KEY in Vercel Production and local configuration.
+- [ ] With working account access, audition or design a distinct synthetic voice for each of the 47 active people and Sage, matching age, accent and delivery. Current assignments reuse library voices and are provisional.
+- [ ] Set ELEVENLABS_VOICE_<SLUG_WITH_UNDERSCORES> per guide, verify playback, and record voice IDs and audition outcomes. Use authorized voice assets for any authentic likeness.

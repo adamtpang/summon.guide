@@ -1,0 +1,1529 @@
+{
+  "source": "visakan-essays",
+  "label": "Visakan Veerasamy essays",
+  "indexUrl": "https://www.visakanv.com/blog/author/visakanv/",
+  "syncedAt": "2026-08-24T07:28:45.595Z",
+  "pages": [
+    {
+      "rank": 1,
+      "title": "start here",
+      "url": "https://www.visakanv.com/blog/start-here/",
+      "file": "001-start-here.md",
+      "sha256": "821e764543111492f174b746af5eadbde6427a3a6128b40cf976732092ca2165",
+      "fetchedAt": "2026-08-24T07:28:11.168Z"
+    },
+    {
+      "rank": 2,
+      "title": "sitemap of all posts",
+      "url": "https://www.visakanv.com/blog/all/",
+      "file": "002-sitemap-of-all-posts.md",
+      "sha256": "0bb9286ebc5ddc8a039b627ce2a51e4abdc9511c0946516ed19552c74d617014",
+      "fetchedAt": "2026-08-24T07:28:12.157Z"
+    },
+    {
+      "rank": 3,
+      "title": "gaps",
+      "url": "https://www.visakanv.com/blog/gaps/",
+      "file": "003-gaps.md",
+      "sha256": "c5e6644c27d097856fb9982bb47c794f958a028341d5419889e4e7c8ccd591de",
+      "fetchedAt": "2026-08-24T07:28:11.981Z"
+    },
+    {
+      "rank": 4,
+      "title": "work",
+      "url": "https://www.visakanv.com/blog/work/",
+      "file": "004-work.md",
+      "sha256": "028b3ff2afa443a588222d25a3facd878776991f2bb79da4f3f0d23a75effa04",
+      "fetchedAt": "2026-08-24T07:28:12.330Z"
+    },
+    {
+      "rank": 5,
+      "title": "cycles",
+      "url": "https://www.visakanv.com/blog/cycles/",
+      "file": "005-cycles.md",
+      "sha256": "ef5d79536a5e558580e90b2e5af935c2f1449b537cd72fe44829cfa561189a0b",
+      "fetchedAt": "2026-08-24T07:28:12.140Z"
+    },
+    {
+      "rank": 6,
+      "title": "filters",
+      "url": "https://www.visakanv.com/blog/filters/",
+      "file": "006-filters.md",
+      "sha256": "07ad3a7f5b534e55a3fa4fbfa89d385b5ed53854b5a0dfc87a6cdd73de2b9b85",
+      "fetchedAt": "2026-08-24T07:28:12.424Z"
+    },
+    {
+      "rank": 7,
+      "title": "describe",
+      "url": "https://www.visakanv.com/blog/describe/",
+      "file": "007-describe.md",
+      "sha256": "c28383a38fe5b44ddc32f55342908d6be2ddc4928324ae6695aa37b2ef6f190e",
+      "fetchedAt": "2026-08-24T07:28:12.076Z"
+    },
+    {
+      "rank": 8,
+      "title": "how I give talks",
+      "url": "https://www.visakanv.com/blog/talks/",
+      "file": "008-how-i-give-talks.md",
+      "sha256": "210307729e02c34f708cd8fc52800a182b4ae4c19d506022d66b955e9b684715",
+      "fetchedAt": "2026-08-24T07:28:13.007Z"
+    },
+    {
+      "rank": 9,
+      "title": "notesprawl",
+      "url": "https://www.visakanv.com/blog/notesprawl/",
+      "file": "009-notesprawl.md",
+      "sha256": "1ff63eb9f08a203dcd4255587a765388611b9a3b9f752d9763d3931ff48f9557",
+      "fetchedAt": "2026-08-24T07:28:13.093Z"
+    },
+    {
+      "rank": 10,
+      "title": "you can look it up",
+      "url": "https://www.visakanv.com/blog/look-it-up/",
+      "file": "010-you-can-look-it-up.md",
+      "sha256": "2f3d224bf62d5bc499bf8a05b4051b676b12cc4e646bbd942de0a7527605ec41",
+      "fetchedAt": "2026-08-24T07:28:13.071Z"
+    },
+    {
+      "rank": 11,
+      "title": "copes",
+      "url": "https://www.visakanv.com/blog/copes/",
+      "file": "011-copes.md",
+      "sha256": "dd38506951c083ee3377013d0804aac0741c8f5d01eb60121eaffa4cac98d92c",
+      "fetchedAt": "2026-08-24T07:28:13.397Z"
+    },
+    {
+      "rank": 12,
+      "title": "do less",
+      "url": "https://www.visakanv.com/blog/do-less/",
+      "file": "012-do-less.md",
+      "sha256": "24026f315cef440ccf62e404d4f0179fb42d1cf7c1ff3aef6fef355665b40332",
+      "fetchedAt": "2026-08-24T07:28:13.309Z"
+    },
+    {
+      "rank": 13,
+      "title": "rugpulls",
+      "url": "https://www.visakanv.com/blog/rugpulls/",
+      "file": "013-rugpulls.md",
+      "sha256": "bccafbc54f0e126e036c7aebc7438f5bf964871fb3df0abcb0de31e1172ad9ae",
+      "fetchedAt": "2026-08-24T07:28:13.680Z"
+    },
+    {
+      "rank": 14,
+      "title": "discourse cycles",
+      "url": "https://www.visakanv.com/blog/discourse-cycles/",
+      "file": "014-discourse-cycles.md",
+      "sha256": "6414b0bec6a85d91fd895c11b084fd069f66fbda1bfc800f0f1854154a8a453f",
+      "fetchedAt": "2026-08-24T07:28:14.700Z"
+    },
+    {
+      "rank": 15,
+      "title": "again",
+      "url": "https://www.visakanv.com/blog/repeat/",
+      "file": "015-again.md",
+      "sha256": "e06bb8a475d1572fc5487775757b35f335adcf193b1a51240d715d1c8961429f",
+      "fetchedAt": "2026-08-24T07:28:14.011Z"
+    },
+    {
+      "rank": 16,
+      "title": "sigh",
+      "url": "https://www.visakanv.com/blog/sigh/",
+      "file": "016-sigh.md",
+      "sha256": "7078a547970207ed33146a7384c8eaba93e9b64c8404d62f8c4a7b880b082c0d",
+      "fetchedAt": "2026-08-24T07:28:14.060Z"
+    },
+    {
+      "rank": 17,
+      "title": "emotional knottedness",
+      "url": "https://www.visakanv.com/blog/emotional-knottedness/",
+      "file": "017-emotional-knottedness.md",
+      "sha256": "373e1e11baf4fd055c86f3839f84e2b80f483c804ae84b8ae8bc6762e7366836",
+      "fetchedAt": "2026-08-24T07:28:14.229Z"
+    },
+    {
+      "rank": 18,
+      "title": "things are knowable",
+      "url": "https://www.visakanv.com/blog/knowable/",
+      "file": "018-things-are-knowable.md",
+      "sha256": "1fb7d0e5c044deb1ba1edf5d8bb527c7917f966210b210ab83047d472f3a80f6",
+      "fetchedAt": "2026-08-24T07:28:14.327Z"
+    },
+    {
+      "rank": 19,
+      "title": "make yourself comfortable",
+      "url": "https://www.visakanv.com/blog/comfortable/",
+      "file": "019-make-yourself-comfortable.md",
+      "sha256": "fb5987bcdf26fce067fd2e394a4946559539afc9893339e07e0ce950cd93b94c",
+      "fetchedAt": "2026-08-24T07:28:14.691Z"
+    },
+    {
+      "rank": 20,
+      "title": "journalling",
+      "url": "https://www.visakanv.com/blog/journalling/",
+      "file": "020-journalling.md",
+      "sha256": "e47f35cdf12b685fed278b45acb07ac56e46a474291a7d17b358990882284f7e",
+      "fetchedAt": "2026-08-24T07:28:14.962Z"
+    },
+    {
+      "rank": 21,
+      "title": "quotes",
+      "url": "https://www.visakanv.com/blog/quotes/",
+      "file": "021-quotes.md",
+      "sha256": "a2194aa92d0b74f621668112345e6d1b9b1b3bff2c8f032e5576310df8684b59",
+      "fetchedAt": "2026-08-24T07:28:14.973Z"
+    },
+    {
+      "rank": 22,
+      "title": "my creative process",
+      "url": "https://www.visakanv.com/blog/my-creative-process/",
+      "file": "022-my-creative-process.md",
+      "sha256": "399ce5e909f25256f1c91a6238671cb5a4fe1a931af4126508207f419e1ca029",
+      "fetchedAt": "2026-08-24T07:28:15.133Z"
+    },
+    {
+      "rank": 23,
+      "title": "What does it mean to “process” an experience?",
+      "url": "https://www.visakanv.com/blog/process/",
+      "file": "023-what-does-it-mean-to-process-an-experience.md",
+      "sha256": "452eb7d01c1bd27c0560cbed3ca47f12fdf34f336fbe83de446acc6b0d2b0c1e",
+      "fetchedAt": "2026-08-24T07:28:15.172Z"
+    },
+    {
+      "rank": 24,
+      "title": "intuition",
+      "url": "https://www.visakanv.com/blog/intuition/",
+      "file": "024-intuition.md",
+      "sha256": "77481d23b94b118cb133dd783c66d42b6e7f38d371d02aaf08961562bedf12fe",
+      "fetchedAt": "2026-08-24T07:28:15.779Z"
+    },
+    {
+      "rank": 25,
+      "title": "why were you late?",
+      "url": "https://www.visakanv.com/blog/late/",
+      "file": "025-why-were-you-late.md",
+      "sha256": "2d9cd4033c23924667d1307d5b7111452c679a32930e2cf68a5e68a62071bcfe",
+      "fetchedAt": "2026-08-24T07:28:15.852Z"
+    },
+    {
+      "rank": 26,
+      "title": "attention metrics",
+      "url": "https://www.visakanv.com/blog/attention-metrics/",
+      "file": "026-attention-metrics.md",
+      "sha256": "01729e923696b5146ebeb6b73cb041f9733654691f73b39d309ce93a509bf44f",
+      "fetchedAt": "2026-08-24T07:28:16.185Z"
+    },
+    {
+      "rank": 27,
+      "title": "the world is big",
+      "url": "https://www.visakanv.com/blog/world/",
+      "file": "027-the-world-is-big.md",
+      "sha256": "1eb3594671c56038fd63a502d149dae342ad3e6b04496dd9dd3af9cbd4ad6f06",
+      "fetchedAt": "2026-08-24T07:28:16.199Z"
+    },
+    {
+      "rank": 28,
+      "title": "deviants",
+      "url": "https://www.visakanv.com/blog/deviants/",
+      "file": "028-deviants.md",
+      "sha256": "176a54d7c2a3e1c491c6fc563d21b4a0fb32a86b406f671812980a512d3b467a",
+      "fetchedAt": "2026-08-24T07:28:16.860Z"
+    },
+    {
+      "rank": 29,
+      "title": "greatness is deviance",
+      "url": "https://www.visakanv.com/blog/greatness-is-deviance/",
+      "file": "029-greatness-is-deviance.md",
+      "sha256": "21430f1e5cc1cf6c72eb6d9195f2d073faf0a5cbfa339cd9570a622cdac405f6",
+      "fetchedAt": "2026-08-24T07:28:16.878Z"
+    },
+    {
+      "rank": 30,
+      "title": "it’s just math",
+      "url": "https://www.visakanv.com/blog/math/",
+      "file": "030-it-s-just-math.md",
+      "sha256": "bb89997fb8d5de7e00b821a9eeff31cd2ed0190728b5a66b17160e0e8c2d5f02",
+      "fetchedAt": "2026-08-24T07:28:17.134Z"
+    },
+    {
+      "rank": 31,
+      "title": "people-shaped",
+      "url": "https://www.visakanv.com/blog/people-shaped/",
+      "file": "031-people-shaped.md",
+      "sha256": "9d799df5e04eb6b2c3412517d58339990d5291d66f272d6c23a6f2d2e1e8b681",
+      "fetchedAt": "2026-08-24T07:28:17.179Z"
+    },
+    {
+      "rank": 32,
+      "title": "when “women are people” doesn’t work",
+      "url": "https://www.visakanv.com/blog/when-women-are-people-doesnt-work/",
+      "file": "032-when-women-are-people-doesn-t-work.md",
+      "sha256": "88e067524f3b89fc766becb22433de4ef0044f648250e4777d1b1b07b5d88481",
+      "fetchedAt": "2026-08-24T07:28:17.266Z"
+    },
+    {
+      "rank": 33,
+      "title": "most shared",
+      "url": "https://www.visakanv.com/blog/most-shared/",
+      "file": "033-most-shared.md",
+      "sha256": "c2d99c85cc98d12f7b707e4427f16ced4259e508736c2ff450cb80a10a3406a5",
+      "fetchedAt": "2026-08-24T07:28:17.880Z"
+    },
+    {
+      "rank": 34,
+      "title": "advice for people in their 20s",
+      "url": "https://www.visakanv.com/blog/advice20s/",
+      "file": "034-advice-for-people-in-their-20s.md",
+      "sha256": "0bdabe2469a1629df3d41bceec84c2c28c7bf2cf5ab722b9bbceb1ac8c9194f5",
+      "fetchedAt": "2026-08-24T07:28:18.597Z"
+    },
+    {
+      "rank": 35,
+      "title": "safety rituals",
+      "url": "https://www.visakanv.com/blog/safety-rituals/",
+      "file": "035-safety-rituals.md",
+      "sha256": "5cd5a3c7e8442d785903f337d42ab71aecc043648899a6773fcd44755cc4b85d",
+      "fetchedAt": "2026-08-24T07:28:18.075Z"
+    },
+    {
+      "rank": 36,
+      "title": "focus on what you want to see more of",
+      "url": "https://www.visakanv.com/blog/focus/",
+      "file": "036-focus-on-what-you-want-to-see-more-of.md",
+      "sha256": "bbd49f7144f898d6347c923ed8ba1742f48fa12ea6e8fbcd5ff2b1e11fc9c00f",
+      "fetchedAt": "2026-08-24T07:28:19.006Z"
+    },
+    {
+      "rank": 37,
+      "title": "joke about outcomes you want",
+      "url": "https://www.visakanv.com/blog/joke/",
+      "file": "037-joke-about-outcomes-you-want.md",
+      "sha256": "0dd2aca7ff8f759f1fc3a409fceb368a48c35f9b3be8e0a3f0ec473134cd6155",
+      "fetchedAt": "2026-08-24T07:28:18.947Z"
+    },
+    {
+      "rank": 38,
+      "title": "psychofauna",
+      "url": "https://www.visakanv.com/blog/psychofauna/",
+      "file": "038-psychofauna.md",
+      "sha256": "d471629ed20d86c52fc02ec8f3edb17fc6d3be85c4b0e9fe1ea81aac1b6d9189",
+      "fetchedAt": "2026-08-24T07:28:18.961Z"
+    },
+    {
+      "rank": 39,
+      "title": "Advanced Stupid",
+      "url": "https://www.visakanv.com/blog/advanced-stupid/",
+      "file": "039-advanced-stupid.md",
+      "sha256": "987c2fee0ab4dd2e4dca69dd5ae28321c0110a980ba961a4aa1cf8233e720abd",
+      "fetchedAt": "2026-08-24T07:28:19.162Z"
+    },
+    {
+      "rank": 40,
+      "title": "so you’ve been main character’d",
+      "url": "https://www.visakanv.com/blog/main-character/",
+      "file": "040-so-you-ve-been-main-character-d.md",
+      "sha256": "f2a85a42ece93877d597701c38370b37aa9b7eca9a164169a8bf4e2ff5e73443",
+      "fetchedAt": "2026-08-24T07:28:19.604Z"
+    },
+    {
+      "rank": 41,
+      "title": "take baby steps",
+      "url": "https://www.visakanv.com/blog/baby-steps/",
+      "file": "041-take-baby-steps.md",
+      "sha256": "58218560a05faf3642331dc64ac275fd7ea9d7366d0c68cf224c41706f658c7d",
+      "fetchedAt": "2026-08-24T07:28:19.756Z"
+    },
+    {
+      "rank": 42,
+      "title": "the Losev problem",
+      "url": "https://www.visakanv.com/blog/losev/",
+      "file": "042-the-losev-problem.md",
+      "sha256": "f39a45136bf3a00168e7ecb6b437a372115c67a6790fdb5aad44129cdd8aef31",
+      "fetchedAt": "2026-08-24T07:28:20.071Z"
+    },
+    {
+      "rank": 43,
+      "title": "culture",
+      "url": "https://www.visakanv.com/blog/culture/",
+      "file": "043-culture.md",
+      "sha256": "b33bf5d7771c026e93f39cc3fb33f598ef43878c61a76109f858c85765489dc6",
+      "fetchedAt": "2026-08-24T07:28:20.185Z"
+    },
+    {
+      "rank": 44,
+      "title": "do whatever makes your heart sing",
+      "url": "https://www.visakanv.com/blog/heartsong/",
+      "file": "044-do-whatever-makes-your-heart-sing.md",
+      "sha256": "569cc798e9d7d0043443cefbd5d1de13bd66922754250bd33d16f262adc0e64b",
+      "fetchedAt": "2026-08-24T07:28:20.313Z"
+    },
+    {
+      "rank": 45,
+      "title": "how to de-escalate tense situations",
+      "url": "https://www.visakanv.com/blog/deescalate/",
+      "file": "045-how-to-de-escalate-tense-situations.md",
+      "sha256": "6a83a649f4e422f42dc6e72b3cbde52072b5eaeb99bdb050d13bacf96a4fd33f",
+      "fetchedAt": "2026-08-24T07:28:20.328Z"
+    },
+    {
+      "rank": 46,
+      "title": "self-worth",
+      "url": "https://www.visakanv.com/blog/self-worth/",
+      "file": "046-self-worth.md",
+      "sha256": "32bb9dc776f58d947f38ff61a817a171286f0c8cbf90280bccf4033f7119f0dd",
+      "fetchedAt": "2026-08-24T07:28:20.595Z"
+    },
+    {
+      "rank": 47,
+      "title": "happiness",
+      "url": "https://www.visakanv.com/blog/happiness/",
+      "file": "047-happiness.md",
+      "sha256": "24a4bdc7360334e286e79bbecb00fe9dfe7915304adf2cdc986348ff11a7eaf7",
+      "fetchedAt": "2026-08-24T07:28:20.693Z"
+    },
+    {
+      "rank": 48,
+      "title": "Mint 100 Erasmuses",
+      "url": "https://www.visakanv.com/blog/erasmus/",
+      "file": "048-mint-100-erasmuses.md",
+      "sha256": "6f19573efc5073cbfb377822dc1f0d4469c0101eda664527a8edd01d3ead3839",
+      "fetchedAt": "2026-08-24T07:28:20.942Z"
+    },
+    {
+      "rank": 49,
+      "title": "write your memoirs",
+      "url": "https://www.visakanv.com/blog/write-your-memoirs/",
+      "file": "049-write-your-memoirs.md",
+      "sha256": "8472ce87258ae0d7a482579db848e340b6706538d6e0d486d5e4ee1e11ffded7",
+      "fetchedAt": "2026-08-24T07:28:21.046Z"
+    },
+    {
+      "rank": 50,
+      "title": "the solution to your imposter syndrome is not inside your head",
+      "url": "https://www.visakanv.com/blog/imposter-syndrome/",
+      "file": "050-the-solution-to-your-imposter-syndrome-is-not-inside-your-head.md",
+      "sha256": "9ceee41486c3e6181e91e91e8503112d9c243fa84cb6d80b293a9cd0d84878b3",
+      "fetchedAt": "2026-08-24T07:28:21.307Z"
+    },
+    {
+      "rank": 51,
+      "title": "“Shouldn’t I want to make the world a better place?”",
+      "url": "https://www.visakanv.com/blog/better-place/",
+      "file": "051-shouldn-t-i-want-to-make-the-world-a-better-place.md",
+      "sha256": "f053bb0700f6e7b6e696cec396f1d32129f6abf07eabc34cf46bf0bf57828784",
+      "fetchedAt": "2026-08-24T07:28:21.315Z"
+    },
+    {
+      "rank": 52,
+      "title": "civilization is potty training",
+      "url": "https://www.visakanv.com/blog/civilization/",
+      "file": "052-civilization-is-potty-training.md",
+      "sha256": "670765afffa4600a48ee32e24d6132670e14bb7ef01e4235348fb30233983455",
+      "fetchedAt": "2026-08-24T07:28:21.578Z"
+    },
+    {
+      "rank": 53,
+      "title": "what’s it like to live your dream?",
+      "url": "https://www.visakanv.com/blog/dream/",
+      "file": "053-what-s-it-like-to-live-your-dream.md",
+      "sha256": "849b01c3b1f1d112f2960929e40818ab04e3590eeeb464c11d85e44d379d4fe7",
+      "fetchedAt": "2026-08-24T07:28:21.734Z"
+    },
+    {
+      "rank": 54,
+      "title": "how to DM your heroes",
+      "url": "https://www.visakanv.com/blog/heroes/",
+      "file": "054-how-to-dm-your-heroes.md",
+      "sha256": "becda9c5eb9852ca5425125dff3705456fe6ead36d6b0d94fc88af4efe5a4bed",
+      "fetchedAt": "2026-08-24T07:28:21.853Z"
+    },
+    {
+      "rank": 55,
+      "title": "encourage your friends to ship their ideas",
+      "url": "https://www.visakanv.com/blog/encourage/",
+      "file": "055-encourage-your-friends-to-ship-their-ideas.md",
+      "sha256": "29f6e2775b7e9007c533a0892bc37e8674d7678f5d0fd5078a2b18821130b418",
+      "fetchedAt": "2026-08-24T07:28:21.936Z"
+    },
+    {
+      "rank": 56,
+      "title": "ayy lmao",
+      "url": "https://www.visakanv.com/blog/ayy-lmao/",
+      "file": "056-ayy-lmao.md",
+      "sha256": "db8043f7e8708662454483aed174877f59551fe69a61bf66164e02703708ae41",
+      "fetchedAt": "2026-08-24T07:28:22.246Z"
+    },
+    {
+      "rank": 57,
+      "title": "status quo soldiers lose in the long run",
+      "url": "https://www.visakanv.com/blog/status-quo-soldiers/",
+      "file": "057-status-quo-soldiers-lose-in-the-long-run.md",
+      "sha256": "542fd61226f04bdd7754342b796d24709a65d3b7af6ebe75803a324ded230d67",
+      "fetchedAt": "2026-08-24T07:28:22.241Z"
+    },
+    {
+      "rank": 58,
+      "title": "things I learned from my ex-boss Dinesh",
+      "url": "https://www.visakanv.com/blog/dinesh/",
+      "file": "058-things-i-learned-from-my-ex-boss-dinesh.md",
+      "sha256": "ee9f9d6a95cc1e97e5f95c55c5d52cc8a5b7b6d643250fdb07f4e18ceb8e55b9",
+      "fetchedAt": "2026-08-24T07:28:22.548Z"
+    },
+    {
+      "rank": 59,
+      "title": "2,000 copies of F.A.N sold!",
+      "url": "https://www.visakanv.com/blog/fan2000/",
+      "file": "059-2-000-copies-of-f-a-n-sold.md",
+      "sha256": "3a59eade3c46be3e2487c0ee831a514c739293b270af42e84f1ca399f8fa7709",
+      "fetchedAt": "2026-08-24T07:28:22.612Z"
+    },
+    {
+      "rank": 60,
+      "title": "comms is lossy",
+      "url": "https://www.visakanv.com/blog/comms-is-lossy/",
+      "file": "060-comms-is-lossy.md",
+      "sha256": "675dd011c6c199d3a6330caad309c31efebdaaa25d2d631106f19f96fbbd24a6",
+      "fetchedAt": "2026-08-24T07:28:22.786Z"
+    },
+    {
+      "rank": 61,
+      "title": "oblique approaches can achieve what directness cannot",
+      "url": "https://www.visakanv.com/blog/oblique/",
+      "file": "061-oblique-approaches-can-achieve-what-directness-cannot.md",
+      "sha256": "d5ef1e95470266a6bcf6d7e21a872dc38a93e5a629b588e831ddba560b47ce99",
+      "fetchedAt": "2026-08-24T07:28:22.869Z"
+    },
+    {
+      "rank": 62,
+      "title": "Aug29: AGI fire alarm drill day",
+      "url": "https://www.visakanv.com/blog/agi-fire-drill-day/",
+      "file": "062-aug29-agi-fire-alarm-drill-day.md",
+      "sha256": "25566465b4ef1d2c473cc1276bbc5a8be79414330975239f89d518a3c37d7382",
+      "fetchedAt": "2026-08-24T07:28:23.077Z"
+    },
+    {
+      "rank": 63,
+      "title": "I use scapple to do my think-out-loud maps",
+      "url": "https://www.visakanv.com/blog/scapple/",
+      "file": "063-i-use-scapple-to-do-my-think-out-loud-maps.md",
+      "sha256": "c43b524931b0f73d7cedd069078f3a6e6e688b87961976cfb70f0b168c0e1a5f",
+      "fetchedAt": "2026-08-24T07:28:23.065Z"
+    },
+    {
+      "rank": 64,
+      "title": "seek excellent peers",
+      "url": "https://www.visakanv.com/blog/seek-excellent-peers/",
+      "file": "064-seek-excellent-peers.md",
+      "sha256": "101c62654aa403962da6ed985af52ca9e89fbd87c1f36fd4b4a6b934d54432ae",
+      "fetchedAt": "2026-08-24T07:28:23.505Z"
+    },
+    {
+      "rank": 65,
+      "title": "Pericles",
+      "url": "https://www.visakanv.com/blog/pericles/",
+      "file": "065-pericles.md",
+      "sha256": "ce997088311a1a8b080246127596971d1c3086f743488f50287121210db9b05e",
+      "fetchedAt": "2026-08-24T07:28:23.570Z"
+    },
+    {
+      "rank": 66,
+      "title": "“i’m such a failure”",
+      "url": "https://www.visakanv.com/blog/failure/",
+      "file": "066-i-m-such-a-failure.md",
+      "sha256": "21298db27119a70ba8c985e268fd4b040468a85a4ff6f4fdf5bb24a6f4be0f0e",
+      "fetchedAt": "2026-08-24T07:28:23.721Z"
+    },
+    {
+      "rank": 67,
+      "title": "narrow utilitarianism",
+      "url": "https://www.visakanv.com/blog/narrow-utilitarianism/",
+      "file": "067-narrow-utilitarianism.md",
+      "sha256": "4c0e7885d9d3870e440a6c96764eb16cd2a4d0249ccd761e49e926b39b469181",
+      "fetchedAt": "2026-08-24T07:28:23.837Z"
+    },
+    {
+      "rank": 68,
+      "title": "memed into existence",
+      "url": "https://www.visakanv.com/blog/memed-into-existence/",
+      "file": "068-memed-into-existence.md",
+      "sha256": "50003f30e0a60e6988e05c2d6cb82026669eb470631d729ecbe00e2886660fb0",
+      "fetchedAt": "2026-08-24T07:28:24.063Z"
+    },
+    {
+      "rank": 69,
+      "title": "thinking is easy, information architecture is hard",
+      "url": "https://www.visakanv.com/blog/information-architecture/",
+      "file": "069-thinking-is-easy-information-architecture-is-hard.md",
+      "sha256": "2104c6e26d921a77550cbf33535ae74e534d3425715dcc2c89255675c87dca16",
+      "fetchedAt": "2026-08-24T07:28:24.079Z"
+    },
+    {
+      "rank": 70,
+      "title": "exhaustion funnels: why tired?",
+      "url": "https://www.visakanv.com/blog/exhaustion-funnels/",
+      "file": "070-exhaustion-funnels-why-tired.md",
+      "sha256": "b111eed481e79716b6aed1cf31f92daec816c3c5478f41c8780ecfe56a258b33",
+      "fetchedAt": "2026-08-24T07:28:24.722Z"
+    },
+    {
+      "rank": 71,
+      "title": "👶 a theory of pissbabies",
+      "url": "https://www.visakanv.com/blog/pissbabies/",
+      "file": "071-a-theory-of-pissbabies.md",
+      "sha256": "5b0432b7a83ad607b034c58ce0a165b5cd959234af92b0f6ad9ae5f7d59d431e",
+      "fetchedAt": "2026-08-24T07:28:24.702Z"
+    },
+    {
+      "rank": 72,
+      "title": "feral free agents",
+      "url": "https://www.visakanv.com/blog/feral-free-agents/",
+      "file": "072-feral-free-agents.md",
+      "sha256": "7b40182696148e978409f33914bdcf3ff1a14009885a2e1f0e98e107718f81f2",
+      "fetchedAt": "2026-08-24T07:28:24.766Z"
+    },
+    {
+      "rank": 73,
+      "title": "the death and life of great scenius",
+      "url": "https://www.visakanv.com/blog/scenius/",
+      "file": "073-the-death-and-life-of-great-scenius.md",
+      "sha256": "1d61c3bd93a4f9bb44eeb4c2258eeb8be106e0d7eed7ae9aef5e380c1c7ec2ae",
+      "fetchedAt": "2026-08-24T07:28:24.906Z"
+    },
+    {
+      "rank": 74,
+      "title": "🎨 everything is a remix",
+      "url": "https://www.visakanv.com/blog/remix/",
+      "file": "074-everything-is-a-remix.md",
+      "sha256": "9bb6b95a013d2f9824ccb710978825f8609466cd99af854b0323cd9f40479567",
+      "fetchedAt": "2026-08-24T07:28:24.936Z"
+    },
+    {
+      "rank": 75,
+      "title": "coordination does not require conspiracy",
+      "url": "https://www.visakanv.com/blog/coordination/",
+      "file": "075-coordination-does-not-require-conspiracy.md",
+      "sha256": "7c458ffd24a461833890e18f6b907afbdddd08badbf7dc273ba40651ce0c9405",
+      "fetchedAt": "2026-08-24T07:28:24.969Z"
+    },
+    {
+      "rank": 76,
+      "title": "🗽iconography",
+      "url": "https://www.visakanv.com/blog/iconography/",
+      "file": "076-iconography.md",
+      "sha256": "52ffaf625e162281f29b6a59218aaba66a63ba9a12b649750ce8cf37ed0a2286",
+      "fetchedAt": "2026-08-24T07:28:25.631Z"
+    },
+    {
+      "rank": 77,
+      "title": "don’t be gullible",
+      "url": "https://www.visakanv.com/blog/scams/",
+      "file": "077-don-t-be-gullible.md",
+      "sha256": "582832046f09977f34db08b2838ae594ac5e11bcb32b5de1d99d67e3bc38d88d",
+      "fetchedAt": "2026-08-24T07:28:25.804Z"
+    },
+    {
+      "rank": 78,
+      "title": "aesthetics",
+      "url": "https://www.visakanv.com/blog/aesthetics/",
+      "file": "078-aesthetics.md",
+      "sha256": "98d66c7ef510cdf68a384d3f53580f0ce13a0abe213a95c9e0714dc5eec52b58",
+      "fetchedAt": "2026-08-24T07:28:27.362Z"
+    },
+    {
+      "rank": 79,
+      "title": "vision",
+      "url": "https://www.visakanv.com/blog/vision/",
+      "file": "079-vision.md",
+      "sha256": "409ee4e221691d08874ba1488fe2f0a120026da852173a2ba939f6812174e35a",
+      "fetchedAt": "2026-08-24T07:28:25.866Z"
+    },
+    {
+      "rank": 80,
+      "title": "small talk",
+      "url": "https://www.visakanv.com/blog/small-talk/",
+      "file": "080-small-talk.md",
+      "sha256": "7f6845622a6c8bcea0686e548bff40aa0b2be71661c49f117171f5b3a668e336",
+      "fetchedAt": "2026-08-24T07:28:25.970Z"
+    },
+    {
+      "rank": 81,
+      "title": "todo lists as narrative devices",
+      "url": "https://www.visakanv.com/blog/todo-lists-as-narrative-devices/",
+      "file": "081-todo-lists-as-narrative-devices.md",
+      "sha256": "cfa3d2410625304a78e7d40924b7008487b86cdaed6f872097a51e27984d0306",
+      "fetchedAt": "2026-08-24T07:28:25.966Z"
+    },
+    {
+      "rank": 82,
+      "title": "📱smartphones changed everything",
+      "url": "https://www.visakanv.com/blog/smartphones/",
+      "file": "082-smartphones-changed-everything.md",
+      "sha256": "40ef36932a9cb6a8a644cd5e4d7d8f27c9780ca517cf4747b562eccf8b72498f",
+      "fetchedAt": "2026-08-24T07:28:26.624Z"
+    },
+    {
+      "rank": 83,
+      "title": "systems thinking",
+      "url": "https://www.visakanv.com/blog/systems-thinking/",
+      "file": "083-systems-thinking.md",
+      "sha256": "740f0711fcea5e5947dd68ad95ba4258fd1212662893549ca9025a401f15905a",
+      "fetchedAt": "2026-08-24T07:28:26.767Z"
+    },
+    {
+      "rank": 84,
+      "title": "problems are solvable: define, solicit, integrate",
+      "url": "https://www.visakanv.com/blog/problems/",
+      "file": "084-problems-are-solvable-define-solicit-integrate.md",
+      "sha256": "77ff26ff44c8ad0c696384c4de031323fdd99d41eca330a64800f9ef9c573ddd",
+      "fetchedAt": "2026-08-24T07:28:26.847Z"
+    },
+    {
+      "rank": 85,
+      "title": "🧵hyperthreading",
+      "url": "https://www.visakanv.com/blog/hyperthreading/",
+      "file": "085-hyperthreading.md",
+      "sha256": "35593f0ef02c72b17fc614217bb9f95384b30e27e0429e3a6586dc5023ac344f",
+      "fetchedAt": "2026-08-24T07:28:27.107Z"
+    },
+    {
+      "rank": 86,
+      "title": "jinky, janky, junky",
+      "url": "https://www.visakanv.com/blog/jjj/",
+      "file": "086-jinky-janky-junky.md",
+      "sha256": "7ea639922b8fd09119d883de75a8321f430a1f25928f9bd9dda807478d76f83e",
+      "fetchedAt": "2026-08-24T07:28:26.915Z"
+    },
+    {
+      "rank": 87,
+      "title": "hostage",
+      "url": "https://www.visakanv.com/blog/hostage/",
+      "file": "087-hostage.md",
+      "sha256": "7b6e744ab70b8d83cc88496863b01ddc663e0322e993d945929bf31eaef2f344",
+      "fetchedAt": "2026-08-24T07:28:27.581Z"
+    },
+    {
+      "rank": 88,
+      "title": "dealing with losers",
+      "url": "https://www.visakanv.com/blog/losers/",
+      "file": "088-dealing-with-losers.md",
+      "sha256": "a108df85420041c6736fbc71a0e9b8eddfb3a390b8facdcbb3aabfa469deba1c",
+      "fetchedAt": "2026-08-24T07:28:27.775Z"
+    },
+    {
+      "rank": 89,
+      "title": "influences",
+      "url": "https://www.visakanv.com/blog/influences/",
+      "file": "089-influences.md",
+      "sha256": "9fe3aedbe18789109c3ff25316529fa23f65ab681f824991b4da469100038db3",
+      "fetchedAt": "2026-08-24T07:28:27.736Z"
+    },
+    {
+      "rank": 90,
+      "title": "talking points (2021)",
+      "url": "https://www.visakanv.com/blog/talking-points/",
+      "file": "090-talking-points-2021.md",
+      "sha256": "1761af378424711dfc896823b44c1e00bb714b5e0db17c9134d21caa58dd1c72",
+      "fetchedAt": "2026-08-24T07:28:27.898Z"
+    },
+    {
+      "rank": 91,
+      "title": "fumbling the bag",
+      "url": "https://www.visakanv.com/blog/fumbling-the-bag/",
+      "file": "091-fumbling-the-bag.md",
+      "sha256": "5f8b9ad84efbd53a48da471a3c1e8f822fa7fd3bbac6ea321123e041f7039637",
+      "fetchedAt": "2026-08-24T07:28:27.968Z"
+    },
+    {
+      "rank": 92,
+      "title": "“Wrong.”",
+      "url": "https://www.visakanv.com/blog/wrong/",
+      "file": "092-wrong.md",
+      "sha256": "9db3ff04192af396a83e9f055f871857740700179fd541a5e7ec3d8e6b40e84e",
+      "fetchedAt": "2026-08-24T07:28:28.368Z"
+    },
+    {
+      "rank": 93,
+      "title": "shame",
+      "url": "https://www.visakanv.com/blog/shame/",
+      "file": "093-shame.md",
+      "sha256": "c37edcff6258102401defa129413f557b8539da2e7677b74819f931c52b00ee8",
+      "fetchedAt": "2026-08-24T07:28:28.560Z"
+    },
+    {
+      "rank": 94,
+      "title": "persuasion",
+      "url": "https://www.visakanv.com/blog/persuasion/",
+      "file": "094-persuasion.md",
+      "sha256": "c0787fb9ec732eaa1f0c6f90238ff7ddf478f2b5b9bb48ea680c7e7d4583741f",
+      "fetchedAt": "2026-08-24T07:28:28.637Z"
+    },
+    {
+      "rank": 95,
+      "title": "pave the desire paths",
+      "url": "https://www.visakanv.com/blog/desire-paths/",
+      "file": "095-pave-the-desire-paths.md",
+      "sha256": "df60f0c2f8700e369e8d3f497aeebe46c85f263408652e6c74ea82bf3b7b0c48",
+      "fetchedAt": "2026-08-24T07:28:28.749Z"
+    },
+    {
+      "rank": 96,
+      "title": "word magic",
+      "url": "https://www.visakanv.com/blog/word-magic/",
+      "file": "096-word-magic.md",
+      "sha256": "4975142781599a1081c44773b4cb609a3db5968fc704ebc2bf9fab9fbb3c68b2",
+      "fetchedAt": "2026-08-24T07:28:28.989Z"
+    },
+    {
+      "rank": 97,
+      "title": "dominoes",
+      "url": "https://www.visakanv.com/blog/dominoes/",
+      "file": "097-dominoes.md",
+      "sha256": "fee3ee7d5490d1365f405b21a35437d0620252d7a23ff42990181a3693c6ec86",
+      "fetchedAt": "2026-08-24T07:28:29.000Z"
+    },
+    {
+      "rank": 98,
+      "title": "fuckability",
+      "url": "https://www.visakanv.com/blog/fuckability/",
+      "file": "098-fuckability.md",
+      "sha256": "663c6edaf22a20c3bfb1dbfcb560b03f51452a0095b337c87ffc0d2239bb122d",
+      "fetchedAt": "2026-08-24T07:28:29.285Z"
+    },
+    {
+      "rank": 99,
+      "title": "constructive ADHD",
+      "url": "https://www.visakanv.com/blog/constructive-adhd/",
+      "file": "099-constructive-adhd.md",
+      "sha256": "121ecabf3a4b113e222c55763c1d7c81452dc87a23d4b249972f73be69200d07",
+      "fetchedAt": "2026-08-24T07:28:29.596Z"
+    },
+    {
+      "rank": 100,
+      "title": "troubleshooting arrogance",
+      "url": "https://www.visakanv.com/blog/arrogance/",
+      "file": "100-troubleshooting-arrogance.md",
+      "sha256": "532a100e851d2dcb4c92772294bf70d34f635f9059dfb8bfa555180431be1b58",
+      "fetchedAt": "2026-08-24T07:28:29.737Z"
+    },
+    {
+      "rank": 101,
+      "title": "books",
+      "url": "https://www.visakanv.com/blog/books/",
+      "file": "101-books.md",
+      "sha256": "9c57db309953479d46a5a43398866f496bc81f8a15b15d2918e2953264f17231",
+      "fetchedAt": "2026-08-24T07:28:31.028Z"
+    },
+    {
+      "rank": 102,
+      "title": "👑  you are already the monarch of your life",
+      "url": "https://www.visakanv.com/blog/monarch/",
+      "file": "102-you-are-already-the-monarch-of-your-life.md",
+      "sha256": "3ff9c78b5efee546d1db1143b327b056756297648ae18c489d008e3428ef8b46",
+      "fetchedAt": "2026-08-24T07:28:29.959Z"
+    },
+    {
+      "rank": 103,
+      "title": "🧠❌ you can’t think your way out of a courage deficit",
+      "url": "https://www.visakanv.com/blog/courage/",
+      "file": "103-you-can-t-think-your-way-out-of-a-courage-deficit.md",
+      "sha256": "4270a6da2b59dc0d4f6d6f2088ddbf8bd7c5c8043878efeb5406b02879f326b4",
+      "fetchedAt": "2026-08-24T07:28:29.930Z"
+    },
+    {
+      "rank": 104,
+      "title": "⏱ 4 hours",
+      "url": "https://www.visakanv.com/blog/4-hours/",
+      "file": "104-4-hours.md",
+      "sha256": "f6b27025e1ecba7b1f49e5228a6a8839b913e202a8e5e3cf768e3c1997d23ad3",
+      "fetchedAt": "2026-08-24T07:28:30.198Z"
+    },
+    {
+      "rank": 105,
+      "title": "play long games",
+      "url": "https://www.visakanv.com/blog/long-games/",
+      "file": "105-play-long-games.md",
+      "sha256": "29f1ddc7e608daa1489b2559040f3c3f3781596e65bff2dc36b3a0f46b57c6d7",
+      "fetchedAt": "2026-08-24T07:28:30.532Z"
+    },
+    {
+      "rank": 106,
+      "title": "Most People",
+      "url": "https://www.visakanv.com/blog/most-people/",
+      "file": "106-most-people.md",
+      "sha256": "30cd738c357742f99d0d169669a7aacd9dfc3b0894f243aa7d1cd7043abfefbe",
+      "fetchedAt": "2026-08-24T07:28:30.882Z"
+    },
+    {
+      "rank": 107,
+      "title": "do 100 things",
+      "url": "https://www.visakanv.com/blog/do100things/",
+      "file": "107-do-100-things.md",
+      "sha256": "cb19d060de4de0ff31e9a037ac24e67548805e88c8d9a6efc8f4684d63833e5e",
+      "fetchedAt": "2026-08-24T07:28:30.974Z"
+    },
+    {
+      "rank": 108,
+      "title": "talent is not rare, talent is clueless and scared",
+      "url": "https://www.visakanv.com/blog/talent/",
+      "file": "108-talent-is-not-rare-talent-is-clueless-and-scared.md",
+      "sha256": "874a4af9d36e48d11e82f2fd22b0453d831beb27aac2716b1fb2e5147bae7d9d",
+      "fetchedAt": "2026-08-24T07:28:30.967Z"
+    },
+    {
+      "rank": 109,
+      "title": "🎸 let’s jam!",
+      "url": "https://www.visakanv.com/blog/music/",
+      "file": "109-let-s-jam.md",
+      "sha256": "4dd2606af98b41c1a8ae3c4aca838ddea6ca507eb0a115195f4499ccb797ae72",
+      "fetchedAt": "2026-08-24T07:28:31.714Z"
+    },
+    {
+      "rank": 110,
+      "title": "📚 the library ethos",
+      "url": "https://www.visakanv.com/blog/libraries/",
+      "file": "110-the-library-ethos.md",
+      "sha256": "a9b2da8c8e4b2151a20447b79653cfda63cf6ed24d642a83b4a5da3c3393c56b",
+      "fetchedAt": "2026-08-24T07:28:31.869Z"
+    },
+    {
+      "rank": 111,
+      "title": "iterating Introspect",
+      "url": "https://www.visakanv.com/blog/iterating-introspect/",
+      "file": "111-iterating-introspect.md",
+      "sha256": "7e5c1cc7b352c672ef37ec4d438e63518e24711490f1ae20036733012c73f39f",
+      "fetchedAt": "2026-08-24T07:28:31.793Z"
+    },
+    {
+      "rank": 112,
+      "title": "after gifted",
+      "url": "https://www.visakanv.com/blog/after-gifted/",
+      "file": "112-after-gifted.md",
+      "sha256": "ebb20f2d17d5799751df2f348ea0f845b9d45d5ed6f710c32de1faf15f4114df",
+      "fetchedAt": "2026-08-24T07:28:31.804Z"
+    },
+    {
+      "rank": 113,
+      "title": "kids in shitty social graphs",
+      "url": "https://www.visakanv.com/blog/kids/",
+      "file": "113-kids-in-shitty-social-graphs.md",
+      "sha256": "0ad8b158223c1be7379a55e0fd92c16b3c5b9cb6f4226cf3975df7ba4b3ca519",
+      "fetchedAt": "2026-08-24T07:28:31.827Z"
+    },
+    {
+      "rank": 114,
+      "title": "🗣 hecklers",
+      "url": "https://www.visakanv.com/blog/hecklers/",
+      "file": "114-hecklers.md",
+      "sha256": "39fe92e2627f875c6baf65f7875a3dde5cbd6a9255e7c78a37915329f0e99ab4",
+      "fetchedAt": "2026-08-24T07:28:32.004Z"
+    },
+    {
+      "rank": 115,
+      "title": "narcissism",
+      "url": "https://www.visakanv.com/blog/narcissism/",
+      "file": "115-narcissism.md",
+      "sha256": "662b79efc673a222a41ef6635f7dab5ffea163985600b6b94ae4b036ac8cdc8c",
+      "fetchedAt": "2026-08-24T07:28:33.064Z"
+    },
+    {
+      "rank": 116,
+      "title": "magic junkyard",
+      "url": "https://www.visakanv.com/blog/magic-junkyard/",
+      "file": "116-magic-junkyard.md",
+      "sha256": "a8565460c1a670f6205555a4cb4fdd61c6e2a3df554790ca62030ed31f1d5432",
+      "fetchedAt": "2026-08-24T07:28:32.882Z"
+    },
+    {
+      "rank": 117,
+      "title": "👑 earn self-respect",
+      "url": "https://www.visakanv.com/blog/respect/",
+      "file": "117-earn-self-respect.md",
+      "sha256": "03a555e055f829e8bc86777dec56599a66f0618548d277dd1d83e45a1f757f84",
+      "fetchedAt": "2026-08-24T07:28:32.871Z"
+    },
+    {
+      "rank": 118,
+      "title": "☢️  the apocalypse test",
+      "url": "https://www.visakanv.com/blog/apocalypse/",
+      "file": "118-the-apocalypse-test.md",
+      "sha256": "592d241d0322026fdc9de095526ce040fbf31e7348d869b4f40c53d2e81a70bc",
+      "fetchedAt": "2026-08-24T07:28:32.849Z"
+    },
+    {
+      "rank": 119,
+      "title": "⚔️ optimize for survival",
+      "url": "https://www.visakanv.com/blog/survivor/",
+      "file": "119-optimize-for-survival.md",
+      "sha256": "4718202d2de96d118c4eb580583eee73968811758937ce169f87623cecead980",
+      "fetchedAt": "2026-08-24T07:28:32.909Z"
+    },
+    {
+      "rank": 120,
+      "title": "unlearning coercion",
+      "url": "https://www.visakanv.com/blog/coercion/",
+      "file": "120-unlearning-coercion.md",
+      "sha256": "5803477ee16b29c905b235b7b5820f9d4d407129fc112b89d6cd78e4a6a80be0",
+      "fetchedAt": "2026-08-24T07:28:33.333Z"
+    },
+    {
+      "rank": 121,
+      "title": "cold emails",
+      "url": "https://www.visakanv.com/blog/cold-emails/",
+      "file": "121-cold-emails.md",
+      "sha256": "12cda1b3c46ebfe7e4bbc98389fd7c76467e2f56fbf0ec917d3b133b8d91719f",
+      "fetchedAt": "2026-08-24T07:28:33.695Z"
+    },
+    {
+      "rank": 122,
+      "title": "🤝 how I rebuilt my trust in myself",
+      "url": "https://www.visakanv.com/blog/trust/",
+      "file": "122-how-i-rebuilt-my-trust-in-myself.md",
+      "sha256": "06b37d1e9dd5fe4233b926a08b277ba2aadaf6bfaa64f53d2fd757257fab200c",
+      "fetchedAt": "2026-08-24T07:28:33.773Z"
+    },
+    {
+      "rank": 123,
+      "title": "🙏🏾 how to ask for help",
+      "url": "https://www.visakanv.com/blog/help/",
+      "file": "123-how-to-ask-for-help.md",
+      "sha256": "93b6eb7f1a830e70871b5d10b14a0fbd1cf9b6d3dcd39a19ad4dc63475226bf5",
+      "fetchedAt": "2026-08-24T07:28:33.747Z"
+    },
+    {
+      "rank": 124,
+      "title": "🗿  don’t pedestalize people",
+      "url": "https://www.visakanv.com/blog/pedestalization/",
+      "file": "124-don-t-pedestalize-people.md",
+      "sha256": "1c7cb7eb738c4d70d8817c6f146823587e2eb24e3f17e92112302e3d5515dfe7",
+      "fetchedAt": "2026-08-24T07:28:33.763Z"
+    },
+    {
+      "rank": 125,
+      "title": "status and status regulation",
+      "url": "https://www.visakanv.com/blog/status-regulation/",
+      "file": "125-status-and-status-regulation.md",
+      "sha256": "7b0c19a704266bff3bbfdca3a4146508fad9807468825e9a6f46e790962077c9",
+      "fetchedAt": "2026-08-24T07:28:33.955Z"
+    },
+    {
+      "rank": 126,
+      "title": "elitism",
+      "url": "https://www.visakanv.com/blog/elitism/",
+      "file": "126-elitism.md",
+      "sha256": "f9088eee3a2ed82ef0aa04024c148decec31a7e4553e1519bb18dee2c7841ffc",
+      "fetchedAt": "2026-08-24T07:28:34.196Z"
+    },
+    {
+      "rank": 127,
+      "title": "❌ when and why I block people",
+      "url": "https://www.visakanv.com/blog/block/",
+      "file": "127-when-and-why-i-block-people.md",
+      "sha256": "67555bee114c7fc8c106a436c090526b87e721e5c1b6768200158636795c4aa9",
+      "fetchedAt": "2026-08-24T07:28:34.730Z"
+    },
+    {
+      "rank": 128,
+      "title": "🍀 the 4 kinds of luck",
+      "url": "https://www.visakanv.com/blog/luck/",
+      "file": "128-the-4-kinds-of-luck.md",
+      "sha256": "256de1904389b01c943b1bff5c4fca47d47a752618d3d45065aa04254160d868",
+      "fetchedAt": "2026-08-24T07:28:34.784Z"
+    },
+    {
+      "rank": 129,
+      "title": "🏛 the prestige trap",
+      "url": "https://www.visakanv.com/blog/prestige/",
+      "file": "129-the-prestige-trap.md",
+      "sha256": "3ec883a0c9ba1523034e4e57e4cf5c4800f3bbc35256a163ed8b559fe03d2592",
+      "fetchedAt": "2026-08-24T07:28:34.810Z"
+    },
+    {
+      "rank": 130,
+      "title": "learned catastrophizing",
+      "url": "https://www.visakanv.com/blog/learned-catastrophizing/",
+      "file": "130-learned-catastrophizing.md",
+      "sha256": "f54c1059ffd29ca5d4fa61252493889ac7cb82b1d8725aa8592b5b3b52bc58bf",
+      "fetchedAt": "2026-08-24T07:28:34.777Z"
+    },
+    {
+      "rank": 131,
+      "title": "listen to kids",
+      "url": "https://www.visakanv.com/blog/listen-to-kids/",
+      "file": "131-listen-to-kids.md",
+      "sha256": "c1b64358c80d88297f9d1381877f01ee34e90166b181fb4d832547d3d38c1161",
+      "fetchedAt": "2026-08-24T07:28:34.733Z"
+    },
+    {
+      "rank": 132,
+      "title": "depression",
+      "url": "https://www.visakanv.com/blog/depression/",
+      "file": "132-depression.md",
+      "sha256": "74d6171c03030069b1302254b9a45a8df021f38b9c84abdbb2beaf3e890fb9c7",
+      "fetchedAt": "2026-08-24T07:28:35.058Z"
+    },
+    {
+      "rank": 133,
+      "title": "take deep breaths",
+      "url": "https://www.visakanv.com/blog/breathwork/",
+      "file": "133-take-deep-breaths.md",
+      "sha256": "aaef4a20d0ddeff77bee65bd14335a86804127a88c450789292860c0a714da9d",
+      "fetchedAt": "2026-08-24T07:28:35.937Z"
+    },
+    {
+      "rank": 134,
+      "title": "how to be more optimistic",
+      "url": "https://www.visakanv.com/blog/optimism/",
+      "file": "134-how-to-be-more-optimistic.md",
+      "sha256": "464212449aacd417cc2b2a35b51fdcf7066384eac152550e8a30723ae6b551cf",
+      "fetchedAt": "2026-08-24T07:28:37.293Z"
+    },
+    {
+      "rank": 135,
+      "title": "project management",
+      "url": "https://www.visakanv.com/blog/project-management/",
+      "file": "135-project-management.md",
+      "sha256": "7971930228c352276f3439ce167cae7c4355d34dfee48c93347c67c998d5441f",
+      "fetchedAt": "2026-08-24T07:28:36.370Z"
+    },
+    {
+      "rank": 136,
+      "title": "thinking",
+      "url": "https://www.visakanv.com/blog/thinking/",
+      "file": "136-thinking.md",
+      "sha256": "8a96ff4291a54c55db02ff8ef3a8399e103e192e15fb4740248258d92d914502",
+      "fetchedAt": "2026-08-24T07:28:36.151Z"
+    },
+    {
+      "rank": 137,
+      "title": "masculinity",
+      "url": "https://www.visakanv.com/blog/masculinity/",
+      "file": "137-masculinity.md",
+      "sha256": "a0dea5c43a092050e7dc3657e72c02c948a72da3b79040e7a3843957bdab86a6",
+      "fetchedAt": "2026-08-24T07:28:35.407Z"
+    },
+    {
+      "rank": 138,
+      "title": "friendly ambitious nerd",
+      "url": "https://www.visakanv.com/blog/friendly-ambitious-nerd/",
+      "file": "138-friendly-ambitious-nerd.md",
+      "sha256": "ab1ed2a4c277bdb4a3520056dedd41245a9bfd419e3c314fc941d222c5c7941f",
+      "fetchedAt": "2026-08-24T07:28:35.926Z"
+    },
+    {
+      "rank": 139,
+      "title": "➡️ pay it forward",
+      "url": "https://www.visakanv.com/blog/pay-it-forward/",
+      "file": "139-pay-it-forward.md",
+      "sha256": "8f6f7651e6cbaf4e2b50c77c3495d69207163cbd1b11444c209a60287891e95d",
+      "fetchedAt": "2026-08-24T07:28:36.322Z"
+    },
+    {
+      "rank": 140,
+      "title": "🔥 bestof 2010–2019",
+      "url": "https://www.visakanv.com/blog/bestof-2010s/",
+      "file": "140-bestof-2010-2019.md",
+      "sha256": "bc7bede3835b08f243540922c3766278dd91d52adc3e4ae9e69f2255e2b3038f",
+      "fetchedAt": "2026-08-24T07:28:36.881Z"
+    },
+    {
+      "rank": 141,
+      "title": "💬 practice good reply game",
+      "url": "https://www.visakanv.com/blog/reply-game/",
+      "file": "141-practice-good-reply-game.md",
+      "sha256": "97e5b3ad8155b1309ff4149ceda07095b5fbfdf434e91bc10840a0f5cd019367",
+      "fetchedAt": "2026-08-24T07:28:36.827Z"
+    },
+    {
+      "rank": 142,
+      "title": "↗️ many people like to contribute to vectors, few like to own them",
+      "url": "https://www.visakanv.com/blog/vectors/",
+      "file": "142-many-people-like-to-contribute-to-vectors-few-like-to-own-them.md",
+      "sha256": "730a3146e74a7693597b948a4b9cc3302ad0e259425aa1dbaa7b9c5bb10d2ddc",
+      "fetchedAt": "2026-08-24T07:28:37.030Z"
+    },
+    {
+      "rank": 143,
+      "title": "🗣 talking to people makes you a better writer",
+      "url": "https://www.visakanv.com/blog/talking-for-writers/",
+      "file": "143-talking-to-people-makes-you-a-better-writer.md",
+      "sha256": "05352a57feb95bf2556e12d178211280ade5ed7e93f66c2bc2053e17eea563e9",
+      "fetchedAt": "2026-08-24T07:28:37.201Z"
+    },
+    {
+      "rank": 144,
+      "title": "⚔️ twitter_rpg_strategy_guide.txt",
+      "url": "https://www.visakanv.com/blog/twitter/",
+      "file": "144-twitter-rpg-strategy-guide-txt.md",
+      "sha256": "59ccb22d2249f1faee2358135747209bd3be441f9703785417dd9e00a9150ac2",
+      "fetchedAt": "2026-08-24T07:28:37.260Z"
+    },
+    {
+      "rank": 145,
+      "title": "🍵 empty your cup and allow life to surprise you",
+      "url": "https://www.visakanv.com/blog/empty-your-cup/",
+      "file": "145-empty-your-cup-and-allow-life-to-surprise-you.md",
+      "sha256": "976d52ca3f160681ab4d7ecad66570c41b6bdb9d12504f90a5883eaabf6e7610",
+      "fetchedAt": "2026-08-24T07:28:37.671Z"
+    },
+    {
+      "rank": 146,
+      "title": "👩🏾‍🚀 representation matters",
+      "url": "https://www.visakanv.com/blog/representation/",
+      "file": "146-representation-matters.md",
+      "sha256": "6a83d092cd08df656b043641ac20b634ce67323eb6d28b8143fafee1d16b0e1e",
+      "fetchedAt": "2026-08-24T07:28:37.745Z"
+    },
+    {
+      "rank": 147,
+      "title": "😂 learn to laugh at yourself",
+      "url": "https://www.visakanv.com/blog/comedy/",
+      "file": "147-learn-to-laugh-at-yourself.md",
+      "sha256": "ea1c014228544afa69a419f7a837431b0978382e19752badd4389e9c764e524f",
+      "fetchedAt": "2026-08-24T07:28:37.930Z"
+    },
+    {
+      "rank": 148,
+      "title": "👋🏾 everyone loves to make a great introduction",
+      "url": "https://www.visakanv.com/blog/introductions/",
+      "file": "148-everyone-loves-to-make-a-great-introduction.md",
+      "sha256": "c4d61a979d67e64161c60c4034e9c02b41312daa917a34a35e3be4b83d779da2",
+      "fetchedAt": "2026-08-24T07:28:38.094Z"
+    },
+    {
+      "rank": 149,
+      "title": "🤡 the world is not kind to those who are tacky",
+      "url": "https://www.visakanv.com/blog/tacky/",
+      "file": "149-the-world-is-not-kind-to-those-who-are-tacky.md",
+      "sha256": "964ead739992792bd2ffbbc4cadaf430c577e076ee0a8b98cf135ddb056a2f9e",
+      "fetchedAt": "2026-08-24T07:28:37.845Z"
+    },
+    {
+      "rank": 150,
+      "title": "🔟 @visakanv’s top 10 lifehacks",
+      "url": "https://www.visakanv.com/blog/lifehacks/",
+      "file": "150-visakanv-s-top-10-lifehacks.md",
+      "sha256": "0140d70fee57ef22abae46bd0de9018bcbeeb0dc702d8364ae5b0fd9d01da1c0",
+      "fetchedAt": "2026-08-24T07:28:38.205Z"
+    },
+    {
+      "rank": 151,
+      "title": "🌉 friends I met in SF",
+      "url": "https://www.visakanv.com/blog/sf-friends/",
+      "file": "151-friends-i-met-in-sf.md",
+      "sha256": "3d7021c32391481683830e278969deefc5d09a9bb52d43d5e207baa8c12000f6",
+      "fetchedAt": "2026-08-24T07:28:38.622Z"
+    },
+    {
+      "rank": 152,
+      "title": "⏩ ages 17 to 29",
+      "url": "https://www.visakanv.com/blog/ages-17-to-29/",
+      "file": "152-ages-17-to-29.md",
+      "sha256": "a0343e4f8970d9cdb747223a354d26ae38dd4316b3c90abd96f46249683b0903",
+      "fetchedAt": "2026-08-24T07:28:38.680Z"
+    },
+    {
+      "rank": 153,
+      "title": "🇺🇸 San Francisco [2019]",
+      "url": "https://www.visakanv.com/blog/sf/",
+      "file": "153-san-francisco-2019.md",
+      "sha256": "81ccac87bf462f04ec43d15981781965b78d034a391589f8854c5f09cba0cdbb",
+      "fetchedAt": "2026-08-24T07:28:38.757Z"
+    },
+    {
+      "rank": 154,
+      "title": "⚠️ how to get my attention",
+      "url": "https://www.visakanv.com/blog/attention/",
+      "file": "154-how-to-get-my-attention.md",
+      "sha256": "fcf11cf49b820fa414ffbec5563d29789368fd06d3319780ac4ef65d900423a8",
+      "fetchedAt": "2026-08-24T07:28:39.527Z"
+    },
+    {
+      "rank": 155,
+      "title": "📱 screentime",
+      "url": "https://www.visakanv.com/blog/screentime/",
+      "file": "155-screentime.md",
+      "sha256": "966b044dc3385a7f903c7996a8a93c0b52c1d1e23a588a13d7f3bcccd730743d",
+      "fetchedAt": "2026-08-24T07:28:38.743Z"
+    },
+    {
+      "rank": 156,
+      "title": "👯‍♀️ make friends",
+      "url": "https://www.visakanv.com/blog/make-friends/",
+      "file": "156-make-friends.md",
+      "sha256": "3a82385d07b681890a7a1daa69017bbc45bc8c9268c19204a75dad096649fe32",
+      "fetchedAt": "2026-08-24T07:28:39.718Z"
+    },
+    {
+      "rank": 157,
+      "title": "🕸 VV’s memex – a map of directives to live well",
+      "url": "https://www.visakanv.com/blog/memex/",
+      "file": "157-vv-s-memex-a-map-of-directives-to-live-well.md",
+      "sha256": "b602856d225594eb377e195622d3c4cecc0afbeab6453bea8e2949b02e3243c9",
+      "fetchedAt": "2026-08-24T07:28:39.762Z"
+    },
+    {
+      "rank": 158,
+      "title": "👫 relationships are challenging + a lot of work",
+      "url": "https://www.visakanv.com/blog/relationships/",
+      "file": "158-relationships-are-challenging-a-lot-of-work.md",
+      "sha256": "8c44dd73993e0fed8c0b83d90353dfb22f505fb8240da988c2b268da89204e2a",
+      "fetchedAt": "2026-08-24T07:28:39.782Z"
+    },
+    {
+      "rank": 159,
+      "title": "🤓 ‘Smart Writing’ is about cultivating taste, suspending judgement and chasing your curiosity",
+      "url": "https://www.visakanv.com/blog/smart-writing/",
+      "file": "159-smart-writing-is-about-cultivating-taste-suspending-judgement-and-chasing-your-curiosity.md",
+      "sha256": "f3a5752f1b2e3428df8b02e365d72e465befc7be911ce58645c3bc4ddc24d8e0",
+      "fetchedAt": "2026-08-24T07:28:39.844Z"
+    },
+    {
+      "rank": 160,
+      "title": "💃🏾 flirting is about signalling interest with plausible deniability",
+      "url": "https://www.visakanv.com/blog/flirting/",
+      "file": "160-flirting-is-about-signalling-interest-with-plausible-deniability.md",
+      "sha256": "f05e54076cd0b607571faac43ecb9c35a0e99d4d3c65eb218b5966de126d4fd6",
+      "fetchedAt": "2026-08-24T07:28:39.840Z"
+    },
+    {
+      "rank": 161,
+      "title": "✋🏾 we need to get better at dealing with assholes if we are to progress as a species",
+      "url": "https://www.visakanv.com/blog/assholes/",
+      "file": "161-we-need-to-get-better-at-dealing-with-assholes-if-we-are-to-progress-as-a-species.md",
+      "sha256": "37f3c8a224f426ed05d4eedca74070fb3e0e70506b64d6ff738b93707ff2e11c",
+      "fetchedAt": "2026-08-24T07:28:40.658Z"
+    },
+    {
+      "rank": 162,
+      "title": "#StrugglePorn – is it painting a false picture?",
+      "url": "https://www.visakanv.com/blog/struggle/",
+      "file": "162-struggleporn-is-it-painting-a-false-picture.md",
+      "sha256": "7e455112e27334f928505ca331d4798c5f8c95954bee10afbbee098247b31dc9",
+      "fetchedAt": "2026-08-24T07:28:40.574Z"
+    },
+    {
+      "rank": 163,
+      "title": "📷 my life in pictures",
+      "url": "https://www.visakanv.com/blog/pics/",
+      "file": "163-my-life-in-pictures.md",
+      "sha256": "901ac9c4b2fbae78c472f920bb60424813ccc9f5ea2f31bda276c9e974891bbd",
+      "fetchedAt": "2026-08-24T07:28:40.629Z"
+    },
+    {
+      "rank": 164,
+      "title": "🍱 I used to be a picky eater",
+      "url": "https://www.visakanv.com/blog/picky-eater/",
+      "file": "164-i-used-to-be-a-picky-eater.md",
+      "sha256": "25e43be2475124aa25fcc346ad7af10ff7e3aca798335e46aa2335981f42ca8a",
+      "fetchedAt": "2026-08-24T07:28:40.603Z"
+    },
+    {
+      "rank": 165,
+      "title": "🗣 mansplaining is sometimes (but not always) innocuous",
+      "url": "https://www.visakanv.com/blog/mansplaining/",
+      "file": "165-mansplaining-is-sometimes-but-not-always-innocuous.md",
+      "sha256": "920f0d8321f83c846b8612f6bb219b00ad270c1cfda50af68f0a3074725d4d9d",
+      "fetchedAt": "2026-08-24T07:28:40.705Z"
+    },
+    {
+      "rank": 166,
+      "title": "🍳 Breakfast AMAs",
+      "url": "https://www.visakanv.com/blog/breakfast-amas/",
+      "file": "166-breakfast-amas.md",
+      "sha256": "f5cf73f769d6abac1db87e6af962d1a7002f688dcec89e376adb813ed76bf4d9",
+      "fetchedAt": "2026-08-24T07:28:40.743Z"
+    },
+    {
+      "rank": 167,
+      "title": "👘 cultural cosplay: a broader framework for thinking about cultural appropriation",
+      "url": "https://www.visakanv.com/blog/cultural-cosplay/",
+      "file": "167-cultural-cosplay-a-broader-framework-for-thinking-about-cultural-appropriation.md",
+      "sha256": "32209ed2b26b8dc5e069397aba23a477fbb07ec8ca3829eaf1ada7dd801d1dfa",
+      "fetchedAt": "2026-08-24T07:28:41.458Z"
+    },
+    {
+      "rank": 168,
+      "title": "🤔 do you know what you want?",
+      "url": "https://www.visakanv.com/blog/introspect/",
+      "file": "168-do-you-know-what-you-want.md",
+      "sha256": "cff8b7251dd3cade5ab0b94cfbb3069db0985281035bf6cb80c15e513415f6d0",
+      "fetchedAt": "2026-08-24T07:28:41.507Z"
+    },
+    {
+      "rank": 169,
+      "title": "💋 Narcissist PR works because we can’t shut up about it",
+      "url": "https://www.visakanv.com/blog/narcissist-pr/",
+      "file": "169-narcissist-pr-works-because-we-can-t-shut-up-about-it.md",
+      "sha256": "8fa4ce0aa04acb6e33ee4dead3f900637a294ef953de046673db89bcda6013b7",
+      "fetchedAt": "2026-08-24T07:28:41.174Z"
+    },
+    {
+      "rank": 170,
+      "title": "🧐 It’s my fault and that’s a good thing",
+      "url": "https://www.visakanv.com/blog/fault/",
+      "file": "170-it-s-my-fault-and-that-s-a-good-thing.md",
+      "sha256": "cfe71cb7982bf768f824928444bac052325d33dd08d93d783b0e4ed074705c8f",
+      "fetchedAt": "2026-08-24T07:28:43.042Z"
+    },
+    {
+      "rank": 171,
+      "title": "🚥 a system can only be improved at its tightest bottleneck",
+      "url": "https://www.visakanv.com/blog/bottlenecks/",
+      "file": "171-a-system-can-only-be-improved-at-its-tightest-bottleneck.md",
+      "sha256": "c71e1dd7c9c12c34f5fe79efe12007666f99607d5f6f54d1d2174934e1d249a0",
+      "fetchedAt": "2026-08-24T07:28:42.974Z"
+    },
+    {
+      "rank": 172,
+      "title": "📺 we turn our lives into mostly-predictable sitcoms",
+      "url": "https://www.visakanv.com/blog/sitcoms/",
+      "file": "172-we-turn-our-lives-into-mostly-predictable-sitcoms.md",
+      "sha256": "a3142aab6b813333f3b4756202c1f0a15f0c85009579f5f1356b14d4400bacc1",
+      "fetchedAt": "2026-08-24T07:28:43.367Z"
+    },
+    {
+      "rank": 173,
+      "title": "😈 sinister connotations allow people to be assholes with plausible deniability",
+      "url": "https://www.visakanv.com/blog/sinister-connotations/",
+      "file": "173-sinister-connotations-allow-people-to-be-assholes-with-plausible-deniability.md",
+      "sha256": "84b165389d796e94ce757f16e121f29abd6a6b6e9b88457306a6b84c4f205a4b",
+      "fetchedAt": "2026-08-24T07:28:42.010Z"
+    },
+    {
+      "rank": 174,
+      "title": "a list of some of my twitter threads",
+      "url": "https://www.visakanv.com/blog/threads/",
+      "file": "174-a-list-of-some-of-my-twitter-threads.md",
+      "sha256": "a710bc8eb81af81742c49ebbec1fe51f82c7789ab090531780817c88f2b263b2",
+      "fetchedAt": "2026-08-24T07:28:42.614Z"
+    },
+    {
+      "rank": 175,
+      "title": "🚦 constraints",
+      "url": "https://www.visakanv.com/blog/constraints/",
+      "file": "175-constraints.md",
+      "sha256": "e0bf0b3ce312768e082e8ab40f2fe8c66d24b3d3f46a1f9aa0e6c6ddf1a80f92",
+      "fetchedAt": "2026-08-24T07:28:42.381Z"
+    },
+    {
+      "rank": 176,
+      "title": "a sitemap of my memoirs",
+      "url": "https://www.visakanv.com/blog/memoirs/",
+      "file": "176-a-sitemap-of-my-memoirs.md",
+      "sha256": "f90a22f695ec46a4568372a60f91fc38ade38595915783e58b24997b61e52d72",
+      "fetchedAt": "2026-08-24T07:28:42.835Z"
+    },
+    {
+      "rank": 177,
+      "title": "🙏🏾 an oral history of my relationship with religion",
+      "url": "https://www.visakanv.com/blog/religion/",
+      "file": "177-an-oral-history-of-my-relationship-with-religion.md",
+      "sha256": "5553965b037407bbfdf8cd74d20c26bd36a35d5efdb7d7e7252e3247f6734e12",
+      "fetchedAt": "2026-08-24T07:28:43.236Z"
+    },
+    {
+      "rank": 178,
+      "title": "🔥 hypothesis: the 7 ‘sins’ are really ‘drives’ that can be harnessed",
+      "url": "https://www.visakanv.com/blog/7sins/",
+      "file": "178-hypothesis-the-7-sins-are-really-drives-that-can-be-harnessed.md",
+      "sha256": "cd95fa86b34179288ac48b599db28e0384ea6d85808fe2320b284ccff0c89fbd",
+      "fetchedAt": "2026-08-24T07:28:43.459Z"
+    },
+    {
+      "rank": 179,
+      "title": "👀 when arguing, strive to understand context",
+      "url": "https://www.visakanv.com/blog/arguments/",
+      "file": "179-when-arguing-strive-to-understand-context.md",
+      "sha256": "2ed2a4e188e9bf235f99b14adf0fca4a02365b6ae2c94e0494ed7af8b2871be6",
+      "fetchedAt": "2026-08-24T07:28:43.401Z"
+    },
+    {
+      "rank": 180,
+      "title": "🚀 the jetpacks of the 2020s will be whatever helps us navigate information overload",
+      "url": "https://www.visakanv.com/blog/jetpacks/",
+      "file": "180-the-jetpacks-of-the-2020s-will-be-whatever-helps-us-navigate-information-overload.md",
+      "sha256": "7abc72498371f491c26771dc863ef6fc9650c543e1e3f8d71a9dafe666b5a21d",
+      "fetchedAt": "2026-08-24T07:28:44.089Z"
+    },
+    {
+      "rank": 181,
+      "title": "an analysis of power and social dynamics in ‘Mean Girls’",
+      "url": "https://www.visakanv.com/blog/mean-girls/",
+      "file": "181-an-analysis-of-power-and-social-dynamics-in-mean-girls.md",
+      "sha256": "07aebf8bd9a6b192cc95021463f6dcba811dd3c5daf5173a529cb90e1357ce10",
+      "fetchedAt": "2026-08-24T07:28:43.577Z"
+    },
+    {
+      "rank": 182,
+      "title": "🐉 Drogon vs Balerion size comparison",
+      "url": "https://www.visakanv.com/blog/drogon-vs-balerion/",
+      "file": "182-drogon-vs-balerion-size-comparison.md",
+      "sha256": "ce4bc757a4e195c53389d255fcd0521d7e004510cc7788994e1c03c10d41206d",
+      "fetchedAt": "2026-08-24T07:28:44.092Z"
+    },
+    {
+      "rank": 183,
+      "title": "🔬 a list of predictions, to test my understanding",
+      "url": "https://www.visakanv.com/blog/predictions/",
+      "file": "183-a-list-of-predictions-to-test-my-understanding.md",
+      "sha256": "6186f96f25d62f1bd0ff43b80313babf81cdd65a327e22983420235ef4f6f659",
+      "fetchedAt": "2026-08-24T07:28:44.251Z"
+    },
+    {
+      "rank": 184,
+      "title": "🤯 ideas that expanded my mind",
+      "url": "https://www.visakanv.com/blog/mindfuck/",
+      "file": "184-ideas-that-expanded-my-mind.md",
+      "sha256": "5caddf4bfe916ac4c07098d3ee9a8126b8b9da0062a2f614577a95e09dbaf107",
+      "fetchedAt": "2026-08-24T07:28:44.272Z"
+    },
+    {
+      "rank": 185,
+      "title": "Politics and the English language [2016]",
+      "url": "https://www.visakanv.com/blog/politics-and-the-english-language/",
+      "file": "185-politics-and-the-english-language-2016.md",
+      "sha256": "7fb887fb76b0d95266845bb763565cd34c7e8ae03f0aa8c7e5bf8c557e451ac2",
+      "fetchedAt": "2026-08-24T07:28:44.366Z"
+    },
+    {
+      "rank": 186,
+      "title": "⛰ one must imagine Sisyphus LOL-ing",
+      "url": "https://www.visakanv.com/blog/sisyphus/",
+      "file": "186-one-must-imagine-sisyphus-lol-ing.md",
+      "sha256": "5b40c0c254c5b429e4a341f06879314b3c1552b9238bbef55c7b836b758a0fe7",
+      "fetchedAt": "2026-08-24T07:28:44.466Z"
+    },
+    {
+      "rank": 187,
+      "title": "beating yourself up is egotistic",
+      "url": "https://www.visakanv.com/blog/beating-yourself-up-is-egotistic/",
+      "file": "187-beating-yourself-up-is-egotistic.md",
+      "sha256": "1b67479a322b85a70c58d6f4e2a176d3f1abb27e1f3246dc972a249cd5a81773",
+      "fetchedAt": "2026-08-24T07:28:44.637Z"
+    },
+    {
+      "rank": 188,
+      "title": "💀 the heat death of the universe means legacy is ultimately futile",
+      "url": "https://www.visakanv.com/blog/heat-death/",
+      "file": "188-the-heat-death-of-the-universe-means-legacy-is-ultimately-futile.md",
+      "sha256": "549442b5d9028c13859255d17b16ab50b9a3418b5c3155119e97ebc19077eba9",
+      "fetchedAt": "2026-08-24T07:28:44.969Z"
+    },
+    {
+      "rank": 189,
+      "title": "🔖 bookmarks that I often share with friends",
+      "url": "https://www.visakanv.com/blog/bookmarks/",
+      "file": "189-bookmarks-that-i-often-share-with-friends.md",
+      "sha256": "514c7cdc7a41bd05e6a180658d32bff03e44b4cbc81618f0f70288d408df3d76",
+      "fetchedAt": "2026-08-24T07:28:45.099Z"
+    },
+    {
+      "rank": 190,
+      "title": "🤝 how to build and maintain communities",
+      "url": "https://www.visakanv.com/blog/communities/",
+      "file": "190-how-to-build-and-maintain-communities.md",
+      "sha256": "d6b4ef23fabd01ddf2de7d98475932144a5b2e1a1d4a2ac90ae85388655ab1ca",
+      "fetchedAt": "2026-08-24T07:28:45.386Z"
+    }
+  ],
+  "failures": []
+}
