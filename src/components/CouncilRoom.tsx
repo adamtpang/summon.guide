@@ -21,6 +21,7 @@ import type { CouncilResponse } from "@/app/api/council/route";
 type Phase =
   | { kind: "idle" }
   | { kind: "loading" }
+  | { kind: "review"; hint?: string; source?: CouncilResponse["source"] }
   | { kind: "ready"; data: CouncilResponse }
   | { kind: "empty"; hint: string }
   | { kind: "error"; message: string };
@@ -31,6 +32,25 @@ export default function CouncilRoom() {
   const [phase, setPhase] = useState<Phase>({ kind: "idle" });
   const [showBrief, setShowBrief] = useState(false);
   const [signingIn, setSigningIn] = useState(false);
+  const [draft, setDraft] = useState("# Personal context\n\n## What I am struggling with\n\n## What matters most this week\n\n## Constraints\n\n## Guidance that works for me\n");
+  const [handoffError, setHandoffError] = useState("");
+  const normalizedDraft = draft.trim().startsWith("# Personal context") ? draft.trim() : `# Personal context\n\n${draft.trim()}`;
+
+  const loadBrief = useCallback(async () => {
+    setPhase({ kind: "loading" });
+    try {
+      const res = await fetch("/api/council", { cache: "no-store" });
+      const data = await res.json();
+      if (res.ok) {
+        setDraft(data.brief);
+        setPhase({ kind: "review", source: data.source });
+      } else {
+        setPhase({ kind: "review", hint: data.hint || data.error || "Paste your brief below." });
+      }
+    } catch {
+      setPhase({ kind: "review", hint: "The connection is unavailable. You can still write or paste your brief below." });
+    }
+  }, []);
 
   const seat = useCallback(async (brief?: string) => {
     setPhase({ kind: "loading" });
@@ -63,10 +83,10 @@ export default function CouncilRoom() {
     if (sessionStatus !== "authenticated" || autoSeated.current) return;
     const timer = window.setTimeout(() => {
       autoSeated.current = true;
-      void seat();
+      void loadBrief();
     }, 0);
     return () => window.clearTimeout(timer);
-  }, [sessionStatus, seat]);
+  }, [sessionStatus, loadBrief]);
 
   const continueWithGoogle = async () => {
     setSigningIn(true);
@@ -79,11 +99,10 @@ export default function CouncilRoom() {
     try {
       window.sessionStorage.setItem("summon_intake", intake);
     } catch {
-      // Session storage can be unavailable in private modes; the chat page
-      // then shows an empty composer and the user can paste the brief.
+      setHandoffError("Your browser could not attach the brief. Allow session storage and try again; your council is still here.");
+      return;
     }
-    const reason = encodeURIComponent(chosen.reason.slice(0, 160));
-    router.push(`/chat/${chosen.slug}?reason=${reason}&intake=1`);
+    router.push(`/${chosen.slug}?intake=1`);
   };
 
   if (sessionStatus === "loading") {
@@ -119,7 +138,34 @@ export default function CouncilRoom() {
   }
 
   if (phase.kind === "idle" || phase.kind === "loading") {
-    return <Waiting label="Reading your life context and seating the council" />;
+    return <Waiting label="Preparing your council" />;
+  }
+
+  if (phase.kind === "review") {
+    return (
+      <section className="space-y-5 rounded-2xl border border-warm-200 bg-white/70 p-6 sm:p-8">
+        <h2 className="font-serif text-2xl">What should your guides understand?</h2>
+        <p className="text-sm leading-relaxed text-warm-500">
+          {phase.source?.kind === "themain.quest"
+            ? `From themain.quest, sent ${new Date(phase.source.createdAt).toLocaleString()}. Update anything that has changed.`
+            : "Bring a brief from themain.quest, or describe your situation here."}
+          {" "}Focus on your current struggle, the decision ahead, and your real constraints.
+        </p>
+        {phase.hint && <p role="status" className="text-sm text-warm-500">{phase.hint}</p>}
+        <label htmlFor="council-brief" className="block text-sm font-medium">Your personal brief</label>
+        <textarea id="council-brief" value={draft} onChange={(event) => setDraft(event.target.value)} rows={14}
+          className="w-full rounded-xl border border-warm-300 bg-white p-4 text-sm leading-relaxed text-ink-950" />
+        <p className="text-xs leading-relaxed text-warm-500">
+          Find my guides sends this edited brief to Summon&apos;s AI provider for matching. It stays out of URLs and is not saved to your Summon account. Only the guide you open receives it in chat.
+        </p>
+        {normalizedDraft.length > 12000 && <p role="alert" className="text-sm text-red-700">Shorten the brief to 12,000 characters before matching.</p>}
+        <div className="flex flex-wrap gap-3">
+          <Button onClick={() => seat(normalizedDraft)}
+            disabled={draft.trim().length < 30 || normalizedDraft.length > 12000} className="min-h-12 rounded-full px-6">Find my guides</Button>
+          <ContextImportDialog onUseContext={(context) => setDraft(context)} />
+        </div>
+      </section>
+    );
   }
 
   if (phase.kind === "empty" || phase.kind === "error") {
@@ -136,23 +182,18 @@ export default function CouncilRoom() {
             {phase.kind === "empty" ? phase.hint : phase.message}
           </p>
         </div>
-        {phase.kind === "empty" && (
-          <pre className="overflow-x-auto rounded-xl bg-ink-950 px-4 py-3 font-mono text-[12px] leading-relaxed text-warm-100">
-            cd themain.quest{"\n"}npm run life:context -- --send
-          </pre>
-        )}
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <Button
             type="button"
             variant="outline"
-            onClick={() => seat()}
+            onClick={() => setPhase({ kind: "review" })}
             className="h-11 rounded-full border-warm-300 bg-white px-5 text-ink-950 hover:bg-warm-100"
           >
             <RefreshCw className="size-4" />
-            Check the mailbox again
+            Edit my brief
           </Button>
           <div className="rounded-full bg-ink-950 text-white [&_button]:text-white/80 [&_button:hover]:bg-ink-800 [&_button:hover]:text-white">
-            <ContextImportDialog onUseContext={(context) => seat(context)} />
+            <ContextImportDialog onUseContext={(context) => { setDraft(context); setPhase({ kind: "review" }); }} />
           </div>
         </div>
       </section>
@@ -164,6 +205,7 @@ export default function CouncilRoom() {
 
   return (
     <div className="space-y-8">
+      {handoffError && <p role="alert" className="text-sm text-red-700">{handoffError}</p>}
       <section className="rounded-2xl border border-warm-200 bg-white/70">
         <button
           type="button"
@@ -208,17 +250,16 @@ export default function CouncilRoom() {
 
       <div className="flex flex-col gap-3 border-t border-warm-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-[12px] leading-relaxed text-warm-500">
-          Each seat opens a normal guide chat with your brief attached as the first message.
-          Re-run <code className="font-mono">npm run life:context -- --send</code> in themain.quest whenever the questbook changes.
+          Each guide starts with your brief and a question specific to your situation. Update the brief when your priorities change.
         </p>
         <Button
           type="button"
           variant="outline"
-          onClick={() => seat()}
+          onClick={() => { setDraft(data.brief); setPhase({ kind: "review" }); }}
           className="h-11 shrink-0 rounded-full border-warm-300 bg-white px-5 text-ink-950 hover:bg-warm-100"
         >
           <RefreshCw className="size-4" />
-          Reseat the council
+          Update my situation
         </Button>
       </div>
     </div>

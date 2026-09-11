@@ -1,0 +1,27 @@
+---
+title: "China: The Dragon with a Long Tail"
+principle: "Because three-quarters of Singaporeans were ethnic Chinese, Lee had to prove for decades that Singapore was not Beijing's proxy, a task made harder by China's own decades of exporting revolution and appealing to overseas Chinese blood ties, and it culminated in a deliberately choreographed, ideologically loaded first visit to China in 1976 designed to demonstrate Singapore's separateness rather than its kinship."
+tags: [from-third-world-to-first, lee-kuan-yew, singapore, china, zhou-enlai, mao-zedong, hua-guofeng, overseas-chinese, communism]
+---
+
+# China: The Dragon with a Long Tail
+
+> **Key principle:** From Qing-era indifference through Cultural Revolution-era denunciations of Lee as a "running dog of US and British imperialism," China's relationship with Singapore was shaped by its use of ethnic-Chinese loyalty as a political tool; only after Beijing needed allies against the Soviet Union in the 1970s, and only after Singapore staged a 1976 state visit engineered to look unmistakably non-kinship (a Tamil foreign minister, a Malay secretary, all meetings in English), did the relationship normalize.
+
+*Synthesized from Chapter 36 of From Third World to First: The Singapore Story 1965-2000 by Lee Kuan Yew.*
+
+## Key lessons
+
+- Qing China ignored overseas Chinese until the 1870s, when it opened consulates in Nanyang partly to harness their loyalty and remittances; the Chinese Communist Party built an early Nanyang presence in the 1920s (Ho Chi Minh attended the 1930 founding of the Malayan Communist Party in Singapore), and the 1949 communist victory split the local Chinese community between intense patriotic pride and fear among Malays, Indians and English-educated Chinese.
+- After Singapore joined then left Malaysia, Beijing did not recognize its independence until 1970, referring to it in propaganda as "part of Malaya" and denouncing "Singapore authorities" for "criminal armed suppression"; Radio Beijing named Lee personally as a "running dog" in 1968, while during the Cultural Revolution Singapore confiscated Mao memorabilia and prosecuted citizens (though not Chinese nationals) caught distributing propaganda, even as the local Bank of China branch handed out Cultural Revolution pamphlets to customers.
+- China's stance shifted quietly from late 1970 as it sought allies against Soviet expansion after the 1968 Czechoslovakia intervention and 1969 Amur River border clashes; "ping-pong diplomacy" opened contact in 1971, and in 1974 Premier Zhou Enlai told a Malaysian delegation that China had dissolved its Overseas Chinese Affairs Commission and would no longer automatically claim descendants of Chinese fathers as Chinese nationals, a break from the old jus sanguinis principle.
+- Singapore's policy was to be the last ASEAN country to establish diplomatic relations with China (moving only after Indonesia), reasoning it first needed to purge communist subversion from Chinese-language schools and Nanyang University and reduce the influence of China-born community leaders; Zhou Enlai's invitation to visit, relayed through Thailand's premier in 1975, went unanswered before Zhou died in January 1976.
+- Lee's May 1976 visit was the most carefully prepared of his career: the 17-member delegation deliberately included Jaffna Tamil foreign minister S. Rajaratnam and Malay parliamentary secretary Ahmad Mattar, with all meetings conducted in English, specifically to signal Singapore was not a kinsman state; China gave full protocol honors but no welcoming People's Daily editorial, a calibrated diplomatic snub.
+- Premier Hua Guofeng delivered a stock "Three Worlds" ideological lecture and evaded Lee's repeated, pointed questions about whether China would back the Malayan Communist Party's claim to "liberate" Singapore, repeatedly falling back on "wherever communists fight, they will win" rather than committing to any position.
+- Lee's delegation received the rare honor of meeting Chairman Mao at Zhongnanhai; Lee found him frail, likely afflicted by Parkinson's disease, struggling to articulate thoughts through an aide who transcribed his words for confirmation, a sharp contrast to the sharp intellect Nixon and Kissinger had described from their 1972 meetings.
+- The subsequent provincial tour exposed the delegation to Maoist propaganda saturation and staged model sites; Lee later learned the celebrated Dazhai commune's "miracle harvests" were fraudulent, produced by special inputs rather than replicable methods, epitomizing the era's "Better Red than Expert" fallacy.
+- Lee's daughter Wei Ling, fully Chinese-educated, found the trip revelatory: she was struck by unquestioning obedience to authority and by how China's own reverence for its ancient civilization seemed an obstacle to catching up with the developed world, concluding she was glad her ancestors had emigrated; the visit convinced Lee that China's vast size, dialect diversity (even Mandarin speakers from different provinces sometimes could not understand each other) and self-confidence in an eventual "seat at the top table" left Singapore, as rootless migrants, fundamentally different in outlook despite shared ancestry.
+
+---
+
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: From Third World to First: The Singapore Story 1965-2000 by Lee Kuan Yew, https://www.amazon.com/Third-World-First-Singapore-1965-2000/dp/0060957514.*

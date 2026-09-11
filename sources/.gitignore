@@ -22,6 +22,10 @@ _fixtures/
 warren-buffett/berkshire-shareholder-letters/raw/
 warren-buffett/berkshire-shareholder-letters/text/
 
+# Website mirrors used as private inputs for original corpus syntheses.
+# The manifest is tracked; full article Markdown is not redistributed.
+web/**/_raw/
+
 # Allow this folder's own README and gitignore so the directory is not empty
 !.gitignore
 !README.md

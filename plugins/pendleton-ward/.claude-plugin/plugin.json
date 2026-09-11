@@ -1,0 +1,7 @@
+{
+  "name": "pendleton-ward",
+  "description": "Creative play and kindness exercises inspired by Pendleton Ward's public interviews. Independent Summon adaptations.",
+  "version": "0.1.0",
+  "author": { "name": "summon.guide", "url": "https://summon.guide/pendleton-ward" },
+  "license": "MIT"
+}

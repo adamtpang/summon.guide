@@ -1,0 +1,33 @@
+{
+  "paul-graham-essays": {
+    "label": "Paul Graham essays",
+    "discovery": "html",
+    "indexUrl": "https://www.paulgraham.com/articles.html?viewfullsite=1",
+    "allowedHosts": ["www.paulgraham.com", "paulgraham.com"],
+    "includePath": "\\.html$",
+    "excludePath": "(?:/articles\\.html|/bio\\.html|/index\\.html)$"
+  },
+  "sivers-articles": {
+    "label": "Derek Sivers articles",
+    "discovery": "html",
+    "indexUrl": "https://sive.rs/blog",
+    "allowedHosts": ["sive.rs"],
+    "includePath": "^/[a-z0-9][a-z0-9-]*$",
+    "excludePath": "^/(?:blog|book|podcast|tech|about|now|contact)$"
+  },
+  "visakan-essays": {
+    "label": "Visakan Veerasamy essays",
+    "discovery": "html",
+    "indexUrl": "https://www.visakanv.com/blog/author/visakanv/",
+    "allowedHosts": ["www.visakanv.com", "visakanv.com"],
+    "includePath": "^/blog/[a-z0-9%\\-]+/$",
+    "excludePath": "^/blog/author/"
+  },
+  "tim-blog": {
+    "label": "Tim Ferriss blog",
+    "discovery": "sitemap",
+    "indexUrl": "https://tim.blog/sitemap_index.xml",
+    "allowedHosts": ["tim.blog"],
+    "includePath": "^/\\d{4}/"
+  }
+}

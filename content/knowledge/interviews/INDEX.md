@@ -1,9 +1,9 @@
 # David Senra — Interview Show (Knowledge Base Index)
 
-**28 episodes** · 564,222 words · David Senra's interview show [@DavidSenra](https://www.youtube.com/@DavidSenra) — long-form talks with living founders
-Extracted via [youchop.app/extract](https://youchop.app/extract). Files numbered by popularity rank (view count).
+**37 original episode syntheses** · 716,917 source-transcript words · David Senra's interview show [@DavidSenra](https://www.youtube.com/@DavidSenra); long-form talks with living founders
+Synced via [youchop.app/extract](https://youchop.app/extract). Full transcripts remain in Summon's private corpus; this directory contains publishable original synthesis only.
 
-> For Summon agents: each file's frontmatter carries the subject/guest, source, and a one-line `principle`; the body has **Key lessons** (synthesis) + the full cleaned **Transcript** (ad reads removed, words preserved).
+> For Summon agents: each file's frontmatter carries the subject/guest, source, and a one-line `principle`; the body contains original **Key lessons** grounded in the private transcript.
 
 | # | Guest founder | The principle it teaches | Source | File |
 |---|---|---|---|---|
@@ -35,6 +35,7 @@ Extracted via [youchop.app/extract](https://youchop.app/extract). Files numbered
 | 26 | **David Baszucki** | Build a perpetual motion machine: a closed-loop system where users become creators and an owned economy compounds virally for decades. | Roblox | [026-roblox-s-david-baszucki-built-the-biggest-playground-on-eart.md](026-roblox-s-david-baszucki-built-the-biggest-playground-on-eart.md) |
 | 27 | **Gustav Söderström** | Optimize for time well spent: prioritize the user over engagement metrics, and be great at the one thing that matters, average at the rest. | Spotify | [027-the-company-apple-couldnt-kill-spotify-co-ceo-gustav-s-derst.md](027-the-company-apple-couldnt-kill-spotify-co-ceo-gustav-s-derst.md) |
 | 28 | **Eric Glyman** | Invert your industry: help customers spend less money and time, not more, and run every process through question, simplify, then automate. | Ramp | [028-the-44-billion-company-building-self-driving-money-eric-glym.md](028-the-44-billion-company-building-self-driving-money-eric-glym.md) |
+| 29 | **Doug Leone** | Dominate across eras by resetting to beginner, reserving capital for extreme outliers, preserving the founder as the company's soul, and making trust accelerate hard decisions. | Sequoia Capital | [029-how-to-dominate-for-decades-doug-leone-sequoia-capital.md](029-how-to-dominate-for-decades-doug-leone-sequoia-capital.md) |
 
 ## Episodes in detail
 
@@ -205,4 +206,26 @@ Extracted via [youchop.app/extract](https://youchop.app/extract). Files numbered
 - **Principle:** Invert your industry: help customers spend less money and time, not more, and run every process through question, simplify, then automate.
 - 6,938 views · 59 min · published 2026-07-12 · 11,845 words
 - [Watch](https://www.youtube.com/watch?v=lbGX3cbvMI4) · [`028-the-44-billion-company-building-self-driving-money-eric-glym.md`](028-the-44-billion-company-building-self-driving-money-eric-glym.md)
+
+### 29. How to Dominate for Decades | Doug Leone, Sequoia Capital
+- **Subject:** Doug Leone · **Book:** Sequoia Capital
+- **Principle:** Dominate across eras by resetting to beginner, reserving capital for extreme outliers, preserving the founder as the company's soul, and making trust accelerate hard decisions.
+- 77,143 views · 82 min · published 2026-08-30 · 16,543 words
+- [Watch](https://www.youtube.com/watch?v=NR9NI51D7ek) · [`029-how-to-dominate-for-decades-doug-leone-sequoia-capital.md`](029-how-to-dominate-for-decades-doug-leone-sequoia-capital.md)
+
+## Additional syntheses (2026-09-05)
+
+The detailed entries above cover the first 29 files. These additional files are included in the generated chat corpus. File prefixes are stable identifiers; the current popularity rank is stored in frontmatter.
+
+| Episode | Subject |
+| --- | --- |
+| [Building Defense Technologies to Protect Democracies \| Torsten Reil, Helsing](030-building-defense-technologies-to-protect-democracies-torsten.md) | Torsten Reil |
+| [Sam Altman on Building OpenAI & Betting on the Impossible](031-sam-altman-on-building-openai-betting-on-the-impossible.md) | Sam Altman |
+| [Excellence Is the Capacity To Take Pain \| Travis Kalanick, Founder of Uber](032-excellence-is-the-capacity-to-take-pain-travis-kalanick-foun.md) | Travis Kalanick |
+| [The Comms Strategist Behind Anduril, Shopify & Cognition \| Lulu Cheng Meservey](033-the-comms-strategist-behind-anduril-shopify-cognition-lulu-c.md) | Lulu Cheng Meservey |
+| [Founder of CAA Michael Ovitz: 'I Just Knew I Was Going to Outwork Every One of Them'](034-founder-of-caa-michael-ovitz-i-just-knew-i-was-going-to-outw.md) | Michael Ovitz |
+| [Lessons From Backing The Best Founders In Fintech \| Micky Malka](035-lessons-from-backing-the-best-founders-in-fintech-micky-malk.md) | Micky Malka |
+| [DHH: How to Build a Profitable Company Without Losing Control](036-dhh-how-to-build-a-profitable-company-without-losing-control.md) | David Heinemeier Hansson |
+| [The Restaurant Genius Behind Carbone, ZZ's, Torrisi & More \| Jeff Zalaznick](037-the-restaurant-genius-behind-carbone-zz-s-torrisi-more-jeff.md) | Jeff Zalaznick |
+
 

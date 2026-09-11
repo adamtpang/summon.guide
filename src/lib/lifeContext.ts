@@ -11,6 +11,12 @@ import path from "path";
 export const LIFE_CONTEXT_SENDER = "themain.quest";
 export const LIFE_CONTEXT_SUBJECT = "life-context";
 export const LIFE_CONTEXT_HEADING = "# Personal context";
+export const MAX_LIFE_CONTEXT_CHARS = 12_000;
+
+// A workspace mailbox belongs to one person, never every signed-in member.
+export function canReadLifeContext(userId: string | null | undefined, ownerId = process.env.SUMMON_LIFE_CONTEXT_OWNER_ID): boolean {
+  return Boolean(userId && ownerId?.trim() && userId === ownerId.trim());
+}
 const REPO_ID = "summon.guide";
 
 export type LifeContextNotice = {

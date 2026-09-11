@@ -21,6 +21,10 @@
 /build
 
 # misc
+# Eve compiler outputs and session artifacts, never authored guide packages
+**/.eve/
+**/.output/
+**/.vercel/
 .DS_Store
 *.pem
 
@@ -51,3 +55,12 @@ content/knowledge/_transcripts/
 next-env.d.ts
 
 .vercel
+
+.env.local
+.env*.local
+
+# Private RAG tooling dependencies (not part of Next or public deployments)
+/scripts/sage-rag/node_modules/
+
+# Eve package build caches are regenerated; never commit them.
+eve-guides/**/node_modules/

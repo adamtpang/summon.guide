@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "ben-cera-polsia",
+    "guideName": "Ben Cera",
+    "organization": "Polsia",
+    "type": "youtube-channel",
+    "title": "Ben Cera",
+    "url": "https://www.youtube.com/@bencera-aislop",
+    "channelId": "UCvONzA-juYE_H7cd9MQhXdw",
+    "status": "corpus-staged",
+    "discoveredVideoCount": 6,
+    "extractedVideoCount": 6,
+    "wordCount": 16103,
+    "corpusPaths": [
+      "content/knowledge/ben-cera-polsia/brain/pages"
+    ],
+    "verifiedOn": "2026-08-25",
+    "extractedOn": "2026-08-27",
+    "note": "Private YouChop corpus staged as six timestamped Markdown guides. Ben Cera is not yet registered as a public Summon guide."
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "slug": "alysa-liu",
+    "name": "Alysa Liu",
+    "aliases": [
+      "Alyssa Liu"
+    ],
+    "collection": "alysa-liu",
+    "domain": "Sport and self-direction",
+    "outcome": "Decide whether to pause, return, or change the terms of a demanding pursuit.",
+    "proposedSkill": "A return on your own terms",
+    "evaluationPrompt": "How can I return to something I left without repeating the conditions that made me leave?",
+    "source": {
+      "title": "Team USA athlete profile",
+      "url": "https://www.teamusa.com/profiles/alysa-liu-1029541",
+      "access": "reference-only",
+      "checkedOn": "2026-09-07"
+    },
+    "stage": "sourcing",
+    "completedGates": [
+      1,
+      2
+    ],
+    "nextAction": "Verify first-person interviews and permitted use; write an original synthesis of her stated choices without inferring private motives.",
+    "boundary": "AI guide inspired by public interviews; no private motives, medical coaching, or claim to be Alysa."
+  },
+  {
+    "slug": "albert-einstein",
+    "name": "Albert Einstein",
+    "aliases": [],
+    "collection": "isaacson-biographies",
+    "domain": "Scientific imagination",
+    "outcome": "Question assumptions and design a thought experiment before committing to an explanation.",
+    "proposedSkill": "Test the hidden assumption",
+    "evaluationPrompt": "How could I test whether my most basic assumption is wrong?",
+    "source": {
+      "title": "Einstein: His Life and Universe",
+      "url": "https://www.simonandschuster.net/authors/Walter-Isaacson/697650",
+      "access": "reference-only",
+      "checkedOn": "2026-09-07"
+    },
+    "stage": "sourcing",
+    "completedGates": [
+      1,
+      2
+    ],
+    "nextAction": "Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing.",
+    "boundary": "AI guide based on documented public work; separate historical evidence, interpretation, and present-day application."
+  },
+  {
+    "slug": "leonardo-da-vinci",
+    "name": "Leonardo da Vinci",
+    "aliases": [],
+    "collection": "isaacson-biographies",
+    "domain": "Observation and creativity",
+    "outcome": "Use close observation to connect ideas across disciplines.",
+    "proposedSkill": "Observe before explaining",
+    "evaluationPrompt": "How can I use observation to get unstuck on a creative problem?",
+    "source": {
+      "title": "Leonardo da Vinci",
+      "url": "https://www.simonandschuster.com/books/Leonardo-da-Vinci/Walter-Isaacson/9781501139154",
+      "access": "reference-only",
+      "checkedOn": "2026-09-07"
+    },
+    "stage": "sourcing",
+    "completedGates": [
+      1,
+      2
+    ],
+    "nextAction": "Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing.",
+    "boundary": "AI guide based on documented public work; separate historical evidence, interpretation, and present-day application."
+  },
+  {
+    "slug": "jennifer-doudna",
+    "name": "Jennifer Doudna",
+    "aliases": [],
+    "collection": "isaacson-biographies",
+    "domain": "Scientific collaboration",
+    "outcome": "Frame an uncertain research question and examine the responsibilities that come with a discovery.",
+    "proposedSkill": "Discovery and responsibility",
+    "evaluationPrompt": "What should my team consider before applying a powerful discovery?",
+    "source": {
+      "title": "The Code Breaker",
+      "url": "https://www.simonandschuster.com/books/The-Code-Breaker/Walter-Isaacson/9781982115876",
+      "access": "reference-only",
+      "checkedOn": "2026-09-07"
+    },
+    "stage": "sourcing",
+    "completedGates": [
+      1,
+      2
+    ],
+    "nextAction": "Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing.",
+    "boundary": "AI guide based on documented public work; separate historical evidence, interpretation, and present-day application."
+  },
+  {
+    "slug": "henry-kissinger",
+    "name": "Henry Kissinger",
+    "aliases": [],
+    "collection": "isaacson-biographies",
+    "domain": "Diplomacy and historical judgment",
+    "outcome": "Examine negotiation tradeoffs alongside their human costs and historical consequences.",
+    "proposedSkill": "Map interests and consequences",
+    "evaluationPrompt": "How do I evaluate a negotiation without ignoring who bears its costs?",
+    "source": {
+      "title": "Kissinger: A Biography",
+      "url": "https://www.simonandschuster.com/books/Kissinger/Walter-Isaacson/9780743286978",
+      "access": "reference-only",
+      "checkedOn": "2026-09-07"
+    },
+    "stage": "sourcing",
+    "completedGates": [
+      1,
+      2
+    ],
+    "nextAction": "Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing.",
+    "boundary": "Historical analysis must include contested decisions, human costs, and credible counterevidence; no endorsement or impersonation."
+  },
+  {
+    "slug": "franklin",
+    "name": "Benjamin Franklin",
+    "aliases": [],
+    "collection": "isaacson-biographies",
+    "domain": "Habits and civic projects",
+    "outcome": "Translate a useful idea into habits, experiments, and shared institutions.",
+    "proposedSkill": "Design a small experiment",
+    "evaluationPrompt": "How can I test a new habit before making it a permanent rule?",
+    "source": {
+      "title": "Benjamin Franklin: An American Life",
+      "url": "https://www.simonandschuster.com/books/Benjamin-Franklin/Walter-Isaacson/9780743258074",
+      "access": "reference-only",
+      "checkedOn": "2026-09-07"
+    },
+    "stage": "sourcing",
+    "completedGates": [
+      1,
+      2
+    ],
+    "nextAction": "Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing.",
+    "boundary": "AI guide based on documented public work; separate historical evidence, interpretation, and present-day application."
+  },
+  {
+    "slug": "steve-jobs",
+    "name": "Steve Jobs",
+    "aliases": [],
+    "collection": "isaacson-biographies",
+    "domain": "Product focus",
+    "outcome": "Choose what to remove from a product so its purpose becomes clearer.",
+    "proposedSkill": "Find the essential product",
+    "evaluationPrompt": "Which feature should we remove to make this product more coherent?",
+    "source": {
+      "title": "Steve Jobs",
+      "url": "https://www.simonandschuster.net/authors/Walter-Isaacson/697650",
+      "access": "reference-only",
+      "checkedOn": "2026-09-07"
+    },
+    "stage": "sourcing",
+    "completedGates": [
+      1,
+      2
+    ],
+    "nextAction": "Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing.",
+    "boundary": "AI guide based on documented public work; separate historical evidence, interpretation, and present-day application."
+  },
+  {
+    "slug": "elon",
+    "name": "Elon Musk",
+    "aliases": [],
+    "collection": "isaacson-biographies",
+    "domain": "Engineering constraints",
+    "outcome": "Identify the physical or process constraint before accelerating work.",
+    "proposedSkill": "Question the requirement",
+    "evaluationPrompt": "Which requirement should I question before optimizing this process?",
+    "source": {
+      "title": "Elon Musk",
+      "url": "https://www.simonandschuster.net/authors/Walter-Isaacson/697650",
+      "access": "reference-only",
+      "checkedOn": "2026-09-07"
+    },
+    "stage": "sourcing",
+    "completedGates": [
+      1,
+      2
+    ],
+    "nextAction": "Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing.",
+    "boundary": "AI guide based on documented public work; separate historical evidence, interpretation, and present-day application."
+  }
+]

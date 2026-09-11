@@ -1,0 +1,28 @@
+{
+  "reviewedAt": "2026-09-08",
+  "ownerAcceptance": { "acceptedBy": "Adam", "acceptedAt": "2026-09-08", "scope": "Reviewed relevance labels accepted; original benchmark remains preserved." },
+  "basis": "Manual assistant review of original public-safe synthesis records, not source-transcript verification or independent human evaluation.",
+  "scale": { "3": "Directly useful guidance for the question", "2": "Useful adjacent context requiring an additional inference", "1": "Incidental word overlap or weak connection", "0": "Irrelevant" },
+  "minimumGrade": 3,
+  "queries": {
+    "last-company": [
+      { "title": "Michele Ferrero's $40 Billion Privately Owned Chocolate Empire", "grade": 2, "reason": "Lessons 5 and 8 describe patient ownership and intrinsically rewarding work, but offer limited guidance for choosing one's company. The care match also includes employee medical care." },
+      { "title": "DHH: How to Build a Profitable Company Without Losing Control", "grade": 2, "reason": "Lessons 6, 7 and 11 connect enjoyable work, independence and sustainable hours; these support staying with a company more than selecting one." },
+      { "title": "Lessons From Backing The Best Founders In Fintech | Micky Malka", "grade": 3, "reason": "Lessons 5 and 8 give concrete long-term selection criteria: observed mission consistency, authenticity and founder traits worth staying in business with for decades. Investor/partner perspective must be disclosed when applying this to a founder's own choice." },
+      { "title": "How to Dominate for Decades | Doug Leone, Sequoia Capital", "grade": 2, "reason": "Lessons 2, 3 and 5 concern conviction, holding winners and preserving founder identity. They are adjacent evidence, not an exclusive or clearly superior answer to choosing personally meaningful work for a decade." }
+    ],
+    "hiring": [
+      { "title": "Building Defense Technologies to Protect Democracies | Torsten Reil, Helsing", "grade": 3, "reason": "Lessons 7 and 8 describe an early recruitment pipeline, performance calibration and exceptional people with initiative. Direct operational hiring evidence." },
+      { "title": "Breakfast with Brad Jacobs + How To Make A Few Billion Dollars", "grade": 3, "reason": "Lessons 4 and 5 specify candidate judgment, willingness to leave a vacancy, compensation, recruiting and incentives. Direct criteria and process for recruiting capable people." },
+      { "title": "Ken Griffin: Founder of Citadel and Citadel Securities", "grade": 2, "reason": "Lessons 2 and 5 show recruiting scientists and acquiring research leadership around a capability; narrower than a general exceptional-hiring method." },
+      { "title": "Elon Musk and The Early Days of SpaceX", "grade": 3, "reason": "Lessons 2 and 7 explicitly describe recruiting through meaningful responsibility and credible commitment, plus hiring commercial expertise early. Direct recruiting mechanisms, even though they differ from Tobi's candidate-selection criteria." },
+      { "title": "Tobi Lütke: 21 Years of Building Shopify", "grade": 3, "reason": "Lesson 3 explicitly recommends unusual strengths, high agency and nonconformity. Still highly relevant despite full-corpus rank 32; its omission is a recall limitation, not evidence that the leading results are irrelevant." }
+    ],
+    "focus": [
+      { "title": "Rockefeller's Autobiography", "grade": 3, "reason": "Lesson 7 explicitly recommends narrowing to oil and concentrating resources on one priority. Direct response to focusing on one thing." },
+      { "title": "Building Defense Technologies to Protect Democracies | Torsten Reil, Helsing", "grade": 1, "reason": "The score combines simple hardware, managerial review focus and regulatory excuses as distraction across unrelated lessons. It lacks a coherent method for the user's focus problem." },
+      { "title": "How Elon Thinks", "grade": 3, "reason": "Lessons 2, 4 and 5 give deletion, one binding bottleneck and one organizational metric to prevent distraction by secondary objectives." },
+      { "title": "How Steve Jobs Kept Things Simple", "grade": 3, "reason": "Lessons 1, 4 and 5 emphasize one version, one focus per quarter and narrowing scope. Remains directly relevant; it is not the only valid precedent." }
+    ]
+  }
+}

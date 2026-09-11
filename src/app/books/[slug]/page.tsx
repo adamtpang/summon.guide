@@ -141,9 +141,26 @@ export default async function BookPage({
             </p>
 
             <div className="flex flex-wrap gap-3 mb-10">
+              {book.slug === "founders-podcast" && (
+                <Link
+                  href="/sage"
+                  className="inline-flex items-center gap-2 bg-emerald-700 text-white rounded-full px-5 py-2.5 text-sm font-medium hover:bg-emerald-800 active:scale-[0.98] transition-all"
+                >
+                  Open Founders Lens
+                  <svg
+                    className="w-4 h-4"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              )}
               {figure && (
                 <Link
-                  href={`/chat/${figure.slug}`}
+                  href={`/${figure.slug}`}
                   className="inline-flex items-center gap-2 bg-ink-950 text-white rounded-full px-5 py-2.5 text-sm font-medium hover:bg-ink-800 active:scale-[0.98] transition-all"
                 >
                   Summon {figure.name.split(" ")[0]}
@@ -160,7 +177,7 @@ export default async function BookPage({
               )}
               {!!book.corpusPaths?.length && (
                 <Link
-                  href={`/chat/source/${book.slug}`}
+                  href={`/${book.slug}`}
                   className="inline-flex items-center gap-2 border border-ink-950 text-ink-950 rounded-full px-5 py-2.5 text-sm font-medium hover:bg-ink-950 hover:text-white transition-all"
                 >
                   Chat with this corpus

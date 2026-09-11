@@ -29,13 +29,13 @@ export default function CouncilPage() {
         <section className="mb-10 max-w-2xl">
           <p className="mb-4 text-xs uppercase tracking-[0.24em] text-warm-500">The council</p>
           <h1 className="font-serif text-4xl leading-[1.02] tracking-tight md:text-5xl">
-            Your past lives are listening.
+            Your heroes. Your real life.
           </h1>
           <p className="mt-5 text-base leading-relaxed text-warm-500 md:text-lg">
-            themain.quest sends the real quest: the boss, the fork, the one move,
-            the conditions that keep blocking action. The guides whose own lives
-            answer it are seated here, each with the first question worth asking.
-            Speak to the primary seat first.
+            Bring what you are struggling with from themain.quest. Review your
+            situation, meet three guides with different perspectives, and start
+            with the one best suited to your next decision. These are AI guides
+            grounded in their public work and lives.
           </p>
         </section>
 

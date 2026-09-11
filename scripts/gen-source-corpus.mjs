@@ -139,22 +139,29 @@ export function getSourceCorpus(bookSlug: string): SourceCorpus | undefined {
 // quietly if a corpus ever actually exceeds this.
 const MAX_SOURCE_GROUNDING_CHARS = 150000;
 
-/** Formats a channel's full corpus into the grounding block for its system prompt. */
-export function buildSourceGroundingBlock(bookSlug: string): string {
+/** Formats a channel corpus selection into the grounding block for its system prompt. */
+export function buildSourceGroundingBlock(
+  bookSlug: string,
+  selectedEpisodes?: readonly SourceEpisode[],
+): string {
   const corpus = sourceCorpus[bookSlug];
   if (!corpus || !corpus.episodes.length) return "";
+  const episodes = selectedEpisodes?.length ? selectedEpisodes : corpus.episodes;
+  const scope = episodes.length === corpus.episodes.length
+    ? \`every synthesized episode in \${corpus.title}\`
+    : \`\${episodes.length} query-relevant episodes retrieved from \${corpus.episodes.length} syntheses in \${corpus.title}\`;
 
   const header = [
     "## The corpus (cite these, invent nothing else)",
     "",
-    \`The following is every episode of \${corpus.title} synthesized into this system. Answer only from this material.\`,
+    \`The following contains \${scope}. Answer only from this material.\`,
     "When you draw on an episode, cite it by title. Never cite an episode that is not listed here.",
     "",
   ].join("\\n");
 
   let out = header;
   let dropped = 0;
-  for (const ep of corpus.episodes) {
+  for (const ep of episodes) {
     const subject = ep.guest ? \` (with \${ep.guest})\` : "";
     const head = \`### \${ep.title}\${subject}\\nPrinciple: \${ep.principle}\\n\`;
     if (out.length + head.length > MAX_SOURCE_GROUNDING_CHARS) {
@@ -170,7 +177,7 @@ export function buildSourceGroundingBlock(bookSlug: string): string {
     out += "\\n";
   }
   if (dropped > 0 && typeof console !== "undefined") {
-    console.warn(\`buildSourceGroundingBlock("\${bookSlug}"): dropped \${dropped} of \${corpus.episodes.length} episodes, over the \${MAX_SOURCE_GROUNDING_CHARS} char cap\`);
+    console.warn(\`buildSourceGroundingBlock("\${bookSlug}"): dropped \${dropped} of \${episodes.length} selected episodes, over the \${MAX_SOURCE_GROUNDING_CHARS} char cap\`);
   }
   return out.trimEnd();
 }
@@ -188,10 +195,13 @@ RULES:
 \`;
 
 /** Full system prompt for chatting with a source's corpus directly, no persona. */
-export function buildSourceSystemPrompt(bookSlug: string): string | null {
+export function buildSourceSystemPrompt(
+  bookSlug: string,
+  selectedEpisodes?: readonly SourceEpisode[],
+): string | null {
   const corpus = sourceCorpus[bookSlug];
   if (!corpus) return null;
-  const grounding = buildSourceGroundingBlock(bookSlug);
+  const grounding = buildSourceGroundingBlock(bookSlug, selectedEpisodes);
   return \`You are a guide to \${corpus.title}\${corpus.host ? \`, by \${corpus.host}\` : ""}. You answer questions using only the corpus of episodes below, nothing invented and nothing assumed from outside knowledge.
 
 \${grounding}

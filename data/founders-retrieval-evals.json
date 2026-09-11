@@ -1,0 +1,50 @@
+[
+  {
+    "id": "capital-allocation",
+    "query": "How should I think about capital allocation and share repurchases?",
+    "expectedTitle": "How Henry Singleton Worked",
+    "maxRank": 1
+  },
+  {
+    "id": "board-control",
+    "query": "How should I architect a board and preserve founder control?",
+    "expectedTitle": "How to Dominate for Decades | Doug Leone, Sequoia Capital",
+    "maxRank": 1
+  },
+  {
+    "id": "last-company",
+    "query": "How do I choose a company I can care about for a decade?",
+    "expectedTitle": "How to Dominate for Decades | Doug Leone, Sequoia Capital",
+    "maxRank": 3
+  },
+  {
+    "id": "hiring",
+    "query": "How did exceptional founders hire unusually capable people?",
+    "expectedTitle": "Tobi Lütke: 21 Years of Building Shopify",
+    "maxRank": 3
+  },
+  {
+    "id": "market-education",
+    "query": "How can a startup educate a market about a new product?",
+    "expectedTitle": "Peter Thiel on How to Build a Creative Monopoly",
+    "maxRank": 3
+  },
+  {
+    "id": "independence",
+    "query": "How can I stay independent and keep costs low?",
+    "expectedTitle": "Jason Fried: Your Only Competition Is Your Costs",
+    "maxRank": 1
+  },
+  {
+    "id": "failure-iteration",
+    "query": "How do great builders recover from failure through iteration?",
+    "expectedTitle": "How SpaceX Works",
+    "maxRank": 3
+  },
+  {
+    "id": "focus",
+    "query": "How do I focus on one thing and avoid distraction?",
+    "expectedTitle": "How Steve Jobs Kept Things Simple",
+    "maxRank": 2
+  }
+]

@@ -11,6 +11,8 @@ const SLUG_REDIRECTS: Array<[string, string]> = [
 ];
 
 const nextConfig: NextConfig = {
+  // Agent builds and durable session artifacts belong to Eve, not Next routes.
+  outputFileTracingExcludes: { "/*": ["./eve-guides/**/*", "./scripts/sage-rag/**/*"] },
   reactCompiler: true,
   images: {
     // Newly onboarded guides use public-domain Wikimedia portraits until a
@@ -26,17 +28,18 @@ const nextConfig: NextConfig = {
     ],
   },
   async redirects() {
-    return SLUG_REDIRECTS.flatMap(([oldSlug, newSlug]) => [
+    return [
+      { source: "/founders-lens", destination: "/sage", permanent: true },
+      { source: "/founders-podcast", destination: "/sage", permanent: true },
+      { source: "/chat/source/founders-podcast", destination: "/sage", permanent: true },
+      { source: "/chat/source/:slug", destination: "/:slug", permanent: true },
+      ...SLUG_REDIRECTS.map(([oldSlug, newSlug]) => ({ source: `/chat/${oldSlug}`, destination: `/${newSlug}`, permanent: true })),
+      { source: "/chat/:slug", destination: "/:slug", permanent: true },
+      ...SLUG_REDIRECTS.flatMap(([oldSlug, newSlug]) => [
       // Profile page
       {
         source: `/${oldSlug}`,
         destination: `/${newSlug}`,
-        permanent: true,
-      },
-      // Chat page
-      {
-        source: `/chat/${oldSlug}`,
-        destination: `/chat/${newSlug}`,
         permanent: true,
       },
       // OG image
@@ -45,7 +48,7 @@ const nextConfig: NextConfig = {
         destination: `/api/og/${newSlug}`,
         permanent: true,
       },
-    ]);
+    ])];
   },
 };
 

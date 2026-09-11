@@ -1,10 +1,10 @@
 # Founders Podcast — Knowledge Base Index
 
-**20 episodes** · 246,020 words · David Senra's [Founders Podcast](https://www.youtube.com/@founderspodcast1)
-Extracted via [youchop.app/extract](https://youchop.app/extract). Batch 1 = the 20 most-viewed full episodes.
-Files are numbered by popularity rank (the YouTube channel's episodes carry no canonical episode numbers).
+**72 original episode syntheses** · 847,885 source-transcript words · David Senra's [Founders Podcast](https://www.youtube.com/@founderspodcast1)
+Synced via [youchop.app/extract](https://youchop.app/extract). Full transcripts remain in Summon's private corpus; this directory contains publishable original synthesis only.
+File prefixes are stable identifiers. Current popularity ranks are recorded in each file's frontmatter; these are not canonical podcast episode numbers.
 
-> For Summon agents: each file's frontmatter carries `subject`, `source_book`, and a one-line `principle`; the body has **Key lessons** (synthesis) + the full cleaned **Transcript** (ad reads removed, words preserved).
+> For Summon agents: each file's frontmatter carries `subject`, `source_book`, and a one-line `principle`; the body contains original **Key lessons** grounded in the private transcript.
 
 | # | Founder / subject | The principle it teaches | Source book | File |
 |---|---|---|---|---|
@@ -28,6 +28,8 @@ Files are numbered by popularity rank (the YouTube channel's episodes carry no c
 | 18 | **Jesus** | Lead an inward revolution of love and self-transformation, winning people through reason and example rather than spectacle or force. | Jesus: A Biography from a Believer (by Paul Johnson) | [018-the-life-of-jesus.md](018-the-life-of-jesus.md) |
 | 19 | **John D. Rockefeller** | Be brutally honest with your numbers, keep a fortress of cash, and compound first-class decisions with partners you keep for decades. | Random Reminiscences of Men and Events (by John D. Rockefeller) | [019-rockefellers-autobiography.md](019-rockefellers-autobiography.md) |
 | 20 | **Steve Jobs** | Wield simplicity as a weapon: blunt talk, small teams, one message per idea, and attack markets full of complex, second-rate products. | Insanely Simple: The Obsession That Drives Apple's Success (by Ken Segall) | [020-how-steve-jobs-kept-things-simple.md](020-how-steve-jobs-kept-things-simple.md) |
+| 21 | **Claude Hopkins** | Advertising is salesmanship in print: sell service, speak to one person, prove claims with specific facts, and earn the hearing with the headline. | My Life in Advertising and Scientific Advertising | [021-how-to-make-ads-that-sell-scientific-advertising-by-claude-h.md](021-how-to-make-ads-that-sell-scientific-advertising-by-claude-h.md) |
+| 22 | **Henry Singleton** | Treat the CEO role as capital allocation: maximize durable per-share value, decentralize operations, and change tactics when prices change. | Distant Force and The Outsiders | [022-how-henry-singleton-worked.md](022-how-henry-singleton-worked.md) |
 
 ## Episodes in detail
 
@@ -150,4 +152,74 @@ Files are numbered by popularity rank (the YouTube channel's episodes carry no c
 - **Principle:** Wield simplicity as a weapon: blunt talk, small teams, one message per idea, and attack markets full of complex, second-rate products.
 - 43,601 views · 52 min · published 2024-07-02 · 9,084 words
 - [Watch](https://www.youtube.com/watch?v=Mf8MZ8Iy8sE) · [`020-how-steve-jobs-kept-things-simple.md`](020-how-steve-jobs-kept-things-simple.md)
+
+### 21. How to Make Ads That Sell: Scientific Advertising by Claude Hopkins
+- **Subject:** Claude Hopkins · **Book:** My Life in Advertising and Scientific Advertising
+- **Principle:** Advertising is salesmanship in print: sell service, speak to one person, prove claims with specific facts, and earn the hearing with the headline.
+- 31,270 views · 63 min · published 2026-08-23 · 13,214 words
+- [Watch](https://www.youtube.com/watch?v=9YrcSWczGdg) · [`021-how-to-make-ads-that-sell-scientific-advertising-by-claude-h.md`](021-how-to-make-ads-that-sell-scientific-advertising-by-claude-h.md)
+
+### 22. How Henry Singleton Worked
+- **Subject:** Henry Singleton · **Book:** Distant Force by George Roberts and The Outsiders by William Thorndike
+- **Principle:** Treat the CEO role as capital allocation: maximize durable per-share value, decentralize operations, and change tactics when prices change.
+- 20,879 views · 49 min · published 2026-08-31 · 9,473 words
+- [Watch](https://www.youtube.com/watch?v=fC6ICHKJBXU) · [`022-how-henry-singleton-worked.md`](022-how-henry-singleton-worked.md)
+
+## Additional syntheses (2026-09-05)
+
+The detailed entries above cover the first 22 files. These additional files are included in the generated chat corpus. File prefixes are stable identifiers; the current popularity rank is stored in frontmatter.
+
+| Episode | Subject |
+| --- | --- |
+| [How Bob Dylan Studied His Way to Greatness](023-how-bob-dylan-studied-his-way-to-greatness.md) | Bob Dylan |
+| [How Claude Shannon Invented The Future](024-how-claude-shannon-invented-the-future.md) | Claude Shannon |
+| [How Raymond Plank Made a Fortune in Big Oil's Scraps](025-how-raymond-plank-made-a-fortune-in-big-oils-scraps.md) | Raymond Plank |
+| [How Obsession Built Christopher Nolan](026-how-obsession-built-christopher-nolan.md) | Christopher Nolan |
+| [The Merchant Bankers](027-the-merchant-bankers.md) | Merchant banking dynasties (Rothschild, Baring, Warburg, Hambro, Lehman Brothers) |
+| [The Practical Genius of Honda](028-the-practical-genius-of-honda.md) | Soichiro Honda |
+| [Joseph Pulitzer: The Inventor of Mass Media](029-joseph-pulitzer-the-inventor-of-mass-media.md) | Joseph Pulitzer |
+| [The Simple Genius of Jony Ive](030-the-simple-genius-of-jony-ive.md) | Jony Ive |
+| [Steve Jobs in Exile](031-steve-jobs-in-exile.md) | Steve Jobs |
+| [Phil Knight: Founder of Nike](032-phil-knight-founder-of-nike.md) | Phil Knight |
+| [How Arnold Schwarzenegger Won](033-how-arnold-schwarzenegger-won.md) | Arnold Schwarzenegger |
+| [The Relentless Missionary Creating AGI: Demis Hassabis](034-the-relentless-missionary-creating-agi-demis-hassabis.md) | Demis Hassabis |
+| [How To Run Down A Dream](035-how-to-run-down-a-dream.md) | Bill Gurley |
+| [Tortured Into Greatness: The Life of Andre Agassi](036-tortured-into-greatness-the-life-of-andre-agassi.md) | Andre Agassi |
+| [Excellent Advice For Living: 79 Maxims from a Wise Old Man](037-excellent-advice-for-living-79-maxims-from-a-wise-old-man.md) | Kevin Kelly |
+| [How Rick Rubin Works](038-how-rick-rubin-works.md) | Rick Rubin |
+| [The Creative Genius of Rick Rubin](039-the-creative-genius-of-rick-rubin.md) | Rick Rubin |
+| [How To Make A Few MORE Billion Dollars: Brad Jacobs](040-how-to-make-a-few-more-billion-dollars-brad-jacobs.md) | Brad Jacobs |
+| [Bruce Springsteen Repairs Himself](041-bruce-springsteen-repairs-himself.md) | Bruce Springsteen |
+| [The Genius of Christian von Koenigsegg](042-the-genius-of-christian-von-koenigsegg.md) | Christian von Koenigsegg |
+| [Red Bull's Billionaire Maniac Founder](043-red-bulls-billionaire-maniac-founder.md) | Dietrich Mateschitz |
+| [Jiro Ono: Simplicity Is The Ultimate Advantage](044-jiro-ono-simplicity-is-the-ultimate-advantage.md) | Jiro Ono |
+| [The Obsession of Enzo Ferrari](045-the-obsession-of-enzo-ferrari.md) | Enzo Ferrari |
+| [The Outsiders Who Changed F1 Forever](046-the-outsiders-who-changed-f1-forever.md) | Colin Chapman, Bernie Ecclestone, and Dietrich Mateschitz (three F1 outsiders) |
+| [This Orphan Built a $116 Billion Empire Without You Noticing](047-this-orphan-built-a-116-billion-empire-without-you-noticing.md) | Leonardo Del Vecchio |
+| [The Greatest Marketer of All Time and The Cofounder of the Michelin Family Dynasty Andre Michelin](048-the-greatest-marketer-of-all-time-and-the-cofounder-of-the-m.md) | Andre Michelin |
+| [Michele Ferrero's $40 Billion Privately Owned Chocolate Empire](049-michele-ferreros-40-billion-privately-owned-chocolate-empire.md) | Michele Ferrero |
+| [Jimmy Iovine: Founder of Interscope Records & Legendary Record Producer](050-jimmy-iovine-founder-of-interscope-records-legendary-record.md) | Jimmy Iovine |
+| [Rare Steve Jobs's Rare Interview](051-rare-steve-jobs-s-rare-interview.md) | Steve Jobs |
+| [How Tamara Mellon Built Jimmy Choo](052-how-tamara-mellon-built-jimmy-choo.md) | Tamara Mellon |
+| [The Greatest Moneymaker of All Time: Jim Simons](053-the-greatest-moneymaker-of-all-time-jim-simons.md) | Jim Simons |
+| [The Life Story of Akio Morita: Founder of Sony](054-the-life-story-of-akio-morita-founder-of-sony.md) | Akio Morita |
+| [The Life Story of Michael Dell](055-the-life-story-of-michael-dell.md) | Michael Dell |
+| [Ken Griffin: Founder of Citadel and Citadel Securities](056-ken-griffin-founder-of-citadel-and-citadel-securities.md) | Ken Griffin |
+| [Todd Graves and His $10 Billion Chicken Finger Dream](057-todd-graves-and-his-10-billion-chicken-finger-dream.md) | Todd Graves |
+| [The Rise and Fall (and Rise) of the Most Powerful Man in Hollywood: Michael Ovitz](058-the-rise-and-fall-and-rise-of-the-most-powerful-man-in-holly.md) | Michael Ovitz |
+| [Dinner With Michael Ovitz](059-dinner-with-michael-ovitz.md) | Michael Ovitz |
+| [The Life Story of Jerry Jones: Owner of The Dallas Cowboys](060-the-life-story-of-jerry-jones-owner-of-the-dallas-cowboys.md) | Jerry Jones |
+| [The Last Oil Baron: Leon Hess](061-the-last-oil-baron-leon-hess.md) | Leon Hess |
+| [The Wallenberg Family Dynasty](062-the-wallenberg-family-dynasty.md) | Marcus Wallenberg Jr. and the Wallenberg family |
+| [How Jensen Thinks](063-how-jensen-thinks.md) | Jensen Huang |
+| [The Richest Woman In America: Hetty Green](064-the-richest-woman-in-america-hetty-green.md) | Hetty Green |
+| [Rare Jeff Bezos Interview](065-rare-jeff-bezos-interview.md) | Jeff Bezos |
+| [Breakfast with Brad Jacobs + How To Make A Few Billion Dollars](066-breakfast-with-brad-jacobs-how-to-make-a-few-billion-dollars.md) | Brad Jacobs |
+| [Amancio Ortega: The Genius Behind The Inditex Group](067-amancio-ortega-the-genius-behind-the-inditex-group.md) | Amancio Ortega |
+| [James J. Hill: The Empire Builder](068-james-j-hill-the-empire-builder.md) | James J. Hill |
+| [The Founder of IKEA: Ingvar Kamprad](069-the-founder-of-ikea-ingvar-kamprad.md) | Ingvar Kamprad |
+| [Elon Musk and The Early Days of SpaceX](070-elon-musk-and-the-early-days-of-spacex.md) | Elon Musk and the early SpaceX team |
+| [Nick Sleep's Letters: The Full Collection of the Nomad Investment Partnership Letters](071-nick-sleeps-letters-the-full-collection-of-the-nomad-investm.md) | Nick Sleep |
+| [Inside the Contrarian Mind of Sam Zell](072-inside-the-contrarian-mind-of-sam-zell.md) | Sam Zell |
+
 

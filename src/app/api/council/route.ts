@@ -8,7 +8,7 @@ import {
   type CouncilSource,
 } from "@/lib/council";
 import { figures } from "@/lib/figures";
-import { isLifeContextBrief, readLifeContextNotice } from "@/lib/lifeContext";
+import { canReadLifeContext, isLifeContextBrief, MAX_LIFE_CONTEXT_CHARS, readLifeContextNotice } from "@/lib/lifeContext";
 import { authenticateMcpToken } from "@/lib/membership";
 import { completeOpenRouter } from "@/lib/openrouter";
 import { skills, skillCatalogForRouting } from "@/lib/skills";
@@ -33,7 +33,23 @@ export type CouncilResponse = {
   route?: ModelRouteMeta;
 };
 
-const MAX_BRIEF_CHARS = 12_000;
+const privateHeaders = { "Cache-Control": "private, no-store" };
+
+// Preview is read-only: it never sends the brief to a model.
+export async function GET() {
+  const session = await auth();
+  if (!session?.user?.id) {
+    return Response.json({ error: "Sign in to review your brief" }, { status: 401, headers: privateHeaders });
+  }
+  if (!canReadLifeContext(session.user.id)) {
+    return Response.json({ error: "Mailbox unavailable", hint: "Paste your reviewed brief below. The local themain.quest connection is available only to its configured owner." }, { status: 404, headers: privateHeaders });
+  }
+  const notice = await readLifeContextNotice();
+  if (!notice) {
+    return Response.json({ error: "No life context is available", hint: "Export a brief from themain.quest, or write what you are struggling with below." }, { status: 404, headers: privateHeaders });
+  }
+  return Response.json({ brief: notice.markdown, source: { kind: "themain.quest", createdAt: notice.createdAt, id: notice.id } }, { headers: privateHeaders });
+}
 
 export async function POST(req: NextRequest) {
   const session = await auth();
@@ -55,6 +71,9 @@ export async function POST(req: NextRequest) {
   let source: CouncilResponse["source"] = { kind: "pasted" };
 
   if (!brief) {
+    if (!canReadLifeContext(session?.user?.id ?? mcpUserId)) {
+      return Response.json({ error: "Provide your own reviewed personal brief" }, { status: 403, headers: privateHeaders });
+    }
     const notice = await readLifeContextNotice();
     if (!notice) {
       return Response.json(
@@ -75,7 +94,9 @@ export async function POST(req: NextRequest) {
       { status: 400 },
     );
   }
-  brief = brief.slice(0, MAX_BRIEF_CHARS);
+  if (brief.length > MAX_LIFE_CONTEXT_CHARS) {
+    return Response.json({ error: `Keep your brief under ${MAX_LIFE_CONTEXT_CHARS.toLocaleString()} characters` }, { status: 400, headers: privateHeaders });
+  }
 
   try {
     const response = await completeOpenRouter({
@@ -92,7 +113,7 @@ export async function POST(req: NextRequest) {
       seatedBy: "model",
       route: response.meta,
     };
-    return Response.json(payload);
+    return Response.json(payload, { headers: privateHeaders });
   } catch (error) {
     console.error("[council] fell back to domain ranking:", error instanceof Error ? error.message : error);
     const payload: CouncilResponse = {
@@ -101,6 +122,6 @@ export async function POST(req: NextRequest) {
       council: councilByDomains(brief, figures),
       seatedBy: "domains",
     };
-    return Response.json(payload);
+    return Response.json(payload, { headers: privateHeaders });
   }
 }

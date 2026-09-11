@@ -32,9 +32,10 @@ export async function POST(req: NextRequest) {
   );
   if (!license.ok) return licenseError(license);
 
-  const { figure: figureSlug, messages } = (await req.json()) as {
+  const { figure: figureSlug, messages, mode } = (await req.json()) as {
     figure?: string;
     messages?: ChatMessageInput[];
+    mode?: string;
   };
   const figure = figureSlug ? getFigure(figureSlug) : undefined;
   if (!figure) {
@@ -55,6 +56,7 @@ export async function POST(req: NextRequest) {
     figure.systemPrompt,
     grounding,
     hasLifeContext ? LIFE_CONTEXT_RULES : "",
+    mode === "voice" ? "VOICE CONVERSATION: Give a natural spoken response, usually 2-4 short sentences. Make one useful point, then ask one thoughtful question if needed. Avoid lists, headings, and long monologues. Keep source citations at the end for the transcript. You are an AI guide inspired by public works; never claim to be the actual person or imply a real phone connection." : "",
   ]
     .filter(Boolean)
     .join("\n\n");

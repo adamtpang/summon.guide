@@ -9,6 +9,7 @@ const MUSIC_MAP: Record<string, string> = {
   "hesse": "/music/ancient-greek.mp3",
   "pressfield": "/music/modern-electronic.mp3",
   "vervaeke": "/music/modern-electronic.mp3",
+  "paul-graham": "/music/modern-electronic.mp3",
   home: "/music/home-ambient.mp3",
   "rockefeller": "/music/american-industrial.mp3",
   "franklin": "/music/colonial-american.mp3",
@@ -97,7 +98,8 @@ export default function AmbientMusic({ trackKey, className = "" }: AmbientMusicP
   return (
     <button
       onClick={toggleMusic}
-      className={`flex items-center gap-1.5 text-[10px] uppercase tracking-wider transition-all ${className}`}
+      className={`flex min-h-11 items-center gap-1.5 rounded-full px-2 text-[10px] uppercase tracking-wider transition-all ${className}`}
+      aria-label={playing ? "Pause ambient music" : "Play ambient music"}
       title={playing ? "Pause ambient music" : "Play ambient music"}
     >
       {playing ? (
@@ -108,7 +110,7 @@ export default function AmbientMusic({ trackKey, className = "" }: AmbientMusicP
                 key={i}
                 className="w-[2px] rounded-full bg-current animate-pulse"
                 style={{
-                  height: `${40 + Math.random() * 60}%`,
+                  height: `${[55, 85, 65, 100][i]}%`,
                   animationDelay: `${i * 0.15}s`,
                   animationDuration: "0.8s",
                 }}

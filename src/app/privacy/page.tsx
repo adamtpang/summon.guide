@@ -22,7 +22,7 @@ export default function PrivacyPage() {
           Privacy Policy
         </h1>
         <p className="text-slate-400 text-xs mb-10">
-          Effective August 14, 2026
+          Effective August 29, 2026
         </p>
 
         <div className="space-y-8 text-slate-600 text-sm leading-relaxed [&_h2]:text-slate-900 [&_h2]:font-serif [&_h2]:text-lg [&_h2]:font-medium [&_h2]:mb-3 [&_h2]:mt-10 [&_strong]:text-slate-900 [&_a]:text-blue-600 [&_a]:underline [&_a]:underline-offset-2">
@@ -49,22 +49,25 @@ export default function PrivacyPage() {
             </p>
             <p className="mt-4">
               <strong>Chat messages:</strong> when you chat with a guide,
-              your message is sent to Anthropic&apos;s Claude API to
-              generate a response.{" "}
+              your message and the guide&apos;s grounding material are sent
+              through OpenRouter to the model provider selected by our
+              reliability waterfall.{" "}
               <strong>
                 We do not store your chat messages or conversation history in
                 our own database
               </strong>
               , each conversation exists only in your browser for the
-              duration of your session. Anthropic processes the message to
-              generate the reply, subject to Anthropic&apos;s own API terms
-              and data retention policy (see{" "}
+              duration of your session. OpenRouter says prompt and response
+              logging is off by default unless the account opts in. We also
+              tell OpenRouter to exclude providers marked as collecting model
+              inputs. OpenRouter and the selected provider still process the
+              message under their own terms and data practices (see{" "}
               <a
-                href="https://www.anthropic.com/legal/privacy"
+                href="https://openrouter.ai/privacy"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                anthropic.com/legal/privacy
+                openrouter.ai/privacy
               </a>
               ).
             </p>
@@ -139,7 +142,7 @@ export default function PrivacyPage() {
                     <td className="py-2">Sign-in</td>
                   </tr>
                   <tr className="border-b border-slate-100">
-                    <td className="py-2 pr-4">Anthropic</td>
+                    <td className="py-2 pr-4">OpenRouter and selected model provider</td>
                     <td className="py-2 pr-4">Your chat message, the guide&apos;s grounding data</td>
                     <td className="py-2">Generating the guide&apos;s reply</td>
                   </tr>
@@ -168,7 +171,7 @@ export default function PrivacyPage() {
             <ul className="list-disc pl-5 space-y-1.5">
               <li><strong>Account data</strong> (name, email, image, credit balance): kept as long as your account exists.</li>
               <li><strong>Feedback:</strong> kept indefinitely as product feedback, unless you ask us to delete it.</li>
-              <li><strong>Chat messages:</strong> not retained by us at all, governed by Anthropic&apos;s own retention policy on their end.</li>
+              <li><strong>Chat messages:</strong> not retained by us at all. OpenRouter and the selected provider process them under their own data policies.</li>
               <li><strong>Anonymous free-trial usage:</strong> lives only in your browser&apos;s local storage, clearing your browser data clears it.</li>
             </ul>
           </section>
@@ -180,8 +183,9 @@ export default function PrivacyPage() {
               any time by contacting{" "}
               <a href="mailto:adamtpang@gmail.com">adamtpang@gmail.com</a>.
               Since chat messages aren&apos;t stored by us, there&apos;s
-              nothing to delete there beyond what Anthropic may retain per
-              their own policy.
+              nothing to delete from our database. OpenRouter or the selected
+              provider may have separate rights-request processes under their
+              own policies.
             </p>
           </section>
 

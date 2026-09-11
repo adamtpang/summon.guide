@@ -54,6 +54,17 @@ export interface Profile {
 }
 
 export const profiles: Record<string, Profile> = {
+  "pendleton-ward": {
+    slug: "pendleton-ward",
+    occupation: "Animator, writer, and voice actor",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Pendleton_Ward",
+    notableWorks: ["Adventure Time", "The Midnight Gospel"],
+    earlyLife: "Ward's account of learning animation emphasizes curiosity about the whole production process. While working on Flapjack, he asked to observe editing, animatics, and music work.",
+    career: "Pendleton Ward created Adventure Time and co-created The Midnight Gospel with Duncan Trussell. This guide draws on selected public interviews about creative collaboration, characterization, and kindness.",
+    legacy: "An independent AI interpretation of public material. The exercises are Summon adaptations, not an official Ward program or a claim of endorsement.",
+    notableQuotes: [],
+    primarySources: ["Max Eddy, Inside the Fun Factory, The Mary Sue (2012)", "GeekDad, Interview Time, WIRED (2012)", "Rollin Bishop, The Midnight Gospel interview, ComicBook (2020)", "Portrait: Al Pavangkanan, via Wikimedia Commons; CC BY 2.0; cropped by Commons contributor. https://commons.wikimedia.org/wiki/File:Pendleton_Ward_at_the_Tomorrow_Show.jpg ; https://creativecommons.org/licenses/by/2.0/"],
+  },
   rockefeller: {
     slug: "rockefeller",
     occupation: "Industrialist, philanthropist, founder of Standard Oil",
@@ -2466,6 +2477,64 @@ export const profiles: Record<string, Profile> = {
       "Brad Jacobs: How Therapy Made Me Billions, The Knowledge Project with Shane Parrish, Episode 190",
       "Founders podcast, Episode 335: How to Make a Few Billion Dollars: Brad Jacobs",
       "Wikipedia, \"Brad Jacobs (businessman),\" and contemporaneous press coverage of QXO's Beacon, GMS, Kodiak, and TopBuild transactions (2025–2026)",
+    ],
+  },
+
+  "paul-graham": {
+    slug: "paul-graham",
+    occupation: "Programmer, essayist, entrepreneur, and investor",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)",
+
+    fullName: "Paul Graham",
+    birthDate: "November 13, 1964",
+    birthPlace: "Weymouth, Dorset, England",
+    nationality: "British-American",
+    education: [
+      "Cornell University (AB, philosophy)",
+      "Harvard University (MS and PhD, computer science)",
+      "Rhode Island School of Design",
+      "Accademia di Belle Arti, Florence",
+    ],
+    occupations: [
+      "Programmer and language designer",
+      "Co-founder, Viaweb (1995)",
+      "Co-founder, Y Combinator (2005)",
+      "Essayist and author",
+      "Painter",
+    ],
+    yearsActive: "1990s–present",
+    notableWorks: [
+      "Viaweb, acquired by Yahoo in 1998",
+      "Y Combinator",
+      "Essays at paulgraham.com",
+      "On Lisp (1993)",
+      "Hackers & Painters (2004)",
+    ],
+    spouses: ["Jessica Livingston"],
+
+    earlyLife:
+      "Paul Graham was born in Weymouth, Dorset, England, and grew up in the United States. He studied philosophy at Cornell University, then computer science at Harvard, where he earned a doctorate. He also studied painting at the Rhode Island School of Design and at the Accademia di Belle Arti in Florence. Programming and painting remained parallel parts of his working life, and his later essays repeatedly returned to the shared problems of taste, craft, originality, and making.",
+
+    career:
+      "In 1995 Graham and Robert Morris started Viaweb, software that let merchants build online stores in a browser and one of the earliest substantial web applications. Yahoo acquired the company in 1998, where it became Yahoo Store. Graham began publishing essays on paulgraham.com in 2001, writing about programming languages, startups, writing, taste, wealth, cities, education, and ambitious work. In 2005 he co-founded Y Combinator with Jessica Livingston, Robert Morris, and Trevor Blackwell. YC combined small seed investments, a fixed batch, close office hours, and a public Demo Day, helping establish the modern accelerator model.",
+
+    legacy:
+      "Graham's influence comes from the combination of operating experience and unusually durable writing. His startup essays gave founders compact tests such as making something people want, doing things that do not scale, and asking whether a company is default alive. His essays on maker schedules, independent thought, writing, taste, and great work widened that advice beyond startups. His official biography also lists the Lisp books On Lisp and ANSI Common Lisp, the essay collection Hackers & Painters, and Bel, a Lisp dialect written in itself.",
+
+    notableQuotes: [
+      "Make something people want.",
+      "Do things that don't scale.",
+      "You can be smart without being very curious. But you can't do great work without being very curious.",
+    ],
+    primarySources: [
+      "Paul Graham's essay archive at paulgraham.com",
+      "Paul Graham's official biography at paulgraham.com/bio.html",
+      "How to Start a Startup (2005)",
+      "Maker's Schedule, Manager's Schedule (2009)",
+      "Do Things that Don't Scale (2013)",
+      "Default Alive or Default Dead? (2015)",
+      "Putting Ideas into Words (2022)",
+      "How to Do Great Work (2023)",
     ],
   },
 

@@ -36,7 +36,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.7,
-
+    },
+    {
+      url: `${baseUrl}/sage`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/watch`,
@@ -69,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.9,
       },
       {
-        url: `${baseUrl}/chat/${figure.slug}`,
+        url: `${baseUrl}/${figure.slug}/about`,
         lastModified: new Date(),
         changeFrequency: "monthly" as const,
         priority: 0.8,

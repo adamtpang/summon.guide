@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-09-08",
+  "sources": [
+    {
+      "slug": "founders-podcast",
+      "label": "Founders Podcast",
+      "channel": "@founderspodcast1",
+      "syncedAt": "2026-09-08",
+      "episodes": 170,
+      "words": 2117329,
+      "captionFailures": 0,
+      "syntheses": 72,
+      "pendingSyntheses": 98,
+      "privateSemanticIndexReady": false
+    },
+    {
+      "slug": "david-senra-conversations",
+      "label": "David Senra conversations",
+      "channel": "@DavidSenra",
+      "syncedAt": "2026-09-08",
+      "episodes": 38,
+      "words": 764360,
+      "captionFailures": 0,
+      "syntheses": 37,
+      "pendingSyntheses": 1,
+      "privateSemanticIndexReady": false
+    }
+  ],
+  "totals": {
+    "privateEpisodes": 208,
+    "privateWords": 2881689,
+    "syntheses": 109,
+    "pendingSyntheses": 99,
+    "captionFailures": 0,
+    "synthesisCoveragePercent": 52.4,
+    "privateSemanticIndexesReady": false
+  },
+  "publicationBoundary": {
+    "publicRuntime": "original episode syntheses only",
+    "privateResearch": "raw transcripts and local semantic indexes"
+  }
+}

@@ -1,0 +1,1548 @@
+[
+  {
+    "id": "person:adam-neumann",
+    "name": "Adam Neumann",
+    "availability": "ready",
+    "directory": "person-adam-neumann",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "billion-dollar-loser",
+      "the-cult-of-we"
+    ],
+    "skillSlugs": [
+      "mission-as-moat",
+      "narrative-arbitrage",
+      "s1-reality-check"
+    ]
+  },
+  {
+    "id": "person:albert-einstein",
+    "name": "Albert Einstein",
+    "availability": "building",
+    "directory": "person-albert-einstein",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:alexander",
+    "name": "Alexander the Great",
+    "availability": "ready",
+    "directory": "person-alexander",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "life-of-alexander-plutarch",
+      "campaigns-of-alexander-arrian",
+      "alexander-the-great-fox"
+    ],
+    "skillSlugs": [
+      "lead-from-front",
+      "decisive-point"
+    ]
+  },
+  {
+    "id": "person:alysa-liu",
+    "name": "Alysa Liu",
+    "availability": "building",
+    "directory": "person-alysa-liu",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:annie-duke",
+    "name": "Annie Duke",
+    "availability": "ready",
+    "directory": "person-annie-duke",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "thinking-in-bets"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:franklin",
+    "name": "Benjamin Franklin",
+    "availability": "ready",
+    "directory": "person-franklin",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "autobiography-of-benjamin-franklin",
+      "benjamin-franklin-an-american-life"
+    ],
+    "skillSlugs": [
+      "thirteen-virtues",
+      "junto"
+    ]
+  },
+  {
+    "id": "person:bob-marley",
+    "name": "Bob Marley",
+    "availability": "ready",
+    "directory": "person-bob-marley",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:brad-jacobs",
+    "name": "Brad Jacobs",
+    "availability": "ready",
+    "directory": "person-brad-jacobs",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:brian-armstrong",
+    "name": "Brian Armstrong",
+    "availability": "ready",
+    "directory": "person-brian-armstrong",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:cal-newport",
+    "name": "Cal Newport",
+    "availability": "ready",
+    "directory": "person-cal-newport",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "deep-work"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:carol-dweck",
+    "name": "Carol Dweck",
+    "availability": "ready",
+    "directory": "person-carol-dweck",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "mindset"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:charlie-munger",
+    "name": "Charlie Munger",
+    "availability": "ready",
+    "directory": "person-charlie-munger",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "poor-charlies-almanack"
+    ],
+    "skillSlugs": [
+      "charlie-munger",
+      "invert-the-problem",
+      "incentive-audit",
+      "lollapalooza-check",
+      "berkshire-system",
+      "deserved-trust"
+    ]
+  },
+  {
+    "id": "person:daniel-ek",
+    "name": "Daniel Ek",
+    "availability": "ready",
+    "directory": "person-daniel-ek",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:dave-ramsey",
+    "name": "Dave Ramsey",
+    "availability": "ready",
+    "directory": "person-dave-ramsey",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": [
+      "zero-based-budget",
+      "debt-snowball",
+      "emergency-fund-triage"
+    ]
+  },
+  {
+    "id": "person:deutsch",
+    "name": "David Deutsch",
+    "availability": "ready",
+    "directory": "person-deutsch",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-beginning-of-infinity",
+      "the-fabric-of-reality"
+    ],
+    "skillSlugs": [
+      "jump-to-universality",
+      "replicator-interest",
+      "spot-bad-philosophy",
+      "choice-as-explanation",
+      "rational-vs-anti-rational-memes",
+      "unsustainable-by-design",
+      "problem-solving-cycle",
+      "kicked-rock-test",
+      "universal-version",
+      "certainty-audit",
+      "seminar-room-rule"
+    ]
+  },
+  {
+    "id": "person:senra",
+    "name": "David Senra",
+    "availability": "ready",
+    "directory": "person-senra",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "founders-podcast"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:sivers",
+    "name": "Derek Sivers",
+    "availability": "ready",
+    "directory": "person-sivers",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "anything-you-want",
+      "your-music-and-people",
+      "hell-yeah-or-no",
+      "how-to-live",
+      "useful-not-true"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:elon",
+    "name": "Elon Musk",
+    "availability": "ready",
+    "directory": "person-elon",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "elon-musk-isaacson",
+      "elon-musk-vance",
+      "the-book-of-elon"
+    ],
+    "skillSlugs": [
+      "first-principles",
+      "five-step-algorithm",
+      "idiot-index"
+    ]
+  },
+  {
+    "id": "person:evan-spiegel",
+    "name": "Evan Spiegel",
+    "availability": "ready",
+    "directory": "person-evan-spiegel",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:henry-kissinger",
+    "name": "Henry Kissinger",
+    "availability": "building",
+    "directory": "person-henry-kissinger",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:hesse",
+    "name": "Hermann Hesse",
+    "availability": "ready",
+    "directory": "person-hesse",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "siddhartha"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:james-clear",
+    "name": "James Clear",
+    "availability": "ready",
+    "directory": "person-james-clear",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "atomic-habits"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:james-dyson",
+    "name": "James Dyson",
+    "availability": "ready",
+    "directory": "person-james-dyson",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:jeff-bezos",
+    "name": "Jeff Bezos",
+    "availability": "ready",
+    "directory": "person-jeff-bezos",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:jennifer-doudna",
+    "name": "Jennifer Doudna",
+    "availability": "building",
+    "directory": "person-jennifer-doudna",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:jensen-huang",
+    "name": "Jensen Huang",
+    "availability": "ready",
+    "directory": "person-jensen-huang",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-nvidia-way"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:jimmy-iovine",
+    "name": "Jimmy Iovine",
+    "availability": "ready",
+    "directory": "person-jimmy-iovine",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:rockefeller",
+    "name": "John D. Rockefeller",
+    "availability": "ready",
+    "directory": "person-rockefeller",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "titan-chernow"
+    ],
+    "skillSlugs": [
+      "ledger",
+      "crisis"
+    ]
+  },
+  {
+    "id": "person:john-mackey",
+    "name": "John Mackey",
+    "availability": "ready",
+    "directory": "person-john-mackey",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:vervaeke",
+    "name": "John Vervaeke",
+    "availability": "ready",
+    "directory": "person-vervaeke",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "zombies-in-western-culture"
+    ],
+    "skillSlugs": [
+      "vervaeke",
+      "four-kinds-of-knowing",
+      "relevance-realization",
+      "ecology-of-practices"
+    ]
+  },
+  {
+    "id": "person:lee-kuan-yew",
+    "name": "Lee Kuan Yew",
+    "availability": "ready",
+    "directory": "person-lee-kuan-yew",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-singapore-story",
+      "from-third-world-to-first",
+      "one-mans-view-of-the-world"
+    ],
+    "skillSlugs": [
+      "pragmatist-test",
+      "incorruptibility"
+    ]
+  },
+  {
+    "id": "person:leonardo-da-vinci",
+    "name": "Leonardo da Vinci",
+    "availability": "building",
+    "directory": "person-leonardo-da-vinci",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:seneca",
+    "name": "Lucius Annaeus Seneca",
+    "availability": "ready",
+    "directory": "person-seneca",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "letters-from-a-stoic",
+      "on-the-shortness-of-life",
+      "on-anger"
+    ],
+    "skillSlugs": [
+      "letters-from-a-stoic",
+      "on-the-shortness-of-life",
+      "on-anger"
+    ]
+  },
+  {
+    "id": "person:lulie-tanett",
+    "name": "Lulie Tanett",
+    "availability": "ready",
+    "directory": "person-lulie-tanett",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "reason-is-fun-essays"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:marc-andreessen",
+    "name": "Marc Andreessen",
+    "availability": "ready",
+    "directory": "person-marc-andreessen",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "why-software-is-eating-the-world",
+      "its-time-to-build",
+      "techno-optimist-manifesto"
+    ],
+    "skillSlugs": [
+      "software-eats-the-world",
+      "its-time-to-build",
+      "techno-optimism"
+    ]
+  },
+  {
+    "id": "person:marcus-aurelius",
+    "name": "Marcus Aurelius",
+    "availability": "ready",
+    "directory": "person-marcus-aurelius",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "meditations"
+    ],
+    "skillSlugs": [
+      "dichotomy-of-control",
+      "view-from-above",
+      "memento-mori"
+    ]
+  },
+  {
+    "id": "person:marie-curie",
+    "name": "Marie Curie",
+    "availability": "ready",
+    "directory": "person-marie-curie",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:napoleon-hill",
+    "name": "Napoleon Hill",
+    "availability": "ready",
+    "directory": "person-napoleon-hill",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "think-and-grow-rich"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:nassim-taleb",
+    "name": "Nassim Nicholas Taleb",
+    "availability": "ready",
+    "directory": "person-nassim-taleb",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "fooled-by-randomness",
+      "the-black-swan",
+      "skin-in-the-game"
+    ],
+    "skillSlugs": [
+      "alternative-histories",
+      "count-the-monkeys",
+      "match-the-observation-window",
+      "weight-the-magnitude",
+      "distrust-the-hot-streak",
+      "falsify-before-you-commit",
+      "black-swan-triplet-test",
+      "mediocristan-extremistan-map",
+      "turkey-problem",
+      "narrative-fallacy-guard",
+      "silent-evidence-audit",
+      "ludic-fallacy-check",
+      "fourth-quadrant-map",
+      "portfolio-not-opinion",
+      "minority-rule",
+      "intellectual-yet-idiot",
+      "skin-of-others-audit",
+      "green-lumber-test",
+      "merchandising-of-virtue"
+    ]
+  },
+  {
+    "id": "person:naval-ravikant",
+    "name": "Naval Ravikant",
+    "availability": "ready",
+    "directory": "person-naval-ravikant",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:paul-graham",
+    "name": "Paul Graham",
+    "availability": "ready",
+    "directory": "person-paul-graham",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "paul-graham-essays"
+    ],
+    "skillSlugs": [
+      "paul-graham",
+      "do-things-that-dont-scale",
+      "default-alive",
+      "maker-schedule",
+      "great-work-project"
+    ]
+  },
+  {
+    "id": "person:paul-millerd",
+    "name": "Paul Millerd",
+    "availability": "ready",
+    "directory": "person-paul-millerd",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-pathless-path"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:pendleton-ward",
+    "name": "Pendleton Ward",
+    "availability": "ready",
+    "directory": "person-pendleton-ward",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "pendleton-ward-selected-interviews",
+      "adventure-time-art-of-ooo"
+    ],
+    "skillSlugs": [
+      "creative-play",
+      "practice-kindness"
+    ]
+  },
+  {
+    "id": "person:peter-thiel",
+    "name": "Peter Thiel",
+    "availability": "ready",
+    "directory": "person-peter-thiel",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "zero-to-one"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:ray-dalio",
+    "name": "Ray Dalio",
+    "availability": "ready",
+    "directory": "person-ray-dalio",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "principles",
+      "principles-for-dealing-with-the-changing-world-order"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:ricky-gervais",
+    "name": "Ricky Gervais",
+    "availability": "ready",
+    "directory": "person-ricky-gervais",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:sam-walton",
+    "name": "Sam Walton",
+    "availability": "ready",
+    "directory": "person-sam-walton",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:steve-jobs",
+    "name": "Steve Jobs",
+    "availability": "ready",
+    "directory": "person-steve-jobs",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "steve-jobs-isaacson"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:pressfield",
+    "name": "Steven Pressfield",
+    "availability": "ready",
+    "directory": "person-pressfield",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-war-of-art"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:tim-ferriss",
+    "name": "Tim Ferriss",
+    "availability": "ready",
+    "directory": "person-tim-ferriss",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "tools-of-titans",
+      "tribe-of-mentors"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:tobi-lutke",
+    "name": "Tobi Lütke",
+    "availability": "ready",
+    "directory": "person-tobi-lutke",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:todd-graves",
+    "name": "Todd Graves",
+    "availability": "ready",
+    "directory": "person-todd-graves",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:visakan",
+    "name": "Visakan Veerasamy",
+    "availability": "ready",
+    "directory": "person-visakan",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "friendly-ambitious-nerd"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:warren-buffett",
+    "name": "Warren Buffett",
+    "availability": "ready",
+    "directory": "person-warren-buffett",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "berkshire-shareholder-letters"
+    ],
+    "skillSlugs": [
+      "warren-buffett",
+      "owner-earnings",
+      "circle-of-competence",
+      "retained-earnings-test",
+      "financial-fortress",
+      "acquisition-filter"
+    ]
+  },
+  {
+    "id": "book:adventure-time-art-of-ooo",
+    "name": "Adventure Time: The Art of Ooo",
+    "availability": "building",
+    "directory": "book-adventure-time-art-of-ooo",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "adventure-time-art-of-ooo"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:alexander-the-great-fox",
+    "name": "Alexander the Great",
+    "availability": "building",
+    "directory": "book-alexander-the-great-fox",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "alexander-the-great-fox"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:anything-you-want",
+    "name": "Anything You Want",
+    "availability": "ready",
+    "directory": "book-anything-you-want",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "anything-you-want"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:atomic-habits",
+    "name": "Atomic Habits",
+    "availability": "ready",
+    "directory": "book-atomic-habits",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "atomic-habits"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:benjamin-franklin-an-american-life",
+    "name": "Benjamin Franklin: An American Life",
+    "availability": "building",
+    "directory": "book-benjamin-franklin-an-american-life",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "benjamin-franklin-an-american-life"
+    ],
+    "skillSlugs": [
+      "junto"
+    ]
+  },
+  {
+    "id": "book:berkshire-shareholder-letters",
+    "name": "Berkshire Hathaway Shareholder Letters, 1977-2024",
+    "availability": "ready",
+    "directory": "book-berkshire-shareholder-letters",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "berkshire-shareholder-letters"
+    ],
+    "skillSlugs": [
+      "warren-buffett",
+      "owner-earnings",
+      "circle-of-competence",
+      "retained-earnings-test",
+      "financial-fortress",
+      "acquisition-filter"
+    ]
+  },
+  {
+    "id": "book:billion-dollar-loser",
+    "name": "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork",
+    "availability": "building",
+    "directory": "book-billion-dollar-loser",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "billion-dollar-loser"
+    ],
+    "skillSlugs": [
+      "mission-as-moat",
+      "narrative-arbitrage"
+    ]
+  },
+  {
+    "id": "book:deep-work",
+    "name": "Deep Work",
+    "availability": "ready",
+    "directory": "book-deep-work",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "deep-work"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:elon-musk-isaacson",
+    "name": "Elon Musk",
+    "availability": "building",
+    "directory": "book-elon-musk-isaacson",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "elon-musk-isaacson"
+    ],
+    "skillSlugs": [
+      "first-principles",
+      "five-step-algorithm",
+      "idiot-index"
+    ]
+  },
+  {
+    "id": "book:elon-musk-vance",
+    "name": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+    "availability": "ready",
+    "directory": "book-elon-musk-vance",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "elon-musk-vance"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:fooled-by-randomness",
+    "name": "Fooled by Randomness",
+    "availability": "ready",
+    "directory": "book-fooled-by-randomness",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "fooled-by-randomness"
+    ],
+    "skillSlugs": [
+      "alternative-histories",
+      "count-the-monkeys",
+      "match-the-observation-window",
+      "weight-the-magnitude",
+      "distrust-the-hot-streak",
+      "falsify-before-you-commit"
+    ]
+  },
+  {
+    "id": "book:friendly-ambitious-nerd",
+    "name": "Friendly Ambitious Nerd",
+    "availability": "ready",
+    "directory": "book-friendly-ambitious-nerd",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "friendly-ambitious-nerd"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:from-third-world-to-first",
+    "name": "From Third World to First: The Singapore Story 1965–2000",
+    "availability": "building",
+    "directory": "book-from-third-world-to-first",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "from-third-world-to-first"
+    ],
+    "skillSlugs": [
+      "pragmatist-test",
+      "incorruptibility"
+    ]
+  },
+  {
+    "id": "book:hell-yeah-or-no",
+    "name": "Hell Yeah or No",
+    "availability": "ready",
+    "directory": "book-hell-yeah-or-no",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "hell-yeah-or-no"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:how-to-live",
+    "name": "How to Live",
+    "availability": "ready",
+    "directory": "book-how-to-live",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "how-to-live"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:its-time-to-build",
+    "name": "It's Time to Build",
+    "availability": "ready",
+    "directory": "book-its-time-to-build",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "its-time-to-build"
+    ],
+    "skillSlugs": [
+      "its-time-to-build"
+    ]
+  },
+  {
+    "id": "book:letters-from-a-stoic",
+    "name": "Letters from a Stoic (Epistulae Morales ad Lucilium)",
+    "availability": "ready",
+    "directory": "book-letters-from-a-stoic",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "letters-from-a-stoic"
+    ],
+    "skillSlugs": [
+      "letters-from-a-stoic"
+    ]
+  },
+  {
+    "id": "book:life-of-alexander-plutarch",
+    "name": "Life of Alexander",
+    "availability": "ready",
+    "directory": "book-life-of-alexander-plutarch",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "life-of-alexander-plutarch"
+    ],
+    "skillSlugs": [
+      "lead-from-front"
+    ]
+  },
+  {
+    "id": "book:meditations",
+    "name": "Meditations",
+    "availability": "ready",
+    "directory": "book-meditations",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "meditations"
+    ],
+    "skillSlugs": [
+      "dichotomy-of-control",
+      "view-from-above",
+      "memento-mori"
+    ]
+  },
+  {
+    "id": "book:mindset",
+    "name": "Mindset: The New Psychology of Success",
+    "availability": "ready",
+    "directory": "book-mindset",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "mindset"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:on-anger",
+    "name": "On Anger (De Ira)",
+    "availability": "building",
+    "directory": "book-on-anger",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "on-anger"
+    ],
+    "skillSlugs": [
+      "on-anger"
+    ]
+  },
+  {
+    "id": "book:on-the-shortness-of-life",
+    "name": "On the Shortness of Life (De Brevitate Vitae)",
+    "availability": "building",
+    "directory": "book-on-the-shortness-of-life",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "on-the-shortness-of-life"
+    ],
+    "skillSlugs": [
+      "on-the-shortness-of-life"
+    ]
+  },
+  {
+    "id": "book:one-mans-view-of-the-world",
+    "name": "One Man's View of the World",
+    "availability": "building",
+    "directory": "book-one-mans-view-of-the-world",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "one-mans-view-of-the-world"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:paul-graham-essays",
+    "name": "Paul Graham: Selected Essays",
+    "availability": "ready",
+    "directory": "book-paul-graham-essays",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "paul-graham-essays"
+    ],
+    "skillSlugs": [
+      "paul-graham",
+      "do-things-that-dont-scale",
+      "default-alive",
+      "maker-schedule",
+      "great-work-project"
+    ]
+  },
+  {
+    "id": "book:pendleton-ward-selected-interviews",
+    "name": "Pendleton Ward: Selected Public Interviews",
+    "availability": "building",
+    "directory": "book-pendleton-ward-selected-interviews",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "pendleton-ward-selected-interviews"
+    ],
+    "skillSlugs": [
+      "creative-play",
+      "practice-kindness"
+    ]
+  },
+  {
+    "id": "book:poor-charlies-almanack",
+    "name": "Poor Charlie's Almanack",
+    "availability": "ready",
+    "directory": "book-poor-charlies-almanack",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "poor-charlies-almanack"
+    ],
+    "skillSlugs": [
+      "charlie-munger",
+      "invert-the-problem",
+      "incentive-audit",
+      "lollapalooza-check",
+      "berkshire-system",
+      "deserved-trust"
+    ]
+  },
+  {
+    "id": "book:principles",
+    "name": "Principles",
+    "availability": "ready",
+    "directory": "book-principles",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "principles"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:principles-for-dealing-with-the-changing-world-order",
+    "name": "Principles for Dealing with the Changing World Order",
+    "availability": "ready",
+    "directory": "book-principles-for-dealing-with-the-changing-world-order",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "principles-for-dealing-with-the-changing-world-order"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:reason-is-fun-essays",
+    "name": "Reason Is Fun: Selected Essays",
+    "availability": "ready",
+    "directory": "book-reason-is-fun-essays",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "reason-is-fun-essays"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:siddhartha",
+    "name": "Siddhartha",
+    "availability": "ready",
+    "directory": "book-siddhartha",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "siddhartha"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:skin-in-the-game",
+    "name": "Skin in the Game",
+    "availability": "ready",
+    "directory": "book-skin-in-the-game",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "skin-in-the-game"
+    ],
+    "skillSlugs": [
+      "portfolio-not-opinion",
+      "minority-rule",
+      "intellectual-yet-idiot",
+      "skin-of-others-audit",
+      "green-lumber-test",
+      "merchandising-of-virtue"
+    ]
+  },
+  {
+    "id": "book:steve-jobs-isaacson",
+    "name": "Steve Jobs",
+    "availability": "ready",
+    "directory": "book-steve-jobs-isaacson",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "steve-jobs-isaacson"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:tao-te-ching",
+    "name": "Tao Te Ching",
+    "availability": "ready",
+    "directory": "book-tao-te-ching",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "tao-te-ching"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:autobiography-of-benjamin-franklin",
+    "name": "The Autobiography of Benjamin Franklin",
+    "availability": "ready",
+    "directory": "book-autobiography-of-benjamin-franklin",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "autobiography-of-benjamin-franklin"
+    ],
+    "skillSlugs": [
+      "thirteen-virtues"
+    ]
+  },
+  {
+    "id": "book:the-beginning-of-infinity",
+    "name": "The Beginning of Infinity",
+    "availability": "ready",
+    "directory": "book-the-beginning-of-infinity",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-beginning-of-infinity"
+    ],
+    "skillSlugs": [
+      "jump-to-universality",
+      "replicator-interest",
+      "spot-bad-philosophy",
+      "choice-as-explanation",
+      "rational-vs-anti-rational-memes",
+      "unsustainable-by-design"
+    ]
+  },
+  {
+    "id": "book:bible",
+    "name": "The Bible: Wisdom & Teaching",
+    "availability": "ready",
+    "directory": "book-bible",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "bible"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:the-black-swan",
+    "name": "The Black Swan",
+    "availability": "ready",
+    "directory": "book-the-black-swan",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-black-swan"
+    ],
+    "skillSlugs": [
+      "black-swan-triplet-test",
+      "mediocristan-extremistan-map",
+      "turkey-problem",
+      "narrative-fallacy-guard",
+      "silent-evidence-audit",
+      "ludic-fallacy-check",
+      "fourth-quadrant-map"
+    ]
+  },
+  {
+    "id": "book:the-book-of-elon",
+    "name": "The Book of Elon",
+    "availability": "building",
+    "directory": "book-the-book-of-elon",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-book-of-elon"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:campaigns-of-alexander-arrian",
+    "name": "The Campaigns of Alexander (Anabasis Alexandri)",
+    "availability": "building",
+    "directory": "book-campaigns-of-alexander-arrian",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "campaigns-of-alexander-arrian"
+    ],
+    "skillSlugs": [
+      "decisive-point"
+    ]
+  },
+  {
+    "id": "book:the-cult-of-we",
+    "name": "The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion",
+    "availability": "building",
+    "directory": "book-the-cult-of-we",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-cult-of-we"
+    ],
+    "skillSlugs": [
+      "s1-reality-check"
+    ]
+  },
+  {
+    "id": "book:the-fabric-of-reality",
+    "name": "The Fabric of Reality",
+    "availability": "ready",
+    "directory": "book-the-fabric-of-reality",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-fabric-of-reality"
+    ],
+    "skillSlugs": [
+      "problem-solving-cycle",
+      "kicked-rock-test",
+      "universal-version",
+      "certainty-audit",
+      "seminar-room-rule"
+    ]
+  },
+  {
+    "id": "book:the-nvidia-way",
+    "name": "The Nvidia Way",
+    "availability": "ready",
+    "directory": "book-the-nvidia-way",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-nvidia-way"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:the-pathless-path",
+    "name": "The Pathless Path",
+    "availability": "ready",
+    "directory": "book-the-pathless-path",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-pathless-path"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:the-singapore-story",
+    "name": "The Singapore Story: Memoirs of Lee Kuan Yew",
+    "availability": "building",
+    "directory": "book-the-singapore-story",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-singapore-story"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:techno-optimist-manifesto",
+    "name": "The Techno-Optimist Manifesto",
+    "availability": "ready",
+    "directory": "book-techno-optimist-manifesto",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "techno-optimist-manifesto"
+    ],
+    "skillSlugs": [
+      "techno-optimism"
+    ]
+  },
+  {
+    "id": "book:the-war-of-art",
+    "name": "The War of Art",
+    "availability": "ready",
+    "directory": "book-the-war-of-art",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-war-of-art"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:think-and-grow-rich",
+    "name": "Think and Grow Rich",
+    "availability": "ready",
+    "directory": "book-think-and-grow-rich",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "think-and-grow-rich"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:thinking-in-bets",
+    "name": "Thinking in Bets",
+    "availability": "ready",
+    "directory": "book-thinking-in-bets",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "thinking-in-bets"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:titan-chernow",
+    "name": "Titan: The Life of John D. Rockefeller, Sr.",
+    "availability": "ready",
+    "directory": "book-titan-chernow",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "titan-chernow"
+    ],
+    "skillSlugs": [
+      "ledger",
+      "crisis"
+    ]
+  },
+  {
+    "id": "book:tools-of-titans",
+    "name": "Tools of Titans",
+    "availability": "ready",
+    "directory": "book-tools-of-titans",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "tools-of-titans"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:tribe-of-mentors",
+    "name": "Tribe of Mentors",
+    "availability": "ready",
+    "directory": "book-tribe-of-mentors",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "tribe-of-mentors"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:useful-not-true",
+    "name": "Useful Not True",
+    "availability": "ready",
+    "directory": "book-useful-not-true",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "useful-not-true"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:why-software-is-eating-the-world",
+    "name": "Why Software Is Eating the World",
+    "availability": "ready",
+    "directory": "book-why-software-is-eating-the-world",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "why-software-is-eating-the-world"
+    ],
+    "skillSlugs": [
+      "software-eats-the-world"
+    ]
+  },
+  {
+    "id": "book:your-music-and-people",
+    "name": "Your Music and People",
+    "availability": "building",
+    "directory": "book-your-music-and-people",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "your-music-and-people"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:zero-to-one",
+    "name": "Zero to One: Notes on Startups, or How to Build the Future",
+    "availability": "ready",
+    "directory": "book-zero-to-one",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "zero-to-one"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:zombies-in-western-culture",
+    "name": "Zombies in Western Culture: A Twenty-First Century Crisis",
+    "availability": "building",
+    "directory": "book-zombies-in-western-culture",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "zombies-in-western-culture"
+    ],
+    "skillSlugs": [
+      "vervaeke",
+      "four-kinds-of-knowing",
+      "relevance-realization",
+      "ecology-of-practices"
+    ]
+  },
+  {
+    "id": "channel:founders-podcast",
+    "name": "Founders Podcast",
+    "availability": "ready",
+    "directory": "channel-founders-podcast",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "founders-podcast"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "channel:invest-like-the-best",
+    "name": "Invest Like the Best",
+    "availability": "ready",
+    "directory": "channel-invest-like-the-best",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "invest-like-the-best"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "channel:starter-story",
+    "name": "Starter Story",
+    "availability": "ready",
+    "directory": "channel-starter-story",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "starter-story"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "channel:y-combinator",
+    "name": "Y Combinator",
+    "availability": "ready",
+    "directory": "channel-y-combinator",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "y-combinator"
+    ],
+    "skillSlugs": []
+  }
+]

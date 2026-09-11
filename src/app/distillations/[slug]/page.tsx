@@ -48,12 +48,12 @@ export default async function DistillationPage({ params }: DistillationPageProps
           <p className="mt-6 text-lg leading-8 text-warm-500">{item.description}</p>
           <div className="mt-7 flex flex-wrap gap-3">
             {guide && (
-              <Link href={`/chat/${guide.slug}`} className="rounded-full bg-ink-950 px-5 py-3 text-sm font-medium text-white hover:bg-ink-800">
+              <Link href={`/${guide.slug}`} className="rounded-full bg-ink-950 px-5 py-3 text-sm font-medium text-white hover:bg-ink-800">
                 Chat with the guide
               </Link>
             )}
             {corpus && (
-              <Link href={`/chat/source/${corpusSlug}`} className="rounded-full border border-warm-300 px-5 py-3 text-sm font-medium text-ink-950 hover:border-ink-950">
+              <Link href={`/${corpusSlug}`} className="rounded-full border border-warm-300 px-5 py-3 text-sm font-medium text-ink-950 hover:border-ink-950">
                 Chat with this corpus
               </Link>
             )}

@@ -1,0 +1,100 @@
+{
+  "review": "Agent metadata review, 2026-09-10. Identity reconciliation, not independent transcript-completeness certification. Original manifests retained.",
+  "matches": [
+    {
+      "episodeNumber": 398,
+      "videoId": "zGEOQ6I2Sv4",
+      "reason": "Exact title, publication date 2025-08-14, opening description and 121-minute duration distinguish this from #299."
+    },
+    {
+      "episodeNumber": 299,
+      "videoId": "pLKKO8DeQQk",
+      "reason": "Exact episode title and book identity distinguish the 2023 version from #398; retain both uploads."
+    },
+    {
+      "episodeNumber": 376,
+      "videoId": "3pY0KWwVAV4",
+      "reason": "The Nvidia Way by Tae Kim in both descriptions; 101-minute runtime and January 2025 publication agree."
+    },
+    {
+      "episodeNumber": 423,
+      "videoId": "oA_FT515VFM",
+      "reason": "Same Honda book and author, matching June 28 2026 publication and 48-minute runtime."
+    },
+    {
+      "episodeNumber": 393,
+      "videoId": "0YjkxONApG0",
+      "reason": "Identical distinctive factory-in-France opening; Michelin identity and 55-minute runtime corroborate renamed upload."
+    },
+    {
+      "episodeNumber": 275,
+      "videoId": "YH1ynhRv7_s",
+      "reason": "First Paul Graham essays installment. Public catalog's opening father/work anecdote found in private transcript; Part II and III separately present. Runtime differs by about four minutes."
+    },
+    {
+      "episodeNumber": 276,
+      "videoId": "fnTOGVDXe0w",
+      "reason": "Part II agrees with legacy source-link slug. Public catalog's startup-idea passage independently found in private transcript. Runtime differs by about eight minutes."
+    },
+    {
+      "episodeNumber": 333,
+      "videoId": "798LBCW-u2M",
+      "reason": "Title, 68-minute runtime and privately inspected Red Bull transcript agree. YouTube description and legacy link were copied from Napoleon #337 and must not identify this video.",
+      "metadataIssue": "description-and-episode-link-reference-wrong-episode"
+    },
+    {
+      "episodeNumber": 294,
+      "videoId": "_KY09iCsjRs",
+      "reason": "Same Napoleon: A Concise Biography by David Bell in both descriptions and legacy source-link slug; private opening concerns Napoleon's leadership. Runtime differs by about six minutes."
+    },
+    {
+      "episodeNumber": 395,
+      "videoId": "NQpo80z30gY",
+      "reason": "Identical distinctive opening about margins and center and Colin Chapman; private transcript opens with Chapman's engineering story."
+    },
+    {
+      "episodeNumber": 293,
+      "videoId": "E6OSZ8uRONA",
+      "reason": "Both descriptions explicitly say rereading Grinding It Out by Ray Kroc; #7 says reading. Matching Ray Kroc legacy source-link slug. Runtime differs by about six minutes."
+    },
+    {
+      "episodeNumber": 272,
+      "videoId": "YdViczJGMQg",
+      "reason": "Same Showboat by Roland Lazenby in both descriptions and Kobe Bryant legacy source-link slug; different book from #273. Runtime differs by about four minutes."
+    },
+    {
+      "episodeNumber": 316,
+      "videoId": "7PwqcsQov_w",
+      "reason": "Same Bugatti Story by L'Ebe Bugatti in both descriptions, matching legacy source-link slug and query episode 316; runtime differs by about three minutes."
+    },
+    {
+      "episodeNumber": 274,
+      "videoId": "tfns2StzgRE",
+      "reason": "Both descriptions explicitly say rereading The New New Thing by Michael Lewis; #23 says reading. Jim Clark legacy source link agrees; runtime differs by about four minutes."
+    },
+    {
+      "slug": "my-conversation-with-todd-graves",
+      "videoId": "B5rRIdQKB0A",
+      "source": "david-senra-conversations",
+      "reason": "Official episode page includes the exact YouTube video ID in embedded description links; matching guest, publication date and near-equal runtime."
+    },
+    {
+      "slug": "my-conversation-with-brad-jacobs",
+      "videoId": "3WXZg4_xcGs",
+      "source": "david-senra-conversations",
+      "reason": "Official page describes the new David Senra feed; guest, late-October 2025 publication and approximately 124-minute runtime align with saved interview."
+    },
+    {
+      "slug": "my-conversation-with-michael-dell",
+      "videoId": "9WSsLSq40Yw",
+      "source": "david-senra-conversations",
+      "reason": "Official page describes the new David Senra feed; guest, October 12/13 2025 publication and approximately 92-minute runtime align with saved interview."
+    },
+    {
+      "slug": "my-conversation-with-daniel-ek-founder-of-spotify",
+      "videoId": "qiXH0y2V3_8",
+      "source": "david-senra-conversations",
+      "reason": "Official episode page links directly to this YouTube video ID; same date, guest and approximately 130-minute runtime."
+    }
+  ]
+}
