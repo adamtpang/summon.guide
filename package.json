@@ -29,7 +29,9 @@
     "corpus:founders:status": "node scripts/gen-founders-corpus-status.mjs",
     "corpus:founders:refresh": "node scripts/refresh-founders-corpus.mjs",
     "eval:founders": "node --no-warnings --experimental-strip-types scripts/eval-founders-retrieval.mjs",
-    "smoke:council": "node --no-warnings --experimental-transform-types --env-file-if-exists=.env.local --import ./scripts/node-server-shim.mjs scripts/smoke-council.mjs"
+    "smoke:council": "node --no-warnings --experimental-transform-types --env-file-if-exists=.env.local --import ./scripts/node-server-shim.mjs scripts/smoke-council.mjs",
+    "handles:generate": "node --experimental-strip-types scripts/gen-summon-handles.mjs",
+    "handles:check": "node --experimental-strip-types scripts/gen-summon-handles.mjs --check"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",

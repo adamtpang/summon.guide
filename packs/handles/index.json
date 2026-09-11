@@ -1,0 +1,918 @@
+{
+  "generated": "scripts/gen-summon-handles.mjs",
+  "count": 114,
+  "handles": [
+    {
+      "slug": "adam-neumann",
+      "kind": "person",
+      "name": "Adam Neumann",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "albert-einstein",
+      "kind": "person",
+      "name": "Albert Einstein",
+      "availability": "building",
+      "runtime": "pending",
+      "tool": "none"
+    },
+    {
+      "slug": "alexander",
+      "kind": "person",
+      "name": "Alexander the Great",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "alysa-liu",
+      "kind": "person",
+      "name": "Alysa Liu",
+      "availability": "building",
+      "runtime": "pending",
+      "tool": "none"
+    },
+    {
+      "slug": "annie-duke",
+      "kind": "person",
+      "name": "Annie Duke",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "bob-marley",
+      "kind": "person",
+      "name": "Bob Marley",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "brad-jacobs",
+      "kind": "person",
+      "name": "Brad Jacobs",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "brian-armstrong",
+      "kind": "person",
+      "name": "Brian Armstrong",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "cal-newport",
+      "kind": "person",
+      "name": "Cal Newport",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "carol-dweck",
+      "kind": "person",
+      "name": "Carol Dweck",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "charlie-munger",
+      "kind": "person",
+      "name": "Charlie Munger",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "daniel-ek",
+      "kind": "person",
+      "name": "Daniel Ek",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "dave-ramsey",
+      "kind": "person",
+      "name": "Dave Ramsey",
+      "availability": "ready",
+      "runtime": "pack",
+      "tool": "pack"
+    },
+    {
+      "slug": "deutsch",
+      "kind": "person",
+      "name": "David Deutsch",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "elon",
+      "kind": "person",
+      "name": "Elon Musk",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "evan-spiegel",
+      "kind": "person",
+      "name": "Evan Spiegel",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "franklin",
+      "kind": "person",
+      "name": "Benjamin Franklin",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "henry-kissinger",
+      "kind": "person",
+      "name": "Henry Kissinger",
+      "availability": "building",
+      "runtime": "pending",
+      "tool": "none"
+    },
+    {
+      "slug": "hesse",
+      "kind": "person",
+      "name": "Hermann Hesse",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "james-clear",
+      "kind": "person",
+      "name": "James Clear",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "james-dyson",
+      "kind": "person",
+      "name": "James Dyson",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "jeff-bezos",
+      "kind": "person",
+      "name": "Jeff Bezos",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "jennifer-doudna",
+      "kind": "person",
+      "name": "Jennifer Doudna",
+      "availability": "building",
+      "runtime": "pending",
+      "tool": "none"
+    },
+    {
+      "slug": "jensen-huang",
+      "kind": "person",
+      "name": "Jensen Huang",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "jimmy-iovine",
+      "kind": "person",
+      "name": "Jimmy Iovine",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "john-mackey",
+      "kind": "person",
+      "name": "John Mackey",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "lee-kuan-yew",
+      "kind": "person",
+      "name": "Lee Kuan Yew",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "leonardo-da-vinci",
+      "kind": "person",
+      "name": "Leonardo da Vinci",
+      "availability": "building",
+      "runtime": "pending",
+      "tool": "none"
+    },
+    {
+      "slug": "lulie-tanett",
+      "kind": "person",
+      "name": "Lulie Tanett",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "marc-andreessen",
+      "kind": "person",
+      "name": "Marc Andreessen",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "marcus-aurelius",
+      "kind": "person",
+      "name": "Marcus Aurelius",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "marie-curie",
+      "kind": "person",
+      "name": "Marie Curie",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "napoleon-hill",
+      "kind": "person",
+      "name": "Napoleon Hill",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "nassim-taleb",
+      "kind": "person",
+      "name": "Nassim Nicholas Taleb",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "naval-ravikant",
+      "kind": "person",
+      "name": "Naval Ravikant",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "paul-graham",
+      "kind": "person",
+      "name": "Paul Graham",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "paul-millerd",
+      "kind": "person",
+      "name": "Paul Millerd",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "pendleton-ward",
+      "kind": "person",
+      "name": "Pendleton Ward",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "peter-thiel",
+      "kind": "person",
+      "name": "Peter Thiel",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "pressfield",
+      "kind": "person",
+      "name": "Steven Pressfield",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "ray-dalio",
+      "kind": "person",
+      "name": "Ray Dalio",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "ricky-gervais",
+      "kind": "person",
+      "name": "Ricky Gervais",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "rockefeller",
+      "kind": "person",
+      "name": "John D. Rockefeller",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "sam-walton",
+      "kind": "person",
+      "name": "Sam Walton",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "seneca",
+      "kind": "person",
+      "name": "Lucius Annaeus Seneca",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "senra",
+      "kind": "person",
+      "name": "David Senra",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "sivers",
+      "kind": "person",
+      "name": "Derek Sivers",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "steve-jobs",
+      "kind": "person",
+      "name": "Steve Jobs",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "tim-ferriss",
+      "kind": "person",
+      "name": "Tim Ferriss",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "tobi-lutke",
+      "kind": "person",
+      "name": "Tobi Lütke",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "todd-graves",
+      "kind": "person",
+      "name": "Todd Graves",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "vervaeke",
+      "kind": "person",
+      "name": "John Vervaeke",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "visakan",
+      "kind": "person",
+      "name": "Visakan Veerasamy",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "warren-buffett",
+      "kind": "person",
+      "name": "Warren Buffett",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "founders-podcast",
+      "kind": "channel",
+      "name": "Founders Podcast",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "invest-like-the-best",
+      "kind": "channel",
+      "name": "Invest Like the Best",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "starter-story",
+      "kind": "channel",
+      "name": "Starter Story",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "y-combinator",
+      "kind": "channel",
+      "name": "Y Combinator",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "adventure-time-art-of-ooo",
+      "kind": "book",
+      "name": "Adventure Time: The Art of Ooo",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "alexander-the-great-fox",
+      "kind": "book",
+      "name": "Alexander the Great",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "anything-you-want",
+      "kind": "book",
+      "name": "Anything You Want",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "atomic-habits",
+      "kind": "book",
+      "name": "Atomic Habits",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "autobiography-of-benjamin-franklin",
+      "kind": "book",
+      "name": "The Autobiography of Benjamin Franklin",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "benjamin-franklin-an-american-life",
+      "kind": "book",
+      "name": "Benjamin Franklin: An American Life",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "berkshire-shareholder-letters",
+      "kind": "book",
+      "name": "Berkshire Hathaway Shareholder Letters, 1977-2024",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "bible",
+      "kind": "book",
+      "name": "The Bible: Wisdom & Teaching",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "billion-dollar-loser",
+      "kind": "book",
+      "name": "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "campaigns-of-alexander-arrian",
+      "kind": "book",
+      "name": "The Campaigns of Alexander (Anabasis Alexandri)",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "deep-work",
+      "kind": "book",
+      "name": "Deep Work",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "elon-musk-isaacson",
+      "kind": "book",
+      "name": "Elon Musk",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "elon-musk-vance",
+      "kind": "book",
+      "name": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "fooled-by-randomness",
+      "kind": "book",
+      "name": "Fooled by Randomness",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "friendly-ambitious-nerd",
+      "kind": "book",
+      "name": "Friendly Ambitious Nerd",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "from-third-world-to-first",
+      "kind": "book",
+      "name": "From Third World to First: The Singapore Story 1965, 2000",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "hell-yeah-or-no",
+      "kind": "book",
+      "name": "Hell Yeah or No",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "how-to-live",
+      "kind": "book",
+      "name": "How to Live",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "its-time-to-build",
+      "kind": "book",
+      "name": "It's Time to Build",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "letters-from-a-stoic",
+      "kind": "book",
+      "name": "Letters from a Stoic (Epistulae Morales ad Lucilium)",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "life-of-alexander-plutarch",
+      "kind": "book",
+      "name": "Life of Alexander",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "meditations",
+      "kind": "book",
+      "name": "Meditations",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "mindset",
+      "kind": "book",
+      "name": "Mindset: The New Psychology of Success",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "on-anger",
+      "kind": "book",
+      "name": "On Anger (De Ira)",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "on-the-shortness-of-life",
+      "kind": "book",
+      "name": "On the Shortness of Life (De Brevitate Vitae)",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "one-mans-view-of-the-world",
+      "kind": "book",
+      "name": "One Man's View of the World",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "paul-graham-essays",
+      "kind": "book",
+      "name": "Paul Graham: Selected Essays",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "pendleton-ward-selected-interviews",
+      "kind": "book",
+      "name": "Pendleton Ward: Selected Public Interviews",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "poor-charlies-almanack",
+      "kind": "book",
+      "name": "Poor Charlie's Almanack",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "principles",
+      "kind": "book",
+      "name": "Principles",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "principles-for-dealing-with-the-changing-world-order",
+      "kind": "book",
+      "name": "Principles for Dealing with the Changing World Order",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "reason-is-fun-essays",
+      "kind": "book",
+      "name": "Reason Is Fun: Selected Essays",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "siddhartha",
+      "kind": "book",
+      "name": "Siddhartha",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "skin-in-the-game",
+      "kind": "book",
+      "name": "Skin in the Game",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "steve-jobs-isaacson",
+      "kind": "book",
+      "name": "Steve Jobs",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "tao-te-ching",
+      "kind": "book",
+      "name": "Tao Te Ching",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "techno-optimist-manifesto",
+      "kind": "book",
+      "name": "The Techno-Optimist Manifesto",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "the-beginning-of-infinity",
+      "kind": "book",
+      "name": "The Beginning of Infinity",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "the-black-swan",
+      "kind": "book",
+      "name": "The Black Swan",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "the-book-of-elon",
+      "kind": "book",
+      "name": "The Book of Elon",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "the-cult-of-we",
+      "kind": "book",
+      "name": "The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "the-fabric-of-reality",
+      "kind": "book",
+      "name": "The Fabric of Reality",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "the-nvidia-way",
+      "kind": "book",
+      "name": "The Nvidia Way",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "the-pathless-path",
+      "kind": "book",
+      "name": "The Pathless Path",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "the-singapore-story",
+      "kind": "book",
+      "name": "The Singapore Story: Memoirs of Lee Kuan Yew",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "the-war-of-art",
+      "kind": "book",
+      "name": "The War of Art",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "think-and-grow-rich",
+      "kind": "book",
+      "name": "Think and Grow Rich",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "thinking-in-bets",
+      "kind": "book",
+      "name": "Thinking in Bets",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "titan-chernow",
+      "kind": "book",
+      "name": "Titan: The Life of John D. Rockefeller, Sr.",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "tools-of-titans",
+      "kind": "book",
+      "name": "Tools of Titans",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "tribe-of-mentors",
+      "kind": "book",
+      "name": "Tribe of Mentors",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "useful-not-true",
+      "kind": "book",
+      "name": "Useful Not True",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "why-software-is-eating-the-world",
+      "kind": "book",
+      "name": "Why Software Is Eating the World",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "your-music-and-people",
+      "kind": "book",
+      "name": "Your Music and People",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "zero-to-one",
+      "kind": "book",
+      "name": "Zero to One: Notes on Startups, or How to Build the Future",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    },
+    {
+      "slug": "zombies-in-western-culture",
+      "kind": "book",
+      "name": "Zombies in Western Culture: A Twenty-First Century Crisis",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "chat_with_book"
+    }
+  ]
+}

@@ -309,3 +309,34 @@ legends.guide v2 — streaming chat with 10 founders, compare feature, source ci
   through `minimax/minimax-m3:free`; Pressfield recurs because the brief names
   the Toolsmith's Trance condition. The no-model fallback returns Dalio, Curie,
   Pressfield. Not deployed; the mailbox path is local by design.
+
+## Summon handles: every guide as /<slug> (2026-09-11)
+
+- Adam asked for each guide to be an agent he can summon into any Claude or Codex
+  chat. Chosen form factor: one brain, many thin handles. The brain stays on the
+  summon.guide MCP server (`chat_with_guide`, `chat_with_book`); a handle is a
+  small `SKILL.md` named by slug that routes the user's question to the right
+  tool with the identity boundary attached. No local persona copies to drift.
+- Added `scripts/gen-summon-handles.mjs` (`npm run handles:generate`,
+  `npm run handles:check` for parity). It reads `guideAgents.ts` and writes
+  `packs/handles/<slug>/SKILL.md` plus `packs/handles/index.json` for all 114
+  registered guides: 54 people, 4 channels, 56 books. Tool routing by runtime:
+  48 `chat_with_guide`, 60 `chat_with_book`, 1 full pack (dave-ramsey), 5 with
+  no live tool yet (pending guides get an honest status handle, never an
+  improvised persona). Duplicate or non-skill-safe slugs fail the build, and any
+  em or en dash surviving normalization fails it too.
+- Extended `scripts/summon.mjs`: `summon install <slug>` accepts any guide,
+  `summon install --all [--include-building]` installs every ready guide, and
+  `summon list` prints the roster. Handles land in `.summon/handles/<slug>/`,
+  `.claude/skills/<slug>/`, and `.codex/skills/<slug>/`; MCP config for both
+  hosts is written as before. Guides that ship as rich packs (dave-ramsey, elon)
+  get the pack instead of the pointer. Existing pack installs are unchanged.
+- Verified against a scratch target: `--all` installed 91 handles plus 2 packs
+  (93 skills in each host), skipped 21 still-building guides by default, wrote
+  both MCP configs, and single and unknown-slug installs behave. Parity check
+  passes. Not installed into this repo's own `.claude/skills` to avoid 90+
+  tracked skill directories; run the installer in the target project instead.
+- Not committed, not pushed. The `npx github:` form needs a push first; until
+  then use `node <repo>/scripts/summon.mjs install --all --target <project>`.
+  Summoning still requires the MCP's member auth; an owner token for Adam's own
+  chats remains the open friction point.
