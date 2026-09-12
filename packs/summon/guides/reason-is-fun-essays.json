@@ -1,0 +1,11 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "reason-is-fun-essays"
+  ],
+  "skillSlugs": [],
+  "url": "https://summon.guide/reasonisfunessays",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

@@ -1,0 +1,11 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "siddhartha"
+  ],
+  "skillSlugs": [],
+  "url": "https://summon.guide/siddhartha",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

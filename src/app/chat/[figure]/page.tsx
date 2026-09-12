@@ -239,12 +239,11 @@ export default function ChatPage({
       savePendingChat(pending);
       return;
     }
-    preloadSent.current = true;
     setPendingSignIn(null);
-    const timer = window.setTimeout(
-      () => sendQuickMessage(pending.text, pending.contextBrief),
-      300,
-    );
+    const timer = window.setTimeout(() => {
+      preloadSent.current = true;
+      void sendQuickMessage(pending.text, pending.contextBrief);
+    }, 300);
     return () => window.clearTimeout(timer);
   }, [hasStoredIntake, preloadedQuery, session, sessionStatus]); // eslint-disable-line react-hooks/exhaustive-deps
 

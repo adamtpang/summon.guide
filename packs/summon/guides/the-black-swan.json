@@ -1,0 +1,19 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "the-black-swan"
+  ],
+  "skillSlugs": [
+    "black-swan-triplet-test",
+    "mediocristan-extremistan-map",
+    "turkey-problem",
+    "narrative-fallacy-guard",
+    "silent-evidence-audit",
+    "ludic-fallacy-check",
+    "fourth-quadrant-map"
+  ],
+  "url": "https://summon.guide/theblackswan",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

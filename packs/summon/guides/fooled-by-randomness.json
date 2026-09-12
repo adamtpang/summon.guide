@@ -1,0 +1,18 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "fooled-by-randomness"
+  ],
+  "skillSlugs": [
+    "alternative-histories",
+    "count-the-monkeys",
+    "match-the-observation-window",
+    "weight-the-magnitude",
+    "distrust-the-hot-streak",
+    "falsify-before-you-commit"
+  ],
+  "url": "https://summon.guide/fooledbyrandomness",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

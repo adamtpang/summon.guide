@@ -39,6 +39,12 @@ export default function CouncilRoom() {
   const loadBrief = useCallback(async () => {
     setPhase({ kind: "loading" });
     try {
+      const imported = window.sessionStorage.getItem("summon_council_handoff");
+      if (imported) {
+        setDraft(imported);
+        setPhase({ kind: "review" });
+        return;
+      }
       const res = await fetch("/api/council", { cache: "no-store" });
       const data = await res.json();
       if (res.ok) {
@@ -70,6 +76,7 @@ export default function CouncilRoom() {
         return;
       }
       setPhase({ kind: "ready", data });
+      window.sessionStorage.removeItem("summon_council_handoff");
     } catch (error) {
       setPhase({ kind: "error", message: error instanceof Error ? error.message : "Network error" });
     }

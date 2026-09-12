@@ -23,6 +23,7 @@ const MCP_URL = "https://summon.guide/api/mcp";
 const HELP = `Summon a grounded AI guide into the current project.
 
 Usage:
+  summon install summon [--global | --target <project-path>]
   summon install <guide> [--target <project-path>]
   summon install --all [--include-building] [--target <project-path>]
   summon list
@@ -149,6 +150,29 @@ async function recordHandles(target, slugs) {
 }
 
 async function install(name, target, options) {
+  if (name === "summon") {
+    const source = join(packsRoot, "summon");
+    if (!existsSync(join(source, "registry.json"))) throw new Error("Universal skill missing; run npm run summon:generate");
+    for (const host of [".claude", ".agents", ".codex"]) {
+      const destination = join(target, host, "skills", "summon");
+      const previous = join(destination, "SKILL.md");
+      if (existsSync(previous)) {
+        const content = await readFile(previous, "utf8");
+        if (!content.includes("# Summon a guide")) {
+          if (!content.includes("Summon control plane")) throw new Error(`Existing unrelated summon skill at ${previous}; left untouched`);
+          const company = join(target, host, "skills", "summon-company");
+          if (existsSync(company)) throw new Error(`Preserve existing ${company} before migrating the old summon skill`);
+          await cp(destination, company, { recursive: true });
+          await writeFile(join(company, "SKILL.md"), `---\nname: summon-company\ndescription: Manage the Summon company control plane, company onboarding, organization, and task routing.\n---\n\n${content.replaceAll('/summon', '/summon-company')}`);
+        }
+      }
+      await mkdir(destination, { recursive: true });
+      await cp(source, destination, { recursive: true, force: true });
+    }
+    console.log(`Installed /summon <guide name> for Claude Code and $summon <guide name> for Codex in ${target}.`);
+    console.log("Default: carry context to production. Local guide material is available only when explicitly requested. Restart or open a fresh chat to discover the skill.");
+    return;
+  }
   const handles = loadHandles();
   const byslug = new Map(handles.map((h) => [h.slug, h]));
 
@@ -219,9 +243,11 @@ if (command === "list") {
   const all = args.includes("--all");
   const includeBuilding = args.includes("--include-building");
   const targetFlag = args.indexOf("--target");
-  const target = targetFlag === -1 ? process.cwd() : args[targetFlag + 1];
+  const global = args.includes("--global");
+  const target = global ? (process.env.USERPROFILE || process.env.HOME) : targetFlag === -1 ? process.cwd() : args[targetFlag + 1];
   const name = args.find((a) => !a.startsWith("--") && a !== target);
-  if (!target) fail("--target needs a project path");
+  if (global && (targetFlag !== -1 || name !== "summon" || all)) fail("--global is supported only for install summon, without --target or --all");
+  else if (!target) fail("--target needs a project path");
   else if (!all && !name) { console.log(HELP); process.exitCode = 1; }
   else install(name, resolve(target), { all, includeBuilding }).catch((error) => fail(error instanceof Error ? error.message : String(error)));
 } else {

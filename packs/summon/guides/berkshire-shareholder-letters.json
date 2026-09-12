@@ -1,0 +1,18 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "berkshire-shareholder-letters"
+  ],
+  "skillSlugs": [
+    "warren-buffett",
+    "owner-earnings",
+    "circle-of-competence",
+    "retained-earnings-test",
+    "financial-fortress",
+    "acquisition-filter"
+  ],
+  "url": "https://summon.guide/berkshireshareholderletters",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

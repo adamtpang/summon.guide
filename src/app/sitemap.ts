@@ -1,3 +1,4 @@
+import { guidePath } from "@/lib/guideUrls";
 ﻿import { figures } from "@/lib/figures";
 import { books } from "@/lib/books";
 import { series } from "@/lib/episodes";
@@ -68,13 +69,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...figures.flatMap((figure) => [
       {
-        url: `${baseUrl}/${figure.slug}`,
+        url: `${baseUrl}${guidePath(figure.slug)}`,
         lastModified: new Date(),
         changeFrequency: "monthly" as const,
         priority: 0.9,
       },
       {
-        url: `${baseUrl}/${figure.slug}/about`,
+        url: `${baseUrl}${guidePath(figure.slug)}/about`,
         lastModified: new Date(),
         changeFrequency: "monthly" as const,
         priority: 0.8,

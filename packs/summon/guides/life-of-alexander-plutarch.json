@@ -1,0 +1,13 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "life-of-alexander-plutarch"
+  ],
+  "skillSlugs": [
+    "lead-from-front"
+  ],
+  "url": "https://summon.guide/lifeofalexanderplutarch",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

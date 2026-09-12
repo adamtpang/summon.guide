@@ -1,0 +1,854 @@
+[
+  {
+    "slug": "pendleton-ward",
+    "publicSlug": "pendletonward",
+    "aliases": [
+      "pendleton-ward",
+      "pendletonward"
+    ]
+  },
+  {
+    "slug": "rockefeller",
+    "publicSlug": "rockefeller",
+    "aliases": [
+      "rockefeller",
+      "johndrockefeller"
+    ]
+  },
+  {
+    "slug": "franklin",
+    "publicSlug": "franklin",
+    "aliases": [
+      "franklin",
+      "benjaminfranklin"
+    ]
+  },
+  {
+    "slug": "elon",
+    "publicSlug": "elonmusk",
+    "aliases": [
+      "elon",
+      "elonmusk"
+    ]
+  },
+  {
+    "slug": "alexander",
+    "publicSlug": "alexander",
+    "aliases": [
+      "alexander",
+      "alexanderthegreat"
+    ]
+  },
+  {
+    "slug": "deutsch",
+    "publicSlug": "deutsch",
+    "aliases": [
+      "deutsch",
+      "daviddeutsch"
+    ]
+  },
+  {
+    "slug": "lee-kuan-yew",
+    "publicSlug": "leekuanyew",
+    "aliases": [
+      "lee-kuan-yew",
+      "leekuanyew"
+    ]
+  },
+  {
+    "slug": "marcus-aurelius",
+    "publicSlug": "marcusaurelius",
+    "aliases": [
+      "marcus-aurelius",
+      "marcusaurelius"
+    ]
+  },
+  {
+    "slug": "marc-andreessen",
+    "publicSlug": "marcandreessen",
+    "aliases": [
+      "marc-andreessen",
+      "marcandreessen"
+    ]
+  },
+  {
+    "slug": "adam-neumann",
+    "publicSlug": "adamneumann",
+    "aliases": [
+      "adam-neumann",
+      "adamneumann"
+    ]
+  },
+  {
+    "slug": "seneca",
+    "publicSlug": "seneca",
+    "aliases": [
+      "seneca",
+      "luciusannaeusseneca"
+    ]
+  },
+  {
+    "slug": "ricky-gervais",
+    "publicSlug": "rickygervais",
+    "aliases": [
+      "ricky-gervais",
+      "rickygervais"
+    ]
+  },
+  {
+    "slug": "marie-curie",
+    "publicSlug": "mariecurie",
+    "aliases": [
+      "marie-curie",
+      "mariecurie"
+    ]
+  },
+  {
+    "slug": "bob-marley",
+    "publicSlug": "bobmarley",
+    "aliases": [
+      "bob-marley",
+      "bobmarley"
+    ]
+  },
+  {
+    "slug": "tobi-lutke",
+    "publicSlug": "tobilutke",
+    "aliases": [
+      "tobi-lutke",
+      "tobilutke"
+    ]
+  },
+  {
+    "slug": "todd-graves",
+    "publicSlug": "toddgraves",
+    "aliases": [
+      "todd-graves",
+      "toddgraves"
+    ]
+  },
+  {
+    "slug": "john-mackey",
+    "publicSlug": "johnmackey",
+    "aliases": [
+      "john-mackey",
+      "johnmackey"
+    ]
+  },
+  {
+    "slug": "jimmy-iovine",
+    "publicSlug": "jimmyiovine",
+    "aliases": [
+      "jimmy-iovine",
+      "jimmyiovine"
+    ]
+  },
+  {
+    "slug": "daniel-ek",
+    "publicSlug": "danielek",
+    "aliases": [
+      "daniel-ek",
+      "danielek"
+    ]
+  },
+  {
+    "slug": "evan-spiegel",
+    "publicSlug": "evanspiegel",
+    "aliases": [
+      "evan-spiegel",
+      "evanspiegel"
+    ]
+  },
+  {
+    "slug": "james-dyson",
+    "publicSlug": "jamesdyson",
+    "aliases": [
+      "james-dyson",
+      "jamesdyson"
+    ]
+  },
+  {
+    "slug": "brian-armstrong",
+    "publicSlug": "brianarmstrong",
+    "aliases": [
+      "brian-armstrong",
+      "brianarmstrong"
+    ]
+  },
+  {
+    "slug": "nassim-taleb",
+    "publicSlug": "nassimtaleb",
+    "aliases": [
+      "nassim-taleb",
+      "nassimtaleb",
+      "nassimnicholastaleb"
+    ]
+  },
+  {
+    "slug": "steve-jobs",
+    "publicSlug": "stevejobs",
+    "aliases": [
+      "steve-jobs",
+      "stevejobs"
+    ]
+  },
+  {
+    "slug": "jeff-bezos",
+    "publicSlug": "jeffbezos",
+    "aliases": [
+      "jeff-bezos",
+      "jeffbezos"
+    ]
+  },
+  {
+    "slug": "jensen-huang",
+    "publicSlug": "jensenhuang",
+    "aliases": [
+      "jensen-huang",
+      "jensenhuang"
+    ]
+  },
+  {
+    "slug": "peter-thiel",
+    "publicSlug": "peterthiel",
+    "aliases": [
+      "peter-thiel",
+      "peterthiel"
+    ]
+  },
+  {
+    "slug": "warren-buffett",
+    "publicSlug": "warrenbuffett",
+    "aliases": [
+      "warren-buffett",
+      "warrenbuffett"
+    ]
+  },
+  {
+    "slug": "charlie-munger",
+    "publicSlug": "charliemunger",
+    "aliases": [
+      "charlie-munger",
+      "charliemunger"
+    ]
+  },
+  {
+    "slug": "sam-walton",
+    "publicSlug": "samwalton",
+    "aliases": [
+      "sam-walton",
+      "samwalton"
+    ]
+  },
+  {
+    "slug": "naval-ravikant",
+    "publicSlug": "navalravikant",
+    "aliases": [
+      "naval-ravikant",
+      "navalravikant"
+    ]
+  },
+  {
+    "slug": "ray-dalio",
+    "publicSlug": "raydalio",
+    "aliases": [
+      "ray-dalio",
+      "raydalio"
+    ]
+  },
+  {
+    "slug": "vervaeke",
+    "publicSlug": "vervaeke",
+    "aliases": [
+      "vervaeke",
+      "johnvervaeke"
+    ]
+  },
+  {
+    "slug": "pressfield",
+    "publicSlug": "pressfield",
+    "aliases": [
+      "pressfield",
+      "stevenpressfield"
+    ]
+  },
+  {
+    "slug": "hesse",
+    "publicSlug": "hesse",
+    "aliases": [
+      "hesse",
+      "hermannhesse"
+    ]
+  },
+  {
+    "slug": "senra",
+    "publicSlug": "senra",
+    "aliases": [
+      "senra",
+      "davidsenra"
+    ]
+  },
+  {
+    "slug": "sivers",
+    "publicSlug": "sivers",
+    "aliases": [
+      "sivers",
+      "dereksivers"
+    ]
+  },
+  {
+    "slug": "visakan",
+    "publicSlug": "visakan",
+    "aliases": [
+      "visakan",
+      "visakanveerasamy"
+    ]
+  },
+  {
+    "slug": "james-clear",
+    "publicSlug": "jamesclear",
+    "aliases": [
+      "james-clear",
+      "jamesclear"
+    ]
+  },
+  {
+    "slug": "cal-newport",
+    "publicSlug": "calnewport",
+    "aliases": [
+      "cal-newport",
+      "calnewport"
+    ]
+  },
+  {
+    "slug": "tim-ferriss",
+    "publicSlug": "timferriss",
+    "aliases": [
+      "tim-ferriss",
+      "timferriss"
+    ]
+  },
+  {
+    "slug": "annie-duke",
+    "publicSlug": "annieduke",
+    "aliases": [
+      "annie-duke",
+      "annieduke"
+    ]
+  },
+  {
+    "slug": "carol-dweck",
+    "publicSlug": "caroldweck",
+    "aliases": [
+      "carol-dweck",
+      "caroldweck"
+    ]
+  },
+  {
+    "slug": "paul-millerd",
+    "publicSlug": "paulmillerd",
+    "aliases": [
+      "paul-millerd",
+      "paulmillerd"
+    ]
+  },
+  {
+    "slug": "napoleon-hill",
+    "publicSlug": "napoleonhill",
+    "aliases": [
+      "napoleon-hill",
+      "napoleonhill"
+    ]
+  },
+  {
+    "slug": "brad-jacobs",
+    "publicSlug": "bradjacobs",
+    "aliases": [
+      "brad-jacobs",
+      "bradjacobs"
+    ]
+  },
+  {
+    "slug": "paul-graham",
+    "publicSlug": "paulgraham",
+    "aliases": [
+      "paul-graham",
+      "paulgraham"
+    ]
+  },
+  {
+    "slug": "lulie-tanett",
+    "publicSlug": "lulietanett",
+    "aliases": [
+      "lulie-tanett",
+      "lulietanett"
+    ]
+  },
+  {
+    "slug": "pendleton-ward-selected-interviews",
+    "publicSlug": "pendletonwardselectedinterviews",
+    "aliases": [
+      "pendleton-ward-selected-interviews",
+      "pendletonwardselectedinterviews"
+    ]
+  },
+  {
+    "slug": "adventure-time-art-of-ooo",
+    "publicSlug": "adventuretimeartofooo",
+    "aliases": [
+      "adventure-time-art-of-ooo",
+      "adventuretimeartofooo"
+    ]
+  },
+  {
+    "slug": "berkshire-shareholder-letters",
+    "publicSlug": "berkshireshareholderletters",
+    "aliases": [
+      "berkshire-shareholder-letters",
+      "berkshireshareholderletters"
+    ]
+  },
+  {
+    "slug": "poor-charlies-almanack",
+    "publicSlug": "poorcharliesalmanack",
+    "aliases": [
+      "poor-charlies-almanack",
+      "poorcharliesalmanack"
+    ]
+  },
+  {
+    "slug": "titan-chernow",
+    "publicSlug": "titanchernow",
+    "aliases": [
+      "titan-chernow",
+      "titanchernow"
+    ]
+  },
+  {
+    "slug": "autobiography-of-benjamin-franklin",
+    "publicSlug": "autobiographyofbenjaminfranklin",
+    "aliases": [
+      "autobiography-of-benjamin-franklin",
+      "autobiographyofbenjaminfranklin"
+    ]
+  },
+  {
+    "slug": "benjamin-franklin-an-american-life",
+    "publicSlug": "benjaminfranklinanamericanlife",
+    "aliases": [
+      "benjamin-franklin-an-american-life",
+      "benjaminfranklinanamericanlife"
+    ]
+  },
+  {
+    "slug": "steve-jobs-isaacson",
+    "publicSlug": "stevejobsisaacson",
+    "aliases": [
+      "steve-jobs-isaacson",
+      "stevejobsisaacson"
+    ]
+  },
+  {
+    "slug": "elon-musk-isaacson",
+    "publicSlug": "elonmuskisaacson",
+    "aliases": [
+      "elon-musk-isaacson",
+      "elonmuskisaacson"
+    ]
+  },
+  {
+    "slug": "elon-musk-vance",
+    "publicSlug": "elonmuskvance",
+    "aliases": [
+      "elon-musk-vance",
+      "elonmuskvance"
+    ]
+  },
+  {
+    "slug": "the-book-of-elon",
+    "publicSlug": "thebookofelon",
+    "aliases": [
+      "the-book-of-elon",
+      "thebookofelon"
+    ]
+  },
+  {
+    "slug": "the-nvidia-way",
+    "publicSlug": "thenvidiaway",
+    "aliases": [
+      "the-nvidia-way",
+      "thenvidiaway"
+    ]
+  },
+  {
+    "slug": "zero-to-one",
+    "publicSlug": "zerotoone",
+    "aliases": [
+      "zero-to-one",
+      "zerotoone"
+    ]
+  },
+  {
+    "slug": "life-of-alexander-plutarch",
+    "publicSlug": "lifeofalexanderplutarch",
+    "aliases": [
+      "life-of-alexander-plutarch",
+      "lifeofalexanderplutarch"
+    ]
+  },
+  {
+    "slug": "campaigns-of-alexander-arrian",
+    "publicSlug": "campaignsofalexanderarrian",
+    "aliases": [
+      "campaigns-of-alexander-arrian",
+      "campaignsofalexanderarrian"
+    ]
+  },
+  {
+    "slug": "alexander-the-great-fox",
+    "publicSlug": "alexanderthegreatfox",
+    "aliases": [
+      "alexander-the-great-fox",
+      "alexanderthegreatfox"
+    ]
+  },
+  {
+    "slug": "the-beginning-of-infinity",
+    "publicSlug": "thebeginningofinfinity",
+    "aliases": [
+      "the-beginning-of-infinity",
+      "thebeginningofinfinity"
+    ]
+  },
+  {
+    "slug": "the-fabric-of-reality",
+    "publicSlug": "thefabricofreality",
+    "aliases": [
+      "the-fabric-of-reality",
+      "thefabricofreality"
+    ]
+  },
+  {
+    "slug": "fooled-by-randomness",
+    "publicSlug": "fooledbyrandomness",
+    "aliases": [
+      "fooled-by-randomness",
+      "fooledbyrandomness"
+    ]
+  },
+  {
+    "slug": "the-black-swan",
+    "publicSlug": "theblackswan",
+    "aliases": [
+      "the-black-swan",
+      "theblackswan"
+    ]
+  },
+  {
+    "slug": "skin-in-the-game",
+    "publicSlug": "skininthegame",
+    "aliases": [
+      "skin-in-the-game",
+      "skininthegame"
+    ]
+  },
+  {
+    "slug": "the-singapore-story",
+    "publicSlug": "thesingaporestory",
+    "aliases": [
+      "the-singapore-story",
+      "thesingaporestory"
+    ]
+  },
+  {
+    "slug": "from-third-world-to-first",
+    "publicSlug": "fromthirdworldtofirst",
+    "aliases": [
+      "from-third-world-to-first",
+      "fromthirdworldtofirst"
+    ]
+  },
+  {
+    "slug": "one-mans-view-of-the-world",
+    "publicSlug": "onemansviewoftheworld",
+    "aliases": [
+      "one-mans-view-of-the-world",
+      "onemansviewoftheworld"
+    ]
+  },
+  {
+    "slug": "meditations",
+    "publicSlug": "meditations",
+    "aliases": [
+      "meditations"
+    ]
+  },
+  {
+    "slug": "why-software-is-eating-the-world",
+    "publicSlug": "whysoftwareiseatingtheworld",
+    "aliases": [
+      "why-software-is-eating-the-world",
+      "whysoftwareiseatingtheworld"
+    ]
+  },
+  {
+    "slug": "its-time-to-build",
+    "publicSlug": "itstimetobuild",
+    "aliases": [
+      "its-time-to-build",
+      "itstimetobuild"
+    ]
+  },
+  {
+    "slug": "techno-optimist-manifesto",
+    "publicSlug": "technooptimistmanifesto",
+    "aliases": [
+      "techno-optimist-manifesto",
+      "technooptimistmanifesto"
+    ]
+  },
+  {
+    "slug": "billion-dollar-loser",
+    "publicSlug": "billiondollarloser",
+    "aliases": [
+      "billion-dollar-loser",
+      "billiondollarloser"
+    ]
+  },
+  {
+    "slug": "the-cult-of-we",
+    "publicSlug": "thecultofwe",
+    "aliases": [
+      "the-cult-of-we",
+      "thecultofwe"
+    ]
+  },
+  {
+    "slug": "letters-from-a-stoic",
+    "publicSlug": "lettersfromastoic",
+    "aliases": [
+      "letters-from-a-stoic",
+      "lettersfromastoic"
+    ]
+  },
+  {
+    "slug": "on-the-shortness-of-life",
+    "publicSlug": "ontheshortnessoflife",
+    "aliases": [
+      "on-the-shortness-of-life",
+      "ontheshortnessoflife"
+    ]
+  },
+  {
+    "slug": "on-anger",
+    "publicSlug": "onanger",
+    "aliases": [
+      "on-anger",
+      "onanger"
+    ]
+  },
+  {
+    "slug": "zombies-in-western-culture",
+    "publicSlug": "zombiesinwesternculture",
+    "aliases": [
+      "zombies-in-western-culture",
+      "zombiesinwesternculture"
+    ]
+  },
+  {
+    "slug": "the-war-of-art",
+    "publicSlug": "thewarofart",
+    "aliases": [
+      "the-war-of-art",
+      "thewarofart"
+    ]
+  },
+  {
+    "slug": "siddhartha",
+    "publicSlug": "siddhartha",
+    "aliases": [
+      "siddhartha"
+    ]
+  },
+  {
+    "slug": "starter-story",
+    "publicSlug": "starterstory",
+    "aliases": [
+      "starter-story",
+      "starterstory"
+    ]
+  },
+  {
+    "slug": "invest-like-the-best",
+    "publicSlug": "investlikethebest",
+    "aliases": [
+      "invest-like-the-best",
+      "investlikethebest"
+    ]
+  },
+  {
+    "slug": "y-combinator",
+    "publicSlug": "ycombinator",
+    "aliases": [
+      "y-combinator",
+      "ycombinator"
+    ]
+  },
+  {
+    "slug": "anything-you-want",
+    "publicSlug": "anythingyouwant",
+    "aliases": [
+      "anything-you-want",
+      "anythingyouwant"
+    ]
+  },
+  {
+    "slug": "your-music-and-people",
+    "publicSlug": "yourmusicandpeople",
+    "aliases": [
+      "your-music-and-people",
+      "yourmusicandpeople"
+    ]
+  },
+  {
+    "slug": "hell-yeah-or-no",
+    "publicSlug": "hellyeahorno",
+    "aliases": [
+      "hell-yeah-or-no",
+      "hellyeahorno"
+    ]
+  },
+  {
+    "slug": "how-to-live",
+    "publicSlug": "howtolive",
+    "aliases": [
+      "how-to-live",
+      "howtolive"
+    ]
+  },
+  {
+    "slug": "useful-not-true",
+    "publicSlug": "usefulnottrue",
+    "aliases": [
+      "useful-not-true",
+      "usefulnottrue"
+    ]
+  },
+  {
+    "slug": "friendly-ambitious-nerd",
+    "publicSlug": "friendlyambitiousnerd",
+    "aliases": [
+      "friendly-ambitious-nerd",
+      "friendlyambitiousnerd"
+    ]
+  },
+  {
+    "slug": "atomic-habits",
+    "publicSlug": "atomichabits",
+    "aliases": [
+      "atomic-habits",
+      "atomichabits"
+    ]
+  },
+  {
+    "slug": "deep-work",
+    "publicSlug": "deepwork",
+    "aliases": [
+      "deep-work",
+      "deepwork"
+    ]
+  },
+  {
+    "slug": "tools-of-titans",
+    "publicSlug": "toolsoftitans",
+    "aliases": [
+      "tools-of-titans",
+      "toolsoftitans"
+    ]
+  },
+  {
+    "slug": "tribe-of-mentors",
+    "publicSlug": "tribeofmentors",
+    "aliases": [
+      "tribe-of-mentors",
+      "tribeofmentors"
+    ]
+  },
+  {
+    "slug": "thinking-in-bets",
+    "publicSlug": "thinkinginbets",
+    "aliases": [
+      "thinking-in-bets",
+      "thinkinginbets"
+    ]
+  },
+  {
+    "slug": "mindset",
+    "publicSlug": "mindset",
+    "aliases": [
+      "mindset"
+    ]
+  },
+  {
+    "slug": "the-pathless-path",
+    "publicSlug": "thepathlesspath",
+    "aliases": [
+      "the-pathless-path",
+      "thepathlesspath"
+    ]
+  },
+  {
+    "slug": "think-and-grow-rich",
+    "publicSlug": "thinkandgrowrich",
+    "aliases": [
+      "think-and-grow-rich",
+      "thinkandgrowrich"
+    ]
+  },
+  {
+    "slug": "principles",
+    "publicSlug": "principles",
+    "aliases": [
+      "principles"
+    ]
+  },
+  {
+    "slug": "principles-for-dealing-with-the-changing-world-order",
+    "publicSlug": "principlesfordealingwiththechangingworldorder",
+    "aliases": [
+      "principles-for-dealing-with-the-changing-world-order",
+      "principlesfordealingwiththechangingworldorder"
+    ]
+  },
+  {
+    "slug": "tao-te-ching",
+    "publicSlug": "taoteching",
+    "aliases": [
+      "tao-te-ching",
+      "taoteching"
+    ]
+  },
+  {
+    "slug": "bible",
+    "publicSlug": "bible",
+    "aliases": [
+      "bible"
+    ]
+  },
+  {
+    "slug": "paul-graham-essays",
+    "publicSlug": "paulgrahamessays",
+    "aliases": [
+      "paul-graham-essays",
+      "paulgrahamessays"
+    ]
+  },
+  {
+    "slug": "reason-is-fun-essays",
+    "publicSlug": "reasonisfunessays",
+    "aliases": [
+      "reason-is-fun-essays",
+      "reasonisfunessays"
+    ]
+  }
+]

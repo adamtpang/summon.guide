@@ -1,0 +1,16 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "zombies-in-western-culture"
+  ],
+  "skillSlugs": [
+    "vervaeke",
+    "four-kinds-of-knowing",
+    "relevance-realization",
+    "ecology-of-practices"
+  ],
+  "url": "https://summon.guide/zombiesinwesternculture",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

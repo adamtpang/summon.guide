@@ -10,6 +10,9 @@
     "summon": "scripts/summon.mjs"
   },
   "scripts": {
+    "summon:generate": "node --experimental-strip-types scripts/gen-summon-skill.mjs",
+    "summon:check": "node --experimental-strip-types scripts/gen-summon-skill.mjs --check",
+    "summon:test": "node --test scripts/summon-skill.test.mjs",
     "agents:generate": "node --experimental-strip-types scripts/gen-eve-guides.mjs",
     "agents:check": "node --experimental-strip-types scripts/gen-eve-guides.mjs --check",
     "dev": "next dev",

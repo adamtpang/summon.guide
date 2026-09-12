@@ -1,0 +1,14 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "billion-dollar-loser"
+  ],
+  "skillSlugs": [
+    "mission-as-moat",
+    "narrative-arbitrage"
+  ],
+  "url": "https://summon.guide/billiondollarloser",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

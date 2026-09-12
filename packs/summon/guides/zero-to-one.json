@@ -1,0 +1,11 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "zero-to-one"
+  ],
+  "skillSlugs": [],
+  "url": "https://summon.guide/zerotoone",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

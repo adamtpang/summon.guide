@@ -1,0 +1,15 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "elon-musk-isaacson"
+  ],
+  "skillSlugs": [
+    "first-principles",
+    "five-step-algorithm",
+    "idiot-index"
+  ],
+  "url": "https://summon.guide/elonmuskisaacson",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

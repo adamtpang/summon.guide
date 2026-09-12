@@ -1,0 +1,13 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "techno-optimist-manifesto"
+  ],
+  "skillSlugs": [
+    "techno-optimism"
+  ],
+  "url": "https://summon.guide/technooptimistmanifesto",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

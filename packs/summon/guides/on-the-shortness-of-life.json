@@ -1,0 +1,13 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "on-the-shortness-of-life"
+  ],
+  "skillSlugs": [
+    "on-the-shortness-of-life"
+  ],
+  "url": "https://summon.guide/ontheshortnessoflife",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

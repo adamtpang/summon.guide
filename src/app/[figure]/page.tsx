@@ -1,3 +1,4 @@
+import { guidePath } from "@/lib/guideUrls";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import type { Metadata } from "next";
@@ -13,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const book = getBook(slug);
   return {
     title: `${guide?.name || book?.title || "Guide not found"} | summon.guide`,
-    alternates: { canonical: `https://summon.guide/${slug}` },
+    alternates: { canonical: `https://summon.guide${guidePath(slug)}` },
   };
 }
 export default async function GuideConversation({ params, searchParams }: Props) {

@@ -1,0 +1,17 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "paul-graham-essays"
+  ],
+  "skillSlugs": [
+    "paul-graham",
+    "do-things-that-dont-scale",
+    "default-alive",
+    "maker-schedule",
+    "great-work-project"
+  ],
+  "url": "https://summon.guide/paulgrahamessays",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

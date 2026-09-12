@@ -1,0 +1,13 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "why-software-is-eating-the-world"
+  ],
+  "skillSlugs": [
+    "software-eats-the-world"
+  ],
+  "url": "https://summon.guide/whysoftwareiseatingtheworld",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

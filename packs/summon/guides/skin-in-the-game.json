@@ -1,0 +1,18 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "skin-in-the-game"
+  ],
+  "skillSlugs": [
+    "portfolio-not-opinion",
+    "minority-rule",
+    "intellectual-yet-idiot",
+    "skin-of-others-audit",
+    "green-lumber-test",
+    "merchandising-of-virtue"
+  ],
+  "url": "https://summon.guide/skininthegame",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

@@ -1,0 +1,14 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "pendleton-ward-selected-interviews"
+  ],
+  "skillSlugs": [
+    "creative-play",
+    "practice-kindness"
+  ],
+  "url": "https://summon.guide/pendletonwardselectedinterviews",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

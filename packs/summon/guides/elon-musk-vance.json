@@ -1,0 +1,11 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "elon-musk-vance"
+  ],
+  "skillSlugs": [],
+  "url": "https://summon.guide/elonmuskvance",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

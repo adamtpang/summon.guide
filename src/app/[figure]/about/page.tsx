@@ -1,3 +1,4 @@
+import { guidePath } from "@/lib/guideUrls";
 import { figures, getFigure } from "@/lib/figures";
 import { getProfile, type Profile } from "@/lib/profiles";
 import { getSkillsForFigure, skillGithubUrl, pluginInstallCommands } from "@/lib/skills";
@@ -35,7 +36,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${figure.name}: summon.guide`,
       description,
-      url: `https://summon.guide/${figure.slug}/about`,
+      url: `https://summon.guide${guidePath(figure.slug)}/about`,
       images: [{ url: ogImageUrl, width: 1200, height: 630 }],
       type: "profile",
     },
@@ -46,7 +47,7 @@ export async function generateMetadata({
       images: [ogImageUrl],
     },
     alternates: {
-      canonical: `https://summon.guide/${figure.slug}/about`,
+      canonical: `https://summon.guide${guidePath(figure.slug)}/about`,
     },
   };
 }

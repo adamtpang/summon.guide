@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import guideUrls from "./data/guide-urls.json";
 
 // Old long slugs map to short canonical slugs.
 // Keep this in sync with figures.ts.
@@ -27,8 +28,18 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return guideUrls.filter(r => r.slug !== r.publicSlug).flatMap(r => [
+      { source: `/${r.publicSlug}`, destination: `/${r.slug}` },
+      { source: `/${r.publicSlug}/about`, destination: `/${r.slug}/about` },
+    ]);
+  },
   async redirects() {
     return [
+      ...guideUrls.flatMap(r => r.aliases.filter(alias => alias !== r.publicSlug).flatMap(alias => [
+        { source: `/${alias}`, destination: `/${r.publicSlug}`, permanent: true },
+        { source: `/${alias}/about`, destination: `/${r.publicSlug}/about`, permanent: true },
+      ])),
       { source: "/founders-lens", destination: "/sage", permanent: true },
       { source: "/founders-podcast", destination: "/sage", permanent: true },
       { source: "/chat/source/founders-podcast", destination: "/sage", permanent: true },

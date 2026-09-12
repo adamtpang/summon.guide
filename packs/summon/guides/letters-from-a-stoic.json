@@ -1,0 +1,13 @@
+{
+  "mode": "live-connection-required",
+  "localPrompt": null,
+  "grounding": null,
+  "sourceSlugs": [
+    "letters-from-a-stoic"
+  ],
+  "skillSlugs": [
+    "letters-from-a-stoic"
+  ],
+  "url": "https://summon.guide/lettersfromastoic",
+  "sourceLimit": "Installed public guide prompt and selected synthesis only; no private transcript access. Source IDs alone do not establish full-text coverage."
+}

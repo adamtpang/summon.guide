@@ -1,3 +1,4 @@
+import { guidePath } from "@/lib/guideUrls";
 import { books } from "@/lib/books";
 import { figures } from "@/lib/figures";
 import guideIntake from "../../data/guide-intake.json";
@@ -105,8 +106,8 @@ const personAgents: GuideAgent[] = figures.map((figure) => {
     capabilities,
     availability: "ready",
     runtime: { kind: "figure", figureSlug: figure.slug },
-    chatHref: `/${figure.slug}`,
-    profileHref: `/${figure.slug}/about`,
+    chatHref: guidePath(figure.slug),
+    profileHref: `${guidePath(figure.slug)}/about`,
     installSlug: figure.slug === "elon" ? "elon" : undefined,
     assignmentScope: "cross-project",
     memoryScopes: ["agent", "assignment"],
