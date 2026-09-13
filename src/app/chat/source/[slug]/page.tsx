@@ -8,10 +8,11 @@ import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSession, signIn } from "next-auth/react";
 import { usePostHog } from "posthog-js/react";
-import { track } from "@vercel/analytics";
+import posthog from "posthog-js";
 import ModelRouteBadge from "@/components/ModelRouteBadge";
+import ListenButton from "@/components/ListenButton";
+import PromptBubbles from "@/components/PromptBubbles";
 import ChatComposer from "@/components/ChatComposer";
-import { Button } from "@/components/ui/button";
 import type { ModelRouteMeta } from "@/lib/aiTypes";
 import { readChatStream } from "@/lib/readChatStream";
 import { FOUNDERS_LENS_PROMPTS } from "@/lib/foundersLens";
@@ -235,47 +236,10 @@ export default function SourceChatPage({
       {/* Middle content area */}
       <div className="relative z-10 flex-1 flex flex-col min-h-0">
         {!hasMessages ? (
-          <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col justify-end px-4 pb-5 overflow-y-auto">
-            <p className="text-white/35 text-xs tracking-[0.25em] uppercase mb-2">
-              A corpus, not a person
-            </p>
-            <div className="flex items-start gap-4 mb-2">
-              {book.image && (
-                <Image
-                  src={book.image}
-                  alt=""
-                  width={56}
-                  height={56}
-                  className="w-16 h-20 rounded-md object-cover shrink-0 border border-white/10"
-                />
-              )}
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-medium tracking-tight text-white">
-                {corpus.title}
-              </h1>
-            </div>
-            <p className="text-white/45 text-sm mb-4">
-              By {corpus.host} &middot; {corpus.episodes.length} episodes synthesized
-            </p>
-            <p className="max-w-xl text-white/55 text-sm leading-relaxed mb-5">
-              This answers only from the corpus below. It is not {corpus.host}, it does not
-              pretend to be, and it will say so if you ask.
-            </p>
-
-            <p className="mb-2 text-[10px] tracking-[0.2em] text-white/35 uppercase">
-              Ask the source
-            </p>
-            <div className="grid gap-2 sm:grid-cols-3">
-              {defaultSuggestedQuestions(corpus.title, slug).map((q, i) => (
-                <Button
-                  key={i}
-                  onClick={() => sendQuickMessage(q)}
-                  variant="outline"
-                  className="h-auto min-h-12 justify-start rounded-xl border-white/10 bg-white/[0.06] px-4 py-3 text-left text-xs font-normal leading-relaxed text-white/70 backdrop-blur-sm hover:bg-white/10 hover:text-white"
-                >
-                  {q}
-                </Button>
-              ))}
-            </div>
+          <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col items-center justify-center overflow-y-auto px-4 pb-5 text-center">
+            {book.image ? <Image src={book.image} alt={corpus.title} width={144} height={180} priority className="mb-6 h-44 w-auto max-w-40 rounded-xl object-cover shadow-[0_0_70px_-20px_#4a78bb]" /> : <span className="mb-6 text-7xl" aria-hidden="true">📖</span>}
+            <h1 className="max-w-lg text-2xl font-medium tracking-tight text-white">{corpus.title}</h1>
+            <span className="mt-2 text-xs text-white/45">AI source guide</span>
           </div>
         ) : (
           <div className="chat-scroll flex-1 overflow-y-auto px-4 py-4">
@@ -315,12 +279,13 @@ export default function SourceChatPage({
                       <p className="mb-1.5 text-[10px] tracking-[0.18em] text-white/35 uppercase">
                         Source synthesis
                       </p>
-                      <div className="rounded-xl border border-white/10 bg-white/[0.06] px-4 py-4">
+                      <div className="py-2">
                         <p className="whitespace-pre-wrap break-words text-[15px] leading-[1.8] text-white/85">
                           {cleanBody}
                         </p>
+                        <ListenButton text={cleanBody} guide={book.figureSlug} />
                         {msgCitations.length > 0 && (
-                          <div className="mt-4 space-y-1.5 border-t border-white/10 pt-3">
+                          <details className="mt-2 space-y-1.5 text-white/50"><summary className="cursor-pointer py-3 text-xs">Sources</summary>
                             {msgCitations.map((c, ci) => (
                               <p
                                 key={ci}
@@ -332,7 +297,7 @@ export default function SourceChatPage({
                                 {c}
                               </p>
                             ))}
-                          </div>
+                          </details>
                         )}
                       </div>
                     </div>
@@ -361,7 +326,7 @@ export default function SourceChatPage({
                     <p className="mb-1.5 text-[10px] tracking-[0.18em] text-white/35 uppercase">
                       Source synthesis
                     </p>
-                    <div className="rounded-xl border border-white/10 bg-white/[0.06] px-4 py-4">
+                    <div className="py-2">
                       <p className="whitespace-pre-wrap break-words text-[15px] leading-[1.8] text-white/85">
                         {streamingContent}
                         <span className="ml-0.5 inline-block h-4 w-0.5 animate-pulse bg-white/60 align-text-bottom" />
@@ -393,44 +358,27 @@ export default function SourceChatPage({
         )}
       </div>
 
-      {followups.length > 0 && !loading && hasMessages && (
-        <div className="relative z-10 px-4 py-2 shrink-0">
-          <div className="mx-auto flex max-w-2xl gap-2 overflow-x-auto pb-1">
-            {followups.map((q, i) => (
-              <Button
-                key={i}
-                onClick={() => sendQuickMessage(q)}
-                variant="outline"
-                className="h-10 shrink-0 rounded-full border-white/10 bg-white/[0.06] px-4 text-xs font-normal text-white/65 hover:bg-white/10 hover:text-white"
-              >
-                {q}
-              </Button>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {(effectiveCredits !== null || modelRoute) && (
-        <div className="relative z-10 px-4 py-1 flex justify-center shrink-0">
-          <div className="flex flex-wrap items-center justify-center gap-2">
+      <details className="absolute right-4 top-3 z-30 text-white/60">
+        <summary aria-label="Conversation options" className="flex size-11 cursor-pointer list-none items-center justify-center rounded-full text-xl hover:bg-white/10 [&::-webkit-details-marker]:hidden">···</summary>
+        <div className="absolute right-0 mt-2 w-72 max-w-[calc(100vw-32px)] rounded-2xl border border-white/10 bg-neutral-950 p-3 shadow-xl">
+          <div className="mt-2 border-t border-white/10 px-3 pt-3 text-xs">
+            <p>{corpus.episodes.length} source syntheses · Synthetic voice</p>
+            <Link href={`/books/${slug}`} className="block py-3 underline">About this source</Link>
             {modelRoute && <ModelRouteBadge route={modelRoute} tone="dark" />}
-            {effectiveCredits !== null && (
-              <span className="text-[10px] text-white/30">
-                {effectiveCredits} messages remaining{!session?.user ? " (free trial)" : ""}
-              </span>
-            )}
+            {effectiveCredits !== null && <p>{effectiveCredits} messages remaining</p>}
           </div>
         </div>
-      )}
+      </details>
 
       <div className="relative z-10 px-3 pb-[max(12px,env(safe-area-inset-bottom))] pt-1 shrink-0">
         <div className="mx-auto max-w-2xl">
+          <PromptBubbles prompts={hasMessages ? followups : defaultSuggestedQuestions(corpus.title, slug)} disabled={loading} onSelect={q => { void sendQuickMessage(q); }} />
           <ChatComposer
             value={input}
             onChange={setInput}
             onKeyDown={handleKeyDown}
             onSend={sendMessage}
-            placeholder={`Ask ${corpus.title}...`}
+            placeholder="What’s on your mind?"
             disabled={loading}
             textareaRef={inputRef}
             tone="dark"
@@ -462,7 +410,7 @@ export default function SourceChatPage({
                 href="https://buy.stripe.com/7sY4gz0wy7cFeUM1q9aMU0i"
                 onClick={() => {
                   posthog?.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat_source" });
-                  track("checkout_click", { plan: "100_messages", price: 10, source: "chat_source" });
+                  posthog.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat_source" });
                 }}
                 className="block w-full bg-ink-950 text-white rounded-full py-3 px-6 text-sm font-medium hover:bg-ink-800 transition-colors mb-3 min-h-[48px] flex items-center justify-center"
               >

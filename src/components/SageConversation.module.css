@@ -7,7 +7,7 @@
 
 .text :global([class*="bg-white"]){background:#111}.text textarea{color:#eee}
 
-.person :global([class*="text-ink"]),.person textarea{color:#eee!important}.person :global(.bg-ink-950){background:#eee;color:#111!important}.person{filter:grayscale(1)}
+.person :global([class*="text-ink"]),.person textarea{color:#eee!important}.person :global(.bg-ink-950){background:#eee;color:#111!important}
 
 /* Sage: one quiet conversation. */
 .app{height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden;background:#080808;color:#e7e7e7;font-family:Arial,Helvetica,sans-serif}

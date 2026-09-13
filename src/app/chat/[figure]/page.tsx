@@ -8,12 +8,12 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useSession, signIn } from "next-auth/react";
 import { useSearchParams } from "next/navigation";
 import { usePostHog } from "posthog-js/react";
-import { track } from "@vercel/analytics";
+import posthog from "posthog-js";
 import WisdomCard from "@/components/WisdomCard";
 import FeedbackModal from "@/components/FeedbackModal";
 
-import ShareButton from "@/components/ShareButton";
 import ModelRouteBadge from "@/components/ModelRouteBadge";
+import PromptBubbles from "@/components/PromptBubbles";
 import ChatComposer from "@/components/ChatComposer";
 // import GuideCall from "@/components/GuideCall"; // Call mode paused by Adam.
 import ListenButton from "@/components/ListenButton";
@@ -35,11 +35,11 @@ interface PendingChat {
 }
 
 function parseCitations(text: string): { body: string; citations: string[] } {
-  const citationRegex = /\[Source:\s*"([^"]+)"\s*by\s*([^\]]+)\]/g;
+  const citationRegex = /\[Source:\s*"([^"]+)"(?:\s*by\s*([^\]]+))?\]/g;
   const citations: string[] = [];
   let match;
   while ((match = citationRegex.exec(text)) !== null) {
-    citations.push(`${match[1]} by ${match[2]}`);
+    citations.push(match[2] ? `${match[1]} by ${match[2]}` : match[1]);
   }
   const body = text.replace(citationRegex, "").trim();
   return { body, citations };
@@ -542,31 +542,19 @@ export default function ChatPage({
       <div className="relative z-10 flex-1 flex flex-col min-h-0">
         {!hasMessages ? (
           /* Empty state */
-          <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col justify-end overflow-y-auto px-4 pb-5">
+          <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col items-center justify-center overflow-y-auto px-4 pb-5 text-center">
             {showReason && matchReason && (
               <div className="bg-white/80 backdrop-blur-sm rounded-xl px-4 py-3 mb-5 border border-warm-200">
                 <p className="text-sm text-ink-950/75 italic">{matchReason}</p>
               </div>
             )}
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-medium text-ink-950 mb-2 tracking-tight">
-              {figure.name}
-            </h1>
-            <div className="grid gap-2 sm:grid-cols-3">
-              {getSuggestedQuestions(figure.slug).map((q, i) => (
-                <Button
-                  key={i}
-                  onClick={() => {
-                    setShowReason(false);
-                    sendQuickMessage(q);
-                  }}
-                  variant="outline"
-                  className="h-auto min-h-12 justify-start rounded-xl border-warm-200 bg-white/75 px-4 py-3 text-left text-xs font-normal leading-relaxed text-ink-950/75 backdrop-blur-sm hover:border-warm-300 hover:bg-white hover:text-ink-950"
-                >
-                  {q}
-                </Button>
-              ))}
+            <div className="relative mb-6 size-36 shrink-0 overflow-hidden rounded-full border border-white/10 shadow-[0_0_70px_-20px_#4a78bb] sm:size-44">
+              {figure.portrait ? <Image src={figure.portrait} alt={figure.name} fill sizes="176px" priority className="object-cover object-top" /> : <span className="flex h-full items-center justify-center text-5xl" aria-hidden="true">🧙</span>}
             </div>
+            <h1 className="text-2xl font-medium tracking-tight">{figure.name}</h1>
+            <span className="mt-2 text-xs text-warm-500">AI guide</span>
+
           </div>
         ) : (
           /* Conversation - scrollable */
@@ -600,7 +588,7 @@ export default function ChatPage({
                     <div key={i} className="flex justify-end">
                       <div
                         className="max-w-[82%] rounded-2xl rounded-br-md px-4 py-3.5"
-                        style={{ backgroundColor: figure.color }}
+                        style={{ backgroundColor: "#222" }}
                       >
                         <p className="text-sm text-white leading-relaxed whitespace-pre-wrap break-words">{msg.content}</p>
                       </div>
@@ -631,13 +619,13 @@ export default function ChatPage({
                         {figure.name}
                       </p>
                       <div
-                        className="rounded-xl border border-warm-200 border-l-2 bg-white/85 px-4 py-4 backdrop-blur-sm"
-                        style={{ borderLeftColor: figure.color }}
+                        className="py-2"
+
                       >
                         <p className="text-[15px] text-ink-950/85 leading-[1.8] whitespace-pre-wrap break-words">{cleanBody}</p>
                         <ListenButton text={cleanBody} guide={figureSlug} />
                         {msgCitations.length > 0 && (
-                          <div className="mt-4 space-y-1.5 border-t border-warm-200 pt-3">
+                          <details className="mt-2 space-y-1.5 text-warm-500"><summary className="cursor-pointer py-3 text-xs">Sources</summary>
                             {msgCitations.map((c, ci) => (
                               <p key={ci} className="text-[11px] text-warm-500 italic flex items-start gap-1.5">
                                 <svg className="mt-0.5 w-3 h-3 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -646,15 +634,9 @@ export default function ChatPage({
                                 {c}
                               </p>
                             ))}
-                          </div>
+                          </details>
                         )}
                       </div>
-                      <ShareButton
-                        quote={cleanBody}
-                        figureName={figure.name}
-                        era={figure.era}
-                        figureColor={figure.color}
-                      />
                     </div>
                   </div>
                 );
@@ -666,8 +648,8 @@ export default function ChatPage({
                   <div className="min-w-0 flex-1">
                     <p className="mb-1.5 text-[10px] tracking-[0.16em] text-warm-500 uppercase">{figure.name}</p>
                     <div
-                      className="rounded-xl border border-warm-200 border-l-2 bg-white/85 px-4 py-4 backdrop-blur-sm"
-                      style={{ borderLeftColor: figure.color }}
+                      className="py-2"
+
                     >
                       <p className="text-[15px] text-ink-950/85 leading-[1.8] whitespace-pre-wrap break-words">
                         {streamingContent}
@@ -698,48 +680,28 @@ export default function ChatPage({
         )}
       </div>
 
-      {/* Follow-up suggestions */}
-      {followups.length > 0 && !loading && hasMessages && (
-        <div className="relative z-10 px-4 py-2 shrink-0">
-          <div className="max-w-2xl mx-auto flex gap-2 overflow-x-auto pb-1 chat-scroll">
-            {followups.map((q, i) => (
-              <Button
-                key={i}
-                onClick={() => sendQuickMessage(q)}
-                variant="outline"
-                className="h-auto min-h-10 shrink-0 rounded-full border-warm-200 bg-white/80 px-3 py-2 text-left text-xs font-normal text-warm-500 hover:bg-white hover:text-ink-950"
-              >
-                {q}
-              </Button>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Credits indicator */}
-      {(effectiveCredits !== null || modelRoute) && (
-        <div className="relative z-10 px-4 py-1 flex justify-center shrink-0">
-          <div className="flex flex-wrap items-center justify-center gap-2">
+      <details className="absolute right-4 top-3 z-30 text-warm-500">
+        <summary aria-label="Conversation options" className="flex size-11 cursor-pointer list-none items-center justify-center rounded-full text-xl hover:bg-white/10 [&::-webkit-details-marker]:hidden">···</summary>
+        <div className="absolute right-0 mt-2 w-72 max-w-[calc(100vw-32px)] rounded-2xl border border-white/10 bg-neutral-950 p-3 shadow-xl">
+          <div className="mt-2 border-t border-white/10 px-3 pt-3 text-xs">
+            <p>AI guide · Synthetic voice</p>
             {modelRoute && <ModelRouteBadge route={modelRoute} />}
-            {effectiveCredits !== null && (
-              <span className="text-[10px] text-warm-500">
-                {effectiveCredits} messages remaining
-              </span>
-            )}
+            {effectiveCredits !== null && <p>{effectiveCredits} messages remaining</p>}
           </div>
         </div>
-      )}
+      </details>
 
       {/* Input area - mobile safe */}
       <div className="relative z-10 px-3 pb-[max(12px,env(safe-area-inset-bottom))] pt-1 shrink-0">
         <div className="max-w-2xl mx-auto">
+          <PromptBubbles prompts={hasMessages ? followups : getSuggestedQuestions(figure.slug)} disabled={loading} onSelect={q => { setShowReason(false); void sendQuickMessage(q); }} />
           <ChatComposer
             textareaRef={inputRef}
             value={input}
             onChange={setInput}
             onKeyDown={handleKeyDown}
             onSend={sendMessage}
-            placeholder={`Ask ${figure.name} anything...`}
+            placeholder="What’s on your mind?"
             disabled={loading}
           />
         </div>
@@ -853,7 +815,7 @@ export default function ChatPage({
                 href="https://buy.stripe.com/7sY4gz0wy7cFeUM1q9aMU0i"
                 onClick={() => {
                   posthog?.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat" });
-                  track("checkout_click", { plan: "100_messages", price: 10, source: "chat" });
+                  posthog.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat" });
                 }}
                 className="block w-full bg-ink-950 text-white rounded-full py-3 px-6 text-sm font-medium hover:bg-ink-800 transition-colors mb-3 min-h-[48px] flex items-center justify-center"
               >

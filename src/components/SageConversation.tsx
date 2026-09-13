@@ -9,9 +9,11 @@ import type { SourceEpisode } from "@/lib/sourceCorpus";
 import Link from "next/link";
 // Call mode paused at Adam's request. Implementation retained in GuideCall.tsx.
 // import GuideCall from "@/components/GuideCall";
+import PromptBubbles from "@/components/PromptBubbles";
+import ChatComposer from "@/components/ChatComposer";
 import ListenButton from "@/components/ListenButton";
 import "../../public/design/sage-magic.css";
-import { ArrowUp, ArrowLeft, Plus, MoreHorizontal, Square, Trash2 } from "lucide-react";
+import { ArrowLeft, Plus, MoreHorizontal, Trash2 } from "lucide-react";
 import styles from "./SageConversation.module.css";
 
 type Message = { role: "user" | "assistant"; content: string };
@@ -160,6 +162,8 @@ export default function SageConversation({ episodes }: { episodes: SourceEpisode
   }
 
   const hasConversation = messages.length > 0 || busy;
+  const lastAnswer = messages.findLast(message => message.role === "assistant")?.content || "";
+  const nextPrompts = lastAnswer.match(/\[FOLLOWUP:\s*([^\]]+)\]/)?.[1].split("|") || [];
   return <div className={`${styles.shell} ${styles.app} sage-magic`}>
     {/* Call interface intentionally disabled. GuideCall.tsx is retained. */}
     <header className={styles.header}>
@@ -195,10 +199,8 @@ export default function SageConversation({ episodes }: { episodes: SourceEpisode
     <footer className={styles.footer}>
       {error && <p role="alert" className={styles.notice}>{error}</p>}
       {notice && <p role="status" className={styles.notice}>{notice}</p>}
-      <form className={styles.composer} onSubmit={(event) => { event.preventDefault(); void send(); }}>
-        <textarea ref={inputRef} aria-label="Message Sage" placeholder="What's on your mind?" value={input} maxLength={8000} rows={1} disabled={busy} onChange={(event) => setInput(event.target.value)} onKeyDown={(event) => { if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) { event.preventDefault(); void send(); } }} />
-        {busy ? <button type="button" className={styles.send} aria-label="Stop response" title="Stop response" onClick={() => { request.current?.abort(); setInput(pending); setNotice("Stopped. Your message is ready to retry."); }}><Square size={16} fill="currentColor" /></button> : <button type="submit" className={styles.send} disabled={!input.trim()} aria-label="Send message" title="Send message"><ArrowUp size={20} /></button>}
-      </form>
+      <PromptBubbles prompts={hasConversation ? nextPrompts : ["What should I focus on?", "How do I hire great people?", "When should I go all in?"]} disabled={busy} onSelect={question => void send(question)} />
+      <ChatComposer textareaRef={inputRef} value={input} onChange={setInput} placeholder="What's on your mind?" disabled={busy} onSend={() => void send()} onStop={() => { request.current?.abort(); setInput(pending); setNotice("Stopped."); }} onKeyDown={(event) => { if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) { event.preventDefault(); void send(); } }} />
       <span className={styles.footnote}>AI guide</span>
     </footer>
   </div>;

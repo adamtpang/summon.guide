@@ -5,8 +5,9 @@ export async function recordVoiceTurn(signal: AbortSignal, onListening: () => vo
   }
   const stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true } });
   if (signal.aborted) { stream.getTracks().forEach(t => t.stop()); throw new DOMException("Stopped", "AbortError"); }
-  const context = new AudioContext();
+  let context: AudioContext | undefined;
   try {
+    context = new AudioContext();
     await context.resume();
     if (signal.aborted) throw new DOMException("Stopped", "AbortError");
     const analyser = context.createAnalyser(); analyser.fftSize = 2048;
@@ -42,6 +43,6 @@ export async function recordVoiceTurn(signal: AbortSignal, onListening: () => vo
     });
   } finally {
     stream.getTracks().forEach(t => t.stop());
-    await context.close();
+    await context?.close();
   }
 }

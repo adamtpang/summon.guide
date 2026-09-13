@@ -1,6 +1,6 @@
 import { auth } from "@/auth";
 import type { ChatMessageInput } from "@/lib/aiTypes";
-import { buildGroundingBlock } from "@/lib/figureSources";
+import { buildGuideGrounding } from "@/lib/guideRetrieval";
 import { AI_CONFIG, getFigure } from "@/lib/figures";
 import {
   authenticateMcpToken,
@@ -48,7 +48,8 @@ export async function POST(req: NextRequest) {
   // Keep the persona and its documented corpus together in one system
   // message. OpenRouter tries the current free-quality queue first and then
   // automatically falls through to capped-cost models when needed.
-  const grounding = buildGroundingBlock(figure.slug);
+  const query = messages.filter(message => message.role === "user").slice(-3).map(message => message.content).join("\n").slice(-8000);
+  const grounding = buildGuideGrounding(figure.slug, query);
   const hasLifeContext = messages.some(
     (message) => message.role === "user" && isLifeContextBrief(message.content),
   );

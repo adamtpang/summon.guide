@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { LoaderCircle, Square, Volume2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 /** Explicit, per-answer playback. Never captures the microphone. */
 export default function ListenButton({ text, guide }: { text: string; guide: string }) {
@@ -16,6 +17,7 @@ export default function ListenButton({ text, guide }: { text: string; guide: str
     request.current = null;
     if (audio.current) {
       audio.current.onended = null;
+      audio.current.onerror = null;
       audio.current.pause();
       audio.current = null;
     }
@@ -48,6 +50,9 @@ export default function ListenButton({ text, guide }: { text: string; guide: str
       const player = new Audio(url.current);
       audio.current = player;
       player.onended = stop;
+      player.onerror = () => {
+        if (audio.current === player) { stop(); setError("Audio stopped. Try again."); }
+      };
       await player.play();
       if (!controller.signal.aborted) setState("playing");
     } catch {
@@ -56,9 +61,9 @@ export default function ListenButton({ text, guide }: { text: string; guide: str
   }
 
   return <div className="mt-2 flex items-center gap-2">
-    <button type="button" onClick={() => void play()} className="inline-flex min-h-11 min-w-11 items-center justify-center opacity-60 hover:opacity-100" aria-label={state === "idle" ? "Listen to answer" : "Stop audio"} title={state === "idle" ? "Listen" : "Stop"}>
+    <Button type="button" variant="ghost" size="icon" onClick={() => void play()} className="size-11 rounded-full text-current opacity-60 hover:opacity-100" aria-label={state === "idle" ? "Listen to answer" : "Stop audio"} title={state === "idle" ? "Listen" : "Stop"}>
       {state === "loading" ? <LoaderCircle size={16} className="animate-spin" /> : state === "playing" ? <Square size={16} /> : <Volume2 size={16} />}
-    </button>
+    </Button>
     {error && <span role="alert" className="text-xs opacity-70">{error}</span>}
   </div>;
 }

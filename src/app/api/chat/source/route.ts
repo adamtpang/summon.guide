@@ -31,9 +31,7 @@ export async function POST(req: NextRequest) {
     .map((message) => message.content)
     .join("\n")
     .slice(0, 8_000);
-  const limit = eligibleEpisodes.length <= 24
-    ? eligibleEpisodes.length
-    : policy.maxRetrievedEpisodes;
+  const limit = policy.maxRetrievedEpisodes;
   const retrieved = retrieveSourceEpisodes(eligibleEpisodes, query, limit);
   const selectedEpisodes = retrieved.map((result) => result.episode);
   const systemText = buildSourceSystemPrompt(sourceSlug!, selectedEpisodes);

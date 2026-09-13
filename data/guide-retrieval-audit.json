@@ -1,0 +1,907 @@
+{
+  "scope": "Active person guides; local registries, not a production probe. No corpus quality inferred from quantity.",
+  "rows": [
+    {
+      "slug": "pendleton-ward",
+      "name": "Pendleton Ward",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 0,
+      "retrieval": "no retrievable corpus",
+      "fullTranscriptRetrieval": false,
+      "next": "Acquire authorized sources, synthesize, index, evaluate"
+    },
+    {
+      "slug": "rockefeller",
+      "name": "John D. Rockefeller",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 39,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "franklin",
+      "name": "Benjamin Franklin",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 20,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "elon",
+      "name": "Elon Musk",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 23,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "alexander",
+      "name": "Alexander the Great",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 16,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "deutsch",
+      "name": "David Deutsch",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 32,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "lee-kuan-yew",
+      "name": "Lee Kuan Yew",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 0,
+      "retrieval": "no retrievable corpus",
+      "fullTranscriptRetrieval": false,
+      "next": "Acquire authorized sources, synthesize, index, evaluate"
+    },
+    {
+      "slug": "marcus-aurelius",
+      "name": "Marcus Aurelius",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 12,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "marc-andreessen",
+      "name": "Marc Andreessen",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 19,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "adam-neumann",
+      "name": "Adam Neumann",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 0,
+      "retrieval": "no retrievable corpus",
+      "fullTranscriptRetrieval": false,
+      "next": "Acquire authorized sources, synthesize, index, evaluate"
+    },
+    {
+      "slug": "seneca",
+      "name": "Lucius Annaeus Seneca",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 38,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "ricky-gervais",
+      "name": "Ricky Gervais",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 0,
+      "retrieval": "no retrievable corpus",
+      "fullTranscriptRetrieval": false,
+      "next": "Acquire authorized sources, synthesize, index, evaluate"
+    },
+    {
+      "slug": "marie-curie",
+      "name": "Marie Curie",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 0,
+      "retrieval": "no retrievable corpus",
+      "fullTranscriptRetrieval": false,
+      "next": "Acquire authorized sources, synthesize, index, evaluate"
+    },
+    {
+      "slug": "bob-marley",
+      "name": "Bob Marley",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 0,
+      "retrieval": "no retrievable corpus",
+      "fullTranscriptRetrieval": false,
+      "next": "Acquire authorized sources, synthesize, index, evaluate"
+    },
+    {
+      "slug": "tobi-lutke",
+      "name": "Tobi Lütke",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 1,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "todd-graves",
+      "name": "Todd Graves",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 1,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "john-mackey",
+      "name": "John Mackey",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 1,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "jimmy-iovine",
+      "name": "Jimmy Iovine",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 1,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "daniel-ek",
+      "name": "Daniel Ek",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 1,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "evan-spiegel",
+      "name": "Evan Spiegel",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 1,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "james-dyson",
+      "name": "James Dyson",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 2,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "brian-armstrong",
+      "name": "Brian Armstrong",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 1,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "nassim-taleb",
+      "name": "Nassim Nicholas Taleb",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 67,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "steve-jobs",
+      "name": "Steve Jobs",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 30,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "jeff-bezos",
+      "name": "Jeff Bezos",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 1,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "jensen-huang",
+      "name": "Jensen Huang",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 18,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "peter-thiel",
+      "name": "Peter Thiel",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 18,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "warren-buffett",
+      "name": "Warren Buffett",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 34,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "charlie-munger",
+      "name": "Charlie Munger",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 25,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "sam-walton",
+      "name": "Sam Walton",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 0,
+      "retrieval": "no retrievable corpus",
+      "fullTranscriptRetrieval": false,
+      "next": "Acquire authorized sources, synthesize, index, evaluate"
+    },
+    {
+      "slug": "naval-ravikant",
+      "name": "Naval Ravikant",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 23,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "ray-dalio",
+      "name": "Ray Dalio",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 43,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "vervaeke",
+      "name": "John Vervaeke",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 6,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "pressfield",
+      "name": "Steven Pressfield",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 24,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "hesse",
+      "name": "Hermann Hesse",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 12,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "senra",
+      "name": "David Senra",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 137,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "sivers",
+      "name": "Derek Sivers",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 68,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "visakan",
+      "name": "Visakan Veerasamy",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 17,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "james-clear",
+      "name": "James Clear",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 22,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "cal-newport",
+      "name": "Cal Newport",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 9,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "tim-ferriss",
+      "name": "Tim Ferriss",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 39,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "annie-duke",
+      "name": "Annie Duke",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 7,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "carol-dweck",
+      "name": "Carol Dweck",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 11,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "paul-millerd",
+      "name": "Paul Millerd",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 11,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "napoleon-hill",
+      "name": "Napoleon Hill",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 15,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "brad-jacobs",
+      "name": "Brad Jacobs",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 1,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "paul-graham",
+      "name": "Paul Graham",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 6,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    },
+    {
+      "slug": "lulie-tanett",
+      "name": "Lulie Tanett",
+      "portrait": true,
+      "voice": "library casting",
+      "synthesisCount": 11,
+      "retrieval": "question-ranked syntheses",
+      "fullTranscriptRetrieval": false,
+      "next": "Evaluate answers; deepen verified source coverage"
+    }
+  ],
+  "sources": [
+    {
+      "slug": "pendleton-ward-selected-interviews",
+      "name": "Pendleton Ward: Selected Public Interviews",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "adventure-time-art-of-ooo",
+      "name": "Adventure Time: The Art of Ooo",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "berkshire-shareholder-letters",
+      "name": "Berkshire Hathaway Shareholder Letters, 1977-2024",
+      "kind": "book",
+      "synthesisCount": 34,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "poor-charlies-almanack",
+      "name": "Poor Charlie's Almanack",
+      "kind": "book",
+      "synthesisCount": 22,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "titan-chernow",
+      "name": "Titan: The Life of John D. Rockefeller, Sr.",
+      "kind": "book",
+      "synthesisCount": 36,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "autobiography-of-benjamin-franklin",
+      "name": "The Autobiography of Benjamin Franklin",
+      "kind": "book",
+      "synthesisCount": 20,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "benjamin-franklin-an-american-life",
+      "name": "Benjamin Franklin: An American Life",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "steve-jobs-isaacson",
+      "name": "Steve Jobs",
+      "kind": "book",
+      "synthesisCount": 28,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "elon-musk-isaacson",
+      "name": "Elon Musk",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "elon-musk-vance",
+      "name": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+      "kind": "book",
+      "synthesisCount": 21,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "the-book-of-elon",
+      "name": "The Book of Elon",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "the-nvidia-way",
+      "name": "The Nvidia Way",
+      "kind": "book",
+      "synthesisCount": 17,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "zero-to-one",
+      "name": "Zero to One: Notes on Startups, or How to Build the Future",
+      "kind": "book",
+      "synthesisCount": 17,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "life-of-alexander-plutarch",
+      "name": "Life of Alexander",
+      "kind": "book",
+      "synthesisCount": 16,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "campaigns-of-alexander-arrian",
+      "name": "The Campaigns of Alexander (Anabasis Alexandri)",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "alexander-the-great-fox",
+      "name": "Alexander the Great",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "the-beginning-of-infinity",
+      "name": "The Beginning of Infinity",
+      "kind": "book",
+      "synthesisCount": 18,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "the-fabric-of-reality",
+      "name": "The Fabric of Reality",
+      "kind": "book",
+      "synthesisCount": 14,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "fooled-by-randomness",
+      "name": "Fooled by Randomness",
+      "kind": "book",
+      "synthesisCount": 16,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "the-black-swan",
+      "name": "The Black Swan",
+      "kind": "book",
+      "synthesisCount": 30,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "skin-in-the-game",
+      "name": "Skin in the Game",
+      "kind": "book",
+      "synthesisCount": 21,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "the-singapore-story",
+      "name": "The Singapore Story: Memoirs of Lee Kuan Yew",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "from-third-world-to-first",
+      "name": "From Third World to First: The Singapore Story 1965–2000",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "one-mans-view-of-the-world",
+      "name": "One Man's View of the World",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "meditations",
+      "name": "Meditations",
+      "kind": "book",
+      "synthesisCount": 12,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "why-software-is-eating-the-world",
+      "name": "Why Software Is Eating the World",
+      "kind": "book",
+      "synthesisCount": 6,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "its-time-to-build",
+      "name": "It's Time to Build",
+      "kind": "book",
+      "synthesisCount": 5,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "techno-optimist-manifesto",
+      "name": "The Techno-Optimist Manifesto",
+      "kind": "book",
+      "synthesisCount": 7,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "billion-dollar-loser",
+      "name": "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "the-cult-of-we",
+      "name": "The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "letters-from-a-stoic",
+      "name": "Letters from a Stoic (Epistulae Morales ad Lucilium)",
+      "kind": "book",
+      "synthesisCount": 38,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "on-the-shortness-of-life",
+      "name": "On the Shortness of Life (De Brevitate Vitae)",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "on-anger",
+      "name": "On Anger (De Ira)",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "zombies-in-western-culture",
+      "name": "Zombies in Western Culture: A Twenty-First Century Crisis",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "the-war-of-art",
+      "name": "The War of Art",
+      "kind": "book",
+      "synthesisCount": 24,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "siddhartha",
+      "name": "Siddhartha",
+      "kind": "book",
+      "synthesisCount": 12,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "founders-podcast",
+      "name": "Founders Podcast",
+      "kind": "channel",
+      "synthesisCount": 109,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "starter-story",
+      "name": "Starter Story",
+      "kind": "channel",
+      "synthesisCount": 28,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "invest-like-the-best",
+      "name": "Invest Like the Best",
+      "kind": "channel",
+      "synthesisCount": 28,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "y-combinator",
+      "name": "Y Combinator",
+      "kind": "channel",
+      "synthesisCount": 35,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "anything-you-want",
+      "name": "Anything You Want",
+      "kind": "book",
+      "synthesisCount": 14,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "your-music-and-people",
+      "name": "Your Music and People",
+      "kind": "book",
+      "synthesisCount": 0,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "hell-yeah-or-no",
+      "name": "Hell Yeah or No",
+      "kind": "book",
+      "synthesisCount": 13,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "how-to-live",
+      "name": "How to Live",
+      "kind": "book",
+      "synthesisCount": 28,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "useful-not-true",
+      "name": "Useful Not True",
+      "kind": "book",
+      "synthesisCount": 13,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "friendly-ambitious-nerd",
+      "name": "Friendly Ambitious Nerd",
+      "kind": "book",
+      "synthesisCount": 17,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "atomic-habits",
+      "name": "Atomic Habits",
+      "kind": "book",
+      "synthesisCount": 22,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "deep-work",
+      "name": "Deep Work",
+      "kind": "book",
+      "synthesisCount": 9,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "tools-of-titans",
+      "name": "Tools of Titans",
+      "kind": "book",
+      "synthesisCount": 25,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "tribe-of-mentors",
+      "name": "Tribe of Mentors",
+      "kind": "book",
+      "synthesisCount": 14,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "thinking-in-bets",
+      "name": "Thinking in Bets",
+      "kind": "book",
+      "synthesisCount": 7,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "mindset",
+      "name": "Mindset: The New Psychology of Success",
+      "kind": "book",
+      "synthesisCount": 11,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "the-pathless-path",
+      "name": "The Pathless Path",
+      "kind": "book",
+      "synthesisCount": 11,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "think-and-grow-rich",
+      "name": "Think and Grow Rich",
+      "kind": "book",
+      "synthesisCount": 15,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "principles",
+      "name": "Principles",
+      "kind": "book",
+      "synthesisCount": 29,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "principles-for-dealing-with-the-changing-world-order",
+      "name": "Principles for Dealing with the Changing World Order",
+      "kind": "book",
+      "synthesisCount": 7,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "tao-te-ching",
+      "name": "Tao Te Ching",
+      "kind": "book",
+      "synthesisCount": 17,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "bible",
+      "name": "The Bible: Wisdom & Teaching",
+      "kind": "book",
+      "synthesisCount": 40,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "paul-graham-essays",
+      "name": "Paul Graham: Selected Essays",
+      "kind": "book",
+      "synthesisCount": 6,
+      "fullTranscriptRetrieval": false
+    },
+    {
+      "slug": "reason-is-fun-essays",
+      "name": "Reason Is Fun: Selected Essays",
+      "kind": "book",
+      "synthesisCount": 11,
+      "fullTranscriptRetrieval": false
+    }
+  ]
+}
