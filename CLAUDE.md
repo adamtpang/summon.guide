@@ -925,3 +925,23 @@ production deployment, transcript upload success, or routing change to public Sa
   single point of failure for every guide. Separately, the existing `/senra`
   figure prompt begins "You are David Senra", which is first-person
   impersonation of a living person and worth reframing the way Sage now is.
+
+## Second paid fallback model in the OpenRouter waterfall (2026-09-14)
+
+- Adam asked for a second paid fallback. The waterfall ranked up to two free
+  models plus exactly one paid model; with the free picks returning 404
+  "unavailable for free", that single paid model carried every answer.
+- `rankQueue` now takes the top two paid models under the price caps and
+  prefers the second from a different vendor, so one vendor's outage cannot
+  take out both. The queue cap is four (two free, two paid); the static
+  fallback queue gained a second paid model too.
+- OpenRouter rejects a `models` fallback list longer than three (HTTP 400,
+  verified live). Both `completeOpenRouter` and `streamOpenRouter` now send at
+  most three models per request and, when that window returns nothing or
+  fails, continue with the rest. A 401 invalid key or 402 spending limit still
+  stops immediately because it applies to every model on the account.
+- `scripts/test-openrouter-fallback.mjs` (`npm run test:openrouter-fallback`)
+  checks the live queue holds two paid models from different vendors, then
+  forces a queue whose first window cannot answer and confirms both paths
+  answer from the fourth model. All seven checks passed; the live queue was
+  inkling-small:free, inkling:free, openai/gpt-5.6-luna, deepseek-v4-flash-0731.

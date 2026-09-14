@@ -47,7 +47,8 @@
     "handles:generate": "node --experimental-strip-types scripts/gen-summon-handles.mjs",
     "handles:check": "node --experimental-strip-types scripts/gen-summon-handles.mjs --check",
     "corpus:founders:index": "node scripts/gen-knowledge-index.mjs",
-    "corpus:founders:index:check": "node scripts/gen-knowledge-index.mjs --check"
+    "corpus:founders:index:check": "node scripts/gen-knowledge-index.mjs --check",
+    "test:openrouter-fallback": "node --no-warnings --experimental-transform-types --env-file-if-exists=.env.local --import ./scripts/node-server-shim.mjs scripts/test-openrouter-fallback.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
