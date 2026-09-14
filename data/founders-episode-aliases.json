@@ -1,0 +1,4 @@
+{
+  "_comment": "Duplicate YouTube ids that point at the same episode as an existing synthesis. Key: duplicate id. Value: the id carried in the synthesis frontmatter. The status generator treats the duplicate as covered instead of queueing a second synthesis of the same transcript.",
+  "WWQFtt6Hm10": "AuRDLXuLZE8"
+}

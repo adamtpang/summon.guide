@@ -7,6 +7,16 @@ const repoRoot = path.resolve(import.meta.dirname, "..");
 const privateRoot = path.resolve(repoRoot, "..", "summon.company", "knowledge");
 const outputPath = path.join(repoRoot, "data", "founders-corpus-status.json");
 const queuePath = path.join(repoRoot, "data", "founders-synthesis-queue.json");
+// Re-uploaded videos get a new YouTube id for an episode that is already
+// synthesized. The alias table maps such duplicate ids to the id carried in the
+// existing synthesis so they count as covered instead of being queued twice.
+const aliasesPath = path.join(repoRoot, "data", "founders-episode-aliases.json");
+const episodeAliases = fs.existsSync(aliasesPath)
+  ? Object.fromEntries(
+      Object.entries(JSON.parse(fs.readFileSync(aliasesPath, "utf8"))).filter(([key]) => !key.startsWith("_")),
+    )
+  : {};
+const canonicalId = (id) => episodeAliases[id] || id;
 
 const sources = [
   {
@@ -53,7 +63,10 @@ function readSource(source) {
   const synthesisCount = countSyntheses(source.synthesisDir);
   const synthesizedIds = synthesisIds(source.synthesisDir);
   const pending = episodes
-    .filter((episode) => !synthesizedIds.has(String(episode.id || "")))
+    .filter((episode) => {
+      const id = String(episode.id || "");
+      return !synthesizedIds.has(id) && !synthesizedIds.has(canonicalId(id));
+    })
     .map((episode) => ({
       source: source.slug,
       id: String(episode.id || ""),
@@ -118,8 +131,10 @@ const status = {
   sources: publicSourceStatus,
   totals: {
     ...totals,
+    // Covered episodes, not synthesis files: a re-uploaded duplicate id counts
+    // as covered through the alias table without a second synthesis file.
     synthesisCoveragePercent: Number(
-      ((totals.syntheses / Math.max(1, totals.privateEpisodes)) * 100).toFixed(1),
+      (((totals.privateEpisodes - totals.pendingSyntheses) / Math.max(1, totals.privateEpisodes)) * 100).toFixed(1),
     ),
     privateSemanticIndexesReady: sourceStatus.every((source) => source.privateSemanticIndexReady),
   },
