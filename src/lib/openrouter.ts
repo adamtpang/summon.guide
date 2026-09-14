@@ -14,7 +14,25 @@ const FALLBACK_QUEUE = [
   "z-ai/glm-5.2:free",
   "minimax/minimax-m3:free",
   "openai/gpt-oss-120b",
+  "deepseek/deepseek-v4.1-flash",
 ];
+
+// The queue holds up to two free models and two paid models. OpenRouter
+// rejects a `models` fallback list longer than three ("'models' array must
+// have 3 items or fewer", verified 2026-09-14), so each request sends at most
+// three and the waterfall moves on to the rest when that window fails.
+const MAX_QUEUE_LENGTH = 4;
+const MAX_MODELS_PER_REQUEST = 3;
+
+function requestWindow(remaining: ModelCandidate[]): ModelCandidate[] {
+  return remaining.slice(0, MAX_MODELS_PER_REQUEST);
+}
+
+// An invalid key (401) or a reached spending limit (402) applies to every
+// model on the account, so trying further models cannot help.
+function canAdvancePastWindow(error: OpenRouterError, remaining: ModelCandidate[]): boolean {
+  return remaining.length > MAX_MODELS_PER_REQUEST && error.status !== 401 && error.status !== 402;
+}
 
 interface OpenRouterModel {
   id?: string;
@@ -113,7 +131,7 @@ function explicitQueue(): ModelCandidate[] | null {
   if (!configured) return null;
 
   const ids = [...new Set(configured.split(",").map((id) => id.trim()).filter(Boolean))];
-  return ids.slice(0, 3).map((id) => ({
+  return ids.slice(0, MAX_QUEUE_LENGTH).map((id) => ({
     id,
     name: friendlyModelName(id),
     tier: id.endsWith(":free") || id === "openrouter/free" ? "free" : "discounted",
@@ -151,7 +169,7 @@ function rankQueue(models: OpenRouterModel[]): ModelCandidate[] {
 
   const maxPrompt = Number(process.env.OPENROUTER_MAX_INPUT_PER_MILLION || 0.25);
   const maxCompletion = Number(process.env.OPENROUTER_MAX_OUTPUT_PER_MILLION || 1.5);
-  const discounted = candidates
+  const rankedDiscounted = candidates
     .filter(
       (candidate) =>
         candidate.tier === "discounted" &&
@@ -163,8 +181,19 @@ function rankQueue(models: OpenRouterModel[]): ModelCandidate[] {
       const source = models.find((model) => model.id === candidate.id);
       return source?.reasoning?.mandatory !== true;
     })
-    .sort(byQualityThenCost)
-    .slice(0, 1);
+    .sort(byQualityThenCost);
+
+  // Two paid models, so one paid model failing no longer fails the answer.
+  // Prefer the second from a different vendor, so a single vendor's outage
+  // cannot take out both; fall back to the next-best model if none exists.
+  const vendor = (id: string) => id.split("/")[0];
+  const discounted = rankedDiscounted.slice(0, 1);
+  if (discounted.length) {
+    const second =
+      rankedDiscounted.find((candidate) => vendor(candidate.id) !== vendor(discounted[0].id)) ||
+      rankedDiscounted[1];
+    if (second) discounted.push(second);
+  }
 
   const queue = [...free, ...discounted];
   if (!queue.some((candidate) => candidate.tier === "free")) {
@@ -178,7 +207,7 @@ function rankQueue(models: OpenRouterModel[]): ModelCandidate[] {
     });
   }
 
-  return queue.length >= 2 ? queue.slice(0, 3) : fallbackQueue();
+  return queue.length >= 2 ? queue.slice(0, MAX_QUEUE_LENGTH) : fallbackQueue();
 }
 
 export async function getOpenRouterModelQueue(): Promise<ModelCandidate[]> {
@@ -294,7 +323,7 @@ export async function completeOpenRouter(options: {
       headers: headers(),
       signal: AbortSignal.timeout(90_000),
       body: JSON.stringify({
-        models: remaining.map((candidate) => candidate.id),
+        models: requestWindow(remaining).map((candidate) => candidate.id),
         messages: messagesForRequest(options.system, options.messages),
         provider: { allow_fallbacks: true, data_collection: "deny" },
         max_tokens: options.maxTokens || 1_024,
@@ -302,7 +331,15 @@ export async function completeOpenRouter(options: {
       }),
     });
 
-    if (!response.ok) throw await errorFromResponse(response);
+    if (!response.ok) {
+      const error = await errorFromResponse(response);
+      if (!canAdvancePastWindow(error, remaining)) throw error;
+      console.warn(
+        `[openrouter/complete] HTTP ${error.status} for ${requestWindow(remaining).map((c) => c.id).join(", ")}; trying the next models`,
+      );
+      remaining = remaining.slice(MAX_MODELS_PER_REQUEST);
+      continue;
+    }
     const payload = (await response.json()) as {
       model?: string;
       choices?: { message?: { content?: unknown }; finish_reason?: string }[];
@@ -377,7 +414,7 @@ export function streamOpenRouter(options: {
             headers: headers(),
             signal: AbortSignal.timeout(120_000),
             body: JSON.stringify({
-              models: remaining.map((candidate) => candidate.id),
+              models: requestWindow(remaining).map((candidate) => candidate.id),
               messages: messagesForRequest(options.system, options.messages),
               provider: { allow_fallbacks: true, data_collection: "deny" },
               max_tokens: options.maxTokens || 1_600,
@@ -388,7 +425,15 @@ export function streamOpenRouter(options: {
             }),
           });
 
-          if (!response.ok) throw await errorFromResponse(response);
+          if (!response.ok) {
+            const error = await errorFromResponse(response);
+            if (!canAdvancePastWindow(error, remaining)) throw error;
+            console.warn(
+              `[${options.logLabel}] HTTP ${error.status} for ${requestWindow(remaining).map((c) => c.id).join(", ")}; trying the next models`,
+            );
+            remaining = remaining.slice(MAX_MODELS_PER_REQUEST);
+            continue;
+          }
           if (!response.body) throw new OpenRouterError("OpenRouter returned no stream.", 502);
 
           const reader = response.body.getReader();
