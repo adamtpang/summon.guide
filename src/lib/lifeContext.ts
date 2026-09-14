@@ -13,6 +13,17 @@ export const LIFE_CONTEXT_SUBJECT = "life-context";
 export const LIFE_CONTEXT_HEADING = "# Personal context";
 export const MAX_LIFE_CONTEXT_CHARS = 12_000;
 
+// Added to a guide's system prompt whenever a "# Personal context" brief is in
+// the conversation, whether it came from themain.quest, the council's context
+// questions, or was pasted by hand.
+export const LIFE_CONTEXT_RULES = `LIFE CONTEXT:
+A "# Personal context" brief in this conversation is this person's real current situation, written by them or by their own assistant. Treat it as ground truth, not as a hypothetical.
+- Speak to the specific problem, deadline, fork, or condition it names. Never answer as if the brief were not there.
+- Do not recite the brief back. They wrote it. Reference the one or two lines that matter for your answer.
+- Take one position on the fork or the bottleneck. Hedging across every path wastes the session.
+- If the brief lists open questions or unknowns, ask rather than assume.
+- Names of other people inside the brief are context only. Do not speculate about them.`;
+
 // A workspace mailbox belongs to one person, never every signed-in member.
 export function canReadLifeContext(userId: string | null | undefined, ownerId = process.env.SUMMON_LIFE_CONTEXT_OWNER_ID): boolean {
   return Boolean(userId && ownerId?.trim() && userId === ownerId.trim());

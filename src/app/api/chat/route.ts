@@ -7,20 +7,9 @@ import {
   consumeGuideSession,
   licenseError,
 } from "@/lib/membership";
-import { isLifeContextBrief } from "@/lib/lifeContext";
+import { isLifeContextBrief, LIFE_CONTEXT_RULES } from "@/lib/lifeContext";
 import { streamOpenRouter } from "@/lib/openrouter";
 import { NextRequest } from "next/server";
-
-// Added when a "# Personal context" brief is in the thread, whether it came
-// from themain.quest through the council or was pasted by hand. The persona
-// rules above still apply; this only tells the guide what the brief is for.
-const LIFE_CONTEXT_RULES = `LIFE CONTEXT:
-A "# Personal context" brief in this conversation is this person's real current life, exported from their own quest log. Treat it as ground truth about their situation, not as a hypothetical.
-- Speak to the specific quest, deadline, fork, or condition it names. Never answer as if the brief were not there.
-- Do not recite the brief back. They wrote it. Reference the one or two lines that matter for your answer.
-- Take one position on the fork or the bottleneck. Hedging across every path wastes the session.
-- If the brief lists open questions or things it does not state, ask rather than assume.
-- Names of other people inside the brief are context only. Do not speculate about them.`;
 
 export async function POST(req: NextRequest) {
   const session = await auth();

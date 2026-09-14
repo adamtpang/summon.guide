@@ -8,6 +8,8 @@ import { signIn, useSession } from "next-auth/react";
 import { ChevronDown, ChevronUp, LoaderCircle, RefreshCw, Sparkles } from "lucide-react";
 
 import ContextImportDialog from "@/components/ContextImportDialog";
+import CouncilQuestions from "@/components/CouncilQuestions";
+import CouncilThread from "@/components/CouncilThread";
 import { Button } from "@/components/ui/button";
 import type { CouncilSeat } from "@/lib/council";
 import type { CouncilResponse } from "@/app/api/council/route";
@@ -150,7 +152,10 @@ export default function CouncilRoom() {
 
   if (phase.kind === "review") {
     return (
+      <div className="space-y-6">
+      <CouncilQuestions onUseContext={(brief) => { setDraft(brief); setPhase({ kind: "review", hint: "Answers attached. Review them, then find your guides." }); window.setTimeout(() => document.getElementById("council-brief")?.focus(), 0); }} />
       <section className="space-y-5 rounded-2xl border border-warm-200 bg-white/70 p-6 sm:p-8">
+        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-warm-500">Step 2 · Review the brief</p>
         <h2 className="font-serif text-2xl">What should your guides understand?</h2>
         <p className="text-sm leading-relaxed text-warm-500">
           {phase.source?.kind === "themain.quest"
@@ -172,6 +177,7 @@ export default function CouncilRoom() {
           <ContextImportDialog onUseContext={(context) => setDraft(context)} />
         </div>
       </section>
+      </div>
     );
   }
 
@@ -255,9 +261,13 @@ export default function CouncilRoom() {
         </div>
       )}
 
+      {data.council.length >= 2 && (
+        <CouncilThread brief={data.brief} seats={data.council} firstQuestion={primary?.ask} />
+      )}
+
       <div className="flex flex-col gap-3 border-t border-warm-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-[12px] leading-relaxed text-warm-500">
-          Each guide starts with your brief and a question specific to your situation. Update the brief when your priorities change.
+          Ask the whole council above, or open one guide for a one-on-one chat. Update the brief when your priorities change.
         </p>
         <Button
           type="button"
@@ -330,7 +340,7 @@ function SeatCard({ seat, primary = false, onAsk }: { seat: CouncilSeat; primary
                 : "mt-6 h-11 rounded-full bg-ink-950 px-5 text-white hover:bg-ink-800"
             }
           >
-            Ask {seat.name.split(" ")[0]}
+            Chat with {seat.name.split(" ")[0]} one-on-one
           </Button>
         </div>
       </div>
