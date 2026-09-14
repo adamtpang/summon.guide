@@ -17,6 +17,7 @@ export default function ChatComposer({
   textareaRef,
   tone = "dark",
   onStop,
+  voice = true,
 }: {
   value: string;
   onChange: (value: string) => void;
@@ -27,6 +28,8 @@ export default function ChatComposer({
   textareaRef: RefObject<HTMLTextAreaElement | null>;
   tone?: "light" | "dark";
   onStop?: () => void;
+  /** Show the microphone. Text-only surfaces pass false. */
+  voice?: boolean;
 }) {
   const dark = tone === "dark";
 
@@ -55,7 +58,7 @@ export default function ChatComposer({
               : "max-h-36 min-h-12 min-w-0 flex-1 resize-none border-0 bg-transparent px-3 py-3 text-base leading-normal text-ink-950 shadow-none placeholder:text-warm-400 focus-visible:border-0 focus-visible:ring-0"
           }
         />
-        <VoiceInput disabled={disabled} onText={(text) => { onChange([value.trim(), text].filter(Boolean).join(" ").slice(0, 8000)); textareaRef.current?.focus(); }} />
+        {voice && <VoiceInput disabled={disabled} onText={(text) => { onChange([value.trim(), text].filter(Boolean).join(" ").slice(0, 8000)); textareaRef.current?.focus(); }} />}
         <Button
           type="button"
           size="icon"
