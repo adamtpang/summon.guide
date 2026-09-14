@@ -79,7 +79,7 @@ export function seatFromFigure(figure: Figure, seat: Partial<Pick<CouncilSeat, "
     portrait: figure.portrait,
     role: seat.role?.trim() || `On ${figure.domains.slice(0, 2).join(" and ")}`,
     reason: seat.reason?.trim() || figure.knownFor,
-    ask: seat.ask?.trim() || `Given my brief, what is the one move you would make this week, and what did you do in your own life when you faced something like it?`,
+    ask: seat.ask?.trim() || `Given my brief, what is the one move ${figure.name}'s record points to this week, and what did ${figure.name.split(" ")[0]} do when facing something like it?`,
   };
 }
 
