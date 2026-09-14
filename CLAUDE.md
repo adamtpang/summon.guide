@@ -834,3 +834,22 @@ production deployment, transcript upload success, or routing change to public Sa
 - Released from an isolated worktree off `origin/main`, since the shared
   checkout's branch had diverged from main. The shared checkout was left
   untouched.
+
+## Every registered guide has a page (2026-09-14)
+
+- Adam asked that every guide, Deutsch and Bezos included, have its own page.
+  Audit of all 114 registered guides against production: 108 returned 200
+  (Deutsch and Bezos among them); six returned 404. Five are people still in
+  onboarding with no corpus or persona (Einstein, Alysa Liu, Kissinger, Doudna,
+  da Vinci) and one, Dave Ramsey, ships as a framework pack rather than a chat
+  persona. None had an entry in the URL map, so their dashless URLs rewrote
+  nowhere.
+- `scripts/gen-guide-urls.mjs` now includes every person in the guide registry,
+  not only figures, so all six have canonical dashless URLs and aliases (113
+  mappings). The `[figure]` route gained a fallback: a registered person with no
+  conversation runtime renders `GuideStatusPage`, which says plainly whether the
+  guide is a framework pack (with the install command) or still onboarding
+  (with a link to the gates), lists registered sources, and carries the
+  identity boundary. No improvised persona; unknown slugs still 404.
+- Verified locally: all six URLs 200 with the right content, Deutsch and Bezos
+  unchanged, book redirect intact, unknown slug 404. Types clean.

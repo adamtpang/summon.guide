@@ -4,6 +4,8 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getFigure } from "@/lib/figures";
 import { getBook } from "@/lib/books";
+import { getPersonGuideAgent } from "@/lib/guideAgents";
+import { GuideStatusPage } from "@/components/GuideStatusPage";
 import FigureChat from "@/app/chat/[figure]/page";
 import SourceChat from "@/app/chat/source/[slug]/page";
 
@@ -12,8 +14,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { figure: slug } = await params;
   const guide = getFigure(slug);
   const book = getBook(slug);
+  const agent = getPersonGuideAgent(slug);
   return {
-    title: `${guide?.name || book?.title || "Guide not found"} | summon.guide`,
+    title: `${guide?.name || book?.title || agent?.name || "Guide not found"} | summon.guide`,
     alternates: { canonical: `https://summon.guide${guidePath(slug)}` },
   };
 }
@@ -21,5 +24,10 @@ export default async function GuideConversation({ params, searchParams }: Props)
   const { figure: slug } = await params;
   if (getFigure(slug)) return <Suspense fallback={<p>Loading conversation...</p>}><FigureChat params={Promise.resolve({ figure: slug })} /></Suspense>;
   if (getBook(slug)) return <Suspense fallback={<p>Loading conversation...</p>}><SourceChat params={Promise.resolve({ slug })} searchParams={searchParams} /></Suspense>;
+  // Registered people with no conversation runtime yet (still onboarding, or
+  // shipped as a framework pack) get an honest status page at their URL
+  // instead of a 404 or an improvised persona.
+  const agent = getPersonGuideAgent(slug);
+  if (agent) return <GuideStatusPage agent={agent} />;
   notFound();
 }

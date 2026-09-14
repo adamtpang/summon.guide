@@ -385,6 +385,54 @@
     ]
   },
   {
+    "slug": "albert-einstein",
+    "publicSlug": "alberteinstein",
+    "aliases": [
+      "albert-einstein",
+      "alberteinstein"
+    ]
+  },
+  {
+    "slug": "alysa-liu",
+    "publicSlug": "alysaliu",
+    "aliases": [
+      "alysa-liu",
+      "alysaliu"
+    ]
+  },
+  {
+    "slug": "dave-ramsey",
+    "publicSlug": "daveramsey",
+    "aliases": [
+      "dave-ramsey",
+      "daveramsey"
+    ]
+  },
+  {
+    "slug": "henry-kissinger",
+    "publicSlug": "henrykissinger",
+    "aliases": [
+      "henry-kissinger",
+      "henrykissinger"
+    ]
+  },
+  {
+    "slug": "jennifer-doudna",
+    "publicSlug": "jenniferdoudna",
+    "aliases": [
+      "jennifer-doudna",
+      "jenniferdoudna"
+    ]
+  },
+  {
+    "slug": "leonardo-da-vinci",
+    "publicSlug": "leonardodavinci",
+    "aliases": [
+      "leonardo-da-vinci",
+      "leonardodavinci"
+    ]
+  },
+  {
     "slug": "pendleton-ward-selected-interviews",
     "publicSlug": "pendletonwardselectedinterviews",
     "aliases": [
