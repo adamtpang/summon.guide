@@ -853,3 +853,31 @@ production deployment, transcript upload success, or routing change to public Sa
   identity boundary. No improvised persona; unknown slugs still 404.
 - Verified locally: all six URLs 200 with the right content, Deutsch and Bezos
   unchanged, book redirect intact, unknown slug 404. Types clean.
+
+## YouChop sync, two new interviews, duplicate-id alias (2026-09-14)
+
+- Adam asked to keep both Senra feeds current. `npm run corpus:founders:refresh`
+  pulled 2 new David Senra interviews with local captions (0 caption failures):
+  Mati Staniszewski of ElevenLabs (RFccAuyPPOg, 2026-09-09) and Luca Ferrari of
+  Bending Spoons (MCbHnlpwZf0, 2026-09-13). Interviews feed is now 40 episodes,
+  803,471 words; Founders feed unchanged at 170. Both were synthesized as
+  interviews 039 and 040 and verified against the parse contract, no-dash rule,
+  short-quote limit, and `youtube_id`.
+- The one Founders item that had been stuck in the queue, "The Mind of
+  Napoleon" (WWQFtt6Hm10), is a re-upload of the episode synthesis 017 already
+  covers: both ids carry exactly 10,119 words, the word count of the single raw
+  transcript. Added `data/founders-episode-aliases.json` (duplicate id to the
+  id in the existing synthesis) and taught `gen-founders-corpus-status.mjs` to
+  treat aliased ids as covered. Coverage now counts covered episodes rather
+  than synthesis files, so a re-upload cannot hold it under 100 percent.
+- Result: queue empty, 209 syntheses covering 210 private episodes, 100
+  percent by episode. `sourceCorpus.ts` regenerated (209 Founders records) and
+  both INDEX tables rebuilt. Retrieval eval unchanged in character from the
+  earlier note: fixtures displaced by the larger corpus, ranker untouched, the
+  bounded relevance review remains the next owner-accepted step.
+- Same session, other asks: an auto-prompt toggle for Claude Code was
+  installed in Adam's user config (Stop hook, `/auto-prompt on|off|status`,
+  default off, capped per session, Codex has no equivalent), and every
+  registered guide now has a page (PR #79). Sage versus Senra naming was
+  answered with a recommendation, not a change: neither David's product name
+  nor his person name is a clean name for the cross-corpus research agent.
