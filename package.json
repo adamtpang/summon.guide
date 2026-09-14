@@ -45,7 +45,9 @@
     "rag:catalog:details": "python scripts/sage-rag/catalog-details.py",
     "rag:eval:generation": "node scripts/sage-rag/evaluate-generation.mjs",
     "handles:generate": "node --experimental-strip-types scripts/gen-summon-handles.mjs",
-    "handles:check": "node --experimental-strip-types scripts/gen-summon-handles.mjs --check"
+    "handles:check": "node --experimental-strip-types scripts/gen-summon-handles.mjs --check",
+    "corpus:founders:index": "node scripts/gen-knowledge-index.mjs",
+    "corpus:founders:index:check": "node scripts/gen-knowledge-index.mjs --check"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",

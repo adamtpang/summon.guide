@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-09-08",
+  "generatedAt": "2026-09-14",
   "sources": [
     {
       "slug": "founders-podcast",
       "label": "Founders Podcast",
       "channel": "@founderspodcast1",
-      "syncedAt": "2026-09-08",
+      "syncedAt": "unknown",
       "episodes": 170,
       "words": 2117329,
       "captionFailures": 0,
-      "syntheses": 72,
-      "pendingSyntheses": 98,
+      "syntheses": 169,
+      "pendingSyntheses": 1,
       "privateSemanticIndexReady": false
     },
     {
@@ -21,18 +21,18 @@
       "episodes": 38,
       "words": 764360,
       "captionFailures": 0,
-      "syntheses": 37,
-      "pendingSyntheses": 1,
+      "syntheses": 38,
+      "pendingSyntheses": 0,
       "privateSemanticIndexReady": false
     }
   ],
   "totals": {
     "privateEpisodes": 208,
     "privateWords": 2881689,
-    "syntheses": 109,
-    "pendingSyntheses": 99,
+    "syntheses": 207,
+    "pendingSyntheses": 1,
     "captionFailures": 0,
-    "synthesisCoveragePercent": 52.4,
+    "synthesisCoveragePercent": 99.5,
     "privateSemanticIndexesReady": false
   },
   "publicationBoundary": {

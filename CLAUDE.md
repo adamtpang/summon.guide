@@ -800,3 +800,37 @@ production deployment, transcript upload success, or routing change to public Sa
   then use `node <repo>/scripts/summon.mjs install --all --target <project>`.
   Summoning still requires the MCP's member auth; an owner token for Adam's own
   chats remains the open friction point.
+
+## Founders synthesis queue finished: 207 of 208 (2026-09-14)
+
+- Adam asked to finish the synthesis queue. Across 09-11 and 09-13 to 09-14,
+  Sonnet agents in batches of five wrote 98 original syntheses from private
+  transcripts: Founders episodes 073 to 169 and interview 038 (Zach Dell, Base
+  Power). Each file was verified independently against the corpus generator
+  parse contract, the no-dash rule, the under-ten-word quote limit, and its
+  `youtube_id`. 98 of 98 pass. Coverage is now 207 of 208 private episodes,
+  99.5 percent. The one remaining item, "The Mind of Napoleon" (WWQFtt6Hm10,
+  published 2026-09-05), has no transcript in private storage yet; it needs
+  `npm run corpus:founders:refresh` before it can be synthesized.
+- Editorial discipline held per batch: same-subject episodes (two Getty, two
+  Disney, two Churchill, two Vannevar Bush, two Kobe, three Paul Graham essay
+  parts, and others) were grounded only in their own transcript with distinct
+  lesson sets; agents read the existing overlapping file first. Robber-baron
+  and conquest material (Gould, Carnegie and Frick, Vanderbilt, Napoleon,
+  Insull, Kreuger) is recorded as cost or wrong, not laundered into technique.
+  Uncertain speech-to-text names are referred to by role rather than guessed.
+- Regenerated `src/lib/sourceCorpus.ts` (207 Founders records, 44 channels).
+  Added `scripts/gen-knowledge-index.mjs` (`npm run corpus:founders:index`,
+  `:check`) so both INDEX.md tables are rebuilt from frontmatter instead of
+  hand-kept; both now list every file and contain no em dashes.
+- Retrieval eval after the corpus doubled: default 3/8 (MRR 0.509, was 5/8),
+  reviewed 4/8 (MRR 0.637, was 8/8). No case lost its source; Singleton slipped
+  to rank 2, Thiel to 5, last-company and hiring to 5, because new syntheses
+  now compete for the same queries. This is the same displacement recorded on
+  2026-09-08. Ranker and fixtures were left unchanged on purpose. Next bounded
+  step: a relevance review of the new top results for those four cases,
+  extending the accepted judgments where a new synthesis is directly relevant,
+  with Adam's acceptance before the reviewed score is treated as green again.
+- Released from an isolated worktree off `origin/main`, since the shared
+  checkout's branch had diverged from main. The shared checkout was left
+  untouched.
