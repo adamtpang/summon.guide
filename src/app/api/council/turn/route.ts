@@ -5,6 +5,7 @@ import {
   buildSynthesisSystemPrompt,
   buildTurnMessages,
   parseThread,
+  speakersThisRound,
   type CouncilMember,
 } from "@/lib/councilThread";
 import { AI_CONFIG, getFigure } from "@/lib/figures";
@@ -85,7 +86,7 @@ export async function POST(req: NextRequest) {
     figure.systemPrompt,
     buildGuideGrounding(figure.slug, query),
     LIFE_CONTEXT_RULES,
-    buildCouncilTurnRules(member, members),
+    buildCouncilTurnRules(member, members, speakersThisRound(thread)),
   ].filter(Boolean).join("\n\n");
 
   return streamOpenRouter({
