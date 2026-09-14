@@ -344,6 +344,18 @@ export function streamOpenRouter(options: {
   maxTokens?: number;
   temperature?: number;
   logLabel: string;
+  /**
+   * Optional OpenRouter reasoning controls. Reasoning models spend part of
+   * max_tokens thinking before any visible text; bounding it keeps room for
+   * the answer. Omitted means provider defaults, as before.
+   */
+  reasoning?: { max_tokens?: number; effort?: "low" | "medium" | "high"; exclude?: boolean };
+  /**
+   * How many times to re-run the final candidate when the whole waterfall
+   * produced no visible text (an empty stream, or a provider error before any
+   * text). Default 0 keeps the original behavior.
+   */
+  retryEmpty?: number;
 }): Response {
   const encoder = new TextEncoder();
   const emit = (controller: ReadableStreamDefaultController<Uint8Array>, value: unknown) =>
@@ -357,6 +369,7 @@ export function streamOpenRouter(options: {
       try {
         queue = await getOpenRouterModelQueue();
         remaining = [...queue];
+        let emptyRetriesLeft = options.retryEmpty ?? 0;
 
         while (remaining.length) {
           const response = await fetch(CHAT_URL, {
@@ -368,6 +381,7 @@ export function streamOpenRouter(options: {
               messages: messagesForRequest(options.system, options.messages),
               provider: { allow_fallbacks: true, data_collection: "deny" },
               max_tokens: options.maxTokens || 1_600,
+              ...(options.reasoning ? { reasoning: options.reasoning } : {}),
               temperature: options.temperature ?? 0.65,
               stream: true,
               stream_options: { include_usage: true },
@@ -445,7 +459,18 @@ export function streamOpenRouter(options: {
           }
 
           const usedIndex = remaining.findIndex((candidate) => candidate.id === actualModel);
+          const used = remaining[usedIndex >= 0 ? usedIndex : 0];
           remaining = remaining.slice(usedIndex >= 0 ? usedIndex + 1 : 1);
+          // Providers intermittently return an empty stream for a request that
+          // succeeds on the next attempt. Re-run the last candidate rather than
+          // failing the whole answer, when the caller opted in.
+          if (!remaining.length && emptyRetriesLeft > 0 && used) {
+            emptyRetriesLeft -= 1;
+            console.warn(
+              `[${options.logLabel}] ${used.id} returned no text; retrying (${emptyRetriesLeft} left)`,
+            );
+            remaining = [used];
+          }
         }
 
         throw new OpenRouterError("Every model returned an empty response.", 502);

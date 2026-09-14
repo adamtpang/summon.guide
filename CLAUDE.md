@@ -881,3 +881,47 @@ production deployment, transcript upload success, or routing change to public Sa
   registered guide now has a page (PR #79). Sage versus Senra naming was
   answered with a recommendation, not a change: neither David's product name
   nor his person name is a clean name for the cross-corpus research agent.
+
+## Sage as a David Senra-style guide, text only (2026-09-14)
+
+- Adam asked for Sage to be a David Senra-style guide: text only, his published
+  ideas and podcast lessons, no voice clone, one real conversation working end
+  to end so he can test it on his own project.
+- `src/lib/sagePrompt.ts` holds Sage's prompt, selected in
+  `/api/chat/source` for `founders-podcast` only. It lives outside
+  `sourceCorpus.ts` because that file is regenerated. Style: start mid-thought,
+  lead with a named founder from a listed episode, the show's recurring lenses
+  (belief before ability, control over money, money as the byproduct of
+  service, rereading primary sources) applied only where an episode supports
+  them, and a project mode that maps two or three precedents onto the user's
+  stuck part and ends with one move for the week. Identity: Sage is not David
+  Senra, never speaks as him in the first person, attributes to him in the
+  third person, and says it is an independent AI guide when asked.
+- Text only: `ChatComposer` gained an opt-out `voice` prop; Sage passes false
+  and no longer renders the Listen button. Other guides keep voice.
+- Reliability, measured, not assumed. Both free models in the waterfall now
+  return 404 "unavailable for free", so all traffic already lands on
+  `deepseek/deepseek-v4.1-flash` at depth 2, production included. With Sage's
+  prompt that model spent 711 to 2,843 reasoning tokens per answer; at the
+  shared 1,600 budget many answers ended with no visible text ("every model
+  returned an empty response"). Providers also dropped streams (an h2 error
+  from Together). Fixes, all opt-in so other guides are unchanged:
+  `streamOpenRouter` accepts `reasoning` and `retryEmpty`; Sage sends
+  max_tokens 6,000, reasoning max_tokens 1,000, and retries the last model up
+  to twice when no text arrived.
+- Citations: models sometimes cite an interview without its " | Guest" tail.
+  `SageConversation` now resolves a citation by exact title, title minus a
+  "(with ...)" note, or the part before " | ", so real sources are not shown
+  as unverified. The prompt ends with a required output block.
+- Verification: a three-turn conversation (a described project with a stuck
+  part, a follow-up that depends on turn one, an identity probe) passed 4 of 4
+  runs, 12 of 12 turns: every answer arrived, cited only resolvable episodes,
+  had follow-ups and no dashes, never spoke as Senra. Specific claims were
+  spot-checked against the corpus. The real page rendered an answer with three
+  linked sources, zero unverified, no microphone and no Listen button. A
+  non-Sage book chat (zero-to-one) is unaffected.
+- Open: the dead free models mean the waterfall has one working model; a
+  fallback second paid model in `getOpenRouterModelQueue` would remove that
+  single point of failure for every guide. Separately, the existing `/senra`
+  figure prompt begins "You are David Senra", which is first-person
+  impersonation of a living person and worth reframing the way Sage now is.

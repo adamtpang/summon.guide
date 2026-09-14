@@ -7,6 +7,7 @@ import {
   getSourceRuntimePolicy,
 } from "@/lib/sourcePolicy";
 import { retrieveSourceEpisodes } from "@/lib/sourceRetrieval";
+import { buildSagePrompt } from "@/lib/sagePrompt";
 import { NextRequest } from "next/server";
 
 // Grounds a channel or book corpus directly instead of simulating a person.
@@ -34,7 +35,11 @@ export async function POST(req: NextRequest) {
   const limit = policy.maxRetrievedEpisodes;
   const retrieved = retrieveSourceEpisodes(eligibleEpisodes, query, limit);
   const selectedEpisodes = retrieved.map((result) => result.episode);
-  const systemText = buildSourceSystemPrompt(sourceSlug!, selectedEpisodes);
+  // Sage is the Founders corpus taught in the style of the Founders podcast;
+  // every other source keeps the neutral corpus-guide prompt.
+  const systemText = sourceSlug === "founders-podcast"
+    ? buildSagePrompt(selectedEpisodes)
+    : buildSourceSystemPrompt(sourceSlug!, selectedEpisodes);
   if (!systemText) {
     return Response.json({ error: "Source not found" }, { status: 404 });
   }
@@ -42,10 +47,18 @@ export async function POST(req: NextRequest) {
     `[chat/source] retrieved ${selectedEpisodes.length}/${eligibleEpisodes.length} policy-eligible episodes for ${sourceSlug}`,
   );
 
+  // Sage maps several precedents onto a user's own project, so reasoning models
+  // think harder before writing. Measured on 2026-09-14 with Sage's prompt,
+  // DeepSeek V4.1 Flash spent 711 to 2,843 reasoning tokens per answer; at the
+  // shared 1,600 budget most answers ended with no visible text, which the
+  // waterfall reports as every model returning an empty response. A reasoning
+  // bound plus a higher ceiling left the answer room in 8 of 8 probes.
+  const isSage = sourceSlug === "founders-podcast";
   return streamOpenRouter({
     system: systemText,
     messages,
-    maxTokens: AI_CONFIG.maxTokens,
+    maxTokens: isSage ? Math.max(AI_CONFIG.maxTokens, 6_000) : AI_CONFIG.maxTokens,
+    ...(isSage ? { reasoning: { max_tokens: 1_000 }, retryEmpty: 2 } : {}),
     logLabel: "chat/source",
   });
 }
