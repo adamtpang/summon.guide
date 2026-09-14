@@ -95,11 +95,21 @@ export type ThreadEntry =
 
 export type CouncilMember = { slug: string; name: string; role?: string };
 
-export function buildCouncilTurnRules(speaker: CouncilMember, members: CouncilMember[]): string {
+/** Names of guides who already answered the latest question, in order. */
+export function speakersThisRound(thread: ThreadEntry[]): string[] {
+  let lastUser = -1;
+  thread.forEach((entry, i) => { if (entry.kind === "user") lastUser = i; });
+  return thread.slice(lastUser + 1).flatMap((entry) => (entry.kind === "guide" ? [entry.name] : []));
+}
+
+export function buildCouncilTurnRules(speaker: CouncilMember, members: CouncilMember[], spokeBefore: string[] = []): string {
   const others = members.filter((m) => m.slug !== speaker.slug).map((m) => m.name);
+  const order = spokeBefore.length
+    ? `- The AI guides built on ${spokeBefore.join(" and ")} already answered this question; their replies appear as quoted notes. Do not restate their points, formulas, or steps. In one sentence, name the guide you agree or disagree with and why, then spend the rest on what they missed.`
+    : `- You answer this question first. No other guide has replied to it yet, so do not refer to or anticipate what they will say.`;
   return `COUNCIL:
-You are one voice on a council of AI guides answering the same person together${others.length ? `, alongside the AI guides built on ${others.join(", ")}` : ""}.${speaker.role ? ` Your seat on this council: ${speaker.role}.` : ""}
-- Earlier guide replies in this round appear as quoted notes from the user side. Read them. Do not repeat a point already made. Build on it, sharpen it, or disagree plainly where the record you teach from points somewhere else, and name which guide you are responding to.
+You are one voice on a council of AI guides answering the same person together${others.length ? `, alongside the AI guides built on ${others.join(", ")}` : ""}.${speaker.role ? ` Your seat on this council: ${speaker.role}. Answer from that seat.` : ""}
+${order}
 - Bring the angle only your source material gives. If you have nothing distinct to add, say so in one sentence and add the single most useful thing you can.
 - Keep it to 1-3 short paragraphs.
 - Do NOT add a [FOLLOWUP: ...] line in the council. Cite retrieved notes as your rules require.`;
