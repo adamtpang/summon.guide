@@ -945,3 +945,31 @@ production deployment, transcript upload success, or routing change to public Sa
   forces a queue whose first window cannot answer and confirms both paths
   answer from the fourth model. All seven checks passed; the live queue was
   inkling-small:free, inkling:free, openai/gpt-5.6-luna, deepseek-v4-flash-0731.
+
+## /senra reframed so it no longer impersonates David Senra (2026-09-14)
+
+- Adam asked to reframe `/senra`. Its prompt opened "You are David Senra" and
+  ended with the shared RESPONSE_RULES, which say "Stay in character at all
+  times. Never break character or acknowledge you are an AI", so the guide
+  was told to deny being an AI while speaking as a living person. Its intro
+  line, spoken aloud from the homepage, began "I am David Senra".
+- The `senra` figure is now "an AI guide built on David Senra's public work".
+  It keeps the substance of how he teaches (belief before ability, control
+  over money, money following service, rereading primary sources, the fast
+  dense style) written about him in the third person, never claims his life,
+  reading, memories, or private views, says plainly it is an AI not reviewed
+  or endorsed by him when asked, and only quotes him where source notes
+  support it. It carries its own rules instead of RESPONSE_RULES, with
+  citation rules that match the retriever's "Cite as:" lines; a reply that
+  only answers who it is needs no citation. The intro line is third person.
+- Regenerated the two artifacts that embed the prompt: the `person-senra` Eve
+  package and `packs/summon/guides/senra.json`.
+- Verified with real conversations through the router using the chat route's
+  exact prompt assembly: three runs of a project question, an identity probe,
+  and a "your reading routine" first-person bait passed 9 of 9 turns, with no
+  first-person claims to his life, clear AI disclosure, citations on
+  substantive answers, and no dashes.
+- Open: every other person guide still uses RESPONSE_RULES, so every living
+  guide (Sivers, Graham, Clear, Newport, and others) is also told never to
+  acknowledge being an AI. The same reframe, or a change to that shared rule,
+  would close it roster-wide.
