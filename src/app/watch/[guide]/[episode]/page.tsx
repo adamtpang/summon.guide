@@ -2,7 +2,7 @@ import { series, formatRuntime } from "@/lib/episodes";
 import { getBook } from "@/lib/books";
 import { getFigure } from "@/lib/figures";
 import EpisodeListen from "@/components/EpisodeListen";
-import AiPersonaNotice, { isLivingGuide } from "@/components/AiPersonaNotice";
+import AiPersonaNotice from "@/components/AiPersonaNotice";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -128,10 +128,7 @@ export default async function EpisodePage({
           hasMappedVoice={s.hasMappedVoice}
         />
 
-        {/* The notice renders null for historical guides, so the wrapper is
-            gated on isLivingGuide too. Otherwise every dead guide's page
-            carries an empty div and its margin. */}
-        {figure && isLivingGuide(figure.slug) && (
+        {figure && (
           <div className="mt-6">
             <AiPersonaNotice
               slug={figure.slug}

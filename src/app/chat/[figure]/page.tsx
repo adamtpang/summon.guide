@@ -1,5 +1,6 @@
 "use client";
 
+import { guideDisclosure } from "@/components/AiPersonaNotice";
 import { useState, useRef, useEffect, use, useCallback } from "react";
 import { figures } from "@/lib/figures";
 import Image from "next/image";
@@ -553,7 +554,7 @@ export default function ChatPage({
               {figure.portrait ? <Image src={figure.portrait} alt={figure.name} fill sizes="176px" priority className="object-cover object-top" /> : <span className="flex h-full items-center justify-center text-5xl" aria-hidden="true">🧙</span>}
             </div>
             <h1 className="text-2xl font-medium tracking-tight">{figure.name}</h1>
-            <span className="mt-2 text-xs text-warm-500">AI guide</span>
+            <span className="mt-2 max-w-xs text-center text-xs leading-relaxed text-warm-500">{guideDisclosure(figure.slug, figure.name)}</span>
 
           </div>
         ) : (
@@ -684,7 +685,7 @@ export default function ChatPage({
         <summary aria-label="Conversation options" className="flex size-11 cursor-pointer list-none items-center justify-center rounded-full text-xl hover:bg-white/10 [&::-webkit-details-marker]:hidden">···</summary>
         <div className="absolute right-0 mt-2 w-72 max-w-[calc(100vw-32px)] rounded-2xl border border-white/10 bg-neutral-950 p-3 shadow-xl">
           <div className="mt-2 border-t border-white/10 px-3 pt-3 text-xs">
-            <p>AI guide · Synthetic voice</p>
+            <p>{guideDisclosure(figure.slug, figure.name)} Synthetic voice.</p>
             {modelRoute && <ModelRouteBadge route={modelRoute} />}
             {effectiveCredits !== null && <p>{effectiveCredits} messages remaining</p>}
           </div>

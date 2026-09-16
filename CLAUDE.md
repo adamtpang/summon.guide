@@ -973,3 +973,8 @@ production deployment, transcript upload success, or routing change to public Sa
   guide (Sivers, Graham, Clear, Newport, and others) is also told never to
   acknowledge being an AI. The same reframe, or a change to that shared rule,
   would close it roster-wide.
+
+## AI disclosure for every guide (2026-09-16)
+
+- pangpod.com's read-only guide-readiness check (repos.chat exchange check-guide-readiness) found that historical guides showed no AI notice and were prompted to never acknowledge being an AI. Now guideDisclosure() in AiPersonaNotice.tsx returns a sentence for every guide (living: not their words, not endorsed; historical: an AI simulation built from their documented life, not the person), shown in the chat empty state, the options menu, the about page, and watch pages. RESPONSE_RULES keeps historical guides in character but forbids denying being an AI.
+- Live probe: Franklin, Seneca, and Lee Kuan Yew all disclose when asked. Eve instructions and summon packs regenerated. The summon.guide manifest now lists pangpod.com as kin and its life-context exchange uses valid permission fields.

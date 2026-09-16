@@ -1,7 +1,7 @@
 import { figures } from "@/lib/figures";
 
 /**
- * Disclosure for guides who are still alive.
+ * Disclosure for every guide, strongest for guides who are still alive.
  *
  * The roster began as historical figures, where nobody could be misrepresented
  * to their own detriment. Living guides change that: a simulation can put words
@@ -20,6 +20,17 @@ export function isLivingGuide(slug: string): boolean {
   return /present|contemporary|living/i.test(f.era);
 }
 
+/**
+ * One sentence that says what this guide is. Living people get the stronger
+ * form: not their words, not endorsed. Historical figures get a plain one so
+ * a listener or reader is never left thinking they spoke to the person.
+ */
+export function guideDisclosure(slug: string, name: string): string {
+  return isLivingGuide(slug)
+    ? `${name} is alive. This is an AI simulation built from their public work, not their words, and not reviewed or endorsed by them.`
+    : `This is an AI simulation of ${name}, built from their documented life and writing. It is not ${name}.`;
+}
+
 export default function AiPersonaNotice({
   slug,
   name,
@@ -30,9 +41,7 @@ export default function AiPersonaNotice({
   /** "block" for profile pages, "inline" for the chat header */
   variant?: "block" | "inline";
 }) {
-  if (!isLivingGuide(slug)) return null;
-
-  const body = `${name} is alive. This is an AI simulation built from their public work, not their words, and not reviewed or endorsed by them.`;
+  const body = guideDisclosure(slug, name);
 
   if (variant === "inline") {
     return (
