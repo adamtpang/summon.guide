@@ -3,6 +3,7 @@ import AuthButton from "@/components/AuthButton";
 import PurchaseSuccessModal from "@/components/PurchaseSuccessModal";
 import StuckBox from "@/components/StuckBox";
 import { figures } from "@/lib/figures";
+import { guidePath } from "@/lib/guideUrls";
 
 // Server Component on purpose: the raw first response carries the real
 // headline for crawlers. The only interactive piece, the box, is a client
@@ -26,7 +27,7 @@ export default function Home() {
         <h1 className="font-serif text-[40px] font-medium leading-[1.04] tracking-tight sm:text-6xl">
           What&apos;s <em className="italic text-[#c9a860]">stuck?</em>
         </h1>
-        <StuckBox />
+        <StuckBox guides={figures.map((f) => ({ slug: f.slug, name: f.name, path: guidePath(f.slug) }))} />
       </section>
 
       <footer className="relative flex flex-wrap justify-center gap-x-6 px-5 pb-4 text-xs text-[#5f6878]">
