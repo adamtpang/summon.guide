@@ -978,3 +978,8 @@ production deployment, transcript upload success, or routing change to public Sa
 
 - pangpod.com's read-only guide-readiness check (repos.chat exchange check-guide-readiness) found that historical guides showed no AI notice and were prompted to never acknowledge being an AI. Now guideDisclosure() in AiPersonaNotice.tsx returns a sentence for every guide (living: not their words, not endorsed; historical: an AI simulation built from their documented life, not the person), shown in the chat empty state, the options menu, the about page, and watch pages. RESPONSE_RULES keeps historical guides in character but forbids denying being an AI.
 - Live probe: Franklin, Seneca, and Lee Kuan Yew all disclose when asked. Eve instructions and summon packs regenerated. The summon.guide manifest now lists pangpod.com as kin and its life-context exchange uses valid permission fields.
+
+## Homepage: one question, one box (2026-09-16)
+
+- Adam ran the perfect-landing skill on the homepage and chose option A of three. The page is now a dark screen with "What's stuck?", one input, three example prompts, and a footer with guides, council, and privacy links. The 48-row guide list, the three-step strip, and the two promo cards are gone from the homepage; the roster lives at /summon. Words on the page went from 1,574 to about 36, links and buttons from 112 to 9, height from 5,100px to one screen.
+- StuckBox.tsx routes through the same /api/match and session-storage handoff as the old search, so nothing personal reaches a URL. Name-a-person search is no longer on the homepage; use the roster.
