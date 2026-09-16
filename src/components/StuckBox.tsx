@@ -14,10 +14,18 @@ const EXAMPLES = [
   "My money feels out of control.",
 ];
 
-export default function StuckBox() {
+export type GuideOption = { slug: string; name: string; path: string };
+
+export default function StuckBox({ guides }: { guides: GuideOption[] }) {
   const router = useRouter();
   const [text, setText] = useState("");
   const [busy, setBusy] = useState(false);
+  const [naming, setNaming] = useState(false);
+  const [name, setName] = useState("");
+  const guideMatches = name.trim().length
+    ? guides.filter((g) => g.name.toLowerCase().includes(name.trim().toLowerCase())).slice(0, 5)
+    : [];
+  const openGuide = (g: GuideOption) => router.push(g.path);
   const [error, setError] = useState("");
 
   const send = async (raw: string) => {
@@ -88,6 +96,33 @@ export default function StuckBox() {
           </button>
         ))}
       </div>
+      {naming ? (
+        <div className="relative w-full max-w-xs">
+          <label htmlFor="guide-name" className="sr-only">Name a guide</label>
+          <input
+            id="guide-name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            onKeyDown={(e) => { if (e.key === "Enter" && guideMatches[0]) { e.preventDefault(); openGuide(guideMatches[0]); } if (e.key === "Escape") setNaming(false); }}
+            autoFocus
+            placeholder="Franklin, Buffett, Seneca..."
+            className="min-h-11 w-full rounded-full border border-white/10 bg-white/[0.05] px-4 text-center text-sm text-white outline-none placeholder:text-white/30 focus:border-white/25"
+          />
+          {guideMatches.length > 0 && (
+            <ul className="absolute left-0 right-0 top-full z-10 mt-2 overflow-hidden rounded-2xl border border-white/10 bg-[#12161d] text-left shadow-xl">
+              {guideMatches.map((g) => (
+                <li key={g.slug}>
+                  <button type="button" onClick={() => openGuide(g)} className="block min-h-11 w-full px-4 text-left text-sm text-white/85 hover:bg-white/10">{g.name}</button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ) : (
+        <button type="button" onClick={() => setNaming(true)} className="min-h-11 text-sm text-white/45 underline underline-offset-4 hover:text-white">
+          or name a guide
+        </button>
+      )}
     </div>
   );
 }
