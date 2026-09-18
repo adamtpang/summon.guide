@@ -988,3 +988,10 @@ production deployment, transcript upload success, or routing change to public Sa
 
 - Click a guide's portrait in chat: three lines they are known for appear and play in the guide's voice (GuidePortraitLines.tsx, data/guide-lines.json, pre-rendered public/lines/<slug>-<n>.mp3). Six guides so far: Franklin, Seneca, Marcus Aurelius, Rockefeller, Alexander, Lee Kuan Yew (two lines).
 - A source audit found most quotes on file for these six were misattributed, paraphrased, or untraceable (e.g. Franklin "Tell me and I forget", Alexander "army of lions", Rockefeller "common things uncommonly well"). notableQuotes, signatureQuote, and the prompt quote lists now carry only lines traced to a primary source (Poor Richard, Gummere Seneca, Long Meditations, Random Reminiscences, Plutarch, LKY memoir and 1980 rally). Other guides have not been audited yet.
+
+## Lee Kuan Yew through the checklist (2026-09-18)
+
+- He had gone live with zero sources and unverified quotes. Research and fact-check (docs/lee-kuan-yew-onboarding.md): 20 of his own speeches in the National Archives of Singapore confirmed readable, NAS reuse terms (original summaries plus short attributed quotes only, no transcripts), timeline, voice notes, warnings.
+- 8 original syntheses in content/knowledge/lee-kuan-yew now ground his chat through figureSources (audit: 8 question-ranked syntheses). His prompt carries a HANDLE HONESTLY section: detention without trial, defamation suits and press control are acknowledged as costs, never glorified.
+- Found and fixed a bug for every historical guide: RESPONSE_RULES told them to cite a "Your documented record" section, but retrieval labels notes "Retrieved source notes" with "Cite as:" lines, so historical guides never cited. Live eval: LKY now cites The Search for Talent (1982) and the 1981 Armed Forces Day speech, and names the cost of detention.
+- Remaining for LKY: 12 more of the 20 mapped speeches to synthesize; a third verified portrait line.

@@ -25,7 +25,7 @@ Tracked in `data/guide-intake.json` and visible at `/onboarding`. Source leads a
 
 | Guide | Organization | Source | Status | Discovered | Corpus docs | Note |
 | --- | --- | --- | --- | ---: | ---: | --- |
-| Ben Cera | Polsia | [Ben Cera](https://www.youtube.com/@bencera-aislop) | corpus-staged | 6 | 6 | Private YouChop corpus staged as six timestamped Markdown guides. Ben Cera is not yet registered as a public Summon guide. |
+| Ben Cera | Polsia | [Ben Cera](https://www.youtube.com/@bencera-aislop) | corpus-staged | 6 | 0 | Private YouChop corpus staged as six timestamped Markdown guides. Ben Cera is not yet registered as a public Summon guide. |
 
 ## Guides
 
@@ -45,7 +45,7 @@ A guide is a person defined in `src/lib/figures.ts`. Source counts come from `sr
 | [Charlie Munger](https://summon.guide/charlie-munger) | `charlie-munger` | 1 | 22 | 1 | yes |
 | [Daniel Ek](https://summon.guide/daniel-ek) | `daniel-ek` | 0 | 0 | 0 | yes |
 | [David Deutsch](https://summon.guide/deutsch) | `deutsch` | 2 | 32 | 2 | yes |
-| [David Senra](https://summon.guide/senra) | `senra` | 1 | 111 | 1 | yes |
+| [David Senra](https://summon.guide/senra) | `senra` | 1 | 211 | 1 | yes |
 | [Derek Sivers](https://summon.guide/sivers) | `sivers` | 5 | 68 | 4 | yes |
 | [Elon Musk](https://summon.guide/elon) | `elon` | 3 | 21 | 1 | yes |
 | [Evan Spiegel](https://summon.guide/evan-spiegel) | `evan-spiegel` | 0 | 0 | 0 | yes |
@@ -88,7 +88,7 @@ A channel is an entry in `src/lib/books.ts` whose role is `channel`.
 
 | Channel | Host | Guide | Status | Corpus docs | One-pager | Chat |
 | --- | --- | --- | --- | ---: | --- | --- |
-| [Founders Podcast](https://www.founderspodcast.com) | David Senra | [David Senra](https://summon.guide/senra) | partial | 111 | [view](https://summon.guide/distillations/founders-podcast) | [open](https://summon.guide/chat/source/founders-podcast) |
+| [Founders Podcast](https://www.founderspodcast.com) | David Senra | [David Senra](https://summon.guide/senra) | partial | 211 | [view](https://summon.guide/distillations/founders-podcast) | [open](https://summon.guide/chat/source/founders-podcast) |
 | [Invest Like the Best](https://www.youtube.com/@Invest_Like_the_Best) | Patrick O'Shaughnessy | unattributed | partial | 28 | [view](https://summon.guide/distillations/invest-like-the-best) | [open](https://summon.guide/chat/source/invest-like-the-best) |
 | [Starter Story](https://www.youtube.com/@starterstory) | Pat Walls | unattributed | partial | 28 | [view](https://summon.guide/distillations/starter-story) | [open](https://summon.guide/chat/source/starter-story) |
 | [Y Combinator](https://www.youtube.com/@ycombinator) | Y Combinator | unattributed | partial | 35 | [view](https://summon.guide/distillations/y-combinator) | [open](https://summon.guide/chat/source/y-combinator) |
