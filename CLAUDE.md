@@ -983,3 +983,8 @@ production deployment, transcript upload success, or routing change to public Sa
 
 - Adam ran the perfect-landing skill on the homepage and chose option A of three. The page is now a dark screen with "What's stuck?", one input, three example prompts, and a footer with guides, council, and privacy links. The 48-row guide list, the three-step strip, and the two promo cards are gone from the homepage; the roster lives at /summon. Words on the page went from 1,574 to about 36, links and buttons from 112 to 9, height from 5,100px to one screen.
 - StuckBox.tsx routes through the same /api/match and session-storage handoff as the old search, so nothing personal reaches a URL. Name-a-person search is no longer on the homepage; use the roster.
+
+## Portrait lines and quote audit (2026-09-18)
+
+- Click a guide's portrait in chat: three lines they are known for appear and play in the guide's voice (GuidePortraitLines.tsx, data/guide-lines.json, pre-rendered public/lines/<slug>-<n>.mp3). Six guides so far: Franklin, Seneca, Marcus Aurelius, Rockefeller, Alexander, Lee Kuan Yew (two lines).
+- A source audit found most quotes on file for these six were misattributed, paraphrased, or untraceable (e.g. Franklin "Tell me and I forget", Alexander "army of lions", Rockefeller "common things uncommonly well"). notableQuotes, signatureQuote, and the prompt quote lists now carry only lines traced to a primary source (Poor Richard, Gummere Seneca, Long Meditations, Random Reminiscences, Plutarch, LKY memoir and 1980 rally). Other guides have not been audited yet.
