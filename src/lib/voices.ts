@@ -1,4 +1,5 @@
-/** Per-guide ElevenLabs library casting. These are synthetic voices, not clones.
+/** Per-guide ElevenLabs voices. Library casting or voices designed from a written
+ * description (ElevenLabs Voice Design). None is cloned from a recording of the person.
  * Dedicated account voices can override each assignment with
  * ELEVENLABS_VOICE_<SLUG_WITH_UNDERSCORES> in server environment settings.
  */
@@ -25,18 +26,18 @@ export const VOICE_MAP: Record<string, string> = {
   "jensen-huang": "VR6AewLTigWG4xSOukaG", // Arnold: commanding, energetic keynote presence
   pressfield: "onwK4e9ZLuTAKqWW03F9", // Daniel: direct, weathered, plain
   vervaeke: "pNInz6obpgDQGcFmaJgB", // Adam: calm, measured, academic
-  rockefeller: "onwK4e9ZLuTAKqWW03F9", // Daniel: deep, authoritative, older male
+  rockefeller: "WSrIoSc2Nj9NSrYw5anZ", // Designed voice (ElevenLabs Voice Design), not a clone: old Gilded Age industrialist, dry, exacting
   "warren-buffett": "onwK4e9ZLuTAKqWW03F9", // Daniel: mature, warm, measured
   "charlie-munger": "onwK4e9ZLuTAKqWW03F9", // Daniel: mature, dry, measured
-  franklin: "N2lVS1w4EtoT3dr4eOWO", // Callum: warm, wise, British-inflected
+  franklin: "cvBBMAUkEsGOIhfUFZmL", // Designed voice, not a clone: elderly 18th century Philadelphian, warm, wry, unhurried
   elon: "TX3LPaxmHKxFdv7VOQHJ", // Liam: direct, slightly halting
-  alexander: "VR6AewLTigWG4xSOukaG", // Arnold: commanding, powerful
+  alexander: "k0SowLXkFmKsorTXk1yQ", // Designed voice, not a clone: young commanding king, energetic, direct
   deutsch: "pNInz6obpgDQGcFmaJgB", // Adam: calm, British, academic
-  "lee-kuan-yew": "yoZ06aMxZJJ28mfd3POQ", // Sam: clear, authoritative, clipped
-  "marcus-aurelius": "pqHfZKP75CvOlQylNhV4", // Bill: measured, grave, contemplative
+  "lee-kuan-yew": "7DHxEfwQzXWuiEldRcxx", // Tristan, ElevenLabs library voice with a Singaporean accent; not his voice or a clone
+  "marcus-aurelius": "gRoKC2L6mkmLlD5lv0Bu", // Designed voice, not a clone: quiet, contemplative emperor
   "marc-andreessen": "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative
   "adam-neumann": "VR6AewLTigWG4xSOukaG", // Arnold: charismatic, expansive
-  seneca: "pNInz6obpgDQGcFmaJgB", // Adam: calm, deliberate, Roman gravitas
+  seneca: "QRcfvWiOOkYDxISpupJA", // Designed voice, not a clone: grave, intimate Roman letter writer
   "ricky-gervais": "JBFqnCBsd6RMkjVDRZzb", // George: warm, mature British delivery
   "marie-curie": "XrExE9yKIg1WjnnlVkGX", // Matilda: warm, measured, mature female
   "bob-marley": "onwK4e9ZLuTAKqWW03F9", // placeholder warm male
