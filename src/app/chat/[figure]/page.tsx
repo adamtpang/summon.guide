@@ -85,6 +85,7 @@ export default function ChatPage({
 
   const { data: session, status: sessionStatus } = useSession();
   const [messages, setMessages] = useState<Message[]>([]);
+  const [conversationCopied, setConversationCopied] = useState(false);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [streamingContent, setStreamingContent] = useState("");
@@ -502,6 +503,7 @@ export default function ChatPage({
         </div>
 
         <Link href={`/${figureSlug}/about`} className="flex items-center gap-2 text-sm">{figure.portrait && <Image src={figure.portrait} alt="" width={32} height={32} className="size-8 rounded-full object-cover" />}{figure.name}</Link>
+        <span className="rounded-full border border-warm-200 bg-white/75 px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.14em] text-warm-500" title={`An AI simulation built from ${figure.name}'s public work, not their words`}>AI simulation</span>
         {preparingAudio && <span role="status">Preparing audio…</span>}
         {audioError && <p role="alert" className="text-xs">{audioError}</p>}
         <AnimatePresence mode="wait">
@@ -684,6 +686,27 @@ export default function ChatPage({
       <details className="absolute right-4 top-3 z-30 text-warm-500">
         <summary aria-label="Conversation options" className="flex size-11 cursor-pointer list-none items-center justify-center rounded-full text-xl hover:bg-white/10 [&::-webkit-details-marker]:hidden">···</summary>
         <div className="absolute right-0 mt-2 w-72 max-w-[calc(100vw-32px)] rounded-2xl border border-white/10 bg-neutral-950 p-3 shadow-xl">
+          <button
+            type="button"
+            disabled={!messages.length}
+            onClick={async () => {
+              const body = messages
+                .filter((m) => !m.contextBrief)
+                .map((m) => `**${m.role === "user" ? "Me" : `AI version of ${figure.name}`}:** ${m.content}`)
+                .join("\n\n");
+              const text = `# Sparring with the AI version of ${figure.name}\n\nAI simulation from summon.guide/${figureSlug}, built from ${figure.name}'s public work. Not their words.\n\n${body}\n`;
+              try {
+                await navigator.clipboard.writeText(text);
+                setConversationCopied(true);
+                window.setTimeout(() => setConversationCopied(false), 2000);
+              } catch {
+                setConversationCopied(false);
+              }
+            }}
+            className="flex min-h-[44px] w-full items-center rounded-xl px-3 text-left text-sm text-white/90 hover:bg-white/10 disabled:opacity-40"
+          >
+            {conversationCopied ? "Copied" : "Copy conversation"}
+          </button>
           <div className="mt-2 border-t border-white/10 px-3 pt-3 text-xs">
             <p>{guideDisclosure(figure.slug, figure.name)} Synthetic voice.</p>
             {modelRoute && <ModelRouteBadge route={modelRoute} />}
