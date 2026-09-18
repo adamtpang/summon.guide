@@ -101,12 +101,9 @@ export const profiles: Record<string, Profile> = {
       "After a nervous breakdown in his fifties left him with alopecia and the appearance of a much older man, Rockefeller retired from active management at 57 and devoted the rest of his life to systematic philanthropy guided by Frederick T. Gates. He gave away approximately $540 million (roughly $11 billion in 2025 USD), founding the University of Chicago, Rockefeller University (the first U.S. biomedical research institute), the General Education Board which helped end hookworm in the American South, and the Rockefeller Foundation, which played a central role in the Green Revolution. He died May 23, 1937, just two months short of his 98th birthday. He had spent the last decades of his life handing out shiny new dimes to children and adults he met as a teaching gesture about the value of saving.",
 
     notableQuotes: [
-      "The secret of success is to do the common things uncommonly well.",
-      "Don't be afraid to give up the good to go for the great.",
-      "Singleness of purpose is one of the chief essentials for success in life.",
-      "I believe the power to make money is a gift from God.",
-      "Competition is a sin.",
-      "I always tried to turn every disaster into an opportunity.",
+      "The day of individual competition in large affairs is past and gone.",
+      "The only thing which is of lasting benefit to a man is that which he does for himself.",
+      "The man will be most successful who confers the greatest service on the world.",
     ],
     primarySources: [
       "Titan: The Life of John D. Rockefeller, Sr. by Ron Chernow (1998)",
@@ -165,12 +162,9 @@ export const profiles: Record<string, Profile> = {
       "Franklin died in Philadelphia on April 17, 1790, at age 84. Twenty thousand people attended his funeral. He had reinvented himself across at least seven distinct careers (printer, author, scientist, postmaster, philanthropist, diplomat, statesman) and produced one of the most influential autobiographies ever written. The 13 Virtues system he designed at twenty became the template for modern habit tracking; the Junto society he founded at twenty-one became the template for the modern peer-improvement group. His face appears on the U.S. $100 bill.",
 
     notableQuotes: [
-      "An investment in knowledge pays the best interest.",
+      "Lost time is never found again.",
+      "Early to bed and early to rise, makes a man healthy, wealthy, and wise.",
       "Well done is better than well said.",
-      "By failing to prepare, you are preparing to fail.",
-      "Either write something worth reading or do something worth writing.",
-      "Energy and persistence conquer all things.",
-      "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
     ],
     primarySources: [
       "The Autobiography of Benjamin Franklin (1771–1790, published 1791)",
@@ -287,12 +281,9 @@ export const profiles: Record<string, Profile> = {
       "Alexander died in Babylon on the evening of 10 or 11 June 323 BC at age 32, after a fever following heavy drinking: possibly typhoid, possibly malaria, possibly poisoning, the question is still debated. When asked to whom he left his empire, he reportedly replied: “To the strongest.” His generals immediately fought a series of wars (the Wars of the Diadochi) that broke the empire into the Hellenistic kingdoms (Ptolemaic Egypt, the Seleucid Empire, Antigonid Macedon) which spread Greek language, philosophy, and civic institutions from the Mediterranean to the borders of India for the next three centuries. Twenty cities he founded survive in some form, including Alexandria, Egypt: still the second-largest city in Egypt today.",
 
     notableQuotes: [
-      "There is nothing impossible to him who will try.",
-      "I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion.",
-      "I would rather live a short life of glory than a long one of obscurity.",
-      "Remember, upon the conduct of each depends the fate of all.",
-      "I do not steal my victories.",
-      "Heaven cannot brook two suns, nor earth two masters.",
+      "So would I, if I were Parmenion.",
+      "If I were not Alexander, I should wish to be Diogenes.",
+      "To the strongest.",
     ],
     primarySources: [
       "Life of Alexander by Plutarch (c. 100 AD)",
@@ -407,12 +398,8 @@ export const profiles: Record<string, Profile> = {
       "Lee's wife Geok Choo, his partner of sixty years, died in 2010. He died on March 23, 2015, at age 91. Over a million Singaporeans lined the funeral route in the rain. He is among the most studied and emulated nation-builders of the twentieth century: Deng Xiaoping sent successive Chinese delegations to Singapore to study his model, and figures from Henry Kissinger to Margaret Thatcher to Bill Clinton sought his counsel. His doctrine of pragmatic, results-tested governance, “Does it work? Let's try it. If it doesn't work, toss it out.”, remains influential in policy circles and in private-sector leadership alike.",
 
     notableQuotes: [
-      "We are pragmatists. Does it work? Let's try it, and if it does work, fine. If it doesn't work, toss it out.",
-      "I was never a prisoner of any theory. What guided me were reason and reality.",
-      "A man who owns his home has a stake in the stability of his country.",
-      "If you can't think because you can't chew, try a banana.",
-      "Democracy is a means to good governance, not an end in itself.",
-      "I have never been over-concerned or obsessed with opinion polls or popularity polls.",
+      "If Singapore is a nanny state, then I am proud to have fostered one.",
+      "Whoever governs Singapore must have that iron in him, or give it up.",
     ],
     primarySources: [
       "The Singapore Story: Memoirs of Lee Kuan Yew (1998)",
@@ -461,12 +448,9 @@ export const profiles: Record<string, Profile> = {
       "Marcus died on March 17, 180 AD, aged 58, still on campaign. He is counted the last of the “Five Good Emperors,” and his death is often marked as the end of the Pax Romana. His one clear failure was his succession: he was followed by his son Commodus, whose unstable, tyrannical reign broke the long tradition of adoptive emperors and is conventionally treated as the beginning of Rome's decline. But the Meditations, never intended for publication, survived, and became the most widely read and practically applied work of philosophy ever written, the operating manual for anyone trying to stay sane, ethical, and undefeated under pressure.",
 
     notableQuotes: [
-      "You have power over your mind, not outside events. Realize this, and you will find strength.",
-      "The impediment to action advances action. What stands in the way becomes the way.",
       "Waste no more time arguing what a good man should be. Be one.",
-      "If it is not right, do not do it; if it is not true, do not say it.",
-      "Never let the future disturb you. You will meet it, if you have to, with the same weapons of reason which today arm you against the present.",
-      "The best revenge is to be unlike him who performed the injury.",
+      "Remember that all is opinion.",
+      "The best revenge is not to be like your enemy.",
     ],
     primarySources: [
       "Meditations by Marcus Aurelius (c. 170–180 AD; Gregory Hays translation, 2002)",
@@ -628,12 +612,9 @@ export const profiles: Record<string, Profile> = {
       "By AD 62 Burrus was dead and Seneca had effectively retired, though he could not extract himself fully. In AD 65, Nero accused him of complicity in the Pisonian conspiracy on thin evidence and ordered him to take his own life. Tacitus's *Annals* describes the death in detail: Seneca opened his veins, then took hemlock when blood loss was too slow, and finally was carried into a steam bath where he suffocated, dictating final words to scribes. His wife Pompeia Paulina attempted to die with him but was kept alive on Nero's order. Seneca's letters became the most-read philosophical text in the medieval European tradition; Augustine, Erasmus, Montaigne, and Petrarch each treated him as a near-Christian moralist. His prose style (short, paradoxical, aphoristic) shaped European essay-writing through Bacon. The *Epistulae Morales* and *On the Shortness of Life* remain the most accessible Stoic texts ever produced and the entry point most modern readers take into the school.",
 
     notableQuotes: [
-      "It is not that we have a short time to live, but that we waste much of it.",
-      "While we are postponing, life speeds by.",
-      "Begin at once to live, and count each separate day as a separate life.",
-      "Anger, if not restrained, is frequently more hurtful to us than the injury that provokes it.",
-      "He who is brave is free.",
-      "No servitude is more disgraceful than that which is self-imposed.",
+      "He who is everywhere is nowhere.",
+      "It is not the man who has too little, but the man who craves more, that is poor.",
+      "No man can have a peaceful life who thinks too much about lengthening it.",
     ],
     primarySources: [
       "Letters from a Stoic (Epistulae Morales ad Lucilium) by Seneca: Robin Campbell translation (Penguin, 1969) and the Loeb Classical Library three-volume edition",

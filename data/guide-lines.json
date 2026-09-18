@@ -1,0 +1,82 @@
+{
+  "franklin": [
+    {
+      "text": "Lost time is never found again.",
+      "source": "The Way to Wealth (Poor Richard's Almanack, 1758)"
+    },
+    {
+      "text": "Early to bed and early to rise, makes a man healthy, wealthy, and wise.",
+      "source": "Poor Richard's Almanack, 1735"
+    },
+    {
+      "text": "Well done is better than well said.",
+      "source": "Poor Richard's Almanack, 1737"
+    }
+  ],
+  "seneca": [
+    {
+      "text": "He who is everywhere is nowhere.",
+      "source": "Moral Letters to Lucilius, Letter II, Richard Mott Gummere translation (Loeb, public domain)"
+    },
+    {
+      "text": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "source": "Moral Letters to Lucilius, Letter II, Richard Mott Gummere translation (Loeb, public domain)"
+    },
+    {
+      "text": "No man can have a peaceful life who thinks too much about lengthening it.",
+      "source": "Moral Letters to Lucilius, Letter IV, Richard Mott Gummere translation (Loeb, public domain)"
+    }
+  ],
+  "marcus-aurelius": [
+    {
+      "text": "Waste no more time arguing what a good man should be. Be one.",
+      "source": "Meditations 10.16, George Long translation (public domain)"
+    },
+    {
+      "text": "Remember that all is opinion.",
+      "source": "Meditations 2.15, George Long translation (public domain)"
+    },
+    {
+      "text": "The best revenge is not to be like your enemy.",
+      "source": "Meditations 6.6, George Long translation (public domain)"
+    }
+  ],
+  "rockefeller": [
+    {
+      "text": "The day of individual competition in large affairs is past and gone.",
+      "source": "Random Reminiscences of Men and Events, John D. Rockefeller (1909)"
+    },
+    {
+      "text": "The only thing which is of lasting benefit to a man is that which he does for himself.",
+      "source": "Random Reminiscences of Men and Events, John D. Rockefeller (1909)"
+    },
+    {
+      "text": "The man will be most successful who confers the greatest service on the world.",
+      "source": "Random Reminiscences of Men and Events, John D. Rockefeller (1909)"
+    }
+  ],
+  "alexander": [
+    {
+      "text": "So would I, if I were Parmenion.",
+      "source": "Plutarch, Life of Alexander (Alexander's reply after the Battle of Issus, when Parmenion advised him to accept Darius's ransom terms)"
+    },
+    {
+      "text": "If I were not Alexander, I should wish to be Diogenes.",
+      "source": "Plutarch, Moralia (On the Fortune of Alexander, 332a-b); not from the Life of Alexander itself"
+    },
+    {
+      "text": "To the strongest.",
+      "source": "Reported as Alexander's deathbed reply on who should inherit his empire; attested in Diodorus Siculus and later ancient tradition, not directly in Plutarch's Life or Arrian's Anabasis"
+    }
+  ],
+  "lee-kuan-yew": [
+    {
+      "text": "If Singapore is a nanny state, then I am proud to have fostered one.",
+      "source": "From Third World to First: The Singapore Story 1965-2000, Lee Kuan Yew (2000)"
+    },
+    {
+      "text": "Whoever governs Singapore must have that iron in him, or give it up.",
+      "source": "Rally speech, 1980, per Wikiquote's citation"
+    }
+  ]
+}

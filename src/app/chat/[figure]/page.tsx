@@ -21,6 +21,7 @@ import ListenButton from "@/components/ListenButton";
 import chatStyles from "@/components/SageConversation.module.css";
 
 import { Button } from "@/components/ui/button";
+import GuidePortraitLines from "@/components/GuidePortraitLines";
 import type { ModelRouteMeta } from "@/lib/aiTypes";
 import { readChatStream } from "@/lib/readChatStream";
 
@@ -552,9 +553,7 @@ export default function ChatPage({
               </div>
             )}
 
-            <div className="relative mb-6 size-36 shrink-0 overflow-hidden rounded-full border border-white/10 shadow-[0_0_70px_-20px_#4a78bb] sm:size-44">
-              {figure.portrait ? <Image src={figure.portrait} alt={figure.name} fill sizes="176px" priority className="object-cover object-top" /> : <span className="flex h-full items-center justify-center text-5xl" aria-hidden="true">🧙</span>}
-            </div>
+            <GuidePortraitLines slug={figure.slug} name={figure.name} portrait={figure.portrait} />
             <h1 className="text-2xl font-medium tracking-tight">{figure.name}</h1>
             <span className="mt-2 max-w-xs text-center text-xs leading-relaxed text-warm-500">{guideDisclosure(figure.slug, figure.name)}</span>
 
