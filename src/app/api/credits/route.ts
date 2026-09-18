@@ -1,5 +1,5 @@
 import { auth } from "@/auth";
-import { isTestingAccess } from "@/lib/membership";
+import { isOwnerEmail, isTestingAccess } from "@/lib/membership";
 import { prisma } from "@/lib/prisma";
 import { NextRequest } from "next/server";
 
@@ -9,7 +9,7 @@ export async function GET() {
   if (!session?.user?.id) {
     return Response.json({ credits: 0, signedIn: false });
   }
-  if (isTestingAccess()) {
+  if (isTestingAccess() || isOwnerEmail(session.user.email)) {
     return Response.json({ credits: null, signedIn: true, unlimited: true });
   }
 
@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
   if (!session?.user?.id) {
     return Response.json({ error: "Not signed in" }, { status: 401 });
   }
-  if (isTestingAccess()) {
+  if (isTestingAccess() || isOwnerEmail(session.user.email)) {
     return Response.json({ credits: null, unlimited: true });
   }
 

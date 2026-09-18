@@ -11,6 +11,16 @@ export function isTestingAccess() {
   return SUMMON_ACCESS_MODE === "testing";
 }
 
+// The owner records daily PangPod episodes with the guides, so their account is never metered.
+const OWNER_EMAILS = (process.env.SUMMON_OWNER_EMAILS ?? "adamtpang@gmail.com")
+  .split(",")
+  .map((email) => email.trim().toLowerCase())
+  .filter(Boolean);
+
+export function isOwnerEmail(email?: string | null) {
+  return Boolean(email && OWNER_EMAILS.includes(email.toLowerCase()));
+}
+
 export type LicenseResult =
   | { ok: true; remaining: number; renewsAt: Date | null }
   | { ok: false; code: "sign_in_required" | "membership_required" | "session_limit_reached" };
@@ -26,7 +36,7 @@ export function makeSecret(prefix: string) {
 export async function getMembership(userId: string) {
   return prisma.user.findUnique({
     where: { id: userId },
-    select: { membershipStatus: true, membershipSessionsUsed: true, membershipSessionLimit: true, membershipRenewsAt: true },
+    select: { email: true, membershipStatus: true, membershipSessionsUsed: true, membershipSessionLimit: true, membershipRenewsAt: true },
   });
 }
 
@@ -40,6 +50,9 @@ export async function consumeGuideSession(userId?: string): Promise<LicenseResul
     };
   }
   const membership = await getMembership(userId);
+  if (membership && isOwnerEmail(membership.email)) {
+    return { ok: true, remaining: SUMMON_MONTHLY_SESSION_LIMIT, renewsAt: null };
+  }
   if (!membership || membership.membershipStatus !== "ACTIVE") {
     return { ok: false, code: "membership_required" };
   }
