@@ -66,10 +66,10 @@
       "name": "Lee Kuan Yew",
       "portrait": true,
       "voice": "library casting",
-      "synthesisCount": 0,
-      "retrieval": "no retrievable corpus",
+      "synthesisCount": 8,
+      "retrieval": "question-ranked syntheses",
       "fullTranscriptRetrieval": false,
-      "next": "Acquire authorized sources, synthesize, index, evaluate"
+      "next": "Evaluate answers; deepen verified source coverage"
     },
     {
       "slug": "marcus-aurelius",
@@ -356,7 +356,7 @@
       "name": "David Senra",
       "portrait": true,
       "voice": "library casting",
-      "synthesisCount": 137,
+      "synthesisCount": 237,
       "retrieval": "question-ranked syntheses",
       "fullTranscriptRetrieval": false,
       "next": "Evaluate answers; deepen verified source coverage"
@@ -739,7 +739,7 @@
       "slug": "founders-podcast",
       "name": "Founders Podcast",
       "kind": "channel",
-      "synthesisCount": 109,
+      "synthesisCount": 209,
       "fullTranscriptRetrieval": false
     },
     {
