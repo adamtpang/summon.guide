@@ -16,7 +16,8 @@ import FeedbackModal from "@/components/FeedbackModal";
 import ModelRouteBadge from "@/components/ModelRouteBadge";
 import PromptBubbles from "@/components/PromptBubbles";
 import ChatComposer from "@/components/ChatComposer";
-// import GuideCall from "@/components/GuideCall"; // Call mode paused by Adam.
+import GuideCall from "@/components/GuideCall";
+import { startCallRecorder, recordingFileName, type CallRecorder } from "@/lib/callRecorder";
 import ListenButton from "@/components/ListenButton";
 import chatStyles from "@/components/SageConversation.module.css";
 
@@ -92,7 +93,10 @@ export default function ChatPage({
   const [streamingContent, setStreamingContent] = useState("");
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [preparingAudio, setPreparingAudio] = useState(false);
-  const callMode = false; // Text chat only while call mode is paused.
+  const [callMode, setCallMode] = useState(false);
+  const recorderRef = useRef<CallRecorder | null>(null);
+  const [recording, setRecording] = useState(false);
+  const [recordError, setRecordError] = useState<string | null>(null);
   const [audioError, setAudioError] = useState<string | null>(null);
   const audioRequestRef = useRef<AbortController | null>(null);
   const voiceEnabledRef = useRef(false); // Replies play only when Listen is selected.
@@ -292,6 +296,7 @@ export default function ChatPage({
       setLastAudioUrl(url);
       const audio = new Audio(url);
       audioRef.current = audio;
+      recorderRef.current?.attach(audio);
       setPreparingAudio(false);
       setIsSpeaking(true);
       audio.onended = () => { setIsSpeaking(false); setCanReplay(true); };
@@ -310,6 +315,7 @@ export default function ChatPage({
     if (lastAudioUrl) {
       const audio = new Audio(lastAudioUrl);
       audioRef.current = audio;
+      recorderRef.current?.attach(audio);
       audio.onended = () => { setIsSpeaking(false); setCanReplay(true); };
       audio.onerror = () => { setIsSpeaking(false); setCanReplay(true); };
       setIsSpeaking(true);
@@ -472,13 +478,43 @@ export default function ChatPage({
     handleStream(newMessages);
   };
 
+  const toggleRecording = async () => {
+    setRecordError(null);
+    if (recorderRef.current) {
+      const recorder = recorderRef.current;
+      recorderRef.current = null;
+      setRecording(false);
+      const blob = await recorder.stop();
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = recordingFileName(figureSlug, blob);
+      link.click();
+      window.setTimeout(() => URL.revokeObjectURL(url), 60_000);
+      return;
+    }
+    try {
+      recorderRef.current = await startCallRecorder();
+      setRecording(true);
+    } catch (error) {
+      setRecordError(error instanceof Error ? error.message : "Recording could not start.");
+    }
+  };
+
+  const openCall = () => { voiceEnabledRef.current = true; setCallMode(true); };
+  const closeCall = () => {
+    voiceEnabledRef.current = false;
+    stopSpeaking();
+    if (recorderRef.current) void toggleRecording();
+    setCallMode(false);
+  };
+
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); }
   };
 
   return (
     <div className={`${chatStyles.shell} ${chatStyles.person} h-[100dvh] flex flex-col overflow-hidden relative`}>
-      {/* Call interface disabled; retained for later.
       {callMode && <GuideCall minimal
         name={figure.name}
         portrait={figure.portrait}
@@ -489,9 +525,11 @@ export default function ChatPage({
         caption={cleanResponse(streamingContent || [...messages].reverse().find(m => m.role === "assistant")?.content || "").displayText}
         onSend={sendQuickMessage}
         onInterrupt={stopSpeaking}
-        onClose={() => { voiceEnabledRef.current = false; setCallMode(false); }}
+        onClose={closeCall}
+        recording={recording}
+        recordError={recordError}
+        onToggleRecord={() => void toggleRecording()}
       />}
-      */}
       <div className="contents" inert={callMode}>
       {/* Top bar */}
       <div className="relative z-10 mx-auto flex w-full max-w-3xl items-center justify-between px-4 pt-[max(12px,env(safe-area-inset-top))] pb-2 shrink-0">
@@ -501,6 +539,11 @@ export default function ChatPage({
               <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
           </Link>
+          <button type="button" onClick={openCall} aria-label={`Call ${figure.name}`} className="w-11 h-11 rounded-full bg-white/75 backdrop-blur-sm border border-warm-200 flex items-center justify-center text-warm-500 hover:text-ink-950 hover:bg-white transition-colors">
+            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+              <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
+            </svg>
+          </button>
         </div>
 
         <Link href={`/${figureSlug}/about`} className="flex items-center gap-2 text-sm">{figure.portrait && <Image src={figure.portrait} alt="" width={32} height={32} className="size-8 rounded-full object-cover" />}{figure.name}</Link>

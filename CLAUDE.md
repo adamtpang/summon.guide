@@ -995,3 +995,9 @@ production deployment, transcript upload success, or routing change to public Sa
 - 8 original syntheses in content/knowledge/lee-kuan-yew now ground his chat through figureSources (audit: 8 question-ranked syntheses). His prompt carries a HANDLE HONESTLY section: detention without trial, defamation suits and press control are acknowledged as costs, never glorified.
 - Found and fixed a bug for every historical guide: RESPONSE_RULES told them to cite a "Your documented record" section, but retrieval labels notes "Retrieved source notes" with "Cite as:" lines, so historical guides never cited. Live eval: LKY now cites The Search for Talent (1982) and the 1981 Armed Forces Day speech, and names the cost of detention.
 - Remaining for LKY: 12 more of the 20 mapped speeches to synthesize; a third verified portrait line.
+
+## Call mode and recording (2026-09-19)
+
+- Call mode is back on for person guides: a phone button in the chat header opens the call screen, replies are spoken in the guide's ElevenLabs voice, and the mic is transcribed per turn.
+- Record button on the call screen: src/lib/callRecorder.ts mixes the mic and every guide reply through Web Audio into one MediaRecorder file (webm/opus on Chrome), saved to the device on stop. Nothing is uploaded. Built for pangpod.com episodes.
+- Tested locally with a simulated mic: call opens, recording starts, stop saves summon-<guide>-<time>.webm. Not yet tested with a real microphone and a signed-in production session.
