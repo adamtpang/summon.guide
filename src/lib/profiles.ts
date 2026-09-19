@@ -62,7 +62,10 @@ export const profiles: Record<string, Profile> = {
     earlyLife: "Ward's account of learning animation emphasizes curiosity about the whole production process. While working on Flapjack, he asked to observe editing, animatics, and music work.",
     career: "Pendleton Ward created Adventure Time and co-created The Midnight Gospel with Duncan Trussell. This guide draws on selected public interviews about creative collaboration, characterization, and kindness.",
     legacy: "An independent AI interpretation of public material. The exercises are Summon adaptations, not an official Ward program or a claim of endorsement.",
-    notableQuotes: [],
+    notableQuotes: [
+      "It really takes the pressure off when you're just practicing kindness.",
+      "It can be a grind so I just want everyone to have fun.",
+    ],
     primarySources: ["Max Eddy, Inside the Fun Factory, The Mary Sue (2012)", "GeekDad, Interview Time, WIRED (2012)", "Rollin Bishop, The Midnight Gospel interview, ComicBook (2020)", "Portrait: Al Pavangkanan, via Wikimedia Commons; CC BY 2.0; cropped by Commons contributor. https://commons.wikimedia.org/wiki/File:Pendleton_Ward_at_the_Tomorrow_Show.jpg ; https://creativecommons.org/licenses/by/2.0/"],
   },
   rockefeller: {
@@ -222,9 +225,6 @@ export const profiles: Record<string, Profile> = {
       "Musk has articulated a five-step manufacturing algorithm (question every requirement, delete any part you can, simplify, accelerate cycle time, automate last) that has become an influential industrial framework outside Tesla and SpaceX. His stated goal of making humanity a multiplanetary species has driven Starship development. He remains one of the most controversial public figures of his era: admired as the most aggressive engineering executive of the twenty-first century, criticized for labor practices, his behavior on X, and his political pronouncements.",
 
     notableQuotes: [
-      "When something is important enough, you do it even if the odds are not in your favor.",
-      "The most common error of a smart engineer is to optimize a thing that should not exist.",
-      "If the schedule is long, it's wrong. If it's tight, it's right.",
       "The best part is no part. The best process is no process.",
       "Failure is an option here. If things are not failing, you are not innovating enough.",
       "I think it's very important to have a feedback loop.",
@@ -336,12 +336,11 @@ export const profiles: Record<string, Profile> = {
       "Deutsch is a Fellow of the Royal Society, won the Isaac Newton Medal in 2017, and shared the 2022 Breakthrough Prize in Fundamental Physics for foundational work on quantum information. The Beginning of Infinity has become a touchstone text for a generation of technologists and entrepreneurs as a defense of definite optimism: the view that all problems are soluble unless forbidden by the laws of physics, and that pessimism is bad epistemology, not realism.",
 
     notableQuotes: [
+      "An unproblematic state is a state without creative thought. Its other name is death.",
+      "All evils are caused by insufficient knowledge.",
       "Problems are inevitable. Problems are soluble.",
       "Optimism is, in the first instance, a way of explaining failure, not prophesying success.",
-      "All evils are caused by insufficient knowledge.",
       "The universe is not there to overwhelm us; it is our home, and our resource. The bigger the better.",
-      "An unproblematic state is a state without creative thought. Its other name is death.",
-      "Experience is essential to science, but its role is different from that supposed by empiricism. It is not the source from which theories are derived.",
     ],
     primarySources: [
       "The Beginning of Infinity by David Deutsch (2011)",
@@ -502,12 +501,9 @@ export const profiles: Record<string, Profile> = {
       "Andreessen's three signature essays, “Why Software Is Eating the World” (2011), “It's Time to Build” (2020), and “The Techno-Optimist Manifesto” (2023), have each defined the discourse of their moment. He sits on the board of Meta (since 2008) and has remained one of the most public voices in technology and venture capital, prolific on Twitter / X and on the a16z podcast. He is married to Laura Arrillaga-Andreessen, a Stanford professor and philanthropist; they have one son.",
 
     notableQuotes: [
-      "Software is eating the world.",
       "It's time to build.",
-      "Strong opinions, loosely held.",
-      "I'm a relentless optimist about the future.",
-      "The world will be made of bits and atoms. We need a lot more of both.",
-      "Every Western institution was unprepared for the coronavirus pandemic… The problem is desire. We need to want these things.",
+      "The problem is desire. We need to want these things.",
+      "Software is eating the world.",
     ],
     primarySources: [
       "“Why Software Is Eating the World” by Marc Andreessen (Wall Street Journal, August 20, 2011)",
@@ -556,9 +552,7 @@ export const profiles: Record<string, Profile> = {
 
     notableQuotes: [
       "We are here to elevate the world's consciousness.",
-      "The “We” in WeWork stands for the community we are building together.",
       "Our mission is to create a world where people work to make a life, not just a living.",
-      "Energy and intention are what set the great founders apart from the good ones.",
     ],
     primarySources: [
       "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork by Reeves Wiedeman (2020)",
@@ -832,12 +826,12 @@ export const profiles: Record<string, Profile> = {
     career: "Buffett took control of the struggling textile manufacturer Berkshire Hathaway in 1965 after a dispute over a tender offer. He later called the purchase a major mistake, but used the corporate shell to build a radically different enterprise. The acquisition of National Indemnity in 1967 gave Berkshire insurance float that could be invested until claims came due. Subsequent purchases, including See's Candies, GEICO, Nebraska Furniture Mart, BNSF, and a collection of large public-company holdings, turned Berkshire into a decentralized conglomerate with capital allocation and manager selection concentrated at its tiny Omaha headquarters.\n\nCharlie Munger, whom Buffett met in 1959, persuaded him to move beyond Benjamin Graham's bargain-priced cigar butts and pay sensible prices for exceptional businesses. Buffett described See's as the decisive lesson: a company with pricing power, low incremental capital needs, loyal customers, and managers who could operate autonomously. The Berkshire partnership combined Buffett's capital allocation and communication with Munger's insistence on business quality, opportunity cost, incentives, and avoiding obvious folly.\n\nBuffett served as Berkshire's chief executive from 1970 through 2025. Greg Abel became CEO on January 1, 2026, while Buffett remained chairman. From 1977 through 2024 Buffett's annual letters explained Berkshire's results and operating principles to shareholders in unusually plain language, including owner earnings, the retained-earnings test, economic moats, the institutional imperative, acquisition discipline, liquidity, reputation, and the prompt correction of mistakes.",
     legacy: "Buffett is among the most influential investors and business writers of the modern era. His distinctive contribution was not merely buying underpriced securities, but joining disciplined valuation to a permanent-capital company designed around trust, decentralized authority, conservative financing, and patient ownership. The shareholder letters became a practical course in accounting, capital allocation, management, psychology, and stewardship because they exposed errors as well as successes and addressed shareholders as partners.\n\nHe has pledged to give away more than 99 percent of his wealth and, with Bill and Melinda Gates, created the Giving Pledge to encourage other wealthy people to commit most of their fortunes to philanthropy. His most durable lesson is temperamental: stay inside what you can understand, wait for a favorable opportunity, avoid risks that can end the game, choose trustworthy partners, and let sound economics compound for a very long time.",
     notableQuotes: [
-      "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.",
-      "Time is the friend of the wonderful business, the enemy of the mediocre.",
       "Our favorite holding period is forever.",
-      "Mr. Market is there to serve you, not to guide you.",
       "The size of that circle is not very important; knowing its boundaries, however, is vital.",
-      "A small chance of distress or disgrace cannot, in our view, be offset by a large chance of extra returns.",
+      "Offence is the collateral damage of free speech.",
+      "The truth is more devastating than a lie.",
+      "Offence often occurs when people mistake the subject of a joke with the actual target.",
+      "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.",
     ],
     primarySources: [
       "Berkshire Hathaway shareholder letters, 1977 to 2024 (official archive)",
@@ -1924,6 +1918,11 @@ export const profiles: Record<string, Profile> = {
 
     notableQuotes: [
       "We are suffering from a wisdom famine in the West.",
+      "Nothing ever happens unless someone pursues a vision fanatically.",
+      "Swim upstream. Go the other way. Ignore the conventional wisdom.",
+      "Seek wealth, not money or status.",
+      "Escape competition through authenticity.",
+      "Wind extinguishes a candle and energizes fire.",
     ],
     primarySources: [
       "Awakening from the Meaning Crisis (lecture series, 2019)",
@@ -1997,7 +1996,6 @@ export const profiles: Record<string, Profile> = {
       "Siddhartha found its largest audience decades after publication, among readers in the 1960s and after who took its argument about self-discovery as permission to leave the paths arranged for them. That reception has been both its fortune and its distortion: the book is frequently read as a licence to wander, when its actual claim is stricter and less comfortable, that wisdom cannot be received from anyone and that the years a person writes off as failure may be the ones that did the work.",
 
     notableQuotes: [
-      "Knowledge can be conveyed, but not wisdom.",
       "I can think. I can wait. I can fast.",
     ],
     primarySources: ["Siddhartha (1922)", "Steppenwolf (1927)", "Demian (1919)"],
@@ -2061,8 +2059,7 @@ export const profiles: Record<string, Profile> = {
       "Sivers turned one company's origin story into five distinct short books rather than one long memoir, each built around a single reusable claim rather than a general account of his career. His decision to route CD Baby's sale through a charitable trust, giving away money he could have kept, is frequently cited alongside his writing as evidence the ideas are not merely marketing for a personal brand. He does not currently have a standalone Wikipedia article, a 2022 deletion discussion found insufficient independent secondary coverage, so his own site, sive.rs, remains the most complete record of his own work.",
 
     notableQuotes: [
-      "If you're not saying HELL YEAH about something, say no.",
-      "Ideas are just a multiplier of execution. The most brilliant idea is worthless with no execution.",
+      "Ideas are worth nothing unless executed.",
       "Everybody's ideas seem obvious to them.",
     ],
     primarySources: [
@@ -2097,8 +2094,6 @@ export const profiles: Record<string, Profile> = {
 
     notableQuotes: [
       "Greatness is deviance from the norm, ie insanity.",
-      "Nobody achieves greatness without passing through the crucible of cringe.",
-      "Live your life like you're in a heroic anime, jrpg. Make friends. Help people on their side quests.",
     ],
     primarySources: [
       "Friendly Ambitious Nerd (2020)",
@@ -2177,11 +2172,7 @@ export const profiles: Record<string, Profile> = {
       "Newport has never held a social media account, a deliberate professional stance rather than an accident, and has become one of the most cited voices arguing against treating constant connectivity and busyness as proxies for real productivity. He continues to publish books, write the newsletter and host the podcast Deep Questions, and hold a full professorship at Georgetown while remaining outside the platforms most authors in his genre depend on for reach.",
 
     notableQuotes: [
-      "Human beings, it seems, are at their best when immersed deeply in something challenging.",
-      "Clarity about what matters provides clarity about what does not.",
-      "If you don't produce, you won't thrive—no matter how skilled or talented you are.",
-      "Spend enough time in a state of frenetic shallowness and you permanently reduce your capacity to perform deep work.",
-      "Think like artists but work like accountants.",
+
     ],
     primarySources: ["Deep Work by Cal Newport (2016)"],
   },
@@ -2220,10 +2211,6 @@ export const profiles: Record<string, Profile> = {
 
     notableQuotes: [
       "What we fear doing most is usually what we most need to do.",
-      "Focus on being productive instead of busy.",
-      "You are the average of the five people you associate with most, so do not underestimate the effects of your pessimistic, unambitious, or disorganized friends.",
-      "“Someday” is a disease that will take your dreams to the grave with you.",
-      "Being able to quit things that don't work is integral to being a winner.",
     ],
     primarySources: [
       "Tools of Titans by Tim Ferriss (2016)",
@@ -2267,9 +2254,6 @@ export const profiles: Record<string, Profile> = {
       "Duke is now a leading popularizer of decision science outside academia, teaching as an adjunct at the Wharton School's executive education program and lecturing at the Harvard Kennedy School. Her central contribution, naming and popularizing resulting, the error of judging a decision's quality by its outcome rather than by the process that produced it, has become common vocabulary well beyond poker, in business strategy, medicine, and public discussion of risk.",
 
     notableQuotes: [
-      "Life is more like poker than chess.",
-      "Drawing an overly tight relationship between results and decision quality affects our decisions every day, potentially with far-reaching, catastrophic consequences.",
-      "Diversity and dissent are not the only checks on fallibility, but the only means of testing the ultimate truth of an opinion.",
       "Just as we are almost never 100% wrong or right, outcomes are almost never 100% due to luck or skill.",
     ],
     primarySources: ["Thinking in Bets by Annie Duke (2018)"],
@@ -2306,10 +2290,6 @@ export const profiles: Record<string, Profile> = {
 
     notableQuotes: [
       "Becoming is better than being.",
-      "Why waste time proving over and over how great you are, when you could be getting better?",
-      "Did I win? Did I lose? Those are the wrong questions. The correct question is: Did I make my best effort?",
-      "So what should we praise? The effort, the strategies, the doggedness and persistence, the grit people show, the resilience that they show in the face of obstacles.",
-      "When people with the fixed mindset opt for success over growth, what are they really trying to prove? That they're special. Even superior.",
     ],
     primarySources: [
       "Mindset: The New Psychology of Success by Carol S. Dweck (2006)",
@@ -2345,10 +2325,7 @@ export const profiles: Record<string, Profile> = {
       "Millerd continues to publish his newsletter most weeks, coach clients through StrategyU, and is widely cited in career writing that pushes back against the default script of school, then a prestigious job, then a career ladder, then retirement, as one of the clearer voices arguing that a life built from many smaller, self-directed commitments is a legitimate alternative to a single employer and a single ladder.",
 
     notableQuotes: [
-      "On the pathless path, the goal is not to find a job, make money, build a business, or achieve any other metric. It's to actively and consciously search for the work that you want to keep doing.",
-      "It's having the courage to walk away from an identity that seems to make sense in the context of the default path in order to aspire towards things you don't understand.",
-      "Your life is too short and too valuable to fritter away in work.",
-      "As we age we do become more mentally rigid and minor challenges to our routines can be landmines threatening to blow up our weeks, and suggestions that we live in new ways are treated as acts of war.",
+
     ],
     primarySources: ["The Pathless Path by Paul Millerd (2022)"],
   },
@@ -2395,7 +2372,6 @@ export const profiles: Record<string, Profile> = {
     notableQuotes: [
       "Whatever the mind can conceive and believe, it can achieve.",
       "The starting point of all achievement is desire. Weak desire brings weak results, just as a small fire makes a small amount of heat.",
-      "Set your mind on a definite goal and observe how quickly the world stands aside to let you pass.",
       "The time will never be “just right.” Start where you stand, work with whatever tools you may have at your command, and better tools will be found as you go along.",
       "There are no limitations to the mind except those we acknowledge. Both poverty and riches are the offspring of thought.",
     ],
@@ -2447,9 +2423,9 @@ export const profiles: Record<string, Profile> = {
       "In June 2024 Jacobs founded QXO to consolidate the roughly $800 billion North American building-products distribution industry, personally investing close to $1 billion of his own capital and raising more than $5 billion in equity, which Bloomberg called the largest building-products-sector offering and the largest PIPE ever completed for an industrial company. QXO acquired Beacon Building Products for roughly $11 billion in April 2025. In June 2025 QXO made a roughly $5 billion all-cash bid for GMS Inc. and lost it to Home Depot's SRS Distribution subsidiary, which closed its own, higher acquisition of GMS on September 4, 2025. QXO went on to acquire Kodiak Building Partners for about $2.25 billion in April 2026 and agreed to acquire TopBuild, the largest insulation distributor in North America, for about $17 billion later that same month, a deal expected to close around mid-2026, bringing QXO's total deployed capital since founding to roughly $30 billion in under two years. Analysts covering QXO have described Jacobs as a genuine 'key man': as of August 2026, at age 70, no successor has been publicly named, and a meaningful share of the market's confidence in QXO's acquisition pace rides on his personal track record and capital rather than an institutional bench proven to survive his departure. Jacobs has written two books distilling his approach, How to Make a Few Billion Dollars (2024) and How to Make a Few More Billion Dollars (2025), and has spoken publicly, including on Shane Parrish's The Knowledge Project, about using therapy and cognitive behavioral techniques as working tools in business decision-making.",
 
     notableQuotes: [
+      "A healthy fear of failure has kept me sharp.",
       "If you can find a big, hairy deal with solvable problems, that's where the real money is.",
       "If you resist embracing an imperfect situation today, you might lose the opportunity to capitalize on it tomorrow.",
-      "A healthy fear of failure has kept me sharp.",
       "The question, 'What was the happiest part of your day?' has a more uplifting effect than 'How was your day?'",
     ],
     primarySources: [
@@ -2505,7 +2481,7 @@ export const profiles: Record<string, Profile> = {
     notableQuotes: [
       "Make something people want.",
       "Do things that don't scale.",
-      "You can be smart without being very curious. But you can't do great work without being very curious.",
+      "Live in the future, then build what's missing.",
     ],
     primarySources: [
       "Paul Graham's essay archive at paulgraham.com",
@@ -2541,10 +2517,8 @@ export const profiles: Record<string, Profile> = {
 
     notableQuotes: [
       "Discipline is fighting yourself.",
-      "Self-improvement is self-aggression.",
-      "Coercion can't make you think particular things.",
-      "You don't really know what the problem is until after you solve it.",
-      "Problems are soluble.",
+      "Self-improvement is Self-aggression.",
+      "Problems are soluble!",
     ],
     primarySources: [
       "\"Discipline is fighting yourself,\" lulie.co.uk",

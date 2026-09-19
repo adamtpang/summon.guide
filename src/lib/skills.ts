@@ -463,7 +463,7 @@ export const skills: Skill[] = [
     figureSlug: "marc-andreessen",
     title: "Channel Marc Andreessen",
     tagline:
-      "Software is eating the world. It's time to build. Strong opinions, loosely held. Read the wave you're in and push faster.",
+      "Software is eating the world. It's time to build. Read the wave you're in and push faster.",
     whenToUse:
       "Deciding what to build, evaluating a startup or investment thesis, choosing how to think about a regulated incumbent industry, or fighting the pessimism that says technology can't make things better.",
     source: "Marc's essays at a16z.com (2011–2023)",

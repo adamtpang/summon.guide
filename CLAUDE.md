@@ -1001,3 +1001,9 @@ production deployment, transcript upload success, or routing change to public Sa
 - Call mode is back on for person guides: a phone button in the chat header opens the call screen, replies are spoken in the guide's ElevenLabs voice, and the mic is transcribed per turn.
 - Record button on the call screen: src/lib/callRecorder.ts mixes the mic and every guide reply through Web Audio into one MediaRecorder file (webm/opus on Chrome), saved to the device on stop. Nothing is uploaded. Built for pangpod.com episodes.
 - Tested locally with a simulated mic: call opens, recording starts, stop saves summon-<guide>-<time>.webm. Not yet tested with a real microphone and a signed-in production session.
+
+## Quote audit for all guides, LKY at 20 sources (2026-09-19)
+
+- Agents audited quotes for the remaining 42 guides; every proposed line was then checked mechanically (scratchpad check-quotes.mjs): fetch the cited URL and require the exact words on the page. 45 of 108 proposed lines passed. 59 flagged quotes (misattributed, paraphrase, unverifiable) were removed from notableQuotes, signatureQuote, prompt quote lists, and one skill line ("Strong opinions, loosely held" is Paul Saffo's). Portrait lines now cover 30 guides; 18 guides have no source-checked line and show a plain portrait.
+- Lee Kuan Yew now has 20 original speech syntheses. His old KNOWLEDGE BASE section (first-person passages labelled as memoir chapters we do not have) was replaced with a pointer to the retrieved speech notes; citation rate on the talent eval went from 0 of 3 to 2 of 3.
+- Known follow-up: other historical guides likely have the same kind of unsourced "SOURCE: <book>, Chapters" blocks in their prompts. Audit them the same way.
