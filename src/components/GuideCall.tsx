@@ -20,9 +20,10 @@ type Props = {
   name: string; portrait?: string; loading: boolean; speaking: boolean;
   blocked: boolean; audioError: string | null; caption: string;
   onSend(text: string): void; onInterrupt(): void; onClose(): void;
+  recording?: boolean; recordError?: string | null; onToggleRecord?(): void;
 };
 
-export default function GuideCall({ name, portrait, loading, speaking, blocked, audioError, caption, onSend, onInterrupt, onClose, minimal = false }: Props) {
+export default function GuideCall({ name, portrait, loading, speaking, blocked, audioError, caption, onSend, onInterrupt, onClose, minimal = false, recording = false, recordError = null, onToggleRecord }: Props) {
   const [active, setActive] = useState(false);
   const [muted, setMuted] = useState(false);
   const [listening, setListening] = useState(false);
@@ -172,12 +173,15 @@ export default function GuideCall({ name, portrait, loading, speaking, blocked, 
           <button aria-label={muted ? "Unmute microphone" : "Mute microphone"} disabled={!active} aria-pressed={muted} onClick={() => { setMuted(v => !v); setListening(false); }}>{muted ? <MicOff size={21} /> : <Mic size={21} />}</button>
           <button className={styles.primary} aria-label={active ? "End call" : "Start call"} disabled={blocked || (!active && loading)} onClick={() => { if (active) { setActive(false); setListening(false); onInterrupt(); } else begin(); }}>{active ? <PhoneOff size={23} /> : <AudioLines size={23} />}</button>
           <button aria-label={captions ? "Hide captions" : "Show captions"} aria-pressed={captions} onClick={() => setCaptions(v => !v)}><Captions size={21} /></button>
+          {onToggleRecord && <button aria-label={recording ? "Stop recording and save the file" : "Record this call"} aria-pressed={recording} onClick={onToggleRecord}><span aria-hidden="true" style={{ display: "inline-block", width: 14, height: 14, borderRadius: recording ? 3 : 999, background: recording ? "#ef4444" : "currentColor" }} /></button>}
         </div> : <div className={styles.controls}>
           <button aria-label={captions ? "Hide captions" : "Show captions"} aria-pressed={captions} onClick={() => setCaptions(v => !v)}><Captions size={21} /><span>Captions</span></button>
           <button aria-label={muted ? "Unmute microphone" : active ? "Mute microphone" : "Start microphone"} aria-pressed={active && !muted} onClick={() => { if (!active) begin(); else { setMuted(v => !v); setListening(false); } }}>{muted || !active ? <MicOff size={22} /> : <Mic size={22} />}<span>{muted ? "Unmute" : "Mic"}</span></button>
           <button className={styles.end} aria-label="End voice conversation" onClick={close}><PhoneOff size={22} /><span>End</span></button>
           <button aria-label={typing ? "Return to voice" : "Type a question"} aria-pressed={typing} onClick={() => { setTyping(v => !v); setListening(false); }}><Keyboard size={22} /><span>Type</span></button>
         </div>}
+        {recording && <p role="status" className={styles.disclosure}>Recording your voice and the guide. Stop to save the file to this device.</p>}
+        {recordError && <p role="alert" className={styles.disclosure}>{recordError}</p>}
         <p className={styles.disclosure}>{minimal ? "AI voice" : "AI guide inspired by public works · Synthetic voice"}</p>
         {!minimal && !active && <p className={styles.privacy}>Voice input uses your browser’s speech service.</p>}
       </footer>
