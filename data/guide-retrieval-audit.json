@@ -66,7 +66,7 @@
       "name": "Lee Kuan Yew",
       "portrait": true,
       "voice": "library casting",
-      "synthesisCount": 8,
+      "synthesisCount": 20,
       "retrieval": "question-ranked syntheses",
       "fullTranscriptRetrieval": false,
       "next": "Evaluate answers; deepen verified source coverage"
