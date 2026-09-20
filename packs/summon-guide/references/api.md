@@ -1,26 +1,16 @@
-# Summon API transport
+# Public retrieval
 
-Origin: `https://summon.guide`. OAuth connection: `/connect`. MCP: `/api/mcp`.
-The helper reads `SUMMON_ACCESS_TOKEN` from the environment and a JSON envelope from stdin. The token is a user-scoped Summon OAuth access token, not an OpenRouter or ElevenLabs key. A browser session is not automatically available in a shell.
+Run `node "<skill directory>/scripts/client.mjs"` with JSON on stdin.
 
-Envelopes:
+`{"action":"roster"}` calls GET https://summon.guide/api/public/guides.
+Returns guides with id, name, kind, domains, description, availability, sourceCount and URL. Building guides have null URL.
 
-```json
-{"action":"match","input":{"context":"Relevant situation, priorities and actual question…","maxGuides":3}}
-```
+`{"action":"notes","input":{"id":"<id from roster>","query":"startup customers focus","limit":4}}` calls POST https://summon.guide/api/public/notes.
 
-`match` calls `POST /api/summon/match`. `matches` contains live ids, names, scores, dimensions, reasons, limitations, roles and source counts. `selectedIds` contains only matches at or above 70. `research_required` is a valid result; HTTP 503 is an outage, not a gap.
+Only id, query (2–600 characters) and limit (1–6) are accepted. Body limit 4 KB. Never send personal context. Returns status (ok, no_corpus, no_relevant_notes), sourceCount and notes containing id, title, principle, lessons, sourceUrl and kind=synthesis_excerpt. No raw transcript or filesystem path. This assistant performs matching, scoring and generation.
 
-```json
-{"action":"guide","input":{"slug":"franklin","message":"Relevant brief and question…"}}
-```
+No Authorization header or login. 400 invalid input; 404 unknown guide; 429 burst limit. Retry service failures later; they do not indicate an expertise gap. Roster is cached, notes are not publicly cached. Burst protection is per server instance, not a global quota.
 
-`guide` calls `POST /api/chat`; `book` uses the same input shape and calls `/api/chat/source`. Replies are decoded from SSE and retain citations. An empty or errored stream is a failure. The helper buffers the answer for display in the current host chat.
+# Optional authenticated generation
 
-```json
-{"action":"research","input":{"name":"Candidate name","context":"Relevant brief and question…","fit":"Documented experience that fits the problem…","sources":[{"title":"Primary source title","url":"https://example.org/source","summary":"An original evidence summary of at least 80 characters, derived from a page actually read."},{"title":"Independent source title","url":"https://another.example/source","summary":"A second original evidence summary of at least 80 characters, derived from a page actually read."}]}}
-```
-
-`research` calls `POST /api/summon/research`. It returns `provisional` advice, sources and onboarding request status; it does not publish a new public guide. Summon does not independently fetch the supplied URLs. Search and verification are the host skill's responsibility.
-
-401: reconnect via OAuth. 402/429: account/session limit; stop. 409: existing or declined request; inspect returned status. 503: service unavailable; do not invent success. 404 on a new endpoint: server version lacks this capability; do not silently use the old single-guide matcher as if it supplied scores.
+With a user-provided SUMMON_ACCESS_TOKEN environment variable, existing helper actions remain: match and research accept server input; guide and book accept {slug,message}. These call /api/summon/match, /api/summon/research, /api/chat and /api/chat/source. They transmit input and may consume allowance. Use only on explicit request for server generation or tracked onboarding. Never substitute provider credentials. MCP https://summon.guide/api/mcp is an optional authenticated transport.

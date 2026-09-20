@@ -1,6 +1,20 @@
 import { pathToFileURL } from 'node:url';
 
 export async function callSummon(envelope, { token = process.env.SUMMON_ACCESS_TOKEN, fetcher = fetch } = {}) {
+  if (envelope?.action === 'roster' || envelope?.action === 'notes') {
+    const roster = envelope.action === 'roster';
+    if (Object.keys(envelope).some(key => !['action', 'input'].includes(key))) throw new Error('Unexpected envelope field.');
+    if (roster && envelope.input !== undefined) throw new Error('Roster takes no input.');
+    const input = envelope.input;
+    if (!roster && (!input || typeof input !== 'object' || Array.isArray(input) || Object.keys(input).some(key => !['id', 'query', 'limit'].includes(key)) || typeof input.id !== 'string' || typeof input.query !== 'string' || input.query.length > 600)) throw new Error('Notes requires id and a generic topic query, without personal context.');
+    const response = await fetcher('https://summon.guide/api/public/' + (roster ? 'guides' : 'notes'), {
+      method: roster ? 'GET' : 'POST', redirect: 'error',
+      headers: { 'Content-Type': 'application/json' },
+      ...(roster ? {} : { body: JSON.stringify(input) }), signal: AbortSignal.timeout(30000),
+    });
+    if (!response.ok) throw new Error(`Public Summon retrieval returned HTTP ${response.status}. Retry later for 429 or service errors. No login is required.`);
+    return response.json();
+  }
   if (!token) throw new Error('Connect Summon at https://summon.guide/connect and supply SUMMON_ACCESS_TOKEN through the environment.');
   const { action, input } = envelope || {};
   const paths = { match: '/api/summon/match', research: '/api/summon/research', guide: '/api/chat', book: '/api/chat/source' };

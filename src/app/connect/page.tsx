@@ -1,26 +1,20 @@
 import Link from "next/link";
-import { auth } from "@/auth";
-import { getMembership, SUMMON_ACCESS_MODE, SUMMON_MEMBERSHIP_PRICE, SUMMON_MONTHLY_SESSION_LIMIT } from "@/lib/membership";
 
-const mcpUrl = "https://summon.guide/api/mcp";
-
-export default async function ConnectPage() {
-  const session = await auth();
-  const membership = session?.user?.id ? await getMembership(session.user.id) : null;
-  const testing = SUMMON_ACCESS_MODE === "testing";
-  const active = testing || (membership?.membershipStatus === "ACTIVE" && (!membership.membershipRenewsAt || membership.membershipRenewsAt > new Date()));
-  const remaining = membership ? Math.max(0, membership.membershipSessionLimit - membership.membershipSessionsUsed) : 0;
-  const checkoutUrl = process.env.STRIPE_SUMMON_MEMBERSHIP_LINK;
-  return <main className="min-h-screen bg-slate-950 text-white"><div className="max-w-3xl mx-auto px-6 py-10 md:py-16">
-    <header className="flex justify-between items-center mb-14"><Link href="/" className="text-white/60 text-xs tracking-[.28em] uppercase hover:text-white">summon.guide</Link><Link href="/summon" className="text-sm text-white/70 hover:text-white">Guide packs</Link></header>
-    <p className="text-emerald-400 text-xs tracking-[.22em] uppercase mb-4">Your AI, upgraded</p>
-    <h1 className="font-serif text-4xl md:text-6xl leading-none mb-5">Connect your council.</h1>
-    <p className="text-white/65 text-lg leading-relaxed max-w-2xl mb-10">Summon gives your existing AI access to source-backed specialist guidance. Ask Claude, ChatGPT, or Codex to summon the right perspective when a normal answer is not enough.</p>
-    <section className="rounded-2xl border border-white/10 bg-white/[.05] p-6 mb-8"><div className="flex flex-wrap justify-between gap-4"><div><p className="text-white font-medium">{testing ? "Summon testing access" : "Summon Member"}</p><p className="text-white/60 text-sm mt-1">{testing ? "Free while we test the guide experience." : `${SUMMON_MEMBERSHIP_PRICE}. ${SUMMON_MONTHLY_SESSION_LIMIT} guided decision sessions every month.`}</p></div><span className={`rounded-full px-3 py-1 text-xs h-fit ${active ? "bg-emerald-400/15 text-emerald-300" : "bg-white/10 text-white/60"}`}>{testing ? "Free testing access" : active ? `${remaining} sessions remaining` : "Membership required"}</span></div>
-    {testing ? <p className="text-emerald-300 text-sm mt-5">Sign in with Google to test every guide. No payment is required right now.</p> : active ? <p className="text-emerald-300 text-sm mt-5">Your connection authorizes automatically when a supported client opens Summon.</p> : checkoutUrl ? <a href={checkoutUrl} className="inline-block mt-5 rounded-lg bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-medium px-4 py-2.5">Become a member</a> : <p className="text-amber-200 text-sm mt-5">Checkout is being prepared. Sign in now and this page will unlock as soon as membership opens.</p>}</section>
-    <section className="grid gap-4"><ConnectCard title="Claude" detail="In Claude Settings → Connectors, add Summon. Claude opens a secure Summon sign-in and returns connected." url={mcpUrl} /><ConnectCard title="ChatGPT" detail="On supported ChatGPT plans, add a custom MCP app in Settings → Apps using this secure remote endpoint." url={mcpUrl} /><ConnectCard title="Codex / Claude Code" detail="Install the project adapter. It writes the project-local skill and MCP configuration, then opens the same Summon authorization flow." command="npx --yes github:adamtpang/summon.guide summon install elon" /></section>
-    <p className="text-white/40 text-xs leading-relaxed mt-10">Guides are educational AI systems inspired by documented public material, not the people themselves. Summon never provides individualized financial, legal, medical, or investment advice.</p>
+export default function ConnectPage() {
+  return <main className="min-h-screen bg-slate-950 text-white"><div className="max-w-2xl mx-auto px-6 py-10 md:py-20">
+    <header className="flex justify-between items-center mb-20"><Link href="/" className="text-white/60 text-xs tracking-[.25em] uppercase">summon.guide</Link><Link href="/summon" className="text-sm text-white/60">Guides</Link></header>
+    <p className="text-blue-300 mb-5 text-3xl" aria-hidden="true">🧙</p>
+    <h1 className="font-serif text-4xl md:text-6xl mb-5">Your guides. Any chat.</h1>
+    <p className="text-white/60 text-lg leading-relaxed mb-10">Install once in Codex or Claude Code. Summon the right perspective without leaving your conversation.</p>
+    <section className="rounded-2xl border border-white/10 bg-white/[.03] p-6 space-y-5">
+      <h2 className="text-sm text-white/60">1. Install in your terminal</h2>
+      <code className="block rounded-lg bg-black/30 p-4 text-sm text-blue-200 break-words">npx --yes github:adamtpang/summon.guide summon install summon-guide --global</code>
+      <h2 className="text-sm text-white/60">2. Start a new chat and ask</h2>
+      <p className="font-mono text-lg">Use summon-guide to help me with this.</p>
+      <p className="text-xs text-white/45">No Summon account, API key, or MCP setup. Your existing AI supplies the reasoning.</p>
+    </section>
+    <p className="text-white/50 text-sm leading-relaxed mt-6">Your AI matches the situation to live guides, reads their source notes, and brings cited advice here. Personal context stays in your chat; only general topic queries go to Summon.</p>
+    <details className="mt-12 border-t border-white/10 pt-5 text-sm"><summary className="cursor-pointer text-white/50">Advanced · Connect through MCP</summary><div className="mt-5 space-y-4 text-white/60"><p>For compatible clients that use remote tools, connect this endpoint and sign in. Server-generated advice follows your Summon access and allowance.</p><code className="block rounded-lg bg-white/5 p-4 text-blue-200 break-all">https://summon.guide/api/mcp</code><p>The skill above works independently of this connection.</p></div></details>
+    <p className="mt-12 text-xs text-white/30">AI perspectives inspired by public work. Source coverage varies; newly researched guides are provisional.</p>
   </div></main>;
 }
-
-function ConnectCard({ title, detail, url, command }: { title: string; detail: string; url?: string; command?: string }) { return <article className="border border-white/10 rounded-xl p-5 bg-black/20"><h2 className="font-serif text-xl mb-1">{title}</h2><p className="text-white/60 text-sm leading-relaxed mb-4">{detail}</p>{url ? <code className="block text-emerald-300 bg-black/30 rounded-md p-3 text-xs overflow-x-auto">{url}</code> : <code className="block text-emerald-300 bg-black/30 rounded-md p-3 text-xs overflow-x-auto">{command}</code>}</article>; }

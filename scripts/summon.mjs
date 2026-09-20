@@ -159,7 +159,7 @@ async function install(name, target, options) {
       await mkdir(destination, { recursive: true });
       await cp(source, destination, { recursive: true, force: true });
     }
-    console.log(`Installed summon-guide for Claude Code and Codex in ${target}. Connect https://summon.guide/api/mcp using your client's OAuth flow. Restart or open a fresh chat to discover the skill.`);
+    console.log(`Installed summon-guide for Claude Code and Codex in ${target}. No Summon login, API key, or MCP setup required. Open a fresh chat and ask it to use summon-guide.`);
     return;
   }
   if (name === "summon") {
