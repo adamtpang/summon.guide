@@ -1,0 +1,11 @@
+interface:
+  display_name: "Summon Guide"
+  short_description: "Match your situation to guides and get advice here"
+  default_prompt: "Use $summon-guide to find the best guides for this conversation, show compatibility scores, and bring their advice here."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "summon-guide"
+      description: "Live guide matching, grounded advice, and provisional onboarding"
+      transport: "streamable_http"
+      url: "https://summon.guide/api/mcp"
