@@ -1,3 +1,5 @@
+import { getGuideEpisodes } from "@/lib/guideRetrieval";
+import GuidePortrait from "@/components/GuidePortrait";
 import { guidePath } from "@/lib/guideUrls";
 import { figures, getFigure } from "@/lib/figures";
 import { getProfile, type Profile } from "@/lib/profiles";
@@ -23,6 +25,7 @@ export async function generateMetadata({
   const figure = getFigure(figureSlug);
   const profile = getProfile(figureSlug);
 
+  if (figure?.members) return { title: `${figure.name} | summon.guide`, description: figure.hook, alternates: { canonical: `https://summon.guide${guidePath(figure.slug)}/about` } };
   if (!figure || !profile) {
     return { title: "Guide Not Found | summon.guide" };
   }
@@ -61,6 +64,18 @@ export default async function FigureProfile({
   const figure = getFigure(figureSlug);
   const profile = getProfile(figureSlug);
 
+  if (figure?.members) {
+    const notes = getGuideEpisodes(figure.slug);
+    return <main className="min-h-dvh bg-[#060b16] px-6 py-16 text-slate-100"><div className="mx-auto max-w-xl">
+      <Link href={guidePath(figure.slug)} className="text-blue-300">Open conversation</Link>
+      <div className="relative mx-auto my-8 size-40 overflow-hidden rounded-full"><GuidePortrait name={figure.name} src={figure.portrait} /></div>
+      <p className="text-sm text-blue-300">Duo guide · {figure.category}</p><h1 className="mt-2 text-3xl">{figure.name}</h1>
+      <p className="mt-3">{figure.members.join(" + ")}</p><p className="mt-3 text-slate-400">{figure.hook}</p>
+      <p className="mt-5 text-sm text-slate-400">One AI guide, with sourced perspectives kept distinct. One synthetic narrator, not either person’s voice. {figure.slug === "gottmans" ? "The avatar is a monogram, not a photograph. Educational guidance, not therapy." : "Educational guidance, not personalized investment advice."}</p>
+      <h2 className="mt-8 text-xl">Sources</h2><p className="mt-2 text-sm text-slate-400">{notes.length} synthesis notes. This is partial coverage, not full books or transcripts.</p>
+      <ul className="mt-4 space-y-3">{notes.slice(0, 12).map(note => <li key={note.file}><a className="text-blue-300 underline underline-offset-4" href={note.youtube} target="_blank" rel="noreferrer">{note.title}</a></li>)}</ul>
+    </div></main>;
+  }
   if (!figure || !profile) {
     notFound();
   }

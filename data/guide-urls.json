@@ -906,5 +906,21 @@
       "reason-is-fun-essays",
       "reasonisfunessays"
     ]
+  },
+  {
+    "slug": "gottmans",
+    "publicSlug": "gottmans",
+    "aliases": [
+      "thegottmans",
+      "johnandjuliegottman"
+    ]
+  },
+  {
+    "slug": "buffettmunger",
+    "publicSlug": "buffettmunger",
+    "aliases": [
+      "buffett-and-munger",
+      "buffettandmunger"
+    ]
   }
 ]

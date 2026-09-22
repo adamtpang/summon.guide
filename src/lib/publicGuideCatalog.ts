@@ -14,6 +14,7 @@ export function publicGuideEpisodes(id: string) {
 
 export const publicGuideCatalog = guideAgents.map(guide => ({
   id: guide.id, name: guide.name, kind: guide.kind, domains: guide.domains,
+  members: guide.members, category: guide.category,
   description: guide.description.slice(0, 1200), availability: guide.availability,
   sourceCount: publicGuideEpisodes(guide.id)?.length || 0,
   url: guide.availability !== "ready" ? null : `https://summon.guide${guide.slug === "founders-podcast" ? "/sage" : guidePath(guide.slug)}`,

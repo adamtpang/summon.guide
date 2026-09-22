@@ -88,7 +88,7 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
           >
             <div className="flex items-center justify-between gap-3 mb-4">
               <p className="text-emerald-400/80 text-[10px] tracking-[0.18em] uppercase">
-                {kindLabel[agent.kind]}
+                {agent.members ? "Duo guide" : kindLabel[agent.kind]}{agent.category ? ` · ${agent.category}` : ""}
               </p>
               <span
                 className={`text-[10px] uppercase tracking-[0.12em] ${

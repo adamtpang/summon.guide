@@ -1,6 +1,8 @@
 import type { Figure } from "@/lib/figures";
 
 export const GUIDE_STARTERS: Record<string, [string, string, string]> = {
+  gottmans: ["How can we discuss this without another fight?", "How do we reconnect when we feel distant?", "How can we handle a disagreement that keeps returning?"],
+  buffettmunger: ["What would inversion reveal about this decision?", "How do I judge a business beyond its price?", "Which risks and incentives am I overlooking?"],
     "pendleton-ward": [
       "How can I make creating feel fun again?",
       "Help me turn a weird idea into a small story.",

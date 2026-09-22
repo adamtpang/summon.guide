@@ -4,6 +4,8 @@
  * ELEVENLABS_VOICE_<SLUG_WITH_UNDERSCORES> in server environment settings.
  */
 export const VOICE_MAP: Record<string, string> = {
+  gottmans: "XrExE9yKIg1WjnnlVkGX", // One synthetic narrator; not either person.
+  buffettmunger: "pqHfZKP75CvOlQylNhV4", // One synthetic narrator; not either person.
   "rick-rubin": "JBFqnCBsd6RMkjVDRZzb", // Calm library casting, not Rubin's voice or a clone.
   "pendleton-ward": "bIHbv24MWmeRgasZH58o", // Library narrator, not the person's voice.
   "rose-blumkin": "wGcFBfKz5yUQqhqr0mVy", // Library narrator, not her voice.

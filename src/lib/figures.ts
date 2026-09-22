@@ -1,5 +1,8 @@
+import { duoFigures } from "./duoGuides";
 export interface Figure {
   slug: string;
+  members?: string[];
+  category?: string;
   name: string;
   era: string;
   hook: string;
@@ -60,6 +63,7 @@ RULES:
 }
 
 export const figures: Figure[] = [
+  ...duoFigures,
   {
     slug: "rick-rubin",
     name: "Rick Rubin",

@@ -1,3 +1,4 @@
+import { getGuideEpisodes } from "@/lib/guideRetrieval";
 import { guidePath } from "@/lib/guideUrls";
 import { books } from "@/lib/books";
 import { figures } from "@/lib/figures";
@@ -32,6 +33,8 @@ export interface GuideAgent {
   slug: string;
   kind: GuideAgentKind;
   name: string;
+  members?: string[];
+  category?: string;
   byline: string;
   description: string;
   image?: string;
@@ -88,7 +91,7 @@ const personAgents: GuideAgent[] = figures.map((figure) => {
   const capabilities: GuideAgentCapability[] = ["chat", "compare"];
   const skillSlugs = [...new Set(sources.flatMap((book) => book.skillSlugs || []))];
 
-  if (sources.some((book) => book.corpusPaths?.length)) capabilities.push("citations");
+  if (getGuideEpisodes(figure.slug).length) capabilities.push("citations");
   if (skillSlugs.length) capabilities.push("skills");
   if (figure.slug === "elon") capabilities.push("install");
 
@@ -97,6 +100,8 @@ const personAgents: GuideAgent[] = figures.map((figure) => {
     slug: figure.slug,
     kind: "person",
     name: figure.name,
+    members: figure.members,
+    category: figure.category,
     byline: figure.knownFor,
     description: figure.hook,
     image: figure.portrait,
@@ -183,7 +188,7 @@ export const guideAgentSummaries: GuideAgentSummary[] = guideAgents.map(
     void _runtime;
     return {
       ...agent,
-      sourceCount: sourceSlugs.length,
+      sourceCount: _runtime.kind === "figure" ? getGuideEpisodes(_runtime.figureSlug).length : sourceSlugs.length,
     };
   },
 );
