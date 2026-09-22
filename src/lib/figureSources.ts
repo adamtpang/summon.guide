@@ -30,6 +30,69 @@ export interface FigureCoverage {
 }
 
 export const figureSources: Record<string, FigureCoverage> = {
+  "rick-rubin": {
+  "coverage": "partial",
+  "sources": [
+    {
+      "file": "content/knowledge/founders/038-how-rick-rubin-works.md",
+      "title": "How Rick Rubin Works",
+      "principle": "Reduce the work to its essential form: create far more material than you need so only the best survives, transfer total confidence to whoever you are working with, and judge everything by whether it will still sound true fifty years from now.",
+      "keyLessons": [
+        "**Reduce, do not add.** His first production credit read \"reduced by Rick Rubin\" instead of \"produced by,\" and his stated reason for constant stripping down is that \"the more things you add, the smaller it gets.\" Cut a song, a pitch, or a product down to what actually has to be there before you consider adding anything new to it.",
+        "**Overproduce, then keep only what survives the cut.** He tells artists who need ten finished songs to write far more than ten, then asks which five they cannot live without and what could be added to those five that makes them better, not worse. Great work in most fields comes from generating far more raw material than you will ship and discarding almost all of it.",
+        "**Discover the work instead of inventing it.** Rubin describes his own role the way Steve Jobs described a conversation with Polaroid's Edwin Land: both believed the finished product already existed somewhere and their job was only to find it, not to will it into being from nothing. Treat your best ideas as things you are uncovering rather than manufacturing, and you stop forcing solutions that do not actually fit.",
+        "**Hand your own confidence to whoever you are working with.** Johnny Cash, Neil Diamond, and members of System of a Down each separately described him as making them believe in themselves again, even though every one of them had already built a full career before he arrived. An abundance of self-belief is transferable; use it deliberately on people who have quietly lost theirs.",
+        "**Judge choices by whether they hold up decades later, not by what impresses this quarter.** His reasoning for stripping Neil Diamond back to just a guitar and a voice was that a grand piano sounded great fifty years ago and will sound great fifty years from now, while the newest sounds tend to sound dated as soon as the next new sound arrives. Optimize for what survives, not for what is merely fashionable right now.",
+        "**Treat a first refusal as the start of the process, not the end of it.** He called Chuck D's phone number daily for six months before Public Enemy would even agree to record, and he pursued Neil Diamond so relentlessly that Diamond described it as being stalked. If you are certain the work is worth doing, persistence past the first no is a normal part of getting it made.",
+        "**Leave a structure the moment your vision and your partner's genuinely diverge.** At the height of Def Jam's success he walked away from the label he had co-founded because he and Russell Simmons were compromising each other's direction, not because of money or failure. Protecting what you are actually trying to make is worth more than staying inside an arrangement that no longer serves it.",
+        "**Only work with people you like, admire, and trust, because the work is personal.** He insisted on real relationships before any songs got made, spending time at a beach or a record store together first, and turned down artists whose material did not genuinely move him. Treat whether a collaboration feels personal as a real filter, not a luxury you skip under deadline pressure.",
+        "**Give one project your full, undivided attention instead of splitting focus across several.** His own summary of how he works: one thing at a time, complete attention, only collaborators who motivate themselves, and a mind kept as clear as possible going in. Depth of focus on fewer things outperforms shallow attention spread across many."
+      ],
+      "youtube": "https://www.youtube.com/watch?v=AmkAH6MzRgM",
+      "show": "Published episode synthesis",
+      "subject": "Rick Rubin",
+      "sourceBook": "How Rick Rubin Works"
+    },
+    {
+      "file": "content/knowledge/founders/039-the-creative-genius-of-rick-rubin.md",
+      "title": "The Creative Genius of Rick Rubin",
+      "principle": "Creativity is a practice of attention: build small habits and real unstructured time that let ideas surface on their own, curate what you expose yourself to so your taste stays calibrated toward greatness, then finish and release the work without waiting for a perfection that never arrives.",
+      "keyLessons": [
+        "**Small habits compound into a real edge.** The book opens with John Wooden teaching new players how to properly tie their shoes on day one, arguing that a single habit mastered at the top of any field can decide the outcome. Treat the smallest repeatable details of your craft as differentiators worth real attention, not busywork beneath you.",
+        "**Build in real unstructured time so ideas can arrive on their own.** Rubin describes creativity as picking up on a signal, and says the open space away from work, not the work itself, is where his best material actually shows up, through long walks, swimming, or sitting in a garden. Schedule genuine emptiness into your week instead of treating rest as time stolen from output.",
+        "**Curate your inputs to train your own sense of greatness.** He recommends deliberately submerging yourself in the finest literature, film, and art rather than the daily news, because the goal is not imitation, it is calibrating your internal meter for what actually counts as excellent. What you let into your attention becomes the standard you unconsciously measure your own work against.",
+        "**Separate doubting the work from doubting yourself.** He treats wondering whether a song is as good as it can be as useful fuel for revision, but treats doubting your own ability to make anything good at all as corrosive and worth catching immediately. Aim any self-criticism at the specific piece in front of you, never at your capacity to do the work at all.",
+        "**Master the rules of your medium well enough to know which ones to break.** He argues most rules only produce average outcomes, and the most interesting work comes either from people who know every convention cold or from people who never learned them in the first place. Ask which \"obviously correct\" method in your own field you are following purely out of habit.",
+        "**Real listening means suspending your own agenda entirely.** He defines listening as neither forming an opinion nor preparing a response nor defending a position, just staying fully present with no fixed idea of what should come out of the exchange. Most conversations fail this test long before they fail on substance.",
+        "**Hold patience and urgency at the same time.** His stated paradox is working slowly enough to avoid rushing the process while still finishing and shipping without delay, because hanging on to unfinished work is spending years writing the same entry in a diary. Do not let taking your time quietly become an excuse for never actually finishing.",
+        "**Make the work for an audience of one: yourself.** His test for great art is building a house nobody else will ever visit and still finishing every detail to your own taste, because chasing a commercial outcome or outside approval as the primary goal actively undermines the work. Define success the way you would define it privately, and let any audience arrive afterward.",
+        "**Take exhaustive notes so a fleeting idea never gets lost to the moment's excitement.** Even though a session can look like a party from the outside, he says someone is writing down almost everything said, because two weeks later somebody will ask which take had the best chorus fill and the notes are the only place that answer survives. Build a habit of capturing small decisions in real time instead of trusting memory to hold onto them."
+      ],
+      "youtube": "https://www.youtube.com/watch?v=wYi4emYR89I",
+      "show": "Published episode synthesis",
+      "subject": "Rick Rubin",
+      "sourceBook": "The Creative Genius of Rick Rubin"
+    },
+    {
+      "file": "content/knowledge/interviews/001-rick-rubin-on-finding-your-life-s-work.md",
+      "title": "Rick Rubin on Finding Your Life\u2019s Work",
+      "principle": "Strip a work down until only its essential magic remains, then protect that fragile moment instead of thinking it to death.",
+      "keyLessons": [
+        "\"Less is more, but to get less you have to do more\": once a work is stripped to essentials, nothing is hidden, so every remaining element must be ruthlessly curated. One guitar where you can hear the fingers on the strings has more personality than a generic \"wall of guitars.\"",
+        "His credit reads \"reduced by,\" not \"produced by\" \u2014 the job is taking apart, not building up. He imposed Beatles-style song structure on early rap, turning spoken-word monologue into actual songs.",
+        "The ruthless edit: to land a work at 70%, first force it down to 40%, then add back only what's needed \u2014 you understand the work better after over-reducing. With bands he records 40\u201350 songs and votes down to the few \"you can't live without.\"",
+        "Constraints are a friend: invent a \"palette\" of rules unique to each project. For Johnny Cash it was voice plus guitar (fingers, no pick), with every song chosen only through the lens of the mythic \"man in black.\"",
+        "The \"lazy workaholic\": his natural demeanor is to do nothing, so he forces himself to show up \u2014 but he's addicted to the unpredictable \"moment of magic,\" and once it appears the whole job is protecting that fragile thing (like the golf \"yips,\" thinking about it kills it).",
+        "Show up like it's a job; inspiration only visits those already doing the work \u2014 Eminem records 9-to-5, and \"if you don't show up, it won't happen.\"",
+        "Be a \"professional listener\": listen to understand, not to reply, with no judgment and no comparing to your own views. Sustain success by staying grounded, knowing \"it's not from me,\" and treating each work as a diary entry of who you were in that moment \u2014 nothing to be self-critical about."
+      ],
+      "youtube": "https://www.youtube.com/watch?v=g6MEDOY7tHo",
+      "show": "Published episode synthesis",
+      "subject": "Rick Rubin",
+      "sourceBook": "Rick Rubin on Finding Your Life\u2019s Work"
+    }
+  ]
+},
   "paul-graham": {
     coverage: "partial",
     sources: [

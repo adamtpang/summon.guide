@@ -4,6 +4,7 @@
  * ELEVENLABS_VOICE_<SLUG_WITH_UNDERSCORES> in server environment settings.
  */
 export const VOICE_MAP: Record<string, string> = {
+  "rick-rubin": "JBFqnCBsd6RMkjVDRZzb", // Calm library casting, not Rubin's voice or a clone.
   "pendleton-ward": "ErXwobaYiN019PkySvjV", // Library casting, not Ward's voice or a clone.
   sage: "JBFqnCBsd6RMkjVDRZzb", // George: mature, calm storyteller
   "tobi-lutke": "N2lVS1w4EtoT3dr4eOWO",
