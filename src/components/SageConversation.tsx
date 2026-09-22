@@ -10,6 +10,7 @@ import type { SourceEpisode } from "@/lib/sourceCorpus";
 import Link from "next/link";
 // Call mode paused at Adam's request. Implementation retained in GuideCall.tsx.
 // import GuideCall from "@/components/GuideCall";
+import ListenButton from "@/components/ListenButton";
 import PromptBubbles from "@/components/PromptBubbles";
 import ChatComposer from "@/components/ChatComposer";
 import "../../public/design/sage-magic.css";
@@ -189,18 +190,19 @@ export default function SageConversation({ episodes }: { episodes: SourceEpisode
               <button disabled={busy} onClick={() => openConversation(item)}>{item.title}</button>
               <button disabled={busy} aria-label={`Delete conversation: ${item.title}`} onClick={() => { if (persist(saved.filter((entry) => entry.id !== item.id)) && conversationId === item.id) setConversationId(null); }}><Trash2 size={14} /></button>
             </div>)}</details>}
-            <details className={styles.about}><summary>About Sage</summary><p>Independent AI guide grounded in {episodes.length} public-source syntheses. Teaches in the style of the Founders podcast, but is not David Senra and is unaffiliated with him and with Founders Notes. Text only. Saved chats stay on this device.</p>{route && <ModelRouteBadge route={route} />}</details>
+            <details className={styles.about}><summary>About Sage</summary><p>Independent AI guide grounded in {episodes.length} public-source syntheses. Teaches in the style of the Founders podcast, but is not David Senra and is unaffiliated with him and with Founders Notes. Synthetic narration is not a real person&apos;s voice. Saved chats stay on this device.</p>{route && <ModelRouteBadge route={route} />}</details>
           </div>
         </details>
       </div>
     </header>
+    {hasConversation && <div className="flex shrink-0 flex-col items-center gap-1 py-2" aria-label="Sage portrait"><span className="text-7xl" role="img" aria-label="Sage the wizard">🧙</span><span className="text-[11px] text-slate-400">AI guide · Synthetic voice</span></div>}
     <div ref={feed} className={styles.feed} onScroll={() => { const el = feed.current; if (el) nearBottom.current = el.scrollHeight - el.scrollTop - el.clientHeight < 100; }}>
       {!hasConversation ? <div className={styles.empty}>
         <span className="sage-wizard" role="img" aria-label="Sage the wizard">🧙</span>
         <h1>Sage</h1>
       </div> : <div className={styles.messages} aria-label="Conversation">
         {messages.map((message, i) => <article key={i} className={message.role === "user" ? styles.question : styles.answer} aria-label={message.role === "user" ? "You" : "Sage"}>
-          {message.role === "user" ? <p>{message.content}</p> : <><Answer text={message.content} episodes={episodes} /></>}
+          {message.role === "user" ? <p>{message.content}</p> : <><Answer text={message.content} episodes={episodes} /><ListenButton text={message.content} guide="sage" /></>}
         </article>)}
         {busy && <><article className={styles.question} aria-label="You"><p>{pending}</p></article><article className={styles.answer} aria-label="Sage is answering">{stream ? <Prose text={stream.replace(/\[Source:[^\]]*\]|\[FOLLOWUP:[^\]]*\]/g, "")} /> : <span role="status" aria-label="Thinking" className={styles.thinking}><i /><i /><i /></span>}</article></>}
       </div>}

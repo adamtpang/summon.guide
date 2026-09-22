@@ -100,7 +100,8 @@ export default function ChatPage({
   const [recordError, setRecordError] = useState<string | null>(null);
   const [audioError, setAudioError] = useState<string | null>(null);
   const audioRequestRef = useRef<AbortController | null>(null);
-  const voiceEnabledRef = useRef(false); // Replies play only when Listen is selected.
+  const voiceEnabledRef = useRef(true);
+  const [readAloud, setReadAloud] = useState(true);
   const [lastAudioUrl, setLastAudioUrl] = useState<string | null>(null);
   const [canReplay, setCanReplay] = useState(false);
   const [credits, setCredits] = useState<number | null>(null);
@@ -267,6 +268,7 @@ export default function ChatPage({
 
   const autoPlayTTS = useCallback(async (text: string) => {
     if (!voiceEnabledRef.current) return;
+    window.dispatchEvent(new Event("summon:stop-audio"));
     audioRequestRef.current?.abort();
     const controller = new AbortController();
     audioRequestRef.current = controller;
@@ -280,7 +282,7 @@ export default function ChatPage({
         body: JSON.stringify({ text, figureSlug }),
         signal: controller.signal,
       });
-      if (!res.ok) throw new Error("Voice is unavailable right now. Your answer is in the transcript; use Back to chat to read it.");
+      if (!res.ok) throw new Error("Voice is unavailable right now. You can still read the answer below.");
 
       const blob = await res.blob();
       if (controller.signal.aborted) return;
@@ -301,13 +303,13 @@ export default function ChatPage({
       setPreparingAudio(false);
       setIsSpeaking(true);
       audio.onended = () => { setIsSpeaking(false); setCanReplay(true); };
-      audio.onerror = () => { setIsSpeaking(false); setAudioError("Audio could not play. Return to chat to read the answer."); setCanReplay(true); };
+      audio.onerror = () => { setIsSpeaking(false); setAudioError("Audio could not play. You can still read the answer below."); setCanReplay(true); };
       await audio.play();
     } catch (error) {
       if (controller.signal.aborted) return;
       setPreparingAudio(false);
       setIsSpeaking(false);
-      setAudioError(error instanceof Error && error.message.startsWith("Voice is") ? error.message : "Audio could not play. Return to chat and select Listen again.");
+      setAudioError(error instanceof Error && error.message.startsWith("Voice is") ? error.message : "Select Listen again to play the answer.");
       setCanReplay(true);
     }
   }, [figureSlug, lastAudioUrl]);
@@ -341,6 +343,11 @@ export default function ChatPage({
     setIsSpeaking(false);
     setCanReplay(!!lastAudioUrl);
   }, [lastAudioUrl]);
+
+  useEffect(() => {
+    window.addEventListener("summon:stop-audio", stopSpeaking);
+    return () => window.removeEventListener("summon:stop-audio", stopSpeaking);
+  }, [stopSpeaking]);
 
   if (!figure) {
     return (
@@ -502,7 +509,11 @@ export default function ChatPage({
     }
   };
 
-  const openCall = () => { voiceEnabledRef.current = true; setCallMode(true); };
+  const toggleReadAloud = () => {
+    const enabled = !readAloud;
+    voiceEnabledRef.current = enabled; setReadAloud(enabled);
+    if (!enabled) stopSpeaking();
+  };
   const closeCall = () => {
     voiceEnabledRef.current = false;
     stopSpeaking();
@@ -540,10 +551,8 @@ export default function ChatPage({
               <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
           </Link>
-          <button type="button" onClick={openCall} aria-label={`Call ${figure.name}`} className="w-11 h-11 rounded-full bg-white/75 backdrop-blur-sm border border-warm-200 flex items-center justify-center text-warm-500 hover:text-ink-950 hover:bg-white transition-colors">
-            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
-              <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
-            </svg>
+          <button type="button" onClick={toggleReadAloud} aria-label="Read replies aloud" aria-pressed={readAloud} title={readAloud ? "Mute AI voice" : "Read replies aloud"} className="flex size-11 items-center justify-center rounded-full border border-white/15 bg-white/5 text-sm">
+            <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z" />{readAloud ? <path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" /> : <path d="m16 9 5 6m0-6-5 6" />}</svg>
           </button>
         </div>
 
@@ -586,6 +595,12 @@ export default function ChatPage({
         </AnimatePresence>
       </div>
 
+      {hasMessages && <section aria-label={`${figure.name} portrait`} className="z-10 flex shrink-0 flex-col items-center gap-2 py-2 sm:py-3">
+        <div className={`relative size-24 overflow-hidden rounded-full border sm:size-32 ${isSpeaking ? "border-blue-300 shadow-[0_0_40px_-8px_#79b8ff]" : "border-white/15"}`}>
+          <GuidePortrait src={figure.portrait} name={figure.name} sizes="128px" priority />
+        </div>
+        <p className="text-[11px] text-slate-400">{isSpeaking ? "Speaking · AI voice" : "AI guide · Synthetic voice"}</p>
+      </section>}
       {/* Middle content area */}
       <div className="relative z-10 flex-1 flex flex-col min-h-0">
         {!hasMessages ? (
@@ -599,6 +614,7 @@ export default function ChatPage({
 
             <GuidePortraitLines slug={figure.slug} name={figure.name} portrait={figure.portrait} />
             <h1 className="text-2xl font-medium tracking-tight">{figure.name}</h1>
+            <p className="mt-2 text-[11px] text-slate-400">AI guide · Synthetic voice</p>
             <span className="mt-2 max-w-xs text-center text-xs leading-relaxed text-warm-500">{guideDisclosure(figure.slug, figure.name)}</span>
 
           </div>

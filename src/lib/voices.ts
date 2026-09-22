@@ -5,18 +5,19 @@
  */
 export const VOICE_MAP: Record<string, string> = {
   "rick-rubin": "JBFqnCBsd6RMkjVDRZzb", // Calm library casting, not Rubin's voice or a clone.
-  "pendleton-ward": "ErXwobaYiN019PkySvjV", // Library casting, not Ward's voice or a clone.
+  "pendleton-ward": "bIHbv24MWmeRgasZH58o", // Library narrator, not the person's voice.
+  "rose-blumkin": "wGcFBfKz5yUQqhqr0mVy", // Library narrator, not her voice.
   sage: "JBFqnCBsd6RMkjVDRZzb", // George: mature, calm storyteller
   "tobi-lutke": "N2lVS1w4EtoT3dr4eOWO",
   "todd-graves": "TX3LPaxmHKxFdv7VOQHJ",
   "john-mackey": "onwK4e9ZLuTAKqWW03F9",
-  "jimmy-iovine": "ErXwobaYiN019PkySvjV",
+  "jimmy-iovine": "IKne3meq5aSn9XLyUdCD", // Library narrator, not the person's voice.
   "daniel-ek": "N2lVS1w4EtoT3dr4eOWO",
   "evan-spiegel": "TX3LPaxmHKxFdv7VOQHJ",
   "james-dyson": "JBFqnCBsd6RMkjVDRZzb",
   "brian-armstrong": "pNInz6obpgDQGcFmaJgB",
-  "steve-jobs": "ErXwobaYiN019PkySvjV",
-  "jeff-bezos": "VR6AewLTigWG4xSOukaG",
+  "steve-jobs": "cjVigY5qzO86Huf0OWal", // Library narrator, not the person's voice.
+  "jeff-bezos": "nPczCjzI2devNBz1zQrb", // Library narrator, not the person's voice.
   "sam-walton": "onwK4e9ZLuTAKqWW03F9",
   "naval-ravikant": "pNInz6obpgDQGcFmaJgB",
   "ray-dalio": "pqHfZKP75CvOlQylNhV4",
@@ -24,7 +25,7 @@ export const VOICE_MAP: Record<string, string> = {
   hesse: "N2lVS1w4EtoT3dr4eOWO", // Callum: warm, measured, European
   "nassim-taleb": "pqHfZKP75CvOlQylNhV4", // Bill: measured, grave, aphoristic
   "peter-thiel": "pNInz6obpgDQGcFmaJgB", // Adam: calm, deliberate, contrarian
-  "jensen-huang": "VR6AewLTigWG4xSOukaG", // Arnold: commanding, energetic keynote presence
+  "jensen-huang": "pNInz6obpgDQGcFmaJgB", // Library narrator, not the person's voice.
   pressfield: "onwK4e9ZLuTAKqWW03F9", // Daniel: direct, weathered, plain
   vervaeke: "pNInz6obpgDQGcFmaJgB", // Adam: calm, measured, academic
   rockefeller: "WSrIoSc2Nj9NSrYw5anZ", // Designed voice (ElevenLabs Voice Design), not a clone: old Gilded Age industrialist, dry, exacting
@@ -36,23 +37,23 @@ export const VOICE_MAP: Record<string, string> = {
   deutsch: "pNInz6obpgDQGcFmaJgB", // Adam: calm, British, academic
   "lee-kuan-yew": "7DHxEfwQzXWuiEldRcxx", // Tristan, ElevenLabs library voice with a Singaporean accent; not his voice or a clone
   "marcus-aurelius": "gRoKC2L6mkmLlD5lv0Bu", // Designed voice, not a clone: quiet, contemplative emperor
-  "marc-andreessen": "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative
-  "adam-neumann": "VR6AewLTigWG4xSOukaG", // Arnold: charismatic, expansive
+  "marc-andreessen": "D9Thk1W7FRMgiOhy3zVI", // Library narrator, not the person's voice.
+  "adam-neumann": "UaYTS0wayjmO9KD1LR4R", // Library narrator, not the person's voice.
   seneca: "QRcfvWiOOkYDxISpupJA", // Designed voice, not a clone: grave, intimate Roman letter writer
   "ricky-gervais": "JBFqnCBsd6RMkjVDRZzb", // George: warm, mature British delivery
   "marie-curie": "XrExE9yKIg1WjnnlVkGX", // Matilda: warm, measured, mature female
   "bob-marley": "onwK4e9ZLuTAKqWW03F9", // placeholder warm male
-  senra: "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative, no accent documented
+  "senra": "mUfWEBhcigm8YlCDbmGP", // Library narrator, not the person's voice.
   sivers: "onwK4e9ZLuTAKqWW03F9", // Daniel: calm, plain American, unhurried, matter of fact
   visakan: "TX3LPaxmHKxFdv7VOQHJ", // Liam: direct, associative, slightly halting, no accent documented
   "james-clear": "onwK4e9ZLuTAKqWW03F9", // Daniel: calm, plain, matter of fact
   "cal-newport": "pNInz6obpgDQGcFmaJgB", // Adam: calm, measured, academic
-  "tim-ferriss": "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative
-  "annie-duke": "21m00Tcm4TlvDq8ikWAM", // Rachel: calm, precise, professional female
+  "tim-ferriss": "iP95p4xoKVk53GoZ742B", // Library narrator, not the person's voice.
+  "annie-duke": "Xb7hH8MSUJpSbSDYk0k2", // Library narrator, not the person's voice.
   "carol-dweck": "EXAVITQu4vr4xnSDxMaL", // Bella: warm, professional female
   "paul-millerd": "N2lVS1w4EtoT3dr4eOWO", // Callum: warm, reflective, measured
   "napoleon-hill": "pqHfZKP75CvOlQylNhV4", // Bill: measured, grave, period gravitas
-  "brad-jacobs": "ErXwobaYiN019PkySvjV", // Antoni: direct, energetic, declarative, reused from marc-andreessen/tim-ferriss/senra
+  "brad-jacobs": "gs0tAILXbY5DNrJrsM6F", // Library narrator, not the person's voice.
   "paul-graham": "pNInz6obpgDQGcFmaJgB", // Adam: calm, measured, analytical; library voice, not a clone
 };
 
