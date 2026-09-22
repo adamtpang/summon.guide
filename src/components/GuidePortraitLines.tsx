@@ -37,7 +37,7 @@ export default function GuidePortraitLines({ slug, name, portrait }: { slug: str
     </span>
   );
 
-  const credit = ["rick-rubin", "pendleton-ward", "rose-blumkin"].includes(slug) ? <a href={`/credits#${slug}`} className="mt-2 text-[10px] text-slate-400 underline-offset-4 hover:underline">{slug === "rose-blumkin" ? "AI illustration" : "Photo credit"}</a> : null;
+  const credit = ["rick-rubin", "pendleton-ward", "rose-blumkin", "gottmans"].includes(slug) ? <a href={`/credits#${slug}`} className="mt-2 text-[10px] text-slate-400 underline-offset-4 hover:underline">{slug === "rose-blumkin" ? "AI illustration" : "Photo credit"}</a> : null;
   if (!lines.length) return <div className="mb-6 flex shrink-0 flex-col items-center">{face}{credit}</div>;
 
   return (

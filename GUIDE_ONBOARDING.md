@@ -51,7 +51,7 @@ Identify the canonical text(s) and add them to `src/lib/books.ts` with `status: 
 
 In order (mirror an existing active guide as the template — Lee Kuan Yew and Marcus Aurelius are good models):
 
-1. Portrait — local `public/portraits/<slug>.jpg`, or a Wikimedia Commons URL (now allowed via `next.config.ts` `images.remotePatterns`).
+1. Portrait — a verified, committed local image; complete the required portrait launch gate below.
 2. `src/lib/figures.ts` — active entry: slug, name, era, hook, portrait, gradient, color, signatureQuote, location, introLine, domains, knownFor, accomplishments, stats, and a `systemPrompt` with a `KNOWLEDGE BASE` of `SOURCE:` / `TOPIC:` blocks anchored to real chapters.
 3. `src/lib/profiles.ts` — full Wikipedia-style infobox + early-life / career / legacy prose.
 4. `src/lib/books.ts` — the canonical book(s).
@@ -97,3 +97,14 @@ Not "dead vs. alive." The line is **grounded vs. ungrounded**. A dead figure wit
 - **Tier 1 (lead with these):** dead, public-domain, timeless — Marcus Aurelius, Franklin, Rockefeller, Alexander, Lincoln, Sun Tzu, Marcus's Stoic neighbors. Lowest risk, highest staying power.
 - **Tier 2 (high value, careful framing):** living, self-documented — Elon (*Book of Elon*), Naval (*Almanack*), Bezos (*Invent and Wander*), Jensen Huang (*The Nvidia Way*). Frame as documented frameworks.
 - **Tier 3 (decline for now):** notable but no credible source, or living and largely unwritten. These return `not_found` and go on the request list.
+
+## Required portrait launch gate
+
+Every person and duo chat must have a committed local photo or clearly labeled, recognizable portrait illustration before launch. Initials, generic silhouettes and gradients are failure fallbacks, not completed portraits. Sage intentionally retains its wizard identity. Duo guides must show both members in one photo or registered composite; use `src/lib/guidePortraitAssets.ts` so chat and the audit agree.
+
+- Record source, author, license and any generated-illustration disclosure. Add required attribution to `/credits`.
+- Set `portrait`, inspect the actual identity and crop, and ensure all duo members remain visible.
+- Use `GuidePortrait` in chat; keep the portrait visible while messages scroll.
+- Verify initial chat, an active conversation, and narrow-screen layout. Check original and optimized asset URLs after deployment.
+- Run `npm run guides:check-images`. The production build runs this automatically and fails for missing, undecodable, undersized, remote or placeholder-only assets. Automated checks cannot establish likeness or licensing; those require the visual/source review above.
+- Pending guides without approved portraits stay in onboarding. Commit the asset with its guide registration.

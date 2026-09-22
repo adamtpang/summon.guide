@@ -16,7 +16,7 @@ const receipts = [
   "One page of principles, decision questions, contradictions, limits, and citations. Every principle must trace to the source map.",
   "At least one runnable workflow with inputs, steps, an example, expected output, and a stopping rule. No invented methods attributed to the person.",
   "Recorded checks for useful advice, correct citations, out-of-scope questions, false premises, impersonation, and unsupported claims. A build passing is not an answer-quality evaluation.",
-  "An enabled profile and chat with auth, tested fallback/error handling, and a launch receipt. Voice additionally needs microphone, interruption, latency, and real audio checks.",
+  "An enabled profile and chat with auth, a verified local portrait (both people for duos), source/license credits, a passing image build check, tested fallback/error handling, and a launch receipt. Voice additionally needs microphone, interruption, latency, and real audio checks.",
 ];
 
 export default function GuideOnboardingPage() {
@@ -54,6 +54,7 @@ export default function GuideOnboardingPage() {
         <h2 className="font-serif text-3xl">The process for every guide</h2>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-warm-500">Each gate produces a reviewable artifact. Missing evidence keeps that gate open; an impressive persona prompt cannot substitute for it.</p>
         <ol className="mt-8 grid gap-4 sm:grid-cols-2">{guideOnboardingChecklist.map((gate, index) => <li key={gate.title} className="rounded-xl border border-warm-200 bg-white p-6"><p className="text-xs text-warm-500">Step {index + 1}</p><h3 className="mt-2 font-serif text-2xl">{gate.title}</h3><p className="mt-3 text-sm leading-relaxed">{gate.description}</p><p className="mt-4 border-t border-warm-200 pt-4 text-sm leading-relaxed text-warm-500"><strong>Evidence to proceed:</strong> {receipts[index]}</p></li>)}</ol>
+        <p className="mt-6 text-sm text-warm-500">Portrait gate: every person or duo needs a verified local image, source and license, a reviewed chat crop, and a passing image build check before launch. Duo portraits must show both people.</p>
         <aside className="mt-8 rounded-xl bg-ink-950 p-6 text-warm-50"><h3 className="font-serif text-2xl">One person, several sources</h3><p className="mt-3 max-w-3xl text-sm leading-relaxed text-warm-300">Summon owns person guides and their assignments. Bookbox owns book ingestion, canonical book distillations, and book agents. A biography can ground a person guide, but its author’s interpretation stays distinct from the subject’s own words. The guide uses a disclosed synthetic voice unless a different voice is explicitly licensed.</p></aside>
       </section>
     </div>

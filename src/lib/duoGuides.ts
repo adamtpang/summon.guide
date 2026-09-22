@@ -28,7 +28,7 @@ export const duoFigures: Figure[] = [
     ],
     "location": "United States",
     "era": "Contemporary and historical duo",
-    "portrait": "/portraits/gottmans.svg",
+    "portrait": "/portraits/gottmans.jpg",
     "gradient": "from-blue-950 to-slate-950",
     "color": "#79b8ff",
     "signatureQuote": "",

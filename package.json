@@ -16,7 +16,7 @@
     "agents:generate": "node --experimental-strip-types scripts/gen-eve-guides.mjs",
     "agents:check": "node --experimental-strip-types scripts/gen-eve-guides.mjs --check",
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "npm run guides:check-images && prisma generate && next build",
     "start": "next start",
     "lint": "eslint",
     "book:extract": "node scripts/pdf-to-md.mjs",
@@ -48,7 +48,8 @@
     "handles:check": "node --experimental-strip-types scripts/gen-summon-handles.mjs --check",
     "corpus:founders:index": "node scripts/gen-knowledge-index.mjs",
     "corpus:founders:index:check": "node scripts/gen-knowledge-index.mjs --check",
-    "test:openrouter-fallback": "node --no-warnings --experimental-transform-types --env-file-if-exists=.env.local --import ./scripts/node-server-shim.mjs scripts/test-openrouter-fallback.mjs"
+    "test:openrouter-fallback": "node --no-warnings --experimental-transform-types --env-file-if-exists=.env.local --import ./scripts/node-server-shim.mjs scripts/test-openrouter-fallback.mjs",
+    "guides:check-images": "node --no-warnings --experimental-strip-types --import ./scripts/node-server-shim.mjs scripts/check-guide-portraits.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
