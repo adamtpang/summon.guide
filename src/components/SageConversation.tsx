@@ -1,4 +1,5 @@
 "use client";
+import { completePrompts } from "@/lib/guidePrompts";
 
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
@@ -207,7 +208,7 @@ export default function SageConversation({ episodes }: { episodes: SourceEpisode
     <footer className={styles.footer}>
       {error && <p role="alert" className={styles.notice}>{error}</p>}
       {notice && <p role="status" className={styles.notice}>{notice}</p>}
-      <PromptBubbles prompts={hasConversation ? nextPrompts : ["Here's what I'm building and where it's stuck", "How do I hire great people?", "When should I go all in?"]} disabled={busy} onSelect={question => void send(question)} />
+      <PromptBubbles prompts={completePrompts(hasConversation ? nextPrompts : [], ["What can past founders teach me about my next decision?", "How did great founders hire their first team?", "When did founders go all in, and when did they wait?"])} disabled={busy} onSelect={question => void send(question)} />
       <ChatComposer textareaRef={inputRef} value={input} onChange={setInput} placeholder="What are you building, and what's stuck?" voice={false} disabled={busy} onSend={() => void send()} onStop={() => { request.current?.abort(); setInput(pending); setNotice("Stopped."); }} onKeyDown={(event) => { if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) { event.preventDefault(); void send(); } }} />
       <span className={styles.footnote}>AI guide</span>
     </footer>

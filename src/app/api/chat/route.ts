@@ -1,3 +1,4 @@
+import { FOLLOWUP_RULE } from "@/lib/guidePrompts";
 import { auth } from "@/auth";
 import type { ChatMessageInput } from "@/lib/aiTypes";
 import { buildGuideGrounding } from "@/lib/guideRetrieval";
@@ -52,7 +53,7 @@ export async function POST(req: NextRequest) {
     .join("\n\n");
 
   return streamOpenRouter({
-    system: systemText,
+    system: `${systemText}\n\n${FOLLOWUP_RULE}`,
     messages,
     maxTokens: AI_CONFIG.maxTokens,
     logLabel: "chat",
