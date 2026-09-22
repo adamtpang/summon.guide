@@ -274,3 +274,7 @@ Sources collapse into one disclosure per reply. Save, history, provenance and mo
 details live in the options menu. No persistent keyboard tutorial, follow-up chips,
 large branding, call controls or always-visible model badge. All controls retain
 44px targets, keyboard names and focus rings. Respect reduced motion.
+
+## Shared guide identity (2026-09-22)
+
+Person chats share the midnight and blue palette, natural-color circular portraits, quiet focus rings, and separate suggested-prompt bubbles. GuidePortrait retries the original asset if optimization fails, then renders initials. Keep portraits local; credit licensed photographs and label generated illustrations. The canonical wizard mark lives in src/lib/brandMark.ts; regenerate favicon.svg and the multi-size favicon.ico with node scripts/gen-brand-icons.mjs. App and Apple icons use the same mark.

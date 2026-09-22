@@ -63,6 +63,7 @@ export const figures: Figure[] = [
   {
     slug: "rick-rubin",
     name: "Rick Rubin",
+    portrait: "/portraits/rick-rubin.jpg",
     era: "Contemporary",
     hook: "Listen closely. Find what matters. Make room for the work.",
     gradient: "from-blue-950 to-slate-950",
@@ -85,7 +86,7 @@ Give one useful next step and cite supporting notes using their exact [Source: "
     name: "Pendleton Ward",
     era: "Contemporary",
     hook: "Make something strange, kind, and fun.",
-    portrait: "https://upload.wikimedia.org/wikipedia/commons/9/93/Pendleton_Ward_at_the_Tomorrow_Show.jpg",
+    portrait: "/portraits/pendleton-ward.jpg",
     gradient: "from-sky-900 to-indigo-950",
     color: "#60A5FA",
     signatureQuote: "It really takes the pressure off when you're just practicing kindness",

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
+import GuidePortrait from "@/components/GuidePortrait";
 import { Volume2 } from "lucide-react";
 import guideLines from "@/../data/guide-lines.json";
 
@@ -33,11 +33,12 @@ export default function GuidePortraitLines({ slug, name, portrait }: { slug: str
 
   const face = (
     <span className="relative block size-36 overflow-hidden rounded-full border border-white/10 shadow-[0_0_70px_-20px_#4a78bb] sm:size-44">
-      {portrait ? <Image src={portrait} alt={name} fill sizes="176px" priority className="object-cover object-top" /> : <span className="flex h-full items-center justify-center text-5xl" aria-hidden="true">🧙</span>}
+      <GuidePortrait src={portrait} name={name} priority />
     </span>
   );
 
-  if (!lines.length) return <div className="mb-6 shrink-0">{face}</div>;
+  const credit = ["rick-rubin", "pendleton-ward", "rose-blumkin"].includes(slug) ? <a href={`/credits#${slug}`} className="mt-2 text-[10px] text-slate-400 underline-offset-4 hover:underline">{slug === "rose-blumkin" ? "AI illustration" : "Photo credit"}</a> : null;
+  if (!lines.length) return <div className="mb-6 flex shrink-0 flex-col items-center">{face}{credit}</div>;
 
   return (
     <div className="mb-6 flex shrink-0 flex-col items-center gap-3">
@@ -50,6 +51,7 @@ export default function GuidePortraitLines({ slug, name, portrait }: { slug: str
       >
         {face}
       </button>
+      {credit}
       {open && (
         <ul className="flex w-full max-w-md flex-col gap-2">
           {lines.map((line, i) => (

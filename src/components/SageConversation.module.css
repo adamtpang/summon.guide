@@ -3,7 +3,7 @@
 .callLayer{position:fixed;inset:0;z-index:40;background:#080808}.info{margin-top:24px;color:#999;font-size:12px;line-height:1.7}.info summary{cursor:pointer;min-height:44px}.info a{text-decoration:underline}
 
 /* Shared monochrome text chat; call UI is currently disabled. */
-.text{min-height:100dvh;display:flex;flex-direction:column}.text section{flex:1;display:flex;flex-direction:column}.text section>div[aria-label=Conversation]{flex:1}.text article{border:0!important}.text article:has(>p:first-child){padding:16px 4px}.person :global([class*="bg-white"]){background:#111}.person :global([class*="border-warm"]){border-color:#303030}.person :global([class*="text-gold"]){color:#ddd}.person :global(img){filter:grayscale(1)}
+.text{min-height:100dvh;display:flex;flex-direction:column}.text section{flex:1;display:flex;flex-direction:column}.text section>div[aria-label=Conversation]{flex:1}.text article{border:0!important}.text article:has(>p:first-child){padding:16px 4px}.person :global([class*="bg-white"]){background:#111}.person :global([class*="border-warm"]){border-color:#303030}.person :global([class*="text-gold"]){color:#ddd}
 
 .text :global([class*="bg-white"]){background:#111}.text textarea{color:#eee}
 
@@ -58,3 +58,11 @@
 .send{background:var(--sage-blue);color:#071326;box-shadow:0 0 22px #5da5ff22}.send:hover{background:#a0ceff}.send:disabled{background:#1c2b41;color:#7e91ab;box-shadow:none}
 .sources,.footnote{color:var(--sage-muted)}.source>a{color:var(--sage-blue)}
 .thinking i{background:var(--sage-blue);box-shadow:0 0 12px #79b8ff80}
+
+/* One shared midnight/blue palette for every conversation surface. */
+.shell{background:var(--summon-night,#060b16);color:var(--summon-light,#e4efff);--color-warm-100:#0d1729;--color-warm-200:#233756;--color-warm-500:#9baec9;--color-ink-950:#e4efff}
+.person :global([class*="bg-white"]),.text :global([class*="bg-white"]){background:var(--summon-surface,#0d1729)}
+.person :global([class*="border-warm"]){border-color:var(--summon-edge,#233756)}
+.person :global(button:focus-visible),.person :global(a:focus-visible),.text button:focus-visible{outline:2px solid var(--summon-blue,#79b8ff);outline-offset:4px}
+.person :global(.bg-ink-950){background:var(--summon-blue,#79b8ff);color:var(--summon-night,#060b16)!important}
+@media(prefers-reduced-motion:reduce){.shell *{scroll-behavior:auto;animation:none!important;transition:none!important}}

@@ -3,7 +3,7 @@
 import { guideDisclosure } from "@/components/AiPersonaNotice";
 import { useState, useRef, useEffect, use, useCallback } from "react";
 import { figures } from "@/lib/figures";
-import Image from "next/image";
+import GuidePortrait from "@/components/GuidePortrait";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSession, signIn } from "next-auth/react";
@@ -546,8 +546,8 @@ export default function ChatPage({
           </button>
         </div>
 
-        <Link href={`/${figureSlug}/about`} className="flex items-center gap-2 text-sm">{figure.portrait && <Image src={figure.portrait} alt="" width={32} height={32} className="size-8 rounded-full object-cover" />}{figure.name}</Link>
-        <span className="rounded-full border border-warm-200 bg-white/75 px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.14em] text-warm-500" title={`An AI simulation built from ${figure.name}'s public work, not their words`}>AI simulation</span>
+        <Link href={`/${figureSlug}/about`} className="flex items-center gap-2 text-sm"><span className="relative size-8 shrink-0 overflow-hidden rounded-full"><GuidePortrait src={figure.portrait} name={figure.name} sizes="32px" decorative /></span>{figure.name}</Link>
+        <span className="hidden rounded-full border border-warm-200 bg-white/75 px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.14em] text-warm-500 sm:inline-flex" title={`An AI simulation built from ${figure.name}'s public work, not their words`}>AI simulation</span>
         {preparingAudio && <span role="status">Preparing audio…</span>}
         {audioError && <p role="alert" className="text-xs">{audioError}</p>}
         <AnimatePresence mode="wait">
@@ -645,19 +645,7 @@ export default function ChatPage({
                 return (
                   <div key={i} className="flex items-start gap-3">
                     <div className="relative mt-5 size-8 shrink-0 overflow-hidden rounded-full border border-warm-200 bg-warm-100">
-                      {figure.portrait ? (
-                        <Image
-                          src={figure.portrait}
-                          alt=""
-                          fill
-                          sizes="32px"
-                          className="object-cover object-top"
-                        />
-                      ) : (
-                        <span className="flex h-full items-center justify-center font-serif text-[10px] text-warm-500">
-                          {figure.name.split(" ").map((name) => name[0]).join("").slice(0, 2)}
-                        </span>
-                      )}
+                      <GuidePortrait src={figure.portrait} name={figure.name} sizes="32px" decorative />
                     </div>
                     <div className="min-w-0 flex-1">
                       <p className="mb-1.5 text-[10px] tracking-[0.16em] text-warm-500 uppercase">

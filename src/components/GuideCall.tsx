@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
+import GuidePortrait from "@/components/GuidePortrait";
 import { ArrowLeft, AudioLines, Captions, Keyboard, Mic, MicOff, PhoneOff } from "lucide-react";
 import styles from "./GuideCall.module.css";
 import { recordVoiceTurn } from "@/lib/recordVoiceTurn";
@@ -154,7 +154,7 @@ export default function GuideCall({ name, portrait, loading, speaking, blocked, 
         <div className={styles.presence} data-state={speaking ? "speaking" : active && listening && !loading && !muted && !typing ? "listening" : "idle"}>
           <div className={styles.ring} /><div className={styles.ringInner} />
           <div className={styles.portrait}>
-            {portrait ? <Image src={portrait} alt={name} fill sizes="(max-width: 640px) 180px, 240px" className="object-cover object-top" priority /> : !minimal && <span>{name.split(" ").map(n => n[0]).slice(0, 2).join("")}</span>}
+            <GuidePortrait src={portrait} name={name} sizes="(max-width: 640px) 180px, 240px" priority />
           </div>
           <div className={styles.wave} aria-hidden="true">{[0, 1, 2, 3, 4].map(i => <i key={i} style={{ animationDelay: `${i * .13}s` }} />)}</div>
         </div>
