@@ -30,6 +30,86 @@ export interface FigureCoverage {
 }
 
 export const figureSources: Record<string, FigureCoverage> = {
+  "josh-kushner": {
+    coverage: "partial",
+    sources: [
+      {
+        file: "content/knowledge/josh-kushner/2021-02-05-oscar-s1-founders-letter.md",
+        title: "Letter from Joshua Kushner and Mario Schlosser, Oscar Health S-1, 2021-02-05",
+        show: "Josh Kushner primary sources",
+        subject: "Josh Kushner",
+        sourceBook: "Josh Kushner primary sources: Letter from Joshua Kushner and Mario Schlosser, Oscar Health S-1, 2021-02-05",
+        youtube: "https://www.sec.gov/Archives/edgar/data/1568651/000119312521030955/d28906ds1.htm",
+        principle: "Turn a bad personal experience with a system into a company that serves people like a person.",
+        keyLessons: [
+          "Situation: the co-founder letter in Oscar's IPO filing says both founders had eye-opening events in 2012, a leg injury for Kushner and the birth of a first child for Schlosser, and that these led to Oscar. The letter is co-signed, so it records a shared view, not Kushner alone.",
+          "What they did: they named the company for Kushner's great-grandfather, an immigrant who took the name Oscar at Ellis Island, to signal a real person and not a faceless insurer. Their model was the \"doctor in the family\": Schlosser's boyhood doctor in a small German town who visited patients at home and caught small problems early.",
+          "Argument: they said the problem was the fee-for-service system, not the caregivers, and that a consumer-tech approach could make complex health decisions simple. They chose to build a full-stack platform they control end to end, admitting it made a startup insurer harder, and later said the technology investment had begun to compound.",
+          "Transferable lesson: they framed insurers as the one player with the same incentives as the consumer, and answered the \"tech or health company\" question by saying they use \"the tools and mindset of a consumer technology company to solve problems in health care.\" The letter reports 529,000 members in 18 states at filing time; treat that as a 2021 figure, not current.",
+        ],
+      },
+      {
+        file: "content/knowledge/josh-kushner/2024-02-10-bloomberg-conversation-transcript.md",
+        title: "Conversation with Josh Kushner and Kareem Zaki (Bloomberg event), transcript published 2024-02-10",
+        show: "Josh Kushner primary sources",
+        subject: "Josh Kushner",
+        sourceBook: "Josh Kushner primary sources: Conversation with Josh Kushner and Kareem Zaki (Bloomberg event), transcript published 2024-02-10",
+        youtube: "https://aletteraday.substack.com/p/letter-154-josh-kushner-and-kareem",
+        principle: "Decide who you want the firm to be in ten years, then keep doing it as you scale.",
+        keyLessons: [
+          "Situation: this is a third-party transcript of an on-stage conversation at a Bloomberg event. The page labels it 2023 and was published 2024-02-10, but its references (an eighth fund of $3bn raised \"earlier this year\", Bob Iger joining the firm) point to late 2022, so the event date is unconfirmed.",
+          "What he argued: an early investor warned that firms lose their identity as they scale, so Kushner told him who he wanted to be in ten years and started there. The result was a firm that builds and invests at any stage, geography and sector, which he says was deeply controversial in 2011 when firms were labeled early or late, consumer or software.",
+          "Operating ideas: building things themselves helps the team appreciate how hard building is, and he says they run the same playbook with a $3bn fund as with the first $40mn fund. He describes a founder-first stance: no Twitter or blogging, because the founders are the heroes, and the best founders are the most self aware about what to improve.",
+          "Transferable lesson: he declined to speak for Oscar as a public company, said little on areas the firm had not studied (brain interfaces), and answered a personal question briefly before moving on. His college advice: it is the last time you can make friends when you do not have a resume. Kareem Zaki, not Kushner, supplied much of the time-horizon and healthcare discussion.",
+        ],
+      },
+      {
+        file: "content/knowledge/josh-kushner/2024-11-13-fortune-interview.md",
+        title: "Behind the curtain of Joshua Kushner's venture empire, Fortune, 2024-11-13",
+        show: "Josh Kushner primary sources",
+        subject: "Josh Kushner",
+        sourceBook: "Josh Kushner primary sources: Behind the curtain of Joshua Kushner's venture empire, Fortune, 2024-11-13",
+        youtube: "https://fortune.com/2024/11/13/joshua-kushner-venture-empire-most-powerful-people-openai-sam-altman/",
+        principle: "Own high-quality companies for decades, and separate technological progress from liquidity.",
+        keyLessons: [
+          "Situation: Fortune's editor-in-chief interviewed Kushner on stage at a Fortune event and published a write-up alongside a magazine cover story. It quotes him directly on a few points and notes he stayed guarded on questions outside investing.",
+          "On OpenAI: he said his view is \"you want to invest in Fifth Avenue,\" meaning high-quality companies you want to own for decades. The write-up reports he had full conviction OpenAI would be among the few winners.",
+          "On markets: asked about a slow exit market, he argued investors need to \"disconnect liquidity from progress in terms of technology,\" which separates whether a technology is advancing from whether the IPO window is open.",
+          "Transferable lesson: Fortune reports Kushner said every investor he met at the start turned Thrive down, and that Princeton's endowment ended up seeding it. Figures in this piece (a $2 billion Stripe investment, $150 million to OpenAI) differ from another profile's; see the warnings in research.md before repeating them.",
+        ],
+      },
+      {
+        file: "content/knowledge/josh-kushner/2025-10-01-colossus-the-new-world.md",
+        title: "The New World, Colossus (Jeremy Stern), October 2025",
+        show: "Josh Kushner primary sources",
+        subject: "Josh Kushner",
+        sourceBook: "Josh Kushner primary sources: The New World, Colossus (Jeremy Stern), October 2025",
+        youtube: "https://colossus.com/article/joshua-kushner-thrive-new-world/",
+        principle: "Learn everything you can, then trust intuition you cannot fully explain, and share the credit.",
+        keyLessons: [
+          "Situation: a long magazine profile in which Kushner gave what the author calls his longest interviews and the most access ever granted to Thrive. Only part of it is Kushner speaking; much is colleagues and partners, so their claims are reporting, not his words. Only the business and craft parts are used here. The month is known, the day is not.",
+          "Intuition: he told Rick Rubin his deepest insecurity is having intuitions about products (Instagram, Spotify, OpenAI) that he cannot explain, and that he often has to push forward on them alone after teaching his team all he can. Rubin's advice was to be yourself; Kushner said he has \"learned not to care too much about what the world thinks.\"",
+          "Conviction at size: for Stripe in early 2023 the article reports Thrive committed about $1.8 billion in a roughly $7 billion round while many investors were fixated on that year's numbers. A partner said short-term models are hard to get right while the 2030 picture is easier to agree on. For OpenAI in 2022 it reports he argued that if the company can create this much enterprise value, the other red flags are solvable.",
+          "Team: he credits the team and declines individual credit; the article describes decisions as team decisions and hiring as a long courtship. Kushner said everyone at Thrive is driven because most are first generation or from New Jersey.",
+        ],
+      },
+      {
+        file: "content/knowledge/josh-kushner/2026-08-14-techcrunch-first-investor-letter.md",
+        title: "Thrive's Joshua Kushner chides Silicon Valley VCs over AI euphoria, TechCrunch, 2026-08-14",
+        show: "Josh Kushner primary sources",
+        subject: "Josh Kushner",
+        sourceBook: "Josh Kushner primary sources: Thrive's Joshua Kushner chides Silicon Valley VCs over AI euphoria, TechCrunch, 2026-08-14",
+        youtube: "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
+        principle: "Stay independent of fear and excitement; concentrate on people and ideas, and hold price discipline.",
+        keyLessons: [
+          "Situation: TechCrunch reports on Thrive Capital's first formal investor letter, which it says leaked, and quotes it. This note relies only on the excerpts TechCrunch printed; the full letter was not opened (Bloomberg's copy returned an access error).",
+          "What he argued: he wrote that an investment firm can be opportunistic across stage, sector and geography while staying deeply concentrated in a small number of people and ideas, and that Thrive is independent because \"markets move between fear and enthusiasm, and neither is a substitute for judgment.\"",
+          "On AI: he described the opportunity as hard to overstate but warned it would be a grave error to let excitement weaken investment discipline, and that Silicon Valley can fixate on incremental technical turns. He also wrote that not every fast-growing business is exceptional, and not every exceptional company is a good investment at every price.",
+          "Transferable lesson: many industries will be transformed from the inside out, not only disrupted from outside, which is the stated logic of Thrive Holdings. Performance numbers cited by the article are self-reported letter figures and are not independently checked; see the warnings in research.md.",
+        ],
+      },
+    ],
+  },
   "bill-wilson": {
     coverage: "partial",
     sources: [

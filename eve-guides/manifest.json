@@ -428,6 +428,16 @@
     ]
   },
   {
+    "id": "person:josh-kushner",
+    "name": "Josh Kushner",
+    "availability": "ready",
+    "directory": "person-josh-kushner",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
     "id": "person:lee-kuan-yew",
     "name": "Lee Kuan Yew",
     "availability": "ready",
