@@ -2,6 +2,12 @@
   "snapshot": "generated from summon.guide public registries; update by reinstalling",
   "guides": [
     {
+      "slug": "abraham-lincoln",
+      "name": "Abraham Lincoln",
+      "kind": "person",
+      "availability": "ready"
+    },
+    {
       "slug": "adam-neumann",
       "name": "Adam Neumann",
       "kind": "person",
@@ -38,6 +44,12 @@
       "availability": "ready"
     },
     {
+      "slug": "bill-wilson",
+      "name": "Bill Wilson",
+      "kind": "person",
+      "availability": "ready"
+    },
+    {
       "slug": "bob-marley",
       "name": "Bob Marley",
       "kind": "person",
@@ -52,6 +64,18 @@
     {
       "slug": "brian-armstrong",
       "name": "Brian Armstrong",
+      "kind": "person",
+      "availability": "ready"
+    },
+    {
+      "slug": "buffettmunger",
+      "name": "Buffett & Munger",
+      "kind": "person",
+      "availability": "ready"
+    },
+    {
+      "slug": "cs-lewis",
+      "name": "C.S. Lewis",
       "kind": "person",
       "availability": "ready"
     },
@@ -272,6 +296,12 @@
       "availability": "ready"
     },
     {
+      "slug": "rick-rubin",
+      "name": "Rick Rubin",
+      "kind": "person",
+      "availability": "ready"
+    },
+    {
       "slug": "ricky-gervais",
       "name": "Ricky Gervais",
       "kind": "person",
@@ -292,6 +322,12 @@
     {
       "slug": "pressfield",
       "name": "Steven Pressfield",
+      "kind": "person",
+      "availability": "ready"
+    },
+    {
+      "slug": "gottmans",
+      "name": "The Gottmans",
       "kind": "person",
       "availability": "ready"
     },

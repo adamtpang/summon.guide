@@ -1,7 +1,15 @@
 {
   "generated": "scripts/gen-summon-handles.mjs",
-  "count": 114,
+  "count": 120,
   "handles": [
+    {
+      "slug": "abraham-lincoln",
+      "kind": "person",
+      "name": "Abraham Lincoln",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
     {
       "slug": "adam-neumann",
       "kind": "person",
@@ -43,6 +51,14 @@
       "tool": "chat_with_guide"
     },
     {
+      "slug": "bill-wilson",
+      "kind": "person",
+      "name": "Bill Wilson",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
       "slug": "bob-marley",
       "kind": "person",
       "name": "Bob Marley",
@@ -67,6 +83,14 @@
       "tool": "chat_with_guide"
     },
     {
+      "slug": "buffettmunger",
+      "kind": "person",
+      "name": "Buffett & Munger",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
       "slug": "cal-newport",
       "kind": "person",
       "name": "Cal Newport",
@@ -86,6 +110,14 @@
       "slug": "charlie-munger",
       "kind": "person",
       "name": "Charlie Munger",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "cs-lewis",
+      "kind": "person",
+      "name": "C.S. Lewis",
       "availability": "ready",
       "runtime": "figure",
       "tool": "chat_with_guide"
@@ -134,6 +166,14 @@
       "slug": "franklin",
       "kind": "person",
       "name": "Benjamin Franklin",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "gottmans",
+      "kind": "person",
+      "name": "The Gottmans",
       "availability": "ready",
       "runtime": "figure",
       "tool": "chat_with_guide"
@@ -326,6 +366,14 @@
       "slug": "ray-dalio",
       "kind": "person",
       "name": "Ray Dalio",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "rick-rubin",
+      "kind": "person",
+      "name": "Rick Rubin",
       "availability": "ready",
       "runtime": "figure",
       "tool": "chat_with_guide"

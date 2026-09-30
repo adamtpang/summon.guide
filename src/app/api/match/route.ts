@@ -1,4 +1,5 @@
 import { figures } from "@/lib/figures";
+import { CRISIS_RESPONSE, isCrisisMessage } from "@/lib/crisis";
 import { extractJsonObject } from "@/lib/jsonExtract";
 import { completeOpenRouter } from "@/lib/openrouter";
 import { skills, skillCatalogForRouting } from "@/lib/skills";
@@ -20,6 +21,9 @@ import { NextRequest } from "next/server";
 // Response shapes (the `skill` field is additive; older callers ignore it):
 //   { type: "matched",   slug, reason, skill?: { figureSlug, slug, command, title, why } }
 //   { type: "not_found", person, suggestedSlug, reason }
+//   { type: "no_fit", topic, reason }      no guide has lived this problem yet
+//   { type: "crisis", message, links }      danger signal, checked before any model call
+//   { type: "unavailable" } (503)           routing failed; never a silent default guide
 
 export async function POST(req: NextRequest) {
   const { message } = await req.json();
@@ -38,6 +42,10 @@ export async function POST(req: NextRequest) {
   const skillCatalog = skillCatalogForRouting();
   const routingMessage = message.slice(0, 12_000);
 
+  if (isCrisisMessage(routingMessage)) {
+    return Response.json(CRISIS_RESPONSE);
+  }
+
   const systemPrompt = `You are the routing intelligence for summon.guide. The user wants mentorship. Decide how to route them.
 
 Guides currently on the platform:
@@ -53,7 +61,9 @@ STEP 2, Resolve:
 - If "named": normalize to the person's canonical full name. Check if that person is a guide above (match on who they ARE, not exact string, "Elon" = the elon slug).
   - If they ARE on the platform → route to them.
   - If they are NOT → return not_found with their canonical name and a suggested kebab-case slug (e.g. "Steve Jobs" → "steve-jobs").
-- If "problem": pick the single guide above whose work most directly addresses the user's highest-priority bottleneck. Use goals, priorities, and constraints to break ties. Do not simply choose the most famous guide.
+- If "problem": pick the single guide above whose own documented life or work most directly addresses the user's highest-priority bottleneck. Use goals, priorities, and constraints to break ties. Do not simply choose the most famous guide.
+  - Be strict. A guide fits only if they personally faced this kind of problem or their documented work is directly about it. A founder is not a fit for grief, illness, marriage, addiction, depression, parenting, or loneliness just because they showed resilience in business.
+  - If no guide genuinely fits, return no_fit with a short plain topic (for example "grief after losing a parent"). An honest no_fit is better than a forced match.
 
 STEP 3, Pick the playbook (only for "matched" responses):
 From the skill library below, choose the ONE skill that most directly attacks the user's stated problem. Match on the problem, not on the guide: it is fine, and often better, to return a skill belonging to a different guide than the one you matched. If nothing in the library genuinely fits, omit the skill rather than forcing one.
@@ -64,6 +74,7 @@ ${skillCatalog}
 Respond with ONLY valid JSON, one of:
 {"type":"matched","slug":"<slug from the guide list>","reason":"<one compelling sentence, under 120 chars, referencing what this guide actually did that fits the user's need>","command":"<the /plugin:skill command from the library, or omit>","why":"<under 90 chars: what this playbook will do for them, or omit>"}
 {"type":"not_found","person":"<canonical full name>","suggestedSlug":"<kebab-case-slug>","reason":"<one sentence: who they are and that they aren't summoned yet, under 140 chars>"}
+{"type":"no_fit","topic":"<the problem in 3 to 8 plain words>","reason":"<one kind sentence, under 140 chars, saying no guide here has lived this yet>"}
 
 Rules:
 - Never invent a slug that is not in the list for a "matched" response.
@@ -85,6 +96,14 @@ Rules:
     // with prose. Extract the first {...} block before parsing so a slightly
     // chatty response doesn't bail us to the fallback.
     const parsed = JSON.parse(extractJsonObject(text));
+
+    if (parsed.type === "no_fit") {
+      return Response.json({
+        type: "no_fit",
+        topic: String(parsed.topic || "").slice(0, 80),
+        reason: String(parsed.reason || "No guide here has lived this problem yet."),
+      });
+    }
 
     if (parsed.type === "not_found" && parsed.person) {
       return Response.json({
@@ -156,10 +175,8 @@ Rules:
     // Capture the actual failure so we can fix it instead of silently
     // falling back forever.
     console.error("[match] fell to fallback:", e instanceof Error ? e.message : e);
-    return Response.json({
-      type: "matched",
-      slug: figures[0].slug,
-      reason: "Let's start with a conversation.",
-    });
+    // Never hand someone a default guide that has nothing to do with their
+    // problem. Say plainly that matching failed so they can retry.
+    return Response.json({ type: "unavailable", error: "Could not find a guide right now. Try again." }, { status: 503 });
   }
 }

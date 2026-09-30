@@ -4,6 +4,9 @@
  * ELEVENLABS_VOICE_<SLUG_WITH_UNDERSCORES> in server environment settings.
  */
 export const VOICE_MAP: Record<string, string> = {
+  "bill-wilson": "onwK4e9ZLuTAKqWW03F9", // Library casting: calm, plain older male. Not Wilson's voice or a clone.
+  "abraham-lincoln": "pqHfZKP75CvOlQylNhV4", // Library casting: measured, grave older male. Not Lincoln's voice or a clone.
+  "cs-lewis": "JBFqnCBsd6RMkjVDRZzb", // Library casting: warm older British male. Not Lewis's voice or a clone.
   gottmans: "XrExE9yKIg1WjnnlVkGX", // One synthetic narrator; not either person.
   buffettmunger: "pqHfZKP75CvOlQylNhV4", // One synthetic narrator; not either person.
   "rick-rubin": "JBFqnCBsd6RMkjVDRZzb", // Calm library casting, not Rubin's voice or a clone.

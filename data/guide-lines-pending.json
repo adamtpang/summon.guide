@@ -1,0 +1,73 @@
+{
+  "note": "Verified portrait lines awaiting ElevenLabs credits. Move into guide-lines.json and render clips once quota allows.",
+  "lines": {
+    "cs-lewis": [
+      {
+        "text": "With my mother's death all settled happiness, all that was tranquil and reliable, disappeared from my life.",
+        "source": "Surprised by Joy, chapter 1 (1955)",
+        "url": "https://gutenberg.ca/ebooks/lewiscs-surprisedbyjoy/lewiscs-surprisedbyjoy-01-e.html"
+      },
+      {
+        "text": "Suddenly, at the very moment when, so far, I mourned Helen least, I remembered her best.",
+        "source": "A Grief Observed (1961)",
+        "url": "https://www.pbs.org/wgbh/questionofgod/transcript/grief.html"
+      },
+      {
+        "text": "Lazarus was raised from the dead to die again.",
+        "source": "Letter to Sheldon Vanauken, 16 April 1960",
+        "url": "https://ponderingprinciples.com/2015/01/24/c-s-lewis-on-the-death-of-his-wife/"
+      }
+    ],
+    "abraham-lincoln": [
+      {
+        "text": "Perfect relief is not possible, except with time.",
+        "source": "Letter to Fanny McCullough, 23 December 1862",
+        "url": "https://housedivided.dickinson.edu/sites/lincoln/letter-to-fanny-mccullough-december-23-1862/"
+      },
+      {
+        "text": "You are sure to be happy again.",
+        "source": "Letter to Fanny McCullough, 23 December 1862",
+        "url": "https://housedivided.dickinson.edu/sites/lincoln/letter-to-fanny-mccullough-december-23-1862/"
+      },
+      {
+        "text": "In this sad world of ours, sorrow comes to all.",
+        "source": "Letter to Fanny McCullough, 23 December 1862",
+        "url": "https://housedivided.dickinson.edu/sites/lincoln/letter-to-fanny-mccullough-december-23-1862/"
+      }
+    ],
+    "bill-wilson": [
+      {
+        "text": "Simple, but not easy; a price had to be paid.",
+        "source": "Bill W., Bill's Story, Alcoholics Anonymous (first edition), 1939",
+        "url": "https://jeopardaa.com/big-book/bills-story"
+      },
+      {
+        "text": "We claim spiritual progress rather than spiritual perfection.",
+        "source": "Bill W. and the fellowship, How It Works, Alcoholics Anonymous (first edition), 1939",
+        "url": "https://jeopardaa.com/big-book/how-it-works"
+      },
+      {
+        "text": "Don't start out as an evangelist or reformer.",
+        "source": "Bill W. and the fellowship, Working With Others, Alcoholics Anonymous (first edition), 1939",
+        "url": "https://jeopardaa.com/big-book/working-with-others"
+      }
+    ],
+    "gottmans": [
+      {
+        "text": "It was possible to predict marital outcome over a 6-year period using just the first 3 minutes of data",
+        "source": "Carrere and Gottman, Family Process, 1999 (abstract)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10526767/"
+      },
+      {
+        "text": "This article examines 14-year longitudinal data and attempts to create a post hoc model",
+        "source": "Gottman and Levenson, Family Process, 2002 (abstract)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11924092/"
+      },
+      {
+        "text": "this research was strictly observational and therefore correlational, so further research is necessary to determine direction of causation",
+        "source": "Driver and Gottman, Family Process, 2004 (abstract)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15386956/"
+      }
+    ]
+  }
+}
