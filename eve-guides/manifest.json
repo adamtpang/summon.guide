@@ -559,6 +559,16 @@
     "skillSlugs": []
   },
   {
+    "id": "person:naoufal-fillali",
+    "name": "Naoufal Fillali",
+    "availability": "ready",
+    "directory": "person-naoufal-fillali",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
     "id": "person:napoleon-hill",
     "name": "Napoleon Hill",
     "availability": "ready",

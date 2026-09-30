@@ -1,6 +1,6 @@
 {
   "generated": "scripts/gen-summon-handles.mjs",
-  "count": 124,
+  "count": 125,
   "handles": [
     {
       "slug": "abraham-lincoln",
@@ -318,6 +318,14 @@
       "slug": "marie-curie",
       "kind": "person",
       "name": "Marie Curie",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "naoufal-fillali",
+      "kind": "person",
+      "name": "Naoufal Fillali",
       "availability": "ready",
       "runtime": "figure",
       "tool": "chat_with_guide"

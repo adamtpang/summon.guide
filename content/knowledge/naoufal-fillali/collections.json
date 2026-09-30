@@ -1,0 +1,31 @@
+{
+  "figureSlug": "naoufal-fillali",
+  "collections": [
+    {
+      "id": "naoufal-fillali-youtube-2026-09-30",
+      "kind": "youtube-videos-snapshot",
+      "sourceUrl": "https://www.youtube.com/@NaoufalFillali/videos",
+      "localPrivatePath": "content/knowledge/naoufal-fillali/_raw/youtube-2026-09-30",
+      "transcripts": 23,
+      "words": 48614,
+      "discoveredVideos": 23,
+      "remainingGaps": [
+        "Captions are YouTube English captions, not checked against audio",
+        "Scope is public /videos uploads only; shorts, streams and the paid website library are excluded"
+      ],
+      "accuracy": "not-independently-verified",
+      "publication": "raw-private-only",
+      "synthesisFiles": [
+        "001-keep-the-day-job.md",
+        "002-borrowed-desires.md",
+        "003-read-old-books.md",
+        "004-avoid-ruin-seek-stress.md",
+        "005-collect-lucky-breaks.md",
+        "006-talk-to-strangers.md",
+        "007-combine-your-skills.md",
+        "008-leading-real-people.md"
+      ],
+      "runtime": "Original syntheses only, through figureSources. Raw transcripts are never read at runtime."
+    }
+  ]
+}
