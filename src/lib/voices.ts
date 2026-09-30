@@ -4,6 +4,9 @@
  * ELEVENLABS_VOICE_<SLUG_WITH_UNDERSCORES> in server environment settings.
  */
 export const VOICE_MAP: Record<string, string> = {
+  "maria-montessori": "XrExE9yKIg1WjnnlVkGX", // Library casting: warm, measured female. Not Montessori's voice or a clone.
+  "luigi-cornaro": "pqHfZKP75CvOlQylNhV4", // Library casting: grave, measured older male. Not a clone.
+  "vivek-murthy": "N2lVS1w4EtoT3dr4eOWO", // Library casting: warm, measured male. Not Murthy's voice or a clone.
   "josh-kushner": "pNInz6obpgDQGcFmaJgB", // Library casting: calm, measured male. Not his voice or a clone.
   "bill-wilson": "onwK4e9ZLuTAKqWW03F9", // Library casting: calm, plain older male. Not Wilson's voice or a clone.
   "abraham-lincoln": "pqHfZKP75CvOlQylNhV4", // Library casting: measured, grave older male. Not Lincoln's voice or a clone.

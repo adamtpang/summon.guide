@@ -483,6 +483,16 @@
     ]
   },
   {
+    "id": "person:luigi-cornaro",
+    "name": "Luigi Cornaro",
+    "availability": "ready",
+    "directory": "person-luigi-cornaro",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
     "id": "person:lulie-tanett",
     "name": "Lulie Tanett",
     "availability": "ready",
@@ -527,6 +537,16 @@
       "view-from-above",
       "memento-mori"
     ]
+  },
+  {
+    "id": "person:maria-montessori",
+    "name": "Maria Montessori",
+    "availability": "ready",
+    "directory": "person-maria-montessori",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
   },
   {
     "id": "person:marie-curie",
@@ -772,6 +792,16 @@
     "sourceSlugs": [
       "friendly-ambitious-nerd"
     ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:vivek-murthy",
+    "name": "Vivek Murthy",
+    "availability": "ready",
+    "directory": "person-vivek-murthy",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
     "skillSlugs": []
   },
   {
