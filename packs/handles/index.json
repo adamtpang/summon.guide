@@ -1,6 +1,6 @@
 {
   "generated": "scripts/gen-summon-handles.mjs",
-  "count": 121,
+  "count": 124,
   "handles": [
     {
       "slug": "abraham-lincoln",
@@ -275,6 +275,14 @@
       "tool": "none"
     },
     {
+      "slug": "luigi-cornaro",
+      "kind": "person",
+      "name": "Luigi Cornaro",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
       "slug": "lulie-tanett",
       "kind": "person",
       "name": "Lulie Tanett",
@@ -294,6 +302,14 @@
       "slug": "marcus-aurelius",
       "kind": "person",
       "name": "Marcus Aurelius",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "maria-montessori",
+      "kind": "person",
+      "name": "Maria Montessori",
       "availability": "ready",
       "runtime": "figure",
       "tool": "chat_with_guide"
@@ -478,6 +494,14 @@
       "slug": "visakan",
       "kind": "person",
       "name": "Visakan Veerasamy",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "vivek-murthy",
+      "kind": "person",
+      "name": "Vivek Murthy",
       "availability": "ready",
       "runtime": "figure",
       "tool": "chat_with_guide"

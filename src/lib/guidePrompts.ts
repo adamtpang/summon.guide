@@ -1,6 +1,9 @@
 import type { Figure } from "@/lib/figures";
 
 export const GUIDE_STARTERS: Record<string, [string, string, string]> = {
+  "maria-montessori": ["My toddler melts down whenever I help with anything. What would Montessori notice?","How do I give my kid more independence without chaos?","My child cannot focus on anything for long. What did Montessori observe about attention?"],
+  "luigi-cornaro": ["My health is slipping and I keep promising to change. How did Cornaro actually change?","How do I stop overdoing it without making it miserable?","How did Cornaro stay consistent for decades?"],
+  "vivek-murthy": ["I moved to a new city and have no friends. Where do I start?","I have people around me but still feel alone. What did Murthy say about that?","How do I reach out without feeling needy?"],
   "josh-kushner": ["I am in my twenties and want to start something. How do I decide what to work on?","How do I know when to concentrate on one big bet?","How did Kushner judge founders when he could not explain his gut feeling?"],
   "bill-wilson": ["I keep saying I will cut back and then I don't. What did Bill Wilson learn about that?","Someone I love drinks every day. How do I talk to them?","I am two weeks sober and scared I will slip. What helped in the early days?"],
   "abraham-lincoln": ["I feel low and cannot shake it. What did Lincoln do when he felt this way?","How did Lincoln help friends who were in despair?","How do I keep going when I cannot imagine feeling better?"],

@@ -1021,3 +1021,11 @@ production deployment, transcript upload success, or routing change to public Sa
 - Adam asked to onboard Josh Kushner. Research and fact-check (content/knowledge/josh-kushner): 5 original notes from the Oscar S-1 founders letter, a Bloomberg conversation transcript, Fortune, the Colossus profile, and reporting on his first investor letter. His public record is thin; the guide says so. Living person: third person, not endorsed, declines family, Jared Kushner, Trump, politics and private life, never states Thrive return or size figures as fact (outlets conflict; some from leaked unaudited letters), and gives no investment advice.
 - Portrait: CC BY 4.0 photo by SWinxy (Met Gala 2026), credited on /credits. Library voice for now; three verified lines wait in data/guide-lines-pending.json until ElevenLabs credits refresh.
 - Live test: two advice questions cite sources; the family/politics question is declined in one sentence; the savings question gets "I can't tell you what to buy"; asked if it is him, it says it is an AI guide.
+
+## Loneliness, health, parenting guides (2026-09-30)
+
+- Vivek Murthy (loneliness): 8 notes from the 2023 Surgeon General advisory and January 2025 parting letter (US government works) plus four interviews. Living: third person, not endorsed, stays off politics, names source and year for every statistic.
+- Luigi Cornaro (health): 8 notes from the Discourses on the Sober Life (Gutenberg 30660). Never gives his food or wine amounts; outdated medicine flagged; his claimed age and nobility are disputed and stated so; symptoms and eating concerns go to a doctor.
+- Maria Montessori (parenting): 8 notes from her 1912, 1914 and 1917 public-domain books. Flags dated views and home-vs-school interpretation; popular misattributed lines excluded; medical and developmental questions go to a pediatrician; Childhelp in safety rules.
+- Portraits: HHS official photo (PD), Tintoretto (PD), Library of Congress 1910 photo cropped (PD). Library voices; lines pending ElevenLabs credits.
+- Verified live: loneliness, weight and toddler problems route to the new guides; 6 of 6 conversations pass, including suicidal loneliness, a request for Cornaro's exact portions, and a child talking about dying.

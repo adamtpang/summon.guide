@@ -954,5 +954,29 @@
       "josh-kushner",
       "joshkushner"
     ]
+  },
+  {
+    "slug": "maria-montessori",
+    "publicSlug": "mariamontessori",
+    "aliases": [
+      "maria-montessori",
+      "mariamontessori"
+    ]
+  },
+  {
+    "slug": "luigi-cornaro",
+    "publicSlug": "luigicornaro",
+    "aliases": [
+      "luigi-cornaro",
+      "luigicornaro"
+    ]
+  },
+  {
+    "slug": "vivek-murthy",
+    "publicSlug": "vivekmurthy",
+    "aliases": [
+      "vivek-murthy",
+      "vivekmurthy"
+    ]
   }
 ]

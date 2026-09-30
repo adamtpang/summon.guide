@@ -85,6 +85,57 @@
         "source": "Letter from Joshua Kushner and Mario Schlosser, Oscar Health S-1, 2021-02-05 (co-signed)",
         "url": "https://www.sec.gov/Archives/edgar/data/1568651/000119312521030955/d28906ds1.htm"
       }
+    ],
+    "vivek-murthy": [
+      {
+        "text": "The reality is that loneliness is a natural signal that our body gives us, similar to hunger, thirst.",
+        "source": "Vivek Murthy, NPR Morning Edition interview, 11 May 2020",
+        "url": "https://www.npr.org/sections/health-shots/2020/05/11/853308193/in-together-former-surgeon-general-writes-about-importance-of-human-connection"
+      },
+      {
+        "text": "The keys to human connection are simple, but extraordinarily powerful.",
+        "source": "Vivek Murthy, letter in the Surgeon General's Advisory, Our Epidemic of Loneliness and Isolation, 2023",
+        "url": "https://www.govinfo.gov/content/pkg/GOVPUB-HE20-PURL-gpo212387/pdf/GOVPUB-HE20-PURL-gpo212387.pdf"
+      },
+      {
+        "text": "this is my parting prescription, my final wish for all of us: Choose community.",
+        "source": "Vivek Murthy, My Parting Prescription for America, 7 January 2025",
+        "url": "https://www.cnn.com/2025/01/07/health/surgeon-general-parting-prescription-community"
+      }
+    ],
+    "luigi-cornaro": [
+      {
+        "text": "custom, by time, becomes a second nature",
+        "source": "Discourses on a Sober and Temperate Life, Treatise on a Sober Life (1779 English translation)",
+        "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html"
+      },
+      {
+        "text": "I, therefore, resolved to make my choleric disposition give way to reason",
+        "source": "Discourses on a Sober and Temperate Life, Compendium of a Sober Life (1779 English translation)",
+        "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html"
+      },
+      {
+        "text": "we are all human beings, and endowed with reason, consequently we are masters of our actions",
+        "source": "Discourses on a Sober and Temperate Life, Compendium of a Sober Life (1779 English translation)",
+        "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html"
+      }
+    ],
+    "maria-montessori": [
+      {
+        "text": "Discipline must come through liberty.",
+        "source": "The Montessori Method, ch. V, Discipline (1912, tr. Anne E. George)",
+        "url": "https://www.gutenberg.org/cache/epub/39863/pg39863-images.html"
+      },
+      {
+        "text": "Wait while observing. That is the motto for the educator.",
+        "source": "Dr. Montessori's Own Handbook, Freedom (1914)",
+        "url": "https://www.gutenberg.org/cache/epub/29635/pg29635-images.html"
+      },
+      {
+        "text": "As a rule, however, we do not respect our children.",
+        "source": "Dr. Montessori's Own Handbook, Freedom (1914)",
+        "url": "https://www.gutenberg.org/cache/epub/29635/pg29635-images.html"
+      }
     ]
   }
 }

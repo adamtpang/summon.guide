@@ -230,6 +230,12 @@
       "availability": "ready"
     },
     {
+      "slug": "luigi-cornaro",
+      "name": "Luigi Cornaro",
+      "kind": "person",
+      "availability": "ready"
+    },
+    {
       "slug": "lulie-tanett",
       "name": "Lulie Tanett",
       "kind": "person",
@@ -244,6 +250,12 @@
     {
       "slug": "marcus-aurelius",
       "name": "Marcus Aurelius",
+      "kind": "person",
+      "availability": "ready"
+    },
+    {
+      "slug": "maria-montessori",
+      "name": "Maria Montessori",
       "kind": "person",
       "availability": "ready"
     },
@@ -358,6 +370,12 @@
     {
       "slug": "visakan",
       "name": "Visakan Veerasamy",
+      "kind": "person",
+      "availability": "ready"
+    },
+    {
+      "slug": "vivek-murthy",
+      "name": "Vivek Murthy",
       "kind": "person",
       "availability": "ready"
     },
