@@ -4,6 +4,7 @@
  * ELEVENLABS_VOICE_<SLUG_WITH_UNDERSCORES> in server environment settings.
  */
 export const VOICE_MAP: Record<string, string> = {
+  "josh-kushner": "pNInz6obpgDQGcFmaJgB", // Library casting: calm, measured male. Not his voice or a clone.
   "bill-wilson": "onwK4e9ZLuTAKqWW03F9", // Library casting: calm, plain older male. Not Wilson's voice or a clone.
   "abraham-lincoln": "pqHfZKP75CvOlQylNhV4", // Library casting: measured, grave older male. Not Lincoln's voice or a clone.
   "cs-lewis": "JBFqnCBsd6RMkjVDRZzb", // Library casting: warm older British male. Not Lewis's voice or a clone.

@@ -1,6 +1,6 @@
 {
   "generated": "scripts/gen-summon-handles.mjs",
-  "count": 120,
+  "count": 121,
   "handles": [
     {
       "slug": "abraham-lincoln",
@@ -246,6 +246,14 @@
       "slug": "john-mackey",
       "kind": "person",
       "name": "John Mackey",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "chat_with_guide"
+    },
+    {
+      "slug": "josh-kushner",
+      "kind": "person",
+      "name": "Josh Kushner",
       "availability": "ready",
       "runtime": "figure",
       "tool": "chat_with_guide"
