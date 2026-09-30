@@ -27,12 +27,15 @@ export default function StuckBox({ guides }: { guides: GuideOption[] }) {
     : [];
   const openGuide = (g: GuideOption) => router.push(g.path);
   const [error, setError] = useState("");
+  // An honest answer when no guide fits, or when the message signals danger.
+  const [notice, setNotice] = useState<null | { kind: "no_fit" | "crisis"; text: string; links: { label: string; href: string }[] }>(null);
 
   const send = async (raw: string) => {
     const q = raw.trim();
     if (!q || busy) return;
     setBusy(true);
     setError("");
+    setNotice(null);
     try {
       const res = await fetch("/api/match", {
         method: "POST",
@@ -40,6 +43,20 @@ export default function StuckBox({ guides }: { guides: GuideOption[] }) {
         body: JSON.stringify({ message: q }),
       });
       const data = await res.json();
+      if (data.type === "crisis") {
+        setNotice({ kind: "crisis", text: data.message, links: data.links || [] });
+        setBusy(false);
+        return;
+      }
+      if (data.type === "no_fit") {
+        setNotice({
+          kind: "no_fit",
+          text: `${data.reason} Tell us who has lived it, and we will research them.`,
+          links: [{ label: "Request a guide", href: "/summon#request-guide" }],
+        });
+        setBusy(false);
+        return;
+      }
       if (!res.ok || !data.slug) {
         setError(data.type === "not_found" && data.person
           ? `No guide for ${data.person} yet. Ask for one on the roster.`
@@ -83,6 +100,18 @@ export default function StuckBox({ guides }: { guides: GuideOption[] }) {
         </button>
       </form>
       {error && <p role="alert" className="text-sm text-white/70">{error}</p>}
+      {notice && (
+        <div role={notice.kind === "crisis" ? "alert" : "status"} className={`w-full rounded-2xl border px-4 py-3 text-left text-sm leading-relaxed ${notice.kind === "crisis" ? "border-[#c9a860]/50 bg-[#c9a860]/10 text-white" : "border-white/10 text-white/75"}`}>
+          <p>{notice.text}</p>
+          <div className="mt-2 flex flex-wrap gap-x-4">
+            {notice.links.map((link) => (
+              <a key={link.href} href={link.href} target={link.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer" className="inline-flex min-h-11 items-center underline underline-offset-4 hover:text-white">
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
       <div className="flex flex-wrap justify-center gap-2">
         {EXAMPLES.map((example) => (
           <button

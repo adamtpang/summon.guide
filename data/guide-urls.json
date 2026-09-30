@@ -922,5 +922,29 @@
       "buffett-and-munger",
       "buffettandmunger"
     ]
+  },
+  {
+    "slug": "bill-wilson",
+    "publicSlug": "billwilson",
+    "aliases": [
+      "bill-wilson",
+      "billwilson"
+    ]
+  },
+  {
+    "slug": "abraham-lincoln",
+    "publicSlug": "abrahamlincoln",
+    "aliases": [
+      "abraham-lincoln",
+      "abrahamlincoln"
+    ]
+  },
+  {
+    "slug": "cs-lewis",
+    "publicSlug": "cslewis",
+    "aliases": [
+      "cs-lewis",
+      "cslewis"
+    ]
   }
 ]

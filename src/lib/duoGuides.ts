@@ -16,6 +16,12 @@ export const duoFigures: Figure[] = [
       "conflict",
       "friendship",
       "connection",
+      "divorce",
+      "arguments",
+      "partner",
+      "trust",
+      "husband",
+      "wife",
       "John Gottman",
       "Julie Gottman"
     ],

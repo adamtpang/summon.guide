@@ -1,3 +1,4 @@
+import { SAFETY_RULES } from "@/lib/crisis";
 import { FOLLOWUP_RULE } from "@/lib/guidePrompts";
 import type { ChatMessageInput } from "@/lib/aiTypes";
 import { AI_CONFIG } from "@/lib/figures";
@@ -56,7 +57,7 @@ export async function POST(req: NextRequest) {
   // bound plus a higher ceiling left the answer room in 8 of 8 probes.
   const isSage = sourceSlug === "founders-podcast";
   return streamOpenRouter({
-    system: `${systemText}\n\n${FOLLOWUP_RULE}`,
+    system: `${systemText}\n\n${SAFETY_RULES}\n\n${FOLLOWUP_RULE}`,
     messages,
     maxTokens: isSage ? Math.max(AI_CONFIG.maxTokens, 6_000) : AI_CONFIG.maxTokens,
     ...(isSage ? { reasoning: { max_tokens: 1_000 }, retryEmpty: 2 } : {}),

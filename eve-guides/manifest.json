@@ -1,5 +1,15 @@
 [
   {
+    "id": "person:abraham-lincoln",
+    "name": "Abraham Lincoln",
+    "availability": "ready",
+    "directory": "person-abraham-lincoln",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
     "id": "person:adam-neumann",
     "name": "Adam Neumann",
     "availability": "ready",
@@ -82,6 +92,16 @@
     ]
   },
   {
+    "id": "person:bill-wilson",
+    "name": "Bill Wilson",
+    "availability": "ready",
+    "directory": "person-bill-wilson",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
     "id": "person:bob-marley",
     "name": "Bob Marley",
     "availability": "ready",
@@ -106,6 +126,26 @@
     "name": "Brian Armstrong",
     "availability": "ready",
     "directory": "person-brian-armstrong",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:buffettmunger",
+    "name": "Buffett & Munger",
+    "availability": "ready",
+    "directory": "person-buffettmunger",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:cs-lewis",
+    "name": "C.S. Lewis",
+    "availability": "ready",
+    "directory": "person-cs-lewis",
     "framework": "eve",
     "runtimeEnabled": false,
     "sourceSlugs": [],
@@ -616,6 +656,16 @@
     "skillSlugs": []
   },
   {
+    "id": "person:rick-rubin",
+    "name": "Rick Rubin",
+    "availability": "ready",
+    "directory": "person-rick-rubin",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
     "id": "person:ricky-gervais",
     "name": "Ricky Gervais",
     "availability": "ready",
@@ -657,6 +707,16 @@
     "sourceSlugs": [
       "the-war-of-art"
     ],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:gottmans",
+    "name": "The Gottmans",
+    "availability": "ready",
+    "directory": "person-gottmans",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
     "skillSlugs": []
   },
   {

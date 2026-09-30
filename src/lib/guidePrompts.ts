@@ -1,6 +1,9 @@
 import type { Figure } from "@/lib/figures";
 
 export const GUIDE_STARTERS: Record<string, [string, string, string]> = {
+  "bill-wilson": ["I keep saying I will cut back and then I don't. What did Bill Wilson learn about that?","Someone I love drinks every day. How do I talk to them?","I am two weeks sober and scared I will slip. What helped in the early days?"],
+  "abraham-lincoln": ["I feel low and cannot shake it. What did Lincoln do when he felt this way?","How did Lincoln help friends who were in despair?","How do I keep going when I cannot imagine feeling better?"],
+  "cs-lewis": ["Someone I love died and I feel numb, then angry. What did Lewis write about that?","How did Lewis deal with people offering comfort he did not want?","I feel like I am forgetting their face. Is that normal?"],
   gottmans: ["How can we discuss this without another fight?", "How do we reconnect when we feel distant?", "How can we handle a disagreement that keeps returning?"],
   buffettmunger: ["What would inversion reveal about this decision?", "How do I judge a business beyond its price?", "Which risks and incentives am I overlooking?"],
     "pendleton-ward": [
