@@ -7,7 +7,11 @@ const root = process.cwd();
 const hooks = registerHooks({
   resolve(specifier, context, next) {
     if (specifier.startsWith('@/')) specifier = pathToFileURL(path.join(root, 'src', specifier.slice(2) + '.ts')).href;
-    return next(specifier, context);
+    try { return next(specifier, context); }
+    catch (error) {
+      if (specifier.startsWith('.') && !/\.[a-z]+$/i.test(specifier)) return next(specifier + '.ts', context);
+      throw error;
+    }
   },
   load(url, context, next) {
     if (url.startsWith(pathToFileURL(path.join(root, 'data')).href) && url.endsWith('.json')) {
@@ -18,6 +22,7 @@ const hooks = registerHooks({
 });
 const { guideAgents } = await import('../src/lib/guideAgents.ts');
 const { figures } = await import('../src/lib/figures.ts');
+const { GUIDE_IDENTITY_RULES } = await import('../src/lib/guideContract.ts');
 hooks.deregister();
 
 const base = path.join(root, 'eve-guides');
@@ -37,7 +42,7 @@ function emit(relative, contents) {
 for (const guide of guideAgents) {
   const directory = guide.id.replace(':', '-');
   const figure = figures.find(f => guide.kind === 'person' && f.slug === guide.slug);
-  const sourceText = figure?.systemPrompt || guide.description;
+  const sourceText = [figure?.systemPrompt || guide.description, GUIDE_IDENTITY_RULES].join("\n\n");
   const instructions = `# ${guide.name}\n\nSummon agent ID: ${guide.id}\nRegistry status: ${guide.availability}\n\n${sourceText}\n\n## Summon identity and source boundary\nThese rules override conflicting identity instructions above. You are an AI guide inspired by documented public work, never the actual person or author. Do not claim endorsement, private memories, or real contact. Distinguish source evidence from your interpretation. Never invent citations. Reference-only links and source IDs do not prove that full text is available. If the source needed to answer is absent, say so.\n\nSource registry IDs: ${guide.sourceSlugs.join(', ') || 'none registered'}\nSpecialist skill IDs: ${guide.skillSlugs.join(', ') || 'none registered'}\n\n## Assignments\nKeep every user's project context and session isolated. Do not claim cross-project memory unless the runtime supplied authorized memory. Never send messages as a user or publish their private information.\n\n## Runtime readiness\nThis is an authored Eve package, not a launched service. The Eve runtime adapter, entitlement check, session authorization, and source retrieval must be verified before enabling it. Building agents stay disabled until onboarding evidence passes. The Eve skill is engineering guidance, not a method attributed to this guide.\n`;
   emit(`${directory}/package.json`, JSON.stringify({ name: `summon-${directory}`, private: true, type: 'module', dependencies: { eve: eveVersion }, scripts: { build: 'eve build --skip-sandbox-prewarm' } }, null, 2) + '\n');
   emit(`${directory}/agent/instructions.md`, instructions);

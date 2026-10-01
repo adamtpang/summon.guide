@@ -34,7 +34,7 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
     return agents.filter((agent) => {
       if (kind !== "all" && agent.kind !== kind) return false;
       if (!needle) return true;
-      return [agent.name, agent.byline, agent.description, ...agent.domains]
+      return [agent.name, agent.byline, agent.description, agent.category, ...agent.domains]
         .join(" ")
         .toLowerCase()
         .includes(needle);
@@ -88,14 +88,14 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
           >
             <div className="flex items-center justify-between gap-3 mb-4">
               <p className="text-emerald-400/80 text-[10px] tracking-[0.18em] uppercase">
-                {kindLabel[agent.kind]}
+                {agent.members ? "Duo guide" : kindLabel[agent.kind]}{agent.category ? ` · ${agent.category}` : ""}
               </p>
               <span
                 className={`text-[10px] uppercase tracking-[0.12em] ${
                   agent.availability === "ready" ? "text-white/45" : "text-amber-300/70"
                 }`}
               >
-                {agent.availability === "ready" ? "Ready" : "In onboarding"}
+                {agent.availability === "ready" ? "Available" : "In onboarding"}
               </span>
             </div>
             <h3 className="font-serif text-xl leading-tight mb-1.5">{agent.name}</h3>
@@ -115,7 +115,7 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
                 ))}
                 {agent.sourceCount > 0 && (
                   <span className="rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-white/50">
-                    {agent.sourceCount} {agent.sourceCount === 1 ? "source" : "sources"}
+                    {agent.sourceCount} {agent.sourceCount === 1 ? "source note" : "source notes"} · Partial coverage
                   </span>
                 )}
               </div>

@@ -26,6 +26,7 @@ export function isLivingGuide(slug: string): boolean {
  * a listener or reader is never left thinking they spoke to the person.
  */
 export function guideDisclosure(slug: string, name: string): string {
+  if (figures.find(f => f.slug === slug)?.members) return `An AI duo guide based on the public work of ${name}. Not their words, not reviewed or endorsed by them.`;
   return isLivingGuide(slug)
     ? `${name} is alive. This is an AI simulation built from their public work, not their words, and not reviewed or endorsed by them.`
     : `This is an AI simulation of ${name}, built from their documented life and writing. It is not ${name}.`;

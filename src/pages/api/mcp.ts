@@ -16,6 +16,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { z } from "zod";
+import { researchedGuideInput, summonMatchInput } from "@/lib/summonMatch";
 import { figures } from "@/lib/figures";
 import { books } from "@/lib/books";
 import { authenticateMcpToken } from "@/lib/membership";
@@ -23,37 +24,51 @@ import { authenticateMcpToken } from "@/lib/membership";
 const SITE_URL = "https://summon.guide";
 
 async function consumeSSE(res: Response): Promise<string> {
-  if (!res.body) throw new Error("No response body from " + res.url);
+  if (!res.body) throw new Error("Missing guide response stream");
   const reader = res.body.getReader();
   const decoder = new TextDecoder();
-  let buffer = "";
-  let text = "";
-  for (;;) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    buffer += decoder.decode(value, { stream: true });
-    const lines = buffer.split("\n");
-    buffer = lines.pop() ?? "";
-    for (const line of lines) {
-      if (!line.startsWith("data: ")) continue;
-      const payload = line.slice("data: ".length);
-      if (payload === "[DONE]") continue;
-      const parsed = JSON.parse(payload);
-      if (parsed.error) throw new Error(parsed.error);
-      if (parsed.text) text += parsed.text;
-    }
+  let buffer = "", text = "", complete = false;
+  function line(value: string) {
+    if (!value.startsWith("data:")) return;
+    const data = value.slice(5).trim();
+    if (!data) return;
+    if (data === "[DONE]") { complete = true; return; }
+    const event = JSON.parse(data);
+    if (event.error) throw new Error("Guide response failed");
+    if (typeof event.text === "string") text += event.text;
   }
+  try {
+    for (;;) {
+      const { done, value } = await reader.read();
+      buffer += done ? decoder.decode() : decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n"); buffer = lines.pop() || "";
+      lines.forEach(line);
+      if (done) { if (buffer.trim()) line(buffer); break; }
+    }
+  } finally { await reader.cancel().catch(() => {}); reader.releaseLock(); }
+  if (!complete || !text.trim()) throw new Error("Empty or incomplete guide response");
   return text;
 }
 
 function buildServer(authorization?: string): McpServer {
   const server = new McpServer(
-    { name: "summon-guide", version: "0.1.0" },
+    { name: "summon-guide", version: "0.2.0" },
     {
       instructions:
-        "summon.guide is a roster of 44+ historical and contemporary figures, each grounded in real books and transcripts. Call match_guide first with a situation to find the single best-fit guide, then chat_with_guide with the returned slug to get their real answer. Use chat_with_book directly when the user names a specific book rather than a person. Never simulate a guide's answer yourself, always call chat_with_guide or chat_with_book to get the real, corpus-grounded response.",
+        "Use match_guides with a concise relevant context brief to rank the live roster and explain compatibility out of 100. Scores estimate fit, not certainty. Use chat_with_guide for person ids and chat_with_book for book/channel ids, preserving citations. Coverage varies; do not claim every guide has full transcripts. If match_guides returns research_required, use the host web-search tools to research a better candidate with public sources, then consult_researched_guide for provisional advice and a tracked onboarding request. This does not make them a verified public-roster guide. Never send private identifiers in search queries.",
     }
   );
+
+  for (const tool of [
+    { name: "match_guides", path: "match", description: "Match a context brief against the live person, book and channel roster. Returns 0–100 compatibility with breakdowns, reasons, limitations, complementary roles and a research_required signal when no guide reaches 70. Does not invent a match during outages.", schema: summonMatchInput.shape, readOnly: true },
+    { name: "consult_researched_guide", path: "research", description: "After the host researches a missing guide on the web, send 2–5 original summaries from at least two independent HTTPS source hosts. Returns provisional AI advice with citations and saves a per-user onboarding request. Does not publish a guide or certify a deep corpus. Uses a guide session.", schema: researchedGuideInput.shape, readOnly: false },
+  ]) {
+    server.registerTool(tool.name, { description: tool.description, inputSchema: tool.schema, annotations: { readOnlyHint: tool.readOnly, destructiveHint: false, openWorldHint: true } }, async (input: Record<string, unknown>) => {
+      const response = await fetch(`${SITE_URL}/api/summon/${tool.path}`, { method: "POST", headers: { "Content-Type": "application/json", ...(authorization ? { Authorization: authorization } : {}) }, body: JSON.stringify(input) });
+      const data = await response.json();
+      return { isError: !response.ok, content: [{ type: "text" as const, text: JSON.stringify(data) }] };
+    });
+  }
 
   server.registerTool(
     "list_guides",

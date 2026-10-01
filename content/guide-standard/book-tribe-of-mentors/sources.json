@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "guideId": "book:tribe-of-mentors",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "ea065fdb921cc3bf",
+      "title": "Why This Book Exists: The Eleven Questions",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/001-project-origin-and-the-eleven-questions.md",
+      "contentHash": "1763e2fb8e4148ebde823da5d7dac194f1639981739183f188d78d7b735a1a2a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "192182bfb14c3bdd",
+      "title": "The Books They Gift Most",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/002-books-that-shaped-them.md",
+      "contentHash": "2b9e75d156efcff8239a44f98466d757fdf6059dd183912d4bd28179c48ce15c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ad2f8fecdec38963",
+      "title": "The Sub-$100 Purchases That Mattered",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/003-hundred-dollar-purchases.md",
+      "contentHash": "2ce3f3f521b53385e1f67a9553fb720e98f167fe900b05ac458eb685364ccf54",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "69188239011f5a23",
+      "title": "Favorite Failures",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/004-favorite-failures.md",
+      "contentHash": "a70991a41089d551f602657c95cd1c1a0e922d2df73d043b23d5b6d604b929b5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b492dfdb8aa275af",
+      "title": "What They'd Put on a Billboard",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/005-billboard-messages-and-quotes-to-live-by.md",
+      "contentHash": "7ca67bebde2e0f4ad5da9207bc4958b75274204d7c82a4a9122e77172971605c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b8e7876cf51f8921",
+      "title": "The Best Investments They Ever Made",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/006-best-and-worthwhile-investments.md",
+      "contentHash": "02faf27e477ce90cf75b7db2be2ef41d3b4698eef4fde9167e402c816817b3b9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0f3a2abf4ce17f1c",
+      "title": "Unusual Habits and Absurd Obsessions",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/007-unusual-habits-and-obsessions.md",
+      "contentHash": "0bbae255198d4be6e2d5cb8e059d6a8abf4cb6ad64bd00774175e4b94b1d6e63",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7062cb5a2067719a",
+      "title": "The Five-Year Belief or Habit That Changed Everything",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/008-beliefs-and-habits-that-changed-everything.md",
+      "contentHash": "29e0a559f2c6b93255b527381f6cc4de815694d72f5c9aaf5d1453da770c91f6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1199c7453ba9a470",
+      "title": "Advice for a College Student, and What to Ignore",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/009-advice-to-the-young-and-what-to-ignore.md",
+      "contentHash": "00e5d3370545f2cbd15ce87994558d62db9a749a0d8cd814071c0138d91b1580",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6221118b9a348146",
+      "title": "Bad Advice People Hear in Their Field",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/010-bad-advice-in-their-field.md",
+      "contentHash": "ab8b9da2615d4339135d4e5ecdc4f1c6b235525d84d794ce64f5ab61246acf4a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9372f07fbd20e891",
+      "title": "What They've Gotten Better at Saying No To",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/011-saying-no.md",
+      "contentHash": "373bfb57c0a4026dcc62e69f6c1e4b112bcbc48a0686206a61b4b1a5225c805b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5bdbafb3258af69f",
+      "title": "What They Do When Overwhelmed or Unfocused",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/012-when-overwhelmed-what-they-do.md",
+      "contentHash": "b0555f0f3560c41adfc0c67c949d6774e947ca6a996447fbb75d77f6825fcbc3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2b2877a94fc6500d",
+      "title": "Quotes I'm Pondering: Tim's Own Commonplace Book",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/013-quotes-tim-is-pondering.md",
+      "contentHash": "7ad4a0c03279f1ea62a38e74f82bd591d5d3a0730b538f6a516d274d337106ba",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "80c07634f372d7aa",
+      "title": "How to Say No: The Declined Invitations",
+      "url": null,
+      "synthesis": "content/knowledge/tribe-of-mentors/014-how-to-say-no-declined-invitations.md",
+      "contentHash": "2a681541dd1c3475bf2738faf71ac63f980347701c5c35afa61349fe730b9dbb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

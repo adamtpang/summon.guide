@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "guideId": "book:hell-yeah-or-no",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "c6c9dba82422ee49",
+      "title": "Updating Identity, Part 1",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/001-updating-identity-part-1.md",
+      "contentHash": "398c50fff5532a1fa6b519afb1fa0eab87b7bd48f63ca6b15dbea1187c5f541d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7f843795e51d0215",
+      "title": "Updating Identity, Part 2",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/002-updating-identity-part-2.md",
+      "contentHash": "d1f8454b5a365e8d64455c2915ae764efa9cbd29b10fe4fbb07979b16ec549cc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6514ce99bd66c38c",
+      "title": "Saying No, Part 1",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/003-saying-no-part-1.md",
+      "contentHash": "81ba21f9ccd8b55246fcf2f6e85a90814089f0199411d4b467adf631c9a53ffc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0dac96c5a6623a36",
+      "title": "Saying No, Part 2",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/004-saying-no-part-2.md",
+      "contentHash": "ffc5e7ad39f3a82e059ef97b5300b014094f9d28a0bbcf7ffbf130cd9881452c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e08bcfc4f5fb3028",
+      "title": "Making Things Happen, Part 1",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/005-making-things-happen-part-1.md",
+      "contentHash": "104d7f60e84d50f5d0f68ee395d2adabf11363ac854e69553d07053f799e3b21",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f48038c99749daac",
+      "title": "Making Things Happen, Part 2",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/006-making-things-happen-part-2.md",
+      "contentHash": "93fa2c73a84a79837f054b835c4310387c755442bb223facae9b1590883d9eaa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f60b2fa3111738a2",
+      "title": "Changing Perspective, Part 1",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/007-changing-perspective-part-1.md",
+      "contentHash": "9ec2a9324ffb89483d0bdc470760be94112c69b51a559af03dc5d8f91cb33c3e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "676bef679ddcef4b",
+      "title": "Changing Perspective, Part 2",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/008-changing-perspective-part-2.md",
+      "contentHash": "4ac99cbaa64af3fae150cd4c11ebfe1506bad01e169b10ad55c33320c094bc64",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c17cb6a1768027ca",
+      "title": "What's Worth Doing?, Part 1",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/009-whats-worth-doing-part-1.md",
+      "contentHash": "10ecf80ba6414d5609a026bfbadc3e8b2086470f4ff04041ff1c203b310f33f3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2fc2d7035ac351f1",
+      "title": "What's Worth Doing?, Part 2",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/010-whats-worth-doing-part-2.md",
+      "contentHash": "cc10a5aad171c642f6f06858cb40bd932c1990a14638150b2c3acc917ac90681",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2d9994f3e64e5404",
+      "title": "Fixing Faulty Thinking, Part 1",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/011-fixing-faulty-thinking-part-1.md",
+      "contentHash": "f675ce268e288983dd08a4c14981aa469630d415b1c1630d7f46393b260dabcf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bd5ffe1c8c62606b",
+      "title": "Fixing Faulty Thinking, Part 2",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/012-fixing-faulty-thinking-part-2.md",
+      "contentHash": "421f6fc2a932c50a405486e1e5edf0e0de6e4fbf49657120744c84c0ae6b3598",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "36a693ae4f7d5ab8",
+      "title": "Saying Yes",
+      "url": null,
+      "synthesis": "content/knowledge/hell-yeah-or-no/013-saying-yes.md",
+      "contentHash": "6e65eb73fa60e4cdc149b5a5f212dae6eacc8733a2623445510fab8cf57ef556",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

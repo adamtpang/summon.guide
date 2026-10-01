@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:john-mackey",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "f8eb6ba179be9413",
+      "title": "John Mackey: 44 Years of Building Whole Foods",
+      "url": "https://www.youtube.com/watch?v=U8zqsiePKsg",
+      "synthesis": "content/knowledge/interviews/023-john-mackey-44-years-of-building-whole-foods.md",
+      "contentHash": "dd3088c1348343edc666ef67d7a0fff5880f1e7201d70407663920836d466110",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

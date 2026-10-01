@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "guideId": "person:annie-duke",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "f6d5d3ccf8ad43a3",
+      "title": "Introduction: Why This Isn't a Poker Book",
+      "url": null,
+      "synthesis": "content/knowledge/thinking-in-bets/001-introduction-why-this-isnt-a-poker-book.md",
+      "contentHash": "af2eecae13cd379477f64cf64395926e94bd45c897b23f2dca91c05c63b313e4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4495fc646ef3378e",
+      "title": "Chapter 1: Life Is Poker, Not Chess",
+      "url": null,
+      "synthesis": "content/knowledge/thinking-in-bets/002-life-is-poker-not-chess.md",
+      "contentHash": "304b6720886914e8c4020d8385c57d2ed69ea1ce70a5fdfdfa71f69ace9561d0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6368f86ed4d237b7",
+      "title": "Chapter 2: Wanna Bet?",
+      "url": null,
+      "synthesis": "content/knowledge/thinking-in-bets/003-wanna-bet.md",
+      "contentHash": "e1d9a845081e3732f20520facf4e924d4a5100adcdc07b3632ee0af5f3b9299a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7b74c3ed289eda72",
+      "title": "Chapter 3: Bet to Learn: Fielding the Unfolding Future",
+      "url": null,
+      "synthesis": "content/knowledge/thinking-in-bets/004-bet-to-learn-fielding-the-unfolding-future.md",
+      "contentHash": "92feab0490a73ef5df3d91d12f9a24a3166c6b5ca45a1e3bb597b261dcb091d1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "12d7a9c14de4b139",
+      "title": "Chapter 4: The Buddy System",
+      "url": null,
+      "synthesis": "content/knowledge/thinking-in-bets/005-the-buddy-system.md",
+      "contentHash": "77695954b5044f43dd01ed9f5f9930f2229d5839a9cae9c8a60a77b68ce9dbc1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6d3f8e056426f9e5",
+      "title": "Chapter 5: Dissent to Win",
+      "url": null,
+      "synthesis": "content/knowledge/thinking-in-bets/006-dissent-to-win.md",
+      "contentHash": "e6e1931ba973657b09c4be8355e3a2ac4871d0fbfad0106f4b1fbf9e72aa3b94",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8cdec81360b8affe",
+      "title": "Chapter 6: Adventures in Mental Time Travel",
+      "url": null,
+      "synthesis": "content/knowledge/thinking-in-bets/007-adventures-in-mental-time-travel.md",
+      "contentHash": "dc842d20cace91b81a2e19c407af49d0547258eb31b4a05ae6397d936dca1ac4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

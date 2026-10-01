@@ -184,5 +184,30 @@
     ],
     "nextAction": "Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing.",
     "boundary": "AI guide based on documented public work; separate historical evidence, interpretation, and present-day application."
+  },
+  {
+    "slug": "rose-blumkin",
+    "name": "Rose Blumkin",
+    "aliases": [
+      "Mrs. B"
+    ],
+    "collection": "retail-founders",
+    "domain": "Retail and customer value",
+    "outcome": "Build an honest low-price offer supported by real operating economics.",
+    "proposedSkill": "Price from an operating advantage",
+    "evaluationPrompt": "Should I undercut a competitor when my overhead is higher?",
+    "source": {
+      "title": "Berkshire 1983 shareholder letter",
+      "url": "https://www.berkshirehathaway.com/letters/1983.html",
+      "access": "public-reference-original-synthesis",
+      "checkedOn": "2026-09-20"
+    },
+    "stage": "sourcing",
+    "completedGates": [
+      1,
+      2
+    ],
+    "nextAction": "Starter chat has two primary-account syntheses. Expand independent and first-person evidence, create a dedicated exercise, evaluate answers and voice, and finish the onboarding audit.",
+    "boundary": "AI interpretation, not Rose Blumkin; starter source coverage, no endorsement, no accent imitation."
   }
 ]

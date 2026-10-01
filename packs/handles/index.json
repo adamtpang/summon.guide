@@ -1,6 +1,6 @@
 {
   "generated": "scripts/gen-summon-handles.mjs",
-  "count": 114,
+  "count": 116,
   "handles": [
     {
       "slug": "adam-neumann",
@@ -8,7 +8,7 @@
       "name": "Adam Neumann",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "albert-einstein",
@@ -24,7 +24,7 @@
       "name": "Alexander the Great",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "alysa-liu",
@@ -40,7 +40,7 @@
       "name": "Annie Duke",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "bob-marley",
@@ -48,7 +48,7 @@
       "name": "Bob Marley",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "brad-jacobs",
@@ -56,7 +56,7 @@
       "name": "Brad Jacobs",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "brian-armstrong",
@@ -64,7 +64,7 @@
       "name": "Brian Armstrong",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "cal-newport",
@@ -72,7 +72,7 @@
       "name": "Cal Newport",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "carol-dweck",
@@ -80,7 +80,7 @@
       "name": "Carol Dweck",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "charlie-munger",
@@ -88,7 +88,7 @@
       "name": "Charlie Munger",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "daniel-ek",
@@ -96,7 +96,7 @@
       "name": "Daniel Ek",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "dave-ramsey",
@@ -104,7 +104,7 @@
       "name": "Dave Ramsey",
       "availability": "ready",
       "runtime": "pack",
-      "tool": "pack"
+      "tool": "none"
     },
     {
       "slug": "deutsch",
@@ -112,7 +112,7 @@
       "name": "David Deutsch",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "elon",
@@ -120,7 +120,7 @@
       "name": "Elon Musk",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "evan-spiegel",
@@ -128,7 +128,7 @@
       "name": "Evan Spiegel",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "franklin",
@@ -136,7 +136,7 @@
       "name": "Benjamin Franklin",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "henry-kissinger",
@@ -152,7 +152,7 @@
       "name": "Hermann Hesse",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "james-clear",
@@ -160,7 +160,7 @@
       "name": "James Clear",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "james-dyson",
@@ -168,7 +168,7 @@
       "name": "James Dyson",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "jeff-bezos",
@@ -176,7 +176,7 @@
       "name": "Jeff Bezos",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "jennifer-doudna",
@@ -192,7 +192,7 @@
       "name": "Jensen Huang",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "jimmy-iovine",
@@ -200,7 +200,7 @@
       "name": "Jimmy Iovine",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "john-mackey",
@@ -208,7 +208,7 @@
       "name": "John Mackey",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "lee-kuan-yew",
@@ -216,7 +216,7 @@
       "name": "Lee Kuan Yew",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "leonardo-da-vinci",
@@ -232,7 +232,7 @@
       "name": "Lulie Tanett",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "marc-andreessen",
@@ -240,7 +240,7 @@
       "name": "Marc Andreessen",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "marcus-aurelius",
@@ -248,7 +248,7 @@
       "name": "Marcus Aurelius",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "marie-curie",
@@ -256,7 +256,7 @@
       "name": "Marie Curie",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "napoleon-hill",
@@ -264,7 +264,7 @@
       "name": "Napoleon Hill",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "nassim-taleb",
@@ -272,7 +272,7 @@
       "name": "Nassim Nicholas Taleb",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "naval-ravikant",
@@ -280,7 +280,7 @@
       "name": "Naval Ravikant",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "paul-graham",
@@ -288,7 +288,7 @@
       "name": "Paul Graham",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "paul-millerd",
@@ -296,7 +296,7 @@
       "name": "Paul Millerd",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "pendleton-ward",
@@ -304,7 +304,7 @@
       "name": "Pendleton Ward",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "peter-thiel",
@@ -312,7 +312,7 @@
       "name": "Peter Thiel",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "pressfield",
@@ -320,7 +320,7 @@
       "name": "Steven Pressfield",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "ray-dalio",
@@ -328,7 +328,15 @@
       "name": "Ray Dalio",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
+    },
+    {
+      "slug": "rick-rubin",
+      "kind": "person",
+      "name": "Rick Rubin",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "public_notes"
     },
     {
       "slug": "ricky-gervais",
@@ -336,7 +344,7 @@
       "name": "Ricky Gervais",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "rockefeller",
@@ -344,7 +352,15 @@
       "name": "John D. Rockefeller",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
+    },
+    {
+      "slug": "rose-blumkin",
+      "kind": "person",
+      "name": "Rose Blumkin",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "public_notes"
     },
     {
       "slug": "sam-walton",
@@ -352,7 +368,7 @@
       "name": "Sam Walton",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "seneca",
@@ -360,7 +376,7 @@
       "name": "Lucius Annaeus Seneca",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "senra",
@@ -368,7 +384,7 @@
       "name": "David Senra",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "sivers",
@@ -376,7 +392,7 @@
       "name": "Derek Sivers",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "steve-jobs",
@@ -384,7 +400,7 @@
       "name": "Steve Jobs",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "tim-ferriss",
@@ -392,7 +408,7 @@
       "name": "Tim Ferriss",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "tobi-lutke",
@@ -400,7 +416,7 @@
       "name": "Tobi Lütke",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "todd-graves",
@@ -408,7 +424,7 @@
       "name": "Todd Graves",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "vervaeke",
@@ -416,7 +432,7 @@
       "name": "John Vervaeke",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "visakan",
@@ -424,7 +440,7 @@
       "name": "Visakan Veerasamy",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "warren-buffett",
@@ -432,7 +448,7 @@
       "name": "Warren Buffett",
       "availability": "ready",
       "runtime": "figure",
-      "tool": "chat_with_guide"
+      "tool": "public_notes"
     },
     {
       "slug": "founders-podcast",
@@ -440,7 +456,7 @@
       "name": "Founders Podcast",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "invest-like-the-best",
@@ -448,7 +464,7 @@
       "name": "Invest Like the Best",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "starter-story",
@@ -456,7 +472,7 @@
       "name": "Starter Story",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "y-combinator",
@@ -464,7 +480,7 @@
       "name": "Y Combinator",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "adventure-time-art-of-ooo",
@@ -472,7 +488,7 @@
       "name": "Adventure Time: The Art of Ooo",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "alexander-the-great-fox",
@@ -480,7 +496,7 @@
       "name": "Alexander the Great",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "anything-you-want",
@@ -488,7 +504,7 @@
       "name": "Anything You Want",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "atomic-habits",
@@ -496,7 +512,7 @@
       "name": "Atomic Habits",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "autobiography-of-benjamin-franklin",
@@ -504,7 +520,7 @@
       "name": "The Autobiography of Benjamin Franklin",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "benjamin-franklin-an-american-life",
@@ -512,7 +528,7 @@
       "name": "Benjamin Franklin: An American Life",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "berkshire-shareholder-letters",
@@ -520,7 +536,7 @@
       "name": "Berkshire Hathaway Shareholder Letters, 1977-2024",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "bible",
@@ -528,7 +544,7 @@
       "name": "The Bible: Wisdom & Teaching",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "billion-dollar-loser",
@@ -536,7 +552,7 @@
       "name": "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "campaigns-of-alexander-arrian",
@@ -544,7 +560,7 @@
       "name": "The Campaigns of Alexander (Anabasis Alexandri)",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "deep-work",
@@ -552,7 +568,7 @@
       "name": "Deep Work",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "elon-musk-isaacson",
@@ -560,7 +576,7 @@
       "name": "Elon Musk",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "elon-musk-vance",
@@ -568,7 +584,7 @@
       "name": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "fooled-by-randomness",
@@ -576,7 +592,7 @@
       "name": "Fooled by Randomness",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "friendly-ambitious-nerd",
@@ -584,7 +600,7 @@
       "name": "Friendly Ambitious Nerd",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "from-third-world-to-first",
@@ -592,7 +608,7 @@
       "name": "From Third World to First: The Singapore Story 1965, 2000",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "hell-yeah-or-no",
@@ -600,7 +616,7 @@
       "name": "Hell Yeah or No",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "how-to-live",
@@ -608,7 +624,7 @@
       "name": "How to Live",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "its-time-to-build",
@@ -616,7 +632,7 @@
       "name": "It's Time to Build",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "letters-from-a-stoic",
@@ -624,7 +640,7 @@
       "name": "Letters from a Stoic (Epistulae Morales ad Lucilium)",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "life-of-alexander-plutarch",
@@ -632,7 +648,7 @@
       "name": "Life of Alexander",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "meditations",
@@ -640,7 +656,7 @@
       "name": "Meditations",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "mindset",
@@ -648,7 +664,7 @@
       "name": "Mindset: The New Psychology of Success",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "on-anger",
@@ -656,7 +672,7 @@
       "name": "On Anger (De Ira)",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "on-the-shortness-of-life",
@@ -664,7 +680,7 @@
       "name": "On the Shortness of Life (De Brevitate Vitae)",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "one-mans-view-of-the-world",
@@ -672,7 +688,7 @@
       "name": "One Man's View of the World",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "paul-graham-essays",
@@ -680,15 +696,15 @@
       "name": "Paul Graham: Selected Essays",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "pendleton-ward-selected-interviews",
       "kind": "book",
       "name": "Pendleton Ward: Selected Public Interviews",
-      "availability": "building",
+      "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "poor-charlies-almanack",
@@ -696,7 +712,7 @@
       "name": "Poor Charlie's Almanack",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "principles",
@@ -704,7 +720,7 @@
       "name": "Principles",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "principles-for-dealing-with-the-changing-world-order",
@@ -712,7 +728,7 @@
       "name": "Principles for Dealing with the Changing World Order",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "reason-is-fun-essays",
@@ -720,7 +736,7 @@
       "name": "Reason Is Fun: Selected Essays",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "siddhartha",
@@ -728,7 +744,7 @@
       "name": "Siddhartha",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "skin-in-the-game",
@@ -736,7 +752,7 @@
       "name": "Skin in the Game",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "steve-jobs-isaacson",
@@ -744,7 +760,7 @@
       "name": "Steve Jobs",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "tao-te-ching",
@@ -752,7 +768,7 @@
       "name": "Tao Te Ching",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "techno-optimist-manifesto",
@@ -760,7 +776,7 @@
       "name": "The Techno-Optimist Manifesto",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "the-beginning-of-infinity",
@@ -768,7 +784,7 @@
       "name": "The Beginning of Infinity",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "the-black-swan",
@@ -776,7 +792,7 @@
       "name": "The Black Swan",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "the-book-of-elon",
@@ -784,7 +800,7 @@
       "name": "The Book of Elon",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "the-cult-of-we",
@@ -792,7 +808,7 @@
       "name": "The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "the-fabric-of-reality",
@@ -800,7 +816,7 @@
       "name": "The Fabric of Reality",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "the-nvidia-way",
@@ -808,7 +824,7 @@
       "name": "The Nvidia Way",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "the-pathless-path",
@@ -816,7 +832,7 @@
       "name": "The Pathless Path",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "the-singapore-story",
@@ -824,7 +840,7 @@
       "name": "The Singapore Story: Memoirs of Lee Kuan Yew",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "the-war-of-art",
@@ -832,7 +848,7 @@
       "name": "The War of Art",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "think-and-grow-rich",
@@ -840,7 +856,7 @@
       "name": "Think and Grow Rich",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "thinking-in-bets",
@@ -848,7 +864,7 @@
       "name": "Thinking in Bets",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "titan-chernow",
@@ -856,7 +872,7 @@
       "name": "Titan: The Life of John D. Rockefeller, Sr.",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "tools-of-titans",
@@ -864,7 +880,7 @@
       "name": "Tools of Titans",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "tribe-of-mentors",
@@ -872,7 +888,7 @@
       "name": "Tribe of Mentors",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "useful-not-true",
@@ -880,7 +896,7 @@
       "name": "Useful Not True",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "why-software-is-eating-the-world",
@@ -888,7 +904,7 @@
       "name": "Why Software Is Eating the World",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "your-music-and-people",
@@ -896,7 +912,7 @@
       "name": "Your Music and People",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     },
     {
       "slug": "zero-to-one",
@@ -904,7 +920,7 @@
       "name": "Zero to One: Notes on Startups, or How to Build the Future",
       "availability": "ready",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "public_notes"
     },
     {
       "slug": "zombies-in-western-culture",
@@ -912,7 +928,7 @@
       "name": "Zombies in Western Culture: A Twenty-First Century Crisis",
       "availability": "building",
       "runtime": "source",
-      "tool": "chat_with_book"
+      "tool": "none"
     }
   ]
 }

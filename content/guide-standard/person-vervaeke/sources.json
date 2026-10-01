@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "guideId": "person:vervaeke",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "fa5126fe53126e97",
+      "title": "Ep. 1 - Awakening from the Meaning Crisis - Introduction",
+      "url": "https://www.youtube.com/watch?v=54l8_ewcOlY",
+      "synthesis": "content/knowledge/vervaeke/001-awakening-from-the-meaning-crisis-introduction.md",
+      "contentHash": "98d489dc48967f3d963db1c2c1012b015b16c3ae057f30eb4b22ab3852760708",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dce83458c027d222",
+      "title": "Ep. 28 - Awakening from the Meaning Crisis - Convergence To Relevance Realization",
+      "url": "https://www.youtube.com/watch?v=Yp6F80Nx0lc",
+      "synthesis": "content/knowledge/vervaeke/036-ep-28-convergence-to-relevance-realization.md",
+      "contentHash": "661135d8e863ba56e8aac806d012ef9fbad122d5351148cca94c4add8afd5052",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "69d9c9722cac9fce",
+      "title": "Four Kinds of Knowing and Personality, Formal Cause, and Purpose with Sam Tideman",
+      "url": "https://www.youtube.com/watch?v=TrW3DOIkP78",
+      "synthesis": "content/knowledge/vervaeke/090-four-kinds-of-knowing.md",
+      "contentHash": "651a4ceba344eb5febe2bec94826e77eea6c86ee3d95d1737d00dc8c89e26415",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3be0f2a4a0febdac",
+      "title": "After Socrates: Episode 10a - Ecology of Practices",
+      "url": "https://www.youtube.com/watch?v=eldatUWfyfo",
+      "synthesis": "content/knowledge/vervaeke/092-ecology-of-practices.md",
+      "contentHash": "a1adc5669cc30a11b7c190dc11480ac32473a2ab0b44eb0a922de626ba4ba2d2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2d856cba7f5affff",
+      "title": "Ep. 33 - Awakening from the Meaning Crisis - The Spirituality of RR: Wonder/Awe/Mystery/Sacredness",
+      "url": "https://www.youtube.com/watch?v=_zkLevmQe90",
+      "synthesis": "content/knowledge/vervaeke/040-spirituality-of-relevance-realization.md",
+      "contentHash": "e45f82295a1137cbbd4873712d885f5e30097c64f90dc5ca777231288c95be44",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5b2a52ae543aab02",
+      "title": "Ep. 45 - Awakening from the Meaning Crisis - The Nature of Wisdom",
+      "url": "https://www.youtube.com/watch?v=DxLogRVfBv8",
+      "synthesis": "content/knowledge/vervaeke/058-the-nature-of-wisdom.md",
+      "contentHash": "64fbce67bf991da9ea2d79cf1d658398163569e8c01f305b480cd1d93b922aff",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

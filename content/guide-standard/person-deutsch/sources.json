@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "guideId": "person:deutsch",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "fb5d56d499080735",
+      "title": "The Reach of Explanations",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/001-the-reach-of-explanations.md",
+      "contentHash": "bd8229684adedcf3cfe438065c44cbd34b212339a09c92e021a503bd26e933bf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "144613827745d2bb",
+      "title": "Closer to Reality",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/002-closer-to-reality.md",
+      "contentHash": "e9f9d77b17fc4d2124c186a5c2e9a93fa8c25fc095bdc947cf3cb9712ba6eabf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f3f2e99dd8bff0ff",
+      "title": "The Spark",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/003-the-spark.md",
+      "contentHash": "382f578953402d6d5293d61dbcb1647682dfc84ff6ff824647078456962215a9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "705dee468754f229",
+      "title": "Creation",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/004-creation.md",
+      "contentHash": "7534ed8446702e895bccc896831b826fcd1296b82978584602d5da2c4fd5e0a9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e2db850eef2f1ca3",
+      "title": "The Reality of Abstractions",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/005-the-reality-of-abstractions.md",
+      "contentHash": "3d8865221016f79326d9509753320b2a707158d95cbce7a0b3d2aafd60f1d72c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9469cb1dad40e542",
+      "title": "The Jump to Universality",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/006-the-jump-to-universality.md",
+      "contentHash": "a69e32d13d6a0936b8f2d142e7316a5a0c678ceed43bb9b661e5e74a87e8e5a6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9eb419e28800bfd4",
+      "title": "Artificial Creativity",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/007-artificial-creativity.md",
+      "contentHash": "ed20b9e744c105a60b7f3cf6e44e8fcc61bb72a4240d0190a2f1eb4c53b7b68f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9ec789bfc18e6e9d",
+      "title": "A Window on Infinity",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/008-a-window-on-infinity.md",
+      "contentHash": "5481951d62c741a987f5b6c64de689fa5ca811733e77d32bdef73c74470cbf9f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "225baf536ac9b00f",
+      "title": "Optimism",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/009-optimism.md",
+      "contentHash": "4487f05f7b0ffb7f6e9e1f177eef99fb2cd8155c17cfe4839ef8d1ff8d94e004",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "501acec0f6ed1d93",
+      "title": "A Dream of Socrates",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/010-a-dream-of-socrates.md",
+      "contentHash": "4af7366fbe75dc935abaa78ed3b6685ea6194498346b720c360ba73de235659d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "98582688344a8961",
+      "title": "The Multiverse",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/011-the-multiverse.md",
+      "contentHash": "0bffd3e5644fd0b4b07fb3bb87f01fc8808f39b3729ad131b8423bf463a14245",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f702bae447a8a656",
+      "title": "A Physicist's History of Bad Philosophy",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/012-a-physicists-history-of-bad-philosophy.md",
+      "contentHash": "82875aec1edd09263510f7d5b6ab347d16c397bd951c862a8710bccb95bf1ee6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8140418ee0af2dc9",
+      "title": "Choices",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/013-choices.md",
+      "contentHash": "23243d77650e2c310c72c92ddcdb70e5bc016beb90a5771b2eb0bbf98039521a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bbf46efa08489a29",
+      "title": "Why are Flowers Beautiful?",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/014-why-are-flowers-beautiful.md",
+      "contentHash": "e46e895af96060eee9383233699cdc13607e69452f344c19952545593b80ab44",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fd27357906156d47",
+      "title": "The Evolution of Culture",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/015-the-evolution-of-culture.md",
+      "contentHash": "7f4f18dbd4e7b0e4b31e5b7efbc19c3ca63d660259c6d4104442a5cb94cfcd5e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e80d9d7840d70944",
+      "title": "The Evolution of Creativity",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/016-the-evolution-of-creativity.md",
+      "contentHash": "9f9947d09a65f13da7a9fb57461be392ae855cba81a82e4a366f0bef65bde625",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ab5b02277193a728",
+      "title": "Unsustainable",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/017-unsustainable.md",
+      "contentHash": "481bf6050db113b9bbeb59f47fd705d4d93c2802620b61cc73c5bedb49363823",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e511bb5eca7f7126",
+      "title": "The Beginning",
+      "url": null,
+      "synthesis": "content/knowledge/the-beginning-of-infinity/018-the-beginning.md",
+      "contentHash": "2483f373dfb79c0f754d8bb310c0959b5e1697f1ea26292a7c292b2a0a7b1f04",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "56a303a430aed444",
+      "title": "The Theory of Everything",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/001-the-theory-of-everything.md",
+      "contentHash": "0805dd1092fc41703cd51572d1f5144b97003dae248d94ce7c0b6cd9640fd1b7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "58cc8a99faa42e29",
+      "title": "Shadows",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/002-shadows.md",
+      "contentHash": "bc6b29d99359c8dd5f469d710dbdbf5ff318d79042392bfe6e9ff66d8ecfffb8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ec3a62340de9982e",
+      "title": "Problem-solving",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/003-problem-solving.md",
+      "contentHash": "5def51737bcf9725c225519ef9b15b4ba135af276651daf03e392e7ba9e2cbfb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "124d5759935fee77",
+      "title": "Criteria for Reality",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/004-criteria-for-reality.md",
+      "contentHash": "73773c86255a60aa8630e135d38d9aeb735e0673ffb0b74e846651a88c3c7372",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a37129097f131a78",
+      "title": "Virtual Reality",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/005-virtual-reality.md",
+      "contentHash": "16bfdaab35d6bdfdd50f08832bb5f0b830a033328981857cf2cf0c7e3932588b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "198c9e22d18b96fe",
+      "title": "Universality and the Limits of Computation",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/006-universality-and-the-limits-of-computation.md",
+      "contentHash": "0affef9729ddbab9c911bce2c5531b1660bcab862cbc65097d58d578073f092c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bb6744ee4708f9cf",
+      "title": "A Conversation About Justification",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/007-a-conversation-about-justification.md",
+      "contentHash": "b64cd531cc95ff5e3c6d133aa2436c8ba55acf7cd6218ce092a80f569280d1bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5fc4437a12e63cd8",
+      "title": "The Significance of Life",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/008-the-significance-of-life.md",
+      "contentHash": "73716fab8df15e0fa7af56384e6499f3326a7d2457d4761827286dd12d7f4cb5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "426c48751889161b",
+      "title": "Quantum Computers",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/009-quantum-computers.md",
+      "contentHash": "41c7d0803c71f99fb18c06da8114e343e186716dc0069ba4078509b8524e2853",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "68e1a215e6161b3f",
+      "title": "The Nature of Mathematics",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/010-the-nature-of-mathematics.md",
+      "contentHash": "9c3b5eec9ec3dfb5be934a65a14aa4b8780251205cc623fa6e09ca8e3f3fe74b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b81fb872a4f67ea5",
+      "title": "Time: The First Quantum Concept",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/011-time-the-first-quantum-concept.md",
+      "contentHash": "f10d57b4c612422c4fc45caa6c704e193455d6bcd6b1681480ad1c74e52aa644",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e308d17b541f9685",
+      "title": "Time Travel",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/012-time-travel.md",
+      "contentHash": "611e3bd1a42813304c87e1c70859cd579f832f64e7b9da3216d4836a80577edb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3cf6e6f9837a3f84",
+      "title": "The Four Strands",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/013-the-four-strands.md",
+      "contentHash": "3bfb9ac7c86f1e6548a00d818402a7fe93410e95e8484ac476b4414e23010942",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "65af5dc261794ecf",
+      "title": "The Ends of the Universe",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/014-the-ends-of-the-universe.md",
+      "contentHash": "578038188f9b88f6affa517a1691bd9d3af3cfa375cd27d62ef476b6a235ee90",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

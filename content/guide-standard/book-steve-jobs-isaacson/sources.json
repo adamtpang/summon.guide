@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "guideId": "book:steve-jobs-isaacson",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "ce7d1eed4c1a34ac",
+      "title": "How This Book Came to Be and Childhood",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/001-introduction-and-childhood.md",
+      "contentHash": "c9c7b24ac0efe81091ba7e9ab08978088123355bcc3a074dc609fa606502c2bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6d22b1fb23dcd3d1",
+      "title": "Odd Couple and The Dropout",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/002-odd-couple-and-the-dropout.md",
+      "contentHash": "72b49fa57afb077113e513e4edf583d7587b4207ea35cb58f51eb9d2b78f3c99",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8ccd6f90a6307a7b",
+      "title": "Atari and India",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/003-atari-and-india.md",
+      "contentHash": "3d50bdd3c0ef3f60561137633412eb8090d7a161d3e4328425f84e8b841a52fc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "61d9af8cfb89db84",
+      "title": "The Apple I",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/004-the-apple-i.md",
+      "contentHash": "236e84c928545373ef3648c4ab5cdfeb4d0317ca3e09c3cbb5f386080518e215",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8f9df946e8dcc55d",
+      "title": "The Apple II",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/005-the-apple-ii.md",
+      "contentHash": "b7beebe4ec20fecefdbc050e3980d015680d1123226ead8b467482fc0fca4937",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e50dd17a7e03fe11",
+      "title": "Chrisann and Lisa",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/006-chrisann-and-lisa.md",
+      "contentHash": "f541f9533788616394a4af28ce938929eb66e9c87b16066ecb88bbbf03a3b36f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f5414ed690dab3b4",
+      "title": "Xerox and Lisa, and Going Public",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/007-xerox-lisa-and-going-public.md",
+      "contentHash": "0520b953bde30a5ea36bc840fdda053edc05e64bcd41b55e44f284c9b282a0bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8992a86cd16125a4",
+      "title": "The Mac Is Born",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/008-the-mac-is-born.md",
+      "contentHash": "e70956b36105152f171dde42bfa9c4059769cd08c4a6a26df4f4def63e3be667",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cf0cf156822385b6",
+      "title": "The Reality Distortion Field",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/009-the-reality-distortion-field.md",
+      "contentHash": "1b0e53abf33f65a477f85787c4069c27cca3ab36d5542c49a82736c8d838fc50",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "babbdb5ea25fdcae",
+      "title": "The Design",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/010-the-design.md",
+      "contentHash": "1288d16756ca9f5e61ee5d3cdae8f9f30df8cdb04b64dffe07464c8012acd006",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "57b78fb929e7ac04",
+      "title": "Building the Mac",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/011-building-the-mac.md",
+      "contentHash": "b07274ea5b2de847e0dc950e940450159a0e2c4995960451bf17a701cbbb9129",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "548f90ebfd1ad59c",
+      "title": "Enter Sculley",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/012-enter-sculley.md",
+      "contentHash": "8d78d1143f57c690aa090741b9b701063e22bc2cb5712873f648da04dab85a82",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "74a9b91146cbc010",
+      "title": "The Launch",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/013-the-launch.md",
+      "contentHash": "af33c3180eb25ff0d88b693278674e9784d4f22fc66b8d94645fd82a0a4b77a1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5e75544275f0a783",
+      "title": "Gates and Jobs",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/014-gates-and-jobs.md",
+      "contentHash": "c523e65c1706d466617c818a185e9161d6162542b77ce6efab1417ccf2b71c0f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f5ea4c1031486e15",
+      "title": "Icarus",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/015-icarus.md",
+      "contentHash": "03aa3100a82238af66b9ba421ed0f274d602f69e56a2e49b26c15405e253e6c3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "57b421a177b6b2bc",
+      "title": "NeXT",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/016-next.md",
+      "contentHash": "d65e098d1c505e120ebba55923d3ce53947fbdd81edddf5a287d389995caac5a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ce9ba6ee2475488c",
+      "title": "Pixar",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/017-pixar.md",
+      "contentHash": "8511957de4a4408a166156dbb6340e6bda5a1c0be2575962d144da0460596ac4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "634158fcd78548fc",
+      "title": "A Regular Guy",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/018-a-regular-guy.md",
+      "contentHash": "1176b90df383ff557564a588c06e736f36cabb0dedbe47c52451a6c9e74d6918",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b25ad33132aaee74",
+      "title": "Family Man",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/019-family-man.md",
+      "contentHash": "56eae681117ba1886f1cf1d636b0f23d86e5bc0864df41b0bc2868a04b194770",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "54763a63bf0fd64c",
+      "title": "Toy Story and The Second Coming",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/020-toy-story-and-the-second-coming.md",
+      "contentHash": "e5a6c76bd8bf52d055437b29faa1ccd45a18ca7cea2947f5b46d6bbf47457d16",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4940193af74c2b9f",
+      "title": "The Restoration",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/021-the-restoration.md",
+      "contentHash": "5ac517d2d8449ed74982a5b0cd0227491f70be48035914f207d34f6cd4b13102",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d1aae0b3e0ad513c",
+      "title": "Think Different",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/022-think-different.md",
+      "contentHash": "f8c3376406d74aed547388f621172f2248f5cf502df7a5b9c3e7150e4f45c155",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8345afff16019fa1",
+      "title": "Design Principles",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/023-design-principles.md",
+      "contentHash": "6bd0491147c63f1a80d6efeeee40a47a243f01beb2b503ad82f730c61f16893f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4f1da01ab44b4a7f",
+      "title": "The iMac and CEO",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/024-the-imac-and-ceo.md",
+      "contentHash": "73f4c4f5057044a882382cf4fb190a74b69bc199f265ecb74086a02995565736",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5abf33bffb0d8fa5",
+      "title": "Apple Stores and the Digital Hub",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/025-apple-stores-and-the-digital-hub.md",
+      "contentHash": "fd27d77b70303665e554056a5f2b46ff65f2b7e78d8e713360544418cad6017d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fc9c52e3503cc7d5",
+      "title": "The iTunes Store",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/026-the-itunes-store.md",
+      "contentHash": "551ea1ff8957e891780a8e6f481545e15e278c6f736e563463ea7d7cc4530f46",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d64ef2d23d6c31c3",
+      "title": "Music Man",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/027-music-man.md",
+      "contentHash": "28ec60affdbf5d11d136d5766340ee421898be9a8b84eab294670be3a901d8b3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "96e07ff972b38bee",
+      "title": "Pixar's Friends",
+      "url": null,
+      "synthesis": "content/knowledge/steve-jobs-isaacson/028-pixars-friends.md",
+      "contentHash": "b28bf6921f5d1b19cb8cf3264db7dfe16da0fcdd75fabfedab014980b9cfed01",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

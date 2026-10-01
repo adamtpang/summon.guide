@@ -1,0 +1,66 @@
+import fs from 'node:fs';
+import {guideAgents} from '../src/lib/guideAgents.ts';
+import {figures} from '../src/lib/figures.ts';
+import {books} from '../src/lib/books.ts';
+import {getGuideEpisodes} from '../src/lib/guideRetrieval.ts';
+import {sourceCorpus} from '../src/lib/sourceCorpus.ts';
+import {applySourceRuntimePolicy} from '../src/lib/sourcePolicy.ts';
+import {VOICE_MAP} from '../src/lib/voices.ts';
+import {categories,classifyWithFallback,examples} from './guide-classifier.mjs';
+const exists=p=>fs.existsSync(p);
+const files=fs.readdirSync('content/distilled').filter(f=>f.endsWith('.md')).map(f=>({file:`content/distilled/${f}`,text:fs.readFileSync(`content/distilled/${f}`,'utf8')}));
+const records=guideAgents.map((g,i)=>({id:`r${i}`,name:g.name,kind:g.kind,description:g.description,domains:g.domains,byline:g.byline}));
+const benchmark=JSON.parse(fs.readFileSync('data/guide-audit/jev-benchmark.json','utf8'));
+if(!benchmark.passed)throw new Error('Jev benchmark must pass before integration');
+const run=process.argv.includes('--classify');
+let classification;
+if(run){
+ classification={date:new Date().toISOString(),taxonomy:categories,threshold:0.75,batches:[],decisions:{}};
+ const validation=await classifyWithFallback(examples.map(({id,description})=>({id,description})));
+ classification.integratedValidation={correct:examples.filter(r=>validation.decisions[r.id]?.category===r.expected).length,total:examples.length,...validation};
+ for(let i=0;i<records.length;i+=10){const batch=await classifyWithFallback(records.slice(i,i+10));classification.batches.push(batch);Object.assign(classification.decisions,batch.decisions);console.log(`Classified ${Math.min(i+10,records.length)}/${records.length}`);}
+ classification.identities=Object.fromEntries(guideAgents.map((g,i)=>[g.id,classification.decisions[`r${i}`]]));
+ fs.writeFileSync('data/guide-audit/classification.json',JSON.stringify(classification,null,2)+'\n');
+}else classification=JSON.parse(fs.readFileSync('data/guide-audit/classification.json','utf8'));
+const rows=guideAgents.map(g=>{
+ const figure=figures.find(f=>f.slug===g.slug);const source=books.find(b=>b.slug===g.slug);
+ const episodes=g.kind==='person'?getGuideEpisodes(g.slug):applySourceRuntimePolicy(g.slug,sourceCorpus[g.slug]?.episodes||[]);
+ const missingFiles=episodes.filter(e=>!exists(e.file)).length;
+ const ownDistillations=files.filter(f=>(g.kind!=='person'||/^type: ["']?guide["']?\r?$/m.test(f.text))&&new RegExp(`^guideSlug: ["']?${g.slug}["']?\\r?$`,'m').test(f.text)||f.file===`content/distilled/${g.slug}.md`).map(f=>f.file);
+ const linkedDistillations=files.filter(f=>!ownDistillations.includes(f.file)&&g.sourceSlugs.some(s=>f.file===`content/distilled/${s}.md`)).map(f=>f.file);
+ const voice=VOICE_MAP[g.slug];const voiceStatus=voice?(Object.values(VOICE_MAP).filter(v=>v===voice).length>1?'shared casting':'unique configured ID'):'not assigned';
+ const skillArtifacts=g.skillSlugs.map(slug=>({slug,paths:[`plugins/${source?.figureSlug||g.slug}/skills/${slug}/SKILL.md`,`.claude/skills/${slug}/SKILL.md`,`.agents/skills/${slug}/SKILL.md`].filter(exists)}));
+ const standardWorkflow=`packs/guide-workflows/${g.kind}-${g.slug}/SKILL.md`;
+ const hasStandardWorkflow=exists(standardWorkflow);
+ const gaps=[];
+ if(!g.capabilities.includes('chat'))gaps.push('no web chat');
+ if(!episodes.length)gaps.push('no retrievable synthesis');else if(missingFiles)gaps.push(`${missingFiles} missing source files`);
+ if(!ownDistillations.length)gaps.push('no own one-page distillation');
+ if(!skillArtifacts.some(s=>s.paths.length)&&!hasStandardWorkflow)gaps.push('no standalone workflow artifact');
+ if(g.kind==='person'&&!figure?.portrait)gaps.push('no portrait');
+ if(g.kind==='person'&&!voice)gaps.push('no voice assignment');
+ gaps.push('full corpus/rights/answer-quality audit not certified');
+ return {id:g.id,name:g.name,kind:g.kind,...classification.identities[g.id],domains:g.domains,availability:g.availability,runtime:g.runtime.kind,chat:g.capabilities.includes('chat'),url:g.chatHref||g.profileHref||null,syntheses:episodes.length,missingFiles,ownDistillations,linkedDistillations,declaredSkills:g.skillSlugs,skillArtifacts,standardWorkflow:hasStandardWorkflow?standardWorkflow:null,portrait:figure?.portrait||source?.image||null,voice:g.kind==='person'?voiceStatus:'not applicable',eve:exists(`eve-guides/${g.kind}-${g.slug}/agent/agent.ts`)?'package authored; activation gated':'missing',gaps};
+});
+const summary={total:rows.length,kinds:Object.fromEntries(['person','book','channel'].map(k=>[k,rows.filter(r=>r.kind===k).length])),chat:rows.filter(r=>r.chat).length,noCorpus:rows.filter(r=>!r.syntheses).map(r=>r.name),building:rows.filter(r=>r.availability==='building').map(r=>r.name),categories:Object.fromEntries(Object.keys(categories).map(c=>[c,rows.filter(r=>r.category===c).length]))};
+fs.writeFileSync('data/guide-audit/roster.json',JSON.stringify({date:new Date().toISOString(),summary,rows},null,2)+'\n');
+const cell=s=>String(s).replaceAll('|','/').replaceAll('\n',' ');
+let md='# Full Summon roster and build audit\n\nGenerated from local registries and actual files. Not a production deployment receipt.\n\n'+`${summary.total} agents: ${summary.kinds.person} people, ${summary.kinds.book} books/collections, ${summary.kinds.channel} channels. ${summary.chat} have a declared web chat capability.\n\n`;
+md+='Categories are Jev primary-topic judgments over public metadata, with a 0.75 threshold and the existing OpenRouter generation path as fallback. Topics can overlap; the primary label is not an exclusive identity. Build status below is deterministic, not judged by Jev.\n\n';
+md+='Every guide now has a standard source-guided workflow in packs/guide-workflows; the S column counts additional bespoke skills only. Generated source digests are authored artifacts, not independently reviewed worldviews. Notes are runtime synthesis records, not full transcripts or independent source counts. D = own / linked-source distillations. S = declared / standalone skill artifacts located. Voice assignments are not proof of voice quality or unique voices. Eve packages are authored but activation remains gated. No row is certified end-to-end complete. File presence does not establish rights, factual accuracy, or answer quality.\n\n';
+for(const kind of ['person','book','channel']){
+ md+=`## ${kind}\n\n| Guide | Primary category (route/confidence) | Chat | Notes | D | S | Voice | Missing / unverified |\n| --- | --- | --- | ---: | --- | --- | --- | --- |\n`;
+ for(const r of rows.filter(r=>r.kind===kind))md+=`| ${cell(r.name)} | ${r.category||'unclassified'} (${r.path||'none'}${r.confidence!==null&&r.confidence!==undefined?`, ${r.confidence.toFixed(2)}`:''}) | ${r.chat?'yes':r.runtime==='pack'?'pack only':'pending'} | ${r.syntheses} | ${r.ownDistillations.length}/${r.linkedDistillations.length} | ${r.declaredSkills.length}/${r.skillArtifacts.filter(s=>s.paths.length).length} | ${r.voice} | ${cell(r.gaps.join('; '))} |\n`;
+ md+='\n';
+}
+const jevRows=Object.values(classification.identities);
+const jevCost=classification.batches.reduce((sum,b)=>sum+(b.jevUsage?.cost||0),0);
+md+='## Jev verification\n\n';
+md+=`Manual synthetic sample: Jev ${benchmark.jev.correct}/12 and incumbent ${benchmark.incumbent.correct}/12; no misses. Batch latency ${benchmark.jev.latencyMs} ms versus ${benchmark.incumbent.latencyMs} ms. Jev cost $${benchmark.jev.usage.cost}; incumbent cost unavailable because the existing wrapper does not expose usage. Integrated rerun: ${classification.integratedValidation.correct}/12.\n\n`;
+md+=`Roster: ${jevRows.filter(r=>r.path==='jev').length} accepted Jev decisions, ${jevRows.filter(r=>r.path==='incumbent').length} incumbent decisions below the confidence threshold. Jev roster cost $${jevCost.toFixed(6)}, excluding fallback costs. No private user context was sent. Public guide metadata only.\n\n`;
+md+='Refresh local audit: `node --experimental-transform-types --import ./scripts/guide-audit-loader.mjs scripts/audit-guide-roster.mjs`. Add `--env-file-if-exists=.env.local` before the script and `--classify` after it to request fresh Jev classifications. The benchmark is required before running classification.\n\n';
+md+='## Verification limits\n\nSyntheses are counted from getGuideEpisodes/sourceCorpus. This does not audit private raw research, Bookbox completeness, live entitlement, hosted retrieval indexes, audio playback or per-guide generated answer quality. Every guide still needs a traceable release checklist before calling it fully complete. The synthetic Jev benchmark is a smoke test, not a broad multilingual or ambiguous-topic evaluation.\n';
+const staged=JSON.parse(fs.readFileSync('data/requested-guide-sources.json','utf8'));
+md+='\n## Staged outside the public roster\n\n';
+for(const item of staged)md+=`- ${item.guideName}: ${item.status}; ${item.extractedVideoCount||0} reported private research documents. Not a public guide and excluded from the totals above.\n`;
+fs.writeFileSync('docs/guide-roster-audit.md',md);console.log(JSON.stringify(summary));

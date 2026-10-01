@@ -1,4 +1,5 @@
 "use client";
+import { completePrompts } from "@/lib/guidePrompts";
 
 import { useState, useRef, useEffect, use, useCallback } from "react";
 import { getBook } from "@/lib/books";
@@ -58,11 +59,12 @@ function defaultSuggestedQuestions(title: string, slug: string): string[] {
   if (slug === "founders-podcast") {
     return FOUNDERS_LENS_PROMPTS.slice(0, 3).map((item) => item.prompt);
   }
-  return [
-    `What's a recurring idea across ${title}?`,
-    "What's a specific story or example worth knowing?",
-    "What would this corpus say I'm missing?",
-  ];
+  const topics = [...new Set(getSourceCorpus(slug)?.episodes.map(episode => episode.principle.trim()).filter(Boolean))].slice(0, 3);
+  return completePrompts(topics.map(topic => `How can I apply this idea: ${topic.replace(/[.!?]+$/, "")}?`), [
+    `Which idea from ${title} should I try first?`,
+    `What tradeoffs does ${title} explore?`,
+    `What is a useful exercise based on ${title}?`,
+  ]);
 }
 
 export default function SourceChatPage({
@@ -372,7 +374,7 @@ export default function SourceChatPage({
 
       <div className="relative z-10 px-3 pb-[max(12px,env(safe-area-inset-bottom))] pt-1 shrink-0">
         <div className="mx-auto max-w-2xl">
-          <PromptBubbles prompts={hasMessages ? followups : defaultSuggestedQuestions(corpus.title, slug)} disabled={loading} onSelect={q => { void sendQuickMessage(q); }} />
+          <PromptBubbles prompts={completePrompts(hasMessages ? followups : [], defaultSuggestedQuestions(corpus.title, slug))} disabled={loading} onSelect={q => { void sendQuickMessage(q); }} />
           <ChatComposer
             value={input}
             onChange={setInput}

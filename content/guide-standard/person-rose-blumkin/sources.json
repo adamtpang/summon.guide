@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "guideId": "person:rose-blumkin",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "94dd1fcd19a21345",
+      "title": "Rose Blumkin: customer value and operating discipline",
+      "url": "https://www.berkshirehathaway.com/letters/1983.html",
+      "synthesis": "content/knowledge/rose-blumkin/001-customer-value.md",
+      "contentHash": "7e134bf55b0386a064e611681671354991da32fcbc636de5a24bc9076465f639",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f6673a0f97e7c7df",
+      "title": "Rose Blumkin: trust and a defined area of competence",
+      "url": "https://www.berkshirehathaway.com/letters/1984.html",
+      "synthesis": "content/knowledge/rose-blumkin/002-trust-and-competence.md",
+      "contentHash": "81b68efcc94dc71bc7f956ebda0629701e1c05bdcc350295f6c91247b162266a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

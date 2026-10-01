@@ -1,0 +1,1777 @@
+{
+  "kind": "automated citation smoke, not independent quality certification",
+  "results": {
+    "person:annie-duke": {
+      "hash": "1d520b3aca3134e11f0718c49b83aad6c50b17685a18edd317f9adc591a1dafb",
+      "checkedAt": "2026-09-20T13:30:53.297Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Annie Duke's twenty-year detour from a cognitive-psychology PhD into professional poker taught her that only two things determine how any life turns out: the quality of our decisions and luck, and most of our suffering comes from failing to tell the two apart.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The principle: separate decision quality from outcome quality. Duke calls the error \"resulting,\" treating a good outcome as proof of a good decision and a bad one as proof of a bad decision. She notes that even a strong poker player still loses over 40% of the time, so outcomes are only loose signals of process [Source: \"Chapter 1: Life Is Poker, Not Chess\"].\n\nMy application, not hers: for a small reversible decision, judge yourself on the reasoning you can write down beforehand, not on how it lands.\n\nSmall test: before deciding, write your confidence as a percentage and one sentence on why. Afterward, ask whether the process was sound, regardless of result.\n\n[FOLLOWUP: What percentage confidence would make this bet worth taking? | What new information would change your mind here? | What is your kill criterion for reversing this decision?]",
+      "citations": [
+        "Chapter 1: Life Is Poker, Not Chess"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:alexander": {
+      "hash": "c49865390e942779b394b1f7110c847b64ad19ac1d4efcb9e5e58d28b7ffd55a",
+      "checkedAt": "2026-09-20T13:30:55.344Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Plutarch announces he is writing a life, not a history, and proves it immediately: a boy's questions to Persian envoys and his handling of one unmanageable horse tell us more about Alexander than any battle count could.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle: Plutarch says he writes lives, not histories, and will favor a revealing expression or jest over exhaustive accounts of armaments and battles, the way a portrait painter lingers on the face rather than the whole body. He demonstrates it with the boy Alexander questioning Persian envoys about travel distances and the king's forces, and with Bucephalas, whom Alexander tamed by noticing the horse feared its own shadow and turning it toward the sun [Source: \"Birth, Boyhood, and the Taming of Bucephalus\"].\n\nMy application is inference, not documented: judge your small reversible decision by one revealing detail rather than a full tally of pros and cons.\n\nSmall test: write the single detail that would tell you most about the outcome, then decide on that alone.\n\n[FOLLOWUP: What made Bucephalas unrideable for everyone else? | Why did Alexander question the Persian envoys so closely? | How would you apply this to a decision you are facing now?]",
+      "citations": [
+        "Birth, Boyhood, and the Taming of Bucephalus"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:adam-neumann": {
+      "hash": "519bbc6b91c2edff96197b01d188bfe8cf9ee8d734c1eb31787097ea910bf649",
+      "checkedAt": "2026-09-20T13:30:58.023Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Test a growth narrative against the obligations behind it.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The principle: test a growth narrative against the obligations behind it. During WeWork's IPO review, the SEC asked for balanced disclosure of revenue backlog alongside noncancelable lease commitments, so promised growth could be read next to fixed commitments and downside cash needs. [Source: \"WeWork: revenue narratives and obligations\"]\n\nMy application, not Neumann's: on your reversible decision, write the growth claim on one side and the fixed commitment it requires on the other.\n\nSmall test: run the smallest version, one month, one hire, one space, and check whether you can exit if the growth does not appear.\n\nWhat is the actual fixed commitment here?\n\n[FOLLOWUP: How do I separate a growth story from a fixed commitment? | What counts as a downside cash need for a small test? | When should I walk away from a reversible bet?]",
+      "citations": [
+        "WeWork: revenue narratives and obligations"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:brad-jacobs": {
+      "hash": "c78ac1c56893f1d510513697a7cde3bd284f2185f8eb523b85e39860365a182d",
+      "checkedAt": "2026-09-20T13:31:01.398Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Treat problems as opportunities, get the major trend right, hire people smarter than you, and repeat one disciplined playbook everywhere.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle: Jacobs treats problems as the work itself, not a distraction from it. His mentor Ludwig Jesselson told him that if you want to make money in business, get used to problems, because problems are what business is. Jacobs also crowdsources them directly, asking frontline employees \"what's the stupidest thing we do?\" rather than waiting for management's filtered version. [Source: \"How Brad Jacobs Built 8 Billion-Dollar Companies\"]\n\nMy application, not his: for a small reversible decision, the test is whether you are avoiding the problem or pricing it. Pick the one thing you are currently routing around.\n\nSmall test: ask three people closest to the work what the stupidest thing you are doing is, write down the answers verbatim, and pick one to fix this week.\n\n[FOLLOWUP: What makes a problem solvable versus structural? | How do you run the resignation test on a small team? | When should you walk away from a deal instead of fixing it?]",
+      "citations": [
+        "How Brad Jacobs Built 8 Billion-Dollar Companies"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:brian-armstrong": {
+      "hash": "0cf6889265bd9eda1d8ce928e16b5a968facaef69295940c59b28fdd82238e7b",
+      "checkedAt": "2026-09-20T13:31:04.639Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: A long-term mission simplifies the hardest calls, even suing your regulator, and a founder's edge is knowing he could rebuild from scratch.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One supported principle: a long-term mission makes expensive decisions legible. Brian Armstrong met with the SEC roughly thirty times asking for rules, got enforcement instead, and checked whether suing a regulator had ever worked before doing it. The mission, not the fear, set the call.\n\nThat is his documented case. My application is narrower: you said \"small and reversible,\" which is not the same category. Reversible means you can absorb being wrong cheaply, so you may not need the mission framing at all. Say what decision you are actually facing and what \"reversible\" costs you.\n\nSmall test: write one sentence naming your ten year objective, then ask whether this choice serves it. If both options do, just pick the cheaper one.\n\nCite as: [Source: \"Brian Armstrong: When Washington Tried to Kill Coinbase\"]\n\n[FOLLOWUP: What decision are you actually weighing? | What would make this choice irreversible? | How would you know in 90 days if it was wrong?]",
+      "citations": [
+        "Brian Armstrong: When Washington Tried to Kill Coinbase"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:bob-marley": {
+      "hash": "620e9cc2e2d2c4a1c64ea60b57de2f4d6c174812d32efe06ee2de1037462b524",
+      "checkedAt": "2026-09-20T13:31:04.771Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Art can carry a social concern while remaining an experience people enjoy.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Marley's estate biography holds one principle: the music carried a social concern and still made people dance. Bob Marley sang about downpression in songs a whole yard could enjoy, never a slogan set to noise. [Source: \"Bob Marley: music and social expression\"]\n\nThe application now is mine, not his: if you have something true to say, put it inside a thing that feels good first. Craft is the vehicle, not the decoration.\n\nSmall test: take one song you already love singing. Sharpen one line to name the thing that trouble you. Keep the riddim that makes the body move. Play it for five people. If they dance, then ask what that line meant, you win. If they only nod, the line was too loud.\n\n[FOLLOWUP: How did Bob Marley keep politics from swallowing the groove? | What makes a protest line feel preachy instead of musical? | How would I test a song idea on just five listeners?]",
+      "citations": [
+        "Bob Marley: music and social expression"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:franklin": {
+      "hash": "303b65c51d7e1fe268883c5fb3cdd2dea1194e749586ee2bdcac4e5022c6296b",
+      "checkedAt": "2026-09-20T13:31:12.529Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Franklin opens not with himself but with three generations of an obscure, dissenting, hands-working English and New England family, framing his own rise as the payoff of habits (industry, frugality, plain dealing) that predate him, not personal genius arriving from nowhere.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Franklin's account opens with three generations of Northamptonshire blacksmiths and a Boston candle maker, framing his own rise as the payoff of habits, industry, frugality, plain dealing, that predate him rather than genius arriving from nowhere. His father Josiah switched trades simply because candle and soap making could feed seventeen children, a practical, unsentimental move. [Source: \"Ancestry and Early Life in Boston\"]\n\nMy application, not his: treat a small reversible decision as a habit test rather than a bet on your own brilliance. Ask whether the choice reinforces a routine you already trust.\n\nOne small test: for seven days, log the single habit the decision depends on. If you cannot keep the log, the decision is premature.\n\nWhat habit would this decision actually rest on?",
+      "citations": [
+        "Ancestry and Early Life in Boston"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:cal-newport": {
+      "hash": "805aff7385fb567522a7dea9b015bb2afa12be711a05199f4fb9e6cb28cda2d7",
+      "checkedAt": "2026-09-20T13:31:29.260Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Newport opens with Carl Jung retreating to a stone tower to out-think Freud, then names the two abilities that decide who wins in a distraction economy: learning hard things fast and producing at an elite level. Both, he argues, depend on a single trainable skill he calls deep work, which is becomin. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The principle: deep work is distraction-free concentration that pushes your cognitive limits and creates hard-to-replicate value, and Newport argues this capacity is growing rarer while growing more valuable, so deliberately building it compounds. He grounds this in Carl Jung's 1922 Bollingen Tower rhythm, two hours of undistracted writing each morning, and in the Deep Work Hypothesis itself. [Source: \"Introduction: The Deep Work Hypothesis\"]\n\nMy application, not Newport's: for a small reversible decision, treat it as a test of whether you can protect one uninterrupted block, not as a verdict on your whole schedule.\n\nSmall test: pick one 90-minute block this week, phone in another room, one hard task only. Note afterward whether the work felt different from your usual fragmented output. That single data point tells you more than any theory.\n\n[FOLLOWUP: What counts as deep work in my specific job? | How do I find 90 minutes in a full calendar? | What if my role is mostly reactive by design?]",
+      "citations": [
+        "Introduction: The Deep Work Hypothesis"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:carol-dweck": {
+      "hash": "a65f97f2d74f81e3ed3efaac08c9731d3ccb76771d66bc4a8a2b2f772509565a",
+      "checkedAt": "2026-09-20T13:31:29.692Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Dweck frames the whole book around one claim: a simple belief about whether your qualities are fixed or can be developed quietly shapes nearly everything else about how you live, and the book exists to make that belief visible and changeable.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle is Dweck's framing claim: a belief about whether qualities are fixed or developable quietly shapes much of how you live, and because it is a belief rather than a trait, it can be made visible and changed. That is documented in [Source: \"Introduction\"].\n\nMy application to your decision is inference, not a finding: a reversible choice is a low-cost place to test which belief is running, since the cost of being wrong is small.\n\nSmall test: write one sentence stating what you think this decision reveals about you. If it reads as a verdict (\"this proves I'm not...\"), rewrite it with \"yet\" and name one strategy you'd try instead. Then make the decision.\n\n[FOLLOWUP: What exact words did you use about yourself when you last failed at something? | What did you change about your strategy, not just your effort? | Where has praise attached itself to a fixed trait in your life?]",
+      "citations": [
+        "Introduction"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:charlie-munger": {
+      "hash": "c57b1d69e03ba7583b69dbfe3c1dfac7878854aa463cc161eaa26efd587f7df9",
+      "checkedAt": "2026-09-20T13:31:31.100Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Munger's real subject across every talk in this book is not stock picking but how to live: worldly wisdom applied to decisions, character, and the avoidance of folly, with investing as just the most visible proving ground.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Kaufman's introduction makes the point directly: Munger's subject was how to live, with investing as the most visible proving ground, and he taught by inversion rather than prescription, following Jacobi's \"invert, always invert.\" Kaufman also notes Munger repeated ideas on purpose, because fluency comes from repetition, not one-time exposure.\n\nThat is documented. My application to your small reversible decision is inference, not Munger's: before asking what would make it go well, write what would make it a quiet disaster, then check whether your version avoids those.\n\nSmall test: spend ten minutes listing three ways this decision fails, and one incentive pushing you toward it. If nothing on the list is ruinous, proceed.\n\n[Source: \"Introduction by Peter D. Kaufman\"]\n\n[FOLLOWUP: What would make this decision irreversible? | Who benefits if you decide quickly? | What is the best alternative you are declining?]",
+      "citations": [
+        "Introduction by Peter D. Kaufman"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:daniel-ek": {
+      "hash": "811bb7d12db6f34c05f7cfb8f7764c67c85df69b6e0e89211a54bedd00efda23",
+      "checkedAt": "2026-09-20T13:31:34.109Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Optimize for impact over happiness; happiness is a trailing indicator of impact, and greatness requires building a company true to yourself.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The documented principle: in that conversation Ek frames happiness as a trailing indicator of impact, and impact as deeply personal, only definable by the person living it. He also warns that advice is useless unless it is tied to who you are. [Source: \"Daniel Ek, Spotify | David Senra\"]\n\nMy application, not his claim: for a small reversible decision, ask whether the option increases your impact or merely your comfort. Contentment can look like happiness while being a downshift.\n\nSmall test: pick the reversible option you are drawn to, write one sentence naming the specific impact it serves, and act. Revisit in two weeks and check whether you felt more alive or only more settled.\n\nWho is the impact for: you, a team, or an audience?\n\n[FOLLOWUP: What did Ek mean by contentment versus happiness? | How do you define impact when it feels vague? | What did Ek learn from imitating Jobs?]",
+      "citations": [
+        "Daniel Ek, Spotify | David Senra"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:deutsch": {
+      "hash": "445f411937b024d195f9abd303fef498d136bc4d218a1c6ff617244f1018d32c",
+      "checkedAt": "2026-09-20T13:31:36.881Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Knowledge is not derived from sensory experience by induction; it is created by conjecture and winnowed by criticism, and a genuinely good explanation is one that is hard to vary while still accounting for what it purports to account for, which is why good explanations reach far beyond the evidence . Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The principle: knowledge grows by conjecture and criticism, not by induction, and a good explanation is hard to vary while still accounting for what it purports to account for. That is why its reach extends beyond the evidence that inspired it. [Source: \"The Reach of Explanations\"]\n\nMy application, not his: for your small reversible decision, ask whether your reasoning is a hard-to-vary explanation or a guess you could swap for any other and still feel fine. If you could substitute the details freely, it is probably a bad explanation.\n\nOne small test: write down your reason, then try to alter one detail. If the conclusion survives every alteration, you have not yet explained anything.\n\nWhat is the decision?",
+      "citations": [
+        "The Reach of Explanations"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:senra": {
+      "hash": "0ad6e16ab0d2612872538446e0fb52cb38d89674efffa461434a20a764204255",
+      "checkedAt": "2026-09-20T13:31:37.275Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Run Elon's algorithm on everything: question every requirement, delete relentlessly, then simplify, accelerate, and automate last.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One supported principle: run the algorithm in strict order, and never automate or accelerate something that should have been deleted first, since \"if a timeline is long, it's wrong\" [Source: \"How Elon Works\"].\n\nMy application, not Elon's: for a small reversible decision, the order matters more than the decision itself. If you automate before questioning the requirement, you lock in waste.\n\nSmall test: name the person who set the requirement. If no real person owns it, delete the step this week and see if anything breaks.\n\n[FOLLOWUP: What requirement in your project has no named owner? | Which step are you automating too early? | What would deleting it cost you?]",
+      "citations": [
+        "How Elon Works"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:elon": {
+      "hash": "9c65a902039fbe2436d4fbc3aa40e4a3da68544fd29667be74807c4554a36720",
+      "checkedAt": "2026-09-20T13:31:48.132Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Musk operates by a self-authored master plan (Internet, renewable energy, space) executed with obsessive, boundary-erasing intensity, and the people around him either orbit that mission or get run over by it.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The documented principle: Musk runs one interlocking mission, and everything else gets subordinated to it. Vance's account of \"Musk Land\" and his hour-by-hour week shows the plan consuming his calendar and capital, roughly $180 million split across SpaceX, Tesla, and SolarCity, with people either aligning to it or being displaced. Cite as: [Source: \"Elon's World\"]\n\nThat is his documented pattern, not advice. My application to you: your small reversible decision is a reasonable place to test whether mission-first prioritization actually fits your life.\n\nTest: for two weeks, put one mission-critical task ahead of one optional commitment, and log what breaks. If nothing breaks, the boundary was softer than you assumed. If relationships strain, you have measured the real cost before scaling it.\n\n[FOLLOWUP: What makes your decision reversible? | Who around you would absorb the cost if you went all in? | Which commitment would you cut first, and why?]",
+      "citations": [
+        "Elon's World"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:hesse": {
+      "hash": "28f50559f230c69af6a1272366dac31a058e6eaf7a364ec789ed8acdd06741b5",
+      "checkedAt": "2026-09-20T13:31:52.793Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Siddhartha has every gift his world can give him — beauty, intellect, his father's pride, Govinda's devotion — and none of it touches the thirst underneath, because the thirst is for something rituals and inherited teachings cannot supply.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "I am an AI simulation built from Hermann Hesse's documented life and writing, not the man himself.\n\nThe supported principle: Siddhartha's discontent was not rebellion. He found that ablutions \"did not wash off the sin\" and that even his venerable father still washed daily, proof that inherited practice does not itself produce peace [Source: \"The Brahman's Son\"].\n\nMy application, not Hesse's: a small reversible decision is a poor place to test a thirst that rituals cannot reach. It tests convenience, not longing.\n\nOne small test: before deciding, sit with the question for a week and notice whether the wanting changes shape or only changes object.\n\nWhat is the decision, specifically?",
+      "citations": [
+        "The Brahman's Son"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:james-clear": {
+      "hash": "ad7f1d235b179610f3e4e90540afc5aeb7b0a9f41f1bcdd4174aa33a4ff54928",
+      "checkedAt": "2026-09-20T13:32:06.955Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Clear's entire framework grows out of one personal fact: he rebuilt his life through small, boring, repeated actions after a baseball bat to the face nearly killed him, and the book exists because tiny habits, not one dramatic turnaround, did the rebuilding.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle is that Clear's framework grew from his own recovery: after a bat to the face, multiple skull fractures, a coma, and a year of double vision, he rebuilt through boring routines rather than one comeback. He rebuilt with consistent sleep, a tidy dorm room, and lifting that took him from 170 to 200 pounds, and those compounded into a starting pitching role and captaincy [Source: \"Introduction: My Story\"].\n\nMy application, not his: for your reversible decision, treat it as a vote, not a verdict. Name the smallest version you could repeat this week, something under two minutes.\n\nOne small test: do the two-minute version once, then ask whether the identity underneath it is one you actually want.\n\n[FOLLOWUP: What habit is actually underneath this decision? | What is the two-minute version of it? | What friction in your environment is working against it?]",
+      "citations": [
+        "Introduction: My Story"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:sivers": {
+      "hash": "ed820dd30d8bd9073f2f347e8873a20a95bb4dc6ef94e21c7e7a331258fc0a46",
+      "checkedAt": "2026-09-20T13:32:14.084Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Sivers frames the whole book as one person's compressed, disagreeable-on-purpose philosophy, not a formula, and opens with a list of claims that every later chapter exists to prove with a real story.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The principle: Sivers wrote the book as one person's compressed, disagreeable-on-purpose philosophy, not a formula, and he explicitly hoped parts of it would be disagreed with rather than accepted. That is documented in [Source: \"What's Your Compass?\"].\n\nMy application, not his: treat any borrowed philosophy as a tool to test, not a truth to adopt. He does not say that about your specific decision.\n\nSmall test: write the claim in one sentence, then ask whether believing it changes one action you take this week. If nothing changes, it is decoration.\n\n[FOLLOWUP: What are you actually optimizing for here? | Is this a hell yeah or a medium yes? | What is the smallest version you could test this week?]",
+      "citations": [
+        "What's Your Compass?"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:jeff-bezos": {
+      "hash": "cb941bc50f8e00da0e55918dacf0120aead310fb4709bfbb08761dd4b2f0a92d",
+      "checkedAt": "2026-09-20T13:32:16.105Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Obsess over customers and think in decades; patient invention compounds into free cash flow and a franchise rivals cannot copy.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The principle: customer obsession beats competitor obsession. Jeff treated customer needs, not rivals, as the fixed point everything else optimizes around, and he wrote the flywheel into the letters, lower costs, lower prices, more growth, more scale, then repeat. [Source: \"Lessons from Jeff Bezos's Shareholder Letters\"]\n\nMy application, not his: for a small reversible decision, ask what the customer would want in five years, not what a competitor shipped last quarter. That is my inference, not a documented Bezos statement.\n\nSmall test: pick one reversible choice this week, write a half page on the customer outcome it produces, and ship it. If it fails, reverse it cheaply.\n\n[FOLLOWUP: What makes a decision truly reversible? | How would Jeff size a small test? | When does customer obsession become an excuse to ignore competitors?]",
+      "citations": [
+        "Lessons from Jeff Bezos's Shareholder Letters"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:james-dyson": {
+      "hash": "6b7778f84c8ecb094673813349275a7c0e2e97c454221bef79e149ef4af4b497",
+      "checkedAt": "2026-09-20T13:32:19.029Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Demand difference and retain total control, then out-persist everyone: determination, not cleverness, is what builds a real breakthrough.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The documented principle: Dyson's rule is to invent, engineer, prototype, manufacture, market and sell it yourself, taking no shareholders and never assigning patents. He learned it after losing the Ballbarrow by giving up control. That is his history, not a universal law.\n\nMy application, not his: for a small reversible decision, control matters less than the cost of reversing it. If you can undo it cheaply, keep the decision small and keep ownership of the thing you are testing.\n\nOne test: write down who owns the patent, the tooling and the customer relationship after this decision. If any answer is \"someone else,\" make it smaller.\n\n[Source: \"The Stubborn Genius of James Dyson\"]\n\n[FOLLOWUP: What did Dyson lose with the Ballbarrow? | How do you test ownership before committing? | When is giving up control actually right?]",
+      "citations": [
+        "The Stubborn Genius of James Dyson"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:jensen-huang": {
+      "hash": "d99577f5113bb4c3f019eef4f1b7ffabab86cb93a7d050def75aeb85f2c25db1",
+      "checkedAt": "2026-09-20T13:32:21.527Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Nvidia's defining trait is not technology, capital, or luck but a unique culture built entirely around fighting complacency, which Tae Kim calls \\. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One supported principle: fighting complacency means building mechanisms that surface bad news early. At Nvidia, Jensen required \"Top 5\" emails, five action-oriented bullets from every level, which he read to \"detect the weak signals\" before they showed up in the numbers ([Source: \"Chapter 9: Tortured into Greatness\"]). That is documented history. My application to your situation is my inference, not Nvidia's: if your decision is genuinely small and reversible, its main value may be as a cheap signal detector, not a commitment.\n\nSmall test: write five bullets about this decision, including one naming the weakest signal you are ignoring. If that bullet changes your choice, you have your answer.\n\n[FOLLOWUP: What makes a decision genuinely reversible for you? | How would you set a tripwire to revisit it? | What weak signal are you most tempted to ignore?]",
+      "citations": [
+        "Chapter 9: Tortured into Greatness"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:evan-spiegel": {
+      "hash": "9eafb15716f3be288a3af1ae7e1ea6c720290b63c3bec9acfebf93c0997d8536",
+      "checkedAt": "2026-09-20T13:32:23.635Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: No moat exists in software, so invest only in what is hard to copy: network effects, owned hardware, and a clear product vision.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The principle: software gets copied fast, so value accrues to what is hard to copy, network effects, owned hardware, and a vision you can actually see. Spiegel learned this when Facebook shipped Poke, and Snap has been in what he calls trench warfare with monopolies ever since. [Source: \"Evan Spiegel, Snapchat: Building a Multi-Billion Dollar Company\"]\n\nMy application, not his: for a small reversible decision, ask which option gets harder for a competitor to copy over time, not which ships faster.\n\nSmall test: name the one person whose presence makes your product valuable, and check whether they are already there. If not, that is your next move, not a feature.\n\n[FOLLOWUP: What makes a network effect real versus just a user count? | How do you test a product vision before building it? | When should a small team own hardware?]",
+      "citations": [
+        "Evan Spiegel, Snapchat: Building a Multi-Billion Dollar Company"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:rockefeller": {
+      "hash": "db9d1dec422eb1c09599eb069566d4cdd2b0a5f416fd66e5aa161901d75d433f",
+      "checkedAt": "2026-09-20T13:32:26.464Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Rockefeller spent a lifetime engineering his own opacity, and Chernow's biography is built to break through it using a suppressed 1917-1920 interview transcript that reveals the man behind the mask.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "A supported principle: Rockefeller's opacity was deliberate and layered, and it only cracked under conditions the public never saw, namely the private, near-daily 1917 to 1920 Inglis interviews that produced a 480,000-word transcript in which the guarded public mask gave way to a defensive, articulate man [Source: \"Chapter 31: Confessional\"].\n\nMy application, not Chernow's: opacity that survives press scrutiny often fails before a sustained private record.\n\nOne small test: state the decision and your reason in writing today, seal it, and reread it in thirty days. If the stated reason still holds, proceed.\n\nWhat is the decision, and what would reversing it actually cost you?",
+      "citations": [
+        "Chapter 31: Confessional"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:john-mackey": {
+      "hash": "a395ae7ec5b5cd2956096c2fdebf5cda0ba4a994792b47cea63308338b277846",
+      "checkedAt": "2026-09-20T13:32:27.897Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Build as a missionary, not a mercenary: never fight the low-cost rival on price, compound in your niche, and turn competitors into allies.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The clearest supported principle is to compete on a different axis rather than matching the cheapest operator. Mackey watched conventional supermarkets cut lighting, labor and quality to fight Walmart on price, and they still lost. Whole Foods went the other way: quality, service, beautiful stores, a mix nobody else carried. [Source: \"John Mackey: 44 Years of Building Whole Foods\"]\n\nThat is his documented story, not a law for your situation. Your constraint is that your decision is small and reversible, which is a different starting point than a multi-decade retail build.\n\nSmall test: pick one week, refuse to answer a low-cost rival on their terms, and instead add or highlight one thing only you offer. Note whether anyone notices.\n\nWhat is the decision, specifically?",
+      "citations": [
+        "John Mackey: 44 Years of Building Whole Foods"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:jimmy-iovine": {
+      "hash": "8533637c2b9bc7f6afd3805763d470584cd6cb741932d79265115f636bedaaf9",
+      "checkedAt": "2026-09-20T13:32:34.047Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Marketing is empathy at scale; win by attaching yourself to the very best people and telling them the brutal truth.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle: marketing is empathy at scale, understanding what somebody else feels across a huge audience, and making the product good enough that the product itself does the marketing. That is documented in [Source: \"Jimmy Iovine: Building Interscope Records & Beats\"].\n\nMy application, not Jimmy's: for a small reversible decision, treat empathy as research, not persuasion. Ask what the other person actually feels before you pitch anything.\n\nSmall test: pick one person affected by your decision, ask them one open question about what they want, and change nothing until you hear the answer.\n\n[FOLLOWUP: How did Jimmy use empathy to get Dre on radio? | What does \"the product becomes the marketing\" mean in practice? | How do you tell brutal truth with respect?]",
+      "citations": [
+        "Jimmy Iovine: Building Interscope Records & Beats"
+      ],
+      "unknownCitations": [
+        "Jimmy Iovine: Building Interscope Records & Beats"
+      ],
+      "pass": false,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:vervaeke": {
+      "hash": "8b9ea9f7d58b94e8e8c5f82da2f36ff5405a6af449693efd080892e01778fe9d",
+      "checkedAt": "2026-09-20T13:32:41.285Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: The meaning crisis, the mental health crisis, and cultural nihilism share one root cause, and wisdom (not belief, not a program) is the trainable cognitive skill that addresses it.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle comes from Episode 1: wisdom is not intelligence, and foolishness is not ignorance. \"Ignorance is a lack of knowledge; foolishness is a lack of wisdom.\" John's claim is that self-deception is endemic, riding on the same machinery that makes you adaptively intelligent, so a belief-centric culture keeps handing people facts when the problem is elsewhere.\n\nMy application, not his: for a small reversible decision, more information likely will not settle it. The question is whether a self-deception is steering it.\n\nOne small test: write the decision in one sentence, then write what you would need to believe for it to be obviously correct. Say that belief out loud as if a friend had said it, and notice your reaction.\n\n[Source: \"Ep. 1 - Awakening from the Meaning Crisis - Introduction\"]\n\n[FOLLOWUP: Which kind of knowing does my decision actually live in? | How do I tell self-deception from honest uncertainty? | What practice trains wisdom rather than just informing me?]",
+      "citations": [
+        "Ep. 1 - Awakening from the Meaning Crisis - Introduction"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:lee-kuan-yew": {
+      "hash": "616353af16cc5a564577e0141b29c914c997f0d4da99de4901a3a886df6edd5f",
+      "checkedAt": "2026-09-20T13:32:48.322Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Say the same thing in every language, or you lose the right to lead opinion. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Lee argued at Kluang that a leader who says one thing to a Chinese audience and another in English or Malay forfeits the trust needed to lead opinion at all. He treated consistency across languages as a discipline of credibility, not tact, and answered the specific charge publicly rather than waiting for it to fade [Source: \"Speech at a Mass Rally in Kluang, 29 Mar 1964\"].\n\nMy application, not his: if your reversible decision involves messaging two audiences, draft the single version you would defend if both heard it.\n\nSmall test: write your core sentence once, then ask whether you would be comfortable with each audience reading the other's version. If not, revise before sending.\n\nWhat are the two audiences?",
+      "citations": [
+        "Speech at a Mass Rally in Kluang, 29 Mar 1964"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:marc-andreessen": {
+      "hash": "7bc75771d01ca4228729d460e0318ebc2d0ce2f1415bf7d45194443ce5227b79",
+      "checkedAt": "2026-09-20T13:32:52.756Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Software companies are not just another sector, they are becoming the mechanism by which every other sector competes, and this is happening in 2011 specifically because six decades of computing, four decades of microprocessors, and two decades of internet infrastructure finally converged into someth. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle: software companies become the mechanism every other sector competes through, and the 2011 timing came from three curves converging, roughly sixty years of computing, forty of microprocessors, twenty of graphical internet, plus broadband reaching over 2 billion users and cloud costs falling about a hundredfold from Loudcloud-era infrastructure to AWS. Cite as: [Source: \"The Thesis and Why Now\"].\n\nMy application, not his: if your decision is reversible, the convergence argument says the cheap test is to build the software-native version of whatever your incumbent does manually, not to study whether it is possible.\n\nSmall test: pick one workflow a competitor runs on people and spreadsheets, rebuild that single workflow as software this week, and see if anyone asks for it.",
+      "citations": [
+        "The Thesis and Why Now"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:lulie-tanett": {
+      "hash": "d752433a095b35c226bb01c5ade095c3863e35c4a09a788b1d2a8189a4748ce4",
+      "checkedAt": "2026-09-20T13:32:54.188Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: What people call 'discipline' is usually internal conflict, forcing yourself to do something part of you doesn't actually want, and the fix is not more willpower but resolving the underlying disagreement about what you actually want.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Tanett's principle: needing to force yourself is a diagnostic signal, not a character deficit. Part of you disagrees with the plan, and overriding it just suppresses the disagreement until it returns as procrastination or resentment. The fix is finding what the resistant part objects to. [Source: \"Discipline Is Fighting Yourself\"]\n\nMy application, not hers: for a small reversible decision, treat your reluctance as information rather than noise.\n\nOne test: before deciding, write one sentence naming what the resisting part is objecting to. If you cannot name it, you have not found the real disagreement yet.\n\n[FOLLOWUP: What if I can't identify the objection? | How is this different from just avoiding hard things? | What counts as a real problem versus an imposed goal?]",
+      "citations": [
+        "Discipline Is Fighting Yourself"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:seneca": {
+      "hash": "069930a685fbb0d00d93050f0f43572c3bf82dec567643f7352ce9c1fc62d489",
+      "checkedAt": "2026-09-20T13:33:08.891Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Letters II and III: scattered reading and scattered trust both fail for the same reason — depth requires narrowing down to what you can actually hold, not gathering everything you might one day need.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Seneca's rule in Letter III reverses the usual order: think long before admitting someone to your friendship, then welcome him heart and soul. Scattered reading and scattered trust fail for the same reason, since depth requires narrowing to what you can actually hold. [Source: \"Reading Deeply, and Testing a Friend Before Trusting Him\"]\n\nThat is his documented position. My application to you is separate: a small reversible decision is exactly where this principle matters least, because you can undo it. Save the long vetting for what you cannot undo.\n\nSmall test: ask whether you could hold this if it were the only one you had. If not, you are gathering, not choosing.\n\n[FOLLOWUP: What makes a decision truly irreversible for you? | How do you tell gathering from choosing in your own week? | Which few authors or people have earned your full trust?]",
+      "citations": [
+        "Reading Deeply, and Testing a Friend Before Trusting Him"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:napoleon-hill": {
+      "hash": "0eac9a1b180323fc6c82135fa187d8accf493d132e87e3351f24865581ed76d3",
+      "checkedAt": "2026-09-20T13:33:12.351Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Hill opens with the claim that 'thoughts are things,' and proves it with Edwin C. Barnes, a man with no money and no connections who decided he would become Thomas Edison's business partner, not his employee, and stayed with that exact desire until it happened.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Hill's documented claim is that a definite desire, held without a fallback, is the starting mechanism, which is why he frames Edwin C. Barnes as deciding to become Edison's partner rather than employee, then waiting through months of minor work until the Dictating Machine gave him his opening [Source: \"Introduction\"]. That is his account, not a verified law of outcomes.\n\nMy application for you: name the reversible decision in one sentence, with the specific outcome you want, not the activity you will do. If you cannot narrow it that way, the decision is still a wish.\n\nSmall test: write it down, set a seven day deadline, and take one concrete action toward it today.\n\n[FOLLOWUP: What exact outcome do you want in one sentence? | Who else should be in your mastermind for this decision? | Which fear is quietly shrinking your goal?]",
+      "citations": [
+        "Introduction"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:marie-curie": {
+      "hash": "569c774e2ff48e75664a0b3703154aa714a7566eb5efa655792b8f13f90f25ef",
+      "checkedAt": "2026-09-20T13:33:18.554Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: An anomaly can be a question to investigate rather than noise to discard.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The documented principle: Curie's pitchblende emitted more radiation than its known uranium content could explain, and she treated that mismatch as a question rather than noise, which pointed toward an unknown element [Source: \"Marie Curie: investigate an unexplained measurement\"].\n\nMy application, not hers: when a small decision rests on an odd reading, record the mismatch instead of smoothing it over. Note what you expected, what you observed, and two competing explanations.\n\nSmall test: write the discrepancy down in one sentence, then pick the single cheapest check that would distinguish the two explanations. If it comes back normal, discard the anomaly. If it persists, you have something to investigate. Note that this is general reasoning, not guidance on handling radioactive material.\n\nWhich measurement is actually puzzling you?",
+      "citations": [
+        "Marie Curie: investigate an unexplained measurement"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:nassim-taleb": {
+      "hash": "5bcece9b3ba82df25ec1dcd949a042c275fc47c1d36716528c0e949d4b0a1d4a",
+      "checkedAt": "2026-09-20T13:33:20.538Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Humans systematically mistake luck for skill and randomness for determinism, most visibly and most expensively in business and finance, because we are built to read meaning into noise rather than sit with uncertainty.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Before asking whether the decision is right, ask who will be grading it, and when. Taleb's Table of Confusion sets luck, randomness, belief and forecast on one side, and skill, determinism, knowledge and causality on the other. His sharpest point is that the trained specialist is often the biggest fool of randomness, because he trusts his expertise while reading noise as pattern.\n\nThat is his documented claim. My application to you: since your decision is reversible, your downside is capped, so judge it by process rather than by the outcome, which is where the luck creeps in.\n\nOne small test: write your reasoning and your expectation down, sealed, before you act. Read it only after the result arrives. If the justification appears after the fact, that was luck wearing a suit.\n\nCite as: [Source: \"Prologue: Mosques in the Clouds\"]\n\n[FOLLOWUP: How do I separate skill from luck in my own track record? | What does survivorship bias hide from me? | When should an outcome change my process versus not?]",
+      "citations": [
+        "Prologue: Mosques in the Clouds"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:paul-graham": {
+      "hash": "255245be940891cdd0c58e6c4ab86b8168bb372a7ad32bfb8e649c80c92eef1a",
+      "checkedAt": "2026-09-20T13:33:29.206Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: A startup's controllable foundations are good people, a product customers actually want, and spending little enough to survive learning what that product is.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One supported principle, from \"Do Things that Don't Scale\": the manual work that looks too small to matter is often the fastest way to learn who wants the product, and the point is to learn the shape of demand while both product and process are still cheap to change.\n\nMy application, which is inference rather than Graham's stated position: if your reversible decision concerns spending, treat the cheap manual version as a demand test, not a permanent operation.\n\nSmall test: name ten people who actually have the problem, contact them yourself this week, and try to get three to use the thing. What they do, not what they say, tells you whether that foundation is real.\n\n[FOLLOWUP: What counts as real usage versus polite encouragement? | How do I decide the manual version is worth scaling? | Which of the three foundations is weakest in my case?]",
+      "citations": [],
+      "unknownCitations": [],
+      "pass": false,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:paul-millerd": {
+      "hash": "50889e0744e9c023b13cc06e2a68bd55a2df4204845f592f03ea8ed7aaede7ec",
+      "checkedAt": "2026-09-20T13:33:33.396Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Millerd names the 'default path' — study hard, get a good job, keep climbing indefinitely — as a script almost everyone inherits and few examine, and traces his own decade inside it to the moment a phrase from David Whyte, 'the pathless path,' gave him a name for the alternative.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The principle: the default path is an inherited script, study hard, get a good job, keep climbing, and most people never pause to ask why. Millerd spent a decade inside it, five companies and two years of grad school, always assuming the next stop was final, and only found language for the alternative later, in David Whyte's phrase \"the pathless path\" [Source: \"Introduction / The Default Path\"].\n\nMy application, not his: that framing is a lens for your decision, not a verdict on it. I do not know what you are weighing.\n\nOne small test: write two lists, what you actually chose and what you simply inherited, then notice which list is longer.\n\n[FOLLOWUP: What part of your current path did you actually choose? | What is the safety you are protecting actually made of? | What would a smaller, reversible experiment look like?]",
+      "citations": [
+        "Introduction / The Default Path"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:naval-ravikant": {
+      "hash": "39ce3ff92211cbeb59f0d57ccfbc3a3c3f962aa679f1dfe0bfce87f1fb2981af",
+      "checkedAt": "2026-09-20T13:33:37.952Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Wealth is equity that earns while you sleep, built through specific knowledge, leverage, and judgment — not rented time, and not luck.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Naval's documented principle: wealth is \"assets that earn while you sleep,\" while renting out your time keeps inputs and outputs coupled hour for hour. Equity in something that replicates without your hours is what breaks that coupling. That is from [Source: \"How to Get Rich\"].\n\nMy application, not his: a small reversible decision is a good place to test whether you are buying equity or buying hours. He never framed it as a test, so treat this as my inference.\n\nSmall test: before deciding, write one sentence naming what keeps earning if you stop working on it. If nothing does, you are renting time.\n\nWhat is the decision, specifically?\n\n[FOLLOWUP: What counts as specific knowledge for me? | How do I get leverage without permission? | Is a side project equity or just more hours?]",
+      "citations": [
+        "How to Get Rich"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:peter-thiel": {
+      "hash": "82ffd6b0e4849dbfeb143ed9f9cecb44291fbb4cd2b798b3fa7bc82e9968f1bb",
+      "checkedAt": "2026-09-20T13:33:42.790Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Thiel frames the whole book around a single distinction: horizontal progress (copying what already works, 1 to n) versus vertical progress (doing something genuinely new, 0 to 1), and argues that only the second kind, which he calls technology in the broadest sense, can save a stagnating world.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Thiel's documented principle: every moment in business happens only once, so copying a solved problem is horizontal progress (1 to n) while doing something genuinely new is vertical progress (0 to 1), which he calls technology in the broadest sense [Source: \"Preface: Zero to One\"].\n\nMy application, not his: for your reversible decision, ask whether it is a copy of something already working or a genuine first. That framing is mine, not a documented position on small personal choices.\n\nOne small test: write one sentence naming what would be true if the decision worked, and whether anyone has already done that exact thing. If you can name a precedent, it is likely 1 to n.\n\n[FOLLOWUP: What makes a decision truly reversible? | Where does Thiel draw the line between copying and learning? | How would you test an idea for novelty?]",
+      "citations": [
+        "Preface: Zero to One"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:ray-dalio": {
+      "hash": "e6d9d8dcef60baa316b9fed240b277b69e509135f39169340abfe9cae6d6c9e2",
+      "checkedAt": "2026-09-20T13:33:45.390Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Dalio opens by defining a principle as something narrower than a value: a value is what you care about, a principle is the reusable rule that connects that value to action in recurring situations, and he argues you either forge your own through reflection or you inherit someone else's without testin. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Dalio's distinction is that a value is what you care about, while a principle is the reusable rule connecting that value to action in recurring situations. He argues you either forge your own through reflection or inherit someone else's without testing them against your own experience. That is from [Source: \"What Principles Are, and Why They Matter\"].\n\nMy application, not his: for a small reversible decision, write the rule you are actually following, then ask whether it is yours or borrowed.\n\nOne small test: before deciding, finish the sentence \"I am choosing this because I believe...\" If you cannot name the belief, you inherited the rule.\n\nWhat is the decision, specifically?\n\n[FOLLOWUP: How do I tell a borrowed principle from my own? | What makes a decision truly reversible? | How often should I retest my principles?]",
+      "citations": [
+        "What Principles Are, and Why They Matter"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:pendleton-ward": {
+      "hash": "1c2b2573d7df69b2d39a07211e17f441a5a0e6656cbe137720877be79d0c64ed",
+      "checkedAt": "2026-09-20T13:33:46.158Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Write characters with both strengths and faults.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The documented principle is that Ward wanted ordinary, believable characters with strengths and faults, not simple opposites [Source: \"Pendleton Ward: rounded characters\"]. My application, not his method: treat that as a reversible experiment. Write one short scene where a character's best trait also causes a problem. Then read it aloud and note whether someone else can state what they want, what blocks them, and why they remain understandable. That is a small test, not a verdict on the whole story. Make one concrete revision from that note.\n\n[FOLLOWUP: What strength causes the most trouble for your character? | Who could read this scene and give you one clear observation? | What single line would you revise first?]",
+      "citations": [
+        "Pendleton Ward: rounded characters"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:ricky-gervais": {
+      "hash": "6ac6e039c0352657a9bfa840ecab419b0e20f1e059c19143fe31d5349c2bd423",
+      "checkedAt": "2026-09-20T13:33:47.826Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Make work around something you need to express.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "There's one documented principle here: make the work around something you actually need to express, because the connection with an audience is the point, not the packaging. The source puts it as emphasising what he wants to communicate and the strength of that connection. Cite as: [Source: \"Ricky Gervais: connection rather than a career script\"]\n\nThat's the note. Applying it to your reversible decision is mine, not the source's: name the observation first, then decide whether it's worth making. Test it small, tell one person the real thing you're trying to say in a single sentence, and see if it still interests you when it's plain.\n\nWhat's the actual thing you need to express?\n\n[FOLLOWUP: What observation is behind your idea? | Does it still land when said plainly? | What's the smallest version you could try this week?]",
+      "citations": [
+        "Ricky Gervais: connection rather than a career script"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:rose-blumkin": {
+      "hash": "224317edd56b4a0cc0722954645ea3d61021098a4d8387cdc7e7cc49a2315cf1",
+      "checkedAt": "2026-09-20T13:33:48.597Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Low prices need an operating advantage.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "**Supported principle:** Buffett's 1983 account describes effective buying and low expenses that let Nebraska Furniture Mart share savings with customers — the price promise rested on an operating advantage, not on hope. [Source: \"Rose Blumkin: customer value and operating discipline\"]\n\n**My application, not her named method:** before cutting a price, name the specific cost advantage that funds it. If you can't, the cut is a margin donation.\n\n**Small test:** choose one item, calculate landed cost plus handling, set a price that preserves a margin you can state out loud, and run it two weeks. Compare units and gross profit.\n\n[FOLLOWUP: What is your actual landed cost per unit? | Which expense could you reduce without hurting service? | What margin must this item hold to stay viable?]",
+      "citations": [
+        "Rose Blumkin: customer value and operating discipline"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:sam-walton": {
+      "hash": "6d1d505c285894f7245b2a254bdf4341611bc5107b5e1dc8d61c32023c2bef22",
+      "checkedAt": "2026-09-20T13:33:49.826Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Combine customer service with cost discipline and employee feedback.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Sam Walton's documented approach joined customer service with tight cost control and frontline input: Walmart's published Walton rules stress employee participation, communication, listening, and clear customer expectations, and cost discipline supported competitive resilience [Source: \"Sam Walton: listening and cost discipline\"].\n\nThat is the documented principle. My application to your case is inference, not Walton's own instruction: a reversible test could ask a few frontline staff to name one avoidable expense, then change it only if service holds steady.\n\nSmall test: pick one expense, ask three staff, make one change for two weeks, and compare a simple service measure before and after.\n\nWhat is the specific decision you are weighing?",
+      "citations": [
+        "Sam Walton: listening and cost discipline"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:steve-jobs": {
+      "hash": "9e0d22aa7368edd348c70a87e3dd26a77d19fd56ccae869583eacbfe0e18e963",
+      "checkedAt": "2026-09-20T13:33:52.465Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Jobs commissioned his own unauthorized-feeling biography, ceding all editorial control, and the book opens by tracing his character to a fact he processed as a child into a private mythology: 'Abandoned. Chosen. Special.'. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The documented principle: Jobs gave Isaacson unrestricted access and told him \"It's your book. I won't even read it,\" even encouraging interviews with people he had fired or hurt. He traded control of his own story for a more honest version of it.\n\nMy application, not his: for a small reversible decision, you could borrow the same move by inviting one unflattering read before you commit, instead of curating agreement.\n\nSmall test: hand your plan to one person who disagrees with it, ask them to describe it back to you plainly, and stay silent for one minute. Keep what survives. [Source: \"How This Book Came to Be and Childhood\"]\n\nWhat is the actual decision you are weighing?\n\n[FOLLOWUP: What small decision are you actually weighing? | Would you ever hand someone veto power over your own story? | What is the cost of hearing an unflattering read?]",
+      "citations": [
+        "How This Book Came to Be and Childhood"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:pressfield": {
+      "hash": "73cc17da0bdeb4cd3a4f85ef308222812bae0d5c86afe602d07536b72c0d4681",
+      "checkedAt": "2026-09-20T13:33:55.581Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Between the life we actually live and the unlived life we sense inside us stands a single force Pressfield calls Resistance, and naming it is the whole point of the book.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Pressfield's documented claim in \"The Unlived Life\" is that two lives sit inside a person, the one actually lived and the unlived one sensed within, and a single force called Resistance stands between them. Naming it is the whole point, because it stays invisible until you call it out.\n\nThat is his claim. My application is inference: a \"small reversible decision\" can be Resistance wearing the costume of a sensible option, or it can be genuinely small. Only you can tell.\n\nTest: write both choices down and notice which one you keep wanting to postpone. His own eight years of not recognizing Resistance suggest that pull is informative. Then set a start time tomorrow for whichever one it points at.\n\nCite as: [Source: \"The Unlived Life\"]\n\n[FOLLOWUP: What form does Resistance take for me most often? | How do I tell a real decision from a delaying tactic? | What counts as a start time I will actually keep?]",
+      "citations": [
+        "The Unlived Life"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:tobi-lutke": {
+      "hash": "cd5cfc7394eb62e45c2de6e7346345141285a66be6538c1c47ec617940bad636",
+      "checkedAt": "2026-09-20T13:33:57.848Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Don't cosplay orthodoxy: build from your own axioms and intuition; differentiation, not imitation, is the only path to excellence.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The documented principle: imitation caps you. Lütke's argument, drawn from Agassi and Sampras, is that copying a competitor's move gets you a copied 7 out of 10 and no mastery over the thing you copied, while a blank slate version you own can be iterated past it. \"Make it different, even if it's worse.\"\n\nMy application, not his: for a small reversible decision, the test is whether you can explain the choice without referencing a competitor. If the only justification is \"that's how they do it,\" you are cosplaying.\n\nSmall test: write the decision as one sentence, then delete every clause that names another company. If nothing survives, rederive it from your own constraint.\n\n[Source: \"Tobi Lütke: 21 Years of Building Shopify\"]\n\n[FOLLOWUP: What assumption near the root of my plan might have stopped being true? | How do I tell a real constraint from a copied one? | When is copying a competitor actually the right call?]",
+      "citations": [
+        "Tobi Lütke: 21 Years of Building Shopify"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:todd-graves": {
+      "hash": "4d68e0dd6e01a00a20d85de6cae4399e2a43e7ba01c41c75a0b3d73229094151",
+      "checkedAt": "2026-09-20T13:34:01.211Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Do one thing better than anyone and keep control of your baby; the distracted never beat the focused, and money follows service.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One documented principle: focus is not simplicity, it is what lets you obsess. Graves kept a five item menu so Cane's could sweat the bird species, the 24 hour marinade, and the drive thru at 2:35, because \"frequency beats variety\" and a single product is what makes food cravable [Source: \"How Todd Graves Built Raising Cane's\"].\n\nMy application, not his: a small reversible decision is a good place to practice subtraction before commitment. Fewer things, done well, is cheaper to test than a broad bet.\n\nSmall test: write your one thing in a sentence. Cut one feature for two weeks and watch whether your core customer notices or complains.\n\nWhat is your one thing, and who exactly is buying it?\n\n[FOLLOWUP: What counts as cravable for my customer? | How do I know when a cut in quality is death by a thousand cuts? | Should I franchise or stay company owned?]",
+      "citations": [
+        "How Todd Graves Built Raising Cane's"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:tim-ferriss": {
+      "hash": "ea47febce3849543821612e631ba20035a46e6f0bc9ec20d5da90ec5d0fea707",
+      "checkedAt": "2026-09-20T13:34:03.677Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: The obstacle racers and strength coaches in Tools of Titans agree that extreme physical capacity is built less by talent than by deliberately rehearsing discomfort, training strength as a skill rather than a burn, and making one irreversible long-term decision instead of renegotiating your commitmen. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "**Principle:** Pavel Tsatsouline holds that strength is a trainable skill, not a fixed trait, and that \"the burn is your enemy\" when training for strength. His \"grease the groove\" method, sub-maximal reps spread through the day at least 15 minutes apart, took his 64-year-old father-in-law from 10 to 20 strict pull-ups. The mechanism is nervous-system efficiency, not muscular fatigue. [Source: \"Endurance, Strength, and the Single Decision\"]\n\n**My application, not the source's:** the notes document Tsatsouline's training, not your decision, so I'm mapping the logic onto it. Low dose, high frequency, reversible.\n\n**Test:** pick one movement, do roughly half your max reps, 3 to 5 times daily, 15+ minutes apart, for 10 days. Track the number. No failure sets.\n\nWhat movement are you already able to do, and what's your current max?",
+      "citations": [
+        "Endurance, Strength, and the Single Decision"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:visakan": {
+      "hash": "26af457eb171d5c93fd975f4d7f499520a3a38bde661855ae37a2bec08491277",
+      "checkedAt": "2026-09-20T13:34:04.395Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: The book's whole thesis is compressed into its title: friendliness, ambition and nerdiness aren't separate virtues to balance, they're one integrated way of being that Visakan believes anybody can deliberately cultivate.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One supported principle: Visakan noticed that \"don't worry about it\" left him feeling like a charity case even when the giver meant well, so he changed the script to name the chain out loud, something like \"my mentors treated me, so now I'm treating you, and I'm counting on you to treat the next kid.\" That reframes the recipient from passive charity case to active participant. [Source: \"Pay It Forward, and Closing Thoughts\"]\n\nMy application, not his: if your small reversible decision involves giving something to someone, the wording is the reversible part. You can test it once and drop it if it lands wrong.\n\nSmall test: next time you cover someone's meal or share your work, say the chain sentence instead of \"don't worry about it,\" and watch their face.\n\n[FOLLOWUP: What if the person feels awkward about the chain framing? | How does this connect to receiving praise? | Is there a version of this for people with less power to give?]",
+      "citations": [
+        "Pay It Forward, and Closing Thoughts"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:anything-you-want": {
+      "hash": "a33696c72596dd8c1567447efe8e13741aec6017063c4bb80f6f6ebbaf8b1e54",
+      "checkedAt": "2026-09-20T13:34:06.951Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Sivers frames the whole book as one person's compressed, disagreeable-on-purpose philosophy, not a formula, and opens with a list of claims that every later chapter exists to prove with a real story.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"What's Your Compass?\", Sivers claims a business plan is largely guesswork until real customers weigh in, and that starting with no money is an advantage rather than a handicap. He presents these as one-line claims the rest of the book exists to prove through real stories, not as a formula.\n\nThat is his documented position, not a rule for your situation. My application: treat your small reversible decision as a cheap way to gather real customer feedback instead of a way to perfect a plan.\n\nSmall test: pick the version you can undo within a week, show it to five actual people, and note whether they respond with genuine enthusiasm.\n\n[Source: \"What's Your Compass?\"]\n\n[FOLLOWUP: What does Sivers mean by persistence? | How did CD Baby start with almost no money? | What is the \"hell yeah or no\" rule?]",
+      "citations": [
+        "What's Your Compass?"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:warren-buffett": {
+      "hash": "0fdf48804385dfacc16958ce8406cbeeb43d8b69aeeb2026bda44d807f813241",
+      "checkedAt": "2026-09-20T13:34:19.971Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Buffett judges Berkshire, and every stock it owns, by return on equity capital and by the standard of a business owner buying a fractional interest in a real enterprise, not by a trader watching a ticker or a manager chasing earnings-per-share growth.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle is that Buffett measures progress by return on beginning equity capital, not by rising earnings per share. He calls EPS growth a \"stopped clock\" or \"dormant savings account\" effect, since retained capital compounds earnings without proving the business improved. He used 19% return on beginning equity in 1977 as the real yardstick.\n\nMy application, not his: for your small reversible decision, ask what return the capital or time committed would earn against the best alternative, including doing nothing.\n\nSmall test: write down the capital or hours involved, the expected annual return, and the alternative you would otherwise choose. If you cannot state the return simply, it is outside your circle.\n\nCite as: [Source: \"1977-1978: The Owner-Oriented View\"]\n\n[FOLLOWUP: How do I calculate return on beginning equity for a personal decision? | What does Buffett mean by a dormant savings account? | When should I prefer doing nothing over acting?]",
+      "citations": [
+        "1977-1978: The Owner-Oriented View"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:atomic-habits": {
+      "hash": "de391dd872f9d8ae45c0b09c019b8d46a1efebbc7f5ae2d1fa4824140f1a1ad2",
+      "checkedAt": "2026-09-20T13:34:22.768Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Clear's entire framework grows out of one personal fact: he rebuilt his life through small, boring, repeated actions after a baseball bat to the face nearly killed him, and the book exists because tiny habits, not one dramatic turnaround, did the rebuilding.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"Introduction: My Story,\" Clear describes rebuilding after a bat to the face through boring, repeated routines: consistent sleep, a tidy dorm room, and lifting weights that took him from 170 to 200 pounds over several years. His stated lesson is that small changes compound into remarkable results if you stick with them for years.\n\nThat is his documented account, not a guarantee about your decision. My application: treat your reversible choice as a test of repetition, not a verdict on the idea.\n\nSmall test: run a two-minute version of the action daily for one week and note whether you actually show up.\n\n[Source: \"Introduction: My Story\"]\n\n[FOLLOWUP: How does the Two-Minute Rule scale a habit down? | Why does Clear say repetition matters more than days? | What is the Sorites Paradox argument about small changes?]",
+      "citations": [
+        "Introduction: My Story"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "person:marcus-aurelius": {
+      "hash": "b77ffab61ac214143dc1ad1e70e4711af5d3958200832dd5f938aed11f5cc372",
+      "checkedAt": "2026-09-20T13:34:23.006Z",
+      "pass": false,
+      "error": "The operation was aborted due to timeout"
+    },
+    "book:elon-musk-vance": {
+      "hash": "72249b3e402143fc0372b6dafc4082cbcb3d2a1e7f3d9fc8bdeb66a3fe87e138",
+      "checkedAt": "2026-09-20T13:34:28.753Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Musk operates by a self-authored master plan (Internet, renewable energy, space) executed with obsessive, boundary-erasing intensity, and the people around him either orbit that mission or get run over by it.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"Elon's World,\" Vance shows Musk pairing a self-authored three-part master plan (internet, renewable energy, space) with money that matched it: roughly $100 million into SpaceX, $70 million into Tesla, $10 million into SolarCity, rather than coasting after PayPal. The supported principle is that a mission only shapes behavior when spending and time actually follow it.\n\nThat is my application, not Musk's advice, and nothing in the corpus recommends his intensity to you. Small test: write down your top three priorities, then check whether one upcoming reversible decision's cost or calendar reflects them. If not, note why.\n\n[Source: \"Elon's World\"]\n\n[FOLLOWUP: How did Musk choose those three fields? | What did the inner circle say about working under that mission? | How did Musk handle people who did not share the plan?]",
+      "citations": [
+        "Elon's World"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:fooled-by-randomness": {
+      "hash": "d576774f10551cab834ca4f54d2d0a14a019b5795a86f26446a5472a27634a83",
+      "checkedAt": "2026-09-20T13:34:38.378Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Humans systematically mistake luck for skill and randomness for determinism, most visibly and most expensively in business and finance, because we are built to read meaning into noise rather than sit with uncertainty.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"Prologue: Mosques in the Clouds,\" Taleb presents his Table of Confusion, with luck, randomness, and belief on one side and skill, determinism, and knowledge on the other, arguing people habitually mistake the first column for the second. That is his documented claim about cognition, not a verdict on your decision.\n\nApplied to you: because your decision is small and reversible, treat any early good outcome as weak evidence of skill. \"Chapter Two: A Bizarre Accounting Method\" adds that a decision should be judged against the alternative histories that could have unfolded, not the single observed result.\n\nSmall test: before acting, write one sentence naming two other plausible causes of the same outcome. If luck could explain it, keep the decision reversible.\n\n[Source: \"Prologue: Mosques in the Clouds\", \"Chapter Two: A Bizarre Accounting Method\"]\n\n[FOLLOWUP: What does the Table of Confusion actually separate? | How does survivorship bias hide failed outcomes? | Why does frequent monitoring make good strategies feel bad?]",
+      "citations": [],
+      "unknownCitations": [],
+      "pass": false,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:deep-work": {
+      "hash": "e7e715a37e41d825ca310538ce97b2f39876bf9870212a29d2dd38d2a1c4a5af",
+      "checkedAt": "2026-09-20T13:34:40.578Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Newport opens with Carl Jung retreating to a stone tower to out-think Freud, then names the two abilities that decide who wins in a distraction economy: learning hard things fast and producing at an elite level. Both, he argues, depend on a single trainable skill he calls deep work, which is becomin. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle is the Deep Work Hypothesis: distraction-free, cognitively demanding work is getting scarcer and more valuable at once, so deliberately training it pays off. In the episode \"Introduction: The Deep Work Hypothesis,\" Newport grounds this in Jung's Bollingen Tower rhythm and Jason Benn, who taught himself focus and roughly doubled his salary within half a year.\n\nMy application, not Newport's claim: I cannot assess your specific decision, since the corpus does not cover it. A small test would be one short, fixed, distraction-free block daily, then noting whether your focus holds.\n\n[Source: \"Introduction: The Deep Work Hypothesis\"]\n\n[FOLLOWUP: What is the Deep Work Hypothesis exactly? | How did Jason Benn train his focus? | What are the four depth philosophies?]",
+      "citations": [
+        "Introduction: The Deep Work Hypothesis"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:berkshire-shareholder-letters": {
+      "hash": "8ba410c3b24782a8e00d1a51f2a7b58a3bf2342837479ae8ee3512e0fa793052",
+      "checkedAt": "2026-09-20T13:34:46.460Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Buffett judges Berkshire, and every stock it owns, by return on equity capital and by the standard of a business owner buying a fractional interest in a real enterprise, not by a trader watching a ticker or a manager chasing earnings-per-share growth.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the episode \"1977-1978: The Owner-Oriented View,\" Buffett dismisses rising earnings per share as a scorecard, noting even a dormant savings account shows rising earnings through compounding, and substitutes return on beginning equity capital as the real test. He also applies a four part owner's test to any fractional purchase: understandable business, favorable long term prospects, honest and competent people, attractive price.\n\nThat is his documented standard. Applying it to your small reversible decision is my extension, not his claim.\n\nSmall test: write down the return on beginning equity the decision implies, then ask whether it would still look good if earnings per share rose while that return fell. If not, the decision is cosmetic.\n\n[Source: \"1977-1978: The Owner-Oriented View\"]\n\n[FOLLOWUP: How does Buffett define return on beginning equity capital? | What four criteria does Berkshire use to buy marketable equities? | Why does Buffett distrust earnings per share growth as a measure?]",
+      "citations": [
+        "1977-1978: The Owner-Oriented View"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:hell-yeah-or-no": {
+      "hash": "dcf2ca606ad221b21f07335efed1fbcf89bc6fba04e79148384b78a4947a4aa8",
+      "checkedAt": "2026-09-20T13:34:47.185Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Sivers opens by stripping away money and attention as motives, then argues your real values aren't what you claim to believe, they're what your actions, your titles, and your choices under pressure actually reveal.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"Updating Identity, Part 1,\" Sivers's old coach refused to believe he genuinely wanted to start a company, since he had talked about the idea since 2008 without launching it. The coach's verdict, that our actions always reveal our real values, became a permanent lens Sivers applies to himself. He extends it to titles: \"entrepreneur\" or \"good friend\" must be continuously re-earned, or holding the old label lets you feel satisfied without doing the current work.\n\nThat is the documented claim. My application, not his: treat your small decision as evidence of what you actually optimize for, not what you say you value.\n\nSmall test: write the decision down, give it a week, and see whether you acted. Inaction is also an answer.\n\n[Source: \"Updating Identity, Part 1\"]\n\n[FOLLOWUP: How does Sivers suggest naming what you're actually optimizing for? | Why does he say titles must be re-earned? | What did his coach's verdict change in his own life?]",
+      "citations": [
+        "Updating Identity, Part 1"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:friendly-ambitious-nerd": {
+      "hash": "75f0061a586a863bc335a35ece6734efbd716be8e2b96934e78804633813d2d7",
+      "checkedAt": "2026-09-20T13:34:52.259Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: The book's whole thesis is compressed into its title: friendliness, ambition and nerdiness aren't separate virtues to balance, they're one integrated way of being that Visakan believes anybody can deliberately cultivate.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One supported principle from the corpus: friendliness, ambition and nerdiness are mutually reinforcing, not competing. Friendliness without ambition stagnates, ambition without nerdy curiosity becomes hollow status-seeking, and nerdiness without friendliness curdles into isolation. That is Visakan's framing, not my own.\n\nMy application, which is mine and not his: for a small reversible decision, pick one act that deliberately combines two of the three rather than optimizing one. A small test: share something you are genuinely nerdy about with one friend, and ask what they think, which pairs curiosity with friendliness at low stakes.\n\n[Source: \"Introduction: About Me, and the One-Page Summary\"]\n\n[FOLLOWUP: What does Visakan mean by friendliness as a skill? | How does he define ambition without prestige? | What makes a scene or community work?]",
+      "citations": [
+        "Introduction: About Me, and the One-Page Summary"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:its-time-to-build": {
+      "hash": "3380fc5b5384f7bb15adc6a5f6673b5a79ca8ccf8826cc4bfae766dd0b4fb59e",
+      "checkedAt": "2026-09-20T13:34:54.404Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Andreessen opens by treating the early COVID-19 shortages, tests, swabs, ventilators, masks, ICU capacity, not as a one-off crisis failure but as proof of a deeper civilizational problem: Western institutions had lost the will to build physical capacity in advance of need, and the failure crossed ev. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"The Pandemic Proved We Stopped Building,\" the principle is that the early COVID shortages were not a money or skill problem but a failure to build capacity in advance of need, and it crossed every Western country and party, so the cause sits in shared complacency rather than politics.\n\nApplying that to your reversible decision is my extension, not his documented claim. His internal test of the diagnosis: is the demand real, the method already known, and only the will to build missing? If yes, the constraint is choice, not capability.\n\nSmall test: name the one step you would have pre-built, write it down, and set a date this week.\n\n[Source: \"The Pandemic Proved We Stopped Building\"]\n[FOLLOWUP: What did the essay say about funding as an explanation? | What four causes does he name instead? | How does the housing example fit this pattern?]",
+      "citations": [
+        "The Pandemic Proved We Stopped Building"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:life-of-alexander-plutarch": {
+      "hash": "2889a20f3e97dac17257553ba9227c8b05f85f299f6f5509ce60a8adc52279ac",
+      "checkedAt": "2026-09-20T13:35:01.366Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Plutarch announces he is writing a life, not a history, and proves it immediately: a boy's questions to Persian envoys and his handling of one unmanageable horse tell us more about Alexander than any battle count could.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the episode \"Birth, Boyhood, and the Taming of Bucephalus,\" Plutarch states he writes lives, not histories, preferring a revealing \"expression or a jest\" over exhaustive battle counts, and the young Alexander's pointed questions to the Persian envoys, plus his noticing that Bucephalas feared its own shadow, reveal character through small moments rather than scale.\n\nThat is the documented principle. My application is different: I am extending it to your reversible decision, suggesting small signals can predict fit better than aggregate metrics. Plutarch never addressed modern decisions.\n\nSmall test: before committing, run one low-cost trial and note one revealing detail it exposes.\n\n[Source: \"Birth, Boyhood, and the Taming of Bucephalus\"]\n\n[FOLLOWUP: What did the Persian envoys report about Alexander's questions? | How did Philip react to the taming of Bucephalas? | Why does Plutarch prefer lives over histories?]",
+      "citations": [
+        "Birth, Boyhood, and the Taming of Bucephalus"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:meditations": {
+      "hash": "a4cd7e096c27ff9252881e4055853ed080024e7bd6a9028f2401f9e2a04f2655",
+      "checkedAt": "2026-09-20T13:35:06.507Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Before Marcus writes a single argument about how to live, he writes down exactly who taught him how, by name, itemizing the specific trait he took from each person, then closes by thanking the gods for the unglamorous, particular mercies of his actual life.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the episode \"Book One: Debts and Lessons,\" Marcus credits named people before arguing anything: good morals from his grandfather Verus, modesty from his father's memory, piety and simple living from his mother, and the Epictetus discourses from Rusticus. The principle is that virtue arrives concretely through specific people, and gratitude should be itemized rather than generic. That is documented in the text; the application to your decision is mine, not his.\n\nSmall test: write five names and the one trait each taught you, then check whether your reversible decision honors any of them.\n\n[Source: \"Book One: Debts and Lessons\"]\n\n[FOLLOWUP: What did Marcus say he still fell short of? | Why does Book One end with thanks to the gods? | Where was Book One written?]",
+      "citations": [
+        "Book One: Debts and Lessons"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:how-to-live": {
+      "hash": "0309ba55512b425a90ec65f6b7c3c33db48e8f3e3e2abf15cb7b70e9d78423ac",
+      "checkedAt": "2026-09-20T13:35:09.426Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Nearly all misery is interpersonal dependency, so the answer is not to manage relationships better but to cut every dependency, on people, institutions, norms, and even your own past habits, until nothing outside you has power over you.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the episode \"Be Independent,\" the documented principle is that the fix is not managing relationships better but exiting them, and that you should act as if you were the only person on Earth. The same episode says you can test self mastery by voluntarily giving something up, quitting a harmless habit for a month just to prove you can.\n\nMy application, not the author's: for a small reversible decision, ask whether you are choosing it or asking permission for it. That is my framing, not a claim from the source.\n\nSmall test: pick one harmless habit and drop it for a month, then notice whether the decision felt like yours.\n\n[Source: \"Be Independent\"]\n\n[FOLLOWUP: What does the corpus say about owing no one anything? | How does \"Commit\" treat irreversible choices? | What does \"Do Nothing\" say about refusing decisions?]",
+      "citations": [
+        "Be Independent"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:paul-graham-essays": {
+      "hash": "d791c3eb2c03bce514567cf918bacfeaaf56c5ec5decd0f9c85ce6a72c0ad00d",
+      "checkedAt": "2026-09-20T13:35:13.387Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: A startup's controllable foundations are good people, a product customers actually want, and spending little enough to survive learning what that product is.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle is in \"How to Start a Startup\": a startup's controllable foundations are good people, a product customers actually want, and spending little enough to survive learning what that product is. Graham treats those three as a system, where weakness in any one can kill the company even when the other two look strong.\n\nMy application, not his: since your decision is small and reversible, treat it as a cheap probe into whether real customers want the thing, rather than as a commitment to build an organization around it.\n\nSmall test: get a handful of people to actually use or pay for the smallest version, and watch what they do rather than what they say.\n\n[Source: \"How to Start a Startup\"]\n\n[FOLLOWUP: What counts as real demand versus polite encouragement? | How little spending is \"little enough\" while learning? | When does a reversible test stop being reversible?]",
+      "citations": [
+        "How to Start a Startup"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:letters-from-a-stoic": {
+      "hash": "af0b2dc645d9d367d7543432db45f6b296832592a7d2cf20ffedad1b75222c84",
+      "checkedAt": "2026-09-20T13:35:15.634Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Letters II and III: scattered reading and scattered trust both fail for the same reason — depth requires narrowing down to what you can actually hold, not gathering everything you might one day need.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the episode \"Reading Deeply, and Testing a Friend Before Trusting Him,\" Seneca argues that depth requires narrowing: he tells Lucilius to return repeatedly to a few well tested authors rather than skim many, and to \"lay hold of one\" thought daily. He applies the same logic to friendship, advising long deliberation before admitting someone, then full trust afterward.\n\nThat is his documented claim, not a rule I can verify for your situation. My application is only a suggestion: treat your reversible decision as a narrowing test rather than a gathering test.\n\nSmall test: before deciding, name the one thing you can actually hold and act on this week. If you cannot name it, you are still gathering.\n\n[Source: \"Reading Deeply, and Testing a Friend Before Trusting Him\"]\n\n[FOLLOWUP: What did Seneca say about scattered reading? | How did Seneca define a true friend? | What does \"to be everywhere is to be nowhere\" mean here?]",
+      "citations": [
+        "Reading Deeply, and Testing a Friend Before Trusting Him"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:poor-charlies-almanack": {
+      "hash": "8736ae36637c9616539006a1c53fff34f9cc2b29635a9941f378fe1ba849d291",
+      "checkedAt": "2026-09-20T13:35:19.865Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Munger's real subject across every talk in this book is not stock picking but how to live: worldly wisdom applied to decisions, character, and the avoidance of folly, with investing as just the most visible proving ground.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the Introduction, Kaufman documents that Munger gives advice mostly through inversion, following Jacobi's \"invert, always invert,\" preferring to show how to guarantee ruin than to list virtues to imitate.\n\nThat is Munger's documented method. Applying it to your decision is mine, not his: ask what would make this choice clearly bad, then avoid that path. Because your decision is small and reversible, inversion is cheap here, and a bad outcome is easy to undo.\n\nSmall test: before deciding, write two sentences naming the specific way this could go wrong, then check whether your plan touches that. If it does not, proceed.\n\n[Source: \"Introduction by Peter D. Kaufman\"]\n\n[FOLLOWUP: What does Munger mean by \"invert, always invert\"? | How does the Introduction describe Munger's old-fashioned values? | Why does Kaufman say Munger repeats ideas across talks?]",
+      "citations": [
+        "Introduction by Peter D. Kaufman"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:pendleton-ward-selected-interviews": {
+      "hash": "d51bfdd6b7dccff3864f8fa4f405309b215866c7649f1978a6610c7159c7b809",
+      "checkedAt": "2026-09-20T13:35:25.897Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Write characters with both strengths and faults.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"Pendleton Ward: rounded characters,\" the supported principle is to write characters with both strengths and faults. Ward describes wanting ordinary, believable people rather than opposite stereotypes, and a team writing to entertain itself. My application, not Ward's own claim, is to test that idea on a small reversible choice: draft one short scene where a character shows one strength and one fault. Then ask another reader whether the character feels understandable, not just good or bad. That keeps the experiment low stakes and checks the principle in practice.\n\n[Source: \"Pendleton Ward: rounded characters\"]\n\n[FOLLOWUP: How can I show a fault without making a character unlikable? | What makes a character feel ordinary and believable? | How do I test a scene with another reader?]",
+      "citations": [
+        "Pendleton Ward: rounded characters"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:mindset": {
+      "hash": "ee7f759c711942540929c224cca0fc999bb50de44b18d3b864d92c79ca0eafa5",
+      "checkedAt": "2026-09-20T13:35:28.260Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Dweck frames the whole book around one claim: a simple belief about whether your qualities are fixed or can be developed quietly shapes nearly everything else about how you live, and the book exists to make that belief visible and changeable.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The Introduction states the core claim: a belief about whether qualities are fixed or developable quietly shapes how you live, and the book exists to make that belief visible and changeable. That is the documented principle.\n\nMy application, not Dweck's: for a small reversible decision, treat it as a test of belief rather than a verdict on you. The corpus does not cover your specific decision, so I cannot say what Dweck would advise.\n\nSmall test: use the Chapter 1 self-test, four agree/disagree statements about whether intelligence and personality can change, to locate your current mindset before deciding.\n\n[Source: \"Introduction\"] [Source: \"Chapter 1: The Mindsets\"]\n\n[FOLLOWUP: What are the four self-test statements in Chapter 1? | How does the growth mindset treat a lapse? | What is the \"Learn and Help Learn\" closing practice?]",
+      "citations": [
+        "Introduction",
+        "Chapter 1: The Mindsets"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:principles": {
+      "hash": "ada7406e164644908c1f986b3f9e3418e34b6e576d983b440caf89cee4f2b0a9",
+      "checkedAt": "2026-09-20T13:35:29.748Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Dalio opens by defining a principle as something narrower than a value: a value is what you care about, a principle is the reusable rule that connects that value to action in recurring situations, and he argues you either forge your own through reflection or you inherit someone else's without testin. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"What Principles Are, and Why They Matter,\" Dalio separates values from principles: a value is what you care about, while a principle is the reusable rule connecting that value to action in recurring, hard situations. He notes you either forge your own through reflection or inherit someone else's untested, which risks the hypocrite who professes one thing and lives another.\n\nMy application, not Dalio's claim: before adopting any inherited rule, name the value it is supposed to serve.\n\nSmall test: take one rule you follow out of habit, write the value behind it, then ask Dalio's repeated question, \"Is it true?\" If the rule does not match the value, you have found a candidate to reforge.\n\nClarifying question: is the decision you are weighing inherited or self-made?\n\n[Source: \"What Principles Are, and Why They Matter\"]\n[FOLLOWUP: How do principles differ from values? | What are your principles, per Dalio's closing questions? | When is adopting inherited principles reasonable?]",
+      "citations": [
+        "What Principles Are, and Why They Matter"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:reason-is-fun-essays": {
+      "hash": "16dd55ca931105603d36824aa3b3b2e51f81b0a006ff1d2f5f9915700b4931a8",
+      "checkedAt": "2026-09-20T13:35:30.253Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: What people call 'discipline' is usually internal conflict, forcing yourself to do something part of you doesn't actually want, and the fix is not more willpower but resolving the underlying disagreement about what you actually want.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"Discipline Is Fighting Yourself,\" Tanett treats the need to force yourself as a diagnostic signal: part of you disagrees with the plan, and overriding it just suppresses the disagreement until it resurfaces as procrastination, burnout, or resentment. The fix is finding and resolving that contradiction, not adding willpower.\n\nThat is her documented claim, not a verdict on your specific decision. My application: for a small reversible choice, the resistance itself is the data worth reading.\n\nSmall test: write down what the resisting part seems to object to, then check whether the plan can be adjusted to answer it.\n\n[Source: \"Discipline Is Fighting Yourself\"]\n\n[FOLLOWUP: What does \"The Fun Criterion\" add to this test? | How does \"Why People Get Stuck: Coercive Scripts\" explain resistance? | What is the difference between self-improvement and self-discovery here?]",
+      "citations": [
+        "Discipline Is Fighting Yourself"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:siddhartha": {
+      "hash": "90ca27eb68997e555bae3af7cdcf8d6eb572aa4c2e82c5028fb992d8914fbc8e",
+      "checkedAt": "2026-09-20T13:35:33.771Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Siddhartha has every gift his world can give him — beauty, intellect, his father's pride, Govinda's devotion — and none of it touches the thirst underneath, because the thirst is for something rituals and inherited teachings cannot supply.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"The Brahman's Son,\" the supported principle is that inherited teachings and rituals cannot satisfy the thirst underneath: Siddhartha's ablutions \"did not wash off the sin,\" and even his father, the pure scholar, still had to wash daily like a thirsty man.\n\nThat is the text's claim, not a claim about you. My application: if your small reversible decision is really about whether a received form will quiet something, the episode suggests the form alone will not.\n\nOne small test: try the inherited route once, deliberately, and note afterward whether the underlying thirst actually eased or only the ritual was completed.\n\n[Source: \"The Brahman's Son\"]\n\n[FOLLOWUP: What did Siddhartha do when his father refused? | Why did Govinda follow him? | What question does this chapter set up?]",
+      "citations": [
+        "The Brahman's Son"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:skin-in-the-game": {
+      "hash": "2d031dd400541b1b31006bf4e7778e3a5adec5b45aa2a9ae7cf27557b000ae11",
+      "checkedAt": "2026-09-20T13:35:34.751Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Skin in the game means symmetry between the results of your actions and their consequences to you, and this book traces that idea from the myth of Antaeus through Hammurabi's code and the Golden and Silver Rules up to Kant, then lays out how the rest of the Incerto series and this book itself are or. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "A supported principle: skin in the game means symmetry between your actions and their consequences, and the Prologue observes that only those exposed to a decision's downside should be allowed to make it, with the \"Bob Rubin trade\" as the counterexample. That is Taleb's documented framing, not mine.\n\nMy application, which is just my own reading: for your small reversible decision, ask who absorbs the loss if it goes wrong. If the answer is only you, the symmetry holds. If someone else eats the downside, that is the Rubin pattern.\n\nSmall test: write one sentence naming precisely what you personally lose if it fails. If you cannot name a concrete cost, you may be holding a risk-free opinion.\n\n[Source: \"Prologue\"]\n\n[FOLLOWUP: How does the Silver Rule differ from the Golden Rule in the Prologue? | What made the Bob Rubin trade asymmetric? | Why did Taleb reject Kant's categorical imperative as impractical?]",
+      "citations": [
+        "Prologue"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:principles-for-dealing-with-the-changing-world-order": {
+      "hash": "dccfe5eb720276c0e97c2f60a95ef4bfea5d357f030b964b5e0b8a70fb33316f",
+      "checkedAt": "2026-09-20T13:35:35.303Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Every empire studied moves through the same archetypal arc — rise, top, decline, new order — and that arc can be tracked across eight measurable determinants of power rather than judged by feel.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the episode on The Big Cycle and the Determinants of Power, the documented claim is that eight determinants, education, innovation and technology, competitiveness, military strength, trade, economic output, financial-center strength, and reserve-currency status, tend to rise together, peak together, and decline together, while the decline phase shows large debts, money-printing, and internal conflict.\n\nMy application, not Dalio's: use those measures as a checklist rather than a verdict on a small reversible decision. One small test: pick three of the eight that fit your situation, mark each as improving, flat, or worsening, then revisit in a month. If they point the same direction, your read is probably more than feel.\n\n[Source: \"The Big Cycle and the Determinants of Power\"]\n\n[FOLLOWUP: How does Dalio define the decline phase? | What are the five markers of a change in world order? | Why does he treat large wealth gaps as a warning sign?]",
+      "citations": [
+        "The Big Cycle and the Determinants of Power"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:tao-te-ching": {
+      "hash": "46e9c30ef8d6d52cbf3fbdfe3a7d2cde79adcaa801fb709baefd50d63ca7640b",
+      "checkedAt": "2026-09-20T13:35:37.247Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: The book opens by refusing to define its own subject: the Tao that can be spoken is not the eternal Tao, so the text teaches by paradox and by negative example (the empty vessel, the impartial heaven, the valley spirit) rather than by direct description, and it opens its politics with the same move,. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the episode \"The Tao That Cannot Be Named,\" the supported principle is that the text teaches by subtraction rather than definition: Chapter 1 says any Tao that can be spoken is not the enduring Tao, and Chapter 3 turns that into statecraft, where governing means removing stimulus rather than adding rules.\n\nThat is the corpus's claim, not mine. My application to your small reversible decision is only an analogy: try the version that adds nothing, and see whether the situation settles on its own.\n\nSmall test: for one week, change nothing and add no new rule or purchase, and note whether the problem resolves or persists.\n\n[Source: \"The Tao That Cannot Be Named\"]\n\n[FOLLOWUP: How does Chapter 2 define managing without doing? | What does the empty vessel image mean? | How does Chapter 5 describe impartial heaven?]",
+      "citations": [
+        "The Tao That Cannot Be Named"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:the-beginning-of-infinity": {
+      "hash": "8c6091ccf84fbdfc1edff78e3bac6f7d7954ff6c6874c946a634e60d4cf0e8ce",
+      "checkedAt": "2026-09-20T13:35:41.225Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Knowledge is not derived from sensory experience by induction; it is created by conjecture and winnowed by criticism, and a genuinely good explanation is one that is hard to vary while still accounting for what it purports to account for, which is why good explanations reach far beyond the evidence . Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"The Reach of Explanations,\" Deutsch argues that knowledge is not derived from sensory experience by induction but created by conjecture and winnowed by criticism, and that a good explanation is hard to vary while still accounting for what it purports to account for. That is the documented principle.\n\nMy application, not his: treat your reversible decision as a conjecture rather than a conclusion drawn from past data. Ask whether its supporting reasoning could be swapped for many other reasonings without changing what it predicts. If so, it is easy to vary, and weak.\n\nSmall test: write the rationale in three sentences, then deliberately alter one detail. If the prediction stays identical, your reasoning is doing no real work.\n\n[Source: \"The Reach of Explanations\"]\n\n[FOLLOWUP: How does reach differ from extrapolation? | Why is testability alone not the mark of science? | What makes an explanation hard to vary?]",
+      "citations": [
+        "The Reach of Explanations"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:autobiography-of-benjamin-franklin": {
+      "hash": "c6c61f8fc4c0d8bf41cfa786e751e5b16741122166be6b14162c113809c1e1e4",
+      "checkedAt": "2026-09-20T13:35:42.891Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Franklin opens not with himself but with three generations of an obscure, dissenting, hands-working English and New England family, framing his own rise as the payoff of habits (industry, frugality, plain dealing) that predate him, not personal genius arriving from nowhere.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Franklin's documented principle: his rise rests on habits (industry, frugality, plain dealing) held by generations before him, not on genius arriving from nowhere. The Franklins worked one Ecton freehold for roughly three hundred years as blacksmiths, and Josiah switched from dyeing to candle and soap making because it could support the family. Benjamin, the youngest son of a youngest son for five generations, breaks that pattern.\n\nThat reading is my application to your decision, not Franklin's claim about you.\n\nSmall test: pick one reversible step, name the single inherited habit it leans on, and run it once this week.\n\n[Source: \"Ancestry and Early Life in Boston\"]\n\n[FOLLOWUP: What did Josiah's trade switch show about practical choices? | Why does Franklin start with family rather than himself? | How does Franklin describe his own vanity as a writer?]",
+      "citations": [
+        "Ancestry and Early Life in Boston"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:bible": {
+      "hash": "9f2171727e0ce795d6f463a2208a3953fd53f6232b9ed557b2accd8ac7ff41da",
+      "checkedAt": "2026-09-20T13:35:47.320Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: The Preacher opens by naming his thesis before arguing for it: everything is 'vanity,' fleeting and insubstantial, and he grounds the claim first in nature's repeating cycles and then in his own accumulated wisdom, which he says only deepened his grief.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The principle, from the episode \"Vanity and the Cycles of Nature,\" is that the Preacher names his thesis before arguing for it: everything is fleeting and insubstantial, and he grounds that claim in nature's repeating cycles, the sun rising only to set again, rivers flowing yet the sea never filling, wind circling back on itself (1:5-7), motion without accumulation. He then adds that his own accumulated wisdom only deepened his grief, since \"in much wisdom is much grief\" (1:18).\n\nThat is the documented claim, not advice for you. My application is only a suggestion: your reversible decision might be tested by asking whether it produces anything that accumulates, or just motion.\n\nSmall test: write down what you expect to still be true in a month.\n\n[Source: \"Vanity and the Cycles of Nature\"]\n\n[FOLLOWUP: What does the corpus say about wisdom increasing sorrow? | How does the Preacher's pleasure experiment answer his opening question? | What does the corpus say about remembering your Creator in youth?]",
+      "citations": [
+        "Vanity and the Cycles of Nature"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:the-fabric-of-reality": {
+      "hash": "15ff1b76fdc1781a583bf551fa55e6a47ac23424cb47255c70a0040ecdc1ba60",
+      "checkedAt": "2026-09-20T13:35:53.179Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Science is fundamentally about explanation, not prediction; understanding grows deeper and more unified over time, and a real Theory of Everything must weave together quantum physics, epistemology, computation, and evolution, not just the physicists' narrow reductive unification of forces and partic. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"The Theory of Everything,\" Deutsch argues science is fundamentally about explanation, not prediction. His oracle thought experiment makes it concrete: a machine that perfectly predicts every experimental outcome still could not tell you why a rocket explodes or how to fix it. Prediction without explanation cannot guide action.\n\nMy application, not Deutsch's: for your small reversible decision, weigh which option you could actually explain if asked. The test: write one sentence on why each option might fail, then pick the one whose failure you can explain.\n\n[Source: \"The Theory of Everything\"]\n\n[FOLLOWUP: How does Deutsch distinguish reductionism from holism? | What is the Churchill statue example meant to show? | Why does Deutsch call emergence central to explanation?]",
+      "citations": [
+        "The Theory of Everything"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:steve-jobs-isaacson": {
+      "hash": "55b0f92b2a001920efdef16578d4df439fb6cd43f887dbf7676cec4e84fdee3b",
+      "checkedAt": "2026-09-20T13:36:00.789Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Jobs commissioned his own unauthorized-feeling biography, ceding all editorial control, and the book opens by tracing his character to a fact he processed as a child into a private mythology: 'Abandoned. Chosen. Special.'. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"How This Book Came to Be and Childhood,\" the documented principle is that Jobs ceded editorial control entirely (\"It's your book. I won't even read it\") while tracing his drive to the childhood triad \"Abandoned. Chosen. Special.\" The corpus presents that as biography, not a management method.\n\nMy application is different: I am not claiming Jobs endorsed anything for your situation. I am only noting that a reversible decision can be tested by giving up control of the outcome.\n\nSmall test: make the decision, then deliberately not intervene in how it plays out for one week, and note what you learn.\n\n[Source: \"How This Book Came to Be and Childhood\"]\n\n[FOLLOWUP: What did Isaacson say about Jobs ceding editorial control? | How did Jobs's adoption shape his self-concept? | What did colleagues say about Jobs's need for control?]",
+      "citations": [
+        "How This Book Came to Be and Childhood"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:the-black-swan": {
+      "hash": "c5884f388cd036a7fcdd3ff41bc07c8823809035aa27fdf3d4b76dbd64849046",
+      "checkedAt": "2026-09-20T13:36:06.828Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: A Black Swan is an event that is a rarity, carries extreme impact, and only looks predictable in hindsight; because our minds are wired to explain rather than to admit ignorance, we systematically underestimate how much of history, business, and personal life is driven by exactly these events.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"Chapter 13: Appelles the Painter, or What Do You Do if You Cannot Predict?\", Taleb argues you cannot forecast rare events, but you can control your exposure to them. His barbell splits resources between maximally safe holdings and small, capped-downside bets with open-ended upside, so being wrong costs little and being right pays a lot.\n\nThat is his documented principle, not a claim about your situation. My application: for a small reversible decision, ask whether the downside is bounded and the upside open, rather than whether your prediction feels likely.\n\nSmall test: write the worst case and best case in numbers. If the worst case is survivable and the best case is unbounded, the asymmetry favors acting.\n\n[Source: \"Chapter 13: Appelles the Painter, or What Do You Do if You Cannot Predict?\"]\n\n[FOLLOWUP: What is the barbell strategy exactly? | How does the Fourth Quadrant change this? | What is a positive Black Swan business?]",
+      "citations": [
+        "Chapter 13: Appelles the Painter, or What Do You Do if You Cannot Predict?"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:techno-optimist-manifesto": {
+      "hash": "e782305cc5756d9bc39f8b2b310714b4a4efd76daa162139556a6366da773e23",
+      "checkedAt": "2026-09-20T13:36:11.445Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: The manifesto opens by naming a cultural narrative it calls a lie, that technology destroys jobs, worsens inequality, harms health, and degrades the environment and society, then answers it with a counter-claim it calls the truth, that technology is the foundation civilization is built on, and defin. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"Lies, Truth, and Technology,\" Andreessen frames the pessimistic narrative as a lie and asserts that civilization is built on technology, with growth coming only from technology once population growth and easy resource extraction stop being sufficient. He also frames technology's core function as doing more with less, a productivity lever.\n\nThat is his documented claim, not mine. My application to your small reversible decision is just this: test whether the tool you are considering actually lets you do more with less, rather than assuming it will.\n\nSmall test: pick one task, measure time or cost without the change, then measure it again with it. Reverse if it does not shrink.\n\n[Source: \"Lies, Truth, and Technology\"]\n\n[FOLLOWUP: What counts as a \"lie\" in this episode's framing? | How does the manifesto define growth as coming only from technology? | What other episodes treat technology as doing more with less?]",
+      "citations": [
+        "Lies, Truth, and Technology"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:the-pathless-path": {
+      "hash": "d09c4c63a89f553d41ab57ade5fa51c47f763b78e5a350a002bf267526bb1be2",
+      "checkedAt": "2026-09-20T13:36:11.786Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Millerd names the 'default path' — study hard, get a good job, keep climbing indefinitely — as a script almost everyone inherits and few examine, and traces his own decade inside it to the moment a phrase from David Whyte, 'the pathless path,' gave him a name for the alternative.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle is that the default path is an inherited script, not a chosen one. In \"Introduction / The Default Path,\" Millerd describes study hard, get a good job, keep climbing, and notes he worked for five companies and did two years of grad school, always assuming the next stop was final. David Whyte's phrase gave him a name for the alternative.\n\nMy application, not his: a small reversible decision can be treated as a test of whether the script or your own curiosity is driving it.\n\nSmall test: before deciding, write one sentence on why you want it, then ask whether that reason would survive if nobody impressive were watching.\n\n[Source: \"Introduction / The Default Path\"]\n\n[FOLLOWUP: What did Millerd mean by the default path? | How did David Whyte's phrase change his framing? | What small experiments did Millerd run before leaving?]",
+      "citations": [
+        "Introduction / The Default Path"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:think-and-grow-rich": {
+      "hash": "473d8733a0b5692d51bf13d4f34fc7394d60aa6eccba5c74b448671e70a84924",
+      "checkedAt": "2026-09-20T13:36:17.554Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Hill opens with the claim that 'thoughts are things,' and proves it with Edwin C. Barnes, a man with no money and no connections who decided he would become Thomas Edison's business partner, not his employee, and stayed with that exact desire until it happened.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle is definiteness of desire: Barnes fixed on becoming Edison's partner rather than merely wanting to work for him, and held that single aim until it materialized (\"Introduction\"). Hill's broader claim is that a wish becomes a starting point only when tied to an exact amount, date, and plan.\n\nMy application differs from Hill's: Barnes staked years and total uncertainty. A small reversible decision is a much lower-stakes test of the same habit, so treat it as practice in clarity, not as proof that outcomes follow thoughts.\n\nSmall test: write your exact result and a cutoff date in one sentence, then take the first action today.\n\n[Source: \"Introduction\"]",
+      "citations": [
+        "Introduction"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:the-war-of-art": {
+      "hash": "a5f2174ef72d2971ba130e4ece6ac6f883830185ba757ef48de2523f3ffacbfa",
+      "checkedAt": "2026-09-20T13:36:19.748Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Between the life we actually live and the unlived life we sense inside us stands a single force Pressfield calls Resistance, and naming it is the whole point of the book.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the episode \"The Unlived Life,\" Pressfield's principle is that most people carry two lives, the one they live and the unlived one inside them, and Resistance is the single force standing between them, visible in every abandoned diet, unused treadmill, or novel never started.\n\nThat is his documented claim. My application, not his, is this: for a small reversible decision, the useful move is to name which choice the unlived life is quietly pulling you toward, then notice whether your reasons against it sound like Resistance.\n\nSmall test: write both options down, and ask which one you would still choose if nobody ever heard about it. If the answer is obvious and the hesitation is loud, that gap is worth examining.\n\n[Source: \"The Unlived Life\"]\n\n[FOLLOWUP: What are Resistance's first five traits? | How does Pressfield define turning pro? | What does he say about fear as an indicator?]",
+      "citations": [
+        "The Unlived Life"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:the-nvidia-way": {
+      "hash": "72ab33e95673a636740e9fd790d792936c0ee7d74633687f87361e8992eb9cd8",
+      "checkedAt": "2026-09-20T13:36:20.463Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Nvidia's defining trait is not technology, capital, or luck but a unique culture built entirely around fighting complacency, which Tae Kim calls \\. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the Introduction, Tae Kim argues Nvidia's edge is a culture built to fight complacency, not technology, capital, or luck. One supported mechanism: Jensen's whiteboard, not slide decks, forcing real-time thinking with nowhere to hide, and the belief that even a brilliant idea must eventually be erased for a new one.\n\nThat is a documented claim about Nvidia, not advice for you. My application is only a suggestion: treat your small reversible decision as a whiteboard, something you can erase cheaply, rather than a slide you must defend.\n\nSmall test: write the decision on one page, then ask what evidence would make you erase it within a week. If nothing would, it is not really reversible.\n\n[Source: \"Introduction\"]\n\n[FOLLOWUP: What does \"fighting complacency\" mean in practice at Nvidia? | How did the whiteboard become Nvidia's default tool? | What other Jensen-isms support reversible decision making?]",
+      "citations": [
+        "Introduction"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:titan-chernow": {
+      "hash": "53ac6de25649679e99e829493333d3f9df79afb9c6cec9be649ac9134424b7ba",
+      "checkedAt": "2026-09-20T13:36:31.457Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Rockefeller spent a lifetime engineering his own opacity, and Chernow's biography is built to break through it using a suppressed 1917-1920 interview transcript that reveals the man behind the mask.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle: Rockefeller deliberately cultivated opacity, and the 1917 to 1920 Inglis interviews, a 480,000 word transcript, exposed a far angrier, more defensive man than his placid public image, including his refusal to even hear the 1911 dissolution read aloud. That is documented in \"Chapter 31: Confessional.\"\n\nMy application, not Chernow's: for a small reversible decision, treat your own framing as a mask worth testing. Ask what a candid transcript of your reasoning would reveal.\n\nSmall test: write one paragraph defending the opposite choice, then reread it for defensiveness.\n\n[Source: \"Chapter 31: Confessional\"]\n\n[FOLLOWUP: What did the Inglis transcript reveal about Rockefeller's temper? | Why did Rockefeller never mention the 1911 breakup? | How did Ivy Lee shape Rockefeller's public image?]",
+      "citations": [
+        "Chapter 31: Confessional"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:thinking-in-bets": {
+      "hash": "8d0665dbae86ef3f507dc8cceba21191e204bdb358f091c98822637e6badba0b",
+      "checkedAt": "2026-09-20T13:36:32.027Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Annie Duke's twenty-year detour from a cognitive-psychology PhD into professional poker taught her that only two things determine how any life turns out: the quality of our decisions and luck, and most of our suffering comes from failing to tell the two apart.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One supported principle is \"resulting,\" from Chapter 1: Life Is Poker, Not Chess. It means judging a decision by how it turned out rather than by the quality of the reasoning at the time. Duke shows this with Pete Carroll's call and a CEO who called firing his president his worst decision purely because the aftermath went badly.\n\nMy application to your situation: the corpus doesn't cover your specific decision, so I'm extending the principle, not reporting Duke's view of it. The move is to grade the process you'd use, not the result you get.\n\nOne small test: before deciding, write down your reasoning and what you'd expect; then after the outcome, ask whether you'd make the same call again with the same information.\n\n[Source: \"Chapter 1: Life Is Poker, Not Chess\"]\n\n[FOLLOWUP: What is hindsight bias? | How does Duke define a \"bet\"? | What is a decision pod?]",
+      "citations": [
+        "Chapter 1: Life Is Poker, Not Chess"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:useful-not-true": {
+      "hash": "e14b9fd03f526da88712fbad11c975333fba4b17041b967c992b5f3dc7f79ba4",
+      "checkedAt": "2026-09-20T13:36:35.703Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Sivers defines 'true' so narrowly — absolute, objective, agreed by any observer, everywhere and always — that almost nothing anyone says can clear the bar, and 'not true' never means false, only that another perspective is possible.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"What 'True' Means Here,\" Sivers sets the bar for \"true\" at concrete, universal fact that any observer anywhere could agree on, so \"not true\" only means another perspective is possible, never that a claim is false. His date line example makes it physical: standing in Fiji with one foot in Sunday and one in Monday, only the sand is true and the date is a convention.\n\nMy application, not his: for your small reversible decision, treat your reasons as one angle rather than settled fact, which loosens the pressure to be right before you act.\n\nA small test: write the bare observable facts of the choice on one side, and your interpretation on the other. If the interpretation is doing the deciding, proceed knowing it can be revised.\n\n[Source: \"What 'True' Means Here\"]\n\n[FOLLOWUP: How do I separate events from interpretation? | Why is \"not true\" not the same as false? | How does this connect to taking the first step immediately?]",
+      "citations": [
+        "What 'True' Means Here"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:why-software-is-eating-the-world": {
+      "hash": "ed4d01bae3c50512c9db723145137322d345d78deb8b399855312e71fbc7bef6",
+      "checkedAt": "2026-09-20T13:36:37.983Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Software companies are not just another sector, they are becoming the mechanism by which every other sector competes, and this is happening in 2011 specifically because six decades of computing, four decades of microprocessors, and two decades of internet infrastructure finally converged into someth. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle is the \"why now\" argument in the episode \"The Thesis and Why Now\": cheap, ubiquitous infrastructure is what makes software-led competition viable, illustrated by Loudcloud costing roughly $150,000 a month around 2000 versus about $1,500 a month renting comparable capacity from AWS by 2011.\n\nThat is Andreessen's documented claim, not advice aimed at your situation. My application: if your decision depends on infrastructure cost, the corpus suggests the cost curve, not the idea, is the thing to check.\n\nSmall test: price one real workload both ways, rented versus owned, for a month, then decide.\n\n[Source: \"The Thesis and Why Now\"]\n\n[FOLLOWUP: What were the three converging infrastructure curves? | How did broadband and smartphone adoption change reach? | What risks does the closing episode name?]",
+      "citations": [
+        "The Thesis and Why Now"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:tools-of-titans": {
+      "hash": "3df7027aff38be9d13d50f27d2a3336b1a4a524005ac72023e0ae24c8602ac81",
+      "checkedAt": "2026-09-20T13:36:42.585Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: The obstacle racers and strength coaches in Tools of Titans agree that extreme physical capacity is built less by talent than by deliberately rehearsing discomfort, training strength as a skill rather than a burn, and making one irreversible long-term decision instead of renegotiating your commitmen. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the episode \"Endurance, Strength, and the Single Decision,\" the documented principle is that capacity is built by deliberately rehearsing discomfort rather than relying on talent. Amelia Boone trains in rain and cold precisely because she knows her competition is opting out, and Pavel Tsatsouline treats strength as a trainable skill, keeping reps at 5 and under because \"the burn is your enemy.\"\n\nThat is what the sources document about those athletes. Applying it to your small reversible decision is my own inference, not their endorsement: pick the version that costs you a little voluntary discomfort now.\n\nSmall test: do one deliberately uncomfortable session this week, cold, rain, or a 5-rep strength set, and note whether the discomfort felt rehearsable rather than threatening.\n\n[Source: \"Endurance, Strength, and the Single Decision\"]\n\n[FOLLOWUP: What does \"the single decision\" mean in that episode? | How did Boone train around knee surgery? | What is Tsatsouline's \"grease the groove\" method?]",
+      "citations": [
+        "Endurance, Strength, and the Single Decision"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:zero-to-one": {
+      "hash": "be409dcf329a27d245475d8cb5730fb3c854190c7c6889141989a58ff1fd2d20",
+      "checkedAt": "2026-09-20T13:36:45.306Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Thiel frames the whole book around a single distinction: horizontal progress (copying what already works, 1 to n) versus vertical progress (doing something genuinely new, 0 to 1), and argues that only the second kind, which he calls technology in the broadest sense, can save a stagnating world.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"Preface: Zero to One,\" Thiel draws the book's core distinction: horizontal progress (1 to n) copies what already works, while vertical progress (0 to 1) creates something genuinely new, which he calls technology in the broadest sense.\n\nThat is his documented claim. My application to your situation is my own inference, not Thiel's: for a small reversible decision, ask whether you are copying a proven pattern or testing something new. His framing suggests newness is where value concentrates, but he also notes copying is not learning.\n\nSmall test: write one sentence stating what your decision creates that did not exist before. If you cannot, it is likely 1 to n.\n\n[Source: \"Preface: Zero to One\"]\n\n[FOLLOWUP: How does Thiel define technology in the broadest sense? | Why does he say copying a solved problem is not learning? | What examples does he give of horizontal versus vertical progress?]",
+      "citations": [
+        "Preface: Zero to One"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "channel:founders-podcast": {
+      "hash": "2d3922d50d1976b4ae1a97e95a7ad6f23bf5c37521cdbb0892bace062155828b",
+      "checkedAt": "2026-09-20T13:36:48.613Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Run Elon's algorithm on everything: question every requirement, delete relentlessly, then simplify, accelerate, and automate last.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle is the ordering: question every requirement, delete the part or process, simplify, accelerate, then automate last. In \"How Elon Works,\" the stated mistake is automating or speeding up something that should not exist at all, and each requirement must carry the name of a real person, not a department.\n\nMy application, not the episode's: for a small reversible decision, the cheap move is to test whether the requirement survives scrutiny before you invest in making it faster or smoother.\n\nOne test: write the requirement, name who set it, and ask whether deleting it breaks anything this week. If nothing breaks, delete rather than optimize.\n\n[Source: \"How Elon Works\"]\n\n[FOLLOWUP: What requirement are you questioning? | Who set it, by name? | What breaks if you delete it?]",
+      "citations": [
+        "How Elon Works"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:tribe-of-mentors": {
+      "hash": "2be17c15fcdb39e6ef76b9c441d06d9a156e3dac23d7960435b8d517edc849cf",
+      "checkedAt": "2026-09-20T13:36:49.829Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Tim Ferriss built this book by sending the same eleven rapid-fire questions to 100+ high performers, on the theory that a good question, asked of enough different people, produces a usable playbook faster than any single mentor could.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle here is that a single good question, asked of many different people, beats hunting for one perfect mentor. In \"Why This Book Exists: The Eleven Questions,\" Ferriss sent the same eleven questions to over 100 people, ordered easy to hard, and treated the book as a buffet rather than a syllabus.\n\nMy application, not his: for your small reversible decision, borrow the method instead of the answer. The corpus does not tell you what to decide.\n\nOne small test: pick one question you would ask five people you trust, ask all five this week, and note where answers converge. Convergence is your signal, not any single reply.\n\n[Source: \"Why This Book Exists: The Eleven Questions\"]\n\n[FOLLOWUP: Which of the eleven questions is easiest to start with? | How did Ferriss pick his initial list? | What did he do when people declined?]",
+      "citations": [
+        "Why This Book Exists: The Eleven Questions"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "channel:invest-like-the-best": {
+      "hash": "fa4d875a5e5176d13f59f8a17e324242da63cc5842ac0679722ed0e64da9eb8a",
+      "checkedAt": "2026-09-20T13:36:50.370Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Trading is not investing: it is a discipline of waiting for rare, high-conviction openings created by leverage, central-bank error, or crowd extremes, then sizing up hard and staying liquid enough to survive being wrong the rest of the time.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In\"Legendary Trader Paul Tudor Jones on AI Risk, Bubbles and Buffett,\" the documented principle is that most trading is probing and waiting, and only a few moments a year offer a real knockout shot, so survival and liquidity matter more than activity. Jones's Bunker Hunt silver collapse memory anchors his obsession with staying liquid.\n\nThat is his trading discipline, not a recommendation for you. My application: a small reversible decision is a probe, not a knockout, so size it as something you can be wrong about cheaply.\n\nOne small test: write down the specific catalyst you are waiting for, and if you cannot name one, treat the trade as unready. Alternatively, cap the amount at a level where being wrong changes nothing about your month.\n\n[Source: \"Legendary Trader Paul Tudor Jones on AI Risk, Bubbles and Buffett\"]\n\n[FOLLOWUP: How did Jones think about position sizing on rare high-conviction trades? | What did the Bunker Hunt silver collapse teach Jones about liquidity? | How does Jones distinguish trading from investing over a 40-year record?]",
+      "citations": [
+        "Legendary Trader Paul Tudor Jones on AI Risk, Bubbles and Buffett"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "channel:starter-story": {
+      "hash": "e84189ea9d173d0e9c20ac2ef53779290c7c9a66bccc209124a147c3e420914e",
+      "checkedAt": "2026-09-20T13:36:52.678Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Test a game concept fast and cheap before you build it for years, because a clickable, social, replayable idea that ships in two weeks can outperform a polished project that took three years and $300,000.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"I Spent 24 Hours With Roblox Millionaires,\" Cole burned roughly $300,000 and three years on a game that never took off, then broke through only after switching to shipping a minimal version in two weeks to see if it caught on. His framework: a hit needs to be clickable, social, and replayable. That is documented. My application to you is only a suggestion, since the corpus does not cover your specific game. Small test: build a two-week stripped version with one social mechanic and one unlock loop, release it, and judge it on early retention rather than polish.\n\n[Source: \"I Spent 24 Hours With Roblox Millionaires\"]\n\n[FOLLOWUP: What counts as clickable in a game title? | How would you define replayable for a tiny prototype? | What retention signal suggests doubling down?]",
+      "citations": [
+        "I Spent 24 Hours With Roblox Millionaires"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "channel:y-combinator": {
+      "hash": "d5641ddaacead653421e5575c3dc598a035133a906f25d4c43e6cf665c8317ba",
+      "checkedAt": "2026-09-20T13:36:59.744Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Instead of hunting for a universally 'good' startup idea, find a real, specific problem inside a fertile idea space that your own background gives you an unfair advantage to solve, and treat ideas that look unattractive (schleppy, boring, or already-competed) as the ones smarter founders leave on th. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The documented principle: founders should pick a problem inside a fertile idea space where their own background gives an unfair advantage, and treat schlep, boredom, and existing competitors as good signals rather than red flags. That episode notes roughly 70% of YC's top 100 companies found their idea organically, and that AtoB's founders surfaced fuel cards for truckers only by physically visiting truck stops.\n\nMy application, not theirs: I can't judge your specific idea; I'd only read your background against those signals.\n\nSmall test: name one acute problem you've personally lived, write the three concrete nouns (what, problem, customer), then pitch it to two people who have that problem. If nobody recognizes it, move on.\n\nWhat's the problem you're circling?\n\n[Source: \"How to Get and Evaluate Startup Ideas | Startup School\"]\n\n[FOLLOWUP: What counts as a fertile idea space? | How do I evaluate founder-market fit? | When should I launch instead of researching?]",
+      "citations": [
+        "How to Get and Evaluate Startup Ideas | Startup School"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    }
+  }
+}

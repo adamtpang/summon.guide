@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:brad-jacobs",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "3dcd356bc7d8719d",
+      "title": "How Brad Jacobs Built 8 Billion-Dollar Companies",
+      "url": "https://www.youtube.com/watch?v=3WXZg4_xcGs",
+      "synthesis": "content/knowledge/interviews/012-how-brad-jacobs-built-8-billion-dollar-companies.md",
+      "contentHash": "b8f062a0951715d851e9096f1dc1b2181cfc7ccd7c8522d68d77f78e17f28351",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

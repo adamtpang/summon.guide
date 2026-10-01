@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "guideId": "book:the-fabric-of-reality",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "56a303a430aed444",
+      "title": "The Theory of Everything",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/001-the-theory-of-everything.md",
+      "contentHash": "0805dd1092fc41703cd51572d1f5144b97003dae248d94ce7c0b6cd9640fd1b7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "58cc8a99faa42e29",
+      "title": "Shadows",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/002-shadows.md",
+      "contentHash": "bc6b29d99359c8dd5f469d710dbdbf5ff318d79042392bfe6e9ff66d8ecfffb8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ec3a62340de9982e",
+      "title": "Problem-solving",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/003-problem-solving.md",
+      "contentHash": "5def51737bcf9725c225519ef9b15b4ba135af276651daf03e392e7ba9e2cbfb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "124d5759935fee77",
+      "title": "Criteria for Reality",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/004-criteria-for-reality.md",
+      "contentHash": "73773c86255a60aa8630e135d38d9aeb735e0673ffb0b74e846651a88c3c7372",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a37129097f131a78",
+      "title": "Virtual Reality",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/005-virtual-reality.md",
+      "contentHash": "16bfdaab35d6bdfdd50f08832bb5f0b830a033328981857cf2cf0c7e3932588b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "198c9e22d18b96fe",
+      "title": "Universality and the Limits of Computation",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/006-universality-and-the-limits-of-computation.md",
+      "contentHash": "0affef9729ddbab9c911bce2c5531b1660bcab862cbc65097d58d578073f092c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bb6744ee4708f9cf",
+      "title": "A Conversation About Justification",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/007-a-conversation-about-justification.md",
+      "contentHash": "b64cd531cc95ff5e3c6d133aa2436c8ba55acf7cd6218ce092a80f569280d1bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5fc4437a12e63cd8",
+      "title": "The Significance of Life",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/008-the-significance-of-life.md",
+      "contentHash": "73716fab8df15e0fa7af56384e6499f3326a7d2457d4761827286dd12d7f4cb5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "426c48751889161b",
+      "title": "Quantum Computers",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/009-quantum-computers.md",
+      "contentHash": "41c7d0803c71f99fb18c06da8114e343e186716dc0069ba4078509b8524e2853",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "68e1a215e6161b3f",
+      "title": "The Nature of Mathematics",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/010-the-nature-of-mathematics.md",
+      "contentHash": "9c3b5eec9ec3dfb5be934a65a14aa4b8780251205cc623fa6e09ca8e3f3fe74b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b81fb872a4f67ea5",
+      "title": "Time: The First Quantum Concept",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/011-time-the-first-quantum-concept.md",
+      "contentHash": "f10d57b4c612422c4fc45caa6c704e193455d6bcd6b1681480ad1c74e52aa644",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e308d17b541f9685",
+      "title": "Time Travel",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/012-time-travel.md",
+      "contentHash": "611e3bd1a42813304c87e1c70859cd579f832f64e7b9da3216d4836a80577edb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3cf6e6f9837a3f84",
+      "title": "The Four Strands",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/013-the-four-strands.md",
+      "contentHash": "3bfb9ac7c86f1e6548a00d818402a7fe93410e95e8484ac476b4414e23010942",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "65af5dc261794ecf",
+      "title": "The Ends of the Universe",
+      "url": null,
+      "synthesis": "content/knowledge/the-fabric-of-reality/014-the-ends-of-the-universe.md",
+      "contentHash": "578038188f9b88f6affa517a1691bd9d3af3cfa375cd27d62ef476b6a235ee90",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

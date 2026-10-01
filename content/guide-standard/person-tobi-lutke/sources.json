@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:tobi-lutke",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "af6d21a7933ca664",
+      "title": "Tobi Lütke: 21 Years of Building Shopify",
+      "url": "https://www.youtube.com/watch?v=ZSM2uFnJ5bs",
+      "synthesis": "content/knowledge/interviews/011-tobi-l-tke-21-years-of-building-shopify.md",
+      "contentHash": "3da2caa8b137c177b8517b5aa4bcfe073626384be78af919468ea4455f1e5d1b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# Tobi Lütke
+
+ID: person:tobi-lutke
+
+Owner: summon.guide
+
+Coverage: partial, 1 synthesis records.
+
+Distillation: content/distilled/tobi-lutke.md
+
+Workflow: packs/guide-workflows/person-tobi-lutke/SKILL.md
+
+Release: not certified. A uniform package is not a completed deep corpus.
+
+## Remaining evidence
+
+- Independent corpus/provenance review
+- Generated-answer evaluation for these fixtures
+- Eve runtime activation and isolation verification
+- Production and real-audio verification

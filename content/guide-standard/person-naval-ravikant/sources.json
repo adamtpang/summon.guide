@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "guideId": "person:naval-ravikant",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "697d624d1e47a810",
+      "title": "How to Get Rich",
+      "url": "https://www.youtube.com/watch?v=1-TZqOsVCNM",
+      "synthesis": "content/knowledge/naval/001-how-to-get-rich.md",
+      "contentHash": "f03d22720a8e43a5be0e4b14a15dee4ca827a5b1fa43a4642637eb42d3d0319d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9efaf90a15712434",
+      "title": "Kapil Gupta: Conquering the Mind",
+      "url": "https://www.youtube.com/watch?v=sBtuqpNZwio",
+      "synthesis": "content/knowledge/naval/002-kapil-gupta-conquering-the-mind.md",
+      "contentHash": "3a751d62aa2f5d77c8292d24fec2a5ee9b20d129a47e126eafed961dd54501ed",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4314ba4a74858307",
+      "title": "Let Us Not Talk Falsely Now",
+      "url": "https://www.youtube.com/watch?v=euzoOkBUzsQ",
+      "synthesis": "content/knowledge/naval/004-let-us-not-talk-falsely-now.md",
+      "contentHash": "238837c74aa5516e4b18674bf77bdec7c8fa97a756b11e86528abb8f3f84a2ad",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fb05ba4746ebb37a",
+      "title": "The Beginning of Infinity, Part 1",
+      "url": "https://www.youtube.com/watch?v=jEmJIA0pEf0",
+      "synthesis": "content/knowledge/naval/005-the-beginning-of-infinity-part-1.md",
+      "contentHash": "fa6644d856ebbe3f737b1bbd981a4c1d1302269f36ea127e9f9e8605abf0991e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "58098368d900493a",
+      "title": "On Artificial Intelligence",
+      "url": "https://www.youtube.com/watch?v=sXCKgEl9hBo",
+      "synthesis": "content/knowledge/naval/006-on-artificial-intelligence.md",
+      "contentHash": "1ec0fd0dd0114d75d58d263ae009f5e29909e8fc7c9e46dc20faec0910685d75",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "822d67671416875b",
+      "title": "Full Episode: The AI Industrial Revolution",
+      "url": "https://www.youtube.com/watch?v=v6MWNrVbM4E",
+      "synthesis": "content/knowledge/naval/007-full-episode-the-ai-industrial-revolution.md",
+      "contentHash": "0207a7b51db756a686229e546824a972ce2d1150fe53f1ecab9399b7f316e15e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "320e0af0155f97d6",
+      "title": "David Deutsch: Knowledge Creation and The Human Race, Part 1",
+      "url": "https://www.youtube.com/watch?v=YyxepLfH1ZU",
+      "synthesis": "content/knowledge/naval/008-david-deutsch-knowledge-creation-and-the-human-race-part-1.md",
+      "contentHash": "fc84de74fd174030e700e826d842a9a353b35f6667231c0935f295c3666ff204",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0cde6b84dfa8e24c",
+      "title": "Riding AGI, AI Anxiety, Who Funded COVID, Defending Taiwan, and California Empire",
+      "url": "https://www.youtube.com/watch?v=6m-ZZBCiiEE",
+      "synthesis": "content/knowledge/naval/009-riding-agi-ai-anxiety-who-funded-covid-defending-taiwan-and-california-empire.md",
+      "contentHash": "15ac716d0f5c584246baf7cbc3ab28742af5dc1768f023e6dedd26e51ab25da0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3f90e4dbfd871e7a",
+      "title": "On Vibe Coding",
+      "url": "https://www.youtube.com/watch?v=hTdSU7q5WCo",
+      "synthesis": "content/knowledge/naval/010-on-vibe-coding.md",
+      "contentHash": "5fb144657df7bcac00f2e8e949ebc79e69ff10134cf4d22bf6e2e31674a3fb09",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "83ec890deca82f9c",
+      "title": "Matt Ridley: How Innovation Works, Part 1",
+      "url": "https://www.youtube.com/watch?v=33plHpo3rzU",
+      "synthesis": "content/knowledge/naval/011-matt-ridley-how-innovation-works-part-1.md",
+      "contentHash": "2140033227075d20ec9941780fcb3bf354fc6c3ea70aea66f92750e4386b47ac",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "15cf70c7b6df5eb9",
+      "title": "Sell the Truth",
+      "url": "https://www.youtube.com/watch?v=l1DQgwomzxU",
+      "synthesis": "content/knowledge/naval/012-sell-the-truth.md",
+      "contentHash": "7c60d20df923527db53ea6758a72bcf2ee4a6435c9db9661607dc356eec18e56",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7994ea9088303c14",
+      "title": "On Recruiting",
+      "url": "https://www.youtube.com/watch?v=S8x978NnZSI",
+      "synthesis": "content/knowledge/naval/013-on-recruiting.md",
+      "contentHash": "bf6ff99135ff3fa93e267ec0510749ff507bbd01a1a438fd9139ffc1af71d74d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d73ee94bac7a1a77",
+      "title": "Vitalik: Ethereum, Part 1",
+      "url": "https://www.youtube.com/watch?v=g87ZSTomZDY",
+      "synthesis": "content/knowledge/naval/014-vitalik-ethereum-part-1.md",
+      "contentHash": "5cc5bff0234ca9e7f114dea215509b4103ecea39dc73c3315bf648c4bfd446ac",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "35223a5344694d81",
+      "title": "How to Angel Invest, Part 1",
+      "url": "https://www.youtube.com/watch?v=YLFHVye3Q7w",
+      "synthesis": "content/knowledge/naval/015-how-to-angel-invest-part-1.md",
+      "contentHash": "e6a0f963e4670797c1361db42a383fded7857b75f37efe8b0100ddec3c4cd10f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9d4e1a8001c6bee4",
+      "title": "In the Arena",
+      "url": "https://www.youtube.com/watch?v=SIkf-4r4DuU",
+      "synthesis": "content/knowledge/naval/017-in-the-arena.md",
+      "contentHash": "20b3f7bfaee012c697fbaeb3ae2de9fd6527d76412d29053c935db25354e3180",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5aed9b92dd8f68a3",
+      "title": "The Deutsch Files I",
+      "url": "https://www.youtube.com/watch?v=NI1l94sT4oc",
+      "synthesis": "content/knowledge/naval/018-the-deutsch-files-i.md",
+      "contentHash": "38831b2c11b8d8162bb7927029d7181278c40a5a62eca339952074b3563ba38e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "82ebc79066c06cb4",
+      "title": "Matt Ridley: How Innovation Works, Part 2",
+      "url": "https://www.youtube.com/watch?v=pJSwY1LQRGk",
+      "synthesis": "content/knowledge/naval/019-matt-ridley-how-innovation-works-part-2.md",
+      "contentHash": "14952666fad7a8a32fb320f31b2aa0c7b72936f7fcd0468a30c09ad562aa4f0f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "93749e88851bc0ae",
+      "title": "Periscope - May 2020",
+      "url": "https://www.youtube.com/watch?v=fdFxfOJW0gg",
+      "synthesis": "content/knowledge/naval/021-periscope-may-2020.md",
+      "contentHash": "c580c76d1f527ef596a49b0fa5da6b278abb328083040139c6f4d4a81c74bb7d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "64c976c94270cd0c",
+      "title": "The Deutsch Files III",
+      "url": "https://www.youtube.com/watch?v=fizPWAAo-lc",
+      "synthesis": "content/knowledge/naval/022-the-deutsch-files-iii.md",
+      "contentHash": "421b997f474088532e2f301d2e3a7a4424a37737130cd721a143c6c478ba643a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1a6a8ba62157d197",
+      "title": "The Deutsch Files IV",
+      "url": "https://www.youtube.com/watch?v=WUEUozkGXes",
+      "synthesis": "content/knowledge/naval/023-the-deutsch-files-iv.md",
+      "contentHash": "20ff07bad4766b75ea54a40370f2cafeeabfc9d0c6ea0242a207156507312d73",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "92bcc59d9e1ebc04",
+      "title": "David Deutsch: Knowledge Creation and The Human Race, Part 2",
+      "url": "https://www.youtube.com/watch?v=aQfeYBa1MTk",
+      "synthesis": "content/knowledge/naval/024-david-deutsch-knowledge-creation-and-the-human-race-part-2.md",
+      "contentHash": "b0289571b5665025c3c4b6bdfde717434d5115a4b8935ab49de3b1f2cc78cfb4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "77e04606b60fe46d",
+      "title": "The Deutsch Files II",
+      "url": "https://www.youtube.com/watch?v=I6GNK6BR4E8",
+      "synthesis": "content/knowledge/naval/025-the-deutsch-files-ii.md",
+      "contentHash": "4308c026bc65b5d0f923e919351d07f253244126455ceb28298306efb63a1a48",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bc3e9e2357604be6",
+      "title": "Vitalik: Ethereum, Part 2",
+      "url": "https://www.youtube.com/watch?v=CdgjGykrByM",
+      "synthesis": "content/knowledge/naval/026-vitalik-ethereum-part-2.md",
+      "contentHash": "ebee41429465305691ca8441f71c0e11bf87437fe00918a0e44c5bae1689b135",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

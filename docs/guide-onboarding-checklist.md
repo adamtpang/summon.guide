@@ -159,3 +159,14 @@ A guide ships only when: researched, every quote verified, portrait live,
 voice + palette + ambient set, the systemPrompt speaks *to the user's problem*
 in the guide's real voice, `next build` green, and the profile renders on prod.
 That's the difference between "added a figure" and "summoned a past life."
+
+## Required portrait launch gate
+
+Every person and duo chat must have a committed local photo or clearly labeled, recognizable portrait illustration before launch. Initials, generic silhouettes and gradients are failure fallbacks, not completed portraits. Sage intentionally retains its wizard identity. Duo guides must show both members in one photo or registered composite; use `src/lib/guidePortraitAssets.ts` so chat and the audit agree.
+
+- Record source, author, license and any generated-illustration disclosure. Add required attribution to `/credits`.
+- Set `portrait`, inspect the actual identity and crop, and ensure all duo members remain visible.
+- Use `GuidePortrait` in chat; keep the portrait visible while messages scroll.
+- Verify initial chat, an active conversation, and narrow-screen layout. Check original and optimized asset URLs after deployment.
+- Run `npm run guides:check-images`. The production build runs this automatically and fails for missing, undecodable, undersized, remote or placeholder-only assets. Automated checks cannot establish likeness or licensing; those require the visual/source review above.
+- Pending guides without approved portraits stay in onboarding. Commit the asset with its guide registration.

@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "guideId": "person:hesse",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "ebfd531016681385",
+      "title": "The Brahman's Son",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/001-the-brahmans-son.md",
+      "contentHash": "9b77c48af86b7dec322208c8261334c20bce11fe0f97ee9d93b4f69fa1c2247c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f88c0053b6c3d0e2",
+      "title": "With the Samanas",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/002-with-the-samanas.md",
+      "contentHash": "7180b502160efc4721a5431fa3a87806391b7fc5101ad98ef9a1def64a7906d8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "507e0fa134ec448b",
+      "title": "Gotama",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/003-gotama.md",
+      "contentHash": "4859d94d835a6e6a14ac8965aeab1321d541693e470cc4b254f02ab958e82eb0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3b4ec82bd98e314f",
+      "title": "Awakening",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/004-awakening.md",
+      "contentHash": "e173f3a0ef2b51636f3c7e529c8d062a0faede33395488bbab98970968dc4b7f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "673ae54b8e29d182",
+      "title": "Kamala",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/005-kamala.md",
+      "contentHash": "24eae6ef71d130803dabd5a4f2ab239234d9cc45a4cbad794ab520930ffd284c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bf8bf84e1b6e6dbb",
+      "title": "With the Childlike People",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/006-with-the-childlike-people.md",
+      "contentHash": "057994f590e8084b0bc34f0f49992af312ebe1c972fcc8c3d2fa8ab7df8a1452",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8e5687fa87a913dd",
+      "title": "Sansara",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/007-sansara.md",
+      "contentHash": "52fd0d92407bb41939159def866ecb6b19ddf4f90ee844a88ab054d471b6715e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "57157bbda0bb453b",
+      "title": "By the River",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/008-by-the-river.md",
+      "contentHash": "60f62923dc31f7e831af5c44705328168e326b11e7d35010334f87ba2c220056",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bce9991855d6d3df",
+      "title": "The Ferryman",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/009-the-ferryman.md",
+      "contentHash": "1730a5fdb8153df71f80853aa627ae7b2541f09773541788781cc663bc87dda6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "db08839ad7e9c4f7",
+      "title": "The Son",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/010-the-son.md",
+      "contentHash": "5d5980a926563d3650113966f4ff5b284012f690cd966caa7db835932e15e196",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8c1b65fb27712e5d",
+      "title": "Om",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/011-om.md",
+      "contentHash": "2f53c5d9f849a27aef5a7d2cf3dd42f5700e42848244f2e8fa7d37b9f77fe488",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7a837d43bf4ee57c",
+      "title": "Govinda",
+      "url": null,
+      "synthesis": "content/knowledge/siddhartha/012-govinda.md",
+      "contentHash": "7e73258743c95c3d1fbdb6b7051ab271de00d73e19290e388ac89f25b225e3db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

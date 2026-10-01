@@ -1,3 +1,5 @@
+import standards from "@/../data/guide-standard.json";
+import { guideAgentSummaries } from "@/lib/guideAgents";
 import Link from "next/link";
 import intake from "@/../data/guide-intake.json";
 import { figures } from "@/lib/figures";
@@ -16,7 +18,7 @@ const receipts = [
   "One page of principles, decision questions, contradictions, limits, and citations. Every principle must trace to the source map.",
   "At least one runnable workflow with inputs, steps, an example, expected output, and a stopping rule. No invented methods attributed to the person.",
   "Recorded checks for useful advice, correct citations, out-of-scope questions, false premises, impersonation, and unsupported claims. A build passing is not an answer-quality evaluation.",
-  "An enabled profile and chat with auth, tested fallback/error handling, and a launch receipt. Voice additionally needs microphone, interruption, latency, and real audio checks.",
+  "An enabled profile and chat with auth, a verified local portrait (both people for duos), source/license credits, a passing image build check, tested fallback/error handling, and a launch receipt. Voice additionally needs microphone, interruption, latency, and real audio checks.",
 ];
 
 export default function GuideOnboardingPage() {
@@ -31,8 +33,8 @@ export default function GuideOnboardingPage() {
       </header>
 
       <section id="new-guides" className="scroll-mt-6">
-        <h2 className="font-serif text-3xl">Alysa Liu & the Isaacson biographies</h2>
-        <p className="mt-3 max-w-3xl text-sm leading-relaxed text-warm-500">{intake.filter(guide => !existing.has(guide.slug)).length} new guides in onboarding; {intake.filter(guide => existing.has(guide.slug)).length} already have chat. Existing chat access does not certify that every gate below has passed. This batch covers the seven individual biography subjects; the central figures in group books need a separate scope audit.</p>
+        <h2 className="font-serif text-3xl">Guides in onboarding</h2>
+        <p className="mt-3 max-w-3xl text-sm leading-relaxed text-warm-500">{intake.filter(guide => !existing.has(guide.slug)).length} new guides in onboarding; {intake.filter(guide => existing.has(guide.slug)).length} already have chat. Existing chat access does not certify that every gate below has passed. The queue includes requested specialists and biography subjects; each has its own evidence checklist.</p>
         <div className="mt-8 divide-y divide-warm-200 border-y border-warm-200">
           {intake.map(guide => <article id={guide.slug} key={guide.slug} className="scroll-mt-6 py-7 sm:grid sm:grid-cols-[220px_1fr] sm:gap-10">
             <div><h3 className="font-serif text-2xl">{guide.name}</h3><p className="mt-2 text-xs text-warm-500">{guide.domain}</p><p className="mt-4 text-xs font-medium">{existing.has(guide.slug) ? "Existing chat · audit pending" : "Sourcing · chat not enabled"}</p><p className="mt-2 text-xs text-warm-500">{guide.completedGates.length} of 8 onboarding gates documented</p>{existing.has(guide.slug) && <Link href={`/${guide.slug}`} className="mt-3 inline-flex min-h-11 items-center text-sm underline underline-offset-4">Open existing guide</Link>}</div>
@@ -50,10 +52,20 @@ export default function GuideOnboardingPage() {
         </div>
       </section>
 
+      <section id="standards" className="mt-20 scroll-mt-8">
+        <h2 className="font-serif text-3xl">One standard for every guide</h2>
+        <p className="mt-3 text-sm text-warm-500">{standards.length} source manifests, workflows and evaluation checklists. Available chat does not mean a complete corpus or a certified release.</p>
+        <details className="mt-6"><summary className="min-h-11 cursor-pointer py-3">Inspect all guides</summary>
+          <div className="overflow-x-auto"><table className="w-full text-left text-sm"><thead><tr><th className="py-3">Guide</th><th>Category</th><th>Notes</th><th>Distillation</th><th>Status</th></tr></thead>
+          <tbody>{standards.map(record => { const guide = guideAgentSummaries.find(g => g.id === record.id); return <tr key={record.id} className="border-t border-warm-200"><td className="py-3 pr-4">{record.name}</td><td className="pr-4">{guide?.category}</td><td className="pr-4">{record.synthesisCount}</td><td className="pr-4">{record.distillation ? "Authored" : "Needs sources"}</td><td>{record.coverage === "missing" ? "Sourcing" : "Partial corpus"}</td></tr>; })}</tbody></table></div>
+        </details>
+      </section>
+
       <section id="process" className="mt-20 scroll-mt-8">
         <h2 className="font-serif text-3xl">The process for every guide</h2>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-warm-500">Each gate produces a reviewable artifact. Missing evidence keeps that gate open; an impressive persona prompt cannot substitute for it.</p>
         <ol className="mt-8 grid gap-4 sm:grid-cols-2">{guideOnboardingChecklist.map((gate, index) => <li key={gate.title} className="rounded-xl border border-warm-200 bg-white p-6"><p className="text-xs text-warm-500">Step {index + 1}</p><h3 className="mt-2 font-serif text-2xl">{gate.title}</h3><p className="mt-3 text-sm leading-relaxed">{gate.description}</p><p className="mt-4 border-t border-warm-200 pt-4 text-sm leading-relaxed text-warm-500"><strong>Evidence to proceed:</strong> {receipts[index]}</p></li>)}</ol>
+        <p className="mt-6 text-sm text-warm-500">Portrait gate: every person or duo needs a verified local image, source and license, a reviewed chat crop, and a passing image build check before launch. Duo portraits must show both people.</p>
         <aside className="mt-8 rounded-xl bg-ink-950 p-6 text-warm-50"><h3 className="font-serif text-2xl">One person, several sources</h3><p className="mt-3 max-w-3xl text-sm leading-relaxed text-warm-300">Summon owns person guides and their assignments. Bookbox owns book ingestion, canonical book distillations, and book agents. A biography can ground a person guide, but its author’s interpretation stays distinct from the subject’s own words. The guide uses a disclosed synthetic voice unless a different voice is explicitly licensed.</p></aside>
       </section>
     </div>

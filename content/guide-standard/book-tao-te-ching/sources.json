@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "guideId": "book:tao-te-ching",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "efe9bca1ec3d8c52",
+      "title": "The Tao That Cannot Be Named",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/001-the-tao-that-cannot-be-named.md",
+      "contentHash": "5e5346fb905789fe04273e1bc944df7c90998931f090786d6523dd6450c72137",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "67e1e387682ca1ec",
+      "title": "Water and Useful Emptiness",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/002-water-and-useful-emptiness.md",
+      "contentHash": "15197b3b0c444d6179566983ad7001652f38b482c62587622a25eaf83dd68135",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "84893916766bf8df",
+      "title": "Stillness and the Return",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/003-stillness-and-the-return.md",
+      "contentHash": "0e5996ee19ab601a660a3e70bb388f56ae8e3fea8e96ecb048898e19ed007157",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "34efc2a837cf0588",
+      "title": "Rulers and the Outsider Sage",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/004-rulers-and-the-outsider-sage.md",
+      "contentHash": "976e2448d05a9aeaf2a03ca41328cc5628f54a990381415ea1b0888be54a8dfc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4c00ecac8208dab8",
+      "title": "The Nature of the Tao",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/005-the-nature-of-the-tao.md",
+      "contentHash": "755384c8a90f08ac220400575378b2a26b7143bbd73b78c810ae842bc7d6734c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0d554bc42fcb7c26",
+      "title": "Restraint in Leadership",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/006-restraint-in-leadership.md",
+      "contentHash": "c56ea35036753cc330717f8dcc949951376733709af496c8e6262b0bcbe09001",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3f771b4d6608e04f",
+      "title": "War, Grief, and the Close of Book One",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/007-war-grief-and-the-close-of-book-one.md",
+      "contentHash": "e6c6478f2d459f5970c341b66b91d3d7b6e363401a9529bdb654da5ee42714d3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6c7be71e2ca88718",
+      "title": "The Ladder of Decline",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/008-the-ladder-of-decline.md",
+      "contentHash": "f6bac234c7bfb33dc22bb417ec83c1286e79f33d5cbdc517311aaadb0a5f986b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "16cebebfc42ef5cd",
+      "title": "Paradox and the Power of Softness",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/009-paradox-and-the-power-of-softness.md",
+      "contentHash": "5a6086adb75138bf34cc8ffa2b0d1b3674d383dd406d9a5574c6a86e2de8d4cb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "03f611d16d971f70",
+      "title": "Contentment and Knowing When to Stop",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/010-contentment-and-knowing-when-to-stop.md",
+      "contentHash": "8d30355480ba51944813065a0965b874de2f3f2535d8d7dc81b31eaf32dca365",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b7f04eec1d5ef9e1",
+      "title": "The Sage as Mirror",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/011-the-sage-as-mirror.md",
+      "contentHash": "2df6d89d4163cded978f7868003a62ac86b5230d549a2542a440f8808b8fc4d5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "67cbe93ad0092119",
+      "title": "Non-Action versus Force",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/012-non-action-versus-force.md",
+      "contentHash": "90181e18578fb7e8c6ea3240bf9c21117343acd9a94509b44857c67b480d0431",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cf4c6f115b686478",
+      "title": "The Paradox of Governing Lightly",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/013-the-paradox-of-governing-lightly.md",
+      "contentHash": "3266f68372dc0d7784bb14abfaf037d0bcc797276447db678719c9cb44189aa4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e104c8e024fc03fc",
+      "title": "Humility and the Low Place",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/014-humility-and-the-low-place.md",
+      "contentHash": "53a4e18e85a79c513d6a62ac13fd3ea4f7cc643bc97299985dd6fb6176e1c7b8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7e60f854c580b45e",
+      "title": "Softness, War, and the Danger of Certainty",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/015-softness-war-and-the-danger-of-certainty.md",
+      "contentHash": "c1d7c45d5f172393f3214704ce53860dd5ea49388d76a25b88ad2dc3aef893af",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9068c53f6546b73d",
+      "title": "Death, Force, and the Fragility of Rigidity",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/016-death-force-and-the-fragility-of-rigidity.md",
+      "contentHash": "692b85b50dc77ef6605ded1c0a126b21b6a7d0eec40cde30469b2acc1db9139a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "908606128ec508d2",
+      "title": "The Way of Heaven and the Small Utopia",
+      "url": null,
+      "synthesis": "content/knowledge/tao-te-ching/017-the-way-of-heaven-and-the-small-utopia.md",
+      "contentHash": "44cb3824d8c73c38ab3cf9592a53cde31bddac7a8c28218345e04cde6ac2e2ff",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

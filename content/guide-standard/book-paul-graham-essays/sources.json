@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "guideId": "book:paul-graham-essays",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "3d2c76b90a14c79a",
+      "title": "How to Start a Startup",
+      "url": "https://www.paulgraham.com/start.html",
+      "synthesis": "content/knowledge/paul-graham-essays/001-how-to-start-a-startup.md",
+      "contentHash": "9141fbbbd7ef1e3917d2c5ba05103b1b316e2af6fbba408e87d277bb2b54b237",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0771854dc4e32ca6",
+      "title": "Do Things that Don't Scale",
+      "url": "https://www.paulgraham.com/ds.html",
+      "synthesis": "content/knowledge/paul-graham-essays/002-do-things-that-dont-scale.md",
+      "contentHash": "285f5d54e90911b4878dbf6f91b75a1dc6a2f40fd4731430d7027d0eccb51ab2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "69e8774d955f07c7",
+      "title": "Default Alive or Default Dead?",
+      "url": "https://www.paulgraham.com/aord.html",
+      "synthesis": "content/knowledge/paul-graham-essays/003-default-alive-or-default-dead.md",
+      "contentHash": "3460319d24d995ea139c818acf8dd9257fbd3d16dc5ad77aa800029b12c18c92",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3a1ccc830fec9e52",
+      "title": "Maker's Schedule, Manager's Schedule",
+      "url": "https://www.paulgraham.com/makersschedule.html",
+      "synthesis": "content/knowledge/paul-graham-essays/004-makers-schedule-managers-schedule.md",
+      "contentHash": "34b7a115a9cda48f553b877acdb777c55bb664324fcec639f68d83214820b495",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9572cdb566b033a0",
+      "title": "Putting Ideas into Words",
+      "url": "https://www.paulgraham.com/words.html",
+      "synthesis": "content/knowledge/paul-graham-essays/005-putting-ideas-into-words.md",
+      "contentHash": "5548d313f5705bcc5200f0cec4c0c2f69d3efdb2b342dd4d2184a6a0daf5dbac",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "81fc4e96eb9c9593",
+      "title": "How to Do Great Work",
+      "url": "https://www.paulgraham.com/greatwork.html",
+      "synthesis": "content/knowledge/paul-graham-essays/006-how-to-do-great-work.md",
+      "contentHash": "7c67451d4f08688f434bd0abada4fddc638d8c0303202efc08b6afcd4586f4e5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

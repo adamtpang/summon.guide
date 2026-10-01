@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "guideId": "person:alexander",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "11fd6bd0d5c05d69",
+      "title": "Birth, Boyhood, and the Taming of Bucephalus",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/001-birth-boyhood-and-bucephalus.md",
+      "contentHash": "c8d3e4d2865035e4dcabb926bfbe6cda82f2aef401469e6024ffaccd73e7abb7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9cebea3393d6a381",
+      "title": "Regent, Chaeronea, and the Murder of Philip",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/002-regent-chaeronea-and-philips-murder.md",
+      "contentHash": "72ecf7a4e393f6a47fae851c58f8938788a5c0005532f579f1df825c8eb0ae46",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6c455605446a7d3d",
+      "title": "Accession: Thebes Destroyed, Athens Spared",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/003-accession-thebes-and-corinth.md",
+      "contentHash": "601859e49dd54f865aec2075071cc12b414470bbab608651c3e6212c68413933",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d283b7a263aefc4f",
+      "title": "Crossing to Asia and the Battle of Granicus",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/004-crossing-to-asia-and-granicus.md",
+      "contentHash": "30562d71005d70072c330474b94ce3c2de209cc93351a671fbdd38c0f5dbee6a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5c91b573a12fb080",
+      "title": "The Gordian Knot and the Battle of Issus",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/005-gordian-knot-and-issus.md",
+      "contentHash": "97c20d373436403d61e92ccdd85b83b176d0029c6ccdd8eab8a0e03ba1c7400d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1345fedf6d258224",
+      "title": "After Issus: Darius's Captured Family",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/006-after-issus-darius-family.md",
+      "contentHash": "ac1ed854b0c0b3fa099dde2e75e3917934dd331679eca7b3cefc6b1f29c3caf0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dfcf4e8308470b6e",
+      "title": "Tyre, Gaza, Alexandria, and the Oracle of Ammon",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/007-tyre-gaza-alexandria-and-ammon.md",
+      "contentHash": "9b84d5220a21969787222708c0c1eb5d3d6f4860a7f1909199bad6867da7e52c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c4718cf33e661a20",
+      "title": "Darius's Overtures and the Battle of Gaugamela",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/008-darius-overtures-and-gaugamela.md",
+      "contentHash": "e2f4e7aab69b3d6b8d343777879467f6b870c6aee4cc94673e1263c29a1924c1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5459ad15d0d0e72f",
+      "title": "Persepolis, the King's Household, and the Death of Darius",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/009-persepolis-household-and-death-of-darius.md",
+      "contentHash": "3e24ccbab401663c22758c61fb59b74a7ed486a492fa5ca0319aa813dcb31cfb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7cb996c5b528a16f",
+      "title": "Persian Customs, Roxana, and Rival Friends",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/010-persian-customs-roxana-and-rival-friends.md",
+      "contentHash": "6d01303c46f1942bf04e0d7495c6cf43578c176ef6b2e3dc33d82689a4ffab43",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "610091bc8000f7e5",
+      "title": "The Conspiracies: Philotas, Parmenio, and Clitus",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/011-conspiracies-philotas-parmenio-clitus.md",
+      "contentHash": "81b4bd94a23659448bf4ea2960465a8515f8c9f84a9c97c272f36348b1df8cdc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6c735a432bcfc2bb",
+      "title": "Callisthenes and the Proskynesis Controversy",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/012-callisthenes-and-proskynesis.md",
+      "contentHash": "38171fd732e4e834131f234775e16fb5c880569b734be07cdace1fc6a7603a0e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "589c6af927ecb6ea",
+      "title": "Into India: Taxiles and the Battle of the Hydaspes",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/013-india-taxiles-and-hydaspes.md",
+      "contentHash": "2a79ba422f1ad7ccc3048fb8441c79a891fefc0e46c2ac56e3950d2dd8f9925e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d00ba35b9da8e0b9",
+      "title": "Turning Back: the Mutiny and the Wound Among the Mallians",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/014-mutiny-and-mallian-wound.md",
+      "contentHash": "9315631bb76fa54a6c9533167c762774b85bb11a1e1772ffcda1beaf259cec82",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3cfff61187e01afa",
+      "title": "The Long Road Home: Gedrosia, Susa Weddings, and the Mutiny at Opis",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/015-gedrosia-susa-weddings-and-opis.md",
+      "contentHash": "d2498406acd06ad2e18781cbfe94e948ba0f1973abfd2e1eda9ee4c9066718d6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0b26e982fc0489ce",
+      "title": "Hephaestion's Death, Omens, and the Death of Alexander",
+      "url": null,
+      "synthesis": "content/knowledge/life-of-alexander-plutarch/016-hephaestion-omens-and-death.md",
+      "contentHash": "2d3ca2816bb0575ccb26d3a9283045c34ac7afbc2a7287ed32ac64cbba92352a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

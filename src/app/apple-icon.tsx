@@ -1,52 +1,7 @@
 import { ImageResponse } from "next/og";
-
-// Apple touch icon, used by iOS Safari for home-screen bookmarks
-// and by some Android browsers as the high-res favicon.
-// Next.js convention: this file is auto-served at /apple-icon and
-// referenced from <link rel="apple-touch-icon">.
-
+import { SUMMON_MARK_SVG } from "@/lib/brandMark";
 export const size = { width: 180, height: 180 };
 export const contentType = "image/png";
-
-export default function AppleIcon() {
-  return new ImageResponse(
-    (
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          background: "#2563eb",
-          position: "relative",
-        }}
-      >
-        <span
-          style={{
-            color: "#ffffff",
-            fontFamily: "Georgia, serif",
-            fontWeight: 700,
-            fontSize: 130,
-            letterSpacing: -6,
-            transform: "translateY(-6px)",
-          }}
-        >
-          S
-        </span>
-        <span
-          style={{
-            position: "absolute",
-            right: 36,
-            bottom: 36,
-            width: 24,
-            height: 24,
-            borderRadius: "50%",
-            background: "#059669",
-          }}
-        />
-      </div>
-    ),
-    { ...size }
-  );
+export default function Icon() {
+  return new ImageResponse(<img alt="" width={180} height={180} src={`data:image/svg+xml;base64,${Buffer.from(SUMMON_MARK_SVG).toString("base64")}`} />, size);
 }

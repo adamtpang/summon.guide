@@ -616,10 +616,30 @@
     "skillSlugs": []
   },
   {
+    "id": "person:rick-rubin",
+    "name": "Rick Rubin",
+    "availability": "ready",
+    "directory": "person-rick-rubin",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
     "id": "person:ricky-gervais",
     "name": "Ricky Gervais",
     "availability": "ready",
     "directory": "person-ricky-gervais",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
+    "id": "person:rose-blumkin",
+    "name": "Rose Blumkin",
+    "availability": "ready",
+    "directory": "person-rose-blumkin",
     "framework": "eve",
     "runtimeEnabled": false,
     "sourceSlugs": [],
@@ -1060,7 +1080,7 @@
   {
     "id": "book:pendleton-ward-selected-interviews",
     "name": "Pendleton Ward: Selected Public Interviews",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-pendleton-ward-selected-interviews",
     "framework": "eve",
     "runtimeEnabled": false,

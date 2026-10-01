@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:jimmy-iovine",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "ff681dcb46f70d49",
+      "title": "Jimmy Iovine: Building Interscope Records & Beats by Dre",
+      "url": "https://www.youtube.com/watch?v=niqahsc9jfo",
+      "synthesis": "content/knowledge/interviews/006-jimmy-iovine-building-interscope-records-beats-by-dre.md",
+      "contentHash": "95cbdc694e44c3e941b400f8177b446e9ce5267ef22953114268cf5a583000d7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

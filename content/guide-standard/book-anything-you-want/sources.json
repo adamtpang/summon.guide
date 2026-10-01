@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "guideId": "book:anything-you-want",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "b4658a7d32c4e91f",
+      "title": "What's Your Compass?",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/001-whats-your-compass.md",
+      "contentHash": "5d4d0b3e82860cc393a45ccbfd5590b0471fc31791a447a566fc2ae5b0ffb45f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8056108b54080819",
+      "title": "Just Selling My CD",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/002-just-selling-my-cd.md",
+      "contentHash": "0d5b25f36eb528d02c611b794977faa70f205a4011dabecd6b85fbc6e631b471",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e3576eec653c3457",
+      "title": "Hell Yeah or No",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/003-hell-yeah-or-no.md",
+      "contentHash": "266d8c9217c35eb09f7f427a5a1f116ee4972f0f4d3cbac0d212670f137c7a69",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "22091b4d3183fc38",
+      "title": "Start Now, No Funding Needed",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/004-start-now-no-funding-needed.md",
+      "contentHash": "50d305cdd19bffe5c21452d19d2bc792f6abe31ab98af89739d2f35adb2d5cec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1c4eec8a3aa8fb57",
+      "title": "The Co-op Business Model",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/005-the-co-op-business-model.md",
+      "contentHash": "c4bfd3eddcb7b7f1bae6b65f59fbff2590649d8e97492887a476c3b40aaacb9f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1f8809542df7c280",
+      "title": "Proudly Exclude People",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/006-proudly-exclude-people.md",
+      "contentHash": "b2345972fc2fa45b8fe4dee553af649a83045ab3fa31438c9b3062eb77050e85",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3770236bc0e5bc93",
+      "title": "Just One of Many Options",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/007-just-one-of-many-options.md",
+      "contentHash": "df9ae8b3f2a3f4a04564a8136649009be8501e76133f9b17f7be5b061fe93c96",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cf03e42236282c4c",
+      "title": "You Can Afford to Be Generous",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/008-you-can-afford-to-be-generous.md",
+      "contentHash": "b23db89cd073cb5d322e2340c3b712e0b978fb08a4b79b8e7c27ec312f8f3c54",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a38e4f323f3fc817",
+      "title": "Customer Service Is Everything",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/009-customer-service-is-everything.md",
+      "contentHash": "1edf2f6e98e74474996c4e70fdf9baa3a4d93838e0126b3103e9c82ed7e568db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "59119b7b5ed9dc26",
+      "title": "Little Things Make All the Difference",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/010-little-things-make-all-the-difference.md",
+      "contentHash": "a14ff0a0acf53abcecc10bcc013d5e91d26d0538ea14d6b3e9ced63e548a5d08",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d1129d109e9f566a",
+      "title": "Delegate or Die",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/011-delegate-or-die.md",
+      "contentHash": "b8fc6bdcc992f673b091cd83149f7c0a7b312a4734cb1658db7c9d4ac5664c55",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2724e37535448348",
+      "title": "It's About Being, Not Having",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/012-its-about-being-not-having.md",
+      "contentHash": "933641487d1d8880322e83217a69405aed0f459b18364c3c263284a3c3e4afbd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0e17eeb471973a45",
+      "title": "Make It Anything You Want",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/013-make-it-anything-you-want.md",
+      "contentHash": "759a021df4a52044583778af1de81a914fe5d8b8f9276f94be5f8a33b6e00fd6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5acae5f8a2cce903",
+      "title": "Why You Need Your Own Company",
+      "url": null,
+      "synthesis": "content/knowledge/anything-you-want/014-why-you-need-your-own-company.md",
+      "contentHash": "df8f2debef46cd13890dd59a127c06c8561d62ee1d7b85025f623ce3bb9786f8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 > Regenerate with `node scripts/gen-guide-inventory.mjs`.
 > Sources: `src/lib/figures.ts`, `src/lib/books.ts`, `content/knowledge/`, `content/distilled/`, `plugins/`, and `data/requested-guide-sources.json`.
 
-**48 guides · 4 channels · 56 books and written collections · 1 additional source**
+**49 guides · 4 channels · 56 books and written collections · 1 additional source**
 
 ## Guide onboarding
 
@@ -20,12 +20,13 @@ Tracked in `data/guide-intake.json` and visible at `/onboarding`. Source leads a
 | Benjamin Franklin | Existing chat; audit pending | Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing. |
 | Steve Jobs | Existing chat; audit pending | Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing. |
 | Elon Musk | Existing chat; audit pending | Locate an authorized edition through Bookbox and map chapters to claims; supplement with primary documents before synthesizing. |
+| Rose Blumkin | Existing chat; audit pending | Starter chat has two primary-account syntheses. Expand independent and first-person evidence, create a dedicated exercise, evaluate answers and voice, and finish the onboarding audit. |
 
 ## Additional sources
 
 | Guide | Organization | Source | Status | Discovered | Corpus docs | Note |
 | --- | --- | --- | --- | ---: | ---: | --- |
-| Ben Cera | Polsia | [Ben Cera](https://www.youtube.com/@bencera-aislop) | corpus-staged | 6 | 0 | Private YouChop corpus staged as six timestamped Markdown guides. Ben Cera is not yet registered as a public Summon guide. |
+| Ben Cera | Polsia | [Ben Cera](https://www.youtube.com/@bencera-aislop) | corpus-staged | 6 | 6 | Private YouChop corpus staged as six timestamped Markdown guides. Ben Cera is not yet registered as a public Summon guide. |
 
 ## Guides
 
@@ -73,6 +74,7 @@ A guide is a person defined in `src/lib/figures.ts`. Source counts come from `sr
 | [Peter Thiel](https://summon.guide/peter-thiel) | `peter-thiel` | 1 | 17 | 1 | no |
 | [Ray Dalio](https://summon.guide/ray-dalio) | `ray-dalio` | 2 | 36 | 2 | yes |
 | [Ricky Gervais](https://summon.guide/ricky-gervais) | `ricky-gervais` | 0 | 0 | 0 | yes |
+| [Rose Blumkin](https://summon.guide/rose-blumkin) | `rose-blumkin` | 0 | 0 | 1 | no |
 | [Sam Walton](https://summon.guide/sam-walton) | `sam-walton` | 0 | 0 | 0 | no |
 | [Steve Jobs](https://summon.guide/steve-jobs) | `steve-jobs` | 1 | 28 | 1 | no |
 | [Steven Pressfield](https://summon.guide/pressfield) | `pressfield` | 1 | 24 | 1 | no |

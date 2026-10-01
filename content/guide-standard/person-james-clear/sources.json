@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "guideId": "person:james-clear",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "5026f3e1b4b46502",
+      "title": "Introduction: My Story",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/001-introduction.md",
+      "contentHash": "51564734e221b9c91821bb3b21dca5179a1809a366abab73d17cd0bc3f485139",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cf395c4027593b23",
+      "title": "Chapter 1: The Surprising Power of Atomic Habits",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/002-the-surprising-power-of-atomic-habits.md",
+      "contentHash": "df0845b6f5958a88c27d6988bb8f1243bc850bfeaffb8a18f6329206a1dadadc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8c823da376129abb",
+      "title": "Chapter 2: How Your Habits Shape Your Identity (and Vice Versa)",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/003-how-your-habits-shape-your-identity.md",
+      "contentHash": "741637d67ed20121938f857191e1ea8e313bd70a9b093f1bd3670e1df1b00886",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f19723a6b3d48cc0",
+      "title": "Chapter 3: How to Build Better Habits in 4 Simple Steps",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/004-how-to-build-better-habits-in-4-simple-steps.md",
+      "contentHash": "6e936e798b1e3ec951f350ad916f93ff801ff7892dba6cfdb2d764f3364b8e88",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "84fd162876470a7f",
+      "title": "Chapter 4: The Man Who Didn't Look Right",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/005-the-man-who-didnt-look-right.md",
+      "contentHash": "d23ae21f884aac31594145292207fb7081f93d976023f1462f98976cd1a149b7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d2b8e8fd5a58766d",
+      "title": "Chapter 5: The Best Way to Start a New Habit",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/006-the-best-way-to-start-a-new-habit.md",
+      "contentHash": "0d2cc5719d506731ff21a0ee6612d6b1b3c150d422bbd7fdf018b5ca982edbf0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6bb251d16b417f56",
+      "title": "Chapter 6: Motivation Is Overrated; Environment Often Matters More",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/007-motivation-is-overrated-environment-matters-more.md",
+      "contentHash": "c903f108b939263a4d8bf657400fea33a30222496ef59da08baa8dae4182ec2a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6a546d3809dcf002",
+      "title": "Chapter 7: The Secret to Self-Control",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/008-the-secret-to-self-control.md",
+      "contentHash": "49e0497aaa5df9a0ecf5e5c3956b41c178649234898a37b6aad5a58c3589f35c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d48e6c508fd78441",
+      "title": "Chapter 8: How to Make a Habit Irresistible",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/009-how-to-make-a-habit-irresistible.md",
+      "contentHash": "93d2ddbc67e749dd3faff786a4811260f438865df4c85c7b05e8f191b27dfe71",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8ab133431d4b3636",
+      "title": "Chapter 9: The Role of Family and Friends in Shaping Your Habits",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/010-the-role-of-family-and-friends.md",
+      "contentHash": "104122203220f1c91fd0aa664b4cf5cd03cf6fadf4d5515584628931a9893cf1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e7a7116329b66d35",
+      "title": "Chapter 10: How to Find and Fix the Causes of Your Bad Habits",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/011-how-to-find-and-fix-bad-habits.md",
+      "contentHash": "cb0ed2c4a9a43eb8d965cacb9ba8a54dac32545eeb900452afddf8888f205c37",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7b34b40800fcfbaf",
+      "title": "Chapter 11: Walk Slowly, but Never Backward",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/012-walk-slowly-but-never-backward.md",
+      "contentHash": "af687706b3aad75afc881fde0959c616fee99206943c1973ff43a96e00781331",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b0d83a456fc25ba2",
+      "title": "Chapter 12: The Law of Least Effort",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/013-the-law-of-least-effort.md",
+      "contentHash": "9767583c43a0f3e295d069781713e00c122306dc328d5969b8dde86a0495378a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a660848e6c07bf0a",
+      "title": "Chapter 13: How to Stop Procrastinating by Using the Two-Minute Rule",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/014-the-two-minute-rule.md",
+      "contentHash": "72a6f8f26276f327b388a40f91d750b2458669419a93ac5d291fa7aaa6e832d7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9ae73429413cbfe2",
+      "title": "Chapter 14: How to Make Good Habits Inevitable and Bad Habits Impossible",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/015-how-to-make-good-habits-inevitable.md",
+      "contentHash": "d2118ac14fc296744468d78194685ce1fedd42b96b494e200b3319c48aaed1d8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d38a578b748dce73",
+      "title": "Chapter 15: The Cardinal Rule of Behavior Change",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/016-the-cardinal-rule-of-behavior-change.md",
+      "contentHash": "aaf5b2993c801670f6a681bbf9db5f5c6a6d16c19a10e21e00689d49a66e172b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f2767c3d20831845",
+      "title": "Chapter 16: How to Stick with Good Habits Every Day",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/017-how-to-stick-with-good-habits-every-day.md",
+      "contentHash": "0b845302e9b0fe84623f81f5b2468ddef22e9cfade7e9058ce7b18bd2230d4e0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7cccda023d9e6ec0",
+      "title": "Chapter 17: How an Accountability Partner Can Change Everything",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/018-the-accountability-partner.md",
+      "contentHash": "0696e02173ba43b9c9c336fa6fc2b85c5231142abecf3274f432853831ebd3e8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "363e7910847c746f",
+      "title": "Chapter 18: The Truth About Talent (When Genes Matter and When They Don't)",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/019-the-truth-about-talent.md",
+      "contentHash": "c93b2ba7b640d06f7834b1cc94b21d50279b3e01ca308b844e4333687615c26d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1423d772d8c9962e",
+      "title": "Chapter 19: The Goldilocks Rule: How to Stay Motivated in Life and Work",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/020-the-goldilocks-rule.md",
+      "contentHash": "54437bcb551985683c3254d4b01c81968f65db5c0467cbac4e4f7b4592bdb585",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8dce8dd1c3ac2cd2",
+      "title": "Chapter 20: The Downside of Creating Good Habits",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/021-the-downside-of-good-habits.md",
+      "contentHash": "1a664923fc22444ae62c28dc5a47f136e2b63641c40c6f2839662fa7aa2d5803",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f4aa6e26a466ac9d",
+      "title": "Conclusion: The Secret to Results That Last",
+      "url": null,
+      "synthesis": "content/knowledge/atomic-habits/022-conclusion.md",
+      "contentHash": "15aa8999b9c6846c9e8265f85eebb9055a875a2fac8cf76ca7d6990ef0334a3d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

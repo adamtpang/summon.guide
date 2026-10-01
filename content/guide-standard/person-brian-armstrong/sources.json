@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:brian-armstrong",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "6493c8748648e45b",
+      "title": "Brian Armstrong: When Washington Tried to Kill Coinbase",
+      "url": "https://www.youtube.com/watch?v=WcrPOElyjiI",
+      "synthesis": "content/knowledge/interviews/024-brian-armstrong-when-washington-tried-to-kill-coinbase.md",
+      "contentHash": "a3726ad833faf870a6c9d731ba306332cbb41320cfdcc601bf3e3273c881f359",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

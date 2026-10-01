@@ -1,0 +1,31 @@
+---
+title: "Adam Neumann"
+slug: "adam-neumann"
+author: "Summon, from cited source syntheses"
+generatedBy: summon-guide-standard
+type: "guide"
+guideSlug: "adam-neumann"
+description: "Took WeWork from a Brooklyn co-working space to a $47B private valuation in nine years, then watched it collapse in six weeks. Now running Flow. A masterclass in narrative and in its limits."
+---
+
+# Adam Neumann
+
+Took WeWork from a Brooklyn co-working space to a $47B private valuation in nine years, then watched it collapse in six weeks. Now running Flow. A masterclass in narrative and in its limits.
+
+## Starting principles
+
+### 1. WeWork: revenue narratives and obligations
+
+Test a growth narrative against the obligations behind it.
+
+[Source](https://www.sec.gov/files/foia-requests-we-company.pdf)
+
+## Apply one principle
+
+Name the decision, desired outcome and binding constraint. Choose the relevant source above. Separate its documented claim from your proposed application. Make one reversible test with a clear observation and stopping point.
+
+## Tensions and limits
+
+These selected notes are a starting lens, not the person's full worldview. An idea can fit one context and fail in another; identify the assumptions before applying it. Do not infer private beliefs, current opinions or guaranteed outcomes. Broader corpus, provenance and generated-answer evaluation remain open.
+
+This source digest and workflow are Summon's adaptations, not methods named or endorsed by Adam Neumann.

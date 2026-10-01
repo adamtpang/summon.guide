@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "guideId": "person:paul-millerd",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "941a1f1810d331e3",
+      "title": "Introduction / The Default Path",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/001-introduction.md",
+      "contentHash": "cba09b7550c44ddcdc1bf39cc20c48b74e27f52fb39f132a0939b82bcdff969d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "78e6c804a993727a",
+      "title": "Getting Ahead",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/002-getting-ahead.md",
+      "contentHash": "e4f71b42812a26fc839cd7b7b5c6c39db6d71e208be8abe4487146211950ea7b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9ba2aa2f381b7b89",
+      "title": "Work, Work, Work",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/003-work-work-work.md",
+      "contentHash": "023c99146627eb5e6031240ce5c968adc7c1d89f9e2ee3c10e93dd1fa8c81865",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2426fec9071ce357",
+      "title": "Awakening",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/004-awakening.md",
+      "contentHash": "bfd51b56b9b473e444b3671ede2180ac5e66c6b70a21563ee0f087f165296ca6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "30c76c7a52c97d2d",
+      "title": "Breaking Free",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/005-breaking-free.md",
+      "contentHash": "e2717cc72fb829072d3994fcad8e6803055abcb57562f12762f983006ef22426",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "de4cf7125c16ae23",
+      "title": "The First Steps",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/006-the-first-steps.md",
+      "contentHash": "929d75ba14cff034bea8fec0c58aadd708c90bbfc63c32f325eef99023304f0f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "24bceb27d183ca48",
+      "title": "Wisdom of the Pathless Path",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/007-wisdom-of-the-pathless-path.md",
+      "contentHash": "3d5baa0648506848370c4712e2cbf7cf6097aac6d87a09d3cc69ef3a34778472",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "49103c0875b5e0e9",
+      "title": "Redefine Success",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/008-redefine-success.md",
+      "contentHash": "79f0b83d3d65b8d25700b66c58359b727738c9427c1c2ebf6cb59ba23b050764",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "193de84b71429911",
+      "title": "The Real Work of Your Life",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/009-the-real-work-of-your-life.md",
+      "contentHash": "d87ce28084c235feebd4fa042f2b0276114a6ce2555b7c2235ad89a3c5927d25",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7c7fef89401dae8a",
+      "title": "Playing the Long Game I: Working Backward and the Problem of Freedom",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/010-working-backward-and-freedom.md",
+      "contentHash": "fee4ed3f77da097c5f76623d1475dde16c8fe3e29141a4dee252b3b4b71b9bdf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fc1301f5b02b521c",
+      "title": "Playing the Long Game II: Create Your Own Culture",
+      "url": null,
+      "synthesis": "content/knowledge/the-pathless-path/011-create-your-own-culture.md",
+      "contentHash": "5fa87a324c1f11c75447affb1e0c59bd1c0447088a87ff2bd159764112ba34d1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

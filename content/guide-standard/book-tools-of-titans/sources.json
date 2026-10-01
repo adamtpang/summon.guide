@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "guideId": "book:tools-of-titans",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "14e99e31958201cb",
+      "title": "Endurance, Strength, and the Single Decision",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/001-endurance-strength-and-the-single-decision.md",
+      "contentHash": "4aeca06d5c34a696a5e3cc2aee50131e7aaf5d6fdc9a723f0836798c940d9b21",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7231f8268a2e8bef",
+      "title": "Fasting, Ketosis, and Metabolic Self-Experiments",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/002-fasting-ketosis-and-metabolic-self-experiments.md",
+      "contentHash": "4a25cd0ec58c101bccd983c5716f5feca6c45ca003f23ec3619bd82316fea97a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b038b87d771f7723",
+      "title": "Cold, Heat, and Extreme Physiology",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/003-cold-heat-and-extreme-physiology.md",
+      "contentHash": "196fa72a5b0891f20a5ca0959142d06bbf24a7dba6b2cba678b7ae8cc242a6db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d5284b423bd040ac",
+      "title": "Psychedelics for Healing and Performance",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/004-psychedelics-for-healing-and-performance.md",
+      "contentHash": "4f1b26ed2b55b35c8779fe1fa32973e7d519bea7170d0e419612e4a8054f9918",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0f5f4c7ec1d020f5",
+      "title": "Mobility, Play, and the Body as a Tool",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/005-mobility-play-and-the-body-as-a-tool.md",
+      "contentHash": "7068d46be608685ac4354d742a3effd0be699f6cb858e62677613f613293ad5c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0ab1608c79e9678f",
+      "title": "Sleep Engineering and Cognitive Offloading",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/006-sleep-engineering-and-cognitive-offloading.md",
+      "contentHash": "562db25458c8b38986080ba763fdfad2a974d0eb6712f9f00d85fad6a91dc3c2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c9c4162cbeee2ebe",
+      "title": "Meditation as a Trainable Meta-Skill",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/007-meditation-as-a-trainable-meta-skill.md",
+      "contentHash": "c86fd8497c7c3f170358ffcdf4ff508f34430e3478b163b47a966b80f29d783c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "34a568ba0e86f87d",
+      "title": "Venture Judgment and Strong Views, Loosely Held",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/008-venture-judgment-and-strong-views-loosely-held.md",
+      "contentHash": "f3451d2cfb05a9d91f46b60b418247991b00f225cbbda5e0dcca83e0a02967fc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d2adc8c1ca754d12",
+      "title": "Unconventional Founders and the Single Vision",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/009-unconventional-founders-and-the-single-vision.md",
+      "contentHash": "d9d1db6b876c7f7621c84f85e49711fd645722d4886721736beb47e3ef905852",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "54c51e3600b50a5b",
+      "title": "Marketing, Story, and the Idea Muscle",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/010-marketing-story-and-the-idea-muscle.md",
+      "contentHash": "862c15d8c6326e38207570e32f23510ff0c0923d63f0e365e99aa5310cffada3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bbb5236839ecc0df",
+      "title": "Building an Audience: Creators and Craft",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/011-building-an-audience-creators-and-craft.md",
+      "contentHash": "6e697aa87d614d815fe8a2c6d9b5df0950cbd040994892247d0695f23bbf7415",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c198eeee7fb4a334",
+      "title": "Money Mindset and the Discipline of Selling",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/012-money-mindset-and-the-discipline-of-selling.md",
+      "contentHash": "d7335ac589b9f268224a4fcad71b4953faf37156f7ab2c66fa88e56c41917ce7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7812a8234dfeabfc",
+      "title": "Running Creative and Product Organizations",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/013-running-creative-and-product-organizations.md",
+      "contentHash": "30571b0568d1cdce1e374f758dddcdeb7528f6e223cf8e8b19e74a6b7c447d31",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "743614dad4ec7440",
+      "title": "The 1,000 True Fans Economy",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/014-the-1000-true-fans-economy.md",
+      "contentHash": "4799a68e266cf43fd56cc0b877d9c6ed4d110874e5e811e7ba0cc33c76deea5b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5cf5f2289d0b815c",
+      "title": "Moonshots and Manufactured Credibility",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/015-moonshots-and-manufactured-credibility.md",
+      "contentHash": "dd5e60c77bdb4791a1fa60ffb484b399bb2d0087a2fe5497a2938baf86c75c54",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c29f8afcae945012",
+      "title": "Facing Mortality and Fear-Setting",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/016-facing-mortality-and-fear-setting.md",
+      "contentHash": "f93492e0b346f89541979baea7db7773c99842ae905a65fa50aa0154ee358863",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1172fb5695693e43",
+      "title": "Warrior Discipline and Courage",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/017-warrior-discipline-and-courage.md",
+      "contentHash": "f790be7ae747816479a06367d4ceaefec3b3fe69d39b41dde416a2c7ab3cb7f9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "81b7934249e0a236",
+      "title": "Dark Knowledge: Security and Self-Defense",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/018-dark-knowledge-security-and-self-defense.md",
+      "contentHash": "5c3351382dae6fc1fae2355141ef453571ff0bdf42cc0b292378ce52ca6a5a5f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6bc43fbec5f64663",
+      "title": "Naval Ravikant: Honesty, Desire, and Choosing Your Five Chimps",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/019-naval-ravikant-honesty-and-desire.md",
+      "contentHash": "cb1f0b900f1687d53b71e1ac64595bd0c0de1b51a6eddccc351a4d2a7ca532cd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7cb76f8082e468be",
+      "title": "Meaning, Mindfulness, and Ethics",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/020-meaning-mindfulness-and-ethics.md",
+      "contentHash": "650b2be33eb915d0bdb979916222c535e417dfa870e00b057709668291097f41",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5e263fa3ca740f5c",
+      "title": "Creative Process and the Artist's Discipline",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/021-creative-process-and-the-artists-discipline.md",
+      "contentHash": "991ba49acba3348edb4d8df90c4fe4b99bd2842c4c9ab5443f7264eca9f987eb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fb4b8335351ad579",
+      "title": "Comedy, Courage, and Vulnerability",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/022-comedy-courage-and-vulnerability.md",
+      "contentHash": "e1a2219cc681e24a4943a00bad64e46650c54dff950792719a81ba0523a96be5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1e941ec7d4eca1c9",
+      "title": "Storytelling and the Art of the Question",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/023-storytelling-and-the-art-of-the-question.md",
+      "contentHash": "3e1f10a802d02d9d417f542699dc1e3e79f8451f4c06f86af7fdedd909a6bcb7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e0ef91dc2ff257bb",
+      "title": "Mastery Under Pressure and Deliberate Recovery",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/024-mastery-under-pressure-and-deliberate-recovery.md",
+      "contentHash": "3b521553c3f4c1a3c335e8d76bac57467341f99c3614b679eb4a82ddacf9527d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5eeb1cdeaccc81bb",
+      "title": "Food, Taste, and the Discipline of Craft",
+      "url": null,
+      "synthesis": "content/knowledge/tools-of-titans/025-food-taste-and-the-discipline-of-craft.md",
+      "contentHash": "b8e185e335c6393b8bd9a77200391fcfcaea1f944031f879b526b3b6ffd19d92",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "guideId": "book:fooled-by-randomness",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "910bbfe70ba74b61",
+      "title": "Prologue: Mosques in the Clouds",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/001-prologue-mosques-in-the-clouds.md",
+      "contentHash": "bfa92503a9ba150a8595942b0c101987d7796694b067144c4a58913a6dd649f0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4a1eb8dcbb2c8a8b",
+      "title": "Chapter One: If You're So Rich Why Aren't You So Smart?",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/002-chapter-one-if-youre-so-rich-why-arent-you-so-smart.md",
+      "contentHash": "72d791c11c1f42dfe4a8a5f52d00c7a6eee0fb058c399fffc8bd15e3be1405a2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b9e6fc88fd5aa0cf",
+      "title": "Chapter Two: A Bizarre Accounting Method",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/003-chapter-two-a-bizarre-accounting-method.md",
+      "contentHash": "9f88cff15eac3c0e23b812f8bdab574e596a442f2046c36b4cac2196eb44eb84",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cc1265821c004dfc",
+      "title": "Chapter Three: A Mathematical Meditation on History",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/004-chapter-three-a-mathematical-meditation-on-history.md",
+      "contentHash": "509ab8429c6c7d66bbce38dedac44c9df38523356c477b39862d3a001fb26ba3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b25d1c4f81aedc5e",
+      "title": "Chapter Four: Randomness, Nonsense, and the Scientific Intellectual",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/005-chapter-four-randomness-nonsense-and-the-scientific-intellectual.md",
+      "contentHash": "4cfeaa355493d9d2dd3ee1202957225a67c13d24bcc9c6d58528f45b5ae7f814",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a972de9df3489717",
+      "title": "Chapter Five: Survival of the Least Fit - Can Evolution Be Fooled by Randomness?",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/006-chapter-five-survival-of-the-least-fit.md",
+      "contentHash": "780b2e2a46c981a990a3425e559036b93e7b8e45312c229e890566fd3b31750c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d644ea235e08673c",
+      "title": "Chapter Six: Skewness and Asymmetry",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/007-chapter-six-skewness-and-asymmetry.md",
+      "contentHash": "692ffd46fd8fc435bce6f6199e0a4151827f2594075db41c235d2867c2f26833",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5332f73641b1c8a3",
+      "title": "Chapter Seven: The Problem of Induction",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/008-chapter-seven-the-problem-of-induction.md",
+      "contentHash": "1d1a34886d783b7ad3bd0b1db967f5baba6e6a21888bccac2b2d94ed27dbe5b8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c3adbc0e95a897d4",
+      "title": "Chapter Eight: Too Many Millionaires Next Door",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/009-chapter-eight-too-many-millionaires-next-door.md",
+      "contentHash": "cd362e0d2b1b45ad0c1dc778a3c8f8dc59a06044b26b407d106866bd57b4d1b7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0b63bbac6d5bcf5d",
+      "title": "Chapter Nine: It Is Easier to Buy and Sell Than Fry an Egg",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/010-chapter-nine-it-is-easier-to-buy-and-sell-than-fry-an-egg.md",
+      "contentHash": "ab918a01b4fe395662db9f0522c9523c3f1e06883590b563df3feaed93f4e53e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ce2eb1424b7bae12",
+      "title": "Chapter Ten: Loser Takes All - On the Nonlinearities of Life",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/011-chapter-ten-loser-takes-all.md",
+      "contentHash": "2b5091e60827ee0c94a1dd15335bb0ba770bd021760d692e8b1ca1e0990792ab",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d1be6bd3946f5f72",
+      "title": "Chapter Eleven: Randomness and Our Brain: We Are Probability Blind",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/012-chapter-eleven-randomness-and-our-brain.md",
+      "contentHash": "1076f442c2565b713ac905252c4065ee2bab487ef74147f3438824a70de6e712",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "96ad49096b911e60",
+      "title": "Chapter Twelve: Gamblers' Ticks and Pigeons in a Box",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/013-chapter-twelve-gamblers-ticks-and-pigeons-in-a-box.md",
+      "contentHash": "219c3343e909552081a75ecb1b50ad5ccbc5a14667ce7f71694b8a213383d1c6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c22da12a1272fc06",
+      "title": "Chapter Thirteen: Carneades Comes to Rome: On Probability and Skepticism",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/014-chapter-thirteen-carneades-comes-to-rome.md",
+      "contentHash": "f46c40fde2cfdc0061973b13d016dec704507b8fe995f7cea4d407e78bfde489",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "474db36df5b840fc",
+      "title": "Chapter Fourteen: Bacchus Abandons Antony",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/015-chapter-fourteen-bacchus-abandons-antony.md",
+      "contentHash": "b460755e8db2064eb58163f6237d75f2cadad2402a92a25b510ef3f1b1cac580",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f9482c860c5cb858",
+      "title": "Epilogue: Solon Told You So",
+      "url": null,
+      "synthesis": "content/knowledge/fooled-by-randomness/016-epilogue-solon-told-you-so.md",
+      "contentHash": "ae04c7a4b7f567ef43985bf7fb4c8a9e7c9eab1cc9cd9143fc0c5bf911818552",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

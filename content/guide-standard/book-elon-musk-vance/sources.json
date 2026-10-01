@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "guideId": "book:elon-musk-vance",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "97d51f3682843a6e",
+      "title": "Elon's World",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/001-elons-world.md",
+      "contentHash": "6a1f7020ffbf9a23c1a8ce2c5effcaa5a8813bd46eccfe0e3a2255e4cf5d1072",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0e8739413690b012",
+      "title": "Africa",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/002-africa.md",
+      "contentHash": "cdf09592c5d733fa7c3a2d11afd97cfc8a381791335a4ad6802e5a98418153fc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "54b9aa11e8137528",
+      "title": "Canada",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/003-canada.md",
+      "contentHash": "462cbd471471feabfef7d9d0a298e53ac9404f51712b63cd9724fe18d016deca",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e348a954518b8112",
+      "title": "Elon's First Start-Up",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/004-first-startup-zip2.md",
+      "contentHash": "a782d9493598f408f7e6ab629d7d04eb2653e019c10b2a4a7d4b06a172eee57e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d7a68bdbeb64bbb0",
+      "title": "PayPal Mafia Boss",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/005-paypal-mafia-boss.md",
+      "contentHash": "d960303255e29af7e691ca6c5e6f114eb17e31ad0353b8dcde86c44a85cdd6f7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ce30ed05c7fbe051",
+      "title": "Zip2's Founding Dispute and Musk's Academic Record",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/006-zip2-founding-dispute.md",
+      "contentHash": "33c5d1c005be255a1e661d6d3b760a55f4e5ee16814a95dd462d8eaf12e56c54",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "76a850fd227daa8d",
+      "title": "The PayPal Ouster, In His Own Words",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/007-paypal-ouster-in-his-own-words.md",
+      "contentHash": "2079292afb6a444b82aefda1496026ade8f694be145256ebb831dda002785b9b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8be0b7d9cd4d0b51",
+      "title": "Mice in Space, Part 1: Founding SpaceX",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/008-mice-in-space-part1-founding-spacex.md",
+      "contentHash": "b14cc10d2441cdca8d9b730c735bd7b2c8cc0e9570c81ad04c8c70ce964b8e52",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c07395ceee39b3e1",
+      "title": "Mice in Space, Part 2: Falcon 1 and the Kwajalein Launch Attempts",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/009-mice-in-space-part2-falcon1-launch-attempts.md",
+      "contentHash": "c0fb22f7305d04a7bb75d9a3058734514862efe1937d0e2d399e5f376a0ee443",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "82736c02aa5d039b",
+      "title": "All Electric, Part 1: Founding Tesla and the Roadster Unveiling",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/010-all-electric-part1-tesla-founding.md",
+      "contentHash": "fd0f8ca0f3eb8fcadf605d749ae722035527edcf3063ef23952135db2c7c40cc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "da3417e193d59402",
+      "title": "All Electric, Part 2: The Roadster's Manufacturing Crisis and Eberhard's Ouster",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/011-all-electric-part2-roadster-crisis.md",
+      "contentHash": "483aa8c4d7abb27a91b36f68e0d04626e95f91e4f9eb1e1db8731d893e5b0fd5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3defb533e0406c30",
+      "title": "The Crucible of 2008, Part 1: Collapse",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/012-crucible-2008-part1-collapse.md",
+      "contentHash": "29f642bc5c1e2e5113bfa73ccbc26c574164f23b2cbcfac22e485286b3dcd2c4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "288151743840478b",
+      "title": "The Crucible of 2008, Part 2: The December Save",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/013-crucible-2008-part2-the-december-save.md",
+      "contentHash": "a285e6dd1a7f216964f0ae4adbfbd4e81619fd531fefe9e3eb05a51fbbd56d64",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b2657026173a39ff",
+      "title": "Liftoff, Part 1: Building Falcon 9 and Dragon",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/014-liftoff-part1-building-falcon9-and-dragon.md",
+      "contentHash": "b395af9234261d1e868ab72190524a36ed4bd64de79264f7cdd00ea71a91ca66",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4c46a18675ebe8d1",
+      "title": "Liftoff, Part 2: NASA and Cost Engineering",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/015-liftoff-part2-nasa-and-cost-engineering.md",
+      "contentHash": "8e88e90134e27fde52313bf645f2f22ebcec672375c9802f86e8d59ef1deb2d7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5e295366ec4bd781",
+      "title": "The Revenge of the Electric Car, Part 1: The Model S and Its Financing",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/016-revenge-of-electric-car-part1-model-s-and-financing.md",
+      "contentHash": "bf7a7bbc89b590b2a454c9549f9eb5f140a37fbbc2cccb42db29049612afaf6d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d88de1b16e13e5a8",
+      "title": "The Revenge of the Electric Car, Part 2: Factory, IPO, and Launch",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/017-revenge-of-electric-car-part2-factory-ipo-and-launch.md",
+      "contentHash": "1fc5f2aeaf81f74ef4e7c42981fe839f35b356b7dac3fb39f464d9728daee643",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "272918ac3a204e7d",
+      "title": "The Unified Field Theory of Elon Musk, Part 1: Management Style and the Machine of Musk Co.",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/018-unified-field-theory-part1-management-style.md",
+      "contentHash": "e41d0e449d475090f97641247fc5dabdee5c9e9fe0eba3d8a345bd4eb05a6992",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2487d19721c58197",
+      "title": "The Unified Field Theory of Elon Musk, Part 2: The Inner Circle and Vance's Theory of Musk",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/019-unified-field-theory-part2-inner-circle-and-theory.md",
+      "contentHash": "1f8671878beb35a1979cd52e4a10ae4d20a802a2c613a217d58a566a5178400a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "201755f72d8680b0",
+      "title": "Epilogue: A Body That Remains Very Much in Motion",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/020-epilogue.md",
+      "contentHash": "9c4130e90da76d01b25daa68d62a62073f5e14a366e09451446b900aefc33700",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9bf77d704b468f1d",
+      "title": "Appendix 3: The Going Public Memo",
+      "url": null,
+      "synthesis": "content/knowledge/elon-musk-vance/021-going-public-memo.md",
+      "contentHash": "374ed505616b6ef68887615b628523a54cfd7ac72b211780e597f310e6435737",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

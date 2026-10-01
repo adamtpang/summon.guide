@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "guideId": "channel:starter-story",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "33db4e2c2d304f35",
+      "title": "I Spent 24 Hours With Roblox Millionaires",
+      "url": "https://www.youtube.com/watch?v=8xgnm6SynH4",
+      "synthesis": "content/knowledge/starter-story/001-i-spent-24-hours-with-roblox-millionaires.md",
+      "contentHash": "a19455925f23be017c4ee92b2dcb88dd4b0cc89376a4d3de9cf2bacefca02a12",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b937cd9998003ec3",
+      "title": "Zero to $1.1B from Flipping Websites",
+      "url": "https://www.youtube.com/watch?v=Km0FNcBI9CM",
+      "synthesis": "content/knowledge/starter-story/002-zero-to-1-1b-from-flipping-websites.md",
+      "contentHash": "6ca378052345f0ce9b1b973921d1be3722608a55e7011b341bc1cb40435c23aa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "31200585b1c089e0",
+      "title": "The $10M AI SaaS Playbook",
+      "url": "https://www.youtube.com/watch?v=KcCnqLBhvXY",
+      "synthesis": "content/knowledge/starter-story/003-the-10m-ai-saas-playbook.md",
+      "contentHash": "65898dbf2986ea13fb4c511bc1cb6cfaf964c692232d515ba1ffcaf6c43b8346",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c4629c230ab67bf8",
+      "title": "The $1M Mobile App Playbook",
+      "url": "https://www.youtube.com/watch?v=hKqLceTPLWM",
+      "synthesis": "content/knowledge/starter-story/004-the-1m-mobile-app-playbook.md",
+      "contentHash": "fb1a1d1d182c9dcd834d5a9adff0a3ebc9047d0da90ec62b95a25c94d1229d6d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ccac7b7398bdb102",
+      "title": "How I Built It: $40K/Month iPhone App",
+      "url": "https://www.youtube.com/watch?v=loXc0Tyi4R4",
+      "synthesis": "content/knowledge/starter-story/005-how-i-built-it-40k-month-iphone-app.md",
+      "contentHash": "02347cea9ccc0823cf6065c11560057d1de2432f5b52f6789f7f0abf488ae9a3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7ebd17b6845bb742",
+      "title": "The Underdog: From $10/hr to $1.5M/Year",
+      "url": "https://www.youtube.com/watch?v=WGVxAmmJUmY",
+      "synthesis": "content/knowledge/starter-story/006-the-underdog-from-10-hr-to-1-5m-year.md",
+      "contentHash": "81d267583a06f9010f9a907fb53d2fe122286f0ae04f2681e4b70d84c1a5ca07",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7224e0441db13399",
+      "title": "How to Use AI to Find a $1M Idea [Reddit, Claude]",
+      "url": "https://www.youtube.com/watch?v=L_FY6aW9cJ4",
+      "synthesis": "content/knowledge/starter-story/007-how-to-use-ai-to-find-a-1m-idea.md",
+      "contentHash": "f79e0bd334b7e09c0fc0c454c70e74f70e8d4df93f88e3b8d789c2e1fa657f3f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9d174cbc12a31f1b",
+      "title": "He Turned $500 Into $10M",
+      "url": "https://www.youtube.com/watch?v=CnE_fLDqa7M",
+      "synthesis": "content/knowledge/starter-story/008-he-turned-500-into-10m.md",
+      "contentHash": "f298069e90ca77a1d348c72d3aa35ab37a80c6e1176986369bebabb4509e1d7c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c162899158c8e9dc",
+      "title": "The Underdog: He Turned His Last $1,000 Into $150M",
+      "url": "https://www.youtube.com/watch?v=ZEIPj7QbZeI",
+      "synthesis": "content/knowledge/starter-story/009-the-underdog-he-turned-his-last-1000-into-150m.md",
+      "contentHash": "8717f52e2209aad6cdb6fb432cc89903e48f6f3259806971b09fed9a8b4d02f3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1fd9ac89b6554c4b",
+      "title": "I Built A $1M SaaS In 87 Days",
+      "url": "https://www.youtube.com/watch?v=WctFUP4w0sc",
+      "synthesis": "content/knowledge/starter-story/010-i-built-a-1m-saas-in-87-days.md",
+      "contentHash": "6e36648cd51664c8e235b9ed8c1996e8f9d6a5cad9695b777d76163f1248676a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5612b25192f169db",
+      "title": "The Multipreneur: He's Building A $10M Portfolio of Income Streams",
+      "url": "https://www.youtube.com/watch?v=nzVcbrLl9VU",
+      "synthesis": "content/knowledge/starter-story/011-the-multipreneur-10m-portfolio-of-income-streams.md",
+      "contentHash": "0f036dacabe839583b59c56378647ef88d1fc0f2ba464854aba012bfcfb2dbe0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ca78fff5212fd1aa",
+      "title": "I vibe coded a $20K/month mobile app in 14 days",
+      "url": "https://www.youtube.com/watch?v=CwHD6Fg-Mjs",
+      "synthesis": "content/knowledge/starter-story/012-i-vibe-coded-a-20k-month-mobile-app-in-14-days.md",
+      "contentHash": "cffd03cc46ae9f34e876645c2b684a8b169df78097207f987462683e45438230",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c95bc2d76c2d1e57",
+      "title": "My App Made $120K in 24 Hours",
+      "url": "https://www.youtube.com/watch?v=DkmStHS8NP0",
+      "synthesis": "content/knowledge/starter-story/013-my-app-made-120k-in-24-hours.md",
+      "contentHash": "b42f44e52f281c92017a91536f041c899dd80245920f112a0cf3c8d0db42bf52",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f59e3e33c146bb9f",
+      "title": "I Built A $1M App In 5 Hours",
+      "url": "https://www.youtube.com/watch?v=u8sW-NhGfXw",
+      "synthesis": "content/knowledge/starter-story/014-i-built-a-1m-app-in-5-hours.md",
+      "contentHash": "d6bc442f2276675046c3a0ced2012d2c9f9d0aef0bfb58e68a4bd14f95f5a527",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a6daca26b46a1617",
+      "title": "I Make $5M/Year With 3 Businesses",
+      "url": "https://www.youtube.com/watch?v=zTKYJWAEl78",
+      "synthesis": "content/knowledge/starter-story/015-i-make-5m-year-with-3-businesses.md",
+      "contentHash": "bcdf6f2d18cd54cd6f135458136e068ee41de71978a09b32759f992dc6b3ca42",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3eb88e33e18e2651",
+      "title": "He Built A $600,000 One Person Business (with video editing)",
+      "url": "https://www.youtube.com/watch?v=BskeAo66er0",
+      "synthesis": "content/knowledge/starter-story/016-he-built-a-600k-one-person-business-with-video-editing.md",
+      "contentHash": "365ff5c82de94cf91ceb62ea425f852026fb740b165b7e6afc2ef281061c1075",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "244fba8e9cc91c93",
+      "title": "I Make $2.4M/Year With 6 YouTube Channels",
+      "url": "https://www.youtube.com/watch?v=G5cbMnFXcj0",
+      "synthesis": "content/knowledge/starter-story/017-i-make-2-4m-year-with-6-youtube-channels.md",
+      "contentHash": "17d0b1293a54e7c1f0246ea1dc6a65ba889c2f29e32e6d31dfe4c5635c51a21e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3351dbb3bc10ff37",
+      "title": "I Make $11M/Year Selling One Product",
+      "url": "https://www.youtube.com/watch?v=5C3YCTL-36c",
+      "synthesis": "content/knowledge/starter-story/018-i-make-11m-year-selling-one-product.md",
+      "contentHash": "35eedbe22e5453c1dece4185fe480cf5fd41b6f3b37606316396fa5213ea67f8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "11231e580764eaf4",
+      "title": "How I Used Reddit to Hit $17K MRR (With ZERO Audience)",
+      "url": "https://www.youtube.com/watch?v=BaWUPamqWlA",
+      "synthesis": "content/knowledge/starter-story/019-how-i-used-reddit-to-hit-17k-mrr.md",
+      "contentHash": "7c4f0b72bf20f8e8416afde74e6c8e311cffa6714ed35cf29d3e51be05f99eb5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c772e8a0c1a51787",
+      "title": "Zero to $40K/Month With One Marketing Channel (No Social Media)",
+      "url": "https://www.youtube.com/watch?v=E_rX4JJrYkY",
+      "synthesis": "content/knowledge/starter-story/020-zero-to-40k-month-with-one-marketing-channel.md",
+      "contentHash": "027692bb73a76a07b44d09ec491feb255f49a9be465a27a0f055c51bd96ad858",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "934803bea2e9b22e",
+      "title": "How I Used Twitter to Hit $10K/Month",
+      "url": "https://www.youtube.com/watch?v=VYT-ip21P08",
+      "synthesis": "content/knowledge/starter-story/021-how-i-used-twitter-to-hit-10k-month.md",
+      "contentHash": "4bcb0a7e0a1078824152c2c36af0634f52c7e13a1795b6f7537a054c2f54d998",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "37cd9651cefb46e4",
+      "title": "He Quit His Job And Makes $10M/Year Writing Online",
+      "url": "https://www.youtube.com/watch?v=OoFqTMPW_3E",
+      "synthesis": "content/knowledge/starter-story/022-he-quit-his-job-and-makes-10m-year-writing-online.md",
+      "contentHash": "70f747142fe60b534131f71a11b529b409fb0d533f676eb9270f3aed616fbbc7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2b8b14f484db8756",
+      "title": "I flipped 4 apps and made $500,000",
+      "url": "https://www.youtube.com/watch?v=PmyXmpkTIdc",
+      "synthesis": "content/knowledge/starter-story/023-i-flipped-4-apps-and-made-500k.md",
+      "contentHash": "af758fbe5d756e1d09deaadb14f27ec44c8a94b210c521f120212ca2b172561d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c1914ce46a738160",
+      "title": "I Made $2.5M Selling A Digital Product",
+      "url": "https://www.youtube.com/watch?v=OKl0C3zg0LU",
+      "synthesis": "content/knowledge/starter-story/024-i-made-2-5m-selling-a-digital-product.md",
+      "contentHash": "7424d7ad6cbd0211c5570f33b1eef4e4d24ed6841ed816741e36adfe4416f443",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cdc8801fc340f40d",
+      "title": "I Quit My Job & Accidentally Built A $10M Business",
+      "url": "https://www.youtube.com/watch?v=gU9FtZIfb_M",
+      "synthesis": "content/knowledge/starter-story/025-i-quit-my-job-and-accidentally-built-a-10m-business.md",
+      "contentHash": "d2f2375ff19933c8669737d0ff57864933e65035db65acdc0b321e69b8b85672",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "afb8a05e04404127",
+      "title": "How To Build A $100M Podcast Empire",
+      "url": "https://www.youtube.com/watch?v=Fk2J2U7669o",
+      "synthesis": "content/knowledge/starter-story/026-how-to-build-a-100m-podcast-empire.md",
+      "contentHash": "d1943ad553a8470ee28dcd7afd0268ab047883c36ca7ac5a7c7c79b5dcd20314",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a67a434cf8bac909",
+      "title": "I Became A Venture Capitalist With Only $1,000",
+      "url": "https://www.youtube.com/watch?v=p3xa6mpxvOY",
+      "synthesis": "content/knowledge/starter-story/027-i-became-a-venture-capitalist-with-only-1000.md",
+      "contentHash": "827d79934343209dc8725d3a84e95dadda3d9fb20b6feef2c34c510df5127b1c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8176fcfa2f347873",
+      "title": "I Made $500K From 8 Different Income Streams",
+      "url": "https://www.youtube.com/watch?v=47QXbPGyzBI",
+      "synthesis": "content/knowledge/starter-story/028-i-made-500k-from-8-different-income-streams.md",
+      "contentHash": "f3b7eee16267ebaa3023a40710ea2219b7fc770de0a27d573b1f16f40a146004",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

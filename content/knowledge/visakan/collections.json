@@ -1,0 +1,28 @@
+{
+  "figureSlug": "visakan",
+  "collections": [
+    {
+      "id": "visakan-essays",
+      "kind": "web",
+      "localPath": "sources/web/visakan-essays",
+      "status": "existing-preserved"
+    },
+    {
+      "id": "visakan-youtube-2026-09-13",
+      "kind": "youtube-videos-snapshot",
+      "sourceUrl": "https://www.youtube.com/@visakanv/videos",
+      "localPrivatePath": "content/knowledge/visakan/_raw/youtube-2026-09-13",
+      "transcripts": 429,
+      "words": 1212515,
+      "discoveredVideos": 460,
+      "remainingGaps": 31,
+      "accuracy": "not-independently-verified",
+      "publication": "raw-private-only",
+      "synthesisFiles": [
+        "content/knowledge/visakan/001-small-plans.md",
+        "content/knowledge/visakan/002-articulate-your-vector.md"
+      ],
+      "runtime": "two-local-summaries-only; not deployed; no full-transcript retrieval"
+    }
+  ]
+}

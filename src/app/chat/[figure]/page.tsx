@@ -1,9 +1,10 @@
 "use client";
+import { completePrompts, getSuggestedQuestions } from "@/lib/guidePrompts";
 
 import { guideDisclosure } from "@/components/AiPersonaNotice";
 import { useState, useRef, useEffect, use, useCallback } from "react";
 import { figures } from "@/lib/figures";
-import Image from "next/image";
+import GuidePortrait from "@/components/GuidePortrait";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSession, signIn } from "next-auth/react";
@@ -99,7 +100,8 @@ export default function ChatPage({
   const [recordError, setRecordError] = useState<string | null>(null);
   const [audioError, setAudioError] = useState<string | null>(null);
   const audioRequestRef = useRef<AbortController | null>(null);
-  const voiceEnabledRef = useRef(false); // Replies play only when Listen is selected.
+  const voiceEnabledRef = useRef(true);
+  const [readAloud, setReadAloud] = useState(true);
   const [lastAudioUrl, setLastAudioUrl] = useState<string | null>(null);
   const [canReplay, setCanReplay] = useState(false);
   const [credits, setCredits] = useState<number | null>(null);
@@ -266,6 +268,7 @@ export default function ChatPage({
 
   const autoPlayTTS = useCallback(async (text: string) => {
     if (!voiceEnabledRef.current) return;
+    window.dispatchEvent(new Event("summon:stop-audio"));
     audioRequestRef.current?.abort();
     const controller = new AbortController();
     audioRequestRef.current = controller;
@@ -279,7 +282,7 @@ export default function ChatPage({
         body: JSON.stringify({ text, figureSlug }),
         signal: controller.signal,
       });
-      if (!res.ok) throw new Error("Voice is unavailable right now. Your answer is in the transcript; use Back to chat to read it.");
+      if (!res.ok) throw new Error("Voice is unavailable right now. You can still read the answer below.");
 
       const blob = await res.blob();
       if (controller.signal.aborted) return;
@@ -300,13 +303,13 @@ export default function ChatPage({
       setPreparingAudio(false);
       setIsSpeaking(true);
       audio.onended = () => { setIsSpeaking(false); setCanReplay(true); };
-      audio.onerror = () => { setIsSpeaking(false); setAudioError("Audio could not play. Return to chat to read the answer."); setCanReplay(true); };
+      audio.onerror = () => { setIsSpeaking(false); setAudioError("Audio could not play. You can still read the answer below."); setCanReplay(true); };
       await audio.play();
     } catch (error) {
       if (controller.signal.aborted) return;
       setPreparingAudio(false);
       setIsSpeaking(false);
-      setAudioError(error instanceof Error && error.message.startsWith("Voice is") ? error.message : "Audio could not play. Return to chat and select Listen again.");
+      setAudioError(error instanceof Error && error.message.startsWith("Voice is") ? error.message : "Select Listen again to play the answer.");
       setCanReplay(true);
     }
   }, [figureSlug, lastAudioUrl]);
@@ -340,6 +343,11 @@ export default function ChatPage({
     setIsSpeaking(false);
     setCanReplay(!!lastAudioUrl);
   }, [lastAudioUrl]);
+
+  useEffect(() => {
+    window.addEventListener("summon:stop-audio", stopSpeaking);
+    return () => window.removeEventListener("summon:stop-audio", stopSpeaking);
+  }, [stopSpeaking]);
 
   if (!figure) {
     return (
@@ -501,7 +509,11 @@ export default function ChatPage({
     }
   };
 
-  const openCall = () => { voiceEnabledRef.current = true; setCallMode(true); };
+  const toggleReadAloud = () => {
+    const enabled = !readAloud;
+    voiceEnabledRef.current = enabled; setReadAloud(enabled);
+    if (!enabled) stopSpeaking();
+  };
   const closeCall = () => {
     voiceEnabledRef.current = false;
     stopSpeaking();
@@ -539,15 +551,13 @@ export default function ChatPage({
               <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
           </Link>
-          <button type="button" onClick={openCall} aria-label={`Call ${figure.name}`} className="w-11 h-11 rounded-full bg-white/75 backdrop-blur-sm border border-warm-200 flex items-center justify-center text-warm-500 hover:text-ink-950 hover:bg-white transition-colors">
-            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
-              <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
-            </svg>
+          <button type="button" onClick={toggleReadAloud} aria-label="Read replies aloud" aria-pressed={readAloud} title={readAloud ? "Mute AI voice" : "Read replies aloud"} className="flex size-11 items-center justify-center rounded-full border border-white/15 bg-white/5 text-sm">
+            <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z" />{readAloud ? <path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" /> : <path d="m16 9 5 6m0-6-5 6" />}</svg>
           </button>
         </div>
 
-        <Link href={`/${figureSlug}/about`} className="flex items-center gap-2 text-sm">{figure.portrait && <Image src={figure.portrait} alt="" width={32} height={32} className="size-8 rounded-full object-cover" />}{figure.name}</Link>
-        <span className="rounded-full border border-warm-200 bg-white/75 px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.14em] text-warm-500" title={`An AI simulation built from ${figure.name}'s public work, not their words`}>AI simulation</span>
+        <Link href={`/${figureSlug}/about`} className="flex items-center gap-2 text-sm"><span className="relative size-8 shrink-0 overflow-hidden rounded-full"><GuidePortrait src={figure.portrait} name={figure.name} sizes="32px" decorative /></span>{figure.name}</Link>
+        <span className="hidden rounded-full border border-warm-200 bg-white/75 px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.14em] text-warm-500 sm:inline-flex" title={`An AI simulation built from ${figure.name}'s public work, not their words`}>AI simulation</span>
         {preparingAudio && <span role="status">Preparing audio…</span>}
         {audioError && <p role="alert" className="text-xs">{audioError}</p>}
         <AnimatePresence mode="wait">
@@ -585,6 +595,12 @@ export default function ChatPage({
         </AnimatePresence>
       </div>
 
+      {hasMessages && <section aria-label={`${figure.name} portrait`} className="z-10 flex shrink-0 flex-col items-center gap-2 py-2 sm:py-3">
+        <div className={`relative size-24 overflow-hidden rounded-full border sm:size-32 ${isSpeaking ? "border-blue-300 shadow-[0_0_40px_-8px_#79b8ff]" : "border-white/15"}`}>
+          <GuidePortrait src={figure.portrait} name={figure.name} sizes="128px" priority />
+        </div>
+        <p className="text-[11px] text-slate-400">{isSpeaking ? "Speaking · AI voice" : "AI guide · Synthetic voice"}</p>
+      </section>}
       {/* Middle content area */}
       <div className="relative z-10 flex-1 flex flex-col min-h-0">
         {!hasMessages ? (
@@ -598,6 +614,7 @@ export default function ChatPage({
 
             <GuidePortraitLines slug={figure.slug} name={figure.name} portrait={figure.portrait} />
             <h1 className="text-2xl font-medium tracking-tight">{figure.name}</h1>
+            <p className="mt-2 text-[11px] text-slate-400">AI guide · Synthetic voice</p>
             <span className="mt-2 max-w-xs text-center text-xs leading-relaxed text-warm-500">{guideDisclosure(figure.slug, figure.name)}</span>
 
           </div>
@@ -645,19 +662,7 @@ export default function ChatPage({
                 return (
                   <div key={i} className="flex items-start gap-3">
                     <div className="relative mt-5 size-8 shrink-0 overflow-hidden rounded-full border border-warm-200 bg-warm-100">
-                      {figure.portrait ? (
-                        <Image
-                          src={figure.portrait}
-                          alt=""
-                          fill
-                          sizes="32px"
-                          className="object-cover object-top"
-                        />
-                      ) : (
-                        <span className="flex h-full items-center justify-center font-serif text-[10px] text-warm-500">
-                          {figure.name.split(" ").map((name) => name[0]).join("").slice(0, 2)}
-                        </span>
-                      )}
+                      <GuidePortrait src={figure.portrait} name={figure.name} sizes="32px" decorative />
                     </div>
                     <div className="min-w-0 flex-1">
                       <p className="mb-1.5 text-[10px] tracking-[0.16em] text-warm-500 uppercase">
@@ -760,7 +765,7 @@ export default function ChatPage({
       {/* Input area - mobile safe */}
       <div className="relative z-10 px-3 pb-[max(12px,env(safe-area-inset-bottom))] pt-1 shrink-0">
         <div className="max-w-2xl mx-auto">
-          <PromptBubbles prompts={hasMessages ? followups : getSuggestedQuestions(figure.slug)} disabled={loading} onSelect={q => { setShowReason(false); void sendQuickMessage(q); }} />
+          <PromptBubbles prompts={completePrompts(hasMessages ? followups : [], getSuggestedQuestions(figure))} disabled={loading} onSelect={q => { setShowReason(false); void sendQuickMessage(q); }} />
           <ChatComposer
             textareaRef={inputRef}
             value={input}
@@ -899,155 +904,4 @@ export default function ChatPage({
       </AnimatePresence>
     </div>
   );
-}
-
-function getSuggestedQuestions(slug: string): string[] {
-  const questions: Record<string, string[]> = {
-    "pendleton-ward": [
-      "How can I make creating feel fun again?",
-      "Help me turn a weird idea into a small story.",
-      "How do I stop judging everything I make?",
-    ],
-    hesse: [
-      "Why does Siddhartha refuse the Buddha?",
-      "I feel like I wasted years. Were they wasted?",
-      "Everyone keeps giving me advice and none of it helps.",
-    ],
-    pressfield: [
-      "I have wanted to start this for two years and I still have not.",
-      "How do I tell real doubt from Resistance?",
-      "What does turning pro actually change on Monday morning?",
-    ],
-    vervaeke: [
-      "I have read everything about this and I still cannot do it. Why?",
-      "Nothing feels meaningful and I cannot tell if that is depression or something else.",
-      "How do I train what I notice, instead of just trying harder to focus?",
-    ],
-    "rockefeller": [
-      "How do I make my first dollar?",
-      "What did Ledger A teach you?",
-      "Turn a crisis into opportunity?",
-    ],
-    "elon": [
-      "How do you think from first principles?",
-      "What was 2008 like for you?",
-      "How do you compress timelines?",
-    ],
-    "franklin": [
-      "How did you teach yourself to write?",
-      "Tell me about the 13 virtues.",
-      "How do you reinvent yourself?",
-    ],
-    "alexander": [
-      "How do you lead from the front?",
-      "What did Aristotle teach you?",
-      "How did you conquer Persia?",
-    ],
-    "lee-kuan-yew": [
-      "How did you build Singapore?",
-      "What makes a nation succeed?",
-      "How do you fight corruption?",
-    ],
-    "deutsch": [
-      "What is the beginning of infinity?",
-      "How does knowledge grow?",
-      "Why are problems soluble?",
-    ],
-    "marcus-aurelius": [
-      "How do I stop being controlled by what I can't control?",
-      "How do you stay calm under impossible pressure?",
-      "What would you tell yourself each morning?",
-    ],
-    "marc-andreessen": [
-      "What should I build right now?",
-      "Which wave am I really in?",
-      "How do I stop reading about it and start shipping?",
-    ],
-    "adam-neumann": [
-      "Is my mission a moat or marketing?",
-      "How do I tell a story that compresses my next round?",
-      "Would my company survive an S-1 reading today?",
-    ],
-    "brad-jacobs": [
-      "I've found a fragmented, boring industry. How do I know if it's actually worth consolidating?",
-      "I just closed an acquisition. What do I actually do in the first 100 days?",
-      "How do I know if I should keep fighting for a deal or walk away like you did with GMS?",
-    ],
-    "seneca": [
-      "Where am I wasting time without noticing?",
-      "How do I stop reacting from anger?",
-      "What practice would actually hold for a year?",
-    ],
-    "ricky-gervais": [
-      "How do I find the funny in something true instead of just making it up?",
-      "How do I write a cringe character the audience roots for anyway?",
-      "How do I handle a joke that people are calling offensive?",
-    ],
-    "marie-curie": [
-      "How do I keep going when the work is years long and thankless?",
-      "My results don't match what I expected: do I trust them or myself?",
-      "How do I stay focused on the work when everything around me is falling apart?",
-    ],
-    "bob-marley": [
-      "I keep getting knocked down, how do I find the strength to keep showing up?",
-      "Someone hurt me badly and I want to get even: how do I choose one love over revenge?",
-      "How do I free my own mind from the fear and the labels other people put on me?",
-    ],
-    "senra": [
-      "What's the one book I should actually be reading for the problem I'm dealing with right now?",
-      "How do I know if I actually believe in what I'm building, or if I'm just performing confidence?",
-      "Is my problem really about money, or is it about losing control?",
-    ],
-    "paul-graham": [
-      "Is this a real startup idea, or does it only sound like one?",
-      "What should I do manually before I try to scale this?",
-      "How do I protect enough maker time to actually build the thing?",
-    ],
-    "sivers": [
-      "I have an opportunity in front of me and I can't tell if it's a hell yeah or just a maybe I'm talking myself into.",
-      "I have an idea I think is great but I don't trust my own judgment of it anymore.",
-      "I believe something that helps me but I'm not sure it's actually true. Should I let it go?",
-    ],
-    "visakan": [
-      "I feel like an impostor even when things are going well, what's actually going on?",
-      "I have a big ambitious idea but I'm scared to say it out loud. What do I do?",
-      "How do I write my way through something I don't understand yet instead of waiting until I do?",
-    ],
-    "james-clear": [
-      "I keep starting habits and quitting after a week. What am I doing wrong?",
-      "How do I actually change my identity, not just my behavior?",
-      "My habit isn't sticking even though I want it to. Is it my willpower or my environment?",
-    ],
-    "cal-newport": [
-      "My day is full but I don't feel like I made anything. What's actually happening?",
-      "Should I quit social media, or just be more disciplined about how I use it?",
-      "How do I find the rare, valuable skill I should actually be building?",
-    ],
-    "tim-ferriss": [
-      "I've wanted to do this for years and keep talking myself out of it. Help me fear-set it.",
-      "What's the smallest test I could run this week to get a real answer instead of guessing?",
-      "What would this problem look like if it were easy?",
-    ],
-    "annie-duke": [
-      "A decision I made worked out badly. Was it actually a bad decision, or just bad luck?",
-      "How do I know if I'm staying in something out of stubbornness instead of good reasons?",
-      "How do I get honest with myself about how uncertain I actually am?",
-    ],
-    "carol-dweck": [
-      "I failed at something and now I don't want to try again. What's going on in my head?",
-      "How do I actually build a growth mindset, not just say the words?",
-      "Am I praising the people around me in a way that's helping or hurting them?",
-    ],
-    "paul-millerd": [
-      "I have a stable job that looks great from the outside but I feel like I'm disappearing into it.",
-      "How do I know if I actually chose this path or just inherited it?",
-      "I want to leave but I'm terrified of having no plan. What was the void actually like?",
-    ],
-    "napoleon-hill": [
-      "I want something big but I'm not sure I actually believe I can have it.",
-      "How do I know if my desire is a burning desire or just a passing wish?",
-      "What is a mastermind, and how do I build one around my own goal?",
-    ],
-  };
-  return questions[slug] || ["What was your most important decision?", "What advice for a young person?"];
 }

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "guideId": "book:its-time-to-build",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "b4c41372e19e582e",
+      "title": "The Pandemic Proved We Stopped Building",
+      "url": null,
+      "synthesis": "content/knowledge/its-time-to-build/001-the-pandemic-proved-we-stopped-building.md",
+      "contentHash": "816e219352d23b0e59d2aee8a670f37ca2ec585219f33491453a6a2c1dc1b7c1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7901c93983627023",
+      "title": "Housing, Education, and Manufacturing",
+      "url": null,
+      "synthesis": "content/knowledge/its-time-to-build/002-housing-education-and-manufacturing.md",
+      "contentHash": "4c2c92052afdc6b6e2bb327def49d0ba44eacbeddebf8426305fec7bebe0daef",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bda37531a723a5c1",
+      "title": "Not Money, Not Capitalism, Not Skill",
+      "url": null,
+      "synthesis": "content/knowledge/its-time-to-build/003-not-money-not-capitalism-not-skill.md",
+      "contentHash": "387c8530ac8d58f7003d5aaae61cad783a67fcda417f934191e726c9f2092007",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5af29fa9a1710535",
+      "title": "A Build Agenda for Left and Right",
+      "url": null,
+      "synthesis": "content/knowledge/its-time-to-build/004-a-build-agenda-for-left-and-right.md",
+      "contentHash": "e8a0291d2afc871f60fab4ac60cd53e3eeda9c9a4c8b1891ff7fac36bf3c2293",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "909d47f042f7a690",
+      "title": "The Price of Not Building and the Call to Build",
+      "url": null,
+      "synthesis": "content/knowledge/its-time-to-build/005-the-price-of-not-building-and-the-call-to-build.md",
+      "contentHash": "a4a153992cf740ffd873bba2150f8bada9a14b5c58b84e2899f1a9d252972289",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

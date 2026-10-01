@@ -340,3 +340,366 @@ Please commit your changes or stash them before you switch branches.
 Aborting
   branch create failed, skipping invest-like-the-best
 === cascade-sync run complete ===
+=== cascade-sync run: 2026-09-19T19:00:01Z ===
+Refreshing invest-like-the-best (@ILTB_Podcast)...
+
+════════════════════════════════════════════════════════════════
+▓ [1/1] @ILTB_Podcast  →  invest-like-the-best
+════════════════════════════════════════════════════════════════
+  71 videos · 70 ≥20m · taking 70
+  LOCAL (yt-dlp captions, no quota) · 1 to fetch, 69 already staged
+
+  [1/1] ██████████████████████ 100% ✓  13,670w  Sequoia Legend Michael Moritz: Steve Jobs, Being an Ou
+
+  ▸ invest-like-the-best: 1 pulled, 69 staged, 0 no-captions · 70 episodes · 1,148,494 words
+
+════════════════════════════════════════════════════════════════
+▓ ALL DONE
+  invest-like-the-best     70 eps ·    1,148,494 words
+  TOTAL                    70 eps ·    1,148,494 words
+Refreshing starter-story (@StarterStory)...
+
+════════════════════════════════════════════════════════════════
+▓ [1/1] @StarterStory  →  starter-story
+════════════════════════════════════════════════════════════════
+  185 videos · 16 ≥20m · taking 16
+  LOCAL (yt-dlp captions, no quota) · 0 to fetch, 16 already staged
+
+
+  ▸ starter-story: 0 pulled, 16 staged, 0 no-captions · 16 episodes · 74,973 words
+
+════════════════════════════════════════════════════════════════
+▓ ALL DONE
+  starter-story            16 eps ·       74,973 words
+  TOTAL                    16 eps ·       74,973 words
+Refreshing y-combinator (@ycombinator)...
+
+════════════════════════════════════════════════════════════════
+▓ [1/1] @ycombinator  →  y-combinator
+════════════════════════════════════════════════════════════════
+  660 videos · 454 ≥20m · taking 454
+  LOCAL (yt-dlp captions, no quota) · 9 to fetch, 445 already staged
+
+  [1/9] ██░░░░░░░░░░░░░░░░░░░░  11% ✗ no captions   Jack Dorsey at Startup School 2013
+  [2/9] █████░░░░░░░░░░░░░░░░░  22% ✗ no captions   How to Raise Money with Marc Andreessen, Ron Conway, a
+  [3/9] ███████░░░░░░░░░░░░░░░  33% ✓   7,204w  The State of Startups in 2026
+  [4/9] ██████████░░░░░░░░░░░░  44% ✗ no captions   Scott Aaronson on Computational Complexity Theory and 
+  [5/9] ████████████░░░░░░░░░░  56% ✗ no captions   Ron Conway at Startup School 2012
+  [6/9] ███████████████░░░░░░░  67% ✗ no captions   Office Hours with Kat Manalac
+  [7/9] █████████████████░░░░░  78% ✗ no captions   Tracking Political Manipulation Through Social Media -
+  [8/9] ████████████████████░░  89% ✗ no captions   Fireside Chat with Kat Mañalac, Kathryn Minshew, and 
+  [9/9] ██████████████████████ 100% ✗ no captions   Gaming Studio Founders - Patrick Moberg and Holly Liu
+
+  ▸ y-combinator: 1 pulled, 445 staged, 8 no-captions · 446 episodes · 3,520,282 words
+
+════════════════════════════════════════════════════════════════
+▓ ALL DONE
+  y-combinator            446 eps ·    3,520,282 words · 8 no-captions
+  TOTAL                   446 eps ·    3,520,282 words
+Refreshing founders-podcast (@founderspodcast1)...
+
+════════════════════════════════════════════════════════════════
+▓ [1/1] @founderspodcast1  →  founders-podcast
+════════════════════════════════════════════════════════════════
+  171 videos · 171 ≥20m · taking 171
+  LOCAL (yt-dlp captions, no quota) · 1 to fetch, 170 already staged
+
+  [1/1] ██████████████████████ 100% ✓   9,783w  How Michael Bloomberg Works
+
+  ▸ founders-podcast: 1 pulled, 170 staged, 0 no-captions · 171 episodes · 2,127,112 words
+
+════════════════════════════════════════════════════════════════
+▓ ALL DONE
+  founders-podcast        171 eps ·    2,127,112 words
+  TOTAL                   171 eps ·    2,127,112 words
+Corpus freshness check (vs last recorded baseline)
+
+  ⚑ founders-podcast: raw grew 170 -> 171 (+1 new) since last check, 169 currently digested
+  ⚑ david-senra-conversations: raw grew 37 -> 40 (+3 new) since last check, 40 currently digested
+  ✓ starter-story: unchanged at 16 raw videos, 28 currently digested
+  ⚑ invest-like-the-best: raw grew 68 -> 70 (+2 new) since last check, 28 currently digested
+  ⚑ y-combinator: raw grew 450 -> 454 (+4 new) since last check, 35 currently digested
+
+4 channel(s) grew since the last check.
+This only flags growth, it does not digest or register anything automatically.
+Dispatching digestion pass for founders-podcast...
+M	.claude/launch.json
+M	scripts/.cascade-sync.log
+M	scripts/.corpus-freshness-baseline.json
+branch 'cascade-sync-founders-podcast-20260919' set up to track 'origin/main'.
+Switched to a new branch 'cascade-sync-founders-podcast-20260919'
+API Error: Connection refused — a firewall or proxy may be blocking it (ConnectionRefused)
+  claude invocation failed for founders-podcast
+M	.claude/launch.json
+M	scripts/.cascade-sync.log
+M	scripts/.corpus-freshness-baseline.json
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+Dispatching digestion pass for david-senra-conversations...
+M	.claude/launch.json
+M	scripts/.cascade-sync.log
+M	scripts/.corpus-freshness-baseline.json
+branch 'cascade-sync-david-senra-conversations-20260919' set up to track 'origin/main'.
+Switched to a new branch 'cascade-sync-david-senra-conversations-20260919'
+API Error: Connection refused — a firewall or proxy may be blocking it (ConnectionRefused)
+SessionEnd hook ["C:\Program Files\nodejs\node.exe" "C:\Users\adamp\.weave\claude-code-plugin\weave-telemetry.js"] failed: Hook cancelled
+  claude invocation failed for david-senra-conversations
+M	.claude/launch.json
+M	scripts/.cascade-sync.log
+M	scripts/.corpus-freshness-baseline.json
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+Dispatching digestion pass for invest-like-the-best...
+M	.claude/launch.json
+M	scripts/.cascade-sync.log
+M	scripts/.corpus-freshness-baseline.json
+branch 'cascade-sync-invest-like-the-best-20260919' set up to track 'origin/main'.
+Switched to a new branch 'cascade-sync-invest-like-the-best-20260919'
+API Error: Connection refused — a firewall or proxy may be blocking it (ConnectionRefused)
+  claude invocation failed for invest-like-the-best
+M	.claude/launch.json
+M	scripts/.cascade-sync.log
+M	scripts/.corpus-freshness-baseline.json
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+Dispatching digestion pass for y-combinator...
+M	.claude/launch.json
+M	scripts/.cascade-sync.log
+M	scripts/.corpus-freshness-baseline.json
+branch 'cascade-sync-y-combinator-20260919' set up to track 'origin/main'.
+Switched to a new branch 'cascade-sync-y-combinator-20260919'
+API Error: Connection refused — a firewall or proxy may be blocking it (ConnectionRefused)
+  claude invocation failed for y-combinator
+M	.claude/launch.json
+M	scripts/.cascade-sync.log
+M	scripts/.corpus-freshness-baseline.json
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+=== cascade-sync run complete ===
+=== cascade-sync run: 2026-09-26T19:00:01Z ===
+Refreshing invest-like-the-best (@ILTB_Podcast)...
+
+════════════════════════════════════════════════════════════════
+▓ [1/1] @ILTB_Podcast  →  invest-like-the-best
+════════════════════════════════════════════════════════════════
+  72 videos · 71 ≥20m · taking 71
+  LOCAL (yt-dlp captions, no quota) · 2 to fetch, 69 already staged
+
+  [1/2] ███████████░░░░░░░░░░░  50% ✓  13,670w  Former Sequoia Chairman Michael Moritz on Steve Jobs, 
+  [2/2] ██████████████████████ 100% ✓  14,300w  Why OpenAI and Anthropic Won't Win Finance
+
+  ▸ invest-like-the-best: 2 pulled, 69 staged, 0 no-captions · 71 episodes · 1,162,794 words
+
+════════════════════════════════════════════════════════════════
+▓ ALL DONE
+  invest-like-the-best     71 eps ·    1,162,794 words
+  TOTAL                    71 eps ·    1,162,794 words
+Refreshing starter-story (@StarterStory)...
+
+════════════════════════════════════════════════════════════════
+▓ [1/1] @StarterStory  →  starter-story
+════════════════════════════════════════════════════════════════
+  186 videos · 16 ≥20m · taking 16
+  LOCAL (yt-dlp captions, no quota) · 0 to fetch, 16 already staged
+
+
+  ▸ starter-story: 0 pulled, 16 staged, 0 no-captions · 16 episodes · 74,973 words
+
+════════════════════════════════════════════════════════════════
+▓ ALL DONE
+  starter-story            16 eps ·       74,973 words
+  TOTAL                    16 eps ·       74,973 words
+Refreshing y-combinator (@ycombinator)...
+
+════════════════════════════════════════════════════════════════
+▓ [1/1] @ycombinator  →  y-combinator
+════════════════════════════════════════════════════════════════
+  661 videos · 455 ≥20m · taking 455
+node:child_process:396
+      stdout = ArrayPrototypeJoin(_stdout, '');
+               ^
+
+RangeError: Invalid string length
+    at Array.join (<anonymous>)
+    at ChildProcess.exithandler (node:child_process:396:16)
+    at ChildProcess.emit (node:events:508:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+
+Node.js v24.13.0
+  (refresh had errors, see log)
+Refreshing founders-podcast (@founderspodcast1)...
+
+════════════════════════════════════════════════════════════════
+▓ [1/1] @founderspodcast1  →  founders-podcast
+════════════════════════════════════════════════════════════════
+  172 videos · 172 ≥20m · taking 172
+  LOCAL (yt-dlp captions, no quota) · 1 to fetch, 171 already staged
+
+  [1/1] ██████████████████████ 100% ✓  10,362w  How Sam Walton Worked
+
+  ▸ founders-podcast: 1 pulled, 171 staged, 0 no-captions · 172 episodes · 2,137,474 words
+
+════════════════════════════════════════════════════════════════
+▓ ALL DONE
+  founders-podcast        172 eps ·    2,137,474 words
+  TOTAL                   172 eps ·    2,137,474 words
+Corpus freshness check (vs last recorded baseline)
+
+  ⚑ founders-podcast: raw grew 171 -> 172 (+1 new) since last check, 169 currently digested
+  ✓ david-senra-conversations: unchanged at 40 raw videos, 40 currently digested
+  ✓ starter-story: unchanged at 16 raw videos, 28 currently digested
+  ⚑ invest-like-the-best: raw grew 70 -> 71 (+1 new) since last check, 28 currently digested
+  ✓ y-combinator: unchanged at 454 raw videos, 35 currently digested
+
+2 channel(s) grew since the last check.
+This only flags growth, it does not digest or register anything automatically.
+Dispatching digestion pass for founders-podcast...
+error: Your local changes to the following files would be overwritten by checkout:
+	DESIGN.md
+	GUIDE_ONBOARDING.md
+	data/guide-urls.json
+	docs/guide-onboarding-checklist.md
+	package.json
+	public/favicon.svg
+	scripts/summon.mjs
+	src/app/[figure]/about/page.tsx
+	src/app/api/chat/route.ts
+	src/app/api/chat/source/route.ts
+	src/app/apple-icon.tsx
+	src/app/chat/[figure]/page.tsx
+	src/app/chat/source/[slug]/page.tsx
+	src/app/connect/page.tsx
+	src/app/favicon.ico
+	src/app/globals.css
+	src/app/icon.tsx
+	src/app/onboarding/page.tsx
+	src/components/AiPersonaNotice.tsx
+	src/components/GuideAgentRoster.tsx
+	src/components/GuideCall.tsx
+	src/components/GuidePortraitLines.tsx
+	src/components/SageConversation.module.css
+	src/components/SageConversation.tsx
+	src/lib/figureSources.ts
+	src/lib/figures.ts
+	src/lib/guideAgents.ts
+	src/lib/guideRetrieval.ts
+	src/lib/voices.ts
+	src/pages/api/mcp.ts
+Please commit your changes or stash them before you switch branches.
+error: The following untracked working tree files would be overwritten by checkout:
+	content/knowledge/gottmans/001-soft-startup.md
+	content/knowledge/gottmans/002-bids.md
+	content/knowledge/gottmans/003-relationship-house.md
+	docs/duo-guides.md
+	docs/summon-guide-skill.md
+	packs/summon-guide/SKILL.md
+	packs/summon-guide/agents/openai.yaml
+	packs/summon-guide/references/api.md
+	packs/summon-guide/scripts/client.mjs
+	public/avatars/brad-jacobs-portrait.jpg
+	public/portraits/buffettmunger.svg
+	public/portraits/gottmans.jpg
+	public/portraits/gottmans.svg
+	public/portraits/pendleton-ward.jpg
+	public/portraits/rick-rubin.jpg
+	public/portraits/rose-blumkin.png
+	scripts/check-guide-portraits.mjs
+	scripts/gen-brand-icons.mjs
+	scripts/public-guide.test.mjs
+	scripts/smoke-summon-guide.mjs
+	scripts/summon-guide.test.mjs
+	scripts/test-duo-guides.mjs
+	src/app/api/public/guides/route.ts
+	src/app/api/public/notes/route.ts
+	src/app/api/summon/match/route.ts
+	src/app/api/summon/research/route.ts
+	src/app/credits/page.tsx
+	src/components/GuidePortrait.tsx
+	src/lib/brandMark.ts
+	src/lib/duoGuides.ts
+	src/lib/duoSourceNotes.ts
+	src/lib/guidePortraitAssets.ts
+	src/lib/guidePrompts.ts
+	src/lib/publicApiLimit.ts
+	src/lib/publicGuideCatalog.ts
+	src/lib/publicGuideNotes.ts
+	src/lib/summonMatch.ts
+Please move or remove them before you switch branches.
+Aborting
+  branch create failed, skipping founders-podcast
+Dispatching digestion pass for invest-like-the-best...
+error: Your local changes to the following files would be overwritten by checkout:
+	DESIGN.md
+	GUIDE_ONBOARDING.md
+	data/guide-urls.json
+	docs/guide-onboarding-checklist.md
+	package.json
+	public/favicon.svg
+	scripts/summon.mjs
+	src/app/[figure]/about/page.tsx
+	src/app/api/chat/route.ts
+	src/app/api/chat/source/route.ts
+	src/app/apple-icon.tsx
+	src/app/chat/[figure]/page.tsx
+	src/app/chat/source/[slug]/page.tsx
+	src/app/connect/page.tsx
+	src/app/favicon.ico
+	src/app/globals.css
+	src/app/icon.tsx
+	src/app/onboarding/page.tsx
+	src/components/AiPersonaNotice.tsx
+	src/components/GuideAgentRoster.tsx
+	src/components/GuideCall.tsx
+	src/components/GuidePortraitLines.tsx
+	src/components/SageConversation.module.css
+	src/components/SageConversation.tsx
+	src/lib/figureSources.ts
+	src/lib/figures.ts
+	src/lib/guideAgents.ts
+	src/lib/guideRetrieval.ts
+	src/lib/voices.ts
+	src/pages/api/mcp.ts
+Please commit your changes or stash them before you switch branches.
+error: The following untracked working tree files would be overwritten by checkout:
+	content/knowledge/gottmans/001-soft-startup.md
+	content/knowledge/gottmans/002-bids.md
+	content/knowledge/gottmans/003-relationship-house.md
+	docs/duo-guides.md
+	docs/summon-guide-skill.md
+	packs/summon-guide/SKILL.md
+	packs/summon-guide/agents/openai.yaml
+	packs/summon-guide/references/api.md
+	packs/summon-guide/scripts/client.mjs
+	public/avatars/brad-jacobs-portrait.jpg
+	public/portraits/buffettmunger.svg
+	public/portraits/gottmans.jpg
+	public/portraits/gottmans.svg
+	public/portraits/pendleton-ward.jpg
+	public/portraits/rick-rubin.jpg
+	public/portraits/rose-blumkin.png
+	scripts/check-guide-portraits.mjs
+	scripts/gen-brand-icons.mjs
+	scripts/public-guide.test.mjs
+	scripts/smoke-summon-guide.mjs
+	scripts/summon-guide.test.mjs
+	scripts/test-duo-guides.mjs
+	src/app/api/public/guides/route.ts
+	src/app/api/public/notes/route.ts
+	src/app/api/summon/match/route.ts
+	src/app/api/summon/research/route.ts
+	src/app/credits/page.tsx
+	src/components/GuidePortrait.tsx
+	src/lib/brandMark.ts
+	src/lib/duoGuides.ts
+	src/lib/duoSourceNotes.ts
+	src/lib/guidePortraitAssets.ts
+	src/lib/guidePrompts.ts
+	src/lib/publicApiLimit.ts
+	src/lib/publicGuideCatalog.ts
+	src/lib/publicGuideNotes.ts
+	src/lib/summonMatch.ts
+Please move or remove them before you switch branches.
+Aborting
+  branch create failed, skipping invest-like-the-best
+=== cascade-sync run complete ===

@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "guideId": "person:cal-newport",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "4617ad716f79f7ad",
+      "title": "Introduction: The Deep Work Hypothesis",
+      "url": null,
+      "synthesis": "content/knowledge/deep-work/001-introduction.md",
+      "contentHash": "0e726136efced3a42f28b8dc46f2e33679473fbe68df21b39f9f1aa24a37a4be",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "815de470d49af583",
+      "title": "Chapter One: Deep Work Is Valuable",
+      "url": null,
+      "synthesis": "content/knowledge/deep-work/002-deep-work-is-valuable.md",
+      "contentHash": "4c7f75c5d67f50621c61180277ac4a5dfe4ff4efee73e6524f5fe63610712438",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "80cfbd2346fa8952",
+      "title": "Chapter Two: Deep Work Is Rare",
+      "url": null,
+      "synthesis": "content/knowledge/deep-work/003-deep-work-is-rare.md",
+      "contentHash": "f0e10fb6f745bf4ebb85b0c9e2f6d4cd41b28d99c59fc6218eb69c36fd118755",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d880dce1a2b8cacd",
+      "title": "Chapter Three: Deep Work Is Meaningful",
+      "url": null,
+      "synthesis": "content/knowledge/deep-work/004-deep-work-is-meaningful.md",
+      "contentHash": "a9767362363d1fe09e854929dcd0822668f3e49eb68ed157aed0b446119b4164",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0ba31a761afd1fd8",
+      "title": "Rule #1: Work Deeply",
+      "url": null,
+      "synthesis": "content/knowledge/deep-work/005-rule-1-work-deeply.md",
+      "contentHash": "559f1940f4ad7b2d7bb9e66b6925df4eda73d8f790793d4262f79fad5f426d58",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3aa16861d9a54eba",
+      "title": "Rule #2: Embrace Boredom",
+      "url": null,
+      "synthesis": "content/knowledge/deep-work/006-rule-2-embrace-boredom.md",
+      "contentHash": "34dda06e7fe4a4fdc186efe69c237d7b8b696e667255f68eb9ee6068b89e8a0f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "64937177f4df0de3",
+      "title": "Rule #3: Quit Social Media",
+      "url": null,
+      "synthesis": "content/knowledge/deep-work/007-rule-3-quit-social-media.md",
+      "contentHash": "6fd6664d4664d7f8783d24b4880fff8c7b328ee21570e8f4eaa1a1f24c474a95",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c2b54d1b3e956766",
+      "title": "Rule #4: Drain the Shallows",
+      "url": null,
+      "synthesis": "content/knowledge/deep-work/008-rule-4-drain-the-shallows.md",
+      "contentHash": "5ed445f76c9e21855bec071a05b81aa83d86de579961f65e0f9533e8dc120924",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e946bec91be5315b",
+      "title": "Conclusion",
+      "url": null,
+      "synthesis": "content/knowledge/deep-work/009-conclusion.md",
+      "contentHash": "12980e41c26f124e4418ff0f240b72e55521098d074f11e08327ebbddf9fc862",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}
