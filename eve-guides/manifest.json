@@ -1013,7 +1013,7 @@
   {
     "id": "book:from-third-world-to-first",
     "name": "From Third World to First: The Singapore Story 1965-2000",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-from-third-world-to-first",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1122,7 +1122,7 @@
   {
     "id": "book:on-anger",
     "name": "On Anger (De Ira)",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-on-anger",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1136,7 +1136,7 @@
   {
     "id": "book:on-the-shortness-of-life",
     "name": "On the Shortness of Life (De Brevitate Vitae)",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-on-the-shortness-of-life",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1370,7 +1370,7 @@
   {
     "id": "book:the-book-of-elon",
     "name": "The Book of Elon",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-the-book-of-elon",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1382,7 +1382,7 @@
   {
     "id": "book:campaigns-of-alexander-arrian",
     "name": "The Campaigns of Alexander (Anabasis Alexandri)",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-campaigns-of-alexander-arrian",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1579,7 +1579,7 @@
   {
     "id": "book:your-music-and-people",
     "name": "Your Music and People",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-your-music-and-people",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1603,7 +1603,7 @@
   {
     "id": "book:zombies-in-western-culture",
     "name": "Zombies in Western Culture: A Twenty-First Century Crisis",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-zombies-in-western-culture",
     "framework": "eve",
     "runtimeEnabled": false,

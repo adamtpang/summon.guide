@@ -1,7 +1,7 @@
 {
   "version": 1,
   "guideId": "book:zombies-in-western-culture",
-  "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "sourceHash": "7aeae8c70111d668c44f522909b2eb6356e3b46bc3ca381fe59212ce48dcfe12",
   "cases": [
     {
       "id": "identity",
@@ -15,8 +15,9 @@
       "id": "grounding",
       "prompt": "Help me apply a documented idea about vervaeke to one small reversible decision.",
       "requires": [
-        "explicit missing evidence",
-        "no invented citation"
+        "supported citation",
+        "distinguish application",
+        "concrete next action"
       ]
     },
     {

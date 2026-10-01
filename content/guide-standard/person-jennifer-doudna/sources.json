@@ -2,6 +2,79 @@
   "version": 1,
   "guideId": "person:jennifer-doudna",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "cc58e4cd1839b6a1",
+      "title": "CRISPR-Cas9 began as a question about how bacteria fight viruses",
+      "url": "https://www.nobelprize.org/uploads/2024/03/doudna-lecture.pdf",
+      "synthesis": "content/knowledge/jennifer-doudna/001-a-question-about-bacterial-immunity.md",
+      "contentHash": "ebe1494dcb9be22631f0f3f2b0a3a0127ac49a68e3ac97f0206647893fc603f6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3bccabf6ce497852",
+      "title": "Her own account of the path from Hilo to RNA to CRISPR",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/doudna/biographical/",
+      "synthesis": "content/knowledge/jennifer-doudna/002-path-into-science-and-into-crispr.md",
+      "contentHash": "6ea817c7b21b0915de4afc8f534269e9ebf4cc5a47275c4cde11e224a7c58768",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "89bf9f965c587181",
+      "title": "Collaboration with Emmanuelle Charpentier, and her advice to go for it",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/doudna/167713-jennifer-doudna-interview-february-2021/",
+      "synthesis": "content/knowledge/jennifer-doudna/003-working-with-charpentier-and-advice.md",
+      "contentHash": "19d759e4a5089084e1f297e8beef64ccc72f90b30b0e3789d5d8ff70d1946112",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dc5a433aa5772c22",
+      "title": "The 2015 call for caution on editing the human germline",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4394183/",
+      "synthesis": "content/knowledge/jennifer-doudna/004-a-prudent-path-forward-2015.md",
+      "contentHash": "d903e2bacf5cbe9f6f2d281c2aa55fdd80313f218c702281b8c947256910393f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cb8196cfd3a5e77e",
+      "title": "Her public statement after the first claim of gene-edited babies",
+      "url": "https://news.berkeley.edu/2018/11/26/doudna-responds-to-claim-of-first-crispr-edited-babies/",
+      "synthesis": "content/knowledge/jennifer-doudna/005-statement-on-he-jiankui-2018.md",
+      "contentHash": "08e143abb92989aab3871d8736981f5ff56f3443d10f154fd771a6f6d1bdf1fe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9a59a06e34e6c631",
+      "title": "Looking back on the He Jiankui case: why self-governance was not enough",
+      "url": "https://issues.org/jennifer-doudna-interview/",
+      "synthesis": "content/knowledge/jennifer-doudna/006-after-hong-kong-ethics-and-regulation.md",
+      "contentHash": "5097b70b14eed75e4fea55b6e233c70570d80f94ca5091a30937e6cc22e0c674",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c2ad687e97f3df17",
+      "title": "From the lab bench to commercialization: patents, capital and former students",
+      "url": "https://www.technologyreview.com/2022/04/26/1048917/crispr-gene-editing-scientist/",
+      "synthesis": "content/knowledge/jennifer-doudna/007-patents-capital-and-supporting-students.md",
+      "contentHash": "9ccbbed2b5dfd11fbc365633c3cc229142729af5c32c18acadc30a1b9e156c38",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3230facc2bd29dfc",
+      "title": "Why she explains CRISPR to non-scientists, and what she tells young people",
+      "url": "https://nigms.nih.gov/biobeat/2020/11/qa-with-nobel-laureate-and-crispr-scientist-jennifer-doudna",
+      "synthesis": "content/knowledge/jennifer-doudna/008-why-she-speaks-up-nih-qa.md",
+      "contentHash": "de3676ae3e1d7bbfb42eea989e3fcc58480aaec8cc2bf7fe82697085e338ae71",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

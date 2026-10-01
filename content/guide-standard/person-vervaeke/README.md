@@ -4,7 +4,7 @@ ID: person:vervaeke
 
 Owner: summon.guide
 
-Coverage: partial, 6 synthesis records.
+Coverage: partial, 13 synthesis records.
 
 Distillation: content/distilled/vervaeke.md
 

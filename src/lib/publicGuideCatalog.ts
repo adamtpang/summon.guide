@@ -13,7 +13,8 @@ export function publicGuideEpisodes(id: string) {
 }
 
 export const publicGuideCatalog = guideAgentSummaries.map(guide => ({
-  category: guide.category, coverage: guide.coverage,
+  // Coverage describes what is publicly served: staged notes for a guide still in onboarding do not count.
+  category: guide.category, coverage: (publicGuideEpisodes(guide.id)?.length ? guide.coverage : "missing"),
   members: guide.members,
   id: guide.id, name: guide.name, kind: guide.kind, domains: guide.domains,
   description: guide.description.slice(0, 1200), availability: guide.availability,

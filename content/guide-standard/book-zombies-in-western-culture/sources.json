@@ -2,6 +2,70 @@
   "version": 1,
   "guideId": "book:zombies-in-western-culture",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "da57a5d7db2e8c44",
+      "title": "A New Zeitgeist: Why the Zombie, and Why Now",
+      "url": null,
+      "synthesis": "content/knowledge/zombies-in-western-culture/001-a-new-zeitgeist-and-the-monsters-before-it.md",
+      "contentHash": "cd6b092157533eecc81a6fcfc8e75b1dec773ef20fb927cf635a4c32d0a24f7f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d81f2c548eea43c7",
+      "title": "The First Symbol: What the Zombie's Traits Stand For",
+      "url": null,
+      "synthesis": "content/knowledge/zombies-in-western-culture/002-the-zombie-body-as-a-symbol.md",
+      "contentHash": "aa53d9001b6392d9eeb2c046e8ad883bf527ce95012dc1115ab6b896d6688108",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e612761a9f66bf0b",
+      "title": "The Name, the Failed Story and the Apocalypse Without Revelation",
+      "url": null,
+      "synthesis": "content/knowledge/zombies-in-western-culture/003-name-failed-story-and-apocalypse.md",
+      "contentHash": "5d9de9873e9a6e6fe1b044df590222ebab0476c5747966150ddb94117be627db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7c57ced6f31a2f8d",
+      "title": "Domicide: Losing a Home at the Scale of a Culture",
+      "url": null,
+      "synthesis": "content/knowledge/zombies-in-western-culture/004-domicide-grassy-narrows-and-the-hellenistic-era.md",
+      "contentHash": "bde9fea4d30cc2df8b8dba7b819dc506b3df48f4c0317bd931099ed8f081fdfd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6796082c9efe6485",
+      "title": "Death and Famine: Religious Decline and the Hunger for Meaning",
+      "url": null,
+      "synthesis": "content/knowledge/zombies-in-western-culture/005-death-and-famine-religion-and-suicide.md",
+      "contentHash": "84c8bd3c43d7eb23be4694a14780fbb47ef2d527e0840dc51522b1d3ed89bce4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f2e45c8a70f4b0c0",
+      "title": "Pestilence and War: Loneliness, Political Disengagement and Bullshit",
+      "url": null,
+      "synthesis": "content/knowledge/zombies-in-western-culture/006-pestilence-and-war-loneliness-politics-and-bullshit.md",
+      "contentHash": "aeefcdf55c84e6011ad024a63352225e9b229cdf32f4135bcdb8b851d932075e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a53619f9e094b4ef",
+      "title": "How the Meaning Was Lost: Three Orders, Their Fall, and the Conclusion",
+      "url": null,
+      "synthesis": "content/knowledge/zombies-in-western-culture/007-genealogy-of-the-meaning-crisis-and-conclusion.md",
+      "contentHash": "6de342900c6120d9d3d493b9ae5b0692cb8b120577302e9531effc04ab8d52aa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

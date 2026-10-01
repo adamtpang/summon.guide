@@ -473,7 +473,7 @@
       "slug": "from-third-world-to-first",
       "name": "From Third World to First: The Singapore Story 1965-2000",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "hell-yeah-or-no",
@@ -521,13 +521,13 @@
       "slug": "on-anger",
       "name": "On Anger (De Ira)",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "on-the-shortness-of-life",
       "name": "On the Shortness of Life (De Brevitate Vitae)",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "one-mans-view-of-the-world",
@@ -623,13 +623,13 @@
       "slug": "the-book-of-elon",
       "name": "The Book of Elon",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "campaigns-of-alexander-arrian",
       "name": "The Campaigns of Alexander (Anabasis Alexandri)",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "the-cult-of-we",
@@ -719,7 +719,7 @@
       "slug": "your-music-and-people",
       "name": "Your Music and People",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "zero-to-one",
@@ -731,7 +731,7 @@
       "slug": "zombies-in-western-culture",
       "name": "Zombies in Western Culture: A Twenty-First Century Crisis",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "founders-podcast",

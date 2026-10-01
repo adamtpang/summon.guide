@@ -2,6 +2,79 @@
   "version": 1,
   "guideId": "person:leonardo-da-vinci",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "c3c67c85a93e69a5",
+      "title": "Train the eye first: Leonardo on what a painter must see and keep",
+      "url": "https://openlibrary.org/books/OL27162666M",
+      "synthesis": "content/knowledge/leonardo-da-vinci/001-the-painter-as-observer.md",
+      "contentHash": "60d233ac211c87d6e2938649a792d34fd6f04e4399c5eeccfebaba92b338c694",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "74e94371aa2171ba",
+      "title": "The body measured and opened: proportion, balance and anatomy",
+      "url": "https://openlibrary.org/books/OL27162666M",
+      "synthesis": "content/knowledge/leonardo-da-vinci/002-the-body-measured-and-opened.md",
+      "contentHash": "326b2cfe39cdead7ebe445bcd57ce6aab889ae1b4b8d8302809cb26877e29426",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f2335e3ebef64d35",
+      "title": "Light and shade: Leonardo sorts shadows into kinds and tests them",
+      "url": "https://openlibrary.org/books/OL27162666M",
+      "synthesis": "content/knowledge/leonardo-da-vinci/003-light-and-shade.md",
+      "contentHash": "55132b362697576ec463e49b20e3d9b17338306e0d60776a51f945ca04838583",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "42225eee5737755f",
+      "title": "Perspective and the eye: theory first, then small experiments",
+      "url": "https://openlibrary.org/books/OL27162666M",
+      "synthesis": "content/knowledge/leonardo-da-vinci/004-perspective-and-the-eye.md",
+      "contentHash": "d4d78f277f4115814ba76705d18d90658afbbcaa582667fffe1c5c59d1b32801",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a09f448928308338",
+      "title": "Trees, water and the earth: one pattern read across many things",
+      "url": "https://openlibrary.org/books/OL27162666M",
+      "synthesis": "content/knowledge/leonardo-da-vinci/005-trees-water-and-the-earth.md",
+      "contentHash": "3e78f3c0c1282b6bfa7c6c01ead20c1b9f09432c58c1a78ae2e05ff902f1af6d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "26c5714d599a347e",
+      "title": "Force, machines and flight: from watching birds to testing wings",
+      "url": "https://openlibrary.org/books/OL27162666M",
+      "synthesis": "content/knowledge/leonardo-da-vinci/006-force-machines-and-flight.md",
+      "contentHash": "410e7704f0250bfa0e1dd2a8a063df9fb89e2922f6247383a1e6b13b3c4d721b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bab6608c0d8bd034",
+      "title": "Advice to the student: how to practice, check your work and take criticism",
+      "url": "https://openlibrary.org/books/OL27162666M",
+      "synthesis": "content/knowledge/leonardo-da-vinci/007-advice-to-the-student.md",
+      "contentHash": "6eb856646fad68882a51f6f45e266bcb77a15fd67c7e2da097da01fa1c065c80",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d98b6f393d287417",
+      "title": "Maxims, fables and time: what Leonardo says about study, effort and a life well used",
+      "url": "https://openlibrary.org/books/OL27162666M",
+      "synthesis": "content/knowledge/leonardo-da-vinci/008-maxims-fables-and-time.md",
+      "contentHash": "f74486cb22a67dc97b618d2eb10206bf02a29d6ed064c635d0261d204ed36cce",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

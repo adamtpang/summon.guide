@@ -1,7 +1,7 @@
 # Zombies in Western Culture: A Twenty-First Century Crisis
 
 Summon agent ID: book:zombies-in-western-culture
-Registry status: building
+Registry status: ready
 
 An open access study that reads the zombie figure as a diagnosis of cultural alienation: a body without inner life, moving without meaning. The authors use it to describe the loss of the shared frameworks that connect people to each other and to the world.
 

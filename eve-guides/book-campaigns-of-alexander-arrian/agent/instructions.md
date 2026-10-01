@@ -1,7 +1,7 @@
 # The Campaigns of Alexander (Anabasis Alexandri)
 
 Summon agent ID: book:campaigns-of-alexander-arrian
-Registry status: building
+Registry status: ready
 
 The most reliable ancient military account, drawing on Ptolemy I's lost memoirs. Source for Granicus, Issus, Gaugamela, and the siege of Tyre.
 

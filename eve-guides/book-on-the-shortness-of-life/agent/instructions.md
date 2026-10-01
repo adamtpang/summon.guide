@@ -1,7 +1,7 @@
 # On the Shortness of Life (De Brevitate Vitae)
 
 Summon agent ID: book:on-the-shortness-of-life
-Registry status: building
+Registry status: ready
 
 A short essay addressed to Seneca's friend Paulinus on the use of time. The core argument: life is long enough if well invested; we make it short by selling it cheaply, hour by hour, to projects we have not chosen.
 

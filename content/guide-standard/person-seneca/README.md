@@ -4,7 +4,7 @@ ID: person:seneca
 
 Owner: summon.guide
 
-Coverage: partial, 38 synthesis records.
+Coverage: partial, 51 synthesis records.
 
 Distillation: content/distilled/seneca.md
 

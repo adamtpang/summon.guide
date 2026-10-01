@@ -4,7 +4,7 @@ ID: person:elon
 
 Owner: summon.guide
 
-Coverage: partial, 23 synthesis records.
+Coverage: partial, 31 synthesis records.
 
 Distillation: content/distilled/elon.md
 

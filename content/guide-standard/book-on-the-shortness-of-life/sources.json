@@ -2,6 +2,61 @@
   "version": 1,
   "guideId": "book:on-the-shortness-of-life",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "910a548973abf4ae",
+      "title": "Life Is Long Enough If It Is Used Well",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/001-life-is-long-enough-if-used-well.md",
+      "contentHash": "28a0874c6ad8a83c33deb519ee882fb70750497c2c54763ed1b0f9f92df45996",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b3f47dcf93b0c81b",
+      "title": "How People Give Their Time Away",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/002-how-people-give-their-time-away.md",
+      "contentHash": "25cca06478a8133cb31c8228bd6c176fc1a94ca7811393d27b7bb2ee5a2fc136",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9bdeec4f37def8c1",
+      "title": "The Busy Man Who Never Lives",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/003-the-busy-man-who-never-lives.md",
+      "contentHash": "9a5e632dbc3971088772ff7310c0e2c892a675317c6d381c7d48ceb7252d786c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1e67a9bfe866c956",
+      "title": "Postponement and the Three Parts of Time",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/004-postponement-and-the-three-parts-of-time.md",
+      "contentHash": "0843580774025fca1a41d0cbc797bddc217df8575b8a4b37d7473df3e1c1218e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5eacfd86a96c43e4",
+      "title": "True Leisure and the Company of Past Philosophers",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/005-true-leisure-and-the-company-of-past-philosophers.md",
+      "contentHash": "f1746f0148cc3706bac43a08dba55bf26e1d54a8b9539453d51fd0b2af17615a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "138b56ca5004905e",
+      "title": "Advice to Paulinus: Retire From Public Duties",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/006-advice-to-paulinus-retire-from-public-duties.md",
+      "contentHash": "f926b94a62e3624c5dd59c51c16115f9050111afafacb6548f78818bffaa3555",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

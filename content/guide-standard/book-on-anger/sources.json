@@ -2,6 +2,70 @@
   "version": 1,
   "guideId": "book:on-anger",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "c14eb10f2c09444e",
+      "title": "What anger is and why it is neither natural nor useful",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/001-what-anger-is-and-why-it-is-not-useful.md",
+      "contentHash": "4884af1db34110827aa22d175483cf0441d7c83a014f7cb23882e05281ad604d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2a6382e63bf2736d",
+      "title": "How anger starts and the role of assent",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/002-how-anger-starts-and-the-role-of-assent.md",
+      "contentHash": "58ffff17cbe07cc2fa387ee39189334eea398b678e42eccacec256296b26a3bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c3920df0ee0c826e",
+      "title": "Raising children without feeding anger",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/003-raising-children-without-feeding-anger.md",
+      "contentHash": "60529de8fc2dfd3057622c477b34ccabcd2abd2a737457b7c485b4bb65eeb9f9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b11a16059f998097",
+      "title": "Causes of anger and how to prevent it",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/004-causes-of-anger-and-how-to-prevent-it.md",
+      "contentHash": "0d38f0610a4796db420a2f3166be46bcf09f0da043a2f4b6df262ab310fae88a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "14bed0554960e8a2",
+      "title": "Remedies in the moment: delay, early signs, and a calm face",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/005-remedies-in-the-moment-delay.md",
+      "contentHash": "2b10649110544ebf9520b0bf5988a4f3c405d11d4cfba6ee887caa1f53afaff2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f6ea65815e7ff8b8",
+      "title": "Rulers as warnings and as models",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/006-rulers-as-warnings-and-models.md",
+      "contentHash": "28e98bb6d6d5f09ac33c1debc969ebd7396697a9b631bd92d7d6e39d400fafcf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9af1d813c90df2cf",
+      "title": "The nightly self-review and the shortness of life",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/007-nightly-self-review-and-the-shortness-of-life.md",
+      "contentHash": "8fd0743ca5d823d3d64aa6f9e9ffd9e5d7493b34904fde914540b4fe4e203ace",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

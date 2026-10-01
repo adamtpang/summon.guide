@@ -147,6 +147,78 @@
       "contentHash": "2d3ca2816bb0575ccb26d3a9283045c34ac7afbc2a7287ed32ac64cbba92352a",
       "rightsReview": "not-certified",
       "kind": "published-synthesis"
+    },
+    {
+      "id": "c711ad6353fcb1fd",
+      "title": "Arrian's sources and the Battle of the Granicus",
+      "url": null,
+      "synthesis": "content/knowledge/campaigns-of-alexander-arrian/001-arrians-sources-and-the-granicus.md",
+      "contentHash": "78b196fe2a965ee2ed33bda7629a252556fa6ce75c342ffd8de89d0d6d0abd59",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c1dc699f2533d6a1",
+      "title": "The Battle of Issus",
+      "url": null,
+      "synthesis": "content/knowledge/campaigns-of-alexander-arrian/002-the-battle-of-issus.md",
+      "contentHash": "b3b1e17f597804e8ebae59a58e5daa0362109e1d4e02c735f1bfe5e88b2aaea5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e96a7e9ea4b4cf3d",
+      "title": "The Siege of Tyre",
+      "url": null,
+      "synthesis": "content/knowledge/campaigns-of-alexander-arrian/003-the-siege-of-tyre.md",
+      "contentHash": "673aaf0bfe08c88ac8a15691aeb574617d429a028d7e1caa65ede42c00185843",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "66a57d4bd6f55420",
+      "title": "Gaugamela (the Battle of Arbela)",
+      "url": null,
+      "synthesis": "content/knowledge/campaigns-of-alexander-arrian/004-gaugamela.md",
+      "contentHash": "ccb9e94cdf2c6952b66c2ab5b008cb2b3d9d1b45a77463e0861d2c957bf56f44",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fe5c727f8e28c657",
+      "title": "The killing of Clitus, the prostration dispute, and Callisthenes",
+      "url": null,
+      "synthesis": "content/knowledge/campaigns-of-alexander-arrian/005-clitus-prostration-and-callisthenes.md",
+      "contentHash": "50a0479b26c8b0073a147ea440807b289bb5ad2d9cb7c595f3e8ffc0eb5c6049",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8cd19b44e532b107",
+      "title": "The Battle of the Hydaspes and the surrender of Porus",
+      "url": null,
+      "synthesis": "content/knowledge/campaigns-of-alexander-arrian/006-the-hydaspes-and-porus.md",
+      "contentHash": "b7cca0aad0f70cf5583b236ec506da3323116adf43d2a535cbd016651ac8093c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cbced40aa52326d1",
+      "title": "The army refuses to go on at the Hyphasis",
+      "url": null,
+      "synthesis": "content/knowledge/campaigns-of-alexander-arrian/007-the-mutiny-at-the-hyphasis.md",
+      "contentHash": "5c75b73360dea5e9b5bc908f391d14157edb84a30f442cd1c3005e1fdaeeb7c1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "16666c97a3968f48",
+      "title": "The Gedrosian desert, Opis, Alexander's death, and Arrian's verdict",
+      "url": null,
+      "synthesis": "content/knowledge/campaigns-of-alexander-arrian/008-gedrosia-opis-death-and-assessment.md",
+      "contentHash": "ed2ce8a25004609c86d7eb6469eb965b559d87573706fda4548f0a598683aeb2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
     }
   ]
 }

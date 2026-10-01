@@ -1,7 +1,7 @@
 # The Book of Elon
 
 Summon agent ID: book:the-book-of-elon
-Registry status: building
+Registry status: ready
 
 Jorgenson's anthology of Musk's own words: interviews, transcripts, talks. Same compiler as The Almanack of Naval Ravikant. Pending ingestion: drop the PDF in sources/elon/the-book-of-elon.pdf and we'll extract a fresh set of skills.
 

@@ -2,6 +2,61 @@
   "version": 1,
   "guideId": "person:alysa-liu",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "7ee8caf07f8d0b20",
+      "title": "Stepping away once the goals were met: retirement as graduation",
+      "url": "https://usfigureskating.org/news/2022/4/19/figure-skating-alysa-liu-graduates-from-skating-into-retirement-after-world-championships-bronze.aspx",
+      "synthesis": "content/knowledge/alysa-liu/001-retiring-as-graduating.md",
+      "contentHash": "ad4f4fb0d5efe363db0f5ab3607fee9879be99bd5b1ef5f05f7b83e7c7d05852",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "296f3cf62ace4285",
+      "title": "Testing a return in small steps and setting her own schedule",
+      "url": "https://usfigureskating.org/news/2024/10/7/rinkside-older-wiser-alysa-liu-returns-to-competition",
+      "synthesis": "content/knowledge/alysa-liu/002-testing-the-return-in-small-steps.md",
+      "contentHash": "0e1565921153203c12173f3da9341d1f2a6d7c765deaeb1da7dd915e4264f8e7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e0850df65781e477",
+      "title": "From all in to all out to a healthy medium",
+      "url": "https://www.cnn.com/2025/04/06/sport/alysa-liu-figure-skating-spt",
+      "synthesis": "content/knowledge/alysa-liu/003-highs-lows-and-a-healthy-medium.md",
+      "contentHash": "4cb2aedd9aafe1f18b44266f665c52bd83a31c2423cd2ffd743b2d84c2f69dea",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "18aea737a8170a4c",
+      "title": "Fitting skating into her life, and detaching from results",
+      "url": "https://www.teamusa.com/news/2025/may/15/the-2025-world-champion-alysa-liu-is-finally-skating-on-her-own-terms",
+      "synthesis": "content/knowledge/alysa-liu/004-fitting-skating-into-life.md",
+      "contentHash": "d39dd8169f2407fd9a9d7cf71228fe63a9c7889886e5a02bb9bce743f3e0df42",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "84720f0fcd8fdca7",
+      "title": "Olympic gold without letting the title define her",
+      "url": "https://www.nbcolympics.com/news/alysa-liu-champion-who-cant-stop-smiling",
+      "synthesis": "content/knowledge/alysa-liu/005-titles-do-not-define-her.md",
+      "contentHash": "5b5cde20a861ab343f3c473a357fcd97233ac50f15dd139345a7587a8dfa9bb3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "234dc8b3ffbe67d9",
+      "title": "What she skates for now: joy, art, and a good team",
+      "url": "https://usfigureskating.org/news/2026/2/19/national-team-figure-skating-liu-reigns-golden-in-milan.aspx",
+      "synthesis": "content/knowledge/alysa-liu/006-what-she-skates-for-now.md",
+      "contentHash": "3c59eb18d8957cd7100429dd2e6cc1999b1a5eede8acf4f23a29c1bab5e21946",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

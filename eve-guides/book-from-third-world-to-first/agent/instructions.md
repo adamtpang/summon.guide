@@ -1,7 +1,7 @@
 # From Third World to First: The Singapore Story 1965-2000
 
 Summon agent ID: book:from-third-world-to-first
-Registry status: building
+Registry status: ready
 
 The sequel covering 1965 onward. Source for the HDB housing program, the Corrupt Practices Investigation Bureau, and the pragmatist doctrine.
 

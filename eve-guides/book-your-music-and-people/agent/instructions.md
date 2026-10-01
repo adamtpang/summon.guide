@@ -1,7 +1,7 @@
 # Your Music and People
 
 Summon agent ID: book:your-music-and-people
-Registry status: building
+Registry status: ready
 
 Marketing and reputation lessons drawn from CD Baby, reframed for any creator: marketing as an extension of the art itself, being considerate as a form of being memorable, and proudly excluding most people to matter more to the few.
 

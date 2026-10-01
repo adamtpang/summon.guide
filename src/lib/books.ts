@@ -212,6 +212,7 @@ export const books: Book[] = [
     pdfPath: "sources/elon/the-book-of-elon.pdf",
     skillSlugs: [],
     status: "pending",
+    corpusPaths: ["content/knowledge/the-book-of-elon"],
   },
 
   // Jensen Huang
@@ -274,6 +275,7 @@ export const books: Book[] = [
       "The most reliable ancient military account, drawing on Ptolemy I's lost memoirs. Source for Granicus, Issus, Gaugamela, and the siege of Tyre.",
     skillSlugs: ["decisive-point"],
     status: "partial",
+    corpusPaths: ["content/knowledge/campaigns-of-alexander-arrian"],
   },
   {
     slug: "alexander-the-great-fox",
@@ -393,6 +395,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Third-World-First-Singapore-1965-2000/dp/0060957514",
     skillSlugs: ["pragmatist-test", "incorruptibility"],
     status: "partial",
+    corpusPaths: ["content/knowledge/from-third-world-to-first"],
   },
   {
     slug: "one-mans-view-of-the-world",
@@ -528,6 +531,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Shortness-Life-Penguin-Great-Ideas/dp/0143036327",
     skillSlugs: ["on-the-shortness-of-life"],
     status: "partial",
+    corpusPaths: ["content/knowledge/on-the-shortness-of-life"],
   },
   {
     slug: "on-anger",
@@ -541,6 +545,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.amazon.com/Dialogues-Essays-Oxford-Worlds-Classics/dp/0199552401",
     skillSlugs: ["on-anger"],
     status: "partial",
+    corpusPaths: ["content/knowledge/on-anger"],
   },
   {
     slug: "zombies-in-western-culture",
@@ -554,6 +559,7 @@ export const books: Book[] = [
     amazonUrl: "https://www.openbookpublishers.com/books/10.11647/obp.0113",
     skillSlugs: ["vervaeke", "four-kinds-of-knowing", "relevance-realization", "ecology-of-practices"],
     status: "partial",
+    corpusPaths: ["content/knowledge/zombies-in-western-culture"],
   },
   {
     slug: "the-war-of-art",
@@ -676,6 +682,7 @@ export const books: Book[] = [
     amazonUrl: "https://sive.rs/m",
     skillSlugs: [],
     status: "pending",
+    corpusPaths: ["content/knowledge/your-music-and-people"],
   },
   {
     slug: "hell-yeah-or-no",

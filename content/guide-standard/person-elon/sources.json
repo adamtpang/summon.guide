@@ -194,6 +194,78 @@
       "kind": "published-synthesis"
     },
     {
+      "id": "d4384e8b667566e5",
+      "title": "Living a Purposeful Life: usefulness as the measure",
+      "url": null,
+      "synthesis": "content/knowledge/the-book-of-elon/001-living-a-purposeful-life.md",
+      "contentHash": "8caceab649bfdf3867d64af2e65183d51dbd2e6fbf922a3f01abd45fd63075c3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "104b3bf8b3681a0b",
+      "title": "Think Like a Physicist: first principles, limits, and being less wrong",
+      "url": null,
+      "synthesis": "content/knowledge/the-book-of-elon/002-think-like-a-physicist.md",
+      "contentHash": "b8122db4f04c252720e6e70cbc1c4f4630005c382f3ad38863e913c09990acbc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "65a8495ff02eab8a",
+      "title": "What It Takes: frontline leadership, exceptional teams, and direct communication",
+      "url": null,
+      "synthesis": "content/knowledge/the-book-of-elon/003-leadership-teams-and-organization.md",
+      "contentHash": "fe187cca6d9d4cc10a91d3c5b3f1d172f7f38a7663b115fa6982a7cffddd90b9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1adb29a2aeafe7db",
+      "title": "The Algorithm: question, delete, simplify, accelerate, automate",
+      "url": null,
+      "synthesis": "content/knowledge/the-book-of-elon/004-the-algorithm-and-simplicity.md",
+      "contentHash": "bfcebd4774e1a508a2da753f47d780241c639e865f4d5c64a2d8913104e549db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3c551fc8e474aa13",
+      "title": "Maniacal Urgency and We Must Make Stuff",
+      "url": null,
+      "synthesis": "content/knowledge/the-book-of-elon/005-urgency-and-manufacturing.md",
+      "contentHash": "2372531347ef20b7432ff8cce81f843a77c153c016f08e153d8b82142be502b8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "108ef316c6c60092",
+      "title": "Becoming a Founder: Zip2 and PayPal",
+      "url": null,
+      "synthesis": "content/knowledge/the-book-of-elon/006-becoming-a-founder-zip2-and-paypal.md",
+      "contentHash": "90d0940da5d1aa206e3f6c47e13aa4d9e72b96d9bf1b4adc495e6e2a87c8ec12",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8e6deb428565142d",
+      "title": "Building Tesla and SpaceX: sequenced strategy and near-death years",
+      "url": null,
+      "synthesis": "content/knowledge/the-book-of-elon/007-building-tesla-and-spacex.md",
+      "contentHash": "57be0794db0c62951aa468ea2d506690cc42f3a9f18a4a1d3fad90558343716d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e46b27152d1e770d",
+      "title": "On Behalf of Humanity: abundance, existential risks, and Mars",
+      "url": null,
+      "synthesis": "content/knowledge/the-book-of-elon/008-on-behalf-of-humanity.md",
+      "contentHash": "054ecef87eee29a3c2f1a8d3c49fd53c76a83354edc59fe558e3fa513a41c640",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
       "id": "774f435f7ef9cb4d",
       "title": "How Elon Works",
       "url": "https://www.youtube.com/watch?v=aStHTTPxlis",
