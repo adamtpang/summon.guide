@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "guideId": "book:how-to-live",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "fe62f302b654db94",
+      "title": "Be Independent",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/001-be-independent.md",
+      "contentHash": "db457db822abb3b75d25fc45cf972804384cb3cabeb211629de79c066fdc2712",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a51bf58506137cc6",
+      "title": "Commit",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/002-commit.md",
+      "contentHash": "2ca340d5d2bb78e089aa0278976c35971d2ddc3217a3dd2a7fdf4de0c0085949",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fbfeade2d81b9645",
+      "title": "Fill Your Senses",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/003-fill-your-senses.md",
+      "contentHash": "235cc590582c84305d485d3ff1a05e504f1a3b8688071d18008548d2d0818483",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "03e767926d74b187",
+      "title": "Do Nothing",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/004-do-nothing.md",
+      "contentHash": "95c23d738027f61bbd0788ba3cb218153fb400ad9010e766f1c829e0031abe13",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "782180d097dbec37",
+      "title": "Think Super-Long-Term",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/005-think-super-long-term.md",
+      "contentHash": "97e8684ed0d7e0302acdb3727ead09281749b208eb24fea49b7a4b7d339fec3d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d248dbaf64788b35",
+      "title": "Intertwine With the World",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/006-intertwine-with-the-world.md",
+      "contentHash": "d71965b4e6ff2cddbafdeac3962dfe80c225bbee2d2d22080386e8f21eac8129",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "91504f4a1765040d",
+      "title": "Make Memories",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/007-make-memories.md",
+      "contentHash": "1461d23c30fad17b0d12a0a1558a1a5dac2f0bc9d0c9c13830a625ae693ef9bf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b0667df1f29cb113",
+      "title": "Master Something",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/008-master-something.md",
+      "contentHash": "f65a559b25b8b99cb28f2f53e9f97ae3e104dc27bec318be05c5a2c79460049d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c8a15e131873716c",
+      "title": "Let Randomness Rule",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/009-let-randomness-rule.md",
+      "contentHash": "1aaaaf9ff92638524c7975debe191942762169699b0a96784ba5ba789dfed7df",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2f39d6ee29bb365f",
+      "title": "Pursue Pain",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/010-pursue-pain.md",
+      "contentHash": "bdce6091c2c987552e9b254fbf52f540faa65ac3538a482ffeabf39d7253de28",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8a511a86f74983d8",
+      "title": "Do Whatever You Want Now",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/011-do-whatever-you-want-now.md",
+      "contentHash": "7cd9fd4b5671c63200b6080c7059b6f47436781afd40202d3e397c32b12a05b3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "66b0db43e84951a5",
+      "title": "Be a Famous Pioneer",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/012-be-a-famous-pioneer.md",
+      "contentHash": "f0d347863fb834ceadef40d4f9ebb5463ad61fc19371386a2d37fd89bb2806ec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "68d742f5571d0ef1",
+      "title": "Chase the Future",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/013-chase-the-future.md",
+      "contentHash": "0cfbd0e5799889b42be27cf4046817824a32d3a08e40f4b4539631d0a3d2e547",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "270cc23c924cb410",
+      "title": "Value Only What Has Endured",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/014-value-only-what-has-endured.md",
+      "contentHash": "5407bdba17e6f88ab73354c98f5e1cad9bbfb727adb210bf9ebd5ff96b979a65",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6616c7b8a380a052",
+      "title": "Learn",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/015-learn.md",
+      "contentHash": "3d968dc831f7fc3e3ba53f019883376a88bb80512ec6b1a40fa264365a2140bb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "df0cc43b2c3fe765",
+      "title": "Follow the Great Book",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/016-follow-the-great-book.md",
+      "contentHash": "be4a4ac1e21ef3232a307eee21e04409a1d529fb86c2a67d43471b60d23eb656",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "276348475adcefd3",
+      "title": "Laugh at Life",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/017-laugh-at-life.md",
+      "contentHash": "1d6c53c690058b0fdf6dc986c2ab2fcd891ab2860e0f28f1873c35cd933d4655",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3a256d1086828f5f",
+      "title": "Prepare for the Worst",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/018-prepare-for-the-worst.md",
+      "contentHash": "d87e6087b857e637ba275e4c57653e745cec8bf3ebec8b3567366d863c86a4b2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f3e09cb8f3e4c27b",
+      "title": "Live for Others",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/019-live-for-others.md",
+      "contentHash": "3ecc2388c032f9a73fce0f228c1fd63387fb441358a376b653dd9ec56c608e86",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1b8e70e709e82a79",
+      "title": "Get Rich",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/020-get-rich.md",
+      "contentHash": "042099e64b5c3feda1bce6186ccc2f098dbecd2fb5f1129f80ee0e7307ef8dd0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "83c4630f61253eb7",
+      "title": "Reinvent Yourself Regularly",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/021-reinvent-yourself-regularly.md",
+      "contentHash": "40256291adfd40b105f1fd834f6e45934586b498f9e6973042d9df6f51def320",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bacca00db953945e",
+      "title": "Love",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/022-love.md",
+      "contentHash": "8bbe243b874d931ac155ca72c3e88ac736bcd103ae58444e96351e40bbe62ec4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "709a0272bd062c87",
+      "title": "Create",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/023-create.md",
+      "contentHash": "22b91923666afcd688ff9d97893285547011d26dbfa97bb5a685b576b39e27c3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1bd3dd188ca52176",
+      "title": "Don't Die",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/024-dont-die.md",
+      "contentHash": "ac1782ffa6126dfacba5fc927433f9a10f07f6174c1bc050d948223bce0a7ef9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b0c4505e35a40e61",
+      "title": "Make a Million Mistakes",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/025-make-a-million-mistakes.md",
+      "contentHash": "13e46c1fbf0fd3d4bd135765ef03b93d07118f27681dea3148e209eabb00f519",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3597f7bedc9dd0d4",
+      "title": "Make Change",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/026-make-change.md",
+      "contentHash": "7290d6e5613c03ab2e8305a45e94bfd79a8e39b6933304786ad55b90e785f278",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a945bd516104248a",
+      "title": "Balance Everything",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/027-balance-everything.md",
+      "contentHash": "d3a7a1232a0381786028632d883b3e498c030ca2fae146d48ec286393e8500a0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7138a5c903b586e7",
+      "title": "Conclusion: The Weird Conclusion",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-live/028-conclusion.md",
+      "contentHash": "09871376dfb25fb98ec706836730dff092b031b52172a0c333d46357c5e1fe8f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

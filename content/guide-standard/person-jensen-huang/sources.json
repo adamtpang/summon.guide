@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "guideId": "person:jensen-huang",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "ca17003bf644f9cf",
+      "title": "Introduction",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/000-introduction.md",
+      "contentHash": "e312f49728c77ebcee1ee2abdda8a1b702e5ef98ab924f92857704636c80a4ee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5926c99749f96517",
+      "title": "Chapter 1: Pain and Suffering",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/001-chapter-1-pain-and-suffering.md",
+      "contentHash": "9467e558baa90aca1f10049f22ccc434abb4f6ac3c68ab2e02dc09659f99f06c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6a95728f2a5c551e",
+      "title": "Chapter 2: The Graphics Revolution",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/002-chapter-2-the-graphics-revolution.md",
+      "contentHash": "5ca68b3e9ce6bd7e33c9352dbd88e4423d0fff170c1e9397e5f1588a60e3d90f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c8fceb69bcdc8e4d",
+      "title": "Chapter 3: The Birth of Nvidia",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/003-chapter-3-the-birth-of-nvidia.md",
+      "contentHash": "f1ad9bd316d8db270a0f25e5125c414f5392c72a119fe802a098acb89a610b1e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e587c559a7e3317d",
+      "title": "Chapter 4: All In",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/004-chapter-4-all-in.md",
+      "contentHash": "836ac63e8f36960e72ff4b61a316ff151116fd1312fccb3dd405e2ab03d7ac9d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a3534b9d9d8996e9",
+      "title": "Chapter 5: Ultra-Aggressive",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/005-chapter-5-ultra-aggressive.md",
+      "contentHash": "64708d22661526ae6b801387a9d5fe99c1f4801200f81580a85429038a666bfb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "59f05f810d7e1f8d",
+      "title": "Chapter 6: Just Go Win",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/006-chapter-6-just-go-win.md",
+      "contentHash": "8694c0214dae401ac1a88afa08f1c5e3136cb3f361528c300851748bfad34bfe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d481cf76d873efe2",
+      "title": "Chapter 7: GeForce and the Innovator's Dilemma",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/007-chapter-7-geforce-and-the-innovators-dilemma.md",
+      "contentHash": "0ac79dff64a9866306c59519b816dc40402e2ee7281966cfe7fa78532a446194",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5518d82b17aaa7a6",
+      "title": "Chapter 8: The Era of the GPU",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/008-chapter-8-the-era-of-the-gpu.md",
+      "contentHash": "7993ab57d2ba58d7d519d4802e4dfe53798a78b6061081a22490be23b9b8c6e9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b90dd0f3a6ce9b3b",
+      "title": "Chapter 9: Tortured into Greatness",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/009-chapter-9-tortured-into-greatness.md",
+      "contentHash": "7e4eb8aa02e7c1b3f3321146b4af2badfd956b2848db50f7bf452aebd6b48358",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c6be498111a2e00b",
+      "title": "Chapter 10: The Engineer's Mind",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/010-chapter-10-the-engineers-mind.md",
+      "contentHash": "ac65c588792e2cea5006f388a0d5b0994f0f5de5ea7b0104a51710ebeccb02e4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5b8b7b04791b5660",
+      "title": "Chapter 11: The Road to AI",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/011-chapter-11-the-road-to-ai.md",
+      "contentHash": "98809feedfc2d6e5ce034362d8d04622c06afdf420d192cc5d9fcfc58651ae49",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7259ca79e3126eff",
+      "title": "Chapter 12: The \"Most Feared\" Hedge Fund",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/012-chapter-12-the-most-feared-hedge-fund.md",
+      "contentHash": "ac02c4ff861d9b254f15fc09061a82eb898e8cda01f8890126d28de94cb965f1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d91e1f0049caaf09",
+      "title": "Chapter 13: Lighting the Future",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/013-chapter-13-lighting-the-future.md",
+      "contentHash": "6ef1b49008d99dc2192982b5ca490718ddfdbccba2218678c17ebdb033aa5cb2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "425291d67e5a0577",
+      "title": "Chapter 14: The Big Bang",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/014-chapter-14-the-big-bang.md",
+      "contentHash": "1abdc19f74433ea015f9aca9bb7f0d6960a191544c45ef551d4e591fcadbd5f6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "42d8d053a26a9acc",
+      "title": "Conclusion: The Nvidia Way",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/015-conclusion-the-nvidia-way.md",
+      "contentHash": "ce6343fb648acdf9edff59d91379cf30e831ce3314964e3a461e26c2e030a851",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a5e5facbb83c9909",
+      "title": "Appendix: Jensen-isms",
+      "url": null,
+      "synthesis": "content/knowledge/the-nvidia-way/016-appendix-jensen-isms.md",
+      "contentHash": "d3fe501795124c0ac65a8cf9c191ebb10dc0198429bc26b2484b3258a59426b7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b4b1bf38b9f35370",
+      "title": "How Jensen Works",
+      "url": "https://www.youtube.com/watch?v=Sywq2Ua4GXw",
+      "synthesis": "content/knowledge/founders/002-how-jensen-works.md",
+      "contentHash": "e54303e282ade8a7e14e61c6272089bfef43c6af754e28940474544043b798f0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

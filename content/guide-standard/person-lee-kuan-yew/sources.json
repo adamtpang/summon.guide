@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "guideId": "person:lee-kuan-yew",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "3cd29622e807c09a",
+      "title": "Speech at a Mass Rally in Kluang, 29 Mar 1964",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19640329.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1964-03-29-kluang-mca-rally.md",
+      "contentHash": "c72e129d13ee2a7d6182d302c4ddc6c0fc214cad80c032ec2f4d259f3c2a91c2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7b37aaf4e1744490",
+      "title": "Press conference on separation from Malaysia, 9 Aug 1965",
+      "url": "https://www.nas.gov.sg/archivesonline/speeches/record-details/740acc3c-115d-11e3-83d5-0050568939ad",
+      "synthesis": "content/knowledge/lee-kuan-yew/1965-08-09-separation-press-conference.md",
+      "contentHash": "b76c02539b1213373e5ea41fdc4069994b3d94abf1972d8e4889e11d6a3ae6c2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3780420ef896aa17",
+      "title": "Speech at the Sree Narayana Mission, Sembawang, 12 Sep 1965",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19650912a.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1965-09-12-sree-narayana-mission-sembawang.md",
+      "contentHash": "002f22ed20cf809d004b0fe2718821f03260f77617a3c2749f4a92d454369b26",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c89b8a20e5694791",
+      "title": "Speech at Serangoon Gardens Circus, 11 Dec 1965",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19651211c.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1965-12-11-serangoon-gardens-circus.md",
+      "contentHash": "1f7ad4b23b2474999e85221a15a33588edf34db94460f5c6cabaf792b3280ea9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ee6883dc10bdbbe2",
+      "title": "Speech to the Singapore Advocates and Solicitors Society, 18 Mar 1967",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19670318.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1967-03-18-detention-without-trial.md",
+      "contentHash": "6848aa4dbe6efe686dacc1618687376425a0f226f40bd6c27404289496413605",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3a19dedec3e453ee",
+      "title": "Speech at a Convocation Dinner, University of Singapore, 19 Jun 1967",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19670619.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1967-06-19-convocation-dinner-university-of-singapore.md",
+      "contentHash": "350557d5c075b59f1621e7f64d19d91fe59ff37e8b6efaa900cb40a9ca9cbefb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f331bcd0119205a5",
+      "title": "Opening of the Blair Plain housing estate, 8 Oct 1968",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19681008.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1968-10-08-blair-plain-planning-ahead.md",
+      "contentHash": "db9854830fe06f69b7eb5134ac9a38f4ac2cc50380c8f26ca002af4c5d54f5bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2d12f1547d8a1e7f",
+      "title": "Gabriel Silver Memorial Lecture, Columbia University, 12 Dec 1968",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19681212.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1968-12-12-small-state-in-the-region.md",
+      "contentHash": "4e542c7415a32be95c93a6c60059348b6887c406b4ba77bfacd2973a1223e682",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4951a9a70799e6d3",
+      "title": "Speech at the Science Council Ball, 29 Oct 1969",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19691029.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1969-10-29-science-council-ball.md",
+      "contentHash": "55bbbf2261d34171e3b004d0fdf323373e774e2f58564ac76c921db274906081",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cd92aee1c1f09bb7",
+      "title": "Address at the Seminar on Communism and Democracy: Politics, Economics, Security and Your Future, 28 Apr 1971",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19710428.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1971-04-28-seminar-communism-and-democracy.md",
+      "contentHash": "3dcfcd050b0a468e2ec14576f9ef2926240e022be652556c3f357b9afce43767",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6dfc14855dfb04cc",
+      "title": "Speech in Parliament, 23 Feb 1977",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19770223.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1977-02-23-parliament-successor-government.md",
+      "contentHash": "c65003e084ffa4d080a4925d0c978a3de69bf8e7181980510064f1c38deab270",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5e02effde29c89c4",
+      "title": "Istana Chap Goh Mei Reception and Tanjong Pagar Scholarships Presentation, 21 Feb / 4 Mar 1978",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19780304.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1978-03-04-istana-tanjong-pagar-scholarships.md",
+      "contentHash": "c1073f92857572583365cb5674070e458fbabaf60953f56589c4bdaeebb8f5ae",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "972584c2340b6025",
+      "title": "Armed Forces Day Dinner speech, 1 Sep 1981",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19810901.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1981-09-01-building-the-saf.md",
+      "contentHash": "f6fa3a88d4222a49bd1c502b419d40132a9cffdc3b9244ee5c379d26cbd6fada",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9325f1a048fede8f",
+      "title": "Mandarin Proficiency Certificates ceremony speech, 25 Oct 1981",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19811025.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1981-10-25-bilingual-policy.md",
+      "contentHash": "e279dfcf33f7efbe0b3e5c72bac475ed81ab94ada74a631775f121ae1fdd9a3d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "670e50551f3c6491",
+      "title": "The Search for Talent, 12 Aug 1982",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19820812.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1982-08-12-the-search-for-talent.md",
+      "contentHash": "119d88a46692b3fe419a7815e3c412e16beb2e6af747bbe7e074114279f8ea32",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2b809fb781d4bd2e",
+      "title": "May Day Rally Speech, 1 May 1983",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19830501.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1983-05-01-may-day-rally-speech.md",
+      "contentHash": "5a3e7c82c128e34cdf2022bfad679b5fe95eebd55d1bf0fdb9b7d9e699b09c02",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dff273533aa35e59",
+      "title": "Speech at the National Day Celebration of Tanjong Pagar Community Centre, 16 Aug 1984",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19840816.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1984-08-16-tanjong-pagar-national-day.md",
+      "contentHash": "1083a9bfdef082fc02fd826abe37652b02162108508fcabb54176e123544c207",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a598623dcc58896d",
+      "title": "Speech at the Opening of the Speak Mandarin Campaign, 21 Sep 1984",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19840921a.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1984-09-21-speak-mandarin-campaign-opening.md",
+      "contentHash": "723aff358fdf0f0c9d89a59b24f1bb7266bb42a95a228f618e96c35d5d0f549e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8c5ec74062a791ef",
+      "title": "Speech at the Dinner for the Establishment, 29 Aug 1990",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19900829.pdf",
+      "synthesis": "content/knowledge/lee-kuan-yew/1990-08-29-25th-anniversary-establishment-dinner.md",
+      "contentHash": "7f7bf17cb4818373e18c1947bd03da07f387ad8d95be1bdd99c7db50a2e40510",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "968078cca05af429",
+      "title": "Tanjong Pagar National Day speech, 15 Aug 1998",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/1998081512.htm",
+      "synthesis": "content/knowledge/lee-kuan-yew/1998-08-15-corruption-and-the-crisis.md",
+      "contentHash": "c486ce0c7655fe94c593d6ba98b9e550954e1ed7370eec6769fe54b683f3101b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

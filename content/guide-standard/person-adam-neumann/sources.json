@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:adam-neumann",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "730880c4274734b8",
+      "title": "WeWork: revenue narratives and obligations",
+      "url": "https://www.sec.gov/files/foia-requests-we-company.pdf",
+      "synthesis": "content/knowledge/adam-neumann-public-notes/001.md",
+      "contentHash": "ac2ea6d41e83e970fd0098f3ae927d6e7f613fa4cbf6bb83a6c00892b53592f8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

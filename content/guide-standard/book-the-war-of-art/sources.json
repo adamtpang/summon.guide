@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "guideId": "book:the-war-of-art",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "64308d99e32697e6",
+      "title": "The Unlived Life",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/001-the-unlived-life.md",
+      "contentHash": "93d2b9fb5398ac91d2d9c728324acff99bec43d47143013a0a8d7c7f67f901fc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "df485ecbe52d3970",
+      "title": "Resistance's Greatest Hits",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/002-resistance-greatest-hits.md",
+      "contentHash": "8a7f84348c20e8956b2270a0bd51e298d53385ce3fec6d291e2a49fea918140e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b32f62a672805919",
+      "title": "Resistance Is Infallible, Universal, and Relentless",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/003-resistance-infallible-and-relentless.md",
+      "contentHash": "1b84ada1d8d711a37f914e905e415578cc9d011bec81cde2ec58b260e8976ad1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cd106a1971720e2c",
+      "title": "Resistance and Procrastination, Sex, Trouble, and Self-Dramatization",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/004-resistance-and-procrastination.md",
+      "contentHash": "6cb2b61b087b8f07d35f16befafa2513fdc25def339953a0bdd8f8b40ec01f7d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "54f5c8de606923a9",
+      "title": "Resistance and Self-Medication, Victimhood, and the Choice of a Mate",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/005-resistance-and-self-medication.md",
+      "contentHash": "ad22f88a56ffae7268f5cfed48f53dd8030e1684b4e0b562f5e97ecb8cdace39",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f19cf0990feea617",
+      "title": "Resistance and Unhappiness, Resistance and Fundamentalism",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/006-resistance-and-unhappiness.md",
+      "contentHash": "bff2a2da6b7903371df0725e88bc269f7430df27c3fb8730bff318b8771fce86",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "baab4ddd0ab6c1ef",
+      "title": "Resistance and Criticism, Self-Doubt, Fear, Love, and Being a Star",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/007-resistance-and-fear-and-love.md",
+      "contentHash": "7c90d04a4129ddbfd7a52f277a51bfe680bf3e471e3ebaeaf90bec847d9e8460",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a7bdc1ef665df925",
+      "title": "Resistance and Isolation, Healing, and Support",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/008-resistance-and-isolation.md",
+      "contentHash": "df88126b621c48b7a94125e1c55421c8dde63fbb200d10c19d4438ced0df0194",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3235b782a44b2ae3",
+      "title": "Resistance and Rationalization, Resistance Can Be Beaten",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/009-resistance-and-rationalization.md",
+      "contentHash": "2f9f44cf8268f39843b01fae1239050b5a6f1b3fb3ca97bd37dd64c0073ece81",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4bb0b50fedd52632",
+      "title": "Professionals and Amateurs",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/010-professionals-and-amateurs.md",
+      "contentHash": "9ded56cc5b1d790cc1640ca5b4eedd79d90e861fb5108db7eae4c98a6f6aeede",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d12a32527c7d34ba",
+      "title": "How to Be Miserable, We're All Pros Already, For Love of the Game",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/011-how-to-be-miserable.md",
+      "contentHash": "480a2afea3fa3e9bf178660e8731e73ce3046d75becc08be967389db1a091422",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b732879fd70b73bc",
+      "title": "A Professional Is Patient, Seeks Order, Demystifies, Acts in the Face of Fear, and Accepts No Excuses",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/012-a-professional-is-patient.md",
+      "contentHash": "2fd5256d85c62b2f48655cc6e46f2cb2be9f7c90edf016f66806f6501cbfc961",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "17d866396ec86e64",
+      "title": "A Professional Plays It As It Lays, Is Prepared, Does Not Show Off, Masters Technique, and Asks for Help",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/013-a-professional-plays-it-as-it-lays.md",
+      "contentHash": "cc029ad428ec79911bdc0a363d5bdead6c0af54b4896cf999b112277c5b61012",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d026c61ded873d04",
+      "title": "A Professional Distances Herself from Her Instrument, Endures Adversity, and Self-Validates",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/014-a-professional-distances-herself.md",
+      "contentHash": "e239bf3c4d49091da0ea52d064f03ac78228b5ec343a0100a03bb3b678fe48c5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c53964f9268e70d5",
+      "title": "A Professional Recognizes Her Limitations, Reinvents Himself, and Thinks of Himself as a Corporation",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/015-you-inc.md",
+      "contentHash": "27e5285b84937e5f882fbca47bee12c6ddc5c3cab25b366f5ad75e1d9c03b67e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1480db8803f214ef",
+      "title": "Angels in the Abstract, Approaching the Mystery",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/016-angels-in-the-abstract.md",
+      "contentHash": "1a71a902d4d977c54559f17cd7ff26e25824d81c28dae94fc2d212d23403f159",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "107e09fbc8ecc5d3",
+      "title": "Invoking the Muse",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/017-invoking-the-muse.md",
+      "contentHash": "110874a55ef415ac3285627b562f20a1c4b8a3ab4e7248b1efd52f87e62569cf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1453621804d53f13",
+      "title": "The Magic of Making a Start, The Magic of Keeping Going",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/018-the-magic-of-making-a-start.md",
+      "contentHash": "291497e950127ea7aa170a9687033a45db57d765fd90f5a6ba76953ed83d8263",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7650d5bbcd486bc3",
+      "title": "Largo, Life and Death",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/019-largo.md",
+      "contentHash": "faa81bcd2af91a67361348e4ce90cb90835c0cae64a5e870556db9f6eafe066a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2b9664ba3480d343",
+      "title": "The Ego and the Self, Experiencing the Self",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/020-the-ego-and-the-self.md",
+      "contentHash": "6847e6d66f4197e56cfd8976ca0421cd08ebeee801292ba9066e493263115dee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bf5cf43d6ea7f548",
+      "title": "Fear, The Authentic Self",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/021-fear-and-the-authentic-self.md",
+      "contentHash": "7f56d1512db3f73656d51f7540d6752f5b36b9bde328a51010eb004292234189",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "36b73c294fd3c6c9",
+      "title": "Territory Versus Hierarchy, The Hierarchical Orientation, The Artist and the Hierarchy",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/022-territory-versus-hierarchy.md",
+      "contentHash": "12718a0aa83a8c9ac04ed4e6be55b0103cc56cfa8d74f66252b93650358c6557",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4195ffe59780e366",
+      "title": "The Definition of a Hack, The Territorial Orientation, The Artist and the Territory",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/023-the-definition-of-a-hack.md",
+      "contentHash": "8e4fdb336840db377b44007938cee740c53ec87e42b014e4c0e5ba889c53c168",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d9a91068bcb32e79",
+      "title": "The Supreme Virtue, The Fruits of Our Labor, Portrait of the Artist, The Artist's Life",
+      "url": null,
+      "synthesis": "content/knowledge/the-war-of-art/024-portrait-of-the-artist.md",
+      "contentHash": "58802d1fc10415070d4ef6ac55d143aeb58616c1c987018dd73ff3cb6344ad33",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

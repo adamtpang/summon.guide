@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "guideId": "person:maria-montessori",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "b8a3722ed51772cb",
+      "title": "The Montessori Method, ch. III, Inaugural Address at a Children's House, 1912",
+      "url": "https://www.gutenberg.org/cache/epub/39863/pg39863-images.html",
+      "synthesis": "content/knowledge/maria-montessori/1912-03-inaugural-address-children-house.md",
+      "contentHash": "df1553885e291ea35e24a471d2c9f4748d2ef344348a5b3066fe6bbe4403d0fc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6c0a14b8bf69499a",
+      "title": "The Montessori Method, ch. IV, Pedagogical Methods Used in the Children's Houses, 1912",
+      "url": "https://www.gutenberg.org/cache/epub/39863/pg39863-images.html",
+      "synthesis": "content/knowledge/maria-montessori/1912-04-pedagogical-methods-independence.md",
+      "contentHash": "1d87d5432e2b59519dfdff11c2b00cceb61022af4f65fd8d69a0b3e369c97ae8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ad5107c7ba329f25",
+      "title": "The Montessori Method, ch. V, Discipline, 1912",
+      "url": "https://www.gutenberg.org/cache/epub/39863/pg39863-images.html",
+      "synthesis": "content/knowledge/maria-montessori/1912-05-discipline-through-liberty.md",
+      "contentHash": "3f890eabbaf137b60d4cf1cd504dc251965d67cf4d44a56a1ce315d301ffd0b2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "79e7c67e3a54d539",
+      "title": "The Montessori Method, ch. VI, How the Lessons Should Be Given, 1912",
+      "url": "https://www.gutenberg.org/cache/epub/39863/pg39863-images.html",
+      "synthesis": "content/knowledge/maria-montessori/1912-06-how-lessons-should-be-given.md",
+      "contentHash": "35a172eebb5bf75d272e9f98593e25a93104df5806a18e502acd4c869354642c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5fd65e10cb73cfea",
+      "title": "The Montessori Method, ch. XII, Education of the Senses, 1912",
+      "url": "https://www.gutenberg.org/cache/epub/39863/pg39863-images.html",
+      "synthesis": "content/knowledge/maria-montessori/1912-12-education-of-the-senses-self-correction.md",
+      "contentHash": "99f7b2eb094e5c724ec33ca1aab9587c2cd13009046b3a7490d744335c324f13",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a2f436e6e569a891",
+      "title": "Dr. Montessori's Own Handbook, Freedom, 1914",
+      "url": "https://www.gutenberg.org/cache/epub/29635/pg29635-images.html",
+      "synthesis": "content/knowledge/maria-montessori/1914-freedom-wait-while-observing.md",
+      "contentHash": "56918bfd9cc3ad83bfb5d4bfd180ef50c017aa4f48a20f27199c5d5ff183c40d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b64685ca88b3ea42",
+      "title": "Dr. Montessori's Own Handbook, Moral Factors, 1914",
+      "url": "https://www.gutenberg.org/cache/epub/29635/pg29635-images.html",
+      "synthesis": "content/knowledge/maria-montessori/1914-moral-factors-naughtiness.md",
+      "contentHash": "348d0aae1d22ce660a51ac6c4b8dbaf26d8490c03281196df146707b68c8d50c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "517509be1fab1810",
+      "title": "Spontaneous Activity in Education, The Curve of Work, 1917",
+      "url": "https://www.gutenberg.org/cache/epub/24727/pg24727-images.html",
+      "synthesis": "content/knowledge/maria-montessori/1917-spontaneous-activity-curve-of-work.md",
+      "contentHash": "5b692c3186f744998c7b5fed4b8bd14d38494df8ef9f94ed962f8fdf8e6e6c7d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "guideId": "channel:invest-like-the-best",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "6a059a2a76be2da7",
+      "title": "Legendary Trader Paul Tudor Jones on AI Risk, Bubbles and Buffett",
+      "url": "https://www.youtube.com/watch?v=S31J5ACsOqU",
+      "synthesis": "content/knowledge/invest-like-the-best/001-legendary-trader-paul-tudor-jones-on-ai-risk-bubbles-and-buf.md",
+      "contentHash": "7fd784b1e51c30a46b6587850f7e7462c8f48482bb8036d688e25ccef0d4fda8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "aff02b455fba9942",
+      "title": "GPUs, TPUs, & The Economics of AI Explained | Gavin Baker Interview",
+      "url": "https://www.youtube.com/watch?v=cmUo4841KQw",
+      "synthesis": "content/knowledge/invest-like-the-best/002-gpus-tpus-the-economics-of-ai-explained-gavin-baker-intervie.md",
+      "contentHash": "0183a4334907883c8ab3bdbd1c302975cd51d48442099c3718a9db0ee399ef25",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "47987a71c1853c2b",
+      "title": "How Brian Chesky Is Redesigning Airbnb for the AI Era",
+      "url": "https://www.youtube.com/watch?v=eURcW5_uS60",
+      "synthesis": "content/knowledge/invest-like-the-best/003-how-brian-chesky-is-redesigning-airbnb-for-the-ai-era.md",
+      "contentHash": "bcd7123089d0c57a03f47407a906550071803a54b1776b6749c590df6c37d9a8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "87d09333f2cd943c",
+      "title": "The Supply and Demand of AI Tokens | Dylan Patel Interview",
+      "url": "https://www.youtube.com/watch?v=LF3aUIM57uw",
+      "synthesis": "content/knowledge/invest-like-the-best/004-the-supply-and-demand-of-ai-tokens-dylan-patel-interview.md",
+      "contentHash": "98c9f8d1c9be894e40da1a037b3a0e3de2f734ea2724ceb2d9447f499739d919",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d1142f1a5f1473f5",
+      "title": "The World's Greatest Energy Trader on Markets, China, and AI",
+      "url": "https://www.youtube.com/watch?v=oB1nMi7t-uo",
+      "synthesis": "content/knowledge/invest-like-the-best/005-the-worlds-greatest-energy-trader-on-markets-china-and-ai.md",
+      "contentHash": "54c91f9046b3af222482497b393a292f95d0bc0c8a9f60e124ebef26804eeac1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "babcef517d65a966",
+      "title": "Sam Altman on AGI, Compute, and Human Agency",
+      "url": "https://www.youtube.com/watch?v=XDB5beon4DY",
+      "synthesis": "content/knowledge/invest-like-the-best/006-sam-altman-on-agi-compute-and-human-agency.md",
+      "contentHash": "0b068fa7311a975e12c72cbb4ee9b95a9304feda97e7b153814bb32f54bf2499",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f83586199b43d8e1",
+      "title": "Inside the Trillion-Dollar AI Buildout | Dylan Patel Interview",
+      "url": "https://www.youtube.com/watch?v=kAIVualeQjM",
+      "synthesis": "content/knowledge/invest-like-the-best/007-inside-the-trillion-dollar-ai-buildout-dylan-patel-interview.md",
+      "contentHash": "9dbb230e978ec81c1ff1ef48b8d0298a196af9751d2caa8c8f2304baa4b6a098",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6d6749cf81f69f9c",
+      "title": "Why the AI Boom Is Just Getting Started",
+      "url": "https://www.youtube.com/watch?v=DZt1DDmMNGk",
+      "synthesis": "content/knowledge/invest-like-the-best/008-why-the-ai-boom-is-just-getting-started.md",
+      "contentHash": "758922272fff09955f06873edce45e6268352750f998417f7eced35df20e49ca",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ad33a27faf881242",
+      "title": "Legendary Investor Dan Loeb on AI, Credit, & Third Point's $25B Strategy",
+      "url": "https://www.youtube.com/watch?v=vhTi_8QwXjg",
+      "synthesis": "content/knowledge/invest-like-the-best/009-legendary-investor-dan-loeb-on-ai-credit-third-points-25b-strategy.md",
+      "contentHash": "e2d9abb8fbdb9384f48a80939d065d933a298559cedc2f5540da1c8c4ecf01e6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "999a38caec77710f",
+      "title": "Inside Anthropic's $100 Billion AI Compute Commitment | CFO Krishna Rao",
+      "url": "https://www.youtube.com/watch?v=wEEZPpx8qow",
+      "synthesis": "content/knowledge/invest-like-the-best/010-inside-anthropics-100-billion-ai-compute-commitment-cfo-krishna-rao.md",
+      "contentHash": "6ada0e6a1a4eed72f313ada9d4514ca0edc33609ed026a3c8c72fb69b3ccdaeb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ffd9972594ca9913",
+      "title": "Alpha School's Disruptive Vision for the Future of Education",
+      "url": "https://www.youtube.com/watch?v=a06qSgfccZs",
+      "synthesis": "content/knowledge/invest-like-the-best/011-alpha-schools-disruptive-vision-for-the-future-of-education.md",
+      "contentHash": "bff0bf9b0a2c3be04a40214284e6f59c418cbabcd0f8c5f13e4c95e37752c5dd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2ec58a723e27c537",
+      "title": "How Graham Weaver Turns Recent Grads Into CEOs",
+      "url": "https://www.youtube.com/watch?v=u2nHljZeMQ8",
+      "synthesis": "content/knowledge/invest-like-the-best/012-how-graham-weaver-turns-recent-grads-into-ceos.md",
+      "contentHash": "e5edc29df9f9a06684e012118eda074d0914977f4bff200b275384884432d4ff",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e76a73713c559791",
+      "title": "Uber CEO on AI, Autonomous Vehicles, and the Future of Transportation",
+      "url": "https://www.youtube.com/watch?v=ThMtheE5eO0",
+      "synthesis": "content/knowledge/invest-like-the-best/013-uber-ceo-on-ai-autonomous-vehicles-and-the-future-of-transportation.md",
+      "contentHash": "6b49dd28bcc690f015ef6beed3bb1ae82969152bd52a7b6b7f06f480b2a046c5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1dbf222475fe11a0",
+      "title": "The Two Harvard Dropouts Who raised $800M to take on NVIDIA",
+      "url": "https://www.youtube.com/watch?v=BagWrgPww1o",
+      "synthesis": "content/knowledge/invest-like-the-best/014-the-two-harvard-dropouts-who-raised-800m-to-take-on-nvidia.md",
+      "contentHash": "d45810a0641de82aee42211d29cea98a9b9a28618738d31ba03b79ab13c2e303",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "aaf16cd8360e90b3",
+      "title": "Inside Dan Sundheim's Bets on Anthropic, OpenAI, and SpaceX",
+      "url": "https://www.youtube.com/watch?v=mBtmTmCC0ZM",
+      "synthesis": "content/knowledge/invest-like-the-best/015-inside-dan-sundheims-bets-on-anthropic-openai-and-spacex.md",
+      "contentHash": "64328d8173faad01f2885644cf7fb4457597a90a1a3a1f08e6254e53b88be2dd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "73ed19dbb88415d5",
+      "title": "How Apollo Built an $800 Billion Capital Markets Giant | John Zito Interview",
+      "url": "https://www.youtube.com/watch?v=17bGyLB00s0",
+      "synthesis": "content/knowledge/invest-like-the-best/016-how-apollo-built-an-800-billion-capital-markets-giant-john-zito.md",
+      "contentHash": "687243b0a48a6c6d492cae7a695fff9621e410d0d32ed722cd47234fc302dd16",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e694da1071b65078",
+      "title": "How AI Is Changing Warfare | Palantir CTO",
+      "url": "https://www.youtube.com/watch?v=EB9V8d3ZYbc",
+      "synthesis": "content/knowledge/invest-like-the-best/017-how-ai-is-changing-warfare-palantir-cto.md",
+      "contentHash": "c3c323cc661453aa02a67f7d0dfdef1115e12a3278a9c55fc4b17876dd01129f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ede3d07552555b65",
+      "title": "Why The Laws of Startup Physics Have Changed | Ben Horowitz Interview",
+      "url": "https://www.youtube.com/watch?v=ID27juNvAfc",
+      "synthesis": "content/knowledge/invest-like-the-best/018-why-the-laws-of-startup-physics-have-changed-ben-horowitz.md",
+      "contentHash": "6b9e4694e11fc5daf8a8b8db8df0867bc39636e0f864b729e376312266d97cd2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5cd0360ec7983c60",
+      "title": "Finding The 1% of Stocks That Matter | Henry Ellenbogen Interview",
+      "url": "https://www.youtube.com/watch?v=plx6Foxoam4",
+      "synthesis": "content/knowledge/invest-like-the-best/019-finding-the-1-of-stocks-that-matter-henry-ellenbogen.md",
+      "contentHash": "2feaa3ab72a7beb2b1b893b8c2438460f68620d7cefbc7cb7fe57e89e33e9714",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cdce03fee7c8f5e8",
+      "title": "Jared Kushner - The Mechanic",
+      "url": "https://www.youtube.com/watch?v=EagrRPukYdc",
+      "synthesis": "content/knowledge/invest-like-the-best/020-jared-kushner-the-mechanic.md",
+      "contentHash": "41b3232e344791cf0e888c7a6b9cf9d738c50ad6834afd3bb85af9501ffdbc35",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d4513e7e7f536a01",
+      "title": "Finding the Next Figma, Wiz, & Stripe Before It's Obvious | Neil Mehta Interview",
+      "url": "https://www.youtube.com/watch?v=502sB_IbjpQ",
+      "synthesis": "content/knowledge/invest-like-the-best/021-finding-the-next-figma-wiz-stripe-before-its-obvious-neil-mehta.md",
+      "contentHash": "c4678df6b85ee5bb7213a21a1a9e73ad977c7e360cf7dec7e2210f2a636d1723",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "77ad98d791317056",
+      "title": "The Playbook on Buying and Running Companies Forever",
+      "url": "https://www.youtube.com/watch?v=uLSXhmRHpFU",
+      "synthesis": "content/knowledge/invest-like-the-best/022-the-playbook-on-buying-and-running-companies-forever.md",
+      "contentHash": "b5ab1b50937072f414bac796cbb79b1cb7df7d97caa5e4028db3ee91c0c42dcc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "256a33ff0f3d8670",
+      "title": "He Built The Revenue Engines for Google, Facebook & Square",
+      "url": "https://www.youtube.com/watch?v=JUsb1FYOstA",
+      "synthesis": "content/knowledge/invest-like-the-best/023-he-built-the-revenue-engines-for-google-facebook-square.md",
+      "contentHash": "372cdcdff3fe912a181bf87f9ef68d5c164c0281d3b209c2d47ead98b3721f02",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7b20fcb7100bb1c3",
+      "title": "The Investment Firm That Can 'Do Anything' | Sixth Street CEO Alan Waxman",
+      "url": "https://www.youtube.com/watch?v=zPFor81KJx0",
+      "synthesis": "content/knowledge/invest-like-the-best/024-the-investment-firm-that-can-do-anything-sixth-street-ceo-alan-waxman.md",
+      "contentHash": "25b9c22fad9b166ebc7b9405e3c2e2fd9636cddcf685bf45899851ccd2ba5ecd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "07b8185c2c3c625d",
+      "title": "Inside General Atlantic: How a $100B Growth Equity Firm Invests",
+      "url": "https://www.youtube.com/watch?v=a34VyGpf8s4",
+      "synthesis": "content/knowledge/invest-like-the-best/025-inside-general-atlantic-how-a-100b-growth-equity-firm-invests.md",
+      "contentHash": "71289b4dec8e2d69c770bd327e4aa0f0e5bef4d16e0bcdb2c55b49127bd557bf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8866efcf2be8e743",
+      "title": "The Gift and The Curse of Staying Private with Bill Gurley",
+      "url": "https://www.youtube.com/watch?v=o3rrGzTDH4k",
+      "synthesis": "content/knowledge/invest-like-the-best/026-the-gift-and-the-curse-of-staying-private-with-bill-gurley.md",
+      "contentHash": "faf0ce2f36cbc99b6e13f9fb05cd5c31a45a79fc318a580c9163e7c4fc1b72d1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5a04ce5e33c7ca7e",
+      "title": "The Netflix Culture Code That Changed Entertainment Forever | Reed Hastings Interview",
+      "url": "https://www.youtube.com/watch?v=SmZzcV0a2CY",
+      "synthesis": "content/knowledge/invest-like-the-best/027-the-netflix-culture-code-that-changed-entertainment-forever-reed-hastings.md",
+      "contentHash": "2fae055bb391cb26a36dd75d7218e1baf555e34b5a0aad0a3c34f399fcbccf85",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "906b361d14e90ce4",
+      "title": "The Obsession That Creates Enduring Companies | David Senra Interview",
+      "url": "https://www.youtube.com/watch?v=Ak7oLVMlhfM",
+      "synthesis": "content/knowledge/invest-like-the-best/028-the-obsession-that-creates-enduring-companies-david-senra.md",
+      "contentHash": "9b7a22290b106d97f9cf36abf104b9277472e1a985539b898c953b7007f0a3ee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

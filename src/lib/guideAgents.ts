@@ -1,4 +1,7 @@
+import guideClassification from "../../data/guide-audit/classification.json";
 import { getGuideEpisodes } from "@/lib/guideRetrieval";
+import { sourceCorpus } from "@/lib/sourceCorpus";
+import { applySourceRuntimePolicy } from "@/lib/sourcePolicy";
 import { guidePath } from "@/lib/guideUrls";
 import { books } from "@/lib/books";
 import { figures } from "@/lib/figures";
@@ -53,11 +56,13 @@ export interface GuideAgent {
 
 export type GuideAgentSummary = Omit<GuideAgent, "runtime" | "sourceSlugs"> & {
   sourceCount: number;
+  category: string;
+  coverage: "partial" | "missing";
 };
 
 const sourceAgents: GuideAgent[] = books.map((book) => {
   const kind: GuideAgentKind = book.role === "channel" ? "channel" : "book";
-  const chatReady = Boolean(book.corpusPaths?.length);
+  const chatReady = applySourceRuntimePolicy(book.slug, sourceCorpus[book.slug]?.episodes || []).length > 0;
   const capabilities: GuideAgentCapability[] = [];
 
   if (chatReady) capabilities.push("chat", "citations");
@@ -79,7 +84,7 @@ const sourceAgents: GuideAgent[] = books.map((book) => {
     capabilities,
     availability: chatReady ? "ready" : "building",
     runtime: { kind: "source", sourceSlug: book.slug },
-    chatHref: chatReady ? (book.slug === "founders-podcast" ? "/sage" : `/${book.slug}`) : undefined,
+    chatHref: chatReady ? guidePath(book.slug) : undefined,
     profileHref: `/books/${book.slug}`,
     assignmentScope: "cross-project",
     memoryScopes: ["agent", "assignment"],
@@ -186,9 +191,14 @@ if (duplicateIds.length) {
 export const guideAgentSummaries: GuideAgentSummary[] = guideAgents.map(
   ({ runtime: _runtime, sourceSlugs, ...agent }) => {
     void _runtime;
+    void sourceSlugs;
+    const notes = agent.kind === "person" ? getGuideEpisodes(agent.slug) : applySourceRuntimePolicy(agent.slug, sourceCorpus[agent.slug]?.episodes || []);
+    const categories = guideClassification.identities as Record<string, {category: string | null}>;
     return {
       ...agent,
-      sourceCount: _runtime.kind === "figure" ? getGuideEpisodes(_runtime.figureSlug).length : sourceSlugs.length,
+      sourceCount: notes.length,
+      category: categories[agent.id]?.category || agent.category || "unclassified",
+      coverage: notes.length ? "partial" : "missing",
     };
   },
 );

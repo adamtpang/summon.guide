@@ -27,6 +27,45 @@ export interface SourceCorpus {
 }
 
 export const sourceCorpus: Record<string, SourceCorpus> = {
+  "pendleton-ward-selected-interviews": {
+    "title": "Pendleton Ward: Selected Public Interviews",
+    "host": "Pendleton Ward, interviewed by Max Eddy, GeekDad, and Rollin Bishop",
+    "episodes": [
+      {
+        "file": "content/knowledge/pendleton-ward-public-notes/001.md",
+        "title": "Pendleton Ward: rounded characters",
+        "principle": "Write characters with both strengths and faults.",
+        "keyLessons": [
+          "Ward describes wanting ordinary, believable people rather than opposite stereotypes.",
+          "He describes a team writing to entertain itself. Application: try a scene that interests you, then check whether another reader understands the character."
+        ],
+        "youtube": "https://www.wired.com/2012/03/adventure-times-pen-ward/",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/pendleton-ward-public-notes/002.md",
+        "title": "Pendleton Ward: a workplace that supports play",
+        "principle": "Make room for curiosity across the creative process.",
+        "keyLessons": [
+          "Ward recalls learning about editing, animatics and music while working for Thurop Van Orman.",
+          "He wanted his own production to retain an enjoyable atmosphere. Application: inspect one neighboring craft and try a small experiment; play is not a guarantee of commercial success."
+        ],
+        "youtube": "https://www.themarysue.com/pendleton-ward-interview/",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/pendleton-ward-public-notes/003.md",
+        "title": "Pendleton Ward: practicing kindness",
+        "principle": "Treat kindness as something to practice.",
+        "keyLessons": [
+          "Ward says he selected conversations about practicing kindness and facing mortality.",
+          "Application: choose one manageable kind action rather than demanding a perfect emotional state. This is a creative perspective, not mental-health treatment."
+        ],
+        "youtube": "https://comicbook.com/tv-shows/news/the-midnight-gospel-pen-ward-interview-netflix/",
+        "guest": ""
+      }
+    ]
+  },
   "berkshire-shareholder-letters": {
     "title": "Berkshire Hathaway Shareholder Letters, 1977-2024",
     "host": "Warren E. Buffett",

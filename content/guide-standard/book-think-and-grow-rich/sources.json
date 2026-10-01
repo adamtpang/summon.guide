@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "guideId": "book:think-and-grow-rich",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "9af45dc74331b549",
+      "title": "Introduction",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/000-introduction.md",
+      "contentHash": "7f5551cd24eacd993a90652ab3079b8d9ae1e466d53ada67b51a255a39853441",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "66bf0840ecf2912b",
+      "title": "Desire",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/001-desire.md",
+      "contentHash": "215f1ef121c885430d7b7816e50ba6f693fe78792a54971baff94f0bd4992226",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "db276dff5d4d647b",
+      "title": "Faith",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/002-faith.md",
+      "contentHash": "ebb58ab31e8e2323663666f9a9d424ef9378b33f0b3b0159b7d04e1fd888bd87",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c8a6a6b4202abfe0",
+      "title": "Auto-Suggestion",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/003-autosuggestion.md",
+      "contentHash": "b30b7898cd9657c7d5f574d393b9fe5d3ba7f1f1ff26f6d15d3f148e56a5dba9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ab92bc4dc22b9539",
+      "title": "Specialized Knowledge",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/004-specialized-knowledge.md",
+      "contentHash": "f3ab853c37a342ffce2621a899f1c93fa584e89d32c4f8bc479c7381c754cf9f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e03087ef4b977acd",
+      "title": "Imagination",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/005-imagination.md",
+      "contentHash": "ebcd0302cbd901f6229950e31a5d20719db9049f216541e4c25ebf4719361ad3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8480932255dace66",
+      "title": "Organized Planning",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/006-organized-planning.md",
+      "contentHash": "fd94c39b33c0eff0c1828db276ac3d6ba9b6edfc3621290e585506b6ea5c55c1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f17f2e123530a55c",
+      "title": "Decision",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/007-decision.md",
+      "contentHash": "088ca889ca9ee8cbb518d9cc51360b0ea309d2bc0a4d3b934b65ce616adfbceb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9a8c0822b6dae70e",
+      "title": "Persistence",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/008-persistence.md",
+      "contentHash": "aa7fbc31287673c5abe1d226405ddc34ae504cbd089f9553ea4f468f03127dce",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "45ead90151885c50",
+      "title": "Power of the Master Mind",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/009-the-mastermind.md",
+      "contentHash": "f67ecde7411e080d30773aefa160630730a4128b2dd7092c55e222b920765d98",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2ce0841dc2f8aff7",
+      "title": "The Mystery of Sex Transmutation",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/010-the-mystery-of-sex-transmutation.md",
+      "contentHash": "e89c16903cd704b55da623fe451186f8098fbab37eebddc21ab434bcffcc8fe4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "26e715aaf1df2d4e",
+      "title": "The Subconscious Mind",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/011-the-subconscious-mind.md",
+      "contentHash": "a325ce29c4beae9bdd00d01334d93f860de46998452c8f3bceb42d3498ccadd5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dbae92d60ec37ad7",
+      "title": "The Brain",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/012-the-brain.md",
+      "contentHash": "5886f102f4c370d867e60089d0c568977b38631e61c757ba846387210d9e3195",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "664d52a396b12c34",
+      "title": "The Sixth Sense",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/013-the-sixth-sense.md",
+      "contentHash": "15fe8b6f975c938d21d6ebc5478f5a15c07011f75bfee8f50b749011033f0b32",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5da5251f0e5aa205",
+      "title": "How to Outwit the Six Ghosts of Fear",
+      "url": null,
+      "synthesis": "content/knowledge/think-and-grow-rich/014-six-ghosts-of-fear.md",
+      "contentHash": "a2a458c86cb0ec16f489ad8ddfde89d6a275226c7aa59aa80f6bd542038afc6a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

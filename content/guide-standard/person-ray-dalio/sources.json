@@ -1,0 +1,395 @@
+{
+  "version": 1,
+  "guideId": "person:ray-dalio",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "c2203bfaccdc14a5",
+      "title": "What Principles Are, and Why They Matter",
+      "url": null,
+      "synthesis": "content/knowledge/principles/001-what-principles-are-and-why-they-matter.md",
+      "contentHash": "c38169c1090f8643c94ed14fc2917835c84f49bb1fc5957f2fa6e4fac94aa08f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ffe68b7498c1e46a",
+      "title": "Where I'm Coming From",
+      "url": null,
+      "synthesis": "content/knowledge/principles/002-where-im-coming-from.md",
+      "contentHash": "f12c1e877b86ff482214510e0f42a2e14b766616d63d37b865a6d428d1772c3f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "098553a7bcb72f0d",
+      "title": "My Most Fundamental Principles",
+      "url": null,
+      "synthesis": "content/knowledge/principles/003-my-most-fundamental-principles.md",
+      "contentHash": "9027bb849ecb0411d8039b1fac926beba5988a479fdd7d25a993bba3c1edf9d7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "988b13ad0fc2b010",
+      "title": "The Personal Evolutionary Process",
+      "url": null,
+      "synthesis": "content/knowledge/principles/004-the-personal-evolutionary-process.md",
+      "contentHash": "a926c9f340d714d80ed6ce1dcd14ea3753798f9b208ded73ebd19d0d9763d5c0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ed88bebea100386c",
+      "title": "Your Most Important Choices",
+      "url": null,
+      "synthesis": "content/knowledge/principles/005-your-most-important-choices.md",
+      "contentHash": "f504e095ef8fafa6087da3f4f806aa70e431c154ecebc116c4619caf1d756ec0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b54f865459d84325",
+      "title": "Your Two Yous and Your Machine",
+      "url": null,
+      "synthesis": "content/knowledge/principles/006-your-two-yous-and-your-machine.md",
+      "contentHash": "2cb2a49ef9ed1d92e365a091e41b34d648cc3e7a5cd00ddb5c5c4813137ff537",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cf195bbb0095deae",
+      "title": "Step 1: Setting Goals",
+      "url": null,
+      "synthesis": "content/knowledge/principles/007-step-1-setting-goals.md",
+      "contentHash": "e804054dc7a3196a3a7a01612fb120be912b50466731bc5d0aa8249bc7342790",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "090c346c0144246a",
+      "title": "Step 2: Identifying and Not Tolerating Problems",
+      "url": null,
+      "synthesis": "content/knowledge/principles/008-step-2-identifying-and-not-tolerating-problems.md",
+      "contentHash": "e132ce5347f0f212a376732e7205c4a0147177700c6416cdeb81e43c0aafce0e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "79d6650cf5ef6947",
+      "title": "Step 3: Diagnosing the Problems",
+      "url": null,
+      "synthesis": "content/knowledge/principles/009-step-3-diagnosing-the-problems.md",
+      "contentHash": "975ea846bc7ce2d88f0a896a2ea52a98ffdaa9ab2dbae9138d86773f8f6e00b6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "53e5b2d7b2470c53",
+      "title": "Step 4: Designing the Plan",
+      "url": null,
+      "synthesis": "content/knowledge/principles/010-step-4-designing-the-plan.md",
+      "contentHash": "e68b526c8ac8c69c6225460c243a5455dd31ddb4ac0f611d7cf8691291d14974",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3d9f3c90150e0c9d",
+      "title": "Step 5: Doing the Tasks",
+      "url": null,
+      "synthesis": "content/knowledge/principles/011-step-5-doing-the-tasks.md",
+      "contentHash": "5c7b0d4cac58083e6f5c2e67f9f659051b34a6a7b75aff585c3706eb710dee8c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cb83e225aada8431",
+      "title": "The Relationships Between the Steps, and Why Weaknesses Don't Matter",
+      "url": null,
+      "synthesis": "content/knowledge/principles/012-weaknesses-dont-matter-if-you-find-solutions.md",
+      "contentHash": "2fa2017b9ef2b356ca1d60d5c72f9d43cfb54977af43a330c6c50a07fc045e52",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "506874a2d6c738ad",
+      "title": "My Management Principles: Overview",
+      "url": null,
+      "synthesis": "content/knowledge/principles/013-management-principles-overview.md",
+      "contentHash": "83d5f0798023664187888d7a6c65835eb7b1a23dce5041d55bc502fd5bb7daf9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f8a5f10cfe8b77a8",
+      "title": "The Summary and Table of Principles",
+      "url": null,
+      "synthesis": "content/knowledge/principles/014-summary-and-table-of-principles.md",
+      "contentHash": "46a90a0ea213e49c933e0d4a91b96851077af430ff33eeaf0d41ad24e2021986",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "027722f61aba5c2d",
+      "title": "Trust in Truth",
+      "url": null,
+      "synthesis": "content/knowledge/principles/015-trust-in-truth.md",
+      "contentHash": "228f6c5c376fc9f71441d589f29af0ec2196a6077284af5c00b3387b09323663",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8d6eeff5235c792f",
+      "title": "Constantly Get in Synch",
+      "url": null,
+      "synthesis": "content/knowledge/principles/016-constantly-get-in-synch.md",
+      "contentHash": "900bfa2ec416d99ca3491ae9fd57f57c6ae53089335df4f0c862630f217a75cd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ded7d0f625267274",
+      "title": "Choose to Be Your Responsible Party",
+      "url": null,
+      "synthesis": "content/knowledge/principles/017-choose-your-responsible-party.md",
+      "contentHash": "1a191997f129b59762c683738e392c3c72f0d742f1bd94447418a244a74bc591",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "75fe016146051379",
+      "title": "Recognize That People Are Built Very Differently",
+      "url": null,
+      "synthesis": "content/knowledge/principles/018-recognize-that-people-are-built-very-differently.md",
+      "contentHash": "10295b9fe5ceb959708fefb6acd0f72d6ec05e94af923863342cfadc45afcaae",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ff3bfdf29518a706",
+      "title": "Hire Right, Because the Penalties of Hiring Wrong Are Huge",
+      "url": null,
+      "synthesis": "content/knowledge/principles/019-hire-right.md",
+      "contentHash": "fed12fa1fe5b80ee622ca36c6ab4e5061b0fab26b9785cbfaebfa2792ef4a65e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1c2da41ed3f1a55e",
+      "title": "Manage as Someone Designing and Operating a Machine",
+      "url": null,
+      "synthesis": "content/knowledge/principles/020-manage-as-someone-designing-a-machine.md",
+      "contentHash": "722d0bb68ccf6f0fc7b8b54adccf2658be47ca41c90620095f357fad2aa44f46",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7c566d4af49dd0cd",
+      "title": "Probe Deep and Hard to Learn What to Expect From Your Machine",
+      "url": null,
+      "synthesis": "content/knowledge/principles/021-probe-deep-and-hard.md",
+      "contentHash": "5928e01740a4a764e3a7af4b7f5d784283f9ba05eb7b094a5aa94456289b97fa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d28209d560ca32fb",
+      "title": "Evaluate People Accurately, Not \\",
+      "url": null,
+      "synthesis": "content/knowledge/principles/022-evaluate-people-accurately-not-kindly.md",
+      "contentHash": "bf71f33d27e677bb5b021f993673931f4181d3c2edc03a79daa7d6764df164df",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1d1fa49e49c814a7",
+      "title": "Train and Test People Through Experiences",
+      "url": null,
+      "synthesis": "content/knowledge/principles/023-train-and-test-people-through-experiences.md",
+      "contentHash": "601546e487c0ec086c674f4ba345b908875a97c194b41146d54de91aae2677ae",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "787c9b1683ebc57a",
+      "title": "Sort People Into Other Jobs, or Remove Them",
+      "url": null,
+      "synthesis": "content/knowledge/principles/024-sort-people-or-remove-them.md",
+      "contentHash": "68f5a31e6e61eb567e0a9e45e1beadf40249b68288a5096217758d8e432c8d90",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5926a42b4b3311ce",
+      "title": "Know How to Perceive Problems Effectively",
+      "url": null,
+      "synthesis": "content/knowledge/principles/025-perceive-problems-effectively.md",
+      "contentHash": "1d8d301bbfd66f0d0480a8ed3b96f136b9e38c2f153507333dea9d35ce5cebe3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "24e3a1b06328356b",
+      "title": "Diagnose to Understand What the Problems Are Symptomatic Of",
+      "url": null,
+      "synthesis": "content/knowledge/principles/026-diagnose-root-causes.md",
+      "contentHash": "173b3052c64012e571be0445a59e057a80ac192e57f76d71f6dad5b7f3b30c72",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f2e5640c773b362b",
+      "title": "Put Things in Perspective",
+      "url": null,
+      "synthesis": "content/knowledge/principles/027-put-things-in-perspective.md",
+      "contentHash": "c19f0a1681d67e60c74209096a1b77dd41b163d58e2d348a5437ec5ab26486a4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9213247f9ae6402e",
+      "title": "Design Your Machine to Achieve Your Goals",
+      "url": null,
+      "synthesis": "content/knowledge/principles/028-design-your-machine-to-achieve-your-goals.md",
+      "contentHash": "f8078715570f18d4007eef953602340d46098556f35b99a5489e0dc1dd7441a8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "340149ff8b248fc1",
+      "title": "Make Decisions Effectively",
+      "url": null,
+      "synthesis": "content/knowledge/principles/029-make-decisions-effectively.md",
+      "contentHash": "3921f6db859d170a0e3057c2900e1ce2f2560178956978f788d6e08af5113c82",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c3d6888a4e853597",
+      "title": "The Big Cycle and the Determinants of Power",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/001-the-big-cycle-and-the-determinants-of-power.md",
+      "contentHash": "8ac8f673d84f60b75494933763f95cc05e73980a3f8ef488cde008bc64f1d25b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "25d13d7bdfb2c75d",
+      "title": "The Changing Value of Money",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/002-the-changing-value-of-money.md",
+      "contentHash": "ae903012b103076458692b799cade6c6b526ff40cb4ca7d4b7ad873094d4f84e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3f49d163a89fd94e",
+      "title": "Internal and External Order and Disorder",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/003-internal-and-external-order-and-disorder.md",
+      "contentHash": "3f6dff37e8077b4fe0b065d4235589ccac855ad7c6d21e676961d18e31c49566",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "474dd219134aaeaf",
+      "title": "Investing Through the Big Cycle",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/004-investing-through-the-big-cycle.md",
+      "contentHash": "127fcb6f9878ed52af08a8cf41df50eb61c5f3c694c17b94a6969d091c676d42",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8a09f049c72e9fbd",
+      "title": "The Dutch and British Empires",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/005-the-dutch-and-british-empires.md",
+      "contentHash": "46da903d1a1b72a934726be326bad33a93280e8390ee002d541ec2dd40742b78",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "40ff7d84187f0158",
+      "title": "The American and Chinese Empires",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/006-the-american-and-chinese-empires.md",
+      "contentHash": "7f0d68d6e14d2ea3be3ecf3415626c8fae42efda04100660d340424a0d283d88",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3ba2a7c4e8716338",
+      "title": "US-China Relations and the Future",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/007-us-china-relations-and-the-future.md",
+      "contentHash": "f9acb769eb8e21a5625c24576077c3c268b3385457b395cddbdeba48c25077c8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "64c2765553a42734",
+      "title": "How The Economic Machine Works",
+      "url": "https://www.youtube.com/watch?v=PHe0bXAIuk0",
+      "synthesis": "content/knowledge/ray-dalio/001-how-the-economic-machine-works.md",
+      "contentHash": "787592bdaffd8bb9ec4dd9a6e199eac3a3c92a437024e1d6e22da6e67b375499",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "852c510c05d76288",
+      "title": "Principles for Success: \\\"Embrace Reality and Deal With It\\\" | Episode 2",
+      "url": "https://www.youtube.com/watch?v=Tfrrubw7pcE",
+      "synthesis": "content/knowledge/ray-dalio/002-embrace-reality-and-deal-with-it.md",
+      "contentHash": "224e7a32b769316e30652526afc722f6b5acabaa2f08d2685b6445932e751b0b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b282134b2b7d5730",
+      "title": "Principles for Success: \\\"The Five Step Process\\\" | Episode 3",
+      "url": "https://www.youtube.com/watch?v=ryD8lfSEGio",
+      "synthesis": "content/knowledge/ray-dalio/003-the-five-step-process.md",
+      "contentHash": "78f4519ad75dfccd01739b04f34fd890ea5f871eed461e0d2422b48144a71f14",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1a78de7d82541004",
+      "title": "Recognize Your Two Barriers: Top 5 Most Valuable Principles #5",
+      "url": "https://www.youtube.com/watch?v=zI9I6MaS5OE",
+      "synthesis": "content/knowledge/ray-dalio/004-recognize-your-two-barriers.md",
+      "contentHash": "64e763b1e2ab717fbf80370d7bd1e7c581381f0cd70efae3a3754de0a906e8ba",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e41b491a9aa88dd7",
+      "title": "How to have an idea meritocracy in any organization",
+      "url": "https://www.youtube.com/watch?v=S7hNda9DVxo",
+      "synthesis": "content/knowledge/ray-dalio/005-designer-of-your-machine-vs-worker-in-it.md",
+      "contentHash": "cdeed044f44bc03ee1bc95ba5df08432212c131ba8c28367e07b12f622a166b0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b22485ee139211dc",
+      "title": "Principles for Dealing with the Changing World Order by Ray Dalio",
+      "url": "https://www.youtube.com/watch?v=xguam0TKMw8",
+      "synthesis": "content/knowledge/ray-dalio/006-principles-for-dealing-with-the-changing-world-order.md",
+      "contentHash": "1ed08c222de45847f1beec9ff18d3b2da7821c79451538cc2757a705363da4b7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7063781a84d83622",
+      "title": "Principles for Success: \\\"Struggle Well\\\" | Episode 8",
+      "url": "https://www.youtube.com/watch?v=nYY-1KxXnSg",
+      "synthesis": "content/knowledge/ray-dalio/007-struggle-well.md",
+      "contentHash": "1d1951880658b39f9af2ac9f8e8d6e7d5e47009fb9eecf83b448cc386b9fcbcf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

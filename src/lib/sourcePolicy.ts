@@ -30,5 +30,5 @@ export function applySourceRuntimePolicy(
 ): SourceEpisode[] {
   const policy = getSourceRuntimePolicy(sourceSlug);
   const excluded = new Set(policy.excludedEpisodeFiles);
-  return episodes.filter((episode) => !excluded.has(episode.file));
+  return episodes.filter((episode) => !excluded.has(episode.file) && !episode.file.split(/[\\/]/).some(part => part === "_raw" || part === "..") && episode.principle.trim() && episode.keyLessons.some(lesson => lesson.trim()));
 }

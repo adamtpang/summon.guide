@@ -1,0 +1,1960 @@
+{
+  "date": "2026-09-20T13:03:15.111Z",
+  "taxonomy": {
+    "business": "Building companies, entrepreneurship, retail, operations, product, sales and marketing",
+    "investing": "Investing, capital allocation, financial markets, personal finance and wealth",
+    "philosophy": "Philosophy, ethics, meaning, spirituality, wisdom and rational inquiry",
+    "creativity": "Art, writing, storytelling, music, animation and creative practice",
+    "effectiveness": "Personal habits, focus, productivity, learning methods and self-direction",
+    "science": "Scientific discovery, engineering, invention and technical understanding",
+    "leadership": "Government, statecraft, military strategy, institutions and civic leadership",
+    "relationships": "Communication, community, friendship, social connection and interpersonal skill",
+    "wellbeing": "Physical health, psychology, emotional wellbeing, sport and athletic performance"
+  },
+  "threshold": 0.75,
+  "batches": [
+    {
+      "decisions": {
+        "r0": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r1": {
+          "category": "science",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r2": {
+          "category": "leadership",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r3": {
+          "category": "wellbeing",
+          "confidence": 0.83,
+          "path": "jev"
+        },
+        "r5": {
+          "category": "effectiveness",
+          "confidence": 0.89,
+          "path": "jev"
+        },
+        "r6": {
+          "category": "creativity",
+          "confidence": 0.99,
+          "path": "jev"
+        },
+        "r7": {
+          "category": "business",
+          "confidence": 0.93,
+          "path": "jev"
+        },
+        "r8": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r9": {
+          "category": "effectiveness",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r4": {
+          "category": "effectiveness",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 4014,
+        "output_tokens": 928,
+        "cost": 0.000168588
+      },
+      "jevLatencyMs": 356,
+      "fallbackLatencyMs": 61180,
+      "fallbackModel": "deepseek/deepseek-v4.1-flash"
+    },
+    {
+      "decisions": {
+        "r11": {
+          "category": "investing",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r12": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r13": {
+          "category": "investing",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r14": {
+          "category": "science",
+          "confidence": 0.99,
+          "path": "jev"
+        },
+        "r15": {
+          "category": "business",
+          "confidence": 0.77,
+          "path": "jev"
+        },
+        "r18": {
+          "category": "business",
+          "confidence": 0.99,
+          "path": "jev"
+        },
+        "r19": {
+          "category": "leadership",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r10": {
+          "category": "effectiveness",
+          "confidence": null,
+          "path": "incumbent"
+        },
+        "r16": {
+          "category": "business",
+          "confidence": null,
+          "path": "incumbent"
+        },
+        "r17": {
+          "category": "business",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 3948,
+        "output_tokens": 932,
+        "cost": 0.000165816
+      },
+      "jevLatencyMs": 613,
+      "fallbackLatencyMs": 16707,
+      "fallbackModel": "deepseek/deepseek-v4.1-flash"
+    },
+    {
+      "decisions": {
+        "r20": {
+          "category": "philosophy",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r21": {
+          "category": "effectiveness",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r22": {
+          "category": "science",
+          "confidence": 0.83,
+          "path": "jev"
+        },
+        "r23": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r24": {
+          "category": "science",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r26": {
+          "category": "business",
+          "confidence": 0.83,
+          "path": "jev"
+        },
+        "r27": {
+          "category": "business",
+          "confidence": 0.99,
+          "path": "jev"
+        },
+        "r28": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r29": {
+          "category": "philosophy",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r25": {
+          "category": "business",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 4093,
+        "output_tokens": 930,
+        "cost": 0.000171906
+      },
+      "jevLatencyMs": 386,
+      "fallbackLatencyMs": 4321,
+      "fallbackModel": "deepseek/deepseek-v4.1-flash"
+    },
+    {
+      "decisions": {
+        "r30": {
+          "category": "leadership",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r31": {
+          "category": "creativity",
+          "confidence": 0.88,
+          "path": "jev"
+        },
+        "r32": {
+          "category": "philosophy",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r34": {
+          "category": "business",
+          "confidence": 0.95,
+          "path": "jev"
+        },
+        "r35": {
+          "category": "philosophy",
+          "confidence": 0.95,
+          "path": "jev"
+        },
+        "r36": {
+          "category": "science",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r37": {
+          "category": "effectiveness",
+          "confidence": 0.93,
+          "path": "jev"
+        },
+        "r39": {
+          "category": "investing",
+          "confidence": 0.95,
+          "path": "jev"
+        },
+        "r33": {
+          "category": "philosophy",
+          "confidence": null,
+          "path": "incumbent"
+        },
+        "r38": {
+          "category": "investing",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 4158,
+        "output_tokens": 940,
+        "cost": 0.000174636
+      },
+      "jevLatencyMs": 362,
+      "fallbackLatencyMs": 22981,
+      "fallbackModel": "openai/gpt-5.6-luna"
+    },
+    {
+      "decisions": {
+        "r40": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r41": {
+          "category": "philosophy",
+          "confidence": 0.77,
+          "path": "jev"
+        },
+        "r42": {
+          "category": "creativity",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r43": {
+          "category": "business",
+          "confidence": 0.76,
+          "path": "jev"
+        },
+        "r44": {
+          "category": "investing",
+          "confidence": 0.83,
+          "path": "jev"
+        },
+        "r45": {
+          "category": "creativity",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r46": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r47": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r48": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r49": {
+          "category": "creativity",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 4078,
+        "output_tokens": 934,
+        "cost": 0.000171276
+      },
+      "jevLatencyMs": 443,
+      "fallbackLatencyMs": 4743,
+      "fallbackModel": "deepseek/deepseek-v4.1-flash"
+    },
+    {
+      "decisions": {
+        "r50": {
+          "category": "effectiveness",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r51": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r52": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r54": {
+          "category": "investing",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r55": {
+          "category": "creativity",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r56": {
+          "category": "leadership",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r57": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r58": {
+          "category": "effectiveness",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r59": {
+          "category": "leadership",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r53": {
+          "category": "creativity",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 3925,
+        "output_tokens": 939,
+        "cost": 0.00016485
+      },
+      "jevLatencyMs": 366,
+      "fallbackLatencyMs": 11212,
+      "fallbackModel": "deepseek/deepseek-v4.1-flash"
+    },
+    {
+      "decisions": {
+        "r60": {
+          "category": "investing",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r61": {
+          "category": "business",
+          "confidence": 0.96,
+          "path": "jev"
+        },
+        "r62": {
+          "category": "effectiveness",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r63": {
+          "category": "business",
+          "confidence": 0.9,
+          "path": "jev"
+        },
+        "r64": {
+          "category": "business",
+          "confidence": 0.98,
+          "path": "jev"
+        },
+        "r67": {
+          "category": "leadership",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r68": {
+          "category": "effectiveness",
+          "confidence": 0.99,
+          "path": "jev"
+        },
+        "r69": {
+          "category": "philosophy",
+          "confidence": 0.99,
+          "path": "jev"
+        },
+        "r65": {
+          "category": "investing",
+          "confidence": null,
+          "path": "incumbent"
+        },
+        "r66": {
+          "category": "relationships",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 3840,
+        "output_tokens": 939,
+        "cost": 0.00016128
+      },
+      "jevLatencyMs": 351,
+      "fallbackLatencyMs": 22382,
+      "fallbackModel": "qwen/qwen3.8-27b:free"
+    },
+    {
+      "decisions": {
+        "r71": {
+          "category": "philosophy",
+          "confidence": 0.99,
+          "path": "jev"
+        },
+        "r72": {
+          "category": "leadership",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r73": {
+          "category": "philosophy",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r74": {
+          "category": "effectiveness",
+          "confidence": 0.93,
+          "path": "jev"
+        },
+        "r77": {
+          "category": "leadership",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r78": {
+          "category": "business",
+          "confidence": 0.92,
+          "path": "jev"
+        },
+        "r79": {
+          "category": "creativity",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r70": {
+          "category": "business",
+          "confidence": null,
+          "path": "incumbent"
+        },
+        "r75": {
+          "category": "wellbeing",
+          "confidence": null,
+          "path": "incumbent"
+        },
+        "r76": {
+          "category": "effectiveness",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 3821,
+        "output_tokens": 941,
+        "cost": 0.000160482
+      },
+      "jevLatencyMs": 336,
+      "fallbackLatencyMs": 25124,
+      "fallbackModel": "openai/gpt-5.6-luna"
+    },
+    {
+      "decisions": {
+        "r81": {
+          "category": "effectiveness",
+          "confidence": 0.9,
+          "path": "jev"
+        },
+        "r82": {
+          "category": "leadership",
+          "confidence": 0.9,
+          "path": "jev"
+        },
+        "r83": {
+          "category": "philosophy",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r84": {
+          "category": "philosophy",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r85": {
+          "category": "philosophy",
+          "confidence": 0.88,
+          "path": "jev"
+        },
+        "r86": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r87": {
+          "category": "philosophy",
+          "confidence": 0.98,
+          "path": "jev"
+        },
+        "r88": {
+          "category": "effectiveness",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r89": {
+          "category": "philosophy",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r80": {
+          "category": "investing",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 4014,
+        "output_tokens": 943,
+        "cost": 0.000168588
+      },
+      "jevLatencyMs": 409,
+      "fallbackLatencyMs": 27280,
+      "fallbackModel": "deepseek/deepseek-v4.1-flash"
+    },
+    {
+      "decisions": {
+        "r90": {
+          "category": "philosophy",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r91": {
+          "category": "philosophy",
+          "confidence": 0.8,
+          "path": "jev"
+        },
+        "r92": {
+          "category": "business",
+          "confidence": 0.86,
+          "path": "jev"
+        },
+        "r93": {
+          "category": "leadership",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r94": {
+          "category": "business",
+          "confidence": 0.8200000000000001,
+          "path": "jev"
+        },
+        "r95": {
+          "category": "philosophy",
+          "confidence": 0.85,
+          "path": "jev"
+        },
+        "r96": {
+          "category": "business",
+          "confidence": 0.97,
+          "path": "jev"
+        },
+        "r98": {
+          "category": "leadership",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r99": {
+          "category": "philosophy",
+          "confidence": 0.8,
+          "path": "jev"
+        },
+        "r97": {
+          "category": "effectiveness",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 3864,
+        "output_tokens": 937,
+        "cost": 0.000162288
+      },
+      "jevLatencyMs": 417,
+      "fallbackLatencyMs": 1819,
+      "fallbackModel": "deepseek/deepseek-v4.1-flash"
+    },
+    {
+      "decisions": {
+        "r101": {
+          "category": "effectiveness",
+          "confidence": 0.84,
+          "path": "jev"
+        },
+        "r102": {
+          "category": "philosophy",
+          "confidence": 0.75,
+          "path": "jev"
+        },
+        "r103": {
+          "category": "business",
+          "confidence": 0.96,
+          "path": "jev"
+        },
+        "r104": {
+          "category": "effectiveness",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r105": {
+          "category": "effectiveness",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r106": {
+          "category": "philosophy",
+          "confidence": 0.98,
+          "path": "jev"
+        },
+        "r107": {
+          "category": "business",
+          "confidence": 0.89,
+          "path": "jev"
+        },
+        "r108": {
+          "category": "business",
+          "confidence": 0.95,
+          "path": "jev"
+        },
+        "r109": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r100": {
+          "category": "creativity",
+          "confidence": null,
+          "path": "incumbent"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 3750,
+        "output_tokens": 948,
+        "cost": 0.0001575
+      },
+      "jevLatencyMs": 400,
+      "fallbackLatencyMs": 7766,
+      "fallbackModel": "deepseek/deepseek-v4.1-flash"
+    },
+    {
+      "decisions": {
+        "r110": {
+          "category": "philosophy",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r111": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r112": {
+          "category": "investing",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r113": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        },
+        "r114": {
+          "category": "business",
+          "confidence": 1,
+          "path": "jev"
+        }
+      },
+      "jevUsage": {
+        "input_tokens": 2216,
+        "output_tokens": 472,
+        "cost": 0.000093072
+      },
+      "jevLatencyMs": 324
+    }
+  ],
+  "decisions": {
+    "r0": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r1": {
+      "category": "science",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r2": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r3": {
+      "category": "wellbeing",
+      "confidence": 0.83,
+      "path": "jev"
+    },
+    "r5": {
+      "category": "effectiveness",
+      "confidence": 0.89,
+      "path": "jev"
+    },
+    "r6": {
+      "category": "creativity",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "r7": {
+      "category": "business",
+      "confidence": 0.93,
+      "path": "jev"
+    },
+    "r8": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r9": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r4": {
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r11": {
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r12": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r13": {
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r14": {
+      "category": "science",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "r15": {
+      "category": "business",
+      "confidence": 0.77,
+      "path": "jev"
+    },
+    "r18": {
+      "category": "business",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "r19": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r10": {
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r16": {
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r17": {
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r20": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r21": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r22": {
+      "category": "science",
+      "confidence": 0.83,
+      "path": "jev"
+    },
+    "r23": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r24": {
+      "category": "science",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r26": {
+      "category": "business",
+      "confidence": 0.83,
+      "path": "jev"
+    },
+    "r27": {
+      "category": "business",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "r28": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r29": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r25": {
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r30": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r31": {
+      "category": "creativity",
+      "confidence": 0.88,
+      "path": "jev"
+    },
+    "r32": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r34": {
+      "category": "business",
+      "confidence": 0.95,
+      "path": "jev"
+    },
+    "r35": {
+      "category": "philosophy",
+      "confidence": 0.95,
+      "path": "jev"
+    },
+    "r36": {
+      "category": "science",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r37": {
+      "category": "effectiveness",
+      "confidence": 0.93,
+      "path": "jev"
+    },
+    "r39": {
+      "category": "investing",
+      "confidence": 0.95,
+      "path": "jev"
+    },
+    "r33": {
+      "category": "philosophy",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r38": {
+      "category": "investing",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r40": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r41": {
+      "category": "philosophy",
+      "confidence": 0.77,
+      "path": "jev"
+    },
+    "r42": {
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r43": {
+      "category": "business",
+      "confidence": 0.76,
+      "path": "jev"
+    },
+    "r44": {
+      "category": "investing",
+      "confidence": 0.83,
+      "path": "jev"
+    },
+    "r45": {
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r46": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r47": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r48": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r49": {
+      "category": "creativity",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r50": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r51": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r52": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r54": {
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r55": {
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r56": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r57": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r58": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r59": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r53": {
+      "category": "creativity",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r60": {
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r61": {
+      "category": "business",
+      "confidence": 0.96,
+      "path": "jev"
+    },
+    "r62": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r63": {
+      "category": "business",
+      "confidence": 0.9,
+      "path": "jev"
+    },
+    "r64": {
+      "category": "business",
+      "confidence": 0.98,
+      "path": "jev"
+    },
+    "r67": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r68": {
+      "category": "effectiveness",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "r69": {
+      "category": "philosophy",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "r65": {
+      "category": "investing",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r66": {
+      "category": "relationships",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r71": {
+      "category": "philosophy",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "r72": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r73": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r74": {
+      "category": "effectiveness",
+      "confidence": 0.93,
+      "path": "jev"
+    },
+    "r77": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r78": {
+      "category": "business",
+      "confidence": 0.92,
+      "path": "jev"
+    },
+    "r79": {
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r70": {
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r75": {
+      "category": "wellbeing",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r76": {
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r81": {
+      "category": "effectiveness",
+      "confidence": 0.9,
+      "path": "jev"
+    },
+    "r82": {
+      "category": "leadership",
+      "confidence": 0.9,
+      "path": "jev"
+    },
+    "r83": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r84": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r85": {
+      "category": "philosophy",
+      "confidence": 0.88,
+      "path": "jev"
+    },
+    "r86": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r87": {
+      "category": "philosophy",
+      "confidence": 0.98,
+      "path": "jev"
+    },
+    "r88": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r89": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r80": {
+      "category": "investing",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r90": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r91": {
+      "category": "philosophy",
+      "confidence": 0.8,
+      "path": "jev"
+    },
+    "r92": {
+      "category": "business",
+      "confidence": 0.86,
+      "path": "jev"
+    },
+    "r93": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r94": {
+      "category": "business",
+      "confidence": 0.8200000000000001,
+      "path": "jev"
+    },
+    "r95": {
+      "category": "philosophy",
+      "confidence": 0.85,
+      "path": "jev"
+    },
+    "r96": {
+      "category": "business",
+      "confidence": 0.97,
+      "path": "jev"
+    },
+    "r98": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r99": {
+      "category": "philosophy",
+      "confidence": 0.8,
+      "path": "jev"
+    },
+    "r97": {
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r101": {
+      "category": "effectiveness",
+      "confidence": 0.84,
+      "path": "jev"
+    },
+    "r102": {
+      "category": "philosophy",
+      "confidence": 0.75,
+      "path": "jev"
+    },
+    "r103": {
+      "category": "business",
+      "confidence": 0.96,
+      "path": "jev"
+    },
+    "r104": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r105": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r106": {
+      "category": "philosophy",
+      "confidence": 0.98,
+      "path": "jev"
+    },
+    "r107": {
+      "category": "business",
+      "confidence": 0.89,
+      "path": "jev"
+    },
+    "r108": {
+      "category": "business",
+      "confidence": 0.95,
+      "path": "jev"
+    },
+    "r109": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r100": {
+      "category": "creativity",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "r110": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r111": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r112": {
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r113": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "r114": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    }
+  },
+  "integratedValidation": {
+    "correct": 12,
+    "total": 12,
+    "decisions": {
+      "s01": {
+        "category": "business",
+        "confidence": 0.99,
+        "path": "jev"
+      },
+      "s02": {
+        "category": "business",
+        "confidence": 1,
+        "path": "jev"
+      },
+      "s03": {
+        "category": "investing",
+        "confidence": 1,
+        "path": "jev"
+      },
+      "s04": {
+        "category": "investing",
+        "confidence": 1,
+        "path": "jev"
+      },
+      "s05": {
+        "category": "philosophy",
+        "confidence": 1,
+        "path": "jev"
+      },
+      "s06": {
+        "category": "creativity",
+        "confidence": 1,
+        "path": "jev"
+      },
+      "s07": {
+        "category": "creativity",
+        "confidence": 1,
+        "path": "jev"
+      },
+      "s08": {
+        "category": "effectiveness",
+        "confidence": 1,
+        "path": "jev"
+      },
+      "s09": {
+        "category": "science",
+        "confidence": 1,
+        "path": "jev"
+      },
+      "s10": {
+        "category": "leadership",
+        "confidence": 1,
+        "path": "jev"
+      },
+      "s11": {
+        "category": "relationships",
+        "confidence": 1,
+        "path": "jev"
+      },
+      "s12": {
+        "category": "wellbeing",
+        "confidence": 1,
+        "path": "jev"
+      }
+    },
+    "jevUsage": {
+      "input_tokens": 3647,
+      "output_tokens": 1124,
+      "cost": 0.000153174
+    },
+    "jevLatencyMs": 826
+  },
+  "identities": {
+    "person:adam-neumann": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:albert-einstein": {
+      "category": "science",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:alexander": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:alysa-liu": {
+      "category": "wellbeing",
+      "confidence": 0.83,
+      "path": "jev"
+    },
+    "person:annie-duke": {
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "person:franklin": {
+      "category": "effectiveness",
+      "confidence": 0.89,
+      "path": "jev"
+    },
+    "person:bob-marley": {
+      "category": "creativity",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "person:brad-jacobs": {
+      "category": "business",
+      "confidence": 0.93,
+      "path": "jev"
+    },
+    "person:brian-armstrong": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:cal-newport": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:carol-dweck": {
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "person:charlie-munger": {
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:daniel-ek": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:dave-ramsey": {
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:deutsch": {
+      "category": "science",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "person:senra": {
+      "category": "business",
+      "confidence": 0.77,
+      "path": "jev"
+    },
+    "person:sivers": {
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "person:elon": {
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "person:evan-spiegel": {
+      "category": "business",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "person:henry-kissinger": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:hesse": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:james-clear": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:james-dyson": {
+      "category": "science",
+      "confidence": 0.83,
+      "path": "jev"
+    },
+    "person:jeff-bezos": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:jennifer-doudna": {
+      "category": "science",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:jensen-huang": {
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "person:jimmy-iovine": {
+      "category": "business",
+      "confidence": 0.83,
+      "path": "jev"
+    },
+    "person:rockefeller": {
+      "category": "business",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "person:john-mackey": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:vervaeke": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:lee-kuan-yew": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:leonardo-da-vinci": {
+      "category": "creativity",
+      "confidence": 0.88,
+      "path": "jev"
+    },
+    "person:seneca": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:lulie-tanett": {
+      "category": "philosophy",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "person:marc-andreessen": {
+      "category": "business",
+      "confidence": 0.95,
+      "path": "jev"
+    },
+    "person:marcus-aurelius": {
+      "category": "philosophy",
+      "confidence": 0.95,
+      "path": "jev"
+    },
+    "person:marie-curie": {
+      "category": "science",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:napoleon-hill": {
+      "category": "effectiveness",
+      "confidence": 0.93,
+      "path": "jev"
+    },
+    "person:nassim-taleb": {
+      "category": "investing",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "person:naval-ravikant": {
+      "category": "investing",
+      "confidence": 0.95,
+      "path": "jev"
+    },
+    "person:paul-graham": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:paul-millerd": {
+      "category": "philosophy",
+      "confidence": 0.77,
+      "path": "jev"
+    },
+    "person:pendleton-ward": {
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:peter-thiel": {
+      "category": "business",
+      "confidence": 0.76,
+      "path": "jev"
+    },
+    "person:ray-dalio": {
+      "category": "investing",
+      "confidence": 0.83,
+      "path": "jev"
+    },
+    "person:ricky-gervais": {
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:rose-blumkin": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:sam-walton": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:steve-jobs": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:pressfield": {
+      "category": "creativity",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "person:tim-ferriss": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:tobi-lutke": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:todd-graves": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "person:visakan": {
+      "category": "creativity",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "person:warren-buffett": {
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:adventure-time-art-of-ooo": {
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:alexander-the-great-fox": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:anything-you-want": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:atomic-habits": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:benjamin-franklin-an-american-life": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:berkshire-shareholder-letters": {
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:billion-dollar-loser": {
+      "category": "business",
+      "confidence": 0.96,
+      "path": "jev"
+    },
+    "book:deep-work": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:elon-musk-isaacson": {
+      "category": "business",
+      "confidence": 0.9,
+      "path": "jev"
+    },
+    "book:elon-musk-vance": {
+      "category": "business",
+      "confidence": 0.98,
+      "path": "jev"
+    },
+    "book:fooled-by-randomness": {
+      "category": "investing",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "book:friendly-ambitious-nerd": {
+      "category": "relationships",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "book:from-third-world-to-first": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:hell-yeah-or-no": {
+      "category": "effectiveness",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "book:how-to-live": {
+      "category": "philosophy",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "book:its-time-to-build": {
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "book:letters-from-a-stoic": {
+      "category": "philosophy",
+      "confidence": 0.99,
+      "path": "jev"
+    },
+    "book:life-of-alexander-plutarch": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:meditations": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:mindset": {
+      "category": "effectiveness",
+      "confidence": 0.93,
+      "path": "jev"
+    },
+    "book:on-anger": {
+      "category": "wellbeing",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "book:on-the-shortness-of-life": {
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "book:one-mans-view-of-the-world": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:paul-graham-essays": {
+      "category": "business",
+      "confidence": 0.92,
+      "path": "jev"
+    },
+    "book:pendleton-ward-selected-interviews": {
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:poor-charlies-almanack": {
+      "category": "investing",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "book:principles": {
+      "category": "effectiveness",
+      "confidence": 0.9,
+      "path": "jev"
+    },
+    "book:principles-for-dealing-with-the-changing-world-order": {
+      "category": "leadership",
+      "confidence": 0.9,
+      "path": "jev"
+    },
+    "book:reason-is-fun-essays": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:siddhartha": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:skin-in-the-game": {
+      "category": "philosophy",
+      "confidence": 0.88,
+      "path": "jev"
+    },
+    "book:steve-jobs-isaacson": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:tao-te-ching": {
+      "category": "philosophy",
+      "confidence": 0.98,
+      "path": "jev"
+    },
+    "book:autobiography-of-benjamin-franklin": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:the-beginning-of-infinity": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:bible": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:the-black-swan": {
+      "category": "philosophy",
+      "confidence": 0.8,
+      "path": "jev"
+    },
+    "book:the-book-of-elon": {
+      "category": "business",
+      "confidence": 0.86,
+      "path": "jev"
+    },
+    "book:campaigns-of-alexander-arrian": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:the-cult-of-we": {
+      "category": "business",
+      "confidence": 0.8200000000000001,
+      "path": "jev"
+    },
+    "book:the-fabric-of-reality": {
+      "category": "philosophy",
+      "confidence": 0.85,
+      "path": "jev"
+    },
+    "book:the-nvidia-way": {
+      "category": "business",
+      "confidence": 0.97,
+      "path": "jev"
+    },
+    "book:the-pathless-path": {
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "book:the-singapore-story": {
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:techno-optimist-manifesto": {
+      "category": "philosophy",
+      "confidence": 0.8,
+      "path": "jev"
+    },
+    "book:the-war-of-art": {
+      "category": "creativity",
+      "confidence": null,
+      "path": "incumbent"
+    },
+    "book:think-and-grow-rich": {
+      "category": "effectiveness",
+      "confidence": 0.84,
+      "path": "jev"
+    },
+    "book:thinking-in-bets": {
+      "category": "philosophy",
+      "confidence": 0.75,
+      "path": "jev"
+    },
+    "book:titan-chernow": {
+      "category": "business",
+      "confidence": 0.96,
+      "path": "jev"
+    },
+    "book:tools-of-titans": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:tribe-of-mentors": {
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:useful-not-true": {
+      "category": "philosophy",
+      "confidence": 0.98,
+      "path": "jev"
+    },
+    "book:why-software-is-eating-the-world": {
+      "category": "business",
+      "confidence": 0.89,
+      "path": "jev"
+    },
+    "book:your-music-and-people": {
+      "category": "business",
+      "confidence": 0.95,
+      "path": "jev"
+    },
+    "book:zero-to-one": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "book:zombies-in-western-culture": {
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "channel:founders-podcast": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "channel:invest-like-the-best": {
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "channel:starter-story": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    },
+    "channel:y-combinator": {
+      "category": "business",
+      "confidence": 1,
+      "path": "jev"
+    }
+  }
+}

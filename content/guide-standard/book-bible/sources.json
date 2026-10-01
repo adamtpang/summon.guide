@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "guideId": "book:bible",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "f6d1ba5302da1511",
+      "title": "Vanity and the Cycles of Nature",
+      "url": null,
+      "synthesis": "content/knowledge/bible-ecclesiastes/001-vanity-and-the-cycles-of-nature.md",
+      "contentHash": "e5085ebde4ed2bed7b99b8631b1784fa64b03243cf5a184ae197b2f5eb004d6a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "963912fcb7d4ed8b",
+      "title": "The Experiment in Pleasure and Work",
+      "url": null,
+      "synthesis": "content/knowledge/bible-ecclesiastes/002-the-experiment-in-pleasure-and-work.md",
+      "contentHash": "2fb3a253016838dad9f4119dd37c689eddf877cb4e1da920ccefe0d166f9955f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4b061ce65a05c984",
+      "title": "A Time for Everything",
+      "url": null,
+      "synthesis": "content/knowledge/bible-ecclesiastes/003-a-time-for-everything.md",
+      "contentHash": "5e222c4f60c2e4a716d9aec1b6fb49b5afd567d0f3a06ae53c29eba67f9df7df",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "986e66ca95672e71",
+      "title": "Companionship, Power, and Caution",
+      "url": null,
+      "synthesis": "content/knowledge/bible-ecclesiastes/004-companionship-power-and-caution.md",
+      "contentHash": "3e9a31f11b09a1bd9b00f1715793ad1572f090c689bc6fb38427a6426c8236ae",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "51a203831cb2ff9d",
+      "title": "Wealth Without Enjoyment and the Better-Than Sayings",
+      "url": null,
+      "synthesis": "content/knowledge/bible-ecclesiastes/005-wealth-without-enjoyment-and-the-better-than-sayings.md",
+      "contentHash": "24805c8e10d9a94197be787c4e54da21798a171378228a4400a741df99744347",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "68e8d434088a726f",
+      "title": "Power, Death, and the Common Fate",
+      "url": null,
+      "synthesis": "content/knowledge/bible-ecclesiastes/006-power-death-and-the-common-fate.md",
+      "contentHash": "66b7b7232f6f4820e720e215d3ad96b45e8279929fd89cff8147bf94cbdf3178",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "30b82575d56d0df4",
+      "title": "Proverbs on Folly, Rule, and Risk",
+      "url": null,
+      "synthesis": "content/knowledge/bible-ecclesiastes/007-proverbs-on-folly-rule-and-risk.md",
+      "contentHash": "eda59cd84a1a97223c4c5bbea65e600edd0058ca34649931f8773baf6947ce8c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bf866cc86554801a",
+      "title": "Remember Your Creator",
+      "url": null,
+      "synthesis": "content/knowledge/bible-ecclesiastes/008-remember-your-creator.md",
+      "contentHash": "f7da09d6914996b48766099da5fd828784259808a8d277f989760c595b291409",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "04a2ffb6125f8ffd",
+      "title": "Speech and the Tongue",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/001-speech-and-the-tongue.md",
+      "contentHash": "6cbdeaa6ecb136a9991195a50d0230b6f6e40a22ae9e8749544bf9ac85a624f1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ade285ca7baaddbe",
+      "title": "Wealth, Poverty, and Generosity",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/002-wealth-poverty-and-generosity.md",
+      "contentHash": "c893e100590b6d2ee58da77f306ed0a58f67fd814f9a7d4625279b0c01d6a632",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f14cfb7a6d5fa36b",
+      "title": "Discipline and Child-Rearing",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/003-discipline-and-child-rearing.md",
+      "contentHash": "cca975de4c88f1aa140510988e61d8e975c65cdc733b5c060bb128b383d89a0d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c6168ea2760bde0b",
+      "title": "Diligence and Laziness",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/004-diligence-and-laziness.md",
+      "contentHash": "db194bcbf1177e65040e076e5403104d4892de8f705b734e8c7e724332ca68d0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "40b7659b244d65c9",
+      "title": "The Righteous and the Wicked",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/005-the-righteous-and-the-wicked.md",
+      "contentHash": "9392935d825c56b9bf390d044bbe4a8152c6ade91062b7af7b0dc496cd0a5dfe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f21bcb5e89686ba2",
+      "title": "Pride and Humility",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/006-pride-and-humility.md",
+      "contentHash": "2f04659ea6a1c4ea51c2cbe949bac829f3f7dc6f0d6d39297c7d70712f814e62",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "33f972209febaa2a",
+      "title": "Friendship and Loyalty",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/007-friendship-and-loyalty.md",
+      "contentHash": "a6d30c473b1435c8aa09142e0bdcd45b0778f33c35edbeb48de0259deb5d54b4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ca02fc52608ed436",
+      "title": "Anger and Self-Control",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/008-anger-and-self-control.md",
+      "contentHash": "9675f4771ce751e91a02b5d66b80432d8ad3ae6a7a3651f1ed19f8c8f0589082",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1d1a9be4700525c6",
+      "title": "Lady Wisdom and Her House",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/009-lady-wisdom-and-her-house.md",
+      "contentHash": "eedc4d287fbeab9d107515a0d6ce0069835fa9d20e124b7f9ea0081bfb21d748",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d7ba395cb47d14d4",
+      "title": "The Strange Woman and Fidelity",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/010-the-strange-woman-and-fidelity.md",
+      "contentHash": "7a0a0384862d25a5a65afe8152bf9d64a50a782b1391b6a9c0d431ef2c5e49bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8c932da79a83a6de",
+      "title": "Kings, Justice, and Rulers",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/011-kings-justice-and-rulers.md",
+      "contentHash": "78f5fed8977933b421717775eeb536c6ec1385a0be7f2a1c5e9e47cb81e036d9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "63cdeb62d83e1895",
+      "title": "The Fear of the LORD and Trust",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/012-the-fear-of-the-lord-and-trust.md",
+      "contentHash": "64823b65288920bacd4eb897f1b342d67b2aecc5860c980627e5ca2b21c7c2d3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2e8c1467280e9feb",
+      "title": "Agur's Riddles and Creaturely Wisdom",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/013-agurs-riddles-and-creaturely-wisdom.md",
+      "contentHash": "3e9e32c8bad88b265ef6eac4f7890fa1fe97a8153d2f6f54e59c80fc3944b1d1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a861487c3fd99399",
+      "title": "The Virtuous Wife",
+      "url": null,
+      "synthesis": "content/knowledge/bible-proverbs/014-the-virtuous-wife.md",
+      "contentHash": "8fef737273fdeda9ad4920535e4ffdb11ba3f4d81cde2d6997e631fd8a05de4b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ca28263879a9c834",
+      "title": "Two Ways, and Patience with the Wicked",
+      "url": null,
+      "synthesis": "content/knowledge/bible-psalms-wisdom/001-two-ways-and-patience-with-the-wicked.md",
+      "contentHash": "b488512f586f8c44ed5e31d0e8c2ad3e1027d1e5cd4f7176ca623e27472490e9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f0489600a6af863c",
+      "title": "The Shepherd",
+      "url": null,
+      "synthesis": "content/knowledge/bible-psalms-wisdom/002-the-shepherd.md",
+      "contentHash": "d338e93f563893278104928c6be5dd72a9976c8fd9abe3227e1139bd00001fac",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dcdc0b94f167ab24",
+      "title": "Courage Against Armies and Earthquakes",
+      "url": null,
+      "synthesis": "content/knowledge/bible-psalms-wisdom/003-courage-against-armies-and-earthquakes.md",
+      "contentHash": "cc64ca9b22aec55b46cf61f485303623be8e2366c12252a0133c214f40ea9a42",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "17fbc42947049913",
+      "title": "Shelter Under the Wings",
+      "url": null,
+      "synthesis": "content/knowledge/bible-psalms-wisdom/004-shelter-under-the-wings.md",
+      "contentHash": "8322160ee9892000da58661926acc39e6cfb0c4eaf1440c53261bbb354d9dfc2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "76c5cce751c43c01",
+      "title": "Numbering Our Days",
+      "url": null,
+      "synthesis": "content/knowledge/bible-psalms-wisdom/005-numbering-our-days.md",
+      "contentHash": "54b94d5d1608c663484b3e2f9e39dd92b1b2144f6574adefa1acec50f7a49a84",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7accfa6e89165e36",
+      "title": "Mercy, and Waiting For It",
+      "url": null,
+      "synthesis": "content/knowledge/bible-psalms-wisdom/006-mercy-and-waiting-for-it.md",
+      "contentHash": "3abeed532eec5719619dd69b06c060bcb85ca36b35121271bfec9ee03000b790",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6d21a8600beb9a92",
+      "title": "The Keeper Who Does Not Sleep",
+      "url": null,
+      "synthesis": "content/knowledge/bible-psalms-wisdom/007-the-keeper-who-does-not-sleep.md",
+      "contentHash": "2eaa2a257299c97968872486cc3e922f5126d1b6567c9655fed508cfce6bde19",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "37badfeb3775af87",
+      "title": "Fully Known",
+      "url": null,
+      "synthesis": "content/knowledge/bible-psalms-wisdom/008-fully-known.md",
+      "contentHash": "b4260c99a0778bfc0197ba3ddbb46e4139265dde8960ab5c65d019ceed3f587e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "252fa7a666ae825b",
+      "title": "Where Not to Put Your Trust",
+      "url": null,
+      "synthesis": "content/knowledge/bible-psalms-wisdom/009-where-not-to-put-your-trust.md",
+      "contentHash": "633c9bc27a2c6fb2939f3a247a5d8d6bf8f2e788aebe13f8b31f533c3363c274",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a72f2a48253e3c4e",
+      "title": "The Beatitudes",
+      "url": null,
+      "synthesis": "content/knowledge/bible-sermon-on-the-mount/001-the-beatitudes.md",
+      "contentHash": "d4e47ac8943723d517a0875d8b28dd9a1c5c888bdb9749a4295938e833ea2326",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "68280d3c671148f1",
+      "title": "Salt, Light, and a Greater Righteousness",
+      "url": null,
+      "synthesis": "content/knowledge/bible-sermon-on-the-mount/002-salt-light-and-a-greater-righteousness.md",
+      "contentHash": "0ece18ffabc3d1c5771462c1eeacb1dd59b8dd8579db60acc256947afd54adfc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "36777ff684a8da0d",
+      "title": "Anger and Reconciliation",
+      "url": null,
+      "synthesis": "content/knowledge/bible-sermon-on-the-mount/003-anger-and-reconciliation.md",
+      "contentHash": "777125b96a7a05a82668d229c3cf6d8e39da7b65ab326a91d47fbb87e0b96d6a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "057c6d8e7cc18942",
+      "title": "Purity, Fidelity, and Plain Speech",
+      "url": null,
+      "synthesis": "content/knowledge/bible-sermon-on-the-mount/004-purity-fidelity-and-plain-speech.md",
+      "contentHash": "42e1dd4b498e69ddd57804be03e74e180e7c56747e9e27d81ff56425c395788f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bc208a61aaedd3ec",
+      "title": "Turning the Other Cheek and Loving Enemies",
+      "url": null,
+      "synthesis": "content/knowledge/bible-sermon-on-the-mount/005-turning-the-other-cheek-and-loving-enemies.md",
+      "contentHash": "8198128461dae02372eceae19a113e0e4279599a06803c36dad2c552b99da0fa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4b260f24bb4bebc8",
+      "title": "Private Devotion: Alms, Prayer, and Fasting",
+      "url": null,
+      "synthesis": "content/knowledge/bible-sermon-on-the-mount/006-private-devotion-alms-prayer-and-fasting.md",
+      "contentHash": "89014e83697a2b47c492443c9f8d3d2d8f0692f5fafaa65c82c7292931e4f367",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0eed9ab42834b188",
+      "title": "Treasure, Anxiety, and Trust",
+      "url": null,
+      "synthesis": "content/knowledge/bible-sermon-on-the-mount/007-treasure-anxiety-and-trust.md",
+      "contentHash": "c08bcef0f3275439aab18ea055a5d147ee4379d7b7efe73f921957cceda1108d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "05d875754fe27144",
+      "title": "Judging Others and the Golden Rule",
+      "url": null,
+      "synthesis": "content/knowledge/bible-sermon-on-the-mount/008-judging-others-and-the-golden-rule.md",
+      "contentHash": "85c9620425de1de8627dd5f273cebd8b996119a095484222aaf15d21bfef017b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d7e174f86aac124f",
+      "title": "The Narrow Gate, False Prophets, and the Two Builders",
+      "url": null,
+      "synthesis": "content/knowledge/bible-sermon-on-the-mount/009-the-narrow-gate-false-prophets-and-the-two-builders.md",
+      "contentHash": "52ee2718583a78319a09bb5f013eb3b788c9b66002ec9d07b43222a66c69da37",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

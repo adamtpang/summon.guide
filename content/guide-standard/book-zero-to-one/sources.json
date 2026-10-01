@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "guideId": "book:zero-to-one",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "90c7c2f97a764ed7",
+      "title": "Preface: Zero to One",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/000-preface-zero-to-one.md",
+      "contentHash": "d19d3bae1126368b318c1df4259e504745ed475bbf3324e0d154281b3b3ba58b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3c00801bf13acf11",
+      "title": "Chapter 1: The Challenge of the Future",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/001-the-challenge-of-the-future.md",
+      "contentHash": "c496f46b48bdc36296ff455cc46316cbafe012ae3be326df728f0b3188b795da",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ff923505822904ae",
+      "title": "Chapter 2: Party Like It's 1999",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/002-party-like-its-1999.md",
+      "contentHash": "32b9cc7f06526c50dfcad5759672740a658d0f9b5ea4ee669dc55cb422a0a6d2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "85908e8e9d54253d",
+      "title": "Chapter 3: All Happy Companies Are Different",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/003-all-happy-companies-are-different.md",
+      "contentHash": "1387a9868ff19d8675800f5b725b8b582c6851a48e8aa2c3a93a5f20954d0ebf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c4d6201ee7cc542e",
+      "title": "Chapter 4: The Ideology of Competition",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/004-the-ideology-of-competition.md",
+      "contentHash": "3242aa5bb4a0878ad887808bedb215a5fae21d83e420e76dbca6b18ee83d0f36",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e5941e6b23f6678f",
+      "title": "Chapter 5: Last Mover Advantage",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/005-last-mover-advantage.md",
+      "contentHash": "003bc76ae06461ca835753d6a978274eb69100bf635ab26e82a1cbe2b82ea7ba",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "93df7c11f0909858",
+      "title": "Chapter 6: You Are Not a Lottery Ticket",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/006-you-are-not-a-lottery-ticket.md",
+      "contentHash": "202eab6f42d3cb32a8edd4d57f287955b65ba5f552caab1458dcfb519c5c845d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c81bdf86264859a5",
+      "title": "Chapter 7: Follow the Money",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/007-follow-the-money.md",
+      "contentHash": "1576bff0f71ae3251fa8d672d3de7a597d374d84d4bd8ef0df769a12271ef4c0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ff96f9dddb39a810",
+      "title": "Chapter 8: Secrets",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/008-secrets.md",
+      "contentHash": "f7c040eed5b9317995fce81f6086249f904edcb656499cbe39d9dae484f34fa2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a87c1b275585b1bb",
+      "title": "Chapter 9: Foundations",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/009-foundations.md",
+      "contentHash": "e4be14b1c0a6c247c5069faa46cc8a7e1ac2e51105c0be49ace6d10413585021",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dc3db5f2871b6d6b",
+      "title": "Chapter 10: The Mechanics of Mafia",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/010-the-mechanics-of-mafia.md",
+      "contentHash": "a157d6e111d3a93fb59ddb8122970eb0aacedfe6ee392eaf47097a0f7668e896",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "df05a540ac675fc9",
+      "title": "Chapter 11: If You Build It, Will They Come?",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/011-if-you-build-it-will-they-come.md",
+      "contentHash": "22f920aa6da50ab499b27230eb975f003425ef97121e103008d165d1437bcfef",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "de8030d9598da6d4",
+      "title": "Chapter 12: Man and Machine",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/012-man-and-machine.md",
+      "contentHash": "a5647f039dcbdd176a1ff944fcfb05da90469e9478e69687c34f2a9e41aad9e6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cc3ac9d2e3145a11",
+      "title": "Chapter 13, Part 1: Seeing Green and the Seven Questions",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/013-seeing-green-the-seven-questions.md",
+      "contentHash": "34beac04c920f827ae21ed56640676727f1bc44698b36add2c7f091319151ba8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "18101fda26e617a2",
+      "title": "Chapter 13, Part 2: Tesla, Seven for Seven, and Energy 2.0",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/014-tesla-seven-for-seven-and-energy-2.md",
+      "contentHash": "6d599e6a585ae325fd28f523654369670a1774132a71e8beda9ae7378ce95c11",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f89fc478fe4faa91",
+      "title": "Chapter 14: The Founder's Paradox",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/015-the-founders-paradox.md",
+      "contentHash": "3669d49c8ad81f3cd4e82a9531dff18a70c48aaabb6319b2ad5cde67bdf511a1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ba9dd03aa5f4d6ec",
+      "title": "Conclusion: Stagnation or Singularity?",
+      "url": null,
+      "synthesis": "content/knowledge/zero-to-one/016-conclusion-stagnation-or-singularity.md",
+      "contentHash": "c37bf8e978501ea8a3818a0634f57933df22702173c49f40713b4c190424d10d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

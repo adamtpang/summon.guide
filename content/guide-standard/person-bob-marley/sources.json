@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:bob-marley",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "35da7ddd9b2baddd",
+      "title": "Bob Marley: music and social expression",
+      "url": "https://www.bobmarley.com/history/",
+      "synthesis": "content/knowledge/bob-marley-public-notes/001.md",
+      "contentHash": "ed16293181f5256a0b7a3f5896c201db68296cede9ad99110140228a85650323",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

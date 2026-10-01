@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "guideId": "person:lulie-tanett",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "75b5cad96b33837b",
+      "title": "Discipline Is Fighting Yourself",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/001-discipline-is-fighting-yourself.md",
+      "contentHash": "3f49947481244d5874a0c122093fb1c9b3dc0ab251c8f5ea5eb2e3570d756a23",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9b299e3e375852d0",
+      "title": "Self-Improvement Is Self-Aggression",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/002-self-improvement-is-self-aggression.md",
+      "contentHash": "3d2ca14f28eb5670cc8eeef371b5e6b3a167634dd66833867ddef52212fe2cde",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1875968bec262035",
+      "title": "The Alexander Technique Is Not About Posture",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/003-alexander-technique-not-posture.md",
+      "contentHash": "2e33ea8504c4d1c7688fc0bca30a1c62f890d7212e580733e5559450c72a2051",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "973d7bd0f63092d0",
+      "title": "Why People Get Stuck: Coercive Scripts",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/004-why-people-get-stuck-coercive-scripts.md",
+      "contentHash": "f350bea1c7d3238e33bbbf27f5fc8fedd308debba9490d725059b3e8289402a9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "65c592753751fffc",
+      "title": "Coercion Can't Make You Think Particular Things",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/005-coercion-cant-make-you-think.md",
+      "contentHash": "b4772bdaad16b45205bd428d74f785327501cfceff084798b03a1c1f130a55db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b84b3e28a70ca1d3",
+      "title": "The Fun Criterion",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/006-the-fun-criterion.md",
+      "contentHash": "9c4692d0dc5ee422ec7edb1d8a5a84de435c8181f13a504f7da7de24864b75ce",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2ee6439b9fd07b67",
+      "title": "How Knowledge Works",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/007-how-knowledge-works.md",
+      "contentHash": "137228f0ca9edfb4411607550d770483adb0a8232fb13906b895b595f5ff481d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "92971201eb81ec7b",
+      "title": "Answers: A Worldview in Q&A",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/008-answers-a-worldview-in-qa.md",
+      "contentHash": "433ecdaac3748aec62a53c19b2af3601584d4d4335c1cd2cc9aedb6dd7eccbd1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "927227e761d081f0",
+      "title": "Genes Don't Control People",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/009-genes-dont-control-people.md",
+      "contentHash": "1763c03494b824a119184b7c109208f63b6b0dcff1b69933dbeab3addac81169",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a914d7b04a8d0d04",
+      "title": "Capitalistmas Tree (Satire)",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/010-capitalistmas-tree.md",
+      "contentHash": "3193647b31a524ff1265f3111965abe73a6cf525a4fec8fe701361b5d1bd1386",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e66507b86f1165c4",
+      "title": "Open Problems",
+      "url": null,
+      "synthesis": "content/knowledge/reason-is-fun-essays/011-open-problems.md",
+      "contentHash": "e0e209ef68718f020f37fd81edb19b8e02b8cbd7a4b2d62988eaa47bacd701f2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

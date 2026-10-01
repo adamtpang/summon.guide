@@ -1,0 +1,293 @@
+{
+  "date": "2026-09-20T13:00:32.451Z",
+  "sample": "12 synthetic single-topic examples, one batch per model",
+  "examples": [
+    {
+      "id": "s01",
+      "description": "A furniture retailer teaches purchasing, low overhead and honest prices.",
+      "expected": "business"
+    },
+    {
+      "id": "s02",
+      "description": "A startup founder teaches customer interviews and launching a product.",
+      "expected": "business"
+    },
+    {
+      "id": "s03",
+      "description": "A fund manager teaches valuation and allocating capital to securities.",
+      "expected": "investing"
+    },
+    {
+      "id": "s04",
+      "description": "A household finance coach teaches budgeting and debt repayment.",
+      "expected": "investing"
+    },
+    {
+      "id": "s05",
+      "description": "A Stoic philosopher teaches virtue, mortality and ethical living.",
+      "expected": "philosophy"
+    },
+    {
+      "id": "s06",
+      "description": "An animator teaches characters, scenes and playful creative experiments.",
+      "expected": "creativity"
+    },
+    {
+      "id": "s07",
+      "description": "A writer teaches narrative craft and revising fictional stories.",
+      "expected": "creativity"
+    },
+    {
+      "id": "s08",
+      "description": "A productivity author teaches focused work, time management and habits.",
+      "expected": "effectiveness"
+    },
+    {
+      "id": "s09",
+      "description": "A physicist teaches experiments and scientific explanations.",
+      "expected": "science"
+    },
+    {
+      "id": "s10",
+      "description": "A prime minister teaches public institutions and governing a country.",
+      "expected": "leadership"
+    },
+    {
+      "id": "s11",
+      "description": "A community builder teaches making friends and sustaining relationships.",
+      "expected": "relationships"
+    },
+    {
+      "id": "s12",
+      "description": "An athlete teaches training, recovery and physical performance.",
+      "expected": "wellbeing"
+    }
+  ],
+  "jev": {
+    "answers": {
+      "s01": {
+        "type": "choice",
+        "choice": "business",
+        "probabilities": {
+          "wellbeing": 0,
+          "relationships": 0,
+          "philosophy": 0,
+          "investing": 0.01,
+          "leadership": 0,
+          "effectiveness": 0,
+          "science": 0,
+          "creativity": 0,
+          "business": 0.99
+        },
+        "confidence": 0.99
+      },
+      "s02": {
+        "type": "choice",
+        "choice": "business",
+        "probabilities": {
+          "wellbeing": 0,
+          "relationships": 0,
+          "philosophy": 0,
+          "investing": 0,
+          "leadership": 0,
+          "effectiveness": 0,
+          "science": 0,
+          "creativity": 0,
+          "business": 1
+        },
+        "confidence": 1
+      },
+      "s03": {
+        "type": "choice",
+        "choice": "investing",
+        "probabilities": {
+          "wellbeing": 0,
+          "relationships": 0,
+          "philosophy": 0,
+          "investing": 1,
+          "leadership": 0,
+          "effectiveness": 0,
+          "science": 0,
+          "creativity": 0,
+          "business": 0
+        },
+        "confidence": 1
+      },
+      "s04": {
+        "type": "choice",
+        "choice": "investing",
+        "probabilities": {
+          "relationships": 0,
+          "wellbeing": 0,
+          "philosophy": 0,
+          "investing": 1,
+          "leadership": 0,
+          "effectiveness": 0,
+          "science": 0,
+          "creativity": 0,
+          "business": 0
+        },
+        "confidence": 1
+      },
+      "s05": {
+        "type": "choice",
+        "choice": "philosophy",
+        "probabilities": {
+          "relationships": 0,
+          "wellbeing": 0,
+          "philosophy": 1,
+          "investing": 0,
+          "leadership": 0,
+          "effectiveness": 0,
+          "science": 0,
+          "creativity": 0,
+          "business": 0
+        },
+        "confidence": 1
+      },
+      "s06": {
+        "type": "choice",
+        "choice": "creativity",
+        "probabilities": {
+          "relationships": 0,
+          "wellbeing": 0,
+          "philosophy": 0,
+          "investing": 0,
+          "leadership": 0,
+          "effectiveness": 0,
+          "science": 0,
+          "creativity": 1,
+          "business": 0
+        },
+        "confidence": 1
+      },
+      "s07": {
+        "type": "choice",
+        "choice": "creativity",
+        "probabilities": {
+          "wellbeing": 0,
+          "relationships": 0,
+          "philosophy": 0,
+          "investing": 0,
+          "leadership": 0,
+          "effectiveness": 0,
+          "science": 0,
+          "creativity": 1,
+          "business": 0
+        },
+        "confidence": 1
+      },
+      "s08": {
+        "type": "choice",
+        "choice": "effectiveness",
+        "probabilities": {
+          "wellbeing": 0,
+          "relationships": 0,
+          "philosophy": 0,
+          "investing": 0,
+          "leadership": 0,
+          "effectiveness": 1,
+          "science": 0,
+          "creativity": 0,
+          "business": 0
+        },
+        "confidence": 1
+      },
+      "s09": {
+        "type": "choice",
+        "choice": "science",
+        "probabilities": {
+          "relationships": 0,
+          "wellbeing": 0,
+          "philosophy": 0,
+          "investing": 0,
+          "leadership": 0,
+          "effectiveness": 0,
+          "science": 1,
+          "creativity": 0,
+          "business": 0
+        },
+        "confidence": 1
+      },
+      "s10": {
+        "type": "choice",
+        "choice": "leadership",
+        "probabilities": {
+          "relationships": 0,
+          "wellbeing": 0,
+          "philosophy": 0,
+          "investing": 0,
+          "leadership": 1,
+          "effectiveness": 0,
+          "science": 0,
+          "creativity": 0,
+          "business": 0
+        },
+        "confidence": 1
+      },
+      "s11": {
+        "type": "choice",
+        "choice": "relationships",
+        "probabilities": {
+          "wellbeing": 0,
+          "relationships": 1,
+          "philosophy": 0,
+          "investing": 0,
+          "leadership": 0,
+          "effectiveness": 0,
+          "science": 0,
+          "creativity": 0,
+          "business": 0
+        },
+        "confidence": 1
+      },
+      "s12": {
+        "type": "choice",
+        "choice": "wellbeing",
+        "probabilities": {
+          "relationships": 0,
+          "wellbeing": 1,
+          "philosophy": 0,
+          "investing": 0,
+          "leadership": 0,
+          "effectiveness": 0,
+          "science": 0,
+          "creativity": 0,
+          "business": 0
+        },
+        "confidence": 1
+      }
+    },
+    "usage": {
+      "input_tokens": 3647,
+      "output_tokens": 1124,
+      "cost": 0.000153174
+    },
+    "latencyMs": 993,
+    "correct": 12,
+    "misses": []
+  },
+  "incumbent": {
+    "answers": {
+      "s01": "business",
+      "s02": "business",
+      "s03": "investing",
+      "s04": "investing",
+      "s05": "philosophy",
+      "s06": "creativity",
+      "s07": "creativity",
+      "s08": "effectiveness",
+      "s09": "science",
+      "s10": "leadership",
+      "s11": "relationships",
+      "s12": "wellbeing"
+    },
+    "latencyMs": 8545,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "cost": null,
+    "costNote": "Existing completeOpenRouter wrapper does not expose usage cost.",
+    "correct": 12,
+    "misses": []
+  },
+  "passed": true
+}

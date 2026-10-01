@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "guideId": "book:why-software-is-eating-the-world",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "90d56d433cd438d3",
+      "title": "The Thesis and Why Now",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/001-the-thesis-and-why-now.md",
+      "contentHash": "d0fa28ba9eaf10fe2b8656468535c621bf9841574aae22cd95d532becdb0c9db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b8a418b01413d3f3",
+      "title": "Entertainment and Media Fall First",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/002-entertainment-and-media-fall-first.md",
+      "contentHash": "892f62ab58b588009b664836f36d4a016fac0b80bed4473ba95b6677f5c8cfce",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "510d160dabc07edb",
+      "title": "Commerce, Marketing, and Telecom Get Rewired",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/003-commerce-marketing-and-telecom.md",
+      "contentHash": "0e0a46ff54deb0466b8d72b222208f0a9e99f6255379a6433185686b272ac763",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cb8b8db65e6bcb46",
+      "title": "Software Eats the Physical Industries",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/004-software-eats-the-physical-industries.md",
+      "contentHash": "8975afa127863d84493bc98b4c7d8d5baf5beb8b77228a7d7b98b7e0f015d8a5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ff25a78132eb1fe7",
+      "title": "Healthcare, Education, and National Security Are Next",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/005-healthcare-education-and-national-security.md",
+      "contentHash": "de73a88f93270a1a17d5c325be05c970a366e3d720ae285817eb35176911ee4e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5b8d7d7d34de3d12",
+      "title": "The Risks Ahead and the Closing Argument",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/006-risks-ahead-and-the-closing-argument.md",
+      "contentHash": "2b1ea6668aaf3f28965334853895e51a994c80965c96946ba7a9d3b9b1836e00",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

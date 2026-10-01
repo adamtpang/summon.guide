@@ -4,8 +4,29 @@
     {
       "name": "legends-dev",
       "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
-      "runtimeArgs": ["node_modules/next/dist/bin/next", "dev"],
+      "runtimeArgs": [
+        "node_modules/next/dist/bin/next",
+        "dev"
+      ],
       "autoPort": true
+    },
+    {
+      "name": "call-mode",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/c",
+        "cd /d C:\\Users\\adamp\\Aether\\summon-call && set SUMMON_DEV_TEST_USER=local-test-user&& npx next dev --webpack -p 3135"
+      ],
+      "port": 3135
+    },
+    {
+      "name": "perfect",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/c",
+        "cd /d C:\\Users\\adamp\\Aether\\summon-skills && npx next dev --webpack -p 3140"
+      ],
+      "port": 3140
     }
   ]
 }

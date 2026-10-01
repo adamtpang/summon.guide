@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "guideId": "book:poor-charlies-almanack",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "250cc169c2c2fc8a",
+      "title": "Introduction by Peter D. Kaufman",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/001-introduction-by-peter-kaufman.md",
+      "contentHash": "bed5ecf9b94f05a7bb0d3f7d131757e4e4ee48da4134b80f6a977aefa131ac69",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "507fb321392a81ef",
+      "title": "A Portrait of Charles T. Munger",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/002-a-portrait-of-charles-t-munger.md",
+      "contentHash": "80374c00f7af2c7a7c46908b1b9db0e899a14a2b51d3a9b2c8d7569b443e639a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d215c7af73a8ec61",
+      "title": "Praising Old Age",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/003-praising-old-age.md",
+      "contentHash": "941e74dbf011bab3a9d92568ae97fee1948c945b4171358a9857f5000fbdd1a2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5750874c0c4a47fa",
+      "title": "Remembering: The Children on Charlie, and Friends Have Their Say",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/004-remembering-the-children-on-charlie.md",
+      "contentHash": "ed31aee02dc5c567759be284e313960374e436bc22e743cd9c1f5ee55fb86b9e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bfa9f85d083fefda",
+      "title": "The Munger Approach to Life, Learning, and Decision Making",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/005-the-munger-approach-to-life-learning-and-decision-making.md",
+      "contentHash": "6dcfaabd0cd80718073418dabecee83dfd11813240135007cb12afd37fe0d1c2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8cc66efe3440a945",
+      "title": "Mungerisms: Charlie Unscripted",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/006-mungerisms-charlie-unscripted.md",
+      "contentHash": "71a6667158a42f9174392f1de89442a6b2df79de29f582e3d3d884e0fc1d8913",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1a9056068e64c6b1",
+      "title": "Talk One: Harvard School Commencement Speech (1986)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/007-talk-one-harvard-school-commencement-speech.md",
+      "contentHash": "5a6930f0dcb109c8fa79b5d166ec929ff3a21fc2bf44bc67aa877e58902e3459",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f2b9cb205b9caa04",
+      "title": "Talk Two: A Lesson on Elementary, Worldly Wisdom (Part 1, The Mental Models)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/008-talk-two-elementary-worldly-wisdom-part-1.md",
+      "contentHash": "147dbbc869eb14354fd577626a38d136cb718e2e6f93bc844dbf39a92da9c65f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "44083b5795c0268f",
+      "title": "Talk Two: A Lesson on Elementary, Worldly Wisdom (Part 2, From Models to Stock Picking)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/009-talk-two-elementary-worldly-wisdom-part-2.md",
+      "contentHash": "cd072183b60bb9102f88c39a8de004bfbd893300f192d764d106bc3affdb65cd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "70240a300eb96c2a",
+      "title": "Talk Three: A Lesson on Elementary, Worldly Wisdom, Revisited (Part 1, The Lecture)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/010-talk-three-worldly-wisdom-revisited-part-1.md",
+      "contentHash": "f1fd357b3ada1c564def3a0fafc111fae9c44f8382fa9cdcabadb926371ea7d2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7d91cd5a0d11e048",
+      "title": "Talk Three: A Lesson on Elementary, Worldly Wisdom, Revisited (Part 2, The Stanford Q&A)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/011-talk-three-worldly-wisdom-revisited-part-2-qa.md",
+      "contentHash": "4e1a0cca235278f60c45076a0cae78246d7dd7a9c1737f4a69ea42b7aa45a5bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "07ce9f43305245e6",
+      "title": "Talk Four: Practical Thought About Practical Thought?",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/012-talk-four-practical-thought-about-practical-thought.md",
+      "contentHash": "f9ce3213ec2e899f1d4887b7baa6fc0ecadd081b4dace77833a1dfc33a4580a7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "87f1367f78c890bb",
+      "title": "Talk Five: The Need for More Multidisciplinary Skills from Professionals",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/013-talk-five-multidisciplinary-skills-for-professionals.md",
+      "contentHash": "d49fa04fdc8ccd8502d8e035d4727a80602d4f2c4f25732e80c775b157a60837",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fc2c7f7a32893864",
+      "title": "Talk Six: Investment Practices of Leading Charitable Foundations",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/014-talk-six-investment-practices-of-leading-charitable-foundations.md",
+      "contentHash": "978cca658a637035e291f53f7e72f37f6332e5a35a5e7d10f0b0bd0511365e52",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "67d35524469564b1",
+      "title": "Talk Seven: The Philanthropy Roundtable, Wealth Effects and Febezzlement",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/015-talk-seven-philanthropy-roundtable-febezzlement.md",
+      "contentHash": "fc04097a1ff3da089db6c2043065e6ac00a8768021aebd482eb696bc191baa86",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1b2f595dcdd3f071",
+      "title": "Talk Eight: The Great Financial Scandal of 2003",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/016-talk-eight-the-great-financial-scandal-of-2003.md",
+      "contentHash": "f4ddc3234cef4f5658502e67772b468feb9728690bea13779de2330148f3db63",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e9fefbd1a8274a2f",
+      "title": "Talk Nine: Academic Economics (Part 1, Five Defects and Two Microeconomic Puzzles)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/017-talk-nine-academic-economics-part-1.md",
+      "contentHash": "6afa732fe1ca3b8432ea5a3969b1fa5e295bea36b88036e442ee4e9c18b46772",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b392b93633a27115",
+      "title": "Talk Nine: Academic Economics (Part 2, Psychology, Second-Order Effects, and Virtue)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/018-talk-nine-academic-economics-part-2.md",
+      "contentHash": "60c2ffb951583616220bd070f9c91107d59223c460943047efa02a6b04aa9f66",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "55eb9736662e10c0",
+      "title": "Talk Ten: USC Gould School of Law Commencement Address (2007)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/019-talk-ten-usc-gould-school-of-law-commencement-address.md",
+      "contentHash": "222f628c96dd825b1cd65d3ef4671d2f4bc0a6d7f3af2863f6ddf8e213d54955",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "34b317f7ea6cf97d",
+      "title": "Talk Eleven: The Psychology of Human Misjudgment (Part 1, Tendencies One Through Nine)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/020-talk-eleven-psychology-of-human-misjudgment-part-1.md",
+      "contentHash": "9eed5f2eb4c83b6a5685e98ea9069fb2d0198549c234f213eeec9fb894745339",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8f86954db3b1bc5b",
+      "title": "Talk Eleven: The Psychology of Human Misjudgment (Part 2, Tendencies Ten Through Twenty-Five)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/021-talk-eleven-psychology-of-human-misjudgment-part-2.md",
+      "contentHash": "41c52907909b147a278a39f8167beb018bc1f0c047a8f5c544f4ee15268159cc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4a47cedc31c721cf",
+      "title": "Talk Eleven: The Psychology of Human Misjudgment (Part 3, Q&A, Reflections, and the Book's Closing Note)",
+      "url": null,
+      "synthesis": "content/knowledge/poor-charlies-almanack/022-talk-eleven-psychology-of-human-misjudgment-part-3-qa-and-closing.md",
+      "contentHash": "3c019f2471c1b25bb68260dc7b05fbc582447f1166f97c814bcfb36f0769d759",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

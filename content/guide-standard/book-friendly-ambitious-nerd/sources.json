@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "guideId": "book:friendly-ambitious-nerd",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "919a5df49d840043",
+      "title": "Introduction: About Me, and the One-Page Summary",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/000-introduction.md",
+      "contentHash": "a026de343e40d69d91eda560ef7ab468b6521aac7b32b6fa3bb6f791e61e237c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1635baf24b5d1eb3",
+      "title": "The Meaning of Life Is Friends",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/001-the-meaning-of-life-is-friends.md",
+      "contentHash": "b7134d25ccf63bf3cce22f505aedef906b1885fce0274a4931977163a5b6b47b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "71eddeab24cc17b9",
+      "title": "Feel Your Feelings, and Empty Your Cup",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/002-feel-your-feelings-and-empty-your-cup.md",
+      "contentHash": "e2f31142de7180fbd29c41fa951c75c15a230a7d09c573723c2105473d64a00b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "299b2b1752729671",
+      "title": "Being Smart vs. Being Kind, and a Table of My Own",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/003-being-smart-vs-being-kind.md",
+      "contentHash": "f18e13e39586558cc55481c053c56a029f4b06f3ea5c8a5a69dd1a424d1056d1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7f72997726ac1252",
+      "title": "We Can Take Turns, Good Reply Game, and Good Questions",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/004-good-reply-game-and-good-questions.md",
+      "contentHash": "93caef3d50ae3cb26c99f0db1c5349ac6aea51309acc97bf3ab294c183ad1c55",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dc084da90ef09290",
+      "title": "Parents, Peers, and the Creation of Scenes",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/005-parents-peers-and-scenes.md",
+      "contentHash": "c7500fb02141487a984cb6dc12da28a3761b3675615d870b7fda84dd69d2e3db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bb281cd4c817aa0c",
+      "title": "Marriage and Romantic Relationships",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/006-marriage-and-romantic-relationships.md",
+      "contentHash": "2d1ea286294f264805e63583645c29b998b1b50a5049830ba4f71e26b1608f0d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9aa0ffaccf1d1009",
+      "title": "Flirting and Playfulness, and the Shadow World of Social Reality",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/007-flirting-and-the-shadow-world-of-social-reality.md",
+      "contentHash": "664db216f8a975ad56aed1e777b450c0e1260ee200e20f3f53900abf6fcd1832",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "743048619de45236",
+      "title": "Managing Disagreements Requires Context-Sensitivity",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/008-disagreement-and-context.md",
+      "contentHash": "bc49bf9d145c3bebda02df5d4b8aa0d3fe92ad9b6ab6d94fcf72dc5f47dac3e8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "43ec25566621263c",
+      "title": "Dealing with Assholes and Contempt, and What Makes a Good Community",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/009-assholes-contempt-and-communities.md",
+      "contentHash": "cb696a24d8bec5f2005b796dbbae15dc3e8f6dfb5aee3c52cf2746dd7e98bbbc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a177d19d2b0df88a",
+      "title": "Ambition Is Not About Accolades, and Imagination Deficits",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/010-ambition-is-not-about-accolades.md",
+      "contentHash": "b2d79b3da3d81ef3cb4e90b19b680c0d52264c07a5ef904dcbbc36c374d347ec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e6dd78b846f7d274",
+      "title": "Be So Prolific You Don't Recognize Yourself, and Always Be Seeking New Friends",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/011-be-prolific-and-seek-new-friends.md",
+      "contentHash": "c1b1ae3d24e5737dc30c068c4383a19e322b123fd0e962453be40ef17f6626ff",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7dd9ab343f4734d0",
+      "title": "You Can't Think Your Way Out of a Courage Deficit, and Be Wary of Hotheads",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/012-courage-and-hotheads.md",
+      "contentHash": "49aa1156284e2ac839c0b9cbe90bf96f8b96719b5bb866e34356e46e8f7a27a7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9107ea7067d5788d",
+      "title": "Consider Our Nerdy Predecessors, and I Was Raised by Libraries",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/013-nerdy-predecessors-and-libraries.md",
+      "contentHash": "644a4deb5ef8802746f05f01eb8f40b96048f899e9ddd609d8f24d9fa6ce5251",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6784b6aeda166c0c",
+      "title": "Take Notes, and Cultivate and Gratify Your Taste",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/014-take-notes-and-cultivate-your-taste.md",
+      "contentHash": "2749e45ab714a50d045eb710e5ed8e93b92b635175415a41625f648de519d557",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "edce9e0486afd723",
+      "title": "Be Precise, and How I Deal with My ADHD",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/015-be-precise-and-how-i-deal-with-adhd.md",
+      "contentHash": "07f723a0fda3ab89c825804653d57b2b05566987ce3c9d3d3d1b957c6cb90b9d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2eae4081aa279efa",
+      "title": "Pay It Forward, and Closing Thoughts",
+      "url": null,
+      "synthesis": "content/knowledge/friendly-ambitious-nerd/016-pay-it-forward-and-closing-thoughts.md",
+      "contentHash": "214012f8814eb9a336edfc5ecdc154ec6983703b7a740be1dbbfefdf2561e61c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

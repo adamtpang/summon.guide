@@ -16,3 +16,16 @@ If the roster lacks expertise, the host researches a candidate and gives explici
 Optional authenticated features remain unchanged: /api/summon/match, /api/summon/research, /api/chat, /api/chat/source and /api/mcp. They require Summon authentication and may consume membership allowance. Server onboarding is a separate explicit action; default skill use never blocks on it.
 
 Validation: `node --import ./scripts/node-server-shim.mjs --test scripts/public-guide.test.mjs scripts/summon-guide.test.mjs scripts/summon-skill.test.mjs`.
+
+
+## Personalized advice and Rose starter (2026-09-20)
+
+The global skill now supports `summon-guide Rose Blumkin: use my current life context` inside themain.quest or another authorized project. The host reads relevant current context, resolves stale facts against explicit corrections, and preserves constraints, values, attempts and deferred choices. It does not need to send a life-context notice or open Summon's website.
+
+`packs/summon-guide/scripts/prepare.mjs` validates the host-extracted structured brief, retrieves public notes using generic topics only, and returns a local advice packet. It performs no semantic extraction or generation itself, writes no personal files, and does not read arbitrary projects. The helper accepts Rose Blumpkin as an alias for Rose Blumkin.
+
+Rose is usable immediately through two bundled, cited Buffett-letter syntheses when her profile is absent from production. The packet explicitly reports this as bundled starter evidence, not live retrieval or a completed corpus. Live evidence is preferred when available. This is limited business and customer-value material, not broad expertise in every life problem. The guide must acknowledge a poor fit rather than prescribe retail principles for everything.
+
+Installed and byte-verified in the user's .codex, .claude and .agents skill directories. Five context/privacy/error-path tests, skill validation, focused ESLint and a live public-API preparation smoke pass. The default helper never sends the private brief to Summon; the current host still processes it normally. No production deployment or remote profile publication was performed.
+
+Validation: `node --test scripts/summon-context.test.mjs`.

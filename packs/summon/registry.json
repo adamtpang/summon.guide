@@ -332,6 +332,12 @@
       "availability": "ready"
     },
     {
+      "slug": "rose-blumkin",
+      "name": "Rose Blumkin",
+      "kind": "person",
+      "availability": "ready"
+    },
+    {
       "slug": "sam-walton",
       "name": "Sam Walton",
       "kind": "person",
@@ -539,7 +545,7 @@
       "slug": "pendleton-ward-selected-interviews",
       "name": "Pendleton Ward: Selected Public Interviews",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "poor-charlies-almanack",

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "guideId": "person:luigi-cornaro",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "f0b76eb32064bbb9",
+      "title": "Treatise on a Sober Life, anger, grief and lawsuits, 1558",
+      "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html",
+      "synthesis": "content/knowledge/luigi-cornaro/1558-anger-and-the-mind.md",
+      "contentHash": "27c1f6d0c49e026e6f462d8af0548ce312a94f15b49d77a5ae1b0a3ee38f8112",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8791da2447845250",
+      "title": "Treatise on a Sober Life, the collapse and the turn, 1558",
+      "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html",
+      "synthesis": "content/knowledge/luigi-cornaro/1558-collapse-and-turn.md",
+      "contentHash": "a69a95a150a7a233f7ddf1a4bfb71d34a200e83d5620772b1321d7cbb91721c6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d68b9a75c832561a",
+      "title": "An Earnest Exhortation, the claim of a peaceful old age, c. 1558",
+      "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html",
+      "synthesis": "content/knowledge/luigi-cornaro/1558-earnest-exhortation.md",
+      "contentHash": "1c5f830ae57b5a368bd083c9e55d8c07a6ad69c6a27d92c6a2cb09fb0c8c9631",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "84174ac34b1caebd",
+      "title": "Treatise on a Sober Life, family pressure and a setback, 1558",
+      "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html",
+      "synthesis": "content/knowledge/luigi-cornaro/1558-family-pressure-and-setback.md",
+      "contentHash": "a459548cf96edb02783291538af02fb1c58ff1fb2fe654cebdcc15e2030c68df",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "91ac8b827ac432be",
+      "title": "Letter to Barbaro, answering the skeptics, undated",
+      "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html",
+      "synthesis": "content/knowledge/luigi-cornaro/1558-letter-to-barbaro.md",
+      "contentHash": "e1f0a3c6203760cda6a3fd93ec94b789fe7e8c5028d6f6824397faaffa4752e1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b58a92efac70ec55",
+      "title": "Treatise on a Sober Life, a full day in old age, 1558",
+      "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html",
+      "synthesis": "content/knowledge/luigi-cornaro/1558-purpose-in-old-age.md",
+      "contentHash": "a9ecbb09752893c68e0afb07eb7be6720044539c0a8233a904e4c0c99914149d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8e117b6eed253efe",
+      "title": "Compendium of a Sober Life, mending a weak constitution, 1558",
+      "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html",
+      "synthesis": "content/knowledge/luigi-cornaro/1558-quality-quantity-compendium.md",
+      "contentHash": "c104b5805da66e175766b03539fbf33f03b9d881956af08c8dc6ee9650ec4b93",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8bbdd531283b71e1",
+      "title": "Treatise on a Sober Life, testing what agrees with you, 1558",
+      "url": "https://www.gutenberg.org/cache/epub/30660/pg30660-images.html",
+      "synthesis": "content/knowledge/luigi-cornaro/1558-what-pleases-the-palate.md",
+      "contentHash": "700faf00579277ba949de3dfc3bfbd15af5d569686ddc9aeb3027804eaa8e8c8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

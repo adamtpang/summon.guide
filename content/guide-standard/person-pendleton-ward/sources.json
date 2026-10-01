@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "guideId": "person:pendleton-ward",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "8064ed93213c4484",
+      "title": "Pendleton Ward: rounded characters",
+      "url": "https://www.wired.com/2012/03/adventure-times-pen-ward/",
+      "synthesis": "content/knowledge/pendleton-ward-public-notes/001.md",
+      "contentHash": "7c73709c527c12939cf4d4d2ff18c61f87987b38ec7f4c1051736c2924f18f7d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a6d723b819e47b52",
+      "title": "Pendleton Ward: a workplace that supports play",
+      "url": "https://www.themarysue.com/pendleton-ward-interview/",
+      "synthesis": "content/knowledge/pendleton-ward-public-notes/002.md",
+      "contentHash": "7c51cbe9f5cca372ac940ac80ec28c0bb34a1a08ce4bb9def3af185e1eeb04ec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c25d5bb090c04c15",
+      "title": "Pendleton Ward: practicing kindness",
+      "url": "https://comicbook.com/tv-shows/news/the-midnight-gospel-pen-ward-interview-netflix/",
+      "synthesis": "content/knowledge/pendleton-ward-public-notes/003.md",
+      "contentHash": "1f936f74219ba5814c651a6442c1558b3c67c413c3eef306fbc8d3f9b8318cfe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

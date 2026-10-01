@@ -1,0 +1,2141 @@
+{
+  "version": 1,
+  "guideId": "person:senra",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "774f435f7ef9cb4d",
+      "title": "How Elon Works",
+      "url": "https://www.youtube.com/watch?v=aStHTTPxlis",
+      "synthesis": "content/knowledge/founders/001-how-elon-works.md",
+      "contentHash": "f91ee34eea525037d910e2a762cbbcf8fe84b8cab584e562329eb37a36bda7b3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b4b1bf38b9f35370",
+      "title": "How Jensen Works",
+      "url": "https://www.youtube.com/watch?v=Sywq2Ua4GXw",
+      "synthesis": "content/knowledge/founders/002-how-jensen-works.md",
+      "contentHash": "f2427d6ec266588cbf3dbc136f9f529a10bc9c86f5900d129f1485f0650d28ef",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "364b294259d51fd4",
+      "title": "How Rockefeller Worked",
+      "url": "https://www.youtube.com/watch?v=M_TiZJapSLw",
+      "synthesis": "content/knowledge/founders/003-how-rockefeller-worked.md",
+      "contentHash": "2d3dcff20366f8ce01178bd48118e2efe21b2d317190b91050d7f1051516fbec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "57b5a3301a3402e0",
+      "title": "John D  Rockefeller: 38 Letters Rockefeller Wrote to His Son",
+      "url": "https://www.youtube.com/watch?v=wLWBzHbD9jg",
+      "synthesis": "content/knowledge/founders/004-john-d-rockefeller-38-letters-rockefeller-wrote-to-his-son.md",
+      "contentHash": "49572bce38df7757d0440fd814ff1fd003cf0047592b268ae93a67b4843ca3fe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bec04a1401731fbb",
+      "title": "The Billionaire Who Automates Everything: Thomas Peterffy",
+      "url": "https://www.youtube.com/watch?v=Q5WIv9vGKpA",
+      "synthesis": "content/knowledge/founders/005-the-billionaire-who-automates-everything-thomas-peterffy.md",
+      "contentHash": "541ac19f9fb5240abee8b308239cf6cdb5771f5a2c8718aad2f29b62a0880ad9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3168b30be5e97438",
+      "title": "How Bill Gates Works",
+      "url": "https://www.youtube.com/watch?v=IMXm123V3Co",
+      "synthesis": "content/knowledge/founders/006-how-bill-gates-works.md",
+      "contentHash": "cef656ae91799d0659132b5282d23de7e84fdf7c4c169712244a5a46a0cbddaf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3ac8e5fa18fa16b5",
+      "title": "Steve Jobs In His Own Words (Make Something Wonderful)",
+      "url": "https://www.youtube.com/watch?v=zGEOQ6I2Sv4",
+      "synthesis": "content/knowledge/founders/007-steve-jobs-in-his-own-words-make-something-wonderful.md",
+      "contentHash": "0aadf49a591ef2f16e108567eb49863670dc2de7f9b4025a20eee343aef01a48",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6535f4f7371e4171",
+      "title": "Peter Thiel on How to Build a Creative Monopoly",
+      "url": "https://www.youtube.com/watch?v=b9tB9Q1XOM0",
+      "synthesis": "content/knowledge/founders/008-peter-thiel-on-how-to-build-a-creative-monopoly.md",
+      "contentHash": "58d0baac6941d1c773a6b27caeb4386374b84dcb86ac0e682f059fa23e4e05a9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "613cf1fbce7412a4",
+      "title": "How Elon Thinks",
+      "url": "https://www.youtube.com/watch?v=nqiuSshC9GA",
+      "synthesis": "content/knowledge/founders/009-how-elon-thinks.md",
+      "contentHash": "ddbccead76348fb37826eba559365f7090901653598282492ee5655aa33a0ce3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5b743986ba22c247",
+      "title": "How Larry Ellison Thinks",
+      "url": "https://www.youtube.com/watch?v=z__KpHVSglE",
+      "synthesis": "content/knowledge/founders/010-how-larry-ellison-thinks.md",
+      "contentHash": "8ab97c82332b89dc8a6aebe285982f3c38b3a3f25955af01c25c7e1d2d2bbd75",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "85bb9cd9c0ba44c5",
+      "title": "400 Pages of Warren Buffett and Charlie Munger In Their Own Words",
+      "url": "https://www.youtube.com/watch?v=t47NBQqlzbk",
+      "synthesis": "content/knowledge/founders/011-400-pages-of-warren-buffett-and-charlie-munger-in-their-own-.md",
+      "contentHash": "c257bcc1e58c874e3c86fea5bf07b9cf6d0fe2e8a0268202d1557ef70d810931",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d66f5cf787f12869",
+      "title": "How SpaceX Works",
+      "url": "https://www.youtube.com/watch?v=owZ6xh_gOdY",
+      "synthesis": "content/knowledge/founders/012-how-spacex-works.md",
+      "contentHash": "d17074700a594434587d8de7a886f896da087b863d139dd1a98c93379ce1496c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "df1eb24d9fa54541",
+      "title": "Lessons from Jeff Bezos's Shareholder Letters",
+      "url": "https://www.youtube.com/watch?v=zt9e6vVBdP4",
+      "synthesis": "content/knowledge/founders/013-lessons-from-jeff-bezoss-shareholder-letters.md",
+      "contentHash": "1a26871d0550477c947faf961a37d14be822c1aea5634f76cd752f2cddb2a70d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0d757321889c4f3b",
+      "title": "The Stubborn Genius of James Dyson",
+      "url": "https://www.youtube.com/watch?v=hagy0fhiPpY",
+      "synthesis": "content/knowledge/founders/014-the-stubborn-genius-of-james-dyson.md",
+      "contentHash": "4172e6c1cda644959014f625f724bc92b2b225e7b43159788c99aaf41e9c686a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4efa624d58a49d87",
+      "title": "Li Lu and Charlie Munger and Warren Buffett",
+      "url": "https://www.youtube.com/watch?v=8TnhiapOfpE",
+      "synthesis": "content/knowledge/founders/015-li-lu-and-charlie-munger-and-warren-buffett.md",
+      "contentHash": "cc19abbec9c8ca0a8058a000fba3b2654b824143b505cea9ff12f79f547ffd21",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c667a314804e6b91",
+      "title": "How Roger Federer Works.",
+      "url": "https://www.youtube.com/watch?v=g2-duG1-Jxc",
+      "synthesis": "content/knowledge/founders/016-how-roger-federer-works.md",
+      "contentHash": "557d01a0fdc7b34e53c7b92edb8811aaae07cce60da55d040208036e5efff21d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "287699666cc28b24",
+      "title": "Napoleon (The Mind of Napoleon)",
+      "url": "https://www.youtube.com/watch?v=AuRDLXuLZE8",
+      "synthesis": "content/knowledge/founders/017-napoleon-the-mind-of-napoleon.md",
+      "contentHash": "ec8202ba4ed7240f873e0dcf8272217747b74d9b25b3593b653bc94358f51b42",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "40bd0f963aa15265",
+      "title": "The Life of Jesus",
+      "url": "https://www.youtube.com/watch?v=F1lmA_bYZow",
+      "synthesis": "content/knowledge/founders/018-the-life-of-jesus.md",
+      "contentHash": "a8bccafe77166608e060d11d8ffbdd161d2ffafec1f9bbe76dacfd982480d6bf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "08418a28c0bd93a6",
+      "title": "Rockefeller's Autobiography",
+      "url": "https://www.youtube.com/watch?v=seMvuxRct1Q",
+      "synthesis": "content/knowledge/founders/019-rockefellers-autobiography.md",
+      "contentHash": "a60f5591df58e18ab737a973d4174a27c0fcddf6ce12ee4d1674abe5fef822e5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7f807b31e53ce83f",
+      "title": "How Steve Jobs Kept Things Simple",
+      "url": "https://www.youtube.com/watch?v=Mf8MZ8Iy8sE",
+      "synthesis": "content/knowledge/founders/020-how-steve-jobs-kept-things-simple.md",
+      "contentHash": "df897c99b03a13486f0915db6740daaed95862494831c3461304ea30a54af0a4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dcf97ba00b6aa323",
+      "title": "How to Make Ads That Sell: Scientific Advertising by Claude Hopkins",
+      "url": "https://www.youtube.com/watch?v=9YrcSWczGdg",
+      "synthesis": "content/knowledge/founders/021-how-to-make-ads-that-sell-scientific-advertising-by-claude-h.md",
+      "contentHash": "dbd27fe4e5a724421e3b2ab9f0c5421501351d9dfc55a177d8989a1870345031",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8987ac3a320ebbc5",
+      "title": "How Henry Singleton Worked",
+      "url": "https://www.youtube.com/watch?v=fC6ICHKJBXU",
+      "synthesis": "content/knowledge/founders/022-how-henry-singleton-worked.md",
+      "contentHash": "6e2f2c6cc6393d808568ed19cae37d26fcb179ba6557a5fea6b67b91244d25b0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "97e0e35e59fe7e87",
+      "title": "How Bob Dylan Studied His Way to Greatness",
+      "url": "https://www.youtube.com/watch?v=N6kHJVl7_ss",
+      "synthesis": "content/knowledge/founders/023-how-bob-dylan-studied-his-way-to-greatness.md",
+      "contentHash": "ff09a2017cd45911e3446795854355dc0a87102e6ba3a86482c17eb10c275e0a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "759c5ef96a4ad0ed",
+      "title": "How Claude Shannon Invented The Future",
+      "url": "https://www.youtube.com/watch?v=I2nCGnoNCvk",
+      "synthesis": "content/knowledge/founders/024-how-claude-shannon-invented-the-future.md",
+      "contentHash": "1dce7b1b75b4e8172feec8a37c2458c3d69237524e026ddc242d7467f215fb4b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7384c7212fe44f92",
+      "title": "How Raymond Plank Made a Fortune in Big Oil's Scraps",
+      "url": "https://www.youtube.com/watch?v=UpuinNtK6c4",
+      "synthesis": "content/knowledge/founders/025-how-raymond-plank-made-a-fortune-in-big-oils-scraps.md",
+      "contentHash": "98ed92bda99f76a70abcf114ef564d900444b1bfb5e2aab4442fa5616f58e3de",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d14f041698e7d1e2",
+      "title": "How Obsession Built Christopher Nolan",
+      "url": "https://www.youtube.com/watch?v=Cmsj-iyiEXM",
+      "synthesis": "content/knowledge/founders/026-how-obsession-built-christopher-nolan.md",
+      "contentHash": "8bbf582eff8b7f4bf96cc8311f37d94c2523ca8a12745be2223b3039c3fd4180",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5499283e00ba9ce4",
+      "title": "The Merchant Bankers",
+      "url": "https://www.youtube.com/watch?v=KTu1F0tUn-Q",
+      "synthesis": "content/knowledge/founders/027-the-merchant-bankers.md",
+      "contentHash": "8fb40be85a714bd94c56eba6a4440ea1b6736bdfc63392dd0a72715c4f5ac43e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1a69f1f03252a70f",
+      "title": "The Practical Genius of Honda",
+      "url": "https://www.youtube.com/watch?v=oA_FT515VFM",
+      "synthesis": "content/knowledge/founders/028-the-practical-genius-of-honda.md",
+      "contentHash": "6c78fec03fefcd85e1ab8987ce74e2da30cd9656584e9d5958fa27f9f4f956e1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "04d70c001f7cccb0",
+      "title": "Joseph Pulitzer: The Inventor of Mass Media",
+      "url": "https://www.youtube.com/watch?v=CdIMFZk1OJA",
+      "synthesis": "content/knowledge/founders/029-joseph-pulitzer-the-inventor-of-mass-media.md",
+      "contentHash": "8da8bd7babeb157fb52ffdba06a8ae357d8326a97a76159ea88c1a3bcddce96d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4574f086d0eb2130",
+      "title": "The Simple Genius of Jony Ive",
+      "url": "https://www.youtube.com/watch?v=AXYbyl-5-2U",
+      "synthesis": "content/knowledge/founders/030-the-simple-genius-of-jony-ive.md",
+      "contentHash": "3a82816afba1335aa38e054396f49d4b57725e669fca24c7c578288682a833e4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ffb4bd6b63401aaa",
+      "title": "Steve Jobs in Exile",
+      "url": "https://www.youtube.com/watch?v=JjV1uikElgs",
+      "synthesis": "content/knowledge/founders/031-steve-jobs-in-exile.md",
+      "contentHash": "874201d375a96659b29fdb38bf57bbb1c7c264dfb39eca11b847aecf546016ac",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "66041a99d5ec8fac",
+      "title": "Phil Knight: Founder of Nike",
+      "url": "https://www.youtube.com/watch?v=wu5SsVzcfx0",
+      "synthesis": "content/knowledge/founders/032-phil-knight-founder-of-nike.md",
+      "contentHash": "4533397d2bc5378ac4e97c27f3f2a0224890df7287b62035af68a2adae3a7449",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1e9b071acc938407",
+      "title": "How Arnold Schwarzenegger Won",
+      "url": "https://www.youtube.com/watch?v=-dh-QNlX12k",
+      "synthesis": "content/knowledge/founders/033-how-arnold-schwarzenegger-won.md",
+      "contentHash": "b3fd6887befc1fcd01a5ba50767756e8ae8b32b7ffbb0ca1d3f6cc270eddc73a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3503772fc604d52f",
+      "title": "The Relentless Missionary Creating AGI: Demis Hassabis",
+      "url": "https://www.youtube.com/watch?v=mHE37R0aBUA",
+      "synthesis": "content/knowledge/founders/034-the-relentless-missionary-creating-agi-demis-hassabis.md",
+      "contentHash": "0a86201cac1ed83b99ec6f5b6f915a6f6a4397dbb56b168e2746baf0b86c8d75",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "520caff18847d9d6",
+      "title": "How To Run Down A Dream",
+      "url": "https://www.youtube.com/watch?v=eSZ4Xep1sJU",
+      "synthesis": "content/knowledge/founders/035-how-to-run-down-a-dream.md",
+      "contentHash": "e4f0bb6da966f2046e14f34f477227a6b1f3ab6fe112e97989fa6daa228c6242",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ac6d5f55c08ac837",
+      "title": "Tortured Into Greatness: The Life of Andre Agassi",
+      "url": "https://www.youtube.com/watch?v=d_Bv59Rxo6w",
+      "synthesis": "content/knowledge/founders/036-tortured-into-greatness-the-life-of-andre-agassi.md",
+      "contentHash": "ef6aa3c45ce6af245b8390287102b5e558ab232ced6f8203b852dbac2bc52c15",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e944dae37f94d90c",
+      "title": "Excellent Advice For Living: 79 Maxims from a Wise Old Man",
+      "url": "https://www.youtube.com/watch?v=RUKafK3xCfY",
+      "synthesis": "content/knowledge/founders/037-excellent-advice-for-living-79-maxims-from-a-wise-old-man.md",
+      "contentHash": "f5ca0c33dccd013fd21187456795e0154c34fbe76c004edfd6ce6b70fd209912",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4f0ddfd9ab69cd27",
+      "title": "How Rick Rubin Works",
+      "url": "https://www.youtube.com/watch?v=AmkAH6MzRgM",
+      "synthesis": "content/knowledge/founders/038-how-rick-rubin-works.md",
+      "contentHash": "93c29eec1cf1e633232833d6d9611b4ba1545764b4f9b3b06e52a93ab873bd95",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c577bf6c83c6323f",
+      "title": "The Creative Genius of Rick Rubin",
+      "url": "https://www.youtube.com/watch?v=wYi4emYR89I",
+      "synthesis": "content/knowledge/founders/039-the-creative-genius-of-rick-rubin.md",
+      "contentHash": "409669ed7ee63107003842c007d72c9b5636b3d6325ad1b2c841a48b83aee40d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cb493daeef606da5",
+      "title": "How To Make A Few MORE Billion Dollars: Brad Jacobs",
+      "url": "https://www.youtube.com/watch?v=2c4LWQpuw9s",
+      "synthesis": "content/knowledge/founders/040-how-to-make-a-few-more-billion-dollars-brad-jacobs.md",
+      "contentHash": "e0678b1de6d996236a8400dbd2ca632d78ef2f60ba166a356a967fd17cd50f00",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5e2c2186036b181c",
+      "title": "Bruce Springsteen Repairs Himself",
+      "url": "https://www.youtube.com/watch?v=YRctPFgRb8U",
+      "synthesis": "content/knowledge/founders/041-bruce-springsteen-repairs-himself.md",
+      "contentHash": "eb2ebdc04ce3bb5ca07a8bc37966307dcc43b7e0acae0e8e6c571eae7fc8cbdc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c0a9660c6346146d",
+      "title": "The Genius of Christian von Koenigsegg",
+      "url": "https://www.youtube.com/watch?v=03IcWhHFNMM",
+      "synthesis": "content/knowledge/founders/042-the-genius-of-christian-von-koenigsegg.md",
+      "contentHash": "63d5c5d8a8471af25c74665591fecc4870691ef949be1d2b688a6d3be57b04e8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5c5377d062622736",
+      "title": "Red Bull's Billionaire Maniac Founder",
+      "url": "https://www.youtube.com/watch?v=nrmjb5PC0ms",
+      "synthesis": "content/knowledge/founders/043-red-bulls-billionaire-maniac-founder.md",
+      "contentHash": "d06c28db399132f79668899a7d9900ac3dfbec9df05ab5f9f958eeb842fd1b84",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5053fb79805431fa",
+      "title": "Jiro Ono: Simplicity Is The Ultimate Advantage",
+      "url": "https://www.youtube.com/watch?v=x2Rj0sgjDSw",
+      "synthesis": "content/knowledge/founders/044-jiro-ono-simplicity-is-the-ultimate-advantage.md",
+      "contentHash": "dcf0248351d50d7b97ea94c27d28cebee16c8bfb9fd9b5fa7bf488b5658be835",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d6621b20d83ae6cf",
+      "title": "The Obsession of Enzo Ferrari",
+      "url": "https://www.youtube.com/watch?v=-quUT9uGApo",
+      "synthesis": "content/knowledge/founders/045-the-obsession-of-enzo-ferrari.md",
+      "contentHash": "e14dce0cb49f8962a0c17468b93ea7f5ea98b2af6b879da8b6c38ea3f279c5a4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "743494cbacc2ee91",
+      "title": "The Outsiders Who Changed F1 Forever",
+      "url": "https://www.youtube.com/watch?v=NQpo80z30gY",
+      "synthesis": "content/knowledge/founders/046-the-outsiders-who-changed-f1-forever.md",
+      "contentHash": "bf4c91df800eb36f6fee6f832320909649ce013bb9f7fd1cdbdc4999c0136884",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "034fcfbbc97ae4ff",
+      "title": "This Orphan Built a $116 Billion Empire Without You Noticing",
+      "url": "https://www.youtube.com/watch?v=bijdxv0lG7w",
+      "synthesis": "content/knowledge/founders/047-this-orphan-built-a-116-billion-empire-without-you-noticing.md",
+      "contentHash": "3010fa00c743d6a49f3478a5ce07a31d2c9254455bcc9e0a28ea6ebc27bcde1e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "66c3b0adc55d12c5",
+      "title": "The Greatest Marketer of All Time and The Cofounder of the Michelin Family Dynasty Andre Michelin",
+      "url": "https://www.youtube.com/watch?v=0YjkxONApG0",
+      "synthesis": "content/knowledge/founders/048-the-greatest-marketer-of-all-time-and-the-cofounder-of-the-m.md",
+      "contentHash": "658cd26cc9b282b3fe783137612c81479d39a892d0321442285d39216a44fe28",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "110ab59dc7eb511e",
+      "title": "Michele Ferrero's $40 Billion Privately Owned Chocolate Empire",
+      "url": "https://www.youtube.com/watch?v=ksDrpn7yNEo",
+      "synthesis": "content/knowledge/founders/049-michele-ferreros-40-billion-privately-owned-chocolate-empire.md",
+      "contentHash": "be43b937869187e974c89275f7555b96589e9b1ffa2c04fec2018ecd3744a978",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d76fdeb93cb0bc2d",
+      "title": "Jimmy Iovine: Founder of Interscope Records & Legendary Record Producer",
+      "url": "https://www.youtube.com/watch?v=spK59Aj-sj4",
+      "synthesis": "content/knowledge/founders/050-jimmy-iovine-founder-of-interscope-records-legendary-record.md",
+      "contentHash": "205337f49f21254024f22649c79065fd57142c6a60cef4efcce2b357addb27a6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "72e609da9f4bbd8e",
+      "title": "Rare Steve Jobs's Rare Interview",
+      "url": "https://www.youtube.com/watch?v=yY1Llgq1VbY",
+      "synthesis": "content/knowledge/founders/051-rare-steve-jobs-s-rare-interview.md",
+      "contentHash": "2976eee95e82a73af4d290d01620e6a6e035bbe70e45428a638262edd416ebf7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a7903ad480303f10",
+      "title": "How Tamara Mellon Built Jimmy Choo",
+      "url": "https://www.youtube.com/watch?v=AOh9nnXRic4",
+      "synthesis": "content/knowledge/founders/052-how-tamara-mellon-built-jimmy-choo.md",
+      "contentHash": "87ababbb69c4ae26051da42bfbd1f3136d7fa10004ba1d418edabc66cd8d8d57",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c32b1bc9a7110db1",
+      "title": "The Greatest Moneymaker of All Time: Jim Simons",
+      "url": "https://www.youtube.com/watch?v=tZ3-XtLEfqA",
+      "synthesis": "content/knowledge/founders/053-the-greatest-moneymaker-of-all-time-jim-simons.md",
+      "contentHash": "cb3fcceb5951c07da8c5dc510d63f20d3d0f7f37851deadc92bf3e7796407df8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "18e9c4dcb4260c79",
+      "title": "The Life Story of Akio Morita: Founder of Sony",
+      "url": "https://www.youtube.com/watch?v=ynlY9rIb7O8",
+      "synthesis": "content/knowledge/founders/054-the-life-story-of-akio-morita-founder-of-sony.md",
+      "contentHash": "66b53f6bfec80b4d7a8a7067c21048a5cee2b8b4726d61a8e50a349f35297a5f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d98501b3b4058b7f",
+      "title": "The Life Story of Michael Dell",
+      "url": "https://www.youtube.com/watch?v=69j-tgjjZ8M",
+      "synthesis": "content/knowledge/founders/055-the-life-story-of-michael-dell.md",
+      "contentHash": "9a522d86b00de16d18337712861d1e6888edfa073bbc2b8e0d3be00d8a5ec002",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "331cbf5011d5343b",
+      "title": "Ken Griffin: Founder of Citadel and Citadel Securities",
+      "url": "https://www.youtube.com/watch?v=DuYpQSMV44E",
+      "synthesis": "content/knowledge/founders/056-ken-griffin-founder-of-citadel-and-citadel-securities.md",
+      "contentHash": "dd13b39f78cc8c0b5bfad65c04b26bf5c732a84e0094d7fd927ad08eed732812",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "632d94c9c0803bf6",
+      "title": "Todd Graves and His $10 Billion Chicken Finger Dream",
+      "url": "https://www.youtube.com/watch?v=lKqva53YAzE",
+      "synthesis": "content/knowledge/founders/057-todd-graves-and-his-10-billion-chicken-finger-dream.md",
+      "contentHash": "d9571c05b52b470c0520056cfe5bb03d75dc72b0bd70590afe278527bd0187bf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3f17fe279cd57a7c",
+      "title": "The Rise and Fall (and Rise) of the Most Powerful Man in Hollywood: Michael Ovitz",
+      "url": "https://www.youtube.com/watch?v=UplmZ1GgHcA",
+      "synthesis": "content/knowledge/founders/058-the-rise-and-fall-and-rise-of-the-most-powerful-man-in-holly.md",
+      "contentHash": "5c00579cdc7de62a4949cef009c6bbdfebf2483328f3ca4eb7b4baa47fdac3d5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e4a63a657b656add",
+      "title": "Dinner With Michael Ovitz",
+      "url": "https://www.youtube.com/watch?v=Xm5_0XTFZhQ",
+      "synthesis": "content/knowledge/founders/059-dinner-with-michael-ovitz.md",
+      "contentHash": "035eac7ad817590748492c6865e63af416505c0f5efa2b72bc42a114f5496ccd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b575f08bd3a9e1ef",
+      "title": "The Life Story of Jerry Jones: Owner of The Dallas Cowboys",
+      "url": "https://www.youtube.com/watch?v=X1IDehzSNoU",
+      "synthesis": "content/knowledge/founders/060-the-life-story-of-jerry-jones-owner-of-the-dallas-cowboys.md",
+      "contentHash": "e5d8c96fc777ed08b81d5d5bbe415dc21171e70a85caf36d5af6c8a4a0e0b477",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bab6a8fd8381adb7",
+      "title": "The Last Oil Baron: Leon Hess",
+      "url": "https://www.youtube.com/watch?v=rDAbo1Gqujg",
+      "synthesis": "content/knowledge/founders/061-the-last-oil-baron-leon-hess.md",
+      "contentHash": "dd17e913012e7062776aa004dfa41873bce75d541979911192d3c06e8f194f08",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "14fefb38e496c3ad",
+      "title": "The Wallenberg Family Dynasty",
+      "url": "https://www.youtube.com/watch?v=tLZgU4vbQLE",
+      "synthesis": "content/knowledge/founders/062-the-wallenberg-family-dynasty.md",
+      "contentHash": "e1ba8cd989fe10b5a25ade81380c6f97c9d9e6018e4ff7a7e9747cac496dadc3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "845431d47caab94c",
+      "title": "How Jensen Thinks",
+      "url": "https://www.youtube.com/watch?v=3pY0KWwVAV4",
+      "synthesis": "content/knowledge/founders/063-how-jensen-thinks.md",
+      "contentHash": "9e901708de3c1ffa003fa36271f629f53efd3fa6e5658e754d91d8d4fb212a81",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "12e78fa9afd548fb",
+      "title": "The Richest Woman In America: Hetty Green",
+      "url": "https://www.youtube.com/watch?v=PwyAnL1uZKA",
+      "synthesis": "content/knowledge/founders/064-the-richest-woman-in-america-hetty-green.md",
+      "contentHash": "9aeb895307928cbb5fecb8987f5acc1aab7da4af20029602804caf0811b055c6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ffa07e8bea5d5901",
+      "title": "Rare Jeff Bezos Interview",
+      "url": "https://www.youtube.com/watch?v=qTLehviusSs",
+      "synthesis": "content/knowledge/founders/065-rare-jeff-bezos-interview.md",
+      "contentHash": "0211ad568a55c9ae501606a8e4408a03656cc2f0d6ead16d325451651071b55d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "675b79010b97bd6c",
+      "title": "Breakfast with Brad Jacobs + How To Make A Few Billion Dollars",
+      "url": "https://www.youtube.com/watch?v=txzX11Zf_ZA",
+      "synthesis": "content/knowledge/founders/066-breakfast-with-brad-jacobs-how-to-make-a-few-billion-dollars.md",
+      "contentHash": "74dd6134354872b9a7015a79e33027d7c7107426ab918b4efe5b233d13bfa44c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1c0e87c8795e4fd3",
+      "title": "Amancio Ortega: The Genius Behind The Inditex Group",
+      "url": "https://www.youtube.com/watch?v=6XYIo7-Scb8",
+      "synthesis": "content/knowledge/founders/067-amancio-ortega-the-genius-behind-the-inditex-group.md",
+      "contentHash": "065e5fe90c677faee36b93906d6536563554bd68c6c2da03d4b65103aa31302a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4e1e5b9e8c4e6e57",
+      "title": "James J. Hill: The Empire Builder",
+      "url": "https://www.youtube.com/watch?v=fO64lPhHMa0",
+      "synthesis": "content/knowledge/founders/068-james-j-hill-the-empire-builder.md",
+      "contentHash": "7111cdc71e62272507b85eda9fbdf726772e30fc01db359546541ab22f6c6cd2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b67ff256262f0c68",
+      "title": "The Founder of IKEA: Ingvar Kamprad",
+      "url": "https://www.youtube.com/watch?v=c9Crn_o5DW0",
+      "synthesis": "content/knowledge/founders/069-the-founder-of-ikea-ingvar-kamprad.md",
+      "contentHash": "d17a77da935015b92de60e9b2227b36727ded5eafd061d374ca7c303079d206d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e84f223543c55276",
+      "title": "Elon Musk and The Early Days of SpaceX",
+      "url": "https://www.youtube.com/watch?v=2hSdEkDe87s",
+      "synthesis": "content/knowledge/founders/070-elon-musk-and-the-early-days-of-spacex.md",
+      "contentHash": "00aae1cde4bca77605bc8c3c1cfd9533467cddfea093cc1e6b30d07720523b03",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "541a83006d1a3036",
+      "title": "Nick Sleep's Letters: The Full Collection of the Nomad Investment Partnership Letters",
+      "url": "https://www.youtube.com/watch?v=4Y3-86dXpg4",
+      "synthesis": "content/knowledge/founders/071-nick-sleeps-letters-the-full-collection-of-the-nomad-investm.md",
+      "contentHash": "10018d41d645c6dff874607a2d976d12a55c1b5136376da4ae7d7360c5684d06",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e92b8e17449eb627",
+      "title": "Inside the Contrarian Mind of Sam Zell",
+      "url": "https://www.youtube.com/watch?v=vU3JqUt8Hhc",
+      "synthesis": "content/knowledge/founders/072-inside-the-contrarian-mind-of-sam-zell.md",
+      "contentHash": "b335240da8b343b082a7b57f98e549b0dfe58466ec391d750766f554465c0027",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a242274b52d8b226",
+      "title": "Mr Beast's Leaked Memo",
+      "url": "https://www.youtube.com/watch?v=6y5t4TIQJJg",
+      "synthesis": "content/knowledge/founders/073-mr-beasts-leaked-memo.md",
+      "contentHash": "3aa85886d327a30feb8c0ce5edd3bf859879b35f5c96350a1db42277d7fbd06a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f1cca503bbad074b",
+      "title": "Nick & Zak's Excellent Adventure: How Nick Sleep & Qais Zakaria Built Their Partnership",
+      "url": "https://www.youtube.com/watch?v=EHvASCrRtd4",
+      "synthesis": "content/knowledge/founders/074-nick-zak-s-excellent-adventure-how-nick-sleep-qais-zakaria-b.md",
+      "contentHash": "2b82402102dd96ce212514b902ff16e71e2e1bd33f00bac433736bcfd73774ee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f65d09e1b041845a",
+      "title": "Li Lu",
+      "url": "https://www.youtube.com/watch?v=CslLl1fVK8U",
+      "synthesis": "content/knowledge/founders/075-li-lu.md",
+      "contentHash": "4bcc4770a042ea6696035b574c4e20b7f78ca8935c047b7b3afe0267370a6a0e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dbdcc345cf073ac2",
+      "title": "Estée Lauder",
+      "url": "https://www.youtube.com/watch?v=PLWjOO_1SSU",
+      "synthesis": "content/knowledge/founders/076-este-e-lauder.md",
+      "contentHash": "fe7fd78f74a20fabe98a8ddbb73eab101611b4b799f1111896af826e08aebe7c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6139f71ee2216c65",
+      "title": "Robert Kierlin: Founder of Fastenal",
+      "url": "https://www.youtube.com/watch?v=FDuAfkR6bck",
+      "synthesis": "content/knowledge/founders/077-robert-kierlin-founder-of-fastenal.md",
+      "contentHash": "0394df21c0de6c192349c8526c834da86cfe45a703ffec038bf4a8d020de1f86",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ae193210ca7703a8",
+      "title": "The Nobel Family Dynasty",
+      "url": "https://www.youtube.com/watch?v=0eS7Z5te4EU",
+      "synthesis": "content/knowledge/founders/078-the-nobel-family-dynasty.md",
+      "contentHash": "91aa1794318015507b8ede29224d0c2a2972863e3c5a800690e2752152c22785",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c02b2fa1029dd78e",
+      "title": "I had dinner with John Mackey: Founder of Whole Foods",
+      "url": "https://www.youtube.com/watch?v=SqMI-RugFk0",
+      "synthesis": "content/knowledge/founders/079-i-had-dinner-with-john-mackey-founder-of-whole-foods.md",
+      "contentHash": "269722ed5e97cd335cb2fc23744828d4fd38e2fe1971a1b41f68a2827d21f5df",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "98ec2c27a53379e7",
+      "title": "The Simple Genius of Haruki Murakami",
+      "url": "https://www.youtube.com/watch?v=BWoRH5AtYF0",
+      "synthesis": "content/knowledge/founders/080-the-simple-genius-of-haruki-murakami.md",
+      "contentHash": "6f107053adab0ae83af5b53ac48cf06170693bb1897a5b930ab46d3237a02101",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d79142f6358232b1",
+      "title": "How The Sun Rose On Silicon Valley: Bob Noyce (Founder of Intel)",
+      "url": "https://www.youtube.com/watch?v=QNP0QqLThyI",
+      "synthesis": "content/knowledge/founders/081-how-the-sun-rose-on-silicon-valley-bob-noyce-founder-of-inte.md",
+      "contentHash": "75b069b5f1d6356357d771c083b4a62f9a56e714eff4b1f804234f8b13baab4f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fcd15bfd0416c08c",
+      "title": "Rare Bernard Arnault Interview",
+      "url": "https://www.youtube.com/watch?v=ieuPEgGMS2w",
+      "synthesis": "content/knowledge/founders/082-rare-bernard-arnault-interview.md",
+      "contentHash": "de73877be9b8ffc849b370d1df0e7bcc9fda277c3aecb231324c783138bf8207",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2649e360b1218c45",
+      "title": "The Inside Story of America's Richest Man: Sam Walton",
+      "url": "https://www.youtube.com/watch?v=tL71OzGcewk",
+      "synthesis": "content/knowledge/founders/083-the-inside-story-of-americas-richest-man-sam-walton.md",
+      "contentHash": "093736bbcd9d1604e569fb1e96cc00eb6530722714e77b42c151e2f8b9427532",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3816218c06a57fe3",
+      "title": "How To Be Rich by J. Paul Getty",
+      "url": "https://www.youtube.com/watch?v=nVWnDft6KW0",
+      "synthesis": "content/knowledge/founders/084-how-to-be-rich-by-j-paul-getty.md",
+      "contentHash": "4e251a356a005f084e6e7eab3db2936682059017e0fd065c11e691f37a3f8ad7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "293a90ed270f6206",
+      "title": "J. Paul Getty: The Richest Private Citizen in America",
+      "url": "https://www.youtube.com/watch?v=WAmczA-JjGY",
+      "synthesis": "content/knowledge/founders/085-j-paul-getty-the-richest-private-citizen-in-america.md",
+      "contentHash": "f4a16337a32f3acb167ec2f79ca96a645380311635ab81e2bc6bdec42a0274af",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1c96e642b29a9ce8",
+      "title": "The Founder of Rolex: Hans Wilsdorf",
+      "url": "https://www.youtube.com/watch?v=8MLvzAhKjlM",
+      "synthesis": "content/knowledge/founders/086-the-founder-of-rolex-hans-wilsdorf.md",
+      "contentHash": "70255b8cad28526cd3ff42a1bfd5e4fecea61de31a234914cc60d27f2d583ad2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "051ed88e98986068",
+      "title": "How To Sell Like Steve Jobs",
+      "url": "https://www.youtube.com/watch?v=k72aCBm7Jpk",
+      "synthesis": "content/knowledge/founders/087-how-to-sell-like-steve-jobs.md",
+      "contentHash": "90ae1c9f174d601db93319704331230e4c9334858ecb028fb2ecd073e78bc66f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0a17e6b946dde6d7",
+      "title": "The Financial Genius Behind A Century of Wall Street Scandals: Ivar Kreuger",
+      "url": "https://www.youtube.com/watch?v=cdVeSJHewDM",
+      "synthesis": "content/knowledge/founders/088-the-financial-genius-behind-a-century-of-wall-street-scandal.md",
+      "contentHash": "3e886c5de65246ea95ce68bbab1a8093c68005787b7617922aa4374c421f2454",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3d53179f0bcfe8a6",
+      "title": "How Walt Disney Built His Greatest Creation: Disneyland",
+      "url": "https://www.youtube.com/watch?v=Wfwyk1TK1Aw",
+      "synthesis": "content/knowledge/founders/089-how-walt-disney-built-his-greatest-creation-disneyland.md",
+      "contentHash": "c97f11bc495c6ffe2c6308e3291061662874b853b2a43a27597dac564c22b126",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0ca8eaf9f1b6d0b1",
+      "title": "The Biography of Walt Disney",
+      "url": "https://www.youtube.com/watch?v=Hc3u0bUu8eg",
+      "synthesis": "content/knowledge/founders/090-the-biography-of-walt-disney.md",
+      "contentHash": "4598444dabc437638ce9a00463d2c281ccc1d19cb5e2f85a582373efabbdf37c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "132e34ac98cc1c7d",
+      "title": "The Biography of George Lucas",
+      "url": "https://www.youtube.com/watch?v=X1xSXDDzlcM",
+      "synthesis": "content/knowledge/founders/091-the-biography-of-george-lucas.md",
+      "contentHash": "cf015625d269e0b4e5df11cb8f94267749a4139cc002dcebe5c1412e44a352a1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c8979740f143cdea",
+      "title": "The Autobiography of Quentin Tarantino",
+      "url": "https://www.youtube.com/watch?v=cT0Fo3rYJI4",
+      "synthesis": "content/knowledge/founders/092-the-autobiography-of-quentin-tarantino.md",
+      "contentHash": "fd773e1cc868ef146c3f99e985f53e6a3ba85b9e4efb277ed086827f6152d65b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "367f8a737f0dc4f6",
+      "title": "The Eternal Pursuit of Unhappiness by David Ogilvy",
+      "url": "https://www.youtube.com/watch?v=Z_SbuCOAOqQ",
+      "synthesis": "content/knowledge/founders/093-the-eternal-pursuit-of-unhappiness-by-david-ogilvy.md",
+      "contentHash": "62eedd6ccabecba696042152c8050a9d2cfc30dc535278aac52b1f6ab9f444ee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f88d3f80e832c66a",
+      "title": "The Lessons of History by Will & Ariel Durant",
+      "url": "https://www.youtube.com/watch?v=d6AEeD4rQBA",
+      "synthesis": "content/knowledge/founders/094-the-lessons-of-history-by-will-ariel-durant.md",
+      "contentHash": "8d83ec6379ac6bf59a7cda2fef6b7f41d6c9105bc520aad5d1a59fba16f31df5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fe38e50f12836ae4",
+      "title": "How Cornelius Vanderbilt Invaded a Country to Overthrow America's Most Famous Military Adventurer",
+      "url": "https://www.youtube.com/watch?v=Qb5D22pXjKE",
+      "synthesis": "content/knowledge/founders/095-how-cornelius-vanderbilt-invaded-a-country-to-overthrow-amer.md",
+      "contentHash": "2ff4b8139ca10fe0dd7c5afe6f82eb05a914ec6ffc9348eaa14e1940f3236002",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ca24b95d9051a08f",
+      "title": "Michael Jordan And Kobe Bryant",
+      "url": "https://www.youtube.com/watch?v=BrkJsLFtGyg",
+      "synthesis": "content/knowledge/founders/096-michael-jordan-and-kobe-bryant.md",
+      "contentHash": "88b32426f1ca4846e5529126029e228e508720a67f5f9bf6e9f86b2f340f7a1f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bdbe27461328432b",
+      "title": "The Robber Baron's Art Dealer: Joseph Duveen",
+      "url": "https://www.youtube.com/watch?v=q4Mfqt6F1Nk",
+      "synthesis": "content/knowledge/founders/097-the-robber-barons-art-dealer-joseph-duveen.md",
+      "contentHash": "08986cd38a90679642546dad2a3a8e5302f3d4ab89bb8d64f83c2fc719bd0417",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6166adf513fca97c",
+      "title": "Texas Oil Billionaire Monty Moncrief",
+      "url": "https://www.youtube.com/watch?v=26akKrNC_pk",
+      "synthesis": "content/knowledge/founders/098-texas-oil-billionaire-monty-moncrief.md",
+      "contentHash": "0664a37eccf7385558e656d89f0abd38d5c6a17a5412a4fa5bb305123c110948",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9a88ba188930ec99",
+      "title": "Napoleon's Maxims and Strategy",
+      "url": "https://www.youtube.com/watch?v=ZaPyk33pRM0",
+      "synthesis": "content/knowledge/founders/099-napoleons-maxims-and-strategy.md",
+      "contentHash": "6372ad20ca767d2f93a842a14a50a05b2849e62451213b93bda3739beea363ae",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "005cb8cf45205176",
+      "title": "How To Lose A Few Billion Dollars: The Life Story of Samuel Insull",
+      "url": "https://www.youtube.com/watch?v=v6kails_NUk",
+      "synthesis": "content/knowledge/founders/100-how-to-lose-a-few-billion-dollars-the-life-story-of-samuel-i.md",
+      "contentHash": "64b3712bc4871bda6301b6701506cc4753979faf49f69ea2d388e988bcbf4263",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "18fed61a00a2f8a5",
+      "title": "How To Make A Few Billion Dollars by Brad Jacobs",
+      "url": "https://www.youtube.com/watch?v=-GlgArhTGbQ",
+      "synthesis": "content/knowledge/founders/101-how-to-make-a-few-billion-dollars-by-brad-jacobs.md",
+      "contentHash": "08c487e3147e7c07253bd50e020f0dfc1e2418f8e1487dacfefadb3720b2301f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d4453712167acac4",
+      "title": "Oprah In Her Own Words",
+      "url": "https://www.youtube.com/watch?v=4tlJIeM05_s",
+      "synthesis": "content/knowledge/founders/102-oprah-in-her-own-words.md",
+      "contentHash": "c77bbf2e7e800713271e80edca85ad7070bb8576ca6f724f227e071c99ac054f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3e53f874de55f380",
+      "title": "Red Bull's Billionaire Maniac Founder: Dietrich Mateschitz",
+      "url": "https://www.youtube.com/watch?v=798LBCW-u2M",
+      "synthesis": "content/knowledge/founders/103-red-bulls-billionaire-maniac-founder-dietrich-mateschitz.md",
+      "contentHash": "d4e6eae189f8ae7fd97591dd7ead5c8eb744c24d0d9d6e5b77dcf444a4747ca3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5b7028a592fbbbe0",
+      "title": "The Life Story of Jesus",
+      "url": "https://www.youtube.com/watch?v=EGTB5FgXPeU",
+      "synthesis": "content/knowledge/founders/104-the-life-story-of-jesus.md",
+      "contentHash": "f874ac8c895b9cadba15fe18f8ba022d9e8086d4aba0bb6380264e54b5db43a1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a92dd0091b91c82b",
+      "title": "The Autobiography of Christian Dior",
+      "url": "https://www.youtube.com/watch?v=9cx7trtr98E",
+      "synthesis": "content/knowledge/founders/105-the-autobiography-of-christian-dior.md",
+      "contentHash": "aafd41e68436a228d2873728366ad0fc9ef62288a3850c1be32a13188d74502b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3527696761a7b638",
+      "title": "Les Schwab (Charlie Munger recommended this book)",
+      "url": "https://www.youtube.com/watch?v=SCV64-7iMWA",
+      "synthesis": "content/knowledge/founders/106-les-schwab-charlie-munger-recommended-this-book.md",
+      "contentHash": "1a7a42721885e4311cdddac21b69dc59b9ede1e9a561fa47c71a4d95e5f394fe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c04b5896968fc473",
+      "title": "Charlie Munger (the NEW Poor Charlie's Almanack)",
+      "url": "https://www.youtube.com/watch?v=e2YgnLewpN4",
+      "synthesis": "content/knowledge/founders/107-charlie-munger-the-new-poor-charlies-almanack.md",
+      "contentHash": "1cd20866e7925fd6ecbac19d22631ed29a17eea014fc30ade666da0f81db7ed8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a8ee2624e4c4f93f",
+      "title": "Tom Murphy (Warren Buffett's Favorite Manager)",
+      "url": "https://www.youtube.com/watch?v=qScpb2DIUxY",
+      "synthesis": "content/knowledge/founders/108-tom-murphy-warren-buffetts-favorite-manager.md",
+      "contentHash": "7c9b9364f1636912a513b299a22dab3adf44c2169f2bd8a4f680505ddfe1cba3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a6d790ce792c51ef",
+      "title": "The Autobiography of Ted Turner",
+      "url": "https://www.youtube.com/watch?v=HD3AqauHMy0",
+      "synthesis": "content/knowledge/founders/109-the-autobiography-of-ted-turner.md",
+      "contentHash": "3a06e2cf4de90e914c010deb38164a09f45e9d1bfc60a9de85c8e86c863bb240",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "aa83c0fe5cad442b",
+      "title": "The Biography of Anna Wintour",
+      "url": "https://www.youtube.com/watch?v=npZmuHLtpd4",
+      "synthesis": "content/knowledge/founders/110-the-biography-of-anna-wintour.md",
+      "contentHash": "126048f3b25674e71e5a8f857657455b81e1c0e57ea70092e4f41acba671a9d4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "50d87f7e2623ffcb",
+      "title": "Billionaire Art Dealer Larry Gagosian",
+      "url": "https://www.youtube.com/watch?v=r_r-X4Tfj-0",
+      "synthesis": "content/knowledge/founders/111-billionaire-art-dealer-larry-gagosian.md",
+      "contentHash": "ab40ec35f3d2ce31e6ced4aa654a0b80e62a1038419eb3151461b0305b6f58ed",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7f1a8455031be4ca",
+      "title": "The Biography of Jimmy Buffett",
+      "url": "https://www.youtube.com/watch?v=6bc27l4Chko",
+      "synthesis": "content/knowledge/founders/112-the-biography-of-jimmy-buffett.md",
+      "contentHash": "3ce01472bc5b562cd51ff6ea0e4f871fd3c72abb3a0f4a84ea59313a3b61bedc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9210374ecd481451",
+      "title": "Herb Kelleher: Founder of Southwest Airlines",
+      "url": "https://www.youtube.com/watch?v=460sCtmGmKI",
+      "synthesis": "content/knowledge/founders/113-herb-kelleher-founder-of-southwest-airlines.md",
+      "contentHash": "ea024c39ecfe54b68c694e96249511a71546907d1885e304e7a1e61e3de177f9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6fd63f16e3ff2e50",
+      "title": "Working with Jeff Bezos",
+      "url": "https://www.youtube.com/watch?v=DUAQxt_rtiY",
+      "synthesis": "content/knowledge/founders/114-working-with-jeff-bezos.md",
+      "contentHash": "868d5d1d1da4b72073e6f528fcb760bae239d2a3c88e347d6309cb5e27d9c4c7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9e2a0809a9471bae",
+      "title": "The Making of Winston Churchill Part 2",
+      "url": "https://www.youtube.com/watch?v=-qXbHKJ0OZQ",
+      "synthesis": "content/knowledge/founders/115-the-making-of-winston-churchill-part-2.md",
+      "contentHash": "0578d78914e896c3fe1e49f85cc390f89149388c74132996bdcde2fb14691f55",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c9c7fce4de6d90f8",
+      "title": "The Making of Winston Churchill Part 1",
+      "url": "https://www.youtube.com/watch?v=QoEoY0AOFqw",
+      "synthesis": "content/knowledge/founders/116-the-making-of-winston-churchill-part-1.md",
+      "contentHash": "6f5b22af0ed2b75d5440a228569d99b864084e9030f749c8f277463fa035c5f5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b161e089018e4d2e",
+      "title": "Listen to this when you're stressed: The Life of Alistair Urquhart",
+      "url": "https://www.youtube.com/watch?v=1UqPlf2x9ZQ",
+      "synthesis": "content/knowledge/founders/117-listen-to-this-when-you-re-stressed-the-life-of-alistair-urq.md",
+      "contentHash": "508173219752c618e06e8cd6f5576d2309c7a6ef4013f5816bd5086e16c8d2bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6c3310e0807fce1e",
+      "title": "Ed Catmull (Founder of Pixar)",
+      "url": "https://www.youtube.com/watch?v=zlby8I0z4O4",
+      "synthesis": "content/knowledge/founders/118-ed-catmull-founder-of-pixar.md",
+      "contentHash": "715cdc213d5561b898c6681c34799fb68d79b4a4aeb623c13a8f500c029fbf75",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "29d14733931f66ad",
+      "title": "The Biography of Bugatti",
+      "url": "https://www.youtube.com/watch?v=7PwqcsQov_w",
+      "synthesis": "content/knowledge/founders/119-the-biography-of-bugatti.md",
+      "contentHash": "a541d10a16d8bcfcd5c023a88c153203c0a25634095513e2670a28252af4fc12",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "15f6a2cd639b5c77",
+      "title": "The Biography of Balenciaga",
+      "url": "https://www.youtube.com/watch?v=yTt8bX4UfP8",
+      "synthesis": "content/knowledge/founders/120-the-biography-of-balenciaga.md",
+      "contentHash": "109da8b374dade5f15fdf48d882f373b1d4b36519ac80426205ee889cb9b3bd5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d208a573521fbfbf",
+      "title": "Paul Graham (How To Do Great Work)",
+      "url": "https://www.youtube.com/watch?v=F3HZpu_YH64",
+      "synthesis": "content/knowledge/founders/121-paul-graham-how-to-do-great-work.md",
+      "contentHash": "0f21baae502c1b219ef8cf46b0fd870b08e303188218755e85c95a373bc09d52",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a30bd8366249a71d",
+      "title": "The Biography of Christopher Nolan",
+      "url": "https://www.youtube.com/watch?v=BV8ho9Yw4H4",
+      "synthesis": "content/knowledge/founders/122-the-biography-of-christopher-nolan.md",
+      "contentHash": "22d212cde98e5843da01763df3337941e975b122813bfefeb9a381f6970052ae",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4623f66c6dd7c69b",
+      "title": "Mark Twain's Biography",
+      "url": "https://www.youtube.com/watch?v=911Pa2_qyes",
+      "synthesis": "content/knowledge/founders/123-mark-twains-biography.md",
+      "contentHash": "a15279704cf901242207e14114c92317d138a8cb926eec85b63ad63355242f8e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e9c89090e2b9f792",
+      "title": "The Biography of James Cameron",
+      "url": "https://www.youtube.com/watch?v=k5XewuCE8Jo",
+      "synthesis": "content/knowledge/founders/124-the-biography-of-james-cameron.md",
+      "contentHash": "4440be30f380ea8db3e1f4cfeae5eaa32da4b09f238ea4b2c30d52b3f69bca04",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ebf2bf49b222d71f",
+      "title": "Walt Disney and Picasso",
+      "url": "https://www.youtube.com/watch?v=9_QO_zYjvro",
+      "synthesis": "content/knowledge/founders/125-walt-disney-and-picasso.md",
+      "contentHash": "1317e541dfe88f956d566f42afe78a04c82cd8bb161c98937e7e2c1795c91690",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c2fc07fbb49ccfc5",
+      "title": "Arnold Schwarzenegger (Before He Was Successful)",
+      "url": "https://www.youtube.com/watch?v=IkkEBlYEXSY",
+      "synthesis": "content/knowledge/founders/126-arnold-schwarzenegger-before-he-was-successful.md",
+      "contentHash": "341d88ff2480540f46fa8743c844bbafdb512422d376097d6750079bd6d6cf6b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "00afb5870d323d66",
+      "title": "The Biography of The Founder of Glock",
+      "url": "https://www.youtube.com/watch?v=-5aHF1gj8SU",
+      "synthesis": "content/knowledge/founders/127-the-biography-of-the-founder-of-glock.md",
+      "contentHash": "7e973e4ddb52a7262998d10e16f563d655b8f23f6489eb49474701e199dbb65a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "18b0cddd2f7fda18",
+      "title": "The World's Great Family Dynasties: Rockefeller, Rothschild, Morgan, & Toyada",
+      "url": "https://www.youtube.com/watch?v=QQRp8NSpdVI",
+      "synthesis": "content/knowledge/founders/128-the-worlds-great-family-dynasties-rockefeller-rothschild-mor.md",
+      "contentHash": "70b07be13730fc0e528c2950efafc0cf88968c23046b0169bf415a4d49892476",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4cbd05cfd4d71365",
+      "title": "David Ogilvy (Confessions of an Advertising Man)",
+      "url": "https://www.youtube.com/watch?v=Y3jtPRJwsSM",
+      "synthesis": "content/knowledge/founders/129-david-ogilvy-confessions-of-an-advertising-man.md",
+      "contentHash": "db6468bc2f3416e6027f565f74cb2edd5b1db40be89c78ed94aa290b84fc23d7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "050e04c99a8ca089",
+      "title": "Robert Caro on Power, Poverty, Ruthlessness, Obsession & Running.",
+      "url": "https://www.youtube.com/watch?v=ulAWE6d4pVE",
+      "synthesis": "content/knowledge/founders/130-robert-caro-on-power-poverty-ruthlessness-obsession-running.md",
+      "contentHash": "b6fa17d5d347f4ea4bd07ddc00cd705ac3a85efb966cf4de49e467c390774aef",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0607eab91ef033fa",
+      "title": "Sol Price: The Founder Who Taught Jim Sinegal, Sam Walton, Jeff Bezos, and Bernie Marcus",
+      "url": "https://www.youtube.com/watch?v=1ENZ3Mq2NXw",
+      "synthesis": "content/knowledge/founders/131-sol-price-the-founder-who-taught-jim-sinegal-sam-walton-jeff.md",
+      "contentHash": "420cadb10faeff736e80e6bbce7de2a0fc67cee44d166980558d7b90225f37a5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "146ae72e64de9d22",
+      "title": "Rose Blumkin (Warren Buffett's Favorite Founder)",
+      "url": "https://www.youtube.com/watch?v=KKGxbEatgnc",
+      "synthesis": "content/knowledge/founders/132-rose-blumkin-warren-buffetts-favorite-founder.md",
+      "contentHash": "e46cce794a00048fd1ade638d56169427d61be6f1df8cc53f7e70dd593df73e6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9c9dcdf4d864b884",
+      "title": "The Biography of Tiger Woods",
+      "url": "https://www.youtube.com/watch?v=MkuNdIeKwT4",
+      "synthesis": "content/knowledge/founders/133-the-biography-of-tiger-woods.md",
+      "contentHash": "477ca32e18b3e81d63cad1d37061fd612e8a46e6cc5e62d9b6785c8807d4974b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bb1f10ed08a46545",
+      "title": "James Dyson (Against the Odds)",
+      "url": "https://www.youtube.com/watch?v=MxJGbLbW-G8",
+      "synthesis": "content/knowledge/founders/134-james-dyson-against-the-odds.md",
+      "contentHash": "b5ea5a5c24c43607981f8031b442c4cd002893e44aa63942a9c8123030b029db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "89c3b7604df014b1",
+      "title": "Steve Jobs (Make Something Wonderful)",
+      "url": "https://www.youtube.com/watch?v=pLKKO8DeQQk",
+      "synthesis": "content/knowledge/founders/135-steve-jobs-make-something-wonderful.md",
+      "contentHash": "cbea660191a24a13c1186e06877a86ecf18cdeda79a31de31afc89661838ac77",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4a7ac01a5d284004",
+      "title": "What I learned from having lunch with Sam Zell",
+      "url": "https://www.youtube.com/watch?v=ZPsJ3FlaRUQ",
+      "synthesis": "content/knowledge/founders/136-what-i-learned-from-having-lunch-with-sam-zell.md",
+      "contentHash": "d19ae8eba9e454518b181b6f9fce1352642166541cadc60cb9132616617afaf6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "404330739117dc21",
+      "title": "Yvon Chouinard (Founder of Patagonia)",
+      "url": "https://www.youtube.com/watch?v=OPT6sWCgauA",
+      "synthesis": "content/knowledge/founders/137-yvon-chouinard-founder-of-patagonia.md",
+      "contentHash": "62f6088d6554bdccd241225e429a40200cc20708cce11bbbee10c4d0313942ec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d0c4f99e96af45bb",
+      "title": "Bernard Arnault (The Richest Man in the World)",
+      "url": "https://www.youtube.com/watch?v=bG4C5mQnWTo",
+      "synthesis": "content/knowledge/founders/138-bernard-arnault-the-richest-man-in-the-world.md",
+      "contentHash": "78536294b856f89184d1f7515d3392cc27297a4f1a51006ddbed9d130c72a4b3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "babfe163eceaca71",
+      "title": "I had dinner with Charlie Munger",
+      "url": "https://www.youtube.com/watch?v=HJ3FsO-9oFU",
+      "synthesis": "content/knowledge/founders/139-i-had-dinner-with-charlie-munger.md",
+      "contentHash": "89aac1964132198528cf428cdce3d78e79181a2beec67b2d5cf56576c8be86f2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f6e60d25c3a73adc",
+      "title": "The Biography of Napoleon",
+      "url": "https://www.youtube.com/watch?v=_KY09iCsjRs",
+      "synthesis": "content/knowledge/founders/140-the-biography-of-napoleon.md",
+      "contentHash": "7bb7b444312c452d1d2dc40e56fc928735bb7ea1600734726d8bfefca5060d3e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "db85f65eb09d41bc",
+      "title": "The Making of McDonald's: The Biography of Ray Kroc",
+      "url": "https://www.youtube.com/watch?v=E6OSZ8uRONA",
+      "synthesis": "content/knowledge/founders/141-the-making-of-mcdonalds-the-biography-of-ray-kroc.md",
+      "contentHash": "3a20b2e276e30ecb1a46de2780ce78665c5f24503f7b6d1642c59bb600da0317",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "587d17e9f1e31508",
+      "title": "The Invisible Billionaire: Daniel Ludwig",
+      "url": "https://www.youtube.com/watch?v=39zEP8kgNKc",
+      "synthesis": "content/knowledge/founders/142-the-invisible-billionaire-daniel-ludwig.md",
+      "contentHash": "6ae6aeeb2461d15e58bfd0700731cd5ee8788ab828d17ae9e544692a7abf671d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c55d3ae7f669c45b",
+      "title": "David Packard (Founder of HP)",
+      "url": "https://www.youtube.com/watch?v=Sgbd-KvDC3Q",
+      "synthesis": "content/knowledge/founders/143-david-packard-founder-of-hp.md",
+      "contentHash": "1525199b9e3e8674a9f88e57b51c2ea09290e9f9bccaf6a728d4d9ce5d3da5f2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2212e7b4e0575e49",
+      "title": "The Biography of Bill Gates",
+      "url": "https://www.youtube.com/watch?v=5kP8HqwM-7E",
+      "synthesis": "content/knowledge/founders/144-the-biography-of-bill-gates.md",
+      "contentHash": "c4d53b1b8e20fd879ae45fde6424e561e14803efaac41b312d4bbf1c42308dd8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "24a398e6b0b94ae9",
+      "title": "The Biography of Brunello Cucinelli",
+      "url": "https://www.youtube.com/watch?v=uVVaKdo-kqc",
+      "synthesis": "content/knowledge/founders/145-the-biography-of-brunello-cucinelli.md",
+      "contentHash": "a5e2b4d764d015e595f03ac04294200a61c5a7b5fc0673d6fc786a46e35d919c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fdb79c23172f7d5f",
+      "title": "The Biography of Ralph Lauren",
+      "url": "https://www.youtube.com/watch?v=mhOYgBkZR8g",
+      "synthesis": "content/knowledge/founders/146-the-biography-of-ralph-lauren.md",
+      "contentHash": "a86b8cf225f7a237eb5293a4e84e0a3fa84415ce64920c4c5162d41444bff5b9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cfaadd9933f7fc82",
+      "title": "The Biography of The Founder of Rolls-Royce",
+      "url": "https://www.youtube.com/watch?v=WhYwpWt_XoQ",
+      "synthesis": "content/knowledge/founders/147-the-biography-of-the-founder-of-rolls-royce.md",
+      "contentHash": "2435e4d45a5efe8cfbac6e5c2c8516ac1a4b49e327de18c8091ed08f7ac10696",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "87bd0105876d9c14",
+      "title": "Warren Buffett & Charlie Munger In Their Own Words",
+      "url": "https://www.youtube.com/watch?v=VG3MZHZazeI",
+      "synthesis": "content/knowledge/founders/148-warren-buffett-charlie-munger-in-their-own-words.md",
+      "contentHash": "a74388716d73e1eaacb5ed24d6669a5cefbef8dd778c09443c5b13e5779c663e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a9433d3afd979622",
+      "title": "How Jay Gould Built Wall Street's Biggest Fortune",
+      "url": "https://www.youtube.com/watch?v=2_0cxxf7Hgo",
+      "synthesis": "content/knowledge/founders/149-how-jay-gould-built-wall-streets-biggest-fortune.md",
+      "contentHash": "8b5b5577faef9f3e036093f89ae1bde1a8b3434e38183f6fef79b5588a85c695",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f2c90186f79b63b5",
+      "title": "Andrew Carnegie and Henry Clay Frick's Bitter Partnership",
+      "url": "https://www.youtube.com/watch?v=pvWYSvs5VHc",
+      "synthesis": "content/knowledge/founders/150-andrew-carnegie-and-henry-clay-fricks-bitter-partnership.md",
+      "contentHash": "1ad770928e1d6c7ac58bbb1c2e36cce3a4d1436de994bd270395ee52f52f96c5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b0986e14412b02a8",
+      "title": "The Autobiography of Andrew Carnegie",
+      "url": "https://www.youtube.com/watch?v=flaB56wUuYM",
+      "synthesis": "content/knowledge/founders/151-the-autobiography-of-andrew-carnegie.md",
+      "contentHash": "66026b6e199db863984ef15e5fdea4f86a1a2784d83660e8b20047e74a107b80",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "39492eaaad84fde9",
+      "title": "Jeff Bezos' Shareholder Letters",
+      "url": "https://www.youtube.com/watch?v=NFjdllY44J0",
+      "synthesis": "content/knowledge/founders/152-jeff-bezos-shareholder-letters.md",
+      "contentHash": "f2592d09f247ddd5bdb1586272baff41e8e7e2bc4d319369ca5d4bdb593abce3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cb79f12725297225",
+      "title": "Working With Steve Jobs",
+      "url": "https://www.youtube.com/watch?v=bVQnCjfmf-U",
+      "synthesis": "content/knowledge/founders/153-working-with-steve-jobs.md",
+      "contentHash": "729e68622f58eb5a24fc5485cba7a07e2bb2f8bcb53ba433942005b867073b80",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d70c5259c0002385",
+      "title": "The Biography of Jimi Hendrix",
+      "url": "https://www.youtube.com/watch?v=UUP3s88psNw",
+      "synthesis": "content/knowledge/founders/154-the-biography-of-jimi-hendrix.md",
+      "contentHash": "9ff179e660a930b5645a98c8e904ecee866ff97525e0d5c3c6800283a8687bb1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c2f3b248c802428d",
+      "title": "What I Learned Before I Sold to Warren Buffett",
+      "url": "https://www.youtube.com/watch?v=C0PV8sFM8vE",
+      "synthesis": "content/knowledge/founders/155-what-i-learned-before-i-sold-to-warren-buffett.md",
+      "contentHash": "7effc6602c2cdd6554487f1e0edc54a5bec47569c30457ec6d40792f810ebd60",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8c60d67aa63834f8",
+      "title": "Peter Thiel's Ideas",
+      "url": "https://www.youtube.com/watch?v=GmmuNVv4ehE",
+      "synthesis": "content/knowledge/founders/156-peter-thiels-ideas.md",
+      "contentHash": "4f5586d051dc11ac2310114d5e3d7311b52b5a28805cb93091146ebbdfccacf2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7fb4f953b3b1ba12",
+      "title": "Paul Graham's Essays Part III",
+      "url": "https://www.youtube.com/watch?v=3Fi23AdobaQ",
+      "synthesis": "content/knowledge/founders/157-paul-grahams-essays-part-iii.md",
+      "contentHash": "1b21ff9ddccd4983449482cedf9b7d553a6dacb4023798fdee2bbe81d4a455dd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5e317a27fbce960b",
+      "title": "Paul Graham's Essays Part II",
+      "url": "https://www.youtube.com/watch?v=fnTOGVDXe0w",
+      "synthesis": "content/knowledge/founders/158-paul-grahams-essays-part-ii.md",
+      "contentHash": "8596ac6c6fac42a9108831049506db4c196e2ab9dc540f61745e19a6ff477e75",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d0e41195e1473b7a",
+      "title": "Paul Graham's Essays",
+      "url": "https://www.youtube.com/watch?v=YH1ynhRv7_s",
+      "synthesis": "content/knowledge/founders/159-paul-grahams-essays.md",
+      "contentHash": "7cf3ae6849451ba1b3447191bf802615f29d67555289c4633c3619696dd4805c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6701e330da40ee1d",
+      "title": "The Biography of Jim Clark (Founder of Silicon Graphics, Netscape)",
+      "url": "https://www.youtube.com/watch?v=tfns2StzgRE",
+      "synthesis": "content/knowledge/founders/160-the-biography-of-jim-clark-founder-of-silicon-graphics-netsc.md",
+      "contentHash": "1086896c5848f3dc6c1d38cc1ca6376a740d3d7d852e74355769dcc0a8dbd6a7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6b8b29b42537b39f",
+      "title": "Kobe Bryant (Mamba Mentality)",
+      "url": "https://www.youtube.com/watch?v=9BT7cArID38",
+      "synthesis": "content/knowledge/founders/161-kobe-bryant-mamba-mentality.md",
+      "contentHash": "6a76d8317f8d3350f4da7c28904a9dc9cf85dfd4facf1e30466b14a083f4442c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fb397534ec9b8750",
+      "title": "The Biography of Kobe Bryant",
+      "url": "https://www.youtube.com/watch?v=YdViczJGMQg",
+      "synthesis": "content/knowledge/founders/162-the-biography-of-kobe-bryant.md",
+      "contentHash": "3f5e9a97792fec4553a9d928b576278ca9807872f700d1ebfef23e6fd88eef69",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "af80fcc1ac03a462",
+      "title": "The Biography of Vannevar Bush (Engineer of the American Century)",
+      "url": "https://www.youtube.com/watch?v=q5fERDkHZ4E",
+      "synthesis": "content/knowledge/founders/163-the-biography-of-vannevar-bush-engineer-of-the-american-cent.md",
+      "contentHash": "83259cebf7f3950557a3d2f4b24de5a72be59263308f708e7132e9c7d1e6caad",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "43a6a72419ae68d9",
+      "title": "The Autobiography of Vannevar Bush",
+      "url": "https://www.youtube.com/watch?v=07Kp7epbfY0",
+      "synthesis": "content/knowledge/founders/164-the-autobiography-of-vannevar-bush.md",
+      "contentHash": "09c4af5d034ededf1faeda1304f2207704b613909a14831ea770b3358c788efc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7db47d661ae36f56",
+      "title": "Sam Zell's Autobiography",
+      "url": "https://www.youtube.com/watch?v=1Oskijvz6No",
+      "synthesis": "content/knowledge/founders/165-sam-zells-autobiography.md",
+      "contentHash": "db5492c8b109c8aa3075402cb58a23015f0c92623276c45788971d5ed702fb44",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "64b22120a0d5b896",
+      "title": "The Biography of John Malone (Cable Cowboy)",
+      "url": "https://www.youtube.com/watch?v=iVeKq_lucNg",
+      "synthesis": "content/knowledge/founders/166-the-biography-of-john-malone-cable-cowboy.md",
+      "contentHash": "47037f412d6758984701e4cb7eb02b48c25c4ccdb8e5041d1f8809bf3b02e17e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bfb84de4370a0047",
+      "title": "The Biography of Thomas Edison",
+      "url": "https://www.youtube.com/watch?v=KMnV7mX0EQM",
+      "synthesis": "content/knowledge/founders/167-the-biography-of-thomas-edison.md",
+      "contentHash": "e575446ddece79b0fd9a94cae2d77234f21782619641197d8526f7d933103261",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9eb4e8eee68b95df",
+      "title": "Henry Ford's Autobiography",
+      "url": "https://www.youtube.com/watch?v=KzXxxbuTAAg",
+      "synthesis": "content/knowledge/founders/168-henry-fords-autobiography.md",
+      "contentHash": "ab978504e38de60bdcc19250d04105d8633fa0fcc3a17059c210042b30df252f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d2b4810cd5dc8dff",
+      "title": "The Biography of Steve Jobs (The Evolution of a Reckless Upstart into a Visionary Leader)",
+      "url": "https://www.youtube.com/watch?v=tDC5qxAR0A4",
+      "synthesis": "content/knowledge/founders/169-the-biography-of-steve-jobs-the-evolution-of-a-reckless-upst.md",
+      "contentHash": "588ab215bb2e25c9b930dd981bf93952d01f6bbeb5b02d5f75a9903657438963",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8759691f0ed5bc78",
+      "title": "Rick Rubin on Finding Your Life’s Work",
+      "url": "https://www.youtube.com/watch?v=g6MEDOY7tHo",
+      "synthesis": "content/knowledge/interviews/001-rick-rubin-on-finding-your-life-s-work.md",
+      "contentHash": "f7cae6e127a06de8540a65b85cdeec0c92e252c9d4f8067887559e07dfda4366",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5f2a9db8d12c949a",
+      "title": "The Man Behind Grand Theft Auto 6: Strauss Zelnick",
+      "url": "https://www.youtube.com/watch?v=1ZgUcrR0K7I",
+      "synthesis": "content/knowledge/interviews/002-the-man-behind-grand-theft-auto-6-strauss-zelnick.md",
+      "contentHash": "13e36c1dc0787af4b1a306055c9da4fb1ba9f9d16ae3b227e68a778d85d9c880",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8fff7e53238522ee",
+      "title": "Marc Andreessen: The World Is More Malleable Than You Think",
+      "url": "https://www.youtube.com/watch?v=qBVe3M2g_SA",
+      "synthesis": "content/knowledge/interviews/003-marc-andreessen-the-world-is-more-malleable-than-you-think.md",
+      "contentHash": "026dd5488eb5c06ee2b748dddb7e59e9eb9a78d655798602d35d73b749d6e387",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c3a8ea079fd03d1f",
+      "title": "James Dyson: 5,127 Prototypes",
+      "url": "https://www.youtube.com/watch?v=Se64B8TKfjA",
+      "synthesis": "content/knowledge/interviews/004-james-dyson-5-127-prototypes.md",
+      "contentHash": "866b0ecfe0b3960d62d075366bfdd0e398e62fd47524407a75b496a176701208",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ab3a7cff6fc4981d",
+      "title": "How Elon Thinks",
+      "url": "https://www.youtube.com/watch?v=CdBcZSau5iA",
+      "synthesis": "content/knowledge/interviews/005-how-elon-thinks.md",
+      "contentHash": "272962d0e1ef620852231468a41612940eb5dcfb592a0b402e76b6c632572a4b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ff681dcb46f70d49",
+      "title": "Jimmy Iovine: Building Interscope Records & Beats by Dre",
+      "url": "https://www.youtube.com/watch?v=niqahsc9jfo",
+      "synthesis": "content/knowledge/interviews/006-jimmy-iovine-building-interscope-records-beats-by-dre.md",
+      "contentHash": "463ad572ee485855ec574c15758b39c0f2dfc25b96eee8e4ce4a6050cf6f6b88",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0b6f8e6d8481368d",
+      "title": "Jason Fried: Your Only Competition Is Your Costs",
+      "url": "https://www.youtube.com/watch?v=BdDCtMA1gSw",
+      "synthesis": "content/knowledge/interviews/007-jason-fried-your-only-competition-is-your-costs.md",
+      "contentHash": "d79b2ba4eca8f3c5673ac2217ec0e8b8884e87e942605f5b8d1aa86c5c6f1dd5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f6736702d65cc40a",
+      "title": "Dana White: The Man Behind the UFC",
+      "url": "https://www.youtube.com/watch?v=35IY2ILCAio",
+      "synthesis": "content/knowledge/interviews/008-dana-white-the-man-behind-the-ufc.md",
+      "contentHash": "6113a2ebfbdf4fed06bcd7eecbef472d1af684c96a68b6897f97576836647a8d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "19b5a5a95265d09d",
+      "title": "Daniel Ek, Spotify | David Senra",
+      "url": "https://www.youtube.com/watch?v=qiXH0y2V3_8",
+      "synthesis": "content/knowledge/interviews/009-daniel-ek-spotify-david-senra.md",
+      "contentHash": "b3273f3e6816e1e9d71218cdb6173bd353e8389044b180a78d698e7d4f745215",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bc64d70d2bc9e132",
+      "title": "Ivanka Trump on Building an Authentic Life",
+      "url": "https://www.youtube.com/watch?v=VhsiMd9ZFNk",
+      "synthesis": "content/knowledge/interviews/010-ivanka-trump-on-building-an-authentic-life.md",
+      "contentHash": "b5256c3a25b112d83e043fa0e088210aa3a2f40402511673d0fa5fc4b2b52eda",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "af6d21a7933ca664",
+      "title": "Tobi Lütke: 21 Years of Building Shopify",
+      "url": "https://www.youtube.com/watch?v=ZSM2uFnJ5bs",
+      "synthesis": "content/knowledge/interviews/011-tobi-l-tke-21-years-of-building-shopify.md",
+      "contentHash": "c6c0ca93e0e6629f8e560bf59f748db45a1d65436c1587a690d219e1a2e03a92",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3dcd356bc7d8719d",
+      "title": "How Brad Jacobs Built 8 Billion-Dollar Companies",
+      "url": "https://www.youtube.com/watch?v=3WXZg4_xcGs",
+      "synthesis": "content/knowledge/interviews/012-how-brad-jacobs-built-8-billion-dollar-companies.md",
+      "contentHash": "5298c10cc82681d5c0ffe17e26bf7c36ec4c6e4f2fb5c9a59426089352189180",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4c9227550a7715ec",
+      "title": "The Marketing Genius of Steve Stoute",
+      "url": "https://www.youtube.com/watch?v=kpgn7DCiJPE",
+      "synthesis": "content/knowledge/interviews/013-the-marketing-genius-of-steve-stoute.md",
+      "contentHash": "338b087b1f33b35537945e4934e8b59689a1bd84842910d93096e5456ca421f3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bc1cb999d71c571b",
+      "title": "Tony Xu of DoorDash: Surviving 1,000 Days of Startup Hell",
+      "url": "https://www.youtube.com/watch?v=a8LWEMD9VJA",
+      "synthesis": "content/knowledge/interviews/014-tony-xu-of-doordash-surviving-1-000-days-of-startup-hell.md",
+      "contentHash": "3b72a70dc81783538ed5ceb971a8b4433404db95e2a5c2a2fec9dec5d5f07b00",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6492df52fbbb806b",
+      "title": "Michael Dell, Dell Technologies | David Senra",
+      "url": "https://www.youtube.com/watch?v=9WSsLSq40Yw",
+      "synthesis": "content/knowledge/interviews/015-michael-dell-dell-technologies-david-senra.md",
+      "contentHash": "8ea393e7b49e2ce19484f4dc9ee096fc644dd83768dd536877b49f7e3fbbb1f5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "70edbc26bad5eca5",
+      "title": "Building Pixar, Working With Steve Jobs, and Cultivating Creativity | Ed Catmull",
+      "url": "https://www.youtube.com/watch?v=6ffhW9WAUv0",
+      "synthesis": "content/knowledge/interviews/016-building-pixar-working-with-steve-jobs-and-cultivating-creat.md",
+      "contentHash": "b02ac5a57e2533204c1a0c2682027e8b09527c49f01c6e1ebc6938cdb4400459",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "40c21becf28bcd56",
+      "title": "CAA Co-founder Michael Ovitz: Failure Is Not an Option",
+      "url": "https://www.youtube.com/watch?v=yhh-J0zVsik",
+      "synthesis": "content/knowledge/interviews/017-caa-co-founder-michael-ovitz-failure-is-not-an-option.md",
+      "contentHash": "39ce2e4d515b9fe01c89fcdc59e8370ca193c645f9b19673317742e3a00b1a48",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "afdc7ca6aadb6b36",
+      "title": "Evan Spiegel, Snapchat: Building a Multi-Billion Dollar Company",
+      "url": "https://www.youtube.com/watch?v=Sr6n-9mzYnk",
+      "synthesis": "content/knowledge/interviews/018-evan-spiegel-snapchat-building-a-multi-billion-dollar-compan.md",
+      "contentHash": "b61d8aefc17fa9e92f9009ba8ae0943fc955b3aaa6ee98ea2fe85012834ae974",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "94c9e5644bb085c8",
+      "title": "How Todd Graves Built Raising Cane's",
+      "url": "https://www.youtube.com/watch?v=B5rRIdQKB0A",
+      "synthesis": "content/knowledge/interviews/019-how-todd-graves-built-raising-canes.md",
+      "contentHash": "e16ae2bcc805936261975ffde42bf6736b437ec3d7b332deba916765b20e99e8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3cfb0fb91836b110",
+      "title": "The Future of Software & AI | Cognition’s Scott Wu",
+      "url": "https://www.youtube.com/watch?v=PYobZzjW_ic",
+      "synthesis": "content/knowledge/interviews/020-the-future-of-software-ai-cognition-s-scott-wu.md",
+      "contentHash": "cad3beec562f8eb30f66c866bfabb4f449a76be49bacfc1b3fe85d06731b4f09",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1002b4e3e3b58dbb",
+      "title": "Bootstrapping a Business to $5 Billion in Free Cash Flow | AppLovin’s Adam Foroughi",
+      "url": "https://www.youtube.com/watch?v=SCBFXL_Sn44",
+      "synthesis": "content/knowledge/interviews/021-bootstrapping-a-business-to-5-billion-in-free-cash-flow-appl.md",
+      "contentHash": "6a69d07a5edcf7b478f6c2a2defd7ba94d75260a2f85b23d32922644fa7aa56d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fdae7c4cdb9efaf7",
+      "title": "My Conversation With Patrick O'Shaughnessy, Founder of Colossus & Positive Sum | David Senra",
+      "url": "https://www.youtube.com/watch?v=E8B-P1oGuz4",
+      "synthesis": "content/knowledge/interviews/022-my-conversation-with-patrick-oshaughnessy-founder-of-colossu.md",
+      "contentHash": "a13037dcf0569ef71f3916ab80f4b785dac377fd4785452248ff404d691692c5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f8eb6ba179be9413",
+      "title": "John Mackey: 44 Years of Building Whole Foods",
+      "url": "https://www.youtube.com/watch?v=U8zqsiePKsg",
+      "synthesis": "content/knowledge/interviews/023-john-mackey-44-years-of-building-whole-foods.md",
+      "contentHash": "2463f89280e604412bd2cad282ee28e696243b31186a009ad42a5ea721f10a20",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6493c8748648e45b",
+      "title": "Brian Armstrong: When Washington Tried to Kill Coinbase",
+      "url": "https://www.youtube.com/watch?v=WcrPOElyjiI",
+      "synthesis": "content/knowledge/interviews/024-brian-armstrong-when-washington-tried-to-kill-coinbase.md",
+      "contentHash": "4482120703134b23aa0981fd53c034b7861a6d1552e24a4ce3070f0d90b7289e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f9bdf53760621790",
+      "title": "From Near Death to a $20B NVIDIA Deal | Jonathan Ross, Groq",
+      "url": "https://www.youtube.com/watch?v=hwY4bfZN8E8",
+      "synthesis": "content/knowledge/interviews/025-from-near-death-to-a-20b-nvidia-deal-jonathan-ross-groq.md",
+      "contentHash": "fb4663e18495bb9374e6716ffa91c2fddfbde4a11b85220c64ecbf369a99f0fa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "12b914edba87f4ba",
+      "title": "Roblox’s David Baszucki Built the Biggest Playground on Earth",
+      "url": "https://www.youtube.com/watch?v=osuOwvEhVfQ",
+      "synthesis": "content/knowledge/interviews/026-roblox-s-david-baszucki-built-the-biggest-playground-on-eart.md",
+      "contentHash": "a4123ef295a4209fd3e56db0ae198054a56cc310014ababae436777cc44a8bdc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cb6a918f025b662d",
+      "title": "The Company Apple Couldn't Kill | Spotify Co-CEO Gustav Söderström",
+      "url": "https://www.youtube.com/watch?v=qYnVDIgZxlI",
+      "synthesis": "content/knowledge/interviews/027-the-company-apple-couldnt-kill-spotify-co-ceo-gustav-s-derst.md",
+      "contentHash": "6316148b9b953dc67c1f1c1d48dbe458a972a69f9a82492ed955c47846f9a734",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "827c2c2cbe243cdd",
+      "title": "The $44 Billion Company Building Self-Driving Money | Eric Glyman, Ramp",
+      "url": "https://www.youtube.com/watch?v=lbGX3cbvMI4",
+      "synthesis": "content/knowledge/interviews/028-the-44-billion-company-building-self-driving-money-eric-glym.md",
+      "contentHash": "7a05293c8d8a56ee6ef68bcb2b7543d410b28803a7373b1d34b0c3ad1810153b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0c4dc5a299bd48a3",
+      "title": "How to Dominate for Decades | Doug Leone, Sequoia Capital",
+      "url": "https://www.youtube.com/watch?v=NR9NI51D7ek",
+      "synthesis": "content/knowledge/interviews/029-how-to-dominate-for-decades-doug-leone-sequoia-capital.md",
+      "contentHash": "5c1f8a022465750f7c42ec89b13f2d0fc219640d48915a13402f2a0f015756cc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f10c0be5f229a761",
+      "title": "Building Defense Technologies to Protect Democracies | Torsten Reil, Helsing",
+      "url": "https://www.youtube.com/watch?v=OduvOCrVpgo",
+      "synthesis": "content/knowledge/interviews/030-building-defense-technologies-to-protect-democracies-torsten.md",
+      "contentHash": "461eb638f4050a764377845a6e161403f56603acd756309080253938ad059dea",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3add26294b5d6a48",
+      "title": "Sam Altman on Building OpenAI & Betting on the Impossible",
+      "url": "https://www.youtube.com/watch?v=kG8AoExkX40",
+      "synthesis": "content/knowledge/interviews/031-sam-altman-on-building-openai-betting-on-the-impossible.md",
+      "contentHash": "5047ea0ffa43f3616afff95a297e67608d4c2b8237ff16cdb7579ed8edd1f956",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "62526e1c09d800db",
+      "title": "Excellence Is the Capacity To Take Pain | Travis Kalanick, Founder of Uber",
+      "url": "https://www.youtube.com/watch?v=QVnU5lGlKE8",
+      "synthesis": "content/knowledge/interviews/032-excellence-is-the-capacity-to-take-pain-travis-kalanick-foun.md",
+      "contentHash": "371d07cf43bbe2615ceba1020705be7b6bede3257a6c81d0157e019d9aeb224d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f4600c6f3e84e2a2",
+      "title": "The Comms Strategist Behind Anduril, Shopify & Cognition | Lulu Cheng Meservey",
+      "url": "https://www.youtube.com/watch?v=DFImJfJGXl0",
+      "synthesis": "content/knowledge/interviews/033-the-comms-strategist-behind-anduril-shopify-cognition-lulu-c.md",
+      "contentHash": "82ffbac67104b2042eb5a887c39f76ed518b43b0fa01b97e31807cb451ccbba6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "681f4d97429585b8",
+      "title": "Founder of CAA Michael Ovitz: 'I Just Knew I Was Going to Outwork Every One of Them'",
+      "url": "https://www.youtube.com/watch?v=SHh03lzOJz0",
+      "synthesis": "content/knowledge/interviews/034-founder-of-caa-michael-ovitz-i-just-knew-i-was-going-to-outw.md",
+      "contentHash": "66419c9928d82f19b2d870a6ba42521d09686287506b9b7c132933ad935b7726",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "98be934accc90fc7",
+      "title": "Lessons From Backing The Best Founders In Fintech | Micky Malka",
+      "url": "https://www.youtube.com/watch?v=CjLhd1WZwTE",
+      "synthesis": "content/knowledge/interviews/035-lessons-from-backing-the-best-founders-in-fintech-micky-malk.md",
+      "contentHash": "94180589c9107eae539043a8d223d514a54bf14178b4ece7ae54386411df59c2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "72b50850d5d9ae42",
+      "title": "DHH: How to Build a Profitable Company Without Losing Control",
+      "url": "https://www.youtube.com/watch?v=76rR68ktQvo",
+      "synthesis": "content/knowledge/interviews/036-dhh-how-to-build-a-profitable-company-without-losing-control.md",
+      "contentHash": "bc7f7f7a36486083db13098ba150328d5891fc38c6cedd56edc9107794078e64",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "15e2b3e52679e987",
+      "title": "The Restaurant Genius Behind Carbone, ZZ's, Torrisi & More | Jeff Zalaznick",
+      "url": "https://www.youtube.com/watch?v=7WBfRhPbS5I",
+      "synthesis": "content/knowledge/interviews/037-the-restaurant-genius-behind-carbone-zz-s-torrisi-more-jeff.md",
+      "contentHash": "b0345d8fd02e3b7fddd5a0ab674383081f06524fbd195c7c42528439c3f4a4de",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ecd78dd55d4ac949",
+      "title": "Building a Power Company for the Next 50 Years | Zach Dell, Base Power",
+      "url": "https://www.youtube.com/watch?v=QFk6g5PQtqs",
+      "synthesis": "content/knowledge/interviews/038-building-a-power-company-for-the-next-50-years-zach-dell-bas.md",
+      "contentHash": "4a8d1af3eeee4fd8d74c9b4ee1a29195062cf9081c780d308b31bb67ae2a8834",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9796b70f549a5ac5",
+      "title": "Building One of AI's Fastest-Growing Companies | Mati Staniszewski, ElevenLabs",
+      "url": "https://www.youtube.com/watch?v=RFccAuyPPOg",
+      "synthesis": "content/knowledge/interviews/039-building-one-of-ai-s-fastest-growing-companies-mati-stanisze.md",
+      "contentHash": "447aaa2315c0902dcc9001c464509a2c953bb7a182874100116260ec6a2404cc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ffcd9b86ecc4150d",
+      "title": "Inside Bending Spoons: Finding Talent, Leveraging AI & Driving Operational Excellence | Luca Ferrari",
+      "url": "https://www.youtube.com/watch?v=MCbHnlpwZf0",
+      "synthesis": "content/knowledge/interviews/040-inside-bending-spoons-finding-talent-leveraging-ai-driving-o.md",
+      "contentHash": "d92ff71953da3a7b52baecc648ffda3fca9dc97c5464a8d679899d1dff2f49ef",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9c16edcc83bf9945",
+      "title": "Rick Rubin on Finding Your Life’s Work",
+      "url": "https://www.youtube.com/watch?v=g6MEDOY7tHo",
+      "synthesis": "content/knowledge/senra/001-rick-rubin-on-finding-your-life-s-work.md",
+      "contentHash": "83c2db8d41ec9ddcdbf566d9dd745aa4d87bee182f95b3c1a17521eb1edff3e2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d65c904b9872ca1b",
+      "title": "The Man Behind Grand Theft Auto 6: Strauss Zelnick",
+      "url": "https://www.youtube.com/watch?v=1ZgUcrR0K7I",
+      "synthesis": "content/knowledge/senra/002-the-man-behind-grand-theft-auto-6-strauss-zelnick.md",
+      "contentHash": "caa6a61e594fee9a7a2dafbc1627f666c5355881a862c46cedf7d83e66d6e064",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dad3a9be9bffa3f0",
+      "title": "Marc Andreessen: The World Is More Malleable Than You Think",
+      "url": "https://www.youtube.com/watch?v=qBVe3M2g_SA",
+      "synthesis": "content/knowledge/senra/003-marc-andreessen-the-world-is-more-malleable-than-you-think.md",
+      "contentHash": "41d47b6bbec5df788e479fc5c377bae4e448ab58d17438ebf4c46e5888d600cd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f94222a008ba8757",
+      "title": "James Dyson: 5,127 Prototypes",
+      "url": "https://www.youtube.com/watch?v=Se64B8TKfjA",
+      "synthesis": "content/knowledge/senra/004-james-dyson-5-127-prototypes.md",
+      "contentHash": "cf5a075e84ca6f46a6377ea5331e2e67f0f0dc0dcc1ba6218c99010d0c50eb4f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f27f87a01e930f96",
+      "title": "How Elon Thinks",
+      "url": "https://www.youtube.com/watch?v=CdBcZSau5iA",
+      "synthesis": "content/knowledge/senra/005-how-elon-thinks.md",
+      "contentHash": "bb9e99177e8ec13e62a3c586b218972c24145a5caa6d732b87b0d455067fd907",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c6e2aca480ff371e",
+      "title": "Jimmy Iovine: Building Interscope Records & Beats by Dre",
+      "url": "https://www.youtube.com/watch?v=niqahsc9jfo",
+      "synthesis": "content/knowledge/senra/006-jimmy-iovine-building-interscope-records-beats-by-dre.md",
+      "contentHash": "b6183b6d112a6fe3c544075559a9c79a1f1a3fce4d9dab2e23280c8832e14808",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0f4c12aedc390808",
+      "title": "Jason Fried: Your Only Competition Is Your Costs",
+      "url": "https://www.youtube.com/watch?v=BdDCtMA1gSw",
+      "synthesis": "content/knowledge/senra/007-jason-fried-your-only-competition-is-your-costs.md",
+      "contentHash": "21244a1615172c3c7778d33138d092a8f4aeb36471265c94c1844ea785ca6594",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1517b7320b57a1ab",
+      "title": "Dana White: The Man Behind the UFC",
+      "url": "https://www.youtube.com/watch?v=35IY2ILCAio",
+      "synthesis": "content/knowledge/senra/008-dana-white-the-man-behind-the-ufc.md",
+      "contentHash": "93dfe3eafd18b49a88e197cca35231e783b6fd8260f31189d965b50372f77f5b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7872b2584bca2180",
+      "title": "Daniel Ek, Spotify | David Senra",
+      "url": "https://www.youtube.com/watch?v=qiXH0y2V3_8",
+      "synthesis": "content/knowledge/senra/009-daniel-ek-spotify-david-senra.md",
+      "contentHash": "be0cade3edd2dc752e75e753aa4ae9a78de8bf787a1171d8f92670f6d079fd66",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "162603829692e1fc",
+      "title": "Ivanka Trump on Building an Authentic Life",
+      "url": "https://www.youtube.com/watch?v=VhsiMd9ZFNk",
+      "synthesis": "content/knowledge/senra/010-ivanka-trump-on-building-an-authentic-life.md",
+      "contentHash": "c6f3fac0994ecc86ff1a91f8e9ea648375bca6304e6c38e69f100f08bc5d9eb9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ab408fe206d69fdc",
+      "title": "Tobi Lütke: 21 Years of Building Shopify",
+      "url": "https://www.youtube.com/watch?v=ZSM2uFnJ5bs",
+      "synthesis": "content/knowledge/senra/011-tobi-l-tke-21-years-of-building-shopify.md",
+      "contentHash": "649f5bf32fc832282e130fd34bbf9478e7f5d92b6057fb4cb53c0216c360cbc6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1c11f3a538189998",
+      "title": "How Brad Jacobs Built 8 Billion-Dollar Companies",
+      "url": "https://www.youtube.com/watch?v=3WXZg4_xcGs",
+      "synthesis": "content/knowledge/senra/012-how-brad-jacobs-built-8-billion-dollar-companies.md",
+      "contentHash": "57f9810fd3b87ab89440fae896e1daa24b36bdc33abffd439da24669683324bd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "07fa28e7b4ffebdd",
+      "title": "The Marketing Genius of Steve Stoute",
+      "url": "https://www.youtube.com/watch?v=kpgn7DCiJPE",
+      "synthesis": "content/knowledge/senra/013-the-marketing-genius-of-steve-stoute.md",
+      "contentHash": "47a4141d5c1ca83c3b5adc427f652b4a62e1c555e621b90e741b3d3f419ca591",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6426ae6dcb1e2423",
+      "title": "Tony Xu of DoorDash: Surviving 1,000 Days of Startup Hell",
+      "url": "https://www.youtube.com/watch?v=a8LWEMD9VJA",
+      "synthesis": "content/knowledge/senra/014-tony-xu-of-doordash-surviving-1-000-days-of-startup-hell.md",
+      "contentHash": "82bc84c546d4376296769c22c87ffeee42dec409d5b50ee1a0b97c551f1a69f2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "edb0237a798710b3",
+      "title": "Michael Dell, Dell Technologies | David Senra",
+      "url": "https://www.youtube.com/watch?v=9WSsLSq40Yw",
+      "synthesis": "content/knowledge/senra/015-michael-dell-dell-technologies-david-senra.md",
+      "contentHash": "0c9a3faa9ebc9acad9c9946d9ae4c9c659a2e5f47e66588599aa4cd523840bfa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d90490c5b97e8226",
+      "title": "Building Pixar, Working With Steve Jobs, and Cultivating Creativity | Ed Catmull",
+      "url": "https://www.youtube.com/watch?v=6ffhW9WAUv0",
+      "synthesis": "content/knowledge/senra/016-building-pixar-working-with-steve-jobs-and-cultivating-creat.md",
+      "contentHash": "950815639910639e82ac7b990570dff71dc03ae5576cb5fde98874b86a7790e8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ac63e05bbcbfea95",
+      "title": "CAA Co-founder Michael Ovitz: Failure Is Not an Option",
+      "url": "https://www.youtube.com/watch?v=yhh-J0zVsik",
+      "synthesis": "content/knowledge/senra/017-caa-co-founder-michael-ovitz-failure-is-not-an-option.md",
+      "contentHash": "a6988f8fea4b916cfb047435541aadbe3ad4b81bf849c7eaa155d0e64f16a232",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a96b344e40e48e6b",
+      "title": "Evan Spiegel, Snapchat: Building a Multi-Billion Dollar Company",
+      "url": "https://www.youtube.com/watch?v=Sr6n-9mzYnk",
+      "synthesis": "content/knowledge/senra/018-evan-spiegel-snapchat-building-a-multi-billion-dollar-compan.md",
+      "contentHash": "bcf6a74a90975aa46852570ebaa28ad3b1d50d978305f8e0357d3636db84fd98",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "961a4b8d1a888ef4",
+      "title": "How Todd Graves Built Raising Cane's",
+      "url": "https://www.youtube.com/watch?v=B5rRIdQKB0A",
+      "synthesis": "content/knowledge/senra/019-how-todd-graves-built-raising-canes.md",
+      "contentHash": "8af5842963bc939a28db4e75b72c4522c113bc73eb2d775e12782ce9502a81cd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "56cb9d45c0f95240",
+      "title": "The Future of Software & AI | Cognition’s Scott Wu",
+      "url": "https://www.youtube.com/watch?v=PYobZzjW_ic",
+      "synthesis": "content/knowledge/senra/020-the-future-of-software-ai-cognition-s-scott-wu.md",
+      "contentHash": "2422f5272982ec7e414e0419742a9e64e8f8ec6080f89d4e1e74974211bf1092",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a1caf7eebb2e1c74",
+      "title": "Bootstrapping a Business to $5 Billion in Free Cash Flow | AppLovin’s Adam Foroughi",
+      "url": "https://www.youtube.com/watch?v=SCBFXL_Sn44",
+      "synthesis": "content/knowledge/senra/021-bootstrapping-a-business-to-5-billion-in-free-cash-flow-appl.md",
+      "contentHash": "9f534b29d98b1c8d828534acfa23458909010a3b33f3ba9f4029922a03b2baa4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7cc23b5effaf9609",
+      "title": "My Conversation With Patrick O'Shaughnessy, Founder of Colossus & Positive Sum | David Senra",
+      "url": "https://www.youtube.com/watch?v=E8B-P1oGuz4",
+      "synthesis": "content/knowledge/senra/022-my-conversation-with-patrick-oshaughnessy-founder-of-colossu.md",
+      "contentHash": "46bd505d1319d838a501e8e854ddf7491a8342330426085d7eddad7d6b53c51b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "284282d6df9b2437",
+      "title": "John Mackey: 44 Years of Building Whole Foods",
+      "url": "https://www.youtube.com/watch?v=U8zqsiePKsg",
+      "synthesis": "content/knowledge/senra/023-john-mackey-44-years-of-building-whole-foods.md",
+      "contentHash": "4571875d996c922ab160e97355f9febc58825d161d7519db22701ee02346c12f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d8b5601d593473dd",
+      "title": "Brian Armstrong: When Washington Tried to Kill Coinbase",
+      "url": "https://www.youtube.com/watch?v=WcrPOElyjiI",
+      "synthesis": "content/knowledge/senra/024-brian-armstrong-when-washington-tried-to-kill-coinbase.md",
+      "contentHash": "c097c096d56ad1dd52edb6be5be71f51bae2fa17815a7e3d1ef3398de67854ec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6147dbbc653a4aa3",
+      "title": "From Near Death to a $20B NVIDIA Deal | Jonathan Ross, Groq",
+      "url": "https://www.youtube.com/watch?v=hwY4bfZN8E8",
+      "synthesis": "content/knowledge/senra/025-from-near-death-to-a-20b-nvidia-deal-jonathan-ross-groq.md",
+      "contentHash": "37e531cc460a45b261c925c8b0238215b612addf7c8699c24d819b071ba10bde",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "866f842a8ed96dc3",
+      "title": "Roblox’s David Baszucki Built the Biggest Playground on Earth",
+      "url": "https://www.youtube.com/watch?v=osuOwvEhVfQ",
+      "synthesis": "content/knowledge/senra/026-roblox-s-david-baszucki-built-the-biggest-playground-on-eart.md",
+      "contentHash": "89ae11bb077179039c47d46b0f117ae114f4a5a91131edc6e2751a92e64a24ba",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5232d74ab3be5884",
+      "title": "The Company Apple Couldn't Kill | Spotify Co-CEO Gustav Söderström",
+      "url": "https://www.youtube.com/watch?v=qYnVDIgZxlI",
+      "synthesis": "content/knowledge/senra/027-the-company-apple-couldnt-kill-spotify-co-ceo-gustav-s-derst.md",
+      "contentHash": "14fa8e35ad26250af6fecbb66c91cc01eac2e63eb507d57b0b641be185015814",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3e1a2a17a8d5be19",
+      "title": "The $44 Billion Company Building Self-Driving Money | Eric Glyman, Ramp",
+      "url": "https://www.youtube.com/watch?v=lbGX3cbvMI4",
+      "synthesis": "content/knowledge/senra/028-the-44-billion-company-building-self-driving-money-eric-glym.md",
+      "contentHash": "52da00cda1777f873fa4e45f1089db005222260a3d0ed9b8daae7f82d70eec8f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

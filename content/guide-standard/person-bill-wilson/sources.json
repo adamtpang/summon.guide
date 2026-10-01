@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "guideId": "person:bill-wilson",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "7955ab39836e5444",
+      "title": "Bill's Story, Chapter 1 of Alcoholics Anonymous (first edition), 1939-04-10",
+      "url": "https://jeopardaa.com/big-book/bills-story",
+      "synthesis": "content/knowledge/bill-wilson/1939-04-10-bills-story.md",
+      "contentHash": "d046275a6dc0615f5144a7516c036a8f3e2a717c8fde8b811c02fb9cca12725d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "85aea5b5382ddfee",
+      "title": "The Doctor's Opinion, Alcoholics Anonymous (first edition), 1939-04-10",
+      "url": "https://jeopardaa.com/big-book/doctors-opinion",
+      "synthesis": "content/knowledge/bill-wilson/1939-04-10-doctors-opinion.md",
+      "contentHash": "965b7b5e443b5427dc44ba16315ff77620d5deea7b65a5af2383f726755ee51a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c58b6cf0e3c79f1e",
+      "title": "How It Works, Alcoholics Anonymous (first edition), 1939-04-10",
+      "url": "https://jeopardaa.com/big-book/how-it-works",
+      "synthesis": "content/knowledge/bill-wilson/1939-04-10-how-it-works.md",
+      "contentHash": "5d3f34baa5e197bc00cf8ace93d5b1c23ed6801207a5d0e303bcf41f08dacd64",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4682df75bb0cc9b2",
+      "title": "More About Alcoholism, Alcoholics Anonymous (first edition), 1939-04-10",
+      "url": "https://jeopardaa.com/big-book/more-about-alcoholism",
+      "synthesis": "content/knowledge/bill-wilson/1939-04-10-more-about-alcoholism.md",
+      "contentHash": "932c4865cefbf8bdddbf506a50a40ce39149572acb03c4e61011d6af4907462b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "41a3278df5cbef24",
+      "title": "We Agnostics, Alcoholics Anonymous (first edition), 1939-04-10",
+      "url": "https://jeopardaa.com/big-book/we-agnostics",
+      "synthesis": "content/knowledge/bill-wilson/1939-04-10-we-agnostics.md",
+      "contentHash": "c2b76c40f29671c1315a4e59abcee6c60c450c4e5fc9e09c36d4fab45da7fd8b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "087a9b32e797ab52",
+      "title": "Working With Others, Alcoholics Anonymous (first edition), 1939-04-10",
+      "url": "https://jeopardaa.com/big-book/working-with-others",
+      "synthesis": "content/knowledge/bill-wilson/1939-04-10-working-with-others.md",
+      "contentHash": "0cafc131e158154b62682a021166d026ff96c7de449346137833552a49387993",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "537e77b485789772",
+      "title": "Alcoholics Anonymous: beginnings and growth, talk to the New York City Medical Society on Alcoholism, 1958-04-28",
+      "url": "https://www.prestongroup.org/aa_docs/3_talks_Bill_W.pdf",
+      "synthesis": "content/knowledge/bill-wilson/1958-04-28-medical-society-talk.md",
+      "contentHash": "f5681da8f5d69c141460606e894adeb8a00c96063e11972a33bdf36203094892",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6d04e46af16a9fa7",
+      "title": "Bill W. letter to Carl Jung, 1961-01-23, with Jung's reply, Grapevine reprint 1963",
+      "url": "https://gugogs.org/2020/05/14/bill-w-carl-jung-letters-how-aa-history-was-made-grapevine-january-1963/",
+      "synthesis": "content/knowledge/bill-wilson/1961-01-23-jung-letter.md",
+      "contentHash": "52efe9bb292ffe5cc01113dfe728586fbf1b147300c6804314dfbc8c96d350c7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

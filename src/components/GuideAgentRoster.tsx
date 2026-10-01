@@ -28,7 +28,7 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
     const matches = agents.filter((agent) => {
       if (kind !== "all" && agent.kind !== kind) return false;
       if (!needle) return true;
-      return [agent.name, agent.byline, agent.description, ...agent.domains]
+      return [agent.name, agent.byline, agent.description, agent.category, ...agent.domains]
         .join(" ")
         .toLowerCase()
         .includes(needle);

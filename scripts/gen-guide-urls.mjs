@@ -9,7 +9,11 @@ const root = process.cwd();
 const hooks = registerHooks({
   resolve(specifier, context, next) {
     if (specifier.startsWith('@/')) specifier = pathToFileURL(path.join(root, 'src', specifier.slice(2) + '.ts')).href;
-    return next(specifier, context);
+    try { return next(specifier, context); }
+    catch (error) {
+      if (specifier.startsWith('.') && !/\.[a-z]+$/i.test(specifier)) return next(specifier + '.ts', context);
+      throw error;
+    }
   },
   load(url, context, next) {
     if (url.startsWith(pathToFileURL(path.join(root, 'data')).href) && url.endsWith('.json')) {

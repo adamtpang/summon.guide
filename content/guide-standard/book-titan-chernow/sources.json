@@ -1,0 +1,332 @@
+{
+  "version": 1,
+  "guideId": "book:titan-chernow",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "d90138f2aeb320c3",
+      "title": "Foreword and Prelude: Poison Tongue",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/000-foreword-and-prelude.md",
+      "contentHash": "2c51c22ccbf3dda6159ec4c4602d820a615b90dbbc4ed78908bfee3259cfacb7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "347474eeb6d0a55a",
+      "title": "Chapter 1: The Flimflam Man",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/001-chapter-1-the-flimflam-man.md",
+      "contentHash": "71cea9a37899e7962220bc9fb74fe37826c6d9f9313754831aec95fe88563363",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8c7e4ce57ead6a2d",
+      "title": "Chapter 2: Fires of Revival",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/002-chapter-2-fires-of-revival.md",
+      "contentHash": "f57de6956cef3eea388790b5e13b6d1aa70c37252d44e1f25c3aaf9e62ec6fa8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "077ead9a7944a8a3",
+      "title": "Chapter 3: Bound to Be Rich",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/003-chapter-3-bound-to-be-rich.md",
+      "contentHash": "4d71ac6717fe4f71539d147a276bf16dab5f3d2974182cd07ff196bea09b0b7b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "eb172f0c03990d91",
+      "title": "Chapter 4: Baptism in Business",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/004-chapter-4-baptism-in-business.md",
+      "contentHash": "e7d65fddca31cd96bb17493f0c9eff449d33f3f4a3c1b38db5932fd65a8f8923",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3af3b620f4173d54",
+      "title": "Chapter 5: The Auction",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/005-chapter-5-the-auction.md",
+      "contentHash": "3d988ef4c822a3991e779e9384599678fd75b3ef004ee87781a07c72a16ebdb5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4946149cf110ed0c",
+      "title": "Chapter 6: The Poetry of the Age",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/006-chapter-6-the-poetry-of-the-age.md",
+      "contentHash": "61b3f1da1ae6957df75c5a80e13ed6b05f559a1c063774b806fc8448af8a2895",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "289e75a783c4ec06",
+      "title": "Chapter 7: Millionaires' Row",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/007-chapter-7-millionaires-row.md",
+      "contentHash": "a4f4ad30dbe68dc40ea462c4ece9efa86d658f067456845669e4fc1024abda05",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4196ab363293588d",
+      "title": "Chapter 8: Conspirators",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/008-chapter-8-conspirators.md",
+      "contentHash": "335f4007c691e42a98c164a06bf2d08542f1715709986d6532002da64639226e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "951beabfe405aac0",
+      "title": "Chapter 9: The New Monarch",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/009-chapter-9-the-new-monarch.md",
+      "contentHash": "2fa8d058b353794ffb7d8557d476c97f662e62f5b947bc74894b82875b51649e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2b98fc921743addf",
+      "title": "Chapter 10: Sphinx",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/010-chapter-10-sphinx.md",
+      "contentHash": "364c918090d02dc119e3ecbaa0e36eb5fe68d1aa032414258dd72558935d32a7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cb9d4682ec7d9eb1",
+      "title": "Chapter 11: The Holy Family",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/011-chapter-11-the-holy-family.md",
+      "contentHash": "578cde6b9e9de3f2f75b494c36f111c9250e97ea2d13c43876599a293b74ede1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7610f2f2caceaab0",
+      "title": "Chapter 12: Insurrection in the Oil Fields",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/012-chapter-12-insurrection-in-the-oil-fields.md",
+      "contentHash": "5ee972bc800328bebcd65ec50b68c6f344e1c157ef1ebec45b4f937e31f11495",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c8ad869f8d94ac08",
+      "title": "Chapter 13: Seat of Empire",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/013-chapter-13-seat-of-empire.md",
+      "contentHash": "876faab2e2b5842987fe4d01ddb830d2cf93adaf43a71e4d7f6c5168d77cf116",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e42cfe51f3a7ff38",
+      "title": "Chapter 14: The Puppeteer",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/014-chapter-14-the-puppeteer.md",
+      "contentHash": "a1c4c6f4dc1de5956733697866a6a018a75c8479043430b795a748312bcf50cd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fb969d19bf3c1058",
+      "title": "Chapter 15: Widow's Funeral",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/015-chapter-15-widows-funeral.md",
+      "contentHash": "6af1860980ae13245fb436b865940f90297beeaecd18aa9c7299ac1f7684e4c2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5d3a63534aa11870",
+      "title": "Chapter 16: A Matter of Trust",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/016-chapter-16-a-matter-of-trust.md",
+      "contentHash": "76d5602e6048868bd941391b5dda872bf0df633c80152d1ed93b39f733a2c660",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8e4a883298ee647a",
+      "title": "Chapter 17: Captains of Erudition",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/017-chapter-17-captains-of-erudition.md",
+      "contentHash": "686ac59ab5d344f1438836765f7b35e18e1ce0be3384d848833e6b44c64d45a6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b414a3e207ca3185",
+      "title": "Chapter 18: Nemesis",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/018-chapter-18-nemesis.md",
+      "contentHash": "542e02c1462481fe2a02e78cbe3e3843dd4c045220cda6e4c31867e7829c98df",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "118660d47a42dc38",
+      "title": "Chapter 19: The Dauphin",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/019-chapter-19-the-dauphin.md",
+      "contentHash": "f0ff4abb177a6d10debe206856d7f4ccf6971fde92a7b74712aca56af74fb38e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3e4d43dc920c8965",
+      "title": "Chapter 20: The Standard Oil Crowd",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/020-chapter-20-the-standard-oil-crowd.md",
+      "contentHash": "3e827db94b656804770b4f136333e9cc27deab6a3485bfff49f4604eaee9e849",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "43adbf7b1e0e0740",
+      "title": "Chapter 21: The Enthusiast",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/021-chapter-21-the-enthusiast.md",
+      "contentHash": "3a3225c2e30bf9d5d259b01c4d0e98b40cb07c541cfbca671e89e10e070bc7c5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5a963f82ab60d19f",
+      "title": "Chapter 22: Avenging Angel",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/022-chapter-22-avenging-angel.md",
+      "contentHash": "f2faead1a3c82eab4a02a0769a842b5b2fb5a637534bb6f2e087751a0bd127e3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6da6c09125261f23",
+      "title": "Chapter 23: Faith of Fools",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/023-chapter-23-faith-of-fools.md",
+      "contentHash": "a50e585af8951ff75e0929fc2a135ec3af4e9f7b8fc4a4b569a6ebdd1d9b41e7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2757b7d7495f03a4",
+      "title": "Chapter 24: The Millionaires' Special",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/024-chapter-24-the-millionaires-special.md",
+      "contentHash": "ee239a63524c1018811658129d7b5f28755709ad57f1610273a680f6eb68cad2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bcfc5713c9c0ac71",
+      "title": "Chapter 25: The Codger",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/025-chapter-25-the-codger.md",
+      "contentHash": "060f882d4add28250c0d0275114a4e8cebc294fdbdb45c897e0317b212627249",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e9d9249137497276",
+      "title": "Chapter 26: The World's Richest Fugitive",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/026-chapter-26-the-worlds-richest-fugitive.md",
+      "contentHash": "6cb57fcf49a187ad0106a77a3ce003723d63669de43aa1c06ff2c4cddd829f40",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "65bcc418078b9626",
+      "title": "Chapter 27: Judgment Day",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/027-chapter-27-judgment-day.md",
+      "contentHash": "29ffe0f321cb09409b7b91f5da42bdd8bbcca41e3479ffde460cd8a0d897181e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8c937b460224cce4",
+      "title": "Chapter 28: Benevolent Trust",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/028-chapter-28-benevolent-trust.md",
+      "contentHash": "ccd89be6e6e91001665ab45c1163cca72576082dd71b47ac451e12d71b2f588b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "49ba47ff6513f2ed",
+      "title": "Chapter 29: Massacre",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/029-chapter-29-massacre.md",
+      "contentHash": "0dabd64601f4636b70ee27c1ee908e0cd146bbbf0b54f99649b17a47537188fa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2db889751ea8df65",
+      "title": "Chapter 30: Introvert and Extrovert",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/030-chapter-30-introvert-and-extrovert.md",
+      "contentHash": "75705c9c51809cc89db0f524a62f18767440c9b70987ec500b4fb41a17f9df42",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cdfc668002baacec",
+      "title": "Chapter 31: Confessional",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/031-chapter-31-confessional.md",
+      "contentHash": "eefb7b35db7b2ebde4df7ea1f04230ac2006c5b117aad1adb66588ab7e7ef4a5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6ddb5fe0531daa1a",
+      "title": "Chapter 32: Dynastic Succession",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/032-chapter-32-dynastic-succession.md",
+      "contentHash": "44273ae89b950caede4804cf1e642970ee378b55d7126e2a78626259e4faa1ea",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "98788c3d2953dd83",
+      "title": "Chapter 33: Past, Present, Future",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/033-chapter-33-past-present-future.md",
+      "contentHash": "e0208bf70c881f33747eb9b79f122ab5696563358be29414761560a2e80147c9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1a4beb79f968747e",
+      "title": "Chapter 34: Heirs",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/034-chapter-34-heirs.md",
+      "contentHash": "9cb7b18aed07757a11e35e3ab48a82d6348c05f790269f8acfb2d2c1dfef73c7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "df5d11d85ce600f1",
+      "title": "Chapter 35: See You in Heaven",
+      "url": null,
+      "synthesis": "content/knowledge/titan-chernow/035-chapter-35-see-you-in-heaven.md",
+      "contentHash": "3852d36d97abdab4d060bf682d923cd3da5baf1c63688ebb312e09cc64a61c3e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

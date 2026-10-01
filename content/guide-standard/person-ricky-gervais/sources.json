@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:ricky-gervais",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "f79abd7d91f3c23a",
+      "title": "Ricky Gervais: connection rather than a career script",
+      "url": "https://www.rickygervais.com/interview_mar08.php",
+      "synthesis": "content/knowledge/ricky-gervais-public-notes/001.md",
+      "contentHash": "1e75cbfdb0bdc4de99fe2704a059d13e6bf54a7664b968b7cf6497708646a23f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

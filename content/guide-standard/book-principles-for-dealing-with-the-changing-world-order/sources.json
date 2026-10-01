@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "guideId": "book:principles-for-dealing-with-the-changing-world-order",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "c3d6888a4e853597",
+      "title": "The Big Cycle and the Determinants of Power",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/001-the-big-cycle-and-the-determinants-of-power.md",
+      "contentHash": "8ac8f673d84f60b75494933763f95cc05e73980a3f8ef488cde008bc64f1d25b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "25d13d7bdfb2c75d",
+      "title": "The Changing Value of Money",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/002-the-changing-value-of-money.md",
+      "contentHash": "ae903012b103076458692b799cade6c6b526ff40cb4ca7d4b7ad873094d4f84e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3f49d163a89fd94e",
+      "title": "Internal and External Order and Disorder",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/003-internal-and-external-order-and-disorder.md",
+      "contentHash": "3f6dff37e8077b4fe0b065d4235589ccac855ad7c6d21e676961d18e31c49566",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "474dd219134aaeaf",
+      "title": "Investing Through the Big Cycle",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/004-investing-through-the-big-cycle.md",
+      "contentHash": "127fcb6f9878ed52af08a8cf41df50eb61c5f3c694c17b94a6969d091c676d42",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8a09f049c72e9fbd",
+      "title": "The Dutch and British Empires",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/005-the-dutch-and-british-empires.md",
+      "contentHash": "46da903d1a1b72a934726be326bad33a93280e8390ee002d541ec2dd40742b78",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "40ff7d84187f0158",
+      "title": "The American and Chinese Empires",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/006-the-american-and-chinese-empires.md",
+      "contentHash": "7f0d68d6e14d2ea3be3ecf3415626c8fae42efda04100660d340424a0d283d88",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3ba2a7c4e8716338",
+      "title": "US-China Relations and the Future",
+      "url": null,
+      "synthesis": "content/knowledge/principles-for-dealing-with-the-changing-world-order/007-us-china-relations-and-the-future.md",
+      "contentHash": "f9acb769eb8e21a5625c24576077c3c268b3385457b395cddbdeba48c25077c8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "version": 1,
+  "guideId": "book:letters-from-a-stoic",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "d689de713b050b95",
+      "title": "Reading Deeply, and Testing a Friend Before Trusting Him",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/001-reading-deeply-and-testing-friends.md",
+      "contentHash": "41fb27942aa1abe66a7fd50a760bd288e44b764739052546b64f1d3a1d012efe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ef430c3f4d63c759",
+      "title": "Philosophy Without a Costume, and Becoming Your Own Friend",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/002-philosophy-without-costume.md",
+      "contentHash": "486a67ee3248a3531d0fe81533d3573be61bf5dd6d10fbfed598da59749d55f1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bbaaea77f30a4f39",
+      "title": "The Crowd and the Arena",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/003-the-crowd-and-the-arena.md",
+      "contentHash": "69f9627d21f245e6448cb0d900aff088fbd2d0711f5394a2f2fad4b10d293b5b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "64a434ad7c486039",
+      "title": "Friendship and Self-Sufficiency",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/004-friendship-and-self-sufficiency.md",
+      "contentHash": "17423b8f590ba2c35519685811c7345b58c55d8e30d2564d568c8a60bb0bcb13",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "18aa7d48c3d1f3aa",
+      "title": "The Blush Wisdom Cannot Cure, and the Witness You Should Carry",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/005-the-blush-and-the-inner-witness.md",
+      "contentHash": "ee5a0308deb350ce2389948d9214cbdcbde99885a01602ce71398f93d413fb27",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "40e05993ad6cb7fd",
+      "title": "Old Age at the Villa Gate, and Rehearsing the Final Verdict",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/006-old-age-and-rehearsing-the-verdict.md",
+      "contentHash": "ec45c35bb523269dfa8f58104147faf8be8e645d0c626140baf44b347ec5b704",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "01d5d80d541540ed",
+      "title": "Train the Body Briefly, Cultivate the Mind Constantly",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/007-training-the-body-briefly.md",
+      "contentHash": "37efc3e5ec26e2b839e4d1c7ce825372ab706188fe77d530704ed83b56081683",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bb1952adfde80c8d",
+      "title": "Philosophy Is Necessary Whether Fate, God, or Chance Rules the World",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/008-philosophy-is-necessary-regardless.md",
+      "contentHash": "96a7e02763bf2d15b75f73658eb6b6565b9593d796c98d97308f446d954b3064",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c61a0232b07c3309",
+      "title": "Rehearsing Poverty During the Saturnalia",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/009-rehearsing-poverty-at-saturnalia.md",
+      "contentHash": "092e27500d4d641b160ed1a6ca7076e39c6e9f6ba4d1253263c599cc0b085ca0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d0b5dee92f550938",
+      "title": "The Patient Advising the Patient, and the Man Who Bought His Own Memory",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/010-the-patient-advising-the-patient.md",
+      "contentHash": "bf36a63ae7b8e95886f7a926133d18f761fd19fe38362f090adfb60231563fa8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f740ba82f94d22fa",
+      "title": "You Cannot Flee Yourself by Changing Country",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/011-you-cannot-flee-yourself.md",
+      "contentHash": "b3e66f9becdcf1caea50a07ab5e6c0513ec2487124cf41aca1a511506dea1ffb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6e5dcc5fc8e7219f",
+      "title": "Stop Quoting and Start Producing Your Own Wisdom",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/012-borrowed-sayings-versus-your-own-voice.md",
+      "contentHash": "42a7a47ef0fb2440b852ec610939ecbcf1ec95d9b387cd218c2d581e3f3517d7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6bd2eb68f93e0eb4",
+      "title": "Letters as Seeds, Not Speeches",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/013-letters-as-seeds.md",
+      "contentHash": "4b8516af2d1d18b2f71f8fc697652108f0c10245897e7b90e6de11ec6ac40e8f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ecaccfbe9d9b3ed2",
+      "title": "A Well-Ordered Mind Does Not Speak in a Torrent",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/014-the-well-ordered-voice.md",
+      "contentHash": "30c9a718a8809a79732dfaf871b69705730d8071048d85bb519575a83299846b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b532415cd0319cf0",
+      "title": "The God Within, and Praising Only What Is Truly Your Own",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/015-the-god-within.md",
+      "contentHash": "a363532abcd30af15d539550025b3a28f4e968597c74e56c36af1297dc3a5144",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7a19a296a51a9971",
+      "title": "A Friend's Book, Read in One Sitting",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/016-a-friends-book-read-in-one-sitting.md",
+      "contentHash": "3e91cdcd73b9dea98d0c91b909656de953ff334ff1c416e040caa6f5aa95bb09",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1968f78b268bb7d1",
+      "title": "They Are Slaves, But They Are Men",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/017-they-are-slaves-but-they-are-men.md",
+      "contentHash": "ee1c7f74224ac1ec887b56b1b94b37e151b053e84d6892c4d8c36458e5f6f60f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6f575837428990af",
+      "title": "Philosophy Is for the Shipwrecked, Not for Word-Games",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/018-against-hairsplitting-logic.md",
+      "contentHash": "ec14f4204f5102732b8ebaf3e59de098e4c64e0925449a6f213b01b014f11b27",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ccca5909ed4b944d",
+      "title": "Seasickness, and Why We Never Notice Our Worst Faults",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/019-seasickness-and-self-ignorance.md",
+      "contentHash": "aa60f3703b5adb7055ff98359c835f73fefce926781540081c157eeb68f64026",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4499ae65bb0acb3d",
+      "title": "Asthma, and Death as the Lamp Before It Was Lit",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/020-asthma-and-rehearsing-death.md",
+      "contentHash": "ad7cdc3e6498ee165ed222a135fc273e05739975054cdf80a2bca899a6679d6b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "533816432ea004e3",
+      "title": "Vatia's Villa, and What Real Retirement Requires",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/021-vatias-villa-and-real-retirement.md",
+      "contentHash": "19d2671dbfe2c104f91cb8c936af06b16f8c4247c717f391b879cf27e8162aba",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d1e539084637b396",
+      "title": "Lodgings Over a Bathhouse: Peace Is Internal, Not Acoustic",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/022-noise-and-the-composed-mind.md",
+      "contentHash": "fc6ad402ec901a1ecf9fd7ed35009f03e13d64a1f8feda0a2dfa537322ce5f08",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7705b6c2f6c2fa0e",
+      "title": "Grieving Without Excess, and Seneca's Own Failure at It",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/023-grieving-without-excess.md",
+      "contentHash": "277f923ddc710fe0117fbf3e1a1f465fbc03604e4ccc41ce0a16d3e509f3f0f1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9ae012e389cc4484",
+      "title": "The Four Causes, the Craftsman, and the Body as a Fetter",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/024-the-four-causes-and-the-craftsman.md",
+      "contentHash": "d7d976ccbfd4c7c9200e1230c420c53c405623aadbc73bc6afff592d50328f86",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a2e6231742e65950",
+      "title": "Death Is Never Untimely, Marcellinus's Chosen Ending",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/025-death-is-never-untimely.md",
+      "contentHash": "d60dd3e93418983c08d1f149eb8fcead89a1f8be68ca5d5c2a2d4fc105455f56",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "eb7802e0cf02170d",
+      "title": "How to Endure Illness: Pain Is Either Brief or Bearable",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/026-enduring-illness-and-pain.md",
+      "contentHash": "ad9e19fb2c5ba183a27d5878cf7e266a32eded8dd8cf61957c312a751f2ee449",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "aa8de5d7a4a7cbd5",
+      "title": "A Daily Accounting, and the Case Against Drunkenness by Example, Not Syllogism",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/027-a-daily-accounting.md",
+      "contentHash": "b9dcc1d382098284b478921c7962c450403cf535166acb397c908c437f01223a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "75b365337324a3a8",
+      "title": "Scipio's Dim Little Bathroom Versus Ours",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/028-scipios-frugal-bathroom.md",
+      "contentHash": "519454026041c5ee22429c5400fc9f7d205de98da4b365fc3a31c04047a24c7b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "11fa476ec38417a2",
+      "title": "What Is a Liberal Education, Really?",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/029-what-is-a-liberal-education.md",
+      "contentHash": "d0b90d41fd0fc82e24efbaa508587e6e5e33f5f383bf7f7b3bd5519df9b2d76d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d02d6eebc4fd141a",
+      "title": "Philosophy Did Not Invent the Loom, the Bakery, or the Golden Age",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/030-philosophy-did-not-invent-the-crafts.md",
+      "contentHash": "6274f7c20ca7b14a73251b774713a532e4b054dec34e8ccb30e68191c29e1e5e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8dce84c2cb93f7ec",
+      "title": "The Fire That Erased Lyons in a Single Night",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/031-the-fire-at-lyons.md",
+      "contentHash": "2bf172f486030b8d6eb50652f421c75fa7933941a32fd82e5f881acbd993cfa1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3f29026e8106ed48",
+      "title": "Fleeing a Fever, and Why Travel Cannot Fix a Person",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/032-escaping-yourself-by-changing-address.md",
+      "contentHash": "b970be7fe73e044d37d63eb91fb03c71e38893a45ae71062a4314c52b43e9cdc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "18cea84ddffae422",
+      "title": "Rules for a Quiet Life: Naming the Five Things That Goad Men to Harm One Another",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/033-rules-for-a-quiet-life.md",
+      "contentHash": "f84a055f0d99316adfff5060ba002b08385a58c3c4cecbfdbe4db8a539f08f5c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "776f343af622d1ea",
+      "title": "Willing What Must Be: Runaway Slaves and Cleanthes' Hymn",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/034-willing-what-must-be.md",
+      "contentHash": "ae404b2e507581ec92ad30392954b992746998fff4149fd7c08f8856ca237c8f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9c5459a2bfe91db5",
+      "title": "How to Actually Study Philosophy: Attalus, Vegetarianism, and Words Becoming Works",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/035-how-to-actually-study-philosophy.md",
+      "contentHash": "5d29bb1855ce841e5ad57d4719a11417f817f3d3fab1a0f3584271da4579f565",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "137392b56907db13",
+      "title": "Style Betrays Character: What Maecenas's Sentences Reveal About Maecenas",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/036-style-betrays-character.md",
+      "contentHash": "e08040223b3b695417d190be063a312cf1a6f6025fb9d491bce493ec423a1330",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ecf7e177d2d0dbd2",
+      "title": "The People Who Sleep All Day: Living Against Nature",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/037-living-against-nature.md",
+      "contentHash": "fd934b9567899adf00e7c8425e4af60f325703ec600e3f06e3182c455bcf41b9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fe14a7f82d067a4c",
+      "title": "Bad Bread at Alba, and the Danger of Borrowed Vices",
+      "url": null,
+      "synthesis": "content/knowledge/letters-from-a-stoic/038-bad-bread-and-borrowed-vices.md",
+      "contentHash": "535c0f4c01f52e6b0326442dc95a3be723d9f4961547914bd2b7bf81dd3a8c91",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

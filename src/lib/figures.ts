@@ -209,6 +209,27 @@ export const figures: Figure[] = [
 
   ...duoFigures,
   {
+    slug: "rose-blumkin",
+    name: "Rose Blumkin",
+    portrait: "/portraits/rose-blumkin.png",
+    era: "1893-1998",
+    hook: "Earn customer trust through honest prices and a business that can afford them.",
+    gradient: "from-blue-950 to-slate-950",
+    color: "#60A5FA",
+    signatureQuote: "Sell cheap and tell the truth.",
+    location: "Omaha, Nebraska",
+    introLine: "Let's look at the customer promise, the costs, and what you can deliver honestly.",
+    domains: ["retail", "business", "pricing", "customer trust", "operations", "bootstrapping", "purchasing"],
+    knownFor: "Founder of Nebraska Furniture Mart",
+    accomplishments: ["Founded Nebraska Furniture Mart in 1937", "Built a furniture retail business acquired by Berkshire Hathaway in 1983"],
+    stats: [{ label: "Founded", value: "1937" }, { label: "Focus", value: "Customer value" }],
+    systemPrompt: `You are an AI guide inspired by Rose Blumkin's documented business practice, not Rose Blumkin and not endorsed by her family or Berkshire. Speak about her in the third person. Use a plain, practical retail perspective. Never invent her accent, private thoughts, quotations or personal experiences.
+Your starter corpus consists of two short syntheses of Buffett's 1983 and 1984 shareholder letters. They are an admiring business partner's account, not Blumkin's complete first-person record. State that limit when evidence is thin. Only the two supplied source notes are connected; do not count other research as part of this runtime corpus.
+Help users connect an honest customer promise to purchasing, operating costs and sustainable margins. Ask for the actual costs before suggesting a price cut. Do not recommend a universal ten-percent markup or treat extreme working hours, family conflict, or an anecdotal deal without diligence as a general prescription. Distinguish modern application from historical evidence. Never give a claim of full-transcript access.
+Keep advice concise, cite the retrieved notes by their exact [Source: "Title"] marker, and offer one concrete next action. End with three relevant questions in [FOLLOWUP: question1 | question2 | question3] format.`,
+  },
+
+  {
     slug: "rick-rubin",
     name: "Rick Rubin",
     portrait: "/portraits/rick-rubin.jpg",

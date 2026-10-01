@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "guideId": "person:marie-curie",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "0c92c7d96c975988",
+      "title": "Marie Curie: investigate an unexplained measurement",
+      "url": "https://history.aip.org/exhibits/curie/brief/03_radium/radium_2.html",
+      "synthesis": "content/knowledge/marie-curie-public-notes/001.md",
+      "contentHash": "9c08a10c50333abc32bba55387653cf6ae8c60e0726c950a18c568cf9badcedd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4339636aef29986c",
+      "title": "Marie Curie: research and protection",
+      "url": "https://physicstoday.aip.org/news/marie-curie-and-the-perils-in-radium",
+      "synthesis": "content/knowledge/marie-curie-public-notes/002.md",
+      "contentHash": "31b347e859acd3e8d033e8f244a1f4233a2f00d722e8ca790210e139cdae45af",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

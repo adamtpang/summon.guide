@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "guideId": "person:james-dyson",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "0d757321889c4f3b",
+      "title": "The Stubborn Genius of James Dyson",
+      "url": "https://www.youtube.com/watch?v=hagy0fhiPpY",
+      "synthesis": "content/knowledge/founders/014-the-stubborn-genius-of-james-dyson.md",
+      "contentHash": "79ab6083b979b893f52978130bdc6442b017997447fcb9be3a14430617b2c1d0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c3a8ea079fd03d1f",
+      "title": "James Dyson: 5,127 Prototypes",
+      "url": "https://www.youtube.com/watch?v=Se64B8TKfjA",
+      "synthesis": "content/knowledge/interviews/004-james-dyson-5-127-prototypes.md",
+      "contentHash": "53366c47af85c488698f53800def21d76e1f702f6236c760d654cbbe3fb9ba24",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}
