@@ -1787,6 +1787,144 @@
       "unknownCitations": [],
       "pass": true,
       "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:from-third-world-to-first": {
+      "hash": "358ec026901c1f02472e24499a099301549d344b42f55784567619a4551d38a6",
+      "checkedAt": "2026-10-01T09:25:17.316Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: On 9 August 1965 Singapore became independent without a plan, an army or a hinterland. Lee concluded that a small island city-state could survive only by being unusually cohesive, tough and better than its neighbours at what it did.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In \"Going It Alone,\" the supported principle is that when you inherit a weak position you did not choose, you name the few assets you really have and decide what you must do better than others, instead of copying what worked for stronger players. Lee applied this to a nation; that is his documented case, not advice he gave about your decision. My application, which is mine and not his, is narrower: for a small reversible choice, list your two or three genuine assets and the one thing you can do better than the alternatives. One small test: write those assets and that single edge on one card, make the reversible move, and set a review date to check whether the edge held.\n\n[Source: \"Going It Alone\"]\n\n[FOLLOWUP: What did Lee count as Singapore's real assets in 1965? | How did he decide what Singapore had to do better than its neighbours? | What made him treat public trust as the government's main asset?]",
+      "citations": [
+        "Going It Alone"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:on-the-shortness-of-life": {
+      "hash": "b3a6e017ddbc3870a08311d98c7180e9959aa4793f65c0fb481b4e2739f25aed",
+      "checkedAt": "2026-10-01T09:25:18.489Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Seneca tells Paulinus that the common complaint about a short life is mistaken. We are not given too little time; we waste most of what we get, and a life that is well ordered is amply long.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle is that the complaint about a short life is mistaken: the span is generous if the whole of it is invested well, and what ruins it is luxury, carelessness, and having no good end. That is Seneca's argument to Paulinus, not a claim about your situation, so applying it to a small reversible decision is my reading, not his instruction.\n\nA small test: audit one ordinary day's hours the way the corpus asks, noting what was spent on accounts, courting, quarrels, and idleness, then see whether the decision adds or subtracts from time that is actually yours.\n\n[Source: \"Life Is Long Enough If It Is Used Well\"]\n[Source: \"The Busy Man Who Never Lives\"]\n\n[FOLLOWUP: What does Seneca mean by a life that is \"well ordered\"? | How does the corpus define busy idleness? | What does Seneca say about postponing decisions to a later season?]",
+      "citations": [
+        "Life Is Long Enough If It Is Used Well",
+        "The Busy Man Who Never Lives"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:the-book-of-elon": {
+      "hash": "b251c41c5183276403e093e13c217a965be97a57b29a25bb3907c16f1ec8c91e",
+      "checkedAt": "2026-10-01T09:25:22.402Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Musk says he measures his life by how many useful things he gets done, and that purpose comes from working on what improves the odds of a good future. He presents this as his own philosophy, not a proven formula.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One supported principle: Musk frames usefulness as arithmetic, the number of people helped multiplied by how much each is helped, and he says he wakes up asking how he can be useful that day. He offers this as his own philosophy, not a proven formula.\n\nMy application, not his: for a small reversible decision, that math is a quick way to compare options rather than a rule he endorsed for your situation.\n\nSmall test: write one line naming who each option helps and how much, multiply roughly, and pick the larger product. If the two are close, the decision is genuinely reversible, so just move.\n\n[Source: \"Living a Purposeful Life: usefulness as the measure\"]\n\n[FOLLOWUP: How does Musk define the \"create more than you consume\" rule? | What does Musk say about picking work where success is possible? | How does Musk describe the branching stream of future probabilities?]",
+      "citations": [
+        "Living a Purposeful Life: usefulness as the measure"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:on-anger": {
+      "hash": "000d11daae71d57d0fd57aabd1ec4b0a1e1ddcea1c0db8448cf84b7a0ce2992f",
+      "checkedAt": "2026-10-01T09:25:23.334Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Anger is a desire to punish a perceived injury. Seneca argues it fits neither human nature, which is built for mutual help, nor any practical task, since reason does every job better and anger cannot be kept within limits once admitted.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle: Seneca defines anger as a desire to punish a perceived injury, and argues it is not natural to humans because people are born to help one another, while anger aims at mutual ruin. He also holds that passions are easier to keep out than to govern, comparing a mind given to passion to someone who has jumped off a cliff and cannot slow down.\n\nMy application, not Seneca's: for a small reversible decision, treat the urge to punish as a signal to pause rather than act.\n\nSmall test: before deciding, write one sentence naming the injury you think you suffered, then ask whether it was a real injury or an unmet hope.\n\n[Source: \"What anger is and why it is neither natural nor useful\"]\n\n[FOLLOWUP: What does Seneca mean by a \"short madness\"? | How does Seneca separate an angry episode from being irascible? | Why does Seneca say passions are easier kept out than governed?]",
+      "citations": [
+        "What anger is and why it is neither natural nor useful"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:campaigns-of-alexander-arrian": {
+      "hash": "a5308b2b4ef6f7efbc305393fec5d7a3ad3b5f27874bc2d93ada185a6757c149",
+      "checkedAt": "2026-10-01T09:25:24.488Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Arrian builds his history on Ptolemy and Aristobulus and labels everything else as report. His first set battle shows Alexander overruling Parmenio's caution and forcing a river crossing in person.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One supported principle from Arrian's sources and the Battle of the Granicus is that Arrian trusts Ptolemy and Aristobulus as eyewitnesses and flags other material as report, while the battle shows Alexander rejecting Parmenio's caution and crossing the river in person. That is a historical claim about Arrian's method, not advice to imitate Alexander's risk-taking. Applied to your small reversible decision, the transferable move is to separate verified evidence from secondhand report before acting. A small test: write down the one claim your decision depends on, mark it confirmed or only reported, then run a cheap reversible check of that claim first.\n\n[Source: \"Arrian's sources and the Battle of the Granicus\"]\n\n[FOLLOWUP: What does Arrian say about Ptolemy and Aristobulus as sources? | Why did Parmenio urge waiting at the Granicus? | How did Alexander cross the river in person?]",
+      "citations": [
+        "Arrian's sources and the Battle of the Granicus"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:your-music-and-people": {
+      "hash": "a0f2707f8a0a4890f40736ce464366c57e43708b0ee12b17227d257541431baf",
+      "checkedAt": "2026-10-01T09:25:31.259Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: How music is presented changes how it is perceived, so the creative work does not stop when the recording is done. Marketing and business deserve the same playful, experimental attitude a musician brings to an instrument.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "One supported principle: Sivers borrows the 1970s Emergency Broadcast System announcement and treats every career move as an experiment, arguing that if the only mission is to see what happens, failure is not possible. That is his framing, not a guarantee about outcomes.\n\nMy application, not his: for a small reversible decision, name the thing you are testing and the window you will watch it, so the result is information rather than a verdict on you.\n\nSmall test: change one presentation element, cap the effort at 15 minutes a day, run it two weeks, and write down what happened.\n\n[Source: \"This is only a test. See what happens\"]\n[Source: \"Restrictions will set you free\"]\n\n[FOLLOWUP: What does Sivers mean by marketing as an extension of art? | How do self-imposed limits help marketing? | Why does he say what people know about a work changes the work?]",
+      "citations": [
+        "This is only a test. See what happens",
+        "Restrictions will set you free"
+      ],
+      "unknownCitations": [
+        "This is only a test. See what happens",
+        "Restrictions will set you free"
+      ],
+      "pass": false,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:zombies-in-western-culture": {
+      "hash": "6cedadade16d9aedd1d0f05dcd42809ff139a8fa887ce1c120af72e50eb8184d",
+      "checkedAt": "2026-10-01T09:25:31.473Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: The zombie boom of the 2000s is read as a cultural symptom. The authors claim zombies are a distorted mirror of modern people, and that what they mirror is the decay of our ability to make and keep meaning.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The supported principle: in \"A New Zeitgeist: Why the Zombie, and Why Now,\" the authors claim the zombie is a distorted mirror of modern people, and that what it mirrors is the ruin of what is meaningful in us, part of a crisis of worldview they call the meaning crisis.\n\nThat is a cultural diagnosis, not guidance about your particular decision. Applying it to your choice is my extension, not the authors' claim.\n\nSmall test: for one week, before deciding, ask whether the choice feels intelligible and shared with others, or vacant and unshared. The corpus ties the felt sense of realness to intelligibility and connection.\n\n[Source: \"A New Zeitgeist: Why the Zombie, and Why Now\"]\n\n[FOLLOWUP: What four symbols does the zombie supply for the meaning crisis? | How does the corpus define the felt sense of realness? | Why do the authors treat zombie films as inarticulate pop art?]",
+      "citations": [
+        "A New Zeitgeist: Why the Zombie, and Why Now"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
     }
   }
 }

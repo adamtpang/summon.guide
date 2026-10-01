@@ -2,6 +2,70 @@
   "version": 1,
   "guideId": "person:dave-ramsey",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "df8457ffe486a3f2",
+      "title": "The 7 Baby Steps: one fixed order for saving, debt payoff, and wealth building",
+      "url": "https://www.ramseysolutions.com/dave-ramsey-7-baby-steps",
+      "synthesis": "content/knowledge/dave-ramsey/001-seven-baby-steps-overview.md",
+      "contentHash": "0fac6d9f4f55c0c81cced777f5f208d9c7fad9bcd9f474657f02127848ab50fa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1aaf864a4646c3f0",
+      "title": "Baby Step 1: a $1,000 starter emergency fund, saved fast",
+      "url": "https://www.ramseysolutions.com/dave-ramsey-7-baby-steps/step-1",
+      "synthesis": "content/knowledge/dave-ramsey/002-starter-emergency-fund.md",
+      "contentHash": "535211b10d5e0de9d25853bf408e713b0cc82f9e0b196bda81b138105f727710",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "19fbb714a33df142",
+      "title": "The debt snowball: pay debts smallest balance first for momentum",
+      "url": "https://www.ramseysolutions.com/debt/how-the-debt-snowball-method-works",
+      "synthesis": "content/knowledge/dave-ramsey/003-debt-snowball.md",
+      "contentHash": "34078777bea6c6b26ac610ad600dc56040a993caac8397d1040d4b07f68990fc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bcfb63c8a1ee9569",
+      "title": "The zero-based budget: income minus planned expenses equals zero",
+      "url": "https://www.ramseysolutions.com/budgeting/how-to-make-a-zero-based-budget",
+      "synthesis": "content/knowledge/dave-ramsey/004-zero-based-budget.md",
+      "contentHash": "d31176001111d48e91ef65ef231b36b980c90d5e4746a6faecf8dac1dc77ae84",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f09ade325dd2fd04",
+      "title": "Baby Step 3: a fully funded emergency fund of 3 to 6 months of expenses",
+      "url": "https://www.ramseysolutions.com/dave-ramsey-7-baby-steps/step-3",
+      "synthesis": "content/knowledge/dave-ramsey/005-fully-funded-emergency-fund.md",
+      "contentHash": "25b7800aff68d5705aa9b0385aa167aba89bf85a8f96b077a59d5653e874b050",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "555667b070a81298",
+      "title": "Baby Step 4: invest 15% of gross household income for retirement",
+      "url": "https://www.ramseysolutions.com/dave-ramsey-7-baby-steps/step-4",
+      "synthesis": "content/knowledge/dave-ramsey/006-invest-fifteen-percent.md",
+      "contentHash": "a1e7d47406a0772f2fa8e7c68b3d5c7b5b7c31f8a1e5751377278cdb7b3ae4f2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "810931799ca879a6",
+      "title": "Baby Step 6: pay off the mortgage early with extra principal payments",
+      "url": "https://www.ramseysolutions.com/dave-ramsey-7-baby-steps/step-6",
+      "synthesis": "content/knowledge/dave-ramsey/007-pay-off-home-early.md",
+      "contentHash": "7705a81cce83075d03b62e0a7ac95231686ecc1f6581254eb68fd6d88b4af1a1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

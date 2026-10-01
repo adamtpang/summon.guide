@@ -2,6 +2,70 @@
   "version": 1,
   "guideId": "person:albert-einstein",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "33243f2bf51b43d7",
+      "title": "Explaining a hard idea to a general reader: clarity before elegance",
+      "url": "https://www.gutenberg.org/ebooks/30155",
+      "synthesis": "content/knowledge/albert-einstein/001-preface-writing-for-the-general-reader.md",
+      "contentHash": "47d30bd6a42f7ccf328b0d169aeaecc845deb48fb2784e946b955524d65348aa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "15d3fa2f2a8c19e7",
+      "title": "Asking what 'true' means before trusting a certainty: the case of geometry",
+      "url": "https://www.gutenberg.org/ebooks/30155",
+      "synthesis": "content/knowledge/albert-einstein/002-what-true-means-for-geometry.md",
+      "contentHash": "5546cb13ee3658d2aa444f0af61cd8afe43fe61ab9b5aad05e704f3fe4e00310",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "05c549157fd5d14e",
+      "title": "A concept means nothing until you can say how to test it: defining simultaneity",
+      "url": "https://www.gutenberg.org/ebooks/30155",
+      "synthesis": "content/knowledge/albert-einstein/003-define-a-concept-by-how-it-is-measured.md",
+      "contentHash": "c675e0ef3d0676040479c7053fd12fa2e02724058629ae016988a0230cb0c410",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b7e72ec14e573ceb",
+      "title": "The train and the embankment: a thought experiment that exposes a hidden assumption",
+      "url": "https://www.gutenberg.org/ebooks/30155",
+      "synthesis": "content/knowledge/albert-einstein/004-train-embankment-relativity-of-simultaneity.md",
+      "contentHash": "8c761416a6d265c9097efdb5d5400598a7c1a9801ab748820ea9d0306f03c53b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ee0467b796dd682a",
+      "title": "The man in the accelerating chest: taking a second observer's explanation seriously",
+      "url": "https://www.gutenberg.org/ebooks/30155",
+      "synthesis": "content/knowledge/albert-einstein/005-man-in-the-accelerating-chest.md",
+      "contentHash": "d7af33d10fa4941a1c18d9360727d1f1b5966948a44c36f2e5f9a32a5c4d0ecd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "30e1615959d05dbb",
+      "title": "Geometry and experience: certainty belongs to logic, truth about the world belongs to experiment",
+      "url": "https://www.gutenberg.org/ebooks/7333",
+      "synthesis": "content/knowledge/albert-einstein/006-geometry-and-experience.md",
+      "contentHash": "e78c80d0e669dfbdd5ba6a62f52cdd1790211e8814ebe297443514a863a70d31",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ff8960c4a9f941ce",
+      "title": "The ether lecture: revising a concept by stripping properties instead of discarding it",
+      "url": "https://www.gutenberg.org/ebooks/7333",
+      "synthesis": "content/knowledge/albert-einstein/007-ether-revising-a-concept.md",
+      "contentHash": "3f172215c4f5455c351346d9a78829b8413c3785325aa13eca9d2425cece4636",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

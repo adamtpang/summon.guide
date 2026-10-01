@@ -2,6 +2,448 @@
   "version": 1,
   "guideId": "book:from-third-world-to-first",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "0e4ac3313af83a6e",
+      "title": "Going It Alone",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/001-going-it-alone.md",
+      "contentHash": "f73d32a2a75ab5140c26d3ef6a6b49409eb2202f0d93091f8ee14ab03a7e8c31",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e66b9898f8d6c087",
+      "title": "Building an Army from Scratch",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/002-building-an-army-from-scratch.md",
+      "contentHash": "9f735d5c74a3dd62ecbb7cde1e40c439796ddeafc1cfa49621ad960e4747e1c8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d5f15e3eea0605b1",
+      "title": "Britain Pulls Out",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/003-britain-pulls-out.md",
+      "contentHash": "9ffb41600a72020477bcffc22de9693b224b0635c14a88668133bb675decda36",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e9e7f1842f36653d",
+      "title": "Creating a Financial Centre",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/003-creating-a-financial-centre.md",
+      "contentHash": "7eb18af88abbbbd3624301d22ac1778e707fd008b1a3213bf93b320d6b2d42d1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "59ff3a3bd7066ab0",
+      "title": "Surviving Without a Hinterland",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/004-surviving-without-a-hinterland.md",
+      "contentHash": "1085cc16f0f2033461743a9dc25f6e9344e05e04f0824fc72f472962301e9f9f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2d84503b58b7f3ae",
+      "title": "Winning Over the Unions",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/004-winning-over-the-unions.md",
+      "contentHash": "54a3379b150bad57dfc862dd041eaa82f8096de754e22dd21f7311b3901a26e6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cffe7e8e1c1dfa10",
+      "title": "A Fair, Not Welfare, Society",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/005-a-fair-not-welfare-society.md",
+      "contentHash": "5e8999c7cfe3fdec7feaa1138b769854ced6b923e844255bf659ea92d1c8e66f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "42660b3843ef6c2e",
+      "title": "Creating a Financial Centre",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/005-creating-a-financial-centre.md",
+      "contentHash": "afe4f742b6f33ec70fa67c378ceb1f5ad3f36902599e4216bc5a4a7db8f81aef",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "186c28ce8a5240fa",
+      "title": "Nurturing and Attracting Talent",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/006-nurturing-and-attracting-talent.md",
+      "contentHash": "7bd4b09b7d6ca9647a149f85dec207298b9ee578c4f38ecc2668513bc0027dff",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3eb88cb75260eb1a",
+      "title": "Winning Over the Unions",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/006-winning-over-the-unions.md",
+      "contentHash": "78ff9186413195beb47981fc230819ac3f190cdef69c9ab4122f055b73e09bb4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "55b953c4270c024d",
+      "title": "A Fair, Not Welfare, Society",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/007-a-fair-not-welfare-society.md",
+      "contentHash": "e264524ed859a90dd42baa9c9c4d6def5daef36b0db47c86e1072984505866c4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "525ec250c7323f5e",
+      "title": "Keeping the Government Clean",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/007-keeping-the-government-clean.md",
+      "contentHash": "9a119c0765d44e0aac2c67a8b174e5d977a8b6d9531140ed23e8138e874573d8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cdc2522bc458a06c",
+      "title": "Managing the Media",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/008-managing-the-media.md",
+      "contentHash": "8c3a4fa04147d854deb99a8dc7f75ce63a9a2f41f0af387548b0b65992d364f8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8d7d6f2755dbdfd3",
+      "title": "The Communists Self-destruct",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/008-the-communists-self-destruct.md",
+      "contentHash": "735f40986d27b837e71bc4b3703f89a713cee6525ab60c7493b5e1dd04b05d14",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8c50af5dad174c48",
+      "title": "Straddling the Middle Ground",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/009-straddling-the-middle-ground.md",
+      "contentHash": "25fd7b13d511a295c578a6a585cac98dbc69fd07d87488bf6ff8f3ee86a9f767",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c65b3c951e655f3c",
+      "title": "Nurturing and Attracting Talent",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/010-nurturing-and-attracting-talent.md",
+      "contentHash": "2139ea28b01a540210fcf1f29f557095d9f431d66223e6026388a1b91d173bfb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "24c334e930b4d3cc",
+      "title": "Many Tongues, One Language",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/011-many-tongues-one-language.md",
+      "contentHash": "75b908fb214c18396aa601b191335072e9816942a61550c24e275e6b2c13ba9a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b458ba7bfeb92eec",
+      "title": "Keeping the Government Clean",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/012-keeping-the-government-clean.md",
+      "contentHash": "a703a1840594c1ac0000adbadc4471f970b1d37ba123a06af3bb660c5ac92cee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5a26d7b88b4b3515",
+      "title": "Greening Singapore",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/013-greening-singapore.md",
+      "contentHash": "dce34679b1a6d3c048a7e9838d3d107ee478389c3ef2c2db00732043610e387b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4edb1c9166ae84b0",
+      "title": "Managing the Media",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/014-managing-the-media.md",
+      "contentHash": "3aaa0fcb0c241270bde0a754369472ec49ffed18d98ce8844b1bff9ba324488d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2dcc74d5a098513d",
+      "title": "Conductor of an Orchestra",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/015-conductor-of-an-orchestra.md",
+      "contentHash": "b26f998a87d79f56aff80b9f255845de864ca46f16a852e81038c43e860aba47",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "825eef5208b68466",
+      "title": "Ups and Downs with Malaysia",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/016-ups-and-downs-with-malaysia.md",
+      "contentHash": "398722f89a258ba63cb86893adedcaeb5635b70c590946fee632407450f34253",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a7c12c6f4f3ecdef",
+      "title": "Indonesia: From Foe to Friend",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/017-indonesia-from-foe-to-friend.md",
+      "contentHash": "7edc60ab514b96b086f137460215e249a98fc5edcd94a1568f49eba04499c3a6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "922f8b8e71312fa4",
+      "title": "Building Ties with Thailand, the Philippines and Brunei",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/018-building-ties-with-thailand-the-philippines-and-brunei.md",
+      "contentHash": "d4b7c0611c1d0bdb03a70537881915b9b7857508dd07299d25ea65bc579479f9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "83dcbd8ca23c1f1e",
+      "title": "Vietnam, Myanmar and Cambodia: Coming to Terms with the Modern World",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/019-vietnam-myanmar-and-cambodia.md",
+      "contentHash": "85f74f33c4f531d42cd751cbae5605e70477c0838e2df3aa717e250c45d87fb8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "10c4605b44e8fbd7",
+      "title": "Asean - Unpromising Start, Promising Future",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/020-asean-unpromising-start-promising-future.md",
+      "contentHash": "b8458f02289c20fe4c1d8b34ba54d5814ff28e11a7f4858012039a61932c9492",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "57b98e2513c2797d",
+      "title": "East Asia in Crisis 1997-99",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/021-east-asia-in-crisis-1997-99.md",
+      "contentHash": "af09d51b99d62539be396b46c30de6a3e769fe2a5e4a80ba0ef9bbbf36c94ad8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7c5f16fb6ffb6b6d",
+      "title": "Inside the Commonwealth Club",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/022-inside-the-commonwealth-club.md",
+      "contentHash": "d93a2704b986c64d61bb92b60e21091c6ac6fe8f31748b378e61e5bbf10933e9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0addffb6b5e183d7",
+      "title": "New Bonds with Britain",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/023-new-bonds-with-britain.md",
+      "contentHash": "12ed4b7d335904e7487bb4a55f94eeb41f691ad2d81ddc50accc53b51a20ecdc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "559e3cecfbe3a71c",
+      "title": "Ties with Australia and New Zealand",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/024-ties-with-australia-and-new-zealand.md",
+      "contentHash": "7ae08d567b7c4eab914279efa8e763e285444b9d7e23cc0eb5b67c2dc116521d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d717f62e2131b619",
+      "title": "South Asia's Legends and Leaders",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/025-south-asias-legends-and-leaders.md",
+      "contentHash": "0a4a26bf03240e34a4bb9bcc7a5b2e1a147c9431351d552ddea740f5b72442c4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4d4f578ac8ec845d",
+      "title": "Following Britain into Europe",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/026-following-britain-into-europe.md",
+      "contentHash": "90fb07f10d042afa63943731130a4eece27097db3b4a1b00c2dedb5f8c4196f1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "eb673385999c2940",
+      "title": "The Soviet Union: An Empire Implodes",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/027-the-soviet-union-an-empire-implodes.md",
+      "contentHash": "e842affdedf4f1e7ff8c8ad9798166a38071eccd23cf299d0ff38bbe830d4450",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6e901e8269c94f9f",
+      "title": "America: The Anti-Communist Anchorman",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/028-america-the-anti-communist-anchorman.md",
+      "contentHash": "f89cf2edc59e1e350779cf4c642e2eee4e6246f37c206069379cd4b2c0edeeee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dc97099d6629624e",
+      "title": "Strategic Accord with the United States",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/029-strategic-accord-with-the-united-states.md",
+      "contentHash": "6e503a70c9d377233c94e4fc8c214c6099ec1a4387b30933c6535573881cec23",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8bc2d7d13ce29d13",
+      "title": "America's New Agenda",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/030-americas-new-agenda.md",
+      "contentHash": "aefc11898d6e380d6bed32f74f493d02af1c4f8f7da9a96fc00a57a26163b5e2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a3f5cefc0eaa86e7",
+      "title": "Japan: Asia's First Miracle",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/031-japan-asias-first-miracle.md",
+      "contentHash": "7953dd819533a3120bc1104eb16fe12887ec440fdbb271b850390bb82f620025",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ad72b37980812c83",
+      "title": "Lessons from Japan",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/032-lessons-from-japan.md",
+      "contentHash": "be39acef050c76552cfb4425df630ef06069c0a0da50f8021bba22ae7fe08763",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e635866c30fc6863",
+      "title": "Korea: At the Crossroads",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/033-korea-at-the-crossroads.md",
+      "contentHash": "0182701707d543556800e068c095f2de51fc33d03d0ed4438c7c77cef3a174ab",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6e08624f4f6ddab3",
+      "title": "Hong Kong's Transition",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/034-hong-kongs-transition.md",
+      "contentHash": "2bc936dddef146dcccdb06884fd12abe21f570b67acdd5b57b2b2d5154fb4f36",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b4bf1e4e02da4ac6",
+      "title": "Taiwan: The Other China",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/035-taiwan-the-other-china.md",
+      "contentHash": "97b5ec9e65e7498c4990dbd31edf180f5d106b1a239fb059ad8221f657bd5826",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6ddc51eacfb2b947",
+      "title": "China: The Dragon with a Long Tail",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/036-china-the-dragon-with-a-long-tail.md",
+      "contentHash": "38a3cf27cbab758a8d015fbe9676d7dfb57b396f69c1bb5f71e8561060fc1fb4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "21581c74df8f5941",
+      "title": "Deng Xiaoping's China",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/037-deng-xiaopings-china.md",
+      "contentHash": "4300250fdd70ad04e5407b34fb0b5c703c7a9d71c93f12f1ec9b8cc9908ce6f3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "756db736ef182257",
+      "title": "China Beyond Beijing",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/038-china-beyond-beijing.md",
+      "contentHash": "8d2b4acb9c6e4871444fa1dfd3b69d7d0898b42df8bd9615935fe442592d6390",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "de2e5ec210d34703",
+      "title": "Tiananmen",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/039-tiananmen.md",
+      "contentHash": "1dc0239bf238cf3a61368a7d145cb07859078a140513a93882df6aba76507fcb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fe73584860947e7c",
+      "title": "China: To Be Rich Is Glorious",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/040-china-to-be-rich-is-glorious.md",
+      "contentHash": "eb1de387b5a082fd012c8f544ef7de0628b1098a866e5c2d731a7adf88cae7a4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b97ac5c20271a278",
+      "title": "Passing the Baton",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/041-passing-the-baton.md",
+      "contentHash": "e4ba0614a7ecaf8416320d65a8447fdee6f1ce75313e1c566c89ba8812dea30a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3c244324027ce8bf",
+      "title": "My Family",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/042-my-family.md",
+      "contentHash": "3f0ff04b7b684f814d063e1c4261954d4ca0dfe7cd2e4083d49e6cbb6b9b4989",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1578f0d09ed835d8",
+      "title": "Epilogue",
+      "url": null,
+      "synthesis": "content/knowledge/from-third-world-to-first/043-epilogue.md",
+      "contentHash": "5f5b4d0291d5658e27a16287f96ec95b7d8d9550546493806fca72bc22acc207",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

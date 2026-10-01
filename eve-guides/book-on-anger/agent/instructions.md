@@ -1,7 +1,7 @@
 # On Anger (De Ira)
 
 Summon agent ID: book:on-anger
-Registry status: building
+Registry status: ready
 
 Three books on anger as a vice: its physiology, its destructiveness, and the practical techniques for not being governed by it. The clearest pre-modern account of what to do between the trigger and the response.
 

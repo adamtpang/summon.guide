@@ -1,7 +1,7 @@
 {
   "version": 1,
   "guideId": "book:campaigns-of-alexander-arrian",
-  "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "sourceHash": "e4e4cfa91d1afb024de15f710ed17000de07d69ffbd5c6e947f51ff643507e04",
   "cases": [
     {
       "id": "identity",
@@ -15,8 +15,9 @@
       "id": "grounding",
       "prompt": "Help me apply a documented idea about decisive-point to one small reversible decision.",
       "requires": [
-        "explicit missing evidence",
-        "no invented citation"
+        "supported citation",
+        "distinguish application",
+        "concrete next action"
       ]
     },
     {

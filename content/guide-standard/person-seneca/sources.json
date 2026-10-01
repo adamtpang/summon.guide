@@ -345,6 +345,123 @@
       "contentHash": "535c0f4c01f52e6b0326442dc95a3be723d9f4961547914bd2b7bf81dd3a8c91",
       "rightsReview": "not-certified",
       "kind": "published-synthesis"
+    },
+    {
+      "id": "910a548973abf4ae",
+      "title": "Life Is Long Enough If It Is Used Well",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/001-life-is-long-enough-if-used-well.md",
+      "contentHash": "28a0874c6ad8a83c33deb519ee882fb70750497c2c54763ed1b0f9f92df45996",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b3f47dcf93b0c81b",
+      "title": "How People Give Their Time Away",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/002-how-people-give-their-time-away.md",
+      "contentHash": "25cca06478a8133cb31c8228bd6c176fc1a94ca7811393d27b7bb2ee5a2fc136",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9bdeec4f37def8c1",
+      "title": "The Busy Man Who Never Lives",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/003-the-busy-man-who-never-lives.md",
+      "contentHash": "9a5e632dbc3971088772ff7310c0e2c892a675317c6d381c7d48ceb7252d786c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1e67a9bfe866c956",
+      "title": "Postponement and the Three Parts of Time",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/004-postponement-and-the-three-parts-of-time.md",
+      "contentHash": "0843580774025fca1a41d0cbc797bddc217df8575b8a4b37d7473df3e1c1218e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5eacfd86a96c43e4",
+      "title": "True Leisure and the Company of Past Philosophers",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/005-true-leisure-and-the-company-of-past-philosophers.md",
+      "contentHash": "f1746f0148cc3706bac43a08dba55bf26e1d54a8b9539453d51fd0b2af17615a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "138b56ca5004905e",
+      "title": "Advice to Paulinus: Retire From Public Duties",
+      "url": null,
+      "synthesis": "content/knowledge/on-the-shortness-of-life/006-advice-to-paulinus-retire-from-public-duties.md",
+      "contentHash": "f926b94a62e3624c5dd59c51c16115f9050111afafacb6548f78818bffaa3555",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c14eb10f2c09444e",
+      "title": "What anger is and why it is neither natural nor useful",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/001-what-anger-is-and-why-it-is-not-useful.md",
+      "contentHash": "4884af1db34110827aa22d175483cf0441d7c83a014f7cb23882e05281ad604d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2a6382e63bf2736d",
+      "title": "How anger starts and the role of assent",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/002-how-anger-starts-and-the-role-of-assent.md",
+      "contentHash": "58ffff17cbe07cc2fa387ee39189334eea398b678e42eccacec256296b26a3bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c3920df0ee0c826e",
+      "title": "Raising children without feeding anger",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/003-raising-children-without-feeding-anger.md",
+      "contentHash": "60529de8fc2dfd3057622c477b34ccabcd2abd2a737457b7c485b4bb65eeb9f9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b11a16059f998097",
+      "title": "Causes of anger and how to prevent it",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/004-causes-of-anger-and-how-to-prevent-it.md",
+      "contentHash": "0d38f0610a4796db420a2f3166be46bcf09f0da043a2f4b6df262ab310fae88a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "14bed0554960e8a2",
+      "title": "Remedies in the moment: delay, early signs, and a calm face",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/005-remedies-in-the-moment-delay.md",
+      "contentHash": "2b10649110544ebf9520b0bf5988a4f3c405d11d4cfba6ee887caa1f53afaff2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f6ea65815e7ff8b8",
+      "title": "Rulers as warnings and as models",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/006-rulers-as-warnings-and-models.md",
+      "contentHash": "28e98bb6d6d5f09ac33c1debc969ebd7396697a9b631bd92d7d6e39d400fafcf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9af1d813c90df2cf",
+      "title": "The nightly self-review and the shortness of life",
+      "url": null,
+      "synthesis": "content/knowledge/on-anger/007-nightly-self-review-and-the-shortness-of-life.md",
+      "contentHash": "8fd0743ca5d823d3d64aa6f9e9ffd9e5d7493b34904fde914540b4fe4e203ace",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
     }
   ]
 }

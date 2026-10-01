@@ -4,7 +4,7 @@ ID: person:sivers
 
 Owner: summon.guide
 
-Coverage: partial, 68 synthesis records.
+Coverage: partial, 75 synthesis records.
 
 Distillation: content/distilled/sivers.md
 

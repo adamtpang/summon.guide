@@ -2,6 +2,70 @@
   "version": 1,
   "guideId": "person:henry-kissinger",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "3f78fad28c187c9e",
+      "title": "The secret trip to Beijing: how Kissinger opened the first talk with Zhou Enlai",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v17/d139",
+      "synthesis": "content/knowledge/henry-kissinger/001-secret-trip-to-beijing-first-meeting-with-zhou.md",
+      "contentHash": "319e90749f5fdeeddbe511923b547bf78b510f305b548b5249462d63e63ec665",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2d838215ee816d10",
+      "title": "The statesman's problem: acting in a fog of incomplete knowledge",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v38p1/d19",
+      "synthesis": "content/knowledge/henry-kissinger/002-acting-in-a-fog-of-incomplete-knowledge.md",
+      "contentHash": "907537e66f509c3c0046b00f68c14334aec88a66f6e1672c7857c6b76c0051d0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "07047e4fe63334dc",
+      "title": "Detente: reconciling competition with the need to coexist",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v38p1/d45",
+      "synthesis": "content/knowledge/henry-kissinger/003-detente-competition-and-coexistence.md",
+      "contentHash": "548ec008b14503a044f2915a509a29fff16f85349d89b91c1f6ea474e41be153",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "626e397bc9ef7487",
+      "title": "Shuttle diplomacy up close: a late night session with Asad in Damascus",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v26/d74",
+      "synthesis": "content/knowledge/henry-kissinger/004-shuttle-diplomacy-late-night-with-asad.md",
+      "contentHash": "6d1211871e0c4d9c7398c8994156aa53c5a59c456255ba02d38d5ffcc0e4afc3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0918cee16445e1fb",
+      "title": "Chile, November 1970: the memo recommending that Nixon oppose Allende",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v21/d172",
+      "synthesis": "content/knowledge/henry-kissinger/005-chile-1970-memo-recommending-opposition-to-allende.md",
+      "contentHash": "764097e26317ea4d30b96fdc24aca0f8ea4a2a77e3e7e5f74c2d29f246e94978",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "08b53668eb866bd5",
+      "title": "East Pakistan, April 1971: the options memo and the decision not to press Yahya",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v11/d36",
+      "synthesis": "content/knowledge/henry-kissinger/006-east-pakistan-1971-policy-options-memo.md",
+      "contentHash": "8c69a5e39546ff1111f211669b6429e190e4d1b8e180df55a301eed3b0f38576",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2792fb44b0c78b97",
+      "title": "East Timor, December 1975: what the Ford, Kissinger and Suharto record shows",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76ve12/d141",
+      "synthesis": "content/knowledge/henry-kissinger/007-east-timor-1975-ford-suharto-meeting.md",
+      "contentHash": "73051a9b2a61a52d67e9e37398fcc94ff7e04e5d438c45958a8046f24802301a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

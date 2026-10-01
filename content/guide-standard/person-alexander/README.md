@@ -4,7 +4,7 @@ ID: person:alexander
 
 Owner: summon.guide
 
-Coverage: partial, 16 synthesis records.
+Coverage: partial, 24 synthesis records.
 
 Distillation: content/distilled/alexander.md
 

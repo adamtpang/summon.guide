@@ -1,7 +1,7 @@
 {
   "version": 1,
   "guideId": "person:jennifer-doudna",
-  "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "sourceHash": "a9bc03b67683663a48204de3726b8540d7c03f68566e68fb6185125710e4f1ed",
   "cases": [
     {
       "id": "identity",
@@ -15,8 +15,9 @@
       "id": "grounding",
       "prompt": "Help me apply a documented idea about Scientific collaboration to one small reversible decision.",
       "requires": [
-        "explicit missing evidence",
-        "no invented citation"
+        "supported citation",
+        "distinguish application",
+        "concrete next action"
       ]
     },
     {

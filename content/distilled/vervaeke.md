@@ -14,23 +14,23 @@ A cognitive scientist who noticed that the thing modern people are starving for 
 
 ## Starting principles
 
-### 1. Ep. 1 - Awakening from the Meaning Crisis - Introduction
+### 1. A New Zeitgeist: Why the Zombie, and Why Now
 
-The meaning crisis, the mental health crisis, and cultural nihilism share one root cause, and wisdom (not belief, not a program) is the trainable cognitive skill that addresses it.
+The zombie boom of the 2000s is read as a cultural symptom. The authors claim zombies are a distorted mirror of modern people, and that what they mirror is the decay of our ability to make and keep meaning.
 
-[Source](https://www.youtube.com/watch?v=54l8_ewcOlY)
+Source record: A New Zeitgeist: Why the Zombie, and Why Now
 
-### 2. Ep. 28 - Awakening from the Meaning Crisis - Convergence To Relevance Realization
+### 2. The First Symbol: What the Zombie's Traits Stand For
 
-Categorization, memory, problem-solving, and communication all reduce to the same operation: zeroing in on what's relevant, which is a skill of intelligent ignoring, not the application of any definition.
+Each physical trait of the zombie marks something missing: language, culture, home, satisfaction, inner life, touch. Together these absences attack the ways a person feels that the world is real.
 
-[Source](https://www.youtube.com/watch?v=Yp6F80Nx0lc)
+Source record: The First Symbol: What the Zombie's Traits Stand For
 
-### 3. Four Kinds of Knowing and Personality, Formal Cause, and Purpose with Sam Tideman
+### 3. The Name, the Failed Story and the Apocalypse Without Revelation
 
-The four kinds of knowing each have their own medium, standard of realness, and memory, and wisdom is getting them into right relationship rather than privileging just one.
+Three further symbols complete the zombie metaphor: characters avoid its name, its stories never resolve, and its apocalypse destroys without revealing anything. All three show a worldview that has stopped working.
 
-[Source](https://www.youtube.com/watch?v=TrW3DOIkP78)
+Source record: The Name, the Failed Story and the Apocalypse Without Revelation
 
 ## Apply one principle
 

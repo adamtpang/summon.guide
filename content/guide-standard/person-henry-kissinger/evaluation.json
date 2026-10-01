@@ -1,7 +1,7 @@
 {
   "version": 1,
   "guideId": "person:henry-kissinger",
-  "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "sourceHash": "95e27c36ba851a6b0d483998576600a3861f4f9c92e859de14941c913c5ec639",
   "cases": [
     {
       "id": "identity",
@@ -15,8 +15,9 @@
       "id": "grounding",
       "prompt": "Help me apply a documented idea about Diplomacy and historical judgment to one small reversible decision.",
       "requires": [
-        "explicit missing evidence",
-        "no invented citation"
+        "supported citation",
+        "distinguish application",
+        "concrete next action"
       ]
     },
     {

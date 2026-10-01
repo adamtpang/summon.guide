@@ -14,23 +14,23 @@ Transformed Singapore from third-world port to first-world nation in one generat
 
 ## Starting principles
 
-### 1. Speech at a Mass Rally in Kluang, 29 Mar 1964
+### 1. Going It Alone
 
-Say the same thing in every language, or you lose the right to lead opinion
+On 9 August 1965 Singapore became independent without a plan, an army or a hinterland. Lee concluded that a small island city-state could survive only by being unusually cohesive, tough and better than its neighbours at what it did.
 
-[Source](https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19640329.pdf)
+Source record: Going It Alone
 
-### 2. Press conference on separation from Malaysia, 9 Aug 1965
+### 2. Building an Army from Scratch
 
-Own a decision you did not choose, in public, immediately.
+With Malaysian troops still on the island and no forces of its own, Singapore built a citizen army through national service and quiet Israeli help. Lee wanted a small regular core plus the ability to mobilise most of the population.
 
-[Source](https://www.nas.gov.sg/archivesonline/speeches/record-details/740acc3c-115d-11e3-83d5-0050568939ad)
+Source record: Building an Army from Scratch
 
-### 3. Speech at the Sree Narayana Mission, Sembawang, 12 Sep 1965
+### 3. Britain Pulls Out
 
-Turn a single group's gift into scholarships open to every race
+Britain's 1968 decision to withdraw all forces east of Suez by 1971, driven by sterling's devaluation rather than any Singapore-specific judgment, taught Lee that no ally's word is more durable than that ally's own domestic economics, and that Singapore had to plan for the worst case regardless of reassurances.
 
-[Source](https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19650912a.pdf)
+Source record: Britain Pulls Out
 
 ## Apply one principle
 
