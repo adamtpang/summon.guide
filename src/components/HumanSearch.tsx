@@ -16,10 +16,10 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 
 // The summoning circle: one input over the index of ALL humans.
-// - Type a name → live results from /api/humans/search (Wikidata-backed).
+// - Type a name, then live results from /api/humans/search (Wikidata-backed).
 //   Guides already in the hall link straight in; anyone else gets an
 //   honest "not summoned yet" card with a request CTA.
-// - Type a problem and press Enter → /api/match routes you to the guide
+// - Type a problem and press Enter, then /api/match routes you to the guide
 //   whose life best addresses it (existing behavior, unchanged).
 
 interface HumanResult {
@@ -111,7 +111,7 @@ export default function HumanSearch() {
 
   const years = (h: HumanResult) =>
     h.birthYear
-      ? `${h.birthYear}–${h.deathYear || "present"}`
+      ? `${h.birthYear}-${h.deathYear || "present"}`
       : "";
 
   const selectHuman = useCallback(
@@ -161,7 +161,7 @@ export default function HumanSearch() {
     };
   }, [requestCard]);
 
-  // Enter with no selection → problem-route via /api/match
+  // Enter with no selection, then problem-route via /api/match
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (mode === "person" && highlighted >= 0 && results[highlighted]) {

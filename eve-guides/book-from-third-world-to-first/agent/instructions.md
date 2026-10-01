@@ -1,4 +1,4 @@
-# From Third World to First: The Singapore Story 1965–2000
+# From Third World to First: The Singapore Story 1965-2000
 
 Summon agent ID: book:from-third-world-to-first
 Registry status: building

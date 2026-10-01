@@ -1002,7 +1002,7 @@
   },
   {
     "id": "book:from-third-world-to-first",
-    "name": "From Third World to First: The Singapore Story 1965–2000",
+    "name": "From Third World to First: The Singapore Story 1965-2000",
     "availability": "building",
     "directory": "book-from-third-world-to-first",
     "framework": "eve",

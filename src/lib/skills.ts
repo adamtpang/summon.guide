@@ -388,7 +388,7 @@ export const skills: Skill[] = [
     whenToUse:
       "Designing incentives, hiring senior leadership, setting conflict-of-interest policy, or fixing a culture where rules get bent quietly.",
     source: "From Third World to First by Lee Kuan Yew",
-    sourceAnchor: "Chapters 13–15: the Corrupt Practices Investigation Bureau",
+    sourceAnchor: "Chapters 13-15: the Corrupt Practices Investigation Bureau",
     command: "/lee-kuan-yew:incorruptibility",
   },
 
@@ -466,7 +466,7 @@ export const skills: Skill[] = [
       "Software is eating the world. It's time to build. Read the wave you're in and push faster.",
     whenToUse:
       "Deciding what to build, evaluating a startup or investment thesis, choosing how to think about a regulated incumbent industry, or fighting the pessimism that says technology can't make things better.",
-    source: "Marc's essays at a16z.com (2011–2023)",
+    source: "Marc's essays at a16z.com (2011-2023)",
     command: "/marc-andreessen:marc-andreessen",
     umbrella: true,
   },
@@ -544,7 +544,7 @@ export const skills: Skill[] = [
     whenToUse:
       "When your product is commoditized on paper and you need a defensible differentiator, or when you suspect competitors are out-narrating you.",
     source: "Billion Dollar Loser by Reeves Wiedeman",
-    sourceAnchor: "Chapters 3–6 (the early WeWork pitch)",
+    sourceAnchor: "Chapters 3-6 (the early WeWork pitch)",
     command: "/adam-neumann:mission-as-moat",
   },
   {
@@ -559,7 +559,7 @@ export const skills: Skill[] = [
     whenToUse:
       "Raising a round where the unit economics are nascent and you need to sell the future, or evaluating a competitor's pitch you suspect is narrative-only.",
     source: "The Cult of We by Eliot Brown and Maureen Farrell",
-    sourceAnchor: "Chapters 8–11 (Masayoshi Son and the WeWork raise)",
+    sourceAnchor: "Chapters 8-11 (Masayoshi Son and the WeWork raise)",
     command: "/adam-neumann:narrative-arbitrage",
   },
   {
@@ -575,7 +575,7 @@ export const skills: Skill[] = [
       "Pre-IPO companies, late-stage startups raising on private narratives, or any company whose growth has outrun its ability to explain unit economics to a hostile reader.",
     source:
       "The Cult of We by Eliot Brown and Maureen Farrell; WeWork S-1 (Aug 14, 2019)",
-    sourceAnchor: "Chapters 12–15 (the six weeks between filing and ouster)",
+    sourceAnchor: "Chapters 12-15 (the six weeks between filing and ouster)",
     command: "/adam-neumann:s1-reality-check",
   },
 
@@ -607,7 +607,7 @@ export const skills: Skill[] = [
     whenToUse:
       "Stuck in a routine you didn't pick, postponing the real work until 'later,' or watching a year pass without being able to say what you spent it on.",
     source: "De Brevitate Vitae (On the Shortness of Life) by Seneca",
-    sourceAnchor: "§§ 1–3 and 7–10 (the audit of how time is wasted)",
+    sourceAnchor: "§§ 1-3 and 7-10 (the audit of how time is wasted)",
     command: "/seneca:on-the-shortness-of-life",
   },
   {
@@ -637,7 +637,7 @@ export const skills: Skill[] = [
     whenToUse:
       "Triggered by a message, a meeting, or a person, and about to respond from the trigger rather than from your considered judgment. Or designing protocols (for yourself or a team) that put time between provocation and reaction.",
     source: "De Ira (On Anger) by Seneca",
-    sourceAnchor: "Book I §§ 1–7 and Book II §§ 28–29 (the daily examination)",
+    sourceAnchor: "Book I §§ 1-7 and Book II §§ 28-29 (the daily examination)",
     command: "/seneca:on-anger",
   },
   {
@@ -688,7 +688,7 @@ export const skills: Skill[] = [
     "title": "Cringe & Character: The David Brent Method",
     "tagline": "Make them laugh at someone they love, comedy from the gap between how a character sees themselves and how the world sees them.",
     "whenToUse": "Use when writing a comedy character, sitcom, mockumentary, or cringe scene that lives on someone deluding themselves in public. Also when jokes land but no one cares about the people, when a show gets laughs but has no heart, or when a 'cringe' scene reads as cruelty instead of funny-and-sad.",
-    "source": "Ricky Gervais's work on The Office (2001–2003), Extras, Derek, and After Life (2019–2022), and his stated craft: make the ordinary extraordinary, find the funny in the true, and pair pathos with a character's blind spot.",
+    "source": "Ricky Gervais's work on The Office (2001-2003), Extras, Derek, and After Life (2019-2022), and his stated craft: make the ordinary extraordinary, find the funny in the true, and pair pathos with a character's blind spot.",
     "sourceAnchor": "David Brent, The Office (UK); Tony Johnson, After Life",
     "command": "/ricky-gervais:cringe-and-character"
   },
@@ -714,7 +714,7 @@ export const skills: Skill[] = [
     "title": "The Isolation Method",
     "tagline": "Turn an intractable question into a relentless, well-instrumented physical process, and grind it, measuring every batch, until the thing is in your hand and can be weighed.",
     "whenToUse": "Use for a hard extraction, purification, or long-horizon problem: finding the one real signal buried in a mountain of noise, isolating a single true cause from a confounded mess, separating what matters from what merely surrounds it, any task where the answer exists but is dilute, and the only path is a repeatable process measured batch by batch until the target is isolated, weighed, and in hand.",
-    "source": "Marie Curie's isolation of radium (1898–1902); her doctoral thesis Recherches sur les substances radioactives (1903); Ève Curie, Madame Curie: A Biography (1937).",
+    "source": "Marie Curie's isolation of radium (1898-1902); her doctoral thesis Recherches sur les substances radioactives (1903); Ève Curie, Madame Curie: A Biography (1937).",
     "sourceAnchor": "Isolation of ~0.1 g pure radium chloride from several tons of pitchblende via the piezoelectric-quartz electrometer and fractional crystallization; radium-isolation method published without patent.",
     "command": "/marie-curie:the-isolation-method"
   },

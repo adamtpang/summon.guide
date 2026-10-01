@@ -29,7 +29,7 @@ export interface Profile {
   nationality?: string;
   education?: string[]; // ["Cambridge University", "Stanford Law"]
   occupations?: string[]; // bullet form for infobox
-  yearsActive?: string; // e.g., "1855–1911"
+  yearsActive?: string; // e.g., "1855-1911"
   notableWorks?: string[]; // books, companies, achievements (max ~5)
   spouses?: string[];
   children?: string; // e.g., "5"
@@ -38,12 +38,12 @@ export interface Profile {
   netWorth?: string; // peak
 
   // Body sections (Wikipedia-style: each renders as its own h2 section)
-  earlyLife: string; // 1–2 paragraphs covering childhood + education
-  career: string; // 2–3 paragraphs covering main work
-  legacy?: string; // 1–2 paragraphs covering impact / death / influence
+  earlyLife: string; // 1-2 paragraphs covering childhood + education
+  career: string; // 2-3 paragraphs covering main work
+  legacy?: string; // 1-2 paragraphs covering impact / death / influence
 
   // Quotes & sources
-  notableQuotes: string[]; // 4–6 famous quotes
+  notableQuotes: string[]; // 4-6 famous quotes
   primarySources: string[]; // books that grounded this guide's training
 
   // Legacy fields (kept for back-compat with previous v0 of the page)
@@ -80,8 +80,8 @@ export const profiles: Record<string, Profile> = {
     deathPlace: "Ormond Beach, Florida, U.S.",
     nationality: "American",
     education: ["Folsom's Commercial College, Cleveland (bookkeeping, 1855)"],
-    occupations: ["Industrialist", "Philanthropist", "Bookkeeper (1855–1859)"],
-    yearsActive: "1855–1937",
+    occupations: ["Industrialist", "Philanthropist", "Bookkeeper (1855-1859)"],
+    yearsActive: "1855-1937",
     notableWorks: [
       "Standard Oil (founded 1870)",
       "University of Chicago (founded 1890)",
@@ -138,16 +138,16 @@ export const profiles: Record<string, Profile> = {
       "Statesman",
       "Postmaster",
     ],
-    yearsActive: "1718–1790",
+    yearsActive: "1718-1790",
     notableWorks: [
-      "Pennsylvania Gazette (publisher, 1728–1748)",
-      "Poor Richard's Almanack (1733–1758)",
+      "Pennsylvania Gazette (publisher, 1728-1748)",
+      "Poor Richard's Almanack (1733-1758)",
       "The Autobiography of Benjamin Franklin (begun 1771)",
       "Lightning rod, bifocals, Franklin stove",
       "Declaration of Independence (signer, 1776)",
       "U.S. Constitution (signer, 1787)",
     ],
-    spouses: ["Deborah Read (common-law, 1730–1774)"],
+    spouses: ["Deborah Read (common-law, 1730-1774)"],
     children: "3 (William, Francis, Sarah)",
     parents: ["Josiah Franklin", "Abiah Folger"],
     awards: [
@@ -170,7 +170,7 @@ export const profiles: Record<string, Profile> = {
       "Well done is better than well said.",
     ],
     primarySources: [
-      "The Autobiography of Benjamin Franklin (1771–1790, published 1791)",
+      "The Autobiography of Benjamin Franklin (1771-1790, published 1791)",
       "Benjamin Franklin: An American Life by Walter Isaacson (2003)",
     ],
   },
@@ -196,7 +196,7 @@ export const profiles: Record<string, Profile> = {
       "CEO of Tesla, SpaceX, xAI",
       "Owner of X (formerly Twitter)",
     ],
-    yearsActive: "1995–present",
+    yearsActive: "1995-present",
     notableWorks: [
       "Zip2 (co-founder, sold for $307M in 1999)",
       "X.com / PayPal (co-founder, sold to eBay for $1.5B in 2002)",
@@ -219,7 +219,7 @@ export const profiles: Record<string, Profile> = {
       "Musk was born June 28, 1971, in Pretoria, South Africa, to engineer Errol Musk and model Maye Musk. He has been described as a withdrawn, intensely bookish child who taught himself programming at ten and sold a video game called Blastar for about $500 at twelve. His parents divorced when he was eight; the years that followed were difficult, including periods of severe bullying. At seventeen, partly to avoid compulsory South African military service, he emigrated to Canada, then transferred to the University of Pennsylvania. He earned bachelor's degrees in physics and economics in 1997, was accepted into a Stanford applied physics PhD program, and dropped out after two days to start a company in the dot-com boom.",
 
     career:
-      "Musk's first company, Zip2, an online city-guide service, sold to Compaq for $307 million in 1999. He immediately founded X.com, an online bank that merged with Confinity to become PayPal; eBay acquired PayPal for $1.5 billion in 2002. He poured almost all of his $180M after-tax proceeds into SpaceX (2002) and Tesla (joined 2004). The years 2006–2008 nearly destroyed him: three consecutive failed Falcon 1 launches, Tesla's near-bankruptcy, a public divorce, and a stretch of borrowing money from friends to pay rent. The fourth Falcon 1 reached orbit on September 28, 2008. Tesla closed an emergency funding round on Christmas Eve 2008. He has since reduced space launch costs by an order of magnitude with the Falcon 9 and Starship programs, taken Tesla to a $1+ trillion market cap, founded Neuralink, The Boring Company, and xAI, and acquired Twitter for $44 billion in 2022 (now X).",
+      "Musk's first company, Zip2, an online city-guide service, sold to Compaq for $307 million in 1999. He immediately founded X.com, an online bank that merged with Confinity to become PayPal; eBay acquired PayPal for $1.5 billion in 2002. He poured almost all of his $180M after-tax proceeds into SpaceX (2002) and Tesla (joined 2004). The years 2006-2008 nearly destroyed him: three consecutive failed Falcon 1 launches, Tesla's near-bankruptcy, a public divorce, and a stretch of borrowing money from friends to pay rent. The fourth Falcon 1 reached orbit on September 28, 2008. Tesla closed an emergency funding round on Christmas Eve 2008. He has since reduced space launch costs by an order of magnitude with the Falcon 9 and Starship programs, taken Tesla to a $1+ trillion market cap, founded Neuralink, The Boring Company, and xAI, and acquired Twitter for $44 billion in 2022 (now X).",
 
     legacy:
       "Musk has articulated a five-step manufacturing algorithm (question every requirement, delete any part you can, simplify, accelerate cycle time, automate last) that has become an influential industrial framework outside Tesla and SpaceX. His stated goal of making humanity a multiplanetary species has driven Starship development. He remains one of the most controversial public figures of his era: admired as the most aggressive engineering executive of the twenty-first century, criticized for labor practices, his behavior on X, and his political pronouncements.",
@@ -247,18 +247,18 @@ export const profiles: Record<string, Profile> = {
     deathPlace: "Babylon",
     nationality: "Macedonian (Greek)",
     education: [
-      "Tutored by Aristotle at the Temple of the Nymphs at Mieza (343–340 BC)",
+      "Tutored by Aristotle at the Temple of the Nymphs at Mieza (343-340 BC)",
     ],
     occupations: [
-      "King of Macedon (336–323 BC)",
+      "King of Macedon (336-323 BC)",
       "Hegemon of the League of Corinth",
       "Pharaoh of Egypt",
       "King of Persia",
       "Lord of Asia",
     ],
-    yearsActive: "338–323 BC (military career)",
+    yearsActive: "338-323 BC (military career)",
     notableWorks: [
-      "Conquest of the Persian Empire (334–330 BC)",
+      "Conquest of the Persian Empire (334-330 BC)",
       "Founding of 20+ cities, including Alexandria, Egypt (331 BC)",
       "Battle of Issus (333 BC) and Gaugamela (331 BC)",
       "Siege of Tyre (332 BC)",
@@ -310,10 +310,10 @@ export const profiles: Record<string, Profile> = {
       "Visiting Professor, University of Oxford",
       "Author",
     ],
-    yearsActive: "1978–present",
+    yearsActive: "1978-present",
     notableWorks: [
       "“Quantum theory, the Church-Turing principle and the universal quantum computer” (1985)",
-      "Deutsch–Jozsa algorithm (1992, with Richard Jozsa)",
+      "Deutsch-Jozsa algorithm (1992, with Richard Jozsa)",
       "The Fabric of Reality (1997)",
       "The Beginning of Infinity (2011)",
       "Constructor theory (2012, with Chiara Marletto)",
@@ -330,7 +330,7 @@ export const profiles: Record<string, Profile> = {
       "Deutsch was born in Haifa, Israel, on May 18, 1953, to Holocaust survivors Oskar and Tikva Deutsch. The family later moved to London. He read natural sciences at Clare College, Cambridge, and completed his doctorate at Wolfson College, Oxford in 1978 under Dennis Sciama, with a thesis on quantum field theory in curved space-time. He has remained at Oxford ever since, holding a position at the Centre for Quantum Computation at the Clarendon Laboratory.",
 
     career:
-      "In 1985 Deutsch published “Quantum theory, the Church-Turing principle and the universal quantum computer”, the foundational paper that defined the quantum Turing machine and effectively founded the field of quantum computation. With Richard Jozsa he produced the Deutsch–Jozsa algorithm in 1992, one of the first quantum algorithms exponentially faster than any classical counterpart. His first book, The Fabric of Reality (1997), argued that four strands, quantum physics (the multiverse), epistemology (Popper's conjecture-and-criticism), evolution (Darwin), and computation (Turing), are deeply intertwined. His second book, The Beginning of Infinity (2011), argues that good explanations, ones that are hard to vary while still accounting for what they explain, are the engine of unbounded human progress. In 2012, with Chiara Marletto, he proposed constructor theory, an attempt to reformulate physics in terms of which transformations are possible and which are not.",
+      "In 1985 Deutsch published “Quantum theory, the Church-Turing principle and the universal quantum computer”, the foundational paper that defined the quantum Turing machine and effectively founded the field of quantum computation. With Richard Jozsa he produced the Deutsch-Jozsa algorithm in 1992, one of the first quantum algorithms exponentially faster than any classical counterpart. His first book, The Fabric of Reality (1997), argued that four strands, quantum physics (the multiverse), epistemology (Popper's conjecture-and-criticism), evolution (Darwin), and computation (Turing), are deeply intertwined. His second book, The Beginning of Infinity (2011), argues that good explanations, ones that are hard to vary while still accounting for what they explain, are the engine of unbounded human progress. In 2012, with Chiara Marletto, he proposed constructor theory, an attempt to reformulate physics in terms of which transformations are possible and which are not.",
 
     legacy:
       "Deutsch is a Fellow of the Royal Society, won the Isaac Newton Medal in 2017, and shared the 2022 Breakthrough Prize in Fundamental Physics for foundational work on quantum information. The Beginning of Infinity has become a touchstone text for a generation of technologists and entrepreneurs as a defense of definite optimism: the view that all problems are soluble unless forbidden by the laws of physics, and that pessimism is bad epistemology, not realism.",
@@ -361,17 +361,17 @@ export const profiles: Record<string, Profile> = {
     nationality: "Singaporean (formerly British)",
     education: [
       "Raffles Institution, Singapore",
-      "Raffles College, Singapore (1940–1942)",
-      "Fitzwilliam College, Cambridge (Law, 1946–1949, starred First-Class Honours)",
+      "Raffles College, Singapore (1940-1942)",
+      "Fitzwilliam College, Cambridge (Law, 1946-1949, starred First-Class Honours)",
       "Middle Temple, London (called to the Bar, 1950)",
     ],
     occupations: [
-      "Lawyer (1950–1959)",
-      "Prime Minister of Singapore (1959–1990)",
-      "Senior Minister (1990–2004)",
-      "Minister Mentor (2004–2011)",
+      "Lawyer (1950-1959)",
+      "Prime Minister of Singapore (1959-1990)",
+      "Senior Minister (1990-2004)",
+      "Minister Mentor (2004-2011)",
     ],
-    yearsActive: "1954–2011 (political career)",
+    yearsActive: "1954-2011 (political career)",
     notableWorks: [
       "Co-founder, People's Action Party (1954)",
       "The Singapore Story: Memoirs of Lee Kuan Yew (1998)",
@@ -388,7 +388,7 @@ export const profiles: Record<string, Profile> = {
     ],
 
     earlyLife:
-      "Lee was born in Singapore on September 16, 1923, into a wealthy English-educated Peranakan family of Hakka Chinese descent. English was his first language. He attended Raffles Institution and was top of his class in the 1940 Senior Cambridge examinations. He had begun studies at Raffles College when the Japanese invasion of Malaya halted everything. The Japanese Occupation of 1942–1945 was the defining trauma of his youth: he narrowly escaped the Sook Ching massacre of ethnic Chinese and watched the British surrender 130,000 troops to a numerically smaller Japanese force. He later wrote that the experience taught him that power, not law, decides who lives and who dies. After the war he sailed to Britain, studied law at Fitzwilliam College, Cambridge, graduated with a starred First-Class Honours, and was called to the bar at the Middle Temple in 1950.",
+      "Lee was born in Singapore on September 16, 1923, into a wealthy English-educated Peranakan family of Hakka Chinese descent. English was his first language. He attended Raffles Institution and was top of his class in the 1940 Senior Cambridge examinations. He had begun studies at Raffles College when the Japanese invasion of Malaya halted everything. The Japanese Occupation of 1942-1945 was the defining trauma of his youth: he narrowly escaped the Sook Ching massacre of ethnic Chinese and watched the British surrender 130,000 troops to a numerically smaller Japanese force. He later wrote that the experience taught him that power, not law, decides who lives and who dies. After the war he sailed to Britain, studied law at Fitzwilliam College, Cambridge, graduated with a starred First-Class Honours, and was called to the bar at the Middle Temple in 1950.",
 
     career:
       "Lee co-founded the People's Action Party (PAP) in 1954 and led it to victory in the 1959 election, becoming Prime Minister of Singapore at age 35, the youngest in the Commonwealth. Singapore merged with Malaysia in 1963 but was expelled on August 9, 1965; Lee broke down in tears on television. He was 42 years old, leading a tiny island of 1.9 million with no natural resources, no army, and uncertain water supply. Over the next three decades he attracted multinationals through low taxes, English-language education, and rule of law; built corruption-free government via the Corrupt Practices Investigation Bureau; created mass homeownership through the Housing & Development Board (HDB) and Central Provident Fund (CPF); and enforced multiracialism and meritocracy. Singapore went from a GDP per capita of $516 in 1965 to over $80,000 today, one of the highest in the world. He stepped down as Prime Minister in 1990 after 31 years and continued as Senior Minister and Minister Mentor.",
@@ -423,11 +423,11 @@ export const profiles: Record<string, Profile> = {
       "Converted to philosophy by Junius Rusticus, who gave him Epictetus' Discourses",
     ],
     occupations: [
-      "Roman Emperor (161–180 AD)",
+      "Roman Emperor (161-180 AD)",
       "Stoic philosopher",
       "Military commander",
     ],
-    yearsActive: "161–180 AD (reign)",
+    yearsActive: "161-180 AD (reign)",
     notableWorks: [
       "Meditations (Ta eis heauton, “To Himself”), 12 books",
       "Held the empire through the Antonine Plague",
@@ -452,7 +452,7 @@ export const profiles: Record<string, Profile> = {
       "The best revenge is not to be like your enemy.",
     ],
     primarySources: [
-      "Meditations by Marcus Aurelius (c. 170–180 AD; Gregory Hays translation, 2002)",
+      "Meditations by Marcus Aurelius (c. 170-180 AD; Gregory Hays translation, 2002)",
       "The Inner Citadel: The Meditations of Marcus Aurelius by Pierre Hadot (1998)",
     ],
   },
@@ -477,7 +477,7 @@ export const profiles: Record<string, Profile> = {
       "Co-founder and General Partner, Andreessen Horowitz",
       "Board member, Meta Platforms",
     ],
-    yearsActive: "1992–present",
+    yearsActive: "1992-present",
     notableWorks: [
       "Mosaic (co-creator, 1993)",
       "Netscape Navigator (co-founder, Netscape Communications, 1994)",
@@ -492,7 +492,7 @@ export const profiles: Record<string, Profile> = {
     parents: ["Lowell Andreessen", "Patricia Andreessen"],
 
     earlyLife:
-      "Marc Andreessen was born July 9, 1971, in Cedar Falls, Iowa, and grew up in New Lisbon, Wisconsin, a town of about a thousand people. He taught himself BASIC on a Radio Shack TRS-80 in elementary school. He enrolled at the University of Illinois at Urbana-Champaign as an undergraduate computer science major, where he worked at the National Center for Supercomputing Applications (NCSA). In 1992–1993, working with Eric Bina, he co-created Mosaic, the first graphical web browser to display images inline with text and to run on common consumer operating systems. Mosaic, more than any other single piece of software, was the moment the World Wide Web became something ordinary people could see and use.",
+      "Marc Andreessen was born July 9, 1971, in Cedar Falls, Iowa, and grew up in New Lisbon, Wisconsin, a town of about a thousand people. He taught himself BASIC on a Radio Shack TRS-80 in elementary school. He enrolled at the University of Illinois at Urbana-Champaign as an undergraduate computer science major, where he worked at the National Center for Supercomputing Applications (NCSA). In 1992-1993, working with Eric Bina, he co-created Mosaic, the first graphical web browser to display images inline with text and to run on common consumer operating systems. Mosaic, more than any other single piece of software, was the moment the World Wide Web became something ordinary people could see and use.",
 
     career:
       "In 1994, fresh out of college, Andreessen partnered with Jim Clark, the founder of Silicon Graphics, to start Mosaic Communications Corporation, soon renamed Netscape Communications. Netscape Navigator became the dominant web browser of the mid-1990s. The company's IPO on August 9, 1995, the stock opened at $28 and closed at $58.25 the same day, valuing Netscape at $2.9 billion despite having only modest revenue, is widely cited as the catalyst of the dot-com era. After the U.S. v. Microsoft antitrust suit and the bundling of Internet Explorer with Windows crushed Netscape's market share, AOL acquired Netscape in 1999 for $4.2 billion. Andreessen co-founded Loudcloud in 1999 (one of the earliest commercial cloud-services companies); after the dot-com bust, the company pivoted into Opsware and sold to Hewlett-Packard in 2007 for $1.6 billion. In 2009, Andreessen and Ben Horowitz founded Andreessen Horowitz (a16z) on the contrarian thesis that technical founders should be supported as CEOs of their own companies rather than replaced by professional managers. a16z grew into one of the largest venture firms in the world, with notable early investments in Facebook, Coinbase, Airbnb, GitHub, Lyft, Instagram, Skype, Slack, and Stripe.",
@@ -521,7 +521,7 @@ export const profiles: Record<string, Profile> = {
     fullName: "Adam Neumann",
     birthDate: "April 22, 1979",
     birthPlace: "Tel Aviv, Israel",
-    nationality: "Israeli–American",
+    nationality: "Israeli-American",
     education: [
       "Israeli Defense Forces: Naval officer, 5 years",
       "Baruch College, City University of New York (attended; did not graduate)",
@@ -529,10 +529,10 @@ export const profiles: Record<string, Profile> = {
     occupations: [
       "Entrepreneur",
       "Co-founder, GreenDesk (2008)",
-      "Co-founder and former CEO, WeWork / The We Company (2010–2019)",
-      "Founder and CEO, Flow (2022–present)",
+      "Co-founder and former CEO, WeWork / The We Company (2010-2019)",
+      "Founder and CEO, Flow (2022-present)",
     ],
-    yearsActive: "2006–present",
+    yearsActive: "2006-present",
     notableWorks: [
       "GreenDesk (co-founder, 2008)",
       "WeWork (co-founder, 2010; sold control 2019)",
@@ -581,9 +581,9 @@ export const profiles: Record<string, Profile> = {
       "Stoic philosopher",
       "Tragedian (Roman drama)",
       "Statesman, Roman Senate",
-      "Tutor (AD 49–54) and chief advisor (AD 54–62) to Emperor Nero",
+      "Tutor (AD 49-54) and chief advisor (AD 54-62) to Emperor Nero",
     ],
-    yearsActive: "c. AD 20 – 65",
+    yearsActive: "c. AD 20 to 65",
     notableWorks: [
       "Epistulae Morales ad Lucilium (Letters to Lucilius / Letters from a Stoic): 124 surviving letters",
       "De Brevitate Vitae (On the Shortness of Life)",
@@ -628,7 +628,7 @@ export const profiles: Record<string, Profile> = {
     "education": [
       "Whitley Park Infants and Junior Schools, Reading",
       "Ashmead Comprehensive School, Reading",
-      "University College London (UCL), 1980–1983: enrolled to read biology, switched to philosophy after about two weeks, graduating with a lower-second-class (2:2) honours degree in philosophy"
+      "University College London (UCL), 1980-1983: enrolled to read biology, switched to philosophy after about two weeks, graduating with a lower-second-class (2:2) honours degree in philosophy"
     ],
     "occupations": [
       "Stand-up comedian",
@@ -637,21 +637,21 @@ export const profiles: Record<string, Profile> = {
       "Director",
       "Producer"
     ],
-    "yearsActive": "1998–present",
+    "yearsActive": "1998-present",
     "notableWorks": [
-      "The Office (BBC, 2001–2003): co-created and co-written with Stephen Merchant; Gervais played David Brent",
-      "Extras (BBC/HBO, 2005–2007): co-created with Stephen Merchant; Gervais played Andy Millman",
-      "After Life (Netflix, 2019–2022): created, written, directed by and starring Gervais",
-      "Derek (Channel 4, 2012–2014): written, directed by and starring Gervais",
-      "The Ricky Gervais Show (2005 podcast; HBO animated series, 2010–2012): with Stephen Merchant and Karl Pilkington",
+      "The Office (BBC, 2001-2003): co-created and co-written with Stephen Merchant; Gervais played David Brent",
+      "Extras (BBC/HBO, 2005-2007): co-created with Stephen Merchant; Gervais played Andy Millman",
+      "After Life (Netflix, 2019-2022): created, written, directed by and starring Gervais",
+      "Derek (Channel 4, 2012-2014): written, directed by and starring Gervais",
+      "The Ricky Gervais Show (2005 podcast; HBO animated series, 2010-2012): with Stephen Merchant and Karl Pilkington",
       "Netflix stand-up specials: Humanity (2018), SuperNature (2022), Armageddon (2023), Mortality (2025)"
     ],
     "spouses": [
-      "Jane Fallon (partner, 1982–present)"
+      "Jane Fallon (partner, 1982-present)"
     ],
     "netWorth": "Estimated at roughly US$160 million as of 2025 (Celebrity Net Worth); figures vary by source, currency, and year and should be treated as approximate",
-    "earlyLife": "Ricky Dene Gervais was born on 25 June 1961 in Reading, Berkshire, the youngest of four children. His father, Lawrence Raymond \"Jerry\" Gervais (1919–2002), was a labourer of Franco-Ontarian (French-Canadian) descent who met Gervais's mother while stationed in England during the Second World War; his mother, Eva Sophia (née House; 1925–2000), was English. He grew up on a council estate and attended Whitley Park Infants and Junior Schools and Ashmead Comprehensive School in Reading. In 1980 he went to University College London, initially to read biology but switching to philosophy after about two weeks, and graduated in 1983 with a lower-second-class honours degree. An atheist and humanist, Gervais has cited his philosophical education and scientific outlook as central to his comedy and public persona.",
-    "career": "Before his breakthrough, Gervais worked a variety of jobs, including a brief pre-fame stint managing the band Suede and roughly seven years in an office administrative role that later fed his observational comedy. His major success came with The Office, a mockumentary sitcom co-created and co-written with Stephen Merchant for BBC Two, which ran for two series and two Christmas specials between 2001 and 2003. Gervais starred as the self-deluded middle manager David Brent, a character whose comedy derives from the gap between his self-perception and how others see him. The series won multiple BAFTA Awards and a Golden Globe, and its format was adapted internationally, most successfully as the American version of The Office, for which Gervais served as an executive producer.\n\nGervais and Merchant followed with Extras (2005–2007), in which Gervais played struggling actor Andy Millman, and Life's Too Short (2011–2013). Gervais then wrote, directed and starred in Derek (2012–2014) and created the Netflix series After Life (2019–2022), a solo project about a grieving widower that he wrote, directed, executive-produced and starred in across three series. Alongside television, The Ricky Gervais Show began in 2005 as a podcast with Merchant and Karl Pilkington, certified by Guinness World Records as the most-downloaded podcast in 2006, and was later adapted into an animated HBO series (2010–2012).\n\nGervais built a parallel career in stand-up comedy, touring shows including Animals (2003), Politics (2004), Fame (2007) and Science (2010) before a series of Netflix specials: Humanity (2018), SuperNature (2022), Armageddon (2023) and Mortality (2025). He also hosted the Golden Globe Awards five times (2010, 2011, 2012, 2016 and 2020), where his acerbic monologues drew wide attention. His accolades include seven BAFTA Television Awards, two Primetime Emmy Awards, and Golden Globe wins, including consecutive awards for Best Performance in Stand-Up Comedy on Television for Armageddon (2024) and Mortality (2026).",
+    "earlyLife": "Ricky Dene Gervais was born on 25 June 1961 in Reading, Berkshire, the youngest of four children. His father, Lawrence Raymond \"Jerry\" Gervais (1919-2002), was a labourer of Franco-Ontarian (French-Canadian) descent who met Gervais's mother while stationed in England during the Second World War; his mother, Eva Sophia (née House; 1925-2000), was English. He grew up on a council estate and attended Whitley Park Infants and Junior Schools and Ashmead Comprehensive School in Reading. In 1980 he went to University College London, initially to read biology but switching to philosophy after about two weeks, and graduated in 1983 with a lower-second-class honours degree. An atheist and humanist, Gervais has cited his philosophical education and scientific outlook as central to his comedy and public persona.",
+    "career": "Before his breakthrough, Gervais worked a variety of jobs, including a brief pre-fame stint managing the band Suede and roughly seven years in an office administrative role that later fed his observational comedy. His major success came with The Office, a mockumentary sitcom co-created and co-written with Stephen Merchant for BBC Two, which ran for two series and two Christmas specials between 2001 and 2003. Gervais starred as the self-deluded middle manager David Brent, a character whose comedy derives from the gap between his self-perception and how others see him. The series won multiple BAFTA Awards and a Golden Globe, and its format was adapted internationally, most successfully as the American version of The Office, for which Gervais served as an executive producer.\n\nGervais and Merchant followed with Extras (2005-2007), in which Gervais played struggling actor Andy Millman, and Life's Too Short (2011-2013). Gervais then wrote, directed and starred in Derek (2012-2014) and created the Netflix series After Life (2019-2022), a solo project about a grieving widower that he wrote, directed, executive-produced and starred in across three series. Alongside television, The Ricky Gervais Show began in 2005 as a podcast with Merchant and Karl Pilkington, certified by Guinness World Records as the most-downloaded podcast in 2006, and was later adapted into an animated HBO series (2010-2012).\n\nGervais built a parallel career in stand-up comedy, touring shows including Animals (2003), Politics (2004), Fame (2007) and Science (2010) before a series of Netflix specials: Humanity (2018), SuperNature (2022), Armageddon (2023) and Mortality (2025). He also hosted the Golden Globe Awards five times (2010, 2011, 2012, 2016 and 2020), where his acerbic monologues drew wide attention. His accolades include seven BAFTA Television Awards, two Primetime Emmy Awards, and Golden Globe wins, including consecutive awards for Best Performance in Stand-Up Comedy on Television for Armageddon (2024) and Mortality (2026).",
     "legacy": "Gervais is widely regarded as one of the most influential figures in modern British comedy, credited with popularising the mockumentary sitcom format through The Office, whose David Brent became a defining example of cringe comedy built on a character's blind spots and naturalistic performance. His work has been recognised with BAFTA, Emmy and Golden Globe awards, and formats he co-created have been remade around the world. He has also become a prominent and frequently controversial public voice on free speech and the limits of comedy, arguing that offence is \"the collateral damage of free speech\" and distinguishing the subject of a joke from its target. His later projects, particularly After Life, broadened his reputation to include more openly emotional and reflective work, while his Netflix stand-up specials and Golden Globes hosting cemented his standing as a global comedic figure.",
     "notableQuotes": [
       "Offence is the collateral damage of free speech.",
@@ -659,9 +659,9 @@ export const profiles: Record<string, Profile> = {
       "The truth is more devastating than a lie."
     ],
     "primarySources": [
-      "The Office (BBC Two, 2001–2003): series co-created, co-written and co-directed by Ricky Gervais and Stephen Merchant",
-      "Extras (BBC/HBO, 2005–2007): series co-created by Ricky Gervais and Stephen Merchant",
-      "After Life (Netflix, 2019–2022): series created, written and directed by Ricky Gervais",
+      "The Office (BBC Two, 2001-2003): series co-created, co-written and co-directed by Ricky Gervais and Stephen Merchant",
+      "Extras (BBC/HBO, 2005-2007): series co-created by Ricky Gervais and Stephen Merchant",
+      "After Life (Netflix, 2019-2022): series created, written and directed by Ricky Gervais",
       "Ricky Gervais: Humanity (Netflix, 2018), SuperNature (2022), Armageddon (2023) and Mortality (2025): stand-up specials",
       "Wikipedia, \"Ricky Gervais\" (https://en.wikipedia.org/wiki/Ricky_Gervais)",
       "Golden Globes official profile (https://goldenglobes.com/person/ricky-gervais/) and Television Academy biography (https://www.televisionacademy.com/bios/ricky-gervais)"
@@ -678,7 +678,7 @@ export const profiles: Record<string, Profile> = {
     "deathPlace": "Sancellemoz sanatorium, Passy, Haute-Savoie, France: aplastic anaemia attributed to prolonged ionizing-radiation exposure",
     "nationality": "Polish and French",
     "education": [
-      "Clandestine 'Flying University' (Uniwersytet Latający), Warsaw, which admitted women barred from formal Polish higher education under Russian rule (c. 1885–1889)",
+      "Clandestine 'Flying University' (Uniwersytet Latający), Warsaw, which admitted women barred from formal Polish higher education under Russian rule (c. 1885-1889)",
       "Licence in physics, University of Paris (the Sorbonne), 1893: ranked first in her class",
       "Licence in mathematics, University of Paris, 1894",
       "Doctorate in physics, University of Paris, defended June 1903 (supervised by Gabriel Lippmann)"
@@ -689,7 +689,7 @@ export const profiles: Record<string, Profile> = {
       "Professor at the University of Paris (Sorbonne)",
       "Director of the Radium Institute (Institut du Radium), Paris"
     ],
-    "yearsActive": "c. 1894 – 1934",
+    "yearsActive": "c. 1894 to 1934",
     "notableWorks": [
       "Recherches sur les substances radioactives (doctoral thesis, 1903): established radioactivity as an atomic property",
       "Discovery of the elements polonium (July 1898) and radium (December 1898)",
@@ -750,7 +750,7 @@ export const profiles: Record<string, Profile> = {
       "Reggae, ska and rocksteady musician",
       "Rastafari spokesman and activist"
     ],
-    "yearsActive": "1962–1981",
+    "yearsActive": "1962-1981",
     "notableWorks": [
       "Catch a Fire (1973): the Wailers' international debut on Island Records",
       "Burnin' (1973): includes 'Get Up, Stand Up' and 'I Shot the Sheriff'",
@@ -865,7 +865,7 @@ export const profiles: Record<string, Profile> = {
       "Chairman of Wesco Financial and of the Daily Journal Corporation",
       "Philanthropist and self-taught architect"
     ],
-    "yearsActive": "1948–2023",
+    "yearsActive": "1948-2023",
     "notableWorks": [
       "Munger, Tolles and Olson, Los Angeles law firm co-founded in 1962",
       "Wheeler, Munger and Company, investment partnership run from 1962 to 1976, compounding at about 19.8 percent a year versus 5.0 percent for the Dow",
@@ -928,7 +928,7 @@ export const profiles: Record<string, Profile> = {
       "Media proprietor; owner of The Washington Post through Nash Holdings",
       "Investor and philanthropist through Bezos Expeditions, the Bezos Day One Fund and the Bezos Earth Fund"
     ],
-    "yearsActive": "1986–present",
+    "yearsActive": "1986-present",
     "notableWorks": [
       "Amazon (founded July 5, 1994; website launched July 16, 1995), the online bookstore that became the world's largest e-commerce company",
       "Amazon Web Services (Amazon EC2 launched August 25, 2006), the cloud computing business that became Amazon's main profit engine",
@@ -995,7 +995,7 @@ export const profiles: Record<string, Profile> = {
       "Semiconductor and computing executive",
       "Philanthropist"
     ],
-    "yearsActive": "1984–present (Nvidia, 1993–present)",
+    "yearsActive": "1984-present (Nvidia, 1993-present)",
     "notableWorks": [
       "Nvidia (co-founded 5 April 1993), the company he has run as president and CEO since its first day",
       "RIVA 128 (1997), the graphics chip shipped with roughly one month of payroll left in the bank, which sold about a million units in four months and saved the company",
@@ -1056,7 +1056,7 @@ export const profiles: Record<string, Profile> = {
       "Co-founder and chairman of AngelList",
       "Writer and podcaster"
     ],
-    "yearsActive": "1999–present",
+    "yearsActive": "1999-present",
     "notableWorks": [
       "Epinions (co-founded 1999), the consumer review site that merged into Shopping.com",
       "Venture Hacks (2007), the startup financing blog he wrote with Babak Nivi",
@@ -1109,7 +1109,7 @@ export const profiles: Record<string, Profile> = {
       "Author",
       "Philanthropist and grantmaker"
     ],
-    "yearsActive": "1996–present",
+    "yearsActive": "1996-present",
     "notableWorks": [
       "The Diversity Myth (1995), a book on Stanford's speech and curriculum policies, coauthored with David O. Sacks",
       "Confinity, later PayPal (cofounded 1998), the payments company he ran as CEO through its 2002 sale to eBay",
@@ -1172,7 +1172,7 @@ export const profiles: Record<string, Profile> = {
       "Businessman",
       "Author"
     ],
-    "yearsActive": "1940–1992",
+    "yearsActive": "1940-1992",
     "notableWorks": [
       "Ben Franklin franchise store, Newport, Arkansas (operated 1945 to 1950)",
       "Walton's 5 & 10, Bentonville, Arkansas (opened May 9, 1950)",
@@ -1238,7 +1238,7 @@ export const profiles: Record<string, Profile> = {
       "Majority owner and chairman of Pixar, later the largest individual shareholder and a director of The Walt Disney Company",
       "Inventor and designer, named on more than 450 patents"
     ],
-    "yearsActive": "1971–2011",
+    "yearsActive": "1971-2011",
     "notableWorks": [
       "Apple II (1977), the machine that turned personal computing into a mass market",
       "Macintosh (1984), the first commercially successful computer built around a graphical interface and a mouse",
@@ -1304,7 +1304,7 @@ export const profiles: Record<string, Profile> = {
       "Open-source contributor (Ruby on Rails core team, Active Merchant)",
       "Amateur endurance racing driver"
     ],
-    "yearsActive": "2004–present",
+    "yearsActive": "2004-present",
     "notableWorks": [
       "Snowdevil (2004), the online snowboard shop whose custom store software became Shopify",
       "Shopify (relaunched 2006), the commerce platform he has led as CEO since 2008",
@@ -1362,7 +1362,7 @@ export const profiles: Record<string, Profile> = {
       "Investor through Prima Materia, the vehicle he co-founded with Shakil Khan",
       "Chairman of Neko Health and of the European defence technology company Helsing"
     ],
-    "yearsActive": "2006–present",
+    "yearsActive": "2006-present",
     "notableWorks": [
       "Advertigo (sold to TradeDoubler in March 2006), the online advertising company whose sale made him wealthy in his early twenties and introduced him to Martin Lorentzon",
       "Spotify (incorporated with Lorentzon in Stockholm in 2006; service launched 7 October 2008), the streaming platform built on the premise that the only way to beat piracy was to make something better than piracy",
@@ -1422,7 +1422,7 @@ export const profiles: Record<string, Profile> = {
       "Product designer",
       "Philanthropist"
     ],
-    "yearsActive": "2011–present",
+    "yearsActive": "2011-present",
     "notableWorks": [
       "Picaboo (2011), the disappearing photo app built with Bobby Murphy and Reggie Brown, relaunched as Snapchat in September 2011",
       "Snapchat Stories (2013), the 24 hour chronological format later copied across the industry",
@@ -1481,7 +1481,7 @@ export const profiles: Record<string, Profile> = {
       "Film and television producer, including 8 Mile (2002) and the HBO documentary series The Defiant Ones (2017)",
       "Philanthropist and education founder, USC Jimmy Iovine and Andre Young Academy"
     ],
-    "yearsActive": "1972–present",
+    "yearsActive": "1972-present",
     "notableWorks": [
       "John Lennon, Walls and Bridges (1974), and Bruce Springsteen, Born to Run (1975), both engineered at New York's Record Plant while Iovine was in his early twenties",
       "Patti Smith, Easter (1978), produced by Iovine and carrying Because the Night, the unfinished Springsteen song he carried across the hall to her",
@@ -1543,7 +1543,7 @@ export const profiles: Record<string, Profile> = {
       "Author and co-founder of the Conscious Capitalism movement",
       "Co-founder and chief executive officer of Love.Life"
     ],
-    "yearsActive": "1978–present",
+    "yearsActive": "1978-present",
     "notableWorks": [
       "SaferWay (1978), the Austin natural foods store he co-founded with Renee Lawson that became Whole Foods Market",
       "Whole Foods Market (1980), grown from a single Austin storefront to more than 500 stores in the United States, Canada and the United Kingdom",
@@ -1607,7 +1607,7 @@ export const profiles: Record<string, Profile> = {
       "Startup founder and investor, including ResearchHub and NewLimit",
       "Philanthropist"
     ],
-    "yearsActive": "2003–present",
+    "yearsActive": "2003-present",
     "notableWorks": [
       "Coinbase (2012), the cryptocurrency exchange he co-founded with Fred Ehrsam and still leads",
       "UniversityTutor.com (2003 to 2012), the online tutoring directory he founded as a student and ran until Coinbase",
@@ -1667,7 +1667,7 @@ export const profiles: Record<string, Profile> = {
       "Farmer and landowner, Dyson Farming",
       "Philanthropist and founder of the Dyson Institute of Engineering and Technology"
     ],
-    "yearsActive": "1970–present",
+    "yearsActive": "1970-present",
     "notableWorks": [
       "Sea Truck (1970), the fast flat hulled landing craft he engineered and then sold worldwide for Jeremy Fry's Rotork",
       "Ballbarrow (1974), the wheelbarrow that replaced the wheel with a plastic ball, and the venture whose loss taught him never to give up patents or control",
@@ -1730,7 +1730,7 @@ export const profiles: Record<string, Profile> = {
       "Television producer and host, Restaurant Recovery",
       "Philanthropist"
     ],
-    "yearsActive": "1996–present",
+    "yearsActive": "1996-present",
     "notableWorks": [
       "Raising Cane's Chicken Fingers, first restaurant at the North Gates of LSU on Highland Road, Baton Rouge (opened August 28, 1996), still called the Mothership inside the company",
       "Secret Millionaire, Fox, premiere episode with his wife Gwen in a Louisiana community recovering from Hurricane Katrina (2008)",
@@ -1791,7 +1791,7 @@ export const profiles: Record<string, Profile> = {
       "Risk analyst and scientific adviser on tail risk",
       "University professor, retired"
     ],
-    "yearsActive": "1984–present",
+    "yearsActive": "1984-present",
     "notableWorks": [
       "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets (2001), the first Incerto volume",
       "The Black Swan: The Impact of the Highly Improbable (2007), the second Incerto volume",
@@ -1846,7 +1846,7 @@ export const profiles: Record<string, Profile> = {
       "Philanthropist, Dalio Philanthropies and the Giving Pledge",
       "Public educator on how economies and world orders work"
     ],
-    "yearsActive": "1975–present",
+    "yearsActive": "1975-present",
     "notableWorks": [
       "Bridgewater Associates (founded 1975), the firm he built into the largest hedge fund in the world",
       "Pure Alpha (launched 1991), Bridgewater's flagship actively managed macro strategy",
@@ -2114,7 +2114,7 @@ export const profiles: Record<string, Profile> = {
       "Ohio State University (MBA)",
     ],
     occupations: ["Author", "Writer", "Speaker"],
-    yearsActive: "2012–present",
+    yearsActive: "2012-present",
     notableWorks: [
       "Atomic Habits (2018)",
       "3-2-1 Thursday newsletter (weekly, since 2012)",
@@ -2134,7 +2134,7 @@ export const profiles: Record<string, Profile> = {
       "Every action you take is a vote for the type of person you wish to become.",
       "Habits are the compound interest of self-improvement.",
       "You should be far more concerned with your current trajectory than with your current results.",
-      "Success is the product of daily habits—not once-in-a-lifetime transformations.",
+      "Success is the product of daily habits, not once-in-a-lifetime transformations.",
     ],
     primarySources: ["Atomic Habits by James Clear (2018)"],
   },
@@ -2153,7 +2153,7 @@ export const profiles: Record<string, Profile> = {
       "Massachusetts Institute of Technology (M.S. and Ph.D. in Computer Science, 2009)",
     ],
     occupations: ["Computer scientist", "Author", "Professor"],
-    yearsActive: "2007–present (writing); 2011–present (Georgetown faculty)",
+    yearsActive: "2007-present (writing); 2011-present (Georgetown faculty)",
     notableWorks: [
       "So Good They Can't Ignore You (2012)",
       "Deep Work (2016)",
@@ -2191,7 +2191,7 @@ export const profiles: Record<string, Profile> = {
       "Princeton University (B.A., East Asian Studies, 2000)",
     ],
     occupations: ["Author", "Podcaster", "Entrepreneur", "Angel investor"],
-    yearsActive: "2001–present",
+    yearsActive: "2001-present",
     notableWorks: [
       "The 4-Hour Workweek (2007)",
       "The 4-Hour Body (2010)",
@@ -2233,11 +2233,11 @@ export const profiles: Record<string, Profile> = {
       "University of Pennsylvania (Ph.D., Cognitive Psychology, 2023)",
     ],
     occupations: [
-      "Professional poker player (1992–2010)",
+      "Professional poker player (1992-2010)",
       "Author",
       "Decision strategist",
     ],
-    yearsActive: "1992–present",
+    yearsActive: "1992-present",
     notableWorks: [
       "Thinking in Bets (2018)",
       "How to Decide (2020)",
@@ -2273,7 +2273,7 @@ export const profiles: Record<string, Profile> = {
       "Yale University (Ph.D., Psychology, 1972)",
     ],
     occupations: ["Psychologist", "Professor of Psychology"],
-    yearsActive: "1972–present",
+    yearsActive: "1972-present",
     notableWorks: [
       "Mindset: The New Psychology of Success (2006)",
       "Research on implicit theories of intelligence (1988 onward)",
@@ -2312,7 +2312,7 @@ export const profiles: Record<string, Profile> = {
       "Independent consultant",
       "Former management consultant",
     ],
-    yearsActive: "2017–present (writing)",
+    yearsActive: "2017-present (writing)",
     notableWorks: ["The Pathless Path (2022)", "Good Work (2024)"],
 
     earlyLife:
@@ -2347,7 +2347,7 @@ export const profiles: Record<string, Profile> = {
       "Law school (withdrew for lack of funds)",
     ],
     occupations: ["Author", "Journalist", "Salesman", "Lecturer"],
-    yearsActive: "1928–1970",
+    yearsActive: "1928-1970",
     notableWorks: [
       "The Law of Success (1928)",
       "Think and Grow Rich (1937)",
@@ -2357,7 +2357,7 @@ export const profiles: Record<string, Profile> = {
       "Edith Whitman (m. 1903; div. 1908)",
       "Florence Elizabeth Horner (m. 1910; div. 1935)",
       "Rosa Lee Beeland (m. 1937; div. 1940)",
-      "Annie Lou Norman (m. 1943–1970)",
+      "Annie Lou Norman (m. 1943-1970)",
     ],
 
     earlyLife:
@@ -2393,14 +2393,14 @@ export const profiles: Record<string, Profile> = {
       "Brown University (studied math and music; left without a degree, 1976)",
     ],
     occupations: [
-      "Founder and CEO, Amerex Oil Associates (1979–1983)",
+      "Founder and CEO, Amerex Oil Associates (1979-1983)",
       "Founder, Hamilton Resources (1984)",
-      "Founder, chairman and CEO, United Waste Systems (1989–1997)",
-      "Founder, chairman and CEO, United Rentals (1997–2011)",
-      "Chairman and CEO, XPO Logistics (2011–2024)",
-      "Founder, chairman and CEO, QXO (2024–present)",
+      "Founder, chairman and CEO, United Waste Systems (1989-1997)",
+      "Founder, chairman and CEO, United Rentals (1997-2011)",
+      "Chairman and CEO, XPO Logistics (2011-2024)",
+      "Founder, chairman and CEO, QXO (2024-present)",
     ],
-    yearsActive: "1979–present",
+    yearsActive: "1979-present",
     notableWorks: [
       "United Waste Systems (founded 1989, sold for $2.5B in 1997)",
       "United Rentals (founded 1997; still the world's largest equipment-rental company)",
@@ -2411,7 +2411,7 @@ export const profiles: Record<string, Profile> = {
     spouses: ["Lamia Jacobs"],
     children: "4",
     parents: ["Albert Jordan Jacobs", "Charlotte Sybil Bander Jacobs"],
-    netWorth: "Roughly $14–15 billion; estimates vary by source and move with QXO's stock price (figures read August 2026)",
+    netWorth: "Roughly $14-15 billion; estimates vary by source and move with QXO's stock price (figures read August 2026)",
 
     earlyLife:
       "Bradley S. Jacobs was born August 3, 1956, in Providence, Rhode Island, to Albert Jordan Jacobs, a fashion jewelry importer, and Charlotte Sybil Bander Jacobs. He attended Northfield Mount Hermon School and Bennington College before enrolling at Brown University, where he studied mathematics and music, including classical piano, and left in 1976 without completing a degree. In 1979, at age 23, he co-founded Amerex Oil Associates, an oil brokerage, and served as its CEO until the firm was sold in 1983; within four years it was doing close to $4.7 billion a year in brokerage volume. In 1984 he moved to London and founded Hamilton Resources, an oil-trading firm generating roughly $1 billion a year, where he met his future wife, Lamia. They have four children and live in Greenwich, Connecticut.",
@@ -2433,7 +2433,7 @@ export const profiles: Record<string, Profile> = {
       "How to Make a Few More Billion Dollars by Brad Jacobs (Greenleaf Book Group Press, 2025)",
       "Brad Jacobs: How Therapy Made Me Billions, The Knowledge Project with Shane Parrish, Episode 190",
       "Founders podcast, Episode 335: How to Make a Few Billion Dollars: Brad Jacobs",
-      "Wikipedia, \"Brad Jacobs (businessman),\" and contemporaneous press coverage of QXO's Beacon, GMS, Kodiak, and TopBuild transactions (2025–2026)",
+      "Wikipedia, \"Brad Jacobs (businessman),\" and contemporaneous press coverage of QXO's Beacon, GMS, Kodiak, and TopBuild transactions (2025-2026)",
     ],
   },
 
@@ -2459,7 +2459,7 @@ export const profiles: Record<string, Profile> = {
       "Essayist and author",
       "Painter",
     ],
-    yearsActive: "1990s–present",
+    yearsActive: "1990s-present",
     notableWorks: [
       "Viaweb, acquired by Yahoo in 1998",
       "Y Combinator",
@@ -2500,7 +2500,7 @@ export const profiles: Record<string, Profile> = {
     occupation: "Writer, philosopher, and artist",
 
     occupations: ["Writer", "Philosopher", "Artist"],
-    yearsActive: "2010s–present",
+    yearsActive: "2010s-present",
     notableWorks: [
       "Reason Is Fun (blog, lulie.co.uk)",
       "\"Discipline is fighting yourself\"",

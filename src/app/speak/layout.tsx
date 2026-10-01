@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Guide voiceover | summon.guide",
   description:
-    "Paste a short essay, choose a guide, generate a 90–120 second voiceover. Essay → TTS → book.movie.",
+    "Paste a short essay, choose a guide, generate a 90-120 second voiceover. Essay, then TTS, then book.movie.",
   alternates: {
     canonical: "https://summon.guide/speak",
   },

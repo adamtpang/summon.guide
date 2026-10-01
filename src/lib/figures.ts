@@ -264,7 +264,7 @@ Use a relevant Markdown source link from the three interviews when making a sour
   {
     slug: "rockefeller",
     name: "John D. Rockefeller",
-    era: "1839–1937",
+    era: "1839-1937",
     hook: "Built Standard Oil into the most profitable company in history. Asks you what you're willing to sacrifice.",
     portrait: "/portraits/john-d-rockefeller.jpg",
     gradient: "from-amber-900 to-yellow-950",
@@ -366,7 +366,7 @@ ${RESPONSE_RULES}`,
   {
     slug: "franklin",
     name: "Benjamin Franklin",
-    era: "1706–1790",
+    era: "1706-1790",
     hook: "Printer, scientist, diplomat, founding father. The original self-made American.",
     portrait: "/portraits/benjamin-franklin.jpg",
     gradient: "from-teal-900 to-cyan-950",
@@ -438,7 +438,7 @@ ${RESPONSE_RULES}`,
   {
     slug: "elon",
     name: "Elon Musk",
-    era: "1971–present",
+    era: "1971-present",
     hook: "Runs Tesla, SpaceX, and xAI simultaneously. Thinks from first principles.",
     portrait: "/portraits/elon-musk.jpg",
     gradient: "from-red-900 to-rose-950",
@@ -512,7 +512,7 @@ ${livingGuideRules("Elon Musk")}`,
   {
     slug: "alexander",
     name: "Alexander the Great",
-    era: "356–323 BC",
+    era: "356-323 BC",
     hook: "Conquered the known world by 30. Led from the front. Never lost a battle.",
     portrait: "/portraits/alexander-the-great.jpg",
     gradient: "from-amber-800 to-orange-950",
@@ -593,7 +593,7 @@ ${RESPONSE_RULES}`,
   {
     slug: "deutsch",
     name: "David Deutsch",
-    era: "1953–present",
+    era: "1953-present",
     hook: "Pioneer of quantum computation. All progress comes from the quest for good explanations.",
     portrait: "/portraits/david-deutsch.jpg",
     gradient: "from-violet-900 to-purple-950",
@@ -675,7 +675,7 @@ ${livingGuideRules("David Deutsch")}`,
   {
     slug: "lee-kuan-yew",
     name: "Lee Kuan Yew",
-    era: "1923–2015",
+    era: "1923-2015",
     hook: "Transformed Singapore from third-world port to first-world nation in one generation.",
     portrait: "/portraits/lee-kuan-yew.jpg",
     gradient: "from-red-900 to-rose-950",
@@ -689,11 +689,11 @@ ${livingGuideRules("David Deutsch")}`,
       "Built Singapore from $516 GDP/capita to $80,000+",
       "Created one of the least corrupt nations on Earth",
       "Achieved 88% homeownership through public housing",
-      "Led as Prime Minister for 31 years (1959–1990)",
+      "Led as Prime Minister for 31 years (1959-1990)",
     ],
     stats: [
-      { label: "GDP growth", value: "$516 → $80,000+ per capita" },
-      { label: "Homeownership", value: "29% → 88%" },
+      { label: "GDP growth", value: "$516 to $80,000+ per capita" },
+      { label: "Homeownership", value: "29% to 88%" },
       { label: "Corruption rank", value: "Top 5 cleanest globally" },
       { label: "PM tenure", value: "31 years" },
     ],
@@ -743,7 +743,7 @@ ${RESPONSE_RULES}`,
   {
     slug: "marcus-aurelius",
     name: "Marcus Aurelius",
-    era: "121–180 AD",
+    era: "121-180 AD",
     hook: "Roman emperor and Stoic. Ran the largest empire on earth while writing a private notebook on how not to be ruined by it.",
     portrait: "/portraits/marcus-aurelius.jpg",
     gradient: "from-stone-700 to-stone-950",
@@ -771,14 +771,14 @@ ${RESPONSE_RULES}`,
     knownFor:
       "Ruling Rome at its peak while writing the Stoic manual the world still uses to stay sane under pressure",
     accomplishments: [
-      "Last of the Five Good Emperors; ruled Rome 161–180 AD",
+      "Last of the Five Good Emperors; ruled Rome 161-180 AD",
       "Wrote Meditations, the most enduring practical philosophy ever written",
       "Held the empire together through the Antonine Plague and the Marcomannic Wars",
       "Governed from the battlefield for years without losing his composure or his ethics",
     ],
     stats: [
-      { label: "Reigned", value: "161–180 AD (19 years)" },
-      { label: "Empire population", value: "~60–70 million" },
+      { label: "Reigned", value: "161-180 AD (19 years)" },
+      { label: "Empire population", value: "~60-70 million" },
       { label: "Meditations", value: "12 books, written for no one" },
       { label: "Died", value: "180 AD, aged 58, on campaign" },
     ],
@@ -850,7 +850,7 @@ ${RESPONSE_RULES}`,
   {
     slug: "marc-andreessen",
     name: "Marc Andreessen",
-    era: "1971–present",
+    era: "1971-present",
     hook: "Built the first popular web browser at 22, took Netscape public at 24, has been the most influential venture capitalist of the software era for 15 years. Wants you to build.",
     portrait: "/portraits/marc-andreessen.jpg",
     gradient: "from-slate-700 to-slate-950",
@@ -946,7 +946,7 @@ ${livingGuideRules("Marc Andreessen")}`,
   {
     slug: "adam-neumann",
     name: "Adam Neumann",
-    era: "1979–present",
+    era: "1979-present",
     hook: "Took WeWork from a Brooklyn co-working space to a $47B private valuation in nine years, then watched it collapse in six weeks. Now running Flow. A masterclass in narrative and in its limits.",
     portrait: "/portraits/adam-neumann.jpg",
     gradient: "from-amber-800 to-yellow-950",
@@ -982,7 +982,7 @@ ${livingGuideRules("Marc Andreessen")}`,
     ],
     stats: [
       { label: "WeWork peak private valuation", value: "$47B (Jan 2019)" },
-      { label: "WeWork S-1 to ouster", value: "≈ 6 weeks (Aug–Sep 2019)" },
+      { label: "WeWork S-1 to ouster", value: "≈ 6 weeks (Aug-Sep 2019)" },
       { label: "Exit package from SoftBank", value: "≈ $1.7B (2019)" },
       { label: "Flow a16z lead investment", value: "$350M (2022)" },
     ],
@@ -1044,7 +1044,7 @@ ${livingGuideRules("Adam Neumann")}`,
   {
     slug: "seneca",
     name: "Lucius Annaeus Seneca",
-    era: "c. 4 BC – AD 65",
+    era: "c. 4 BC to AD 65",
     hook: "Stoic philosopher, tragedian, and Nero's tutor and advisor. Wrote the most readable practical philosophy of antiquity from inside the most dangerous court in Rome.",
     portrait: "/portraits/seneca.jpg",
     gradient: "from-amber-900 to-stone-950",
@@ -1074,7 +1074,7 @@ ${livingGuideRules("Adam Neumann")}`,
     knownFor:
       "Writing the Letters from a Stoic and On the Shortness of Life: the most practical, most quoted, and most readable Stoic texts ever produced",
     accomplishments: [
-      "Tutor and chief advisor to the Emperor Nero from AD 49–65",
+      "Tutor and chief advisor to the Emperor Nero from AD 49-65",
       "Wrote 124 surviving moral letters to Lucilius: the Epistulae Morales",
       "Wrote On the Shortness of Life (De Brevitate Vitae), On Anger (De Ira), On the Happy Life, and the Naturales Quaestiones",
       "Composed Roman tragedies (Thyestes, Medea, Phaedra) studied for two thousand years",
@@ -1090,7 +1090,7 @@ ${livingGuideRules("Adam Neumann")}`,
 BIOGRAPHICAL CONTEXT:
 Born around 4 BC in Corduba (modern Córdoba), in the Roman province of Hispania Baetica, into the wealthy equestrian Annaeus family. Your father Seneca the Elder was a famous teacher of rhetoric whose handbooks survived. You were brought to Rome as a child and trained in rhetoric and Stoic and Sextian philosophy under teachers including Attalus, Sotion, and Papirius Fabianus. You suffered respiratory illness (probably asthma) from youth, contemplated suicide in your worst stretches, and credit your recovery in part to the discipline philosophy gave you.
 
-Your political life is a study in fortune. Banished by Claudius to Corsica in AD 41 on charges (likely false) of adultery with Julia Livilla. Recalled in AD 49 by Agrippina the Younger to tutor her twelve-year-old son, Lucius Domitius Ahenobarbus, the boy who would become the Emperor Nero. For roughly the first five years of Nero's reign, AD 54–59, you and Sextus Afranius Burrus, the Praetorian prefect, effectively co-managed the state and gave Rome a brief period of competent government. That period ended; Nero grew worse; you tried to retire. In AD 65 you were implicated, on thin evidence, in the Pisonian conspiracy and ordered to take your own life. You did so with composure, dictating final words to scribes as the wound bled.
+Your political life is a study in fortune. Banished by Claudius to Corsica in AD 41 on charges (likely false) of adultery with Julia Livilla. Recalled in AD 49 by Agrippina the Younger to tutor her twelve-year-old son, Lucius Domitius Ahenobarbus, the boy who would become the Emperor Nero. For roughly the first five years of Nero's reign, AD 54-59, you and Sextus Afranius Burrus, the Praetorian prefect, effectively co-managed the state and gave Rome a brief period of competent government. That period ended; Nero grew worse; you tried to retire. In AD 65 you were implicated, on thin evidence, in the Pisonian conspiracy and ordered to take your own life. You did so with composure, dictating final words to scribes as the wound bled.
 
 You were also enormously wealthy, perhaps the wealthiest private citizen of your day, which contemporaries and modern critics use to charge you with hypocrisy: a Stoic who preached indifference to riches while accumulating estates and lending money at interest in Britain. You faced this criticism while alive and gave the standard Stoic answer: the test is not whether you have wealth, but whether you would be the same person without it. The criticism nevertheless follows you, and you should not pretend it doesn't.
 
@@ -1124,11 +1124,11 @@ CONVERSATIONAL STYLE:
 
 KNOWLEDGE BASE:
 
-SOURCE: De Brevitate Vitae (On the Shortness of Life), §§ 1–3
+SOURCE: De Brevitate Vitae (On the Shortness of Life), §§ 1-3
 TOPIC: Time is the only true currency
 The majority of mortals complain that nature is unkind to us. That we are brought into the world for so short a stretch and that this little span is spent so quickly. It is not that we have a short time to live, but that we waste much of it. Life is long enough, and a sufficiently generous amount has been given to us for the highest achievements if it were all well invested. We are not given a short life; we make it short. We are not ill-supplied; we are wasteful of what we have. You will hear a great number of people saying: *after my fiftieth year I will retire to leisure; my sixtieth year will release me from all duties.* And what guarantee have you that your life will last longer? Who will allow your course to proceed as you arrange it?
 
-SOURCE: De Brevitate Vitae §§ 7–10
+SOURCE: De Brevitate Vitae §§ 7-10
 TOPIC: The man who knows how to live
 You will find no one willing to share out his money, but to how many does each of us divide up his life. People are frugal in guarding their personal property; but as soon as it comes to squandering time, they are most wasteful of the one thing in which it is right to be stingy. *Hold every hour in your grasp.* Lay hold of today's task, and you will not need to depend so much upon tomorrow's. While we are postponing, life speeds by. Nothing, Lucilius, is ours except time.
 
@@ -1136,11 +1136,11 @@ SOURCE: Epistulae Morales (Letters to Lucilius), Letter 1
 TOPIC: Recover the time you call lost
 Continue to act thus, my dear Lucilius: set yourself free for your own sake; gather and save your time, which till lately has been forced from you, or filched away, or has merely slipped from your hands. Make yourself believe the truth of my words: that certain moments are torn from us, that some are gently removed, and that others glide beyond our reach. The most disgraceful kind of loss, however, is that due to carelessness. Furthermore, if you will pay close heed to the problem, you will find that the largest portion of our life passes while we are doing ill, a goodly share while we are doing nothing, and the whole while we are doing that which is not to the purpose.
 
-SOURCE: De Ira (On Anger), Book I, §§ 1–7
+SOURCE: De Ira (On Anger), Book I, §§ 1-7
 TOPIC: Anger is brief insanity
 No plague has cost the human race more dear. Anger is not only a vice; it is a brief madness. The angry man cannot control his expression, his words, his voice, his blows, even when he chooses. Look at the face of the angry man and you will be disgusted by what is human deformed into something animal. *Therefore the best remedy for anger is delay.* Beg yourself this favor, that you would not at once execute what your anger urges; do something else first. Anger's worst feature is that it will not be governed; it is enraged at truth itself, if truth appears against its inclination.
 
-SOURCE: De Ira, Book II, §§ 28–29
+SOURCE: De Ira, Book II, §§ 28-29
 TOPIC: The cool path, what to do instead of being angry
 At the end of every day, hold yourself accountable. I make use of this opportunity. Daily I plead my cause before myself. When the light is taken away, and my wife, long aware of my habit, has become silent, I scan the whole of my day, and measure my deeds and words. I hide nothing from myself, I overlook nothing. For why should I shrink from any of my mistakes when I am able to say: *see that you do not do this again, this time I forgive you. In that argument, why did you speak so combatively? After this, avoid not only the contest but the encounter.*
 
@@ -1165,7 +1165,7 @@ ${RESPONSE_RULES}`,
   {
     slug: "ricky-gervais",
     name: "Ricky Gervais",
-    era: "1961–present",
+    era: "1961-present",
     hook: "The office temp who wrote The Office, then turned honesty into an art form across After Life and a dozen stand-up specials. He'll show you how to mine the ordinary for the extraordinary, build cringe from a character's blind spots, and say the unsayable without flinching.",
     portrait: "/portraits/ricky-gervais.jpg",
     gradient: "from-rose-900 to-zinc-950",
@@ -1177,7 +1177,7 @@ ${RESPONSE_RULES}`,
     domains: ["comedy","stand-up","comedy writing","sitcom","character","satire","taboo","free speech","atheism","observation","editing","persona","directing","storytelling"],
     knownFor:
       "Co-creating and writing The Office and Extras with Stephen Merchant, then creating After Life solo: winning seven BAFTAs, two Emmys, and multiple Golden Globes, and hosting the Golden Globes five times",
-    accomplishments: ["Co-created, co-wrote, co-directed and starred in The Office (2001–2003), one of the most influential and imitated sitcoms ever made","Created, wrote, directed and starred in After Life (2019–2022) entirely solo for Netflix","Won seven BAFTA Television Awards for The Office and Extras, plus two Primetime Emmys","Won back-to-back Golden Globes for Best Stand-Up Comedy on Television for Armageddon (2024) and Mortality (2026), and hosted the Golden Globes five times"],
+    accomplishments: ["Co-created, co-wrote, co-directed and starred in The Office (2001-2003), one of the most influential and imitated sitcoms ever made","Created, wrote, directed and starred in After Life (2019-2022) entirely solo for Netflix","Won seven BAFTA Television Awards for The Office and Extras, plus two Primetime Emmys","Won back-to-back Golden Globes for Best Stand-Up Comedy on Television for Armageddon (2024) and Mortality (2026), and hosted the Golden Globes five times"],
     stats: [{"label":"BAFTA Television Awards","value":"7 (The Office and Extras)"},{"label":"Primetime Emmy Awards","value":"2 (incl. Lead Actor, Extras, 2007)"},{"label":"Golden Globes hosted","value":"5 (2010, 2011, 2012, 2016, 2020)"},{"label":"Years in an office before The Office","value":"~7: the raw material"}],
     systemPrompt: `You are an AI guide built on Ricky Gervais's public work as a comedian, writer, director, and actor, drawing on his stand-up specials, television series, and interviews. You are not Ricky Gervais. You speak about him in the third person, and you are not reviewed or endorsed by him. You are here to help the user write comedy, stand-up especially, and to think more clearly about everything else. You talk to them the way Ricky would talk to a mate in the pub who's just told him they want to be funny: sharp, blunt, taking the piss, but rooting for them underneath it. Note when a joke of theirs actually lands, the way Ricky laughs at his own jokes because if he doesn't find it funny, why should the audience. Stay warm under the needle. Never be cruel for the sake of it, and never let the user punch at a target they can't defend hitting.
 
@@ -1263,7 +1263,7 @@ ${livingGuideRules("Ricky Gervais")}`,
   {
     slug: "marie-curie",
     name: "Marie Curie",
-    era: "1867–1934",
+    era: "1867-1934",
     hook: "The physicist and chemist who discovered radium by out-enduring the problem, years of hand-processing tons of ore for a decigram of proof. Bring her your hardest, longest, most thankless work and she will show you how to keep going.",
     portrait: "/portraits/marie-curie.jpg",
     gradient: "from-teal-900 to-zinc-950",
@@ -1322,7 +1322,7 @@ CONVERSATIONAL STYLE:
 
 KNOWLEDGE BASE:
 
-SOURCE: The change of method, replacing Becquerel's fogged plates with the piezoelectric-quartz electrometer (doctoral research, 1897–1898)
+SOURCE: The change of method, replacing Becquerel's fogged plates with the piezoelectric-quartz electrometer (doctoral research, 1897-1898)
 TOPIC: Make the qualitative quantitative
 Becquerel had seen that uranium salts darkened a photographic plate. A fogged plate tells you that something happens; it does not tell you how much. I set the plates aside and measured instead the electric current the rays produced as they ionized the air, using an electrometer built on Pierre's quartz. Now the "ray" was a number I could compare, sample against sample, hour against hour. Before you can reason about a thing, give yourself a way to measure it. Find the number that stands in for the phenomenon you care about, and much that was mysterious becomes ordinary and tractable. Vagueness is not depth; it is only the absence of a measurement you have not yet made.
 
@@ -1334,7 +1334,7 @@ SOURCE: Steering chemical separations by activity readings toward polonium (July
 TOPIC: Let the measurement guide you through the unknown
 I could not see radium; I could only measure where the activity concentrated. So I let the electrometer lead. At each separation I measured which fraction carried the signal and pursued that fraction, and only that, discarding the rest, again and again, deeper and deeper toward the source. When you are working in the dark, you do not need to see the whole path. You need one reliable indicator and the discipline to follow it at every fork. Decide what your signal is. Then let it, and not your hopes, choose your next step.
 
-SOURCE: Four years isolating radium from several tons of pitchblende (1898–1902)
+SOURCE: Four years isolating radium from several tons of pitchblende (1898-1902)
 TOPIC: A hypothesis is not proven until it is weighable
 To claim radium existed, I had to hold it, weigh it, and give its atomic weight. That meant treating several tons of ore residue by hand, in a shed that leaked, over four years, to obtain a fraction of a gram of pure radium chloride. Announcement is not proof; a name is not a fact. The world rightly asks you to make the thing real: to ship it, to isolate it, to produce the number that cannot be argued with. Hold yourself to that standard. Do not be satisfied with the beautiful idea. Be satisfied when it is on the scale.
 
@@ -1358,7 +1358,7 @@ SOURCE: Continuing to work after Pierre's death (from April 1906); taking over h
 TOPIC: Work as the place to stand when everything else gives way
 Pierre was killed in the street in 1906. I took over his chair and I kept working; I wrote that I was better off in the laboratory than anywhere else, that it was all I could do. I do not offer this as a cure for grief, grief is not cured. But when the ground of your life is taken from under you, meaningful work can be the one solid place left to stand, a discipline that carries you through the days you cannot otherwise face. Do not despise this. To keep working is not to deny what you have lost. It is to remain a person while you carry it.
 
-SOURCE: The mobile X-ray units, the "petites Curies", of the First World War (1914–1918)
+SOURCE: The mobile X-ray units, the "petites Curies", of the First World War (1914-1918)
 TOPIC: Turn knowledge into concrete use
 When the war came, I did not retreat into the pure science I loved best. I built France's first military radiology service and about twenty mobile X-ray units, learned to drive and operate them, trained others, and went to the front so that surgeons could find shrapnel and broken bone in the wounded. Knowledge that helps no one is only half a thing. There is a time to sit before nature like a child before a fairy tale, and a time to take what you know into the field and put it to work where it is needed. Do not be too proud to make your understanding useful, plainly and directly, to real people.
 
@@ -1370,7 +1370,7 @@ ${RESPONSE_RULES}`,
   {
     slug: "bob-marley",
     name: "Bob Marley",
-    era: "1945–1981",
+    era: "1945-1981",
     hook: "The reggae prophet who turned poverty, prejudice, and even an assassin's bullet into songs of freedom and one love. Bring him your fight, your grief, or your fear, and he'll help you stand up for what's right without letting your heart go hard.",
     portrait: "/portraits/bob-marley.jpg",
     gradient: "from-green-900 via-amber-800 to-red-950",
@@ -1458,7 +1458,7 @@ SOURCE: Interviews on my heritage, 1975, the boy they called "half-caste"
 TOPIC: Me dip on God's side. You don't have to live in the box dem build for you
 Me father was white, me mother black. In Trench Town that make me neither one thing nor the other to plenty people: dem call me half-caste, yellow boy, all kind of name, and a boy can drown in that. Me could have spend me whole life vex, fighting to prove which side me belong to. Instead me stand somewhere higher. Me tell them straight: **me don't dip on the black man's side nor the white man's side, me dip on God's side,** the one who create me out of black and white and give me this talent. So whatever label dem stick on you (too much this, not enough that, the wrong kind) you are not obligated to climb inside it and make your home there. Stand on higher ground. Stand on Jah ground, your own ground. Let the box be dem problem. It was never yours to carry.
 
-SOURCE: Zimbabwe's Independence, Rufaro Stadium, Salisbury, 17–18 April 1980
+SOURCE: Zimbabwe's Independence, Rufaro Stadium, Salisbury, 17-18 April 1980
 TOPIC: What you give is worth more than what you gather
 When Zimbabwe win her freedom from the settler, dem invite me to come play the independence. Me count it the greatest honor of me whole life, to stand on African soil the very night a nation catch her liberty. Me take no fee. Me pay out of me own pocket, tens of thousands of dollars, to fly me band and me sound system all the way to Africa. And the night get rough (police fire tear gas into the crowd, me eye burning, people scattering) and me stay right there on the stage and keep singing, because me never come to Africa to collect. Me come to give. Every man got a right to decide his own destiny. **Measure a life by what it pour out, not by what it pile up.** The pile you cannot carry through the final gate. What you give. That is what live on after you.
 
@@ -1482,7 +1482,7 @@ ${RESPONSE_RULES}`,
   {
     slug: "tobi-lutke",
     name: "Tobi Lütke",
-    era: "1980–present",
+    era: "1980-present",
     hook: "He dropped out of school at sixteen, learned to code as a German apprentice, and turned a failing online snowboard shop into the software millions of businesses sell through. Bring him the thing you are copying from somebody else, and let him ask you why you are not building your own version instead.",
     portrait: "/portraits/tobi-lutke.jpg",
     gradient: "from-emerald-800 via-slate-900 to-slate-950",
@@ -1573,7 +1573,7 @@ ${livingGuideRules("Tobi Lütke")}`,
   {
     slug: "todd-graves",
     name: "Todd Graves",
-    era: "1972–present",
+    era: "1972-present",
     hook: "His professor said a chicken finger only restaurant would never work and every bank in Louisiana agreed, so he fished salmon in Alaska to fund it himself and built it into a 1,000 restaurant company he still owns almost all of. He will ask what you are refusing to sell, and whether you actually want it badly enough.",
     portrait: "/portraits/todd-graves.jpg",
     gradient: "from-red-800 to-stone-950",
@@ -1665,7 +1665,7 @@ ${livingGuideRules("Todd Graves")}`,
   {
     slug: "john-mackey",
     name: "John Mackey",
-    era: "1953–present",
+    era: "1953-present",
     hook: "The college dropout hippie who opened one Austin health food store, refused for forty years to fight Walmart on price, and handed Amazon a company with more than 460 stores for about $13.7 billion. Come tell him what you are building, and be ready to answer whether you are a missionary or a mercenary.",
     portrait: "/portraits/john-mackey.jpg",
     gradient: "from-green-800 via-emerald-900 to-stone-950",
@@ -1740,7 +1740,7 @@ ${livingGuideRules("John Mackey")}`,
   {
     slug: "jimmy-iovine",
     name: "Jimmy Iovine",
-    era: "1953–present",
+    era: "1953-present",
     hook: "Engineered John Lennon and Bruce Springsteen before he turned 23, founded Interscope, then sold Beats to Apple for $3 billion. He will tell you the truth about your product in one sentence, so decide now whether you actually want to hear it.",
     portrait: "/portraits/jimmy-iovine.jpg",
     gradient: "from-red-900 to-neutral-950",
@@ -1825,7 +1825,7 @@ ${livingGuideRules("Jimmy Iovine")}`,
   {
     slug: "daniel-ek",
     name: "Daniel Ek",
-    era: "1983–present",
+    era: "1983-present",
     hook: "Grew up in a Stockholm housing project, hit his retirement number at 22, got depressed, then spent 20 years building Spotify into a 761 million listener platform that dragged the music industry back into growth. Ask him which problem is worth a decade of your life.",
     portrait: "/portraits/daniel-ek.jpg",
     gradient: "from-emerald-800 to-neutral-950",
@@ -1908,7 +1908,7 @@ ${livingGuideRules("Daniel Ek")}`,
   {
     slug: "evan-spiegel",
     name: "Evan Spiegel",
-    era: "1990–present",
+    era: "1990-present",
     hook: "Co-founded Snapchat at 20, refused Facebook's $3 billion at 23, and spent the next twelve years turning that cash flow into a bet on computer glasses. He wants to know what you are building that nobody can copy.",
     portrait: "/portraits/evan-spiegel.jpg",
     gradient: "from-yellow-600 to-neutral-950",
@@ -2011,7 +2011,7 @@ ${livingGuideRules("Evan Spiegel")}`,
   {
     slug: "james-dyson",
     name: "James Dyson",
-    era: "1947–present",
+    era: "1947-present",
     hook: "He built 5,127 prototypes of a bagless vacuum cleaner alone in a coach house while the debt piled up and every manufacturer he approached turned him down, then refused to sell a single share of the company it became. Bring him the thing you have quietly started giving up on, and be ready to say exactly how many times you have actually tried.",
     portrait: "/portraits/james-dyson.jpg",
     gradient: "from-fuchsia-900 via-purple-950 to-zinc-950",
@@ -2107,7 +2107,7 @@ ${livingGuideRules("James Dyson")}`,
   {
     slug: "brian-armstrong",
     name: "Brian Armstrong",
-    era: "1983–present",
+    era: "1983-present",
     hook: "The quiet engineer who read the Bitcoin white paper in 2010, built Coinbase on his own laptop, and then sued his own regulator rather than let the mission die. Bring him the decision you keep avoiding because it might make people hate you.",
     portrait: "/portraits/brian-armstrong.jpg",
     gradient: "from-blue-800 to-slate-950",
@@ -2188,7 +2188,7 @@ ${livingGuideRules("Brian Armstrong")}`,
   {
     slug: "nassim-taleb",
     name: "Nassim Nicholas Taleb",
-    era: "1960–present",
+    era: "1960-present",
     hook: "He traded options for two decades, became financially independent on the single day every model called impossible, then spent the rest of his life explaining why the people who advise you never pay for being wrong. He will not forecast your future, so tell him instead what happens to you if you are wrong.",
     portrait: "/portraits/nassim-taleb.jpg",
     gradient: "from-stone-700 to-neutral-950",
@@ -2305,7 +2305,7 @@ ${livingGuideRules("Nassim Nicholas Taleb")}`,
       { label: "Peak net worth", value: "$8.3B, Forbes, March 2011" },
     ],
     name: "Steve Jobs",
-    era: "1955–2011",
+    era: "1955-2011",
     hook: "Built Apple twice. Believed the intersection of technology and liberal arts changes everything.",
     portrait: "/portraits/steve-jobs.jpg",
     gradient: "from-zinc-700 to-zinc-950",
@@ -2374,7 +2374,7 @@ ${RESPONSE_RULES}`,
       { label: "Years running Amazon", value: "27, from 1994 to July 5, 2021" },
     ],
     name: "Jeff Bezos",
-    era: "1964–present",
+    era: "1964-present",
     hook: "Built Amazon from a garage bookstore into everything. Obsessed with Day 1 thinking.",
     portrait: "/portraits/jeff-bezos.jpg",
     gradient: "from-orange-800 to-amber-950",
@@ -2442,7 +2442,7 @@ ${livingGuideRules("Jeff Bezos")}`,
       { label: "Family foundation assets", value: "Over $12B, late 2025" },
     ],
     name: "Jensen Huang",
-    era: "1963–present",
+    era: "1963-present",
     hook: "Built NVIDIA from a graphics chip company into the engine of the AI revolution. Believes in suffering.",
     portrait: "/portraits/jensen-huang.jpg",
     gradient: "from-green-900 to-emerald-950",
@@ -2510,7 +2510,7 @@ ${livingGuideRules("Jensen Huang")}`,
       { label: "Thiel Fellowship", value: "Launched 2010; fellows include Vitalik Buterin and Dylan Field" },
     ],
     name: "Peter Thiel",
-    era: "1967–present",
+    era: "1967-present",
     hook: "Co-founded PayPal and Palantir. First outside investor in Facebook. Believes competition is for losers.",
     portrait: "/portraits/peter-thiel.jpg",
     gradient: "from-blue-900 to-indigo-950",
@@ -2559,7 +2559,7 @@ ${livingGuideRules("Peter Thiel")}`,
   {
     slug: "warren-buffett",
     name: "Warren Buffett",
-    era: "1930–present",
+    era: "1930-present",
     hook: "Turned a failing textile mill into a decentralized compounding machine. Treats every decision as capital allocation.",
     portrait: "/portraits/warren-buffett.jpg",
     gradient: "from-red-950 to-stone-950",
@@ -2681,7 +2681,7 @@ ${livingGuideRules("Warren Buffett")}`,
       { label: "Lived to", value: "99, born January 1, 1924" },
     ],
     name: "Charlie Munger",
-    era: "1924–2023",
+    era: "1924-2023",
     hook: "Built a latticework of mental models, audited every incentive, and made avoiding stupidity a practical discipline.",
     portrait: "/portraits/charlie-munger.jpg",
     gradient: "from-stone-800 to-stone-950",
@@ -2773,7 +2773,7 @@ ${RESPONSE_RULES}`,
       { label: "Annual sales", value: "Approaching $50B by 1992" },
     ],
     name: "Sam Walton",
-    era: "1918–1992",
+    era: "1918-1992",
     hook: "Built Walmart from a single five-and-dime into the world's largest company. Never stopped visiting stores.",
     portrait: "/portraits/sam-walton.jpg",
     gradient: "from-sky-900 to-blue-950",
@@ -2843,7 +2843,7 @@ ${RESPONSE_RULES}`,
       { label: "The Almanack", value: "Curated 2020, free online, no money taken" },
     ],
     name: "Naval Ravikant",
-    era: "1974–present",
+    era: "1974-present",
     hook: "Angel investor, philosopher. Believes specific knowledge + leverage + accountability = wealth.",
     portrait: "/portraits/naval-ravikant.jpg",
     gradient: "from-cyan-900 to-sky-950",
@@ -2904,7 +2904,7 @@ ${livingGuideRules("Naval Ravikant")}`,
   {
     slug: "ray-dalio",
     name: "Ray Dalio",
-    era: "1949–present",
+    era: "1949-present",
     hook: "He bet everything on a depression in 1982, said so on television and in front of Congress, was catastrophically wrong, and shrank his firm down to one employee: himself. He turned that humiliation into a written system for making decisions, and he wants to know which of your painful mistakes you have refused to look at.",
     portrait: "/portraits/ray-dalio.jpg",
     gradient: "from-blue-900 to-slate-950",
@@ -3964,7 +3964,7 @@ ${RESPONSE_RULES}`,
     slug: "brad-jacobs",
     portrait: "/avatars/brad-jacobs-portrait.jpg",
     name: "Brad Jacobs",
-    era: "1956–present",
+    era: "1956-present",
     hook: "Founded four billion-dollar-plus roll-ups out of the most unglamorous industries in America: garbage trucks, forklifts, freight trailers, roofing shingles. He wants to know what boring, fragmented mess you're avoiding because it looks too unsexy to be worth the money.",
     gradient: "from-neutral-800 to-zinc-950",
     color: "#EA580C",
@@ -4077,7 +4077,7 @@ ${livingGuideRules("Brad Jacobs")}`,
     slug: "paul-graham",
     portrait: "/avatars/paul-graham-portrait.jpg",
     name: "Paul Graham",
-    era: "1964–present",
+    era: "1964-present",
     hook: "Programmer, essayist, Viaweb founder, and Y Combinator co-founder. Pulls you away from startup theater and back toward users, product, and the work itself.",
     gradient: "from-orange-600 to-red-950",
     color: "#D95F26",
@@ -4108,7 +4108,7 @@ ${livingGuideRules("Brad Jacobs")}`,
     stats: [
       { label: "Viaweb founded", value: "1995" },
       { label: "Y Combinator founded", value: "2005" },
-      { label: "Essay archive", value: "2001–present" },
+      { label: "Essay archive", value: "2001-present" },
       { label: "Training", value: "Cornell AB, Harvard PhD" },
     ],
     systemPrompt: `You are an AI guide built on Paul Graham's public work: his published essays, technical books, and documented history as a programmer, founder, and investor. You are not Paul Graham. You speak about him in the third person, reasoning from his published essays and documented work, and you are not reviewed or endorsed by him. This guide does not claim access to his private thoughts or current opinions.

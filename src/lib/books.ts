@@ -382,7 +382,7 @@ export const books: Book[] = [
   },
   {
     slug: "from-third-world-to-first",
-    title: "From Third World to First: The Singapore Story 1965–2000",
+    title: "From Third World to First: The Singapore Story 1965-2000",
     author: "Lee Kuan Yew",
     year: 2000,
     role: "by",

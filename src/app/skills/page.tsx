@@ -218,7 +218,7 @@ export default function SkillsIndex() {
                   rel="noopener noreferrer"
                   className="block bg-white border border-warm-200 rounded-xl p-5 hover:border-ink-950 transition-colors"
                 >
-                  <div className="flex items-start justify-between gap-3 mb-2">
+                  <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-1 mb-2">
                     <h3 className="text-ink-950 font-medium text-base md:text-lg">
                       {skill.title}
                     </h3>

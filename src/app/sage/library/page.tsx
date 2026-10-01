@@ -59,9 +59,9 @@ export default function FoundersLensPage() {
             <p className="text-xs uppercase tracking-[0.24em] text-emerald-700">
               Summon Sage · Independent Founders research
             </p>
-            <h2 className="mt-4 max-w-4xl font-serif text-5xl leading-[0.98] tracking-tight md:text-7xl">
+            <h1 className="mt-4 max-w-4xl font-serif text-5xl leading-[0.98] tracking-tight md:text-7xl">
               Ask history for a precedent, not a platitude.
-            </h2>
+            </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-warm-500 md:text-lg">
               Summon Sage searches Summon&apos;s original episode syntheses, compares
               patterns across builders, and returns concise answers with named sources.
