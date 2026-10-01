@@ -1,0 +1,111 @@
+{
+  "slug": "abraham-lincoln",
+  "checkedOn": "2026-10-01",
+  "claims": [
+    {
+      "claim": "Born February 12, 1809, in a one-room log cabin in what is now LaRue County, Kentucky, to Thomas Lincoln and Nancy Hanks Lincoln",
+      "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+    },
+    {
+      "claim": "Born in Hardin County, Kentucky; mother died when he was nine; stepmother Sarah Bush Johnston encouraged his education",
+      "url": "https://millercenter.org/president/lincoln/life-before-the-presidency"
+    },
+    {
+      "claim": "Moved to Indiana in 1816; mother died October 5, 1818, of milk sickness; father married Sarah Bush Johnston December 2, 1819; sister Sarah died in childbirth January 20, 1828; less than 12 months of formal schooling; moved to Illinois March 1830",
+      "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+    },
+    {
+      "claim": "Moved to New Salem in 1831; store clerk; about 90 days of Black Hawk War service; postmaster of New Salem and county deputy surveyor",
+      "url": "https://millercenter.org/president/lincoln/life-before-the-presidency"
+    },
+    {
+      "claim": "Ann Rutledge died August 25, 1835, at New Salem, aged 22, during a typhoid outbreak; nature of the relationship with Lincoln is contested",
+      "url": "https://en.wikipedia.org/wiki/Ann_Rutledge"
+    },
+    {
+      "claim": "After Rutledge's death in August 1835 neighbors moved Lincoln to a neighboring home for care",
+      "url": "https://en.wikipedia.org/wiki/Health_of_Abraham_Lincoln"
+    },
+    {
+      "claim": "Elected to the Illinois legislature in 1834; reelected 1836, 1838, 1840; one term in Congress 1847-1849; seven debates with Douglas in 1858 and loss of the Senate race; opposed Black voting, jury service and officeholding in the debates",
+      "url": "https://millercenter.org/president/lincoln/life-before-the-presidency"
+    },
+    {
+      "claim": "Admitted to the Illinois bar September 9, 1836",
+      "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+    },
+    {
+      "claim": "Absent from the House January 13 to 19, 1841, treated by Dr. Anson G. Henry; wrote Stuart on January 20, 1841, of 'hypochondriaism', a term then used for melancholy; linked to the broken engagement to Mary Todd",
+      "url": "https://papersofabrahamlincoln.org/documents/D200247"
+    },
+    {
+      "claim": "Wrote to John T. Stuart on January 23, 1841: 'I am now the most miserable man living'; feared he would be unable to attend to business",
+      "url": "https://papersofabrahamlincoln.org/documents/D200248"
+    },
+    {
+      "claim": "Stuart was his law partner; friends feared suicide and removed razors from his room (citing Burlingame 2008 and Donald 1995)",
+      "url": "https://housedivided.dickinson.edu/sites/lincoln/letter-to-john-stuart-january-23-1841/"
+    },
+    {
+      "claim": "Letter to Speed of March 27, 1842, refers to 'that fatal first of Jany 41'; editors note the traditional reading as the breakup with Mary Todd is questioned by recent scholarship",
+      "url": "https://papersofabrahamlincoln.org/documents/D200298"
+    },
+    {
+      "claim": "Letter to Speed of February 3, 1842, addresses Speed's doubts about his affection for Fanny Henning; editorial note that Lincoln reported being clear of 'hypo'",
+      "url": "https://papersofabrahamlincoln.org/documents/D200290"
+    },
+    {
+      "claim": "Married Mary Todd November 4, 1842; sons Robert, Edward, William, Thomas; Robert the only one to reach maturity; U.S. House March 4, 1847 to March 3, 1849; inaugurated March 4, 1861; Emancipation Proclamation January 1, 1863; Gettysburg Address November 19, 1863; reelected 1864; Thirteenth Amendment 1865; shot April 14, 1865, by John Wilkes Booth at Ford's Theatre, Washington, D.C.; died April 15, 1865, aged 56",
+      "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+    },
+    {
+      "claim": "Edward Baker Lincoln born March 10, 1846, died February 1, 1850, aged 3 years 11 months, in Springfield",
+      "url": "https://en.wikipedia.org/wiki/Edward_Baker_Lincoln"
+    },
+    {
+      "claim": "Willie died February 20, 1862, aged 11, of typhoid fever in the White House; John Nicolay saw Lincoln burst into tears",
+      "url": "https://www.abrahamlincolnonline.org/lincoln/education/williedeath.htm"
+    },
+    {
+      "claim": "Won the 1860 election; reelected in 1864; killed less than a week after the Confederate surrender",
+      "url": "https://millercenter.org/president/lincoln/life-in-brief"
+    },
+    {
+      "claim": "Herndon: 'melancholy never failed to impress any man who ever saw or knew him'; Browning: moods passed 'and left him always the same man'",
+      "url": "https://www.abrahamlincolnsclassroom.org/abraham-lincoln-in-depth/president-lincolns-moods/index.html"
+    },
+    {
+      "claim": "Later writers (David Donald and others) have characterized his condition as clinical depression",
+      "url": "https://en.wikipedia.org/wiki/Health_of_Abraham_Lincoln"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I am now the most miserable man living.",
+      "url": "https://papersofabrahamlincoln.org/documents/D200248",
+      "source": "Letter to John T. Stuart, January 23, 1841"
+    },
+    {
+      "text": "To remain as I am is impossible; I must die or be better, it appears to me.",
+      "url": "https://papersofabrahamlincoln.org/documents/D200248",
+      "source": "Letter to John T. Stuart, January 23, 1841"
+    },
+    {
+      "text": "I have, within the last few days, been making a most discreditable exhibition of myself in the way of hypochondriaism",
+      "url": "https://papersofabrahamlincoln.org/documents/D200247",
+      "source": "Letter to John T. Stuart, January 20, 1841"
+    }
+  ],
+  "uncertain": [
+    "Quote punctuation: the Papers of Abraham Lincoln transcription ends Lincoln's sentences with dashes, as he wrote them. The quotes here use periods, as in the Collected Works style shown on the House Divided page. Wording is unchanged. The last two quotes are excerpts from longer sentences.",
+    "The quod.lib.umich.edu Collected Works pages returned HTTP 403, so quotes were verified on papersofabrahamlincoln.org instead. Quote pages were read through a summarizing fetch tool; a direct look at each page is advised before publishing.",
+    "Ann Rutledge: whether she and Lincoln were engaged is disputed among historians. The account of neighbors taking him in after her death comes from Wikipedia's summary of later testimony; no named 1835 witness statement was fetched, so none is quoted.",
+    "'Fatal first of Jany 41': traditionally read as the day the engagement to Mary Todd broke; the Papers of Abraham Lincoln editors note recent scholarship questions this.",
+    "Reports that friends removed razors and feared suicide come from later biographers (Burlingame, Donald) via the House Divided page, not from a fetched contemporary document.",
+    "Bar admission: Wikipedia gives September 9, 1836; the Miller Center says he passed the bar in 1836 and was licensed in 1837.",
+    "Birthplace county: Hardin County at the time (Miller Center), LaRue County today (Wikipedia).",
+    "Eddie's cause of death (usually given as tuberculosis) is not certain and was left out. Lincoln's letter saying 'We miss him very much' was seen only on Wikipedia, so it is not quoted.",
+    "Left out as unconfirmed or disputed: the 1838 'Suicide's Soliloquy' poem (authorship disputed), blue mass pills, the year he moved to Springfield, the details of his rooming with Joshua Speed (Smithsonian page blocked), and the Petersen House as the place of death.",
+    "Britannica, the Library of Congress and the Atlantic pages could not be fetched (403 or blocked)."
+  ]
+}

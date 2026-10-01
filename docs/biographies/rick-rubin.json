@@ -1,0 +1,110 @@
+{
+  "slug": "rick-rubin",
+  "checkedOn": "2026-10-01",
+  "claims": [
+    {
+      "claim": "Frederick Jay Rubin was born March 10, 1963, in Long Beach, New York",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Born in 1963 on Long Island, New York",
+      "url": "https://rockhall.com/inductees/rick-rubin/"
+    },
+    {
+      "claim": "Attended Long Beach High School and New York University, studying film",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Formed and played guitar in Hose, influenced by Flipper; its 1982 single was Def Jam's first release; the band broke up in 1984",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Produced \"It's Yours\" by T La Rock in 1983",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Def Jam was started in his dorm room in Weinstein Hall at NYU in Greenwich Village; co-founded with Russell Simmons in 1984",
+      "url": "https://slate.com/culture/2014/10/rick-was-here-watch-rick-rubin-return-to-his-nyu-dorm-room-for-def-jams-30th-anniversary-video.html"
+    },
+    {
+      "claim": "Co-founded Def Jam Recordings in his NYU dorm room",
+      "url": "https://rockhall.com/inductees/rick-rubin/"
+    },
+    {
+      "claim": "First official Def Jam release was LL Cool J's \"I Need a Beat\" (1984)",
+      "url": "https://rockhall.com/inductees/rick-rubin/"
+    },
+    {
+      "claim": "Run-DMC's Raising Hell (1986) was the first multi-platinum hip-hop LP; Beastie Boys' Licensed to Ill (1986) was the first rap LP to top the Billboard chart",
+      "url": "https://rockhall.com/inductees/rick-rubin/"
+    },
+    {
+      "claim": "1986: Run-DMC and Aerosmith \"Walk This Way\" and Slayer's Reign in Blood",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Left Def Jam in 1988 after a disagreement with president Lyor Cohen and moved to Los Angeles",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Started Def American Records, renamed American Recordings in 1993",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Produced Blood Sugar Sex Magik, Tom Petty's Wildflowers (1994), System of a Down's self-titled album (1998), Johnny Cash's American Recordings (1994), Metallica's Death Magnetic (2008), Black Sabbath's 13 (2013)",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Named co-head of Columbia Records in May 2007; left in 2012 and revived American Recordings through Republic Records",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Named co-chairman of Columbia Records in 2007",
+      "url": "https://rockhall.com/inductees/rick-rubin/"
+    },
+    {
+      "claim": "Grammy wins: Producer of the Year, Non-Classical (2007, 2009); Album of the Year 2007 (Taking the Long Way) and 2012 (Adele's 21)",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Criticism: compression on Californication and Death Magnetic; Corey Taylor said Rubin was not present at sessions; Geezer Butler had mixed feelings about 13",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "The Creative Act: A Way of Being was published by Penguin Press on January 17, 2023, 432 pages, number one New York Times bestseller",
+      "url": "https://www.penguinrandomhouse.com/books/717356/the-creative-act-by-rick-rubin/"
+    },
+    {
+      "claim": "Publisher biography calls him a nine-time Grammy-winning producer named to the Time 100",
+      "url": "https://www.penguinrandomhouse.com/books/717356/the-creative-act-by-rick-rubin/"
+    },
+    {
+      "claim": "Named to Time's 100 most influential people in 2007",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "claim": "Inducted into the Rock and Roll Hall of Fame in 2026, Musical Excellence category",
+      "url": "https://rockhall.com/inductees/rick-rubin/"
+    },
+    {
+      "claim": "Launched the Tetragrammaton podcast in 2023",
+      "url": "https://en.wikipedia.org/wiki/Rick_Rubin"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I set out to write a book about what to do to make a great work of art. Instead, it revealed itself to be a book on how to be.",
+      "url": "https://www.penguinrandomhouse.com/books/717356/the-creative-act-by-rick-rubin/",
+      "source": "Publisher page for The Creative Act: A Way of Being (2023), statement attributed to Rubin"
+    }
+  ],
+  "uncertain": [
+    "Def Jam founding year: Slate, the Rock Hall and Wikipedia give 1984 for the label with Simmons, while the Def Jam name appeared on the 1982 Hose single and on \"It's Yours\" (1983), and some accounts date the founding to 1983. The prose separates the earlier releases from the 1984 partnership.",
+    "Columbia title: Wikipedia says co-head, the Rock Hall says co-chairman. The profile uses co-head. No fetched source gave a reason for his 2012 departure, so none is stated.",
+    "Total Grammy count (nine) rests only on the publisher's author biography; the Grammy site pages returned 404 and Wikipedia lists individual wins without a total.",
+    "The claim that the Tetragrammaton podcast began in 2023, the Corey Taylor and Geezer Butler criticisms, and the reason for leaving Def Jam are sourced only to Wikipedia. Britannica, the New York Times and Billboard could not be fetched.",
+    "The release years for Blood Sugar Sex Magik and Adele's 21 were not confirmed by a fetched page and are left out of the prose (2012 is the Grammy year for 21). Nationality (American) is inferred from birthplace, not stated verbatim in a fetched page.",
+    "The single quote was read through a summarizing fetch tool; run an exact-string check on the publisher page before publishing. The first legacy sentence is a summary characterization, not a sourced claim.",
+    "yearsActive, spouse and children are omitted: not sourced in fetched pages, and he is a living person."
+  ]
+}

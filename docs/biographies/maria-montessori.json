@@ -1,0 +1,114 @@
+{
+  "slug": "maria-montessori",
+  "checkedOn": "2026-10-01",
+  "claims": [
+    {
+      "claim": "Full name Maria Tecla Artemisia Montessori; born August 31, 1870, in Chiaravalle, Marche, Italy",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "Born 31 August 1870 in Chiaravalle; parents Alessandro Montessori and Renilde Stoppani; family moved to Rome in late 1874",
+      "url": "https://montessori-ami.org/resource-library/facts/biography-maria-montessori"
+    },
+    {
+      "claim": "Attended the Regio Istituto Tecnico Leonardo da Vinci from 1886 to 1890; enrolled at the University of Rome in 1890 and received a diploma in 1892",
+      "url": "https://montessori-ami.org/resource-library/facts/biography-maria-montessori"
+    },
+    {
+      "claim": "Graduated as a doctor on July 10, 1896, one of the first female doctors in Italy",
+      "url": "https://montessori-ami.org/resource-library/facts/biography-maria-montessori"
+    },
+    {
+      "claim": "Represented Italy at the International Congress for Women in Berlin in September 1896; began work at Santo Spirito Hospital in November 1896; joined the psychiatric clinic research programme in 1897 and met Giuseppe Montesano",
+      "url": "https://montessori-ami.org/resource-library/facts/biography-maria-montessori"
+    },
+    {
+      "claim": "Son Mario born March 31, 1898, father Giuseppe Montesano; they did not marry; child registered as born of unknown parents; placed in the care of a wet nurse in the countryside",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "Mario was given to a family in the countryside near Rome and reunited with his mother as a teenager",
+      "url": "https://montessori-ami.org/resource-library/facts/biography-maria-montessori"
+    },
+    {
+      "claim": "Appointed co-director of the Orthophrenic School in 1900",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "At the Orthophrenic School she experimented with the materials of Itard and Seguin",
+      "url": "https://montessori-ami.org/resource-library/facts/biography-maria-montessori"
+    },
+    {
+      "claim": "First Casa dei Bambini opened on January 6, 1907, in the San Lorenzo district of Rome",
+      "url": "https://montessori-ami.org/resource-library/facts/biography-maria-montessori"
+    },
+    {
+      "claim": "The first Casa dei Bambini enrolled 50 to 60 children between the ages of two and seven",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "Il Metodo della Pedagogia Scientifica published 1909; English edition The Montessori Method 1912; Dr. Montessori's Own Handbook 1914; The Advanced Montessori Method 1917; The Secret of Childhood 1936; The Absorbent Mind 1949",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "The Montessori Method was translated by Anne E. George and published by Frederick A. Stokes Company in 1912",
+      "url": "https://www.gutenberg.org/files/39863/39863-h/39863-h.htm"
+    },
+    {
+      "claim": "Lecture tour of the United States in December 1913; returned in 1915 for the Panama-Pacific International Exposition in San Francisco",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "Association Montessori Internationale founded in 1929 with her son Mario; headquarters moved to Amsterdam in 1935",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "Met Mussolini in 1924 and received official support; conflict with the government from 1930; resigned from the Opera Montessori in 1933; left Italy in 1934; government ended Montessori activities in 1936",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "Opera Nazionale Montessori established on 8 August 1924",
+      "url": "https://en.wikipedia.org/wiki/Opera_Nazionale_Montessori"
+    },
+    {
+      "claim": "Italian Montessori schools closed in 1936, two years after she refused to cooperate with Mussolini's plans; left Spain for England in summer 1936, then moved to the Netherlands",
+      "url": "https://montessori-ami.org/resource-library/facts/biography-maria-montessori"
+    },
+    {
+      "claim": "Travelled to India with Mario in 1939 and stayed nearly seven years; Mario interned and Maria confined; returned in 1946",
+      "url": "https://montessori-ami.org/resource-library/facts/biography-maria-montessori"
+    },
+    {
+      "claim": "Nominated for the Nobel Peace Prize in 1949, 1950 and 1951",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "Died May 6, 1952, aged 81, in Noordwijk aan Zee, Netherlands",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "Awards: French Legion of Honor, Dutch Order of Orange Nassau, honorary doctorate of the University of Amsterdam",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "claim": "William Heard Kilpatrick's The Montessori System Examined criticised the method as rigid, over-reliant on sense training and limiting of imagination and play",
+      "url": "https://en.wikipedia.org/wiki/Maria_Montessori"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Child psychology can be established only through the method of external observation.",
+      "url": "https://www.gutenberg.org/files/39863/39863-h/39863-h.htm",
+      "source": "The Montessori Method, Chapter IV (1912 English translation)"
+    }
+  ],
+  "uncertain": [
+    "Date the Fascist government closed Montessori schools: Wikipedia and AMI give 1936 (two years after she left in 1934); other web sources say all schools were closed in 1934. The profile uses left 1934, activities ended 1936.",
+    "Number of Nobel Peace Prize nominations: AMI says three nominations, Wikipedia says six nominations in total across 1949, 1950 and 1951. The profile gives only the years. The Nobel nomination archive could not be fetched (HTTP 403).",
+    "Father's occupation: AMI calls Alessandro an accountant, Wikipedia a Ministry of Finance official. Left out of the prose.",
+    "Age at which Mario rejoined her: AMI says around age 14, Wikipedia says his teenage years. The profile says as a teenager. Wikipedia says Mussolini became honorary president of the Montessori society in 1926; a search snippet says president in 1924; left out.",
+    "Conditions in India: AMI says Mario was interned and Maria was under house arrest; Wikipedia says she was interned and stayed in Madras and Kodaikanal. The profile says she was confined.",
+    "The quotes are from the 1912 English translation by Anne E. George, not her Italian original. Britannica could not be fetched (HTTP 403), so it is not cited.",
+    "Year of Kilpatrick's The Montessori System Examined was not confirmed in a fetched page and is omitted."
+  ]
+}

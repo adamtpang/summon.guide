@@ -25,7 +25,7 @@ export async function generateMetadata({
   const profile = getProfile(figureSlug);
 
   if (!figure) return { title: "Guide Not Found | summon.guide" };
-  if (figure.members || !profile) return { title: `About ${figure.name} | summon.guide`, description: figure.hook, alternates: { canonical: `https://summon.guide${guidePath(figure.slug)}/about` } };
+  if (!profile) return { title: `About ${figure.name} | summon.guide`, description: figure.hook, alternates: { canonical: `https://summon.guide${guidePath(figure.slug)}/about` } };
 
   const ogImageUrl = `https://summon.guide/api/og/${figure.slug}`;
   const description = `${figure.knownFor}. Read the life of ${figure.name} (${figure.era}) and summon them as your personal mentor, with deeply researched Claude Code skills derived from their primary biographies.`;
@@ -63,7 +63,7 @@ export default async function FigureProfile({
 
   if (!figure) notFound();
   // Duo guides and guides without a full biography get the short, source-only page.
-  if (figure.members || !profile) return <GuideBrief figure={figure} />;
+  if (!profile) return <GuideBrief figure={figure} />;
 
 
   const otherFigures = figures.filter((f) => f.slug !== figure.slug).slice(0, 6);
@@ -140,7 +140,7 @@ export default async function FigureProfile({
                 href={`/${figure.slug}`}
                 className="inline-flex items-center gap-2 bg-moon text-night rounded-full px-6 py-3 text-sm font-medium hover:bg-white active:scale-[0.98] transition-all"
               >
-                Summon {figure.name.split(" ")[0]}
+                {figure.members ? `Ask ${figure.name}` : `Summon ${figure.name.split(" ")[0]}`}
                 <svg
                   className="w-4 h-4"
                   viewBox="0 0 24 24"
@@ -170,6 +170,7 @@ export default async function FigureProfile({
             </div>
 
             {/* Per-guide install, the headline copy-paste block */}
+            {figureSkills.length > 0 ? (
             <CopyableInstall
               commands={installCommands}
               label={`Install ${figure.name.split(" ")[0]}'s frameworks in Claude Code`}
@@ -191,6 +192,7 @@ export default async function FigureProfile({
                 </>
               }
             />
+            ) : null}
           </div>
 
           {/* Wikipedia-style infobox */}
