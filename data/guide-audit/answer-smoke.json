@@ -1789,17 +1789,17 @@
       "review": "automated citation membership only; human usefulness and accuracy review pending"
     },
     "book:from-third-world-to-first": {
-      "hash": "358ec026901c1f02472e24499a099301549d344b42f55784567619a4551d38a6",
-      "checkedAt": "2026-10-01T09:25:17.316Z",
+      "hash": "28951fc484c20af4e5c0b03b5d079094ccc46ce925ba5bbf4fbbcc8d873c845c",
+      "checkedAt": "2026-10-01T09:41:44.569Z",
       "model": {
         "provider": "OpenRouter",
-        "model": "deepseek/deepseek-v4.1-flash",
-        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
-        "tier": "discounted",
-        "fallbackDepth": 2
+        "model": "qwen/qwen3.8-27b:free",
+        "modelLabel": "Qwen: Qwen3.8 27B",
+        "tier": "free",
+        "fallbackDepth": 0
       },
-      "query": "I am considering a small reversible decision related to this idea: On 9 August 1965 Singapore became independent without a plan, an army or a hinterland. Lee concluded that a small island city-state could survive only by being unusually cohesive, tough and better than its neighbours at what it did.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
-      "answer": "In \"Going It Alone,\" the supported principle is that when you inherit a weak position you did not choose, you name the few assets you really have and decide what you must do better than others, instead of copying what worked for stronger players. Lee applied this to a nation; that is his documented case, not advice he gave about your decision. My application, which is mine and not his, is narrower: for a small reversible choice, list your two or three genuine assets and the one thing you can do better than the alternatives. One small test: write those assets and that single edge on one card, make the reversible move, and set a review date to check whether the edge held.\n\n[Source: \"Going It Alone\"]\n\n[FOLLOWUP: What did Lee count as Singapore's real assets in 1965? | How did he decide what Singapore had to do better than its neighbours? | What made him treat public trust as the government's main asset?]",
+      "query": "I am considering a small reversible decision related to this idea: Independence was thrust on Singapore, not chosen, and Lee's first task was to convert a stunned, hinterland-less city of two million into a nation before foreign commentators' predictions of collapse became self-fulfilling.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "In the episode \"Going It Alone,\" Lee's principle is that a small, unexpected state must act fast to prove viability before outside predictions of collapse become self-fulfilling. That is a documented claim about Singapore's 1965 transition. Applying it to your small reversible decision means treating doubt as a risk to manage, not a verdict: create a quick, low-cost proof that the choice can work. A small test is to run a one-week trial with one measurable signal, such as one completed step, one user response, or one cost saved, then decide whether to continue or reverse it.\n\n[Source: \"Going It Alone\"]\n[FOLLOWUP: What is the reversible decision? | What would count as proof? | What is the one-week signal?]",
       "citations": [
         "Going It Alone"
       ],

@@ -4,7 +4,7 @@ ID: book:from-third-world-to-first
 
 Owner: bookbox.ink
 
-Coverage: partial, 49 synthesis records.
+Coverage: partial, 43 synthesis records.
 
 Distillation: Blocked on sources
 

@@ -9,7 +9,7 @@
       "title": "Going It Alone",
       "url": null,
       "synthesis": "content/knowledge/from-third-world-to-first/001-going-it-alone.md",
-      "contentHash": "f73d32a2a75ab5140c26d3ef6a6b49409eb2202f0d93091f8ee14ab03a7e8c31",
+      "contentHash": "1af6a4ad1178786f76d15d4e31f652c7e85810d28d01c3d0c4f20660a393fec3",
       "rightsReview": "not-certified",
       "kind": "published-synthesis"
     },
@@ -18,7 +18,7 @@
       "title": "Building an Army from Scratch",
       "url": null,
       "synthesis": "content/knowledge/from-third-world-to-first/002-building-an-army-from-scratch.md",
-      "contentHash": "9f735d5c74a3dd62ecbb7cde1e40c439796ddeafc1cfa49621ad960e4747e1c8",
+      "contentHash": "21ab52e5bcebe1092281f173d34af65cd10b5c28b51c53996ca10638bc744de8",
       "rightsReview": "not-certified",
       "kind": "published-synthesis"
     },
@@ -32,15 +32,6 @@
       "kind": "published-synthesis"
     },
     {
-      "id": "e9e7f1842f36653d",
-      "title": "Creating a Financial Centre",
-      "url": null,
-      "synthesis": "content/knowledge/from-third-world-to-first/003-creating-a-financial-centre.md",
-      "contentHash": "7eb18af88abbbbd3624301d22ac1778e707fd008b1a3213bf93b320d6b2d42d1",
-      "rightsReview": "not-certified",
-      "kind": "published-synthesis"
-    },
-    {
       "id": "59ff3a3bd7066ab0",
       "title": "Surviving Without a Hinterland",
       "url": null,
@@ -50,38 +41,11 @@
       "kind": "published-synthesis"
     },
     {
-      "id": "2d84503b58b7f3ae",
-      "title": "Winning Over the Unions",
-      "url": null,
-      "synthesis": "content/knowledge/from-third-world-to-first/004-winning-over-the-unions.md",
-      "contentHash": "54a3379b150bad57dfc862dd041eaa82f8096de754e22dd21f7311b3901a26e6",
-      "rightsReview": "not-certified",
-      "kind": "published-synthesis"
-    },
-    {
-      "id": "cffe7e8e1c1dfa10",
-      "title": "A Fair, Not Welfare, Society",
-      "url": null,
-      "synthesis": "content/knowledge/from-third-world-to-first/005-a-fair-not-welfare-society.md",
-      "contentHash": "5e8999c7cfe3fdec7feaa1138b769854ced6b923e844255bf659ea92d1c8e66f",
-      "rightsReview": "not-certified",
-      "kind": "published-synthesis"
-    },
-    {
       "id": "42660b3843ef6c2e",
       "title": "Creating a Financial Centre",
       "url": null,
       "synthesis": "content/knowledge/from-third-world-to-first/005-creating-a-financial-centre.md",
       "contentHash": "afe4f742b6f33ec70fa67c378ceb1f5ad3f36902599e4216bc5a4a7db8f81aef",
-      "rightsReview": "not-certified",
-      "kind": "published-synthesis"
-    },
-    {
-      "id": "186c28ce8a5240fa",
-      "title": "Nurturing and Attracting Talent",
-      "url": null,
-      "synthesis": "content/knowledge/from-third-world-to-first/006-nurturing-and-attracting-talent.md",
-      "contentHash": "7bd4b09b7d6ca9647a149f85dec207298b9ee578c4f38ecc2668513bc0027dff",
       "rightsReview": "not-certified",
       "kind": "published-synthesis"
     },
@@ -100,24 +64,6 @@
       "url": null,
       "synthesis": "content/knowledge/from-third-world-to-first/007-a-fair-not-welfare-society.md",
       "contentHash": "e264524ed859a90dd42baa9c9c4d6def5daef36b0db47c86e1072984505866c4",
-      "rightsReview": "not-certified",
-      "kind": "published-synthesis"
-    },
-    {
-      "id": "525ec250c7323f5e",
-      "title": "Keeping the Government Clean",
-      "url": null,
-      "synthesis": "content/knowledge/from-third-world-to-first/007-keeping-the-government-clean.md",
-      "contentHash": "9a119c0765d44e0aac2c67a8b174e5d977a8b6d9531140ed23e8138e874573d8",
-      "rightsReview": "not-certified",
-      "kind": "published-synthesis"
-    },
-    {
-      "id": "cdc2522bc458a06c",
-      "title": "Managing the Media",
-      "url": null,
-      "synthesis": "content/knowledge/from-third-world-to-first/008-managing-the-media.md",
-      "contentHash": "8c3a4fa04147d854deb99a8dc7f75ce63a9a2f41f0af387548b0b65992d364f8",
       "rightsReview": "not-certified",
       "kind": "published-synthesis"
     },

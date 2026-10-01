@@ -4,7 +4,7 @@ ID: person:lee-kuan-yew
 
 Owner: summon.guide
 
-Coverage: partial, 69 synthesis records.
+Coverage: partial, 63 synthesis records.
 
 Distillation: content/distilled/lee-kuan-yew.md
 
