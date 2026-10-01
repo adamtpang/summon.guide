@@ -221,7 +221,7 @@ export default function SpeakPage() {
       `Guide: ${figure?.name ?? slug}`,
       `Slug: ${slug}`,
       `Words: ${words} · Est. duration: ${formatDuration(seconds)} @ ${WPM} wpm`,
-      `Target: ${TARGET.minSeconds}–${TARGET.maxSeconds}s spoken`,
+      `Target: ${TARGET.minSeconds}-${TARGET.maxSeconds}s spoken`,
       `Generated: ${lastArtifact?.at ?? "(not yet generated)"}`,
       `Audio: ${lastArtifact ? `${slug}-voiceover.mp3 (${lastArtifact.bytes} bytes)`: "generate + download from /speak"}`,
       ``,
@@ -267,8 +267,8 @@ export default function SpeakPage() {
           </h1>
           <p className="text-warm-500 text-base md:text-[17px] leading-[1.75] max-w-2xl">
             Paste a short script, or fill the episode template. Choose a guide.
-            Generate a 90–120 second voiceover for video. Designed for the
-            essay → TTS → book.movie path.
+            Generate a 90-120 second voiceover for video. Designed for the
+            essay, then TTS, then book.movie path.
           </p>
         </section>
 
@@ -379,8 +379,8 @@ export default function SpeakPage() {
 
           {mode === "template" ? (<div className="space-y-4">
               <p className="text-warm-500 text-sm leading-relaxed">
-                Hook → three points → close. Aim for {TARGET.minWords}–
-                {TARGET.maxWords} words (~{TARGET.minSeconds}–
+                Hook, then three points, then close. Aim for {TARGET.minWords}-
+                {TARGET.maxWords} words (~{TARGET.minSeconds}-
                 {TARGET.maxSeconds}s at {WPM} wpm).
               </p>
               <label className="block">

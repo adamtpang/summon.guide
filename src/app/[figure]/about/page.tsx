@@ -137,7 +137,7 @@ export default async function FigureProfile({
         </header>
 
         {/* Title block + Wikipedia-style infobox */}
-        <article className="grid md:grid-cols-[1fr_320px] gap-8 md:gap-10 mb-10 md:mb-14">
+        <article className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-8 md:gap-10 mb-10 md:mb-14">
           <div>
             <h1 className="text-4xl md:text-6xl font-serif font-medium leading-[1.05] tracking-tight mb-4">
               {figure.name}

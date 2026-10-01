@@ -43,7 +43,7 @@ export default function GuideOnboardingPage() {
                 <p><strong>Boundary:</strong> {guide.boundary}</p>
                 <p><strong>Proposed skill:</strong> {guide.proposedSkill}. Awaiting source-backed implementation.</p>
                 <p><strong>Evaluation question:</strong> “{guide.evaluationPrompt}”</p>
-                <ol className="space-y-2">{guideOnboardingChecklist.map((gate, i) => <li key={gate.title}><span className="inline-block w-5">{i + 1}.</span>{gate.title} — {guide.completedGates.includes(i + 1) ? "Documented in this brief" : "Pending evidence"}</li>)}</ol>
+                <ol className="space-y-2">{guideOnboardingChecklist.map((gate, i) => <li key={gate.title}><span className="inline-block w-5">{i + 1}.</span>{gate.title}, {guide.completedGates.includes(i + 1) ? "Documented in this brief" : "Pending evidence"}</li>)}</ol>
               </div></details>
             </div>
           </article>)}

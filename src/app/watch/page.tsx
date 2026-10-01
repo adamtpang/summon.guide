@@ -5,7 +5,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The Shelf | summon.guide",
+  title: "Watch | summon.guide",
   description:
     "Pick a book off the shelf and watch the series. Each episode is a short lesson drawn from the book, written in the author's voice and read aloud.",
   alternates: { canonical: "https://summon.guide/watch" },

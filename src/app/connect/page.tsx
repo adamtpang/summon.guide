@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Use your guides in any chat | summon.guide",
+  description: "Install summon.guide in Claude Code or Codex and ask any guide from your own chat.",
+};
+
 export default function ConnectPage() {
   return <main className="min-h-screen bg-slate-950 text-white"><div className="max-w-2xl mx-auto px-6 py-10 md:py-20">
     <header className="flex justify-between items-center mb-20"><Link href="/" className="text-white/60 text-xs tracking-[.25em] uppercase">summon.guide</Link><Link href="/summon" className="text-sm text-white/60">Guides</Link></header>

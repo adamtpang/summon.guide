@@ -35,7 +35,7 @@ export async function generateMetadata({
     title: `${ep.title} | ${s.bookTitle} | summon.guide`,
     description,
     openGraph: {
-      title: `${ep.title} — ${s.bookTitle}`,
+      title: `${ep.title}, ${s.bookTitle}`,
       description,
       url: `https://summon.guide/watch/${guide}/${episode}`,
       type: "article",

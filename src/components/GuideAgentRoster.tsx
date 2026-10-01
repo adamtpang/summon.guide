@@ -11,19 +11,13 @@ const filters: { value: "all" | GuideAgentKind; label: string }[] = [
   { value: "channel", label: "Channels" },
 ];
 
-const kindLabel: Record<GuideAgentKind, string> = {
-  person: "Person agent",
-  book: "Book agent",
-  channel: "Channel agent",
-};
+function initials(name: string) {
+  return name.split(/\s+/).slice(0, 2).map((part) => part[0]).join("").toUpperCase();
+}
 
-const capabilityLabel = {
-  chat: "Chat",
-  citations: "Cited",
-  compare: "Compare",
-  install: "Install",
-  skills: "Skills",
-} as const;
+const cardClass =
+  "flex h-full min-h-[88px] min-w-0 items-center gap-4 rounded-2xl border border-white/[0.07] p-4 transition-colors";
+const liveClass = `${cardClass} hover:border-white/20 hover:bg-white/[0.04]`;
 
 export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary[] }) {
   const [kind, setKind] = useState<"all" | GuideAgentKind>("all");
@@ -31,7 +25,7 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
 
   const visible = useMemo(() => {
     const needle = query.toLowerCase().trim();
-    return agents.filter((agent) => {
+    const matches = agents.filter((agent) => {
       if (kind !== "all" && agent.kind !== kind) return false;
       if (!needle) return true;
       return [agent.name, agent.byline, agent.description, ...agent.domains]
@@ -39,119 +33,93 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
         .toLowerCase()
         .includes(needle);
     });
+    // Guides you can talk to come first; ones still in onboarding go last.
+    const ready = (agent: GuideAgentSummary) => (agent.availability === "ready" && agent.chatHref ? 0 : 1);
+    return [...matches].sort((x, y) => ready(x) - ready(y));
   }, [agents, kind, query]);
 
   return (
     <div>
-      <div className="flex flex-col md:flex-row md:items-center gap-3 mb-6">
-        <div className="flex gap-2 overflow-x-auto pb-1 md:pb-0">
-          {filters.map((filter) => {
-            const count =
-              filter.value === "all"
-                ? agents.length
-                : agents.filter((agent) => agent.kind === filter.value).length;
-            const selected = kind === filter.value;
-            return (
-              <button
-                key={filter.value}
-                type="button"
-                onClick={() => setKind(filter.value)}
-                className={`shrink-0 rounded-full px-3.5 py-2 text-xs transition-colors ${
-                  selected
-                    ? "bg-white text-slate-950"
-                    : "border border-white/15 text-white/65 hover:text-white"
-                }`}
-              >
-                {filter.label} {count}
-              </button>
-            );
-          })}
-        </div>
-        <input
-          value={query}
-          onChange={(event) => setQuery(event.target.value)}
-          placeholder="Search agents by problem or name"
-          aria-label="Search guide agents"
-          className="md:ml-auto w-full md:w-72 rounded-xl border border-white/15 bg-black/25 px-4 py-2.5 text-sm text-white placeholder:text-white/35 outline-none focus:border-emerald-400/70"
-        />
+      <input
+        value={query}
+        onChange={(event) => setQuery(event.target.value)}
+        placeholder="Search by name or problem"
+        aria-label="Search guides"
+        className="min-h-12 w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 text-base text-[#eef1f5] outline-none placeholder:text-[#5f6878] focus:border-[#c9a860]/70"
+      />
+      <div className="mt-3 flex gap-1 overflow-x-auto" role="group" aria-label="Filter guides">
+        {filters.map((filter) => {
+          const selected = kind === filter.value;
+          return (
+            <button
+              key={filter.value}
+              type="button"
+              aria-pressed={selected}
+              onClick={() => setKind(filter.value)}
+              className={`min-h-11 shrink-0 rounded-full px-4 text-sm transition-colors ${
+                selected ? "bg-white/10 text-[#eef1f5]" : "text-[#8a94a4] hover:text-[#eef1f5]"
+              }`}
+            >
+              {filter.label}
+            </button>
+          );
+        })}
       </div>
 
-      <p className="text-white/40 text-xs mb-4">
-        Showing {visible.length} durable agents. Each can be assigned to multiple projects.
-      </p>
-
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
-        {visible.map((agent) => (
-          <article
-            key={agent.id}
-            className="rounded-2xl border border-white/10 bg-white/[0.035] p-5 flex flex-col min-h-56"
-          >
-            <div className="flex items-center justify-between gap-3 mb-4">
-              <p className="text-emerald-400/80 text-[10px] tracking-[0.18em] uppercase">
-                {agent.members ? "Duo guide" : kindLabel[agent.kind]}{agent.category ? ` · ${agent.category}` : ""}
-              </p>
-              <span
-                className={`text-[10px] uppercase tracking-[0.12em] ${
-                  agent.availability === "ready" ? "text-white/45" : "text-amber-300/70"
-                }`}
-              >
-                {agent.availability === "ready" ? "Ready" : "In onboarding"}
+      <ul className="mt-6 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+        {visible.map((agent) => {
+          const href = agent.chatHref ?? (agent.installSlug ? `#${agent.installSlug}` : agent.profileHref);
+          const building = agent.availability !== "ready";
+          const body = (
+            <>
+              {agent.image && agent.kind === "person" ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={agent.image}
+                  alt=""
+                  width={48}
+                  height={48}
+                  loading="lazy"
+                  className="h-12 w-12 shrink-0 rounded-full object-cover object-top grayscale"
+                />
+              ) : (
+                <span
+                  aria-hidden
+                  className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white/[0.06] font-serif text-sm text-[#8a94a4]"
+                >
+                  {initials(agent.name)}
+                </span>
+              )}
+              <span className="min-w-0">
+                <span className="block truncate font-serif text-lg leading-tight text-[#eef1f5]">{agent.name}</span>
+                <span className="mt-1 line-clamp-2 text-sm leading-snug text-[#8a94a4]">
+                  {building ? "In onboarding. " : ""}
+                  {agent.description}
+                </span>
               </span>
-            </div>
-            <h3 className="font-serif text-xl leading-tight mb-1.5">{agent.name}</h3>
-            <p className="text-white/45 text-xs mb-3">{agent.byline}</p>
-            <p className="text-white/62 text-sm leading-relaxed mb-4 line-clamp-3">
-              {agent.description}
-            </p>
-            <div className="mt-auto">
-              <div className="flex flex-wrap gap-1.5 mb-4">
-                {agent.capabilities.slice(0, 4).map((capability) => (
-                  <span
-                    key={capability}
-                    className="rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-white/50"
-                  >
-                    {capabilityLabel[capability]}
-                  </span>
-                ))}
-                {agent.sourceCount > 0 && (
-                  <span className="rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-white/50">
-                    {agent.sourceCount} {agent.sourceCount === 1 ? "source" : "sources"}
-                  </span>
-                )}
-              </div>
-              <div className="flex items-center gap-3 text-xs">
-                {agent.chatHref ? (
-                  <Link href={agent.chatHref} className="text-emerald-300 hover:text-emerald-200">
-                    Open agent →
-                  </Link>
-                ) : agent.installSlug ? (
-                  <a href={`#${agent.installSlug}`} className="text-emerald-300 hover:text-emerald-200">
-                    Install agent ↑
-                  </a>
-                ) : (
-                  <span className="text-white/30">Waiting for source corpus</span>
-                )}
-                {agent.profileHref && (
-                  <Link href={agent.profileHref} className="text-white/45 hover:text-white/75">
-                    Profile
-                  </Link>
-                )}
-              </div>
-            </div>
-          </article>
-        ))}
-      </div>
+            </>
+          );
+          return (
+            <li key={agent.id} className="min-w-0">
+              {!href ? (
+                <div className={`${cardClass} opacity-60`}>{body}</div>
+              ) : href.startsWith("#") ? (
+                <a href={href} className={liveClass}>{body}</a>
+              ) : (
+                <Link href={href} className={liveClass}>{body}</Link>
+              )}
+            </li>
+          );
+        })}
+      </ul>
 
       {!visible.length && (
-        <div className="rounded-2xl border border-dashed border-white/15 px-5 py-12 text-center text-white/45 text-sm">
-          <p>No agents match that search yet.</p>
-          <a
-            href="#request-guide"
-            className="mt-3 inline-flex min-h-11 items-center text-emerald-300 hover:text-emerald-200"
-          >
-            Request this guide ↑
+        <p className="py-12 text-center text-sm text-[#8a94a4]">
+          No guide matches that yet.{" "}
+          <a href="#request-guide" className="text-[#c9a860] underline underline-offset-4">
+            Request one
           </a>
-        </div>
+        </p>
       )}
     </div>
   );
