@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:daniel-ek",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "19b5a5a95265d09d",
+      "title": "Daniel Ek, Spotify | David Senra",
+      "url": "https://www.youtube.com/watch?v=qiXH0y2V3_8",
+      "synthesis": "content/knowledge/interviews/009-daniel-ek-spotify-david-senra.md",
+      "contentHash": "6bda3bf8c108f5b04cae686cb853c18df6e295b74982184f305c038d82f2a6a4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

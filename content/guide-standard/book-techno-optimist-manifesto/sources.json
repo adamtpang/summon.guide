@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "guideId": "book:techno-optimist-manifesto",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "3e0120ada4d385eb",
+      "title": "Lies, Truth, and Technology",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/001-lies-truth-and-technology.md",
+      "contentHash": "a693a071d02850fa52b5f25d2131035b08273ce1677924f862eb7cbf9d6c2319",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b1707a77f62923fe",
+      "title": "Markets and the Techno-Capital Machine",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/002-markets-and-the-techno-capital-machine.md",
+      "contentHash": "be1792e81276470c978b1b17f1eee9f8f287415b7798dcdf08ec7e9156450c52",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a4ac46f73e119e19",
+      "title": "Intelligence and Energy",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/003-intelligence-and-energy.md",
+      "contentHash": "1623a2c4e99edf8b0917eb1a3e852aab64d25bd3ba94669cb4f0a512d002b4bf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bdd47a7822c82dea",
+      "title": "Abundance and Not Utopia",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/004-abundance-and-not-utopia.md",
+      "contentHash": "d4acbdcddc2ea1c3168a99d284b02b18abf2efd3c6bdaa3ab93708bc84a1c8ef",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f850428ddd26890a",
+      "title": "Technological Supermen and Values",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/005-technological-supermen-and-values.md",
+      "contentHash": "0e2416d5e4e619fbdf3668bf98446935470a67f09b7b52f5968b39ca756e5392",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "be1fc4a20e3cedf8",
+      "title": "Naming the Enemy",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/006-naming-the-enemy.md",
+      "contentHash": "c286e3af079523f585aa13ea25807e8e9d8ce64dc5db705c00007fc4d4c3af8c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c922b702f0b6231b",
+      "title": "Patron Saints and the Closing Charge",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/007-patron-saints-and-the-closing-charge.md",
+      "contentHash": "827e255a6e1fb01a78f7e1eca9ec78cfaad735f338d1da2df0e920f2dd6a1160",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

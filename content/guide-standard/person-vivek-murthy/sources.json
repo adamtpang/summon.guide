@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "guideId": "person:vivek-murthy",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "b576ce1ca9b23aa4",
+      "title": "Former Surgeon General Vivek Murthy: Loneliness Is A Public Health Crisis (WBUR On Point), 23 March 2020",
+      "url": "https://www.wbur.org/onpoint/2020/03/23/vivek-murthy-loneliness",
+      "synthesis": "content/knowledge/vivek-murthy/2020-03-23-wbur-on-point-loneliness.md",
+      "contentHash": "5ece6876f28517e345eb2ba4857948e2edc1c1138783d5344bd41fd2b58ca089",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "67109a70c532041f",
+      "title": "Dr. Vivek Murthy and Brene on Loneliness and Connection (Unlocking Us podcast), April 2020",
+      "url": "https://brenebrown.com/podcast/dr-vivek-murthy-and-brene-on-loneliness-and-connection/",
+      "synthesis": "content/knowledge/vivek-murthy/2020-04-brene-brown-unlocking-us-loneliness.md",
+      "contentHash": "5f628b38755245cb48536496e5d321503185f285a67b0d6b9e40e0b99b7ad840",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dd23ecfa47a48cb0",
+      "title": "Lonely for Different Reasons: Talking to Vivek H. Murthy (Los Angeles Review of Books, Andy Fitch), 8 May 2020",
+      "url": "https://lareviewofbooks.org/blog/interviews/lonely-different-reasons-talking-vivek-h-murthy/",
+      "synthesis": "content/knowledge/vivek-murthy/2020-05-08-la-review-of-books-interview.md",
+      "contentHash": "4da44c7a03d77a6b961452cdd4a488cba25d0c4fc08e37f7002186c3173821d9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b2d08779318ed9d3",
+      "title": "In 'Together,' Former Surgeon General Writes About Importance Of Human Connection (NPR Morning Edition), 11 May 2020",
+      "url": "https://www.npr.org/sections/health-shots/2020/05/11/853308193/in-together-former-surgeon-general-writes-about-importance-of-human-connection",
+      "synthesis": "content/knowledge/vivek-murthy/2020-05-11-npr-morning-edition-together.md",
+      "contentHash": "4b983581a565239d0d7b9096bb2b0630d0bf68876ee3a8465772743f6b85a1d1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "90ce20015a5efd85",
+      "title": "Our Epidemic of Loneliness and Isolation (Surgeon General's Advisory), letter and definitions, 3 May 2023",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-HE20-PURL-gpo212387/pdf/GOVPUB-HE20-PURL-gpo212387.pdf",
+      "synthesis": "content/knowledge/vivek-murthy/2023-05-03-advisory-letter-and-definitions.md",
+      "contentHash": "a7960868ef6451a2c54506861282172859552097041d8103b06125844b50e25a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "48340b87e0d67e55",
+      "title": "Our Epidemic of Loneliness and Isolation (Surgeon General's Advisory), suicidality and self-harm section, 3 May 2023",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-HE20-PURL-gpo212387/pdf/GOVPUB-HE20-PURL-gpo212387.pdf",
+      "synthesis": "content/knowledge/vivek-murthy/2023-05-03-advisory-suicidality-and-self-harm.md",
+      "contentHash": "a1470f0917c8de80758c2ed86e9ad24383ffff75cc2221cd66fc8d9460c3b3ca",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8b09d4b88836ff04",
+      "title": "Our Epidemic of Loneliness and Isolation (Surgeon General's Advisory), what individuals can do, 3 May 2023",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-HE20-PURL-gpo212387/pdf/GOVPUB-HE20-PURL-gpo212387.pdf",
+      "synthesis": "content/knowledge/vivek-murthy/2023-05-03-advisory-what-individuals-can-do.md",
+      "contentHash": "da13c566eee9d66ac0155c5bcaf78522972e16deb5c9be619ac7cdfffe15cb3b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "74a3ee52229366f7",
+      "title": "My Parting Prescription for America (Surgeon General's Perspective), 7 January 2025",
+      "url": "https://fw4elders.org/file_download/fdafceb3-eee8-4025-aeb4-3079bca43268",
+      "synthesis": "content/knowledge/vivek-murthy/2025-01-07-my-parting-prescription-for-america.md",
+      "contentHash": "d67c36a58a560ee6ed48cf394703b6f621c818cb8eb22c9ea334ec94a5b51353",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

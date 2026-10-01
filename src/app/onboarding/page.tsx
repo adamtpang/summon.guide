@@ -1,3 +1,5 @@
+import standards from "@/../data/guide-standard.json";
+import { guideAgentSummaries } from "@/lib/guideAgents";
 import Link from "next/link";
 import intake from "@/../data/guide-intake.json";
 import { figures } from "@/lib/figures";
@@ -31,7 +33,7 @@ export default function GuideOnboardingPage() {
       </header>
 
       <section id="new-guides" className="scroll-mt-6">
-        <h2 className="font-serif text-3xl">Alysa Liu & the Isaacson biographies</h2>
+        <h2 className="font-serif text-3xl">Guides in onboarding</h2>
         <p className="mt-3 max-w-3xl text-sm leading-relaxed text-mist">{intake.filter(guide => !existing.has(guide.slug)).length} new guides in onboarding; {intake.filter(guide => existing.has(guide.slug)).length} already have chat. Existing chat access does not certify that every gate below has passed. This batch covers the seven individual biography subjects; the central figures in group books need a separate scope audit.</p>
         <div className="mt-8 divide-y divide-edge border-y border-edge">
           {intake.map(guide => <article id={guide.slug} key={guide.slug} className="scroll-mt-6 py-7 sm:grid sm:grid-cols-[220px_1fr] sm:gap-10">
@@ -48,6 +50,15 @@ export default function GuideOnboardingPage() {
             </div>
           </article>)}
         </div>
+      </section>
+
+      <section id="standards" className="mt-20 scroll-mt-8">
+        <h2 className="font-serif text-3xl">One standard for every guide</h2>
+        <p className="mt-3 text-sm text-mist">{standards.length} source manifests, workflows and evaluation checklists. Available chat does not mean a complete corpus or a certified release.</p>
+        <details className="mt-6"><summary className="min-h-11 cursor-pointer py-3">Inspect all guides</summary>
+          <div className="overflow-x-auto"><table className="w-full text-left text-sm"><thead><tr><th className="py-3">Guide</th><th>Category</th><th>Notes</th><th>Distillation</th><th>Status</th></tr></thead>
+          <tbody>{standards.map(record => { const guide = guideAgentSummaries.find(g => g.id === record.id); return <tr key={record.id} className="border-t border-edge"><td className="py-3 pr-4">{record.name}</td><td className="pr-4">{guide?.category}</td><td className="pr-4">{record.synthesisCount}</td><td className="pr-4">{record.distillation ? "Authored" : "Needs sources"}</td><td>{record.coverage === "missing" ? "Sourcing" : "Partial corpus"}</td></tr>; })}</tbody></table></div>
+        </details>
       </section>
 
       <section id="process" className="mt-20 scroll-mt-8">

@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "guideId": "book:useful-not-true",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "9ec80fc33002a255",
+      "title": "What 'True' Means Here",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/001-what-true-means.md",
+      "contentHash": "4b80e59e29040ae87067ddaae955a6b4910eab3a8d720388787ce0c9bc69c8ee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cbbbce03d09350b0",
+      "title": "The Bridge Guard: Rules, Obligations, and Culture Aren't True",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/002-the-bridge-guard.md",
+      "contentHash": "89e1e2569897792ccf060d0f705b7bc268a37e2391690d8b8d51c2bea81f657f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "76174474a9d62c27",
+      "title": "Your Brain Invents Reasons, Memories Lie, Even Science Isn't True",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/003-memory-prediction-and-science.md",
+      "contentHash": "6aa805565d8f8255ef99f4cf2249da2076c3ffc4e9d25b912c0b2e2a7f264ee8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0e497b44546b92b5",
+      "title": "You Are the Strange One (And You Can't Trust Your Mind)",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/004-you-cant-trust-your-mind.md",
+      "contentHash": "80c920488eab872d274fd379f3e1743e37cf97aaa1a7c8c2039499e926647369",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "07ef8d16f14cdeb7",
+      "title": "Beliefs Are Make-Believe",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/005-beliefs-are-make-believe.md",
+      "contentHash": "f6babf0bfcf190f3f7937bc9a5289737eae3e64038e0427da78440d1304fe883",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "29e2ce90daea7433",
+      "title": "Bowling: Aim Away From the Target",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/006-bowling-aim-away-from-the-target.md",
+      "contentHash": "62685649fcbe9713e34e81ca4249da9c65f20a9c5d7fc36c1c2c6c66ca4f9a72",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2da611952642268d",
+      "title": "Religion Is Action, Not Belief",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/007-religion-is-action-not-belief.md",
+      "contentHash": "157020e80c45db16846bae0f8da95b6d339717e8941644550dd2ee70bde61b09",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f37f08bccc7f2c4b",
+      "title": "Life Is a Blank You Fill In",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/008-life-is-a-blank-canvas.md",
+      "contentHash": "f9904bb4adce37d514034aa64b9bdf9c9522209364e7a0c4d57aa8be10322c10",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "115a40f9b50d0081",
+      "title": "The Gap Between What Happens and How You Respond",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/009-the-gap-before-your-response.md",
+      "contentHash": "7f5574fea2f5dafdbb7527e58e852f129dbbf33d85afa4f23eef56e45e195529",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a2ddb49e5bd17dc8",
+      "title": "Traits of a Perspective Worth Keeping",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/010-traits-of-useful-perspectives.md",
+      "contentHash": "94f9cb76237727148831b1bd838fd74397a685e7d7ba071e2fba1e2b4269df61",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8d99043142bdd981",
+      "title": "From Explorer to Self-Leader",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/011-from-explorer-to-self-leader.md",
+      "contentHash": "422f854998d1ee2c91cb5cc1746552fdba064fe72e79ab24d3b74b31fad59af2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7fd7f2176ffe4d95",
+      "title": "Take the First Step Immediately",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/012-take-the-first-step-immediately.md",
+      "contentHash": "234553bef752d021b5c8267a4d1364d2e2783b185cb37751107f6ec06c159827",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c7b2de2f3b018bf2",
+      "title": "You Are What You Pretend to Be",
+      "url": null,
+      "synthesis": "content/knowledge/useful-not-true/013-you-are-what-you-pretend-to-be.md",
+      "contentHash": "6e3e2e03dd43053657997f38f3bf888f69384e938ab65dc9f402c893bb199ff7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

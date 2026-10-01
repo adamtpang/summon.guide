@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "sam-walton",
+    "title": "Sam Walton: listening and cost discipline",
+    "url": "https://corporate.walmart.com/about/sam-walton/10-rules-for-building-a-better-business",
+    "principle": "Combine customer service with cost discipline and employee feedback.",
+    "keyLessons": [
+      "Walmart publishes Walton rules emphasizing employee participation, communication, listening and customer expectations.",
+      "Cost control supports competitive resilience. Application: ask frontline staff about one avoidable expense and test a service-preserving improvement. This adaptation does not establish that every cost cut is beneficial."
+    ],
+    "evidenceKind": "official retrospective",
+    "checkedOn": "2026-09-20",
+    "rights": "Original synthesis only; source remains with publisher; no full-text redistribution permission claimed.",
+    "file": "content/knowledge/sam-walton-public-notes/001.md"
+  },
+  {
+    "slug": "pendleton-ward",
+    "title": "Pendleton Ward: rounded characters",
+    "url": "https://www.wired.com/2012/03/adventure-times-pen-ward/",
+    "principle": "Write characters with both strengths and faults.",
+    "keyLessons": [
+      "Ward describes wanting ordinary, believable people rather than opposite stereotypes.",
+      "He describes a team writing to entertain itself. Application: try a scene that interests you, then check whether another reader understands the character."
+    ],
+    "evidenceKind": "first-person interview",
+    "checkedOn": "2026-09-20",
+    "rights": "Original synthesis only; source remains with publisher; no full-text redistribution permission claimed.",
+    "file": "content/knowledge/pendleton-ward-public-notes/001.md"
+  },
+  {
+    "slug": "pendleton-ward",
+    "title": "Pendleton Ward: a workplace that supports play",
+    "url": "https://www.themarysue.com/pendleton-ward-interview/",
+    "principle": "Make room for curiosity across the creative process.",
+    "keyLessons": [
+      "Ward recalls learning about editing, animatics and music while working for Thurop Van Orman.",
+      "He wanted his own production to retain an enjoyable atmosphere. Application: inspect one neighboring craft and try a small experiment; play is not a guarantee of commercial success."
+    ],
+    "evidenceKind": "first-person interview",
+    "checkedOn": "2026-09-20",
+    "rights": "Original synthesis only; source remains with publisher; no full-text redistribution permission claimed.",
+    "file": "content/knowledge/pendleton-ward-public-notes/002.md"
+  },
+  {
+    "slug": "pendleton-ward",
+    "title": "Pendleton Ward: practicing kindness",
+    "url": "https://comicbook.com/tv-shows/news/the-midnight-gospel-pen-ward-interview-netflix/",
+    "principle": "Treat kindness as something to practice.",
+    "keyLessons": [
+      "Ward says he selected conversations about practicing kindness and facing mortality.",
+      "Application: choose one manageable kind action rather than demanding a perfect emotional state. This is a creative perspective, not mental-health treatment."
+    ],
+    "evidenceKind": "first-person interview",
+    "checkedOn": "2026-09-20",
+    "rights": "Original synthesis only; source remains with publisher; no full-text redistribution permission claimed.",
+    "file": "content/knowledge/pendleton-ward-public-notes/003.md"
+  },
+  {
+    "slug": "ricky-gervais",
+    "title": "Ricky Gervais: connection rather than a career script",
+    "url": "https://www.rickygervais.com/interview_mar08.php",
+    "principle": "Make work around something you need to express.",
+    "keyLessons": [
+      "In this interview, Gervais emphasizes what he wants to communicate and the strength of connection with an audience.",
+      "Application: name the observation behind a scene before optimizing its marketability. This does not justify cruelty or predict an audience response."
+    ],
+    "evidenceKind": "first-person interview",
+    "checkedOn": "2026-09-20",
+    "rights": "Original synthesis only; source remains with publisher; no full-text redistribution permission claimed.",
+    "file": "content/knowledge/ricky-gervais-public-notes/001.md"
+  },
+  {
+    "slug": "bob-marley",
+    "title": "Bob Marley: music and social expression",
+    "url": "https://www.bobmarley.com/history/",
+    "principle": "Art can carry a social concern while remaining an experience people enjoy.",
+    "keyLessons": [
+      "The official estate biography describes music addressing oppression alongside dancing and enjoyment.",
+      "Application: make one concrete artistic choice that expresses the concern instead of substituting a slogan for craft. This inference is not a quoted Marley method; the estate account is not independent criticism."
+    ],
+    "evidenceKind": "estate retrospective",
+    "checkedOn": "2026-09-20",
+    "rights": "Original synthesis only; source remains with publisher; no full-text redistribution permission claimed.",
+    "file": "content/knowledge/bob-marley-public-notes/001.md"
+  },
+  {
+    "slug": "marie-curie",
+    "title": "Marie Curie: investigate an unexplained measurement",
+    "url": "https://history.aip.org/exhibits/curie/brief/03_radium/radium_2.html",
+    "principle": "An anomaly can be a question to investigate rather than noise to discard.",
+    "keyLessons": [
+      "The AIP history explains that pitchblende emitted more radiation than its known uranium content accounted for, prompting investigation of another element.",
+      "Application: record the mismatch, competing explanations and a discriminating test. Do not apply hazardous historical laboratory practices."
+    ],
+    "evidenceKind": "institutional history",
+    "checkedOn": "2026-09-20",
+    "rights": "Original synthesis only; source remains with publisher; no full-text redistribution permission claimed.",
+    "file": "content/knowledge/marie-curie-public-notes/001.md"
+  },
+  {
+    "slug": "marie-curie",
+    "title": "Marie Curie: research and protection",
+    "url": "https://physicstoday.aip.org/news/marie-curie-and-the-perils-in-radium",
+    "principle": "Scientific commitment does not require ignoring risk.",
+    "keyLessons": [
+      "The historical account discusses Curie establishing laboratory protection measures and concerns about radium used by unqualified practitioners.",
+      "Application: pair a research plan with qualified safety review. Do not turn her biography into instructions for handling radioactive material."
+    ],
+    "evidenceKind": "historical analysis",
+    "checkedOn": "2026-09-20",
+    "rights": "Original synthesis only; source remains with publisher; no full-text redistribution permission claimed.",
+    "file": "content/knowledge/marie-curie-public-notes/002.md"
+  },
+  {
+    "slug": "adam-neumann",
+    "title": "WeWork: revenue narratives and obligations",
+    "url": "https://www.sec.gov/files/foia-requests-we-company.pdf",
+    "principle": "Test a growth narrative against the obligations behind it.",
+    "keyLessons": [
+      "The SEC correspondence requested balanced disclosure of revenue backlog and noncancelable lease commitments during the proposed IPO review.",
+      "Application: compare promised growth with fixed commitments and downside cash needs. This is a risk-analysis lesson from regulatory records, not Neumann endorsing the advice."
+    ],
+    "evidenceKind": "regulatory correspondence",
+    "checkedOn": "2026-09-20",
+    "rights": "Original synthesis only; source remains with publisher; no full-text redistribution permission claimed.",
+    "file": "content/knowledge/adam-neumann-public-notes/001.md"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:evan-spiegel",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "afdc7ca6aadb6b36",
+      "title": "Evan Spiegel, Snapchat: Building a Multi-Billion Dollar Company",
+      "url": "https://www.youtube.com/watch?v=Sr6n-9mzYnk",
+      "synthesis": "content/knowledge/interviews/018-evan-spiegel-snapchat-building-a-multi-billion-dollar-compan.md",
+      "contentHash": "d0eae6e18c036aedc0ee5227a898a19c64935a64c3751fd774c35290b7644216",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

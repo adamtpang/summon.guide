@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "guideId": "person:gottmans",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "ad225a894c6ec66e",
+      "title": "Gottman Institute: Soften Your Start-Up",
+      "url": "https://www.gottman.com/blog/softening-startup/",
+      "synthesis": "content/knowledge/gottmans/001-soft-startup.md",
+      "contentHash": "6e0f2e656a6a8ee2f5d0a79f5580ba35f0e2fbc3406981fcea87707475b62c9d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b466da43d270a709",
+      "title": "Gottman Institute: Turn Towards Instead of Away",
+      "url": "https://www.gottman.com/blog/turn-toward-instead-of-away/",
+      "synthesis": "content/knowledge/gottmans/002-bids.md",
+      "contentHash": "945fa6d124203d46f9548a147d28767994e47270b60a140391169a26534e4ccc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "589fdf1bf0abf08a",
+      "title": "Gottman Institute: The Gottman Method",
+      "url": "https://www.gottman.com/about/the-gottman-method/",
+      "synthesis": "content/knowledge/gottmans/003-relationship-house.md",
+      "contentHash": "b0018c2f29788eede7571ff19c2aa5d8242f45c30dc669048ed2c3ffdf0c1796",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "122a63650b0a6709",
+      "title": "Marital interaction and satisfaction: a longitudinal view, February 1989",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2487031/",
+      "synthesis": "content/knowledge/gottmans/004-1989-02-01-anger-not-the-danger.md",
+      "contentHash": "0e8cbb242f9dead6a5a817efe4bf171bd6f7726ff2897031c88aebe0d9daa172",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a279439af70f9f34",
+      "title": "Marital processes predictive of later dissolution: behavior, physiology, and health, August 1992",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1403613/",
+      "synthesis": "content/knowledge/gottmans/005-1992-08-01-marital-processes-cascade.md",
+      "contentHash": "59d508099c25a8139c5c3c91d46bcaee554ddecea38710f9bc5ed0f2f8f3e52a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a9f192d12664c0d3",
+      "title": "Psychological factors in the longitudinal course of battering, Winter 1996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9210278/",
+      "synthesis": "content/knowledge/gottmans/006-1996-12-01-when-battering-continues.md",
+      "contentHash": "62fb7394d88f33afffeaa212e0d5a1b19949d67aaecc061cc26c7257a1984682",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3567fa2676727547",
+      "title": "Predicting Marital Happiness and Stability from Newlywed Interactions, 1998",
+      "url": "https://eric.ed.gov/?id=EJ574907",
+      "synthesis": "content/knowledge/gottmans/007-1998-02-01-newlywed-prediction.md",
+      "contentHash": "34ec138d56fc3d27abf66ef6767ad28454b0e0d3b2efd5f1fb5a85c4acb7a1c4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6030b3061423330f",
+      "title": "Predicting divorce among newlyweds from the first three minutes of a marital conflict discussion, Fall 1999",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10526767/",
+      "synthesis": "content/knowledge/gottmans/008-1999-09-01-first-three-minutes.md",
+      "contentHash": "e6fd57a987749b4aea74a9184de48e7054021d3157e9fc4d613c19a1be86cc12",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "efd82e6b25967e47",
+      "title": "Predicting marital stability and divorce in newlywed couples, March 2000",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10740681/",
+      "synthesis": "content/knowledge/gottmans/009-2000-03-01-oral-history-perceived-bond.md",
+      "contentHash": "8b159c87f7e141acbf88c44c3be9fc4838b35f4453503c51790af1f6eddd8f0d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d1e08d1859bfe9e5",
+      "title": "The baby and the marriage, March 2000",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10740682/",
+      "synthesis": "content/knowledge/gottmans/010-2000-03-02-the-baby-and-the-marriage.md",
+      "contentHash": "5d89907d9f835587e12887331dcc387c5715adacbe20a2f8071fd28050d09bd6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "59cd73ff7d14098e",
+      "title": "Daily marital interactions and positive affect during marital conflict among newlywed couples, September 2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15386956/",
+      "synthesis": "content/knowledge/gottmans/011-2004-09-01-daily-moments-and-conflict.md",
+      "contentHash": "0942ce2478b401ce92794d4b36a42ad869d93b7f7071d09268988444ea30aa5e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

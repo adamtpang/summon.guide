@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "guideId": "book:mindset",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "679dcc048971b41e",
+      "title": "Introduction",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/000-introduction.md",
+      "contentHash": "10ebc8031580c3a41d8341ef9beb66699632ea5a4aa4360a46650f8447f41db2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6e10a4d6013438bc",
+      "title": "Chapter 1: The Mindsets",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/001-the-mindsets.md",
+      "contentHash": "403bd5ca4ae095d64bbc9bc3f3188c57d6b1642e07712111e8ddd7aa71ce1b79",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "db3effbe4e6a1080",
+      "title": "Chapter 2: Inside the Mindsets",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/002-inside-the-mindsets.md",
+      "contentHash": "114b141455948ac466554433907f7bc087d740051e0c9652a6805c1c4dba290d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d392426b203a141c",
+      "title": "Chapter 3: The Truth About Ability and Accomplishment",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/003-the-truth-about-ability-and-accomplishment.md",
+      "contentHash": "f1271eda79b9a13d17862478d0010256e253cc5197e227a201cde23c5a96355a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bb67a1a7f2a1c14b",
+      "title": "Chapter 4: Sports: The Mindset of a Champion",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/004-sports-the-mindset-of-a-champion.md",
+      "contentHash": "a3d9b5b9f70198104050437edfe22546b7521b4a9296e6938aac8684ed01d0e5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "850329f985398d55",
+      "title": "Chapter 5: Business: Mindset and Leadership",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/005-business-mindset-and-leadership.md",
+      "contentHash": "7db57447f69d0ccfeb87f06a7bf9cad67715211ae522297927dc0960b1160183",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6a761388198ba9ee",
+      "title": "Chapter 6: Relationships: Mindsets in Love (or Not)",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/006-relationships-mindsets-in-love-or-not.md",
+      "contentHash": "bf975ce02d9d86e236b0ad8d63ed8dc0aed68c18ae6d2af839eecda06e169654",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e201bbaf84645a39",
+      "title": "Chapter 7, Part 1: Parents and Teachers, Messages That Shape a Mindset",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/007-parents-and-teachers-messages-that-shape-mindset.md",
+      "contentHash": "38692d5c0c1e410065c5f08f70f7c90467b5aa4779d5eda4ea711a44ff9bd3de",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4d4107dfd7e1ef94",
+      "title": "Chapter 7, Part 2: Coaches, False Growth Mindset, and Passing It On",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/008-coaches-and-the-true-growth-mindset.md",
+      "contentHash": "fb79eeae52c4468a0721479fef88fee6a38dfaf7663a4a323317903d970698ac",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "69f4cfc8aefc67ef",
+      "title": "Chapter 8, Part 1: Changing Mindsets, Workshops and Dilemmas",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/009-changing-mindsets-workshops-and-dilemmas.md",
+      "contentHash": "d86eb91d091b4a442cbb6703bffe4521622c47d4292edc6d269029296f155eda",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e8ffb03528366471",
+      "title": "Chapter 8, Part 2: Willpower, Maintaining Change, and Naming Your Fixed-Mindset Persona",
+      "url": null,
+      "synthesis": "content/knowledge/mindset/010-the-journey-to-a-true-growth-mindset.md",
+      "contentHash": "a23cffa6db2064247c22816bb388d1ed61763a3973dfbb5219649f9eb54ab51d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

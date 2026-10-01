@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:todd-graves",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "94c9e5644bb085c8",
+      "title": "How Todd Graves Built Raising Cane's",
+      "url": "https://www.youtube.com/watch?v=B5rRIdQKB0A",
+      "synthesis": "content/knowledge/interviews/019-how-todd-graves-built-raising-canes.md",
+      "contentHash": "147c377741f231ab71a09c1b2db8d56be035de7f3e02c238dc633048ebb4f345",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

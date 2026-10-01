@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "guideId": "person:marc-andreessen",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "90d56d433cd438d3",
+      "title": "The Thesis and Why Now",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/001-the-thesis-and-why-now.md",
+      "contentHash": "e8a6b7b8334b06dfda0a2a39663150a3e3d2d1a1af6d99da74a71c8d301c8002",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b8a418b01413d3f3",
+      "title": "Entertainment and Media Fall First",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/002-entertainment-and-media-fall-first.md",
+      "contentHash": "9f3c1de8b88b286cec5d84cbba7c0850bef8a0afb5e2d44a4e2365022b9dd10f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "510d160dabc07edb",
+      "title": "Commerce, Marketing, and Telecom Get Rewired",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/003-commerce-marketing-and-telecom.md",
+      "contentHash": "0e0a46ff54deb0466b8d72b222208f0a9e99f6255379a6433185686b272ac763",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cb8b8db65e6bcb46",
+      "title": "Software Eats the Physical Industries",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/004-software-eats-the-physical-industries.md",
+      "contentHash": "f255049670c790ccc96104fda03e793f94ddc8899be24b66fb784c0ffef35448",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ff25a78132eb1fe7",
+      "title": "Healthcare, Education, and National Security Are Next",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/005-healthcare-education-and-national-security.md",
+      "contentHash": "de73a88f93270a1a17d5c325be05c970a366e3d720ae285817eb35176911ee4e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5b8d7d7d34de3d12",
+      "title": "The Risks Ahead and the Closing Argument",
+      "url": null,
+      "synthesis": "content/knowledge/why-software-is-eating-the-world/006-risks-ahead-and-the-closing-argument.md",
+      "contentHash": "17172aa29b97871d9837da16a9f315a99d39529e50538e1daa137e936b4bb527",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b4c41372e19e582e",
+      "title": "The Pandemic Proved We Stopped Building",
+      "url": null,
+      "synthesis": "content/knowledge/its-time-to-build/001-the-pandemic-proved-we-stopped-building.md",
+      "contentHash": "827749a16d743df0069fe323f7ca7b98ba5a20e958a32a68ea3aceded6bc23ee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7901c93983627023",
+      "title": "Housing, Education, and Manufacturing",
+      "url": null,
+      "synthesis": "content/knowledge/its-time-to-build/002-housing-education-and-manufacturing.md",
+      "contentHash": "4c2c92052afdc6b6e2bb327def49d0ba44eacbeddebf8426305fec7bebe0daef",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bda37531a723a5c1",
+      "title": "Not Money, Not Capitalism, Not Skill",
+      "url": null,
+      "synthesis": "content/knowledge/its-time-to-build/003-not-money-not-capitalism-not-skill.md",
+      "contentHash": "a0a149e12c7f817299ea41adae5f40669c466bebf50633623fbb8aed784f4190",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5af29fa9a1710535",
+      "title": "A Build Agenda for Left and Right",
+      "url": null,
+      "synthesis": "content/knowledge/its-time-to-build/004-a-build-agenda-for-left-and-right.md",
+      "contentHash": "0d6c7b9d74b32aa1c4db770edcc0ff67c27ce59045b3f7c6c2b3d8de60d0a063",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "909d47f042f7a690",
+      "title": "The Price of Not Building and the Call to Build",
+      "url": null,
+      "synthesis": "content/knowledge/its-time-to-build/005-the-price-of-not-building-and-the-call-to-build.md",
+      "contentHash": "4200eff757dd6c361922f0033eb7f47704c87b3ddbb665e4af67833c1cf4162f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3e0120ada4d385eb",
+      "title": "Lies, Truth, and Technology",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/001-lies-truth-and-technology.md",
+      "contentHash": "d315bc09f6539836075e0c8298d4b911485bfa2a3400f8a96b2e87d0fd4e60bd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b1707a77f62923fe",
+      "title": "Markets and the Techno-Capital Machine",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/002-markets-and-the-techno-capital-machine.md",
+      "contentHash": "be1792e81276470c978b1b17f1eee9f8f287415b7798dcdf08ec7e9156450c52",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a4ac46f73e119e19",
+      "title": "Intelligence and Energy",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/003-intelligence-and-energy.md",
+      "contentHash": "7b41a946204daed5307f822d8e47b3066814733ee07f14fc41790379290b36aa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bdd47a7822c82dea",
+      "title": "Abundance and Not Utopia",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/004-abundance-and-not-utopia.md",
+      "contentHash": "d4acbdcddc2ea1c3168a99d284b02b18abf2efd3c6bdaa3ab93708bc84a1c8ef",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f850428ddd26890a",
+      "title": "Technological Supermen and Values",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/005-technological-supermen-and-values.md",
+      "contentHash": "fe81a74f4e9e40a82ae16e749099648c6d06a985c6c56faa3bb31494543564ab",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "be1fc4a20e3cedf8",
+      "title": "Naming the Enemy",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/006-naming-the-enemy.md",
+      "contentHash": "4a10de49cf325fe75307d9d9e64b865e56aa99c2b24d8ea2b1928d52baca5dbe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c922b702f0b6231b",
+      "title": "Patron Saints and the Closing Charge",
+      "url": null,
+      "synthesis": "content/knowledge/techno-optimist-manifesto/007-patron-saints-and-the-closing-charge.md",
+      "contentHash": "896b95e9d56d31fa02e6723d150197adf6d94d34f948cce588399dd76947ee89",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8fff7e53238522ee",
+      "title": "Marc Andreessen: The World Is More Malleable Than You Think",
+      "url": "https://www.youtube.com/watch?v=qBVe3M2g_SA",
+      "synthesis": "content/knowledge/interviews/003-marc-andreessen-the-world-is-more-malleable-than-you-think.md",
+      "contentHash": "322730fcd4a1f89f4094e5890ae19d13cd8602037582f6343b726641a4a2901a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

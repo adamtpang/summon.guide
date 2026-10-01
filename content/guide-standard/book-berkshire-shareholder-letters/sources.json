@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "guideId": "book:berkshire-shareholder-letters",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "3cbd4e562ae0db0e",
+      "title": "1977-1978: The Owner-Oriented View",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/001-1977-1978-the-owner-oriented-view.md",
+      "contentHash": "6dfa9052cdc22aa52db7720bf582713cdfaef67c4612e6248d5d2e1cfd627888",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3e51b8c83101442b",
+      "title": "1979-1980: The Earnings Iceberg",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/002-1979-1980-look-through-earnings.md",
+      "contentHash": "a40b75ae4d09c3271ac8a76953bbb3c0a0ea2079ab2876c2b6f0d0884c53a670",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5e647b1fccbb0d17",
+      "title": "1981: Toads, Princesses, and the Discipline of Not Overpaying",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/003-1981-acquisition-criteria.md",
+      "contentHash": "70dfc861921823e016fa97d0b96003c1b1c31e20c8255d26de2708c9ba80656c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1670554d6fc34255",
+      "title": "1982: The Dollar-for-a-Dollar Test",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/004-1982-goodwill-and-retained-earnings.md",
+      "contentHash": "ef5d89952b7d160340e4feb23355a4c973ed4264ad29de87710c7f24c3acbcca",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "328cd5bd8cd73e98",
+      "title": "1983: Goodwill and Its Amortization",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/005-1983-goodwill-and-its-amortization.md",
+      "contentHash": "dba8a4a8ab4619f56364b34effcfb0fad090a9ccce9b2c43cb99afa7f34098d6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bbbcd81a38930d22",
+      "title": "1984: Wonderful Businesses, Not Bargain Bins",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/006-1984-sees-candy-and-cigar-butts.md",
+      "contentHash": "9696b14aa0a189815e8e1fbb1aa378f1add09cae621d256e592011cfad850cb3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "408a5c131004444d",
+      "title": "1985: The Textile Mill Closes",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/007-1985-the-textile-mill-closes.md",
+      "contentHash": "85c4dbaf0a834a70459887ce6c97dfef4e13a12f2ea47a6cb59ee8d0be27fd4b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dc82e759b0341c6b",
+      "title": "1986: Owner Earnings Defined",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/008-1986-owner-earnings-defined.md",
+      "contentHash": "09bd1889ef74fedcd57ea962ff63cd6d7118a073993c4bb3a2c6ee6f0b69df66",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b03358a1c2d1e954",
+      "title": "1987: Mr. Market",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/009-1987-mr-market.md",
+      "contentHash": "50ef694d8b09a6fc8446a76f27ba383eb37392c94e1cc61dcbccdd2ce91a8e44",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2474bbe1659845f4",
+      "title": "1988: Coca-Cola and Permanent Holdings",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/010-1988-coca-cola-and-permanent-holdings.md",
+      "contentHash": "8c48de31159ec87c47cd9f441c51a48b9b8fc679bb05b65c59bdba6dd9cc0ea5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "abf92bdbb497ad94",
+      "title": "1989: Mistakes and the Institutional Imperative",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/011-1989-mistakes-and-the-institutional-imperative.md",
+      "contentHash": "3490d550d52b2e12c0676faee6910d23fe2a1606f1e7466a7fb46de74bfd65a7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "71678be9a2399059",
+      "title": "1990-1991: Banks, Junk Bonds, and Brands",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/012-1990-1991-banks-junk-bonds-and-brands.md",
+      "contentHash": "c8d250e5112a46c579675250ddbd97aa759bbd12cf0f0fe275db8a8a7498c02c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "09169c3a419cf66d",
+      "title": "1992: Intrinsic Value Defined",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/013-1992-intrinsic-value-defined.md",
+      "contentHash": "f2488859e923dbc5a91b92b36294699c97e3a55996c30b502fb2647b6591c35d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "11c0d6eff1c0855a",
+      "title": "1993: Risk, Focus, and Diversification",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/014-1993-risk-focus-and-diversification.md",
+      "contentHash": "60fb6036a4db2cfc9c1b8f829a373ff5753bacde528a28eb8ebe653130d708af",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "772628e355acedb9",
+      "title": "1994-1995: Consolidating the Philosophy",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/015-1994-1995-consolidating-the-philosophy.md",
+      "contentHash": "54c6ade9494871fdb323a8124ea111ebb78458512a37e5808f9dfce8c7ab8832",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8471126e81c79413",
+      "title": "1996: The Owner's Manual and the Circle of Competence",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/016-1996-owners-manual-and-circle-of-competence.md",
+      "contentHash": "26752954ca8c6255b9eca04fc54ec7358639d501073510ce9f7d3c8b6c381bfd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "09e5ca9d2e978bee",
+      "title": "1997: Market Prices and Patience",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/017-1997-market-prices-and-patience.md",
+      "contentHash": "d4df2dac74b65d3765ab226fa1296ae56686367189ddac510e94d6dfd940d65a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "38ae35970c476509",
+      "title": "1998-1999: General Re and the Market's Growing Froth",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/018-1998-1999-y2k-general-re-and-market-froth.md",
+      "contentHash": "03e72239287f6d8273026b7fe79e12cac3ebb8c42ffe38a12d289e5b92ba95fc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f8f6291dcdda6667",
+      "title": "2000-2001: The Bubble Bursts, and September 11th",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/019-2000-2001-the-bubble-bursts-and-9-11.md",
+      "contentHash": "12e8dff2431fe83650bcc86e555c4bec387dda08d29812102bb7b22e695d0c52",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d1b9dc31a79c94f3",
+      "title": "2002: Derivatives as Weapons of Mass Destruction",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/020-2002-derivatives-as-weapons-of-mass-destruction.md",
+      "contentHash": "ccce6d9260a1002558931914c4f3b5ae0fac6e5fec58677d8a17726e5a5da58b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "959f7c231d56080f",
+      "title": "2003-2004: Governance and the Trade Deficit",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/021-2003-2004-governance-and-the-trade-deficit.md",
+      "contentHash": "38b5b2e8d0da69c14163c3500546b76c30aa1fc637bfc04c5ef1b387d6678056",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "870cd24ee6ac2b01",
+      "title": "Succession Plans and Giving It Away: 2005-2006",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/022-2005-2006-succession-and-giving-it-away.md",
+      "contentHash": "a45ad9a8996ec15a3374175948ae7a07971f71efd8edf5971c03bc480110cec8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cd89f6c112d616a4",
+      "title": "The Great, the Good, and the Gruesome",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/023-2007-the-wonderful-business-test.md",
+      "contentHash": "cc69c654a642b972a422b635e6dfa29f3bea51354e1a675da72232fd724d9426",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f00e782f83fd4a7f",
+      "title": "The 2008 Letter: Buying Into the Panic",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/024-2008-the-financial-crisis-letter.md",
+      "contentHash": "53985472c06a97730be6d8e21d00e58f71c951762adc5195cb175697f69dc20d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "07a23d4a6a1ce6f6",
+      "title": "2009: Crisis Aftermath and the BNSF Railroad Bet",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/025-2009-crisis-aftermath-and-buy-american.md",
+      "contentHash": "ce19a2e46dd64f019825a0544279694d9ddc76d9d0c4123cff622eb2d5b06d1f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "131e6535f4fe14cf",
+      "title": "2010-2011: Estimating Intrinsic Value and the Big Four",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/026-2010-2011-estimating-intrinsic-value.md",
+      "contentHash": "d9d0f8857ca011c978901fdfc42b75b7281dcad5143a85f66e02ec459b0f6845",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5ef377582f7e800d",
+      "title": "2012-2013: Index Funds and the Case for Simplicity",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/027-2012-2013-index-funds-and-simplicity.md",
+      "contentHash": "5b21ae308a3b391a3e3bf3b3a75847cd140d972efa9d40ab333be9289ce40ffe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0e27580e20130089",
+      "title": "The 50-Year Letter: Buffett's Retrospective and Munger's Essay",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/028-2014-fifty-years-and-mungers-essay.md",
+      "contentHash": "c5850ebdd156bbeb0b445ffe6490ec06abefc8534e76730c0a70cc21b9e30186",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "396625e721c8ab88",
+      "title": "The Next Fifty Years and the Index Bet",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/029-2015-2016-next-fifty-years-and-the-index-bet.md",
+      "contentHash": "a5986f5ca24eb7d3c4a4cbe2c84f8b8f98e6970a9d04edf1119bfb6d5fec9b16",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3ad96aa9126f3905",
+      "title": "Tax Reform and a New Accounting Rule",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/030-2017-tax-reform-and-a-new-accounting-rule.md",
+      "contentHash": "3307d1ecfad805a3aed94a9231a966e688415902d2c45192b9aaaee7dc566b20",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "edeb7193581a8e24",
+      "title": "Buybacks and Operating Earnings",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/031-2018-2019-buybacks-and-operating-earnings.md",
+      "contentHash": "1215f8c4d5409c84b66f108b2b294b30e5f8eff3f809490668cfae1680e00c79",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cfccd152e5004d28",
+      "title": "COVID and the Four Categories of Value",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/032-2020-covid-and-the-four-categories-of-value.md",
+      "contentHash": "aa51a13593758d44f14a386530196a23b089b318daee457ce9cc4499f21a1ec3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "85008609987613ca",
+      "title": "Buybacks at Scale and Inflation",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/033-2021-2022-buybacks-at-scale-and-inflation.md",
+      "contentHash": "f6c0bbe92d6fc6e0658d0dfa78b9603d7675ed0a8d20f3d0689493e8185665be",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "70fd017939746057",
+      "title": "The Munger Tribute and Succession",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/034-2023-2024-the-munger-tribute-and-succession.md",
+      "contentHash": "8b3e26a81a2bfd98702974f6315170501dc98dcd3282513950326688d8da00e1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

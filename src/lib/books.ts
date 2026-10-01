@@ -60,6 +60,7 @@ export interface Book {
 export const books: Book[] = [
   {
     slug: "pendleton-ward-selected-interviews",
+    corpusPaths: ["content/knowledge/pendleton-ward-public-notes"],
     title: "Pendleton Ward: Selected Public Interviews",
     author: "Pendleton Ward, interviewed by Max Eddy, GeekDad, and Rollin Bishop",
     year: 2020,

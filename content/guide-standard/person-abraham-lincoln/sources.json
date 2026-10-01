@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "guideId": "person:abraham-lincoln",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "9202b97413f60269",
+      "title": "Letter to John T. Stuart, 23 January 1841",
+      "url": "https://housedivided.dickinson.edu/sites/lincoln/letter-to-john-stuart-january-23-1841/",
+      "synthesis": "content/knowledge/abraham-lincoln/1841-01-23-stuart-most-miserable.md",
+      "contentHash": "d0e610c536bdd8d5cd805675bf13a9e84ef1de745347e030765b0abf0cd9f4c3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e08986c7a49091bc",
+      "title": "Letter to Mary Speed, 27 September 1841",
+      "url": "https://papersofabrahamlincoln.org/documents/D200280",
+      "synthesis": "content/knowledge/abraham-lincoln/1841-09-27-mary-speed-blues.md",
+      "contentHash": "09502a06ee4d56a1dd2499b62e42edc5638c42dfd1a87f12a14dd9096ee47f39",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "380a8533a3b2096f",
+      "title": "Letter to Joshua Speed, 3 February 1842",
+      "url": "https://papersofabrahamlincoln.org/documents/D200290",
+      "synthesis": "content/knowledge/abraham-lincoln/1842-02-03-speed-hell-suffered.md",
+      "contentHash": "0e2e8219f52517bb12a31ba5a0aff98c90a7d4248f957f96ad961eb4950971e9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8e2bb27bf53ef9f2",
+      "title": "Letter to Joshua Speed, 13 February 1842",
+      "url": "https://papersofabrahamlincoln.org/documents/D200292",
+      "synthesis": "content/knowledge/abraham-lincoln/1842-02-13-speed-agony-of-despondency.md",
+      "contentHash": "b8e045c351011b5fd003ced0310519966b3e6e3eb2b750083f479c3ab13315d6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9663b8a85c2a1cad",
+      "title": "Letter to Joshua Speed, 25 February 1842",
+      "url": "https://housedivided.dickinson.edu/sites/lincoln/letter-to-joshua-speed-february-25-1842/",
+      "synthesis": "content/knowledge/abraham-lincoln/1842-02-25-speed-forebodings.md",
+      "contentHash": "5316662d5ff34c6fbdd232574d59dde54c46a7f1ef400af20a1c10324a448087",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d04f881071971a99",
+      "title": "Letter to Joshua Speed, 4 July 1842",
+      "url": "https://hd.housedivided.dickinson.edu/node/40458",
+      "synthesis": "content/knowledge/abraham-lincoln/1842-07-04-speed-lost-confidence.md",
+      "contentHash": "8e487ededa9907fd5c21b7dc6f130605a1e6d62a7531862eeaf37547739c9fc2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "84d50f1c38f572d9",
+      "title": "Letter to Fanny McCullough, 23 December 1862",
+      "url": "https://housedivided.dickinson.edu/sites/lincoln/letter-to-fanny-mccullough-december-23-1862/",
+      "synthesis": "content/knowledge/abraham-lincoln/1862-12-23-fanny-mccullough.md",
+      "contentHash": "f4206a5e07e64b27182608b29fa8b64119f12f29ce977cace464f66e677a5824",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b9b0ca929c27ccf2",
+      "title": "Letter to Eliza P. Gurney, 4 September 1864",
+      "url": "https://www.abrahamlincolnonline.org/lincoln/speeches/gurney.htm",
+      "synthesis": "content/knowledge/abraham-lincoln/1864-09-04-gurney-work-in-the-light.md",
+      "contentHash": "103c72348ab5e7457257e3f0d447f725365f2d7ba25cd75ca9f8758984bff3c3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

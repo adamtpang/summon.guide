@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "guideId": "person:josh-kushner",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "f7fdcb488d248d79",
+      "title": "Letter from Joshua Kushner and Mario Schlosser, Oscar Health S-1, 2021-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1568651/000119312521030955/d28906ds1.htm",
+      "synthesis": "content/knowledge/josh-kushner/2021-02-05-oscar-s1-founders-letter.md",
+      "contentHash": "5752548d122c0a1ba3df2c165905845afa0fe1bfbd2f0d8670386a13f296eb9a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f0caffeefa2456d0",
+      "title": "Conversation with Josh Kushner and Kareem Zaki (Bloomberg event), transcript published 2024-02-10",
+      "url": "https://aletteraday.substack.com/p/letter-154-josh-kushner-and-kareem",
+      "synthesis": "content/knowledge/josh-kushner/2024-02-10-bloomberg-conversation-transcript.md",
+      "contentHash": "a6674b27beff24024b00794acdca46535a9fa35cf655e19c221d239a44c806aa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9f2ea9836548264d",
+      "title": "Behind the curtain of Joshua Kushner's venture empire, Fortune, 2024-11-13",
+      "url": "https://fortune.com/2024/11/13/joshua-kushner-venture-empire-most-powerful-people-openai-sam-altman/",
+      "synthesis": "content/knowledge/josh-kushner/2024-11-13-fortune-interview.md",
+      "contentHash": "ac050f1a1af5adaadbe843a2f61b69f60764fa7c06b0c515f67ca1bb90e081af",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2d6a39a2089683e9",
+      "title": "The New World, Colossus (Jeremy Stern), October 2025",
+      "url": "https://colossus.com/article/joshua-kushner-thrive-new-world/",
+      "synthesis": "content/knowledge/josh-kushner/2025-10-01-colossus-the-new-world.md",
+      "contentHash": "e87a85bfac66fc3cd09a9df28ce692573181a27b4ed8f3181f63e4a0d3f34121",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b0c7b8f5cd518243",
+      "title": "Thrive's Joshua Kushner chides Silicon Valley VCs over AI euphoria, TechCrunch, 2026-08-14",
+      "url": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
+      "synthesis": "content/knowledge/josh-kushner/2026-08-14-techcrunch-first-investor-letter.md",
+      "contentHash": "06124f3b48fe0dcae7927197e9f634ff9e7e22926fa54d7902c3a0e12e699f78",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "guideId": "book:autobiography-of-benjamin-franklin",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "ea6dd0b48b417dd8",
+      "title": "Ancestry and Early Life in Boston",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/001-ancestry-and-early-life-in-boston.md",
+      "contentHash": "bdde1bc0f644e31657b212a376b0a98af9299eb40b25e91fe6d6b91c62eb1202",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "14439f04c837df65",
+      "title": "Beginning Life as a Printer",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/002-beginning-life-as-a-printer.md",
+      "contentHash": "74b1cbf9c14ed59e7553adb4a74fee7970cae88b431e7d96ba77e3abc4142a6b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2de211a535a304ca",
+      "title": "Arrival in Philadelphia",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/003-arrival-in-philadelphia.md",
+      "contentHash": "a1c3b238a11a09f75c9728e314bdf53671cbac66ad859822cea61cfbba6f9d2b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "515b05ac1ac3c6f0",
+      "title": "First Visit to Boston",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/004-first-visit-to-boston.md",
+      "contentHash": "75e24a4149356e91bbb446c99fc7ad422e78f9ea307cc4e6122fa50202f6d315",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "53431915fe59571d",
+      "title": "Early Friends in Philadelphia",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/005-early-friends-in-philadelphia.md",
+      "contentHash": "ffd7caf5f73faac2e565e6204f06902ee43e29b63727eb4ec615e653b460d9e3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3131f8a5cdb32f61",
+      "title": "First Visit to London",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/006-first-visit-to-london.md",
+      "contentHash": "8857f9375cc222f0448e5cc012e85aa60085c26dc5cffe374d8466f1269516bd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a8900e84b7819536",
+      "title": "Beginning Business in Philadelphia",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/007-beginning-business-in-philadelphia.md",
+      "contentHash": "85d0a65c4b8bc049269cc501e708fdf25f6e280519ddf409f8bfdc9870779479",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5cbc3bdf70ff39fd",
+      "title": "Business Success and First Public Service",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/008-business-success-and-first-public-service.md",
+      "contentHash": "057d3f519a6d8d741f411c60c25a69866c4b3d831d720ac410e9ff46e351ae2a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "eaedcd267ac8b030",
+      "title": "Plan for Attaining Moral Perfection",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/009-plan-for-attaining-moral-perfection.md",
+      "contentHash": "b64564e81109a67bc7db4a3d1e92321b37b7e3ad19c071ba953ab103347aaf7f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "25c997303feab07a",
+      "title": "Poor Richard's Almanac and Other Activities",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/010-poor-richards-almanac-and-other-activities.md",
+      "contentHash": "7f4871ba3387154bd64ba1d22867a6488ce023cc6c0242182f3777001be9d02b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "28ad2c5bcadfc4da",
+      "title": "Interest in Public Affairs",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/011-interest-in-public-affairs.md",
+      "contentHash": "b379778700b9e64c7391dc9b757223ae3ba6b3e50fa7882cf8228055d9910ce1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "64fb72501e4e7722",
+      "title": "Defense of the Province",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/012-defense-of-the-province.md",
+      "contentHash": "3d40642420dd0549725ff748626d0411c9cba29006bfa937e59d713edd77a5e3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "07afcf7c86593384",
+      "title": "Public Services and Duties",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/013-public-services-and-duties.md",
+      "contentHash": "44aa054bb6e08889b9817297d926aa44ff81eac6e5595aa4b9d345c6834a836c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d51bc4f4d1545212",
+      "title": "Albany Plan of Union",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/014-albany-plan-of-union.md",
+      "contentHash": "c1e99abe25009341954f532110e1874ab6511c70b64d9fb3d458875f9e16d322",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6526177d875b76b6",
+      "title": "Quarrels with the Proprietary Governors",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/015-quarrels-with-the-proprietary-governors.md",
+      "contentHash": "fba5c278226ba38e310b8f9a4a493fbaeca36a2617ceac1269894b0b5d44c7cd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "07302176d6b97132",
+      "title": "Braddock's Expedition",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/016-braddocks-expedition.md",
+      "contentHash": "e6256f861ce6881e3c7012656b1fc204257b75dbfd1742bdee1edd52fd04c4ed",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "94a4a8d6b33353ea",
+      "title": "Franklin's Defense of the Frontier",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/017-franklins-defense-of-the-frontier.md",
+      "contentHash": "6aaafd7ed1cb40ac0783780f31b396b351991dd13b2994b74d006713500f2af0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "47e2fbdb01c2337e",
+      "title": "Scientific Experiments",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/018-scientific-experiments.md",
+      "contentHash": "b552722a656db6605f047109eef036e1b69b1678bc31ff97fb84f9d74cae41cc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7d0a944065f95865",
+      "title": "Agent of Pennsylvania in London",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/019-agent-of-pennsylvania-in-london.md",
+      "contentHash": "8fc38eb6d7cead4225571937e6417e1dfc785a7de0447c722a46f5207a78c2af",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f4b69ff2b90cd62b",
+      "title": "Appendix: Electrical Kite, The Way to Wealth, and The Whistle",
+      "url": null,
+      "synthesis": "content/knowledge/autobiography-of-benjamin-franklin/020-appendix-electrical-kite-way-to-wealth-and-the-whistle.md",
+      "contentHash": "ea38f02afdf9c7484d011cc43b40e5ac743ca11420062ca5ab1b40ddf8f8242c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

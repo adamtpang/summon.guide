@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "guideId": "book:skin-in-the-game",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "fe353e1ec461460b",
+      "title": "Prologue",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/000-prologue.md",
+      "contentHash": "28ca970c243baa52e79d43fac1f4e278af437fdefc297bef338e275a7ee4b9b4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "02466073f2e6ebab",
+      "title": "Why Each One Should Eat His Own Turtles: Equality in Uncertainty",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/001-why-each-one-should-eat-his-own-turtles.md",
+      "contentHash": "91d27ea92a23987b28d60498bbc1636572fbbe8a8c94d720e9668dea9f5dbc92",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b12f6d58fce68d12",
+      "title": "The Most Intolerant Wins: The Dominance of the Stubborn Minority",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/002-the-most-intolerant-wins.md",
+      "contentHash": "c8d06c11181ea333fec76009a04468d5a9b2dc3c903353dea7d7fa99a25be9e5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d0e883a295c582dc",
+      "title": "How to Legally Own Another Person",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/003-how-to-legally-own-another-person.md",
+      "contentHash": "8ddacea1dccc5291cbffd853021571f81e69fbc0cc4a3554aa5ab5d15609c883",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3c2e95ac4678bd31",
+      "title": "The Skin of Others in Your Game",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/004-the-skin-of-others-in-your-game.md",
+      "contentHash": "e366b55647725223667fe44c197d6cd6f3eb35cd41147abd4c3b509b9e8ae088",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f65fa41aecc7eaa0",
+      "title": "Life in the Simulation Machine",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/005-life-in-the-simulation-machine.md",
+      "contentHash": "d997dae34a9e8f63b5f7694eb89c46c58f42c598c71a2d5e1b510b3c725cb030",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1c73336058c4fbb3",
+      "title": "The Intellectual Yet Idiot",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/006-the-intellectual-yet-idiot.md",
+      "contentHash": "efa57c6f772961f947c17cdd888899b5f510ecb43c54402aaf0d1973977b8362",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "47476bad3dcbd5e7",
+      "title": "Inequality and Skin in the Game",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/007-inequality-and-skin-in-the-game.md",
+      "contentHash": "ad7be10a102ad741c11ab95a0ce4c77e83def9199eb2783a6c3b49e69c86fe9d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c50e9c3a9db3b6d5",
+      "title": "An Expert Called Lindy",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/008-an-expert-called-lindy.md",
+      "contentHash": "41fad09436015e1a988d8c8598e9915fa9077c8845e73b722b6f40b2490f1ab4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a4cdc4748e3b4335",
+      "title": "Surgeons Should Not Look Like Surgeons",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/009-surgeons-should-not-look-like-surgeons.md",
+      "contentHash": "51ec166ab0f075767d1b3b9f176b96513f5b68c53c97d8cbc048bc6d3542a7c8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "09a6525fb1d749a1",
+      "title": "Only the Rich Are Poisoned: The Preferences of Others",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/010-only-the-rich-are-poisoned.md",
+      "contentHash": "4b8d5e7488f894f870b1b4badf6c69b80460f3b088be8d9292926fcd2704443a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1756a71e91066807",
+      "title": "Facta non Verba (Deeds Before Words)",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/011-facta-non-verba.md",
+      "contentHash": "e6daf31ef9c6f51789f0dccfcf87ba109cbdfc2ebe16e8c5029863dd5d489889",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "57ca2c59a2eab5a6",
+      "title": "The Facts Are True, the News Is Fake",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/012-the-facts-are-true-the-news-is-fake.md",
+      "contentHash": "b275a60bf90a1f2b69668f951df435ca9619c0fedee136ad637f25b732e6e099",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3d9d534dca260a87",
+      "title": "The Merchandising of Virtue",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/013-the-merchandising-of-virtue.md",
+      "contentHash": "1203b48d53e5d1737eade0ee4bb555999e5fab20ec965dda8636e26359f3f4dc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8c60534086325951",
+      "title": "Peace, Neither Ink nor Blood",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/014-peace-neither-ink-nor-blood.md",
+      "contentHash": "79c30c64da8f24d1051fe8839f29373f533730a81d9045e567962361b3bb3699",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "359efaf7a97fb08a",
+      "title": "They Don't Know What They Are Talking About When They Talk About Religion",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/015-they-dont-know-what-they-are-talking-about.md",
+      "contentHash": "e652c69058e0d093e09fca33271c64ddf3bd3ca1091dee0b09763e78abe806c7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0ee14c44381e2cf7",
+      "title": "No Worship Without Skin in the Game",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/016-no-worship-without-skin-in-the-game.md",
+      "contentHash": "1ac730e9a2a0070afd49266117dbac66d4179a1d499bc278d3757c687afb7580",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6c10e22f0e53bc09",
+      "title": "Is the Pope Atheist?",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/017-is-the-pope-atheist.md",
+      "contentHash": "626221c7dca49b7fdce71cb453ed0f2e617a2bd09849be167f47b634984d825f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "94a572bbf209420b",
+      "title": "How to Be Rational About Rationality",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/018-how-to-be-rational-about-rationality.md",
+      "contentHash": "a209df0e5ee3a86a371448a35d7c472d780dcc8e651cfd7fcb75be07330085d3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fc865ccee9cd08e2",
+      "title": "The Logic of Risk Taking",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/019-the-logic-of-risk-taking.md",
+      "contentHash": "54377e69f7ae5b3995ebcd44bd2a1714bfa64f4fdff43b0ae19cfbdddc8c7190",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "19e2f3a736cc8d74",
+      "title": "Epilogue: What Lindy Told Me",
+      "url": null,
+      "synthesis": "content/knowledge/skin-in-the-game/020-epilogue-what-lindy-told-me.md",
+      "contentHash": "a7e77fa2fbcd2732f07761bdaa31c6b0b6c36bec0245e16521dcf00660000dc1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

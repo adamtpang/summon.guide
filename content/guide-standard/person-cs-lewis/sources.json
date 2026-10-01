@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "guideId": "person:cs-lewis",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "2cabc5ffc9d0a011",
+      "title": "Surprised by Joy, chapter 1 (his mother's death), 1955",
+      "url": "https://gutenberg.ca/ebooks/lewiscs-surprisedbyjoy/lewiscs-surprisedbyjoy-01-e.html",
+      "synthesis": "content/knowledge/cs-lewis/1955-surprised-by-joy-mother.md",
+      "contentHash": "64e14411740d49fb9c528d368a0473288ed06451ecc6bf9335b38b8c5e2fbd5b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "84088ece268f8c00",
+      "title": "Letter to Sheldon Vanauken, 16 April 1960",
+      "url": "https://ponderingprinciples.com/2015/01/24/c-s-lewis-on-the-death-of-his-wife/",
+      "synthesis": "content/knowledge/cs-lewis/1960-04-16-letter-vanauken-relapse.md",
+      "contentHash": "0cd1db803bac2fa78f856511408a07e6f8819ef71fb79b6231dc1e429ca39a7f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d17d59bd1c1251d3",
+      "title": "Letter to Vera Gebbert, 15 July 1960",
+      "url": "https://ponderingprinciples.com/2015/01/24/c-s-lewis-on-the-death-of-his-wife/",
+      "synthesis": "content/knowledge/cs-lewis/1960-07-15-letter-gebbert-joy-dead.md",
+      "contentHash": "6fd19f15f6a56c881426b5fb98c425f1686cc0ca69ddf6da005e02333b3d5357",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "79ee62035018a548",
+      "title": "Letter to Mary Willis Shelburne, September 1960",
+      "url": "https://ponderingprinciples.com/2015/01/24/c-s-lewis-on-the-death-of-his-wife/",
+      "synthesis": "content/knowledge/cs-lewis/1960-09-letter-shelburne-winding-road.md",
+      "contentHash": "1eabbbb42acc20a88d30bdad932d966b08eff4bef9b2c77c21d52dbed9f8390e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1ef0f25c1acc96e5",
+      "title": "Letter to Chad Walsh, October 1960",
+      "url": "https://ponderingprinciples.com/2015/01/24/c-s-lewis-on-the-death-of-his-wife/",
+      "synthesis": "content/knowledge/cs-lewis/1960-10-letter-walsh-wonderful-marriage.md",
+      "contentHash": "0ccfd663cb0e211b398314b349ecc8fe2321b30691ee7e88f6f02dd8599ae5df",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "51b8c400936645ad",
+      "title": "A Grief Observed, excerpts on comfort and remembering, 1961",
+      "url": "https://www.pbs.org/wgbh/questionofgod/transcript/grief.html",
+      "synthesis": "content/knowledge/cs-lewis/1961-a-grief-observed-excerpts.md",
+      "contentHash": "69417433bf800bb40243032070b28c13752fea3ddc17c9ccf730628aeb16a9b6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "830cfde75d7f8f52",
+      "title": "A Grief Observed, part 3 on faith as a house of cards, 1961",
+      "url": "https://www.cslewis.com/observing-grief-3/",
+      "synthesis": "content/knowledge/cs-lewis/1961-a-grief-observed-house-of-cards.md",
+      "contentHash": "1df56ee691fb83b4c2de26941abc5a7357a25f5521c5c04aa92490066519ae16",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7c28a47fdb5ed9e3",
+      "title": "Letters to Mary Willis Shelburne, 1956 to 1963",
+      "url": "https://apilgriminnarnia.com/2011/09/09/thoughts-with-an-american-lady-thinking-about-lewis%E2%80%99-late-in-life-letters/",
+      "synthesis": "content/knowledge/cs-lewis/1963-06-17-letters-shelburne-last.md",
+      "contentHash": "cde0558a6def89340e430027f7f38a265ffe632cc365931d2fb212b1cc4a4e51",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

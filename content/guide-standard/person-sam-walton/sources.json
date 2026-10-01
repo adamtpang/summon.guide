@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:sam-walton",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "f1dd73c303e010fc",
+      "title": "Sam Walton: listening and cost discipline",
+      "url": "https://corporate.walmart.com/about/sam-walton/10-rules-for-building-a-better-business",
+      "synthesis": "content/knowledge/sam-walton-public-notes/001.md",
+      "contentHash": "68ddd436a2f8fcd76bdcd5da989d18ba7cede1ace0f76f930e6349a2953a7ae8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

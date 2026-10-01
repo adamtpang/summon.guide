@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "guideId": "channel:y-combinator",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "1844d9a76df6f23f",
+      "title": "How to Get and Evaluate Startup Ideas | Startup School",
+      "url": "https://www.youtube.com/watch?v=Th8JoIan4dg",
+      "synthesis": "content/knowledge/y-combinator/001-how-to-get-and-evaluate-startup-ideas.md",
+      "contentHash": "c301e96f3e9911a030a0793d19c210754c23527a20ebdb5b95686ff212652ec5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "322adf653c1908ac",
+      "title": "David Rusenko - How To Find Product Market Fit",
+      "url": "https://www.youtube.com/watch?v=0LNQxT9LvM0",
+      "synthesis": "content/knowledge/y-combinator/002-how-to-find-product-market-fit.md",
+      "contentHash": "e5e8839cfe5f491f7d8c92a827c0d5aed23abc3e560c78fc0e96796cfd7899fc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "08c85a94e73f3b0d",
+      "title": "Michael Seibel - How to Plan an MVP",
+      "url": "https://www.youtube.com/watch?v=1hHMwLxN6EM",
+      "synthesis": "content/knowledge/y-combinator/003-how-to-plan-an-mvp.md",
+      "contentHash": "a825d30bcd858b5e3a40bb0b383b36f4e2c3457db45fbba9db2451aea9728c50",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "64b19ffe8075e910",
+      "title": "How to Get Your First Customers | Startup School",
+      "url": "https://www.youtube.com/watch?v=hyYCn_kAngI",
+      "synthesis": "content/knowledge/y-combinator/004-how-to-get-your-first-customers.md",
+      "contentHash": "9ed8f613cc01ea28925c80f312d6f56a225c6e69ed5926425c809a2ca1c1e25f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2ca9c96486c57354",
+      "title": "Michael Seibel - Building Product",
+      "url": "https://www.youtube.com/watch?v=C27RVio2rOs",
+      "synthesis": "content/knowledge/y-combinator/005-michael-seibel-building-product.md",
+      "contentHash": "e4a3bdc4314540bf92361b4bf3c21f4b1b33d4a952c32148aaaf2ae3fa00c18d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b52bfdac0ab704e9",
+      "title": "Eric Migicovsky - How to Talk to Users",
+      "url": "https://www.youtube.com/watch?v=MT4Ig2uqjTc",
+      "synthesis": "content/knowledge/y-combinator/006-eric-migicovsky-how-to-talk-to-users.md",
+      "contentHash": "b957b7b0a10f3578388b71175d698fae18c68e40e2a6b2e896289982c1abe66b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6474764295f707f1",
+      "title": "Kevin Hale - How to Pitch Your Startup",
+      "url": "https://www.youtube.com/watch?v=17XZGUX_9iM",
+      "synthesis": "content/knowledge/y-combinator/007-kevin-hale-how-to-pitch-your-startup.md",
+      "contentHash": "75b7055feb4e7b1970902ee9dcefb3ce6f5e01f51025626d2abdd51c4f8421db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3dbe69ed2698f026",
+      "title": "How to Apply And Succeed at Y Combinator | Startup School",
+      "url": "https://www.youtube.com/watch?v=B5tU2447OK8",
+      "synthesis": "content/knowledge/y-combinator/008-how-to-apply-and-succeed-at-yc.md",
+      "contentHash": "e47db56a4f1814d6f66a28904adfdf60e01b1b2c3112c7b2db13182d042d3573",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ff86f55c7aa6e766",
+      "title": "Top Ways Startups Waste Money",
+      "url": "https://www.youtube.com/watch?v=BtzUo6vL3Iw",
+      "synthesis": "content/knowledge/y-combinator/009-top-ways-startups-waste-money.md",
+      "contentHash": "fd7c96d71fea3a36f468913662255797e57ab78c2766c1b1d045a597980e9fed",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "03be99e04de25e8a",
+      "title": "Kirsty Nathoo - Managing Startup Finances",
+      "url": "https://www.youtube.com/watch?v=LBC16jhiwak",
+      "synthesis": "content/knowledge/y-combinator/010-kirsty-nathoo-managing-startup-finances.md",
+      "contentHash": "9371100c4fb828a63df8de43973b545032d7591554ce572e598dec7295dcfe30",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9a5bfe3d704bb377",
+      "title": "Tom Blomfield: How I Created Two Billion-Dollar Fintech Startups",
+      "url": "https://www.youtube.com/watch?v=QKPgBAnbc10",
+      "synthesis": "content/knowledge/y-combinator/011-tom-blomfield-two-billion-dollar-fintech-startups.md",
+      "contentHash": "bfed1e46ff5451c027a61a45b24650497c5ef9a96200102e2533206f052d694e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "434cf445f1a135fc",
+      "title": "Should Your Startup Bootstrap or Raise Venture Capital?",
+      "url": "https://www.youtube.com/watch?v=D81y-kh11oI",
+      "synthesis": "content/knowledge/y-combinator/012-should-your-startup-bootstrap-or-raise-venture-capital.md",
+      "contentHash": "e09b4b90fc34208fcf1719233841a2ef4186f300ff4e1ef5e89bc71a08c4687a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2ca9495d58f3a0e2",
+      "title": "Startup Business Models and Pricing | Startup School",
+      "url": "https://www.youtube.com/watch?v=oWZbWzAyHAE",
+      "synthesis": "content/knowledge/y-combinator/013-startup-business-models-and-pricing.md",
+      "contentHash": "2e6afc8058ba0f5709e010b976653aedf00b4cd499988d18d1f7fb8eafd6984f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ecb5acf858a3f889",
+      "title": "Should You Start A Startup? | Startup School",
+      "url": "https://www.youtube.com/watch?v=BUE-icVYRFU",
+      "synthesis": "content/knowledge/y-combinator/014-should-you-start-a-startup.md",
+      "contentHash": "12fbf2d746019667bbc48c2d7305afe536820a9656954bccfd9eec7f9f79c644",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d7cdb5a14c9990ba",
+      "title": "How Startup Fundraising Works | Startup School",
+      "url": "https://www.youtube.com/watch?v=zBUhQPPS9AY",
+      "synthesis": "content/knowledge/y-combinator/015-how-startup-fundraising-works.md",
+      "contentHash": "a6eaa13267fc3402bae76f299b11f15c6cb5a69a62113c553391ec7bbbdc52ac",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dbd74ddc482a5420",
+      "title": "Adora Cheung - How to Set KPIs and Goals",
+      "url": "https://www.youtube.com/watch?v=lL6GdUHIBsM",
+      "synthesis": "content/knowledge/y-combinator/016-adora-cheung-how-to-set-kpis-and-goals.md",
+      "contentHash": "f19bd30750879fdd595f5862bbf0f67375b8fcfcf1671dac887f12d568160dd4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d6319e209fdd93bd",
+      "title": "Tips For Technical Startup Founders | Startup School",
+      "url": "https://www.youtube.com/watch?v=rP7bpYsfa6Q",
+      "synthesis": "content/knowledge/y-combinator/017-tips-for-technical-startup-founders.md",
+      "contentHash": "7c6902836b76c7cb37d86a6140f4f00d4d5b8e75f2bdd3a49f9f0a4de9fa49ed",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e0ea66625176783a",
+      "title": "Enterprise Sales | Startup School",
+      "url": "https://www.youtube.com/watch?v=0fKYVl12VTA",
+      "synthesis": "content/knowledge/y-combinator/018-enterprise-sales.md",
+      "contentHash": "589d0dd5f76d62bdfe09393465c51bf09173be70ba9ebce6b09e61028cad25c0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b11981b3906ff2a3",
+      "title": "Co-Founder Mistakes That Kill Companies & How To Avoid Them",
+      "url": "https://www.youtube.com/watch?v=dlfjs_eEEzs",
+      "synthesis": "content/knowledge/y-combinator/019-co-founder-mistakes-that-kill-companies.md",
+      "contentHash": "e78ddc57c463b8b21fe3b4ce034c0f7e2c9f4ad24186da9862fd243bbde280f5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9861efb3ae5d2567",
+      "title": "Do Technical Founders Need Business Co-Founders?",
+      "url": "https://www.youtube.com/watch?v=43RhhwpiSk0",
+      "synthesis": "content/knowledge/y-combinator/020-do-technical-founders-need-business-co-founders.md",
+      "contentHash": "797d0a7994ac9f4b93b656c1f8b3d3c6442b711426c622815b0f51ce90674766",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3a7783b7de8ee7d6",
+      "title": "Kat Mañalac - How to Launch (Again and Again)",
+      "url": "https://www.youtube.com/watch?v=3xU050kMbHM",
+      "synthesis": "content/knowledge/y-combinator/021-kat-manalac-how-to-launch-again-and-again.md",
+      "contentHash": "a15010b97b292cade135842ed09c381cae9f65f68235665aa149c1651e7987f2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9d0ef21c5e647996",
+      "title": "The Two Mindsets That Can KILL Your Startup",
+      "url": "https://www.youtube.com/watch?v=lJausFj_Dto",
+      "synthesis": "content/knowledge/y-combinator/022-the-two-mindsets-that-can-kill-your-startup.md",
+      "contentHash": "3df3c98d4baa7efb0601bc67db86923b5d682e5443830ebce50d49756aa00681",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8dca69a278ddae43",
+      "title": "Adora Cheung - How to Prioritize Your Time",
+      "url": "https://www.youtube.com/watch?v=XcCmMOWuAF4",
+      "synthesis": "content/knowledge/y-combinator/023-adora-cheung-how-to-prioritize-your-time.md",
+      "contentHash": "ea0b24588bb36e1475c6e3f58deb3a83e4e83b7bb38739d1220484fe27131dba",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "232e17b8e006289e",
+      "title": "Startup Experts Reveal Their Favorite Pivot Stories",
+      "url": "https://www.youtube.com/watch?v=DmehFuCMtvc",
+      "synthesis": "content/knowledge/y-combinator/024-startup-experts-reveal-their-favorite-pivot-stories.md",
+      "contentHash": "032ff351bc69cc35323cd14da17c0e991c9db88482ca24808be8d78f759fd37b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4dc7c0ee087ebda8",
+      "title": "How To Price For B2B | Startup School",
+      "url": "https://www.youtube.com/watch?v=4hjiRmgmHiU",
+      "synthesis": "content/knowledge/y-combinator/025-how-to-price-for-b2b.md",
+      "contentHash": "28be5589230fb06d655446440c1f1baa8de0be61363623db8335cd614ae2dc20",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9de25db0279585aa",
+      "title": "How to Find the Right Co-founder",
+      "url": "https://www.youtube.com/watch?v=prKi3-rUPHc",
+      "synthesis": "content/knowledge/y-combinator/026-how-to-find-the-right-co-founder.md",
+      "contentHash": "445e706ca6c6ca29a467eda9ae8aebe5069dcfcda0d66b52596eca395e5cc932",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4033b8e36805f8da",
+      "title": "Gustaf Alstromer - How to Get Users and Grow",
+      "url": "https://www.youtube.com/watch?v=T9ikpoF2GH0",
+      "synthesis": "content/knowledge/y-combinator/027-gustaf-alstromer-how-to-get-users-and-grow.md",
+      "contentHash": "a6f8517db123cec9367d9e58cfcf6221b7055a28a3e0eab2cc2f7fb3266002da",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "618db41c9551b971",
+      "title": "Understanding SAFEs and Priced Equity Rounds by Kirsty Nathoo",
+      "url": "https://www.youtube.com/watch?v=Dk6JNTDec9I",
+      "synthesis": "content/knowledge/y-combinator/028-understanding-safes-and-priced-equity-rounds.md",
+      "contentHash": "be03fc1d56b18965dfd375fcd587507ba7de9b04d8543932cffa3c8b78849e0b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5f685f8e8d238a6d",
+      "title": "How to Sell by Tyler Bosmeny",
+      "url": "https://www.youtube.com/watch?v=xZi4kTJG-LE",
+      "synthesis": "content/knowledge/y-combinator/029-how-to-sell-by-tyler-bosmeny.md",
+      "contentHash": "008b641a88ffb58225ca02728e1d3581a52040de3978284d8daa063289926acc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "67f047219da557c7",
+      "title": "Fundraising Fundamentals By Geoff Ralston",
+      "url": "https://www.youtube.com/watch?v=gcevHkNGrWQ",
+      "synthesis": "content/knowledge/y-combinator/030-fundraising-fundamentals-by-geoff-ralston.md",
+      "contentHash": "cdb7c9e3d2d5fd1f885815a4b01cbd56c3085609884a34e71835d38af22bb422",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c3b2b9b0b238fd56",
+      "title": "Save Your Startup During an Economic Downturn",
+      "url": "https://www.youtube.com/watch?v=0OVSTWozvfY",
+      "synthesis": "content/knowledge/y-combinator/031-save-your-startup-during-an-economic-downturn.md",
+      "contentHash": "41be01d627eed036ea686042f26517771f5b6801454d06c9a97f7e4a86da0d7a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c1c04a0080831988",
+      "title": "A Conversation with Paul Graham - Moderated by Geoff Ralston",
+      "url": "https://www.youtube.com/watch?v=4WO5kJChg3w",
+      "synthesis": "content/knowledge/y-combinator/032-a-conversation-with-paul-graham.md",
+      "contentHash": "76f5708e3468ca4eaafde045037796674ecc5465f7c37b2eaa89e219c3093645",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f2c7a8d534c0f9d3",
+      "title": "Running Your Company by Patrick Collison",
+      "url": "https://www.youtube.com/watch?v=NprBQi0cSHU",
+      "synthesis": "content/knowledge/y-combinator/033-running-your-company-by-patrick-collison.md",
+      "contentHash": "1771a27b43b0a27b3a46599536d4bc9eb77c81d816183fa98a2bcf7e9836a7e7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ddaa915a6a38902b",
+      "title": "Design for Startups by Garry Tan (Part 1)",
+      "url": "https://www.youtube.com/watch?v=9urYWGx2uNk",
+      "synthesis": "content/knowledge/y-combinator/034-design-for-startups-by-garry-tan.md",
+      "contentHash": "572771fbe4dea7ab17d97aa4c553916e46ccd0850ff405000f807ef67d860ff9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "376856332092c664",
+      "title": "Suhail Doshi - How to Measure Your Product",
+      "url": "https://www.youtube.com/watch?v=MABmQhOlmJA",
+      "synthesis": "content/knowledge/y-combinator/035-suhail-doshi-how-to-measure-your-product.md",
+      "contentHash": "4fe31f5e5a568443e1d255f34445ec876ecebb8e2ddb69f53145c92098228b54",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

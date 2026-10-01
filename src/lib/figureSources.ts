@@ -1,3 +1,4 @@
+import additions from "../../data/guide-source-additions.json";
 // GENERATED FILE, do not edit by hand.
 // Regenerate after changing content/knowledge/ or the slug map.
 //
@@ -1097,6 +1098,39 @@ export const figureSources: Record<string, FigureCoverage> = {
       "show": "Published episode synthesis",
       "subject": "Rick Rubin",
       "sourceBook": "Rick Rubin on Finding Your Life\u2019s Work"
+    }
+  ]
+},
+  "rose-blumkin": {
+  "coverage": "partial",
+  "sources": [
+    {
+      "file": "content/knowledge/rose-blumkin/001-customer-value.md",
+      "title": "Rose Blumkin: customer value and operating discipline",
+      "show": "Berkshire shareholder letters",
+      "subject": "Rose Blumkin",
+      "sourceBook": "Warren Buffett shareholder letter",
+      "youtube": "https://www.berkshirehathaway.com/letters/1983.html",
+      "principle": "Low prices need an operating advantage.",
+      "keyLessons": [
+        "Buffett describes effective buying and low expenses that let Nebraska Furniture Mart share savings with customers.",
+        "His 1983 account says Blumkin started in 1937 with savings of $500 and maintained commitments to creditors during shortages.",
+        "Application: identify the cost advantage supporting a price promise before copying the price. This is our inference, not her named method."
+      ]
+    },
+    {
+      "file": "content/knowledge/rose-blumkin/002-trust-and-competence.md",
+      "title": "Rose Blumkin: trust and a defined area of competence",
+      "show": "Berkshire shareholder letters",
+      "subject": "Rose Blumkin",
+      "sourceBook": "Warren Buffett shareholder letter",
+      "youtube": "https://www.berkshirehathaway.com/letters/1984.html",
+      "principle": "Pair customer value with disciplined competence.",
+      "keyLessons": [
+        "Buffett credits the family with knowing its competence, acting within it, avoiding unrelated opportunities and dealing honestly.",
+        "He attributes the phrase \"sell cheap and tell the truth\" to Mrs. B.",
+        "Application: calculate a sustainable margin and state the offer honestly. The account does not establish a universal markup or justify skipping diligence."
+      ]
     }
   ]
 },
@@ -5504,7 +5538,12 @@ export const figureSources: Record<string, FigureCoverage> = {
 };
 
 export function getFigureSources(slug: string): FigureCoverage {
-  return figureSources[slug] ?? { coverage: "none", sources: [] };
+  const base = figureSources[slug] ?? { coverage: "none" as const, sources: [] };
+  const extra = additions.filter(note => note.slug === slug).map(note => ({
+    file: note.file, title: note.title, show: note.evidenceKind, subject: slug,
+    sourceBook: note.title, youtube: note.url, principle: note.principle, keyLessons: note.keyLessons,
+  }));
+  return { coverage: extra.length && base.coverage === "none" ? "partial" : base.coverage, sources: [...base.sources, ...extra] };
 }
 
 /** Roughly 4 chars per token; the grounding block is capped well under 2k tokens. */

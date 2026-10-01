@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "guideId": "person:jeff-bezos",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "df1eb24d9fa54541",
+      "title": "Lessons from Jeff Bezos's Shareholder Letters",
+      "url": "https://www.youtube.com/watch?v=zt9e6vVBdP4",
+      "synthesis": "content/knowledge/founders/013-lessons-from-jeff-bezoss-shareholder-letters.md",
+      "contentHash": "e9169355fbc1c5bf60ac6091e33185f71c6948053446dc162710ae566e3728e6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

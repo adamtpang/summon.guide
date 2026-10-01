@@ -1,0 +1,36 @@
+{
+  "id": "person:rose-blumkin",
+  "name": "Rose Blumkin",
+  "aliases": [
+    "rose blumkin",
+    "rose blumpkin",
+    "roseblumkin",
+    "mrs b",
+    "mrs. b"
+  ],
+  "checkedOn": "2026-09-20",
+  "origin": "bundled starter notes, not live retrieval",
+  "coverage": "Two short syntheses of Buffett letters. Narrow business-partner perspective, not a complete first-person life corpus.",
+  "notes": [
+    {
+      "title": "Rose Blumkin: customer value and operating discipline",
+      "sourceUrl": "https://www.berkshirehathaway.com/letters/1983.html",
+      "lessons": [
+        "Buffett describes effective buying and low expenses that let Nebraska Furniture Mart share savings with customers.",
+        "His 1983 account says Blumkin started in 1937 with savings of $500 and maintained commitments to creditors during shortages.",
+        "Application: identify the cost advantage supporting a price promise before copying the price. This is our inference, not her named method."
+      ],
+      "kind": "synthesis_excerpt"
+    },
+    {
+      "title": "Rose Blumkin: trust and a defined area of competence",
+      "sourceUrl": "https://www.berkshirehathaway.com/letters/1984.html",
+      "lessons": [
+        "Buffett credits the family with knowing its competence, acting within it, avoiding unrelated opportunities and dealing honestly.",
+        "He attributes the phrase \"sell cheap and tell the truth\" to Mrs. B.",
+        "Application: calculate a sustainable margin and state the offer honestly. The account does not establish a universal markup or justify skipping diligence."
+      ],
+      "kind": "synthesis_excerpt"
+    }
+  ]
+}

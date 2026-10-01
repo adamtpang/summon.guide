@@ -17,7 +17,7 @@ export function getGuideEpisodes(slug: string): SourceEpisode[] {
     for (const episode of applySourceRuntimePolicy(book.slug, sourceCorpus[book.slug]?.episodes || [])) entries.set(episode.file, episode);
   }
   for (const episode of getFigureSources(slug).sources) entries.set(episode.file, episode);
-  return [...entries.values()].filter(episode => !episode.file.split(/[\\/]/).includes("_raw"));
+  return applySourceRuntimePolicy(slug, [...entries.values()]);
 }
 
 export function buildGuideGrounding(slug: string, query: string): string {

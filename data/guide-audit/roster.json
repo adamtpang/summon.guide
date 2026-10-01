@@ -1,0 +1,5242 @@
+{
+  "date": "2026-09-20T13:37:36.233Z",
+  "summary": {
+    "total": 115,
+    "kinds": {
+      "person": 55,
+      "book": 56,
+      "channel": 4
+    },
+    "chat": 94,
+    "noCorpus": [
+      "Albert Einstein",
+      "Alysa Liu",
+      "Dave Ramsey",
+      "Henry Kissinger",
+      "Jennifer Doudna",
+      "Leonardo da Vinci",
+      "Adventure Time: The Art of Ooo",
+      "Alexander the Great",
+      "Benjamin Franklin: An American Life",
+      "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork",
+      "Elon Musk",
+      "From Third World to First: The Singapore Story 1965-2000",
+      "On Anger (De Ira)",
+      "On the Shortness of Life (De Brevitate Vitae)",
+      "One Man's View of the World",
+      "The Book of Elon",
+      "The Campaigns of Alexander (Anabasis Alexandri)",
+      "The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion",
+      "The Singapore Story: Memoirs of Lee Kuan Yew",
+      "Your Music and People",
+      "Zombies in Western Culture: A Twenty-First Century Crisis"
+    ],
+    "building": [
+      "Albert Einstein",
+      "Alysa Liu",
+      "Henry Kissinger",
+      "Jennifer Doudna",
+      "Leonardo da Vinci",
+      "Adventure Time: The Art of Ooo",
+      "Alexander the Great",
+      "Benjamin Franklin: An American Life",
+      "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork",
+      "Elon Musk",
+      "From Third World to First: The Singapore Story 1965-2000",
+      "On Anger (De Ira)",
+      "On the Shortness of Life (De Brevitate Vitae)",
+      "One Man's View of the World",
+      "The Book of Elon",
+      "The Campaigns of Alexander (Anabasis Alexandri)",
+      "The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion",
+      "The Singapore Story: Memoirs of Lee Kuan Yew",
+      "Your Music and People",
+      "Zombies in Western Culture: A Twenty-First Century Crisis"
+    ],
+    "categories": {
+      "business": 38,
+      "investing": 10,
+      "philosophy": 21,
+      "creativity": 9,
+      "effectiveness": 18,
+      "science": 5,
+      "leadership": 11,
+      "relationships": 1,
+      "wellbeing": 2
+    }
+  },
+  "rows": [
+    {
+      "id": "person:adam-neumann",
+      "name": "Adam Neumann",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "vision",
+        "mission",
+        "storytelling",
+        "fundraising",
+        "blitzscaling",
+        "community",
+        "brand",
+        "charisma",
+        "real estate",
+        "hubris",
+        "unit economics",
+        "founder mode",
+        "narrative",
+        "S-1",
+        "comeback"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/adamneumann",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/adam-neumann.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "mission-as-moat",
+        "narrative-arbitrage",
+        "s1-reality-check"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "mission-as-moat",
+          "paths": [
+            "plugins/adam-neumann/skills/mission-as-moat/SKILL.md"
+          ]
+        },
+        {
+          "slug": "narrative-arbitrage",
+          "paths": [
+            "plugins/adam-neumann/skills/narrative-arbitrage/SKILL.md"
+          ]
+        },
+        {
+          "slug": "s1-reality-check",
+          "paths": [
+            "plugins/adam-neumann/skills/s1-reality-check/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-adam-neumann/SKILL.md",
+      "portrait": "/portraits/adam-neumann.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:albert-einstein",
+      "name": "Albert Einstein",
+      "kind": "person",
+      "category": "science",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "Scientific imagination"
+      ],
+      "availability": "building",
+      "runtime": "pending",
+      "chat": false,
+      "url": "/onboarding#albert-einstein",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-albert-einstein/SKILL.md",
+      "portrait": null,
+      "voice": "not assigned",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "no portrait",
+        "no voice assignment",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:alexander",
+      "name": "Alexander the Great",
+      "kind": "person",
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "leadership",
+        "courage",
+        "ambition",
+        "conquest",
+        "legacy",
+        "motivation",
+        "war",
+        "strategy",
+        "greatness"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/alexander",
+      "syntheses": 16,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/alexander.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/life-of-alexander-plutarch.md"
+      ],
+      "declaredSkills": [
+        "lead-from-front",
+        "decisive-point"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "lead-from-front",
+          "paths": [
+            "plugins/alexander/skills/lead-from-front/SKILL.md"
+          ]
+        },
+        {
+          "slug": "decisive-point",
+          "paths": [
+            "plugins/alexander/skills/decisive-point/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-alexander/SKILL.md",
+      "portrait": "/portraits/alexander-the-great.jpg",
+      "voice": "unique configured ID",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:alysa-liu",
+      "name": "Alysa Liu",
+      "kind": "person",
+      "category": "wellbeing",
+      "confidence": 0.83,
+      "path": "jev",
+      "domains": [
+        "Sport and self-direction",
+        "Alyssa Liu"
+      ],
+      "availability": "building",
+      "runtime": "pending",
+      "chat": false,
+      "url": "/onboarding#alysa-liu",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-alysa-liu/SKILL.md",
+      "portrait": null,
+      "voice": "not assigned",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "no portrait",
+        "no voice assignment",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:annie-duke",
+      "name": "Annie Duke",
+      "kind": "person",
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "decision making",
+        "probability",
+        "poker",
+        "risk",
+        "quitting",
+        "cognitive bias"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/annieduke",
+      "syntheses": 7,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/annie-duke.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/thinking-in-bets.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-annie-duke/SKILL.md",
+      "portrait": "/avatars/annie-duke-portrait.jpg",
+      "voice": "unique configured ID",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:franklin",
+      "name": "Benjamin Franklin",
+      "kind": "person",
+      "category": "effectiveness",
+      "confidence": 0.89,
+      "path": "jev",
+      "domains": [
+        "self-improvement",
+        "reinvention",
+        "career",
+        "networking",
+        "habits",
+        "writing",
+        "diplomacy",
+        "learning"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/franklin",
+      "syntheses": 20,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/franklin.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/autobiography-of-benjamin-franklin.md"
+      ],
+      "declaredSkills": [
+        "thirteen-virtues",
+        "junto"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "thirteen-virtues",
+          "paths": [
+            "plugins/franklin/skills/thirteen-virtues/SKILL.md"
+          ]
+        },
+        {
+          "slug": "junto",
+          "paths": [
+            "plugins/franklin/skills/junto/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-franklin/SKILL.md",
+      "portrait": "/portraits/benjamin-franklin.jpg",
+      "voice": "unique configured ID",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:bob-marley",
+      "name": "Bob Marley",
+      "kind": "person",
+      "category": "creativity",
+      "confidence": 0.99,
+      "path": "jev",
+      "domains": [
+        "music",
+        "reggae",
+        "resilience",
+        "unity",
+        "justice",
+        "freedom",
+        "spirituality",
+        "Rastafari",
+        "identity",
+        "purpose",
+        "peace",
+        "forgiveness",
+        "adversity",
+        "mortality"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/bobmarley",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/bob-marley.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-bob-marley/SKILL.md",
+      "portrait": "/portraits/bob-marley.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:brad-jacobs",
+      "name": "Brad Jacobs",
+      "kind": "person",
+      "category": "business",
+      "confidence": 0.93,
+      "path": "jev",
+      "domains": [
+        "mergers and acquisitions",
+        "roll-ups",
+        "fragmented industries",
+        "logistics",
+        "building products",
+        "capital allocation",
+        "hiring",
+        "post-merger integration",
+        "speed",
+        "decision making",
+        "therapy",
+        "entrepreneurship"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/bradjacobs",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/brad-jacobs.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-brad-jacobs/SKILL.md",
+      "portrait": "/avatars/brad-jacobs-portrait.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:brian-armstrong",
+      "name": "Brian Armstrong",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "mission",
+        "crypto",
+        "regulation",
+        "resilience",
+        "focus",
+        "long-term thinking",
+        "product-market fit",
+        "founder mode",
+        "culture",
+        "economic freedom",
+        "conviction",
+        "decision-making",
+        "burnout",
+        "fundraising"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/brianarmstrong",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/brian-armstrong.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-brian-armstrong/SKILL.md",
+      "portrait": "/portraits/brian-armstrong.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:cal-newport",
+      "name": "Cal Newport",
+      "kind": "person",
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "deep work",
+        "focus",
+        "productivity",
+        "digital minimalism",
+        "career capital",
+        "academia"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/calnewport",
+      "syntheses": 9,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/cal-newport.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/deep-work.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-cal-newport/SKILL.md",
+      "portrait": "/avatars/cal-newport-portrait.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:carol-dweck",
+      "name": "Carol Dweck",
+      "kind": "person",
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "mindset",
+        "growth",
+        "failure",
+        "learning",
+        "praise",
+        "psychology"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/caroldweck",
+      "syntheses": 11,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/carol-dweck.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/mindset.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-carol-dweck/SKILL.md",
+      "portrait": "/avatars/carol-dweck-portrait.jpg",
+      "voice": "unique configured ID",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:charlie-munger",
+      "name": "Charlie Munger",
+      "kind": "person",
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "investing",
+        "mental models",
+        "inversion",
+        "psychology",
+        "decision making",
+        "incentives",
+        "patience",
+        "reading",
+        "business",
+        "rationality",
+        "temperament",
+        "compounding"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/charliemunger",
+      "syntheses": 25,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/charlie-munger.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/poor-charlies-almanack.md"
+      ],
+      "declaredSkills": [
+        "charlie-munger",
+        "invert-the-problem",
+        "incentive-audit",
+        "lollapalooza-check",
+        "berkshire-system",
+        "deserved-trust"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "charlie-munger",
+          "paths": [
+            "plugins/charlie-munger/skills/charlie-munger/SKILL.md"
+          ]
+        },
+        {
+          "slug": "invert-the-problem",
+          "paths": [
+            "plugins/charlie-munger/skills/invert-the-problem/SKILL.md"
+          ]
+        },
+        {
+          "slug": "incentive-audit",
+          "paths": [
+            "plugins/charlie-munger/skills/incentive-audit/SKILL.md"
+          ]
+        },
+        {
+          "slug": "lollapalooza-check",
+          "paths": [
+            "plugins/charlie-munger/skills/lollapalooza-check/SKILL.md"
+          ]
+        },
+        {
+          "slug": "berkshire-system",
+          "paths": [
+            "plugins/charlie-munger/skills/berkshire-system/SKILL.md"
+          ]
+        },
+        {
+          "slug": "deserved-trust",
+          "paths": [
+            "plugins/charlie-munger/skills/deserved-trust/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-charlie-munger/SKILL.md",
+      "portrait": "/portraits/charlie-munger.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:daniel-ek",
+      "name": "Daniel Ek",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "self-knowledge",
+        "impact",
+        "founder archetypes",
+        "problem selection",
+        "energy management",
+        "quality",
+        "trust",
+        "long-term thinking",
+        "product",
+        "creativity",
+        "music industry",
+        "streaming",
+        "european tech",
+        "coaching"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/danielek",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/daniel-ek.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-daniel-ek/SKILL.md",
+      "portrait": "/portraits/daniel-ek.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:dave-ramsey",
+      "name": "Dave Ramsey",
+      "kind": "person",
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "money",
+        "budgeting",
+        "debt",
+        "emergency funds"
+      ],
+      "availability": "ready",
+      "runtime": "pack",
+      "chat": false,
+      "url": null,
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "zero-based-budget",
+        "debt-snowball",
+        "emergency-fund-triage"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "zero-based-budget",
+          "paths": []
+        },
+        {
+          "slug": "debt-snowball",
+          "paths": []
+        },
+        {
+          "slug": "emergency-fund-triage",
+          "paths": []
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-dave-ramsey/SKILL.md",
+      "portrait": null,
+      "voice": "not assigned",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "no portrait",
+        "no voice assignment",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:deutsch",
+      "name": "David Deutsch",
+      "kind": "person",
+      "category": "science",
+      "confidence": 0.99,
+      "path": "jev",
+      "domains": [
+        "knowledge",
+        "learning",
+        "science",
+        "optimism",
+        "problem-solving",
+        "creativity",
+        "thinking",
+        "physics",
+        "philosophy"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/deutsch",
+      "syntheses": 32,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/deutsch.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/the-beginning-of-infinity.md",
+        "content/distilled/the-fabric-of-reality.md"
+      ],
+      "declaredSkills": [
+        "jump-to-universality",
+        "replicator-interest",
+        "spot-bad-philosophy",
+        "choice-as-explanation",
+        "rational-vs-anti-rational-memes",
+        "unsustainable-by-design",
+        "problem-solving-cycle",
+        "kicked-rock-test",
+        "universal-version",
+        "certainty-audit",
+        "seminar-room-rule"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "jump-to-universality",
+          "paths": [
+            "plugins/deutsch/skills/jump-to-universality/SKILL.md"
+          ]
+        },
+        {
+          "slug": "replicator-interest",
+          "paths": [
+            "plugins/deutsch/skills/replicator-interest/SKILL.md"
+          ]
+        },
+        {
+          "slug": "spot-bad-philosophy",
+          "paths": [
+            "plugins/deutsch/skills/spot-bad-philosophy/SKILL.md"
+          ]
+        },
+        {
+          "slug": "choice-as-explanation",
+          "paths": [
+            "plugins/deutsch/skills/choice-as-explanation/SKILL.md"
+          ]
+        },
+        {
+          "slug": "rational-vs-anti-rational-memes",
+          "paths": [
+            "plugins/deutsch/skills/rational-vs-anti-rational-memes/SKILL.md"
+          ]
+        },
+        {
+          "slug": "unsustainable-by-design",
+          "paths": [
+            "plugins/deutsch/skills/unsustainable-by-design/SKILL.md"
+          ]
+        },
+        {
+          "slug": "problem-solving-cycle",
+          "paths": [
+            "plugins/deutsch/skills/problem-solving-cycle/SKILL.md"
+          ]
+        },
+        {
+          "slug": "kicked-rock-test",
+          "paths": [
+            "plugins/deutsch/skills/kicked-rock-test/SKILL.md"
+          ]
+        },
+        {
+          "slug": "universal-version",
+          "paths": [
+            "plugins/deutsch/skills/universal-version/SKILL.md"
+          ]
+        },
+        {
+          "slug": "certainty-audit",
+          "paths": [
+            "plugins/deutsch/skills/certainty-audit/SKILL.md"
+          ]
+        },
+        {
+          "slug": "seminar-room-rule",
+          "paths": [
+            "plugins/deutsch/skills/seminar-room-rule/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-deutsch/SKILL.md",
+      "portrait": "/portraits/david-deutsch.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:senra",
+      "name": "David Senra",
+      "kind": "person",
+      "category": "business",
+      "confidence": 0.77,
+      "path": "jev",
+      "domains": [
+        "entrepreneurship",
+        "obsession",
+        "self-belief",
+        "primary sources",
+        "founder psychology",
+        "reading as leverage"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/senra",
+      "syntheses": 237,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/david-senra.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/founders-podcast.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-senra/SKILL.md",
+      "portrait": "/avatars/senra-portrait.avif",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:sivers",
+      "name": "Derek Sivers",
+      "kind": "person",
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "entrepreneurship",
+        "decision making",
+        "independence",
+        "self belief",
+        "minimalism",
+        "creative work"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/sivers",
+      "syntheses": 68,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/sivers.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/anything-you-want.md",
+        "content/distilled/hell-yeah-or-no.md",
+        "content/distilled/how-to-live.md",
+        "content/distilled/useful-not-true.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-sivers/SKILL.md",
+      "portrait": "/portraits/sivers.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:elon",
+      "name": "Elon Musk",
+      "kind": "person",
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "engineering",
+        "speed",
+        "startups",
+        "first-principles",
+        "risk",
+        "technology",
+        "impossible",
+        "mars",
+        "manufacturing"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/elonmusk",
+      "syntheses": 23,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/elon.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/elon-musk-vance.md"
+      ],
+      "declaredSkills": [
+        "first-principles",
+        "five-step-algorithm",
+        "idiot-index"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "first-principles",
+          "paths": [
+            "plugins/elon/skills/first-principles/SKILL.md"
+          ]
+        },
+        {
+          "slug": "five-step-algorithm",
+          "paths": [
+            "plugins/elon/skills/five-step-algorithm/SKILL.md"
+          ]
+        },
+        {
+          "slug": "idiot-index",
+          "paths": [
+            "plugins/elon/skills/idiot-index/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-elon/SKILL.md",
+      "portrait": "/portraits/elon-musk.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:evan-spiegel",
+      "name": "Evan Spiegel",
+      "kind": "person",
+      "category": "business",
+      "confidence": 0.99,
+      "path": "jev",
+      "domains": [
+        "product",
+        "design",
+        "vision",
+        "focus",
+        "hardware",
+        "camera",
+        "moats",
+        "creativity",
+        "culture",
+        "competition",
+        "control",
+        "augmented reality",
+        "messaging",
+        "privacy"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/evanspiegel",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/evan-spiegel.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-evan-spiegel/SKILL.md",
+      "portrait": "/portraits/evan-spiegel.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:henry-kissinger",
+      "name": "Henry Kissinger",
+      "kind": "person",
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "Diplomacy and historical judgment"
+      ],
+      "availability": "building",
+      "runtime": "pending",
+      "chat": false,
+      "url": "/onboarding#henry-kissinger",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-henry-kissinger/SKILL.md",
+      "portrait": null,
+      "voice": "not assigned",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "no portrait",
+        "no voice assignment",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:hesse",
+      "name": "Hermann Hesse",
+      "kind": "person",
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "meaning",
+        "seeking",
+        "solitude",
+        "self-knowledge",
+        "spiritual practice",
+        "letting go"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/hesse",
+      "syntheses": 12,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/hesse.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/siddhartha.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-hesse/SKILL.md",
+      "portrait": "/portraits/hesse.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:james-clear",
+      "name": "James Clear",
+      "kind": "person",
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "habits",
+        "behavior change",
+        "identity",
+        "systems",
+        "discipline",
+        "self improvement"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/jamesclear",
+      "syntheses": 22,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/james-clear.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/atomic-habits.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-james-clear/SKILL.md",
+      "portrait": "/avatars/james-clear-portrait.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:james-dyson",
+      "name": "James Dyson",
+      "kind": "person",
+      "category": "science",
+      "confidence": 0.83,
+      "path": "jev",
+      "domains": [
+        "invention",
+        "persistence",
+        "design",
+        "engineering",
+        "failure",
+        "prototyping",
+        "manufacturing",
+        "product",
+        "control",
+        "ownership",
+        "iteration",
+        "difference",
+        "selling",
+        "hiring"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/jamesdyson",
+      "syntheses": 2,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/james-dyson.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-james-dyson/SKILL.md",
+      "portrait": "/portraits/james-dyson.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:jeff-bezos",
+      "name": "Jeff Bezos",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "customers",
+        "long term",
+        "scale",
+        "e-commerce",
+        "cloud",
+        "decisions",
+        "invention",
+        "operations",
+        "risk",
+        "writing",
+        "space",
+        "leadership"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/jeffbezos",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/jeff-bezos.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-jeff-bezos/SKILL.md",
+      "portrait": "/portraits/jeff-bezos.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:jennifer-doudna",
+      "name": "Jennifer Doudna",
+      "kind": "person",
+      "category": "science",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "Scientific collaboration"
+      ],
+      "availability": "building",
+      "runtime": "pending",
+      "chat": false,
+      "url": "/onboarding#jennifer-doudna",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-jennifer-doudna/SKILL.md",
+      "portrait": null,
+      "voice": "not assigned",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "no portrait",
+        "no voice assignment",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:jensen-huang",
+      "name": "Jensen Huang",
+      "kind": "person",
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "chips",
+        "ai",
+        "hardware",
+        "endurance",
+        "resilience",
+        "strategy",
+        "long bets",
+        "engineering",
+        "leadership",
+        "manufacturing",
+        "focus",
+        "suffering"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/jensenhuang",
+      "syntheses": 18,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/jensen-huang.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/the-nvidia-way.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-jensen-huang/SKILL.md",
+      "portrait": "/portraits/jensen-huang.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:jimmy-iovine",
+      "name": "Jimmy Iovine",
+      "kind": "person",
+      "category": "business",
+      "confidence": 0.83,
+      "path": "jev",
+      "domains": [
+        "marketing",
+        "music",
+        "taste",
+        "talent",
+        "branding",
+        "culture",
+        "hardware",
+        "partnership",
+        "negotiation",
+        "honesty",
+        "fear",
+        "reinvention",
+        "media"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/jimmyiovine",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/jimmy-iovine.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-jimmy-iovine/SKILL.md",
+      "portrait": "/portraits/jimmy-iovine.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:rockefeller",
+      "name": "John D. Rockefeller",
+      "kind": "person",
+      "category": "business",
+      "confidence": 0.99,
+      "path": "jev",
+      "domains": [
+        "money",
+        "wealth",
+        "discipline",
+        "monopoly",
+        "business",
+        "philanthropy",
+        "sacrifice",
+        "oil",
+        "investing"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/rockefeller",
+      "syntheses": 39,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/rockefeller.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/titan-chernow.md"
+      ],
+      "declaredSkills": [
+        "ledger",
+        "crisis"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "ledger",
+          "paths": [
+            "plugins/rockefeller/skills/ledger/SKILL.md"
+          ]
+        },
+        {
+          "slug": "crisis",
+          "paths": [
+            "plugins/rockefeller/skills/crisis/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-rockefeller/SKILL.md",
+      "portrait": "/portraits/john-d-rockefeller.jpg",
+      "voice": "unique configured ID",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:john-mackey",
+      "name": "John Mackey",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "retail",
+        "differentiation",
+        "competitive strategy",
+        "conscious capitalism",
+        "stakeholders",
+        "purpose",
+        "culture",
+        "acquisitions",
+        "fundraising",
+        "venture capital",
+        "cofounder conflict",
+        "resilience",
+        "food",
+        "leadership"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/johnmackey",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/john-mackey.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-john-mackey/SKILL.md",
+      "portrait": "/portraits/john-mackey.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:vervaeke",
+      "name": "John Vervaeke",
+      "kind": "person",
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "meaning",
+        "wisdom",
+        "attention",
+        "cognition",
+        "practice",
+        "self-deception"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/vervaeke",
+      "syntheses": 6,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/vervaeke.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "vervaeke",
+        "four-kinds-of-knowing",
+        "relevance-realization",
+        "ecology-of-practices"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "vervaeke",
+          "paths": [
+            "plugins/vervaeke/skills/vervaeke/SKILL.md"
+          ]
+        },
+        {
+          "slug": "four-kinds-of-knowing",
+          "paths": [
+            "plugins/vervaeke/skills/four-kinds-of-knowing/SKILL.md"
+          ]
+        },
+        {
+          "slug": "relevance-realization",
+          "paths": [
+            "plugins/vervaeke/skills/relevance-realization/SKILL.md"
+          ]
+        },
+        {
+          "slug": "ecology-of-practices",
+          "paths": [
+            "plugins/vervaeke/skills/ecology-of-practices/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-vervaeke/SKILL.md",
+      "portrait": "/avatars/vervaeke-portrait.png",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:lee-kuan-yew",
+      "name": "Lee Kuan Yew",
+      "kind": "person",
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "governance",
+        "nation-building",
+        "pragmatism",
+        "meritocracy",
+        "lost",
+        "purpose",
+        "order",
+        "leadership",
+        "corruption",
+        "survival"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/leekuanyew",
+      "syntheses": 20,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/lee-kuan-yew.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "pragmatist-test",
+        "incorruptibility"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "pragmatist-test",
+          "paths": [
+            "plugins/lee-kuan-yew/skills/pragmatist-test/SKILL.md"
+          ]
+        },
+        {
+          "slug": "incorruptibility",
+          "paths": [
+            "plugins/lee-kuan-yew/skills/incorruptibility/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-lee-kuan-yew/SKILL.md",
+      "portrait": "/portraits/lee-kuan-yew.jpg",
+      "voice": "unique configured ID",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:leonardo-da-vinci",
+      "name": "Leonardo da Vinci",
+      "kind": "person",
+      "category": "creativity",
+      "confidence": 0.88,
+      "path": "jev",
+      "domains": [
+        "Observation and creativity"
+      ],
+      "availability": "building",
+      "runtime": "pending",
+      "chat": false,
+      "url": "/onboarding#leonardo-da-vinci",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-leonardo-da-vinci/SKILL.md",
+      "portrait": null,
+      "voice": "not assigned",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "no portrait",
+        "no voice assignment",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:seneca",
+      "name": "Lucius Annaeus Seneca",
+      "kind": "person",
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "stoicism",
+        "time",
+        "death",
+        "anger",
+        "wealth",
+        "friendship",
+        "philosophy",
+        "writing",
+        "self-knowledge",
+        "courage",
+        "patience",
+        "purpose",
+        "discipline",
+        "letters",
+        "moral practice"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/seneca",
+      "syntheses": 38,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/seneca.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/letters-from-a-stoic.md"
+      ],
+      "declaredSkills": [
+        "letters-from-a-stoic",
+        "on-the-shortness-of-life",
+        "on-anger"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "letters-from-a-stoic",
+          "paths": [
+            "plugins/seneca/skills/letters-from-a-stoic/SKILL.md"
+          ]
+        },
+        {
+          "slug": "on-the-shortness-of-life",
+          "paths": [
+            "plugins/seneca/skills/on-the-shortness-of-life/SKILL.md"
+          ]
+        },
+        {
+          "slug": "on-anger",
+          "paths": [
+            "plugins/seneca/skills/on-anger/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-seneca/SKILL.md",
+      "portrait": "/portraits/seneca.jpg",
+      "voice": "unique configured ID",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:lulie-tanett",
+      "name": "Lulie Tanett",
+      "kind": "person",
+      "category": "philosophy",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "discipline",
+        "motivation",
+        "coercion",
+        "self-improvement",
+        "epistemology",
+        "fallibilism",
+        "rationality",
+        "creativity",
+        "parenting",
+        "art",
+        "philosophy",
+        "productivity"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/lulietanett",
+      "syntheses": 11,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/lulie-tanett.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/reason-is-fun-essays.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-lulie-tanett/SKILL.md",
+      "portrait": "/avatars/lulie-tanett-portrait.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:marc-andreessen",
+      "name": "Marc Andreessen",
+      "kind": "person",
+      "category": "business",
+      "confidence": 0.95,
+      "path": "jev",
+      "domains": [
+        "startups",
+        "venture capital",
+        "software",
+        "building",
+        "technology",
+        "optimism",
+        "internet",
+        "platforms",
+        "product-market fit",
+        "growth",
+        "policy",
+        "regulation",
+        "ambition"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/marcandreessen",
+      "syntheses": 19,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/marc-andreessen.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/its-time-to-build.md",
+        "content/distilled/techno-optimist-manifesto.md",
+        "content/distilled/why-software-is-eating-the-world.md"
+      ],
+      "declaredSkills": [
+        "software-eats-the-world",
+        "its-time-to-build",
+        "techno-optimism"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "software-eats-the-world",
+          "paths": [
+            "plugins/marc-andreessen/skills/software-eats-the-world/SKILL.md"
+          ]
+        },
+        {
+          "slug": "its-time-to-build",
+          "paths": [
+            "plugins/marc-andreessen/skills/its-time-to-build/SKILL.md"
+          ]
+        },
+        {
+          "slug": "techno-optimism",
+          "paths": [
+            "plugins/marc-andreessen/skills/techno-optimism/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-marc-andreessen/SKILL.md",
+      "portrait": "/portraits/marc-andreessen.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:marcus-aurelius",
+      "name": "Marcus Aurelius",
+      "kind": "person",
+      "category": "philosophy",
+      "confidence": 0.95,
+      "path": "jev",
+      "domains": [
+        "stoicism",
+        "discipline",
+        "adversity",
+        "anxiety",
+        "death",
+        "purpose",
+        "anger",
+        "ego",
+        "resilience",
+        "duty",
+        "philosophy",
+        "self-control",
+        "mortality"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/marcusaurelius",
+      "syntheses": 12,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/marcus-aurelius.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/meditations.md"
+      ],
+      "declaredSkills": [
+        "dichotomy-of-control",
+        "view-from-above",
+        "memento-mori"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "dichotomy-of-control",
+          "paths": [
+            "plugins/marcus-aurelius/skills/dichotomy-of-control/SKILL.md"
+          ]
+        },
+        {
+          "slug": "view-from-above",
+          "paths": [
+            "plugins/marcus-aurelius/skills/view-from-above/SKILL.md"
+          ]
+        },
+        {
+          "slug": "memento-mori",
+          "paths": [
+            "plugins/marcus-aurelius/skills/memento-mori/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-marcus-aurelius/SKILL.md",
+      "portrait": "/portraits/marcus-aurelius.jpg",
+      "voice": "unique configured ID",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:marie-curie",
+      "name": "Marie Curie",
+      "kind": "person",
+      "category": "science",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "science",
+        "research",
+        "physics",
+        "chemistry",
+        "discovery",
+        "persistence",
+        "focus",
+        "method",
+        "measurement",
+        "courage",
+        "adversity",
+        "open science",
+        "mastery",
+        "grief"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/mariecurie",
+      "syntheses": 2,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/marie-curie.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-marie-curie/SKILL.md",
+      "portrait": "/portraits/marie-curie.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:napoleon-hill",
+      "name": "Napoleon Hill",
+      "kind": "person",
+      "category": "effectiveness",
+      "confidence": 0.93,
+      "path": "jev",
+      "domains": [
+        "success",
+        "desire",
+        "persistence",
+        "mastermind",
+        "wealth",
+        "belief"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/napoleonhill",
+      "syntheses": 15,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/napoleon-hill.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/think-and-grow-rich.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-napoleon-hill/SKILL.md",
+      "portrait": "/avatars/napoleon-hill-portrait.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:nassim-taleb",
+      "name": "Nassim Nicholas Taleb",
+      "kind": "person",
+      "category": "investing",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "risk",
+        "uncertainty",
+        "antifragility",
+        "randomness",
+        "decision making",
+        "skin in the game",
+        "ruin",
+        "optionality",
+        "probability",
+        "fragility",
+        "black swans",
+        "survival",
+        "via negativa",
+        "tail risk"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/nassimtaleb",
+      "syntheses": 67,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/nassim-taleb.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/fooled-by-randomness.md",
+        "content/distilled/skin-in-the-game.md",
+        "content/distilled/the-black-swan.md"
+      ],
+      "declaredSkills": [
+        "alternative-histories",
+        "count-the-monkeys",
+        "match-the-observation-window",
+        "weight-the-magnitude",
+        "distrust-the-hot-streak",
+        "falsify-before-you-commit",
+        "black-swan-triplet-test",
+        "mediocristan-extremistan-map",
+        "turkey-problem",
+        "narrative-fallacy-guard",
+        "silent-evidence-audit",
+        "ludic-fallacy-check",
+        "fourth-quadrant-map",
+        "portfolio-not-opinion",
+        "minority-rule",
+        "intellectual-yet-idiot",
+        "skin-of-others-audit",
+        "green-lumber-test",
+        "merchandising-of-virtue"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "alternative-histories",
+          "paths": [
+            "plugins/nassim-taleb/skills/alternative-histories/SKILL.md"
+          ]
+        },
+        {
+          "slug": "count-the-monkeys",
+          "paths": [
+            "plugins/nassim-taleb/skills/count-the-monkeys/SKILL.md"
+          ]
+        },
+        {
+          "slug": "match-the-observation-window",
+          "paths": [
+            "plugins/nassim-taleb/skills/match-the-observation-window/SKILL.md"
+          ]
+        },
+        {
+          "slug": "weight-the-magnitude",
+          "paths": [
+            "plugins/nassim-taleb/skills/weight-the-magnitude/SKILL.md"
+          ]
+        },
+        {
+          "slug": "distrust-the-hot-streak",
+          "paths": [
+            "plugins/nassim-taleb/skills/distrust-the-hot-streak/SKILL.md"
+          ]
+        },
+        {
+          "slug": "falsify-before-you-commit",
+          "paths": [
+            "plugins/nassim-taleb/skills/falsify-before-you-commit/SKILL.md"
+          ]
+        },
+        {
+          "slug": "black-swan-triplet-test",
+          "paths": [
+            "plugins/nassim-taleb/skills/black-swan-triplet-test/SKILL.md"
+          ]
+        },
+        {
+          "slug": "mediocristan-extremistan-map",
+          "paths": [
+            "plugins/nassim-taleb/skills/mediocristan-extremistan-map/SKILL.md"
+          ]
+        },
+        {
+          "slug": "turkey-problem",
+          "paths": [
+            "plugins/nassim-taleb/skills/turkey-problem/SKILL.md"
+          ]
+        },
+        {
+          "slug": "narrative-fallacy-guard",
+          "paths": [
+            "plugins/nassim-taleb/skills/narrative-fallacy-guard/SKILL.md"
+          ]
+        },
+        {
+          "slug": "silent-evidence-audit",
+          "paths": [
+            "plugins/nassim-taleb/skills/silent-evidence-audit/SKILL.md"
+          ]
+        },
+        {
+          "slug": "ludic-fallacy-check",
+          "paths": [
+            "plugins/nassim-taleb/skills/ludic-fallacy-check/SKILL.md"
+          ]
+        },
+        {
+          "slug": "fourth-quadrant-map",
+          "paths": [
+            "plugins/nassim-taleb/skills/fourth-quadrant-map/SKILL.md"
+          ]
+        },
+        {
+          "slug": "portfolio-not-opinion",
+          "paths": [
+            "plugins/nassim-taleb/skills/portfolio-not-opinion/SKILL.md"
+          ]
+        },
+        {
+          "slug": "minority-rule",
+          "paths": [
+            "plugins/nassim-taleb/skills/minority-rule/SKILL.md"
+          ]
+        },
+        {
+          "slug": "intellectual-yet-idiot",
+          "paths": [
+            "plugins/nassim-taleb/skills/intellectual-yet-idiot/SKILL.md"
+          ]
+        },
+        {
+          "slug": "skin-of-others-audit",
+          "paths": [
+            "plugins/nassim-taleb/skills/skin-of-others-audit/SKILL.md"
+          ]
+        },
+        {
+          "slug": "green-lumber-test",
+          "paths": [
+            "plugins/nassim-taleb/skills/green-lumber-test/SKILL.md"
+          ]
+        },
+        {
+          "slug": "merchandising-of-virtue",
+          "paths": [
+            "plugins/nassim-taleb/skills/merchandising-of-virtue/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-nassim-taleb/SKILL.md",
+      "portrait": "/portraits/nassim-taleb.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:naval-ravikant",
+      "name": "Naval Ravikant",
+      "kind": "person",
+      "category": "investing",
+      "confidence": 0.95,
+      "path": "jev",
+      "domains": [
+        "wealth",
+        "leverage",
+        "specific knowledge",
+        "happiness",
+        "angel investing",
+        "startups",
+        "judgment",
+        "philosophy",
+        "reading",
+        "compounding",
+        "freedom",
+        "desire",
+        "artificial intelligence",
+        "epistemology",
+        "crypto"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/navalravikant",
+      "syntheses": 23,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/naval-ravikant.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-naval-ravikant/SKILL.md",
+      "portrait": "/portraits/naval-ravikant.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:paul-graham",
+      "name": "Paul Graham",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "startups",
+        "product",
+        "users",
+        "writing",
+        "programming",
+        "focus",
+        "fundraising",
+        "ambition",
+        "taste",
+        "independent thinking"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/paulgraham",
+      "syntheses": 6,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/paul-graham.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/paul-graham-essays.md"
+      ],
+      "declaredSkills": [
+        "paul-graham",
+        "do-things-that-dont-scale",
+        "default-alive",
+        "maker-schedule",
+        "great-work-project"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "paul-graham",
+          "paths": [
+            "plugins/paul-graham/skills/paul-graham/SKILL.md"
+          ]
+        },
+        {
+          "slug": "do-things-that-dont-scale",
+          "paths": [
+            "plugins/paul-graham/skills/do-things-that-dont-scale/SKILL.md"
+          ]
+        },
+        {
+          "slug": "default-alive",
+          "paths": [
+            "plugins/paul-graham/skills/default-alive/SKILL.md"
+          ]
+        },
+        {
+          "slug": "maker-schedule",
+          "paths": [
+            "plugins/paul-graham/skills/maker-schedule/SKILL.md"
+          ]
+        },
+        {
+          "slug": "great-work-project",
+          "paths": [
+            "plugins/paul-graham/skills/great-work-project/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-paul-graham/SKILL.md",
+      "portrait": "/avatars/paul-graham-portrait.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:paul-millerd",
+      "name": "Paul Millerd",
+      "kind": "person",
+      "category": "philosophy",
+      "confidence": 0.77,
+      "path": "jev",
+      "domains": [
+        "career",
+        "identity",
+        "work",
+        "uncertainty",
+        "freedom",
+        "consulting"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/paulmillerd",
+      "syntheses": 11,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/paul-millerd.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/the-pathless-path.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-paul-millerd/SKILL.md",
+      "portrait": "/avatars/paul-millerd-portrait.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:pendleton-ward",
+      "name": "Pendleton Ward",
+      "kind": "person",
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "creativity",
+        "animation",
+        "storytelling",
+        "creative block",
+        "play",
+        "kindness",
+        "collaboration",
+        "perfectionism",
+        "Adventure Time",
+        "The Midnight Gospel"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/pendletonward",
+      "syntheses": 3,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/pendleton-ward.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "creative-play",
+        "practice-kindness"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "creative-play",
+          "paths": [
+            "plugins/pendleton-ward/skills/creative-play/SKILL.md"
+          ]
+        },
+        {
+          "slug": "practice-kindness",
+          "paths": [
+            "plugins/pendleton-ward/skills/practice-kindness/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-pendleton-ward/SKILL.md",
+      "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/93/Pendleton_Ward_at_the_Tomorrow_Show.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:peter-thiel",
+      "name": "Peter Thiel",
+      "kind": "person",
+      "category": "business",
+      "confidence": 0.76,
+      "path": "jev",
+      "domains": [
+        "monopoly",
+        "contrarian thinking",
+        "startups",
+        "venture capital",
+        "competition",
+        "strategy",
+        "secrets",
+        "technology",
+        "philosophy",
+        "founders",
+        "long term",
+        "capital"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/peterthiel",
+      "syntheses": 18,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/peter-thiel.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/zero-to-one.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-peter-thiel/SKILL.md",
+      "portrait": "/portraits/peter-thiel.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:ray-dalio",
+      "name": "Ray Dalio",
+      "kind": "person",
+      "category": "investing",
+      "confidence": 0.83,
+      "path": "jev",
+      "domains": [
+        "decisions",
+        "principles",
+        "mistakes",
+        "transparency",
+        "economics",
+        "cycles",
+        "meditation",
+        "believability",
+        "open-mindedness",
+        "debt",
+        "diversification",
+        "reflection",
+        "root causes",
+        "humility"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/raydalio",
+      "syntheses": 43,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/ray-dalio.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/principles-for-dealing-with-the-changing-world-order.md",
+        "content/distilled/principles.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-ray-dalio/SKILL.md",
+      "portrait": "/portraits/ray-dalio.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:ricky-gervais",
+      "name": "Ricky Gervais",
+      "kind": "person",
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "comedy",
+        "stand-up",
+        "comedy writing",
+        "sitcom",
+        "character",
+        "satire",
+        "taboo",
+        "free speech",
+        "atheism",
+        "observation",
+        "editing",
+        "persona",
+        "directing",
+        "storytelling"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/rickygervais",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/ricky-gervais.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-ricky-gervais/SKILL.md",
+      "portrait": "/portraits/ricky-gervais.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:rose-blumkin",
+      "name": "Rose Blumkin",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "retail",
+        "business",
+        "pricing",
+        "customer trust",
+        "operations",
+        "bootstrapping",
+        "purchasing"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/roseblumkin",
+      "syntheses": 2,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/rose-blumkin.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-rose-blumkin/SKILL.md",
+      "portrait": null,
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no portrait",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:sam-walton",
+      "name": "Sam Walton",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "retail",
+        "customers",
+        "pricing",
+        "logistics",
+        "culture",
+        "frugality",
+        "expansion",
+        "operations",
+        "competition",
+        "hustle",
+        "small business",
+        "distribution"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/samwalton",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/sam-walton.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-sam-walton/SKILL.md",
+      "portrait": "/portraits/sam-walton.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:steve-jobs",
+      "name": "Steve Jobs",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "product",
+        "design",
+        "taste",
+        "focus",
+        "simplicity",
+        "marketing",
+        "storytelling",
+        "innovation",
+        "hardware",
+        "teams",
+        "reinvention",
+        "perfectionism"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/stevejobs",
+      "syntheses": 30,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/steve-jobs.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/steve-jobs-isaacson.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-steve-jobs/SKILL.md",
+      "portrait": "/portraits/steve-jobs.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:pressfield",
+      "name": "Steven Pressfield",
+      "kind": "person",
+      "category": "creativity",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "creative work",
+        "procrastination",
+        "discipline",
+        "fear",
+        "craft",
+        "turning pro"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/pressfield",
+      "syntheses": 24,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/pressfield.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/the-war-of-art.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-pressfield/SKILL.md",
+      "portrait": "/portraits/pressfield.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:tim-ferriss",
+      "name": "Tim Ferriss",
+      "kind": "person",
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "experimentation",
+        "productivity",
+        "fear",
+        "entrepreneurship",
+        "learning",
+        "lifestyle design"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/timferriss",
+      "syntheses": 39,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/tim-ferriss.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/tools-of-titans.md",
+        "content/distilled/tribe-of-mentors.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-tim-ferriss/SKILL.md",
+      "portrait": "/portraits/tim-ferriss.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:tobi-lutke",
+      "name": "Tobi Lütke",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "entrepreneurship",
+        "company building",
+        "product",
+        "engineering",
+        "software",
+        "first principles",
+        "differentiation",
+        "hiring",
+        "leadership",
+        "ecommerce",
+        "ai",
+        "craft",
+        "decision making",
+        "tools"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/tobilutke",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/tobi-lutke.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-tobi-lutke/SKILL.md",
+      "portrait": "/portraits/tobi-lutke.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:todd-graves",
+      "name": "Todd Graves",
+      "kind": "person",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "focus",
+        "ownership",
+        "restaurants",
+        "hospitality",
+        "quality",
+        "grit",
+        "bootstrapping",
+        "rejection",
+        "culture",
+        "operations",
+        "franchising",
+        "debt",
+        "crisis",
+        "purpose"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/toddgraves",
+      "syntheses": 1,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/todd-graves.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-todd-graves/SKILL.md",
+      "portrait": "/portraits/todd-graves.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:visakan",
+      "name": "Visakan Veerasamy",
+      "kind": "person",
+      "category": "creativity",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "writing in public",
+        "self esteem",
+        "creativity",
+        "internet culture",
+        "friendship",
+        "ambition"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/visakan",
+      "syntheses": 17,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/visakan.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/friendly-ambitious-nerd.md"
+      ],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/person-visakan/SKILL.md",
+      "portrait": "/avatars/visakan-portrait.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "person:warren-buffett",
+      "name": "Warren Buffett",
+      "kind": "person",
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "investing",
+        "capital allocation",
+        "business",
+        "decision making",
+        "risk",
+        "management",
+        "compounding",
+        "money",
+        "patience",
+        "incentives",
+        "communication",
+        "philanthropy"
+      ],
+      "availability": "ready",
+      "runtime": "figure",
+      "chat": true,
+      "url": "/warrenbuffett",
+      "syntheses": 34,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/warren-buffett.md"
+      ],
+      "linkedDistillations": [
+        "content/distilled/berkshire-shareholder-letters.md"
+      ],
+      "declaredSkills": [
+        "warren-buffett",
+        "owner-earnings",
+        "circle-of-competence",
+        "retained-earnings-test",
+        "financial-fortress",
+        "acquisition-filter"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "warren-buffett",
+          "paths": [
+            "plugins/warren-buffett/skills/warren-buffett/SKILL.md"
+          ]
+        },
+        {
+          "slug": "owner-earnings",
+          "paths": [
+            "plugins/warren-buffett/skills/owner-earnings/SKILL.md"
+          ]
+        },
+        {
+          "slug": "circle-of-competence",
+          "paths": [
+            "plugins/warren-buffett/skills/circle-of-competence/SKILL.md"
+          ]
+        },
+        {
+          "slug": "retained-earnings-test",
+          "paths": [
+            "plugins/warren-buffett/skills/retained-earnings-test/SKILL.md"
+          ]
+        },
+        {
+          "slug": "financial-fortress",
+          "paths": [
+            "plugins/warren-buffett/skills/financial-fortress/SKILL.md"
+          ]
+        },
+        {
+          "slug": "acquisition-filter",
+          "paths": [
+            "plugins/warren-buffett/skills/acquisition-filter/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/person-warren-buffett/SKILL.md",
+      "portrait": "/portraits/warren-buffett.jpg",
+      "voice": "shared casting",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:adventure-time-art-of-ooo",
+      "name": "Adventure Time: The Art of Ooo",
+      "kind": "book",
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/adventure-time-art-of-ooo",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-adventure-time-art-of-ooo/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:alexander-the-great-fox",
+      "name": "Alexander the Great",
+      "kind": "book",
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/alexander-the-great-fox",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-alexander-the-great-fox/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:anything-you-want",
+      "name": "Anything You Want",
+      "kind": "book",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/anythingyouwant",
+      "syntheses": 14,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/anything-you-want.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-anything-you-want/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:atomic-habits",
+      "name": "Atomic Habits",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/atomichabits",
+      "syntheses": 22,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/atomic-habits.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-atomic-habits/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:benjamin-franklin-an-american-life",
+      "name": "Benjamin Franklin: An American Life",
+      "kind": "book",
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "junto"
+      ],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/benjamin-franklin-an-american-life",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "junto"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "junto",
+          "paths": [
+            "plugins/franklin/skills/junto/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-benjamin-franklin-an-american-life/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:berkshire-shareholder-letters",
+      "name": "Berkshire Hathaway Shareholder Letters, 1977-2024",
+      "kind": "book",
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "warren-buffett",
+        "owner-earnings",
+        "circle-of-competence",
+        "retained-earnings-test",
+        "financial-fortress",
+        "acquisition-filter"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/berkshireshareholderletters",
+      "syntheses": 34,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/berkshire-shareholder-letters.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "warren-buffett",
+        "owner-earnings",
+        "circle-of-competence",
+        "retained-earnings-test",
+        "financial-fortress",
+        "acquisition-filter"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "warren-buffett",
+          "paths": [
+            "plugins/warren-buffett/skills/warren-buffett/SKILL.md"
+          ]
+        },
+        {
+          "slug": "owner-earnings",
+          "paths": [
+            "plugins/warren-buffett/skills/owner-earnings/SKILL.md"
+          ]
+        },
+        {
+          "slug": "circle-of-competence",
+          "paths": [
+            "plugins/warren-buffett/skills/circle-of-competence/SKILL.md"
+          ]
+        },
+        {
+          "slug": "retained-earnings-test",
+          "paths": [
+            "plugins/warren-buffett/skills/retained-earnings-test/SKILL.md"
+          ]
+        },
+        {
+          "slug": "financial-fortress",
+          "paths": [
+            "plugins/warren-buffett/skills/financial-fortress/SKILL.md"
+          ]
+        },
+        {
+          "slug": "acquisition-filter",
+          "paths": [
+            "plugins/warren-buffett/skills/acquisition-filter/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-berkshire-shareholder-letters/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:billion-dollar-loser",
+      "name": "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork",
+      "kind": "book",
+      "category": "business",
+      "confidence": 0.96,
+      "path": "jev",
+      "domains": [
+        "mission-as-moat",
+        "narrative-arbitrage"
+      ],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/billion-dollar-loser",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "mission-as-moat",
+        "narrative-arbitrage"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "mission-as-moat",
+          "paths": [
+            "plugins/adam-neumann/skills/mission-as-moat/SKILL.md"
+          ]
+        },
+        {
+          "slug": "narrative-arbitrage",
+          "paths": [
+            "plugins/adam-neumann/skills/narrative-arbitrage/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-billion-dollar-loser/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:deep-work",
+      "name": "Deep Work",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/deepwork",
+      "syntheses": 9,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/deep-work.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-deep-work/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:elon-musk-isaacson",
+      "name": "Elon Musk",
+      "kind": "book",
+      "category": "business",
+      "confidence": 0.9,
+      "path": "jev",
+      "domains": [
+        "first-principles",
+        "five-step-algorithm",
+        "idiot-index"
+      ],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/elon-musk-isaacson",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "first-principles",
+        "five-step-algorithm",
+        "idiot-index"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "first-principles",
+          "paths": [
+            "plugins/elon/skills/first-principles/SKILL.md"
+          ]
+        },
+        {
+          "slug": "five-step-algorithm",
+          "paths": [
+            "plugins/elon/skills/five-step-algorithm/SKILL.md"
+          ]
+        },
+        {
+          "slug": "idiot-index",
+          "paths": [
+            "plugins/elon/skills/idiot-index/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-elon-musk-isaacson/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:elon-musk-vance",
+      "name": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+      "kind": "book",
+      "category": "business",
+      "confidence": 0.98,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/elonmuskvance",
+      "syntheses": 21,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/elon-musk-vance.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-elon-musk-vance/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:fooled-by-randomness",
+      "name": "Fooled by Randomness",
+      "kind": "book",
+      "category": "investing",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "alternative-histories",
+        "count-the-monkeys",
+        "match-the-observation-window",
+        "weight-the-magnitude",
+        "distrust-the-hot-streak",
+        "falsify-before-you-commit"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/fooledbyrandomness",
+      "syntheses": 16,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/fooled-by-randomness.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "alternative-histories",
+        "count-the-monkeys",
+        "match-the-observation-window",
+        "weight-the-magnitude",
+        "distrust-the-hot-streak",
+        "falsify-before-you-commit"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "alternative-histories",
+          "paths": [
+            "plugins/nassim-taleb/skills/alternative-histories/SKILL.md"
+          ]
+        },
+        {
+          "slug": "count-the-monkeys",
+          "paths": [
+            "plugins/nassim-taleb/skills/count-the-monkeys/SKILL.md"
+          ]
+        },
+        {
+          "slug": "match-the-observation-window",
+          "paths": [
+            "plugins/nassim-taleb/skills/match-the-observation-window/SKILL.md"
+          ]
+        },
+        {
+          "slug": "weight-the-magnitude",
+          "paths": [
+            "plugins/nassim-taleb/skills/weight-the-magnitude/SKILL.md"
+          ]
+        },
+        {
+          "slug": "distrust-the-hot-streak",
+          "paths": [
+            "plugins/nassim-taleb/skills/distrust-the-hot-streak/SKILL.md"
+          ]
+        },
+        {
+          "slug": "falsify-before-you-commit",
+          "paths": [
+            "plugins/nassim-taleb/skills/falsify-before-you-commit/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-fooled-by-randomness/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:friendly-ambitious-nerd",
+      "name": "Friendly Ambitious Nerd",
+      "kind": "book",
+      "category": "relationships",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/friendlyambitiousnerd",
+      "syntheses": 17,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/friendly-ambitious-nerd.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-friendly-ambitious-nerd/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:from-third-world-to-first",
+      "name": "From Third World to First: The Singapore Story 1965-2000",
+      "kind": "book",
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "pragmatist-test",
+        "incorruptibility"
+      ],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/from-third-world-to-first",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "pragmatist-test",
+        "incorruptibility"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "pragmatist-test",
+          "paths": [
+            "plugins/lee-kuan-yew/skills/pragmatist-test/SKILL.md"
+          ]
+        },
+        {
+          "slug": "incorruptibility",
+          "paths": [
+            "plugins/lee-kuan-yew/skills/incorruptibility/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-from-third-world-to-first/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:hell-yeah-or-no",
+      "name": "Hell Yeah or No",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": 0.99,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/hellyeahorno",
+      "syntheses": 13,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/hell-yeah-or-no.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-hell-yeah-or-no/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:how-to-live",
+      "name": "How to Live",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 0.99,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/howtolive",
+      "syntheses": 28,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/how-to-live.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-how-to-live/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:its-time-to-build",
+      "name": "It's Time to Build",
+      "kind": "book",
+      "category": "business",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "its-time-to-build"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/itstimetobuild",
+      "syntheses": 5,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/its-time-to-build.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "its-time-to-build"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "its-time-to-build",
+          "paths": [
+            "plugins/marc-andreessen/skills/its-time-to-build/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-its-time-to-build/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:letters-from-a-stoic",
+      "name": "Letters from a Stoic (Epistulae Morales ad Lucilium)",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 0.99,
+      "path": "jev",
+      "domains": [
+        "letters-from-a-stoic"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/lettersfromastoic",
+      "syntheses": 38,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/letters-from-a-stoic.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "letters-from-a-stoic"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "letters-from-a-stoic",
+          "paths": [
+            "plugins/seneca/skills/letters-from-a-stoic/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-letters-from-a-stoic/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:life-of-alexander-plutarch",
+      "name": "Life of Alexander",
+      "kind": "book",
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "lead-from-front"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/lifeofalexanderplutarch",
+      "syntheses": 16,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/life-of-alexander-plutarch.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "lead-from-front"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "lead-from-front",
+          "paths": [
+            "plugins/alexander/skills/lead-from-front/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-life-of-alexander-plutarch/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:meditations",
+      "name": "Meditations",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "dichotomy-of-control",
+        "view-from-above",
+        "memento-mori"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/meditations",
+      "syntheses": 12,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/meditations.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "dichotomy-of-control",
+        "view-from-above",
+        "memento-mori"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "dichotomy-of-control",
+          "paths": [
+            "plugins/marcus-aurelius/skills/dichotomy-of-control/SKILL.md"
+          ]
+        },
+        {
+          "slug": "view-from-above",
+          "paths": [
+            "plugins/marcus-aurelius/skills/view-from-above/SKILL.md"
+          ]
+        },
+        {
+          "slug": "memento-mori",
+          "paths": [
+            "plugins/marcus-aurelius/skills/memento-mori/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-meditations/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:mindset",
+      "name": "Mindset: The New Psychology of Success",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": 0.93,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/mindset",
+      "syntheses": 11,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/mindset.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-mindset/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:on-anger",
+      "name": "On Anger (De Ira)",
+      "kind": "book",
+      "category": "wellbeing",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "on-anger"
+      ],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/on-anger",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "on-anger"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "on-anger",
+          "paths": [
+            "plugins/seneca/skills/on-anger/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-on-anger/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:on-the-shortness-of-life",
+      "name": "On the Shortness of Life (De Brevitate Vitae)",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "on-the-shortness-of-life"
+      ],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/on-the-shortness-of-life",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "on-the-shortness-of-life"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "on-the-shortness-of-life",
+          "paths": [
+            "plugins/seneca/skills/on-the-shortness-of-life/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-on-the-shortness-of-life/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:one-mans-view-of-the-world",
+      "name": "One Man's View of the World",
+      "kind": "book",
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/one-mans-view-of-the-world",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-one-mans-view-of-the-world/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:paul-graham-essays",
+      "name": "Paul Graham: Selected Essays",
+      "kind": "book",
+      "category": "business",
+      "confidence": 0.92,
+      "path": "jev",
+      "domains": [
+        "paul-graham",
+        "do-things-that-dont-scale",
+        "default-alive",
+        "maker-schedule",
+        "great-work-project"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/paulgrahamessays",
+      "syntheses": 6,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/paul-graham-essays.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "paul-graham",
+        "do-things-that-dont-scale",
+        "default-alive",
+        "maker-schedule",
+        "great-work-project"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "paul-graham",
+          "paths": [
+            "plugins/paul-graham/skills/paul-graham/SKILL.md"
+          ]
+        },
+        {
+          "slug": "do-things-that-dont-scale",
+          "paths": [
+            "plugins/paul-graham/skills/do-things-that-dont-scale/SKILL.md"
+          ]
+        },
+        {
+          "slug": "default-alive",
+          "paths": [
+            "plugins/paul-graham/skills/default-alive/SKILL.md"
+          ]
+        },
+        {
+          "slug": "maker-schedule",
+          "paths": [
+            "plugins/paul-graham/skills/maker-schedule/SKILL.md"
+          ]
+        },
+        {
+          "slug": "great-work-project",
+          "paths": [
+            "plugins/paul-graham/skills/great-work-project/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-paul-graham-essays/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:pendleton-ward-selected-interviews",
+      "name": "Pendleton Ward: Selected Public Interviews",
+      "kind": "book",
+      "category": "creativity",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "creative-play",
+        "practice-kindness"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/pendletonwardselectedinterviews",
+      "syntheses": 3,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "creative-play",
+        "practice-kindness"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "creative-play",
+          "paths": [
+            "plugins/pendleton-ward/skills/creative-play/SKILL.md"
+          ]
+        },
+        {
+          "slug": "practice-kindness",
+          "paths": [
+            "plugins/pendleton-ward/skills/practice-kindness/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-pendleton-ward-selected-interviews/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:poor-charlies-almanack",
+      "name": "Poor Charlie's Almanack",
+      "kind": "book",
+      "category": "investing",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [
+        "charlie-munger",
+        "invert-the-problem",
+        "incentive-audit",
+        "lollapalooza-check",
+        "berkshire-system",
+        "deserved-trust"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/poorcharliesalmanack",
+      "syntheses": 22,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/poor-charlies-almanack.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "charlie-munger",
+        "invert-the-problem",
+        "incentive-audit",
+        "lollapalooza-check",
+        "berkshire-system",
+        "deserved-trust"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "charlie-munger",
+          "paths": [
+            "plugins/charlie-munger/skills/charlie-munger/SKILL.md"
+          ]
+        },
+        {
+          "slug": "invert-the-problem",
+          "paths": [
+            "plugins/charlie-munger/skills/invert-the-problem/SKILL.md"
+          ]
+        },
+        {
+          "slug": "incentive-audit",
+          "paths": [
+            "plugins/charlie-munger/skills/incentive-audit/SKILL.md"
+          ]
+        },
+        {
+          "slug": "lollapalooza-check",
+          "paths": [
+            "plugins/charlie-munger/skills/lollapalooza-check/SKILL.md"
+          ]
+        },
+        {
+          "slug": "berkshire-system",
+          "paths": [
+            "plugins/charlie-munger/skills/berkshire-system/SKILL.md"
+          ]
+        },
+        {
+          "slug": "deserved-trust",
+          "paths": [
+            "plugins/charlie-munger/skills/deserved-trust/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-poor-charlies-almanack/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:principles",
+      "name": "Principles",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": 0.9,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/principles",
+      "syntheses": 29,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/principles.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-principles/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:principles-for-dealing-with-the-changing-world-order",
+      "name": "Principles for Dealing with the Changing World Order",
+      "kind": "book",
+      "category": "leadership",
+      "confidence": 0.9,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/principlesfordealingwiththechangingworldorder",
+      "syntheses": 7,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/principles-for-dealing-with-the-changing-world-order.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-principles-for-dealing-with-the-changing-world-order/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:reason-is-fun-essays",
+      "name": "Reason Is Fun: Selected Essays",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/reasonisfunessays",
+      "syntheses": 11,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/reason-is-fun-essays.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-reason-is-fun-essays/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:siddhartha",
+      "name": "Siddhartha",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/siddhartha",
+      "syntheses": 12,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/siddhartha.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-siddhartha/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:skin-in-the-game",
+      "name": "Skin in the Game",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 0.88,
+      "path": "jev",
+      "domains": [
+        "portfolio-not-opinion",
+        "minority-rule",
+        "intellectual-yet-idiot",
+        "skin-of-others-audit",
+        "green-lumber-test",
+        "merchandising-of-virtue"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/skininthegame",
+      "syntheses": 21,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/skin-in-the-game.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "portfolio-not-opinion",
+        "minority-rule",
+        "intellectual-yet-idiot",
+        "skin-of-others-audit",
+        "green-lumber-test",
+        "merchandising-of-virtue"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "portfolio-not-opinion",
+          "paths": [
+            "plugins/nassim-taleb/skills/portfolio-not-opinion/SKILL.md"
+          ]
+        },
+        {
+          "slug": "minority-rule",
+          "paths": [
+            "plugins/nassim-taleb/skills/minority-rule/SKILL.md"
+          ]
+        },
+        {
+          "slug": "intellectual-yet-idiot",
+          "paths": [
+            "plugins/nassim-taleb/skills/intellectual-yet-idiot/SKILL.md"
+          ]
+        },
+        {
+          "slug": "skin-of-others-audit",
+          "paths": [
+            "plugins/nassim-taleb/skills/skin-of-others-audit/SKILL.md"
+          ]
+        },
+        {
+          "slug": "green-lumber-test",
+          "paths": [
+            "plugins/nassim-taleb/skills/green-lumber-test/SKILL.md"
+          ]
+        },
+        {
+          "slug": "merchandising-of-virtue",
+          "paths": [
+            "plugins/nassim-taleb/skills/merchandising-of-virtue/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-skin-in-the-game/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:steve-jobs-isaacson",
+      "name": "Steve Jobs",
+      "kind": "book",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/stevejobsisaacson",
+      "syntheses": 28,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/steve-jobs-isaacson.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-steve-jobs-isaacson/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:tao-te-ching",
+      "name": "Tao Te Ching",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 0.98,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/taoteching",
+      "syntheses": 17,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/tao-te-ching.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-tao-te-ching/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:autobiography-of-benjamin-franklin",
+      "name": "The Autobiography of Benjamin Franklin",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "thirteen-virtues"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/autobiographyofbenjaminfranklin",
+      "syntheses": 20,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/autobiography-of-benjamin-franklin.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "thirteen-virtues"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "thirteen-virtues",
+          "paths": [
+            "plugins/franklin/skills/thirteen-virtues/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-autobiography-of-benjamin-franklin/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:the-beginning-of-infinity",
+      "name": "The Beginning of Infinity",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "jump-to-universality",
+        "replicator-interest",
+        "spot-bad-philosophy",
+        "choice-as-explanation",
+        "rational-vs-anti-rational-memes",
+        "unsustainable-by-design"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/thebeginningofinfinity",
+      "syntheses": 18,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/the-beginning-of-infinity.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "jump-to-universality",
+        "replicator-interest",
+        "spot-bad-philosophy",
+        "choice-as-explanation",
+        "rational-vs-anti-rational-memes",
+        "unsustainable-by-design"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "jump-to-universality",
+          "paths": [
+            "plugins/deutsch/skills/jump-to-universality/SKILL.md"
+          ]
+        },
+        {
+          "slug": "replicator-interest",
+          "paths": [
+            "plugins/deutsch/skills/replicator-interest/SKILL.md"
+          ]
+        },
+        {
+          "slug": "spot-bad-philosophy",
+          "paths": [
+            "plugins/deutsch/skills/spot-bad-philosophy/SKILL.md"
+          ]
+        },
+        {
+          "slug": "choice-as-explanation",
+          "paths": [
+            "plugins/deutsch/skills/choice-as-explanation/SKILL.md"
+          ]
+        },
+        {
+          "slug": "rational-vs-anti-rational-memes",
+          "paths": [
+            "plugins/deutsch/skills/rational-vs-anti-rational-memes/SKILL.md"
+          ]
+        },
+        {
+          "slug": "unsustainable-by-design",
+          "paths": [
+            "plugins/deutsch/skills/unsustainable-by-design/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-the-beginning-of-infinity/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:bible",
+      "name": "The Bible: Wisdom & Teaching",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/bible",
+      "syntheses": 40,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/bible.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-bible/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:the-black-swan",
+      "name": "The Black Swan",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 0.8,
+      "path": "jev",
+      "domains": [
+        "black-swan-triplet-test",
+        "mediocristan-extremistan-map",
+        "turkey-problem",
+        "narrative-fallacy-guard",
+        "silent-evidence-audit",
+        "ludic-fallacy-check",
+        "fourth-quadrant-map"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/theblackswan",
+      "syntheses": 30,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/the-black-swan.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "black-swan-triplet-test",
+        "mediocristan-extremistan-map",
+        "turkey-problem",
+        "narrative-fallacy-guard",
+        "silent-evidence-audit",
+        "ludic-fallacy-check",
+        "fourth-quadrant-map"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "black-swan-triplet-test",
+          "paths": [
+            "plugins/nassim-taleb/skills/black-swan-triplet-test/SKILL.md"
+          ]
+        },
+        {
+          "slug": "mediocristan-extremistan-map",
+          "paths": [
+            "plugins/nassim-taleb/skills/mediocristan-extremistan-map/SKILL.md"
+          ]
+        },
+        {
+          "slug": "turkey-problem",
+          "paths": [
+            "plugins/nassim-taleb/skills/turkey-problem/SKILL.md"
+          ]
+        },
+        {
+          "slug": "narrative-fallacy-guard",
+          "paths": [
+            "plugins/nassim-taleb/skills/narrative-fallacy-guard/SKILL.md"
+          ]
+        },
+        {
+          "slug": "silent-evidence-audit",
+          "paths": [
+            "plugins/nassim-taleb/skills/silent-evidence-audit/SKILL.md"
+          ]
+        },
+        {
+          "slug": "ludic-fallacy-check",
+          "paths": [
+            "plugins/nassim-taleb/skills/ludic-fallacy-check/SKILL.md"
+          ]
+        },
+        {
+          "slug": "fourth-quadrant-map",
+          "paths": [
+            "plugins/nassim-taleb/skills/fourth-quadrant-map/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-the-black-swan/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:the-book-of-elon",
+      "name": "The Book of Elon",
+      "kind": "book",
+      "category": "business",
+      "confidence": 0.86,
+      "path": "jev",
+      "domains": [],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/the-book-of-elon",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-the-book-of-elon/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:campaigns-of-alexander-arrian",
+      "name": "The Campaigns of Alexander (Anabasis Alexandri)",
+      "kind": "book",
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "decisive-point"
+      ],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/campaigns-of-alexander-arrian",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "decisive-point"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "decisive-point",
+          "paths": [
+            "plugins/alexander/skills/decisive-point/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-campaigns-of-alexander-arrian/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:the-cult-of-we",
+      "name": "The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion",
+      "kind": "book",
+      "category": "business",
+      "confidence": 0.8200000000000001,
+      "path": "jev",
+      "domains": [
+        "s1-reality-check"
+      ],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/the-cult-of-we",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "s1-reality-check"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "s1-reality-check",
+          "paths": [
+            "plugins/adam-neumann/skills/s1-reality-check/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-the-cult-of-we/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:the-fabric-of-reality",
+      "name": "The Fabric of Reality",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 0.85,
+      "path": "jev",
+      "domains": [
+        "problem-solving-cycle",
+        "kicked-rock-test",
+        "universal-version",
+        "certainty-audit",
+        "seminar-room-rule"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/thefabricofreality",
+      "syntheses": 14,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/the-fabric-of-reality.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "problem-solving-cycle",
+        "kicked-rock-test",
+        "universal-version",
+        "certainty-audit",
+        "seminar-room-rule"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "problem-solving-cycle",
+          "paths": [
+            "plugins/deutsch/skills/problem-solving-cycle/SKILL.md"
+          ]
+        },
+        {
+          "slug": "kicked-rock-test",
+          "paths": [
+            "plugins/deutsch/skills/kicked-rock-test/SKILL.md"
+          ]
+        },
+        {
+          "slug": "universal-version",
+          "paths": [
+            "plugins/deutsch/skills/universal-version/SKILL.md"
+          ]
+        },
+        {
+          "slug": "certainty-audit",
+          "paths": [
+            "plugins/deutsch/skills/certainty-audit/SKILL.md"
+          ]
+        },
+        {
+          "slug": "seminar-room-rule",
+          "paths": [
+            "plugins/deutsch/skills/seminar-room-rule/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-the-fabric-of-reality/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:the-nvidia-way",
+      "name": "The Nvidia Way",
+      "kind": "book",
+      "category": "business",
+      "confidence": 0.97,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/thenvidiaway",
+      "syntheses": 17,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/the-nvidia-way.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-the-nvidia-way/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:the-pathless-path",
+      "name": "The Pathless Path",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/thepathlesspath",
+      "syntheses": 11,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/the-pathless-path.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-the-pathless-path/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:the-singapore-story",
+      "name": "The Singapore Story: Memoirs of Lee Kuan Yew",
+      "kind": "book",
+      "category": "leadership",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/the-singapore-story",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-the-singapore-story/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:techno-optimist-manifesto",
+      "name": "The Techno-Optimist Manifesto",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 0.8,
+      "path": "jev",
+      "domains": [
+        "techno-optimism"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/technooptimistmanifesto",
+      "syntheses": 7,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/techno-optimist-manifesto.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "techno-optimism"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "techno-optimism",
+          "paths": [
+            "plugins/marc-andreessen/skills/techno-optimism/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-techno-optimist-manifesto/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:the-war-of-art",
+      "name": "The War of Art",
+      "kind": "book",
+      "category": "creativity",
+      "confidence": null,
+      "path": "incumbent",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/thewarofart",
+      "syntheses": 24,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/the-war-of-art.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-the-war-of-art/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:think-and-grow-rich",
+      "name": "Think and Grow Rich",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": 0.84,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/thinkandgrowrich",
+      "syntheses": 15,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/think-and-grow-rich.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-think-and-grow-rich/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:thinking-in-bets",
+      "name": "Thinking in Bets",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 0.75,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/thinkinginbets",
+      "syntheses": 7,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/thinking-in-bets.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-thinking-in-bets/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:titan-chernow",
+      "name": "Titan: The Life of John D. Rockefeller, Sr.",
+      "kind": "book",
+      "category": "business",
+      "confidence": 0.96,
+      "path": "jev",
+      "domains": [
+        "ledger",
+        "crisis"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/titanchernow",
+      "syntheses": 36,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/titan-chernow.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "ledger",
+        "crisis"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "ledger",
+          "paths": [
+            "plugins/rockefeller/skills/ledger/SKILL.md"
+          ]
+        },
+        {
+          "slug": "crisis",
+          "paths": [
+            "plugins/rockefeller/skills/crisis/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-titan-chernow/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:tools-of-titans",
+      "name": "Tools of Titans",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/toolsoftitans",
+      "syntheses": 25,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/tools-of-titans.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-tools-of-titans/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:tribe-of-mentors",
+      "name": "Tribe of Mentors",
+      "kind": "book",
+      "category": "effectiveness",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/tribeofmentors",
+      "syntheses": 14,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/tribe-of-mentors.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-tribe-of-mentors/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:useful-not-true",
+      "name": "Useful Not True",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 0.98,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/usefulnottrue",
+      "syntheses": 13,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/useful-not-true.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-useful-not-true/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:why-software-is-eating-the-world",
+      "name": "Why Software Is Eating the World",
+      "kind": "book",
+      "category": "business",
+      "confidence": 0.89,
+      "path": "jev",
+      "domains": [
+        "software-eats-the-world"
+      ],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/whysoftwareiseatingtheworld",
+      "syntheses": 6,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/why-software-is-eating-the-world.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "software-eats-the-world"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "software-eats-the-world",
+          "paths": [
+            "plugins/marc-andreessen/skills/software-eats-the-world/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-why-software-is-eating-the-world/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:your-music-and-people",
+      "name": "Your Music and People",
+      "kind": "book",
+      "category": "business",
+      "confidence": 0.95,
+      "path": "jev",
+      "domains": [],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/your-music-and-people",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-your-music-and-people/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:zero-to-one",
+      "name": "Zero to One: Notes on Startups, or How to Build the Future",
+      "kind": "book",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/zerotoone",
+      "syntheses": 17,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/zero-to-one.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/book-zero-to-one/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "book:zombies-in-western-culture",
+      "name": "Zombies in Western Culture: A Twenty-First Century Crisis",
+      "kind": "book",
+      "category": "philosophy",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [
+        "vervaeke",
+        "four-kinds-of-knowing",
+        "relevance-realization",
+        "ecology-of-practices"
+      ],
+      "availability": "building",
+      "runtime": "source",
+      "chat": false,
+      "url": "/books/zombies-in-western-culture",
+      "syntheses": 0,
+      "missingFiles": 0,
+      "ownDistillations": [],
+      "linkedDistillations": [],
+      "declaredSkills": [
+        "vervaeke",
+        "four-kinds-of-knowing",
+        "relevance-realization",
+        "ecology-of-practices"
+      ],
+      "skillArtifacts": [
+        {
+          "slug": "vervaeke",
+          "paths": [
+            "plugins/vervaeke/skills/vervaeke/SKILL.md"
+          ]
+        },
+        {
+          "slug": "four-kinds-of-knowing",
+          "paths": [
+            "plugins/vervaeke/skills/four-kinds-of-knowing/SKILL.md"
+          ]
+        },
+        {
+          "slug": "relevance-realization",
+          "paths": [
+            "plugins/vervaeke/skills/relevance-realization/SKILL.md"
+          ]
+        },
+        {
+          "slug": "ecology-of-practices",
+          "paths": [
+            "plugins/vervaeke/skills/ecology-of-practices/SKILL.md"
+          ]
+        }
+      ],
+      "standardWorkflow": "packs/guide-workflows/book-zombies-in-western-culture/SKILL.md",
+      "portrait": null,
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "no web chat",
+        "no retrievable synthesis",
+        "no own one-page distillation",
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "channel:founders-podcast",
+      "name": "Founders Podcast",
+      "kind": "channel",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/sage",
+      "syntheses": 209,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/founders-podcast.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/channel-founders-podcast/SKILL.md",
+      "portrait": "/channels/founders-podcast.jpg",
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "channel:invest-like-the-best",
+      "name": "Invest Like the Best",
+      "kind": "channel",
+      "category": "investing",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/investlikethebest",
+      "syntheses": 28,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/invest-like-the-best.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/channel-invest-like-the-best/SKILL.md",
+      "portrait": "/channels/invest-like-the-best.jpg",
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "channel:starter-story",
+      "name": "Starter Story",
+      "kind": "channel",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/starterstory",
+      "syntheses": 28,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/starter-story.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/channel-starter-story/SKILL.md",
+      "portrait": "/channels/starter-story.jpg",
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    },
+    {
+      "id": "channel:y-combinator",
+      "name": "Y Combinator",
+      "kind": "channel",
+      "category": "business",
+      "confidence": 1,
+      "path": "jev",
+      "domains": [],
+      "availability": "ready",
+      "runtime": "source",
+      "chat": true,
+      "url": "/ycombinator",
+      "syntheses": 35,
+      "missingFiles": 0,
+      "ownDistillations": [
+        "content/distilled/y-combinator.md"
+      ],
+      "linkedDistillations": [],
+      "declaredSkills": [],
+      "skillArtifacts": [],
+      "standardWorkflow": "packs/guide-workflows/channel-y-combinator/SKILL.md",
+      "portrait": "/channels/y-combinator.jpg",
+      "voice": "not applicable",
+      "eve": "package authored; activation gated",
+      "gaps": [
+        "full corpus/rights/answer-quality audit not certified"
+      ]
+    }
+  ]
+}

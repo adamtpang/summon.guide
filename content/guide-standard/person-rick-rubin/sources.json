@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "guideId": "person:rick-rubin",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "4f0ddfd9ab69cd27",
+      "title": "How Rick Rubin Works",
+      "url": "https://www.youtube.com/watch?v=AmkAH6MzRgM",
+      "synthesis": "content/knowledge/founders/038-how-rick-rubin-works.md",
+      "contentHash": "1a9110e859a0efa9167d0802b569308bd6c1d357f3337d0e10de6e9e09b4585d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c577bf6c83c6323f",
+      "title": "The Creative Genius of Rick Rubin",
+      "url": "https://www.youtube.com/watch?v=wYi4emYR89I",
+      "synthesis": "content/knowledge/founders/039-the-creative-genius-of-rick-rubin.md",
+      "contentHash": "c3ad61735f9bdf726fb5a072e3e3070264a644af2154f061e24aa945c84d5263",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8759691f0ed5bc78",
+      "title": "Rick Rubin on Finding Your Life’s Work",
+      "url": "https://www.youtube.com/watch?v=g6MEDOY7tHo",
+      "synthesis": "content/knowledge/interviews/001-rick-rubin-on-finding-your-life-s-work.md",
+      "contentHash": "562c6ad18351b9f5f707cfb5bab7c91c014fdc8ac19f9e9f7eaf3a8daf9149ab",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

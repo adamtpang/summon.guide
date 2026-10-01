@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "guideId": "book:meditations",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "372ca417374f7f7b",
+      "title": "Book One: Debts and Lessons",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/001-book-one.md",
+      "contentHash": "8a68d2fa77d48c0884dec05c4a781b0122599125f067baf497a5cf888e741458",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "341fa87873f9c2cb",
+      "title": "Book Two: The Morning Rehearsal",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/002-book-two.md",
+      "contentHash": "3212d132c9460b7c7567f1cf7f98ae359c58d3aa054e4eaa6a11bf00e2791f65",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5a94f55215b5f0e1",
+      "title": "Book Three: The Cost of Delay",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/003-book-three.md",
+      "contentHash": "be034cc8249f0674104e6b693ca05e6dc2672a0164537bea282add6b382472b1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "486a5977ce453fda",
+      "title": "Book Four: Retreat Into Yourself",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/004-book-four.md",
+      "contentHash": "cd78e1e7bc743a09fef6bbebcee88ad35e1713b554220552070e23c9d796b482",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2bec6c0d97aaeaed",
+      "title": "Book Five: Getting Out of Bed",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/005-book-five.md",
+      "contentHash": "ed57a7cb33cf3467aa9c5aa8c1323a84d1d8fb478152071d1a632bcf8459c8f3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "50d277d857faf66e",
+      "title": "Book Six: Do Not Become a Caesar",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/006-book-six.md",
+      "contentHash": "78529b974c95ebdf9f02a745aa3e66cc9301747e7e7aa0a5a9a0122f799ccb94",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ed6452a6f674878c",
+      "title": "Book Seven: The View From Above",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/007-book-seven.md",
+      "contentHash": "b09d1e2fdf70c5b19a6997ce8103cbc652c8c32c40ad44775ae8345828035a87",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "26c06d1cea42445b",
+      "title": "Book Eight: Everyone You Outlived Also Died",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/008-book-eight.md",
+      "contentHash": "01566eb848110f9d2892f247b07c69bb5f05d830434199d56d9c807fed20f66c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e5ac1df56c0c226c",
+      "title": "Book Nine: Praying for the Wrong Things",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/009-book-nine.md",
+      "contentHash": "c5e7c90066040456b2a6ae197bf1615df8bee9f027dd3992d637ed123dc0c243",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "df314d22526faed7",
+      "title": "Book Ten: Names You Cannot Afford to Lose",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/010-book-ten.md",
+      "contentHash": "071236500570c1d1d361a1b169692001a1cbe0f2b6b980bbbbc72748eb3d3317",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9f06848d4ffba9b7",
+      "title": "Book Eleven: Nine Rules for Not Hating Anyone",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/011-book-eleven.md",
+      "contentHash": "b052951a9fc747f3ff4250dc16e872320c67053049dda903b4f3d6c436309df1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "19f1caf940929dfe",
+      "title": "Book Twelve: Everything You Wanted Is Already Available",
+      "url": null,
+      "synthesis": "content/knowledge/meditations/012-book-twelve.md",
+      "contentHash": "e29409c1a2c91e93dc7180fed45365d2599ba5af5088525d69d535045c2da5f4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

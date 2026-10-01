@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "guideId": "person:naoufal-fillali",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "b3cff97dc662cc51",
+      "title": "Keep the stable job, take the creative risk on the side",
+      "url": "https://www.youtube.com/watch?v=LO5tAzkcEeY",
+      "synthesis": "content/knowledge/naoufal-fillali/001-keep-the-day-job.md",
+      "contentHash": "51f4cd77d8db9f10293158a31448a06945110e441b28927bcdbb8717e91b7097",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "910a4d238096139e",
+      "title": "Find out which of your desires are borrowed",
+      "url": "https://www.youtube.com/watch?v=QyF1ewvwsiQ",
+      "synthesis": "content/knowledge/naoufal-fillali/002-borrowed-desires.md",
+      "contentHash": "2c3ddfc98811258910294cc89044b9dda8cf882d44c7c84a1cc05a55c3386032",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b7f698d39b779c7f",
+      "title": "Read old books, carry one everywhere, keep an anti-library",
+      "url": "https://www.youtube.com/watch?v=YkLTZyCae2I",
+      "synthesis": "content/knowledge/naoufal-fillali/003-read-old-books.md",
+      "contentHash": "e82bbc80ee6b29146ee567d824f3bd68d40d63635918fc68de10ffe412dff5fd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a75cd9f8544dfa79",
+      "title": "Avoid ruin, then seek out useful stress",
+      "url": "https://www.youtube.com/watch?v=Lm9LP3uUXNs",
+      "synthesis": "content/knowledge/naoufal-fillali/004-avoid-ruin-seek-stress.md",
+      "contentHash": "94e4753f56bbb2bb0e5dfee7e163b8a95827ba9825b71786c293ee4728dc9523",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1cd8da14088a70c5",
+      "title": "Put yourself where lucky breaks happen",
+      "url": "https://www.youtube.com/watch?v=LUUkCbaJ3hw",
+      "synthesis": "content/knowledge/naoufal-fillali/005-collect-lucky-breaks.md",
+      "contentHash": "864c767c31c95a5335a2c3be0d699a2b2ebd985c5f0eda615597d328790b4aa0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1d85e2e1d2bc77cc",
+      "title": "Treat talking to people as a skill you practice",
+      "url": "https://www.youtube.com/watch?v=MT3bx_PT9Qw",
+      "synthesis": "content/knowledge/naoufal-fillali/006-talk-to-strangers.md",
+      "contentHash": "764de7f301785eebb0e099701849f6a971d538f311c2bf5072503b2d4c5bbd80",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7220914fc8a3499b",
+      "title": "Become a modern polymath: stack skills and let them combine",
+      "url": "https://www.youtube.com/watch?v=A999kBACjMU",
+      "synthesis": "content/knowledge/naoufal-fillali/007-combine-your-skills.md",
+      "contentHash": "f6b42f5bdb68b0fc37273fb0420228c097e698ee3dcea532ed819438fa02c5fc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f1bd504b05a6b038",
+      "title": "Lead people as they are, not as you wish they were",
+      "url": "https://www.youtube.com/watch?v=RRgxDxaXlEY",
+      "synthesis": "content/knowledge/naoufal-fillali/008-leading-real-people.md",
+      "contentHash": "79409269ad695fd0605abaacfcbf018409213a82baba5e42bddea7bc7324303e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

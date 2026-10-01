@@ -1,0 +1,25 @@
+{
+  "local": {
+    "total": 116,
+    "withNotes": 95,
+    "readyPeopleWithoutNotes": [
+      "Dave Ramsey"
+    ],
+    "sageNotes": 209
+  },
+  "production": {
+    "total": 115,
+    "withNotes": 87,
+    "readyPeopleWithoutNotes": [
+      "Adam Neumann",
+      "Bob Marley",
+      "Dave Ramsey",
+      "Marie Curie",
+      "Pendleton Ward",
+      "Ricky Gervais",
+      "Sam Walton"
+    ],
+    "sageNotes": 209
+  },
+  "publicRuntime": "Query-aware retrieval of original syntheses; private full-transcript pilot is not used by the public Sage endpoint."
+}
