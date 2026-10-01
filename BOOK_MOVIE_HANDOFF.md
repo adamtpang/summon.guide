@@ -1,4 +1,4 @@
-# book.movie handoff — summon.guide voiceover
+# book.movie handoff, summon.guide voiceover
 
 **Status:** Audio path shipped on summon.guide. Visuals live in book.movie / Remotion.
 
@@ -13,7 +13,7 @@
 | Product surface | https://summon.guide/speak (local: `/speak`) |
 | Demo guide | Benjamin Franklin (`franklin`) |
 | Demo script | `content/demos/franklin-thirteen-virtues.md` |
-| Episode shape | Hook → 3 points → close (~90–120s) |
+| Episode shape | Hook → 3 points → close (~90-120s) |
 | API | `POST /api/tts` with `{ text, figureSlug, mode: "script", download: true }` |
 | Output | `audio/mpeg` mp3 (ElevenLabs) |
 | Artifact name | `{slug}-voiceover.mp3` e.g. `franklin-voiceover.mp3` |
@@ -30,9 +30,9 @@
 
 1. Accept the mp3 as the **master timeline** (duration = audio duration).
 2. Split script into beats (sentences / points); cut visuals on those boundaries.
-3. Visual language: editorial print — warm parchment, ink type, still portraits, restrained motion. No SaaS dashboard chrome.
+3. Visual language: editorial print, warm parchment, ink type, still portraits, restrained motion. No SaaS dashboard chrome.
 4. Optional: pull guide portrait from summon.guide `public/portraits/benjamin-franklin.jpg`.
-5. Export a 90–120s vertical or 16:9 essay short.
+5. Export a 90-120s vertical or 16:9 essay short.
 
 ## Contract (stable)
 

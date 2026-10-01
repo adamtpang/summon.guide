@@ -26,15 +26,15 @@ Stripe payment link on the paywall CTA.
 
 ## Key routes
 
-- / — home: search or browse the full roster of guides
-- /[figure] — a guide's profile page (e.g. /john-d-rockefeller)
-- /chat/[figure] — streaming chat with a guide
-- /chat/source/[slug] — chat grounded directly in a specific book's corpus
-- /skills — Claude Code skills packaged from these guides' frameworks, installable in a terminal
-- /speak — paste an essay, pick a guide, generate a 90-120s MP3 voiceover for video
-- /books — books that ground the guides, browsable by title
-- /library — knowledge library / episode index
-- /watch — video episodes made from the books
+- /, home: search or browse the full roster of guides
+- /[figure], a guide's profile page (e.g. /john-d-rockefeller)
+- /chat/[figure], streaming chat with a guide
+- /chat/source/[slug], chat grounded directly in a specific book's corpus
+- /skills, Claude Code skills packaged from these guides' frameworks, installable in a terminal
+- /speak, paste an essay, pick a guide, generate a 90-120s MP3 voiceover for video
+- /books, books that ground the guides, browsable by title
+- /library, knowledge library / episode index
+- /watch, video episodes made from the books
 
 ## Contact
 

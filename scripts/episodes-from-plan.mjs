@@ -104,7 +104,7 @@ for (const ep of episodes) {
   if (ep.points.length !== 3) {
     fail('episode "' + ep.slug + '" has ' + ep.points.length + ' points. The format is exactly 3.');
   }
-  if (/—|–/.test(JSON.stringify(ep))) {
+  if (/\u2014|\u2013/.test(JSON.stringify(ep))) {
     fail('episode "' + ep.slug + '" contains an em or en dash. The repo forbids them.');
   }
   const spoken = [ep.hook, ...ep.points, ep.close].join('\n\n');

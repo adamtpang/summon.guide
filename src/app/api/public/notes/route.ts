@@ -10,7 +10,7 @@ export function OPTIONS() {
 export async function POST(req: Request) {
   if (!allowPublicRequest(req)) return Response.json({ error: "Too many requests; retry in one minute" }, { status: 429, headers: { ...publicApiHeaders, "Retry-After": "60" } });
   const parsed = input.safeParse(await readPublicBody(req).catch(() => null));
-  if (!parsed.success) return Response.json({ error: "Provide a guide id, 2–600 character topic query and optional limit 1–6. Do not send a personal brief." }, { status: 400, headers: publicApiHeaders });
+  if (!parsed.success) return Response.json({ error: "Provide a guide id, 2-600 character topic query and optional limit 1-6. Do not send a personal brief." }, { status: 400, headers: publicApiHeaders });
   const episodes = publicGuideEpisodes(parsed.data.id);
   if (!episodes) return Response.json({ error: "Unknown guide id" }, { status: 404, headers: publicApiHeaders });
   return Response.json({ id: parsed.data.id, ...retrievePublicNotes(episodes, parsed.data.query, parsed.data.limit), generation: "host", evidence: "Selected synthesis excerpts; not full transcripts or a completeness guarantee" }, { headers: publicApiHeaders });

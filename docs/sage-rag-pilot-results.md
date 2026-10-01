@@ -1,4 +1,4 @@
-# Sage private RAG pilot results — 2026-09-10
+# Sage private RAG pilot results, 2026-09-10
 
 The private retrieval pilot works. It is not connected to production and does not
 establish Founders Notes parity. The small local generation model failed the smoke

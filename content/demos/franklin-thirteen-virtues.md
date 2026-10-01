@@ -1,8 +1,8 @@
-# Franklin demo — Thirteen Virtues (voiceover script)
+# Franklin demo, Thirteen Virtues (voiceover script)
 
 **Guide:** Benjamin Franklin (`franklin`)  
 **Path:** `/speak` → Load Franklin demo → Generate & play / Download mp3  
-**Target:** ~90–120s spoken (~200–300 words @ 145 wpm)  
+**Target:** ~90-120s spoken (~200-300 words @ 145 wpm)  
 **Style:** Hook → 3 points → close (Sivers-length classic essay)
 
 ---

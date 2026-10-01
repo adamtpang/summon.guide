@@ -49,7 +49,7 @@ function parseFollowups(text: string): { body: string; followups: string[] } {
 function cleanResponse(text: string): { displayText: string; citations: string[]; followups: string[] } {
   const { body: noCitations, citations } = parseCitations(text);
   const { body: cleanBody, followups } = parseFollowups(noCitations);
-  const displayText = cleanBody.replace(/—/g, ",").replace(/–/g, ",");
+  const displayText = cleanBody.replace(/\u2014/g, ",").replace(/\u2013/g, ",");
   return { displayText, citations, followups };
 }
 

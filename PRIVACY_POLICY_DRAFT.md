@@ -1,11 +1,11 @@
-# Privacy Policy — DRAFT, not yet published
+# Privacy Policy, DRAFT, not yet published
 
 **Status: draft for your review.** This is grounded in what the site's code
 actually does (verified against `prisma/schema.prisma`, `src/auth.ts`,
 `src/app/api/webhook/route.ts`, `src/app/providers.tsx`, and the TTS/chat
 routes), not a generic template. It is not legal advice, and a document like
 this carries real weight (GDPR/CCPA-adjacent obligations depending on where
-your users are) — have it reviewed before it goes live, especially the
+your users are), have it reviewed before it goes live, especially the
 sections marked `[NEEDS YOUR INPUT]`.
 
 Nothing here is wired into the live site yet. This is a standalone file for
@@ -13,17 +13,17 @@ you to edit and approve.
 
 ---
 
-**Effective date:** `[NEEDS YOUR INPUT — date you publish this]`
+**Effective date:** `[NEEDS YOUR INPUT, date you publish this]`
 
 summon.guide ("we," "us," "the site") is operated by
-`[NEEDS YOUR INPUT — your legal name or company name]`. This policy explains
+`[NEEDS YOUR INPUT, your legal name or company name]`. This policy explains
 what data summon.guide collects, why, and what happens to it.
 
 ## What we collect
 
 **If you sign in with Google:** your name, email address, and profile image,
 via Google's standard OAuth sign-in. We don't request any Google scopes
-beyond basic profile info — we never see your Google password, and we don't
+beyond basic profile info, we never see your Google password, and we don't
 access your email, calendar, or files.
 
 **If you don't sign in:** your free-trial message count is tracked only in
@@ -32,7 +32,7 @@ way to identify you.
 
 **Chat messages:** when you chat with a guide, your message is sent to
 Anthropic's Claude API to generate a response. **We do not store your chat
-messages or conversation history in our own database** — there is no
+messages or conversation history in our own database**, there is no
 message-history table in our database at all; each conversation exists only
 in your browser for the duration of your session. Anthropic processes the
 message to generate the reply, subject to Anthropic's own API terms and data
@@ -45,8 +45,7 @@ that text under its own privacy policy (see elevenlabs.io/privacy).
 **Feedback:** if you submit feedback on a guide (a 1-5 rating and an
 optional comment), we store it tied to your account and the guide you rated.
 
-**Payment:** if you purchase credits, Stripe handles the entire checkout —
-we never see or store your card number, expiration date, or CVV. Stripe
+**Payment:** if you purchase credits, Stripe handles the entire checkout, we never see or store your card number, expiration date, or CVV. Stripe
 sends us a webhook confirming a completed payment and the email address you
 paid with, which we use only to add credits to your account.
 
@@ -71,10 +70,10 @@ function you're using:
 
 | Service | What they receive | Why |
 |---|---|---|
-| Google | (nothing from us — you sign in directly with them) | Sign-in |
+| Google | (nothing from us, you sign in directly with them) | Sign-in |
 | Anthropic | Your chat message, the guide's grounding data | Generating the guide's reply |
 | ElevenLabs | Text of a response you asked to hear spoken | Voice generation |
-| Stripe | (nothing from us — you pay directly on their checkout) | Payment processing |
+| Stripe | (nothing from us, you pay directly on their checkout) | Payment processing |
 | PostHog, Vercel | Anonymous/aggregate usage events | Analytics |
 
 We do not sell your data to anyone, ever.
@@ -85,7 +84,7 @@ We do not sell your data to anyone, ever.
   your account exists.
 - **Feedback**: kept indefinitely as product feedback, unless you ask us to
   delete it.
-- **Chat messages**: not retained by us at all (see above) — governed by
+- **Chat messages**: not retained by us at all (see above), governed by
   Anthropic's own retention policy on their end.
 - **Anonymous free-trial usage**: lives only in your browser's local
   storage; clearing your browser data clears it.
@@ -93,7 +92,7 @@ We do not sell your data to anyone, ever.
 ## Your rights
 
 You can ask us to delete your account and associated data at any time by
-contacting `[NEEDS YOUR INPUT — support email]`. Since chat messages aren't
+contacting `[NEEDS YOUR INPUT, support email]`. Since chat messages aren't
 stored by us, there's nothing to delete there beyond what Anthropic may
 retain per their own policy.
 
@@ -110,7 +109,7 @@ updated policy.
 
 ## Contact
 
-`[NEEDS YOUR INPUT — support email or contact page]`
+`[NEEDS YOUR INPUT, support email or contact page]`
 
 ---
 

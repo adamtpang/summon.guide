@@ -33,7 +33,7 @@ Customize freely: modern users often swap Chastity for things like Generosity, P
 
 ### Step 2: One per week, on rotation
 
-Focus intensely on ONE virtue at a time for one week. Mark every failure. The other 12 are still being tracked, but you are not actively wrestling them. After 13 weeks you have completed one cycle. Run 4 cycles a year. Most virtues take 3–4 cycles before they hold.
+Focus intensely on ONE virtue at a time for one week. Mark every failure. The other 12 are still being tracked, but you are not actively wrestling them. After 13 weeks you have completed one cycle. Run 4 cycles a year. Most virtues take 3-4 cycles before they hold.
 
 ### Step 3: Order is the trap
 

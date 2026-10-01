@@ -1,7 +1,7 @@
 # Using a Claude subscription instead of API credits
 
 **Verdict: partly possible.** summon.guide can authenticate to Claude with a
-Pro/Max **subscription** OAuth token instead of pay-as-you-go API credits — the
+Pro/Max **subscription** OAuth token instead of pay-as-you-go API credits, the
 code supports it (`src/lib/anthropic.ts`). But it is **fragile on a public
 deployed server** and is really meant for local/personal use. Read this before
 turning it on for production.
@@ -16,19 +16,19 @@ turning it on for production.
    ```
 2. In Vercel → Project → Settings → Environment Variables (Production):
    - **Set** `ANTHROPIC_AUTH_TOKEN` = the token from step 1.
-   - **Remove** `ANTHROPIC_API_KEY` — if both are present, every request 401s
+   - **Remove** `ANTHROPIC_API_KEY`, if both are present, every request 401s
      (the API rejects an `x-api-key` and a `Bearer` token together).
 3. Redeploy.
 
 The app (`anthropicClient()` in `src/lib/anthropic.ts`) then sends the token as
 `Authorization: Bearer …` plus the required `anthropic-beta: oauth-2025-04-20`
 header, and usage draws on your subscription. Remove `ANTHROPIC_AUTH_TOKEN` to
-go back to metered credits — no code change.
+go back to metered credits, no code change.
 
-## Why this is only "partly" viable — the three blockers
+## Why this is only "partly" viable, the three blockers
 
 1. **Token expiry / refresh (the hard one).** OAuth access tokens are
-   short-lived and are **not auto-refreshed** when supplied via env var — the
+   short-lived and are **not auto-refreshed** when supplied via env var, the
    refresh machinery lives in the local CLI profile, which a Vercel serverless
    function doesn't have. So the token silently expires (hours), and every
    guide returns *"Server is missing a valid Anthropic API key"* until you
@@ -36,14 +36,14 @@ go back to metered credits — no code change.
    hard-expires, so even a scripted refresh eventually needs a fresh
    interactive login.
 2. **Rate limits.** A Max subscription's caps are sized for one human using
-   claude.ai / Claude Code — not for a public "summon anyone in history"
+   claude.ai / Claude Code, not for a public "summon anyone in history"
    landing page. Public bursts trip the limit, and there's no tier to buy up
    to; the only lever is "use Claude less."
 3. **Terms of service.** Consumer subscriptions (Pro/Max) are for personal,
    interactive use via claude.ai and Claude Code. The Developer Platform / API
    (metered credits) is the product Anthropic sells for powering applications
    and serving end users. Pointing a personal subscription at a public,
-   unauthenticated app is outside the subscription's intended use — a
+   unauthenticated app is outside the subscription's intended use, a
    gray-to-red area. (Confirm the exact current Consumer Terms / Usage Policy
    before relying on it.)
 
@@ -66,7 +66,7 @@ Vercel runtime logs (`get_deployment` / `get_runtime_errors` if you have the
 Vercel MCP, or the dashboard) for `OAuthRateLimitError` on
 `https://console.anthropic.com/v1/oauth/token`. If you see that specific
 error, this is **not** a billing problem and not your account being
-throttled generally — the account and normal Claude usage can be completely
+throttled generally, the account and normal Claude usage can be completely
 fine while this happens.
 
 **Root cause: the refresh token is single-use and rotating, and two things
@@ -102,7 +102,7 @@ periodic, not a one-time fix.
 this to create an isolated login profile that nothing else ever touches, so
 its refresh token can't get rotated out from under the deployed site:
 
-1. **Log in to a fresh, isolated profile** (one-time, interactive — has to be
+1. **Log in to a fresh, isolated profile** (one-time, interactive, has to be
    run by a human, this step can't be scripted or done on the person's
    behalf). `CLAUDE_CONFIG_DIR=... command` bash-style prefix syntax does
    **not** work in PowerShell, it silently runs `command` with the env var
@@ -119,7 +119,7 @@ its refresh token can't get rotated out from under the deployed site:
    CLAUDE_CONFIG_DIR=~/.claude-summonguide claude login
    ```
    This opens the normal browser OAuth flow. Log in with whichever Anthropic
-   account should back the deployed site (your own subscription works — the
+   account should back the deployed site (your own subscription works, the
    isolation is per-*session*, not per-account, since nothing else will ever
    open this specific profile again). Verify it actually landed in the
    isolated dir before moving on: the credentials file should now exist at
@@ -127,7 +127,7 @@ its refresh token can't get rotated out from under the deployed site:
    "$HOME\.claude-summonguide\.credentials.json"`), not just `~/.claude/`.
 2. **Seed from that profile instead of the default one:**
    ```powershell
-   # PowerShell — reuse the same $env:CLAUDE_CONFIG_DIR set in step 1,
+   # PowerShell, reuse the same $env:CLAUDE_CONFIG_DIR set in step 1,
    # or set it again if it's a new shell session
    node -r dotenv/config scripts/seed-anthropic-oauth-token.mjs dotenv_config_path=.env.local
    ```
@@ -136,13 +136,13 @@ its refresh token can't get rotated out from under the deployed site:
    CLAUDE_CONFIG_DIR=~/.claude-summonguide node -r dotenv/config scripts/seed-anthropic-oauth-token.mjs dotenv_config_path=.env.local
    ```
 3. **Never run `claude` with `CLAUDE_CONFIG_DIR=~/.claude-summonguide` again**
-   for ordinary interactive work — that's the entire point. If a rare
+   for ordinary interactive work, that's the entire point. If a rare
    re-auth is ever needed (refresh token itself expired, ~90 days unused),
    repeat step 1 with the same `CLAUDE_CONFIG_DIR` and reseed.
 
 Once this is done, the periodic-reseed problem above stops recurring,
 because the only thing that can rotate `~/.claude-summonguide`'s refresh
-token is this exact reseed script running against it — nothing else on the
+token is this exact reseed script running against it, nothing else on the
 machine will ever open that profile.
 
 ## Recommendation
@@ -153,13 +153,13 @@ machine will ever open that profile.
   [billing-and-models.md](./billing-and-models.md). This is the sustainable
   path and fixes the real pain (running out / paying too much).
 - **Local or personal-scale use → the subscription token is great.** Run it on
-  your own machine where the CLI auto-refreshes the token for you — no API
+  your own machine where the CLI auto-refreshes the token for you, no API
   spend, no rotation chores. That's the shape this mechanism was built for.
 
 ## What the "impossible" claim got wrong (and right)
 
-It's **not** literally impossible — the OAuth mechanism exists and the Messages
+It's **not** literally impossible, the OAuth mechanism exists and the Messages
 API accepts it. But it **is** unsupported, operationally fragile on serverless,
 and against the intended use for a public app. So the right conclusion for the
-production site ("don't run it on a subscription") stands — just for the
+production site ("don't run it on a subscription") stands, just for the
 accurate reason (unsupported + fragile), not "the mechanism doesn't exist."

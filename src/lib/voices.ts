@@ -69,10 +69,10 @@ export const VOICE_MAP: Record<string, string> = {
 
 export const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9"; // Daniel fallback
 
-/** Chat replies stay short; script/voiceover mode allows ~90–120s spoken. */
+/** Chat replies stay short; script/voiceover mode allows ~90-120s spoken. */
 export const TTS_LIMITS = {
   chat: 2000,
-  /** ~350–400 words at typical TTS rate; enough for a 2-minute voiceover. */
+  /** ~350-400 words at typical TTS rate; enough for a 2-minute voiceover. */
   script: 4000,
 } as const;
 

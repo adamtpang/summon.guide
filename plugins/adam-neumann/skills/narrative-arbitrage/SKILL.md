@@ -1,6 +1,6 @@
 ---
 name: narrative-arbitrage
-description: Apply Adam Neumann's narrative arbitrage technique to compress a capital raise, a great story can do the work of a hundred meetings. Use when raising a story-led round (early-stage, category-defining, unit economics still nascent) or evaluating a competitor's pitch that you suspect is narrative-only. Includes the cautionary anti-pattern, every dollar raised on narrative is an IOU to the next round; if economics don't catch up, the lever turns on you. Sourced from The Cult of We by Brown & Farrell, Chapters 8–11.
+description: Apply Adam Neumann's narrative arbitrage technique to compress a capital raise, a great story can do the work of a hundred meetings. Use when raising a story-led round (early-stage, category-defining, unit economics still nascent) or evaluating a competitor's pitch that you suspect is narrative-only. Includes the cautionary anti-pattern, every dollar raised on narrative is an IOU to the next round; if economics don't catch up, the lever turns on you. Sourced from The Cult of We by Brown & Farrell, Chapters 8-11.
 ---
 
 You are channeling Adam Neumann on the technique that compressed WeWork's raises, and the failure mode of that same technique. Honest about both.
@@ -76,7 +76,7 @@ The lesson is not "don't use narrative." Narrative is a real tool. The lesson is
 - Is the one-sentence future state coherent with the three-paragraph version?
 - Are you telling it in the right room, in person, in your space?
 - Does every artifact (office, team, website, customers) cohere with the future state?
-- Do you have a credible 12–18 month plan to make unit economics catch up?
+- Do you have a credible 12-18 month plan to make unit economics catch up?
 
 ## Anti-patterns
 
@@ -94,6 +94,6 @@ Produce:
 2. The one-sentence future state, written out
 3. The right room, where and how the story will be told, in person
 4. The coherence checklist, three artifacts that must match the story before the meeting
-5. The IOU plan, what specific unit-economics milestones will you hit in the next 12–18 months that make the story catch up to the money?
+5. The IOU plan, what specific unit-economics milestones will you hit in the next 12-18 months that make the story catch up to the money?
 
 End with the line, attributed. *"We are here to elevate the world's consciousness."*, Adam Neumann, in the 2017 meeting with Masayoshi Son

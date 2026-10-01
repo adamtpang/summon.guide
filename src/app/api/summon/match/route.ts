@@ -15,7 +15,7 @@ export async function POST(req: Request) {
   const userId = session?.user?.id || await authenticateMcpToken(req.headers.get("authorization"));
   if (!userId) return Response.json({ error: "Connect Summon first", connectUrl: "https://summon.guide/connect" }, { status: 401, headers });
   const parsed = summonMatchInput.safeParse(await req.json().catch(() => null));
-  if (!parsed.success) return Response.json({ error: "Supply context (20–12000 characters) and maxGuides (1–3)" }, { status: 400, headers });
+  if (!parsed.success) return Response.json({ error: "Supply context (20-12000 characters) and maxGuides (1-3)" }, { status: 400, headers });
   const catalog = guideAgents.filter(guide => guide.availability === "ready" && guide.capabilities.includes("chat")).map(guide => ({ id: guide.id, name: guide.name, domains: guide.domains, description: guide.description, sourceCount: guide.kind === "person" ? getGuideEpisodes(guide.slug).length : applySourceRuntimePolicy(guide.slug, sourceCorpus[guide.slug]?.episodes || []).length }));
   try {
     const response = await completeOpenRouter({ system: matchPrompt(catalog), messages: [{ role: "user", content: parsed.data.context }], maxTokens: 1800, temperature: 0.1 });

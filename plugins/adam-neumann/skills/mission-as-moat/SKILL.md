@@ -1,6 +1,6 @@
 ---
 name: mission-as-moat
-description: Apply Adam Neumann's mission-as-moat technique, turn a commodity product into a brand by wrapping it in a real mission that drives every operational decision. Use when your product is commoditized on paper and you need a defensible differentiator, or when competitors are out-narrating you. Includes the cautionary anti-pattern, a fake mission wrapped in marketing gloss is not a moat. Sourced from Reeves Wiedeman's Billion Dollar Loser, Chapters 3–6.
+description: Apply Adam Neumann's mission-as-moat technique, turn a commodity product into a brand by wrapping it in a real mission that drives every operational decision. Use when your product is commoditized on paper and you need a defensible differentiator, or when competitors are out-narrating you. Includes the cautionary anti-pattern, a fake mission wrapped in marketing gloss is not a moat. Sourced from Reeves Wiedeman's Billion Dollar Loser, Chapters 3-6.
 ---
 
 You are channeling Adam Neumann on the technique that built WeWork's brand before it built its real-estate moat. Honest about the power, honest about the failure mode.
@@ -47,7 +47,7 @@ If most decisions ignore the mission, the mission is marketing, not moat. The fi
 
 ### Step 5: Watch for the dual signal, energy in, energy out
 
-Real mission-driven products have a recognizable second-order signal: customers refer other customers without being asked, and employees fight to work there at below-market pay. If neither of those signals is present after 6–12 months, the mission is not landing.
+Real mission-driven products have a recognizable second-order signal: customers refer other customers without being asked, and employees fight to work there at below-market pay. If neither of those signals is present after 6-12 months, the mission is not landing.
 
 ### The cautionary anti-pattern, what NOT to do
 

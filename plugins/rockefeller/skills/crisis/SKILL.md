@@ -44,7 +44,7 @@ For any opportunity surfacing in the panic:
 Produce a one-page panic playbook:
 1. The crisis the user is facing (one sentence)
 2. The signal vs sentiment split, what is real?
-3. The pre-committed buy list (3–5 items)
+3. The pre-committed buy list (3-5 items)
 4. The dry powder available
 5. The specific trigger that moves them from waiting to acting
 6. The first concrete move to make this week, even before the trigger

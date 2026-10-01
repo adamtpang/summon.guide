@@ -68,7 +68,7 @@ Brand, distribution, regulation, relationships. In the old wave these were defen
 Produce:
 
 1. The industry rephrased by the product as experienced by the customer
-2. The digital-native version of that product, sketched in 2–3 sentences
+2. The digital-native version of that product, sketched in 2-3 sentences
 3. Who is structurally best positioned to build it: new entrant, incumbent-can-rebuild, or horizontal platform
 4. The incumbent advantage that is currency-mismatched (the one in the wrong currency for the new wave)
 5. The strategic move for the user given their role (founder, operator, investor)

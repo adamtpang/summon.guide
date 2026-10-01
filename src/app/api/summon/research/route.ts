@@ -13,7 +13,7 @@ export async function POST(req: Request) {
   const userId = session?.user?.id || await authenticateMcpToken(req.headers.get("authorization"));
   if (!userId) return Response.json({ error: "Connect Summon first" }, { status: 401, headers });
   const parsed = researchedGuideInput.safeParse(await req.json().catch(() => null));
-  if (!parsed.success) return Response.json({ error: "Provide a name, context, fit and 2–5 original source summaries from at least two HTTPS source hosts" }, { status: 400, headers });
+  if (!parsed.success) return Response.json({ error: "Provide a name, context, fit and 2-5 original source summaries from at least two HTTPS source hosts" }, { status: 400, headers });
   const input = parsed.data;
   const normalizedName = normalizeGuideRequestName(input.name);
   const existing = guideAgents.find(guide => normalizeGuideRequestName(guide.name) === normalizedName);

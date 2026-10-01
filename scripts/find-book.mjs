@@ -213,7 +213,7 @@ if (JSON_OUT) {
   console.log('"' + title + '"\n');
   for (const h of hits) {
     console.log('  ' + h.source);
-    console.log('    ' + h.title + (h.author ? ' — ' + h.author : '').replace(' — ', ', '));
+    console.log('    ' + h.title + (h.author ? ', ' + h.author : ''));
     console.log('    ' + h.url);
     console.log('    ' + h.format + ', ' + h.license);
     console.log('');

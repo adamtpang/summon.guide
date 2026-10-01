@@ -1,4 +1,4 @@
-# summon.guide — Claude Code Plugin Marketplace
+# summon.guide, Claude Code Plugin Marketplace
 
 Pick exactly who you want to summon into your Claude chats. One plugin per guide.
 
@@ -15,20 +15,20 @@ Pick exactly who you want to summon into your Claude chats. One plugin per guide
 /plugin install marcus-aurelius   # Marcus's mindset + Dichotomy + View from above + Memento mori
 ```
 
-Each plugin is independent — install only the guides you want, mix and match.
+Each plugin is independent, install only the guides you want, mix and match.
 
 ## How to invoke a guide once installed
 
 Each plugin gives you a **namespaced** slash command per skill:
 
-- `/<plugin>:<plugin>` — the **umbrella skill**, channels the full mindset
-- `/<plugin>:<framework>` — a specific tool
+- `/<plugin>:<plugin>`, the **umbrella skill**, channels the full mindset
+- `/<plugin>:<framework>`, a specific tool
 
 Examples after `/plugin install elon`:
 
 | Command | What it does |
 |---|---|
-| `/elon:elon` | Channel Elon's full operating mode — first principles, the algorithm, the idiot index, schedule pressure |
+| `/elon:elon` | Channel Elon's full operating mode, first principles, the algorithm, the idiot index, schedule pressure |
 | `/elon:first-principles` | Decompose to physics, materials, hours. Compute the irreducible floor. |
 | `/elon:five-step-algorithm` | Question → delete → simplify → accelerate → automate, in that order. |
 | `/elon:idiot-index` | Finished cost / raw material cost. Above 10x means you are paying for inefficiency. |
@@ -47,7 +47,7 @@ Examples after `/plugin install elon`:
 
 ## Why this structure
 
-Sahil Lavingia's [`slavingia/skills`](https://github.com/slavingia/skills) turned *one book* into a Claude Code plugin. We do the same for many books — but each guide is its own plugin, so a user who only wants Marcus's Stoic frameworks doesn't have to install Elon's manufacturing algorithm.
+Sahil Lavingia's [`slavingia/skills`](https://github.com/slavingia/skills) turned *one book* into a Claude Code plugin. We do the same for many books, but each guide is its own plugin, so a user who only wants Marcus's Stoic frameworks doesn't have to install Elon's manufacturing algorithm.
 
 Every skill is grounded in a specific passage of a specific book. We don't generate philosophy on the fly. The data model that links guides → books → skills lives in `src/lib/{figures,books,skills}.ts`, and the on-disk SKILL.md files under `/plugins/<guide>/skills/<skill>/SKILL.md` are the source of truth Claude Code reads.
 

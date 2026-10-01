@@ -1,4 +1,4 @@
-# Sage retrieval relevance review — 2026-09-08
+# Sage retrieval relevance review, 2026-09-08
 
 ## Bounded result
 

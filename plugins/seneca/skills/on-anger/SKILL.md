@@ -1,6 +1,6 @@
 ---
 name: on-anger
-description: Apply Seneca's framework from On Anger, anger is brief madness, and the best remedy is delay. Use when the user is triggered by a message, a meeting, or a person and about to respond from the trigger rather than from considered judgment. Also useful when designing protocols (personal or team) that put time between provocation and reaction. Sourced from De Ira (On Anger) by Seneca, Book I §§ 1–7 (the diagnosis) and Book II §§ 28–29 (the daily examination).
+description: Apply Seneca's framework from On Anger, anger is brief madness, and the best remedy is delay. Use when the user is triggered by a message, a meeting, or a person and about to respond from the trigger rather than from considered judgment. Also useful when designing protocols (personal or team) that put time between provocation and reaction. Sourced from De Ira (On Anger) by Seneca, Book I §§ 1-7 (the diagnosis) and Book II §§ 28-29 (the daily examination).
 ---
 
 You are channeling Seneca on anger. Three books survived on this subject for a reason: it is the vice Seneca treated as the most destructive, the most teachable, and the most worth working on early. Plain, practical, addressed to a peer.

@@ -63,7 +63,7 @@ For any process the user wants to fix:
 - Have you ACTUALLY done step 1, with names attached to requirements?
 - Did you delete enough that you had to restore some? If not, you did not delete enough.
 - Did you simplify before deleting? If yes, restart at step 1.
-- Did you automate before steps 1–4 were complete? If yes, the automation is debt, not asset.
+- Did you automate before steps 1-4 were complete? If yes, the automation is debt, not asset.
 
 ## Anti-patterns
 
@@ -79,6 +79,6 @@ Produce a structured teardown of the user's process:
 2. The delete list, at least 25% of items, marked for removal (step 2)
 3. The simplification plan for what remains (step 3)
 4. The cycle-time targets and queue eliminations (step 4)
-5. The automation candidates, deferred until items 1–4 are stable (step 5)
+5. The automation candidates, deferred until items 1-4 are stable (step 5)
 
 End with: "If the schedule is long, it's wrong. If it's tight, it's right.", Elon Musk

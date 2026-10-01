@@ -60,8 +60,8 @@ function buildServer(authorization?: string): McpServer {
   );
 
   for (const tool of [
-    { name: "match_guides", path: "match", description: "Match a context brief against the live person, book and channel roster. Returns 0–100 compatibility with breakdowns, reasons, limitations, complementary roles and a research_required signal when no guide reaches 70. Does not invent a match during outages.", schema: summonMatchInput.shape, readOnly: true },
-    { name: "consult_researched_guide", path: "research", description: "After the host researches a missing guide on the web, send 2–5 original summaries from at least two independent HTTPS source hosts. Returns provisional AI advice with citations and saves a per-user onboarding request. Does not publish a guide or certify a deep corpus. Uses a guide session.", schema: researchedGuideInput.shape, readOnly: false },
+    { name: "match_guides", path: "match", description: "Match a context brief against the live person, book and channel roster. Returns 0-100 compatibility with breakdowns, reasons, limitations, complementary roles and a research_required signal when no guide reaches 70. Does not invent a match during outages.", schema: summonMatchInput.shape, readOnly: true },
+    { name: "consult_researched_guide", path: "research", description: "After the host researches a missing guide on the web, send 2-5 original summaries from at least two independent HTTPS source hosts. Returns provisional AI advice with citations and saves a per-user onboarding request. Does not publish a guide or certify a deep corpus. Uses a guide session.", schema: researchedGuideInput.shape, readOnly: false },
   ]) {
     server.registerTool(tool.name, { description: tool.description, inputSchema: tool.schema, annotations: { readOnlyHint: tool.readOnly, destructiveHint: false, openWorldHint: true } }, async (input: Record<string, unknown>) => {
       const response = await fetch(`${SITE_URL}/api/summon/${tool.path}`, { method: "POST", headers: { "Content-Type": "application/json", ...(authorization ? { Authorization: authorization } : {}) }, body: JSON.stringify(input) });

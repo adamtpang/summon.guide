@@ -62,9 +62,9 @@ Chat at `/chat/source/<slug>`, no persona.
 | Slug | Title | Feeds guide | MD files |
 |---|---|---|---|
 | `founders-podcast` | Founders Podcast | senra | 48 |
-| `starter-story` | Starter Story | — | 28 |
-| `invest-like-the-best` | Invest Like the Best | — | 28 |
-| `y-combinator` | Y Combinator | — | 35 |
+| `starter-story` | Starter Story |, | 28 |
+| `invest-like-the-best` | Invest Like the Best |, | 28 |
+| `y-combinator` | Y Combinator |, | 35 |
 
 ## Books, chattable (39 of 53)
 
@@ -106,8 +106,8 @@ Chat at `/chat/source/<slug>`, no persona.
 | `think-and-grow-rich` | Think and Grow Rich | napoleon-hill | 15 |
 | `principles` | Principles | ray-dalio | 29 |
 | `principles-for-dealing-with-the-changing-world-order` | Principles for Dealing with the Changing World Order | ray-dalio | 7 |
-| `tao-te-ching` | Tao Te Ching | — | 17 |
-| `bible` | The Bible: Wisdom & Teaching | — | 40 |
+| `tao-te-ching` | Tao Te Ching |, | 17 |
+| `bible` | The Bible: Wisdom & Teaching |, | 40 |
 | `reason-is-fun-essays` | Reason Is Fun: Selected Essays | lulie-tanett | 11 |
 
 ## Books, registered but NOT chattable (14)
@@ -122,7 +122,7 @@ No corpus files yet, `/chat/source` will not work for these.
 | `campaigns-of-alexander-arrian` | The Campaigns of Alexander (Anabasis Alexandri) | alexander |
 | `alexander-the-great-fox` | Alexander the Great | alexander |
 | `the-singapore-story` | The Singapore Story: Memoirs of Lee Kuan Yew | lee-kuan-yew |
-| `from-third-world-to-first` | From Third World to First: The Singapore Story 1965–2000 | lee-kuan-yew |
+| `from-third-world-to-first` | From Third World to First: The Singapore Story 1965-2000 | lee-kuan-yew |
 | `one-mans-view-of-the-world` | One Man's View of the World | lee-kuan-yew |
 | `billion-dollar-loser` | Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork | adam-neumann |
 | `the-cult-of-we` | The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion | adam-neumann |

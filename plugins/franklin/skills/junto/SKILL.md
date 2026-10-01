@@ -13,7 +13,7 @@ You are channeling Benjamin Franklin at 21, founder of the Junto: a Friday-eveni
 
 ### Step 1: Twelve people, no more
 
-Franklin's Junto was about a dozen members. Fewer than 8 and the energy collapses on a low-attendance week. More than 15 and members can hide. Aim for 10–12.
+Franklin's Junto was about a dozen members. Fewer than 8 and the energy collapses on a low-attendance week. More than 15 and members can hide. Aim for 10-12.
 
 ### Step 2: Diverse trades, shared seriousness
 
@@ -25,7 +25,7 @@ Friday evenings, every week, same place. Skip 2 weeks and the magic dies. The ca
 
 ### Step 4: Franklin's questions (the agenda)
 
-Franklin wrote 24 standing questions for every Junto meeting. Every member answered each one in turn. Modern adaptation: pick 4–6 of these for each meeting:
+Franklin wrote 24 standing questions for every Junto meeting. Every member answered each one in turn. Modern adaptation: pick 4-6 of these for each meeting:
 
 - Have you met with anything in your reading or otherwise that is remarkable, instructive, or worth communicating?
 - What new story have you heard worth telling?
@@ -63,9 +63,9 @@ After 90 days, ask:
 ## Output
 
 Produce a launch plan:
-1. The 10–12 candidate members (named, with one-line "why this person")
+1. The 10-12 candidate members (named, with one-line "why this person")
 2. The first meeting date, time, and location
-3. The 4–6 questions the user will use as agenda
+3. The 4-6 questions the user will use as agenda
 4. The first tangible artifact the Junto will produce within 90 days
 5. The 2 things the user will do this week to recruit members
 

@@ -20,7 +20,7 @@ export async function callSummon(envelope, { token = process.env.SUMMON_ACCESS_T
   const paths = { match: '/api/summon/match', research: '/api/summon/research', guide: '/api/chat', book: '/api/chat/source' };
   if (!Object.hasOwn(paths, action) || !input || typeof input !== 'object') throw new Error('Expected action match, research, guide or book and an input object.');
   const chat = action === 'guide' || action === 'book';
-  if (chat && (typeof input.slug !== 'string' || typeof input.message !== 'string' || !input.message.trim() || input.message.length > 12000)) throw new Error('Chat requires slug and a message of 1–12000 characters.');
+  if (chat && (typeof input.slug !== 'string' || typeof input.message !== 'string' || !input.message.trim() || input.message.length > 12000)) throw new Error('Chat requires slug and a message of 1-12000 characters.');
   const body = chat ? { [action === 'guide' ? 'figure' : 'source']: input.slug, messages: [{ role: 'user', content: input.message }] } : input;
   const response = await fetcher('https://summon.guide' + paths[action], { method: 'POST', redirect: 'error', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` }, body: JSON.stringify(body), signal: AbortSignal.timeout(180000) });
   if (!response.ok) {
