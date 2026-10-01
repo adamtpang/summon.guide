@@ -1,7 +1,7 @@
 import Link from "next/link";
 export const metadata = { title: "Image credits | summon.guide" };
 export default function Credits() {
-  return <main className="mx-auto max-w-2xl space-y-8 px-6 py-12"><Link href="/">Back to guides</Link><h1 className="text-3xl">Image credits</h1>
+  return <main className="mx-auto min-h-screen max-w-2xl space-y-8 px-6 py-12 text-mist [&_a]:text-moon [&_a]:underline [&_a]:underline-offset-4 [&_h2]:font-serif [&_h2]:text-moon"><Link href="/">Back to guides</Link><h1 className="font-serif text-3xl text-moon">Image credits</h1>
     <section id="rick-rubin"><h2 className="text-xl">Rick Rubin</h2><p>Photo by jasontheexploder. <a href="https://commons.wikimedia.org/wiki/File:RickRubinSept09.jpg">Original and provenance</a>. <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Displayed with a circular crop; no endorsement implied.</p></section>
     <section id="pendleton-ward"><h2 className="text-xl">Pendleton Ward</h2><p>Photo by Al Pavangkanan; cropped version from Wikimedia Commons. <a href="https://commons.wikimedia.org/wiki/File:Pendleton_Ward_at_the_Tomorrow_Show.jpg">Original and provenance</a>. <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>. Displayed with a circular crop; no endorsement implied.</p></section>
     <section id="josh-kushner"><h2 className="text-xl">Josh Kushner</h2><p>Photo by SWinxy. <a href="https://commons.wikimedia.org/wiki/File:Guests_at_the_2026_Met_Gala_289_(Joshua_Kushner).jpg">Original and provenance</a>. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Cropped; no endorsement implied.</p></section>

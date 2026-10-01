@@ -22,32 +22,32 @@ export default function FoundersLensPage() {
   const runtimePolicy = getSourceRuntimePolicy("founders-podcast");
 
   return (
-    <main className="min-h-screen bg-warm-50 text-ink-950">
+    <main className="min-h-screen bg-night text-moon">
       <div className="mx-auto max-w-6xl px-5 pb-24 pt-6 md:px-8 md:pt-10">
         <header className="flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:justify-between">
           <Link
             href="/"
-            className="text-xs uppercase tracking-[0.3em] text-warm-400 transition-colors hover:text-ink-950"
+            className="text-xs uppercase tracking-[0.3em] text-dim transition-colors hover:text-moon"
           >
             summon.guide
           </Link>
-          <div className="flex w-full flex-wrap items-center gap-x-4 gap-y-3 text-xs text-warm-500 sm:w-auto sm:justify-end">
+          <div className="flex w-full flex-wrap items-center gap-x-4 gap-y-3 text-xs text-mist sm:w-auto sm:justify-end">
             <a
               href="https://optimism.fun/last-company"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-ink-950"
+              className="hover:text-moon"
             >
               Find your last company ↗
             </a>
-            <Link href="/senra" className="hover:text-ink-950">
+            <Link href="/senra" className="hover:text-moon">
               David Senra guide
             </Link>
             <a
               href="https://www.foundersnotes.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-ink-950"
+              className="hover:text-moon"
             >
               Official Founders Notes ↗
             </a>
@@ -62,41 +62,41 @@ export default function FoundersLensPage() {
             <h1 className="mt-4 max-w-4xl font-serif text-5xl leading-[0.98] tracking-tight md:text-7xl">
               Ask history for a precedent, not a platitude.
             </h1>
-            <p className="mt-6 max-w-2xl text-base leading-relaxed text-warm-500 md:text-lg">
+            <p className="mt-6 max-w-2xl text-base leading-relaxed text-mist md:text-lg">
               Summon Sage searches Summon&apos;s original episode syntheses, compares
               patterns across builders, and returns concise answers with named sources.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 href="/sage"
-                className="inline-flex min-h-12 items-center rounded-full bg-ink-950 px-6 text-sm font-medium text-white transition-colors hover:bg-ink-800"
+                className="inline-flex min-h-12 items-center rounded-full bg-moon px-6 text-sm font-medium text-night transition-colors hover:bg-white"
               >
                 Ask the corpus
               </Link>
               <a
                 href="#workspace"
-                className="inline-flex min-h-12 items-center rounded-full border border-ink-950 px-6 text-sm font-medium transition-colors hover:bg-ink-950 hover:text-white"
+                className="inline-flex min-h-12 items-center rounded-full border border-moon px-6 text-sm font-medium transition-colors hover:bg-white/10"
               >
                 Open the workspace
               </a>
             </div>
           </div>
 
-          <dl className="grid grid-cols-3 divide-x divide-warm-200 border-y border-warm-200 py-5 text-center">
+          <dl className="grid grid-cols-3 divide-x divide-edge border-y border-edge py-5 text-center">
             <div>
-              <dt className="text-[10px] uppercase tracking-[0.16em] text-warm-400">
+              <dt className="text-[10px] uppercase tracking-[0.16em] text-dim">
                 Notes
               </dt>
               <dd className="mt-2 font-serif text-3xl">{episodes.length}</dd>
             </div>
             <div>
-              <dt className="text-[10px] uppercase tracking-[0.16em] text-warm-400">
+              <dt className="text-[10px] uppercase tracking-[0.16em] text-dim">
                 Sources synced
               </dt>
               <dd className="mt-2 font-serif text-3xl">{corpusStatus.totals.privateEpisodes}</dd>
             </div>
             <div>
-              <dt className="text-[10px] uppercase tracking-[0.16em] text-warm-400">
+              <dt className="text-[10px] uppercase tracking-[0.16em] text-dim">
                 Syntheses ready
               </dt>
               <dd className="mt-2 font-serif text-3xl">
@@ -108,27 +108,27 @@ export default function FoundersLensPage() {
 
         <FoundersLensLibrary episodes={episodes} prompts={FOUNDERS_LENS_PROMPTS} />
 
-        <section className="mt-12 grid gap-3 border-y border-warm-200 py-5 text-xs leading-relaxed text-warm-500 md:grid-cols-4">
+        <section className="mt-12 grid gap-3 border-y border-edge py-5 text-xs leading-relaxed text-mist md:grid-cols-4">
           <p>
-            <span className="block font-medium text-ink-950">Corpus progress</span>
+            <span className="block font-medium text-moon">Corpus progress</span>
             Inventory checked {corpusStatus.generatedAt}; {corpusStatus.totals.captionFailures} caption failures and {corpusStatus.totals.pendingSyntheses} episodes awaiting synthesis.
           </p>
           <p>
-            <span className="block font-medium text-ink-950">Research index</span>
+            <span className="block font-medium text-moon">Research index</span>
             {corpusStatus.totals.privateSemanticIndexesReady ? "Both local semantic indexes are ready." : "A local semantic index needs rebuilding."}
           </p>
           <p>
-            <span className="block font-medium text-ink-950">Publication boundary</span>
+            <span className="block font-medium text-moon">Publication boundary</span>
             Public chat uses original synthesis only; raw transcripts stay private.
           </p>
           <p>
-            <span className="block font-medium text-ink-950">Runtime policy</span>
+            <span className="block font-medium text-moon">Runtime policy</span>
             Top {runtimePolicy.maxRetrievedEpisodes} notes per question, citations required, provider retention denied.
           </p>
         </section>
 
-        <aside className="mt-12 rounded-2xl border border-amber-800/15 bg-amber-100/45 p-5 text-sm leading-relaxed text-amber-950/70 md:p-6">
-          <p className="font-medium text-amber-950">Scope and ownership</p>
+        <aside className="mt-12 rounded-2xl border border-edge bg-raised p-5 text-sm leading-relaxed text-mist md:p-6">
+          <p className="font-medium text-moon">Scope and ownership</p>
           <p className="mt-2 max-w-4xl">{FOUNDERS_LENS_DISCLOSURE}</p>
         </aside>
       </div>

@@ -123,23 +123,23 @@ export default function FoundersLensLibrary({
   }
 
   return (
-    <section id="workspace" className="scroll-mt-8 border-t border-warm-200 pt-10">
+    <section id="workspace" className="scroll-mt-8 border-t border-edge pt-10">
       <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="text-xs uppercase tracking-[0.22em] text-warm-400">
+          <p className="text-xs uppercase tracking-[0.22em] text-dim">
             Founders workspace
           </p>
-          <h2 className="mt-2 font-serif text-3xl text-ink-950 md:text-4xl">
+          <h2 className="mt-2 font-serif text-3xl text-moon md:text-4xl">
             Bring a decision. Leave with precedents.
           </h2>
         </div>
-        <p className="max-w-md text-sm leading-relaxed text-warm-500">
+        <p className="max-w-md text-sm leading-relaxed text-mist">
           Your saved questions stay in this browser. Summon never publishes them to a
           community feed or puts them in a URL until you explicitly choose Ask.
         </p>
       </div>
 
-      <div className="mt-6 rounded-2xl border border-ink-950 bg-ink-950 p-4 text-white md:p-6">
+      <div className="mt-6 rounded-2xl border border-moon bg-raised p-4 text-white md:p-6">
         <label className="block">
           <span className="text-[10px] uppercase tracking-[0.2em] text-white/45">
             What are you deciding?
@@ -156,7 +156,7 @@ export default function FoundersLensLibrary({
           {question.trim() ? (
             <Link
               href={questionHref(question.trim())}
-              className="inline-flex min-h-11 items-center rounded-full bg-white px-5 text-xs font-medium text-ink-950"
+              className="inline-flex min-h-11 items-center rounded-full bg-white/[0.04] px-5 text-xs font-medium text-moon"
             >
               Ask the corpus
             </Link>
@@ -179,7 +179,7 @@ export default function FoundersLensLibrary({
         </div>
       </div>
 
-      <div className="mt-8 grid grid-cols-3 gap-2 rounded-xl bg-warm-100 p-1" role="tablist">
+      <div className="mt-8 grid grid-cols-3 gap-2 rounded-xl bg-raised p-1" role="tablist">
         {([
           ["discover", "Discover"],
           ["search", `Search ${episodes.length} notes`],
@@ -193,8 +193,8 @@ export default function FoundersLensLibrary({
             onClick={() => setTab(value)}
             className={`min-h-11 rounded-lg px-3 text-xs transition-colors ${
               tab === value
-                ? "bg-white font-medium text-ink-950 shadow-sm"
-                : "text-warm-500 hover:text-ink-950"
+                ? "bg-white/[0.04] font-medium text-moon shadow-sm"
+                : "text-mist hover:text-moon"
             }`}
           >
             {label}
@@ -206,33 +206,33 @@ export default function FoundersLensLibrary({
         <div className="mt-6">
           <div className="flex items-end justify-between gap-4">
             <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-warm-400">
+              <p className="text-xs uppercase tracking-[0.2em] text-dim">
                 Editorial starting points
               </p>
-              <h3 className="mt-2 font-serif text-2xl text-ink-950">
+              <h3 className="mt-2 font-serif text-2xl text-moon">
                 Questions worth asking before the crisis.
               </h3>
             </div>
-            <p className="hidden text-xs text-warm-400 sm:block">Curated, not user-published</p>
+            <p className="hidden text-xs text-dim sm:block">Curated, not user-published</p>
           </div>
           <div className="mt-5 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
             {prompts.map((item) => (
-              <article key={item.title} className="flex flex-col rounded-2xl border border-warm-200 bg-white p-5">
-                <h4 className="font-serif text-xl text-ink-950">{item.title}</h4>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-warm-500">
+              <article key={item.title} className="flex flex-col rounded-2xl border border-edge bg-white/[0.04] p-5">
+                <h4 className="font-serif text-xl text-moon">{item.title}</h4>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-mist">
                   {item.description}
                 </p>
                 <div className="mt-5 flex flex-wrap gap-2 border-t border-warm-100 pt-4">
                   <Link
                     href={questionHref(item.prompt)}
-                    className="inline-flex min-h-11 items-center rounded-full bg-ink-950 px-4 text-xs font-medium text-white"
+                    className="inline-flex min-h-11 items-center rounded-full bg-moon px-4 text-xs font-medium text-night"
                   >
                     Run question
                   </Link>
                   <button
                     type="button"
                     onClick={() => saveQuestion(item.prompt, item.title)}
-                    className="min-h-11 rounded-full border border-warm-300 px-4 text-xs text-warm-500 hover:border-ink-950 hover:text-ink-950"
+                    className="min-h-11 rounded-full border border-edge px-4 text-xs text-mist hover:border-moon hover:text-moon"
                   >
                     Save
                   </button>
@@ -247,14 +247,14 @@ export default function FoundersLensLibrary({
         <div id="library" className="mt-6 scroll-mt-8">
           <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-warm-400">
+              <p className="text-xs uppercase tracking-[0.2em] text-dim">
                 Search the evidence
               </p>
-              <h3 className="mt-2 font-serif text-2xl text-ink-950">
+              <h3 className="mt-2 font-serif text-2xl text-moon">
                 Read the notes behind the answer.
               </h3>
             </div>
-            <p className="text-sm text-warm-500" aria-live="polite">
+            <p className="text-sm text-mist" aria-live="polite">
               {filtered.length} of {episodes.length} original syntheses
             </p>
           </div>
@@ -267,7 +267,7 @@ export default function FoundersLensLibrary({
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
                 placeholder="Try capital allocation, founder control, or market education"
-                className="min-h-12 w-full rounded-xl border border-warm-300 bg-white px-4 text-sm text-ink-950 outline-none placeholder:text-warm-400 focus:border-ink-950"
+                className="min-h-12 w-full rounded-xl border border-edge bg-white/[0.04] px-4 text-sm text-moon outline-none placeholder:text-dim focus:border-moon"
               />
             </label>
             <div className="grid grid-cols-3 gap-2" aria-label="Episode type">
@@ -279,8 +279,8 @@ export default function FoundersLensLibrary({
                   onClick={() => setKind(option)}
                   className={`min-h-12 rounded-xl border px-3 text-xs capitalize ${
                     kind === option
-                      ? "border-ink-950 bg-ink-950 text-white"
-                      : "border-warm-300 bg-white text-warm-500 hover:border-ink-950 hover:text-ink-950"
+                      ? "border-moon bg-moon text-night"
+                      : "border-edge bg-white/[0.04] text-mist hover:border-moon hover:text-moon"
                   }`}
                 >
                   {option}
@@ -294,28 +294,28 @@ export default function FoundersLensLibrary({
               {filtered.map((episode, index) => {
                 const prompt = `What should I learn from the episode "${episode.title}"? Explain when its central principle is useful, where it may fail, and cite the source.`;
                 return (
-                  <li key={episode.file} className="flex flex-col rounded-2xl border border-warm-200 bg-white p-5">
+                  <li key={episode.file} className="flex flex-col rounded-2xl border border-edge bg-white/[0.04] p-5">
                     <div className="flex items-start justify-between gap-4">
-                      <p className="text-[10px] uppercase tracking-[0.18em] text-warm-400">
+                      <p className="text-[10px] uppercase tracking-[0.18em] text-dim">
                         {episode.guest ? `Conversation · ${episode.guest}` : "Solo episode"}
                       </p>
-                      <span className="font-mono text-[10px] text-warm-300">
+                      <span className="font-mono text-[10px] text-dim">
                         {String(index + 1).padStart(2, "0")}
                       </span>
                     </div>
-                    <h4 className="mt-3 font-serif text-xl leading-snug text-ink-950">
+                    <h4 className="mt-3 font-serif text-xl leading-snug text-moon">
                       {episode.title}
                     </h4>
-                    <p className="mt-3 text-sm leading-relaxed text-warm-500">
+                    <p className="mt-3 text-sm leading-relaxed text-mist">
                       {episode.principle}
                     </p>
                     <details className="mt-4 border-t border-warm-100 pt-4">
-                      <summary className="min-h-11 cursor-pointer text-xs font-medium text-ink-950">
+                      <summary className="min-h-11 cursor-pointer text-xs font-medium text-moon">
                         Read synthesis notes ({episode.keyLessons.length})
                       </summary>
-                      <ul className="space-y-3 pb-2 text-sm leading-relaxed text-warm-500">
+                      <ul className="space-y-3 pb-2 text-sm leading-relaxed text-mist">
                         {episode.keyLessons.map((lesson) => (
-                          <li key={lesson} className="border-l border-warm-300 pl-3">
+                          <li key={lesson} className="border-l border-edge pl-3">
                             {lesson}
                           </li>
                         ))}
@@ -324,7 +324,7 @@ export default function FoundersLensLibrary({
                     <div className="mt-auto flex flex-wrap items-center gap-3 border-t border-warm-100 pt-4">
                       <Link
                         href={questionHref(prompt)}
-                        className="inline-flex min-h-11 items-center rounded-full bg-ink-950 px-4 text-xs font-medium text-white"
+                        className="inline-flex min-h-11 items-center rounded-full bg-moon px-4 text-xs font-medium text-night"
                       >
                         Ask about this
                       </Link>
@@ -333,7 +333,7 @@ export default function FoundersLensLibrary({
                           href={episode.youtube}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex min-h-11 items-center text-xs text-warm-500 underline decoration-warm-300 underline-offset-4 hover:text-ink-950"
+                          className="inline-flex min-h-11 items-center text-xs text-mist underline decoration-edge underline-offset-4 hover:text-moon"
                         >
                           Public source ↗
                         </a>
@@ -344,15 +344,15 @@ export default function FoundersLensLibrary({
               })}
             </ol>
           ) : (
-            <div className="mt-6 rounded-2xl border border-dashed border-warm-300 px-5 py-10 text-center">
-              <p className="font-serif text-xl text-ink-950">No synthesis matches that search.</p>
+            <div className="mt-6 rounded-2xl border border-dashed border-edge px-5 py-10 text-center">
+              <p className="font-serif text-xl text-moon">No synthesis matches that search.</p>
               <button
                 type="button"
                 onClick={() => {
                   setQuery("");
                   setKind("all");
                 }}
-                className="mt-3 min-h-11 text-sm text-warm-500 underline underline-offset-4 hover:text-ink-950"
+                className="mt-3 min-h-11 text-sm text-mist underline underline-offset-4 hover:text-moon"
               >
                 Clear filters
               </button>
@@ -363,30 +363,30 @@ export default function FoundersLensLibrary({
 
       {tab === "saved" && (
         <div className="mt-6">
-          <p className="text-xs uppercase tracking-[0.2em] text-warm-400">Private library</p>
+          <p className="text-xs uppercase tracking-[0.2em] text-dim">Private library</p>
           <div className="mt-2 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-            <h3 className="font-serif text-2xl text-ink-950">Questions you want to keep.</h3>
-            <p className="text-xs text-warm-400">Stored only in this browser</p>
+            <h3 className="font-serif text-2xl text-moon">Questions you want to keep.</h3>
+            <p className="text-xs text-dim">Stored only in this browser</p>
           </div>
           {savedQuestions.length ? (
             <ol className="mt-5 space-y-3">
               {savedQuestions.map((item) => (
-                <li key={item.id} className="rounded-2xl border border-warm-200 bg-white p-5">
-                  <p className="text-[10px] uppercase tracking-[0.18em] text-warm-400">
+                <li key={item.id} className="rounded-2xl border border-edge bg-white/[0.04] p-5">
+                  <p className="text-[10px] uppercase tracking-[0.18em] text-dim">
                     {item.label}
                   </p>
-                  <p className="mt-2 text-sm leading-relaxed text-ink-950">{item.text}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-moon">{item.text}</p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <Link
                       href={questionHref(item.text)}
-                      className="inline-flex min-h-11 items-center rounded-full bg-ink-950 px-4 text-xs font-medium text-white"
+                      className="inline-flex min-h-11 items-center rounded-full bg-moon px-4 text-xs font-medium text-night"
                     >
                       Ask now
                     </Link>
                     <button
                       type="button"
                       onClick={() => setSavedQuestions((current) => current.filter((saved) => saved.id !== item.id))}
-                      className="min-h-11 rounded-full border border-warm-300 px-4 text-xs text-warm-500 hover:border-red-300 hover:text-red-700"
+                      className="min-h-11 rounded-full border border-edge px-4 text-xs text-mist hover:border-red-300 hover:text-red-700"
                     >
                       Remove
                     </button>
@@ -395,15 +395,15 @@ export default function FoundersLensLibrary({
               ))}
             </ol>
           ) : (
-            <div className="mt-5 rounded-2xl border border-dashed border-warm-300 px-5 py-10 text-center">
-              <p className="font-serif text-xl text-ink-950">Your private library is empty.</p>
-              <p className="mt-2 text-sm text-warm-500">
+            <div className="mt-5 rounded-2xl border border-dashed border-edge px-5 py-10 text-center">
+              <p className="font-serif text-xl text-moon">Your private library is empty.</p>
+              <p className="mt-2 text-sm text-mist">
                 Save an editorial prompt or write a live decision above.
               </p>
               <button
                 type="button"
                 onClick={() => setTab("discover")}
-                className="mt-4 min-h-11 text-sm text-ink-950 underline underline-offset-4"
+                className="mt-4 min-h-11 text-sm text-moon underline underline-offset-4"
               >
                 Browse questions
               </button>

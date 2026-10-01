@@ -59,10 +59,10 @@ export default function AiPersonaNotice({
   return (
     <aside
       role="note"
-      className="border border-warm-300 bg-warm-100 rounded-xl px-4 py-3 flex gap-3 items-start"
+      className="border border-edge bg-raised rounded-xl px-4 py-3 flex gap-3 items-start"
     >
       <svg
-        className="w-4 h-4 flex-shrink-0 mt-0.5 text-warm-500"
+        className="w-4 h-4 flex-shrink-0 mt-0.5 text-mist"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
@@ -72,8 +72,8 @@ export default function AiPersonaNotice({
         <circle cx="12" cy="12" r="10" />
         <path d="M12 16v-4M12 8h.01" />
       </svg>
-      <p className="text-warm-600 text-sm leading-relaxed">
-        <span className="font-medium text-ink-950">AI simulation.</span> {body}
+      <p className="text-mist text-sm leading-relaxed">
+        <span className="font-medium text-moon">AI simulation.</span> {body}
       </p>
     </aside>
   );

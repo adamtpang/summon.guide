@@ -74,7 +74,7 @@ export default async function EpisodePage({
   const fullScript = ep.beats.map((b) => b.text).join("\n\n");
 
   return (
-    <main className="min-h-screen bg-ink-950 text-warm-50">
+    <main className="min-h-screen bg-night text-warm-50">
       <div className="max-w-2xl mx-auto px-6 pt-8 md:pt-12 pb-20">
         <header className="flex items-center justify-between mb-10">
           <Link

@@ -84,19 +84,19 @@ export default async function BookPage({
     .slice(0, 4);
 
   return (
-    <main className="min-h-screen bg-warm-50 text-ink-950">
+    <main className="min-h-screen bg-night text-moon">
       <div className="max-w-5xl mx-auto px-6 pt-8 md:pt-12 pb-20">
         {/* Brand bar */}
         <header className="flex items-center justify-between mb-10 md:mb-14">
           <Link
             href="/"
-            className="text-warm-400 text-xs tracking-[0.3em] uppercase hover:text-ink-950 transition-colors"
+            className="text-dim text-xs tracking-[0.3em] uppercase hover:text-moon transition-colors"
           >
             summon.guide
           </Link>
           <Link
             href="/books"
-            className="text-warm-500 text-xs hover:text-ink-950 transition-colors flex items-center gap-1.5"
+            className="text-mist text-xs hover:text-moon transition-colors flex items-center gap-1.5"
           >
             <svg
               className="w-3 h-3"
@@ -114,25 +114,25 @@ export default async function BookPage({
         <article className="grid md:grid-cols-[1fr_300px] gap-8 md:gap-12">
           {/* ───── Main column ───── */}
           <div className="min-w-0">
-            <p className="text-warm-400 text-xs tracking-[0.25em] uppercase mb-4">
+            <p className="text-dim text-xs tracking-[0.25em] uppercase mb-4">
               Primary source
             </p>
             <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.06] tracking-tight mb-4">
               {book.title}
             </h1>
             {profile?.fullTitle && profile.fullTitle !== book.title && (
-              <p className="text-warm-500 font-serif italic text-lg md:text-xl leading-snug mb-5">
+              <p className="text-mist font-serif italic text-lg md:text-xl leading-snug mb-5">
                 {profile.fullTitle}
               </p>
             )}
-            <p className="text-warm-500 text-sm md:text-base mb-7">
+            <p className="text-mist text-sm md:text-base mb-7">
               {roleLabel} · {book.year}
               {figure && (
                 <>
                   {" · grounds "}
                   <Link
                     href={`/${figure.slug}`}
-                    className="text-ink-950 underline decoration-warm-300 hover:decoration-ink-950"
+                    className="text-moon underline decoration-edge hover:decoration-moon"
                   >
                     {figure.name}
                   </Link>
@@ -161,7 +161,7 @@ export default async function BookPage({
               {figure && (
                 <Link
                   href={`/${figure.slug}`}
-                  className="inline-flex items-center gap-2 bg-ink-950 text-white rounded-full px-5 py-2.5 text-sm font-medium hover:bg-ink-800 active:scale-[0.98] transition-all"
+                  className="inline-flex items-center gap-2 bg-moon text-night rounded-full px-5 py-2.5 text-sm font-medium hover:bg-white active:scale-[0.98] transition-all"
                 >
                   Summon {figure.name.split(" ")[0]}
                   <svg
@@ -178,7 +178,7 @@ export default async function BookPage({
               {!!book.corpusPaths?.length && (
                 <Link
                   href={`/${book.slug}`}
-                  className="inline-flex items-center gap-2 border border-ink-950 text-ink-950 rounded-full px-5 py-2.5 text-sm font-medium hover:bg-ink-950 hover:text-white transition-all"
+                  className="inline-flex items-center gap-2 border border-moon text-moon rounded-full px-5 py-2.5 text-sm font-medium hover:bg-white/10 transition-all"
                 >
                   Chat with this corpus
                   <svg
@@ -197,7 +197,7 @@ export default async function BookPage({
                   href={book.amazonUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 border border-warm-300 rounded-full px-5 py-2.5 text-sm hover:border-ink-950 transition-colors"
+                  className="inline-flex items-center gap-1.5 border border-edge rounded-full px-5 py-2.5 text-sm hover:border-moon transition-colors"
                 >
                   {book.role === "channel" ? "Listen" : "Read the book"}
                   <svg
@@ -228,7 +228,7 @@ export default async function BookPage({
                       {book.description ||
                         `${book.title} by ${book.author}, published ${book.year}.`}
                     </BodyParagraph>
-                    <p className="text-warm-400 text-sm italic">
+                    <p className="text-dim text-sm italic">
                       A full write-up of this book has not been published yet.
                     </p>
                   </div>
@@ -240,12 +240,12 @@ export default async function BookPage({
                   <div className="space-y-8">
                     {profile.keyIdeas.map((idea, i) => (
                       <div key={idea.title}>
-                        <h3 className="font-serif text-lg md:text-xl text-ink-950 mb-2 flex items-baseline gap-3">
+                        <h3 className="font-serif text-lg md:text-xl text-moon mb-2 flex items-baseline gap-3">
                           {/* decorative counter: the visual order already conveys
                               this, and unhidden it reads as "01Good explanations" */}
                           <span
                             aria-hidden="true"
-                            className="text-warm-300 text-sm font-sans tabular-nums"
+                            className="text-dim text-sm font-sans tabular-nums"
                           >
                             {String(i + 1).padStart(2, "0")}
                           </span>
@@ -260,7 +260,7 @@ export default async function BookPage({
 
               {bookSeries && bookSeries.episodes.length > 0 && (
                 <Section id="watch" title="Watch the series">
-                  <p className="text-warm-500 text-sm mb-5">
+                  <p className="text-mist text-sm mb-5">
                     {bookSeries.episodes.length} episodes drawn from this book,
                     about {formatRuntime(bookSeries.totalSeconds)} in total. Each
                     one opens on the problem rather than on the summary.
@@ -270,9 +270,9 @@ export default async function BookPage({
                       <li key={ep.slug}>
                         <Link
                           href={`/watch/${bookSeries.guideSlug}/${ep.slug}`}
-                          className="group grid grid-cols-[26px_1fr_auto] gap-3 items-baseline border border-warm-200 hover:border-ink-950 rounded-xl px-4 py-3 bg-white transition-colors"
+                          className="group grid grid-cols-[26px_1fr_auto] gap-3 items-baseline border border-edge hover:border-moon rounded-xl px-4 py-3 bg-white/[0.04] transition-colors"
                         >
-                          <span className="font-mono text-[11px] text-warm-400 tabular-nums">
+                          <span className="font-mono text-[11px] text-dim tabular-nums">
                             {String(i + 1).padStart(2, "0")}
                           </span>
                           <span className="min-w-0">
@@ -280,12 +280,12 @@ export default async function BookPage({
                               {ep.title}
                             </span>
                             {ep.hook && (
-                              <span className="block text-warm-500 text-sm mt-0.5 line-clamp-1">
+                              <span className="block text-mist text-sm mt-0.5 line-clamp-1">
                                 {ep.hook}
                               </span>
                             )}
                           </span>
-                          <span className="text-warm-400 text-xs tabular-nums">
+                          <span className="text-dim text-xs tabular-nums">
                             {formatRuntime(ep.seconds)}
                           </span>
                         </Link>
@@ -297,7 +297,7 @@ export default async function BookPage({
 
               {derivedSkills.length > 0 && (
                 <Section id="skills" title="Skills drawn from this book">
-                  <p className="text-warm-500 text-sm mb-5">
+                  <p className="text-mist text-sm mb-5">
                     Installable Claude Code skills grounded in this text. Each one
                     teaches a framework the book actually argues for.
                   </p>
@@ -308,17 +308,17 @@ export default async function BookPage({
                         href={skillGithubUrl(skill.figureSlug, skill.slug)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group block border border-warm-200 hover:border-ink-950 rounded-xl p-4 bg-white transition-colors"
+                        className="group block border border-edge hover:border-moon rounded-xl p-4 bg-white/[0.04] transition-colors"
                       >
                         <div className="flex items-baseline gap-3 flex-wrap mb-1.5">
-                          <code className="font-mono text-[13px] text-ink-950">
+                          <code className="font-mono text-[13px] text-moon">
                             {skill.command}
                           </code>
                           <span className="font-serif text-base">
                             {skill.title}
                           </span>
                         </div>
-                        <p className="text-warm-500 text-sm leading-relaxed">
+                        <p className="text-mist text-sm leading-relaxed">
                           {skill.tagline}
                         </p>
                       </a>
@@ -333,12 +333,12 @@ export default async function BookPage({
                     {profile.notableQuotes.map((q) => (
                       <blockquote
                         key={q}
-                        className="border-l-2 border-warm-300 pl-5 font-serif text-lg md:text-xl italic leading-snug text-ink-950/90"
+                        className="border-l-2 border-edge pl-5 font-serif text-lg md:text-xl italic leading-snug text-moon/90"
                       >
                         &ldquo;{q}&rdquo;
                       </blockquote>
                     ))}
-                    <p className="text-warm-400 text-xs">
+                    <p className="text-dim text-xs">
                       {book.author}, <em>{book.title}</em>
                     </p>
                   </div>
@@ -370,12 +370,12 @@ export default async function BookPage({
                       <Link
                         key={b.slug}
                         href={`/books/${b.slug}`}
-                        className="group flex items-baseline gap-3 py-2 border-b border-warm-200 hover:border-ink-950 transition-colors"
+                        className="group flex items-baseline gap-3 py-2 border-b border-edge hover:border-moon transition-colors"
                       >
-                        <span className="font-serif text-base italic group-hover:text-ink-950">
+                        <span className="font-serif text-base italic group-hover:text-moon">
                           {b.title}
                         </span>
-                        <span className="text-warm-400 text-xs ml-auto tabular-nums">
+                        <span className="text-dim text-xs ml-auto tabular-nums">
                           {b.year}
                         </span>
                       </Link>
@@ -388,13 +388,13 @@ export default async function BookPage({
 
           {/* ───── Wikipedia-style infobox ───── */}
           <aside className="md:sticky md:top-8 self-start w-full">
-            <div className="border border-warm-200 rounded-xl bg-white overflow-hidden">
-              <div className="bg-warm-100 px-4 py-3 border-b border-warm-200">
+            <div className="border border-edge rounded-xl bg-white/[0.04] overflow-hidden">
+              <div className="bg-raised px-4 py-3 border-b border-edge">
                 <p className="font-serif text-base leading-tight">
                   {book.title}
                 </p>
               </div>
-              <dl className="divide-y divide-warm-200 text-sm">
+              <dl className="divide-y divide-edge text-sm">
                 <Row label="Author" value={book.author} />
                 {profile?.language && (
                   <Row label="Language" value={profile.language} />
@@ -423,11 +423,11 @@ export default async function BookPage({
                 )}
                 {figure && (
                   <div className="px-4 py-2.5 grid grid-cols-[92px_1fr] gap-3">
-                    <dt className="text-warm-500 text-xs pt-0.5">Guide</dt>
+                    <dt className="text-mist text-xs pt-0.5">Guide</dt>
                     <dd>
                       <Link
                         href={`/${figure.slug}`}
-                        className="underline decoration-warm-300 hover:decoration-ink-950"
+                        className="underline decoration-edge hover:decoration-moon"
                       >
                         {figure.name}
                       </Link>
@@ -437,12 +437,12 @@ export default async function BookPage({
                 <Row label="In library" value={statusLabel} />
               </dl>
               {profile?.wikipediaUrl && (
-                <div className="px-4 py-3 border-t border-warm-200 bg-warm-50">
+                <div className="px-4 py-3 border-t border-edge bg-night">
                   <a
                     href={profile.wikipediaUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-warm-500 text-xs hover:text-ink-950 inline-flex items-center gap-1.5 transition-colors"
+                    className="text-mist text-xs hover:text-moon inline-flex items-center gap-1.5 transition-colors"
                   >
                     Wikipedia article
                     <svg
@@ -476,7 +476,7 @@ function Section({
 }) {
   return (
     <section id={id} className="scroll-mt-8">
-      <h2 className="font-serif text-2xl md:text-3xl font-medium text-ink-950 mb-5 pb-2 border-b border-warm-200">
+      <h2 className="font-serif text-2xl md:text-3xl font-medium text-moon mb-5 pb-2 border-b border-edge">
         {title}
       </h2>
       {children}
@@ -486,7 +486,7 @@ function Section({
 
 function BodyParagraph({ children }: { children: React.ReactNode }) {
   return (
-    <p className="text-ink-950/85 text-base md:text-[17px] leading-[1.75]">
+    <p className="text-moon/85 text-base md:text-[17px] leading-[1.75]">
       {children}
     </p>
   );
@@ -495,8 +495,8 @@ function BodyParagraph({ children }: { children: React.ReactNode }) {
 function Row({ label, value }: { label: string; value: string }) {
   return (
     <div className="px-4 py-2.5 grid grid-cols-[92px_1fr] gap-3">
-      <dt className="text-warm-500 text-xs pt-0.5">{label}</dt>
-      <dd className="text-ink-950">{value}</dd>
+      <dt className="text-mist text-xs pt-0.5">{label}</dt>
+      <dd className="text-moon">{value}</dd>
     </div>
   );
 }

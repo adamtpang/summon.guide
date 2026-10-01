@@ -44,31 +44,31 @@ export default async function HowToPage({
   const sources = article.sourceSlugs.map((s) => getBook(s)).filter(Boolean);
 
   return (
-    <main className="min-h-screen bg-warm-50 text-ink-950">
+    <main className="min-h-screen bg-night text-moon">
       <div className="max-w-2xl mx-auto px-6 pt-8 md:pt-12 pb-20">
         <header className="flex items-center justify-between mb-10">
           <Link
             href="/"
-            className="text-warm-400 text-xs tracking-[0.3em] uppercase hover:text-ink-950 transition-colors"
+            className="text-dim text-xs tracking-[0.3em] uppercase hover:text-moon transition-colors"
           >
             summon.guide
           </Link>
           <Link
             href="/how-to"
-            className="text-warm-500 text-xs hover:text-ink-950 transition-colors"
+            className="text-mist text-xs hover:text-moon transition-colors"
           >
             All guides
           </Link>
         </header>
 
-        <p className="text-warm-400 text-xs tracking-[0.25em] uppercase mb-4">
+        <p className="text-dim text-xs tracking-[0.25em] uppercase mb-4">
           {article.maslowLevel.replace(/-/g, " ")}
         </p>
         <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.1] tracking-tight mb-5">
           {article.title}
         </h1>
         {article.problem && (
-          <p className="text-warm-500 text-lg leading-relaxed mb-10">
+          <p className="text-mist text-lg leading-relaxed mb-10">
             {article.problem}
           </p>
         )}
@@ -79,17 +79,17 @@ export default async function HowToPage({
         />
 
         {figure && (
-          <aside className="mt-12 pt-8 border-t border-warm-200">
-            <p className="text-warm-400 text-xs tracking-[0.25em] uppercase mb-3">
+          <aside className="mt-12 pt-8 border-t border-edge">
+            <p className="text-dim text-xs tracking-[0.25em] uppercase mb-3">
               Summon the guide
             </p>
             <h2 className="font-serif text-2xl mb-2">{figure.name}</h2>
-            <p className="text-warm-500 text-sm leading-relaxed mb-5">
+            <p className="text-mist text-sm leading-relaxed mb-5">
               {article.guideReason || figure.knownFor}
             </p>
             <Link
               href={`/${figure.slug}`}
-              className="inline-flex items-center justify-center bg-ink-950 text-warm-50 rounded-full px-6 py-3 text-sm font-medium hover:bg-ink-800 transition-colors min-h-[48px]"
+              className="inline-flex items-center justify-center bg-raised text-moon rounded-full px-6 py-3 text-sm font-medium hover:bg-raised transition-colors min-h-[48px]"
             >
               Chat with {figure.name}
             </Link>
@@ -97,8 +97,8 @@ export default async function HowToPage({
         )}
 
         {sources.length > 0 && (
-          <section className="mt-10 pt-6 border-t border-warm-200">
-            <p className="text-warm-400 text-xs tracking-[0.25em] uppercase mb-3">
+          <section className="mt-10 pt-6 border-t border-edge">
+            <p className="text-dim text-xs tracking-[0.25em] uppercase mb-3">
               Grounded in
             </p>
             <ul className="space-y-1.5">
@@ -106,11 +106,11 @@ export default async function HowToPage({
                 <li key={b!.slug}>
                   <Link
                     href={`/${b!.slug}`}
-                    className="text-[15px] text-ink-950 hover:text-gold-600 transition-colors"
+                    className="text-[15px] text-moon hover:text-gold-500 transition-colors"
                   >
                     {b!.title}
                   </Link>
-                  <span className="text-warm-400 text-sm"> by {b!.author}</span>
+                  <span className="text-dim text-sm"> by {b!.author}</span>
                 </li>
               ))}
             </ul>

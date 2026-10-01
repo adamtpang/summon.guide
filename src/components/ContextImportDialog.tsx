@@ -89,15 +89,15 @@ export default function ContextImportDialog({
       </Button>
 
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-h-[calc(100dvh-2rem)] gap-0 overflow-y-auto rounded-2xl bg-warm-50 p-0 ring-1 ring-ink-950/10 sm:max-w-2xl">
-          <DialogHeader className="border-b border-warm-200 px-5 py-5 pr-12 sm:px-7">
-            <p className="text-[11px] tracking-[0.22em] text-warm-500 uppercase">
+        <DialogContent className="max-h-[calc(100dvh-2rem)] gap-0 overflow-y-auto rounded-2xl bg-night p-0 ring-1 ring-moon/10 sm:max-w-2xl">
+          <DialogHeader className="border-b border-edge px-5 py-5 pr-12 sm:px-7">
+            <p className="text-[11px] tracking-[0.22em] text-mist uppercase">
               Import personal context
             </p>
-            <DialogTitle className="font-serif text-2xl font-medium leading-tight text-ink-950">
+            <DialogTitle className="font-serif text-2xl font-medium leading-tight text-moon">
               Let your current AI introduce you.
             </DialogTitle>
-            <DialogDescription className="max-w-xl leading-relaxed text-warm-500">
+            <DialogDescription className="max-w-xl leading-relaxed text-mist">
               Copy one prompt into the assistant that already knows you. Paste
               its brief below, then Summon will route your real priorities to
               the most relevant guide.
@@ -107,14 +107,14 @@ export default function ContextImportDialog({
           <div className="space-y-6 px-5 py-6 sm:px-7">
             <section aria-labelledby="extract-step">
               <div className="mb-3 flex items-start gap-3">
-                <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-ink-950 font-mono text-[10px] text-white">
+                <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-moon font-mono text-[10px] text-night">
                   1
                 </span>
                 <div>
-                  <h3 id="extract-step" className="text-sm font-medium text-ink-950">
+                  <h3 id="extract-step" className="text-sm font-medium text-moon">
                     Ask your AI for a context brief
                   </h3>
-                  <p className="mt-0.5 text-xs leading-relaxed text-warm-500">
+                  <p className="mt-0.5 text-xs leading-relaxed text-mist">
                     The prompt asks it to separate facts from uncertainty and
                     omit credentials or precise identifiers.
                   </p>
@@ -122,7 +122,7 @@ export default function ContextImportDialog({
               </div>
 
               <Tabs defaultValue="chatgpt" className="gap-3">
-                <TabsList className="h-auto min-h-11 rounded-lg bg-warm-100 p-1">
+                <TabsList className="h-auto min-h-11 rounded-lg bg-raised p-1">
                   <TabsTrigger value="chatgpt" className="min-h-11 min-w-28 rounded-md px-3">
                     ChatGPT
                   </TabsTrigger>
@@ -136,13 +136,13 @@ export default function ContextImportDialog({
                       readOnly
                       value={PROMPTS[provider]}
                       aria-label={`${provider} extraction prompt`}
-                      className="h-44 resize-none rounded-xl border-warm-200 bg-white px-4 py-3 font-mono text-[11px] leading-relaxed text-ink-950/75 focus-visible:border-ink-950 focus-visible:ring-ink-950/10"
+                      className="h-44 resize-none rounded-xl border-edge bg-white/[0.04] px-4 py-3 font-mono text-[11px] leading-relaxed text-moon/75 focus-visible:border-moon focus-visible:ring-moon/10"
                     />
                     <Button
                       type="button"
                       variant="outline"
                       onClick={() => copyPrompt(provider)}
-                      className="h-11 rounded-full border-warm-300 bg-white px-4 text-xs text-ink-950 hover:bg-warm-100"
+                      className="h-11 rounded-full border-edge bg-white/[0.04] px-4 text-xs text-moon hover:bg-raised"
                     >
                       {copied === provider ? <Check /> : <Copy />}
                       {copied === provider ? "Copied" : "Copy extraction prompt"}
@@ -154,14 +154,14 @@ export default function ContextImportDialog({
 
             <section aria-labelledby="paste-step">
               <div className="mb-3 flex items-start gap-3">
-                <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-ink-950 font-mono text-[10px] text-white">
+                <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-moon font-mono text-[10px] text-night">
                   2
                 </span>
                 <div>
-                  <h3 id="paste-step" className="text-sm font-medium text-ink-950">
+                  <h3 id="paste-step" className="text-sm font-medium text-moon">
                     Paste the brief here
                   </h3>
-                  <p className="mt-0.5 text-xs leading-relaxed text-warm-500">
+                  <p className="mt-0.5 text-xs leading-relaxed text-mist">
                     Review and remove anything you do not want to send before
                     using it.
                   </p>
@@ -171,12 +171,12 @@ export default function ContextImportDialog({
                 value={pastedContext}
                 onChange={(event) => setPastedContext(event.target.value)}
                 placeholder="# Personal context\n## Current situation\n..."
-                className="min-h-36 rounded-xl border-warm-200 bg-white px-4 py-3 text-base leading-relaxed text-ink-950 placeholder:text-warm-400 focus-visible:border-ink-950 focus-visible:ring-ink-950/10"
+                className="min-h-36 rounded-xl border-edge bg-white/[0.04] px-4 py-3 text-base leading-relaxed text-moon placeholder:text-dim focus-visible:border-moon focus-visible:ring-moon/10"
               />
             </section>
 
-            <div className="flex flex-col-reverse gap-3 border-t border-warm-200 pt-5 sm:flex-row sm:items-center sm:justify-between">
-              <p className="flex items-center gap-2 text-[11px] leading-relaxed text-warm-500">
+            <div className="flex flex-col-reverse gap-3 border-t border-edge pt-5 sm:flex-row sm:items-center sm:justify-between">
+              <p className="flex items-center gap-2 text-[11px] leading-relaxed text-mist">
                 <ShieldCheck className="size-4 shrink-0" />
                 Summon does not save this brief to your account.
               </p>
@@ -184,7 +184,7 @@ export default function ContextImportDialog({
                 type="button"
                 onClick={useContext}
                 disabled={!pastedContext.trim()}
-                className="h-11 rounded-full bg-ink-950 px-5 text-white hover:bg-ink-800"
+                className="h-11 rounded-full bg-moon px-5 text-night hover:bg-white"
               >
                 Use this context
               </Button>

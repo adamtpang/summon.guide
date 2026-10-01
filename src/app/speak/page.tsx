@@ -241,31 +241,31 @@ export default function SpeakPage() {
     }
   }, [figure, slug, words, seconds, lastArtifact, script]);
 
-  return (<main className="min-h-screen bg-warm-50 text-ink-950">
+  return (<main className="min-h-screen bg-night text-moon">
       <div className="max-w-3xl mx-auto px-6 pt-8 md:pt-12 pb-24">
         <header className="flex items-center justify-between mb-10 md:mb-14">
           <Link
             href="/"
-            className="text-warm-400 text-xs tracking-[0.3em] uppercase hover:text-ink-950 transition-colors"
+            className="text-dim text-xs tracking-[0.3em] uppercase hover:text-moon transition-colors"
           >
             summon.guide
           </Link>
           <Link
             href={`/${DEMO_GUIDE_SLUG}`}
-            className="text-warm-500 text-xs hover:text-ink-950 transition-colors"
+            className="text-mist text-xs hover:text-moon transition-colors"
           >
             Demo guide: Franklin
           </Link>
         </header>
 
         <section className="mb-12 md:mb-14">
-          <p className="text-warm-400 text-xs tracking-[0.25em] uppercase mb-4">
+          <p className="text-dim text-xs tracking-[0.25em] uppercase mb-4">
             Voiceover
           </p>
           <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.05] tracking-tight mb-5">
             A guide speaks your essay.
           </h1>
-          <p className="text-warm-500 text-base md:text-[17px] leading-[1.75] max-w-2xl">
+          <p className="text-mist text-base md:text-[17px] leading-[1.75] max-w-2xl">
             Paste a short script, or fill the episode template. Choose a guide.
             Generate a 90-120 second voiceover for video. Designed for the
             essay, then TTS, then book.movie path.
@@ -274,14 +274,14 @@ export default function SpeakPage() {
 
         {/* Demo callout */}
         <section className="mb-10">
-          <div className="bg-white border border-warm-200 rounded-xl p-5 md:p-6">
-            <p className="text-warm-400 text-xs tracking-[0.2em] uppercase mb-2">
+          <div className="bg-white/[0.04] border border-edge rounded-xl p-5 md:p-6">
+            <p className="text-dim text-xs tracking-[0.2em] uppercase mb-2">
               One-session demo
             </p>
             <h2 className="font-serif text-xl font-medium mb-2">
               {DEMO_EPISODE_META.title}
             </h2>
-            <p className="text-warm-500 text-sm leading-relaxed mb-4">
+            <p className="text-mist text-sm leading-relaxed mb-4">
               {DEMO_EPISODE_META.guideName} · {DEMO_EPISODE_META.words} words · ~
               {formatDuration(DEMO_EPISODE_META.targetSeconds)} ·{" "}
               {DEMO_EPISODE_META.style}
@@ -289,7 +289,7 @@ export default function SpeakPage() {
             <button
               type="button"
               onClick={loadDemo}
-              className="inline-flex items-center gap-2 bg-ink-950 text-warm-50 rounded-full px-5 py-2.5 text-sm font-medium hover:bg-ink-800 transition-colors active:scale-[0.98]"
+              className="inline-flex items-center gap-2 bg-raised text-moon rounded-full px-5 py-2.5 text-sm font-medium hover:bg-raised transition-colors active:scale-[0.98]"
             >
               Load Franklin demo
             </button>
@@ -298,7 +298,7 @@ export default function SpeakPage() {
 
         {/* Guide picker */}
         <section className="mb-10 space-y-4">
-          <h2 className="text-2xl md:text-3xl font-serif font-medium pb-2 border-b border-warm-200">
+          <h2 className="text-2xl md:text-3xl font-serif font-medium pb-2 border-b border-edge">
             1. Guide
           </h2>
           <div className="flex gap-3 overflow-x-auto pb-2 -mx-1 px-1">
@@ -313,10 +313,10 @@ export default function SpeakPage() {
                   } transition-opacity`}
                 >
                   <div
-                    className={`relative aspect-[3/4] rounded-xl overflow-hidden bg-warm-100 mb-1.5 border transition-colors ${
+                    className={`relative aspect-[3/4] rounded-xl overflow-hidden bg-raised mb-1.5 border transition-colors ${
                       active
-                        ? "border-ink-950"
-: "border-warm-200 group-hover:border-warm-300"
+                        ? "border-moon"
+: "border-edge group-hover:border-edge"
                     }`}
                   >
                     <Image
@@ -333,9 +333,9 @@ export default function SpeakPage() {
                 </button>);
             })}
           </div>
-          <p className="text-warm-500 text-sm">
+          <p className="text-mist text-sm">
             Speaking as{" "}
-            <span className="text-ink-950 font-medium">{figure?.name}</span>
+            <span className="text-moon font-medium">{figure?.name}</span>
             {hasMappedVoice(slug)
               ? " · mapped ElevenLabs voice"
 : " · default voice (no custom map yet)"}
@@ -344,7 +344,7 @@ export default function SpeakPage() {
 
         {/* Script */}
         <section className="mb-10 space-y-4">
-          <div className="flex items-end justify-between gap-4 border-b border-warm-200 pb-2">
+          <div className="flex items-end justify-between gap-4 border-b border-edge pb-2">
             <h2 className="text-2xl md:text-3xl font-serif font-medium">
               2. Script
             </h2>
@@ -354,8 +354,8 @@ export default function SpeakPage() {
                 onClick={() => setMode("template")}
                 className={`px-3 py-1.5 rounded-full transition-colors ${
                   mode === "template"
-                    ? "bg-ink-950 text-warm-50"
-: "text-warm-500 hover:text-ink-950"
+                    ? "bg-raised text-moon"
+: "text-mist hover:text-moon"
                 }`}
               >
                 Episode
@@ -368,8 +368,8 @@ export default function SpeakPage() {
                 }}
                 className={`px-3 py-1.5 rounded-full transition-colors ${
                   mode === "paste"
-                    ? "bg-ink-950 text-warm-50"
-: "text-warm-500 hover:text-ink-950"
+                    ? "bg-raised text-moon"
+: "text-mist hover:text-moon"
                 }`}
               >
                 Paste
@@ -378,13 +378,13 @@ export default function SpeakPage() {
           </div>
 
           {mode === "template" ? (<div className="space-y-4">
-              <p className="text-warm-500 text-sm leading-relaxed">
+              <p className="text-mist text-sm leading-relaxed">
                 Hook, then three points, then close. Aim for {TARGET.minWords}-
                 {TARGET.maxWords} words (~{TARGET.minSeconds}-
                 {TARGET.maxSeconds}s at {WPM} wpm).
               </p>
               <label className="block">
-                <span className="text-xs tracking-[0.2em] uppercase text-warm-400">
+                <span className="text-xs tracking-[0.2em] uppercase text-dim">
                   Hook
                 </span>
                 <textarea
@@ -393,12 +393,12 @@ export default function SpeakPage() {
                     setParts((p) => ({...p, hook: e.target.value }))
                   }
                   rows={3}
-                  className="mt-1.5 w-full rounded-xl border border-warm-200 bg-white px-4 py-3 text-base md:text-[17px] leading-relaxed text-ink-950/85 placeholder:text-warm-300 focus:outline-none focus:border-ink-950/40 resize-y"
+                  className="mt-1.5 w-full rounded-xl border border-edge bg-white/[0.04] px-4 py-3 text-base md:text-[17px] leading-relaxed text-moon/85 placeholder:text-dim focus:outline-none focus:border-moon/40 resize-y"
                   placeholder="Open with a claim or scene."
                 />
               </label>
               {([0, 1, 2] as const).map((i) => (<label key={i} className="block">
-                  <span className="text-xs tracking-[0.2em] uppercase text-warm-400">
+                  <span className="text-xs tracking-[0.2em] uppercase text-dim">
                     Point {i + 1}
                   </span>
                   <textarea
@@ -413,12 +413,12 @@ export default function SpeakPage() {
                       setParts((p) => ({...p, points: next }));
                     }}
                     rows={3}
-                    className="mt-1.5 w-full rounded-xl border border-warm-200 bg-white px-4 py-3 text-base md:text-[17px] leading-relaxed text-ink-950/85 placeholder:text-warm-300 focus:outline-none focus:border-ink-950/40 resize-y"
+                    className="mt-1.5 w-full rounded-xl border border-edge bg-white/[0.04] px-4 py-3 text-base md:text-[17px] leading-relaxed text-moon/85 placeholder:text-dim focus:outline-none focus:border-moon/40 resize-y"
                     placeholder={`Point ${i + 1}`}
                   />
                 </label>))}
               <label className="block">
-                <span className="text-xs tracking-[0.2em] uppercase text-warm-400">
+                <span className="text-xs tracking-[0.2em] uppercase text-dim">
                   Close
                 </span>
                 <textarea
@@ -427,34 +427,34 @@ export default function SpeakPage() {
                     setParts((p) => ({...p, close: e.target.value }))
                   }
                   rows={3}
-                  className="mt-1.5 w-full rounded-xl border border-warm-200 bg-white px-4 py-3 text-base md:text-[17px] leading-relaxed text-ink-950/85 placeholder:text-warm-300 focus:outline-none focus:border-ink-950/40 resize-y"
+                  className="mt-1.5 w-full rounded-xl border border-edge bg-white/[0.04] px-4 py-3 text-base md:text-[17px] leading-relaxed text-moon/85 placeholder:text-dim focus:outline-none focus:border-moon/40 resize-y"
                   placeholder="Land the action."
                 />
               </label>
             </div>): (<label className="block">
-              <span className="text-xs tracking-[0.2em] uppercase text-warm-400">
+              <span className="text-xs tracking-[0.2em] uppercase text-dim">
                 Full script
               </span>
               <textarea
                 value={paste}
                 onChange={(e) => setPaste(e.target.value)}
                 rows={14}
-                className="mt-1.5 w-full rounded-xl border border-warm-200 bg-white px-4 py-3 text-base md:text-[17px] leading-relaxed text-ink-950/85 font-serif placeholder:text-warm-300 focus:outline-none focus:border-ink-950/40 resize-y"
+                className="mt-1.5 w-full rounded-xl border border-edge bg-white/[0.04] px-4 py-3 text-base md:text-[17px] leading-relaxed text-moon/85 font-serif placeholder:text-dim focus:outline-none focus:border-moon/40 resize-y"
                 placeholder="Paste an essay or spoken script…"
               />
             </label>)}
 
-          <div className="flex flex-wrap items-center gap-3 text-sm text-warm-500">
+          <div className="flex flex-wrap items-center gap-3 text-sm text-mist">
             <span>
               {words} words · ~{formatDuration(seconds)}
             </span>
             <span
               className={
                 inTarget
-                  ? "text-ink-950"
+                  ? "text-moon"
 : words === 0
-                    ? "text-warm-400"
-: "text-warm-500"
+                    ? "text-dim"
+: "text-mist"
               }
             >
               {words === 0
@@ -471,7 +471,7 @@ export default function SpeakPage() {
 
         {/* Generate */}
         <section className="mb-12 space-y-4">
-          <h2 className="text-2xl md:text-3xl font-serif font-medium pb-2 border-b border-warm-200">
+          <h2 className="text-2xl md:text-3xl font-serif font-medium pb-2 border-b border-edge">
             3. Generate
           </h2>
           <div className="flex flex-wrap gap-3">
@@ -479,10 +479,10 @@ export default function SpeakPage() {
               type="button"
               disabled={loading || !script || overLimit}
               onClick={() => generate(false)}
-              className="inline-flex items-center gap-2 bg-ink-950 text-warm-50 rounded-full px-6 py-3 text-sm font-medium hover:bg-ink-800 transition-colors active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none"
+              className="inline-flex items-center gap-2 bg-raised text-moon rounded-full px-6 py-3 text-sm font-medium hover:bg-raised transition-colors active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none"
             >
               {loading ? (<>
-                  <span className="w-3.5 h-3.5 border-2 border-warm-50/30 border-t-warm-50 rounded-full animate-spin" />
+                  <span className="w-3.5 h-3.5 border-2 border-white/30 border-t-warm-50 rounded-full animate-spin" />
                   Generating…
                 </>): playing ? ("Speaking…"): ("Generate & play")}
             </button>
@@ -490,28 +490,28 @@ export default function SpeakPage() {
               type="button"
               disabled={loading || !script || overLimit}
               onClick={() => generate(true)}
-              className="inline-flex items-center gap-2 border border-warm-300 text-ink-950 rounded-full px-6 py-3 text-sm font-medium hover:border-ink-950 transition-colors active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none"
+              className="inline-flex items-center gap-2 border border-edge text-moon rounded-full px-6 py-3 text-sm font-medium hover:border-moon transition-colors active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none"
             >
               Download mp3
             </button>
             {audioUrl && (<button
                 type="button"
                 onClick={() => (playing ? stopAudio(): replay())}
-                className="inline-flex items-center gap-2 border border-warm-200 text-warm-500 rounded-full px-5 py-3 text-sm hover:text-ink-950 hover:border-warm-300 transition-colors"
+                className="inline-flex items-center gap-2 border border-edge text-mist rounded-full px-5 py-3 text-sm hover:text-moon hover:border-edge transition-colors"
               >
                 {playing ? "Stop": "Replay"}
               </button>)}
           </div>
 
-          {error && (<p className="text-sm text-red-900/80 bg-white border border-warm-200 rounded-xl px-4 py-3">
+          {error && (<p className="text-sm text-red-900/80 bg-white/[0.04] border border-edge rounded-xl px-4 py-3">
               {error}
             </p>)}
 
-          {lastArtifact && (<div className="bg-warm-100 rounded-xl px-4 py-3 text-sm text-warm-500">
-              <p className="text-xs tracking-[0.2em] uppercase text-warm-400 mb-1">
+          {lastArtifact && (<div className="bg-raised rounded-xl px-4 py-3 text-sm text-mist">
+              <p className="text-xs tracking-[0.2em] uppercase text-dim mb-1">
                 Last voiceover artifact
               </p>
-              <p className="text-ink-950/85">
+              <p className="text-moon/85">
                 {lastArtifact.slug}-voiceover.mp3 · {lastArtifact.words} words · ~
                 {formatDuration(lastArtifact.seconds)} ·{" "}
                 {(lastArtifact.bytes / 1024).toFixed(0)} KB ·{" "}
@@ -530,17 +530,17 @@ export default function SpeakPage() {
 
         {/* book.movie handoff */}
         <section className="space-y-4">
-          <h2 className="text-2xl md:text-3xl font-serif font-medium pb-2 border-b border-warm-200">
+          <h2 className="text-2xl md:text-3xl font-serif font-medium pb-2 border-b border-edge">
             4. book.movie handoff
           </h2>
-          <div className="bg-ink-950 text-warm-50 rounded-2xl p-6 md:p-7">
+          <div className="bg-raised text-moon rounded-2xl p-6 md:p-7">
             <p className="text-gold-500 text-[11px] tracking-[0.2em] uppercase mb-2">
               Audio first · visuals next
             </p>
             <p className="font-serif text-lg md:text-xl leading-snug mb-3">
               Here is the audio; visuals next.
             </p>
-            <p className="text-warm-400 text-sm leading-relaxed mb-5 max-w-xl">
+            <p className="text-dim text-sm leading-relaxed mb-5 max-w-xl">
               Download the mp3 from step 3. Copy the handoff block below into
               the book.movie / Remotion session. Pair voice with stills, type,
               or b-roll on sentence boundaries. Editorial print aesthetic, 
@@ -549,14 +549,14 @@ export default function SpeakPage() {
             <button
               type="button"
               onClick={copyHandoff}
-              className="inline-flex items-center gap-2 border border-white/15 text-warm-50 rounded-full px-5 py-2.5 text-sm font-medium hover:border-gold-500/60 transition-colors"
+              className="inline-flex items-center gap-2 border border-white/15 text-moon rounded-full px-5 py-2.5 text-sm font-medium hover:border-gold-500/60 transition-colors"
             >
               Copy handoff for book.movie
             </button>
           </div>
         </section>
 
-        <footer className="mt-16 pt-8 border-t border-warm-200 text-warm-500 text-xs leading-relaxed">
+        <footer className="mt-16 pt-8 border-t border-edge text-mist text-xs leading-relaxed">
           <p>
             Requires <code className="font-mono text-[11px]">ELEVENLABS_API_KEY</code>{" "}
             in the environment. Chat TTS uses the same route with a shorter cap;

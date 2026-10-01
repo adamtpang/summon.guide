@@ -68,9 +68,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("h-full", "antialiased", inter.variable, playfair.variable, "font-sans", geist.variable)}
+      className={cn("dark", "h-full", "antialiased", inter.variable, playfair.variable, "font-sans", geist.variable)}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col bg-night text-moon">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
