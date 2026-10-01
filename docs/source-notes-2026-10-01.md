@@ -1,6 +1,6 @@
 # Source notes added 2026-10-01
 
-Thirteen guides that had no source notes now have original syntheses under
+Thirteen guides that had no connected source notes now have them under
 `content/knowledge/<slug>/`. Each folder has a README stating the exact source,
 which parts were read, and its caveats. No source text is stored in the repo.
 
@@ -8,7 +8,7 @@ which parts were read, and its caveats. No source text is stored in the repo.
 
 | Guide | Notes | Source read |
 | --- | --- | --- |
-| from-third-world-to-first | 8 | Owner's copy; Part I chapters 1, 2, 5, 6, 7, 10, 12, 14 only |
+| from-third-world-to-first | 43 | An existing chapter-by-chapter set that was in the repo but never switched on; no new notes were added |
 | the-book-of-elon | 8 | Owner's copy, read in full |
 | your-music-and-people | 7 | Owner's copy, read in full |
 | zombies-in-western-culture | 7 | Open Book Publishers edition (CC BY 4.0), read in full |
@@ -47,8 +47,8 @@ people need a portrait, a chat entry and an evaluation before launch.
   has read them against the sources.
 - Dave Ramsey: two limitation bullets were cut back because their sources could
   not be read in full.
-- From Third World to First: the chapters most likely to cover detention without
-  trial (8 and 9) were not read.
+- From Third World to First: the 43 existing notes were not re-read against the
+  book in this pass. Eight new notes written for it were discarded as duplicates.
 - Live answer check on the seven book chats: six cited their notes correctly;
   Your Music and People answered from the notes but cited chapter names instead
   of note titles.

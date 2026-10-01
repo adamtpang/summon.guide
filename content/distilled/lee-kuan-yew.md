@@ -16,13 +16,13 @@ Transformed Singapore from third-world port to first-world nation in one generat
 
 ### 1. Going It Alone
 
-On 9 August 1965 Singapore became independent without a plan, an army or a hinterland. Lee concluded that a small island city-state could survive only by being unusually cohesive, tough and better than its neighbours at what it did.
+Independence was thrust on Singapore, not chosen, and Lee's first task was to convert a stunned, hinterland-less city of two million into a nation before foreign commentators' predictions of collapse became self-fulfilling.
 
 Source record: Going It Alone
 
 ### 2. Building an Army from Scratch
 
-With Malaysian troops still on the island and no forces of its own, Singapore built a citizen army through national service and quiet Israeli help. Lee wanted a small regular core plus the ability to mobilise most of the population.
+Facing an army and police force still staffed by Malaysian-loyal officers, Lee and Goh Keng Swee built the Singapore Armed Forces from zero using secret Israeli advisers, conscription, and a deliberate strategy of mobilizing the whole citizenry rather than just fielding a small professional force.
 
 Source record: Building an Army from Scratch
 

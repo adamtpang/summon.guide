@@ -5895,17 +5895,15 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
       {
         "file": "content/knowledge/from-third-world-to-first/001-going-it-alone.md",
         "title": "Going It Alone",
-        "principle": "On 9 August 1965 Singapore became independent without a plan, an army or a hinterland. Lee concluded that a small island city-state could survive only by being unusually cohesive, tough and better than its neighbours at what it did.",
+        "principle": "Independence was thrust on Singapore, not chosen, and Lee's first task was to convert a stunned, hinterland-less city of two million into a nation before foreign commentators' predictions of collapse became self-fulfilling.",
         "keyLessons": [
-          "Lee writes that he never expected, at 42, to be running an independent Singapore of two million people. Singapore had joined Malaysia in September 1963 and was asked to leave on 9 August 1965 after basic policy disagreements with the federal government. (ch. 1)",
-          "He calls Singapore a man-made trading post, not a natural country, and describes it after separation as \"a heart without a body\". Foreign press comment in August 1965 predicted it was not viable, and he says he shared those fears but kept them to himself because his job was to give people hope. (ch. 1)",
-          "He lists three urgent concerns in order: winning international recognition and a United Nations seat (S. Rajaratnam became foreign minister), defending the island, and finding a way for people to earn a living. (ch. 1)",
-          "On defence, Singapore had no army of its own. Its two battalions were under a Malaysian brigadier, and Lee feared that Malay hardliners in Kuala Lumpur might try to reverse separation. Goh Keng Swee took a combined interior and defence ministry, and Lim Kim San took over finance. (ch. 1)",
-          "On the economy, Indonesia's Confrontation had stopped trade, Malaysia wanted to bypass Singapore's port, and unemployment was 14 per cent and rising. The old business of processing regional raw materials for export was ending, so a new kind of economy had to be invented. (ch. 1)",
-          "He judged the government's main asset to be public trust, earned in earlier fights with the communists and the Malay hardliners, and resolved not to waste it through misgovernment or corruption. The other assets were a natural harbour on a major sea-lane and a hardworking, thrifty population. (ch. 1)",
-          "He believed the different races would live together peacefully if policy was even-handed and if hardships such as unemployment were shared and not left mainly to minorities. (ch. 1)",
-          "Lee is candid about the personal strain: tighter security after he became a target of hostile Malaysian media, months living at Changi Cottage, steel plates on the windows at Oxley Road, poor sleep, and receiving the British high commissioner while lying in bed exhausted. (ch. 1)",
-          "Applied today: when you inherit a weak position you did not choose, name the few assets you really have and decide what you must do better than others, instead of copying what worked for stronger players. (ch. 1)"
+          "Singapore was \"man-made,\" a British trading post without a hinterland; separation from Malaysia left it, in Lee's words, \"a heart without a body,\" and foreign correspondents publicly doubted it could survive as an independent state.",
+          "Lee's private fear was less Malaysia's army than the slow decline of British power and an untested transition to reliance on the United States, which was bogged down in an unpopular war in Vietnam and had no local track record as a security guarantor.",
+          "Personal security tightened immediately: threats from Malay-language media forced Lee and his family into a government chalet for months, then behind brick screens and steel-plated windows at home, guarded eventually by Gurkha police chosen specifically because they were ethnically neutral in a Chinese-Malay dispute.",
+          "Three simultaneous crises defined the first weeks: gaining international recognition and a UN seat (handled by foreign minister S. Rajaratnam), building a defense force to deter a possible Malay-Ultra coup from Kuala Lumpur, and finding an economic model now that Indonesia's confrontation and Malaysia's bypass strategy had cut off Singapore's traditional entrepot trade.",
+          "Goh Keng Swee took on a combined home affairs and defense ministry (MID) to use police infrastructure for early army training, while Lim Kim San moved into finance to keep the transition smooth.",
+          "Lee's diagnosis was that an ordinary small country could not survive on the terms handed to it; Singapore would have to become \"extraordinary,\" relying on the trust it had earned fighting off communists and Malay extremists, and on a natural harbor and a hardworking, multiracial population as its only real assets.",
+          "The chapter closes on the night of 30 September 1965, when news of the attempted coup and bloodbath in Indonesia broke, deepening Lee's sense that the region around Singapore was itself unstable ground to build a nation on."
         ],
         "youtube": "",
         "guest": ""
@@ -5913,17 +5911,16 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
       {
         "file": "content/knowledge/from-third-world-to-first/002-building-an-army-from-scratch.md",
         "title": "Building an Army from Scratch",
-        "principle": "With Malaysian troops still on the island and no forces of its own, Singapore built a citizen army through national service and quiet Israeli help. Lee wanted a small regular core plus the ability to mobilise most of the population.",
+        "principle": "Facing an army and police force still staffed by Malaysian-loyal officers, Lee and Goh Keng Swee built the Singapore Armed Forces from zero using secret Israeli advisers, conscription, and a deliberate strategy of mobilizing the whole citizenry rather than just fielding a small professional force.",
         "keyLessons": [
-          "In December 1965 a Malaysian brigadier stationed in Singapore insisted on escorting Lee to the opening of Parliament. Lee read it as a reminder of who held real power and chose to go along with it. A Malaysian regiment later refused to vacate a Singapore camp until March 1966, which he says hardened the resolve to build an independent force. (ch. 2)",
-          "In February 1966 a misread order led an officer to dismiss all Malay recruits at a training depot, and a riot followed. Lee went to speak to the detained men in Malay, explained that the rule was about citizenship and not race, held a few ringleaders and sent the rest home. Charges were later dropped. He took it as a lesson in how carefully race had to be handled. (ch. 2)",
-          "Lee first asked India and Egypt for military advisers. Both replied without addressing the request, so he let Goh Keng Swee accept an Israeli offer. The first Israeli team arrived in November 1965 and was described publicly as Mexican to avoid inflaming Malay Muslim opinion. (ch. 2)",
-          "The Israelis sent only 18 officers and insisted that Singaporeans understudy every post and take over as instructors quickly. Lee contrasts this with the slow British step-by-step method. Singapore refused Israel's demand for immediate recognition, abstained on a 1967 UN resolution condemning Israel, and allowed a trade office in 1968 and an embassy in 1969. (ch. 2)",
-          "Goh wanted 12 regular battalions first. Lee preferred a small standing army with the whole civilian population trained and placed in reserve, to save recurrent costs and to bind people to their own defence. National service legislation was tabled in February 1967 and 9,000 young men registered in the first batch without the riots seen in 1954. (ch. 2)",
-          "To overcome the traditional Chinese dislike of soldiering, the government set up cadet corps in secondary schools and held send-off ceremonies at community centres. Manpower and finance in the defence ministry were kept under civilian officers so the forces stayed subordinate to political leaders. (ch. 2)",
-          "In October 1968 Singapore hanged two Indonesian commandos for a 1964 bombing that killed three people, despite a clemency plea from President Suharto. Lee's reasoning was that yielding would leave the country open to pressure for good. A crowd then sacked the Singapore embassy in Jakarta and Indonesia curtailed trade. (ch. 2)",
-          "After the May 1969 riots in Kuala Lumpur, clashes in Singapore left one Chinese and three Malays dead. Police arrested 684 Chinese and 349 Malays and charged 18 of each. Lee then had the racial mix of recruits reviewed, and over several years the proportion of Malays in the forces was reduced, mainly by recruiting more non-Malays. (ch. 2)",
-          "By 1971 there were 17 national service battalions and 14 reserve battalions, plus tanks bought second-hand from Israel and a squadron of Hunter fighters. From 1971 top students were recruited through overseas scholarships with an eight-year bond, and the whole society was drawn in under a concept called \"Total Defence\". (ch. 2)"
+          "At independence Singapore's two infantry regiments were majority-Malaysian in personnel and under a Malaysian brigadier's effective control; a February 1966 mishandled troop dismissal at Shenton Way nearly triggered a race riot that Lee personally defused with a loudhailer speech in Malay.",
+          "Malaysia stalled on returning Singapore's own barracks (Camp Temasek), forcing Singapore troops to live under canvas and pushing Lee's family to temporarily relocate to the Istana under Gurkha guard for fear of a coup attempt by Malaysian-aligned forces still garrisoned on the island.",
+          "India's Shastri and Egypt's Nasser both declined Lee's direct requests for military advisers (likely out of Muslim-world solidarity with Malaysia), so Goh Keng Swee turned to Israel; a small team led by Colonel Jak Ellazari arrived by late 1965 and was kept secret from Malay Muslim opinion in Singapore and Malaysia by being called \"Mexicans.\"",
+          "Lee and Keng Swee disagreed on strategy: Keng Swee wanted 12 regular battalions built fast to counter an immediate Malaysian threat, while Lee pushed for a smaller standing force plus mass conscription and reserves, believing British and Commonwealth forces still in Singapore were themselves the near-term deterrent; the compromise plan combined both.",
+          "The buildup deliberately rebalanced the ethnic composition of the SAF after officials discovered Malays had been systematically over-recruited into combat roles (a legacy of distrust toward Chinese-educated recruits after the 1969 Kuala Lumpur race riots spilled fear into Singapore), a sensitive fix led by George Bogaars and Edward Yong.",
+          "Diplomatic tightropes recurred: Singapore abstained rather than voted against Israel in a 1967 UN resolution to avoid losing its Israeli advisers, delayed formal diplomatic relations with Israel for years to avoid alienating Malay Muslims, and hanged two convicted Indonesian saboteurs in 1968 despite Suharto's personal clemency plea, judging that bending the rule of law to a bigger neighbor's pressure would be more dangerous than the diplomatic backlash that followed.",
+          "A parallel \"brains and brawn\" scholarship track sent top officer cadets to Oxbridge and later Harvard/Stanford on SAF scholarships with an eight-year bond; several, including Lee's son Lee Hsien Loong, later became cabinet ministers, embedding the military elite into national leadership.",
+          "By 1990 international defense journals rated the SAF a credible regional force built up from literally nothing in 25 years, validating the mass-mobilization \"Total Defence\" concept that involved schools, employers, and community leaders alongside the military itself."
         ],
         "youtube": "",
         "guest": ""
@@ -5939,24 +5936,6 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
           "Lee deliberately avoided public recrimination even as Goh Keng Swee vented anger to the press, judging that Singapore needed British goodwill for an orderly handover of assets, not a rupture; this pragmatism became a hallmark of how Lee managed great-power disappointments throughout the book.",
           "The chapter contrasts Britain's economically driven exit with the standing military commitments of Australia and New Zealand, and traces the diplomatic construction of the Five-Power Defence Arrangement (FPDA), a consultative, non-binding replacement for the old Anglo-Malayan Defence Agreement finalized in 1971.",
           "Lee used his personal credibility (an October 1967 Labour Party conference speech at Scarborough, extensive British press coverage) to slow, but never reverse, the momentum toward withdrawal, concluding that from 1971 onward Singapore was on its own for defense."
-        ],
-        "youtube": "",
-        "guest": ""
-      },
-      {
-        "file": "content/knowledge/from-third-world-to-first/003-creating-a-financial-centre.md",
-        "title": "Creating a Financial Centre",
-        "principle": "Singapore filled a gap in the world's banking day and then spent 30 years earning a reputation for strict, honest supervision. Lee kept regulation tight until the system had proved itself in two crises, then loosened it.",
-        "keyLessons": [
-          "The idea came in 1968 from a Bank of America executive, who showed adviser Albert Winsemius that world money markets went quiet between the close of San Francisco and the opening of Zurich. Singapore could fill those hours and make banking a 24-hour service. (ch. 5)",
-          "To start an Asian dollar market Lee lifted exchange controls on dealings outside the sterling area, accepting a warning that Singapore might be pushed out of the sterling bloc. It was not, and Britain dissolved the bloc four years later. (ch. 5)",
-          "Lee and Goh Keng Swee decided in 1965 against a central bank that could create money. A currency board issued Singapore dollars only against foreign exchange backing, and the Monetary Authority of Singapore (MAS) held every central bank power except note issue. (ch. 5)",
-          "In 1975 the government pursued Slater Walker Securities over the stripping of Haw Par assets, even though investigating a famous London name carried reputational risk. Britain did not extradite Jim Slater. Richard Tarling was extradited on five lesser charges and jailed for six months on each of three. (ch. 5)",
-          "The MAS refused a licence to BCCI in 1973 and again in 1980, and Lee backed the refusal when a former British prime minister wrote on the bank's behalf. It also twice turned down the National Bank of Brunei. Both banks later collapsed, and Lee says Singapore avoided the worst because it did not bend. (ch. 5)",
-          "In 1985 the default of Pan Electric and related speculators closed the stock exchange for three days. The MAS and the four big local banks assembled a S$180 million rescue fund, and securities law was tightened afterwards. (ch. 5)",
-          "The Government of Singapore Investment Corporation was formed in May 1981 with Lee as chairman to invest reserves for the long term. He states that his aim was to protect the value of savings and earn a fair return, not to maximise returns. (ch. 5)",
-          "Lee admits that local banks were inward-looking and protected, and that after joining a J.P. Morgan advisory board in 1992 he concluded Singapore was far behind. From 1997 he pushed for foreign talent in the banks, and from 1998 the MAS under Lee Hsien Loong moved to lighter supervision and more foreign access. He adds that perhaps this should have happened earlier. (ch. 5)",
-          "During the 1997-98 Asian crisis no Singapore bank failed. The government chose maximum disclosure, persuading banks to drop hidden reserves and reveal bad loans and regional exposure. (ch. 5)"
         ],
         "youtube": "",
         "guest": ""
@@ -5978,42 +5957,6 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
         "guest": ""
       },
       {
-        "file": "content/knowledge/from-third-world-to-first/004-winning-over-the-unions.md",
-        "title": "Winning Over the Unions",
-        "principle": "Lee, once a union lawyer, used the sense of crisis after 1965 to curb strikes by law and by force of argument, then built a three-way partnership of unions, employers and government around the rule that wages follow productivity.",
-        "keyLessons": [
-          "Singapore had 153 strikes between July 1961 and September 1962. In 1969 it had none. Lee says investment and jobs required freeing unions from communist control and from practices copied from Britain. (ch. 6)",
-          "He told union audiences in 1966 that he had himself negotiated many of the costly practices, such as triple pay on public holidays, and now regretted them because they added to unemployment. He argued that pay must match performance, not hours on the job. (ch. 6)",
-          "The turning point was a 1967 dispute with K. Suppiah's federation of daily rated public workers. Lee referred it to arbitration, which made a strike unlawful. When about 2,400 cleansing workers struck anyway, police arrested Suppiah and 14 others, the health ministry treated the strikers as having dismissed themselves, and the union and federation were deregistered. Lee had also warned that workers on Indian passports could lose their work permits. (ch. 6)",
-          "He warned port workers that a British-style dock strike would be treated as high treason, and criticised the \"selfishness of established labour\" where overtime absorbed new work while others were jobless. He also told employers they had to treat workers fairly. (ch. 6)",
-          "After Britain announced its military withdrawal and the PAP won the April 1968 election, Parliament passed the Employment Act and amended the Industrial Relations Act. The laws capped overtime, retrenchment and fringe benefits, returned hiring, firing and promotion to management, banned strikes in certain essential services, and required a secret ballot before any strike. (ch. 6)",
-          "Lee reports 52 new factories and 17,000 jobs in 1969 and 20,000 more jobs in 1970. The National Wages Council, set up in 1972 with unions, employers and government, issued yearly wage guidelines on the principle that wages must not rise faster than productivity. (ch. 6)",
-          "Under Devan Nair the National Trades Union Congress (NTUC) answered falling membership by starting cooperatives: a taxi firm, an insurer and a supermarket chain, later resorts and a country club. Lee wanted workers to have access to things once reserved for the better-off. (ch. 6)",
-          "The government placed civil servants, scholars and MPs inside the NTUC, and its secretary-general sat in the cabinet from the 1980s. Lee calls the relationship symbiotic. Leadership handovers were not smooth: Lim Chee Onn resigned in 1982 after older unionists did not take to him. (ch. 6)",
-          "Lee cites unemployment falling from 14 per cent in 1965 to 1.8 per cent in 1997 and real wages rising just under 5 per cent a year from 1973 to 1997. In 1999 unions agreed to a 15 per cent cut in wages and other costs after the Asian financial crisis. (ch. 6)"
-        ],
-        "youtube": "",
-        "guest": ""
-      },
-      {
-        "file": "content/knowledge/from-third-world-to-first/005-a-fair-not-welfare-society.md",
-        "title": "A Fair, Not Welfare, Society",
-        "principle": "Lee chose to share wealth by helping citizens build assets (a home, compulsory savings, shares) and by subsidising education, housing and health, while refusing consumption subsidies that he believed would weaken self-reliance.",
-        "keyLessons": [
-          "Lee says the PAP began as socialists who wanted fair shares, then learned that personal reward drives a productive economy. Markets produce a few big winners and many losers, so some redistribution was needed, but too much would stop high performers from striving. (ch. 7)",
-          "His main aim was a home-owning society. He believed owners look after property and vote for stability, and that parents of national servicemen needed something of their own for their sons to defend. A 1964 scheme failed because buyers could not find the 20 per cent down payment. (ch. 7)",
-          "The fix, in 1968, was to let workers use Central Provident Fund (CPF) savings for the down payment and the monthly instalments. He raised CPF contributions almost yearly, timed with wage increases so take-home pay still rose, from 5 per cent each side to a combined 50 per cent of wages in 1984, later cut to 40 per cent. (ch. 7)",
-          "The state acquired land cheaply by law. After the 1961 Bukit Ho Swee fire, Lee changed the law so fire sites could be bought at the price of occupied land, about a third of market value. Later law fixed compensation at 1973 values. He saw no reason for owners to profit from publicly funded development. (ch. 7)",
-          "He records the human cost of resettlement: farmers and squatters moved from near rent-free huts into high-rise flats with bills to pay, some bringing pigs and poultry with them. He calls it a wrenching experience and a culture shock. (ch. 7)",
-          "He admits two mistakes: doubling flat construction in 1982-84, which produced poor workmanship and costly repairs, and building more flats in the early 1990s instead of curbing demand, which fed a property bubble before the 1997 crisis. (ch. 7)",
-          "On health care he rejected both the British National Health Service and American-style insurance. He introduced a 50 cent clinic fee, then Medisave accounts from CPF (1984), optional MediShield insurance (1990) and Medifund for those with nothing left (1993). He warns against a \"buffet syndrome\" of overuse. (ch. 7)",
-          "CPF money could also buy shares. In 1993 Singapore Telecom shares were sold to all adult citizens at half market value, with loyalty bonus shares to discourage quick resale. (ch. 7)",
-          "Lee says he resisted opposition and Western criticism of these policies as hard-hearted. Help exists for an estimated 5 per cent who cannot cope, but arranged so that only those with no other choice seek it. Budgets ran surpluses in all but 1985-87, and top income tax fell from 55 per cent in 1965 to 28 per cent in 1996. (ch. 7)"
-        ],
-        "youtube": "",
-        "guest": ""
-      },
-      {
         "file": "content/knowledge/from-third-world-to-first/005-creating-a-financial-centre.md",
         "title": "Creating a Financial Centre",
         "principle": "Singapore had no City of London reputation and no central bank to lean on, so it built financial credibility the slow way: a currency board instead of a money-printing central bank, a 24-hour Asian dollar market that filled a genuine time-zone gap, and an uncompromising MAS willing to reject politically connected but risky banks like BCCI.",
@@ -6025,24 +5968,6 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
           "Singapore weathered the 1985 Pan-Electric stock crisis with an emergency S$180 million \"lifeboat\" fund, survived the 1987 Black Monday crash without closing (unlike Hong Kong), and built the Singapore International Monetary Exchange (SIMEX) with a mutual-offset link to the Chicago Mercantile Exchange, an arrangement resilient enough that Nick Leeson's 1995 collapse of Barings Bank on SIMEX did not damage the exchange itself.",
           "The Government of Singapore Investment Corporation (GIC), formed in 1981 under Keng Swee with Rothschild and later World Bank president James Wolfensohn as early advisers, was built to protect and grow the country's reserves conservatively rather than chase maximum returns, growing to manage over S$120 billion by 1997.",
           "By the mid-1990s Lee judged Singapore's banks dangerously inbred and under-competitive compared to global players; he pushed his son Lee Hsien Loong, as MAS chairman from 1998, to liberalize supervision, open the sector to foreign banks and executives, and force the \"Big Four\" local banks to modernize, a shift that paid off when Singapore's banks stayed sound through the 1997-98 Asian financial crisis while the region's currencies and banks collapsed."
-        ],
-        "youtube": "",
-        "guest": ""
-      },
-      {
-        "file": "content/knowledge/from-third-world-to-first/006-nurturing-and-attracting-talent.md",
-        "title": "Nurturing and Attracting Talent",
-        "principle": "Lee came to see talent as a small country's defining asset. He tried, controversially, to change who educated Singaporeans married and how many children they had, and he recruited foreign talent to offset emigration.",
-        "keyLessons": [
-          "In his National Day Rally speech of 14 August 1983 Lee said graduate men were foolish to choose less-educated wives if they wanted able children. The press called the row that followed the \"Great Marriage Debate\", and he links it to a 12 point fall in the PAP vote at the next election. (ch. 10)",
-          "The trigger was the 1980 census. About half of graduates were women and nearly two-thirds of them were unmarried, and in 1983 only 38 per cent of graduate men had graduate wives. Lee blamed a cultural preference among men, and their mothers, for less-educated brides. (ch. 10)",
-          "He cited Minnesota twin studies to claim that roughly 80 per cent of a person's makeup comes from nature. Critics, including cabinet colleague S. Rajaratnam and backbencher Toh Chin Chye, rejected this as elitist. The chapter gives Lee's side and does not settle the science. (ch. 10)",
-          "The government set up the Social Development Unit to help graduates meet, and a parallel body for those with secondary education. Both were mocked at first. Lee reports that the second had 97,000 members by 1995. (ch. 10)",
-          "A 1984 rule gave graduate mothers with a third child priority for the best schools. Graduate mothers themselves objected, and the rule was reversed after the election. It was replaced by tax rebates for mothers with O level qualifications and above. (ch. 10)",
-          "Asked whether the 1960s policy urging families to stop at two children was wrong, Lee answers yes and no. It helped with unemployment and schooling, but he says the government should have foreseen that better-educated women would have fewer children. (ch. 10)",
-          "He concedes limits. Goh Keng Swee told him the trend could not be reversed quickly enough to help most graduate women of that generation. By 1997, 63 per cent of graduate men married graduates. (ch. 10)",
-          "Once Western countries opened to Asian migrants, Singapore lost inflow from Malaysia, and from the late 1970s about 5 per cent of its better-educated emigrated. From 1980 officers recruited Asian students at overseas universities, and by the 1990s the inflow was three times the outflow. (ch. 10)",
-          "Lee notes that in his first cabinet of ten he was the only member born and educated in Singapore, and that locals welcome foreign talent in principle but not in their own field. A rule that let men, but not women, bring in a foreign spouse was changed in January 1999. (ch. 10)"
         ],
         "youtube": "",
         "guest": ""
@@ -6075,42 +6000,6 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
           "Healthcare policy rejected both the British National Health Service (unsustainably expensive, no cost discipline) and American-style insurance (equally wasteful) in favor of Medisave: a CPF sub-account, raised to 6 percent of wages by the mid-1980s, that paid for co-payment on hospital bills, later supplemented by MediShield catastrophic insurance (1990) and Medifund (1993) as a true safety net for the genuinely destitute.",
           "The CPF was later opened to investment in blue-chip shares and government privatizations like Singapore Telecom, deliberately structured with vesting bonus shares to prevent immediate flipping, resulting in roughly 90 percent of the workforce owning shares in the company, the widest broad-based share ownership Lee claimed of any country.",
           "Lee frames the underlying philosophy with a Yin-Yang metaphor: more competitive \"Yang\" reward raises total performance but weakens solidarity, more redistributive \"Yin\" solidarity strengthens cohesion but weakens performance, and Singapore's answer was to redistribute through appreciating assets rather than consumption subsidies, judging that European welfare states took two generations to visibly damage growth and self-reliance, by which time it is politically very hard to reverse."
-        ],
-        "youtube": "",
-        "guest": ""
-      },
-      {
-        "file": "content/knowledge/from-third-world-to-first/007-keeping-the-government-clean.md",
-        "title": "Keeping the Government Clean",
-        "principle": "Lee treated corruption as a threat to the state. He gave investigators wide legal powers, pursued his own ministers, kept elections cheap, and argued that ministers must be paid close to private sector rates to stay honest.",
-        "keyLessons": [
-          "The PAP took office in June 1959 wearing white shirts and trousers as a sign of honesty. Lee says he and his colleagues were disgusted by Asian nationalist leaders who had enriched themselves, and that most ministers were professionals with working wives who did not need to put money aside. (ch. 12)",
-          "The Corrupt Practices Investigation Bureau, set up by the British in 1952, was directed at senior offenders. For petty corruption the approach was to cut discretion: publish clear rules and remove unnecessary permits. (ch. 12)",
-          "The law was tightened in stages from 1960. Investigators gained powers of arrest, search and access to bank accounts of suspects and their families. Courts could accept an accomplice's evidence and could treat wealth beyond a person's income as corroboration of bribery. In 1989 the maximum fine rose from S$10,000 to S$100,000. (ch. 12)",
-          "Lee names ministers who fell. Tan Kia Gan was removed from all posts in 1966 over an aircraft purchase though he could not be prosecuted. Wee Toon Boon was jailed in 1975. Union chief Phey Yew Kok jumped bail in 1979. Teh Cheang Wan, accused of taking two S$400,000 bribes, took his own life in December 1986 after Lee declined to see him during the investigation. (ch. 12)",
-          "He argues that expensive elections start the cycle of corruption, citing Taiwan, Thailand, Malaysia, Indonesia and Japan. In Singapore voting was made compulsory in 1959, ferrying voters by car was banned, and the PAP's campaign costs stayed well below the legal limit. (ch. 12)",
-          "Lee disputes the view that a free press guarantees clean government, pointing to countries with lively media and deep corruption. (ch. 12)",
-          "He froze ministers' pay after independence, then raised it in steps. In 1994 he proposed, and in 1995 the government adopted, a formula pegging pay for ministers and top officials at two-thirds of comparable private sector earnings. He acknowledges it caused an uproar. (ch. 12)",
-          "He proposed an elected president in 1984 to guard the reserves and to override a prime minister who blocked a corruption inquiry. The constitution was amended in 1992. (ch. 12)",
-          "In 1995 discounts on property bought by Lee's wife and by his son were investigated on Prime Minister Goh Chok Tong's order and found proper. Lee disclosed the purchases, had the matter debated in Parliament, and gave S$1 million to charity. He says the episode showed that \"no one was above the law\". (ch. 12)"
-        ],
-        "youtube": "",
-        "guest": ""
-      },
-      {
-        "file": "content/knowledge/from-third-world-to-first/008-managing-the-media.md",
-        "title": "Managing the Media",
-        "principle": "Lee rejects the Western model of an adversarial press for Singapore. He describes closing or restricting newspapers, capping ownership by law, limiting foreign publications' sales and suing for libel, and insists on the government's right of reply.",
-        "keyLessons": [
-          "Lee says the government reshaped the press over 40 years by setting \"out-of-bounds markers\", mainly for English-language journalists trained in British habits. He notes that Chinese and Malay papers already tended to support policy and criticise in measured terms. (ch. 14)",
-          "His view formed early: press freedom in practice meant owners' freedom to push their own interests. Before the 1959 election he publicly threatened to settle scores with the British-owned Straits Times. Its owners and senior editors moved to Kuala Lumpur, returned after 1965 and then backed the PAP. (ch. 14)",
-          "In 1971 the government exposed the Eastern Sun as funded by a loan from an agency of the People's Republic of China, and the paper closed. The same year Lee cancelled the printing licence of the Singapore Herald, a foreign-owned paper whose funding he considered a covert operation. (ch. 14)",
-          "At the International Press Institute in Helsinki in June 1971 he said media should reinforce, not undermine, the values taught in schools, and cited the 1950 and 1964 riots as cases where press reports cost lives. He stated that press freedom must give way to the needs of Singapore and its elected government. (ch. 14)",
-          "Laws in 1977 barred anyone from holding more than 3 per cent of a newspaper's ordinary shares and created management shares, which the minister allotted to four local banks. (ch. 14)",
-          "A 1986 law allowed the government to restrict circulation of foreign publications judged to be engaging in domestic politics, with refusal to print an official reply as one test. Lee stresses these were sales caps, not bans. Communist publications were banned outright. (ch. 14)",
-          "The caps were applied to Time (18,000 copies cut to 2,000), the Asian Wall Street Journal (5,000 to 400), Asiaweek (11,000 to 500), the Far Eastern Economic Review (9,000 to 500) and, in 1993, the Economist (capped at 7,500). In most cases limits were lifted after the letters were printed in full. The US State Department expressed regret at the restrictions. (ch. 14)",
-          "The Review dispute arose from its report on the 1987 arrest of 22 people in what Lee calls a Marxist conspiracy. He sued the editor and the weekly for libel and won in 1989 when the editor did not testify. (ch. 14)",
-          "He also answered critics directly, offering Bernard Levin a televised debate that was declined, and giving William Safire a recorded interview in 1999. He concludes that blocking information technology is a losing strategy and that the task is to make sure the government's position is still heard. (ch. 14)"
         ],
         "youtube": "",
         "guest": ""

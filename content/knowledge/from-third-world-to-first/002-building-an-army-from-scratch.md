@@ -1,27 +1,26 @@
 ---
 title: "Building an Army from Scratch"
-principle: "With Malaysian troops still on the island and no forces of its own, Singapore built a citizen army through national service and quiet Israeli help. Lee wanted a small regular core plus the ability to mobilise most of the population."
-tags: [from-third-world-to-first, defence, national-service, race-relations, goh-keng-swee]
+principle: "Facing an army and police force still staffed by Malaysian-loyal officers, Lee and Goh Keng Swee built the Singapore Armed Forces from zero using secret Israeli advisers, conscription, and a deliberate strategy of mobilizing the whole citizenry rather than just fielding a small professional force."
+tags: [from-third-world-to-first, lee-kuan-yew, singapore, defense, national-service, israel, race-relations]
 ---
 
 # Building an Army from Scratch
 
-> **Key principle:** Lee argues that a small state deters pressure by showing it can mobilise a whole trained population, not by matching its neighbours' numbers. The build-up also had to change the racial make-up of the forces and public attitudes to soldiering.
+> **Key principle:** With Singapore's own regiments effectively under Malaysian command and a real risk of a Malay-Ultra coup, Lee's government quietly imported Israeli military advisers (nicknamed "the Mexicans" to disguise them), introduced national service, and deliberately built a large citizen reserve army instead of a small professional one, betting that mass mobilization would deter Malaysia far more than firepower alone.
 
 *Synthesized from Chapter 2 of From Third World to First: The Singapore Story 1965-2000 by Lee Kuan Yew.*
 
 ## Key lessons
 
-- In December 1965 a Malaysian brigadier stationed in Singapore insisted on escorting Lee to the opening of Parliament. Lee read it as a reminder of who held real power and chose to go along with it. A Malaysian regiment later refused to vacate a Singapore camp until March 1966, which he says hardened the resolve to build an independent force. (ch. 2)
-- In February 1966 a misread order led an officer to dismiss all Malay recruits at a training depot, and a riot followed. Lee went to speak to the detained men in Malay, explained that the rule was about citizenship and not race, held a few ringleaders and sent the rest home. Charges were later dropped. He took it as a lesson in how carefully race had to be handled. (ch. 2)
-- Lee first asked India and Egypt for military advisers. Both replied without addressing the request, so he let Goh Keng Swee accept an Israeli offer. The first Israeli team arrived in November 1965 and was described publicly as Mexican to avoid inflaming Malay Muslim opinion. (ch. 2)
-- The Israelis sent only 18 officers and insisted that Singaporeans understudy every post and take over as instructors quickly. Lee contrasts this with the slow British step-by-step method. Singapore refused Israel's demand for immediate recognition, abstained on a 1967 UN resolution condemning Israel, and allowed a trade office in 1968 and an embassy in 1969. (ch. 2)
-- Goh wanted 12 regular battalions first. Lee preferred a small standing army with the whole civilian population trained and placed in reserve, to save recurrent costs and to bind people to their own defence. National service legislation was tabled in February 1967 and 9,000 young men registered in the first batch without the riots seen in 1954. (ch. 2)
-- To overcome the traditional Chinese dislike of soldiering, the government set up cadet corps in secondary schools and held send-off ceremonies at community centres. Manpower and finance in the defence ministry were kept under civilian officers so the forces stayed subordinate to political leaders. (ch. 2)
-- In October 1968 Singapore hanged two Indonesian commandos for a 1964 bombing that killed three people, despite a clemency plea from President Suharto. Lee's reasoning was that yielding would leave the country open to pressure for good. A crowd then sacked the Singapore embassy in Jakarta and Indonesia curtailed trade. (ch. 2)
-- After the May 1969 riots in Kuala Lumpur, clashes in Singapore left one Chinese and three Malays dead. Police arrested 684 Chinese and 349 Malays and charged 18 of each. Lee then had the racial mix of recruits reviewed, and over several years the proportion of Malays in the forces was reduced, mainly by recruiting more non-Malays. (ch. 2)
-- By 1971 there were 17 national service battalions and 14 reserve battalions, plus tanks bought second-hand from Israel and a squadron of Hunter fighters. From 1971 top students were recruited through overseas scholarships with an eight-year bond, and the whole society was drawn in under a concept called "Total Defence". (ch. 2)
+- At independence Singapore's two infantry regiments were majority-Malaysian in personnel and under a Malaysian brigadier's effective control; a February 1966 mishandled troop dismissal at Shenton Way nearly triggered a race riot that Lee personally defused with a loudhailer speech in Malay.
+- Malaysia stalled on returning Singapore's own barracks (Camp Temasek), forcing Singapore troops to live under canvas and pushing Lee's family to temporarily relocate to the Istana under Gurkha guard for fear of a coup attempt by Malaysian-aligned forces still garrisoned on the island.
+- India's Shastri and Egypt's Nasser both declined Lee's direct requests for military advisers (likely out of Muslim-world solidarity with Malaysia), so Goh Keng Swee turned to Israel; a small team led by Colonel Jak Ellazari arrived by late 1965 and was kept secret from Malay Muslim opinion in Singapore and Malaysia by being called "Mexicans."
+- Lee and Keng Swee disagreed on strategy: Keng Swee wanted 12 regular battalions built fast to counter an immediate Malaysian threat, while Lee pushed for a smaller standing force plus mass conscription and reserves, believing British and Commonwealth forces still in Singapore were themselves the near-term deterrent; the compromise plan combined both.
+- The buildup deliberately rebalanced the ethnic composition of the SAF after officials discovered Malays had been systematically over-recruited into combat roles (a legacy of distrust toward Chinese-educated recruits after the 1969 Kuala Lumpur race riots spilled fear into Singapore), a sensitive fix led by George Bogaars and Edward Yong.
+- Diplomatic tightropes recurred: Singapore abstained rather than voted against Israel in a 1967 UN resolution to avoid losing its Israeli advisers, delayed formal diplomatic relations with Israel for years to avoid alienating Malay Muslims, and hanged two convicted Indonesian saboteurs in 1968 despite Suharto's personal clemency plea, judging that bending the rule of law to a bigger neighbor's pressure would be more dangerous than the diplomatic backlash that followed.
+- A parallel "brains and brawn" scholarship track sent top officer cadets to Oxbridge and later Harvard/Stanford on SAF scholarships with an eight-year bond; several, including Lee's son Lee Hsien Loong, later became cabinet ministers, embedding the military elite into national leadership.
+- By 1990 international defense journals rated the SAF a credible regional force built up from literally nothing in 25 years, validating the mass-mobilization "Total Defence" concept that involved schools, employers, and community leaders alongside the military itself.
 
 ---
 
-*Synthesis only. The full text is not redistributed here. Read the book: From Third World to First: The Singapore Story 1965-2000 by Lee Kuan Yew.*
+*Synthesis only. The full text of this chapter is not redistributed here. Read the book: From Third World to First: The Singapore Story 1965-2000 by Lee Kuan Yew, https://www.amazon.com/Third-World-First-Singapore-1965-2000/dp/0060957514.*
