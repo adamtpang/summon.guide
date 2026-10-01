@@ -26,7 +26,7 @@ tags: [starter-story, lemlist, saas, cold-email, b2b-saas, bootstrapped]
 - Built the first MVP in two weeks and personally closed the first 100 customers through live demos and outbound, writing customers' first cold-email campaigns himself in exchange for using them as success-story case studies.
 - Grew to $600 in month one at 40% month-over-month growth, but noticed activation (percent of signups who actually launched a campaign) stuck around only 15%.
 - Made the risky call to rebuild the product from scratch mid-growth; the relaunch crashed growth to 0% for a month and drew public complaints, but after personally getting on Zoom calls with unhappy users until 4am to fix what broke, activation rose to 35% and growth resumed at 60% the following month.
-- Scaled ARR from $0 to $250K in year one, $1M by year two, $8M by year three, and $10M by three and a half years, then hit a plateau — describes real company growth as an S-curve, not a straight exponential line.
+- Scaled ARR from $0 to $250K in year one, $1M by year two, $8M by year three, and $10M by three and a half years, then hit a plateau, describes real company growth as an S-curve, not a straight exponential line.
 - Broke through the plateau after losing both co-founders (forcing him to run tech, support, product, sales, and marketing alone for over a year) by identifying sales reps as the "magnet persona" and repositioning lemlist explicitly as the tool built for sales teams, rather than trying to serve everyone.
 - Now runs lemlist at roughly $30M ARR and $10M EBITDA with about 100 employees and customers in more than 100 countries.
 

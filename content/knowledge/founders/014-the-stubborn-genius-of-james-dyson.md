@@ -17,7 +17,7 @@ tags: [founders-podcast, david-senra, james-dyson, product-obsession, perseveran
 
 # The Stubborn Genius of James Dyson
 
-> **Founder principle — James Dyson:** Dyson built one of the world's most valuable private companies on two convictions, difference for the sake of it and retention of total control, plus a mule-like persistence that carried him through 5,127 prototypes and 14 years of debt to the first bagless vacuum, because there is no such thing as a quantum leap, only dogged persistence.
+> **Founder principle, James Dyson:** Dyson built one of the world's most valuable private companies on two convictions, difference for the sake of it and retention of total control, plus a mule-like persistence that carried him through 5,127 prototypes and 14 years of debt to the first bagless vacuum, because there is no such thing as a quantum leap, only dogged persistence.
 
 *David Senra on James Dyson, reading from Against the Odds and Invention: A Life of Learning Through Failure. Founders Podcast · [watch](https://www.youtube.com/watch?v=hagy0fhiPpY) · 73 min · published 2025-09-12.*
 

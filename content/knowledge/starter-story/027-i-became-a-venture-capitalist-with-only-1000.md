@@ -16,7 +16,7 @@ tags: [starter-story, venture-capital, syndicates, side-hustle, deal-sourcing]
 
 # I Became A Venture Capitalist With Only $1,000
 
-> **Key principle:** Alex Pattis built a part-time venture-investing practice by running a syndicate — an SPV that bundles small checks (as low as $1,000) from individual investors into a single allocation inside a startup round led by an institutional fund — and grew it by consistently sending high-quality deal flow to VCs until they started reciprocating with access.
+> **Key principle:** Alex Pattis built a part-time venture-investing practice by running a syndicate, an SPV that bundles small checks (as low as $1,000) from individual investors into a single allocation inside a startup round led by an institutional fund, and grew it by consistently sending high-quality deal flow to VCs until they started reciprocating with access.
 
 *Alex Pattis on becoming a part-time venture capitalist, Starter Story · [watch](https://www.youtube.com/watch?v=p3xa6mpxvOY) · 17 min · published 2023-11-15.*
 

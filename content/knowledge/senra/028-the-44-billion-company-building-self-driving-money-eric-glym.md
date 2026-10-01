@@ -18,7 +18,7 @@ tags: [david-senra, interview, fintech, ai-agents, hiring]
 
 # The $44 Billion Company Building Self-Driving Money | Eric Glyman, Ramp
 
-> **Key principle — Eric Glyman:** Glyman built Ramp by inverting his industry's core assumption: instead of enticing businesses to spend more to earn points, Ramp helps them spend less and waste less time, measured on a relentless "scoreboard" of dollars and hours saved. Every process runs through a version of Elon's algorithm (question the requirement, simplify, then automate), and he now sees Ramp's real competitors not as other fintechs but as the AI labs, because what Ramp really sells is automated knowledge work.
+> **Key principle, Eric Glyman:** Glyman built Ramp by inverting his industry's core assumption: instead of enticing businesses to spend more to earn points, Ramp helps them spend less and waste less time, measured on a relentless "scoreboard" of dollars and hours saved. Every process runs through a version of Elon's algorithm (question the requirement, simplify, then automate), and he now sees Ramp's real competitors not as other fintechs but as the AI labs, because what Ramp really sells is automated knowledge work.
 
 *David Senra in conversation with Eric Glyman, co-founder and co-CEO of Ramp. [Watch](https://www.youtube.com/watch?v=lbGX3cbvMI4) · 59 min · published 2026-07-12.*
 

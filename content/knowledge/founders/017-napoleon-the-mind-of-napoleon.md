@@ -16,7 +16,7 @@ tags: [founders-podcast, david-senra, napoleon, ambition, strategy, willpower]
 
 # Napoleon (The Mind of Napoleon)
 
-> **Founder principle — Napoleon Bonaparte:** To Napoleon each thought was only a step to an action, and inaction was unbearable. Decide what your destiny is and then pursue it with maximum energy, drive and passion, and the malleable world will reconfigure itself around you.
+> **Founder principle, Napoleon Bonaparte:** To Napoleon each thought was only a step to an action, and inaction was unbearable. Decide what your destiny is and then pursue it with maximum energy, drive and passion, and the malleable world will reconfigure itself around you.
 
 *David Senra on Napoleon Bonaparte, reading from The Mind of Napoleon. Founders Podcast · [watch](https://www.youtube.com/watch?v=AuRDLXuLZE8) · 50 min · published 2024-03-19.*
 

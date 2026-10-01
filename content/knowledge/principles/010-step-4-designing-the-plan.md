@@ -6,7 +6,7 @@ tags: [principles, ray-dalio, 5-step-process, planning, visualization]
 
 # Step 4: Designing the Plan
 
-> **Key principle:** Dalio's central metaphor for this step is deliberate: designing a plan is "like writing a movie script" because you have to visualize a full sequence through time, connecting past, present, and future, rather than just producing a static list of things to do. The task list, in his framing, falls out of the story — it is not the same thing as the story.
+> **Key principle:** Dalio's central metaphor for this step is deliberate: designing a plan is "like writing a movie script" because you have to visualize a full sequence through time, connecting past, present, and future, rather than just producing a static list of things to do. The task list, in his framing, falls out of the story, it is not the same thing as the story.
 
 *Synthesized from "The 5 Steps Close-Up: 4) Designing the Plan (Determining the Solutions)" in Part 2 of Principles by Ray Dalio.*
 
@@ -14,10 +14,10 @@ tags: [principles, ray-dalio, 5-step-process, planning, visualization]
 
 - Design happens both when moving straight toward a goal and, more often, when routing around a problem already identified and diagnosed. Dalio treats problems as useful precisely because they're specific: a well-diagnosed root cause tells you exactly what has to change, which makes the design step more tractable than it looks.
 - His method is explicitly iterative and two-scaled: sketch the broad steps first (e.g., "hire great people"), then fill them in with specific, dated tasks (e.g., "choose headhunters within two weeks"), and let the specifics force revisions back up to the broad sketch. He frames this back-and-forth, not a single linear pass, as how real plans get built.
-- If a plan won't get you all the way to your goal in time, he doesn't treat that as failure by default — it's a perspective call. You either think harder (ideally with others' input) to close the gap, or you consciously reduce the goal. What he rules out is not noticing the gap at all.
-- A specific, quantified claim: designing a good plan takes "literally just hours spread out over days or weeks" compared to the time spent executing it — and he says the single biggest mistake people make at this stage is skipping it almost entirely because they're too focused on getting straight to execution.
-- The chapter restates a rule from the prior step in sharper form: "Designing precedes doing!" — the design is what generates the to-do list, not the other way around, so a task list built without an underlying design is, in his framing, directionless by construction.
-- He names visualization and a practical understanding of how things actually work as the core abilities this step requires, and — consistent with the book's recurring move — reminds the reader that lacking strong visualization skills isn't disqualifying if you bring in someone who has them.
+- If a plan won't get you all the way to your goal in time, he doesn't treat that as failure by default, it's a perspective call. You either think harder (ideally with others' input) to close the gap, or you consciously reduce the goal. What he rules out is not noticing the gap at all.
+- A specific, quantified claim: designing a good plan takes "literally just hours spread out over days or weeks" compared to the time spent executing it, and he says the single biggest mistake people make at this stage is skipping it almost entirely because they're too focused on getting straight to execution.
+- The chapter restates a rule from the prior step in sharper form: "Designing precedes doing!", the design is what generates the to-do list, not the other way around, so a task list built without an underlying design is, in his framing, directionless by construction.
+- He names visualization and a practical understanding of how things actually work as the core abilities this step requires, and, consistent with the book's recurring move, reminds the reader that lacking strong visualization skills isn't disqualifying if you bring in someone who has them.
 
 ---
 

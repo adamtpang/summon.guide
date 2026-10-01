@@ -15,9 +15,9 @@ tags: [friendly-ambitious-nerd, visakan-veerasamy, nerd-identity, libraries, his
 - Visakan opens with Archimedes' apocryphal last words, "don't disturb my circles," said before being killed by a Roman soldier, as an example that nerds obsessed with their own curiosity have always existed, even at the cost of their lives.
 - His point for anyone who feels like the only person like them around: looking to history reveals that people who want to find things out purely for the joy of it have always existed, so no one following that instinct today is actually as isolated as they might feel.
 - In "I was raised by libraries," he explicitly withholds credit from his family, his schools (except a few individual teachers), and his in-person community for who he became, and instead credits libraries and storytellers directly.
-- He situates his own difficulties in a larger generational context: his grandparents' generation lived through war and occupation, making his own problems comparatively "quaint" — while still insisting that trauma which isn't transmuted keeps passing from parent to child in what he calls "a caustic cycle of ignorance and fear."
-- He extends the classic "Santa is a lie" observation further, arguing that children are also babied and bullshitted about justice, fairness, and the institutions meant to embody them — not only about magical figures.
-- He offers a counter-image he found compelling: a parent who told her child that the real secret of Santa is that you get to become Santa yourself, joining a secret group of people who quietly make the world better for others — reframing a lie children eventually discover into an invitation they can actually accept.
+- He situates his own difficulties in a larger generational context: his grandparents' generation lived through war and occupation, making his own problems comparatively "quaint", while still insisting that trauma which isn't transmuted keeps passing from parent to child in what he calls "a caustic cycle of ignorance and fear."
+- He extends the classic "Santa is a lie" observation further, arguing that children are also babied and bullshitted about justice, fairness, and the institutions meant to embody them, not only about magical figures.
+- He offers a counter-image he found compelling: a parent who told her child that the real secret of Santa is that you get to become Santa yourself, joining a secret group of people who quietly make the world better for others, reframing a lie children eventually discover into an invitation they can actually accept.
 
 ---
 

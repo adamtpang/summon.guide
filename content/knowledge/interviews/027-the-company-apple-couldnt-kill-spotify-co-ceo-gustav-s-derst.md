@@ -18,7 +18,7 @@ tags: [david-senra, interview, product-strategy, organization-design, ai]
 
 # The Company Apple Couldn't Kill | Spotify Co-CEO Gustav Söderström
 
-> **Key principle — Gustav Söderström:** Söderström's throughline is "time well spent": when Spotify must choose, it prioritizes the user over its own engagement, even making anti-engagement decisions (like letting anyone turn off video podcasts), because about 90% of users value their Spotify time versus 60%-plus regret on rival platforms. Organizationally there is no "right" model, so he picks the one that fits: a single synchronized leadership team optimizing for one great super-app experience, accepting mediocrity everywhere that does not matter.
+> **Key principle, Gustav Söderström:** Söderström's throughline is "time well spent": when Spotify must choose, it prioritizes the user over its own engagement, even making anti-engagement decisions (like letting anyone turn off video podcasts), because about 90% of users value their Spotify time versus 60%-plus regret on rival platforms. Organizationally there is no "right" model, so he picks the one that fits: a single synchronized leadership team optimizing for one great super-app experience, accepting mediocrity everywhere that does not matter.
 
 *David Senra in conversation with Gustav Söderström, Co-CEO of Spotify. [Watch](https://www.youtube.com/watch?v=qYnVDIgZxlI) · 74 min · published 2026-06-07.*
 

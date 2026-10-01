@@ -17,7 +17,7 @@ tags: [founders-podcast, david-senra, software, microsoft, focus]
 
 # How Bill Gates Works
 
-> **Founder principle — Bill Gates:** Gates deliberately built a company around the things that came naturally to him: obsessive focus, a distaste for waste, and combative energy. Then he out-endured everyone. As Larry Ellison put it, plenty of people are smarter than Gates, but almost no one matches his focus and endurance; he was "utterly relentless" and "wanted it all."
+> **Founder principle, Bill Gates:** Gates deliberately built a company around the things that came naturally to him: obsessive focus, a distaste for waste, and combative energy. Then he out-endured everyone. As Larry Ellison put it, plenty of people are smarter than Gates, but almost no one matches his focus and endurance; he was "utterly relentless" and "wanted it all."
 
 *David Senra on Bill Gates, reading from Source Code and four other books about Bill Gates. Founders Podcast · [watch](https://www.youtube.com/watch?v=IMXm123V3Co) · 68 min · published 2025-09-24.*
 

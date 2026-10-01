@@ -17,7 +17,7 @@ tags: [founders-podcast, david-senra, jeff-bezos, amazon, customer-obsession, lo
 
 # Lessons from Jeff Bezos's Shareholder Letters
 
-> **Founder principle — Jeff Bezos:** Bezos ran Amazon by fusing relentless customer obsession with a genuinely long-term horizon, willing to be misunderstood for years and to pour cash into invention, because he judged that returning scale economies to customers as lower prices creates a virtuous cycle ending in far more free cash flow and a far more durable company.
+> **Founder principle, Jeff Bezos:** Bezos ran Amazon by fusing relentless customer obsession with a genuinely long-term horizon, willing to be misunderstood for years and to pour cash into invention, because he judged that returning scale economies to customers as lower prices creates a virtuous cycle ending in far more free cash flow and a far more durable company.
 
 *David Senra on Jeff Bezos, reading from Jeff Bezos's Amazon shareholder letters. Founders Podcast · [watch](https://www.youtube.com/watch?v=zt9e6vVBdP4) · 79 min · published 2025-05-21.*
 

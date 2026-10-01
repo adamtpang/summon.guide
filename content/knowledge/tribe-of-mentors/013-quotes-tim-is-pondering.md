@@ -12,7 +12,7 @@ tags: [tribe-of-mentors, tim-ferriss, quotes, commonplace-book, interludes]
 
 ## Key lessons
 
-- The device is structural, not incidental: these sections appear roughly every four to five profiles throughout the book, dated by the newsletter period they were originally drawn from (for example, "Sept. 18–Oct. 2, 2015"), functioning as a visible thread of Ferriss's own parallel reading life running underneath the interviews.
+- The device is structural, not incidental: these sections appear roughly every four to five profiles throughout the book, dated by the newsletter period they were originally drawn from (for example, "Sept. 18-Oct. 2, 2015"), functioning as a visible thread of Ferriss's own parallel reading life running underneath the interviews.
 - Early interludes lean on figures associated with focus and simplicity of will: Steve Jobs on innovation being defined by everything said no to, paired with Rumi on desire and Oscar Wilde on the limits of living within one's means, cluster around the book's broader theme of deliberate constraint.
 - A recurring source is classical and Stoic thought: Marcus Aurelius, Seneca (quoted more than once across different interludes), and Epicurus appear repeatedly, generally on themes of inner steadiness under external chaos, tracking with the book's overall interest in resilience.
 - Business and technology figures are folded in alongside philosophers rather than segregated: an aphorism from Bill Gates on automation magnifying whatever efficiency or inefficiency already exists sits in the same interlude structure as lines from Ralph Waldo Emerson and John Ruskin.

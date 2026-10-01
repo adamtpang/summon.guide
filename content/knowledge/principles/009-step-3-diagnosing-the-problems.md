@@ -1,6 +1,6 @@
 ---
 title: "Step 3: Diagnosing the Problems"
-principle: "Dalio's core warning at this step is that most people leap from identifying a hard problem straight to a proposed solution, skipping diagnosis entirely, and he insists diagnosis means finding root causes — described with adjectives about what a person or system is like — not proximate causes, described with verbs about what someone did."
+principle: "Dalio's core warning at this step is that most people leap from identifying a hard problem straight to a proposed solution, skipping diagnosis entirely, and he insists diagnosis means finding root causes, described with adjectives about what a person or system is like, not proximate causes, described with verbs about what someone did."
 tags: [principles, ray-dalio, 5-step-process, root-cause-analysis, growing-pains]
 ---
 
@@ -14,10 +14,10 @@ tags: [principles, ray-dalio, 5-step-process, root-cause-analysis, growing-pains
 
 - The chapter's opening warning is about speed, not accuracy: people routinely jump from identifying a tough problem to a proposed solution "in a nanosecond," skipping the hours of diagnosis and design that would have produced a better decision. Diagnosis and design, in his account, are what spark real strategic thinking; solving without them usually just treats a symptom.
 - He draws the same proximate-cause/root-cause distinction that recurs throughout the book: proximate causes are described with verbs (what happened or didn't happen); root causes are described with adjectives (what the person or system is like that produced that action). You eliminate problems only by removing root causes, not by fixing the specific incident.
-- Because many root causes trace back to people's mistakes and weaknesses, and people are reluctant to have their own (or others') weaknesses pointed out, Dalio argues that most organizations' diagnosis of people-caused problems is systematically avoided — which is why he treats willingness to "touch people's nerves" as one of the core qualities this step requires.
+- Because many root causes trace back to people's mistakes and weaknesses, and people are reluctant to have their own (or others') weaknesses pointed out, Dalio argues that most organizations' diagnosis of people-caused problems is systematically avoided, which is why he treats willingness to "touch people's nerves" as one of the core qualities this step requires.
 - He reintroduces "Pain + Reflection = Progress" here specifically in the context of diagnosis, reframing the discomfort of confronting your own or others' mistakes as "growing pains" rather than something to minimize, and argues that with enough repetition this discomfort can convert into what he calls "growing pleasures."
-- Not all problems trace to a person's mistake — he explicitly allows for pure bad luck (lightning striking) as a cause with no human error behind it — but insists that whenever mistakes are plausibly involved, you have to be willing to look at your own and others' behavior as a possible cause, however uncomfortable that is.
-- The three qualities he names as required for this step are logic, the ability to see multiple possibilities, and the willingness to touch the nerves that stand between people and the truth about their own weaknesses — a combination he treats as rarer than raw intelligence alone.
+- Not all problems trace to a person's mistake, he explicitly allows for pure bad luck (lightning striking) as a cause with no human error behind it, but insists that whenever mistakes are plausibly involved, you have to be willing to look at your own and others' behavior as a possible cause, however uncomfortable that is.
+- The three qualities he names as required for this step are logic, the ability to see multiple possibilities, and the willingness to touch the nerves that stand between people and the truth about their own weaknesses, a combination he treats as rarer than raw intelligence alone.
 
 ---
 

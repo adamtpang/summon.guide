@@ -17,7 +17,7 @@ tags: [founders-podcast, david-senra, steve-jobs, apple, simplicity, marketing]
 
 # How Steve Jobs Kept Things Simple
 
-> **Founder principle — Steve Jobs:** Steve's dedication to simplicity was almost religious, and he enforced it with a "simple stick": any idea not distilled to its essence got rejected. Simplicity was not decoration but a competitive weapon, expressed through blunt communication, small teams, a single message, and a relentless drive to keep the main thing the main thing.
+> **Founder principle, Steve Jobs:** Steve's dedication to simplicity was almost religious, and he enforced it with a "simple stick": any idea not distilled to its essence got rejected. Simplicity was not decoration but a competitive weapon, expressed through blunt communication, small teams, a single message, and a relentless drive to keep the main thing the main thing.
 
 *David Senra on Steve Jobs, reading from Insanely Simple: The Obsession That Drives Apple's Success. Founders Podcast · [watch](https://www.youtube.com/watch?v=Mf8MZ8Iy8sE) · 52 min · published 2024-07-02.*
 

@@ -17,7 +17,7 @@ tags: [founders-podcast, david-senra, rockefeller, standard-oil, focus, capital-
 
 # Rockefeller's Autobiography
 
-> **Founder principle — John D. Rockefeller:** The real efficiency in work comes from knowing your facts and building upon that sure foundation. Rockefeller's edge over "unintelligent competition" was refusing to deceive himself about his own numbers, preparing a fortress of cash long before he needed it, and letting a focused business compound step by step for forty years.
+> **Founder principle, John D. Rockefeller:** The real efficiency in work comes from knowing your facts and building upon that sure foundation. Rockefeller's edge over "unintelligent competition" was refusing to deceive himself about his own numbers, preparing a fortress of cash long before he needed it, and letting a focused business compound step by step for forty years.
 
 *David Senra on John D. Rockefeller, reading from Random Reminiscences of Men and Events. Founders Podcast · [watch](https://www.youtube.com/watch?v=seMvuxRct1Q) · 53 min · published 2024-10-15.*
 

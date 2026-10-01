@@ -18,7 +18,7 @@ tags: [david-senra, interview, gaming, creator-economy, systems-thinking]
 
 # Roblox’s David Baszucki Built the Biggest Playground on Earth
 
-> **Key principle — David Baszucki:** Baszucki builds "perpetual motion machines": self-sustaining, closed-loop systems that grow on their own. Roblox turns players into creators and creators into entrepreneurs through an owned virtual economy (Robux), while the company itself is run as a system, the "Roblox Operating System," of nine semi-autonomous companies. Take the longest view in the room, then compound it with an almost infinite number of daily iterations.
+> **Key principle, David Baszucki:** Baszucki builds "perpetual motion machines": self-sustaining, closed-loop systems that grow on their own. Roblox turns players into creators and creators into entrepreneurs through an owned virtual economy (Robux), while the company itself is run as a system, the "Roblox Operating System," of nine semi-autonomous companies. Take the longest view in the room, then compound it with an almost infinite number of daily iterations.
 
 *David Senra in conversation with David Baszucki, co-founder and CEO of Roblox. [Watch](https://www.youtube.com/watch?v=osuOwvEhVfQ) · 88 min · published 2026-04-26.*
 

@@ -6,7 +6,7 @@ tags: [the-war-of-art, steven-pressfield, ego, self, jung, higher-realm]
 
 # The Ego and the Self, Experiencing the Self
 
-> **Key principle:** Pressfield builds his own two-sided model directly on Tom Laughlin's Jungian Ego/Self split: the Ego is where Resistance lives and it wants nothing to change, while the Self is where angels and creative impulse live and it wants us to evolve — which is why the Ego actively produces Resistance whenever the Self stirs toward growth.
+> **Key principle:** Pressfield builds his own two-sided model directly on Tom Laughlin's Jungian Ego/Self split: the Ego is where Resistance lives and it wants nothing to change, while the Self is where angels and creative impulse live and it wants us to evolve, which is why the Ego actively produces Resistance whenever the Self stirs toward growth.
 
 *Synthesized from "The Ego and the Self" and "Experiencing the Self," from Book Three of The War of Art by Steven Pressfield.*
 
