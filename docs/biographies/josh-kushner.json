@@ -1,0 +1,79 @@
+{
+  "slug": "josh-kushner",
+  "checkedOn": "2026-10-01",
+  "claims": [
+    {
+      "claim": "Born June 12, 1985, in Livingston, New Jersey",
+      "url": "https://en.wikipedia.org/wiki/Joshua_Kushner"
+    },
+    {
+      "claim": "Harvard College BA 2008; Harvard Business School MBA 2011",
+      "url": "https://en.wikipedia.org/wiki/Joshua_Kushner"
+    },
+    {
+      "claim": "Bachelor's degree in government from Harvard (2008); co-founded Vostu as an undergraduate; one year at Goldman Sachs; MBA 2011",
+      "url": "https://finance.yahoo.com/news/meet-josh-kushner-billionaire-venture-130749744.html"
+    },
+    {
+      "claim": "Thrive Capital founded in 2009 by Joshua Kushner at age 24; seed funding from Joel Cutler of General Catalyst; headquartered in the Puck Building, New York City",
+      "url": "https://en.wikipedia.org/wiki/Thrive_Capital"
+    },
+    {
+      "claim": "Early Thrive investments included Instagram, Spotify, Slack and ClassPass",
+      "url": "https://finance.yahoo.com/news/meet-josh-kushner-billionaire-venture-130749744.html"
+    },
+    {
+      "claim": "Thrive investments include GitHub, Twitch, Stripe, Plaid, Airtable, Databricks, Ramp and OpenAI",
+      "url": "https://en.wikipedia.org/wiki/Thrive_Capital"
+    },
+    {
+      "claim": "Goldman Sachs bought a minority stake in Thrive in 2021; Bob Iger, Mukesh Ambani, Henry Kravis and others acquired a stake in January 2023",
+      "url": "https://en.wikipedia.org/wiki/Thrive_Capital"
+    },
+    {
+      "claim": "Thrive Capital led the OpenAI funding round announced October 2, 2024",
+      "url": "https://techcrunch.com/2024/10/02/openai-raises-6-6b-and-is-now-valued-at-157b/"
+    },
+    {
+      "claim": "Thrive invested in A24 in 2024; Kushner is vice chair of Oscar's board; Bedford Media acquired Life magazine publication rights in March 2024",
+      "url": "https://finance.yahoo.com/news/meet-josh-kushner-billionaire-venture-130749744.html"
+    },
+    {
+      "claim": "Oscar Health founded in 2012 in New York City by Mario Schlosser, Kevin Nazemi and Joshua Kushner; health insurance company",
+      "url": "https://en.wikipedia.org/wiki/Oscar_Health"
+    },
+    {
+      "claim": "Oscar was incorporated October 25, 2012; Kushner and Schlosser sign the S-1 letter as Co-Founders",
+      "url": "https://www.sec.gov/Archives/edgar/data/1568651/000119312521030955/d28906ds1.htm"
+    },
+    {
+      "claim": "Oscar reported large losses in 2015 and 2016 when its models failed to forecast member health accurately; positive net income for 2024",
+      "url": "https://en.wikipedia.org/wiki/Oscar_Health"
+    },
+    {
+      "claim": "Oscar IPO on March 3, 2021, on the NYSE under ticker OSCR",
+      "url": "https://en.wikipedia.org/wiki/Oscar_Health"
+    },
+    {
+      "claim": "IPO priced at 39 dollars per share; Oscar lost about 400 million dollars in 2020; Kushner held about 76 percent of voting power through Thrive's stake",
+      "url": "https://www.pymnts.com/news/ipo/2021/oscar-health-ipo-raises-1-4-billion-on-7-9-billion-valuation/"
+    },
+    {
+      "claim": "Mario Schlosser stepped down as CEO in April 2023 and Mark Bertolini became CEO",
+      "url": "https://en.wikipedia.org/wiki/Oscar_Health"
+    },
+    {
+      "claim": "Married Karlie Kloss in 2018",
+      "url": "https://en.wikipedia.org/wiki/Joshua_Kushner"
+    }
+  ],
+  "quotes": [],
+  "uncertain": [
+    "No quote included: the Oscar S-1 founders letter is co-signed with Mario Schlosser, and a first extraction of a sentence from it turned out to be a paraphrase when rechecked.",
+    "Net worth, fund sizes, valuations and returns were left out as instructed; outlets give conflicting figures.",
+    "Number of children left out: Wikipedia says three, an older Business Insider profile (via Yahoo) says two.",
+    "Wikipedia lists sports holdings (Memphis Grizzlies stake 2019 to 2024, Miami Heat stake 2024) and a 2026 Los Angeles Lakers purchase with Bob Iger. These were not confirmed in a second fetched source and were left out.",
+    "First-day IPO share performance (reported as a decline of about 10.7 percent) appeared only in a search snippet; CNBC and Forbes pages returned 403, so it was left out.",
+    "The Thrive Capital founding story (2009, age 24, during business school) rests on Wikipedia and a Business Insider profile; no primary filing states it."
+  ]
+}

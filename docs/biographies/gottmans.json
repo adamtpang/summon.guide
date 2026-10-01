@@ -1,0 +1,101 @@
+{
+  "slug": "gottmans",
+  "checkedOn": "2026-10-01",
+  "claims": [
+    {
+      "claim": "John Gottman: BS mathematics-physics, Fairleigh Dickinson University, 1962; MS mathematics-psychology, MIT, 1964; master's 1967 and PhD in clinical psychology 1971, University of Wisconsin-Madison",
+      "url": "https://en.wikipedia.org/wiki/John_Gottman"
+    },
+    {
+      "claim": "John Gottman was professor of psychology at the University of Illinois and then the University of Washington; emeritus professor at UW",
+      "url": "https://en.wikipedia.org/wiki/John_Gottman"
+    },
+    {
+      "claim": "John Gottman is Professor Emeritus of Psychology at the University of Washington and founded the Love Lab",
+      "url": "https://www.gottman.com/about/john-julie-gottman/"
+    },
+    {
+      "claim": "Julie Schwartz Gottman: BA psychology, Colorado College, 1974; MEd mental health counseling, Northeastern University, 1976; PhD, California School of Professional Psychology, San Diego, 1985",
+      "url": "https://en.wikipedia.org/wiki/Julie_Schwartz_Gottman"
+    },
+    {
+      "claim": "Julie Schwartz Gottman was on the psychiatric staff of the University of Oregon Medical Center Psychiatric Crisis Unit, 1976-1978",
+      "url": "https://en.wikipedia.org/wiki/Julie_Schwartz_Gottman"
+    },
+    {
+      "claim": "Robert Levenson began working with John Gottman in 1975, combining emotion study, psychophysiological measurement and video recall",
+      "url": "https://www.gottman.com/about/research/"
+    },
+    {
+      "claim": "The apartment laboratory (Love Lab) was established at the University of Washington in 1986",
+      "url": "https://www.gottman.com/about/research/"
+    },
+    {
+      "claim": "The Four Horsemen are criticism, defensiveness, contempt and stonewalling",
+      "url": "https://www.gottman.com/about/research/"
+    },
+    {
+      "claim": "The institute states over 90 percent accuracy in predicting divorce across seven longitudinal studies",
+      "url": "https://www.gottman.com/about/research/"
+    },
+    {
+      "claim": "Sound Relationship House theory developed in 1994 by John Gottman and Julie Schwartz Gottman",
+      "url": "https://www.gottman.com/about/research/"
+    },
+    {
+      "claim": "The Sound Relationship House has seven levels",
+      "url": "https://www.johngottman.net/wp-content/uploads/2011/05/Navarra-Gottman-SRH-Theory-Relationship-Marriage-Education.pdf"
+    },
+    {
+      "claim": "The Gottman Institute was co-founded in 1996 by Julie and John Gottman to translate research into practical applications and professional training",
+      "url": "https://www.gottman.com/about/research/"
+    },
+    {
+      "claim": "The institute was founded in Seattle; Julie Schwartz Gottman was clinical director 1996-2001",
+      "url": "https://en.wikipedia.org/wiki/Julie_Schwartz_Gottman"
+    },
+    {
+      "claim": "Julie Schwartz Gottman is a licensed clinical psychologist working with distressed couples, trauma and abuse survivors, same-sex marriage and parenting; co-designer of the Gottman Couples Therapy clinical training program; co-creator of the Art and Science of Love workshops",
+      "url": "https://www.gottman.com/about/john-julie-gottman/"
+    },
+    {
+      "claim": "Richard Heyman (2001) criticized the prediction models for overfitting, small samples and lack of validation on independent data; Laurie Abraham made a similar criticism",
+      "url": "https://en.wikipedia.org/wiki/John_Gottman"
+    },
+    {
+      "claim": "Heyman and Slep (2001), The hazards of predicting divorce without crossvalidation, cited as a methodological concern; Kim, Capaldi and Crosby (2007) report that the major findings from the Newlywed Study were not replicated",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1828692/"
+    },
+    {
+      "claim": "Laurie Abraham, Slate, March 2010: the 1998 study used 57 newlywed couples and the equations were built after outcomes were known, with no cross-validation on fresh samples",
+      "url": "https://slate.com/human-interest/2010/03/a-dissection-of-john-gottman-s-love-lab.html"
+    },
+    {
+      "claim": "Why Marriages Succeed or Fail (1994); The Seven Principles for Making Marriage Work (1999)",
+      "url": "https://en.wikipedia.org/wiki/John_Gottman"
+    },
+    {
+      "claim": "Ten Lessons to Transform Your Marriage (2006); And Baby Makes Three (2007); The Science of Couples and Family Therapy (2018)",
+      "url": "https://en.wikipedia.org/wiki/Julie_Schwartz_Gottman"
+    },
+    {
+      "claim": "John Gottman: four NIMH Research Scientist Awards; AAMFT Distinguished Research Scientist Award; NCFR Burgess Award (1994); both: Psychotherapy Networker Lifetime Achievement Award",
+      "url": "https://www.gottman.com/about/john-julie-gottman/"
+    },
+    {
+      "claim": "Julie Schwartz Gottman: Distinguished Psychologist of the Year, Washington State Psychological Association, 2002",
+      "url": "https://en.wikipedia.org/wiki/Julie_Schwartz_Gottman"
+    }
+  ],
+  "quotes": [],
+  "uncertain": [
+    "No quotes included: no primary text by either person was fetched, so no verbatim line could be verified.",
+    "wikipediaUrl omitted because this is a duo guide. Separate articles exist: en.wikipedia.org/wiki/John_Gottman and en.wikipedia.org/wiki/Julie_Schwartz_Gottman.",
+    "The Heyman and Slep (2001) paper itself could not be fetched (Wiley returned 403). Its argument is reported through Wikipedia, the Slate article and the Kim, Capaldi and Crosby (2007) paper that cites it. The journal name (Journal of Marriage and Family) and Slep's full name (Amy M. Smith Slep) appeared only in search results, so they were left out of the prose.",
+    "Accuracy figures vary by source and study: the institute says over 90 percent across seven studies; Slate reports claims of 83 percent and 91 percent for the 1998 newlywed study and Abraham's own recalculation of about 43 percent after allowing for the base rate of divorce. Heyman's affiliation is given as NYU by Wikipedia and SUNY by Slate; left out.",
+    "Publication counts differ: Wikipedia says John Gottman wrote over 190 papers and 40 books; the institute says 250+ articles and 50+ books. Left out of the prose.",
+    "Sound Relationship House authorship: the institute research page credits both Gottmans (1994); a 2015 paper by Navarra credits John Gottman. The profile follows the institute and says so.",
+    "The Seven Principles co-author (Nan Silver) and the years of recent books (Eight Dates, The Love Prescription, Fight Right) were not confirmed on a fetched page and were left out. Which of Julie Schwartz Gottman's listed books were co-written with John was not confirmed title by title.",
+    "Dates of John Gottman's University of Washington appointment were not confirmed (Wikipedia gives about 16 years, and 1981 for the Illinois professorship in an unclear phrasing); left out. The 'two are married' statement rests on Wikipedia and the institute describing them as husband and wife."
+  ]
+}

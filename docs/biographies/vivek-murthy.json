@@ -1,0 +1,105 @@
+{
+  "slug": "vivek-murthy",
+  "checkedOn": "2026-10-01",
+  "claims": [
+    {
+      "claim": "Full name Vivek Hallegere Murthy, born July 10, 1977, in Huddersfield, England",
+      "url": "https://en.wikipedia.org/wiki/Vivek_Murthy"
+    },
+    {
+      "claim": "Family moved to Newfoundland in 1978 and to Miami when he was three",
+      "url": "https://en.wikipedia.org/wiki/Vivek_Murthy"
+    },
+    {
+      "claim": "His father ran a medical clinic in Miami",
+      "url": "https://www.vivekmurthy.com/about"
+    },
+    {
+      "claim": "Valedictorian of Miami Palmetto Senior High School, 1994",
+      "url": "https://en.wikipedia.org/wiki/Vivek_Murthy"
+    },
+    {
+      "claim": "Harvard BA in biochemical sciences, magna cum laude, 1997; Yale MD and MBA, 2003",
+      "url": "https://en.wikipedia.org/wiki/Vivek_Murthy"
+    },
+    {
+      "claim": "Bachelor's from Harvard, MD and MBA from Yale, residency at Brigham and Women's Hospital, faculty at Harvard Medical School",
+      "url": "https://www.vivekmurthy.com/about"
+    },
+    {
+      "claim": "Co-founded VISIONS (1995) and the Swasthya project (1997)",
+      "url": "https://en.wikipedia.org/wiki/Vivek_Murthy"
+    },
+    {
+      "claim": "Founded Doctors for America in 2008 and co-founded TrialNetworks (clinical trial software)",
+      "url": "https://bookfest.tulane.edu/authors/vivek-murthy-md"
+    },
+    {
+      "claim": "Confirmed December 15, 2014, by a 51 to 43 vote, aged 37, first Indian American Surgeon General; NRA objected to his view of guns as a public health issue",
+      "url": "https://www.wbur.org/news/2014/12/15/vivek-murthy-confirmed-surgeon-general"
+    },
+    {
+      "claim": "Nomination delayed over a year; 2012 tweet on gun violence as a public health problem",
+      "url": "https://news.harvard.edu/gazette/story/2014/12/leading-role-for-murthy/"
+    },
+    {
+      "claim": "Served as 19th Surgeon General from December 15, 2014 to April 21, 2017 and as 21st from March 23, 2021 to January 20, 2025",
+      "url": "https://www.vivekmurthy.com/about"
+    },
+    {
+      "claim": "First-term reports: Facing Addiction in America, e-cigarette report, 2016 opioid letter to 2.3 million health professionals",
+      "url": "https://www.vivekmurthy.com/about"
+    },
+    {
+      "claim": "Asked to resign by the Trump administration in April 2017; Rear Admiral Sylvia Trent-Adams became acting Surgeon General",
+      "url": "https://abcnews.com/Politics/obama-appointee-vivek-murthy-resigns-surgeon-general-replaced/story?id=46951009"
+    },
+    {
+      "claim": "Together published 2020",
+      "url": "https://bookfest.tulane.edu/authors/vivek-murthy-md"
+    },
+    {
+      "claim": "Co-chair of the COVID-19 advisory board from November 9, 2020; second confirmation March 23, 2021, 57 to 43",
+      "url": "https://en.wikipedia.org/wiki/Vivek_Murthy"
+    },
+    {
+      "claim": "Advisory Our Epidemic of Loneliness and Isolation released May 2, 2023; health risk figures",
+      "url": "https://www.naco.org/news/us-surgeon-general-releases-advisory-and-national-strategy-advance-social-connection"
+    },
+    {
+      "claim": "About one in two American adults reported loneliness; national strategy with six pillars",
+      "url": "https://integrationacademy.ahrq.gov/news-and-events/news/surgeon-general-advisory-epidemic-loneliness-and-isolation"
+    },
+    {
+      "claim": "Advisory on social media and youth mental health issued May 23, 2023",
+      "url": "https://www.upi.com/Top_News/US/2023/05/23/surgeon-general-advisory-social-media-youth-mental-health-risks/3451684856907"
+    },
+    {
+      "claim": "Advisory on firearm violence issued June 2024, calling it an urgent public health crisis",
+      "url": "https://www.emergencyphysicians.org/press-releases/2024/6-25-24-u.s.-surgeon-general-issues-advisory-on-the-public-health-crisis-of-firearm-violence-in-the-united-states"
+    },
+    {
+      "claim": "Advisory on alcohol and cancer risk issued January 3, 2025, calling for updated warning labels",
+      "url": "https://ascopost.com/news/january-2025/surgeon-general-s-report-calls-for-cancer-warning-labels-on-alcoholic-beverages/"
+    },
+    {
+      "claim": "Married Alice Chen in 2015; two children; Soros Fellowship, American University honorary degree (2023), TIME100 Health (2024)",
+      "url": "https://en.wikipedia.org/wiki/Vivek_Murthy"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I issued this advisory because this is an urgent crisis.",
+      "url": "https://time.com/6282893/surgeon-general-vivek-murthy-interview-social-media/",
+      "source": "Interview with TIME on the social media advisory, May 2023"
+    }
+  ],
+  "uncertain": [
+    "Start of first term: his own site and Tulane give December 15, 2014 (the confirmation date); Wikipedia's infobox as summarized gave April 22, 2015 (likely the formal commissioning ceremony). The profile states only the confirmation date.",
+    "End of first term: his site gives April 21, 2017; the ABC News summary read April 22, 2017. The profile says April 2017.",
+    "Firearm violence advisory date: the ACEP release is dated June 25, 2024, and was summarized as June 24. The profile says June 2024.",
+    "hhs.gov, surgeongeneral PDF pages, Britannica, CNN, AP and NPR could not be fetched (403, 451 or timeouts), so term dates rest on vivekmurthy.com, Tulane, WBUR and Wikipedia rather than hhs.gov directly.",
+    "The '15 cigarettes a day' comparison and the 2017 departure statement quote were seen only in search snippets or a single summarized fetch, so both were left out.",
+    "Parents' and sister's names appear on his own site but were left out under the living-person rule. No verified information on activities after January 20, 2025 was found."
+  ]
+}
