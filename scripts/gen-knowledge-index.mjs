@@ -46,7 +46,7 @@ const targets = [
 // frontmatter predates that rule, so normalize when copying into the index.
 const clean = (text) =>
   String(text ?? "")
-    .replace(/\s*[‒–—―−]+\s*/g, ", ")
+    .replace(/\s*[\u2012\u2013\u2014\u2015\u2212]+\s*/g, ", ")
     .replace(/\|/g, "/")
     .replace(/\s+/g, " ")
     .trim();

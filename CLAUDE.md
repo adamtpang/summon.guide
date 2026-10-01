@@ -3,34 +3,34 @@
 # Project Status
 
 ## What's Built
-legends.guide v2 — streaming chat with 10 founders, compare feature, source citations. Builds cleanly.
+legends.guide v2, streaming chat with 10 founders, compare feature, source citations. Builds cleanly.
 
 ### Architecture
 - **Next.js 16 + Tailwind CSS v4 + TypeScript** (App Router)
 - **OpenRouter waterfall** for chat: two live-ranked free quality models, then one capped-cost fallback, with SSE streaming
-- **No database** — knowledge chunks embedded directly in system prompts (sufficient for 10 founders)
-- **Modular AI config** — model/provider swappable via `AI_CONFIG` in figures.ts
+- **No database**, knowledge chunks embedded directly in system prompts (sufficient for 10 founders)
+- **Modular AI config**, model/provider swappable via `AI_CONFIG` in figures.ts
 
 ### File Map
-- `src/lib/figures.ts` — 10 founder definitions with deeply researched system prompts, knowledge chunks with source citations, and `AI_CONFIG` for model swapping
-- `src/app/page.tsx` — Landing page: dark grid of 10 FigureCards + Compare CTA
-- `src/app/chat/[figure]/page.tsx` — Streaming chat UI: header, message thread, real-time token streaming, typing indicator
-- `src/app/compare/page.tsx` — Compare page: pick 2 founders, ask same question, parallel streaming responses side-by-side
-- `src/app/api/chat/route.ts` — POST route: entitlement-aware SSE streaming through the OpenRouter waterfall
-- `src/components/FigureCard.tsx` — Card with gradient avatar, name, era, hook
-- `src/components/ChatMessage.tsx` — Message rendering with citation parsing and display
+- `src/lib/figures.ts`, 10 founder definitions with deeply researched system prompts, knowledge chunks with source citations, and `AI_CONFIG` for model swapping
+- `src/app/page.tsx`, Landing page: dark grid of 10 FigureCards + Compare CTA
+- `src/app/chat/[figure]/page.tsx`, Streaming chat UI: header, message thread, real-time token streaming, typing indicator
+- `src/app/compare/page.tsx`, Compare page: pick 2 founders, ask same question, parallel streaming responses side-by-side
+- `src/app/api/chat/route.ts`, POST route: entitlement-aware SSE streaming through the OpenRouter waterfall
+- `src/components/FigureCard.tsx`, Card with gradient avatar, name, era, hook
+- `src/components/ChatMessage.tsx`, Message rendering with citation parsing and display
 
 ### The Founding 10
-1. John D. Rockefeller — wealth, discipline, monopoly (Titan by Chernow)
-2. Steve Jobs — product, taste, focus (Isaacson biography)
-3. Jeff Bezos — Day 1, customer obsession (Everything Store, Invent and Wander)
-4. Elon Musk — first principles, speed (Isaacson, Vance biographies)
-5. Jensen Huang — NVIDIA, suffering, conviction (The Nvidia Way)
-6. Peter Thiel — monopoly, contrarian thinking (Zero to One)
-7. Charlie Munger — mental models, inversion (Poor Charlie's Almanack)
-8. Benjamin Franklin — self-improvement, reinvention (Autobiography, Isaacson)
-9. Sam Walton — retail, hustle, culture (Made in America)
-10. Naval Ravikant — leverage, specific knowledge, happiness (Almanack)
+1. John D. Rockefeller, wealth, discipline, monopoly (Titan by Chernow)
+2. Steve Jobs, product, taste, focus (Isaacson biography)
+3. Jeff Bezos, Day 1, customer obsession (Everything Store, Invent and Wander)
+4. Elon Musk, first principles, speed (Isaacson, Vance biographies)
+5. Jensen Huang, NVIDIA, suffering, conviction (The Nvidia Way)
+6. Peter Thiel, monopoly, contrarian thinking (Zero to One)
+7. Charlie Munger, mental models, inversion (Poor Charlie's Almanack)
+8. Benjamin Franklin, self-improvement, reinvention (Autobiography, Isaacson)
+9. Sam Walton, retail, hustle, culture (Made in America)
+10. Naval Ravikant, leverage, specific knowledge, happiness (Almanack)
 
 ## Deploy Checklist
 - [x] Set OPENROUTER_API_KEY in Vercel Production and Preview
@@ -690,7 +690,7 @@ legends.guide v2 — streaming chat with 10 founders, compare feature, source ci
 - Local llama.cpp smoke server was stopped after evaluation to release memory.
 
 
-## Sage catalog reconciliation and stronger generation — 2026-09-10
+## Sage catalog reconciliation and stronger generation, 2026-09-10
 
 - Reconciled all 170 saved Founders videos against 457 official catalog entries;
   156 rule-based metadata mappings plus 14 documented agent-reviewed mappings.
@@ -712,13 +712,13 @@ legends.guide v2 — streaming chat with 10 founders, compare feature, source ci
   docs/sage-rag-reconciliation-and-generation.md. Eight mechanical tests passed.
   No commit, push, deployment or personal outreach.
 
-## Interactive Sage preview — 2026-09-10
+## Interactive Sage preview, 2026-09-10
 
 User requested testing. Added private preview-server.mjs and preview.html under scripts/sage-rag. Running at http://127.0.0.1:3116/sage with 208-transcript retrieval and experimental Qwen3 4B evidence-first generation. Opened in-app browser; verified an answer and timestamped source links. HTTP checks passed for HTML/avatar and rejected external Origin (403). Loopback only, bounded JSON requests, one active generation. Production unchanged. Model and preview remain running for user testing.
 
 
 
-## Sage blue magic design — 2026-09-10
+## Sage blue magic design, 2026-09-10
 
 User requested wizard emoji as the design basis and a blue-magic feeling. Added
 shared public/design/sage-magic.css palette/emblem; applied it to the main
@@ -728,7 +728,7 @@ product copy. DESIGN.md now records the latest direction above old monochrome.
 Changes are local; no production deployment.
 
 
-## Modular preview generation and Luna default — 2026-09-10
+## Modular preview generation and Luna default, 2026-09-10
 
 User explicitly requested modular models with a ChatGPT/OpenAI model such as Luna
 as default after being told hosted use sends selected transcript excerpts. Added

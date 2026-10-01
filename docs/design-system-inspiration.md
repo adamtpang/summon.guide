@@ -45,11 +45,11 @@ an anti-slop kit), `github.com/travisvn/awesome-claude-skills`.
 
 The ones whose DNA is closest to premium-editorial-meets-terminal:
 
-- **Linear** (linear.app) — the closest spiritual match. Dark, precise, motion only where it earns its keep. Study restraint.
-- **Stripe Press** (press.stripe.com) — book-quality reverence for ideas: 3D book renders, meticulous covers. This is what a source-cited wisdom product should feel like.
-- **Vercel** (vercel.com) — black/white geometric confidence, typographic scale.
-- **Apple** (apple.com) — scroll-driven narrative, ruthless restraint, huge type hierarchy. The study for pacing a page.
-- **Basement Studio** (basement.studio) — dark, high-craft, editorial-meets-terminal energy.
+- **Linear** (linear.app), the closest spiritual match. Dark, precise, motion only where it earns its keep. Study restraint.
+- **Stripe Press** (press.stripe.com), book-quality reverence for ideas: 3D book renders, meticulous covers. This is what a source-cited wisdom product should feel like.
+- **Vercel** (vercel.com), black/white geometric confidence, typographic scale.
+- **Apple** (apple.com), scroll-driven narrative, ruthless restraint, huge type hierarchy. The study for pacing a page.
+- **Basement Studio** (basement.studio), dark, high-craft, editorial-meets-terminal energy.
 
 **Awwwards top-tier** for immersive moments: Igloo Inc (igloo.inc, Site of the Year 2024),
 Lando Norris (landonorris.com, Site of the Year 2025), Active Theory (activetheory.net).
@@ -65,16 +65,16 @@ Mobbin (mobbin.com, real app UI patterns), Land-book (land-book.com).
 ## Peer projects
 
 **Direct (AI persona / historical-figure chat):**
-- **Hello History** (hellohistory.ai) — the closest competitor. Fact-checked chat with figures. Their aesthetic is friendlier and softer than our target, which is precisely our opening: differentiate on taste.
-- **Text With History** (textwithhistory.com) — 100+ figures, SMS metaphor, low friction.
-- **Delphi** (delphi.ai) — premium "digital clone of a mind" positioning. Study how it sells trust in a persona.
-- **Character.AI** (character.ai) — the giant. Use as a "what not to look like": consumer-maximalist, the opposite of our thesis. Borrow only its discovery-grid and switching UX.
+- **Hello History** (hellohistory.ai), the closest competitor. Fact-checked chat with figures. Their aesthetic is friendlier and softer than our target, which is precisely our opening: differentiate on taste.
+- **Text With History** (textwithhistory.com), 100+ figures, SMS metaphor, low friction.
+- **Delphi** (delphi.ai), premium "digital clone of a mind" positioning. Study how it sells trust in a persona.
+- **Character.AI** (character.ai), the giant. Use as a "what not to look like": consumer-maximalist, the opposite of our thesis. Borrow only its discovery-grid and switching UX.
 
 **Editorial wisdom (the taste, without the chat mechanic):**
-- **Nav.al** (nav.al) — quote-forward minimalism with rigorous source attribution. Maps onto our citation feature. Naval is already a guide.
-- **Farnam Street** (fs.blog) — mental-models authority, serif editorial trust, browse-by-idea. Fits our problem-to-skill routing.
-- **The Marginalian** (themarginalian.org) — warm, book-like reading, cross-linked ideas across thinkers.
-- **Readwise** (readwise.io) — best-in-class inline highlight-and-citation UX. Study how to make a cited quote a first-class object, not a footnote.
+- **Nav.al** (nav.al), quote-forward minimalism with rigorous source attribution. Maps onto our citation feature. Naval is already a guide.
+- **Farnam Street** (fs.blog), mental-models authority, serif editorial trust, browse-by-idea. Fits our problem-to-skill routing.
+- **The Marginalian** (themarginalian.org), warm, book-like reading, cross-linked ideas across thinkers.
+- **Readwise** (readwise.io), best-in-class inline highlight-and-citation UX. Study how to make a cited quote a first-class object, not a footnote.
 
 ## The un-crowded position
 

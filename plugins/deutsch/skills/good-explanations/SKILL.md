@@ -17,7 +17,7 @@ When the user has an explanation, theory, or strategy in front of them, walk thr
 
 ### Step 1: State the explanation in full
 
-Force a complete articulation. Vague explanations cannot be tested for hard-to-vary. Write out the explanation in 3–5 sentences with its specific mechanisms and details.
+Force a complete articulation. Vague explanations cannot be tested for hard-to-vary. Write out the explanation in 3-5 sentences with its specific mechanisms and details.
 
 ### Step 2: Try to vary each detail
 
@@ -65,7 +65,7 @@ For any explanation in front of the user:
 ## Output
 
 Produce a one-page audit of the explanation:
-1. The explanation, fully articulated in 3–5 sentences
+1. The explanation, fully articulated in 3-5 sentences
 2. The variation test, which details survive, which can be replaced freely
 3. The parochial/universal verdict, where else does this predict?
 4. The post-hoc check, would you have invoked it for the opposite outcome?

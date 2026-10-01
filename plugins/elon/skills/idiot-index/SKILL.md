@@ -18,7 +18,7 @@ Examples Musk has cited:
 
 ### Step 1: List the suspects
 
-Identify the 5–10 line items with the highest absolute spend in the operation. Software subscriptions, hardware components, agency fees, manufacturing parts, infrastructure costs, professional services. Anything bought from outside.
+Identify the 5-10 line items with the highest absolute spend in the operation. Software subscriptions, hardware components, agency fees, manufacturing parts, infrastructure costs, professional services. Anything bought from outside.
 
 ### Step 2: For each line item, compute the index
 
@@ -29,9 +29,9 @@ For each line, find:
 Idiot Index = Finished cost / Raw material cost.
 
 Rough heuristics for what is normal:
-- 2–4x: reasonable for low-volume specialty parts or services.
-- 4–10x: getting suspicious. There is real margin and overhead in here.
-- 10–30x: idiot territory. The supplier is selling you brand, complexity, or complacency.
+- 2-4x: reasonable for low-volume specialty parts or services.
+- 4-10x: getting suspicious. There is real margin and overhead in here.
+- 10-30x: idiot territory. The supplier is selling you brand, complexity, or complacency.
 - 30x+: you should be making this in-house, switching suppliers, or rethinking whether you need it at all.
 
 ### Step 3: Diagnose the index

@@ -1,8 +1,8 @@
-# Books → Skills — Master Roadmap
+# Books → Skills, Master Roadmap
 
 Every guide on summon.guide draws from one or more books. Every Claude Code skill we ship is grounded in a specific passage of a specific book.
 
-**The mission:** ingest the canonical books *by* and *about* the most influential humans alive and dead, distill each into 2–5 actionable Claude Code skills, and surface both on summon.guide.
+**The mission:** ingest the canonical books *by* and *about* the most influential humans alive and dead, distill each into 2-5 actionable Claude Code skills, and surface both on summon.guide.
 
 ---
 
@@ -15,7 +15,7 @@ PDF in /sources/<figure>/<book>.pdf  ← gitignored, copyrighted
 Claude reads the PDF (Read tool supports PDF)
        │
        ▼
-Identify 2–5 frameworks the figure ACTUALLY USED
+Identify 2-5 frameworks the figure ACTUALLY USED
        │
        ▼
 For each framework:
@@ -40,14 +40,14 @@ Discovery rule: a figure earns a slot on summon.guide only if there is a credibl
 - **Companies by market cap**: https://companiesmarketcap.com/
 - **Crypto founders by market cap**: https://coinmarketcap.com/
 
-For each name, find the canonical book — usually one of:
+For each name, find the canonical book, usually one of:
 - An authoritative biography (Isaacson, Chernow, Stone, Vance, Lowenstein, Ferguson)
 - The figure's own book or letter collection (Bezos shareholder letters, Buffett's letters, Lee's memoirs)
 - A serious anthology by a respected compiler (Jorgenson's *Almanack of Naval Ravikant*, *Book of Elon*; *Poor Charlie's Almanack*)
 
 ### Statesmen (founders of nations)
 
-- **GDP rankings (highest first)** as the discovery list — but pick figures by *founding* impact, not just GDP rank
+- **GDP rankings (highest first)** as the discovery list, but pick figures by *founding* impact, not just GDP rank
 - The bar: someone whose ideas measurably shaped a country's trajectory
 
 ### Historical figures (greats of all time)
@@ -79,7 +79,7 @@ For each name, find the canonical book — usually one of:
 | `lee-kuan-yew` | *From Third World to First* | Lee Kuan Yew | by | partial |
 | `lee-kuan-yew` | *One Man's View of the World* | Lee Kuan Yew | by | partial |
 
-### Next up — high-priority figures to activate
+### Next up, high-priority figures to activate
 
 These have a clear canonical book and a likely audience overlap with current guides. Pick from this list when the user drops a PDF.
 
@@ -101,17 +101,17 @@ These have a clear canonical book and a likely audience overlap with current gui
 
 ---
 
-## Ingestion order — what to do next
+## Ingestion order, what to do next
 
 1. **Drop the PDFs you have** into `/sources/<figure>/<book-slug>.pdf` (gitignored). See `sources/README.md`.
-2. **For each PDF, run a session** with the prompt below. Claude reads the PDF, distills 2–5 frameworks, and produces:
+2. **For each PDF, run a session** with the prompt below. Claude reads the PDF, distills 2-5 frameworks, and produces:
    - One `SKILL.md` per framework under `/skills/<figure>-<slug>/`
    - Updated entries in `src/lib/skills.ts`
    - Updated `skillSlugs` and `status` in `src/lib/books.ts`
 
    Session prompt template:
    ```
-   I dropped /sources/elon/the-book-of-elon.pdf. Read it and extract 3–5 frameworks
+   I dropped /sources/elon/the-book-of-elon.pdf. Read it and extract 3-5 frameworks
    that Elon ACTUALLY used (not generic advice). For each, generate a SKILL.md
    following the pattern in /skills/musk-five-step-algorithm/SKILL.md. Add entries
    to src/lib/skills.ts and link the skill slugs in books.ts. Mark the book status
@@ -129,14 +129,14 @@ These have a clear canonical book and a likely audience overlap with current gui
 
 ## Quality bar for skills
 
-Bad skill: *"Be customer-obsessed"* — this is advice anyone could give.
+Bad skill: *"Be customer-obsessed"*, this is advice anyone could give.
 
 Good skill: *"Bezos's two-types-of-decisions framework: Type 1 doors are irreversible; analyze carefully. Type 2 doors are reversible; decide with 70% of the information you wish you had. Most companies treat every Type 2 like a Type 1, which is how they become slow."*
 
 A skill is *good* when:
 - It is **specific** to the figure's actual decisions and language.
 - It has a **named procedure** the user can run on a real problem this week.
-- It is **anti-pattern-aware** — calls out the failure mode of the framework itself.
-- It is **attributable** to a chapter, letter, talk, or interview — not vibes.
+- It is **anti-pattern-aware**, calls out the failure mode of the framework itself.
+- It is **attributable** to a chapter, letter, talk, or interview, not vibes.
 
 Run the [skill-creator](https://docs.anthropic.com/en/docs/build-with-claude/skills) skill or modify an existing skill (e.g., `/skills/musk-five-step-algorithm/SKILL.md`) as a structural template.

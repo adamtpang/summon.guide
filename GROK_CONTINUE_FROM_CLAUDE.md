@@ -12,7 +12,7 @@ Recent Claude sessions mapped here: 1. Showing 1 detailed sessions.
 - Claude session: `e139b863-31e6-4fc2-886b-a327cde21ded`
 - CWD: `C:\Users\adamp\Aether\summon.guide`
 - Last user ask: we should have paulgraham as a guide and take all his essays and turn them into markdown files, same for visakanv.com paulgraham.com sive.rs tim.blog, etc. i want to chat with david senra's ai agent via summon.guide, and i want to see a distillation 1 pager for each guide, channel, and book. we can even take these corpuses and then create crayon capital styl
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Recent files touched:
   - `book.movie\backend\services\essayPipeline.js`
   - `book.movie\backend\routes\essayVideo.js`
@@ -34,7 +34,7 @@ Recent Claude sessions mapped here: 1. Showing 1 detailed sessions.
 - Messages: 2666 user / 4844 assistant / 16908 events
 - First user ask: check on Antifragile and Bed of Procrustes later also it would be cool if i could be conversational with them, do research on projects already doing this with ai agents with personas. ive even seen reels from emmyxtech and faraday
 - Last user ask: we should have paulgraham as a guide and take all his essays and turn them into markdown files, same for visakanv.com paulgraham.com sive.rs tim.blog, etc. i want to chat with david senra's ai agent via summon.guide, and i want to see a distillation 1 pager for each guide, channel, and book. we can even take these corpuses and then create crayon capital styl
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Tools seen: `Agent`, `Artifact`, `AskUserQuestion`, `Bash`, `Edit`, `Glob`, `Grep`, `PowerShell`, `Read`, `RemoteTrigger`, `ScheduleWakeup`, `SendMessage`, `SendUserFile`, `Skill`, `TaskCreate`, `TaskList`, `ToolSearch`, `WebFetch`
 - Files touched:
   - `book.movie\backend\services\essayPipeline.js`

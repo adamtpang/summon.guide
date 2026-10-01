@@ -41,10 +41,10 @@ const INSTALL = 'npx --yes github:adamtpang/summon.guide summon install';
 
 // The house style forbids em and en dashes in any artifact. Registry text may
 // carry them, so normalize before emitting and refuse to write if any survive.
-const DASHES = /[‒–—―−]/g;
+const DASHES = /[\u2012\u2013\u2014\u2015\u2212]/g;
 function clean(text) {
   return String(text ?? '')
-    .replace(/\s*[‒–—―−]+\s*/g, ', ')
+    .replace(/\s*[\u2012\u2013\u2014\u2015\u2212]+\s*/g, ', ')
     .replace(/\s+/g, ' ')
     .trim();
 }

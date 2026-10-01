@@ -102,7 +102,7 @@ Best status: <one status>
 Best source: <provider and direct URL or local path>
 Format: <PDF/EPUB/HTML/etc.>
 Rights evidence: <what establishes the classification>
-Corpus use: <YES/LIMITED/NO> — <one-sentence reason>
+Corpus use: <YES/LIMITED/NO>, <one-sentence reason>
 Next action: <one action the user performs manually>
 Alternatives: <up to three ranked legitimate options>
 Confidence: <high/medium/low>

@@ -12,7 +12,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Claude session: `e139b863-31e6-4fc2-886b-a327cde21ded`
 - CWD: `C:\Users\adamp\Aether\summon.guide`
 - Last user ask: for example, https://x.com/ethanfrost got his attention
-- Last assistant note: Found him — real account, real connection. Here's exactly what happened, verified from his profile: **Ethan Frost (@ethanfrost)**: joined October 2025, only 324 followers, 528 posts. Bio: *"I'm listening to every Founders podcast episode in order and posting daily. I made an ML analysis of every gong hit on TBPN. Defense equity analyst by day."* What actuall
+- Last assistant note: Found him, real account, real connection. Here's exactly what happened, verified from his profile: **Ethan Frost (@ethanfrost)**: joined October 2025, only 324 followers, 528 posts. Bio: *"I'm listening to every Founders podcast episode in order and posting daily. I made an ML analysis of every gong hit on TBPN. Defense equity analyst by day."* What actuall
 - Recent files touched:
   - `book.movie\backend\services\essayPipeline.js`
   - `book.movie\backend\routes\essayVideo.js`
@@ -40,7 +40,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 2291 user / 4121 assistant / 13862 events
 - First user ask: check on Antifragile and Bed of Procrustes later also it would be cool if i could be conversational with them, do research on projects already doing this with ai agents with personas. ive even seen reels from emmyxtech and faraday
 - Last user ask: for example, https://x.com/ethanfrost got his attention
-- Last assistant note: Found him — real account, real connection. Here's exactly what happened, verified from his profile: **Ethan Frost (@ethanfrost)**: joined October 2025, only 324 followers, 528 posts. Bio: *"I'm listening to every Founders podcast episode in order and posting daily. I made an ML analysis of every gong hit on TBPN. Defense equity analyst by day."* What actuall
+- Last assistant note: Found him, real account, real connection. Here's exactly what happened, verified from his profile: **Ethan Frost (@ethanfrost)**: joined October 2025, only 324 followers, 528 posts. Bio: *"I'm listening to every Founders podcast episode in order and posting daily. I made an ML analysis of every gong hit on TBPN. Defense equity analyst by day."* What actuall
 - Tools seen: `Agent`, `Artifact`, `AskUserQuestion`, `Bash`, `Edit`, `Glob`, `Grep`, `PowerShell`, `Read`, `RemoteTrigger`, `ScheduleWakeup`, `SendMessage`, `Skill`, `TaskCreate`, `TaskList`, `ToolSearch`, `WebFetch`, `WebSearch`
 - Files touched:
   - `book.movie\backend\services\essayPipeline.js`
@@ -82,7 +82,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 18 user / 25 assistant / 46 events
 - First user ask: You are writing knowledge-base digest files for summon.guide, a Next.js app where users chat with book/podcast corpora. This is for a NEW corpus at content/knowledge/starter-story/ grounding /chat/source/starter-story, built from "Starter Story" (host Pat Walls), a YouTube channel of founder interviews about "how I built a $X business." READ THIS EXAMPLE FIR
 - Last user ask: You are writing knowledge-base digest files for summon.guide, a Next.js app where users chat with book/podcast corpora. This is for a NEW corpus at content/knowledge/starter-story/ grounding /chat/source/starter-story, built from "Starter Story" (host Pat Walls), a YouTube channel of founder interviews about "how I built a $X business." READ THIS EXAMPLE FIR
-- Last assistant note: All 7 files have been written to `C:\Users\adamp\Aether\summon.guide\content\knowledge\starter-story\`. Each was written as original synthesis after reading the full transcript, with only short attributed quotes (under 10 words) where used. 1. **015-i-make-5m-year-with-3-businesses.md** — Tim Stoddart: turned a sober-living blog into Stodzy Internet Marketin
+- Last assistant note: All 7 files have been written to `C:\Users\adamp\Aether\summon.guide\content\knowledge\starter-story\`. Each was written as original synthesis after reading the full transcript, with only short attributed quotes (under 10 words) where used. 1. **015-i-make-5m-year-with-3-businesses.md**, Tim Stoddart: turned a sober-living blog into Stodzy Internet Marketin
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.guide\content\knowledge\founders\001-how-elon-works.md`
@@ -106,7 +106,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 18 user / 23 assistant / 44 events
 - First user ask: You are writing knowledge-base digest files for summon.guide, a Next.js app where users chat with book/podcast corpora. This is for a NEW corpus at content/knowledge/starter-story/ grounding /chat/source/starter-story, built from "Starter Story" (host Pat Walls), a YouTube channel of founder interviews about "how I built a $X business." READ THIS EXAMPLE FIR
 - Last user ask: You are writing knowledge-base digest files for summon.guide, a Next.js app where users chat with book/podcast corpora. This is for a NEW corpus at content/knowledge/starter-story/ grounding /chat/source/starter-story, built from "Starter Story" (host Pat Walls), a YouTube channel of founder interviews about "how I built a $X business." READ THIS EXAMPLE FIR
-- Last assistant note: All 7 digest files were written to `C:\Users\adamp\Aether\summon.guide\content\knowledge\starter-story\`, each read fully from its source transcript before writing, with only original synthesis (no verbatim transcript text beyond short attributed phrases). 1. **022-he-quit-his-job-and-makes-10m-year-writing-online.md** — Dickie Bush; his four-business writin
+- Last assistant note: All 7 digest files were written to `C:\Users\adamp\Aether\summon.guide\content\knowledge\starter-story\`, each read fully from its source transcript before writing, with only original synthesis (no verbatim transcript text beyond short attributed phrases). 1. **022-he-quit-his-job-and-makes-10m-year-writing-online.md**, Dickie Bush; his four-business writin
 - Tools seen: `Bash`, `Glob`, `Read`, `Write`
 - Files touched:
   - `summon.guide\content\knowledge\founders\001-how-elon-works.md`
@@ -130,7 +130,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 19 user / 25 assistant / 47 events
 - First user ask: You are writing knowledge-base digest files for summon.guide, a Next.js app where users chat with book/podcast corpora. This is for a NEW corpus at content/knowledge/starter-story/ grounding /chat/source/starter-story, built from "Starter Story" (host Pat Walls), a YouTube channel of founder interviews about "how I built a $X business." READ THIS EXAMPLE FIR
 - Last user ask: You are writing knowledge-base digest files for summon.guide, a Next.js app where users chat with book/podcast corpora. This is for a NEW corpus at content/knowledge/starter-story/ grounding /chat/source/starter-story, built from "Starter Story" (host Pat Walls), a YouTube channel of founder interviews about "how I built a $X business." READ THIS EXAMPLE FIR
-- Last assistant note: All 7 files written successfully to `content/knowledge/starter-story/`. 1. **008-he-turned-500-into-10m.md** — Karthik Shanadi grew a $500 dorm-room hustle into a four-brand licensed-apparel empire (Greek House, College Thread, Threadly, Athlete's Thread) topping $10M, using cold outreach, affiliates, and licensing barriers instead of paid ads. 2. **009-the-
+- Last assistant note: All 7 files written successfully to `content/knowledge/starter-story/`. 1. **008-he-turned-500-into-10m.md**, Karthik Shanadi grew a $500 dorm-room hustle into a four-brand licensed-apparel empire (Greek House, College Thread, Threadly, Athlete's Thread) topping $10M, using cold outreach, affiliates, and licensing barriers instead of paid ads. 2. **009-the-
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.guide\content\knowledge\founders\001-how-elon-works.md`
@@ -154,7 +154,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 18 user / 25 assistant / 46 events
 - First user ask: You are writing knowledge-base digest files for summon.guide, a Next.js app where users chat with book/podcast corpora. This is for a NEW corpus at content/knowledge/starter-story/ grounding /chat/source/starter-story, built from "Starter Story" (host Pat Walls), a YouTube channel of founder interviews about "how I built a $X business." READ THIS EXAMPLE FIR
 - Last user ask: You are writing knowledge-base digest files for summon.guide, a Next.js app where users chat with book/podcast corpora. This is for a NEW corpus at content/knowledge/starter-story/ grounding /chat/source/starter-story, built from "Starter Story" (host Pat Walls), a YouTube channel of founder interviews about "how I built a $X business." READ THIS EXAMPLE FIR
-- Last assistant note: All 7 files are written to `C:\Users\adamp\Aether\summon.guide\content\knowledge\starter-story\`. I read each transcript in full before writing, and every digest is original synthesis/paraphrase (no verbatim transcript sentences beyond short attributed phrases). 1. **001-i-spent-24-hours-with-roblox-millionaires.md** — Three roommates in Austin: Cole (Hide o
+- Last assistant note: All 7 files are written to `C:\Users\adamp\Aether\summon.guide\content\knowledge\starter-story\`. I read each transcript in full before writing, and every digest is original synthesis/paraphrase (no verbatim transcript sentences beyond short attributed phrases). 1. **001-i-spent-24-hours-with-roblox-millionaires.md**, Three roommates in Austin: Cole (Hide o
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.guide\content\knowledge\founders\001-how-elon-works.md`
@@ -176,8 +176,8 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Claude session: `e139b863-31e6-4fc2-886b-a327cde21ded`
 - Antigravity import record id: `d0beb00d-559f-4b2e-b959-f1c7eb739621`
 - Messages: 64 user / 105 assistant / 172 events
-- First user ask: summon.guide has Elon Musk as a guide persona with only 2 thin grounding files in src/lib/figureSources.ts. A prior attempt to ground him in Walter Isaacson's 2023 biography failed because the local PDF at "elon musk.pdf" turned out to actually be Ashlee Vance's 2015 book "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future" mislabeled — that agen
-- Last user ask: summon.guide has Elon Musk as a guide persona with only 2 thin grounding files in src/lib/figureSources.ts. A prior attempt to ground him in Walter Isaacson's 2023 biography failed because the local PDF at "elon musk.pdf" turned out to actually be Ashlee Vance's 2015 book "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future" mislabeled — that agen
+- First user ask: summon.guide has Elon Musk as a guide persona with only 2 thin grounding files in src/lib/figureSources.ts. A prior attempt to ground him in Walter Isaacson's 2023 biography failed because the local PDF at "elon musk.pdf" turned out to actually be Ashlee Vance's 2015 book "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future" mislabeled, that agen
+- Last user ask: summon.guide has Elon Musk as a guide persona with only 2 thin grounding files in src/lib/figureSources.ts. A prior attempt to ground him in Walter Isaacson's 2023 biography failed because the local PDF at "elon musk.pdf" turned out to actually be Ashlee Vance's 2015 book "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future" mislabeled, that agen
 - Last assistant note: All wiring is in place. Everything is confirmed: the 21 digest files exist, `books.ts` is updated, `sourceCorpus.ts` regenerated cleanly (21/21 parsed), `figureSources.ts` has the 18 new sources spliced into the existing `"elon"` block, and the temp grounding files are deleted. ## Summary **Digest**: Wrote 21 chapter-digest files to `content/knowledge/elon-m
 - Tools seen: `Agent`, `Bash`, `Edit`, `Grep`, `Read`
 - Files touched:
@@ -363,7 +363,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 117 user / 206 assistant / 326 events
 - First user ask: summon.guide has Jensen Huang as a guide persona, but he has NO book registered at all in src/lib/books.ts, and only 1 thin grounding file in src/lib/figureSources.ts. Fix this by grounding him in "The Nvidia Way" by Tae Kim (2024), the well-known recent business book on Nvidia's history and Huang's leadership. IMPORTANT: do this work yourself, directly and 
 - Last user ask: summon.guide has Jensen Huang as a guide persona, but he has NO book registered at all in src/lib/books.ts, and only 1 thin grounding file in src/lib/figureSources.ts. Fix this by grounding him in "The Nvidia Way" by Tae Kim (2024), the well-known recent business book on Nvidia's history and Huang's leadership. IMPORTANT: do this work yourself, directly and 
-- Last assistant note: ## Summary Jensen Huang is now grounded in **The Nvidia Way** by Tae Kim (2024), the full pipeline complete: **1. Book registered** — `src/lib/books.ts`: new entry `slug: "the-nvidia-way"`, `role: "about"`, `figureSlug: "jensen-huang"`, `status: "complete"`, `corpusPaths: ["content/knowledge/the-nvidia-way"]`. PDF copied to `sources/jensen-huang/the-nvidia-w
+- Last assistant note: ## Summary Jensen Huang is now grounded in **The Nvidia Way** by Tae Kim (2024), the full pipeline complete: **1. Book registered**, `src/lib/books.ts`: new entry `slug: "the-nvidia-way"`, `role: "about"`, `figureSlug: "jensen-huang"`, `status: "complete"`, `corpusPaths: ["content/knowledge/the-nvidia-way"]`. PDF copied to `sources/jensen-huang/the-nvidia-w
 - Tools seen: `Agent`, `Bash`, `Edit`, `Glob`, `Grep`, `Read`, `Write`, `mcp__ccd_session__mark_chapter`
 - Files touched:
   - `summon.guide\.claude\skills\book-to-knowledge\SKILL.md`
@@ -518,7 +518,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 32 user / 50 assistant / 85 events
 - First user ask: summon.guide has Elon Musk as a guide persona. His book "Elon Musk" by Walter Isaacson (2023) is already registered in src/lib/books.ts (slug "elon-musk-isaacson", figureSlug "elon", role "about", status "complete") but has never actually been digested, no corpusPaths, no chapter files. Fix this. IMPORTANT: do this work yourself, directly and sequentially, u
 - Last user ask: Base directory for this skill: C:\Users\adamp\Aether\summon.guide\.claude\skills\book-to-knowledge # Book to knowledge Three stages. Stage 1 is already done for any book already onboarded through book-to-skills. Stage 2 is judgment, and it is the whole point of a person doing this rather than a script. Stage 3 is mechanical. The unit here is different from b
-- Last assistant note: I stopped before writing any digest files because the source material doesn't match the book. Here's what I found: **The blocker:** `C:/Users/adamp/Desktop/win/Library/Books/done!/elon musk.pdf` is not Walter Isaacson's *Elon Musk* (2023). It's Ashlee Vance's *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future* (2015) — the book already registere
+- Last assistant note: I stopped before writing any digest files because the source material doesn't match the book. Here's what I found: **The blocker:** `C:/Users/adamp/Desktop/win/Library/Books/done!/elon musk.pdf` is not Walter Isaacson's *Elon Musk* (2023). It's Ashlee Vance's *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future* (2015), the book already registere
 - Tools seen: `Bash`, `Glob`, `Grep`, `Read`, `Skill`
 - Files touched:
   - `summon.guide\content\knowledge\titan-chernow\010-chapter-10-sphinx.md`
@@ -537,7 +537,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 57 user / 95 assistant / 155 events
 - First user ask: summon.guide has Rockefeller as a guide persona, but his systemPrompt/chat grounding is thin: the book "Titan: The Life of John D. Rockefeller, Sr." by Ron Chernow is already registered in src/lib/books.ts (slug "titan-chernow", figureSlug "rockefeller") but has never actually been digested, no corpusPaths, no chapter files. Fix this. Source PDF: C:/Users/ad
 - Last user ask: Base directory for this skill: C:\Users\adamp\Aether\summon.guide\.claude\skills\book-to-knowledge # Book to knowledge Three stages. Stage 1 is already done for any book already onboarded through book-to-skills. Stage 2 is judgment, and it is the whole point of a person doing this rather than a script. Stage 3 is mechanical. The unit here is different from b
-- Last assistant note: ## Summary Full pipeline complete for Titan (Chernow) grounding Rockefeller. **1. Digest (36 files)** — `content/knowledge/titan-chernow/`, ~27,200 words total (a healthy small fraction of the book's 332K-word body). Organized by the book's own structure: `000-foreword-and-prelude.md`, then `001` through `035` matching Chernow's actual 35 chapters exactly (F
+- Last assistant note: ## Summary Full pipeline complete for Titan (Chernow) grounding Rockefeller. **1. Digest (36 files)**, `content/knowledge/titan-chernow/`, ~27,200 words total (a healthy small fraction of the book's 332K-word body). Organized by the book's own structure: `000-foreword-and-prelude.md`, then `001` through `035` matching Chernow's actual 35 chapters exactly (F
 - Tools seen: `Agent`, `Bash`, `Edit`, `Read`, `Skill`, `Write`
 - Files touched:
   - `summon.guide\content\knowledge\meditations\001-book-one.md`
@@ -584,7 +584,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 106 user / 129 assistant / 238 events
 - First user ask: You are writing part of a chapter-by-chapter knowledge digest of the biography "Titan: The Life of John D. Rockefeller, Sr." by Ron Chernow (1998). This digest will power a "chat with the book" feature and later ground a Rockefeller persona chatbot on summon.guide, a site with AI personas of historical figures grounded in real books. The book's full extracte
 - Last user ask: You are writing part of a chapter-by-chapter knowledge digest of the biography "Titan: The Life of John D. Rockefeller, Sr." by Ron Chernow (1998). This digest will power a "chat with the book" feature and later ground a Rockefeller persona chatbot on summon.guide, a site with AI personas of historical figures grounded in real books. The book's full extracte
-- Last assistant note: All five digest files are complete, correctly formatted, and end with the required footer. Word counts land in or near the target ranges (774–1094 words), with chapter 22 (the biggest chapter) appropriately the longest at ~1094 words and 13 bullets. Files written: 1. `C:\Users\adamp\Aether\summon.guide\content\knowledge\titan-chernow\018-chapter-18-nemesis.m
+- Last assistant note: All five digest files are complete, correctly formatted, and end with the required footer. Word counts land in or near the target ranges (774-1094 words), with chapter 22 (the biggest chapter) appropriately the longest at ~1094 words and 13 bullets. Files written: 1. `C:\Users\adamp\Aether\summon.guide\content\knowledge\titan-chernow\018-chapter-18-nemesis.m
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.guide\sources\_md\titan-parts\018-chapter-18-nemesis\part-01.md`
@@ -608,7 +608,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 45 user / 77 assistant / 125 events
 - First user ask: You are writing part of a chapter-by-chapter knowledge digest of the biography "Titan: The Life of John D. Rockefeller, Sr." by Ron Chernow (1998). This digest will power a "chat with the book" feature and later ground a Rockefeller persona chatbot on summon.guide, a site with AI personas of historical figures grounded in real books. The book's full extracte
 - Last user ask: You are writing part of a chapter-by-chapter knowledge digest of the biography "Titan: The Life of John D. Rockefeller, Sr." by Ron Chernow (1998). This digest will power a "chat with the book" feature and later ground a Rockefeller persona chatbot on summon.guide, a site with AI personas of historical figures grounded in real books. The book's full extracte
-- Last assistant note: All 5 assigned digest files are written and confirmed on disk (other agents working in parallel have filled in adjacent chapters). ## Summary I wrote all 5 assigned chapter digests to `C:\Users\adamp\Aether\summon.guide\content\knowledge\titan-chernow\`: 1. **013-chapter-13-seat-of-empire.md** — Standard Oil's 1883-84 move to New York, 26 Broadway headquarte
+- Last assistant note: All 5 assigned digest files are written and confirmed on disk (other agents working in parallel have filled in adjacent chapters). ## Summary I wrote all 5 assigned chapter digests to `C:\Users\adamp\Aether\summon.guide\content\knowledge\titan-chernow\`: 1. **013-chapter-13-seat-of-empire.md**, Standard Oil's 1883-84 move to New York, 26 Broadway headquarte
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `C:\Users\adamp\AppData\Local\Temp\claude\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\scratchpad\ch13.md`
@@ -630,7 +630,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 61 user / 86 assistant / 150 events
 - First user ask: summon.guide has Marc Andreessen as a guide persona. Three of his own essays are already registered in src/lib/books.ts (slugs "why-software-is-eating-the-world", "its-time-to-build", "techno-optimist-manifesto", all figureSlug "marc-andreessen", role "by") but none have ever been digested, no corpusPaths on any of them. He also only has 1 thin grounding fil
 - Last user ask: summon.guide has Marc Andreessen as a guide persona. Three of his own essays are already registered in src/lib/books.ts (slugs "why-software-is-eating-the-world", "its-time-to-build", "techno-optimist-manifesto", all figureSlug "marc-andreessen", role "by") but none have ever been digested, no corpusPaths on any of them. He also only has 1 thin grounding fil
-- Last assistant note: All done. Here's the summary: **Digest files created (18 total, all under `content/knowledge/`):** - `why-software-is-eating-the-world/` — 6 files (thesis & infrastructure timing; entertainment/media; commerce/marketing/telecom; physical industries; healthcare/education/defense; risks & closing argument) - `its-time-to-build/` — 5 files (pandemic shortages a
+- Last assistant note: All done. Here's the summary: **Digest files created (18 total, all under `content/knowledge/`):** - `why-software-is-eating-the-world/`, 6 files (thesis & infrastructure timing; entertainment/media; commerce/marketing/telecom; physical industries; healthcare/education/defense; risks & closing argument) - `its-time-to-build/`, 5 files (pandemic shortages a
 - Tools seen: `Bash`, `Edit`, `Glob`, `Grep`, `Read`, `ToolSearch`, `WebFetch`, `Write`
 - Files touched:
   - `summon.guide\.claude\skills\book-to-knowledge\SKILL.md`
@@ -726,7 +726,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 35 user / 56 assistant / 94 events
 - First user ask: You are writing part of a chapter-by-chapter knowledge digest of Walter Isaacson's biography "Steve Jobs" (2011) for summon.guide, a site that lets people chat with historical figures grounded in real books. This digest will ground both a standalone "chat with the book" feature and Steve Jobs's persona chat, so accuracy and real substance matter a lot. This 
 - Last user ask: You are writing part of a chapter-by-chapter knowledge digest of Walter Isaacson's biography "Steve Jobs" (2011) for summon.guide, a site that lets people chat with historical figures grounded in real books. This digest will ground both a standalone "chat with the book" feature and Steve Jobs's persona chat, so accuracy and real substance matter a lot. This 
-- Last assistant note: All 7 files are written. I read the full source text for lines 337–406 (Chapters 17–24, pp244–429) directly from `sources/_md/steve-jobs-isaacson.md` in sequential chunks — nothing was guessed from prior knowledge of the book. Files written to `C:\Users\adamp\Aether\summon.guide\content\knowledge\steve-jobs-isaacson\`: 1. **015-icarus.md** — Ch. 17, "Icarus"
+- Last assistant note: All 7 files are written. I read the full source text for lines 337-406 (Chapters 17-24, pp244-429) directly from `sources/_md/steve-jobs-isaacson.md` in sequential chunks, nothing was guessed from prior knowledge of the book. Files written to `C:\Users\adamp\Aether\summon.guide\content\knowledge\steve-jobs-isaacson\`: 1. **015-icarus.md**, Ch. 17, "Icarus"
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.guide\content\knowledge\meditations\001-book-one.md`
@@ -749,7 +749,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 76 user / 89 assistant / 168 events
 - First user ask: You are writing part of a chapter-by-chapter knowledge digest of the biography "Titan: The Life of John D. Rockefeller, Sr." by Ron Chernow (1998). This digest will power a "chat with the book" feature and later ground a Rockefeller persona chatbot on summon.guide, a site with AI personas of historical figures grounded in real books. The book's full extracte
 - Last user ask: You are writing part of a chapter-by-chapter knowledge digest of the biography "Titan: The Life of John D. Rockefeller, Sr." by Ron Chernow (1998). This digest will power a "chat with the book" feature and later ground a Rockefeller persona chatbot on summon.guide, a site with AI personas of historical figures grounded in real books. The book's full extracte
-- Last assistant note: All 5 assigned digest files have been written successfully (other chapters visible in the directory were produced by other parallel agents working on this same corpus). ## Summary Wrote 5 chapter digests to `C:\Users\adamp\Aether\summon.guide\content\knowledge\titan-chernow\`: 1. `023-chapter-23-faith-of-fools.md` — Founding of the Rockefeller Institute for 
+- Last assistant note: All 5 assigned digest files have been written successfully (other chapters visible in the directory were produced by other parallel agents working on this same corpus). ## Summary Wrote 5 chapter digests to `C:\Users\adamp\Aether\summon.guide\content\knowledge\titan-chernow\`: 1. `023-chapter-23-faith-of-fools.md`, Founding of the Rockefeller Institute for 
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.guide\sources\_md\titan-parts\023-chapter-23-faith-of-fools\part-01.md`
@@ -797,7 +797,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 12 user / 22 assistant / 37 events
 - First user ask: You are writing one digest markdown file for a book-to-knowledge pipeline on summon.guide, digesting real Warren Buffett / Berkshire Hathaway shareholder letters. STEP 1: Read these two real primary-source files in full (they have YAML frontmatter with the real source_url for that year): C:\Users\adamp\Aether\summon.guide\sources\warren-buffett\berkshire-sha
 - Last user ask: You are writing one digest markdown file for a book-to-knowledge pipeline on summon.guide, digesting real Warren Buffett / Berkshire Hathaway shareholder letters. STEP 1: Read these two real primary-source files in full (they have YAML frontmatter with the real source_url for that year): C:\Users\adamp\Aether\summon.guide\sources\warren-buffett\berkshire-sha
-- Last assistant note: I read both source letters in full (2021: pages 1–12; 2022: pages 1–11) and wrote the digest. **File written:** `C:\Users\adamp\Aether\summon.guide\content\knowledge\berkshire-shareholder-letters\033-2021-2022-buybacks-at-scale-and-inflation.md` **Source URLs used** (verified from each file's YAML frontmatter): - 2021: `https://www.berkshirehathaway.com/lett
+- Last assistant note: I read both source letters in full (2021: pages 1-12; 2022: pages 1-11) and wrote the digest. **File written:** `C:\Users\adamp\Aether\summon.guide\content\knowledge\berkshire-shareholder-letters\033-2021-2022-buybacks-at-scale-and-inflation.md` **Source URLs used** (verified from each file's YAML frontmatter): - 2021: `https://www.berkshirehathaway.com/lett
 - Tools seen: `Glob`, `Grep`, `Read`, `Write`
 - Files touched:
   - `summon.guide\sources\warren-buffett\berkshire-shareholder-letters\text\2021.md`
@@ -828,7 +828,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 28 user / 43 assistant / 74 events
 - First user ask: You are writing part of a chapter-by-chapter knowledge digest of Walter Isaacson's biography "Steve Jobs" (2011) for summon.guide, a site that lets people chat with historical figures grounded in real books. This digest will ground both a standalone "chat with the book" feature and Steve Jobs's persona chat, so accuracy and real substance matter a lot. ## So
 - Last user ask: You are writing part of a chapter-by-chapter knowledge digest of Walter Isaacson's biography "Steve Jobs" (2011) for summon.guide, a site that lets people chat with historical figures grounded in real books. This digest will ground both a standalone "chat with the book" feature and Steve Jobs's persona chat, so accuracy and real substance matter a lot. ## So
-- Last assistant note: All 7 files are written. I read the actual source text at `C:\Users\adamp\Aether\summon.guide\sources\_md\steve-jobs-isaacson.md` covering lines 221–290 (the Introduction through Chapter 9) in full, in sequential chunks, and confirmed every fact, name, date, and quote used in the digests against that text before writing. Files written to `C:\Users\adamp\Aeth
+- Last assistant note: All 7 files are written. I read the actual source text at `C:\Users\adamp\Aether\summon.guide\sources\_md\steve-jobs-isaacson.md` covering lines 221-290 (the Introduction through Chapter 9) in full, in sequential chunks, and confirmed every fact, name, date, and quote used in the digests against that text before writing. Files written to `C:\Users\adamp\Aeth
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.guide\sources\_md\steve-jobs-isaacson.md`
@@ -850,7 +850,7 @@ Recent Claude sessions mapped here: 123. Showing 40 detailed sessions.
 - Messages: 20 user / 31 assistant / 54 events
 - First user ask: You are writing part of a chapter-by-chapter knowledge digest of Walter Isaacson's biography "Steve Jobs" (2011) for summon.guide, a site that lets people chat with historical figures grounded in real books. This digest will ground both a standalone "chat with the book" feature and Steve Jobs's persona chat, so accuracy and real substance matter a lot. This 
 - Last user ask: You are writing part of a chapter-by-chapter knowledge digest of Walter Isaacson's biography "Steve Jobs" (2011) for summon.guide, a site that lets people chat with historical figures grounded in real books. This digest will ground both a standalone "chat with the book" feature and Steve Jobs's persona chat, so accuracy and real substance matter a lot. This 
-- Last assistant note: All 7 files are written into `C:\Users\adamp\Aether\summon.guide\content\knowledge\steve-jobs-isaacson\`. I read the full assigned source range (lines 407–464, covering pages 430–578, Chapters 25 through 33) directly from `sources/_md/steve-jobs-isaacson.md` in 8-line sub-chunks and drew every fact, name, and quote from that text — nothing was pulled from pr
+- Last assistant note: All 7 files are written into `C:\Users\adamp\Aether\summon.guide\content\knowledge\steve-jobs-isaacson\`. I read the full assigned source range (lines 407-464, covering pages 430-578, Chapters 25 through 33) directly from `sources/_md/steve-jobs-isaacson.md` in 8-line sub-chunks and drew every fact, name, and quote from that text, nothing was pulled from pr
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.guide\sources\_md\steve-jobs-isaacson.md`

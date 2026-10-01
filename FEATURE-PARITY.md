@@ -1,6 +1,6 @@
 # Feature parity: Founders Notes / Sage
 
-## Current assessment — 2026-09-10
+## Current assessment, 2026-09-10
 
 This assessment supersedes the historical completion claims and counts below.
 Adam explicitly selected `/sage` as Summon's URL/name; older naming exclusions
@@ -232,7 +232,7 @@ answer-quality feedback. A written source and distribution agreement remains the
 dependency for hosted full-transcript retrieval, David's private notes, an owner
 control login, or release to the Founders community.
 
-## Private RAG pilot — 2026-09-10
+## Private RAG pilot, 2026-09-10
 
 Built local hybrid transcript retrieval over 208 episodes / 22,578 passages, with
 17,807 caption-aligned passages. Frozen provisional retrieval comparison: expected
@@ -243,7 +243,7 @@ tests failed; do not promote that model. Official catalog audit found 457 entrie
 runtime change. Full evidence: docs/sage-rag-pilot-results.md.
 
 
-## Sage catalog reconciliation and stronger generation — 2026-09-10
+## Sage catalog reconciliation and stronger generation, 2026-09-10
 
 - Reconciled all 170 saved Founders videos against 457 official catalog entries;
   156 rule-based metadata mappings plus 14 documented agent-reviewed mappings.

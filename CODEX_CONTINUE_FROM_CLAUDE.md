@@ -185,7 +185,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 30 user / 49 assistant / 172 events
 - First user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
 - Last user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
-- Last assistant note: Cleanup confirmed — those remaining wrapped files are leftovers from an unrelated earlier task, not the ones I created. My own throwaway files (5 wrapped transcripts + verify.mjs) are deleted. Nothing else in the repo was touched (no INDEX.md, no src/, no commit, no branch). ## Summary Wrote 5 new episode syntheses to `content/knowledge/founders/`, each read
+- Last assistant note: Cleanup confirmed, those remaining wrapped files are leftovers from an unrelated earlier task, not the ones I created. My own throwaway files (5 wrapped transcripts + verify.mjs) are deleted. Nothing else in the repo was touched (no INDEX.md, no src/, no commit, no branch). ## Summary Wrote 5 new episode syntheses to `content/knowledge/founders/`, each read
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.guide\content\knowledge\founders\022-how-henry-singleton-worked.md`
@@ -277,7 +277,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
 - Last user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-a339a2e03ada74d55.jsonl`
 
 ### 2026-09-03T13:51:56.322Z
@@ -287,7 +287,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
 - Last user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-af6dcb9550cf0a156.jsonl`
 
 ### 2026-09-03T13:51:38.418Z
@@ -297,7 +297,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 8 original interview syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice (INTERVIEW variant): - content/knowledge/interviews/029-how-to-dominate-for-decades-dou
 - Last user ask: Write 8 original interview syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice (INTERVIEW variant): - content/knowledge/interviews/029-how-to-dominate-for-decades-dou
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-a0e9736fcfc0eff71.jsonl`
 
 ### 2026-09-03T13:51:28.712Z
@@ -307,7 +307,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
 - Last user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-a4759be6566080dda.jsonl`
 
 ### 2026-09-03T13:44:00.236Z
@@ -317,7 +317,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
 - Last user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-abcf2bac3d6ad741d.jsonl`
 
 ### 2026-09-03T13:39:30.484Z
@@ -327,7 +327,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 8 original interview syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice (INTERVIEW variant): - content/knowledge/interviews/029-how-to-dominate-for-decades-dou
 - Last user ask: Write 8 original interview syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice (INTERVIEW variant): - content/knowledge/interviews/029-how-to-dominate-for-decades-dou
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-aa2ab0dd1511a98ce.jsonl`
 
 ### 2026-09-03T13:39:03.859Z
@@ -337,7 +337,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
 - Last user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-ab11b6747a5c3614e.jsonl`
 
 ### 2026-09-03T13:38:29.584Z
@@ -347,7 +347,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
 - Last user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-a1ee42ace172444b2.jsonl`
 
 ### 2026-09-03T13:38:05.290Z
@@ -357,7 +357,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
 - Last user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-a8f0602865f97c12f.jsonl`
 
 ### 2026-09-03T13:37:57.015Z
@@ -367,7 +367,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
 - Last user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-a972dd7ed82576ec7.jsonl`
 
 ### 2026-09-03T13:37:30.923Z
@@ -377,7 +377,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 1 user / 1 assistant / 5 events
 - First user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
 - Last user ask: Write 5 original episode syntheses for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). These ground the public Founders Podcast corpus chat; the raw transcripts are PRIVATE and must never be reproduced. FIRST read these two approved exemplars for exact format and voice: - content/knowledge/founders/022-how-henry-singleton-worked.md - content/knowled
-- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+- Last assistant note: API Error: 529 Overloaded. This is a server-side issue, usually temporary, try again in a moment. If it persists, check https://status.claude.com.
 - Raw transcript: `C:\Users\adamp\.claude\projects\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\subagents\agent-ab23ef72e3eca1e1e.jsonl`
 
 ### 2026-08-19T08:31:18.757Z
@@ -443,7 +443,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 13 user / 20 assistant / 36 events
 - First user ask: You're extracting structured data for a "Super Founders"-style quantitative analysis (like Ali Tamaseb's book) applied to David Senra's Founders Podcast. Goal: find real patterns across the actual company founders Senra has covered, testing his stated thesis that founder-problem-fit matters more than product-market-fit. SOURCE: raw episode transcripts at C:\
 - Last user ask: You're extracting structured data for a "Super Founders"-style quantitative analysis (like Ali Tamaseb's book) applied to David Senra's Founders Podcast. Goal: find real patterns across the actual company founders Senra has covered, testing his stated thesis that founder-problem-fit matters more than product-market-fit. SOURCE: raw episode transcripts at C:\
-- Last assistant note: JSON validated successfully. Wrote the dataset to `C:\Users\adamp\AppData\Local\Temp\claude\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\scratchpad\founders-dataset-batch-5.json`. ## Summary **13 founders extracted** from your batch of 17 episodes (9 assigned + 8 borderline): Assigned batch (all 9 qualified): 1. Monty Moncrief — Mo
+- Last assistant note: JSON validated successfully. Wrote the dataset to `C:\Users\adamp\AppData\Local\Temp\claude\C--Users-adamp-Aether-summon-guide\e139b863-31e6-4fc2-886b-a327cde21ded\scratchpad\founders-dataset-batch-5.json`. ## Summary **13 founders extracted** from your batch of 17 episodes (9 assigned + 8 borderline): Assigned batch (all 9 qualified): 1. Monty Moncrief, Mo
 - Tools seen: `Agent`, `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.company\knowledge\founders-podcast\_raw\142-texas-oil-billionaire-monty-moncrief.txt`
@@ -459,7 +459,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 37 user / 60 assistant / 100 events
 - First user ask: You're extracting structured data for a "Super Founders"-style quantitative analysis (like Ali Tamaseb's book) applied to David Senra's Founders Podcast. Goal: find real patterns across the actual company founders Senra has covered, testing his stated thesis that founder-problem-fit matters more than product-market-fit. SOURCE: raw episode transcripts at C:\
 - Last user ask: You're extracting structured data for a "Super Founders"-style quantitative analysis (like Ali Tamaseb's book) applied to David Senra's Founders Podcast. Goal: find real patterns across the actual company founders Senra has covered, testing his stated thesis that founder-problem-fit matters more than product-market-fit. SOURCE: raw episode transcripts at C:\
-- Last assistant note: JSON validated successfully. Summary of the work: **Extracted 23 founder records from the 22 transcripts, 0 skipped.** All 22 episodes turned out to genuinely cover company founders or founder-adjacent operators, so nothing was dropped — but rank 129 ("The Biography of John Malone (Cable Cowboy)") actually contains two distinct founder stories worth separati
+- Last assistant note: JSON validated successfully. Summary of the work: **Extracted 23 founder records from the 22 transcripts, 0 skipped.** All 22 episodes turned out to genuinely cover company founders or founder-adjacent operators, so nothing was dropped, but rank 129 ("The Biography of John Malone (Cable Cowboy)") actually contains two distinct founder stories worth separati
 - Tools seen: `Bash`, `Read`, `Write`
 - Files touched:
   - `summon.company\knowledge\founders-podcast\_raw\106-sam-zells-autobiography.txt`
@@ -521,7 +521,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 15 user / 22 assistant / 40 events
 - First user ask: You're doing Step 0 (Selection) of summon.guide's guide-onboarding checklist for a candidate: Zach Dell, son of Michael Dell, founder of Base Power Company (an Austin-based home battery/energy storage startup) and formerly at Thrive Capital. Context: summon.guide (https://summon.guide) is a product where users chat with AI personas of real historical/contemp
 - Last user ask: You're doing Step 0 (Selection) of summon.guide's guide-onboarding checklist for a candidate: Zach Dell, son of Michael Dell, founder of Base Power Company (an Austin-based home battery/energy storage startup) and formerly at Thrive Capital. Context: summon.guide (https://summon.guide) is a product where users chat with AI personas of real historical/contemp
-- Last assistant note: ## Zach Dell — Selection Stress-Test (Step 0) **Recommendation: No-go, revisit in 3-5 years.** He clears "currently newsworthy" but not "guide-worthy" by this checklist's bar. ### 1. Notability Base Power itself is genuinely notable: $1B Series D in Aug 2026 at a **$13B valuation** ($2.5B total raised), covered by [TechCrunch](https://techcrunch.com/2026/08/
+- Last assistant note: ## Zach Dell, Selection Stress-Test (Step 0) **Recommendation: No-go, revisit in 3-5 years.** He clears "currently newsworthy" but not "guide-worthy" by this checklist's bar. ### 1. Notability Base Power itself is genuinely notable: $1B Series D in Aug 2026 at a **$13B valuation** ($2.5B total raised), covered by [TechCrunch](https://techcrunch.com/2026/08/
 - Tools seen: `Read`, `ToolSearch`, `WebFetch`, `WebSearch`
 - Files touched:
   - `summon.guide\docs\guide-onboarding-checklist.md`
@@ -535,7 +535,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 12 user / 17 assistant / 32 events
 - First user ask: You're doing Step 0 (Selection) and starting Step 1 (Research) of summon.guide's guide-onboarding checklist for a candidate: Michael Dell, founder and CEO of Dell Technologies. Context: summon.guide (https://summon.guide) is a product where users chat with AI personas of real historical/contemporary figures, each grounded in real books/primary sources so the
 - Last user ask: You're doing Step 0 (Selection) and starting Step 1 (Research) of summon.guide's guide-onboarding checklist for a candidate: Michael Dell, founder and CEO of Dell Technologies. Context: summon.guide (https://summon.guide) is a product where users chat with AI personas of real historical/contemporary figures, each grounded in real books/primary sources so the
-- Last assistant note: Have enough to report. Sending findings now. ## Michael Dell — Selection & Research Report **Recommendation: GO.** Clears Selection cleanly, groundable with real primary sources, distinct doctrine from anyone currently in the roster. **§0 Notability** - MIT Pantheon/Wikidata: confirmed entry (`Q218630`, wikipedia slug `Michael_Dell`, DOB 1965-02-23), though 
+- Last assistant note: Have enough to report. Sending findings now. ## Michael Dell, Selection & Research Report **Recommendation: GO.** Clears Selection cleanly, groundable with real primary sources, distinct doctrine from anyone currently in the roster. **§0 Notability** - MIT Pantheon/Wikidata: confirmed entry (`Q218630`, wikipedia slug `Michael_Dell`, DOB 1965-02-23), though 
 - Tools seen: `Grep`, `Read`, `ToolSearch`, `WebFetch`, `WebSearch`
 - Files touched:
   - `summon.guide\docs\guide-onboarding-checklist.md`
@@ -550,7 +550,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 71 user / 121 assistant / 195 events
 - First user ask: Repo: C:\Users\adamp\Aether\summon.guide. Follow .claude/skills/book-to-knowledge/SKILL.md exactly (read it first in full). Source text: sources/_md/principles.md. IMPORTANT CONTEXT: this source is Ray Dalio's own free, official ABRIDGED PDF of "Principles: Life and Work" (199 pages / ~60,000 words extracted), not the full ~560-page retail hardcover, which c
 - Last user ask: Base directory for this skill: C:\Users\adamp\Aether\summon.guide\.claude\skills\book-to-knowledge # Book to knowledge Three stages. Stage 1 is already done for any book already onboarded through book-to-skills. Stage 2 is judgment, and it is the whole point of a person doing this rather than a script. Stage 3 is mechanical. The unit here is different from b
-- Last assistant note: All 29 digest files are written, verified, and spot-checked for quality. Here's the summary: ## Files written `content/knowledge/principles/001-*.md` through `029-*.md` (29 files total), covering: - **Part 1** (1 file): what principles are and why they matter - **Part 2 — Life Principles** (11 files): Where I'm Coming From, My Most Fundamental Principles, Th
+- Last assistant note: All 29 digest files are written, verified, and spot-checked for quality. Here's the summary: ## Files written `content/knowledge/principles/001-*.md` through `029-*.md` (29 files total), covering: - **Part 1** (1 file): what principles are and why they matter - **Part 2, Life Principles** (11 files): Where I'm Coming From, My Most Fundamental Principles, Th
 - Tools seen: `Bash`, `Edit`, `Read`, `Skill`, `Write`
 - Files touched:
   - `summon.guide\content\knowledge\siddhartha\001-the-brahmans-son.md`
@@ -574,7 +574,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 32 user / 51 assistant / 86 events
 - First user ask: Repo: C:\Users\adamp\Aether\summon.guide. Follow .claude/skills/book-to-knowledge/SKILL.md exactly (read it first in full). Source text: sources/_md/principles-for-dealing-with-the-changing-world-order.md. IMPORTANT CONTEXT: this source is Ray Dalio's own free, official ABRIDGED PDF of "Principles for Dealing with the Changing World Order" (112 pages, confir
 - Last user ask: Base directory for this skill: C:\Users\adamp\Aether\summon.guide\.claude\skills\book-to-knowledge # Book to knowledge Three stages. Stage 1 is already done for any book already onboarded through book-to-skills. Stage 2 is judgment, and it is the whole point of a person doing this rather than a script. Stage 3 is mechanical. The unit here is different from b
-- Last assistant note: That `books.ts` modification was already present in the working tree before this task started (per the git status snapshot at session start) — I did not edit it. ## Report **Files written** (all in `C:\Users\adamp\Aether\summon.guide\content\knowledge\principles-for-dealing-with-the-changing-world-order\`): - `001-the-big-cycle-and-the-determinants-of-power.
+- Last assistant note: That `books.ts` modification was already present in the working tree before this task started (per the git status snapshot at session start), I did not edit it. ## Report **Files written** (all in `C:\Users\adamp\Aether\summon.guide\content\knowledge\principles-for-dealing-with-the-changing-world-order\`): - `001-the-big-cycle-and-the-determinants-of-power.
 - Tools seen: `Bash`, `Glob`, `Grep`, `Read`, `Skill`, `Write`
 - Files touched:
   - `summon.guide\content\knowledge\siddhartha\001-the-brahmans-son.md`
@@ -594,9 +594,9 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Claude session: `e139b863-31e6-4fc2-886b-a327cde21ded`
 - Codex import record id: `68b9c474-6c44-4770-9e30-056d6b5fa6d0`
 - Messages: 41 user / 70 assistant / 114 events
-- First user ask: Repo: C:\Users\adamp\Aether\summon.guide. This is a Next.js site where users chat with 44+ historical/contemporary "guide" figures. The user wants a full quality audit of every guide before deciding which ~10 to bring to "S-tier" polish. This is a READ-ONLY research task — do not edit any files, just report findings. For EVERY figure in src/lib/figures.ts (r
-- Last user ask: Repo: C:\Users\adamp\Aether\summon.guide. This is a Next.js site where users chat with 44+ historical/contemporary "guide" figures. The user wants a full quality audit of every guide before deciding which ~10 to bring to "S-tier" polish. This is a READ-ONLY research task — do not edit any files, just report findings. For EVERY figure in src/lib/figures.ts (r
-- Last assistant note: Confirmed — those are the only two, and only in the route.ts copy, not voices.ts. Now compiling the full report. ## Guide Quality Audit — all 44 figures in `src/lib/figures.ts` **Sources checked:** `src/lib/figures.ts` (3803 lines, 44 figures), `public/portraits/` (disk listing), `src/lib/voices.ts` + `src/app/api/tts/route.ts` (two separate `VOICE_MAP`s), `
+- First user ask: Repo: C:\Users\adamp\Aether\summon.guide. This is a Next.js site where users chat with 44+ historical/contemporary "guide" figures. The user wants a full quality audit of every guide before deciding which ~10 to bring to "S-tier" polish. This is a READ-ONLY research task, do not edit any files, just report findings. For EVERY figure in src/lib/figures.ts (r
+- Last user ask: Repo: C:\Users\adamp\Aether\summon.guide. This is a Next.js site where users chat with 44+ historical/contemporary "guide" figures. The user wants a full quality audit of every guide before deciding which ~10 to bring to "S-tier" polish. This is a READ-ONLY research task, do not edit any files, just report findings. For EVERY figure in src/lib/figures.ts (r
+- Last assistant note: Confirmed, those are the only two, and only in the route.ts copy, not voices.ts. Now compiling the full report. ## Guide Quality Audit, all 44 figures in `src/lib/figures.ts` **Sources checked:** `src/lib/figures.ts` (3803 lines, 44 figures), `public/portraits/` (disk listing), `src/lib/voices.ts` + `src/app/api/tts/route.ts` (two separate `VOICE_MAP`s), `
 - Tools seen: `Bash`, `Grep`, `Read`
 - Files touched:
   - `summon.guide\src\lib\voices.ts`
@@ -618,7 +618,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 47 user / 70 assistant / 120 events
 - First user ask: Repo: C:\Users\adamp\Aether\summon.guide. A previous task added 7 new Figure entries to src/lib/figures.ts (slugs: james-clear, cal-newport, tim-ferriss, annie-duke, carol-dweck, paul-millerd, napoleon-hill) and wired their books/voices/etc, but missed a required companion file: src/lib/profiles.ts. The figure profile page (src/app/[figure]/page.tsx) require
 - Last user ask: Repo: C:\Users\adamp\Aether\summon.guide. A previous task added 7 new Figure entries to src/lib/figures.ts (slugs: james-clear, cal-newport, tim-ferriss, annie-duke, carol-dweck, paul-millerd, napoleon-hill) and wired their books/voices/etc, but missed a required companion file: src/lib/profiles.ts. The figure profile page (src/app/[figure]/page.tsx) require
-- Last assistant note: Both pages render correctly now (confirmed live via the dev server) instead of 404ing. Task complete. ## Summary Added Profile entries for all 7 missing slugs to `C:\Users\adamp\Aether\summon.guide\src\lib\profiles.ts` (inserted after the `visakan` entry, before the closing `};`): 1. **james-clear** — b. Jan 22 1986, Hamilton OH; Denison University (biomecha
+- Last assistant note: Both pages render correctly now (confirmed live via the dev server) instead of 404ing. Task complete. ## Summary Added Profile entries for all 7 missing slugs to `C:\Users\adamp\Aether\summon.guide\src\lib\profiles.ts` (inserted after the `visakan` entry, before the closing `};`): 1. **james-clear**, b. Jan 22 1986, Hamilton OH; Denison University (biomecha
 - Tools seen: `Bash`, `Edit`, `Grep`, `Read`, `ToolSearch`, `WebFetch`, `WebSearch`, `mcp__Claude_Browser__get_page_text`, `mcp__Claude_Browser__navigate`, `mcp__Claude_Browser__preview_list`
 - Files touched:
   - `summon.guide\src\lib\profiles.ts`
@@ -633,7 +633,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 73 user / 115 assistant / 191 events
 - First user ask: You are continuing a paused task, not starting a new one: digesting "Tribe of Mentors" by Timothy Ferriss for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). You previously read the full source (sources/_md/tribe-of-mentors.md) and 60 tool calls of research, but stopped yourself saying "I'll pause here and wait for the two pending background agents 
 - Last user ask: You are continuing a paused task, not starting a new one: digesting "Tribe of Mentors" by Timothy Ferriss for summon.guide (repo: C:\Users\adamp\Aether\summon.guide). You previously read the full source (sources/_md/tribe-of-mentors.md) and 60 tool calls of research, but stopped yourself saying "I'll pause here and wait for the two pending background agents 
-- Last assistant note: ## Summary Completed the paused Tribe of Mentors digest task. Wrote 14 theme-based digest files to `content/knowledge/tribe-of-mentors/`, organized by the book's recurring question themes (since it's a Q&A compilation across 100+ interviewees answering a fixed 11-question set) rather than by chapter: 1. `001-project-origin-and-the-eleven-questions.md` — Tim 
+- Last assistant note: ## Summary Completed the paused Tribe of Mentors digest task. Wrote 14 theme-based digest files to `content/knowledge/tribe-of-mentors/`, organized by the book's recurring question themes (since it's a Q&A compilation across 100+ interviewees answering a fixed 11-question set) rather than by chapter: 1. `001-project-origin-and-the-eleven-questions.md`, Tim 
 - Tools seen: `Bash`, `Edit`, `Read`, `Write`, `mcp__ccd_session__mark_chapter`
 - Files touched:
   - `summon.guide\content\knowledge\siddhartha\005-kamala.md`
@@ -657,7 +657,7 @@ Recent Claude sessions mapped here: 68. Showing 40 detailed sessions.
 - Messages: 122 user / 206 assistant / 331 events
 - First user ask: Repo: C:\Users\adamp\Aether\summon.guide. Follow .claude/skills/book-to-knowledge/SKILL.md exactly (read it first in full). Source text: sources/_md/letters-from-a-stoic.md. Book: "Letters from a Stoic (Epistulae Morales ad Lucilium)" by Seneca. Write digest files to content/knowledge/letters-from-a-stoic/ (matches its books.ts slug exactly). Use content/kno
 - Last user ask: Repo: C:\Users\adamp\Aether\summon.guide. Follow .claude/skills/book-to-knowledge/SKILL.md exactly (read it first in full). Source text: sources/_md/letters-from-a-stoic.md. Book: "Letters from a Stoic (Epistulae Morales ad Lucilium)" by Seneca. Write digest files to content/knowledge/letters-from-a-stoic/ (matches its books.ts slug exactly). Use content/kno
-- Last assistant note: All 38 files confirmed. Task complete. ## Summary I read the entire Penguin "Selected Letters" text at `sources/_md/letters-from-a-stoic.md` (Robin Campbell's 1969 translation — a *selection*, not all 124 letters; this edition contains 42 of Seneca's letters: II, III, V–IX, XI, XII, XV, XVI, XVIII, XXVI–XXVIII, XXXIII, XXXVIII, XL, XLI, XLVI–XLVIII, LIII–LVI
+- Last assistant note: All 38 files confirmed. Task complete. ## Summary I read the entire Penguin "Selected Letters" text at `sources/_md/letters-from-a-stoic.md` (Robin Campbell's 1969 translation, a *selection*, not all 124 letters; this edition contains 42 of Seneca's letters: II, III, V-IX, XI, XII, XV, XVI, XVIII, XXVI-XXVIII, XXXIII, XXXVIII, XL, XLI, XLVI-XLVIII, LIII-LVI
 - Tools seen: `Bash`, `Edit`, `Grep`, `Read`, `Write`
 - Files touched:
   - `summon.guide\.claude\skills\book-to-knowledge\SKILL.md`

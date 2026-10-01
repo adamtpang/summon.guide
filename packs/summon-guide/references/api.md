@@ -7,7 +7,7 @@ Returns guides with id, name, kind, domains, description, availability, sourceCo
 
 `{"action":"notes","input":{"id":"<id from roster>","query":"startup customers focus","limit":4}}` calls POST https://summon.guide/api/public/notes.
 
-Only id, query (2–600 characters) and limit (1–6) are accepted. Body limit 4 KB. Never send personal context. Returns status (ok, no_corpus, no_relevant_notes), sourceCount and notes containing id, title, principle, lessons, sourceUrl and kind=synthesis_excerpt. No raw transcript or filesystem path. This assistant performs matching, scoring and generation.
+Only id, query (2-600 characters) and limit (1-6) are accepted. Body limit 4 KB. Never send personal context. Returns status (ok, no_corpus, no_relevant_notes), sourceCount and notes containing id, title, principle, lessons, sourceUrl and kind=synthesis_excerpt. No raw transcript or filesystem path. This assistant performs matching, scoring and generation.
 
 No Authorization header or login. 400 invalid input; 404 unknown guide; 429 burst limit. Retry service failures later; they do not indicate an expertise gap. Roster is cached, notes are not publicly cached. Burst protection is per server instance, not a global quota.
 

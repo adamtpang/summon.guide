@@ -56,7 +56,7 @@ for (const s of planned) {
   if (!s.slug || !s.title || !s.tagline || !s.whenToUse) {
     fail('skill "' + (s.slug || '?') + '" needs slug, title, tagline, whenToUse');
   }
-  if (/—|–/.test(JSON.stringify(s))) {
+  if (/\u2014|\u2013/.test(JSON.stringify(s))) {
     fail('skill "' + s.slug + '" contains an em or en dash. The repo forbids them.');
   }
   const dir = path.join('plugins', figureSlug, 'skills', s.slug);

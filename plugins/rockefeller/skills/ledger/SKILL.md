@@ -17,7 +17,7 @@ Walk the user through this in order:
 
 1. **Open Ledger A.** A spreadsheet, a notebook, a Notion page, the medium does not matter. What matters is that every inflow and every outflow is recorded the day it happens, with no exceptions and no rounding.
 
-2. **Categorize ruthlessly.** Group expenses into 8–12 line items. Not 30. Not 3. You need enough granularity to spot patterns without drowning.
+2. **Categorize ruthlessly.** Group expenses into 8-12 line items. Not 30. Not 3. You need enough granularity to spot patterns without drowning.
 
 3. **Tithe first.** Rockefeller tithed from his very first paycheck of 50 cents a day. The principle: a fixed percentage to a fixed purpose, paid before anything else. Whether it is savings, charity, or reinvestment in the business, decide the percentage and never miss it.
 
@@ -44,7 +44,7 @@ For each line item, ask:
 
 Produce a concrete next-7-days plan:
 1. Where the user will keep Ledger A (specific tool, specific file)
-2. The 8–12 categories they will track
+2. The 8-12 categories they will track
 3. The fixed percentage they will tithe to which purpose
 4. The single drop of solder they will identify and cut this week
 5. The one recurring expense they will audit by Friday

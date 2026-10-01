@@ -48,7 +48,7 @@ export function parseQuestions(text: string): string[] {
   const seen = new Set<string>();
   const questions: string[] = [];
   for (const item of list) {
-    const q = String(item ?? "").replace(/[–—]/g, ",").replace(/\s+/g, " ").trim();
+    const q = String(item ?? "").replace(/[\u2013\u2014]/g, ",").replace(/\s+/g, " ").trim();
     if (q.length < 8 || q.length > 300 || seen.has(q.toLowerCase())) continue;
     seen.add(q.toLowerCase());
     questions.push(q);

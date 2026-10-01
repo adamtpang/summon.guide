@@ -39,11 +39,11 @@ wins for Sage. Other guide portraits remain individual identities.
 
 The aim is **immersive, premium, performant, minimalist, aesthetic.** Every choice on the site should be defensible against those five words. When in doubt, take something out.
 
-The reference posture is *editorial print* — a New Yorker article, a Wikipedia infobox, a Penguin paperback. Not a SaaS dashboard. Not a tech demo. Restraint signals seriousness.
+The reference posture is *editorial print*, a New Yorker article, a Wikipedia infobox, a Penguin paperback. Not a SaaS dashboard. Not a tech demo. Restraint signals seriousness.
 
 ## Brand essence
 
-**Summoning is a ritual.** The user isn't "browsing" or "chatting" — they're calling on a specific human guide for a specific problem. The product earns trust by feeling deliberate, not playful. Slow type beats kinetic type. White space beats clever motion. Restraint beats novelty.
+**Summoning is a ritual.** The user isn't "browsing" or "chatting", they're calling on a specific human guide for a specific problem. The product earns trust by feeling deliberate, not playful. Slow type beats kinetic type. White space beats clever motion. Restraint beats novelty.
 
 ## Tokens
 
@@ -60,34 +60,34 @@ The tokens are already in `src/app/globals.css`. Don't add new ones without remo
 | `warm-400` | `#a8a296` | Tracked-out small caps labels. |
 | `warm-500` | `#7c766a` | Body sub-text, "when to use" descriptions. |
 | `ink-800` | `#2a2722` | Hover state for primary buttons. |
-| `ink-900` | `#1a1816` | (Reserved — currently unused; deprecate if it stays unused.) |
+| `ink-900` | `#1a1816` | (Reserved, currently unused; deprecate if it stays unused.) |
 | `ink-950` | `#0f0e0c` | Primary headlines and primary buttons. Almost-black. |
 | `gold-500` | `#b89d4f` | Reserved for icon-only accent. Do **not** use as text color in body. |
 | `gold-600` | `#a08839` | Reserved for the favicon and one-off touches. |
 
 **One color per page must dominate.** If a page has the gold dot accent in the favicon, no other gold on screen. If a page has portrait-driven figure colors, no gold at all.
 
-**Per-figure accents** (from `figure.color` in `figures.ts`) are used on profile pages only — the quote left-border, the accomplishment bullet, the skill command pill. These are **not** part of the brand palette; they're per-guide identifiers, applied at the figure-card layer only. Never paint a UI chrome element (button, link, header) with a figure color.
+**Per-figure accents** (from `figure.color` in `figures.ts`) are used on profile pages only, the quote left-border, the accomplishment bullet, the skill command pill. These are **not** part of the brand palette; they're per-guide identifiers, applied at the figure-card layer only. Never paint a UI chrome element (button, link, header) with a figure color.
 
 ### Type
 
 ```
-serif:  Playfair Display    — display headings, blockquotes, italicized prose
-sans:   Inter               — UI, body copy, buttons, infobox
-mono:   ui-monospace        — code blocks, slash commands, step numbers
+serif:  Playfair Display, display headings, blockquotes, italicized prose
+sans:   Inter, UI, body copy, buttons, infobox
+mono:   ui-monospace, code blocks, slash commands, step numbers
 ```
 
 | Role | Class | Notes |
 | --- | --- | --- |
 | Hero H1 | `text-4xl md:text-6xl font-serif font-medium tracking-tight leading-[1.05]` | One per page. Names, titles. |
 | Section H2 | `text-2xl md:text-3xl font-serif font-medium pb-2 border-b border-warm-200` | Wikipedia-style sectioning. |
-| Body | `text-base md:text-[17px] leading-[1.75] text-ink-950/85` | The 85% opacity is intentional — pure black is too heavy on warm cream. |
+| Body | `text-base md:text-[17px] leading-[1.75] text-ink-950/85` | The 85% opacity is intentional, pure black is too heavy on warm cream. |
 | Body sub | `text-sm leading-relaxed text-warm-500` | Captions, "when to use", footnotes. |
 | Eyebrow / kicker | `text-xs tracking-[0.25em] uppercase text-warm-400` or `text-warm-500` | Small caps tracked out. The signature texture of the site. |
 | Quote | `font-serif italic text-base md:text-lg leading-relaxed border-l-2 pl-5` | Color the border with the figure color. |
-| Code | `text-[11px]–[13px] font-mono` | Slash commands, install blocks. |
+| Code | `text-[11px]-[13px] font-mono` | Slash commands, install blocks. |
 
-**No font sizes between 18px and 24px.** It's the dead zone — too big to be body, too small to be a heading. Use one or the other.
+**No font sizes between 18px and 24px.** It's the dead zone, too big to be body, too small to be a heading. Use one or the other.
 
 ### Spacing rhythm
 
@@ -106,17 +106,17 @@ Be generous. Premium = breathing room. If two elements are competing for attenti
 
 | Surface | Looks like |
 | --- | --- |
-| **Card** | `bg-white border border-warm-200 rounded-xl` — quick facts, skills, install blocks (soft variant). |
-| **Hero card** | `bg-ink-950 text-white rounded-2xl` — the install block. Used sparingly — once or twice per page max. |
+| **Card** | `bg-white border border-warm-200 rounded-xl`, quick facts, skills, install blocks (soft variant). |
+| **Hero card** | `bg-ink-950 text-white rounded-2xl`, the install block. Used sparingly, once or twice per page max. |
 | **Recessed code** | `bg-warm-100 rounded-md` (in soft variant) or `bg-black/40 rounded-lg` (in dark variant). |
-| **Page** | `bg-warm-50` — never pure white. |
+| **Page** | `bg-warm-50`, never pure white. |
 
 **Do not** use heavy `box-shadow`. Surfaces are defined by 1px borders against the warm background. If you need depth, increase the contrast between the surface and the page (white card on warm-50 is enough). Big drop-shadows are SaaS-dashboard tells.
 
 ### Borders + radii
 
 - Borders: 1px, almost always `border-warm-200`. Borders on dark cards: `border-white/10`.
-- Radii: `rounded-md` (small UI), `rounded-xl` (cards), `rounded-2xl` (hero cards), `rounded-full` (buttons, avatars). Never `rounded-3xl` or larger — looks like a kid's app.
+- Radii: `rounded-md` (small UI), `rounded-xl` (cards), `rounded-2xl` (hero cards), `rounded-full` (buttons, avatars). Never `rounded-3xl` or larger, looks like a kid's app.
 
 ### Motion
 
@@ -127,9 +127,9 @@ Be generous. Premium = breathing room. If two elements are competing for attenti
 
 ### Iconography
 
-- Outline icons only. 12–16px in body, 20px in hero CTAs.
+- Outline icons only. 12-16px in body, 20px in hero CTAs.
 - Use sparingly. The brand voice is "humans matter more than icons."
-- No emoji in UI chrome. (Inside chat content, that's the guide's voice — leave it alone.)
+- No emoji in UI chrome. (Inside chat content, that's the guide's voice, leave it alone.)
 
 ## Page architectures
 
@@ -141,10 +141,10 @@ Be generous. Premium = breathing room. If two elements are competing for attenti
 - One dark, problem-first intake card is the **only** primary input on the page.
 - The intake has two modes: `Find my guide` and `Name a person`. Life-problem mode is the default.
 - A secondary dialog generates a privacy-conscious extraction prompt for ChatGPT or Claude, then accepts the reviewed context brief.
-- "How it works" — 3-step ordered list, white cards on warm bg, mono step numbers.
-- Guide hall — a compact single-column index with portrait, name, era, known-for line, and audio introduction.
-- Skills CTA — black hero card linking to `/skills`.
-- Footer — single sentence about sourcing.
+- "How it works", 3-step ordered list, white cards on warm bg, mono step numbers.
+- Guide hall, a compact single-column index with portrait, name, era, known-for line, and audio introduction.
+- Skills CTA, black hero card linking to `/skills`.
+- Footer, single sentence about sourcing.
 
 ### Profile pages (`/<slug>`)
 
@@ -153,7 +153,7 @@ Wikipedia-by-way-of-print-magazine. Anchor: https://en.wikipedia.org/wiki/Evan_S
 - Eyebrow brand link · "All guides" back link.
 - H1 + occupation tagline + era·location eyebrow.
 - Two CTAs: black `Summon X` (chat) and outline `Wikipedia` (external).
-- **Per-guide install block** in dark variant — owns the top-of-page real estate after the CTAs.
+- **Per-guide install block** in dark variant, owns the top-of-page real estate after the CTAs.
 - Right rail: portrait + classic infobox table.
 - Mini TOC.
 - Sections: Early life and education → Career → Legacy and death → Claude Code skills → Notable quotes → References.
@@ -200,11 +200,11 @@ The product writes in three voices:
 - LCP image: per-figure portrait, must be `priority` on first paint, `<200KB` JPEG. Don't ship raw 1500px portraits.
 - Fonts: `next/font` already gives us self-hosted Inter + Playfair. Don't add a third family.
 - No client-side libraries we don't already use. Framer Motion is in. Don't add another animation lib.
-- The `[figure]` profile page should be `generateStaticParams`-prerendered at build (already is). Skills/SKILL.md content is not loaded by the website — it lives on disk for the Claude Code plugin.
+- The `[figure]` profile page should be `generateStaticParams`-prerendered at build (already is). Skills/SKILL.md content is not loaded by the website, it lives on disk for the Claude Code plugin.
 
 ## Accessibility
 
-- Color contrast: `ink-950` on `warm-50` is 19:1. `warm-500` on `warm-50` is 5.5:1 — the floor for UI chrome. `warm-400` is decorative only (3:1) — never use it for body content.
+- Color contrast: `ink-950` on `warm-50` is 19:1. `warm-500` on `warm-50` is 5.5:1, the floor for UI chrome. `warm-400` is decorative only (3:1), never use it for body content.
 - Tap targets: 44×44 minimum. The mobile send button on the homepage and the audio-intro buttons on guide cards already meet this.
 - Focus states: rely on browser defaults plus `focus:border-ink-950 focus:ring-1 focus:ring-ink-950` on inputs. Visible at all times.
 - Image `alt`: every portrait uses `alt={figure.name}`. Decorative SVG icons should have no alt.
@@ -217,7 +217,7 @@ The product writes in three voices:
 
 ## When breaking rules
 
-The rules above produce a calm, restrained surface. If something needs to shout — a launch announcement, a single hero promo — break the rules deliberately and only for that one element on that one page. Then go back to restraint everywhere else.
+The rules above produce a calm, restrained surface. If something needs to shout, a launch announcement, a single hero promo, break the rules deliberately and only for that one element on that one page. Then go back to restraint everywhere else.
 
 ## Model route status (2026-08-29)
 

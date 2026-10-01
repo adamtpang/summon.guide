@@ -1,4 +1,4 @@
-# Forbes Leverage Roster — the richest people on earth, flagged for coverage
+# Forbes Leverage Roster, the richest people on earth, flagged for coverage
 
 The third axis, outcome-first. [`greatest-humans.md`](greatest-humans.md) ranks by fame,
 [`most-productive-humans.md`](most-productive-humans.md) ranks by output and method, and
@@ -59,15 +59,15 @@ leverage and are low priority regardless of rank.
 Self-made gaps ranked by how much they would actually teach, not by net worth. Page, Brin,
 Ortega, and Devasini are enormous but famously private with thin corpus, so they rank down.
 
-1. **Warren Buffett** (#9) — the glaring one. You have the sidekick, not the principal. Free
+1. **Warren Buffett** (#9), the glaring one. You have the sidekick, not the principal. Free
    shareholder letters, the Rockefeller-letters pattern you already use. Track: historical.
-2. **Bill Gates** (#19) — the code-leverage archetype, then the largest philanthropy lever.
+2. **Bill Gates** (#19), the code-leverage archetype, then the largest philanthropy lever.
    Deep corpus, youchop-able. Track: modern.
-3. **Mark Zuckerberg** (#5) — network-effect and founder-control playbook. Landmines noted.
-4. **Bernard Arnault** (#7) — the only non-tech lever near the top. Brand and luxury roll-up,
+3. **Mark Zuckerberg** (#5), network-effect and founder-control playbook. Landmines noted.
+4. **Bernard Arnault** (#7), the only non-tech lever near the top. Brand and luxury roll-up,
    diversifies a roster that is otherwise all tech and finance.
-5. **Michael Dell** (#13) — the direct-model build-from-a-dorm story, two books of his own.
-6. **Michael Bloomberg** (#18) — data terminal plus media leverage, has a memoir.
+5. **Michael Dell** (#13), the direct-model build-from-a-dorm story, two books of his own.
+6. **Michael Bloomberg** (#18), data terminal plus media leverage, has a memoir.
 
 ## The three rosters together
 

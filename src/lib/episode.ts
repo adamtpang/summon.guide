@@ -1,6 +1,6 @@
 /**
  * Episode template for guide voiceovers (essay → TTS → book.movie visuals).
- * Target length: ~90–120 seconds spoken at ~140–150 wpm.
+ * Target length: ~90-120 seconds spoken at ~140-150 wpm.
  */
 
 export type EpisodeParts = {

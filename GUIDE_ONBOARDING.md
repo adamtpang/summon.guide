@@ -19,7 +19,7 @@ This is the repeatable procedure. The runtime half (recognition + graceful "not 
   - on the platform → `{ type: "matched", slug, reason }` → routes to chat
   - not on the platform → `{ type: "not_found", person, suggestedSlug, reason }` → homepage shows an honest "not summoned yet" card with a request button, instead of mis-routing to a random guide
 
-So the worked example — *"carnivore aurelius advice for bad smelling arm pits"* — now resolves: name normalizes to Marcus Aurelius, who is a guide, and routes to `/chat/marcus-aurelius`. Marcus's system prompt explicitly handles the body/vanity case (Meditations 2.2, 8.37): the body's smells are nature; shame about them is the error; reserve attention for the ruling faculty.
+So the worked example, *"carnivore aurelius advice for bad smelling arm pits"*, now resolves: name normalizes to Marcus Aurelius, who is a guide, and routes to `/chat/marcus-aurelius`. Marcus's system prompt explicitly handles the body/vanity case (Meditations 2.2, 8.37): the body's smells are nature; shame about them is the error; reserve attention for the ruling faculty.
 
 ---
 
@@ -33,15 +33,15 @@ Resolve to the **canonical full name** and a **kebab-case slug**. Short slug whe
 
 ### 2. Dedupe
 
-Check `src/lib/figures.ts` (active array AND `_ARCHIVE_FOUNDERS`). Many high-value figures (Bezos, Jobs, Munger, Buffett, Jensen Huang, Sam Walton, Naval) already have **complete system prompts in the archive** — onboarding them is promotion, not authorship.
+Check `src/lib/figures.ts` (active array AND `_ARCHIVE_FOUNDERS`). Many high-value figures (Bezos, Jobs, Munger, Buffett, Jensen Huang, Sam Walton, Naval) already have **complete system prompts in the archive**, onboarding them is promotion, not authorship.
 
 ### 3. Eligibility gate
 
 A person earns a slot only if **all** are true:
 
 - **Notable enough** that a serious person would want their counsel.
-- **Source exists** — a credible book *by* or *about* them, or a serious compiled anthology. No source → no guide. (This is the single hardest gate and it is non-negotiable. It is what makes summon.guide grounded instead of a vibes machine.)
-- **Distinct** — they add a domain or perspective not already covered. Another generic tech founder is worth less than the first philosopher, the first scientist, the first general.
+- **Source exists**, a credible book *by* or *about* them, or a serious compiled anthology. No source → no guide. (This is the single hardest gate and it is non-negotiable. It is what makes summon.guide grounded instead of a vibes machine.)
+- **Distinct**, they add a domain or perspective not already covered. Another generic tech founder is worth less than the first philosopher, the first scientist, the first general.
 
 ### 4. Source check
 
@@ -49,13 +49,13 @@ Identify the canonical text(s) and add them to `src/lib/books.ts` with `status: 
 
 ### 5. Generate the guide
 
-In order (mirror an existing active guide as the template — Lee Kuan Yew and Marcus Aurelius are good models):
+In order (mirror an existing active guide as the template, Lee Kuan Yew and Marcus Aurelius are good models):
 
-1. Portrait — a verified, committed local image; complete the required portrait launch gate below.
-2. `src/lib/figures.ts` — active entry: slug, name, era, hook, portrait, gradient, color, signatureQuote, location, introLine, domains, knownFor, accomplishments, stats, and a `systemPrompt` with a `KNOWLEDGE BASE` of `SOURCE:` / `TOPIC:` blocks anchored to real chapters.
-3. `src/lib/profiles.ts` — full Wikipedia-style infobox + early-life / career / legacy prose.
-4. `src/lib/books.ts` — the canonical book(s).
-5. `src/lib/skills.ts` + `/skills/<slug>-<framework>/SKILL.md` — 2–5 frameworks the person actually used.
+1. Portrait, a verified, committed local image; complete the required portrait launch gate below.
+2. `src/lib/figures.ts`, active entry: slug, name, era, hook, portrait, gradient, color, signatureQuote, location, introLine, domains, knownFor, accomplishments, stats, and a `systemPrompt` with a `KNOWLEDGE BASE` of `SOURCE:` / `TOPIC:` blocks anchored to real chapters.
+3. `src/lib/profiles.ts`, full Wikipedia-style infobox + early-life / career / legacy prose.
+4. `src/lib/books.ts`, the canonical book(s).
+5. `src/lib/skills.ts` + `/skills/<slug>-<framework>/SKILL.md`, 2-5 frameworks the person actually used.
 6. Voice (`src/app/api/tts/route.ts`), music (`src/components/AmbientMusic.tsx`), suggested questions (`src/app/chat/[figure]/page.tsx`).
 
 ### 6. Quality gate
@@ -68,7 +68,7 @@ Commit, PR, merge, deploy. The website auto-discovers the new figure, profile, b
 
 ---
 
-## Policy: dead vs. alive — recommendation
+## Policy: dead vs. alive, recommendation
 
 You asked whether to feature only the dead or living people too. Recommendation: **both, but with a different bar and framing.**
 
@@ -78,9 +78,9 @@ The dead are the safe, strong core of the product:
 
 - **Closed corpus.** A finished life has a settled record and a canonical biography. You can ground them honestly.
 - **No reputational risk.** A living person can object, change, or do something tomorrow that makes an AI persona of them awkward. Marcus Aurelius will not.
-- **Public domain.** Meditations, Franklin, Plutarch, Aurelius, Sun Tzu — zero rights friction, the richest sources, and the timeless problems (death, ambition, anger, discipline) don't expire.
+- **Public domain.** Meditations, Franklin, Plutarch, Aurelius, Sun Tzu, zero rights friction, the richest sources, and the timeless problems (death, ambition, anger, discipline) don't expire.
 
-### Allow the living — when the bar is met
+### Allow the living, when the bar is met
 
 Some living figures are too valuable to exclude (Elon, Naval, Jensen Huang, Bezos). Permit them when:
 
@@ -94,8 +94,8 @@ Not "dead vs. alive." The line is **grounded vs. ungrounded**. A dead figure wit
 
 ### Practical split
 
-- **Tier 1 (lead with these):** dead, public-domain, timeless — Marcus Aurelius, Franklin, Rockefeller, Alexander, Lincoln, Sun Tzu, Marcus's Stoic neighbors. Lowest risk, highest staying power.
-- **Tier 2 (high value, careful framing):** living, self-documented — Elon (*Book of Elon*), Naval (*Almanack*), Bezos (*Invent and Wander*), Jensen Huang (*The Nvidia Way*). Frame as documented frameworks.
+- **Tier 1 (lead with these):** dead, public-domain, timeless, Marcus Aurelius, Franklin, Rockefeller, Alexander, Lincoln, Sun Tzu, Marcus's Stoic neighbors. Lowest risk, highest staying power.
+- **Tier 2 (high value, careful framing):** living, self-documented, Elon (*Book of Elon*), Naval (*Almanack*), Bezos (*Invent and Wander*), Jensen Huang (*The Nvidia Way*). Frame as documented frameworks.
 - **Tier 3 (decline for now):** notable but no credible source, or living and largely unwritten. These return `not_found` and go on the request list.
 
 ## Required portrait launch gate

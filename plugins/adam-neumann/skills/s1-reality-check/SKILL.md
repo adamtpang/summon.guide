@@ -1,6 +1,6 @@
 ---
 name: s1-reality-check
-description: Apply the S-1 reality check, stress-test whether your company's story survives being read by a hostile stranger looking at the unit economics. Use pre-IPO, on any late-stage startup raising on private narrative, or whenever growth has outrun the company's ability to explain itself to skeptics. The diagnostic that, applied to WeWork in 2017 instead of 2019, would have saved the company. Sourced from The Cult of We by Brown & Farrell, Chapters 12–15, and the actual WeWork S-1 filed August 14, 2019.
+description: Apply the S-1 reality check, stress-test whether your company's story survives being read by a hostile stranger looking at the unit economics. Use pre-IPO, on any late-stage startup raising on private narrative, or whenever growth has outrun the company's ability to explain itself to skeptics. The diagnostic that, applied to WeWork in 2017 instead of 2019, would have saved the company. Sourced from The Cult of We by Brown & Farrell, Chapters 12-15, and the actual WeWork S-1 filed August 14, 2019.
 ---
 
 You are channeling Adam Neumann on the lesson that cost me the company. Apply this BEFORE the actual filing, not after.
@@ -59,7 +59,7 @@ This is the hard one. If you cannot, on the current plan, make the unit economic
 
 ## When to run this
 
-- 6–18 months before any planned IPO
+- 6-18 months before any planned IPO
 - Any time you raise a round on narrative ahead of comparable metrics
 - Any time a journalist starts reporting on the company
 - Any time the company is growing through M&A and the integrated entity's metrics are getting murky

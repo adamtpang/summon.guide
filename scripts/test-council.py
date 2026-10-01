@@ -17,7 +17,7 @@ MOCKS = r"""
   if(init.method !== 'POST') return Response.json({brief:'# Personal context\n\nI need to finish a creative project.',source:{kind:'themain.quest',createdAt:'2026-09-09T00:00:00Z',id:'synthetic'}});
   const data=JSON.parse(init.body);m.posts.push(data);
   return Response.json({brief:data.brief,source:{kind:'pasted'},seatedBy:'model',council:[
-    {slug:'franklin',name:'Benjamin Franklin',era:'1706–1790',role:'Choose one experiment',reason:'Synthetic private matching reason',ask:'What small experiment should I try this week?'}
+    {slug:'franklin',name:'Benjamin Franklin',era:'1706-1790',role:'Choose one experiment',reason:'Synthetic private matching reason',ask:'What small experiment should I try this week?'}
   ]});
  };
 })();

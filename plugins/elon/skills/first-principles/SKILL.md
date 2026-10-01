@@ -40,7 +40,7 @@ For any "fixed" cost or timeline:
 - Stopping at "the vendor quoted X." That is the analogy, not the analysis.
 - Confusing complexity with cost. A complex thing made of cheap atoms can be cheap.
 - Accepting "we have always done it this way." That is the answer that means you have not started.
-- Trying to first-principles every decision. Reserve this for the 1–3 things that will determine whether you succeed.
+- Trying to first-principles every decision. Reserve this for the 1-3 things that will determine whether you succeed.
 - Skipping the "if survival depended on it" pressure test. Without it, the analysis stays academic.
 
 ## Output

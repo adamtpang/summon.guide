@@ -1,6 +1,6 @@
 # UPGRADE_SESSION: summon.guide (2026-07-28)
 
-Cash-first media upgrade: **guide speaks a short essay** for a 90–120s video voiceover.
+Cash-first media upgrade: **guide speaks a short essay** for a 90-120s video voiceover.
 
 ---
 
@@ -41,7 +41,7 @@ Cash-first media upgrade: **guide speaks a short essay** for a 90–120s video v
 ## What shipped
 
 1. **Script mode** (`/speak`): paste essay or fill template → select guide → generate voiceover → play + download mp3.
-2. **Episode template**: hook → 3 points → close; word count + ~duration @ 145 wpm; target 90–120s.
+2. **Episode template**: hook → 3 points → close; word count + ~duration @ 145 wpm; target 90-120s.
 3. **Demo path**: Franklin “Thirteen Virtues”, one click **Load Franklin demo** on `/speak`. Script also at `content/demos/franklin-thirteen-virtues.md`.
 4. **book.movie handoff**: dark card on `/speak` + `BOOK_MOVIE_HANDOFF.md` with contract and next visual steps.
 5. **TTS upgrade**: script mode allows 4000 chars; `Content-Disposition` for download naming `{slug}-voiceover.mp3`.
@@ -83,8 +83,8 @@ Also set the same key in Vercel project env for production.
 
 1. Add `ELEVENLABS_API_KEY` to `.env.local`.
 2. `npm run dev` → `/speak` → **Load Franklin demo** → **Download mp3**.
-3. **Pass if:** file `franklin-voiceover.mp3` downloads, plays ~90–120s, and is intelligible spoken English in Franklin’s mapped voice.
-4. **Fail if:** 500 from `/api/tts`, empty body, or duration outside ~70–150s for the demo script.
+3. **Pass if:** file `franklin-voiceover.mp3` downloads, plays ~90-120s, and is intelligible spoken English in Franklin’s mapped voice.
+4. **Fail if:** 500 from `/api/tts`, empty body, or duration outside ~70-150s for the demo script.
 
 ---
 

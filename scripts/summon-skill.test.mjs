@@ -36,7 +36,7 @@ test('installed skill works from unrelated cwd and installation is repeatable', 
   const target = mkdtempSync(join(tmpdir(), 'summon-skill-'));
   const old = join(target, '.claude/skills/summon');
   mkdirSync(old, { recursive: true });
-  writeFileSync(join(old, 'SKILL.md'), '# /summon — connect to the Summon control plane\nOriginal workflow.\n');
+  writeFileSync(join(old, 'SKILL.md'), '# /summon: connect to the Summon control plane\nOriginal workflow.\n');
   writeFileSync(join(target, '.mcp.json'), '{"mcpServers":{"existing":{"url":"https://example.com"}}}');
   for (let i = 0; i < 2; i++) {
     const installed = spawnSync(process.execPath, [join(root, 'scripts/summon.mjs'), 'install', 'summon', '--target', target], { encoding: 'utf8' });

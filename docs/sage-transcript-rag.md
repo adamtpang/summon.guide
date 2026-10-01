@@ -18,7 +18,7 @@ Do not equate the synced YouTube catalog with every Founders podcast episode.
 1. Inventory source IDs, full episode catalog coverage, timestamp availability,
    provenance, versions, and permitted retrieval/display/provider uses.
 2. Chunk eligible transcripts at topic/speaker boundaries. Starting experiment:
-   400–800 tokens per chunk with short overlap; retain neighboring context, title,
+   400-800 tokens per chunk with short overlap; retain neighboring context, title,
    person, episode ID, timestamp ranges and source version. Tune against evaluation.
 3. Index both exact names/phrases and semantic embeddings. Keep summaries as an
    overview and routing layer; retrieve primary passages for specific evidence.
