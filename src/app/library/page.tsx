@@ -18,15 +18,15 @@ const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 function Score({ n, tone }: { n: number; tone: "skill" | "video" }) {
   return (
     <span className="inline-flex items-center gap-1.5">
-      <span className="w-14 h-1.5 bg-warm-200 rounded-full overflow-hidden">
+      <span className="w-14 h-1.5 bg-white/10 rounded-full overflow-hidden">
         <span
           className={`block h-full rounded-full ${
-            tone === "skill" ? "bg-ink-950" : "bg-gold-600"
+            tone === "skill" ? "bg-raised" : "bg-gold-600"
           }`}
           style={{ width: `${n * 10}%` }}
         />
       </span>
-      <span className="text-warm-500 text-[11px] tabular-nums w-4">{n}</span>
+      <span className="text-mist text-[11px] tabular-nums w-4">{n}</span>
     </span>
   );
 }
@@ -60,22 +60,22 @@ export default function LibraryPage() {
         <span className="block text-[15px] leading-snug">
           {b.title}
           {isRegistered(b.title) && (
-            <span className="ml-2 text-[10px] font-mono uppercase tracking-[0.12em] text-ink-950 border border-warm-300 rounded px-1.5 py-0.5">
+            <span className="ml-2 text-[10px] font-mono uppercase tracking-[0.12em] text-moon border border-edge rounded px-1.5 py-0.5">
               source
             </span>
           )}
           {!isRegistered(b.title) && hasGuide(b.title) && (
-            <span className="ml-2 text-[10px] font-mono uppercase tracking-[0.12em] text-warm-500 border border-warm-200 rounded px-1.5 py-0.5">
+            <span className="ml-2 text-[10px] font-mono uppercase tracking-[0.12em] text-mist border border-edge rounded px-1.5 py-0.5">
               guide exists
             </span>
           )}
           {hasSeries(b.title) && (
-            <span className="ml-2 text-[10px] font-mono uppercase tracking-[0.12em] text-gold-600 border border-gold-600/40 rounded px-1.5 py-0.5">
+            <span className="ml-2 text-[10px] font-mono uppercase tracking-[0.12em] text-gold-500 border border-gold-600/40 rounded px-1.5 py-0.5">
               series built
             </span>
           )}
         </span>
-        <span className="block text-warm-500 text-[13px] leading-relaxed mt-0.5">
+        <span className="block text-mist text-[13px] leading-relaxed mt-0.5">
           {b.why}
         </span>
       </span>
@@ -86,39 +86,39 @@ export default function LibraryPage() {
   );
 
   return (
-    <main className="min-h-screen bg-warm-50 text-ink-950">
+    <main className="min-h-screen bg-night text-moon">
       <div className="max-w-5xl mx-auto px-6 pt-8 md:pt-12 pb-20">
         <header className="flex items-center justify-between mb-10 md:mb-14">
           <Link
             href="/"
-            className="text-warm-400 text-xs tracking-[0.3em] uppercase hover:text-ink-950 transition-colors"
+            className="text-dim text-xs tracking-[0.3em] uppercase hover:text-moon transition-colors"
           >
             summon.guide
           </Link>
           <Link
             href="/books"
-            className="text-warm-500 text-xs hover:text-ink-950 transition-colors"
+            className="text-mist text-xs hover:text-moon transition-colors"
           >
             Registered sources
           </Link>
         </header>
 
         <section className="mb-10">
-          <p className="text-warm-400 text-xs tracking-[0.25em] uppercase mb-4">
+          <p className="text-dim text-xs tracking-[0.25em] uppercase mb-4">
             The shelf
           </p>
           <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.05] tracking-tight mb-5">
             {catalog.length} books, ranked by what each is good for.
           </h1>
-          <p className="text-warm-500 text-base leading-relaxed max-w-2xl">
-            Two different questions. A book earns a <b className="text-ink-950">skill</b>{" "}
+          <p className="text-mist text-base leading-relaxed max-w-2xl">
+            Two different questions. A book earns a <b className="text-moon">skill</b>{" "}
             by being runnable, a procedure you execute this week. It earns a{" "}
-            <b className="text-ink-950">series</b> by being watchable, needing a
+            <b className="text-moon">series</b> by being watchable, needing a
             turn, a concrete detail, a scene. The same book rarely answers both
             the same way, and building the wrong one produces something correct
             and lifeless.
           </p>
-          <p className="text-warm-400 text-sm mt-4">
+          <p className="text-dim text-sm mt-4">
             {extracted.length} machine readable &middot; {ranked.length} scored
             &middot; {unscored.length} not yet judged &middot; {scanned.length}{" "}
             are scans and need OCR
@@ -127,9 +127,9 @@ export default function LibraryPage() {
 
         <div className="grid md:grid-cols-2 gap-10 md:gap-8 mb-14">
           <section>
-            <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-warm-200">
+            <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-edge">
               <h2 className="font-serif text-2xl">Best for skills</h2>
-              <span className="text-warm-400 text-xs ml-auto">
+              <span className="text-dim text-xs ml-auto">
                 things you run
               </span>
             </div>
@@ -141,9 +141,9 @@ export default function LibraryPage() {
           </section>
 
           <section>
-            <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-warm-200">
+            <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-edge">
               <h2 className="font-serif text-2xl">Best for a series</h2>
-              <span className="text-warm-400 text-xs ml-auto">
+              <span className="text-dim text-xs ml-auto">
                 things you watch
               </span>
             </div>
@@ -156,13 +156,13 @@ export default function LibraryPage() {
         </div>
 
         <section>
-          <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-warm-200">
+          <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-edge">
             <h2 className="font-serif text-xl">Not yet judged</h2>
-            <span className="text-warm-400 text-xs ml-auto tabular-nums">
+            <span className="text-dim text-xs ml-auto tabular-nums">
               {unscored.length}
             </span>
           </div>
-          <p className="text-warm-500 text-sm mb-4 max-w-2xl">
+          <p className="text-mist text-sm mb-4 max-w-2xl">
             Extracted and readable, but not scored. Unscored is not a verdict.
             These are simply books nobody has judged yet.
           </p>
@@ -171,9 +171,9 @@ export default function LibraryPage() {
               .sort((a, b) => b.words - a.words)
               .slice(0, 120)
               .map((b) => (
-                <span key={b.slug} className="text-warm-500 text-[13px]">
+                <span key={b.slug} className="text-mist text-[13px]">
                   {b.title}
-                  <span className="text-warm-300 tabular-nums">
+                  <span className="text-dim tabular-nums">
                     {" "}
                     {Math.round(b.words / 1000)}k
                   </span>
@@ -182,7 +182,7 @@ export default function LibraryPage() {
           </div>
         </section>
 
-        <p className="text-warm-400 text-xs mt-12 pt-6 border-t border-warm-200 leading-relaxed max-w-2xl">
+        <p className="text-dim text-xs mt-12 pt-6 border-t border-edge leading-relaxed max-w-2xl">
           This is the index, not the contents. Extracted text stays local,
           because it is the book in another format. Scores are editorial
           judgements about the books, not measurements of the text.

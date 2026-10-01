@@ -108,11 +108,11 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
   };
 
   return (
-    <section className="space-y-5 rounded-2xl border border-warm-200 bg-white/70 p-5 sm:p-7">
+    <section className="space-y-5 rounded-2xl border border-edge bg-white/[0.04] p-5 sm:p-7">
       <div>
-        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-warm-500">Convene the council</p>
+        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-mist">Convene the council</p>
         <h2 className="mt-1 font-serif text-2xl">Ask all {seats.length} at once</h2>
-        <p className="mt-1 text-sm leading-relaxed text-warm-500">
+        <p className="mt-1 text-sm leading-relaxed text-mist">
           Each AI guide answers in turn and reads the others first, then a short synthesis names where they agree and split.
         </p>
       </div>
@@ -122,7 +122,7 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
           {thread.map((entry, i) => (
             <li key={i}>
               {entry.kind === "user" ? (
-                <div className="ml-auto max-w-[85%] rounded-2xl bg-ink-950 px-4 py-3 text-sm leading-relaxed text-white">{entry.content}</div>
+                <div className="ml-auto max-w-[85%] rounded-2xl bg-raised px-4 py-3 text-sm leading-relaxed text-white">{entry.content}</div>
               ) : (
                 <ThreadVoice entry={entry} seat={entry.kind === "guide" ? seats.find((s) => s.slug === entry.slug) : undefined} />
               )}
@@ -132,7 +132,7 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
       )}
 
       {speaking && (
-        <p role="status" className="flex items-center gap-2 text-xs text-warm-500">
+        <p role="status" className="flex items-center gap-2 text-xs text-mist">
           <LoaderCircle className="size-3.5 animate-spin" />
           {speaking === "synthesis" ? "Writing the synthesis" : `${seats.find((s) => s.slug === speaking)?.name ?? "A guide"} is answering`}
         </p>
@@ -141,7 +141,7 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
 
       <form
         onSubmit={(event) => { event.preventDefault(); void ask(); }}
-        className="flex items-end gap-2 rounded-2xl border border-warm-300 bg-white p-2"
+        className="flex items-end gap-2 rounded-2xl border border-edge bg-white/[0.04] p-2"
       >
         <label htmlFor="council-question" className="sr-only">Question for the council</label>
         <textarea
@@ -153,7 +153,7 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
           }}
           rows={2}
           placeholder={thread.length ? "Ask a follow-up for the whole council" : "What should the council weigh in on?"}
-          className="min-h-12 flex-1 resize-none bg-transparent px-2 py-2 text-sm leading-relaxed text-ink-950 outline-none"
+          className="min-h-12 flex-1 resize-none bg-transparent px-2 py-2 text-sm leading-relaxed text-moon outline-none"
         />
         {speaking ? (
           <Button type="button" onClick={() => abortRef.current?.abort()} aria-label="Stop" className="size-11 shrink-0 rounded-full p-0">
@@ -175,16 +175,16 @@ function ThreadVoice({ entry, seat }: { entry: Exclude<ThreadEntry, { kind: "use
   const sources = text.match(/\[Source:[^\]]*\]/g) ?? [];
   const synthesis = entry.kind === "synthesis";
   return (
-    <article className={synthesis ? "rounded-2xl border border-ink-950/15 bg-warm-50 p-4" : "rounded-2xl border border-warm-200 bg-white p-4"}>
-      <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-warm-500">
+    <article className={synthesis ? "rounded-2xl border border-moon/15 bg-night p-4" : "rounded-2xl border border-edge bg-white/[0.04] p-4"}>
+      <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-mist">
         {synthesis ? "Synthesis" : `${seat?.name ?? (entry.kind === "guide" ? entry.name : "")} guide`}
         {!synthesis && seat?.role && <span className="ml-2 normal-case tracking-normal">· {seat.role}</span>}
       </p>
-      <div className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-ink-950">
-        {body ? body.replace(/\*\*(.+?)\*\*/g, "$1") : <span className="text-warm-500">…</span>}
+      <div className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-moon">
+        {body ? body.replace(/\*\*(.+?)\*\*/g, "$1") : <span className="text-mist">…</span>}
       </div>
       {sources.length > 0 && (
-        <p className="mt-3 text-[12px] leading-relaxed text-warm-500">{sources.map((s) => s.slice(8, -1).trim()).join(" · ")}</p>
+        <p className="mt-3 text-[12px] leading-relaxed text-mist">{sources.map((s) => s.slice(8, -1).trim()).join(" · ")}</p>
       )}
     </article>
   );

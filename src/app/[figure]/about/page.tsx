@@ -109,19 +109,19 @@ export default async function FigureProfile({
   ].filter((s): s is { id: string; label: string } => s !== null);
 
   return (
-    <main className="min-h-screen bg-warm-50 text-ink-950">
+    <main className="min-h-screen bg-night text-moon">
       <div className="max-w-5xl mx-auto px-6 pt-8 md:pt-12 pb-20">
         {/* Brand bar */}
         <header className="flex items-center justify-between mb-8 md:mb-10">
           <Link
             href="/"
-            className="text-warm-400 text-xs tracking-[0.3em] uppercase hover:text-ink-950 transition-colors"
+            className="text-dim text-xs tracking-[0.3em] uppercase hover:text-moon transition-colors"
           >
             summon.guide
           </Link>
           <Link
             href="/"
-            className="text-warm-500 text-xs hover:text-ink-950 transition-colors flex items-center gap-1.5"
+            className="text-mist text-xs hover:text-moon transition-colors flex items-center gap-1.5"
           >
             <svg
               className="w-3 h-3"
@@ -142,17 +142,17 @@ export default async function FigureProfile({
             <h1 className="text-4xl md:text-6xl font-serif font-medium leading-[1.05] tracking-tight mb-4">
               {figure.name}
             </h1>
-            <p className="text-warm-500 text-base md:text-lg leading-relaxed mb-5 max-w-2xl">
+            <p className="text-mist text-base md:text-lg leading-relaxed mb-5 max-w-2xl">
               {profile.occupation}.
             </p>
-            <p className="text-warm-400 text-xs tracking-[0.2em] uppercase mb-6">
+            <p className="text-dim text-xs tracking-[0.2em] uppercase mb-6">
               {figure.era}
               {figure.location ? ` · ${figure.location}` : ""}
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               <Link
                 href={`/${figure.slug}`}
-                className="inline-flex items-center gap-2 bg-ink-950 text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-ink-800 active:scale-[0.98] transition-all"
+                className="inline-flex items-center gap-2 bg-moon text-night rounded-full px-6 py-3 text-sm font-medium hover:bg-white active:scale-[0.98] transition-all"
               >
                 Summon {figure.name.split(" ")[0]}
                 <svg
@@ -172,7 +172,7 @@ export default async function FigureProfile({
                   href={profile.wikipediaUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-white border border-warm-200 text-ink-950 rounded-full px-5 py-3 text-sm font-medium hover:border-ink-950 transition-all"
+                  className="inline-flex items-center gap-2 bg-white/[0.04] border border-edge text-moon rounded-full px-5 py-3 text-sm font-medium hover:border-moon transition-all"
                 >
                   Wikipedia
                   <ExternalIcon />
@@ -209,8 +209,8 @@ export default async function FigureProfile({
 
           {/* Wikipedia-style infobox */}
           <aside>
-            <div className="bg-white border border-warm-200 rounded-2xl overflow-hidden md:sticky md:top-6">
-              <div className="relative aspect-[3/4] bg-warm-200">
+            <div className="bg-white/[0.04] border border-edge rounded-2xl overflow-hidden md:sticky md:top-6">
+              <div className="relative aspect-[3/4] bg-white/10">
                 {!figure.portrait && (
                   <div
                     className={`absolute inset-0 bg-gradient-to-b ${figure.gradient}`}
@@ -227,12 +227,12 @@ export default async function FigureProfile({
                   />
                 )}
               </div>
-              <div className="p-4 border-b border-warm-200">
-                <p className="text-ink-950 font-serif font-medium text-base text-center leading-snug">
+              <div className="p-4 border-b border-edge">
+                <p className="text-moon font-serif font-medium text-base text-center leading-snug">
                   {profile.fullName ?? figure.name}
                 </p>
                 {figure.knownFor ? (
-                  <p className="text-warm-500 text-xs text-center mt-1.5 leading-snug italic">
+                  <p className="text-mist text-xs text-center mt-1.5 leading-snug italic">
                     {figure.knownFor}
                   </p>
                 ) : null}
@@ -244,10 +244,10 @@ export default async function FigureProfile({
                       key={i}
                       className="border-b border-warm-100 last:border-b-0"
                     >
-                      <th className="text-left align-top text-warm-500 text-[11px] tracking-wider uppercase font-medium px-4 py-3 w-[42%]">
+                      <th className="text-left align-top text-mist text-[11px] tracking-wider uppercase font-medium px-4 py-3 w-[42%]">
                         {row.label}
                       </th>
-                      <td className="align-top text-ink-950 px-4 py-3 leading-snug">
+                      <td className="align-top text-moon px-4 py-3 leading-snug">
                         {row.values.length === 1 ? (
                           row.values[0]
                         ) : (
@@ -269,20 +269,20 @@ export default async function FigureProfile({
         {/* Table of contents, Wikipedia mini-TOC */}
         <nav
           aria-label="Contents"
-          className="bg-white border border-warm-200 rounded-xl p-5 mb-10 md:mb-14 max-w-md"
+          className="bg-white/[0.04] border border-edge rounded-xl p-5 mb-10 md:mb-14 max-w-md"
         >
-          <p className="text-warm-500 text-[11px] tracking-[0.2em] uppercase mb-3">
+          <p className="text-mist text-[11px] tracking-[0.2em] uppercase mb-3">
             Contents
           </p>
           <ol className="space-y-1.5 text-sm">
             {tocSections.map((s, i) => (
               <li key={s.id} className="flex gap-2">
-                <span className="text-warm-400 font-mono text-[11px] mt-0.5">
+                <span className="text-dim font-mono text-[11px] mt-0.5">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <a
                   href={`#${s.id}`}
-                  className="text-ink-950 hover:underline underline-offset-2"
+                  className="text-moon hover:underline underline-offset-2"
                 >
                   {s.label}
                 </a>
@@ -309,7 +309,7 @@ export default async function FigureProfile({
 
           {figureSkills.length > 0 ? (
             <Section id="skills" title="Claude Code skills">
-              <p className="text-ink-950/85 text-base leading-[1.75] mb-6">
+              <p className="text-moon/85 text-base leading-[1.75] mb-6">
                 Frameworks distilled from {figure.name.split(" ")[0]}&rsquo;s
                 life, packaged as Claude Code skills. Each skill is invoked
                 with a slash command and grounded in the primary biographies
@@ -322,26 +322,26 @@ export default async function FigureProfile({
                     href={skillGithubUrl(skill.figureSlug, skill.slug)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block bg-white border border-warm-200 rounded-xl p-5 hover:border-ink-950 transition-colors"
+                    className="block bg-white/[0.04] border border-edge rounded-xl p-5 hover:border-moon transition-colors"
                   >
                     <div className="flex items-start justify-between gap-3 mb-2">
-                      <h3 className="text-ink-950 font-medium text-base md:text-lg">
+                      <h3 className="text-moon font-medium text-base md:text-lg">
                         {skill.title}
                       </h3>
                       <code
                         className="text-[11px] font-mono px-2 py-1 rounded-md flex-shrink-0"
                         style={{
                           backgroundColor: `${figure.color}1A`,
-                          color: figure.color,
+                          color: `color-mix(in oklab, ${figure.color} 45%, white)`,
                         }}
                       >
                         {skill.command}
                       </code>
                     </div>
-                    <p className="text-warm-500 text-sm leading-relaxed mb-2">
+                    <p className="text-mist text-sm leading-relaxed mb-2">
                       {skill.tagline}
                     </p>
-                    <p className="text-warm-400 text-xs italic">
+                    <p className="text-dim text-xs italic">
                       Source: {skill.source}
                       {skill.sourceAnchor ? `, ${skill.sourceAnchor}` : ""}
                     </p>
@@ -365,7 +365,7 @@ export default async function FigureProfile({
 
           {figureBooks.length > 0 ? (
             <Section id="books" title="Books">
-              <p className="text-ink-950/85 text-base leading-[1.75] mb-6">
+              <p className="text-moon/85 text-base leading-[1.75] mb-6">
                 Each Claude Code skill above is grounded in a specific passage
                 of a specific book. These are the primary sources we drew from
                 for {figure.name.split(" ")[0]}.
@@ -387,7 +387,7 @@ export default async function FigureProfile({
               {allQuotes.map((quote, i) => (
                 <blockquote
                   key={i}
-                  className="border-l-2 pl-5 py-1 text-ink-950/85 text-base md:text-lg font-serif italic leading-relaxed"
+                  className="border-l-2 pl-5 py-1 text-moon/85 text-base md:text-lg font-serif italic leading-relaxed"
                   style={{ borderColor: figure.color }}
                 >
                   &ldquo;{quote}&rdquo;
@@ -397,27 +397,27 @@ export default async function FigureProfile({
           </Section>
 
           <Section id="references" title="References">
-            <p className="text-warm-500 text-sm mb-3">
+            <p className="text-mist text-sm mb-3">
               Their voice on summon.guide is grounded in:
             </p>
             <ul className="space-y-2 mb-6">
               {profile.primarySources.map((src, i) => (
                 <li
                   key={i}
-                  className="text-ink-950/85 text-base font-serif italic"
+                  className="text-moon/85 text-base font-serif italic"
                 >
                   {src}
                 </li>
               ))}
             </ul>
             {profile.wikipediaUrl && (
-              <p className="text-warm-500 text-sm">
+              <p className="text-mist text-sm">
                 Further reading:{" "}
                 <a
                   href={profile.wikipediaUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-ink-950 underline hover:no-underline"
+                  className="text-moon underline hover:no-underline"
                 >
                   {profile.wikipediaUrl.replace("https://", "")}
                 </a>
@@ -427,8 +427,8 @@ export default async function FigureProfile({
         </div>
 
         {/* Other guides */}
-        <section className="mt-20 md:mt-28 pt-12 border-t border-warm-200">
-          <p className="text-warm-400 text-xs tracking-[0.2em] uppercase mb-6">
+        <section className="mt-20 md:mt-28 pt-12 border-t border-edge">
+          <p className="text-dim text-xs tracking-[0.2em] uppercase mb-6">
             Other guides
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -436,9 +436,9 @@ export default async function FigureProfile({
               <Link
                 key={other.slug}
                 href={`/${other.slug}`}
-                className="group flex items-center gap-3 bg-white border border-warm-200 rounded-xl p-3 hover:border-ink-950 transition-colors"
+                className="group flex items-center gap-3 bg-white/[0.04] border border-edge rounded-xl p-3 hover:border-moon transition-colors"
               >
-                <div className="relative w-12 h-12 flex-shrink-0 rounded-lg overflow-hidden bg-warm-200">
+                <div className="relative w-12 h-12 flex-shrink-0 rounded-lg overflow-hidden bg-white/10">
                   {other.portrait ? (
                     <Image
                       src={other.portrait}
@@ -454,17 +454,17 @@ export default async function FigureProfile({
                   )}
                 </div>
                 <div className="min-w-0">
-                  <p className="text-ink-950 text-sm font-medium truncate">
+                  <p className="text-moon text-sm font-medium truncate">
                     {other.name}
                   </p>
-                  <p className="text-warm-500 text-xs truncate">{other.era}</p>
+                  <p className="text-mist text-xs truncate">{other.era}</p>
                 </div>
               </Link>
             ))}
           </div>
         </section>
 
-        <footer className="mt-20 text-warm-400 text-xs text-center">
+        <footer className="mt-20 text-dim text-xs text-center">
           Grounded in real biographies and primary sources.
         </footer>
       </div>
@@ -483,7 +483,7 @@ function Section({
 }) {
   return (
     <section id={id} className="scroll-mt-8">
-      <h2 className="font-serif text-2xl md:text-3xl font-medium text-ink-950 mb-5 pb-2 border-b border-warm-200">
+      <h2 className="font-serif text-2xl md:text-3xl font-medium text-moon mb-5 pb-2 border-b border-edge">
         {title}
       </h2>
       {children}
@@ -493,7 +493,7 @@ function Section({
 
 function BodyParagraph({ children }: { children: React.ReactNode }) {
   return (
-    <p className="text-ink-950/85 text-base md:text-[17px] leading-[1.75]">
+    <p className="text-moon/85 text-base md:text-[17px] leading-[1.75]">
       {children}
     </p>
   );
@@ -528,35 +528,35 @@ function BookCard({ book, accentColor }: { book: Book; accentColor: string }) {
   const cardInner = (
     <>
       <div className="flex items-start justify-between gap-3 mb-1.5">
-        <h3 className="text-ink-950 font-medium text-base md:text-lg leading-snug">
+        <h3 className="text-moon font-medium text-base md:text-lg leading-snug">
           {book.title}
         </h3>
         <span
           className="text-[10px] font-medium uppercase tracking-wider px-2 py-0.5 rounded flex-shrink-0 mt-1"
           style={{
             backgroundColor: `${accentColor}1A`,
-            color: accentColor,
+            color: `color-mix(in oklab, ${accentColor} 45%, white)`,
           }}
         >
           {roleLabel}
         </span>
       </div>
-      <p className="text-warm-500 text-sm mb-2">
+      <p className="text-mist text-sm mb-2">
         {book.author} &middot; {book.year}
       </p>
       {book.description ? (
-        <p className="text-ink-950/85 text-sm leading-relaxed mb-3">
+        <p className="text-moon/85 text-sm leading-relaxed mb-3">
           {book.description}
         </p>
       ) : null}
       <div className="flex items-center justify-between gap-3 text-xs">
-        <span className="text-warm-500">
+        <span className="text-mist">
           {isPending
             ? "Skills pending, drop the PDF in /sources to ingest"
             : `${skillsCount} skill${skillsCount === 1 ? "" : "s"} derived`}
         </span>
         {book.amazonUrl ? (
-          <span className="text-ink-950 inline-flex items-center gap-1 group-hover:underline">
+          <span className="text-moon inline-flex items-center gap-1 group-hover:underline">
             {book.role === "channel" ? "Listen" : "View on Amazon"}
             <ExternalIcon />
           </span>
@@ -571,14 +571,14 @@ function BookCard({ book, accentColor }: { book: Book; accentColor: string }) {
         href={book.amazonUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="block bg-white border border-warm-200 rounded-xl p-5 hover:border-ink-950 transition-colors group"
+        className="block bg-white/[0.04] border border-edge rounded-xl p-5 hover:border-moon transition-colors group"
       >
         {cardInner}
       </a>
     );
   }
   return (
-    <div className="block bg-white border border-warm-200 rounded-xl p-5">
+    <div className="block bg-white/[0.04] border border-edge rounded-xl p-5">
       {cardInner}
     </div>
   );

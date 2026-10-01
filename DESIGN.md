@@ -1,4 +1,13 @@
-# summon.guide — Design System
+# summon.guide - Design System
+
+## Site-wide: night palette (2026-10-01)
+
+Adam asked for every page to be dark. All pages now share one canvas, set as
+tokens in `src/app/globals.css`: `night` #07090d (canvas), `raised` #10151d
+(cards, code), `edge` #232a35 (borders), `moon` #eef1f5 (text and primary
+buttons), `mist` #8a94a4 (secondary text), `dim` #6b7584 (labels), `gold-500`
+#c9a860 (the one accent). Primary buttons are `bg-moon text-night`. The
+parchment tokens below are historical; do not use `warm-*` or `ink-*` on new work.
 
 ## Current direction: blue magic (2026-09-10)
 

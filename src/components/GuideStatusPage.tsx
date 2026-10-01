@@ -14,16 +14,16 @@ export function GuideStatusPage({ agent }: { agent: GuideAgent }) {
   const sources = agent.sourceSlugs.length ? agent.sourceSlugs : [];
 
   return (
-    <main className="min-h-screen bg-warm-50 text-ink-950">
+    <main className="min-h-screen bg-night text-moon">
       <div className="mx-auto max-w-3xl px-5 py-8 sm:px-8 sm:py-12">
-        <Link href="/summon" className="text-sm text-warm-400 transition-colors hover:text-ink-950">
+        <Link href="/summon" className="text-sm text-dim transition-colors hover:text-moon">
           ← All guides
         </Link>
 
-        <header className="mt-12 border-b border-warm-200 pb-9">
-          <p className="text-xs font-medium uppercase tracking-[0.3em] text-gold-600">{kicker}</p>
+        <header className="mt-12 border-b border-edge pb-9">
+          <p className="text-xs font-medium uppercase tracking-[0.3em] text-gold-500">{kicker}</p>
           <h1 className="mt-4 font-serif text-5xl leading-[1.02] sm:text-6xl">{agent.name}</h1>
-          {agent.byline ? <p className="mt-4 text-lg leading-8 text-warm-500">{agent.byline}</p> : null}
+          {agent.byline ? <p className="mt-4 text-lg leading-8 text-mist">{agent.byline}</p> : null}
         </header>
 
         <section className="mt-9 space-y-5 text-base leading-7">
@@ -36,10 +36,10 @@ export function GuideStatusPage({ agent }: { agent: GuideAgent }) {
                 here speaks as the real person; the pack carries a public, source-anchored operating system you can run in
                 your own projects.
               </p>
-              <pre className="overflow-x-auto rounded-md border border-warm-200 bg-white px-4 py-3 text-sm">
+              <pre className="overflow-x-auto rounded-md border border-edge bg-white/[0.04] px-4 py-3 text-sm">
                 <code>{`npx --yes github:adamtpang/summon.guide summon install ${packSlug}`}</code>
               </pre>
-              <p className="text-warm-500">
+              <p className="text-mist">
                 A grounded conversation opens here once a rights-cleared corpus for this guide has been synthesized.
               </p>
             </>
@@ -51,33 +51,33 @@ export function GuideStatusPage({ agent }: { agent: GuideAgent }) {
                 the eight onboarding gates to pass.
               </p>
               <p>
-                <Link href="/onboarding" className="underline underline-offset-4 hover:text-gold-600">
+                <Link href="/onboarding" className="underline underline-offset-4 hover:text-gold-500">
                   See the onboarding gates and current status
                 </Link>
               </p>
             </>
           )}
 
-          <div className="rounded-md border border-warm-200 bg-white px-4 py-4 text-sm">
+          <div className="rounded-md border border-edge bg-white/[0.04] px-4 py-4 text-sm">
             <p className="font-medium">Registered sources</p>
             {sources.length ? (
-              <ul className="mt-2 list-disc pl-5 text-warm-500">
+              <ul className="mt-2 list-disc pl-5 text-mist">
                 {sources.map((s) => (
                   <li key={s}>{s}</li>
                 ))}
               </ul>
             ) : (
-              <p className="mt-2 text-warm-500">None registered yet.</p>
+              <p className="mt-2 text-mist">None registered yet.</p>
             )}
           </div>
 
-          <p className="text-sm text-warm-500">
+          <p className="text-sm text-mist">
             Summon guides are AI guides grounded in documented public work. They are not the real people, carry no private
             memories, and imply no endorsement.
           </p>
 
           <p className="text-sm">
-            <Link href="/summon#request-guide" className="underline underline-offset-4 hover:text-gold-600">
+            <Link href="/summon#request-guide" className="underline underline-offset-4 hover:text-gold-500">
               Request or follow this guide
             </Link>
           </p>

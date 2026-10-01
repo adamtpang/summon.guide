@@ -120,14 +120,14 @@ export default function CouncilRoom() {
 
   if (!session?.user) {
     return (
-      <section className="rounded-2xl border border-warm-200 bg-white/70 p-6 sm:p-8">
-        <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.22em] text-warm-500">
+      <section className="rounded-2xl border border-edge bg-white/[0.04] p-6 sm:p-8">
+        <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.22em] text-mist">
           Free testing access
         </p>
-        <h2 className="font-serif text-2xl font-medium tracking-tight text-ink-950">
+        <h2 className="font-serif text-2xl font-medium tracking-tight text-moon">
           The council sits for a signed-in person.
         </h2>
-        <p className="mt-3 max-w-md text-sm leading-relaxed text-warm-500">
+        <p className="mt-3 max-w-md text-sm leading-relaxed text-mist">
           Your life context is read only after you sign in, and it is attached
           to the guide chat for this browser session only. Summon does not
           save it to your account.
@@ -135,9 +135,9 @@ export default function CouncilRoom() {
         <Button
           onClick={continueWithGoogle}
           disabled={signingIn}
-          className="mt-6 h-12 rounded-full bg-ink-950 px-6 text-white hover:bg-ink-800"
+          className="mt-6 h-12 rounded-full bg-moon px-6 text-night hover:bg-white"
         >
-          <span aria-hidden className="mr-2 flex size-6 items-center justify-center rounded-full bg-white font-sans text-sm font-semibold text-ink-950">
+          <span aria-hidden className="mr-2 flex size-6 items-center justify-center rounded-full bg-white/[0.04] font-sans text-sm font-semibold text-moon">
             G
           </span>
           {signingIn ? "Opening Google..." : "Continue with Google"}
@@ -154,20 +154,20 @@ export default function CouncilRoom() {
     return (
       <div className="space-y-6">
       <CouncilQuestions onUseContext={(brief) => { setDraft(brief); setPhase({ kind: "review", hint: "Answers attached. Review them, then find your guides." }); window.setTimeout(() => document.getElementById("council-brief")?.focus(), 0); }} />
-      <section className="space-y-5 rounded-2xl border border-warm-200 bg-white/70 p-6 sm:p-8">
-        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-warm-500">Step 2 · Review the brief</p>
+      <section className="space-y-5 rounded-2xl border border-edge bg-white/[0.04] p-6 sm:p-8">
+        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-mist">Step 2 · Review the brief</p>
         <h2 className="font-serif text-2xl">What should your guides understand?</h2>
-        <p className="text-sm leading-relaxed text-warm-500">
+        <p className="text-sm leading-relaxed text-mist">
           {phase.source?.kind === "themain.quest"
             ? `From themain.quest, sent ${new Date(phase.source.createdAt).toLocaleString()}. Update anything that has changed.`
             : "Bring a brief from themain.quest, or describe your situation here."}
           {" "}Focus on your current struggle, the decision ahead, and your real constraints.
         </p>
-        {phase.hint && <p role="status" className="text-sm text-warm-500">{phase.hint}</p>}
+        {phase.hint && <p role="status" className="text-sm text-mist">{phase.hint}</p>}
         <label htmlFor="council-brief" className="block text-sm font-medium">Your personal brief</label>
         <textarea id="council-brief" value={draft} onChange={(event) => setDraft(event.target.value)} rows={14}
-          className="w-full rounded-xl border border-warm-300 bg-white p-4 text-sm leading-relaxed text-ink-950" />
-        <p className="text-xs leading-relaxed text-warm-500">
+          className="w-full rounded-xl border border-edge bg-white/[0.04] p-4 text-sm leading-relaxed text-moon" />
+        <p className="text-xs leading-relaxed text-mist">
           Find my guides sends this edited brief to Summon&apos;s AI provider for matching. It stays out of URLs and is not saved to your Summon account. Only the guide you open receives it in chat.
         </p>
         {normalizedDraft.length > 12000 && <p role="alert" className="text-sm text-red-700">Shorten the brief to 12,000 characters before matching.</p>}
@@ -183,15 +183,15 @@ export default function CouncilRoom() {
 
   if (phase.kind === "empty" || phase.kind === "error") {
     return (
-      <section className="space-y-5 rounded-2xl border border-warm-200 bg-white/70 p-6 sm:p-8">
+      <section className="space-y-5 rounded-2xl border border-edge bg-white/[0.04] p-6 sm:p-8">
         <div>
-          <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.22em] text-warm-500">
+          <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.22em] text-mist">
             {phase.kind === "empty" ? "No brief yet" : "Something went wrong"}
           </p>
-          <h2 className="font-serif text-2xl font-medium tracking-tight text-ink-950">
+          <h2 className="font-serif text-2xl font-medium tracking-tight text-moon">
             {phase.kind === "empty" ? "themain.quest has not sent a brief." : "The council could not be seated."}
           </h2>
-          <p className="mt-3 max-w-xl text-sm leading-relaxed text-warm-500">
+          <p className="mt-3 max-w-xl text-sm leading-relaxed text-mist">
             {phase.kind === "empty" ? phase.hint : phase.message}
           </p>
         </div>
@@ -200,12 +200,12 @@ export default function CouncilRoom() {
             type="button"
             variant="outline"
             onClick={() => setPhase({ kind: "review" })}
-            className="h-11 rounded-full border-warm-300 bg-white px-5 text-ink-950 hover:bg-warm-100"
+            className="h-11 rounded-full border-edge bg-white/[0.04] px-5 text-moon hover:bg-raised"
           >
             <RefreshCw className="size-4" />
             Edit my brief
           </Button>
-          <div className="rounded-full bg-ink-950 text-white [&_button]:text-white/80 [&_button:hover]:bg-ink-800 [&_button:hover]:text-white">
+          <div className="rounded-full bg-raised text-white [&_button]:text-white/80 [&_button:hover]:bg-raised [&_button:hover]:text-white">
             <ContextImportDialog onUseContext={(context) => { setDraft(context); setPhase({ kind: "review" }); }} />
           </div>
         </div>
@@ -219,7 +219,7 @@ export default function CouncilRoom() {
   return (
     <div className="space-y-8">
       {handoffError && <p role="alert" className="text-sm text-red-700">{handoffError}</p>}
-      <section className="rounded-2xl border border-warm-200 bg-white/70">
+      <section className="rounded-2xl border border-edge bg-white/[0.04]">
         <button
           type="button"
           onClick={() => setShowBrief((open) => !open)}
@@ -227,23 +227,23 @@ export default function CouncilRoom() {
           className="flex min-h-14 w-full items-center justify-between gap-4 px-5 py-4 text-left sm:px-6"
         >
           <div>
-            <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-warm-500">
+            <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-mist">
               {data.source.kind === "themain.quest" ? "Life context from themain.quest" : "Pasted life context"}
             </p>
-            <p className="mt-1 text-sm text-ink-950">
+            <p className="mt-1 text-sm text-moon">
               {data.source.kind === "themain.quest"
                 ? `Sent ${new Date(data.source.createdAt).toLocaleString()}`
                 : "Attached for this session only"}
               {" · "}
-              <span className="text-warm-500">
+              <span className="text-mist">
                 {data.seatedBy === "model" ? "seated by the router" : "seated by domain overlap, the router was unavailable"}
               </span>
             </p>
           </div>
-          {showBrief ? <ChevronUp className="size-5 shrink-0 text-warm-500" /> : <ChevronDown className="size-5 shrink-0 text-warm-500" />}
+          {showBrief ? <ChevronUp className="size-5 shrink-0 text-mist" /> : <ChevronDown className="size-5 shrink-0 text-mist" />}
         </button>
         {showBrief && (
-          <pre className="max-h-[50vh] overflow-auto whitespace-pre-wrap border-t border-warm-200 px-5 py-4 font-mono text-[12px] leading-relaxed text-ink-950/80 sm:px-6">
+          <pre className="max-h-[50vh] overflow-auto whitespace-pre-wrap border-t border-edge px-5 py-4 font-mono text-[12px] leading-relaxed text-moon/80 sm:px-6">
             {data.brief}
           </pre>
         )}
@@ -265,15 +265,15 @@ export default function CouncilRoom() {
         <CouncilThread brief={data.brief} seats={data.council} firstQuestion={primary?.ask} />
       )}
 
-      <div className="flex flex-col gap-3 border-t border-warm-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
-        <p className="text-[12px] leading-relaxed text-warm-500">
+      <div className="flex flex-col gap-3 border-t border-edge pt-6 sm:flex-row sm:items-center sm:justify-between">
+        <p className="text-[12px] leading-relaxed text-mist">
           Ask the whole council above, or open one guide for a one-on-one chat. Update the brief when your priorities change.
         </p>
         <Button
           type="button"
           variant="outline"
           onClick={() => { setDraft(data.brief); setPhase({ kind: "review" }); }}
-          className="h-11 shrink-0 rounded-full border-warm-300 bg-white px-5 text-ink-950 hover:bg-warm-100"
+          className="h-11 shrink-0 rounded-full border-edge bg-white/[0.04] px-5 text-moon hover:bg-raised"
         >
           <RefreshCw className="size-4" />
           Update my situation
@@ -285,7 +285,7 @@ export default function CouncilRoom() {
 
 function Waiting({ label }: { label: string }) {
   return (
-    <div role="status" className="flex min-h-40 items-center justify-center gap-3 rounded-2xl border border-warm-200 bg-white/70 p-8 text-sm text-warm-500">
+    <div role="status" className="flex min-h-40 items-center justify-center gap-3 rounded-2xl border border-edge bg-white/[0.04] p-8 text-sm text-mist">
       <LoaderCircle className="size-5 animate-spin" />
       {label}
     </div>
@@ -297,36 +297,36 @@ function SeatCard({ seat, primary = false, onAsk }: { seat: CouncilSeat; primary
     <article
       className={
         primary
-          ? "relative overflow-hidden rounded-2xl border border-ink-950/15 bg-ink-950 text-warm-50 shadow-xl"
-          : "relative overflow-hidden rounded-2xl border border-warm-200 bg-white/80 text-ink-950"
+          ? "relative overflow-hidden rounded-2xl border border-moon/15 bg-raised text-moon shadow-xl"
+          : "relative overflow-hidden rounded-2xl border border-edge bg-white/[0.04] text-moon"
       }
     >
       <div className="flex flex-col gap-5 p-6 sm:flex-row sm:items-start sm:p-7">
-        <div className={`relative size-20 shrink-0 overflow-hidden rounded-full ${primary ? "ring-2 ring-warm-50/30" : "ring-1 ring-warm-200"}`}>
+        <div className={`relative size-20 shrink-0 overflow-hidden rounded-full ${primary ? "ring-2 ring-white/30" : "ring-1 ring-edge"}`}>
           {seat.portrait ? (
             <Image src={seat.portrait} alt={seat.name} fill className="object-cover object-top" sizes="80px" />
           ) : (
-            <div className="flex size-full items-center justify-center bg-gradient-to-br from-warm-200 to-warm-400 font-serif text-2xl text-ink-950">
+            <div className="flex size-full items-center justify-center bg-gradient-to-br from-edge to-edge font-serif text-2xl text-moon">
               {seat.name.charAt(0)}
             </div>
           )}
         </div>
         <div className="min-w-0 flex-1">
-          <p className={`flex items-center gap-2 text-[10px] font-medium uppercase tracking-[0.22em] ${primary ? "text-warm-300" : "text-warm-500"}`}>
+          <p className={`flex items-center gap-2 text-[10px] font-medium uppercase tracking-[0.22em] ${primary ? "text-dim" : "text-mist"}`}>
             {primary && <Sparkles className="size-3.5" />}
             {primary ? "Speak to this one first" : "Also on the council"}
           </p>
           <h2 className="mt-2 font-serif text-2xl font-medium leading-tight tracking-tight sm:text-3xl">
             {seat.name}
-            <span className={`ml-2 font-sans text-sm font-normal ${primary ? "text-warm-300" : "text-warm-500"}`}>{seat.era}</span>
+            <span className={`ml-2 font-sans text-sm font-normal ${primary ? "text-dim" : "text-mist"}`}>{seat.era}</span>
           </h2>
-          <p className={`mt-1 text-sm font-medium ${primary ? "text-warm-100" : "text-ink-950"}`}>{seat.role}</p>
-          <p className={`mt-3 text-sm leading-relaxed ${primary ? "text-warm-200" : "text-warm-500"}`}>{seat.reason}</p>
-          <blockquote className={`mt-4 border-l-2 pl-4 text-sm italic leading-relaxed ${primary ? "border-warm-50/30 text-warm-50" : "border-warm-300 text-ink-950/85"}`}>
+          <p className={`mt-1 text-sm font-medium ${primary ? "text-moon" : "text-moon"}`}>{seat.role}</p>
+          <p className={`mt-3 text-sm leading-relaxed ${primary ? "text-moon" : "text-mist"}`}>{seat.reason}</p>
+          <blockquote className={`mt-4 border-l-2 pl-4 text-sm italic leading-relaxed ${primary ? "border-white/30 text-moon" : "border-edge text-moon/85"}`}>
             {seat.ask}
           </blockquote>
           {seat.skill && (
-            <p className={`mt-4 text-[12px] leading-relaxed ${primary ? "text-warm-300" : "text-warm-500"}`}>
+            <p className={`mt-4 text-[12px] leading-relaxed ${primary ? "text-dim" : "text-mist"}`}>
               Playbook: <Link href={`/skills`} className="underline underline-offset-2">{seat.skill.title}</Link>
               {" · "}{seat.skill.why}
             </p>
@@ -336,8 +336,8 @@ function SeatCard({ seat, primary = false, onAsk }: { seat: CouncilSeat; primary
             onClick={onAsk}
             className={
               primary
-                ? "mt-6 h-12 rounded-full bg-warm-50 px-6 text-ink-950 hover:bg-white"
-                : "mt-6 h-11 rounded-full bg-ink-950 px-5 text-white hover:bg-ink-800"
+                ? "mt-6 h-12 rounded-full bg-night px-6 text-moon hover:bg-white/[0.04]"
+                : "mt-6 h-11 rounded-full bg-moon px-5 text-night hover:bg-white"
             }
           >
             Chat with {seat.name.split(" ")[0]} one-on-one

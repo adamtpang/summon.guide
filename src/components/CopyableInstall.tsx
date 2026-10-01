@@ -38,14 +38,14 @@ export default function CopyableInstall({
 
   if (variant === "soft") {
     return (
-      <div className="bg-white border border-warm-200 rounded-xl p-4">
+      <div className="bg-white/[0.04] border border-edge rounded-xl p-4">
         <div className="flex items-center justify-between gap-3 mb-2">
-          <p className="text-warm-500 text-[11px] tracking-[0.2em] uppercase">
+          <p className="text-mist text-[11px] tracking-[0.2em] uppercase">
             {label}
           </p>
           <button
             onClick={handleCopy}
-            className="text-xs font-medium text-ink-950 hover:text-ink-800 flex items-center gap-1.5 transition-colors"
+            className="text-xs font-medium text-moon hover:text-moon flex items-center gap-1.5 transition-colors"
             aria-label="Copy install commands"
           >
             {copied ? (
@@ -59,18 +59,18 @@ export default function CopyableInstall({
             )}
           </button>
         </div>
-        <pre className="text-[13px] font-mono bg-warm-100 rounded-md p-3 overflow-x-auto leading-relaxed text-ink-950">
+        <pre className="text-[13px] font-mono bg-raised rounded-md p-3 overflow-x-auto leading-relaxed text-moon">
           <code>{text}</code>
         </pre>
         {footnote ? (
-          <p className="text-warm-500 text-xs mt-3 leading-relaxed">{footnote}</p>
+          <p className="text-mist text-xs mt-3 leading-relaxed">{footnote}</p>
         ) : null}
       </div>
     );
   }
 
   return (
-    <div className="bg-ink-950 text-white rounded-2xl p-5 md:p-6">
+    <div className="bg-raised text-white rounded-2xl p-5 md:p-6">
       <div className="flex items-center justify-between gap-3 mb-3">
         <p className="text-white/60 text-[11px] tracking-[0.2em] uppercase">
           {label}

@@ -35,19 +35,19 @@ export default function SkillsIndex() {
   const byTheme = skillsByTheme();
 
   return (
-    <main className="min-h-screen bg-warm-50 text-ink-950">
+    <main className="min-h-screen bg-night text-moon">
       <div className="max-w-4xl mx-auto px-6 pt-8 md:pt-12 pb-20">
         {/* Brand bar */}
         <header className="flex items-center justify-between mb-10 md:mb-14">
           <Link
             href="/"
-            className="text-warm-400 text-xs tracking-[0.3em] uppercase hover:text-ink-950 transition-colors"
+            className="text-dim text-xs tracking-[0.3em] uppercase hover:text-moon transition-colors"
           >
             summon.guide
           </Link>
           <Link
             href="/"
-            className="text-warm-500 text-xs hover:text-ink-950 transition-colors flex items-center gap-1.5"
+            className="text-mist text-xs hover:text-moon transition-colors flex items-center gap-1.5"
           >
             <svg
               className="w-3 h-3"
@@ -64,13 +64,13 @@ export default function SkillsIndex() {
 
         {/* Hero */}
         <section className="mb-12 md:mb-16">
-          <p className="text-warm-400 text-xs tracking-[0.25em] uppercase mb-4">
+          <p className="text-dim text-xs tracking-[0.25em] uppercase mb-4">
             Claude Code skills
           </p>
           <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.05] tracking-tight mb-5">
             {skills.length} frameworks from history&rsquo;s greatest guides.
           </h1>
-          <p className="text-warm-500 text-base md:text-lg leading-relaxed mb-6 max-w-2xl">
+          <p className="text-mist text-base md:text-lg leading-relaxed mb-6 max-w-2xl">
             Each skill captures one specific framework, principle, or method
             from the source biography or primary text: Rockefeller&rsquo;s
             Ledger A, Musk&rsquo;s Five-Step Algorithm, Franklin&rsquo;s 13
@@ -80,7 +80,7 @@ export default function SkillsIndex() {
           </p>
 
           {/* Install block */}
-          <div className="bg-ink-950 text-white rounded-2xl p-6">
+          <div className="bg-raised text-white rounded-2xl p-6">
             <p className="text-white/70 text-sm mb-3">
               One marketplace, one plugin per guide. Install only who you want.
             </p>
@@ -119,11 +119,11 @@ export default function SkillsIndex() {
         {/* Browse by problem, the entry point for someone who knows what is
             wrong but not who to ask. */}
         <section className="mb-16" id="by-problem">
-          <div className="mb-6 pb-4 border-b border-warm-200">
-            <h2 className="text-xl md:text-2xl font-serif font-medium text-ink-950 leading-tight">
+          <div className="mb-6 pb-4 border-b border-edge">
+            <h2 className="text-xl md:text-2xl font-serif font-medium text-moon leading-tight">
               Start with the problem
             </h2>
-            <p className="text-warm-500 text-sm mt-1.5">
+            <p className="text-mist text-sm mt-1.5">
               You arrive with a problem, not with the name of a framework. Pick
               what is wrong and the library narrows to the playbooks that
               answer it.
@@ -134,13 +134,13 @@ export default function SkillsIndex() {
             {byTheme.map(({ theme, skills: themeSkills }) => (
               <div key={theme}>
                 <div className="flex items-baseline gap-3 mb-3">
-                  <h3 className="font-serif text-lg text-ink-950 capitalize">
+                  <h3 className="font-serif text-lg text-moon capitalize">
                     {theme}
                   </h3>
-                  <span className="text-warm-400 text-xs">
+                  <span className="text-dim text-xs">
                     {THEMES[theme]}
                   </span>
-                  <span className="text-warm-300 text-xs ml-auto tabular-nums">
+                  <span className="text-dim text-xs ml-auto tabular-nums">
                     {themeSkills.length}
                   </span>
                 </div>
@@ -154,13 +154,13 @@ export default function SkillsIndex() {
                         target="_blank"
                         rel="noopener noreferrer"
                         title={skill.problemHint || skill.whenToUse}
-                        className="group inline-flex items-baseline gap-2 border border-warm-200 hover:border-ink-950 rounded-lg px-3 py-2 bg-white transition-colors"
+                        className="group inline-flex items-baseline gap-2 border border-edge hover:border-moon rounded-lg px-3 py-2 bg-white/[0.04] transition-colors"
                       >
-                        <span className="font-mono text-[11px] text-warm-500 group-hover:text-ink-950 transition-colors">
+                        <span className="font-mono text-[11px] text-mist group-hover:text-moon transition-colors">
                           {skill.command}
                         </span>
                         {owner && (
-                          <span className="text-[11px] text-warm-400">
+                          <span className="text-[11px] text-dim">
                             {owner.name}
                           </span>
                         )}
@@ -176,10 +176,10 @@ export default function SkillsIndex() {
         {/* Skills grouped by figure */}
         {byFigure.map(({ figure, skills: figureSkills }) => (
           <section key={figure.slug} className="mb-14">
-            <div className="flex items-center gap-4 mb-6 pb-4 border-b border-warm-200">
+            <div className="flex items-center gap-4 mb-6 pb-4 border-b border-edge">
               <Link
                 href={`/${figure.slug}`}
-                className="relative w-14 h-14 flex-shrink-0 rounded-xl overflow-hidden bg-warm-200 hover:opacity-90 transition-opacity"
+                className="relative w-14 h-14 flex-shrink-0 rounded-xl overflow-hidden bg-white/10 hover:opacity-90 transition-opacity"
               >
                 {figure.portrait ? (
                   <Image
@@ -200,10 +200,10 @@ export default function SkillsIndex() {
                   href={`/${figure.slug}`}
                   className="block hover:opacity-80 transition-opacity"
                 >
-                  <h2 className="text-xl md:text-2xl font-serif font-medium text-ink-950 leading-tight">
+                  <h2 className="text-xl md:text-2xl font-serif font-medium text-moon leading-tight">
                     {figure.name}
                   </h2>
-                  <p className="text-warm-400 text-xs tracking-wider mt-0.5">
+                  <p className="text-dim text-xs tracking-wider mt-0.5">
                     {figure.era}
                   </p>
                 </Link>
@@ -216,31 +216,31 @@ export default function SkillsIndex() {
                   href={skillGithubUrl(skill.figureSlug, skill.slug)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block bg-white border border-warm-200 rounded-xl p-5 hover:border-ink-950 transition-colors"
+                  className="block bg-white/[0.04] border border-edge rounded-xl p-5 hover:border-moon transition-colors"
                 >
                   <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-1 mb-2">
-                    <h3 className="text-ink-950 font-medium text-base md:text-lg">
+                    <h3 className="text-moon font-medium text-base md:text-lg">
                       {skill.title}
                     </h3>
                     <code
                       className="text-[11px] font-mono px-2 py-1 rounded-md flex-shrink-0"
                       style={{
                         backgroundColor: `${figure.color}1A`,
-                        color: figure.color,
+                        color: `color-mix(in oklab, ${figure.color} 45%, white)`,
                       }}
                     >
                       {skill.command}
                     </code>
                   </div>
-                  <p className="text-warm-500 text-sm leading-relaxed mb-3">
+                  <p className="text-mist text-sm leading-relaxed mb-3">
                     {skill.tagline}
                   </p>
                   <div className="flex flex-col gap-1 text-xs">
-                    <p className="text-warm-500">
-                      <span className="text-warm-400">When to use:</span>{" "}
+                    <p className="text-mist">
+                      <span className="text-dim">When to use:</span>{" "}
                       {skill.whenToUse}
                     </p>
-                    <p className="text-warm-400 italic">
+                    <p className="text-dim italic">
                       Source: {skill.source}
                       {skill.sourceAnchor ? `, ${skill.sourceAnchor}` : ""}
                     </p>
@@ -251,7 +251,7 @@ export default function SkillsIndex() {
           </section>
         ))}
 
-        <footer className="mt-20 text-warm-400 text-xs text-center">
+        <footer className="mt-20 text-dim text-xs text-center">
           Each skill grounded in real biographies and primary sources.
         </footer>
       </div>

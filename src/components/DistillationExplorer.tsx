@@ -34,8 +34,8 @@ export function DistillationExplorer({ items }: { items: DistillationSummary[] }
               onClick={() => setFilter(item.value)}
               className={`rounded-full border px-4 py-2 text-sm transition-colors ${
                 filter === item.value
-                  ? "border-ink-950 bg-ink-950 text-white"
-                  : "border-warm-200 bg-white text-warm-500 hover:border-warm-400 hover:text-ink-950"
+                  ? "border-moon bg-moon text-night"
+                  : "border-edge bg-white/[0.04] text-mist hover:border-edge hover:text-moon"
               }`}
             >
               {item.label}
@@ -46,29 +46,29 @@ export function DistillationExplorer({ items }: { items: DistillationSummary[] }
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Find a distillation"
-          className="h-11 w-full rounded-full border border-warm-200 bg-white px-4 text-sm outline-none placeholder:text-warm-300 focus:border-gold-500 sm:w-72"
+          className="h-11 w-full rounded-full border border-edge bg-white/[0.04] px-4 text-sm outline-none placeholder:text-dim focus:border-gold-500 sm:w-72"
         />
       </div>
 
-      <p className="mt-5 text-sm text-warm-400">{visible.length} one-page files</p>
+      <p className="mt-5 text-sm text-dim">{visible.length} one-page files</p>
 
       <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {visible.map((item) => (
           <Link
             key={item.slug}
             href={`/distillations/${item.slug}`}
-            className="group rounded-2xl border border-warm-200 bg-white p-6 transition hover:-translate-y-0.5 hover:border-gold-400 hover:shadow-[0_16px_40px_rgba(35,30,20,0.08)]"
+            className="group rounded-2xl border border-edge bg-white/[0.04] p-6 transition hover:-translate-y-0.5 hover:border-gold-400 hover:shadow-[0_16px_40px_rgba(35,30,20,0.08)]"
           >
             <div className="flex items-center justify-between gap-3">
-              <span className="text-[11px] font-medium uppercase tracking-[0.22em] text-gold-600">{item.kind}</span>
+              <span className="text-[11px] font-medium uppercase tracking-[0.22em] text-gold-500">{item.kind}</span>
               {item.status === "awaiting-source" && (
-                <span className="rounded-full bg-warm-100 px-2 py-1 text-[10px] uppercase tracking-wider text-warm-500">awaiting source</span>
+                <span className="rounded-full bg-raised px-2 py-1 text-[10px] uppercase tracking-wider text-mist">awaiting source</span>
               )}
             </div>
-            <h2 className="mt-4 font-serif text-2xl leading-tight text-ink-950 group-hover:text-gold-700">{item.title}</h2>
-            <p className="mt-2 text-sm text-warm-400">{item.author}</p>
-            <p className="mt-4 line-clamp-3 text-sm leading-6 text-warm-500">{item.description}</p>
-            <span className="mt-6 inline-block text-sm font-medium text-ink-950">Read the one-pager →</span>
+            <h2 className="mt-4 font-serif text-2xl leading-tight text-moon group-hover:text-gold-700">{item.title}</h2>
+            <p className="mt-2 text-sm text-dim">{item.author}</p>
+            <p className="mt-4 line-clamp-3 text-sm leading-6 text-mist">{item.description}</p>
+            <span className="mt-6 inline-block text-sm font-medium text-moon">Read the one-pager →</span>
           </Link>
         ))}
       </div>

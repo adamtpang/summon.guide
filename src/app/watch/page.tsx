@@ -16,7 +16,7 @@ export default function WatchShelf() {
   const episodeCount = series.reduce((n, s) => n + s.episodes.length, 0);
 
   return (
-    <main className="min-h-screen bg-ink-950 text-warm-50">
+    <main className="min-h-screen bg-night text-warm-50">
       <div className="max-w-4xl mx-auto px-6 pt-8 md:pt-12 pb-20">
         <header className="flex items-center justify-between mb-10 md:mb-14">
           <Link
