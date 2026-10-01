@@ -16,7 +16,7 @@ tags: [founders-podcast, david-senra, li-lu, value-investing, charlie-munger, wa
 
 # Li Lu and Charlie Munger and Warren Buffett
 
-> **Founder principle — Li Lu:** Li Lu's whole investing career reduces to two steps, study Buffett and Munger and then actually do it: find something you can do well and genuinely love, treat a stock as fractional ownership of a real business, buy wonderful companies at fair prices, and concentrate your capital in your few best ideas instead of diversifying into mediocrity.
+> **Founder principle, Li Lu:** Li Lu's whole investing career reduces to two steps, study Buffett and Munger and then actually do it: find something you can do well and genuinely love, treat a stock as fractional ownership of a real business, buy wonderful companies at fair prices, and concentrate your capital in your few best ideas instead of diversifying into mediocrity.
 
 *David Senra on Li Lu, reading from Li Lu's own lectures, interviews, and writings. Founders Podcast · [watch](https://www.youtube.com/watch?v=8TnhiapOfpE) · 81 min · published 2024-09-25.*
 

@@ -17,7 +17,7 @@ tags: [founders-podcast, david-senra, automation, trading, fintech]
 
 # The Billionaire Who Automates Everything: Thomas Peterffy
 
-> **Founder principle — Thomas Peterffy:** Peterffy spent 60 years automating every part of his business until Interactive Brokers ran on math instead of human intuition, reaching 71% profit margins with a staff that is mostly engineers. His edge was refusing to let his mind be clouded by conventional wisdom, and inventing a novel workaround every time an exchange threw up an arbitrary rule to stop him.
+> **Founder principle, Thomas Peterffy:** Peterffy spent 60 years automating every part of his business until Interactive Brokers ran on math instead of human intuition, reaching 71% profit margins with a staff that is mostly engineers. His edge was refusing to let his mind be clouded by conventional wisdom, and inventing a novel workaround every time an exchange threw up an arbitrary rule to stop him.
 
 *David Senra on Thomas Peterffy, reading from the Colossus Review profile by Dom Cook. Founders Podcast · [watch](https://www.youtube.com/watch?v=Q5WIv9vGKpA) · 32 min · published 2025-10-05.*
 

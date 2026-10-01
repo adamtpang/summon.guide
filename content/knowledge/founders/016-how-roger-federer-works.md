@@ -16,7 +16,7 @@ tags: [founders-podcast, david-senra, roger-federer, excellence, longevity, ment
 
 # How Roger Federer Works.
 
-> **Founder principle — Roger Federer:** Federer turned a racket-throwing teenager into the sport's model of longevity by mastering his emotions, surrounding himself with a small circle he trusted completely, and optimizing for the long run, which is why he was still winning, and earning his biggest paydays, more than two decades after he turned pro.
+> **Founder principle, Roger Federer:** Federer turned a racket-throwing teenager into the sport's model of longevity by mastering his emotions, surrounding himself with a small circle he trusted completely, and optimizing for the long run, which is why he was still winning, and earning his biggest paydays, more than two decades after he turned pro.
 
 *David Senra on Roger Federer, reading from The Master: The Long Run and the Beautiful Game of Roger Federer. Founders Podcast · [watch](https://www.youtube.com/watch?v=g2-duG1-Jxc) · 48 min · published 2026-02-19.*
 

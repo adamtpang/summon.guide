@@ -16,7 +16,7 @@ tags: [founders-podcast, david-senra, jesus, teaching, mission, leadership]
 
 # The Life of Jesus
 
-> **Founder principle — Jesus:** The mission belongs only to the fully committed, so recruit your closest people first and demand they put the cause above all else. Then win the world not by miracles or force but by reasonable teaching, memorable stories, and the personal example others can imitate.
+> **Founder principle, Jesus:** The mission belongs only to the fully committed, so recruit your closest people first and demand they put the cause above all else. Then win the world not by miracles or force but by reasonable teaching, memorable stories, and the personal example others can imitate.
 
 *David Senra on Jesus, reading from Jesus: A Biography from a Believer. Founders Podcast · [watch](https://www.youtube.com/watch?v=F1lmA_bYZow) · 34 min · published 2025-12-25.*
 

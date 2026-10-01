@@ -17,7 +17,7 @@ tags: [founders-podcast, david-senra, henry-singleton, teledyne, capital-allocat
 
 # How Henry Singleton Worked
 
-> **Founder principle — Henry Singleton:** Treat the CEO role as capital allocation. Give excellent operators autonomy, measure the cash economics honestly, and keep headquarters tiny so the person at the top can move capital wherever it creates the most durable value per share. A tactic is never sacred: issue richly valued stock to acquire businesses, stop when that currency becomes cheap, then repurchase aggressively when the market offers your own company at a discount.
+> **Founder principle, Henry Singleton:** Treat the CEO role as capital allocation. Give excellent operators autonomy, measure the cash economics honestly, and keep headquarters tiny so the person at the top can move capital wherever it creates the most durable value per share. A tactic is never sacred: issue richly valued stock to acquire businesses, stop when that currency becomes cheap, then repurchase aggressively when the market offers your own company at a discount.
 
 *David Senra on Henry Singleton, reading from Distant Force by George Roberts and The Outsiders by William Thorndike. Founders Podcast · [watch](https://www.youtube.com/watch?v=fC6ICHKJBXU) · 49 min · published 2026-08-31.*
 

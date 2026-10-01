@@ -18,7 +18,7 @@ tags: [david-senra, interview, music-industry, marketing, beats-by-dre]
 
 # Jimmy Iovine: Building Interscope Records & Beats by Dre
 
-> **Key principle — Jimmy Iovine:** Marketing is empathy, understanding what another person feels at a massive scale, so make the product so great it becomes its own marketing, surround yourself with the very best people, and earn the right to tell them the brutal truth.
+> **Key principle, Jimmy Iovine:** Marketing is empathy, understanding what another person feels at a massive scale, so make the product so great it becomes its own marketing, surround yourself with the very best people, and earn the right to tell them the brutal truth.
 
 *David Senra in conversation with Jimmy Iovine, co-founder of Interscope Records and Beats by Dre. [Watch](https://www.youtube.com/watch?v=niqahsc9jfo) · 128 min · published 2026-02-01.*
 

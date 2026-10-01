@@ -17,7 +17,7 @@ tags: [founders-podcast, david-senra, apple, product-design, legacy]
 
 # Steve Jobs In His Own Words (Make Something Wonderful)
 
-> **Founder principle — Steve Jobs:** Jobs believed the world is not fixed: everything around you was made by people no smarter than you, and you can change it. Given how fleeting our time is, he imposed rigor first and most strenuously on himself, and spent that time trying to make something wonderful that would elevate the arc of human existence.
+> **Founder principle, Steve Jobs:** Jobs believed the world is not fixed: everything around you was made by people no smarter than you, and you can change it. Given how fleeting our time is, he imposed rigor first and most strenuously on himself, and spent that time trying to make something wonderful that would elevate the arc of human existence.
 
 *David Senra on Steve Jobs, reading from Make Something Wonderful, a collection of Jobs's own speeches, interviews, and emails. Founders Podcast · [watch](https://www.youtube.com/watch?v=zGEOQ6I2Sv4) · 121 min · published 2025-08-14.*
 

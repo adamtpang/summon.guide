@@ -18,7 +18,7 @@ tags: [david-senra, interview, venture-capital, sequoia, doug-leone, founders]
 
 # How to Dominate for Decades | Doug Leone, Sequoia Capital
 
-> **Key principle — Doug Leone:** Longevity comes from repeatedly becoming a beginner. Use fear as fuel, relearn the world whenever technology resets it, and reserve your scarce bets for companies that can repay the whole fund. Once you find an exceptional founder, help turn the product into a business without displacing the founder as its soul. Competence plus good intention creates trust, and trust makes the hardest decisions move faster.
+> **Key principle, Doug Leone:** Longevity comes from repeatedly becoming a beginner. Use fear as fuel, relearn the world whenever technology resets it, and reserve your scarce bets for companies that can repay the whole fund. Once you find an exceptional founder, help turn the product into a business without displacing the founder as its soul. Competence plus good intention creates trust, and trust makes the hardest decisions move faster.
 
 *David Senra in conversation with Doug Leone of Sequoia Capital. [Watch](https://www.youtube.com/watch?v=NR9NI51D7ek) · 82 min · published 2026-08-30.*
 
@@ -31,7 +31,7 @@ tags: [david-senra, interview, venture-capital, sequoia, doug-leone, founders]
 - **Preserve the founder as the soul.** Professionalization becomes destructive when it removes the person carrying the original insight, standards, and emotional force. Add missing capability around the founder and help them grow; do not casually replace the source of the company's distinctiveness.
 - **Look for fierce ambition joined to decency.** The same profile matters in founders and investing partners: intensely competitive, resilient, and exacting, but fundamentally oriented toward helping other people win. Ambition without character destroys trust; warmth without competence cannot carry hard outcomes.
 - **Trust is an operating accelerant.** Trust requires both competence and benevolent intent, and it is earned most deeply by being useful when a founder is vulnerable. High trust shortens explanations, makes disagreement safer, and increases the speed at which a company can confront reality.
-- **Architect the board as deliberately as the product.** Choose members for complementary capability, candor, and behavior under stress. Productive disagreement keeps the shared problem at the center; argument makes victory over another person the goal. Difficult feedback lands only when the recipient can feel that accuracy and help—not ego—are behind it.
+- **Architect the board as deliberately as the product.** Choose members for complementary capability, candor, and behavior under stress. Productive disagreement keeps the shared problem at the center; argument makes victory over another person the goal. Difficult feedback lands only when the recipient can feel that accuracy and help, not ego, are behind it.
 - **Ask what happens if everything goes right.** Michael Moritz taught Leone to attend to exact word choice, put the recipient before himself, and imagine the full upside before retreating into risk management. Great venture judgment needs downside discipline, but it also needs the imagination to recognize a company far larger than its current facts.
 
 ---

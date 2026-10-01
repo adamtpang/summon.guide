@@ -27,9 +27,9 @@ tags: [starter-story, offshore-staffing, services-business, referral-marketing, 
 - He validated the idea with zero marketing spend: hired a 10-year EA veteran to build an internal training course, recruited his first three VAs through personal Sri Lanka connections, and sold at heavily discounted rates to friends purely to get the service into real hands and see if it held up.
 - His growth engine from day one was referrals, not ads: he deliberately engineered the service experience so customers would want to "look like a hero" recommending Ocean's Talent to peers, on the logic that services people already need constantly (like lawn care or house cleaning) grow through word of mouth if the service is genuinely excellent.
 - Service quality tactics he named specifically: 5-minute email response times, comping a month of service immediately when something goes wrong rather than debating it, and being willing to personally stay hands-on with the first 20-50 clients even after the business no longer strictly required it.
-- Scaling from roughly 5-8 people (where all institutional knowledge lived in his head) to a real organization was the hardest transition — codifying tacit knowledge into repeatable processes so new hires could operate without him, while hiring 30-40 people a month.
+- Scaling from roughly 5-8 people (where all institutional knowledge lived in his head) to a real organization was the hardest transition, codifying tacit knowledge into repeatable processes so new hires could operate without him, while hiring 30-40 people a month.
 - He hires deliberately from non-traditional professional backgrounds (e.g., a former summer-camp director became his chief of staff, on the logic that someone who calmly manages screaming kids and angry parents will handle sales calls easily) rather than filtering strictly for prior EA/ops experience.
-- His tech stack is intentionally minimal: mostly Google Sheets for internal dashboards, Stripe for payments, Notion for reference docs, tl;dv for meeting recording, and HubSpot for CRM — he explicitly advises against over-spending on tools early.
+- His tech stack is intentionally minimal: mostly Google Sheets for internal dashboards, Stripe for payments, Notion for reference docs, tl;dv for meeting recording, and HubSpot for CRM, he explicitly advises against over-spending on tools early.
 
 ---
 

@@ -15,7 +15,7 @@ principle: "Advertising is salesmanship in print: sell service instead of yourse
 tags: [founders-podcast, david-senra, claude-hopkins, advertising, marketing, copywriting]
 ---
 
-> **Founder principle — Claude Hopkins:** Advertising is nothing more than salesmanship in print, so every rule that works on a salesman in a room works on an ad. Forget yourself, sell service instead of your own advantage, address one person instead of "the masses," back every claim with specific proof, and spend the bulk of your effort on the headline, because nothing else matters if you don't first earn a hearing.
+> **Founder principle, Claude Hopkins:** Advertising is nothing more than salesmanship in print, so every rule that works on a salesman in a room works on an ad. Forget yourself, sell service instead of your own advantage, address one person instead of "the masses," back every claim with specific proof, and spend the bulk of your effort on the headline, because nothing else matters if you don't first earn a hearing.
 
 *David Senra on Claude Hopkins, reading from My Life in Advertising and Scientific Advertising. Founders Podcast · [watch](https://www.youtube.com/watch?v=9YrcSWczGdg) · 63 min · published 2026-08-23.*
 

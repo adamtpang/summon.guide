@@ -18,7 +18,7 @@ tags: [david-senra, interview, ufc, storytelling, loyalty]
 
 # Dana White: The Man Behind the UFC
 
-> **Key principle — Dana White:** Own what you build and control its story: the UFC survived because it paid for and therefore owned The Ultimate Fighter, let fans (not editors) judge the fights, and refused to keep a Plan B, while loyalty to your people is the thing that actually compounds.
+> **Key principle, Dana White:** Own what you build and control its story: the UFC survived because it paid for and therefore owned The Ultimate Fighter, let fans (not editors) judge the fights, and refused to keep a Plan B, while loyalty to your people is the thing that actually compounds.
 
 *David Senra in conversation with Dana White, president and CEO of the UFC. [Watch](https://www.youtube.com/watch?v=35IY2ILCAio) · 73 min · published 2026-05-10.*
 

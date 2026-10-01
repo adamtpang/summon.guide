@@ -6,7 +6,7 @@ tags: [hell-yeah-or-no, derek-sivers, self-identity, values, honesty, decision-m
 
 # Updating Identity, Part 1
 
-> **Key principle:** Before any tactic for getting things done, Sivers wants the reader to check whether their stated values match their actual behavior — because titles, opinions, and self-image can all outlive the reality that once justified them, and only actions reliably show the truth.
+> **Key principle:** Before any tactic for getting things done, Sivers wants the reader to check whether their stated values match their actual behavior, because titles, opinions, and self-image can all outlive the reality that once justified them, and only actions reliably show the truth.
 
 *Synthesized from the "Updating Identity" section of Hell Yeah or No by Derek Sivers, covering "About this book," "What if you didn't need money or attention?," "You don't have to be local," "Actions, not words, reveal our real values," "Keep earning your title, or it expires," "Why are you doing?," and "Some will always say you're wrong."*
 

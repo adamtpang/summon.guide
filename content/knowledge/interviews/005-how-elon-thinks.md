@@ -18,7 +18,7 @@ tags: [david-senra, interview, elon-musk, first-principles, manufacturing]
 
 # How Elon Thinks
 
-> **Key principle — Eric Jorgenson:** Elon doesn't pick companies by risk-adjusted return; he finds problems that must be solved for the future and forces them into existence through first-principles reasoning, aggressive deletion and simplification, and maniacal speed, because time, not money, is the real constraint.
+> **Key principle, Eric Jorgenson:** Elon doesn't pick companies by risk-adjusted return; he finds problems that must be solved for the future and forces them into existence through first-principles reasoning, aggressive deletion and simplification, and maniacal speed, because time, not money, is the real constraint.
 
 *David Senra in conversation with Eric Jorgenson, CEO of Scribe Media and author of The Book of Elon. [Watch](https://www.youtube.com/watch?v=CdBcZSau5iA) · 110 min · published 2026-03-24.*
 

@@ -18,7 +18,7 @@ tags: [david-senra, interview, bootstrapping, product-design, 37signals]
 
 # Jason Fried: Your Only Competition Is Your Costs
 
-> **Key principle — Jason Fried:** Your only real competition is your own costs: keep them low enough that a small number of customers is "enough," and that discipline, not growth, is what buys you independence and the freedom to build the business you actually want, for as long as you want.
+> **Key principle, Jason Fried:** Your only real competition is your own costs: keep them low enough that a small number of customers is "enough," and that discipline, not growth, is what buys you independence and the freedom to build the business you actually want, for as long as you want.
 
 *David Senra in conversation with Jason Fried, co-founder and CEO of 37signals (Basecamp, HEY). [Watch](https://www.youtube.com/watch?v=BdDCtMA1gSw) · 141 min · published 2026-02-15.*
 

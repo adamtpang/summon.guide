@@ -16,7 +16,7 @@ tags: [starter-story, notion-templates, digital-products, niche-youtube, product
 
 # I Made $2.5M Selling A Digital Product
 
-> **Key principle:** Thomas Frank stepped away from his nearly 3-million-subscriber general productivity channel to start a small niche channel (Thomas Frank Explains) purely about Notion, because niche content fulfills existing search demand rather than competing for broad attention — and it became the funnel for $2.5M in Notion template sales.
+> **Key principle:** Thomas Frank stepped away from his nearly 3-million-subscriber general productivity channel to start a small niche channel (Thomas Frank Explains) purely about Notion, because niche content fulfills existing search demand rather than competing for broad attention, and it became the funnel for $2.5M in Notion template sales.
 
 *Thomas Frank on building a Notion templates business, Starter Story · [watch](https://www.youtube.com/watch?v=OKl0C3zg0LU) · 15 min · published 2024-04-18.*
 

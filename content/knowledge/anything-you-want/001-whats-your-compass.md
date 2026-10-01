@@ -13,10 +13,10 @@ tags: [anything-you-want, derek-sivers, cd-baby, philosophy, entrepreneurship, p
 ## Key lessons
 
 - Sivers opens by explaining why he's writing at all: people kept asking about the decade in which his hobby became a $22 million sale, so he compressed what he learned into something readable in about an hour, explicitly hoping some of it gets disagreed with rather than simply accepted.
-- He warns that most people drift through life pursuing goals someone else convinced them to want, without ever checking whether reaching them would actually make them happy — the chapter's central image is not wanting to reach the end of life having chased "little distractions instead of big dreams."
+- He warns that most people drift through life pursuing goals someone else convinced them to want, without ever checking whether reaching them would actually make them happy, the chapter's central image is not wanting to reach the end of life having chased "little distractions instead of big dreams."
 - His core reframe of business: it isn't fundamentally about money, but about making a dream come true for other people and, just as importantly, for yourself. He describes founding a company as building a small utopia where you get to set the rules.
 - He lists the philosophies the rest of the book will unpack story by story: never do anything only for money, only take on problems you're genuinely called to solve, persistence should mean improving an idea rather than continuing to push what already isn't working, a business plan is largely guesswork until real customers weigh in, starting with no money is an advantage rather than a handicap, you cannot please everyone so choose deliberately who you exclude, and making yourself unnecessary to your own company is a goal, not a failure.
-- The chapter closes by admitting these one-line claims mean little in the abstract — the rest of the book exists to make each one concrete through what actually happened at CD Baby.
+- The chapter closes by admitting these one-line claims mean little in the abstract, the rest of the book exists to make each one concrete through what actually happened at CD Baby.
 
 ---
 

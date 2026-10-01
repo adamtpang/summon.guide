@@ -16,7 +16,7 @@ tags: [founders-podcast, david-senra, monopoly, startups, contrarian-thinking]
 
 # Peter Thiel on How to Build a Creative Monopoly
 
-> **Founder principle — Peter Thiel:** Thiel's central claim is that valuable companies do something no one else can, going from zero to one rather than copying what already works (one to n). Competition is for losers; the goal is a creative monopoly, built by thinking from first principles, planning for the long term, and asking what important truth almost no one agrees with you on.
+> **Founder principle, Peter Thiel:** Thiel's central claim is that valuable companies do something no one else can, going from zero to one rather than copying what already works (one to n). Competition is for losers; the goal is a creative monopoly, built by thinking from first principles, planning for the long term, and asking what important truth almost no one agrees with you on.
 
 *David Senra on Peter Thiel, reading from Zero to One by Peter Thiel and Blake Masters. Founders Podcast · [watch](https://www.youtube.com/watch?v=b9tB9Q1XOM0) · 54 min · published 2026-07-10.*
 

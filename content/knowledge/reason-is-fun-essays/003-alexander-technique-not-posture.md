@@ -8,7 +8,7 @@ tags: [reason-is-fun-essays, lulie-tanett, alexander-technique, awareness, non-d
 
 > **Key principle:** Tanett presents the Alexander Technique as fundamentally cognitive rather than physical: it trains expanded awareness, a pause between stimulus and habitual reaction (inhibition), and a kind of effortless, intentional action (in the spirit of the Taoist idea of wu wei) rather than a set of exercises for standing up straight.
 
-*Synthesized from "Introduction to Alexander Technique — It's Not Posture," published at lulie.co.uk.*
+*Synthesized from "Introduction to Alexander Technique, It's Not Posture," published at lulie.co.uk.*
 
 ## Key lessons
 
@@ -20,4 +20,4 @@ tags: [reason-is-fun-essays, lulie-tanett, alexander-technique, awareness, non-d
 
 ---
 
-*Synthesis only. The full text of this essay is not redistributed here. Read the essay: "Introduction to Alexander Technique — It's Not Posture" by Lulie Tanett, lulie.co.uk: https://www.lulie.co.uk/alexander-technique/.*
+*Synthesis only. The full text of this essay is not redistributed here. Read the essay: "Introduction to Alexander Technique, It's Not Posture" by Lulie Tanett, lulie.co.uk: https://www.lulie.co.uk/alexander-technique/.*
