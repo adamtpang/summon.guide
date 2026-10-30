@@ -38,7 +38,7 @@ export default function CopyableInstall({
 
   if (variant === "soft") {
     return (
-      <div className="bg-white/[0.04] border border-edge rounded-xl p-4">
+      <div className="bg-moon/[0.04] border border-edge rounded-xl p-4">
         <div className="flex items-center justify-between gap-3 mb-2">
           <p className="text-mist text-[11px] tracking-[0.2em] uppercase">
             {label}
@@ -70,14 +70,14 @@ export default function CopyableInstall({
   }
 
   return (
-    <div className="bg-raised text-white rounded-2xl p-5 md:p-6">
+    <div className="bg-raised text-moon rounded-2xl p-5 md:p-6">
       <div className="flex items-center justify-between gap-3 mb-3">
-        <p className="text-white/60 text-[11px] tracking-[0.2em] uppercase">
+        <p className="text-dim text-[11px] tracking-[0.2em] uppercase">
           {label}
         </p>
         <button
           onClick={handleCopy}
-          className="text-xs font-medium text-white hover:text-white/80 flex items-center gap-1.5 transition-colors"
+          className="text-xs font-medium text-moon hover:text-moon/80 flex items-center gap-1.5 transition-colors"
           aria-label="Copy install commands"
         >
           {copied ? (
@@ -91,11 +91,11 @@ export default function CopyableInstall({
           )}
         </button>
       </div>
-      <pre className="text-sm font-mono bg-black/40 rounded-lg p-4 overflow-x-auto leading-relaxed">
+      <pre className="text-sm font-mono bg-night/40 rounded-lg p-4 overflow-x-auto leading-relaxed">
         <code>{text}</code>
       </pre>
       {footnote ? (
-        <p className="text-white/60 text-xs mt-4 leading-relaxed">{footnote}</p>
+        <p className="text-dim text-xs mt-4 leading-relaxed">{footnote}</p>
       ) : null}
     </div>
   );
@@ -119,7 +119,7 @@ function CopyIcon() {
 function CheckIcon() {
   return (
     <svg
-      className="w-3.5 h-3.5 text-green-400"
+      className="w-3.5 h-3.5 text-green-700"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

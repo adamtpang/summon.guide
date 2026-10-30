@@ -126,7 +126,7 @@ export default function FoundersLensLibrary({
     <section id="workspace" className="scroll-mt-8 border-t border-edge pt-10">
       <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="text-xs uppercase tracking-[0.22em] text-dim">
+          <p className="font-display text-xs uppercase tracking-[0.22em] text-dim">
             Founders workspace
           </p>
           <h2 className="mt-2 font-serif text-3xl text-moon md:text-4xl">
@@ -139,9 +139,9 @@ export default function FoundersLensLibrary({
         </p>
       </div>
 
-      <div className="mt-6 rounded-2xl border border-moon bg-raised p-4 text-white md:p-6">
+      <div className="mt-6 rounded-2xl border border-moon bg-raised p-4 text-moon md:p-6">
         <label className="block">
-          <span className="text-[10px] uppercase tracking-[0.2em] text-white/45">
+          <span className="text-[10px] uppercase tracking-[0.2em] text-dim">
             What are you deciding?
           </span>
           <textarea
@@ -149,19 +149,19 @@ export default function FoundersLensLibrary({
             onChange={(event) => setQuestion(event.target.value)}
             rows={3}
             placeholder="Describe the company decision, constraints, and what would change your mind."
-            className="mt-3 w-full resize-y rounded-xl border border-white/15 bg-white/[0.07] px-4 py-3 text-sm leading-relaxed text-white outline-none placeholder:text-white/30 focus:border-white/55"
+            className="mt-3 w-full resize-y rounded-xl border border-moon/15 bg-moon/[0.07] px-4 py-3 text-sm leading-relaxed text-moon outline-none placeholder:text-moon/30 focus:border-moon/55"
           />
         </label>
         <div className="mt-3 flex flex-wrap items-center gap-2">
           {question.trim() ? (
             <Link
               href={questionHref(question.trim())}
-              className="inline-flex min-h-11 items-center rounded-full bg-white/[0.04] px-5 text-xs font-medium text-moon"
+              className="inline-flex min-h-11 items-center rounded-full bg-moon/[0.04] px-5 text-xs font-medium text-moon"
             >
               Ask the corpus
             </Link>
           ) : (
-            <span className="inline-flex min-h-11 items-center rounded-full bg-white/10 px-5 text-xs text-white/35">
+            <span className="inline-flex min-h-11 items-center rounded-full bg-moon/10 px-5 text-xs text-dim">
               Ask the corpus
             </span>
           )}
@@ -169,11 +169,11 @@ export default function FoundersLensLibrary({
             type="button"
             onClick={() => saveQuestion(question, "My question")}
             disabled={!question.trim()}
-            className="min-h-11 rounded-full border border-white/15 px-5 text-xs text-white/70 disabled:cursor-not-allowed disabled:opacity-35"
+            className="min-h-11 rounded-full border border-moon/15 px-5 text-xs text-mist disabled:cursor-not-allowed disabled:opacity-35"
           >
             Save privately
           </button>
-          <span className="text-xs text-emerald-300" aria-live="polite">
+          <span className="text-xs text-emerald-800" aria-live="polite">
             {notice}
           </span>
         </div>
@@ -193,7 +193,7 @@ export default function FoundersLensLibrary({
             onClick={() => setTab(value)}
             className={`min-h-11 rounded-lg px-3 text-xs transition-colors ${
               tab === value
-                ? "bg-white/[0.04] font-medium text-moon shadow-sm"
+                ? "bg-moon/[0.04] font-medium text-moon shadow-sm"
                 : "text-mist hover:text-moon"
             }`}
           >
@@ -217,7 +217,7 @@ export default function FoundersLensLibrary({
           </div>
           <div className="mt-5 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
             {prompts.map((item) => (
-              <article key={item.title} className="flex flex-col rounded-2xl border border-edge bg-white/[0.04] p-5">
+              <article key={item.title} className="flex flex-col rounded-2xl border border-edge bg-moon/[0.04] p-5">
                 <h4 className="font-serif text-xl text-moon">{item.title}</h4>
                 <p className="mt-2 flex-1 text-sm leading-relaxed text-mist">
                   {item.description}
@@ -267,7 +267,7 @@ export default function FoundersLensLibrary({
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
                 placeholder="Try capital allocation, founder control, or market education"
-                className="min-h-12 w-full rounded-xl border border-edge bg-white/[0.04] px-4 text-sm text-moon outline-none placeholder:text-dim focus:border-moon"
+                className="min-h-12 w-full rounded-xl border border-edge bg-moon/[0.04] px-4 text-sm text-moon outline-none placeholder:text-dim focus:border-moon"
               />
             </label>
             <div className="grid grid-cols-3 gap-2" aria-label="Episode type">
@@ -280,7 +280,7 @@ export default function FoundersLensLibrary({
                   className={`min-h-12 rounded-xl border px-3 text-xs capitalize ${
                     kind === option
                       ? "border-moon bg-moon text-night"
-                      : "border-edge bg-white/[0.04] text-mist hover:border-moon hover:text-moon"
+                      : "border-edge bg-moon/[0.04] text-mist hover:border-moon hover:text-moon"
                   }`}
                 >
                   {option}
@@ -294,9 +294,9 @@ export default function FoundersLensLibrary({
               {filtered.map((episode, index) => {
                 const prompt = `What should I learn from the episode "${episode.title}"? Explain when its central principle is useful, where it may fail, and cite the source.`;
                 return (
-                  <li key={episode.file} className="flex flex-col rounded-2xl border border-edge bg-white/[0.04] p-5">
+                  <li key={episode.file} className="flex flex-col rounded-2xl border border-edge bg-moon/[0.04] p-5">
                     <div className="flex items-start justify-between gap-4">
-                      <p className="text-[10px] uppercase tracking-[0.18em] text-dim">
+                      <p className="font-display text-[10px] uppercase tracking-[0.18em] text-dim">
                         {episode.guest ? `Conversation · ${episode.guest}` : "Solo episode"}
                       </p>
                       <span className="font-mono text-[10px] text-dim">
@@ -371,8 +371,8 @@ export default function FoundersLensLibrary({
           {savedQuestions.length ? (
             <ol className="mt-5 space-y-3">
               {savedQuestions.map((item) => (
-                <li key={item.id} className="rounded-2xl border border-edge bg-white/[0.04] p-5">
-                  <p className="text-[10px] uppercase tracking-[0.18em] text-dim">
+                <li key={item.id} className="rounded-2xl border border-edge bg-moon/[0.04] p-5">
+                  <p className="font-display text-[10px] uppercase tracking-[0.18em] text-dim">
                     {item.label}
                   </p>
                   <p className="mt-2 text-sm leading-relaxed text-moon">{item.text}</p>

@@ -150,15 +150,15 @@ export default function GuideRequestPanel() {
   return (
     <section
       id="request-guide"
-      className="scroll-mt-6 overflow-hidden rounded-3xl border border-white/10 bg-white/[0.04]"
+      className="scroll-mt-6 overflow-hidden rounded-3xl border border-moon/10 bg-moon/[0.04]"
     >
       <div className="grid lg:grid-cols-[0.92fr_1.08fr]">
-        <div className="p-6 md:p-9 lg:border-r lg:border-white/10">
-          <p className="mb-3 text-xs uppercase tracking-[0.2em] text-emerald-400">
+        <div className="p-6 md:p-9 lg:border-r lg:border-moon/10">
+          <p className="mb-3 text-xs uppercase tracking-[0.2em] text-emerald-700">
             Request the next guide
           </p>
           <h2 className="font-serif text-3xl md:text-4xl">Who should join the roster?</h2>
-          <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/60">
+          <p className="mt-3 max-w-xl text-sm leading-relaxed text-dim">
             Tell us who you need and what judgment you want from them. Requests are
             prioritized by repeated demand, source quality, and whether the guide can
             become meaningfully better than a generic prompt.
@@ -170,17 +170,17 @@ export default function GuideRequestPanel() {
                 key={suggestion.name}
                 type="button"
                 onClick={() => updateDraft("name", suggestion.name)}
-                className="min-h-11 rounded-full border border-white/15 px-3.5 text-left text-xs text-white/70 transition-colors hover:border-emerald-400/60 hover:text-white"
+                className="min-h-11 rounded-full border border-moon/15 px-3.5 text-left text-xs text-mist transition-colors hover:border-emerald-400/60 hover:text-moon"
               >
-                <span className="text-white">{suggestion.name}</span>
-                <span className="ml-1.5 text-white/35">{suggestion.note}</span>
+                <span className="text-moon">{suggestion.name}</span>
+                <span className="ml-1.5 text-dim">{suggestion.note}</span>
               </button>
             ))}
           </div>
 
           <form className="mt-7 space-y-5" onSubmit={submit}>
             <label className="block">
-              <span className="mb-2 block text-xs uppercase tracking-[0.14em] text-white/45">
+              <span className="font-display mb-2 block text-xs uppercase tracking-[0.14em] text-dim">
                 Guide name
               </span>
               <input
@@ -190,12 +190,12 @@ export default function GuideRequestPanel() {
                 value={draft.name}
                 onChange={(event) => updateDraft("name", event.target.value)}
                 placeholder="Don Valentine"
-                className="min-h-12 w-full rounded-xl border border-white/15 bg-black/25 px-4 text-sm text-white outline-none placeholder:text-white/25 focus:border-emerald-400/70"
+                className="min-h-12 w-full rounded-xl border border-moon/15 bg-night/25 px-4 text-sm text-moon outline-none placeholder:text-moon/25 focus:border-emerald-400/70"
               />
             </label>
 
             <fieldset>
-              <legend className="mb-2 text-xs uppercase tracking-[0.14em] text-white/45">
+              <legend className="font-display mb-2 text-xs uppercase tracking-[0.14em] text-dim">
                 Agent type
               </legend>
               <div className="grid grid-cols-3 gap-2">
@@ -207,8 +207,8 @@ export default function GuideRequestPanel() {
                     aria-pressed={draft.kind === kind}
                     className={`min-h-11 rounded-xl border px-3 text-xs capitalize transition-colors ${
                       draft.kind === kind
-                        ? "border-emerald-400/70 bg-emerald-400/10 text-emerald-200"
-                        : "border-white/10 text-white/50 hover:border-white/25 hover:text-white"
+                        ? "border-emerald-400/70 bg-emerald-400/10 text-emerald-800"
+                        : "border-moon/10 text-dim hover:border-moon/25 hover:text-moon"
                     }`}
                   >
                     {kind}
@@ -216,14 +216,14 @@ export default function GuideRequestPanel() {
                 ))}
               </div>
               {draft.kind === "book" && (
-                <p className="mt-2 text-xs leading-relaxed text-white/40">
+                <p className="mt-2 text-xs leading-relaxed text-dim">
                   Book requests enter here, then move to Bookbox for rights-aware ingestion.
                 </p>
               )}
             </fieldset>
 
             <label className="block">
-              <span className="mb-2 block text-xs uppercase tracking-[0.14em] text-white/45">
+              <span className="font-display mb-2 block text-xs uppercase tracking-[0.14em] text-dim">
                 What should they help you decide?
               </span>
               <textarea
@@ -232,12 +232,12 @@ export default function GuideRequestPanel() {
                 value={draft.problem}
                 onChange={(event) => updateDraft("problem", event.target.value)}
                 placeholder="I want a venture guide who can pressure-test markets, founders, and whether a company can become generational."
-                className="w-full resize-none rounded-xl border border-white/15 bg-black/25 px-4 py-3 text-sm leading-relaxed text-white outline-none placeholder:text-white/25 focus:border-emerald-400/70"
+                className="w-full resize-none rounded-xl border border-moon/15 bg-night/25 px-4 py-3 text-sm leading-relaxed text-moon outline-none placeholder:text-moon/25 focus:border-emerald-400/70"
               />
             </label>
 
             <label className="block">
-              <span className="mb-2 block text-xs uppercase tracking-[0.14em] text-white/45">
+              <span className="font-display mb-2 block text-xs uppercase tracking-[0.14em] text-dim">
                 Best public source <span className="normal-case tracking-normal">(optional)</span>
               </span>
               <input
@@ -246,7 +246,7 @@ export default function GuideRequestPanel() {
                 value={draft.sourceUrl}
                 onChange={(event) => updateDraft("sourceUrl", event.target.value)}
                 placeholder="https://..."
-                className="min-h-12 w-full rounded-xl border border-white/15 bg-black/25 px-4 text-sm text-white outline-none placeholder:text-white/25 focus:border-emerald-400/70"
+                className="min-h-12 w-full rounded-xl border border-moon/15 bg-night/25 px-4 text-sm text-moon outline-none placeholder:text-moon/25 focus:border-emerald-400/70"
               />
             </label>
 
@@ -267,8 +267,8 @@ export default function GuideRequestPanel() {
                 role="status"
                 className={`rounded-xl border px-4 py-3 text-sm ${
                   messageHref
-                    ? "border-amber-300/25 bg-amber-300/10 text-amber-100"
-                    : "border-emerald-300/25 bg-emerald-300/10 text-emerald-100"
+                    ? "border-amber-300/25 bg-amber-300/10 text-amber-800"
+                    : "border-emerald-300/25 bg-emerald-300/10 text-emerald-800"
                 }`}
               >
                 {message}{" "}
@@ -282,19 +282,19 @@ export default function GuideRequestPanel() {
           </form>
 
           {requests.length > 0 && (
-            <div className="mt-8 border-t border-white/10 pt-6">
-              <p className="text-xs uppercase tracking-[0.14em] text-white/40">Your requests</p>
+            <div className="mt-8 border-t border-moon/10 pt-6">
+              <p className="font-display text-xs uppercase tracking-[0.14em] text-dim">Your requests</p>
               <div className="mt-3 space-y-2">
                 {requests.slice(0, 5).map((request) => (
                   <div
                     key={request.id}
-                    className="flex items-center justify-between gap-4 rounded-xl border border-white/10 bg-black/20 px-4 py-3"
+                    className="flex items-center justify-between gap-4 rounded-xl border border-moon/10 bg-night/20 px-4 py-3"
                   >
                     <div className="min-w-0">
-                      <p className="truncate text-sm text-white">{request.name}</p>
-                      <p className="text-[11px] capitalize text-white/35">{request.kind} agent</p>
+                      <p className="truncate text-sm text-moon">{request.name}</p>
+                      <p className="text-[11px] capitalize text-dim">{request.kind} agent</p>
                     </div>
-                    <span className="shrink-0 rounded-full border border-emerald-300/20 px-2.5 py-1 text-[10px] uppercase tracking-[0.1em] text-emerald-200/80">
+                    <span className="shrink-0 rounded-full border border-emerald-300/20 px-2.5 py-1 text-[10px] uppercase tracking-[0.1em] text-emerald-800/80">
                       {GUIDE_REQUEST_STATUS_LABELS[request.status]}
                     </span>
                   </div>
@@ -304,26 +304,26 @@ export default function GuideRequestPanel() {
           )}
         </div>
 
-        <div className="bg-black/20 p-6 md:p-9">
-          <p className="mb-3 text-xs uppercase tracking-[0.2em] text-white/40">
+        <div className="bg-night/20 p-6 md:p-9">
+          <p className="mb-3 text-xs uppercase tracking-[0.2em] text-dim">
             Guide onboarding checklist
           </p>
           <h2 className="font-serif text-3xl">A name is only the beginning.</h2>
-          <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/55">
+          <p className="mt-3 max-w-xl text-sm leading-relaxed text-dim">
             A guide ships only when its evidence, methods, and runtime pass every gate.
           </p>
           <ol className="mt-7 space-y-1">
             {guideOnboardingChecklist.map((item, index) => (
               <li
                 key={item.title}
-                className="grid grid-cols-[2.25rem_1fr] gap-3 border-b border-white/[0.08] py-4 last:border-b-0"
+                className="grid grid-cols-[2.25rem_1fr] gap-3 border-b border-moon/[0.08] py-4 last:border-b-0"
               >
-                <span className="flex size-8 items-center justify-center rounded-full border border-emerald-300/25 font-mono text-xs text-emerald-300">
+                <span className="flex size-8 items-center justify-center rounded-full border border-emerald-300/25 font-mono text-xs text-emerald-800">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <div>
-                  <h3 className="text-sm font-medium text-white">{item.title}</h3>
-                  <p className="mt-1 text-xs leading-relaxed text-white/45">
+                  <h3 className="text-sm font-medium text-moon">{item.title}</h3>
+                  <p className="mt-1 text-xs leading-relaxed text-dim">
                     {item.description}
                   </p>
                 </div>

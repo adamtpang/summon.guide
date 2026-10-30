@@ -51,7 +51,7 @@ export default function BooksIndex() {
         </header>
 
         <section className="mb-12 md:mb-16">
-          <p className="text-dim text-xs tracking-[0.25em] uppercase mb-4">
+          <p className="font-display text-dim text-xs tracking-[0.25em] uppercase mb-4">
             The library
           </p>
           <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.05] tracking-tight mb-5">
@@ -89,7 +89,7 @@ export default function BooksIndex() {
                     <Link
                       key={book.slug}
                       href={`/books/${book.slug}`}
-                      className="group block border border-edge hover:border-moon rounded-xl px-4 py-3 bg-white/[0.04] transition-colors"
+                      className="group block border border-edge hover:border-moon rounded-xl px-4 py-3 bg-moon/[0.04] transition-colors"
                     >
                       <div className="flex items-baseline gap-3 flex-wrap">
                         <span className="font-serif text-base md:text-lg italic">

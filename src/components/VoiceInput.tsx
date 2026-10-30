@@ -42,6 +42,6 @@ export default function VoiceInput({ disabled, onText }: { disabled: boolean; on
     <Button type="button" variant="ghost" size="icon" className="size-12 rounded-full text-current opacity-70 hover:opacity-100" aria-label={label} title={label} disabled={disabled} onClick={() => void record()}>
       {phase === "idle" ? <Mic className="size-5" /> : phase === "listening" ? <X className="size-5 animate-pulse" /> : <Loader2 className="size-5 animate-spin" />}
     </Button>
-    {(phase !== "idle" || error) && <p role={error ? "alert" : "status"} className="absolute bottom-14 right-0 w-56 rounded-xl border border-white/15 bg-neutral-900 p-3 text-xs leading-relaxed text-white shadow-xl">{error || (phase === "listening" ? "Listening… Pause when finished." : phase === "transcribing" ? "Transcribing…" : "Connecting…")}</p>}
+    {(phase !== "idle" || error) && <p role={error ? "alert" : "status"} className="absolute bottom-14 right-0 w-56 rounded-xl border border-edge bg-raised p-3 text-xs leading-relaxed text-moon shadow-xl">{error || (phase === "listening" ? "Listening… Pause when finished." : phase === "transcribing" ? "Transcribing…" : "Connecting…")}</p>}
   </div>;
 }

@@ -1,6 +1,26 @@
 # summon.guide - Design System
 
-## Site-wide: night palette (2026-10-01)
+## Site-wide: marble (2026-10-29)
+
+Adam asked for summon.guide to feel like brunellocucinelli.ai, in a Greek
+mythology key: pencil-sketch classical scenes on ivory paper. The token names
+stay; their values changed in `src/app/globals.css`: `night` #f7f5f0 (ivory
+page), `raised` #fffdf9 (cards), `edge` #e2ddd2 (rules), `moon` #23211d
+(graphite ink, text and primary buttons), `mist` #5c574e and `dim` #6e685e
+(secondary ink, both pass 4.5:1 on ivory), `gold-500` #7d622c (bronze accent).
+Primary buttons stay `bg-moon text-night` (ink pill, ivory text). Inputs are
+floating ivory pills with a soft shadow.
+
+Type: Cinzel (`font-display`) for inscriptions, wordmark and small-caps
+labels; Cormorant Garamond for `font-serif` headings and the question box.
+
+Scenes: `public/scenes/temple.webp` (Piranesi, Temple of Ceres at Paestum,
+1776 to 1778, Rijksmuseum CC0) and `public/scenes/parthenon.webp` (Stuart and
+Revett, 1787, public domain), lightened to graphite with faded edges. Credits
+on /credits#scenes. New scenes must be public domain or openly licensed and
+credited the same way. The night palette below is historical.
+
+## Previous: night palette (2026-10-01)
 
 Adam asked for every page to be dark. All pages now share one canvas, set as
 tokens in `src/app/globals.css`: `night` #07090d (canvas), `raised` #10151d

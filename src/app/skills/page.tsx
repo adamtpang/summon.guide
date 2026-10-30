@@ -42,7 +42,7 @@ export default function SkillsIndex() {
     <main className="min-h-screen bg-night text-moon">
       <div className="mx-auto max-w-5xl px-5 pb-24 sm:px-6">
         <header className="flex items-center justify-between py-4">
-          <Link href="/" className="inline-flex min-h-11 items-center text-xs font-medium uppercase tracking-[0.32em] text-mist hover:text-moon">summon.guide</Link>
+          <Link href="/" className="font-display inline-flex min-h-11 items-center text-xs uppercase tracking-[0.32em] text-mist hover:text-moon">summon.guide</Link>
           <Link href="/summon" className="inline-flex min-h-11 items-center text-sm text-mist hover:text-moon">Guides</Link>
         </header>
 

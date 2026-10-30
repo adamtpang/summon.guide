@@ -34,7 +34,7 @@ export default function WatchShelf() {
         </header>
 
         <section className="mb-12 md:mb-16">
-          <p className="text-gold-500 text-xs tracking-[0.25em] uppercase mb-4">
+          <p className="font-display text-gold-500 text-xs tracking-[0.25em] uppercase mb-4">
             The shelf
           </p>
           <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.05] tracking-tight mb-5">
@@ -60,7 +60,7 @@ export default function WatchShelf() {
               const figure = getFigure(s.guideSlug);
               return (
                 <section key={s.bookSlug}>
-                  <div className="flex items-baseline gap-3 flex-wrap mb-5 pb-3 border-b border-white/10">
+                  <div className="flex items-baseline gap-3 flex-wrap mb-5 pb-3 border-b border-moon/10">
                     <h2 className="font-serif text-2xl md:text-3xl">
                       {book ? (
                         <Link
@@ -92,7 +92,7 @@ export default function WatchShelf() {
                       <li key={ep.slug}>
                         <Link
                           href={`/watch/${s.guideSlug}/${ep.slug}`}
-                          className="group grid grid-cols-[28px_1fr_auto] gap-4 items-baseline border border-white/10 hover:border-gold-500/50 rounded-xl px-4 py-3.5 transition-colors"
+                          className="group grid grid-cols-[28px_1fr_auto] gap-4 items-baseline border border-moon/10 hover:border-gold-500/50 rounded-xl px-4 py-3.5 transition-colors"
                         >
                           <span className="font-mono text-xs text-warm-500 tabular-nums">
                             {String(i + 1).padStart(2, "0")}
@@ -120,7 +120,7 @@ export default function WatchShelf() {
           </div>
         )}
 
-        <p className="text-warm-500 text-xs mt-14 pt-6 border-t border-white/10 leading-relaxed">
+        <p className="text-warm-500 text-xs mt-14 pt-6 border-t border-moon/10 leading-relaxed">
           Episode scripts are written from the source book and read in a
           synthesised voice. They are a study aid, not a substitute for the book.
         </p>

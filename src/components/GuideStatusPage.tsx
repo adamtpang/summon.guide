@@ -36,7 +36,7 @@ export function GuideStatusPage({ agent }: { agent: GuideAgent }) {
                 here speaks as the real person; the pack carries a public, source-anchored operating system you can run in
                 your own projects.
               </p>
-              <pre className="overflow-x-auto rounded-md border border-edge bg-white/[0.04] px-4 py-3 text-sm">
+              <pre className="overflow-x-auto rounded-md border border-edge bg-moon/[0.04] px-4 py-3 text-sm">
                 <code>{`npx --yes github:adamtpang/summon.guide summon install ${packSlug}`}</code>
               </pre>
               <p className="text-mist">
@@ -58,7 +58,7 @@ export function GuideStatusPage({ agent }: { agent: GuideAgent }) {
             </>
           )}
 
-          <div className="rounded-md border border-edge bg-white/[0.04] px-4 py-4 text-sm">
+          <div className="rounded-md border border-edge bg-moon/[0.04] px-4 py-4 text-sm">
             <p className="font-medium">Registered sources</p>
             {sources.length ? (
               <ul className="mt-2 list-disc pl-5 text-mist">

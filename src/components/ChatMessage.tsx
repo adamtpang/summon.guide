@@ -38,7 +38,7 @@ export default function ChatMessage({
   if (role === "user") {
     return (
       <div className="flex justify-end">
-        <div className="max-w-[75%] bg-white/[0.08] rounded-2xl rounded-br-sm px-5 py-3.5">
+        <div className="max-w-[75%] bg-moon/[0.08] rounded-2xl rounded-br-sm px-5 py-3.5">
           <p className="text-sm leading-relaxed text-warm-100 whitespace-pre-wrap">{body}</p>
         </div>
       </div>
@@ -48,11 +48,11 @@ export default function ChatMessage({
   return (
     <div className="flex gap-3.5">
       <div className="flex-shrink-0 pt-1">
-        <div className={`w-8 h-8 rounded-full overflow-hidden ring-1 ring-white/10 relative ${!figurePortrait ? `bg-gradient-to-b ${figureGradient || "from-amber-900 to-yellow-950"}` : ""}`}>
+        <div className={`w-8 h-8 rounded-full overflow-hidden ring-1 ring-moon/10 relative ${!figurePortrait ? `bg-gradient-to-b ${figureGradient || "from-amber-900 to-yellow-950"}` : ""}`}>
           {figurePortrait ? (
             <img src={figurePortrait} alt={figureName} className="w-full h-full object-cover object-top" />
           ) : (
-            <div className="w-full h-full flex items-center justify-center text-white/50 text-[10px] font-serif">{figureName[0]}</div>
+            <div className="w-full h-full flex items-center justify-center text-dim text-[10px] font-serif">{figureName[0]}</div>
           )}
         </div>
       </div>
@@ -74,8 +74,8 @@ export default function ChatMessage({
         </div>
 
         {citations.length > 0 && (
-          <div className="mt-4 pt-3 border-t border-white/[0.06]">
-            <p className="text-[10px] text-warm-500 uppercase tracking-widest mb-2">Sources</p>
+          <div className="mt-4 pt-3 border-t border-moon/[0.06]">
+            <p className="font-display text-[10px] text-warm-500 uppercase tracking-widest mb-2">Sources</p>
             {citations.map((cite, i) => (
               <p key={i} className="text-xs text-warm-400 italic">{i + 1}. {cite}</p>
             ))}

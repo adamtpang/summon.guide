@@ -27,7 +27,7 @@ export default function CouncilPage() {
         </header>
 
         <section className="mb-10 max-w-2xl">
-          <p className="mb-4 text-xs uppercase tracking-[0.24em] text-mist">The council</p>
+          <p className="font-display mb-4 text-xs uppercase tracking-[0.24em] text-mist">The council</p>
           <h1 className="font-serif text-4xl leading-[1.02] tracking-tight md:text-5xl">
             Your heroes. Your real life.
           </h1>

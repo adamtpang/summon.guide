@@ -108,9 +108,9 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
   };
 
   return (
-    <section className="space-y-5 rounded-2xl border border-edge bg-white/[0.04] p-5 sm:p-7">
+    <section className="space-y-5 rounded-2xl border border-edge bg-moon/[0.04] p-5 sm:p-7">
       <div>
-        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-mist">Convene the council</p>
+        <p className="font-display text-[10px] uppercase tracking-[0.22em] text-mist">Convene the council</p>
         <h2 className="mt-1 font-serif text-2xl">Ask all {seats.length} at once</h2>
         <p className="mt-1 text-sm leading-relaxed text-mist">
           Each AI guide answers in turn and reads the others first, then a short synthesis names where they agree and split.
@@ -122,7 +122,7 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
           {thread.map((entry, i) => (
             <li key={i}>
               {entry.kind === "user" ? (
-                <div className="ml-auto max-w-[85%] rounded-2xl bg-raised px-4 py-3 text-sm leading-relaxed text-white">{entry.content}</div>
+                <div className="ml-auto max-w-[85%] rounded-2xl bg-raised px-4 py-3 text-sm leading-relaxed text-moon">{entry.content}</div>
               ) : (
                 <ThreadVoice entry={entry} seat={entry.kind === "guide" ? seats.find((s) => s.slug === entry.slug) : undefined} />
               )}
@@ -141,7 +141,7 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
 
       <form
         onSubmit={(event) => { event.preventDefault(); void ask(); }}
-        className="flex items-end gap-2 rounded-2xl border border-edge bg-white/[0.04] p-2"
+        className="flex items-end gap-2 rounded-2xl border border-edge bg-moon/[0.04] p-2"
       >
         <label htmlFor="council-question" className="sr-only">Question for the council</label>
         <textarea
@@ -175,8 +175,8 @@ function ThreadVoice({ entry, seat }: { entry: Exclude<ThreadEntry, { kind: "use
   const sources = text.match(/\[Source:[^\]]*\]/g) ?? [];
   const synthesis = entry.kind === "synthesis";
   return (
-    <article className={synthesis ? "rounded-2xl border border-moon/15 bg-night p-4" : "rounded-2xl border border-edge bg-white/[0.04] p-4"}>
-      <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-mist">
+    <article className={synthesis ? "rounded-2xl border border-moon/15 bg-night p-4" : "rounded-2xl border border-edge bg-moon/[0.04] p-4"}>
+      <p className="font-display text-[11px] uppercase tracking-[0.18em] text-mist">
         {synthesis ? "Synthesis" : `${seat?.name ?? (entry.kind === "guide" ? entry.name : "")} guide`}
         {!synthesis && seat?.role && <span className="ml-2 normal-case tracking-normal">· {seat.role}</span>}
       </p>

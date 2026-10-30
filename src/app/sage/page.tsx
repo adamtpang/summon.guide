@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://summon.guide/sage" },
 };
 export default function SagePage() {
-  return <main style={{ background: "#080808", color: "#eee", minHeight: "100dvh" }}>
+  return <main style={{ background: "#f7f5f0", color: "#23211d", minHeight: "100dvh" }}>
     <Suspense fallback={<p style={{ padding: 32 }}>Sage</p>}>
       <SageConversation episodes={getSourceCorpus("founders-podcast")?.episodes || []} />
     </Suspense>

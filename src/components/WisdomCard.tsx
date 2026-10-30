@@ -160,19 +160,19 @@ export default function WisdomCard({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 60 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
-      className="absolute bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 shadow-2xl rounded-t-2xl p-5 pb-8"
+      className="absolute bottom-0 left-0 right-0 z-40 bg-raised/95 backdrop-blur-md border-t border-slate-200 shadow-2xl rounded-t-2xl p-5 pb-8"
     >
       {/* Dismiss button */}
       <button
         onClick={onDismiss}
-        className="absolute top-3 right-3 w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500 hover:text-slate-900 hover:bg-slate-200 transition-all"
+        className="absolute top-3 right-3 w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-mist hover:text-slate-900 hover:bg-slate-200 transition-all"
       >
         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M18 6L6 18M6 6l12 12" />
         </svg>
       </button>
 
-      <p className="text-xs text-slate-400 uppercase tracking-widest mb-3">Share this wisdom</p>
+      <p className="font-display text-xs text-dim uppercase tracking-widest mb-3">Share this wisdom</p>
 
       {/* Canvas card preview */}
       <div className="w-full max-w-md mx-auto mb-4">
@@ -219,7 +219,7 @@ export default function WisdomCard({
 
         <button
           onClick={handleShareToX}
-          className="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-full py-3 px-4 transition-all min-h-[44px]"
+          className="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-night text-sm font-medium rounded-full py-3 px-4 transition-all min-h-[44px]"
         >
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />

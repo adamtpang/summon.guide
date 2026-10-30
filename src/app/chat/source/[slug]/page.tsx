@@ -227,7 +227,7 @@ export default function SourceChatPage({
         <Link
           href={`/books/${slug}`}
           aria-label="Back to source"
-          className="w-11 h-11 rounded-full border border-white/10 bg-white/[0.06] backdrop-blur-sm flex items-center justify-center text-white/55 hover:text-white hover:bg-white/10 transition-colors"
+          className="w-11 h-11 rounded-full border border-moon/10 bg-moon/[0.06] backdrop-blur-sm flex items-center justify-center text-dim hover:text-moon hover:bg-moon/10 transition-colors"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
             <path d="M19 12H5M12 19l-7-7 7-7" />
@@ -240,8 +240,8 @@ export default function SourceChatPage({
         {!hasMessages ? (
           <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col items-center justify-center overflow-y-auto px-4 pb-5 text-center">
             {book.image ? <Image src={book.image} alt={corpus.title} width={144} height={180} priority className="mb-6 h-44 w-auto max-w-40 rounded-xl object-cover shadow-[0_0_70px_-20px_#4a78bb]" /> : <span className="mb-6 text-7xl" aria-hidden="true">📖</span>}
-            <h1 className="max-w-lg text-2xl font-medium tracking-tight text-white">{corpus.title}</h1>
-            <span className="mt-2 text-xs text-white/45">AI source guide</span>
+            <h1 className="max-w-lg text-2xl font-medium tracking-tight text-moon">{corpus.title}</h1>
+            <span className="mt-2 text-xs text-dim">AI source guide</span>
           </div>
         ) : (
           <div className="chat-scroll flex-1 overflow-y-auto px-4 py-4">
@@ -269,29 +269,29 @@ export default function SourceChatPage({
                           alt=""
                           width={32}
                           height={40}
-                          className="h-10 w-8 rounded object-cover ring-1 ring-white/15"
+                          className="h-10 w-8 rounded object-cover ring-1 ring-moon/15"
                         />
                       ) : (
-                        <div className="flex size-8 items-center justify-center rounded-md bg-white/10 font-serif text-sm text-white/65">
+                        <div className="flex size-8 items-center justify-center rounded-md bg-moon/10 font-serif text-sm text-mist">
                           {corpus.title[0]}
                         </div>
                       )}
                     </div>
                     <div className="min-w-0 flex-1">
-                      <p className="mb-1.5 text-[10px] tracking-[0.18em] text-white/35 uppercase">
+                      <p className="font-display mb-1.5 text-[10px] tracking-[0.18em] text-dim uppercase">
                         Source synthesis
                       </p>
                       <div className="py-2">
-                        <p className="whitespace-pre-wrap break-words text-[15px] leading-[1.8] text-white/85">
+                        <p className="whitespace-pre-wrap break-words text-[15px] leading-[1.8] text-moon/85">
                           {cleanBody}
                         </p>
                         <ListenButton text={cleanBody} guide={book.figureSlug} />
                         {msgCitations.length > 0 && (
-                          <details className="mt-2 space-y-1.5 text-white/50"><summary className="cursor-pointer py-3 text-xs">Sources</summary>
+                          <details className="mt-2 space-y-1.5 text-dim"><summary className="cursor-pointer py-3 text-xs">Sources</summary>
                             {msgCitations.map((c, ci) => (
                               <p
                                 key={ci}
-                                className="flex items-start gap-1.5 text-[11px] italic leading-relaxed text-white/35"
+                                className="flex items-start gap-1.5 text-[11px] italic leading-relaxed text-dim"
                               >
                                 <svg className="mt-0.5 size-3 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                                   <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -316,22 +316,22 @@ export default function SourceChatPage({
                         alt=""
                         width={32}
                         height={40}
-                        className="h-10 w-8 rounded object-cover ring-1 ring-white/15"
+                        className="h-10 w-8 rounded object-cover ring-1 ring-moon/15"
                       />
                     ) : (
-                      <div className="flex size-8 items-center justify-center rounded-md bg-white/10 font-serif text-sm text-white/65">
+                      <div className="flex size-8 items-center justify-center rounded-md bg-moon/10 font-serif text-sm text-mist">
                         {corpus.title[0]}
                       </div>
                     )}
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="mb-1.5 text-[10px] tracking-[0.18em] text-white/35 uppercase">
+                    <p className="font-display mb-1.5 text-[10px] tracking-[0.18em] text-dim uppercase">
                       Source synthesis
                     </p>
                     <div className="py-2">
-                      <p className="whitespace-pre-wrap break-words text-[15px] leading-[1.8] text-white/85">
+                      <p className="whitespace-pre-wrap break-words text-[15px] leading-[1.8] text-moon/85">
                         {streamingContent}
-                        <span className="ml-0.5 inline-block h-4 w-0.5 animate-pulse bg-white/60 align-text-bottom" />
+                        <span className="ml-0.5 inline-block h-4 w-0.5 animate-pulse bg-moon/60 align-text-bottom" />
                       </p>
                     </div>
                   </div>
@@ -340,15 +340,15 @@ export default function SourceChatPage({
 
               {loading && !streamingContent && (
                 <div className="flex items-start gap-3">
-                  <div className="mt-5 size-8 shrink-0 rounded-md bg-white/10" />
+                  <div className="mt-5 size-8 shrink-0 rounded-md bg-moon/10" />
                   <div className="flex-1">
-                    <p className="mb-1.5 text-[10px] tracking-[0.18em] text-white/35 uppercase">
+                    <p className="font-display mb-1.5 text-[10px] tracking-[0.18em] text-dim uppercase">
                       Searching the corpus
                     </p>
-                    <div className="space-y-2 rounded-xl border border-white/10 bg-white/[0.06] px-4 py-4">
-                      <span className="block h-2 w-11/12 animate-pulse rounded-full bg-white/10" />
-                      <span className="block h-2 w-8/12 animate-pulse rounded-full bg-white/10" />
-                      <span className="block h-2 w-9/12 animate-pulse rounded-full bg-white/10" />
+                    <div className="space-y-2 rounded-xl border border-moon/10 bg-moon/[0.06] px-4 py-4">
+                      <span className="block h-2 w-11/12 animate-pulse rounded-full bg-moon/10" />
+                      <span className="block h-2 w-8/12 animate-pulse rounded-full bg-moon/10" />
+                      <span className="block h-2 w-9/12 animate-pulse rounded-full bg-moon/10" />
                     </div>
                   </div>
                 </div>
@@ -360,10 +360,10 @@ export default function SourceChatPage({
         )}
       </div>
 
-      <details className="absolute right-4 top-3 z-30 text-white/60">
-        <summary aria-label="Conversation options" className="flex size-11 cursor-pointer list-none items-center justify-center rounded-full text-xl hover:bg-white/10 [&::-webkit-details-marker]:hidden">···</summary>
-        <div className="absolute right-0 mt-2 w-72 max-w-[calc(100vw-32px)] rounded-2xl border border-white/10 bg-neutral-950 p-3 shadow-xl">
-          <div className="mt-2 border-t border-white/10 px-3 pt-3 text-xs">
+      <details className="absolute right-4 top-3 z-30 text-dim">
+        <summary aria-label="Conversation options" className="flex size-11 cursor-pointer list-none items-center justify-center rounded-full text-xl hover:bg-moon/10 [&::-webkit-details-marker]:hidden">···</summary>
+        <div className="absolute right-0 mt-2 w-72 max-w-[calc(100vw-32px)] rounded-2xl border border-edge bg-raised p-3 shadow-xl">
+          <div className="mt-2 border-t border-moon/10 px-3 pt-3 text-xs">
             <p>{corpus.episodes.length} source syntheses · Synthetic voice</p>
             <Link href={`/books/${slug}`} className="block py-3 underline">About this source</Link>
             {modelRoute && <ModelRouteBadge route={modelRoute} tone="dark" />}
@@ -394,13 +394,13 @@ export default function SourceChatPage({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="absolute inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4"
+            className="absolute inset-0 z-50 bg-night/80 backdrop-blur-sm flex items-center justify-center p-4"
           >
             <motion.div
               initial={{ scale: 0.95, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.95, opacity: 0 }}
-              className="bg-white rounded-2xl p-6 sm:p-8 max-w-sm w-full text-center"
+              className="bg-raised rounded-2xl p-6 sm:p-8 max-w-sm w-full text-center"
             >
               <h2 className="text-xl sm:text-2xl font-serif font-medium text-ink-950 mb-2">
                 Keep the conversation going
@@ -414,7 +414,7 @@ export default function SourceChatPage({
                   posthog?.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat_source" });
                   posthog.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat_source" });
                 }}
-                className="block w-full bg-ink-950 text-white rounded-full py-3 px-6 text-sm font-medium hover:bg-ink-800 transition-colors mb-3 min-h-[48px] flex items-center justify-center"
+                className="block w-full bg-ink-950 text-night rounded-full py-3 px-6 text-sm font-medium hover:bg-ink-800 transition-colors mb-3 min-h-[48px] flex items-center justify-center"
               >
                 100 messages for $10
               </a>

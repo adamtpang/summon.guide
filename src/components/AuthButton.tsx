@@ -8,7 +8,7 @@ export default function AuthButton({ dark = false }: { dark?: boolean }) {
   if (status === "loading") {
     return (
       <div
-        className={`w-8 h-8 rounded-full animate-pulse ${dark ? "bg-white/10" : "bg-warm-200"}`}
+        className={`w-8 h-8 rounded-full animate-pulse ${dark ? "bg-moon/10" : "bg-warm-200"}`}
       />
     );
   }
@@ -31,8 +31,8 @@ export default function AuthButton({ dark = false }: { dark?: boolean }) {
           />
         ) : (
           <div
-            className={`w-8 h-8 rounded-full flex items-center justify-center text-xs text-white font-medium ${
-              dark ? "bg-white/15" : "bg-warm-300"
+            className={`w-8 h-8 rounded-full flex items-center justify-center text-xs text-moon font-medium ${
+              dark ? "bg-moon/15" : "bg-warm-300"
             }`}
           >
             {session.user.name?.[0] || "?"}
@@ -47,7 +47,7 @@ export default function AuthButton({ dark = false }: { dark?: boolean }) {
       onClick={() => signIn("google")}
       className={`min-h-11 text-sm transition-colors border rounded-full px-4 py-2 ${
         dark
-          ? "text-warm-400 border-white/15 hover:text-warm-50 hover:border-gold-500/60"
+          ? "text-warm-400 border-moon/15 hover:text-warm-50 hover:border-gold-500/60"
           : "text-warm-500 border-warm-300 hover:text-ink-950 hover:border-ink-950"
       }`}
     >

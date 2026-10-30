@@ -35,7 +35,7 @@ export function DistillationExplorer({ items }: { items: DistillationSummary[] }
               className={`rounded-full border px-4 py-2 text-sm transition-colors ${
                 filter === item.value
                   ? "border-moon bg-moon text-night"
-                  : "border-edge bg-white/[0.04] text-mist hover:border-edge hover:text-moon"
+                  : "border-edge bg-moon/[0.04] text-mist hover:border-edge hover:text-moon"
               }`}
             >
               {item.label}
@@ -46,7 +46,7 @@ export function DistillationExplorer({ items }: { items: DistillationSummary[] }
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Find a distillation"
-          className="h-11 w-full rounded-full border border-edge bg-white/[0.04] px-4 text-sm outline-none placeholder:text-dim focus:border-gold-500 sm:w-72"
+          className="h-11 w-full rounded-full border border-edge bg-moon/[0.04] px-4 text-sm outline-none placeholder:text-dim focus:border-gold-500 sm:w-72"
         />
       </div>
 
@@ -57,10 +57,10 @@ export function DistillationExplorer({ items }: { items: DistillationSummary[] }
           <Link
             key={item.slug}
             href={`/distillations/${item.slug}`}
-            className="group rounded-2xl border border-edge bg-white/[0.04] p-6 transition hover:-translate-y-0.5 hover:border-gold-400 hover:shadow-[0_16px_40px_rgba(35,30,20,0.08)]"
+            className="group rounded-2xl border border-edge bg-moon/[0.04] p-6 transition hover:-translate-y-0.5 hover:border-gold-400 hover:shadow-[0_16px_40px_rgba(35,30,20,0.08)]"
           >
             <div className="flex items-center justify-between gap-3">
-              <span className="text-[11px] font-medium uppercase tracking-[0.22em] text-gold-500">{item.kind}</span>
+              <span className="font-display text-[11px] uppercase tracking-[0.22em] text-gold-500">{item.kind}</span>
               {item.status === "awaiting-source" && (
                 <span className="rounded-full bg-raised px-2 py-1 text-[10px] uppercase tracking-wider text-mist">awaiting source</span>
               )}

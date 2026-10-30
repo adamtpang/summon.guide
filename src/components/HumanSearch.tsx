@@ -222,18 +222,18 @@ export default function HumanSearch() {
   return (
     <div ref={boxRef} className="relative">
       <form onSubmit={handleSubmit}>
-        <Card className="overflow-visible rounded-2xl bg-ink-950 py-0 text-white ring-1 ring-ink-950/15 [--card-spacing:--spacing(5)]">
-          <CardHeader className="border-b border-white/10 px-5 py-5 sm:px-6">
+        <Card className="overflow-visible rounded-2xl bg-ink-950 py-0 text-night ring-1 ring-ink-950/15 [--card-spacing:--spacing(5)]">
+          <CardHeader className="border-b border-moon/10 px-5 py-5 sm:px-6">
             <div className="flex flex-wrap items-center justify-between gap-3">
-              <div className="inline-flex rounded-full bg-white/[0.07] p-1">
+              <div className="inline-flex rounded-full bg-moon/[0.07] p-1">
                 <Button
                   type="button"
                   variant="ghost"
                   onClick={() => switchMode("life")}
                   className={`h-11 rounded-full px-3 text-xs font-normal ${
                     mode === "life"
-                      ? "bg-white text-ink-950 hover:bg-white"
-                      : "text-white/55 hover:bg-white/10 hover:text-white"
+                      ? "bg-raised text-ink-950 hover:bg-raised"
+                      : "text-dim hover:bg-moon/10 hover:text-moon"
                   }`}
                 >
                   <Sparkles className="size-3.5" />
@@ -245,15 +245,15 @@ export default function HumanSearch() {
                   onClick={() => switchMode("person")}
                   className={`h-11 rounded-full px-3 text-xs font-normal ${
                     mode === "person"
-                      ? "bg-white text-ink-950 hover:bg-white"
-                      : "text-white/55 hover:bg-white/10 hover:text-white"
+                      ? "bg-raised text-ink-950 hover:bg-raised"
+                      : "text-dim hover:bg-moon/10 hover:text-moon"
                   }`}
                 >
                   <Search className="size-3.5" />
                   Name a person
                 </Button>
               </div>
-              <p className="text-[10px] tracking-[0.16em] text-white/35 uppercase">
+              <p className="font-display text-[10px] tracking-[0.16em] text-dim uppercase">
                 Private until you send
               </p>
             </div>
@@ -262,13 +262,13 @@ export default function HumanSearch() {
           <CardContent className="px-5 pt-5 sm:px-6">
             <label
               htmlFor="summon-intake"
-              className="mb-2 block font-serif text-xl font-medium text-white sm:text-2xl"
+              className="mb-2 block font-serif text-xl font-medium text-moon sm:text-2xl"
             >
               {mode === "life"
                 ? "What is happening in your life?"
                 : "Who do you want to learn from?"}
             </label>
-            <p className="mb-4 max-w-xl text-xs leading-relaxed text-white/50 sm:text-sm">
+            <p className="mb-4 max-w-xl text-xs leading-relaxed text-dim sm:text-sm">
               {mode === "life"
                 ? "Share the problem, goal, decision, or pattern that matters most right now. Summon will choose the guide whose real work fits it best."
                 : "Search the hall or any notable human. People without a source-backed guide can be requested."}
@@ -292,7 +292,7 @@ export default function HumanSearch() {
               }
               rows={mode === "life" ? 4 : 2}
               disabled={matching}
-              className="min-h-28 resize-none rounded-xl border-white/10 bg-white/[0.06] px-4 py-3 text-base leading-relaxed text-white placeholder:text-white/30 focus-visible:border-white/25 focus-visible:ring-white/10 disabled:bg-white/[0.04] sm:min-h-32"
+              className="min-h-28 resize-none rounded-xl border-moon/10 bg-moon/[0.06] px-4 py-3 text-base leading-relaxed text-moon placeholder:text-moon/30 focus-visible:border-moon/25 focus-visible:ring-moon/10 disabled:bg-moon/[0.04] sm:min-h-32"
             />
 
             {mode === "life" && !query && (
@@ -307,7 +307,7 @@ export default function HumanSearch() {
                     type="button"
                     variant="ghost"
                     onClick={() => setQuery(example)}
-                    className="h-auto min-h-11 rounded-full border border-white/10 px-3 py-2 text-left text-[11px] font-normal leading-snug text-white/55 hover:bg-white/10 hover:text-white"
+                    className="h-auto min-h-11 rounded-full border border-moon/10 px-3 py-2 text-left text-[11px] font-normal leading-snug text-dim hover:bg-moon/10 hover:text-moon"
                   >
                     {example}
                   </Button>
@@ -316,7 +316,7 @@ export default function HumanSearch() {
             )}
           </CardContent>
 
-          <CardFooter className="mt-5 flex flex-col gap-3 rounded-b-2xl border-t border-white/10 bg-white/[0.035] p-3 sm:flex-row sm:justify-between sm:px-4">
+          <CardFooter className="mt-5 flex flex-col gap-3 rounded-b-2xl border-t border-moon/10 bg-moon/[0.035] p-3 sm:flex-row sm:justify-between sm:px-4">
             {mode === "life" ? (
               <div className="flex flex-wrap items-center gap-1">
                 <ContextImportDialog
@@ -327,21 +327,21 @@ export default function HumanSearch() {
                 />
                 <Link
                   href="/council"
-                  className="inline-flex h-11 items-center rounded-full px-3 text-xs text-white/65 transition-colors hover:bg-white/10 hover:text-white"
+                  className="inline-flex h-11 items-center rounded-full px-3 text-xs text-mist transition-colors hover:bg-moon/10 hover:text-moon"
                 >
                   Seat the council
                 </Link>
               </div>
             ) : (
-              <p className="px-2 text-[11px] leading-relaxed text-white/40">
+              <p className="px-2 text-[11px] leading-relaxed text-dim">
                 Searching Wikidata and {" "}
-                <span className="text-white/60">{results.length || "the hall"}</span>
+                <span className="text-dim">{results.length || "the hall"}</span>
               </p>
             )}
             <Button
               type="submit"
               disabled={!query.trim() || matching}
-              className="h-11 w-full rounded-full bg-white px-5 text-ink-950 hover:bg-warm-100 sm:w-auto"
+              className="h-11 w-full rounded-full bg-raised px-5 text-ink-950 hover:bg-warm-100 sm:w-auto"
             >
               {matching || searching ? (
                 <LoaderCircle className="animate-spin" />
@@ -356,7 +356,7 @@ export default function HumanSearch() {
 
       {/* Typeahead: the index of humans */}
       {open && results.length > 0 && (
-        <div className="absolute z-30 mt-2 w-full overflow-hidden rounded-xl border border-warm-200 bg-white shadow-lg shadow-ink-950/10">
+        <div className="absolute z-30 mt-2 w-full overflow-hidden rounded-xl border border-warm-200 bg-raised shadow-lg shadow-ink-950/10">
           {results.map((h, i) => (
             <button
               key={h.id}
@@ -395,11 +395,11 @@ export default function HumanSearch() {
                 <p className="text-warm-500 text-xs truncate">{h.description}</p>
               </div>
               {h.onPlatform ? (
-                <span className="flex-shrink-0 text-[10px] tracking-[0.15em] uppercase text-ink-950 border border-warm-300 rounded-full px-2.5 py-1">
+                <span className="font-display flex-shrink-0 text-[10px] tracking-[0.15em] uppercase text-ink-950 border border-warm-300 rounded-full px-2.5 py-1">
                   In the hall
                 </span>
               ) : (
-                <span className="flex-shrink-0 text-[10px] tracking-[0.15em] uppercase text-warm-500 border border-warm-200 rounded-full px-2.5 py-1">
+                <span className="font-display flex-shrink-0 text-[10px] tracking-[0.15em] uppercase text-warm-500 border border-warm-200 rounded-full px-2.5 py-1">
                   Not summoned
                 </span>
               )}
@@ -413,7 +413,7 @@ export default function HumanSearch() {
 
       {/* Not-summoned-yet request card */}
       {requestCard && (
-        <div className="mt-4 bg-white border border-warm-200 rounded-xl p-5 md:p-6">
+        <div className="mt-4 bg-raised border border-warm-200 rounded-xl p-5 md:p-6">
           <p className="text-warm-500 text-[11px] tracking-[0.2em] uppercase mb-2 font-medium">
             Not summoned yet
           </p>
@@ -466,7 +466,7 @@ export default function HumanSearch() {
               )}&body=${encodeURIComponent(
                 `Please add ${requestCard.person} to summon.guide.`
               )}`}
-              className="inline-flex min-h-11 items-center gap-2 bg-ink-950 text-white rounded-full px-5 py-2.5 text-sm font-medium hover:bg-ink-800 transition-colors"
+              className="inline-flex min-h-11 items-center gap-2 bg-ink-950 text-night rounded-full px-5 py-2.5 text-sm font-medium hover:bg-ink-800 transition-colors"
             >
               Request {requestCard.person.split(" ")[0]}
             </a>

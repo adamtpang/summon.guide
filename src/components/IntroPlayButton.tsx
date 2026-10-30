@@ -71,7 +71,7 @@ export default function IntroPlayButton({
         e.stopPropagation();
         playIntro();
       }}
-      className="flex size-11 shrink-0 items-center justify-center rounded-full border border-warm-200 bg-white text-warm-500 transition-colors hover:border-warm-300 hover:text-ink-950"
+      className="flex size-11 shrink-0 items-center justify-center rounded-full border border-warm-200 bg-raised text-warm-500 transition-colors hover:border-warm-300 hover:text-ink-950"
       aria-label={`Hear ${name} introduce themselves`}
       title={`Hear ${name} introduce themselves`}
     >

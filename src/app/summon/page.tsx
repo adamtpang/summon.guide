@@ -20,11 +20,11 @@ const packs = [
 // The roster leads: search, then every guide. Requests and installs sit below.
 export default function SummonPacks() {
   return (
-    <main className="min-h-screen bg-[#07090d] text-[#eef1f5]">
+    <main className="min-h-screen bg-night text-moon">
       <div className="mx-auto max-w-5xl px-5 pb-24 sm:px-6">
         <header className="flex items-center justify-between py-4">
-          <Link href="/" className="inline-flex min-h-11 items-center text-xs font-medium uppercase tracking-[0.32em] text-[#8a94a4] hover:text-[#eef1f5]">summon.guide</Link>
-          <a href="#request-guide" className="inline-flex min-h-11 items-center text-sm text-[#8a94a4] hover:text-[#eef1f5]">Request a guide</a>
+          <Link href="/" className="font-display inline-flex min-h-11 items-center text-xs uppercase tracking-[0.32em] text-mist hover:text-moon">summon.guide</Link>
+          <a href="#request-guide" className="inline-flex min-h-11 items-center text-sm text-mist hover:text-moon">Request a guide</a>
         </header>
 
         <h1 className="mb-6 mt-8 font-serif text-4xl font-medium tracking-tight sm:mt-14 sm:text-5xl">Guides</h1>
@@ -43,10 +43,10 @@ export default function SummonPacks() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm text-[#8a94a4]">
-            <Link href="/connect" className="underline underline-offset-4 hover:text-[#eef1f5]">Use any guide in your own AI chat</Link>
+          <p className="mt-6 text-sm text-mist">
+            <Link href="/connect" className="underline underline-offset-4 hover:text-moon">Use any guide in your own AI chat</Link>
             {" · "}
-            <Link href="/onboarding" className="underline underline-offset-4 hover:text-[#eef1f5]">How guides are made</Link>
+            <Link href="/onboarding" className="underline underline-offset-4 hover:text-moon">How guides are made</Link>
           </p>
         </section>
       </div>

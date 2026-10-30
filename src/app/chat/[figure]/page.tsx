@@ -546,18 +546,18 @@ export default function ChatPage({
       {/* Top bar */}
       <div className="relative z-10 mx-auto flex w-full max-w-3xl items-center justify-between px-4 pt-[max(12px,env(safe-area-inset-top))] pb-2 shrink-0">
         <div className="flex items-center gap-2">
-          <Link href="/" aria-label="Back to guides" className="w-11 h-11 rounded-full bg-white/75 backdrop-blur-sm border border-warm-200 flex items-center justify-center text-warm-500 hover:text-ink-950 hover:bg-white transition-colors">
+          <Link href="/" aria-label="Back to guides" className="w-11 h-11 rounded-full bg-raised/75 backdrop-blur-sm border border-warm-200 flex items-center justify-center text-warm-500 hover:text-ink-950 hover:bg-raised transition-colors">
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
           </Link>
-          <button type="button" onClick={toggleReadAloud} aria-label="Read replies aloud" aria-pressed={readAloud} title={readAloud ? "Mute AI voice" : "Read replies aloud"} className="flex size-11 items-center justify-center rounded-full border border-white/15 bg-white/5 text-sm">
+          <button type="button" onClick={toggleReadAloud} aria-label="Read replies aloud" aria-pressed={readAloud} title={readAloud ? "Mute AI voice" : "Read replies aloud"} className="flex size-11 items-center justify-center rounded-full border border-moon/15 bg-moon/5 text-sm">
             <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z" />{readAloud ? <path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" /> : <path d="m16 9 5 6m0-6-5 6" />}</svg>
           </button>
         </div>
 
         <Link href={`/${figureSlug}/about`} className="flex items-center gap-2 text-sm"><span className="relative size-8 shrink-0 overflow-hidden rounded-full"><GuidePortrait src={figure.portrait} name={figure.name} sizes="32px" decorative /></span>{figure.name}</Link>
-        <span className="hidden rounded-full border border-warm-200 bg-white/75 px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.14em] text-warm-500 sm:inline-flex" title={`An AI simulation built from ${figure.name}'s public work, not their words`}>AI simulation</span>
+        <span className="hidden rounded-full border border-warm-200 bg-raised/75 px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.14em] text-warm-500 sm:inline-flex" title={`An AI simulation built from ${figure.name}'s public work, not their words`}>AI simulation</span>
         {preparingAudio && <span role="status">Preparing audio…</span>}
         {audioError && <p role="alert" className="text-xs">{audioError}</p>}
         <AnimatePresence mode="wait">
@@ -568,7 +568,7 @@ export default function ChatPage({
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
               onClick={stopSpeaking}
-              className="flex items-center gap-2 bg-white/75 backdrop-blur-sm border border-warm-200 rounded-full px-4 py-2.5 hover:bg-white transition-colors min-h-[44px]"
+              className="flex items-center gap-2 bg-raised/75 backdrop-blur-sm border border-warm-200 rounded-full px-4 py-2.5 hover:bg-raised transition-colors min-h-[44px]"
             >
               <div className="flex items-end gap-[2px] h-3">
                 {[0, 1, 2, 3, 4].map((i) => (
@@ -584,7 +584,7 @@ export default function ChatPage({
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
               onClick={replayAudio}
-              className="flex items-center gap-2 bg-white/75 backdrop-blur-sm border border-warm-200 rounded-full px-4 py-2.5 hover:bg-white transition-colors min-h-[44px]"
+              className="flex items-center gap-2 bg-raised/75 backdrop-blur-sm border border-warm-200 rounded-full px-4 py-2.5 hover:bg-raised transition-colors min-h-[44px]"
             >
               <svg className="w-4 h-4 text-ink-950" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M8 5v14l11-7z" />
@@ -596,10 +596,10 @@ export default function ChatPage({
       </div>
 
       {hasMessages && <section aria-label={`${figure.name} portrait`} className="z-10 flex shrink-0 flex-col items-center gap-2 py-2 sm:py-3">
-        <div className={`relative size-24 overflow-hidden rounded-full border sm:size-32 ${isSpeaking ? "border-blue-300 shadow-[0_0_40px_-8px_#79b8ff]" : "border-white/15"}`}>
+        <div className={`relative size-24 overflow-hidden rounded-full border sm:size-32 ${isSpeaking ? "border-blue-300 shadow-[0_0_40px_-8px_#79b8ff]" : "border-moon/15"}`}>
           <GuidePortrait src={figure.portrait} name={figure.name} sizes="128px" priority />
         </div>
-        <p className="text-[11px] text-slate-400">{isSpeaking ? "Speaking · AI voice" : "AI guide · Synthetic voice"}</p>
+        <p className="text-[11px] text-dim">{isSpeaking ? "Speaking · AI voice" : "AI guide · Synthetic voice"}</p>
       </section>}
       {/* Middle content area */}
       <div className="relative z-10 flex-1 flex flex-col min-h-0">
@@ -607,14 +607,14 @@ export default function ChatPage({
           /* Empty state */
           <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col items-center justify-center overflow-y-auto px-4 pb-5 text-center">
             {showReason && matchReason && (
-              <div className="bg-white/80 backdrop-blur-sm rounded-xl px-4 py-3 mb-5 border border-warm-200">
+              <div className="bg-raised/80 backdrop-blur-sm rounded-xl px-4 py-3 mb-5 border border-warm-200">
                 <p className="text-sm text-ink-950/75 italic">{matchReason}</p>
               </div>
             )}
 
             <GuidePortraitLines slug={figure.slug} name={figure.name} portrait={figure.portrait} />
             <h1 className="text-2xl font-medium tracking-tight">{figure.name}</h1>
-            <p className="mt-2 text-[11px] text-slate-400">AI guide · Synthetic voice</p>
+            <p className="mt-2 text-[11px] text-dim">AI guide · Synthetic voice</p>
             <span className="mt-2 max-w-xs text-center text-xs leading-relaxed text-warm-500">{guideDisclosure(figure.slug, figure.name)}</span>
 
           </div>
@@ -627,8 +627,8 @@ export default function ChatPage({
                   if (msg.contextBrief) {
                     return (
                       <div key={i} className="flex justify-end">
-                        <div className="max-w-[88%] rounded-xl border border-warm-200 bg-white/85 px-4 py-3.5 backdrop-blur-sm sm:max-w-[78%]">
-                          <p className="text-[10px] tracking-[0.16em] text-warm-500 uppercase">
+                        <div className="max-w-[88%] rounded-xl border border-warm-200 bg-raised/85 px-4 py-3.5 backdrop-blur-sm sm:max-w-[78%]">
+                          <p className="font-display text-[10px] tracking-[0.16em] text-warm-500 uppercase">
                             Personal context attached
                           </p>
                           <p className="mt-1 text-sm leading-relaxed text-ink-950/75">
@@ -652,7 +652,7 @@ export default function ChatPage({
                         className="max-w-[82%] rounded-2xl rounded-br-md px-4 py-3.5"
                         style={{ backgroundColor: "#222" }}
                       >
-                        <p className="text-sm text-white leading-relaxed whitespace-pre-wrap break-words">{msg.content}</p>
+                        <p className="text-sm text-moon leading-relaxed whitespace-pre-wrap break-words">{msg.content}</p>
                       </div>
                     </div>
                   );
@@ -665,7 +665,7 @@ export default function ChatPage({
                       <GuidePortrait src={figure.portrait} name={figure.name} sizes="32px" decorative />
                     </div>
                     <div className="min-w-0 flex-1">
-                      <p className="mb-1.5 text-[10px] tracking-[0.16em] text-warm-500 uppercase">
+                      <p className="font-display mb-1.5 text-[10px] tracking-[0.16em] text-warm-500 uppercase">
                         {figure.name}
                       </p>
                       <div
@@ -696,7 +696,7 @@ export default function ChatPage({
                 <div className="flex items-start gap-3">
                   <div className="mt-5 size-8 shrink-0 rounded-full border border-warm-200 bg-warm-100" />
                   <div className="min-w-0 flex-1">
-                    <p className="mb-1.5 text-[10px] tracking-[0.16em] text-warm-500 uppercase">{figure.name}</p>
+                    <p className="font-display mb-1.5 text-[10px] tracking-[0.16em] text-warm-500 uppercase">{figure.name}</p>
                     <div
                       className="py-2"
 
@@ -715,7 +715,7 @@ export default function ChatPage({
                   <div className="mt-5 size-8 shrink-0 animate-pulse rounded-full bg-warm-200" />
                   <div className="min-w-0 flex-1">
                     <div className="mb-2 h-2.5 w-24 animate-pulse rounded-full bg-warm-200" />
-                    <div className="space-y-2 rounded-xl border border-warm-200 bg-white/70 px-4 py-4">
+                    <div className="space-y-2 rounded-xl border border-warm-200 bg-moon/70 px-4 py-4">
                       <div className="h-3 w-full animate-pulse rounded-full bg-warm-200" />
                       <div className="h-3 w-4/5 animate-pulse rounded-full bg-warm-200" />
                       <div className="h-3 w-2/3 animate-pulse rounded-full bg-warm-200" />
@@ -731,8 +731,8 @@ export default function ChatPage({
       </div>
 
       <details className="absolute right-4 top-3 z-30 text-warm-500">
-        <summary aria-label="Conversation options" className="flex size-11 cursor-pointer list-none items-center justify-center rounded-full text-xl hover:bg-white/10 [&::-webkit-details-marker]:hidden">···</summary>
-        <div className="absolute right-0 mt-2 w-72 max-w-[calc(100vw-32px)] rounded-2xl border border-white/10 bg-neutral-950 p-3 shadow-xl">
+        <summary aria-label="Conversation options" className="flex size-11 cursor-pointer list-none items-center justify-center rounded-full text-xl hover:bg-moon/10 [&::-webkit-details-marker]:hidden">···</summary>
+        <div className="absolute right-0 mt-2 w-72 max-w-[calc(100vw-32px)] rounded-2xl border border-edge bg-raised p-3 shadow-xl">
           <button
             type="button"
             disabled={!messages.length}
@@ -750,11 +750,11 @@ export default function ChatPage({
                 setConversationCopied(false);
               }
             }}
-            className="flex min-h-[44px] w-full items-center rounded-xl px-3 text-left text-sm text-white/90 hover:bg-white/10 disabled:opacity-40"
+            className="flex min-h-[44px] w-full items-center rounded-xl px-3 text-left text-sm text-moon/90 hover:bg-moon/10 disabled:opacity-40"
           >
             {conversationCopied ? "Copied" : "Copy conversation"}
           </button>
-          <div className="mt-2 border-t border-white/10 px-3 pt-3 text-xs">
+          <div className="mt-2 border-t border-moon/10 px-3 pt-3 text-xs">
             <p>{guideDisclosure(figure.slug, figure.name)} Synthetic voice.</p>
             {modelRoute && <ModelRouteBadge route={modelRoute} />}
             {effectiveCredits !== null && <p>{effectiveCredits} messages remaining</p>}
@@ -798,7 +798,7 @@ export default function ChatPage({
               exit={{ opacity: 0, y: 8, scale: 0.98 }}
               className="w-full max-w-sm rounded-2xl border border-warm-200 bg-warm-50 p-6 shadow-2xl sm:p-8"
             >
-              <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.22em] text-warm-500">
+              <p className="font-display mb-3 text-[10px] uppercase tracking-[0.22em] text-warm-500">
                 Free testing access
               </p>
               <h2 id="summon-sign-in-title" className="font-serif text-2xl font-medium tracking-tight text-ink-950">
@@ -812,9 +812,9 @@ export default function ChatPage({
               <Button
                 onClick={continueWithGoogle}
                 disabled={signingIn}
-                className="mt-6 h-12 w-full rounded-full bg-ink-950 text-white hover:bg-ink-800"
+                className="mt-6 h-12 w-full rounded-full bg-ink-950 text-night hover:bg-ink-800"
               >
-                <span aria-hidden className="mr-2 flex size-6 items-center justify-center rounded-full bg-white font-sans text-sm font-semibold text-ink-950">
+                <span aria-hidden className="mr-2 flex size-6 items-center justify-center rounded-full bg-raised font-sans text-sm font-semibold text-ink-950">
                   G
                 </span>
                 {signingIn ? "Opening Google..." : "Continue with Google"}
@@ -888,7 +888,7 @@ export default function ChatPage({
                   posthog?.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat" });
                   posthog.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat" });
                 }}
-                className="block w-full bg-ink-950 text-white rounded-full py-3 px-6 text-sm font-medium hover:bg-ink-800 transition-colors mb-3 min-h-[48px] flex items-center justify-center"
+                className="block w-full bg-ink-950 text-night rounded-full py-3 px-6 text-sm font-medium hover:bg-ink-800 transition-colors mb-3 min-h-[48px] flex items-center justify-center"
               >
                 100 messages for $10
               </a>
