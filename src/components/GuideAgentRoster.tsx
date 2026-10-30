@@ -16,8 +16,8 @@ function initials(name: string) {
 }
 
 const cardClass =
-  "flex h-full min-h-[88px] min-w-0 items-center gap-4 rounded-2xl border border-white/[0.07] p-4 transition-colors";
-const liveClass = `${cardClass} hover:border-white/20 hover:bg-white/[0.04]`;
+  "flex h-full min-h-[88px] min-w-0 items-center gap-4 rounded-2xl border border-moon/[0.07] p-4 transition-colors";
+const liveClass = `${cardClass} hover:border-moon/20 hover:bg-moon/[0.04]`;
 
 export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary[] }) {
   const [kind, setKind] = useState<"all" | GuideAgentKind>("all");
@@ -45,7 +45,7 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
         onChange={(event) => setQuery(event.target.value)}
         placeholder="Search by name or problem"
         aria-label="Search guides"
-        className="min-h-12 w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 text-base text-[#eef1f5] outline-none placeholder:text-[#5f6878] focus:border-[#c9a860]/70"
+        className="min-h-12 w-full rounded-2xl border border-moon/10 bg-moon/[0.04] px-4 text-base text-moon outline-none placeholder:text-dim focus:border-gold-500/70"
       />
       <div className="mt-3 flex gap-1 overflow-x-auto" role="group" aria-label="Filter guides">
         {filters.map((filter) => {
@@ -57,7 +57,7 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
               aria-pressed={selected}
               onClick={() => setKind(filter.value)}
               className={`min-h-11 shrink-0 rounded-full px-4 text-sm transition-colors ${
-                selected ? "bg-white/10 text-[#eef1f5]" : "text-[#8a94a4] hover:text-[#eef1f5]"
+                selected ? "bg-moon/10 text-moon" : "text-mist hover:text-moon"
               }`}
             >
               {filter.label}
@@ -85,14 +85,14 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
               ) : (
                 <span
                   aria-hidden
-                  className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white/[0.06] font-serif text-sm text-[#8a94a4]"
+                  className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-moon/[0.06] font-serif text-sm text-mist"
                 >
                   {initials(agent.name)}
                 </span>
               )}
               <span className="min-w-0">
-                <span className="block truncate font-serif text-lg leading-tight text-[#eef1f5]">{agent.name}</span>
-                <span className="mt-1 line-clamp-2 text-sm leading-snug text-[#8a94a4]">
+                <span className="block truncate font-serif text-lg leading-tight text-moon">{agent.name}</span>
+                <span className="mt-1 line-clamp-2 text-sm leading-snug text-mist">
                   {building ? "In onboarding. " : ""}
                   {agent.description}
                 </span>
@@ -114,9 +114,9 @@ export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary
       </ul>
 
       {!visible.length && (
-        <p className="py-12 text-center text-sm text-[#8a94a4]">
+        <p className="py-12 text-center text-sm text-mist">
           No guide matches that yet.{" "}
-          <a href="#request-guide" className="text-[#c9a860] underline underline-offset-4">
+          <a href="#request-guide" className="text-gold-500 underline underline-offset-4">
             Request one
           </a>
         </p>

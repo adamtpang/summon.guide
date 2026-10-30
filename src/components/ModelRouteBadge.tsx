@@ -17,8 +17,8 @@ export default function ModelRouteBadge({
       title={`${route.provider}: ${route.model}`}
       className={
         tone === "dark"
-          ? "h-5 rounded-full border-white/15 bg-white/5 px-2 text-[10px] font-normal text-white/55"
-          : "h-5 rounded-full border-slate-300/70 bg-white/55 px-2 text-[10px] font-normal text-slate-500 backdrop-blur-sm"
+          ? "h-5 rounded-full border-moon/15 bg-moon/5 px-2 text-[10px] font-normal text-dim"
+          : "h-5 rounded-full border-slate-300/70 bg-moon/55 px-2 text-[10px] font-normal text-mist backdrop-blur-sm"
       }
     >
       {prefix} · {route.modelLabel}{fallback}

@@ -114,7 +114,7 @@ export default async function BookPage({
         <article className="grid md:grid-cols-[1fr_300px] gap-8 md:gap-12">
           {/* ───── Main column ───── */}
           <div className="min-w-0">
-            <p className="text-dim text-xs tracking-[0.25em] uppercase mb-4">
+            <p className="font-display text-dim text-xs tracking-[0.25em] uppercase mb-4">
               Primary source
             </p>
             <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.06] tracking-tight mb-4">
@@ -144,7 +144,7 @@ export default async function BookPage({
               {book.slug === "founders-podcast" && (
                 <Link
                   href="/sage"
-                  className="inline-flex items-center gap-2 bg-emerald-700 text-white rounded-full px-5 py-2.5 text-sm font-medium hover:bg-emerald-800 active:scale-[0.98] transition-all"
+                  className="inline-flex items-center gap-2 bg-emerald-700 text-night rounded-full px-5 py-2.5 text-sm font-medium hover:bg-emerald-800 active:scale-[0.98] transition-all"
                 >
                   Open Founders Lens
                   <svg
@@ -161,7 +161,7 @@ export default async function BookPage({
               {figure && (
                 <Link
                   href={`/${figure.slug}`}
-                  className="inline-flex items-center gap-2 bg-moon text-night rounded-full px-5 py-2.5 text-sm font-medium hover:bg-white active:scale-[0.98] transition-all"
+                  className="inline-flex items-center gap-2 bg-moon text-night rounded-full px-5 py-2.5 text-sm font-medium hover:bg-moon/85 active:scale-[0.98] transition-all"
                 >
                   Summon {figure.name.split(" ")[0]}
                   <svg
@@ -178,7 +178,7 @@ export default async function BookPage({
               {!!book.corpusPaths?.length && (
                 <Link
                   href={`/${book.slug}`}
-                  className="inline-flex items-center gap-2 border border-moon text-moon rounded-full px-5 py-2.5 text-sm font-medium hover:bg-white/10 transition-all"
+                  className="inline-flex items-center gap-2 border border-moon text-moon rounded-full px-5 py-2.5 text-sm font-medium hover:bg-moon/10 transition-all"
                 >
                   Chat with this corpus
                   <svg
@@ -270,7 +270,7 @@ export default async function BookPage({
                       <li key={ep.slug}>
                         <Link
                           href={`/watch/${bookSeries.guideSlug}/${ep.slug}`}
-                          className="group grid grid-cols-[26px_1fr_auto] gap-3 items-baseline border border-edge hover:border-moon rounded-xl px-4 py-3 bg-white/[0.04] transition-colors"
+                          className="group grid grid-cols-[26px_1fr_auto] gap-3 items-baseline border border-edge hover:border-moon rounded-xl px-4 py-3 bg-moon/[0.04] transition-colors"
                         >
                           <span className="font-mono text-[11px] text-dim tabular-nums">
                             {String(i + 1).padStart(2, "0")}
@@ -308,7 +308,7 @@ export default async function BookPage({
                         href={skillGithubUrl(skill.figureSlug, skill.slug)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group block border border-edge hover:border-moon rounded-xl p-4 bg-white/[0.04] transition-colors"
+                        className="group block border border-edge hover:border-moon rounded-xl p-4 bg-moon/[0.04] transition-colors"
                       >
                         <div className="flex items-baseline gap-3 flex-wrap mb-1.5">
                           <code className="font-mono text-[13px] text-moon">
@@ -388,7 +388,7 @@ export default async function BookPage({
 
           {/* ───── Wikipedia-style infobox ───── */}
           <aside className="md:sticky md:top-8 self-start w-full">
-            <div className="border border-edge rounded-xl bg-white/[0.04] overflow-hidden">
+            <div className="border border-edge rounded-xl bg-moon/[0.04] overflow-hidden">
               <div className="bg-raised px-4 py-3 border-b border-edge">
                 <p className="font-serif text-base leading-tight">
                   {book.title}

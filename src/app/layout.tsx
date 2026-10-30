@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display, Geist } from "next/font/google";
+import { Inter, Cormorant_Garamond, Cinzel, Geist } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { PostHogProvider } from "./providers";
@@ -13,10 +13,19 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const playfair = Playfair_Display({
+// Cormorant keeps the --font-playfair variable so every font-serif heading
+// picks it up without a rename; Cinzel is the inscriptional display face.
+const playfair = Cormorant_Garamond({
   variable: "--font-playfair",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+});
+
+const cinzel = Cinzel({
+  variable: "--font-cinzel",
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
 });
 
 export const viewport = {
@@ -68,7 +77,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("dark", "h-full", "antialiased", inter.variable, playfair.variable, "font-sans", geist.variable)}
+      className={cn("h-full", "antialiased", inter.variable, playfair.variable, cinzel.variable, "font-sans", geist.variable)}
     >
       <body className="min-h-full flex flex-col bg-night text-moon">
         <script

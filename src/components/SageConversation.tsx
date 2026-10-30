@@ -195,7 +195,7 @@ export default function SageConversation({ episodes }: { episodes: SourceEpisode
         </details>
       </div>
     </header>
-    {hasConversation && <div className="flex shrink-0 flex-col items-center gap-1 py-2" aria-label="Sage portrait"><span className="text-7xl" role="img" aria-label="Sage the wizard">🧙</span><span className="text-[11px] text-slate-400">AI guide · Synthetic voice</span></div>}
+    {hasConversation && <div className="flex shrink-0 flex-col items-center gap-1 py-2" aria-label="Sage portrait"><span className="text-7xl" role="img" aria-label="Sage the wizard">🧙</span><span className="text-[11px] text-dim">AI guide · Synthetic voice</span></div>}
     <div ref={feed} className={styles.feed} onScroll={() => { const el = feed.current; if (el) nearBottom.current = el.scrollHeight - el.scrollTop - el.clientHeight < 100; }}>
       {!hasConversation ? <div className={styles.empty}>
         <span className="sage-wizard" role="img" aria-label="Sage the wizard">🧙</span>

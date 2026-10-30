@@ -31,7 +31,7 @@ export default function SkillsBrowser({ rows, themes }: { rows: SkillRow[]; them
         onChange={(event) => setQuery(event.target.value)}
         placeholder="Search by problem, skill or guide"
         aria-label="Search skills"
-        className="min-h-12 w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 text-base text-moon outline-none placeholder:text-dim focus:border-gold-500/70"
+        className="min-h-12 w-full rounded-2xl border border-moon/10 bg-moon/[0.04] px-4 text-base text-moon outline-none placeholder:text-dim focus:border-gold-500/70"
       />
       <div className="mt-3 flex gap-1 overflow-x-auto pb-1" role="group" aria-label="Filter by problem">
         {["all", ...themes].map((value) => {
@@ -43,7 +43,7 @@ export default function SkillsBrowser({ rows, themes }: { rows: SkillRow[]; them
               aria-pressed={selected}
               onClick={() => setTheme(value)}
               className={`min-h-11 shrink-0 rounded-full px-4 text-sm capitalize transition-colors ${
-                selected ? "bg-white/10 text-moon" : "text-mist hover:text-moon"
+                selected ? "bg-moon/10 text-moon" : "text-mist hover:text-moon"
               }`}
             >
               {value}
@@ -59,7 +59,7 @@ export default function SkillsBrowser({ rows, themes }: { rows: SkillRow[]; them
               href={row.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex h-full min-h-[88px] flex-col justify-center rounded-2xl border border-white/[0.07] p-4 transition-colors hover:border-white/20 hover:bg-white/[0.04]"
+              className="flex h-full min-h-[88px] flex-col justify-center rounded-2xl border border-moon/[0.07] p-4 transition-colors hover:border-moon/20 hover:bg-moon/[0.04]"
             >
               <span className="flex items-baseline justify-between gap-3">
                 <span className="truncate font-serif text-lg leading-tight text-moon">{row.title}</span>

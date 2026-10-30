@@ -32,12 +32,12 @@ export default function GuidePortraitLines({ slug, name, portrait }: { slug: str
   };
 
   const face = (
-    <span className="relative block size-36 overflow-hidden rounded-full border border-white/10 shadow-[0_0_70px_-20px_#4a78bb] sm:size-44">
+    <span className="relative block size-36 overflow-hidden rounded-full border border-moon/10 shadow-[0_0_70px_-20px_#4a78bb] sm:size-44">
       <GuidePortrait src={portrait} name={name} priority />
     </span>
   );
 
-  const credit = ["rick-rubin", "pendleton-ward", "rose-blumkin", "gottmans"].includes(slug) ? <a href={`/credits#${slug}`} className="mt-2 text-[10px] text-slate-400 underline-offset-4 hover:underline">{slug === "rose-blumkin" ? "AI illustration" : "Photo credit"}</a> : null;
+  const credit = ["rick-rubin", "pendleton-ward", "rose-blumkin", "gottmans"].includes(slug) ? <a href={`/credits#${slug}`} className="mt-2 text-[10px] text-dim underline-offset-4 hover:underline">{slug === "rose-blumkin" ? "AI illustration" : "Photo credit"}</a> : null;
   if (!lines.length) return <div className="mb-6 flex shrink-0 flex-col items-center">{face}{credit}</div>;
 
   return (
@@ -47,7 +47,7 @@ export default function GuidePortraitLines({ slug, name, portrait }: { slug: str
         onClick={() => { setOpen((o) => !o); if (!open) play(0); }}
         aria-expanded={open}
         aria-label={`Hear ${name}`}
-        className="rounded-full transition-transform hover:scale-[1.02] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white/60"
+        className="rounded-full transition-transform hover:scale-[1.02] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-moon/60"
       >
         {face}
       </button>
@@ -60,14 +60,14 @@ export default function GuidePortraitLines({ slug, name, portrait }: { slug: str
                 type="button"
                 onClick={() => play(i)}
                 title={line.source}
-                className={`flex min-h-11 w-full items-start gap-2 rounded-2xl border px-4 py-2.5 text-left text-sm leading-snug transition-colors ${playing === i ? "border-white/30 bg-white/10 text-white" : "border-white/10 text-white/75 hover:bg-white/5"}`}
+                className={`flex min-h-11 w-full items-start gap-2 rounded-2xl border px-4 py-2.5 text-left text-sm leading-snug transition-colors ${playing === i ? "border-moon/30 bg-moon/10 text-moon" : "border-moon/10 text-mist hover:bg-moon/5"}`}
               >
                 <Volume2 className={`mt-0.5 size-4 shrink-0 ${playing === i ? "animate-pulse" : "opacity-50"}`} aria-hidden="true" />
                 <span>&ldquo;{line.text}&rdquo;</span>
               </button>
             </li>
           ))}
-          <li className="text-center text-[11px] text-white/40">Their words, read by an AI voice.</li>
+          <li className="text-center text-[11px] text-dim">Their words, read by an AI voice.</li>
         </ul>
       )}
     </div>

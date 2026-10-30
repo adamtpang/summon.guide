@@ -18,7 +18,7 @@ export default function GuideBrief({ figure }: { figure: Figure }) {
     <main className="min-h-screen bg-night text-moon">
       <div className="mx-auto max-w-2xl px-5 pb-24 sm:px-6">
         <header className="flex items-center justify-between py-4">
-          <Link href="/" className="inline-flex min-h-11 items-center text-xs font-medium uppercase tracking-[0.32em] text-mist hover:text-moon">summon.guide</Link>
+          <Link href="/" className="font-display inline-flex min-h-11 items-center text-xs uppercase tracking-[0.32em] text-mist hover:text-moon">summon.guide</Link>
           <Link href="/summon" className="inline-flex min-h-11 items-center text-sm text-mist hover:text-moon">Guides</Link>
         </header>
 
@@ -38,7 +38,7 @@ export default function GuideBrief({ figure }: { figure: Figure }) {
 
         <Link
           href={guidePath(figure.slug)}
-          className="mt-8 inline-flex min-h-12 items-center rounded-full bg-moon px-6 text-sm font-medium text-night transition-colors hover:bg-white"
+          className="mt-8 inline-flex min-h-12 items-center rounded-full bg-moon px-6 text-sm font-medium text-night transition-colors hover:bg-moon/85"
         >
           Ask {figure.name}
         </Link>

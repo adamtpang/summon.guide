@@ -138,7 +138,7 @@ export default async function FigureProfile({
             <div className="flex flex-wrap gap-3 mb-8">
               <Link
                 href={`/${figure.slug}`}
-                className="inline-flex items-center gap-2 bg-moon text-night rounded-full px-6 py-3 text-sm font-medium hover:bg-white active:scale-[0.98] transition-all"
+                className="inline-flex items-center gap-2 bg-moon text-night rounded-full px-6 py-3 text-sm font-medium hover:bg-moon/85 active:scale-[0.98] transition-all"
               >
                 {figure.members ? `Ask ${figure.name}` : `Summon ${figure.name.split(" ")[0]}`}
                 <svg
@@ -158,7 +158,7 @@ export default async function FigureProfile({
                   href={profile.wikipediaUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-white/[0.04] border border-edge text-moon rounded-full px-5 py-3 text-sm font-medium hover:border-moon transition-all"
+                  className="inline-flex items-center gap-2 bg-moon/[0.04] border border-edge text-moon rounded-full px-5 py-3 text-sm font-medium hover:border-moon transition-all"
                 >
                   Wikipedia
                   <ExternalIcon />
@@ -184,7 +184,7 @@ export default async function FigureProfile({
                     href="https://github.com/adamtpang/summon.guide/tree/main/skills"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline hover:text-white"
+                    className="underline hover:text-moon"
                   >
                     GitHub
                   </a>
@@ -197,8 +197,8 @@ export default async function FigureProfile({
 
           {/* Wikipedia-style infobox */}
           <aside>
-            <div className="bg-white/[0.04] border border-edge rounded-2xl overflow-hidden md:sticky md:top-6">
-              <div className="relative aspect-[3/4] bg-white/10">
+            <div className="bg-moon/[0.04] border border-edge rounded-2xl overflow-hidden md:sticky md:top-6">
+              <div className="relative aspect-[3/4] bg-moon/10">
                 {!figure.portrait && (
                   <div
                     className={`absolute inset-0 bg-gradient-to-b ${figure.gradient}`}
@@ -257,7 +257,7 @@ export default async function FigureProfile({
         {/* Table of contents, Wikipedia mini-TOC */}
         <nav
           aria-label="Contents"
-          className="bg-white/[0.04] border border-edge rounded-xl p-5 mb-10 md:mb-14 max-w-md"
+          className="bg-moon/[0.04] border border-edge rounded-xl p-5 mb-10 md:mb-14 max-w-md"
         >
           <p className="text-mist text-[11px] tracking-[0.2em] uppercase mb-3">
             Contents
@@ -310,7 +310,7 @@ export default async function FigureProfile({
                     href={skillGithubUrl(skill.figureSlug, skill.slug)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block bg-white/[0.04] border border-edge rounded-xl p-5 hover:border-moon transition-colors"
+                    className="block bg-moon/[0.04] border border-edge rounded-xl p-5 hover:border-moon transition-colors"
                   >
                     <div className="flex items-start justify-between gap-3 mb-2">
                       <h3 className="text-moon font-medium text-base md:text-lg">
@@ -424,9 +424,9 @@ export default async function FigureProfile({
               <Link
                 key={other.slug}
                 href={`/${other.slug}`}
-                className="group flex items-center gap-3 bg-white/[0.04] border border-edge rounded-xl p-3 hover:border-moon transition-colors"
+                className="group flex items-center gap-3 bg-moon/[0.04] border border-edge rounded-xl p-3 hover:border-moon transition-colors"
               >
-                <div className="relative w-12 h-12 flex-shrink-0 rounded-lg overflow-hidden bg-white/10">
+                <div className="relative w-12 h-12 flex-shrink-0 rounded-lg overflow-hidden bg-moon/10">
                   {other.portrait ? (
                     <Image
                       src={other.portrait}
@@ -559,14 +559,14 @@ function BookCard({ book, accentColor }: { book: Book; accentColor: string }) {
         href={book.amazonUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="block bg-white/[0.04] border border-edge rounded-xl p-5 hover:border-moon transition-colors group"
+        className="block bg-moon/[0.04] border border-edge rounded-xl p-5 hover:border-moon transition-colors group"
       >
         {cardInner}
       </a>
     );
   }
   return (
-    <div className="block bg-white/[0.04] border border-edge rounded-xl p-5">
+    <div className="block bg-moon/[0.04] border border-edge rounded-xl p-5">
       {cardInner}
     </div>
   );

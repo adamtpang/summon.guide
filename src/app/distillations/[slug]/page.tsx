@@ -38,7 +38,7 @@ export default async function DistillationPage({ params }: DistillationPageProps
         <Link href="/distillations" className="text-sm text-dim transition-colors hover:text-moon">← All distillations</Link>
 
         <header className="mt-12 border-b border-edge pb-9">
-          <div className="flex flex-wrap items-center gap-3 text-[11px] font-medium uppercase tracking-[0.22em] text-gold-500">
+          <div className="font-display flex flex-wrap items-center gap-3 text-[11px] uppercase tracking-[0.22em] text-gold-500">
             <span>{item.kind}</span>
             <span className="text-dim">·</span>
             <span className="text-dim">one-page markdown</span>
@@ -48,7 +48,7 @@ export default async function DistillationPage({ params }: DistillationPageProps
           <p className="mt-6 text-lg leading-8 text-mist">{item.description}</p>
           <div className="mt-7 flex flex-wrap gap-3">
             {guide && (
-              <Link href={`/${guide.slug}`} className="rounded-full bg-moon px-5 py-3 text-sm font-medium text-night hover:bg-white">
+              <Link href={`/${guide.slug}`} className="rounded-full bg-moon px-5 py-3 text-sm font-medium text-night hover:bg-moon/85">
                 Chat with the guide
               </Link>
             )}

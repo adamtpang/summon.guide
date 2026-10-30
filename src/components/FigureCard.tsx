@@ -30,7 +30,7 @@ export default function FigureCard({ figure }: { figure: Figure }) {
             <>
               <div className={`absolute inset-0 bg-gradient-to-b ${figure.gradient}`} />
               <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/40 to-transparent z-10" />
-              <div className="absolute inset-0 flex items-center justify-center text-white/[0.12] text-8xl font-serif select-none group-hover:text-white/[0.18] transition-colors duration-700 z-[5]">
+              <div className="absolute inset-0 flex items-center justify-center text-moon/[0.12] text-8xl font-serif select-none group-hover:text-moon/[0.18] transition-colors duration-700 z-[5]">
                 {figure.name
                   .split(" ")
                   .map((n) => n[0])

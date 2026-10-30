@@ -97,7 +97,7 @@ export default async function EpisodePage({
           </span>
         </header>
 
-        <p className="text-gold-500 text-xs tracking-[0.25em] uppercase mb-4">
+        <p className="font-display text-gold-500 text-xs tracking-[0.25em] uppercase mb-4">
           {book ? (
             <Link href={`/books/${s.bookSlug}`} className="hover:text-warm-50">
               {s.bookTitle}
@@ -155,13 +155,13 @@ export default async function EpisodePage({
           ))}
         </div>
 
-        <nav className="mt-14 pt-6 border-t border-white/10 flex justify-between gap-4">
+        <nav className="mt-14 pt-6 border-t border-moon/10 flex justify-between gap-4">
           {prev ? (
             <Link
               href={`/watch/${s.guideSlug}/${prev.slug}`}
               className="text-warm-500 text-sm hover:text-warm-50 transition-colors max-w-[45%]"
             >
-              <span className="block text-[10px] uppercase tracking-[0.14em] mb-1">
+              <span className="font-display block text-[10px] uppercase tracking-[0.14em] mb-1">
                 Previous
               </span>
               {prev.title}
@@ -174,7 +174,7 @@ export default async function EpisodePage({
               href={`/watch/${s.guideSlug}/${next.slug}`}
               className="text-warm-500 text-sm hover:text-warm-50 transition-colors text-right max-w-[45%]"
             >
-              <span className="block text-[10px] uppercase tracking-[0.14em] mb-1">
+              <span className="font-display block text-[10px] uppercase tracking-[0.14em] mb-1">
                 Next
               </span>
               {next.title}

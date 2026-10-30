@@ -37,8 +37,8 @@ export default function ChatComposer({
     <div
       className={
         dark
-          ? "rounded-2xl border border-white/10 bg-white/[0.07] p-2 backdrop-blur-md"
-          : "rounded-2xl border border-warm-200 bg-white/90 p-2 backdrop-blur-md"
+          ? "rounded-full border border-edge bg-raised/95 p-2 shadow-[0_8px_30px_rgba(35,33,29,0.08)] backdrop-blur-md"
+          : "rounded-2xl border border-warm-200 bg-raised/90 p-2 backdrop-blur-md"
       }
     >
       <div className="flex items-end gap-2">
@@ -54,7 +54,7 @@ export default function ChatComposer({
           disabled={disabled}
           className={
             dark
-              ? "max-h-36 min-h-12 min-w-0 flex-1 resize-none border-0 bg-transparent px-3 py-3 text-base leading-normal text-white shadow-none placeholder:text-white/35 focus-visible:border-0 focus-visible:ring-0"
+              ? "max-h-36 min-h-12 min-w-0 flex-1 resize-none border-0 bg-transparent px-3 py-3 text-base leading-normal text-moon shadow-none placeholder:text-moon/35 focus-visible:border-0 focus-visible:ring-0"
               : "max-h-36 min-h-12 min-w-0 flex-1 resize-none border-0 bg-transparent px-3 py-3 text-base leading-normal text-ink-950 shadow-none placeholder:text-warm-400 focus-visible:border-0 focus-visible:ring-0"
           }
         />
@@ -67,8 +67,8 @@ export default function ChatComposer({
           aria-label={disabled && onStop ? "Stop response" : "Send message"}
           className={
             dark
-              ? "size-12 rounded-full bg-blue-100 text-neutral-950 hover:bg-blue-200"
-              : "size-12 rounded-full bg-ink-950 text-white hover:bg-ink-800"
+              ? "size-12 rounded-full bg-moon text-night hover:bg-moon/85"
+              : "size-12 rounded-full bg-ink-950 text-night hover:bg-ink-800"
           }
         >
           {disabled && onStop ? <Square className="size-4" /> : <ArrowUp className="size-5" />}

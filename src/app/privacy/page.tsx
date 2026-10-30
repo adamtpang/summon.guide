@@ -14,7 +14,7 @@ export default function PrivacyPage() {
       <div className="max-w-2xl mx-auto px-6 pt-8 md:pt-14 pb-20">
         <Link
           href="/"
-          className="text-blue-600 text-xs tracking-[0.35em] uppercase font-medium"
+          className="font-display text-blue-600 text-xs tracking-[0.35em] uppercase"
         >
           summon.guide
         </Link>

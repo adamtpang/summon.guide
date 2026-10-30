@@ -61,7 +61,7 @@ export default async function HowToPage({
           </Link>
         </header>
 
-        <p className="text-dim text-xs tracking-[0.25em] uppercase mb-4">
+        <p className="font-display text-dim text-xs tracking-[0.25em] uppercase mb-4">
           {article.maslowLevel.replace(/-/g, " ")}
         </p>
         <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.1] tracking-tight mb-5">
@@ -80,7 +80,7 @@ export default async function HowToPage({
 
         {figure && (
           <aside className="mt-12 pt-8 border-t border-edge">
-            <p className="text-dim text-xs tracking-[0.25em] uppercase mb-3">
+            <p className="font-display text-dim text-xs tracking-[0.25em] uppercase mb-3">
               Summon the guide
             </p>
             <h2 className="font-serif text-2xl mb-2">{figure.name}</h2>
@@ -98,7 +98,7 @@ export default async function HowToPage({
 
         {sources.length > 0 && (
           <section className="mt-10 pt-6 border-t border-edge">
-            <p className="text-dim text-xs tracking-[0.25em] uppercase mb-3">
+            <p className="font-display text-dim text-xs tracking-[0.25em] uppercase mb-3">
               Grounded in
             </p>
             <ul className="space-y-1.5">

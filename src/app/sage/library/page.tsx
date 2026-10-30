@@ -56,7 +56,7 @@ export default function FoundersLensPage() {
 
         <section className="grid gap-10 pb-14 pt-16 md:grid-cols-[1.2fr_0.8fr] md:items-end md:pb-20 md:pt-24">
           <div>
-            <p className="text-xs uppercase tracking-[0.24em] text-emerald-700">
+            <p className="font-display text-xs uppercase tracking-[0.24em] text-emerald-700">
               Summon Sage · Independent Founders research
             </p>
             <h1 className="mt-4 max-w-4xl font-serif text-5xl leading-[0.98] tracking-tight md:text-7xl">
@@ -69,13 +69,13 @@ export default function FoundersLensPage() {
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 href="/sage"
-                className="inline-flex min-h-12 items-center rounded-full bg-moon px-6 text-sm font-medium text-night transition-colors hover:bg-white"
+                className="inline-flex min-h-12 items-center rounded-full bg-moon px-6 text-sm font-medium text-night transition-colors hover:bg-moon/85"
               >
                 Ask the corpus
               </Link>
               <a
                 href="#workspace"
-                className="inline-flex min-h-12 items-center rounded-full border border-moon px-6 text-sm font-medium transition-colors hover:bg-white/10"
+                className="inline-flex min-h-12 items-center rounded-full border border-moon px-6 text-sm font-medium transition-colors hover:bg-moon/10"
               >
                 Open the workspace
               </a>
@@ -84,19 +84,19 @@ export default function FoundersLensPage() {
 
           <dl className="grid grid-cols-3 divide-x divide-edge border-y border-edge py-5 text-center">
             <div>
-              <dt className="text-[10px] uppercase tracking-[0.16em] text-dim">
+              <dt className="font-display text-[10px] uppercase tracking-[0.16em] text-dim">
                 Notes
               </dt>
               <dd className="mt-2 font-serif text-3xl">{episodes.length}</dd>
             </div>
             <div>
-              <dt className="text-[10px] uppercase tracking-[0.16em] text-dim">
+              <dt className="font-display text-[10px] uppercase tracking-[0.16em] text-dim">
                 Sources synced
               </dt>
               <dd className="mt-2 font-serif text-3xl">{corpusStatus.totals.privateEpisodes}</dd>
             </div>
             <div>
-              <dt className="text-[10px] uppercase tracking-[0.16em] text-dim">
+              <dt className="font-display text-[10px] uppercase tracking-[0.16em] text-dim">
                 Syntheses ready
               </dt>
               <dd className="mt-2 font-serif text-3xl">

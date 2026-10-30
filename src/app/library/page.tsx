@@ -18,7 +18,7 @@ const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 function Score({ n, tone }: { n: number; tone: "skill" | "video" }) {
   return (
     <span className="inline-flex items-center gap-1.5">
-      <span className="w-14 h-1.5 bg-white/10 rounded-full overflow-hidden">
+      <span className="w-14 h-1.5 bg-moon/10 rounded-full overflow-hidden">
         <span
           className={`block h-full rounded-full ${
             tone === "skill" ? "bg-raised" : "bg-gold-600"
@@ -104,7 +104,7 @@ export default function LibraryPage() {
         </header>
 
         <section className="mb-10">
-          <p className="text-dim text-xs tracking-[0.25em] uppercase mb-4">
+          <p className="font-display text-dim text-xs tracking-[0.25em] uppercase mb-4">
             The shelf
           </p>
           <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.05] tracking-tight mb-5">

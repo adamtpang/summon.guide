@@ -82,7 +82,7 @@ export default function ContextImportDialog({
         type="button"
         variant="ghost"
         onClick={() => setOpen(true)}
-        className="h-11 rounded-full px-3 text-xs font-normal text-white/65 hover:bg-white/10 hover:text-white"
+        className="h-11 rounded-full px-3 text-xs font-normal text-mist hover:bg-moon/10 hover:text-moon"
       >
         <FileInput className="size-4" />
         Bring context from ChatGPT or Claude
@@ -91,7 +91,7 @@ export default function ContextImportDialog({
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="max-h-[calc(100dvh-2rem)] gap-0 overflow-y-auto rounded-2xl bg-night p-0 ring-1 ring-moon/10 sm:max-w-2xl">
           <DialogHeader className="border-b border-edge px-5 py-5 pr-12 sm:px-7">
-            <p className="text-[11px] tracking-[0.22em] text-mist uppercase">
+            <p className="font-display text-[11px] tracking-[0.22em] text-mist uppercase">
               Import personal context
             </p>
             <DialogTitle className="font-serif text-2xl font-medium leading-tight text-moon">
@@ -136,13 +136,13 @@ export default function ContextImportDialog({
                       readOnly
                       value={PROMPTS[provider]}
                       aria-label={`${provider} extraction prompt`}
-                      className="h-44 resize-none rounded-xl border-edge bg-white/[0.04] px-4 py-3 font-mono text-[11px] leading-relaxed text-moon/75 focus-visible:border-moon focus-visible:ring-moon/10"
+                      className="h-44 resize-none rounded-xl border-edge bg-moon/[0.04] px-4 py-3 font-mono text-[11px] leading-relaxed text-mist focus-visible:border-moon focus-visible:ring-moon/10"
                     />
                     <Button
                       type="button"
                       variant="outline"
                       onClick={() => copyPrompt(provider)}
-                      className="h-11 rounded-full border-edge bg-white/[0.04] px-4 text-xs text-moon hover:bg-raised"
+                      className="h-11 rounded-full border-edge bg-moon/[0.04] px-4 text-xs text-moon hover:bg-raised"
                     >
                       {copied === provider ? <Check /> : <Copy />}
                       {copied === provider ? "Copied" : "Copy extraction prompt"}
@@ -171,7 +171,7 @@ export default function ContextImportDialog({
                 value={pastedContext}
                 onChange={(event) => setPastedContext(event.target.value)}
                 placeholder="# Personal context\n## Current situation\n..."
-                className="min-h-36 rounded-xl border-edge bg-white/[0.04] px-4 py-3 text-base leading-relaxed text-moon placeholder:text-dim focus-visible:border-moon focus-visible:ring-moon/10"
+                className="min-h-36 rounded-xl border-edge bg-moon/[0.04] px-4 py-3 text-base leading-relaxed text-moon placeholder:text-dim focus-visible:border-moon focus-visible:ring-moon/10"
               />
             </section>
 
@@ -184,7 +184,7 @@ export default function ContextImportDialog({
                 type="button"
                 onClick={useContext}
                 disabled={!pastedContext.trim()}
-                className="h-11 rounded-full bg-moon px-5 text-night hover:bg-white"
+                className="h-11 rounded-full bg-moon px-5 text-night hover:bg-moon/85"
               >
                 Use this context
               </Button>

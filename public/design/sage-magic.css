@@ -1,14 +1,14 @@
 /* Sage's shared palette: midnight, moonlight, and a single magical blue. */
 .sage-magic {
-  --sage-night: #060b16;
-  --sage-surface: #0d1729;
-  --sage-edge: #233756;
-  --sage-blue: #79b8ff;
-  --sage-light: #e4efff;
-  --sage-muted: #9baec9;
-  color-scheme: dark;
+  --sage-night: #f7f5f0;
+  --sage-surface: #fffdf9;
+  --sage-edge: #e2ddd2;
+  --sage-blue: #7d622c;
+  --sage-light: #23211d;
+  --sage-muted: #5c574e;
+  color-scheme: light;
   color: var(--sage-light);
-  background: radial-gradient(ellipse at 50% 32%, #183b652b, transparent 52%), var(--sage-night);
+  background: radial-gradient(ellipse at 50% 32%, transparent, transparent 52%), var(--sage-night);
 }
 .sage-wizard {
   position: relative;
@@ -18,16 +18,16 @@
   width: 144px;
   height: 144px;
   font: 80px/1 "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
-  filter: drop-shadow(0 0 24px #599eff35);
+  filter: drop-shadow(0 0 24px #23211d10);
 }
 .sage-wizard::before {
   content: "";
   position: absolute;
   inset: 2px;
-  border: 1px solid #8bbfff20;
+  border: 1px solid transparent;
   border-radius: 50%;
-  background: radial-gradient(circle, #438de424, transparent 70%);
-  box-shadow: 0 0 70px #3c8aff16, inset 0 0 28px #589eff0d;
+  background: radial-gradient(circle, transparent, transparent 70%);
+  box-shadow: 0 0 70px #23211d10, inset 0 0 28px #23211d10;
   z-index: -1;
 }
 .sage-wizard::after {

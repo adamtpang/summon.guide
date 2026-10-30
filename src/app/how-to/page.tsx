@@ -42,7 +42,7 @@ export default function HowToIndexPage() {
         </header>
 
         <section className="mb-12">
-          <p className="text-dim text-xs tracking-[0.25em] uppercase mb-4">
+          <p className="font-display text-dim text-xs tracking-[0.25em] uppercase mb-4">
             How to
           </p>
           <h1 className="text-3xl md:text-5xl font-serif font-medium leading-[1.05] tracking-tight mb-5">

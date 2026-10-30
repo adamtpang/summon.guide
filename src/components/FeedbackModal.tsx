@@ -50,14 +50,14 @@ export default function FeedbackModal({
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.9, opacity: 0 }}
-          className="bg-white rounded-2xl p-6 max-w-sm w-full border border-slate-200 shadow-2xl"
+          className="bg-raised rounded-2xl p-6 max-w-sm w-full border border-slate-200 shadow-2xl"
           onClick={(e) => e.stopPropagation()}
         >
           {submitted ? (
             <div className="text-center py-8">
               <div className="text-3xl mb-3">🙏</div>
               <p className="text-slate-900 text-lg font-medium">Thank you!</p>
-              <p className="text-slate-500 text-sm mt-1">
+              <p className="text-mist text-sm mt-1">
                 Your feedback helps us improve.
               </p>
             </div>
@@ -66,7 +66,7 @@ export default function FeedbackModal({
               <h3 className="text-slate-900 text-lg font-medium text-center mb-1">
                 How was your conversation?
               </h3>
-              <p className="text-slate-500 text-sm text-center mb-6">
+              <p className="text-mist text-sm text-center mb-6">
                 with {figureName}
               </p>
 
@@ -97,7 +97,7 @@ export default function FeedbackModal({
                     value={comment}
                     onChange={(e) => setComment(e.target.value)}
                     placeholder="What would make it better?"
-                    className="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-slate-900 text-sm placeholder:text-slate-400 resize-none focus:outline-none focus:border-blue-400"
+                    className="w-full bg-raised border border-slate-200 rounded-xl px-4 py-3 text-slate-900 text-sm placeholder:text-dim resize-none focus:outline-none focus:border-blue-400"
                     rows={3}
                   />
                 </motion.div>
@@ -107,14 +107,14 @@ export default function FeedbackModal({
               <div className="flex gap-3">
                 <button
                   onClick={onClose}
-                  className="flex-1 py-3 text-slate-500 text-sm rounded-xl hover:text-slate-700 transition-colors"
+                  className="flex-1 py-3 text-mist text-sm rounded-xl hover:text-slate-700 transition-colors"
                 >
                   Skip
                 </button>
                 <button
                   onClick={submit}
                   disabled={rating === 0 || submitting}
-                  className="flex-1 py-3 bg-blue-600 text-white text-sm font-medium rounded-xl disabled:opacity-30 disabled:cursor-not-allowed hover:bg-blue-700 transition-colors"
+                  className="flex-1 py-3 bg-blue-600 text-night text-sm font-medium rounded-xl disabled:opacity-30 disabled:cursor-not-allowed hover:bg-blue-700 transition-colors"
                 >
                   {submitting ? "Sending..." : "Submit"}
                 </button>

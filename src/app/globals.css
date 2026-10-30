@@ -28,16 +28,22 @@
   --color-ink-900: #1a1816;
   --color-ink-950: #0f0e0c;
 
-  --color-gold-500: #c9a860;
-  --color-gold-600: #c9a860;
+  --color-gold-400: #a8874a;
+  --color-gold-500: #7d622c;
+  --color-gold-600: #7a5f2a;
+  --color-gold-700: #5f4920;
 
-  /* Night palette: one dark canvas for every page. */
-  --color-night: #07090d;
-  --color-raised: #10151d;
-  --color-edge: #232a35;
-  --color-moon: #eef1f5;
-  --color-mist: #8a94a4;
-  --color-dim: #6b7584;
+  /* Marble palette: graphite ink on ivory paper, after the pencil-sketch
+     classical scenes. Token names predate it (night was the dark canvas);
+     they keep their roles: night = page, raised = surface, edge = rule,
+     moon = primary ink, mist and dim = secondary ink. */
+  --color-night: #f7f5f0;
+  --color-raised: #fffdf9;
+  --color-edge: #e2ddd2;
+  --color-moon: #23211d;
+  --color-mist: #5c574e;
+  --color-dim: #6e685e;
+  --font-display: var(--font-cinzel);
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -81,7 +87,7 @@
 
 /* Selection color */
 ::selection {
-  background: rgba(184, 157, 79, 0.2);
+  background: rgba(138, 109, 50, 0.18);
   color: var(--color-moon);
 }
 
@@ -319,21 +325,21 @@ html {
 }
 
 
-/* Shared blue-magic identity primitives. */
+/* Shared identity primitives (marble). */
 :root {
-  --summon-night: #060b16;
-  --summon-surface: #0d1729;
-  --summon-edge: #233756;
-  --summon-blue: #79b8ff;
-  --summon-light: #e4efff;
-  --summon-muted: #9baec9;
+  --summon-night: #f7f5f0;
+  --summon-surface: #fffdf9;
+  --summon-edge: #e2ddd2;
+  --summon-blue: #7d622c;
+  --summon-light: #23211d;
+  --summon-muted: #5c574e;
 }
 .guide-portrait-fallback {
   display: grid;
   place-items: center;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at 50% 25%, #233756, var(--summon-night));
+  background: radial-gradient(circle at 50% 25%, #ece7dc, var(--summon-night));
   color: var(--summon-light);
   font-weight: 500;
   letter-spacing: .03em;
