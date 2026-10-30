@@ -1,6 +1,6 @@
 {
   "generated": "scripts/gen-summon-handles.mjs",
-  "count": 126,
+  "count": 127,
   "handles": [
     {
       "slug": "abraham-lincoln",
@@ -579,6 +579,14 @@
       "tool": "none"
     },
     {
+      "slug": "amazon-shareholder-letters",
+      "kind": "book",
+      "name": "Amazon Shareholder Letters, 1997-2020",
+      "availability": "ready",
+      "runtime": "source",
+      "tool": "public_notes"
+    },
+    {
       "slug": "anything-you-want",
       "kind": "book",
       "name": "Anything You Want",
@@ -613,7 +621,7 @@
     {
       "slug": "berkshire-shareholder-letters",
       "kind": "book",
-      "name": "Berkshire Hathaway Shareholder Letters, 1977-2024",
+      "name": "Berkshire Hathaway Shareholder Letters, 1977-2025",
       "availability": "ready",
       "runtime": "source",
       "tool": "public_notes"

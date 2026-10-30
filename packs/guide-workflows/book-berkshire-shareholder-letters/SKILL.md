@@ -1,9 +1,9 @@
 ---
 name: book-berkshire-shareholder-letters-source-guided-decision
-description: Apply Berkshire Hathaway Shareholder Letters, 1977-2024 source notes to a concrete decision. Use for this guide's perspective with explicit evidence limits.
+description: Apply Berkshire Hathaway Shareholder Letters, 1977-2025 source notes to a concrete decision. Use for this guide's perspective with explicit evidence limits.
 ---
 
-# Berkshire Hathaway Shareholder Letters, 1977-2024: source-guided decision
+# Berkshire Hathaway Shareholder Letters, 1977-2025: source-guided decision
 
 A Summon workflow, not a method attributed to the person or author. Guide ID: book:berkshire-shareholder-letters.
 

@@ -1035,7 +1035,7 @@ export const skills: Skill[] = [
       "I keep picking up practices and they either stop working or make me strange.",
   },
 
-  // Berkshire Hathaway Shareholder Letters, 1977-2024
+  // Berkshire Hathaway Shareholder Letters, 1977-2025
   {
     slug: "warren-buffett",
     figureSlug: "warren-buffett",
@@ -1044,7 +1044,7 @@ export const skills: Skill[] = [
       "Turn a business or capital decision into owner economics, opportunity cost, downside protection, and a clear action.",
     whenToUse:
       "Use when a consequential business, investment, acquisition, hiring, or resource-allocation decision needs a patient owner-oriented analysis.",
-    source: "Berkshire Hathaway shareholder letters, 1977-2024, by Warren E. Buffett",
+    source: "Berkshire Hathaway shareholder letters, 1977-2025, by Warren E. Buffett",
     sourceAnchor: "Full official archive, especially 1977, 1986, 1989, 1996, 2014, and 2024",
     command: "/warren-buffett:warren-buffett",
     umbrella: true,

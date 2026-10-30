@@ -5,6 +5,222 @@
   "coverage": "partial",
   "sources": [
     {
+      "id": "14e864f518bb2632",
+      "title": "1997: It's All About the Long Term",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/001-1997-it-s-all-about-the-long-term.md",
+      "contentHash": "febeee2645779c1c6d73f87bf15ee0445d9ef34443f93b1b441bd6f456a301ca",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bcee1dbad4964813",
+      "title": "1998: Raising the Hiring Bar",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/002-1998-raising-the-hiring-bar.md",
+      "contentHash": "0d2e1181a8a5eae0109c88beb09f48d9b454405ea45f745fe25d424c366a4ca9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c8687a9f318707b5",
+      "title": "1999: What Do You Own?",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/003-1999-what-do-you-own.md",
+      "contentHash": "3f412aface6f1aed9bac432f1008b8636c83ffdc77b59ae66c8c95b66a9c3dda",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5207c8f2d0aab424",
+      "title": "2000: Ouch: Voting Machine Versus Weighing Machine",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/004-2000-ouch-voting-machine-versus-weighing-machine.md",
+      "contentHash": "91d43c0f86c0ac6df0e2ba462e5ce7269bc46fc0bcd197fdc702479959bac28b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f2c2e01f331929b8",
+      "title": "2001: The Price and Cost Loop",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/005-2001-the-price-and-cost-loop.md",
+      "contentHash": "c950a7840a9e30259884d665394c78275ff32cba8f3af08a827e71f8530d1bb6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c990398026f4acde",
+      "title": "2002: Low Prices and Great Experience Together",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/006-2002-low-prices-and-great-experience-together.md",
+      "contentHash": "7cd4d8d5a7a07001e5f13b06643382a6cfdf8a11e41dcf2e008d2cdabda91538",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ec33cbe4b6ca79ce",
+      "title": "2003: Owners Versus Tenants",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/007-2003-owners-versus-tenants.md",
+      "contentHash": "deb0e5e08a6c30ef7e6f0eabf1d7eab6f34dd150141c64071c24e9132ff486e3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4a042c0f1fae0b35",
+      "title": "2004: Free Cash Flow Per Share",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/008-2004-free-cash-flow-per-share.md",
+      "contentHash": "3e271c16e2bc8cb3259c68d1da70e9fd584dd48beb87d37f56f3f849b26d10fd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c9e092b989f17405",
+      "title": "2005: Math Decisions and Judgment Decisions",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/009-2005-math-decisions-and-judgment-decisions.md",
+      "contentHash": "0b246f407b7c082a2fad0de94e98c02d79d5733b1e58a5478b258ab733cbf55a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f02a64835c48a89e",
+      "title": "2006: Planting Seeds for New Businesses",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/010-2006-planting-seeds-for-new-businesses.md",
+      "contentHash": "c2222fa8dc2d567bc6c0a28472cddce9cfe4ede6ee21f18a29d0f15bfacd4bba",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9f588beaf7be5250",
+      "title": "2007: Kindle and Improving the Book",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/011-2007-kindle-and-improving-the-book.md",
+      "contentHash": "e89487d6eff51055e9a6775536396a90d2f7555f41d7e8891dd2bb1153b74b94",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "48a1ef4f44686ebd",
+      "title": "2008: Working Backwards in a Turbulent Economy",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/012-2008-working-backwards-in-a-turbulent-economy.md",
+      "contentHash": "8c5b07c76d2c497cfc63bb1e746571724da9f3ecca8e8bd1e42f3dffa19c2ca3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "144b53f4aafa4df8",
+      "title": "2009: Inputs over outputs",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/013-2009-inputs-over-outputs.md",
+      "contentHash": "5a0e38f49e69b1b0a25bb906b978bd6b0bb57ce87fb6065117477033ea37debb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ff04d12d12083470",
+      "title": "2010: Technology infused everywhere",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/014-2010-technology-infused-everywhere.md",
+      "contentHash": "ac8b79d02f8d4652d0543adf7200886e9c1db1d5a05f6f2f31630a6738aa6598",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f40b42912be2d6af",
+      "title": "2011: Self-service platforms unleash invention",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/015-2011-self-service-platforms-unleash-invention.md",
+      "contentHash": "42392603602e457234a4f4e21ec6c5ee87819ca7eaa202ff3c6660ee6678a02a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4252e479b8cb5f6c",
+      "title": "2012: Proactive customer obsession",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/016-2012-proactive-customer-obsession.md",
+      "contentHash": "8a96c7a19edacc257a1ccad19ed330c94506a7416947208656fbb2165ab821f0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d6372794993e122b",
+      "title": "2013: A tour of reinventing normal",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/017-2013-a-tour-of-reinventing-normal.md",
+      "contentHash": "d7cac8e0f049161ec62386c61e7953fbdd5ef432e3d1f809b4537aa9dc7698c6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "066f05080e580150",
+      "title": "2014: Three dreamy businesses",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/018-2014-three-dreamy-businesses.md",
+      "contentHash": "2565f4699a67fd063de13fdbd186f9a05b681f5b621635b0fdb1a31a00d65094",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "38b0f8840bb7a4d3",
+      "title": "2015: Invention machine and two-way doors",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/019-2015-invention-machine-and-two-way-doors.md",
+      "contentHash": "e45ee59591e75c788f680a4c7cdbe819872657446a0f2af607559633c30067e1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2dda0e0478d97425",
+      "title": "2016: Fending off Day 2",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/020-2016-fending-off-day-2.md",
+      "contentHash": "b79e9cbe20bdf6aec24a12257723bccb76197c5116c1eba2499ac18b4f4610df",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "21a9810b1ca54e0d",
+      "title": "2017: High standards are teachable",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/021-2017-high-standards-are-teachable.md",
+      "contentHash": "daaa43937c8e5b1e3ef4131d764613bf209bd43ae61693d06f7439afe5cd0216",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1583fa0a0c2e5a4e",
+      "title": "2018: Wandering and scaling failure",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/022-2018-wandering-and-scaling-failure.md",
+      "contentHash": "fb9e76c1425576d2d72860e670c5945e992c908cac23e7782855e5f230883743",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0c156b554fd72da9",
+      "title": "2019: Responsibility in a crisis",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/023-2019-responsibility-in-a-crisis.md",
+      "contentHash": "a83a74446114b540912aaff7137aecc00b1dbb16ed6a7f68e3cd0d63363fde9d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "74679467a1f67333",
+      "title": "2020: Create more than you consume",
+      "url": null,
+      "synthesis": "content/knowledge/amazon-shareholder-letters/024-2020-create-more-than-you-consume.md",
+      "contentHash": "5e36acac05c148030eca1f21b56781e3775e6f22ba03171ca7fca9cf55cf251f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
       "id": "df1eb24d9fa54541",
       "title": "Lessons from Jeff Bezos's Shareholder Letters",
       "url": "https://www.youtube.com/watch?v=zt9e6vVBdP4",

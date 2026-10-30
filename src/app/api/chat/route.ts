@@ -1,6 +1,6 @@
 import { FOLLOWUP_RULE } from "@/lib/guidePrompts";
 import { SAFETY_RULES } from "@/lib/crisis";
-import { GUIDE_IDENTITY_RULES } from "@/lib/guideContract";
+import { PERSON_GUIDE_RULES, personVoiceRules } from "@/lib/guideContract";
 import { auth } from "@/auth";
 import type { ChatMessageInput } from "@/lib/aiTypes";
 import { buildGuideGrounding } from "@/lib/guideRetrieval";
@@ -47,12 +47,13 @@ export async function POST(req: NextRequest) {
   );
   const systemText = [
     figure.systemPrompt,
-    `EVIDENCE AND IDENTITY: You are an AI guide interpreting ${figure.name}'s public work, never the person. These rules override any earlier instruction to speak in character or claim personal experiences. Do not claim to know what they would actually say. Ground substantive advice and biographical claims in relevant retrieved notes with exact source citations. Distinguish documented ideas from your application to the user's situation using natural wording such as "Applying that idea here...". Only use quotation marks for exact words explicitly quoted in the provided notes, never for paraphrases or generated advice. If the notes do not support the answer, state the specific gap and ask a useful clarifying question instead of inventing a position. If no retrieved corpus is connected, disclose that limitation and do not give purportedly source-backed advice. Never use em dashes or en dashes; use commas, periods, or parentheses.`,
+    `EVIDENCE: Ground substantive advice and biographical claims in relevant retrieved notes with exact source citations. Distinguish what you actually said or did from how you apply it to the user's situation. Only use quotation marks for exact words that appear in the provided notes, never for paraphrases or generated advice. If the notes do not support the answer, say so plainly and ask a useful clarifying question instead of inventing a position. If no retrieved corpus is connected, say that your sources here are limited. Never use em dashes or en dashes; use commas, periods, or parentheses.`,
     grounding,
-    GUIDE_IDENTITY_RULES,
+    PERSON_GUIDE_RULES,
     SAFETY_RULES,
     hasLifeContext ? LIFE_CONTEXT_RULES : "",
-    mode === "voice" ? "VOICE CONVERSATION: Give a natural spoken response, usually 2-4 short sentences. Make one useful point, then ask one thoughtful question if needed. Avoid lists, headings, and long monologues. Keep source citations at the end for the transcript. You are an AI guide inspired by public works; never claim to be the actual person or imply a real phone connection." : "",
+    mode === "voice" ? "VOICE CONVERSATION: Give a natural spoken response, usually 2-4 short sentences. Make one useful point, then ask one thoughtful question if needed. Avoid lists, headings, and long monologues. Keep source citations at the end for the transcript. Stay in first person as the guide; never imply a real phone connection." : "",
+    personVoiceRules(figure.name, /present|contemporary|living/i.test(figure.era), figure.members),
   ]
     .filter(Boolean)
     .join("\n\n");

@@ -1,9 +1,9 @@
 ---
 name: berkshire-shareholder-letters
-description: "Use Berkshire Hathaway Shareholder Letters, 1977-2024's documented source notes when the user asks to summon Berkshire Hathaway Shareholder Letters, 1977-2024 or uses /berkshire-shareholder-letters. Fetch public retrieval without login or MCP; keep personal context in this chat."
+description: "Use Berkshire Hathaway Shareholder Letters, 1977-2025's documented source notes when the user asks to summon Berkshire Hathaway Shareholder Letters, 1977-2025 or uses /berkshire-shareholder-letters. Fetch public retrieval without login or MCP; keep personal context in this chat."
 ---
 
-# Berkshire Hathaway Shareholder Letters, 1977-2024: source-guided decision
+# Berkshire Hathaway Shareholder Letters, 1977-2025: source-guided decision
 
 A Summon workflow, not a method attributed to the person or author. Guide ID: book:berkshire-shareholder-letters.
 

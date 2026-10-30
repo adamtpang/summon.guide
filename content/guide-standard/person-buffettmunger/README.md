@@ -4,7 +4,7 @@ ID: person:buffettmunger
 
 Owner: summon.guide
 
-Coverage: partial, 59 synthesis records.
+Coverage: partial, 61 synthesis records.
 
 Distillation: content/distilled/buffettmunger.md
 

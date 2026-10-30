@@ -85,17 +85,31 @@ export const books: Book[] = [
   // Buffett and Munger
   {
     slug: "berkshire-shareholder-letters",
-    title: "Berkshire Hathaway Shareholder Letters, 1977-2024",
+    title: "Berkshire Hathaway Shareholder Letters, 1977-2025",
     author: "Warren E. Buffett",
-    year: 2024,
+    year: 2025,
     role: "by",
     figureSlug: "warren-buffett",
     description:
-      "The official Berkshire Hathaway archive of Warren Buffett's annual shareholder letters, 1977 through 2024: primary-source lessons in owner economics, capital allocation, business quality, management, risk, mistakes, and compounding. This corpus is a curated selection of the most substantive letters (34 of the ~48 years), not every single year digested in full.",
+      "The official Berkshire Hathaway archive of Warren Buffett's annual shareholder letters, 1977 through 2024, plus Greg Abel's first letter as CEO for 2025 and Buffett's November 2025 Thanksgiving message: primary-source lessons in owner economics, capital allocation, business quality, management, risk, mistakes, and compounding. This corpus covers every letter from 1977 through 2025 in 36 notes, several of which group consecutive years.",
     amazonUrl: "https://www.berkshirehathaway.com/letters/letters.html",
     skillSlugs: ["warren-buffett", "owner-earnings", "circle-of-competence", "retained-earnings-test", "financial-fortress", "acquisition-filter"],
     status: "partial",
     corpusPaths: ["content/knowledge/berkshire-shareholder-letters"],
+  },
+  {
+    slug: "amazon-shareholder-letters",
+    title: "Amazon Shareholder Letters, 1997-2020",
+    author: "Jeff Bezos",
+    year: 2020,
+    role: "by",
+    figureSlug: "jeff-bezos",
+    description:
+      "Jeff Bezos's 24 annual letters to Amazon shareholders, from the 1997 \"It's All About the Long Term\" letter to his last as CEO in 2020, read from the SEC filings: customer obsession, Day 1, long-term thinking, high-velocity decisions, failure and invention, and how Amazon measured itself. One original note per letter.",
+    amazonUrl: "https://ir.aboutamazon.com/annual-reports-proxies-and-shareholder-letters/default.aspx",
+    skillSlugs: [],
+    status: "partial",
+    corpusPaths: ["content/knowledge/amazon-shareholder-letters"],
   },
   {
     slug: "poor-charlies-almanack",

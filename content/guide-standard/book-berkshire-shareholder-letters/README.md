@@ -1,10 +1,10 @@
-# Berkshire Hathaway Shareholder Letters, 1977-2024
+# Berkshire Hathaway Shareholder Letters, 1977-2025
 
 ID: book:berkshire-shareholder-letters
 
 Owner: bookbox.ink
 
-Coverage: partial, 34 synthesis records.
+Coverage: partial, 36 synthesis records.
 
 Distillation: content/distilled/berkshire-shareholder-letters.md
 
