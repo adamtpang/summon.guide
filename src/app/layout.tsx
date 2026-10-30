@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, Cormorant_Garamond, Cinzel, Geist } from "next/font/google";
+import { Inter, Geist } from "next/font/google";
+import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { PostHogProvider } from "./providers";
@@ -15,17 +16,19 @@ const inter = Inter({
 
 // Cormorant keeps the --font-playfair variable so every font-serif heading
 // picks it up without a rename; Cinzel is the inscriptional display face.
-const playfair = Cormorant_Garamond({
+// Both are self-hosted (SIL Open Font License, files from Fontsource) so the
+// build never depends on a Google Fonts fetch.
+const playfair = localFont({
   variable: "--font-playfair",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  style: ["normal", "italic"],
+  src: [
+    { path: "./fonts/cormorant-garamond-latin-wght.woff2", weight: "300 700", style: "normal" },
+    { path: "./fonts/cormorant-garamond-latin-wght-italic.woff2", weight: "300 700", style: "italic" },
+  ],
 });
 
-const cinzel = Cinzel({
+const cinzel = localFont({
   variable: "--font-cinzel",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  src: [{ path: "./fonts/cinzel-latin-wght.woff2", weight: "400 900", style: "normal" }],
 });
 
 export const viewport = {
