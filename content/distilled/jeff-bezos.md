@@ -14,11 +14,23 @@ Built Amazon from a garage bookstore into everything. Obsessed with Day 1 thinki
 
 ## Starting principles
 
-### 1. Lessons from Jeff Bezos's Shareholder Letters
+### 1. 1997: It's All About the Long Term
 
-Obsess over customers and think in decades; patient invention compounds into free cash flow and a franchise rivals cannot copy.
+Amazon will judge itself by long-term shareholder value built through market leadership, and it lays out the operating rules that follow: customer obsession, long-term investment, bold bets, cash flow over accounting appearance, and owner-minded hiring.
 
-[Source](https://www.youtube.com/watch?v=zt9e6vVBdP4)
+Source record: 1997: It's All About the Long Term
+
+### 2. 1998: Raising the Hiring Bar
+
+Amazon expanded into music, video, gifts, the U.K. and Germany while staying customer-focused, and Bezos explains that great hiring, judged by three questions, is key to building a lasting company.
+
+Source record: 1998: Raising the Hiring Bar
+
+### 3. 1999: What Do You Own?
+
+Bezos answers a shareholder's question by describing Amazon as a platform of brand, customers, technology, distribution, and people that lets it launch new businesses faster and cheaper, and sets six goals for 2000.
+
+Source record: 1999: What Do You Own?
 
 ## Apply one principle
 

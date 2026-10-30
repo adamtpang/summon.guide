@@ -410,6 +410,12 @@
       "availability": "building"
     },
     {
+      "slug": "amazon-shareholder-letters",
+      "name": "Amazon Shareholder Letters, 1997-2020",
+      "kind": "book",
+      "availability": "ready"
+    },
+    {
       "slug": "anything-you-want",
       "name": "Anything You Want",
       "kind": "book",
@@ -429,7 +435,7 @@
     },
     {
       "slug": "berkshire-shareholder-letters",
-      "name": "Berkshire Hathaway Shareholder Letters, 1977-2024",
+      "name": "Berkshire Hathaway Shareholder Letters, 1977-2025",
       "kind": "book",
       "availability": "ready"
     },

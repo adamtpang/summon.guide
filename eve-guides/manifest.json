@@ -350,7 +350,9 @@
     "directory": "person-jeff-bezos",
     "framework": "eve",
     "runtimeEnabled": false,
-    "sourceSlugs": [],
+    "sourceSlugs": [
+      "amazon-shareholder-letters"
+    ],
     "skillSlugs": []
   },
   {
@@ -868,6 +870,18 @@
     "skillSlugs": []
   },
   {
+    "id": "book:amazon-shareholder-letters",
+    "name": "Amazon Shareholder Letters, 1997-2020",
+    "availability": "ready",
+    "directory": "book-amazon-shareholder-letters",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "amazon-shareholder-letters"
+    ],
+    "skillSlugs": []
+  },
+  {
     "id": "book:anything-you-want",
     "name": "Anything You Want",
     "availability": "ready",
@@ -907,7 +921,7 @@
   },
   {
     "id": "book:berkshire-shareholder-letters",
-    "name": "Berkshire Hathaway Shareholder Letters, 1977-2024",
+    "name": "Berkshire Hathaway Shareholder Letters, 1977-2025",
     "availability": "ready",
     "directory": "book-berkshire-shareholder-letters",
     "framework": "eve",

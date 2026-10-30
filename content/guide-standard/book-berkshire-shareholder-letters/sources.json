@@ -309,6 +309,24 @@
       "contentHash": "8b3e26a81a2bfd98702974f6315170501dc98dcd3282513950326688d8da00e1",
       "rightsReview": "not-certified",
       "kind": "published-synthesis"
+    },
+    {
+      "id": "f68b4d7cbf73859d",
+      "title": "2025: Greg Abel's first letter, culture as the operating framework",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/035-2025-greg-abels-first-letter-culture-as-the-operating-framework.md",
+      "contentHash": "ca42f613c9d5e24d3c2d2585af99051a5055ed0c2abe03265912b15353e0fcf6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a05768921df3fd0a",
+      "title": "2025: Buffett's Thanksgiving message, going quiet",
+      "url": null,
+      "synthesis": "content/knowledge/berkshire-shareholder-letters/036-2025-buffetts-thanksgiving-message-going-quiet.md",
+      "contentHash": "6de1cd892c9a8b57c39b3994f2cea5f106756b50828184e74e034a5cbf1d708a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
     }
   ]
 }

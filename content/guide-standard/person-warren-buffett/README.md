@@ -4,7 +4,7 @@ ID: person:warren-buffett
 
 Owner: summon.guide
 
-Coverage: partial, 34 synthesis records.
+Coverage: partial, 36 synthesis records.
 
 Distillation: content/distilled/warren-buffett.md
 

@@ -4,7 +4,7 @@ ID: person:jeff-bezos
 
 Owner: summon.guide
 
-Coverage: partial, 1 synthesis records.
+Coverage: partial, 25 synthesis records.
 
 Distillation: content/distilled/jeff-bezos.md
 

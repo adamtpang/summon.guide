@@ -325,19 +325,19 @@
       "review": "automated citation membership only; human usefulness and accuracy review pending"
     },
     "person:jeff-bezos": {
-      "hash": "cb941bc50f8e00da0e55918dacf0120aead310fb4709bfbb08761dd4b2f0a92d",
-      "checkedAt": "2026-09-20T13:32:16.105Z",
+      "hash": "4c4fec70328cad70c248437bdf5eed07ea99d7e5dacc0014ab95484fb4a8da0f",
+      "checkedAt": "2026-10-30T01:22:11.237Z",
       "model": {
         "provider": "OpenRouter",
-        "model": "deepseek/deepseek-v4.1-flash",
-        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "model": "anthropic/claude-haiku-5.5",
+        "modelLabel": "Anthropic: Claude Haiku 5.5",
         "tier": "discounted",
         "fallbackDepth": 2
       },
-      "query": "I am considering a small reversible decision related to this idea: Obsess over customers and think in decades; patient invention compounds into free cash flow and a franchise rivals cannot copy.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
-      "answer": "The principle: customer obsession beats competitor obsession. Jeff treated customer needs, not rivals, as the fixed point everything else optimizes around, and he wrote the flywheel into the letters, lower costs, lower prices, more growth, more scale, then repeat. [Source: \"Lessons from Jeff Bezos's Shareholder Letters\"]\n\nMy application, not his: for a small reversible decision, ask what the customer would want in five years, not what a competitor shipped last quarter. That is my inference, not a documented Bezos statement.\n\nSmall test: pick one reversible choice this week, write a half page on the customer outcome it produces, and ship it. If it fails, reverse it cheaply.\n\n[FOLLOWUP: What makes a decision truly reversible? | How would Jeff size a small test? | When does customer obsession become an excuse to ignore competitors?]",
+      "query": "I am considering a small reversible decision related to this idea: Amazon will judge itself by long-term shareholder value built through market leadership, and it lays out the operating rules that follow: customer obsession, long-term investment, bold bets, cash flow over accounting appearance, and owner-minded hiring.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "Jeff Bezos's 1997 letter documents a principle that fits a reversible choice: Amazon expected some bold bets to fail, treated each outcome as a lesson, cut programs that missed acceptable returns, and gave more investment to the winners. [Source: \"1997: It's All About the Long Term\"]\n\nApplying that to your decision is my inference, not something he said about your situation. Because the choice is small and reversible, the principle suggests treating it as a bet with a limited cost and a planned review, not as a permanent verdict.\n\nSmall test: choose a stop date two or three weeks out and one measure of success. Make the choice until then, then write down what you learned and decide whether to continue, adjust, or stop.\n\n[FOLLOWUP: What is the decision, specifically? | What result would make you stop early? | What is the smallest version you could test this week?]",
       "citations": [
-        "Lessons from Jeff Bezos's Shareholder Letters"
+        "1997: It's All About the Long Term"
       ],
       "unknownCitations": [],
       "pass": true,
@@ -914,17 +914,17 @@
       "review": "automated citation membership only; human usefulness and accuracy review pending"
     },
     "person:warren-buffett": {
-      "hash": "0fdf48804385dfacc16958ce8406cbeeb43d8b69aeeb2026bda44d807f813241",
-      "checkedAt": "2026-09-20T13:34:19.971Z",
+      "hash": "d7f27f4c6fe90b6b1e856cf14d5044b18077df483c8850e46c3106f812491a37",
+      "checkedAt": "2026-10-30T01:22:12.279Z",
       "model": {
         "provider": "OpenRouter",
-        "model": "deepseek/deepseek-v4.1-flash",
-        "modelLabel": "DeepSeek: DeepSeek V4.1 Flash",
+        "model": "anthropic/claude-haiku-5.5",
+        "modelLabel": "Anthropic: Claude Haiku 5.5",
         "tier": "discounted",
         "fallbackDepth": 2
       },
       "query": "I am considering a small reversible decision related to this idea: Buffett judges Berkshire, and every stock it owns, by return on equity capital and by the standard of a business owner buying a fractional interest in a real enterprise, not by a trader watching a ticker or a manager chasing earnings-per-share growth.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
-      "answer": "The supported principle is that Buffett measures progress by return on beginning equity capital, not by rising earnings per share. He calls EPS growth a \"stopped clock\" or \"dormant savings account\" effect, since retained capital compounds earnings without proving the business improved. He used 19% return on beginning equity in 1977 as the real yardstick.\n\nMy application, not his: for your small reversible decision, ask what return the capital or time committed would earn against the best alternative, including doing nothing.\n\nSmall test: write down the capital or hours involved, the expected annual return, and the alternative you would otherwise choose. If you cannot state the return simply, it is outside your circle.\n\nCite as: [Source: \"1977-1978: The Owner-Oriented View\"]\n\n[FOLLOWUP: How do I calculate return on beginning equity for a personal decision? | What does Buffett mean by a dormant savings account? | When should I prefer doing nothing over acting?]",
+      "answer": "Buffett judges a holding the way an owner judges a whole business: by what the enterprise earns on the capital it uses, not by the daily quotation or by growth in earnings per share. In his 1977 and 1978 letters he argues that rising per-share earnings are a weak scorecard, since a dormant savings account can produce them through compounding alone. [Source: \"1977-1978: The Owner-Oriented View\"]\n\nI'm an AI guide built on Buffett's public work, not Buffett himself, and this is a principle, not a recommendation. I can't tell from here whether your decision involves something you understand, so that comes first.\n\nSmall test: for the next two weeks, write one paragraph describing what the underlying business earns, who runs it, and whether it would still matter to you if the market were closed for five years. Don't check the price while you write it. If the paragraph is hard to write, that tells you something useful.\n\n[FOLLOWUP: What does the underlying business actually sell and to whom? | How would you know if the managers were honest and competent? | What would make you reverse this decision?]",
       "citations": [
         "1977-1978: The Owner-Oriented View"
       ],
@@ -1921,6 +1921,26 @@
       "answer": "The supported principle: in \"A New Zeitgeist: Why the Zombie, and Why Now,\" the authors claim the zombie is a distorted mirror of modern people, and that what it mirrors is the ruin of what is meaningful in us, part of a crisis of worldview they call the meaning crisis.\n\nThat is a cultural diagnosis, not guidance about your particular decision. Applying it to your choice is my extension, not the authors' claim.\n\nSmall test: for one week, before deciding, ask whether the choice feels intelligible and shared with others, or vacant and unshared. The corpus ties the felt sense of realness to intelligibility and connection.\n\n[Source: \"A New Zeitgeist: Why the Zombie, and Why Now\"]\n\n[FOLLOWUP: What four symbols does the zombie supply for the meaning crisis? | How does the corpus define the felt sense of realness? | Why do the authors treat zombie films as inarticulate pop art?]",
       "citations": [
         "A New Zeitgeist: Why the Zombie, and Why Now"
+      ],
+      "unknownCitations": [],
+      "pass": true,
+      "review": "automated citation membership only; human usefulness and accuracy review pending"
+    },
+    "book:amazon-shareholder-letters": {
+      "hash": "768f167c7e901a4a7a4c6fdeb887b21d58a2dc83e5f6e5de2ac202520e2a45d0",
+      "checkedAt": "2026-10-30T01:22:11.252Z",
+      "model": {
+        "provider": "OpenRouter",
+        "model": "anthropic/claude-haiku-5.5",
+        "modelLabel": "Anthropic: Claude Haiku 5.5",
+        "tier": "discounted",
+        "fallbackDepth": 2
+      },
+      "query": "I am considering a small reversible decision related to this idea: Amazon will judge itself by long-term shareholder value built through market leadership, and it lays out the operating rules that follow: customer obsession, long-term investment, bold bets, cash flow over accounting appearance, and owner-minded hiring.. Explain one supported principle, cite its exact supplied source title, distinguish your application, and suggest one small test. Keep the answer under 150 words.",
+      "answer": "The 2015 letter separates Type 1 decisions, which are irreversible one-way doors that deserve slow care, from Type 2 decisions, which are reversible and should be made quickly by high-judgment individuals or small groups. [Source: \"2015: Invention machine and two-way doors\"]\n\nApplying that to your choice is my own interpretation, not something the letter says about your situation. If the change can be undone easily, the letter's logic suggests treating it as a Type 2 decision rather than over-deliberating.\n\nA small test: set a one-week limit, apply the change to one small piece of the decision, and write down what you observe. Then decide whether to keep it, adjust it, or reverse it. What would make this particular decision hard to undo?\n\n[Source: \"2015: Invention machine and two-way doors\"]\n\n[FOLLOWUP: How do I tell whether a decision is truly reversible? | What signals would tell me the one-week test worked? | How does the Type 1 versus Type 2 distinction apply to hiring decisions?]",
+      "citations": [
+        "2015: Invention machine and two-way doors",
+        "2015: Invention machine and two-way doors"
       ],
       "unknownCitations": [],
       "pass": true,

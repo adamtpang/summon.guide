@@ -67,7 +67,7 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
     ]
   },
   "berkshire-shareholder-letters": {
-    "title": "Berkshire Hathaway Shareholder Letters, 1977-2024",
+    "title": "Berkshire Hathaway Shareholder Letters, 1977-2025",
     "host": "Warren E. Buffett",
     "episodes": [
       {
@@ -696,6 +696,542 @@ export const sourceCorpus: Record<string, SourceCorpus> = {
           "BNSF and Berkshire Hathaway Energy are both singled out as 2023 disappointments, BNSF's earnings fell as wage costs from federally mediated negotiations outran revenue, while BHE absorbed forest-fire liability losses and faced a shifting utility-regulation climate that Buffett calls \"a costly mistake\" not to have anticipated.",
           "The 2024 letter memorializes Pete Liegl, founder of RV maker Forest River, who died in November 2024 still working at 80; Buffett recounts negotiating Liegl's purchase and compensation directly in 2005, when Liegl set his own salary at $100,000 a year plus a bonus tied to earnings growth, offered as one of Buffett's examples of trusting an owner-operator completely.",
           "Both letters close with reflections tying Buffett's own long tenure to Berkshire's identity: the 2023 letter closes on Munger's and Buffett's shared Omaha roots and Bertie's decades of patient, low-turnover investing; the 2024 letter closes by describing a commemorative book, \"60 Years of Berkshire Hathaway,\" built around Munger's photos, quotes, and previously unpublished stories, sold to fund a South Omaha homeless shelter that Buffett personally matches."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/berkshire-shareholder-letters/035-2025-greg-abels-first-letter-culture-as-the-operating-framework.md",
+        "title": "2025: Greg Abel's first letter, culture as the operating framework",
+        "principle": "In his first letter as CEO, Greg Abel argues that Berkshire's culture and written values are a system for long-term performance, not decoration. Capital discipline, a fortress balance sheet, decentralization and candor about weak spots continue unchanged after Buffett.",
+        "keyLessons": [
+          "Abel opens by crediting Buffett and Munger, then frames the CEO's job as stewardship: shareholders' capital is commingled with management's but does not belong to it.",
+          "He publishes the values sent to all employees (partnership attitude, decentralized model, integrity, financial strength, capital discipline, risk management, operational excellence) and promises to attach them to every future letter with a report on how they were practiced.",
+          "Decentralization stays: subsidiary CEOs get autonomy paired with accountability, no layers of bureaucracy and no short-term earnings targets; Berkshire must have leaders that fit its principles, not the reverse.",
+          "Integrity means admitting failures and fixing them; his example is BNSF apologizing and settling a long dispute with the Swinomish Indian Tribal Community over crude oil shipments.",
+          "Cash and Treasury holdings exceeded $370 billion; he calls the large position dry powder, not a retreat, and says Berkshire prefers owning productive businesses to holding Treasuries.",
+          "2025 deals were OxyChem (found through the Occidental investment) and Bell Laboratories, a rodent-control company that came via a letter to Buffett; Abel's only complaint is it was not ten times bigger.",
+          "The CEO doubles as Chief Risk Officer; Ajit Jain's rule is to walk away when insurance is mispriced, and the property-casualty combined ratio was 87.1% against a ten-year average of 93.0%.",
+          "Operating earnings were $44.5 billion (down from $47.4 billion in 2024) and operating cash flow $46 billion; float rose to $176 billion from $171 billion.",
+          "He expects to write less insurance as prices soften, and notes GEICO's rate increases restored margins at the cost of customer retention.",
+          "He is blunt about laggards: BNSF's operating margin (34.5%) still trails the industry's best, Shaw's problems were partly self-inflicted, Kraft Heinz has been disappointing, and the delayed control of Pilot was a mistake that \"will not happen again.\"",
+          "Concentrated core holdings continue: Apple, American Express, Coca-Cola, Moody's and five Japanese trading houses made up about $194 billion, nearly two-thirds of the equity portfolio.",
+          "Communication stays annual and candid, delivered to all shareholders at once, with no quarterly commentary."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/berkshire-shareholder-letters/036-2025-buffetts-thanksgiving-message-going-quiet.md",
+        "title": "2025: Buffett's Thanksgiving message, going quiet",
+        "principle": "Buffett announces he will stop writing the annual report, hands the CEO role to Greg Abel, and explains why he is accelerating gifts to his children's foundations. He closes with life advice: credit luck, pick good heroes, and live the life your obituary should describe.",
+        "keyLessons": [
+          "Buffett says he will no longer write the annual report or talk at length at the annual meeting, but will keep writing a yearly Thanksgiving message.",
+          "On the same day he converted 1,800 A shares into 2,700,000 B shares and gave them to four family foundations, 1,500,000 to the Susan Thompson Buffett Foundation and 400,000 to each of the other three.",
+          "He tours the Omaha people who shaped Berkshire: Charlie Munger, Stan Lipsey (whose Sunday paper turned the Buffalo Evening News into a business earning over 100% a year pretax on a $33 million investment), Walter Scott Jr., Don Keough, Ajit Jain and Greg Abel.",
+          "He credits his base in Omaha with making both him and Berkshire better than they would have been elsewhere.",
+          "Luck is the theme: he was born in 1930 healthy, white, male and American, while equally capable sisters and countless others got far worse draws, and the rich too often refuse to admit their luck.",
+          "Because his children are 72, 70 and 67, he is accelerating gifts so they can distribute nearly his whole estate, while keeping a large block of A shares until shareholders grow comfortable with Abel.",
+          "He rejects ruling from the grave and tells his children they only need to do somewhat better than government or typical philanthropy, not perform miracles.",
+          "He says he would choose Abel over anyone to manage everyone's savings, and wants future CEOs who are not aiming to retire at 65, get flashy rich, or found a dynasty.",
+          "An admitted mistake: he and Munger several times failed to act when a loyal CEO was declining from dementia or long illness, and boards must watch for it.",
+          "He argues pay-ratio disclosure backfired, producing envy and ratcheting CEO pay rather than restraint.",
+          "Berkshire's stock has fallen about 50% three times in 60 years under current management, and he expects such drops again.",
+          "Closing advice: learn a little from mistakes and move on, copy the right heroes (starting with Tom Murphy), and decide what you want your obituary to say, then earn it."
+        ],
+        "youtube": "",
+        "guest": ""
+      }
+    ]
+  },
+  "amazon-shareholder-letters": {
+    "title": "Amazon Shareholder Letters, 1997-2020",
+    "host": "Jeff Bezos",
+    "episodes": [
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/001-1997-it-s-all-about-the-long-term.md",
+        "title": "1997: It's All About the Long Term",
+        "principle": "Amazon will judge itself by long-term shareholder value built through market leadership, and it lays out the operating rules that follow: customer obsession, long-term investment, bold bets, cash flow over accounting appearance, and owner-minded hiring.",
+        "keyLessons": [
+          "In its first year as a public company Amazon reached more than 1.5 million customers and grew revenue 838% to $147.8 million.",
+          "Bezos frames the moment as Day 1 for the Internet and for Amazon, with a window to lock in leadership before larger players finish moving online.",
+          "Market leadership is the core measure because it compounds into higher revenue, profitability, capital velocity, and return on invested capital.",
+          "The letter lists management rules shareholders should test against their own philosophy, including investing for long-term leadership rather than short-term Wall Street reactions.",
+          "Faced with a choice between flattering GAAP results and the present value of future cash flows, Amazon says \"we'll take the cash flows.\"",
+          "Bold bets are expected to fail sometimes and each outcome is treated as a lesson; programs that miss acceptable returns are cut and winners get more investment.",
+          "Amazon prioritizes growth at this stage because it believes scale is central to its model, while promising a lean, cost-conscious culture.",
+          "Employee pay is weighted toward stock options so that every employee thinks like, and actually is, an owner.",
+          "Repeat orders rose from over 46% to over 58% between the fourth quarters of 1996 and 1997, and word of mouth is called the strongest acquisition tool.",
+          "Headcount grew from 158 to 614 and distribution space from 50,000 to 285,000 square feet, with a second center opened in Delaware.",
+          "Setting a high hiring bar is named the single most important element of the company's success.",
+          "Goals for 1998 include adding music and serving overseas customers better, with the real challenge being how to prioritize investments."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/002-1998-raising-the-hiring-bar.md",
+        "title": "1998: Raising the Hiring Bar",
+        "principle": "Amazon expanded into music, video, gifts, the U.K. and Germany while staying customer-focused, and Bezos explains that great hiring, judged by three questions, is key to building a lasting company.",
+        "keyLessons": [
+          "Sales rose 313% from $148 million to $610 million, and cumulative customer accounts grew from 1.5 million to 6.2 million.",
+          "Repeat-customer orders climbed from over 58% to over 64% between the fourth quarters of 1997 and 1998 despite heavy new customer growth.",
+          "The new music store became the leading online music retailer in its first full quarter, and video reached the lead in six weeks.",
+          "Amazon.co.uk and Amazon.de launched in October and became the leading online booksellers in their markets.",
+          "The model is called cash-favored: a billion-dollar sales rate on about $30 million of inventory and $30 million of net plant and equipment, with $31 million of operating cash flow.",
+          "Bezos tells employees to fear customers rather than competitors, because customers stay loyal only until someone offers better service.",
+          "Hiring meetings weigh three questions, starting with \"Will you admire this person?\", then whether they raise the group's average effectiveness, and where they could be a superstar.",
+          "The bar should keep rising so that in five years people feel lucky they joined when they did.",
+          "The 1999 plan centers on distribution capacity, systems scale, brand, new offerings such as Auctions, and bench strength and processes.",
+          "Bezos admits that scaling teams and processes across new products, geographies, and acquisitions is among the hardest parts of the plan.",
+          "Because printed letters jumped from about 13,000 to more than 200,000, he appends the 1997 letter and asks new owners to read its long-term section twice."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/003-1999-what-do-you-own.md",
+        "title": "1999: What Do You Own?",
+        "principle": "Bezos answers a shareholder's question by describing Amazon as a platform of brand, customers, technology, distribution, and people that lets it launch new businesses faster and cheaper, and sets six goals for 2000.",
+        "keyLessons": [
+          "Sales rose 169% from $610 million to $1.64 billion, with 10.7 million new customers lifting cumulative accounts to 16.9 million.",
+          "Two years earlier U.S. books were all of sales; in 1999 other areas such as Toys, zShops, Auctions, and Consumer Electronics made up more than half.",
+          "International sales were 22% of the business at $358 million, and distribution space grew from about 300,000 to over 5 million square feet in under a year.",
+          "Amazon grew revenue 90% in the fourth quarter while shipping well over 99% of holiday orders on time.",
+          "Over five years the company had used just $62 million, net, of operating cash while reaching a run rate above $2 billion.",
+          "A Stanford student asked \"What do I own?\" about her 100 shares; Bezos answers that she owns a piece of the leading e-commerce platform.",
+          "He argues the platform has reached a tipping point where each new business launches faster, at lower incremental cost, with a clearer path to profit.",
+          "The vision is Earth's most customer-centric company, built with thousands of partners chosen first for the quality of customer experience they deliver.",
+          "Six goals for 2000: grow customer relationships, expand products and services, operational excellence, international expansion, partnerships, and profitability in every business.",
+          "Operational excellence links efficiency and customer experience, since faster delivery cuts contacts per order and service costs.",
+          "He closes that today's online shopping experience is the worst it will ever be, because the underlying technology improves every day."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/004-2000-ouch-voting-machine-versus-weighing-machine.md",
+        "title": "2000: Ouch: Voting Machine Versus Weighing Machine",
+        "principle": "After shares fell more than 80%, Bezos argues the company is stronger than ever, owns up to failed investments in Pets.com and living.com, and commits to a fourth-quarter 2001 pro forma operating profit.",
+        "keyLessons": [
+          "The letter opens by acknowledging a brutal year in which Amazon shares fell more than 80% from the prior letter.",
+          "Customers served grew from 14 million to 20 million and sales from $1.64 billion to $2.76 billion.",
+          "Pro forma operating loss shrank from 26% to 6% of sales between Q4 1999 and Q4 2000, and to 2% in the U.S.",
+          "Gross profit rose 125% to $656 million, and cash and marketable securities ended the year at $1.1 billion.",
+          "An ACSI score of 84, which Amazon was told was a record for any service company, is cited as the most important result.",
+          "Citing Benjamin Graham, Bezos says the market votes in the short run and weighs in the long run: \"We're a company that wants to be weighed.\"",
+          "He admits significant losses on stakes in living.com and Pets.com, both of which shut down in 2000.",
+          "The land rush metaphor had been useful since 1994, but Amazon underestimated how much time remained and how hard scale would be for single-category sites.",
+          "Online retail is a scale business with high fixed costs and low variable costs, which makes being mid-sized difficult.",
+          "Falling costs of processing, disk, and bandwidth mean Amazon could use 60 times the bandwidth per customer in five years at constant cost.",
+          "He still estimates some 15% of retail could move online and makes a Q4 2001 pro forma operating profit the top priority."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/005-2001-the-price-and-cost-loop.md",
+        "title": "2001: The Price and Cost Loop",
+        "principle": "Amazon moved from pure growth, then cost cutting, to balancing both, and Bezos explains the loop where lower costs fund lower prices that drive growth, plus why cash flow per share drives long-term value.",
+        "keyLessons": [
+          "After four years of growth and nearly two years focused on costs, Amazon reached a point in July where it could fund both at once.",
+          "Discounting books over $20 by 30% in July and free shipping on orders over $99 in January marked the shift to lowering prices.",
+          "Lower costs allow lower prices, which drive growth, which spreads fixed costs and allows further price cuts: \"Please expect us to repeat this loop.\"",
+          "Fourth-quarter pro forma operating profit was $59 million and pro forma net profit $35 million, beating internal goals.",
+          "Sales grew 13% to $3.12 billion, with the first billion-dollar quarter and 25 million customer accounts served.",
+          "Marketplace, launched in November 2000, reached 15% of U.S. orders by Q4, far beyond expectations.",
+          "Inventory turns rose from 12 to 16, and the ACSI score was 84 for a second straight year.",
+          "Customer experience now rests on three pillars: selection, convenience, and, newly, relentlessly lower prices.",
+          "Features like Look Inside the Book and Instant Order Update, plus eliminating errors at their root, improve both experience and cost.",
+          "A share is a claim on future cash flows, so future cash flow and future share count together explain long-term value.",
+          "Amazon targets net dilution from employee options averaging 3% a year over five years to protect cash flow per share."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/006-2002-low-prices-and-great-experience-together.md",
+        "title": "2002: Low Prices and Great Experience Together",
+        "principle": "Bezos explains how Amazon can pursue both the best customer experience and the lowest prices: much of the experience is a fixed cost, so it shrinks as a share of sales, while removing defects lowers variable cost.",
+        "keyLessons": [
+          "Bezos lists what makes Amazon an unusual store, including 19 inventory turns a year, critical customer reviews, and used goods beside new ones.",
+          "Traditional retailers trade off high-touch service against low prices; Amazon claims it can do both.",
+          "Selection, product information, and recommendations are mostly fixed costs, more like publishing than retailing, so they fall relative to sales as volume grows.",
+          "Variable costs such as fulfillment improve by reducing defects, which also improves the customer experience.",
+          "Holiday cycle time improved 17% and contacts per order improved 13% while record units shipped.",
+          "Electronics selection rose over 40% in the U.S., and even U.S. books selection grew 15%.",
+          "Amazon scored 88 on the ACSI, which the letter calls the highest ever recorded in any service industry.",
+          "Free Super Saver Shipping on orders over $25 runs every day of the year.",
+          "A check of a superstore chain's 100 bestsellers found $1,561 in its stores versus $1,195 at Amazon, a 23% saving.",
+          "Net sales rose 26% to $3.9 billion and free cash flow, called the most important financial measure, reached $135 million.",
+          "The conclusion is simple: \"what's good for customers is good for shareholders.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/007-2003-owners-versus-tenants.md",
+        "title": "2003: Owners Versus Tenants",
+        "principle": "Long-term thinking is both a requirement and a result of true ownership, and Bezos shows how it drives concrete customer experience choices that cost sales now but build a more valuable business.",
+        "keyLessons": [
+          "Bezos contrasts owners with tenants, using renters who nailed a Christmas tree into hardwood floors as the image of short-term thinking.",
+          "Many investors effectively rent stocks by turning portfolios so fast they never truly own them.",
+          "Customer experience is defined broadly to include prices, selection, interface, packaging, and shipping, and is the main driver of the business.",
+          "Allowing negative reviews drew vendor complaints, but helping customers decide better pays off over time.",
+          "Instant Order Update measurably and slightly reduced sales, yet Amazon kept it because it helps customers and owners in the long run.",
+          "Free shipping and price cuts usually hurt current results but strengthen the business through the price-cost structure loop.",
+          "Building a feature for 40 million customers costs nowhere near 40 times what it would for 1 million, so volume lowers costs as a share of sales.",
+          "Pricing seeks maximum customer value and a larger long-term bottom line rather than maximum margin percentage.",
+          "Amazon targeted jewelry gross margins well below industry norms, betting that customers eventually notice.",
+          "He closes the letter with \"Here's to not being a tenant!\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/008-2004-free-cash-flow-per-share.md",
+        "title": "2004: Free Cash Flow Per Share",
+        "principle": "Amazon's ultimate financial measure is free cash flow per share, not earnings, and Bezos uses a hypothetical transport machine to show how growing earnings can still destroy shareholder value.",
+        "keyLessons": [
+          "Bezos names long-term free cash flow per share as the measure Amazon most wants to drive.",
+          "Shares are worth the present value of future cash flows, not future earnings, so working capital, capital spending, and dilution all matter.",
+          "A hypothetical transport machine business shows 100% annual earnings growth and $150 million of cumulative earnings over four years.",
+          "The same business produces negative $530 million of cumulative free cash flow because each $160 million machine costs more than it returns.",
+          "EBITDA would show the same false picture by ignoring $1.28 billion of capital spending: \"EBITDA isn't cash flow.\"",
+          "Paradoxically the flawed business is better off growing slower, and no growth rate makes it worth funding.",
+          "Amazon's operating cycle generates cash because fast inventory turns let it collect from customers before paying suppliers.",
+          "Inventory was $480 million on nearly $7 billion of sales, and fixed assets were $246 million, about 4% of sales.",
+          "Free cash flow grew 38% to $477 million in 2004.",
+          "Shares plus stock awards were essentially flat for the year and down 1% over three years, helped by repaying over $600 million of convertible debt."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/009-2005-math-decisions-and-judgment-decisions.md",
+        "title": "2005: Math Decisions and Judgment Decisions",
+        "principle": "Some decisions can be settled by data, but the most important ones, like steady price cuts, free shipping, Prime, and opening detail pages to third parties, require judgment that goes against short-term math.",
+        "keyLessons": [
+          "Amazon's favorite decisions are math-based, where data shows which answer is better.",
+          "Fulfillment center planning uses seasonal peaks, product mix, size and weight, and proximity to customers and transport hubs.",
+          "Inventory modeling keeps over one million items under Amazon's roof while turning inventory more than fourteen times a year.",
+          "In such cases judgment is a junior partner: \"The heavy lifting is done by the math.\"",
+          "When history is missing and experiments are impractical, judgment becomes the prime ingredient.",
+          "Elasticity data says short-term volume never pays for a price cut, but Amazon judges that years of lower prices build a much larger free cash flow.",
+          "Free Super Saver Shipping and Amazon Prime were similar judgment calls, costly now and valuable later.",
+          "Letting third parties compete on product detail pages in 2000 raised fears of cannibalization and excess inventory.",
+          "Third-party units grew from 6% of units in 2000 to 28% in 2005 while retail revenues tripled.",
+          "Bezos cites a 1976 Mintzberg paper warning that over-focus on operating decisions can make organizations pursue wrong courses more efficiently.",
+          "Institutions unwilling to endure controversy confine themselves to math decisions and thereby limit innovation."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/010-2006-planting-seeds-for-new-businesses.md",
+        "title": "2006: Planting Seeds for New Businesses",
+        "principle": "New businesses must clear high bars on returns, scale, underserved demand, and differentiation, and Amazon's culture of patiently growing small seeds into large businesses is a competitive advantage.",
+        "keyLessons": [
+          "Established businesses are well-rooted young trees with high returns, which sets a high bar for any new venture.",
+          "Each new business must promise the returns investors expected, meaningful scale, an underserved opportunity, and real customer-facing differentiation.",
+          "Physical stores fail all but one test: big potential, but no low-capital model, an already well-served market, and no differentiating idea.",
+          "The Joyo.com acquisition in China, plus shoes, apparel, and groceries, are cited as businesses that pass the tests.",
+          "Fulfillment by Amazon turns the 12 million square foot network into a service sellers can use for 45 cents per cubic foot per month.",
+          "Amazon Web Services offers ten web services to over 240,000 registered developers, targeting needs like storage and compute.",
+          "Many employees have watched $10 million seeds become billion-dollar businesses, which shapes a culture that accepts small starts.",
+          "Leaders of big units send congratulations to emerging teams rather than scoffing at $10 million businesses inside a $10 billion company.",
+          "A runaway success takes roughly three to seven years to matter to overall economics.",
+          "International is 45% of sales, non-media 34%, and third-party sellers 28% of units, as proof of earlier seeds growing.",
+          "Bezos admits Amazon will not always choose right or succeed, but says \"we will be choosy\" and patient."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/011-2007-kindle-and-improving-the-book.md",
+        "title": "2007: Kindle and Improving the Book",
+        "principle": "Kindle took three years and aimed to improve on the physical book by disappearing like one while adding what only a digital medium can do, an effort driven by missionaries focused on long-form reading.",
+        "keyLessons": [
+          "Kindle launched November 19, 2007, after three years of work, and sold out in the first five and a half hours.",
+          "It offered wireless access to more than 110,000 titles with no contract or monthly fee, and books downloaded in under 60 seconds.",
+          "The team chose the audacious goal of improving the book, which had resisted change for 500 years.",
+          "The book's most important feature is that it disappears, so Kindle had to get out of the reader's way.",
+          "Rather than copy every bookstore feature, as early Amazon was urged to with electronic book signings, Amazon builds what only the new medium can do.",
+          "Kindle adds word lookup, search, cloud-stored notes, automatic place-keeping, and adjustable fonts.",
+          "The vision is every book ever printed in any language, available in under 60 seconds.",
+          "Publishers gain books that never go out of print or stock and no overprinting waste.",
+          "Bezos argues tools change people, and Kindle could counter the shift toward information snacking with longer attention spans.",
+          "He admits Amazon has no guaranteed claim on improving the book; if it executes poorly, others will.",
+          "He notes that \"missionaries build better products,\" and the same team stays focused on free cash flow per share and returns on capital."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/012-2008-working-backwards-in-a-turbulent-economy.md",
+        "title": "2008: Working Backwards in a Turbulent Economy",
+        "principle": "In a turbulent economy Amazon keeps its long-term, customer-obsessed approach, working backwards from durable customer needs even when that means learning new skills, as with Kindle.",
+        "keyLessons": [
+          "Long-term thinking supports the failure and iteration that invention requires and avoids crowded races for instant gratification.",
+          "Working backwards from customer needs is contrasted with a skills-forward approach that, used alone, leaves existing skills to go outmoded.",
+          "Amazon had never built hardware, so for Kindle it hired hardware engineers instead of shrinking the vision to its existing skills.",
+          "Kindle sales beat the most optimistic expectations, and Kindle 2 began shipping February 23 with room for 1,500 books.",
+          "Of thousands of customer feedback emails about Kindle, 26% contained the word \"love.\"",
+          "Low prices, vast selection, and fast delivery are durable needs, which justifies investing heavily in them.",
+          "Pricing aims to earn trust rather than optimize short-term profit, and free shipping saved customers more than $800 million in 12 months.",
+          "Amazon added 28 categories since 2007, and the Endless.com shoe store keeps surprising Bezos.",
+          "Prime costs $79 a year, and FBA shipped more than 3 million units for sellers in Q4 2008.",
+          "Bezos sees muda, or waste, everywhere and calls it energizing potential for years of productivity gains.",
+          "The primary financial goal remains maximizing long-term free cash flow with high returns, while investing in AWS, seller tools, digital media, China, and new categories."
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/013-2009-inputs-over-outputs.md",
+        "title": "2009: Inputs over outputs",
+        "principle": "Amazon manages the controllable inputs of the customer experience rather than debating financial outputs, and its annual goals barely mention profit metrics.",
+        "keyLessons": [
+          "Bezos credits 2009 results to 15 years of accumulated customer experience work: wider selection, faster delivery, and a lower cost structure that funds lower prices.",
+          "Net sales rose 28% to $24.51 billion, fifteen times the $1.64 billion of 1999, and free cash flow rose 114% to $2.92 billion.",
+          "Third-party sellers made up 30% of unit sales, active seller accounts grew 24% to 1.9 million, and FBA sellers stowed over a million unique items in Amazon's network.",
+          "Amazon bought Zappos in November and added 21 new product categories worldwide.",
+          "The U.S. Kindle Store grew from 250,000 to more than 460,000 books, and Kindles shipped to more than 120 countries.",
+          "AWS launched many services (Relational Database Service, Virtual Private Cloud, Elastic MapReduce, Spot Instances) and added more customers than in any prior year.",
+          "New senior leaders are often surprised how little time the company spends discussing financial results or projections.",
+          "For 2010 the company set 452 detailed goals with owners, deliverables, and dates, and 360 of them directly affect the customer experience.",
+          "Revenue appears eight times in those goals and free cash flow four times; net income, gross margin, and operating profit appear zero times.",
+          "Listening to customers is not enough: Amazon must also invent on their behalf.",
+          "Bezos admits the company has missed goals in past years and cannot promise to hit all of this year's.",
+          "One line from the letter sums it up: \"Start with customers, and work backwards.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/014-2010-technology-infused-everywhere.md",
+        "title": "2010: Technology infused everywhere",
+        "principle": "Amazon treats advanced computer science as part of every team and process rather than a side R&D department, and argues this engineering work leads directly to free cash flow.",
+        "keyLessons": [
+          "Amazon applies nearly every software architecture pattern in the textbooks, and often has to push research past where academics have gone.",
+          "Its systems are built as services with hardened interfaces, an approach adopted long before service-oriented architecture became a buzzword.",
+          "A single product detail page calls between 200 and 300 services to build a personalized view.",
+          "When commercial databases could not handle petabytes and millions of requests per second, Amazon built its own key-value and single-table stores based on eventual consistency.",
+          "That internal storage work became the basis for AWS offerings such as S3, Elastic Block Store, and SimpleDB.",
+          "Machine learning (topic models, information extraction, random forests at ranking time) powers search relevance, demand forecasting, inventory allocation, and fraud detection.",
+          "Technology is not kept in a separate R&D group; it is integrated into every team, process, and decision.",
+          "Whispersync keeps Kindle libraries, highlights, and bookmarks in sync across devices for millions of owners, hiding hard distributed-systems work behind a simple experience.",
+          "Bezos tells shareowners these techniques are not pursued idly: in his view they lead directly to free cash flow.",
+          "He restates that long-term shareowner interests are aligned with customer interests.",
+          "One line from the letter sums it up: \"they lead directly to free cash flow.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/015-2011-self-service-platforms-unleash-invention.md",
+        "title": "2011: Self-service platforms unleash invention",
+        "principle": "AWS, Fulfillment by Amazon, and Kindle Direct Publishing are self-service platforms that let thousands of people experiment without gatekeepers, creating win-win value.",
+        "keyLessons": [
+          "The letter opens with testimonials from BandPage's CTO, the founder of EasyLunchboxes, a used-book seller, and several KDP authors describing how Amazon's platforms changed their work.",
+          "Bezos groups AWS, FBA, and KDP as large self-service platforms that are not zero-sum and create value for developers, sellers, authors, and readers.",
+          "AWS had grown to thirty services; S3 held over 900 billion objects, added over a billion a day, and peaked near a million transactions per second.",
+          "AWS turns capital expense into a variable cost, needs no contract or salesperson, and scales up or down elastically.",
+          "In the last quarter of 2011 alone, FBA shipped tens of millions of items for sellers, making their goods eligible for Prime and Super Saver Shipping.",
+          "Self-service is emphasized for a non-obvious reason: without an expert gatekeeper to say no, improbable ideas get tried, and many of them work.",
+          "More than a thousand KDP authors each sold over a thousand copies a month, and two had joined the Kindle Million Club.",
+          "KDP pays authors 70% royalties versus 17.5% on ebooks from the largest traditional publishers; a $2.99 KDP book earns the author about $2, which would need an $11.43 price at the legacy rate.",
+          "Readers get lower prices and more diversity, since the Kindle best-seller list is full of small presses and self-published authors.",
+          "Bezos says the pace of invention at Amazon is accelerating.",
+          "One line from the letter sums it up: \"even well-meaning gatekeepers slow innovation.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/016-2012-proactive-customer-obsession.md",
+        "title": "2012: Proactive customer obsession",
+        "principle": "A customer-centric culture makes Amazon improve, cut prices, and invent before competitive pressure forces it, which earns trust and aligns customer and shareholder interests over the long term.",
+        "keyLessons": [
+          "Amazon's energy comes from wanting to impress customers rather than beat competitors, though Bezos grants competitor-focused companies can also succeed.",
+          "Customer focus produces proactivity: adding features, lowering prices, and inventing before external pressure demands it, even where Amazon already leads.",
+          "Prime had more than 15 million items, up 15 times since its 2005 launch; Prime Instant Video tripled to over 38,000 titles and the Kindle Owners' Lending Library passed 300,000 books.",
+          "Automated systems detect poor experiences, such as bad video playback, and issue refunds before the customer asks.",
+          "Pre-order price protection refunds customers automatically, which costs more than making them request it but earns trust.",
+          "Amazon Publishing moved to paying authors monthly instead of the industry's twice-a-year standard, with no competitive pressure to do so.",
+          "Kindle hardware is sold at roughly breakeven so the company earns money when devices are used, not when they are bought.",
+          "AWS launched 159 new features and services in 2012, cut prices 27 times in seven years, and built Trusted Advisor to tell customers when they are overpaying.",
+          "Bezos rejects the view that heavy investment in customers is charity, arguing that doling out improvements just in time would be risky and too clever by half.",
+          "Citing Benjamin Graham's voting machine and weighing machine, he says the company does not celebrate a 10% stock rise and aims to build a heavier company.",
+          "He expects mistakes and blind alleys, some self-inflicted, as the cost of pioneering.",
+          "One line from the letter sums it up: \"We want to be weighed.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/017-2013-a-tour-of-reinventing-normal.md",
+        "title": "2013: A tour of reinventing normal",
+        "principle": "A wide tour of initiatives, from Prime and Fire TV to Mayday and Pay to Quit, shows invention distributed across all levels of Amazon, with failure accepted as part of the process.",
+        "keyLessons": [
+          "More than one million customers joined Prime in the third week of December alone, and eligible Prime items passed 20 million, up from one million at launch nine years earlier.",
+          "Prime Instant Video grew from 5,000 titles in 2011 to over 40,000; Bezos calls viewing growth an output metric and selection and its desirability the inputs.",
+          "AWS significant launches rose from 61 in 2010 to 82, then 159, then 280 in 2013, and prices were cut more than 40 times in eight years.",
+          "Amazon Fresh was trialed for five years in Seattle before expanding to Los Angeles and San Francisco.",
+          "Career Choice prepays 95% of tuition for in-demand fields even if the skills are not relevant to Amazon.",
+          "Pay to Quit, invented at Zappos, offers associates $2,000 rising to $5,000 to leave, so people stay only if they want to.",
+          "Weblab experiments grew from 546 in 2011 to 1,092 in 2012 and 1,976 in 2013; Ask an Owner was one result.",
+          "The Mayday button set a 15-second response goal for tech support and averaged 9 seconds on Christmas.",
+          "Amazon hired more than 1,900 veterans in 2013 and runs 96 fulfillment centers on their 7th generation of design.",
+          "Bezos says decentralized invention is the only path to robust innovation and admits Amazon will certainly fail at some big bets.",
+          "He closes by remembering former CFO Joy Covey as a long-term thinker who chose substance over optics.",
+          "One line from the letter sums it up: \"Failure comes part and parcel with invention.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/018-2014-three-dreamy-businesses.md",
+        "title": "2014: Three dreamy businesses",
+        "principle": "Marketplace, Prime, and AWS are the three dreamy businesses Amazon has found: loved by customers, able to grow large, high-return, and durable, each one a bold bet that once looked doubtful.",
+        "keyLessons": [
+          "Bezos lists four traits of a dreamy business: customers love it, it can grow very large, it has strong returns on capital, and it is durable.",
+          "Marketplace grew out of two failures, Amazon Auctions and zShops, before third-party sellers were allowed onto the same detail pages as Amazon retail.",
+          "More than 40% of units were sold by over two million third-party sellers, and customers ordered more than two billion units from them in 2014.",
+          "Prime gave up many millions in shipping revenue in its first year with no simple math to justify it, resting on intuition and the earlier success of Free Super Saver Shipping.",
+          "The fulfillment network grew from 13 centers in 2005 to 109, with more than 15,000 robots deployed since the Kiva acquisition.",
+          "Original video is valued because it first runs on Prime and its fixed cost spreads across members; Bezos jokes a Golden Globe now sells power tools and baby wipes.",
+          "FBA is the glue linking Marketplace and Prime: sellers want more sales, and Prime eligibility gives them more, which raises the value of membership.",
+          "71% of surveyed FBA merchants reported unit sales up more than 20%, and paid Prime memberships grew 53% worldwide.",
+          "AWS wins on speed and agility rather than cost alone, which is the side dish rather than the main course.",
+          "AWS had over a million active customers, usage up about 90% in Q4, and 516 launches in 2014; Bezos calls it market-size unconstrained and less capital intensive than do-it-yourself datacenters.",
+          "He promises to keep searching for a fourth such business.",
+          "One line from the letter sums it up: \"the cost savings is the gravy, not the steak.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/019-2015-invention-machine-and-two-way-doors.md",
+        "title": "2015: Invention machine and two-way doors",
+        "principle": "Amazon retail and AWS grew fast because they share one culture of customer obsession, invention, willingness to fail, and long-term thinking, and large companies must avoid one-size-fits-all decision making.",
+        "keyLessons": [
+          "Amazon became the fastest company ever to reach $100 billion in annual sales, and AWS was reaching $10 billion even faster.",
+          "Both grew organically from small seeds, which Bezos ties to a shared culture rather than coincidence.",
+          "Culture is discovered when written down, not created; it forms slowly from people, events, and stories, and stays stable because people self-select.",
+          "Bezos calls Amazon the best place in the world to fail, arguing that a 10% chance of a 100x payoff is worth taking every time.",
+          "Unlike baseball, business has a long-tailed outcome distribution where one swing can score 1,000 runs, which is why boldness matters.",
+          "Prime Now went from idea to launch in 111 days and reached more than 30 cities within 15 months; Prime membership grew 51%.",
+          "Close to 50% of units are now sold by third-party sellers, and Amazon Lending has provided over $1.5 billion to small businesses.",
+          "AWS announced 722 significant features and services, up 40%, and 90 to 95% of what it builds comes from customer requests.",
+          "Type 1 decisions are irreversible one-way doors that deserve slow care; Type 2 decisions are reversible and should be made fast by high-judgment individuals or small groups.",
+          "Large organizations tend to apply the heavy Type 1 process to everything, which causes slowness and diminished invention.",
+          "Employees grew from 30,000 in 2010 to more than 230,000, and programs like Leave Share and Ramp Back apply the same benefits to hourly and senior staff.",
+          "One line from the letter sums it up: \"Big winners pay for so many experiments.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/020-2016-fending-off-day-2.md",
+        "title": "2016: Fending off Day 2",
+        "principle": "Day 2 is stasis followed by decline, and Bezos offers a starter pack to stay in Day 1: true customer obsession, resisting proxies, embracing external trends, and high-velocity decision making.",
+        "keyLessons": [
+          "Asked at an all-hands what Day 2 looks like, Bezos answers that it is stasis, then irrelevance, then painful decline, then death.",
+          "His starter pack for Day 1 defense has four parts: customer obsession, skepticism of proxies, eager adoption of external trends, and high-velocity decisions.",
+          "Customers are always dissatisfied even when happy, which pushes a customer-obsessed company to invent; no customer asked for Prime.",
+          "Process can become a proxy for results; a junior leader may defend a bad outcome by saying the process was followed.",
+          "Surveys and market research can become proxies for customers; great experiences start with heart, intuition, curiosity, and taste that no survey captures.",
+          "Fighting a powerful trend means fighting the future; Amazon embraces machine learning visibly (Prime Air, Amazon Go, Alexa) and quietly in forecasting, search, and fraud detection.",
+          "Most decisions should be made with about 70% of the information you wish you had, since slowness is costly and fast course correction limits the cost of being wrong.",
+          "Disagreeing and committing works both ways: Bezos greenlit an Amazon Studios original he doubted and committed to it sincerely.",
+          "True misalignment should be escalated early, because otherwise exhaustion decides who wins.",
+          "Inviting third-party sellers onto Amazon's own detail pages was a deep misalignment that required many escalations.",
+          "A large company can keep the spirit of a small one, but it has to choose it.",
+          "One line from the letter sums it up: \"Disagree and commit.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/021-2017-high-standards-are-teachable.md",
+        "title": "2017: High standards are teachable",
+        "principle": "High standards are teachable and domain specific, and achieving them requires recognizing what good looks like and having realistic expectations about scope.",
+        "keyLessons": [
+          "Customers' expectations keep rising, and yesterday's wow becomes today's ordinary.",
+          "Amazon ranked #1 in the American Customer Satisfaction Index for the 8th year and in the U.K. index for the 5th time.",
+          "Bezos argues high standards are teachable and contagious, so new people adapt quickly on a high-standards team, and low standards spread just as fast.",
+          "Standards are domain specific; he admits he started Amazon without high standards on operational process and had to learn them from colleagues.",
+          "Two elements are required: recognizing what good looks like, and realistic beliefs about scope, meaning how hard the work really is.",
+          "A handstand coach told a friend mastery takes six months, not two weeks; unrealistic scope beliefs make people quit.",
+          "Amazon uses six-page narrative memos instead of slides, read silently at the start of meetings; weak memos usually come from expecting to write them in a day rather than a week or more.",
+          "The leader need not personally have the skill, just as a football coach need not throw, but must recognize the standard and coach scope.",
+          "Prime passed 100 million paid members, AWS reached a $20 billion run rate with more than 1,400 launches, and third-party sellers sold over half of units for the first time.",
+          "Other milestones include the Whole Foods acquisition and price cuts, Amazon Go opening in Seattle, over 30,000 Alexa skills, and more than 560,000 employees.",
+          "Amazon admits billions of dollars' worth of failures along the way.",
+          "One line from the letter sums it up: \"they are divinely discontent.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/022-2018-wandering-and-scaling-failure.md",
+        "title": "2018: Wandering and scaling failure",
+        "principle": "Third-party sellers grew from 3% to 58% of physical gross merchandise sales because Amazon gave them its best tools, and the biggest discoveries come from intuition-guided wandering and failures that grow with the company.",
+        "keyLessons": [
+          "Third-party share of physical gross merchandise sales rose from 3% in 1999 to 58% in 2018.",
+          "First-party sales grew from $1.6 billion to $117 billion (25% compound growth), while third-party sales grew from $0.1 billion to $160 billion (52%), versus eBay's 20%.",
+          "Bezos credits FBA and Prime, both launched at significant financial risk after internal debate, for helping independent sellers outgrow Amazon's own retail.",
+          "Wandering is not random; it is guided by hunch and curiosity and serves as a counterbalance to efficiency.",
+          "Listening to customers is necessary but not enough, because the biggest needle movers are things customers do not know to ask for; no one asked for AWS.",
+          "Early attempts to externalize internal machine learning tools failed before years of iteration produced SageMaker; AWS reached a $30 billion run rate.",
+          "Amazon Go took custom cameras, shelves, and computer vision to remove checkout lines and had 10 stores.",
+          "A large company should occasionally have multibillion-dollar failures, since one big winner can cover many losers.",
+          "The Fire phone failed, but its lessons and developers accelerated Echo and Alexa, which no customer had asked for; customers bought over 100 million Alexa-enabled devices.",
+          "Amazon raised its U.S. minimum wage to $15 an hour, benefiting more than 250,000 employees plus over 100,000 seasonal workers, and challenged rivals to match it.",
+          "One line from the letter sums it up: \"Failure needs to scale too.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/023-2019-responsibility-in-a-crisis.md",
+        "title": "2019: Responsibility in a crisis",
+        "principle": "Written during COVID-19, the letter describes how Amazon prioritized essential goods, worker safety, and price-gouging enforcement, and how its scale can be an organizing force for progress on climate and jobs.",
+        "keyLessons": [
+          "Amazon prioritized stocking and delivering household staples, medical supplies, and other critical products during the COVID-19 demand spike.",
+          "It made more than 150 process changes for safety, including masks, temperature checks, and distancing, and began building its own testing lab for frontline employees.",
+          "Bezos argues regular testing of everyone, including people without symptoms, would help reopen the economy but requires far more capacity than exists.",
+          "Temporary $2 hourly raises and double overtime pay would cost more than $500 million through the end of April; a $25 million relief fund supported drivers and temporary workers.",
+          "Amazon opened 100,000 positions in March and then 75,000 more, welcoming people who lost jobs elsewhere.",
+          "It removed over half a million price-gouging offers and suspended more than 6,000 seller accounts, referring cases to 42 state attorneys general.",
+          "AWS supported the WHO, the CDC, schools, and health systems, and committed $20 million to a diagnostic development initiative.",
+          "Amazon co-founded The Climate Pledge to reach net zero carbon by 2040 and plans to buy 100,000 electric vans from Rivian.",
+          "Its scientists found online grocery deliveries generate 43% lower carbon per item than store trips, and AWS runs with an 88% lower carbon footprint than typical data centers.",
+          "Amazon directly employs 840,000 people, pays a $15 minimum wage, and is spending $700 million to train more than 100,000 employees.",
+          "Bezos says his own time remains focused on COVID-19.",
+          "One line from the letter sums it up: \"it remains Day 1.\""
+        ],
+        "youtube": "",
+        "guest": ""
+      },
+      {
+        "file": "content/knowledge/amazon-shareholder-letters/024-2020-create-more-than-you-consume.md",
+        "title": "2020: Create more than you consume",
+        "principle": "In his last letter as CEO, Bezos estimates the value Amazon created for shareholders, employees, sellers, and customers, commits to becoming Earth's Best Employer, and warns that staying distinctive takes continuous energy.",
+        "keyLessons": [
+          "Amazon created $1.6 trillion of wealth for shareowners, and more than seven-eighths of it, $1.4 trillion, belongs to others such as pensions, universities, and individuals.",
+          "He estimates 2020 value created at $21 billion for shareholders (net income), $91 billion for employees, $25 billion for third-party sellers, and $164 billion for customers, a $301 billion total.",
+          "Consumer value counts only time saved: about 75 hours a year at $10 an hour, minus the cost of Prime, roughly $630 per member across 200 million members.",
+          "AWS customer value is put at $38 billion, admitting high error bars and assuming faster software development is worth at least as much as direct savings.",
+          "Value creation is not zero-sum; invention is the root of real value creation.",
+          "After the Bessemer union vote, Bezos says Amazon needs a better vision for creating value for employees.",
+          "He adds two goals to customer-centricity: Earth's Best Employer and Earth's Safest Place to Work, which he will pursue as Executive Chair.",
+          "Musculoskeletal disorders made up about 40% of injuries; they fell 32% from 2019 to 2020, and over $300 million will go to safety projects in 2021.",
+          "A cited study found the 2018 $15 wage raised average hourly wages at other local employers by 4.7%.",
+          "53 companies had signed The Climate Pledge, and Amazon invested over $1 billion in Rivian and created a $2 billion Climate Pledge Fund.",
+          "Using a Dawkins passage on living bodies resisting equilibrium, he argues institutions and people must spend energy to stay distinctive, and thanks Andy Jassy as the next CEO.",
+          "One line from the letter sums it up: \"create more than you consume.\""
         ],
         "youtube": "",
         "guest": ""

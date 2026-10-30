@@ -1,5 +1,92 @@
 [
   {
+    "slug": "naoufal-fillali",
+    "publicSlug": "naoufalfillali",
+    "aliases": [
+      "naoufal-fillali",
+      "naoufalfillali"
+    ]
+  },
+  {
+    "slug": "maria-montessori",
+    "publicSlug": "mariamontessori",
+    "aliases": [
+      "maria-montessori",
+      "mariamontessori"
+    ]
+  },
+  {
+    "slug": "luigi-cornaro",
+    "publicSlug": "luigicornaro",
+    "aliases": [
+      "luigi-cornaro",
+      "luigicornaro"
+    ]
+  },
+  {
+    "slug": "vivek-murthy",
+    "publicSlug": "vivekmurthy",
+    "aliases": [
+      "vivek-murthy",
+      "vivekmurthy"
+    ]
+  },
+  {
+    "slug": "josh-kushner",
+    "publicSlug": "joshkushner",
+    "aliases": [
+      "josh-kushner",
+      "joshkushner"
+    ]
+  },
+  {
+    "slug": "bill-wilson",
+    "publicSlug": "billwilson",
+    "aliases": [
+      "bill-wilson",
+      "billwilson"
+    ]
+  },
+  {
+    "slug": "abraham-lincoln",
+    "publicSlug": "abrahamlincoln",
+    "aliases": [
+      "abraham-lincoln",
+      "abrahamlincoln"
+    ]
+  },
+  {
+    "slug": "cs-lewis",
+    "publicSlug": "cslewis",
+    "aliases": [
+      "cs-lewis",
+      "cslewis"
+    ]
+  },
+  {
+    "slug": "gottmans",
+    "publicSlug": "gottmans",
+    "aliases": [
+      "gottmans",
+      "thegottmans"
+    ]
+  },
+  {
+    "slug": "buffettmunger",
+    "publicSlug": "buffettmunger",
+    "aliases": [
+      "buffettmunger"
+    ]
+  },
+  {
+    "slug": "rose-blumkin",
+    "publicSlug": "roseblumkin",
+    "aliases": [
+      "rose-blumkin",
+      "roseblumkin"
+    ]
+  },
+  {
     "slug": "rick-rubin",
     "publicSlug": "rickrubin",
     "aliases": [
@@ -465,6 +552,14 @@
     ]
   },
   {
+    "slug": "amazon-shareholder-letters",
+    "publicSlug": "amazonshareholderletters",
+    "aliases": [
+      "amazon-shareholder-letters",
+      "amazonshareholderletters"
+    ]
+  },
+  {
     "slug": "poor-charlies-almanack",
     "publicSlug": "poorcharliesalmanack",
     "aliases": [
@@ -905,94 +1000,6 @@
     "aliases": [
       "reason-is-fun-essays",
       "reasonisfunessays"
-    ]
-  },
-  {
-    "slug": "gottmans",
-    "publicSlug": "gottmans",
-    "aliases": [
-      "thegottmans",
-      "johnandjuliegottman"
-    ]
-  },
-  {
-    "slug": "buffettmunger",
-    "publicSlug": "buffettmunger",
-    "aliases": [
-      "buffett-and-munger",
-      "buffettandmunger"
-    ]
-  },
-  {
-    "slug": "bill-wilson",
-    "publicSlug": "billwilson",
-    "aliases": [
-      "bill-wilson",
-      "billwilson"
-    ]
-  },
-  {
-    "slug": "abraham-lincoln",
-    "publicSlug": "abrahamlincoln",
-    "aliases": [
-      "abraham-lincoln",
-      "abrahamlincoln"
-    ]
-  },
-  {
-    "slug": "cs-lewis",
-    "publicSlug": "cslewis",
-    "aliases": [
-      "cs-lewis",
-      "cslewis"
-    ]
-  },
-  {
-    "slug": "josh-kushner",
-    "publicSlug": "joshkushner",
-    "aliases": [
-      "josh-kushner",
-      "joshkushner"
-    ]
-  },
-  {
-    "slug": "maria-montessori",
-    "publicSlug": "mariamontessori",
-    "aliases": [
-      "maria-montessori",
-      "mariamontessori"
-    ]
-  },
-  {
-    "slug": "luigi-cornaro",
-    "publicSlug": "luigicornaro",
-    "aliases": [
-      "luigi-cornaro",
-      "luigicornaro"
-    ]
-  },
-  {
-    "slug": "vivek-murthy",
-    "publicSlug": "vivekmurthy",
-    "aliases": [
-      "vivek-murthy",
-      "vivekmurthy"
-    ]
-  },
-  {
-    "slug": "naoufal-fillali",
-    "publicSlug": "naoufalfillali",
-    "aliases": [
-      "naoufal-fillali",
-      "naoufalfillali"
-    ]
-  },
-  {
-    "slug": "rose-blumkin",
-    "publicSlug": "roseblumkin",
-    "aliases": [
-      "rose-blumkin",
-      "roseblumkin"
     ]
   }
 ]

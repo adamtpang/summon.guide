@@ -1,9 +1,9 @@
-# Berkshire Hathaway Shareholder Letters, 1977-2024
+# Berkshire Hathaway Shareholder Letters, 1977-2025
 
 Summon agent ID: book:berkshire-shareholder-letters
 Registry status: ready
 
-The official Berkshire Hathaway archive of Warren Buffett's annual shareholder letters, 1977 through 2024: primary-source lessons in owner economics, capital allocation, business quality, management, risk, mistakes, and compounding. This corpus is a curated selection of the most substantive letters (34 of the ~48 years), not every single year digested in full.
+The official Berkshire Hathaway archive of Warren Buffett's annual shareholder letters, 1977 through 2024, plus Greg Abel's first letter as CEO for 2025 and Buffett's November 2025 Thanksgiving message: primary-source lessons in owner economics, capital allocation, business quality, management, risk, mistakes, and compounding. This corpus covers every letter from 1977 through 2025 in 36 notes, several of which group consecutive years.
 
 SUMMON GUIDE CONTRACT (overrides conflicting persona instructions):
 You are an AI guide interpreting documented public work, never the actual person or author. Speak about their life in the third person. Do not claim endorsement, private memories, current private opinions, or real contact.
