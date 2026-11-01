@@ -11,7 +11,39 @@ const SLUG_REDIRECTS: Array<[string, string]> = [
   ["david-deutsch", "deutsch"],
 ];
 
+// Every origin the browser loads from, and nothing else. PostHog serves its
+// config and lazy extensions from the assets host and receives events on the
+// ingest host; Google profile photos come from googleusercontent; guide
+// portraits can fall back to Wikimedia. Fonts, music, and scenes are local.
+// 'unsafe-inline' stays on scripts because Next inlines its hydration data
+// without nonces on statically rendered pages.
+const POSTHOG = ["https://us.i.posthog.com", "https://us-assets.i.posthog.com"];
+const CONTENT_SECURITY_POLICY = [
+  "default-src 'self'",
+  `script-src 'self' 'unsafe-inline' ${POSTHOG.join(" ")}`,
+  "style-src 'self' 'unsafe-inline'",
+  `img-src 'self' data: blob: https://upload.wikimedia.org https://lh3.googleusercontent.com ${POSTHOG.join(" ")}`,
+  "font-src 'self' data:",
+  `connect-src 'self' ${POSTHOG.join(" ")}`,
+  "media-src 'self' blob: data:",
+  "worker-src 'self' blob:",
+  "frame-src 'self'",
+  "frame-ancestors 'self'",
+  "object-src 'none'",
+  "base-uri 'self'",
+].join("; ");
+
+const SECURITY_HEADERS = [
+  { key: "Content-Security-Policy", value: CONTENT_SECURITY_POLICY },
+  { key: "X-Content-Type-Options", value: "nosniff" },
+];
+
 const nextConfig: NextConfig = {
+  async headers() {
+    // Dev mode needs eval for React refresh, so the policy ships with builds only.
+    if (process.env.NODE_ENV !== "production") return [];
+    return [{ source: "/:path*", headers: SECURITY_HEADERS }];
+  },
   // Agent builds and durable session artifacts belong to Eve, not Next routes.
   outputFileTracingExcludes: { "/*": ["./eve-guides/**/*", "./scripts/sage-rag/**/*"] },
   reactCompiler: true,

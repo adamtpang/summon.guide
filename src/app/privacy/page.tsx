@@ -86,6 +86,12 @@ export default function PrivacyPage() {
               ).
             </p>
             <p className="mt-4">
+              <strong>Voice input:</strong> if you speak to a guide instead
+              of typing, the recording is sent through OpenRouter to a
+              speech-to-text model that turns it into text. We do not store
+              the recording.
+            </p>
+            <p className="mt-4">
               <strong>Feedback:</strong> if you submit feedback on a guide (a
               1-5 rating and an optional comment), we store it tied to your
               account and the guide you rated.
@@ -143,8 +149,8 @@ export default function PrivacyPage() {
                   </tr>
                   <tr className="border-b border-edge">
                     <td className="py-2 pr-4">OpenRouter and selected model provider</td>
-                    <td className="py-2 pr-4">Your chat message, the guide&apos;s grounding data</td>
-                    <td className="py-2">Generating the guide&apos;s reply</td>
+                    <td className="py-2 pr-4">Your chat message, the guide&apos;s grounding data, voice recordings you ask to have transcribed</td>
+                    <td className="py-2">Generating the guide&apos;s reply, transcribing voice input</td>
                   </tr>
                   <tr className="border-b border-edge">
                     <td className="py-2 pr-4">ElevenLabs</td>
