@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
-    "@auth/prisma-adapter": "^2.11.1",
+    "@auth/prisma-adapter": "^2.11.3",
     "@base-ui/react": "^1.7.0",
     "@modelcontextprotocol/sdk": "^1.30.0",
     "@prisma/client": "^6.19.2",
@@ -70,7 +70,7 @@
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.33.0",
     "next": "16.4.3",
-    "next-auth": "^5.0.0-beta.30",
+    "next-auth": "^5.0.0-beta.32",
     "posthog-js": "^1.363.1",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -91,5 +91,8 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "unpdf": "^1.8.0"
+  },
+  "overrides": {
+    "protobufjs": "7.6.5"
   }
 }
