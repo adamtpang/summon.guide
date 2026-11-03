@@ -84,7 +84,7 @@ export default function Home() {
       </section>
 
       <footer className="relative flex flex-wrap items-center justify-between gap-x-6 gap-y-1 border-t border-edge px-5 py-3 font-display text-[10px] tracking-[0.2em] text-mist sm:px-8">
-        <span>AI GUIDES BUILT FROM PUBLIC WORK</span>
+        <span>AI GUIDES BUILT FROM PUBLIC WORK · FREE WHILE IN TESTING, NO CARD</span>
         <nav className="flex gap-5">
           <Link href="/credits" className="inline-flex min-h-11 items-center hover:text-moon">CREDITS</Link>
           <Link href="/privacy" className="inline-flex min-h-11 items-center hover:text-moon">PRIVACY</Link>

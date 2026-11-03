@@ -117,8 +117,11 @@ ${order}
 
 const FOLLOWUP_RE = /\[FOLLOWUP:[^\]]*\]/g;
 
+// Models sometimes copy the retrieval label along with the citation.
+const CITE_AS_RE = /Cite as:\s*(?=\[Source:)/gi;
+
 export function cleanCouncilText(text: string): string {
-  return text.replace(FOLLOWUP_RE, "").trim();
+  return text.replace(FOLLOWUP_RE, "").replace(CITE_AS_RE, "").trim();
 }
 
 /**

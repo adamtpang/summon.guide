@@ -10,7 +10,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useSession, signIn } from "next-auth/react";
 import { useSearchParams } from "next/navigation";
 import { usePostHog } from "posthog-js/react";
-import posthog from "posthog-js";
 import WisdomCard from "@/components/WisdomCard";
 import FeedbackModal from "@/components/FeedbackModal";
 
@@ -425,6 +424,9 @@ export default function ChatPage({
       window.sessionStorage.removeItem(pendingChatKey);
       window.sessionStorage.removeItem("summon_intake");
       setPendingSignIn(null);
+      if (newMessages.filter((m) => m.role === "user").length === 1) {
+        posthog?.capture("guide_conversation_started", { guide: figureSlug, surface: "guide" });
+      }
 
       // Decrement credit
       decrementCredits();
@@ -886,7 +888,6 @@ export default function ChatPage({
                 href="https://buy.stripe.com/7sY4gz0wy7cFeUM1q9aMU0i"
                 onClick={() => {
                   posthog?.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat" });
-                  posthog.capture("checkout_click", { plan: "100_messages", price: 10, source: "chat" });
                 }}
                 className="block w-full bg-ink-950 text-night rounded-full py-3 px-6 text-sm font-medium hover:bg-ink-800 transition-colors mb-3 min-h-[48px] flex items-center justify-center"
               >

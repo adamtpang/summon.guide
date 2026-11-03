@@ -1,5 +1,6 @@
 "use client";
 
+import posthog from "posthog-js";
 import { useRef, useState } from "react";
 import { LoaderCircle, Send, Square } from "lucide-react";
 
@@ -94,6 +95,9 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
         );
         working = working.map((entry, i) => (i === index ? { ...entry, content: text } : entry));
         setThread(working);
+      }
+      if (!thread.some((entry) => entry.kind === "user")) {
+        posthog.capture("guide_conversation_started", { guide: members.map((m) => m.slug).join(","), surface: "council" });
       }
     } catch (err) {
       // Drop the unfinished turn so the next round starts from a clean thread.

@@ -1,5 +1,6 @@
 "use client";
 
+import posthog from "posthog-js";
 import { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
@@ -22,6 +23,7 @@ function PurchaseSuccessModalInner() {
 
   useEffect(() => {
     if (searchParams?.get("payment") === "success") {
+      posthog.capture("purchase_completed", { plan: "100_messages", price: 10 });
       window.history.replaceState({}, "", "/");
     }
   }, [searchParams]);

@@ -130,7 +130,7 @@ export default function RootLayout({
                     "@type": "Offer",
                     price: "0",
                     priceCurrency: "USD",
-                    description: "25 free messages, then $10 for 100 messages",
+                    description: "Free while in testing. Sign in with Google. No card, nothing renews.",
                   },
                 },
               ],
