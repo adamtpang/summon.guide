@@ -1,0 +1,40 @@
+---
+rank: 48
+title: "From a $27,500 Charter Company to a $4 Billion Private Jet Giant | Kenn Ricci, Flexjet"
+guest: "Kenn Ricci"
+host: "David Senra"
+company: "Flexjet"
+format: interview
+youtube_url: "https://www.youtube.com/watch?v=D76BdIPTfGw"
+youtube_id: "D76BdIPTfGw"
+published: "2026-10-28"
+duration_min: 71
+word_count: 14822
+date_extracted: "2026-11-02"
+principle: "Stay an inch wide and a mile deep: master one industry from the cockpit up, treat the balance sheet as the whole game, build rather than buy whenever you can, and push trust and authority down to the people closest to the customer."
+tags: [david-senra, interview, aviation, private-jets, flexjet, kenn-ricci, founders]
+---
+
+# From a $27,500 Charter Company to a $4 Billion Private Jet Giant | Kenn Ricci, Flexjet
+
+> **Key principle (Kenn Ricci):** Ricci calls himself "accidentally wealthy": a pilot who bought a tiny charter company to keep his flying job, then stayed inside private aviation for four decades, through a forced merger, an ouster, a buyback of the same company, and the purchase of Flexjet. His edge is depth in one field ("an inch wide and a mile deep"), respect for cash flow and the balance sheet over reported earnings, suspicion of acquisitions that substitute for building, and a culture where the frontline employee can fix a customer's bad day without asking anyone. He applies the same trust-first logic to his family, giving his children their inheritance while he is alive to guide them.
+
+*David Senra in conversation with Kenn Ricci, principal owner of Flexjet. [Watch](https://www.youtube.com/watch?v=D76BdIPTfGw) · 71 min · published 2026-10-28.*
+
+## Key lessons
+
+- **Sometimes the business you start is just the job you need to keep.** Ricci learned to fly through Air Force ROTC at Notre Dame, flew cargo, then lost an airline job at Northwest Orient to a furlough. In law school he worked as a fill-in pilot for a small Cleveland charter firm whose owner fled after selling investors jets that did not exist. The dispatcher suggested Ricci buy what was left. The price was $27,500; the company had about $27,000 in the bank, so he used its own cash and asked his father for the last $500. He renamed it Corporate Wings, and he said he bought it only so the planes would not disappear and he could keep flying.
+- **Borrow someone else's customers and someone else's capital.** With no money of his own, Ricci partnered with Chapman Freeborn, which moved freight for touring musicians, and flew the stars themselves, naming Elton John, Bruce Springsteen and Barbra Streisand among his passengers. To get large-cabin jets, he convinced buyers of Gulfstreams that leasing their aircraft to him three months a year would cover the plane's annual cost. He flew tours for three months and spent the rest of the year learning the business.
+- **When an innovator steals your customers, copy the model and change the cost base.** Ricci credited Richard Santulli of NetJets with inventing fractional ownership in the early 1990s: corporate owners flew roughly 300 hours a year, a jet can fly 1,000 to 1,200, so sell it in quarters (the origin, he said, of the "QS" in NetJets tail numbers) and dispatch planes wherever the next customer is instead of flying them home empty. As charter clients defected, Ricci built Flight Options to offer the same aircraft types bought used at about half price, with the same pay-only-when-aboard service.
+- **Capital often follows a credible validator, not your pitch.** Ricci said he spent 12 to 15 months pitching 35 to 40 banks for roughly $30 to $40 million and came away with about $7 million in conditional interest, because lenders could not see collateral in a quarter of a plane. Then Warren Buffett bought NetJets in June 1998, and that summer Ricci raised close to $300 million in credit lines. Flight Options launched that October with about 25 aircraft across three fleets, built around a core fleet of roughly eight planes per type so owners could trust a jet would be available. He said Flexjet still keeps about 70 of its 365 aircraft as unsold core fleet for peak days.
+- **In capital-intensive businesses, the balance sheet is the whole game.** Flight Options sold about $100 million in its first three months and $400 million the next year, with buyers mailing checks before paperwork. Ricci said that growth nearly broke the company's cash flow and taught him to ignore income and EBITDA in favor of free cash flow and balance-sheet strength, a lesson he did not understand in 1998.
+- **Treat most acquisitions as a sign you could not build it yourself.** Under pressure after the dot-com bust, Flight Options merged 50-50 with Raytheon's money-losing fractional unit under a buy-sell clause. Ricci brought Warburg Pincus to buy Raytheon out at a $360 million valuation; Raytheon instead bought him out in 2002, which he called the worst day of his life (he held about 16 percent). He now argues that about 90 percent of the time you could capture the target's market share yourself for less, and that absorbing a workforce 30 to 40 percent your size makes cultural integration nearly impossible.
+- **Keep your independence when the money comes calling.** After moving to Phoenix, Ricci turned down a Warburg executive-in-residence role paying $250,000 a year because Warburg would have had to approve every deal he found. Instead he started Directional Capital to invest only in aviation, then, together with Allied Capital, bought the Mercury Air Centers FBO chain out of a debt default for $80 million, roughly doubled it, and sold it in 2007 to Macquarie (now Atlantic Aviation) for $615 million. He joked that his diversification strategy is "cash and airplanes."
+- **Be ready to buy back what you built when the new owner is tired of it.** Raytheon, Ricci said, lost about $600 million on Flight Options and saw it unionized and its service decline. He bought it back in December 2008, months after the financial crisis hit. The headline price was $135 million, but net of liabilities he described it as about $42 million: $15 million in cash and a $27 million seller note he personally guaranteed, home included.
+- **Turn a blocked deal into a better one.** Seeking 20 Bombardier Challenger 300s for Flight Options, Ricci ended up being offered Bombardier's own Flexjet, bought in 2014 for $180 million alongside a roughly billion-dollar aircraft order. The deal required large Global jets he had no way to pay for, until a NetJets contract barred Bombardier from selling them to him. That freed him to strike a later Gulfstream deal with exclusivity; he said Flexjet now operates 85 Gulfstreams, more than the US government. Merging two 300-pilot companies took four years, a uniform "crossover day," and the pilots voting out their union.
+- **Customer service is what you do when things go wrong, so remove the approval step.** Ricci said Flexjet has no approval process for service recovery: an employee earning about $80,000 a year who takes the call can comp a $300,000 trip without asking a supervisor. He framed that authority as a statement of trust that runs through the whole organization.
+- **Give children wealth while you are alive to guide them.** Ricci set up a family limited partnership in 1990, before his first child was born, and gifted shares from birth, a move Senra compared to Sam Walton's. Family meetings began with charitable giving, then personality tests, then full annual reviews of where the money is and who controls it. He opens meetings by telling the children they are not equal, since earlier gifts compounded longer. The children themselves set a rule that any sibling's investment is offered 20 percent to each of the others to prevent jealousy. Senra recounted Charlie Munger's blunt advice on the same question: give them the money, or they will hate you.
+
+---
+
+*Synthesis only. The full verbatim transcript of this episode is not redistributed here; it remains in Summon's private research corpus and with the original show. Watch the source: https://www.youtube.com/watch?v=D76BdIPTfGw.*
