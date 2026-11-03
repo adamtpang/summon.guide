@@ -1,0 +1,40 @@
+---
+rank: 38
+title: "High School Dropout to Multi-Billionaire: The Relentless Drive of Rafael Vivas"
+guest: "Rafael Vivas"
+host: "David Senra"
+company: "AppLovin, Lion Studios"
+format: interview
+youtube_url: "https://www.youtube.com/watch?v=IdvsD61Rmmk"
+youtube_id: "IdvsD61Rmmk"
+published: "2026-11-01"
+duration_min: 67
+word_count: 15812
+views: 24000
+date_extracted: "2026-11-02"
+principle: "Be the most valuable person in the room rather than the most senior: stay in the weeds, win on technology and performance instead of sales polish, keep the team small and the lifestyle cheap, and work for a purpose that outlasts you."
+tags: [david-senra, interview, advertising, mobile-games, applovin, lion-studios, rafael-vivas, founders]
+---
+
+# High School Dropout to Multi-Billionaire: The Relentless Drive of Rafael Vivas
+
+> **Key principle (Rafael Vivas):** Vivas rejects titles and seniority in favor of one test, borrowed from video games and his image of a tribe's hunters: who brought back the most value. That belief took him from a teenage media buyer who dropped out of high school to AppLovin's first business hire, living in the office, and later to building Lion Studios. He credits AppLovin's results to technology over sales, hands-on leaders who refuse to delegate the important work, a small team, and obsessive attention to small details, and he says he stays because of purpose and the people around him, not money.
+
+*David Senra in conversation with Rafael Vivas, a founding team member of AppLovin and co-founder of Lion Studios. [Watch](https://www.youtube.com/watch?v=IdvsD61Rmmk) · 67 min · published 2026-11-01.*
+
+## Key lessons
+
+- **Measure yourself by value delivered, not by the path you are supposed to follow.** Vivas started performance media buying at about 14 as an intern for his older brother, doing the work nobody else wanted, such as adding terms-of-service pages to sites. He saw people earning $20,000 to $30,000 a day in profit while his teacher earned $25,000 a year, so he stopped attending school. Around 16 his father told him to move out; he moved into his best friend's house, offering to hire the friend as an intern and help clean. He calls the analyst-to-manager career ladder a slow, linear path that limits how much value a person can deliver.
+- **Do not wait for permission to take the next step.** Nobody asked Vivas to make ads, so he learned Photoshop; nobody asked him to find traffic, so he contacted brands himself. At about 17, after an ad platform banned his brother's company for being a competitor, he went home furious, then told his brother he would leave to build a rival. His brother gave him engineers to build a mobile ad platform in-house instead.
+- **Join the people who are smarter than you, on terms that show commitment.** AppLovin co-founder Adam Foroughi was buying traffic from Vivas's network before announcing he would build a competing mobile ad platform, then recruited him, telling Vivas he knew how to work and knew everyone in mobile gaming but knew nothing about building a real business. Vivas asked for half the company (he got far less) and set one condition: he would live in the office, because an unfunded company with an odd name could only win by out-hustling everyone. Foroughi and an engineer built him a bunk bed from IKEA; a second engineer took one look at it and declined to move in.
+- **Win on the technology when competitors win on sales.** Vivas said well-funded rivals backed by top venture firms had hundreds of advertisers and premium publishers, but their optimization was largely manual. AppLovin used rules and regression models to decide what to serve, often monetizing at about double a rival's rate, so his pitch to publishers was a written guarantee of more money than they made elsewhere. Even while profitable and growing, the company was turned down when Foroughi offered investors 25 percent for $1 million; Vivas believes the founders' background as performance marketers, not ex-Google or Facebook staff, looked wrong on paper.
+- **Stay in the weeds instead of delegating the hard parts away.** Vivas said AppLovin is not cut from the "hire and delegate" cloth: leaders set up campaigns and check on small clients, and the CTO still writes code while running an engineering group of about 100. His analogy is a video game's final boss: you do not hand the controller to a friend. He argues that hiring large teams creates busywork, since new hires need something to do, while fewer people force focus. Candidates from bigger ad platforms are asked whether they would set up campaigns and upload creatives themselves, and many are surprised by the question.
+- **Persistence works only when every contact carries value.** Foroughi has told Senra about customers baffled that a billionaire would chase them for an extra $5,000 a day; Vivas said that care is the point. One app founder took two years to answer him, and every message in between was a specific revenue idea (a level to optimize, a market being missed) until that company's staff joked they wished they had someone like him. With AppLovin, he said, on pace for about $20 billion in advertiser spend against roughly half a trillion at the two largest platforms, there is still enormous room.
+- **Lead with bad news and ignore the stock ticker.** Internally, Vivas said, the monologue is a list of what is broken, tackled one item at a time. After the IPO the stock fell from roughly a $28 billion valuation to about $3.8 billion while the company produced around $1 billion in cash flow, so it bought back stock with borrowed money and even considered taking itself private, as Michael Dell did. A low personal burn helps: Vivas described $15-a-month hobbies, $200 hotels and commercial flights, and said he views spending through the return-on-ad-spend lens he uses at work.
+- **Turn a partner's betrayal into a new business.** Cheetah Mobile, a major publisher partner, kept squeezing AppLovin and breaking signed agreements, so Vivas told Foroughi he would build a competitor either inside the company or outside it. He named it Lion Studios because, he said, a lion is the only animal that can kill a cheetah. Lion published games from outside developers on AppLovin's distribution, reaching over $250 million in revenue profitably within two years and, by his count, more than 20 number-one games and over 3 billion downloads. One hit, Happy Glass, came from a three-person family team that lived and worked in a single house and would have had to take jobs again if it failed.
+- **Purpose, not money, decides whether you stay in the game.** At 28, after a year of writing down where he was the bottleneck and crossing each item off, Vivas told Foroughi on his birthday that he wanted time off, then moved to Miami during COVID. Within about three months he was restless, building side products he did not care about with people he was not attached to, including a short-lived mobile dating show. At AppLovin's NYSE listing, as the stock dropped, he saw the business needed him and came back. He now says he wants to build a business that keeps helping companies grow long past his lifetime.
+- **Details are the job.** Vivas's mentor was Mark, AppLovin's early chief revenue officer, who redlined Foroughi's NDA at their first meeting; Vivas wanted to reject him, but Foroughi saw the diligence as a reason to hire him. Vivas said Mark handled more than 200 agreements before the company had a lawyer and was burned on only one. After Vivas closed a months-long deal from a hospital where his grandmother was being treated, Mark called to say one term was off by a point or two and asked, "Do you want to be Michael Jordan or Tiger Woods?" Vivas renegotiated with an irate client. The best advice he received, from his brother, was to stay in the game when it hurts, because the pain means you are growing.
+
+---
+
+*Synthesis only. The full verbatim transcript of this episode is not redistributed here; it remains in Summon's private research corpus and with the original show. Watch the source: https://www.youtube.com/watch?v=IdvsD61Rmmk.*
