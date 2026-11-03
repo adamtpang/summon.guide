@@ -23,6 +23,11 @@ const FALLBACK_QUEUE = [
 // three and the waterfall moves on to the rest when that window fails.
 const MAX_QUEUE_LENGTH = 4;
 const MAX_MODELS_PER_REQUEST = 3;
+// Paid fallbacks think before answering, out of the same max_tokens. Unbounded,
+// a long guide prompt could spend the whole budget thinking and cut the answer
+// off mid-sentence or leave JSON unclosed (seen on council turns and council
+// seating, 2026-11-03).
+const DEFAULT_REASONING = { max_tokens: 1_024 };
 
 function requestWindow(remaining: ModelCandidate[]): ModelCandidate[] {
   return remaining.slice(0, MAX_MODELS_PER_REQUEST);
@@ -326,7 +331,8 @@ export async function completeOpenRouter(options: {
         models: requestWindow(remaining).map((candidate) => candidate.id),
         messages: messagesForRequest(options.system, options.messages),
         provider: { allow_fallbacks: true, data_collection: "deny" },
-        max_tokens: options.maxTokens || 1_024,
+        max_tokens: (options.maxTokens || 1_024) + DEFAULT_REASONING.max_tokens,
+        reasoning: DEFAULT_REASONING,
         temperature: options.temperature ?? 0.4,
       }),
     });
@@ -384,7 +390,8 @@ export function streamOpenRouter(options: {
   /**
    * Optional OpenRouter reasoning controls. Reasoning models spend part of
    * max_tokens thinking before any visible text; bounding it keeps room for
-   * the answer. Omitted means provider defaults, as before.
+   * the answer. Omitted means DEFAULT_REASONING, with its budget added on top
+   * of maxTokens, so thinking can no longer cut an answer off mid-sentence.
    */
   reasoning?: { max_tokens?: number; effort?: "low" | "medium" | "high"; exclude?: boolean };
   /**
@@ -417,8 +424,8 @@ export function streamOpenRouter(options: {
               models: requestWindow(remaining).map((candidate) => candidate.id),
               messages: messagesForRequest(options.system, options.messages),
               provider: { allow_fallbacks: true, data_collection: "deny" },
-              max_tokens: options.maxTokens || 1_600,
-              ...(options.reasoning ? { reasoning: options.reasoning } : {}),
+              max_tokens: (options.maxTokens || 1_600) + (options.reasoning ? 0 : DEFAULT_REASONING.max_tokens),
+              reasoning: options.reasoning ?? DEFAULT_REASONING,
               temperature: options.temperature ?? 0.65,
               stream: true,
               stream_options: { include_usage: true },
@@ -443,6 +450,7 @@ export function streamOpenRouter(options: {
           let emittedMeta = false;
           let hadContent = false;
           let midStreamError: OpenRouterError | null = null;
+          let cutByLength = false;
 
           while (true) {
             const { done, value } = await reader.read();
@@ -471,6 +479,7 @@ export function streamOpenRouter(options: {
               }
 
               if (chunk.model) actualModel = chunk.model;
+              if (chunk.choices?.[0]?.finish_reason === "length") cutByLength = true;
               if (chunk.error) {
                 midStreamError = new OpenRouterError(
                   chunk.error.message || "OpenRouter stream failed.",
@@ -498,6 +507,7 @@ export function streamOpenRouter(options: {
           if (midStreamError) await reader.cancel().catch(() => undefined);
           if (midStreamError && hadContent) throw midStreamError;
           if (hadContent) {
+            if (cutByLength) console.warn(`[${options.logLabel}] ${actualModel} hit max_tokens; the answer was cut off`);
             controller.enqueue(encoder.encode("data: [DONE]\n\n"));
             controller.close();
             return;

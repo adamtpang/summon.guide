@@ -130,7 +130,7 @@ export default function RootLayout({
                     "@type": "Offer",
                     price: "0",
                     priceCurrency: "USD",
-                    description: "Free with Google sign-in while summon.guide is in testing.",
+                    description: "Free while in testing. Sign in with Google. No card, nothing renews.",
                   },
                 },
               ],
