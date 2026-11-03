@@ -24,10 +24,11 @@ export default function Home() {
           src="/scenes/temple.webp"
           alt=""
           aria-hidden
-          fill
+          width={2400}
+          height={1636}
           priority
           sizes="100vw"
-          className="pointer-events-none select-none object-cover object-[50%_70%] opacity-80"
+          className="pointer-events-none absolute inset-0 h-full w-full select-none object-cover object-[50%_70%] opacity-80"
         />
         {/* Open sky above the colonnade so the inscription reads clearly. */}
         <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 h-[48%] bg-gradient-to-b from-night via-night/85 to-transparent" />
@@ -61,9 +62,10 @@ export default function Home() {
           src="/scenes/parthenon.webp"
           alt=""
           aria-hidden
-          fill
+          width={1410}
+          height={959}
           sizes="100vw"
-          className="pointer-events-none select-none object-cover object-top opacity-60"
+          className="pointer-events-none absolute inset-0 h-full w-full select-none object-cover object-top opacity-60"
         />
         <div className="relative mx-auto max-w-5xl">
           <Meander />
@@ -83,9 +85,50 @@ export default function Home() {
         </div>
       </section>
 
+      <section aria-labelledby="how-it-works" className="relative border-t border-edge px-5 py-20 sm:py-24">
+        <div className="mx-auto max-w-2xl font-serif text-lg leading-relaxed text-mist [&_h2]:text-moon [&_h3]:text-moon">
+          <h2 id="how-it-works" className="text-center text-3xl font-medium tracking-tight sm:text-4xl">How summon.guide works</h2>
+          <p className="mt-8">
+            summon.guide is a mentorship site built on AI guides. Each guide is modeled on a real person, book, or
+            channel and grounded in that source&apos;s own public work: biographies, letters, essays, interviews, and
+            the source notes listed on each guide&apos;s page. Type what is stuck in the box above, and summon.guide
+            matches the problem to the guide best suited to it.
+          </p>
+          <p className="mt-5">
+            Every guide on summon.guide is an AI perspective, not the real person and not an endorsement. A
+            conversation with Benjamin Franklin or Seneca is a way to think a decision through with ideas drawn from a
+            recorded life. The guides do not give personalized legal, medical, or financial advice.
+          </p>
+          <p className="mt-5">
+            The summon.guide library has three halls. The guides hall lists all {figures.length} guides. Sage answers one question across every Founders podcast episode at once. The council seats three
+            guides with different perspectives around a single decision, so the trade-offs show up before you choose.
+          </p>
+          <p className="mt-5">
+            The summon-guide skill also brings the guides into Claude Code or Codex with one terminal command, and
+            compatible AI clients can connect to the remote MCP server at summon.guide/api/mcp to ask any guide from
+            their own chat. <Link href="/connect" className="text-moon underline underline-offset-4">See the install steps</Link>.
+          </p>
+          <h3 className="mt-10 font-display text-sm tracking-[0.28em]">PRICING</h3>
+          <p className="mt-3">
+            summon.guide is free to use while it is in testing. Sign in with Google to talk to any guide; there is no
+            paid plan to buy today.
+          </p>
+          <div className="mt-8 flex justify-center">
+            <Link
+              href="/summon"
+              className="inline-flex min-h-11 items-center border border-moon/40 px-6 font-display text-xs tracking-[0.28em] text-moon transition-colors hover:bg-moon hover:text-night"
+            >
+              START WITH A GUIDE
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <footer className="relative flex flex-wrap items-center justify-between gap-x-6 gap-y-1 border-t border-edge px-5 py-3 font-display text-[10px] tracking-[0.2em] text-mist sm:px-8">
         <span>AI GUIDES BUILT FROM PUBLIC WORK · FREE WHILE IN TESTING, NO CARD</span>
         <nav className="flex gap-5">
+          <Link href="/about" className="inline-flex min-h-11 items-center hover:text-moon">ABOUT</Link>
+          <a href="mailto:adamtpang@gmail.com" className="inline-flex min-h-11 items-center hover:text-moon">CONTACT</a>
           <Link href="/credits" className="inline-flex min-h-11 items-center hover:text-moon">CREDITS</Link>
           <Link href="/privacy" className="inline-flex min-h-11 items-center hover:text-moon">PRIVACY</Link>
         </nav>
