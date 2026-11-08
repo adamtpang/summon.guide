@@ -29,14 +29,14 @@ const MAX_MODELS_PER_REQUEST = 3;
 // seating, 2026-11-03).
 const DEFAULT_REASONING = { max_tokens: 1_024 };
 
-function requestWindow(remaining: ModelCandidate[]): ModelCandidate[] {
-  return remaining.slice(0, MAX_MODELS_PER_REQUEST);
+function requestWindow(remaining: ModelCandidate[], size = MAX_MODELS_PER_REQUEST): ModelCandidate[] {
+  return remaining.slice(0, size);
 }
 
 // An invalid key (401) or a reached spending limit (402) applies to every
 // model on the account, so trying further models cannot help.
-function canAdvancePastWindow(error: OpenRouterError, remaining: ModelCandidate[]): boolean {
-  return remaining.length > MAX_MODELS_PER_REQUEST && error.status !== 401 && error.status !== 402;
+function canAdvancePastWindow(error: OpenRouterError, remaining: ModelCandidate[], size = MAX_MODELS_PER_REQUEST): boolean {
+  return remaining.length > size && error.status !== 401 && error.status !== 402;
 }
 
 interface OpenRouterModel {
@@ -393,13 +393,23 @@ export function streamOpenRouter(options: {
    * the answer. Omitted means DEFAULT_REASONING, with its budget added on top
    * of maxTokens, so thinking can no longer cut an answer off mid-sentence.
    */
-  reasoning?: { max_tokens?: number; effort?: "low" | "medium" | "high"; exclude?: boolean };
+  reasoning?: { max_tokens?: number; effort?: "minimal" | "low" | "medium" | "high"; exclude?: boolean };
   /**
    * How many times to re-run the final candidate when the whole waterfall
    * produced no visible text (an empty stream, or a provider error before any
    * text). Default 0 keeps the original behavior.
    */
   retryEmpty?: number;
+  /**
+   * Explicit models in order (for example a council seat's primary and its
+   * fallback) instead of the shared ranked queue. OpenRouter moves to the next
+   * one when a model is rate-limited or unavailable.
+   */
+  models?: string[];
+  /** Emit a final `{ stats }` event: model served, latency, tokens and cost. */
+  stats?: boolean;
+  /** Extra fields merged into the stats event, such as retrieved note titles. */
+  statsExtra?: Record<string, unknown>;
 }): Response {
   const encoder = new TextEncoder();
   const emit = (controller: ReadableStreamDefaultController<Uint8Array>, value: unknown) =>
@@ -411,8 +421,21 @@ export function streamOpenRouter(options: {
       let remaining: ModelCandidate[] = [];
 
       try {
-        queue = await getOpenRouterModelQueue();
+        queue = options.models?.length
+          ? options.models.map((id) => ({
+              id,
+              name: friendlyModelName(id),
+              tier: id.endsWith(":free") ? ("free" as const) : ("discounted" as const),
+              promptPerMillion: 0,
+              completionPerMillion: 0,
+              intelligence: null,
+            }))
+          : await getOpenRouterModelQueue();
         remaining = [...queue];
+        const startedAt = Date.now();
+        // Explicit models go one per request, so a primary that is rate-limited
+        // or rejects the request still leaves its fallback a clean attempt.
+        const windowSize = options.models?.length ? 1 : MAX_MODELS_PER_REQUEST;
         let emptyRetriesLeft = options.retryEmpty ?? 0;
 
         while (remaining.length) {
@@ -421,7 +444,7 @@ export function streamOpenRouter(options: {
             headers: headers(),
             signal: AbortSignal.timeout(120_000),
             body: JSON.stringify({
-              models: requestWindow(remaining).map((candidate) => candidate.id),
+              models: requestWindow(remaining, windowSize).map((candidate) => candidate.id),
               messages: messagesForRequest(options.system, options.messages),
               provider: { allow_fallbacks: true, data_collection: "deny" },
               max_tokens: (options.maxTokens || 1_600) + (options.reasoning ? 0 : DEFAULT_REASONING.max_tokens),
@@ -429,16 +452,17 @@ export function streamOpenRouter(options: {
               temperature: options.temperature ?? 0.65,
               stream: true,
               stream_options: { include_usage: true },
+              usage: { include: true },
             }),
           });
 
           if (!response.ok) {
             const error = await errorFromResponse(response);
-            if (!canAdvancePastWindow(error, remaining)) throw error;
+            if (!canAdvancePastWindow(error, remaining, windowSize)) throw error;
             console.warn(
-              `[${options.logLabel}] HTTP ${error.status} for ${requestWindow(remaining).map((c) => c.id).join(", ")}; trying the next models`,
+              `[${options.logLabel}] HTTP ${error.status} for ${requestWindow(remaining, windowSize).map((c) => c.id).join(", ")}; trying the next models`,
             );
-            remaining = remaining.slice(MAX_MODELS_PER_REQUEST);
+            remaining = remaining.slice(windowSize);
             continue;
           }
           if (!response.body) throw new OpenRouterError("OpenRouter returned no stream.", 502);
@@ -451,6 +475,8 @@ export function streamOpenRouter(options: {
           let hadContent = false;
           let midStreamError: OpenRouterError | null = null;
           let cutByLength = false;
+          let firstTextAt = 0;
+          let usage: { prompt_tokens?: number; completion_tokens?: number; cost?: number } | null = null;
 
           while (true) {
             const { done, value } = await reader.read();
@@ -471,6 +497,7 @@ export function streamOpenRouter(options: {
                 model?: string;
                 error?: { code?: number | string; message?: string };
                 choices?: { delta?: { content?: unknown }; finish_reason?: string }[];
+                usage?: { prompt_tokens?: number; completion_tokens?: number; cost?: number };
               };
               try {
                 chunk = JSON.parse(data);
@@ -479,6 +506,7 @@ export function streamOpenRouter(options: {
               }
 
               if (chunk.model) actualModel = chunk.model;
+              if (chunk.usage) usage = chunk.usage;
               if (chunk.choices?.[0]?.finish_reason === "length") cutByLength = true;
               if (chunk.error) {
                 midStreamError = new OpenRouterError(
@@ -499,6 +527,7 @@ export function streamOpenRouter(options: {
                 emittedMeta = true;
               }
               hadContent = true;
+              if (!firstTextAt) firstTextAt = Date.now();
               emit(controller, { text });
             }
             if (midStreamError) break;
@@ -508,6 +537,22 @@ export function streamOpenRouter(options: {
           if (midStreamError && hadContent) throw midStreamError;
           if (hadContent) {
             if (cutByLength) console.warn(`[${options.logLabel}] ${actualModel} hit max_tokens; the answer was cut off`);
+            if (options.stats) {
+              const stats = {
+                requested: queue[0]?.id ?? actualModel,
+                model: actualModel,
+                // OpenRouter may report a dated variant of the requested id.
+                fellBack: !actualModel.startsWith(queue[0]?.id ?? actualModel),
+                firstTokenMs: firstTextAt ? firstTextAt - startedAt : null,
+                latencyMs: Date.now() - startedAt,
+                tokensIn: usage?.prompt_tokens ?? null,
+                tokensOut: usage?.completion_tokens ?? null,
+                costUsd: typeof usage?.cost === "number" ? usage.cost : null,
+                ...options.statsExtra,
+              };
+              emit(controller, { stats });
+              console.info(`[${options.logLabel}] stats ${JSON.stringify(stats)}`);
+            }
             controller.enqueue(encoder.encode("data: [DONE]\n\n"));
             controller.close();
             return;

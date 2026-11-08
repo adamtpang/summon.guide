@@ -13,6 +13,7 @@
     "summon:generate": "node --experimental-strip-types scripts/gen-summon-skill.mjs",
     "summon:check": "node --experimental-strip-types scripts/gen-summon-skill.mjs --check",
     "summon:test": "node --test scripts/summon-skill.test.mjs",
+    "council:test": "node --no-warnings --experimental-transform-types --import ./scripts/node-server-shim.mjs --test scripts/council-models.test.mjs",
     "agents:generate": "node --experimental-strip-types scripts/gen-eve-guides.mjs",
     "agents:check": "node --experimental-strip-types scripts/gen-eve-guides.mjs --check",
     "dev": "next dev",

@@ -12,10 +12,24 @@ import { cleanCouncilText, type ThreadEntry } from "@/lib/councilThread";
 // turn; each guide reads what the guides before it said. A short synthesis
 // closes the round. The thread lives only in this page's memory.
 
+/** Per-seat run details, sent only when the server runs seats on their own models. */
+export type SeatStats = {
+  requested: string;
+  model: string;
+  fellBack: boolean;
+  firstTokenMs: number | null;
+  latencyMs: number;
+  tokensIn: number | null;
+  tokensOut: number | null;
+  costUsd: number | null;
+  retrieved?: string[];
+};
+
 async function streamTurn(
   payload: object,
   signal: AbortSignal,
   onText: (text: string) => void,
+  onStats?: (stats: SeatStats) => void,
 ): Promise<string> {
   const res = await fetch("/api/council/turn", {
     method: "POST",
@@ -45,6 +59,7 @@ async function streamTurn(
         try {
           const parsed = JSON.parse(data);
           if (parsed.error) throw new Error(parsed.error);
+          if (parsed.stats) onStats?.(parsed.stats as SeatStats);
           if (parsed.text) {
             text += parsed.text;
             onText(text);
@@ -66,6 +81,9 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
   const [speaking, setSpeaking] = useState<string | null>(null);
   const [error, setError] = useState("");
   const abortRef = useRef<AbortController | null>(null);
+  // Thread index to that voice's model, latency, tokens and cost.
+  const [stats, setStats] = useState<Record<number, SeatStats>>({});
+  const [showStats, setShowStats] = useState(true);
   const members = seats.map((s) => ({ slug: s.slug, name: s.name, role: s.role }));
 
   const ask = async () => {
@@ -92,6 +110,7 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
           { brief, members, thread: working.slice(0, index), speaker },
           controller.signal,
           (partial) => setThread((current) => current.map((entry, i) => (i === index ? { ...entry, content: partial } : entry))),
+          (seatStats) => setStats((current) => ({ ...current, [index]: seatStats })),
         );
         working = working.map((entry, i) => (i === index ? { ...entry, content: text } : entry));
         setThread(working);
@@ -128,7 +147,11 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
               {entry.kind === "user" ? (
                 <div className="ml-auto max-w-[85%] rounded-2xl bg-raised px-4 py-3 text-sm leading-relaxed text-moon">{entry.content}</div>
               ) : (
-                <ThreadVoice entry={entry} seat={entry.kind === "guide" ? seats.find((s) => s.slug === entry.slug) : undefined} />
+                <ThreadVoice
+                  entry={entry}
+                  seat={entry.kind === "guide" ? seats.find((s) => s.slug === entry.slug) : undefined}
+                  stats={showStats ? stats[i] : undefined}
+                />
               )}
             </li>
           ))}
@@ -142,6 +165,9 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
         </p>
       )}
       {error && <p role="alert" className="text-sm text-red-700">{error}</p>}
+      {Object.keys(stats).length > 0 && (
+        <SeatTotals stats={Object.values(stats)} visible={showStats} onToggle={() => setShowStats((v) => !v)} />
+      )}
 
       <form
         onSubmit={(event) => { event.preventDefault(); void ask(); }}
@@ -173,7 +199,7 @@ export default function CouncilThread({ brief, seats, firstQuestion }: { brief: 
   );
 }
 
-function ThreadVoice({ entry, seat }: { entry: Exclude<ThreadEntry, { kind: "user" }>; seat?: CouncilSeat }) {
+function ThreadVoice({ entry, seat, stats }: { entry: Exclude<ThreadEntry, { kind: "user" }>; seat?: CouncilSeat; stats?: SeatStats }) {
   const text = cleanCouncilText(entry.content);
   const body = text.replace(/\[Source:[^\]]*\]/g, "").trim();
   const sources = text.match(/\[Source:[^\]]*\]/g) ?? [];
@@ -190,6 +216,45 @@ function ThreadVoice({ entry, seat }: { entry: Exclude<ThreadEntry, { kind: "use
       {sources.length > 0 && (
         <p className="mt-3 text-[12px] leading-relaxed text-mist">{sources.map((s) => s.slice(8, -1).trim()).join(" · ")}</p>
       )}
+      {stats && <SeatStatsLine stats={stats} />}
     </article>
+  );
+}
+
+function formatCost(usd: number | null) {
+  if (usd === null) return "cost n/a";
+  return usd < 0.01 ? `$${usd.toFixed(5)}` : `$${usd.toFixed(3)}`;
+}
+
+function SeatStatsLine({ stats }: { stats: SeatStats }) {
+  return (
+    <div className="mt-3 border-t border-edge pt-2 font-mono text-[11px] leading-relaxed text-mist">
+      <p>
+        <span className="text-moon">{stats.model}</span>
+        {stats.fellBack && <span> (fallback; {stats.requested} was unavailable)</span>}
+      </p>
+      <p>
+        {(stats.latencyMs / 1000).toFixed(1)}s total
+        {stats.firstTokenMs !== null && `, first token ${(stats.firstTokenMs / 1000).toFixed(1)}s`}
+        {" · "}
+        {stats.tokensIn ?? "?"} in / {stats.tokensOut ?? "?"} out · {formatCost(stats.costUsd)}
+      </p>
+      {stats.retrieved && stats.retrieved.length > 0 && <p>retrieved: {stats.retrieved.join(" · ")}</p>}
+    </div>
+  );
+}
+
+function SeatTotals({ stats, visible, onToggle }: { stats: SeatStats[]; visible: boolean; onToggle: () => void }) {
+  const cost = stats.reduce((sum, s) => sum + (s.costUsd ?? 0), 0);
+  const tokens = stats.reduce((sum, s) => sum + (s.tokensIn ?? 0) + (s.tokensOut ?? 0), 0);
+  return (
+    <div className="flex flex-wrap items-center justify-between gap-2 font-mono text-[11px] text-mist">
+      <span>
+        {new Set(stats.map((s) => s.model)).size} models · {tokens} tokens · {formatCost(cost)} so far
+      </span>
+      <button type="button" onClick={onToggle} className="min-h-11 underline underline-offset-4 hover:text-moon">
+        {visible ? "Hide models" : "Show models"}
+      </button>
+    </div>
   );
 }
