@@ -4,7 +4,7 @@ ID: person:senra
 
 Owner: summon.guide
 
-Coverage: partial, 237 synthesis records.
+Coverage: partial, 256 synthesis records.
 
 Distillation: content/distilled/david-senra.md
 

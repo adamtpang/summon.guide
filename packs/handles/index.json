@@ -1,6 +1,6 @@
 {
   "generated": "scripts/gen-summon-handles.mjs",
-  "count": 127,
+  "count": 128,
   "handles": [
     {
       "slug": "abraham-lincoln",
@@ -46,6 +46,14 @@
       "slug": "annie-duke",
       "kind": "person",
       "name": "Annie Duke",
+      "availability": "ready",
+      "runtime": "figure",
+      "tool": "public_notes"
+    },
+    {
+      "slug": "balaji-srinivasan",
+      "kind": "person",
+      "name": "Balaji Srinivasan",
       "availability": "ready",
       "runtime": "figure",
       "tool": "public_notes"
