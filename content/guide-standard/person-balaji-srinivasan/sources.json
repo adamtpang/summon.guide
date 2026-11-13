@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "guideId": "person:balaji-srinivasan",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "77f4da7e36a0be9c",
+      "title": "Startups, Small Businesses and the Execution Mindset, Stanford Startup Engineering lecture notes, 2013",
+      "url": "https://spark-public.s3.amazonaws.com/startup/lecture_slides/lecture5-market-wireframing-design.pdf",
+      "synthesis": "content/knowledge/balaji-srinivasan/2013-startup-engineering-startups-and-execution.md",
+      "contentHash": "fc3cc6bd8dd27b59d7143a2eed0a899fcc777078bd867ec51457f5125090525a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c5c51c2159bcf0d3",
+      "title": "The Idea Maze, Stanford Startup Engineering lecture notes, 2013",
+      "url": "https://spark-public.s3.amazonaws.com/startup/lecture_slides/lecture5-market-wireframing-design.pdf",
+      "synthesis": "content/knowledge/balaji-srinivasan/2013-startup-engineering-the-idea-maze.md",
+      "contentHash": "377cb92fd91553f9436b6273ff952f3046db58aed5950b467f3113883567208a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "048cce47eaa59d79",
+      "title": "The Purpose of Technology, balajis.com, 2020-07-19",
+      "url": "https://balajis.com/p/the-purpose-of-technology",
+      "synthesis": "content/knowledge/balaji-srinivasan/2020-07-19-the-purpose-of-technology.md",
+      "contentHash": "40e38c4deb0dc3f7ecfcae574b53cf5e8dbf704e0325c29d011948d1d7b90bbf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "820e3fc2d110a5d3",
+      "title": "How to Start a New Country, balajis.com, 2021-04-09",
+      "url": "https://balajis.com/p/how-to-start-a-new-country",
+      "synthesis": "content/knowledge/balaji-srinivasan/2021-04-09-how-to-start-a-new-country.md",
+      "contentHash": "143c6695684fd0a7f41c745b14feac19eca1f51ceae0900219d043722b684ef8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e393dd107636d43c",
+      "title": "The Network Union, balajis.com, 2021-05-11",
+      "url": "https://balajis.com/p/network-union",
+      "synthesis": "content/knowledge/balaji-srinivasan/2021-05-11-the-network-union.md",
+      "contentHash": "91bf840a6b30e8af96938dd75a6623ab4d4945f4929a8fdab6a01962c669b568",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "946467c88940b856",
+      "title": "Founding vs Inheriting, balajis.com, 2021-05-26",
+      "url": "https://balajis.com/p/founding-vs-inheriting",
+      "synthesis": "content/knowledge/balaji-srinivasan/2021-05-26-founding-vs-inheriting.md",
+      "contentHash": "60918b62d79f28d82f7c76a8ad473835cac22478bb6a10f559f56eb53fca4b88",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5435a6b0f5224295",
+      "title": "The Network State in One Thousand Words, The Network State, 2022",
+      "url": "https://thenetworkstate.com/the-network-state-in-one-thousand-words",
+      "synthesis": "content/knowledge/balaji-srinivasan/2022-the-network-state-in-one-thousand-words.md",
+      "contentHash": "fc367a251ad11c5ff8133e18a771c944de13a66e911f2afc2cfb283e057b1166",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a7e24e65447899f7",
+      "title": "The One Commandment, The Network State, 2022",
+      "url": "https://thenetworkstate.com/the-one-commandment",
+      "synthesis": "content/knowledge/balaji-srinivasan/2022-the-network-state-the-one-commandment.md",
+      "contentHash": "af82e72732faa12c3f6c0b83c913784c6dd1599fbb5e517502bb55948ed19d7c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

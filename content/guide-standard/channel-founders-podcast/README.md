@@ -4,7 +4,7 @@ ID: channel:founders-podcast
 
 Owner: summon.guide
 
-Coverage: partial, 209 synthesis records.
+Coverage: partial, 228 synthesis records.
 
 Distillation: content/distilled/founders-podcast.md
 

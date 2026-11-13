@@ -76,6 +76,16 @@
     "skillSlugs": []
   },
   {
+    "id": "person:balaji-srinivasan",
+    "name": "Balaji Srinivasan",
+    "availability": "ready",
+    "directory": "person-balaji-srinivasan",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [],
+    "skillSlugs": []
+  },
+  {
     "id": "person:franklin",
     "name": "Benjamin Franklin",
     "availability": "ready",

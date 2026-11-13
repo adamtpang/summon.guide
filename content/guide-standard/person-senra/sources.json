@@ -1526,6 +1526,78 @@
       "kind": "published-synthesis"
     },
     {
+      "id": "0cdeeb426be9fb20",
+      "title": "The Tycoons: Carnegie, Rockefeller, Gould & Morgan",
+      "url": "https://www.youtube.com/watch?v=v9KYuIrJnZA",
+      "synthesis": "content/knowledge/founders/170-the-tycoons-carnegie-rockefeller-gould-morgan.md",
+      "contentHash": "e77aae3129358a98b638369be16d62bb1eb76bd4686cab567559a488804e3c76",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "27aa42802f5f79ba",
+      "title": "Ari Emanuel's Autobiography",
+      "url": "https://www.youtube.com/watch?v=6mhN6WkZnXc",
+      "synthesis": "content/knowledge/founders/171-ari-emanuels-autobiography.md",
+      "contentHash": "f248ec3100a46f965dfb4393e64e80a2545562f75dfe5a85ba5ffebd51922200",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "782a0d067087b233",
+      "title": "Mark Zuckerberg's Empire",
+      "url": "https://www.youtube.com/watch?v=sCGxLh8Sg-8",
+      "synthesis": "content/knowledge/founders/172-mark-zuckerbergs-empire.md",
+      "contentHash": "2bfff45626796779b46027abf870856e93bd8bf047261580fee7e3aa4e3f11b6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "254b54d0a491b804",
+      "title": "How Sam Walton Worked",
+      "url": "https://www.youtube.com/watch?v=dAx0W29-FWE",
+      "synthesis": "content/knowledge/founders/173-how-sam-walton-worked.md",
+      "contentHash": "4af6b650a510391375ca0bbfa25cf4c178ae718b069fed5d4bf332591d99085b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "765e0e6580a85836",
+      "title": "How Michael Bloomberg Works",
+      "url": "https://www.youtube.com/watch?v=1iH5YpzPZi8",
+      "synthesis": "content/knowledge/founders/174-how-michael-bloomberg-works.md",
+      "contentHash": "3a7dbfb5e8796311b2deee660cd02dd3457b39bed1c8ed336b8884a7ff69775f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ca0d18ff825fc949",
+      "title": "The Mind of Napoleon",
+      "url": "https://www.youtube.com/watch?v=WWQFtt6Hm10",
+      "synthesis": "content/knowledge/founders/175-the-mind-of-napoleon.md",
+      "contentHash": "d8718a54785c58ed140609bd458f7d616768fd5e67327c3596cbbe2041cd4e4c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a6a05f47e37d9fb3",
+      "title": "James Garfield's Extraordinary Rise",
+      "url": "https://www.youtube.com/watch?v=NhO7Y-QWH6c",
+      "synthesis": "content/knowledge/founders/176-james-garfields-extraordinary-rise.md",
+      "contentHash": "18b23063e744c6fc671bce846978683a0a94d482fc4279dd4ddd0065cc7f7a64",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ee2194132e3a8302",
+      "title": "Welcome to David Senra",
+      "url": "https://www.youtube.com/watch?v=qK1Yvt24WYg",
+      "synthesis": "content/knowledge/interviews/000-welcome-to-david-senra.md",
+      "contentHash": "e11af3131d078f79d0bc59b63c8503e4a62e18f7b7a9a8ce58e84c5916b98ba7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
       "id": "8759691f0ed5bc78",
       "title": "Rick Rubin on Finding Your Life’s Work",
       "url": "https://www.youtube.com/watch?v=g6MEDOY7tHo",
@@ -1882,6 +1954,105 @@
       "url": "https://www.youtube.com/watch?v=MCbHnlpwZf0",
       "synthesis": "content/knowledge/interviews/040-inside-bending-spoons-finding-talent-leveraging-ai-driving-o.md",
       "contentHash": "d92ff71953da3a7b52baecc648ffda3fca9dc97c5464a8d679899d1dff2f49ef",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f5450eb2d9ba4846",
+      "title": "Managing $525B & Building the World’s Largest Multifamily Office | Kurt MacAlpine, Corient",
+      "url": "https://www.youtube.com/watch?v=u1cyLVmRMx8",
+      "synthesis": "content/knowledge/interviews/041-managing-525b-building-the-world-s-largest-multifamily-offic.md",
+      "contentHash": "2ff8ba50292da1d5b29dfd73fb1fd94d77f0be3ebb012778d9d189f41de2d675",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9af8c0fb2f174870",
+      "title": "Lessons from History’s Greatest Leaders & Conquerors | Ben Wilson",
+      "url": "https://www.youtube.com/watch?v=Js7Wf3Lj96A",
+      "synthesis": "content/knowledge/interviews/042-lessons-from-history-s-greatest-leaders-conquerors-ben-wilso.md",
+      "contentHash": "e4b0f3aaf88ec1731cbccf83d626030cc3c385f08afeeace8bde9ff06c78f21d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "87993d487a13e45e",
+      "title": "Building Muse, Working with Mark Zuckerberg & The Future of AI | Alexandr Wang, Meta",
+      "url": "https://www.youtube.com/watch?v=S6l3aRsecuE",
+      "synthesis": "content/knowledge/interviews/043-building-muse-working-with-mark-zuckerberg-the-future-of-ai.md",
+      "contentHash": "6c7cb83b0540ce3ead39d1a754c52f5d1dd686e7dad931e1904cba025b03d05b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cf4ededbc7879c8f",
+      "title": "Building an Empire with Risk, Rage & 200 Phone Calls A Day | Ari Emanuel, WME & TKO",
+      "url": "https://www.youtube.com/watch?v=QeolP6gwSb4",
+      "synthesis": "content/knowledge/interviews/044-building-an-empire-with-risk-rage-200-phone-calls-a-day-ari.md",
+      "contentHash": "5b10a248015f02a0e202e48adcf31e2f1cb2e84b46ff4c9e697b05b211a89068",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "58cd729696b74ffd",
+      "title": "How Mark Zuckerberg, Palmer Luckey, Josh Kushner & Scott Wu Think | Jeremy Stern",
+      "url": "https://www.youtube.com/watch?v=cvmgnpxr-Lk",
+      "synthesis": "content/knowledge/interviews/045-how-mark-zuckerberg-palmer-luckey-josh-kushner-scott-wu-thin.md",
+      "contentHash": "9bf2142514791477eef81ab67f257d32a09cd32e269b5c9fec591c44bceb13e7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "764480ec149b7c64",
+      "title": "From HOA Management to $4B in Revenue & $6.3B Deal for Amex GBT | Alexander Taubman, Long Lake",
+      "url": "https://www.youtube.com/watch?v=w3-nMklTFjY",
+      "synthesis": "content/knowledge/interviews/046-from-hoa-management-to-4b-in-revenue-6-3b-deal-for-amex-gbt.md",
+      "contentHash": "bbd85cee7dd3d0c18853ad2d5627edd3277797bacd5d2be5c8c861dbf7f649cf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fa1b04b823fbba7a",
+      "title": "Building the Streetwear Empire Kith | Ronnie Fieg",
+      "url": "https://www.youtube.com/watch?v=RFjMyFeqf3I",
+      "synthesis": "content/knowledge/interviews/047-building-the-streetwear-empire-kith-ronnie-fieg.md",
+      "contentHash": "7ed2e1c1f08ff50bd83551909dabe99e66d8e642860aa8e30594da1d38831339",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d73c0cc9819a6c83",
+      "title": "Product Mastery, Pain Tolerance & Relentless Ambition | Peter Rahal of David Protein, Medici & RXBAR",
+      "url": "https://www.youtube.com/watch?v=QtjLireBMI8",
+      "synthesis": "content/knowledge/interviews/048-product-mastery-pain-tolerance-relentless-ambition-peter-rah.md",
+      "contentHash": "d18e30a38270b1f38907d3161509d1fa24a94ffdb09a7d1c3b3191b9709d90f6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e07d47f672f58647",
+      "title": "From a $27,500 Charter Company to a $4 Billion Private Jet Giant | Kenn Ricci, Flexjet",
+      "url": "https://www.youtube.com/watch?v=D76BdIPTfGw",
+      "synthesis": "content/knowledge/interviews/049-from-a-27-500-charter-company-to-a-4-billion-private-jet-gia.md",
+      "contentHash": "b31a5445d09a15f62fafe3ec670fa3de4878b56ab153d201bf7e4bd3ccae4043",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1017e2d61bc2c824",
+      "title": "Competition, Intensity & Building a $115 Billion Global Bank | Nik Storonsky, Revolut",
+      "url": "https://www.youtube.com/watch?v=hT_MAAwFLIc",
+      "synthesis": "content/knowledge/interviews/050-competition-intensity-building-a-115-billion-global-bank-nik.md",
+      "contentHash": "e9e292c6b90cb6e747e3400c70b2a9719578af663f3cd7d6a32dfe20e4a59ff5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "43803a530bfe9d39",
+      "title": "High School Dropout to Multi-Billionaire: The Relentless Drive of Rafael Vivas",
+      "url": "https://www.youtube.com/watch?v=IdvsD61Rmmk",
+      "synthesis": "content/knowledge/interviews/051-high-school-dropout-to-multi-billionaire-the-relentless-driv.md",
+      "contentHash": "96d0f13c838c401d46e7b693d7fc6624d3e02c0d23a43dd439e705e07a0d4dd8",
       "rightsReview": "not-certified",
       "kind": "published-synthesis"
     },
