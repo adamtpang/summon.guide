@@ -31,4 +31,4 @@ export function isCurated(slug: string): boolean {
 /** The person guides shown and matched across the site. */
 export const curatedFigures = figures.filter((figure) => isCurated(figure.slug));
 
-export { GUIDE_LINES } from "./guideLines";
+export { GUIDE_LINES, GUIDE_TITLES } from "./guideLines";

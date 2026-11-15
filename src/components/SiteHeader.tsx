@@ -12,7 +12,7 @@ const NAV = [
  * you can go, and sign in. `current` marks the page you are on. */
 export default function SiteHeader({ current }: { current?: string }) {
   return (
-    <header className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
+    <header className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
       <Link href="/" className="flex min-h-11 items-center gap-2.5" aria-label="summon.guide home">
         <SummonMark />
         <span className="hidden font-display text-[15px] tracking-[0.18em] text-moon min-[440px]:inline">SUMMON</span>

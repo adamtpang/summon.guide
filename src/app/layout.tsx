@@ -14,15 +14,16 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-// Cormorant keeps the --font-playfair variable so every font-serif heading
-// picks it up without a rename; Cinzel is the inscriptional display face.
-// Both are self-hosted (SIL Open Font License, files from Fontsource) so the
+// Source Serif 4 is the reading face (headings and prose) and keeps the
+// --font-playfair variable so every font-serif class picks it up. Cinzel is
+// the inscriptional face, used only for guide names and the wordmark. Both
+// are self-hosted (SIL Open Font License, files from Fontsource) so the
 // build never depends on a Google Fonts fetch.
 const playfair = localFont({
   variable: "--font-playfair",
   src: [
-    { path: "./fonts/cormorant-garamond-latin-wght.woff2", weight: "300 700", style: "normal" },
-    { path: "./fonts/cormorant-garamond-latin-wght-italic.woff2", weight: "300 700", style: "italic" },
+    { path: "./fonts/source-serif-4-latin-wght-normal.woff2", weight: "200 900", style: "normal" },
+    { path: "./fonts/source-serif-4-latin-wght-italic.woff2", weight: "200 900", style: "italic" },
   ],
 });
 

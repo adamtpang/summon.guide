@@ -14,3 +14,20 @@ export const GUIDE_LINES: Record<string, string> = {
   visakan: "Writing in public, finding friends",
   "leonardo-da-vinci": "Curiosity across every field",
 };
+
+/** The epithet shown above a guide's name on the stage. */
+export const GUIDE_TITLES: Record<string, string> = {
+  alexander: "The Conqueror",
+  franklin: "The Printer",
+  "bob-marley": "The Messenger",
+  "lee-kuan-yew": "The Nation Builder",
+  "balaji-srinivasan": "The Network Founder",
+  "brad-jacobs": "The Dealmaker",
+  elon: "The Engineer",
+  deutsch: "The Explainer",
+  sivers: "The Minimalist",
+  "lulie-tanett": "The Untangler",
+  "nassim-taleb": "The Skeptic",
+  visakan: "The Friendly Nerd",
+  "leonardo-da-vinci": "The Polymath",
+};

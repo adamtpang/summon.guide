@@ -67,10 +67,10 @@ export default function StuckBox({}: { guides?: GuideOption[] }) {
   };
 
   return (
-    <div className="flex w-full max-w-[680px] flex-col items-center gap-4">
+    <div className="flex w-full flex-col gap-3">
       <form
         onSubmit={(e) => { e.preventDefault(); void send(text); }}
-        className="flex w-full items-end gap-2 rounded-[3px] border border-moon/70 bg-raised p-2 shadow-[0_1px_0_var(--color-moon)] focus-within:border-lapis focus-within:shadow-[0_1px_0_var(--color-lapis)]"
+        className="flex w-full items-end gap-2 border-2 border-moon bg-night p-2 focus-within:border-lapis"
       >
         <label htmlFor="stuck" className="sr-only">What is stuck</label>
         <textarea
@@ -88,7 +88,7 @@ export default function StuckBox({}: { guides?: GuideOption[] }) {
           type="submit"
           disabled={busy || !text.trim()}
           aria-label="Find my guide"
-          className="flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-[2px] bg-lapis px-4 text-[15px] font-medium text-night transition-colors hover:bg-lapis-deep disabled:bg-moon/25"
+          className="flex min-h-11 shrink-0 items-center justify-center gap-2 bg-lapis px-4 text-base font-semibold text-white transition-colors hover:bg-lapis-deep disabled:bg-moon/25"
         >
           {busy ? <LoaderCircle className="size-4 animate-spin" /> : null}{busy ? "Finding" : "Find my guide"}
         </button>
@@ -106,7 +106,7 @@ export default function StuckBox({}: { guides?: GuideOption[] }) {
           </div>
         </div>
       )}
-      <div className="flex flex-wrap justify-center gap-x-5 gap-y-0">
+      <div className="flex flex-wrap gap-x-5 gap-y-0">
         {EXAMPLES.map((example) => (
           <button
             key={example}

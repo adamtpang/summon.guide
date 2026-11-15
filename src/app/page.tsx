@@ -1,54 +1,51 @@
 import Image from "next/image";
 import Link from "next/link";
-import GuideNiche from "@/components/GuideNiche";
+import HeroSelect, { type Hero } from "@/components/HeroSelect";
 import PurchaseSuccessModal from "@/components/PurchaseSuccessModal";
 import SiteHeader from "@/components/SiteHeader";
 import StuckBox from "@/components/StuckBox";
 import { guidePath } from "@/lib/guideUrls";
-import { curatedFigures, GUIDE_LINES } from "@/lib/curated";
+import { curatedFigures, GUIDE_LINES, GUIDE_TITLES } from "@/lib/curated";
 
 // Server Component on purpose: the raw first response carries the real
 // headline and every guide's name for crawlers. The only interactive piece,
 // the ask box, is a client island. The frieze is a public-domain drawing
 // (Stuart and Revett's Parthenon); its source is on /credits.
 export default function Home() {
-  const guides = [...curatedFigures].sort((a, b) => a.name.localeCompare(b.name));
+  const heroes: Hero[] = [...curatedFigures]
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map((f) => ({
+      slug: f.slug,
+      name: f.name,
+      href: guidePath(f.slug),
+      aboutHref: `${guidePath(f.slug)}/about`,
+      portrait: f.portrait,
+      era: f.era.replace("-", " to "),
+      location: f.location,
+      title: GUIDE_TITLES[f.slug] ?? "",
+      line: GUIDE_LINES[f.slug] ?? f.knownFor,
+      askAbout: f.domains.slice(0, 4),
+    }));
   return (
     <main className="flex min-h-screen flex-col bg-night text-moon">
       <SiteHeader />
 
-      <section className="mx-auto w-full max-w-6xl px-5 pb-14 pt-10 text-center sm:px-8 sm:pb-20 sm:pt-16">
-        <h1 className="font-serif text-[52px] font-medium leading-[1.02] tracking-[-0.01em] sm:text-[84px]">What&apos;s stuck?</h1>
-        <p className="mx-auto mt-4 max-w-xl text-[17px] leading-relaxed text-mist sm:text-lg">
-          Say it plainly. You will be matched with the guide who lived that problem, and they answer from their own
-          words.
-        </p>
-        <div className="mt-8 flex justify-center">
-          <StuckBox />
-        </div>
-      </section>
-
-      <section aria-labelledby="hall" className="border-t border-edge bg-raised">
-        <div className="mx-auto w-full max-w-6xl px-5 py-14 sm:px-8 sm:py-20">
-          <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
-            <h2 id="hall" className="font-serif text-4xl font-medium sm:text-5xl">Or choose your guide</h2>
-            <p className="text-[15px] text-mist">{guides.length} people, hand-picked. Each one is an AI guide built from their public work.</p>
-          </div>
-          <ul className="mt-10 grid grid-cols-2 gap-x-5 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-            {guides.map((guide, i) => (
-              <li key={guide.slug}>
-                <GuideNiche
-                  href={guidePath(guide.slug)}
-                  name={guide.name}
-                  line={GUIDE_LINES[guide.slug] ?? guide.knownFor}
-                  portrait={guide.portrait}
-                  priority={i < 6}
-                />
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
+      <HeroSelect
+        heroes={heroes}
+        intro={
+          <>
+            <h1 className="max-w-[13ch] font-serif text-5xl font-semibold leading-[1.02] tracking-[-0.02em] text-balance sm:text-6xl lg:text-7xl">
+              The greatest humans who ever lived will see you now.
+            </h1>
+            <p className="mt-5 max-w-md font-serif text-xl leading-snug text-mist">
+              Say what is stuck. You will be sent to the one who lived it, and they answer from their own words.
+            </p>
+            <div className="mt-7 max-w-xl">
+              <StuckBox />
+            </div>
+          </>
+        }
+      />
 
       <section aria-label="Other ways in" className="relative overflow-hidden border-t border-edge">
         <Image
