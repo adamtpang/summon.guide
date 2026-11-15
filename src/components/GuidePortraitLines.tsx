@@ -32,7 +32,7 @@ export default function GuidePortraitLines({ slug, name, portrait }: { slug: str
   };
 
   const face = (
-    <span className="relative block size-36 overflow-hidden rounded-full border border-moon/10 shadow-[0_0_70px_-20px_#4a78bb] sm:size-44">
+    <span className="niche is-lit block w-40 sm:w-48">
       <GuidePortrait src={portrait} name={name} priority />
     </span>
   );
@@ -47,7 +47,7 @@ export default function GuidePortraitLines({ slug, name, portrait }: { slug: str
         onClick={() => { setOpen((o) => !o); if (!open) play(0); }}
         aria-expanded={open}
         aria-label={`Hear ${name}`}
-        className="rounded-full transition-transform hover:scale-[1.02] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-moon/60"
+        className="rounded-t-full transition-transform hover:scale-[1.02]"
       >
         {face}
       </button>
@@ -60,7 +60,7 @@ export default function GuidePortraitLines({ slug, name, portrait }: { slug: str
                 type="button"
                 onClick={() => play(i)}
                 title={line.source}
-                className={`flex min-h-11 w-full items-start gap-2 rounded-2xl border px-4 py-2.5 text-left text-sm leading-snug transition-colors ${playing === i ? "border-moon/30 bg-moon/10 text-moon" : "border-moon/10 text-mist hover:bg-moon/5"}`}
+                className={`flex min-h-11 w-full items-start gap-2 rounded-[3px] border px-4 py-2.5 text-left font-serif text-lg leading-snug transition-colors ${playing === i ? "border-lapis bg-raised text-moon" : "border-edge text-mist hover:border-moon/40 hover:text-moon"}`}
               >
                 <Volume2 className={`mt-0.5 size-4 shrink-0 ${playing === i ? "animate-pulse" : "opacity-50"}`} aria-hidden="true" />
                 <span>&ldquo;{line.text}&rdquo;</span>

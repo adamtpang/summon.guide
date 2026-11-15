@@ -2,123 +2,88 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import type { GuideAgentKind, GuideAgentSummary } from "@/lib/guideAgents";
+import GuideNiche from "@/components/GuideNiche";
+import type { GuideAgentSummary } from "@/lib/guideAgents";
 
-const filters: { value: "all" | GuideAgentKind; label: string }[] = [
-  { value: "all", label: "All" },
-  { value: "person", label: "People" },
-  { value: "book", label: "Books" },
-  { value: "channel", label: "Channels" },
-];
-
-function initials(name: string) {
-  return name.split(/\s+/).slice(0, 2).map((part) => part[0]).join("").toUpperCase();
-}
-
-const cardClass =
-  "flex h-full min-h-[88px] min-w-0 items-center gap-4 rounded-2xl border border-moon/[0.07] p-4 transition-colors";
-const liveClass = `${cardClass} hover:border-moon/20 hover:bg-moon/[0.04]`;
-
-export default function GuideAgentRoster({ agents }: { agents: GuideAgentSummary[] }) {
-  const [kind, setKind] = useState<"all" | GuideAgentKind>("all");
+// The roster: people in the hall of niches, then books and channels as a
+// plain reading list. One search box filters both.
+export default function GuideAgentRoster({ agents, lines = {} }: { agents: GuideAgentSummary[]; lines?: Record<string, string> }) {
   const [query, setQuery] = useState("");
 
   const visible = useMemo(() => {
     const needle = query.toLowerCase().trim();
-    const matches = agents.filter((agent) => {
-      if (kind !== "all" && agent.kind !== kind) return false;
-      if (!needle) return true;
-      return [agent.name, agent.byline, agent.description, agent.category, ...agent.domains]
-        .join(" ")
-        .toLowerCase()
-        .includes(needle);
-    });
-    // Guides you can talk to come first; ones still in onboarding go last.
-    const ready = (agent: GuideAgentSummary) => (agent.availability === "ready" && agent.chatHref ? 0 : 1);
-    return [...matches].sort((x, y) => ready(x) - ready(y));
-  }, [agents, kind, query]);
+    if (!needle) return agents;
+    return agents.filter((agent) =>
+      [agent.name, agent.byline, agent.description, agent.category, ...agent.domains].join(" ").toLowerCase().includes(needle),
+    );
+  }, [agents, query]);
+
+  const people = visible.filter((agent) => agent.kind === "person").sort((a, b) => a.name.localeCompare(b.name));
+  const sources = visible.filter((agent) => agent.kind !== "person").sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <div>
+      <label htmlFor="guide-search" className="sr-only">Search guides</label>
       <input
+        id="guide-search"
         value={query}
         onChange={(event) => setQuery(event.target.value)}
         placeholder="Search by name or problem"
-        aria-label="Search guides"
-        className="min-h-12 w-full rounded-2xl border border-moon/10 bg-moon/[0.04] px-4 text-base text-moon outline-none placeholder:text-dim focus:border-gold-500/70"
+        className="min-h-12 w-full max-w-xl rounded-[3px] border border-moon/60 bg-raised px-4 text-[17px] text-moon outline-none placeholder:text-dim focus:border-lapis"
       />
-      <div className="mt-3 flex gap-1 overflow-x-auto" role="group" aria-label="Filter guides">
-        {filters.map((filter) => {
-          const selected = kind === filter.value;
-          return (
-            <button
-              key={filter.value}
-              type="button"
-              aria-pressed={selected}
-              onClick={() => setKind(filter.value)}
-              className={`min-h-11 shrink-0 rounded-full px-4 text-sm transition-colors ${
-                selected ? "bg-moon/10 text-moon" : "text-mist hover:text-moon"
-              }`}
-            >
-              {filter.label}
-            </button>
-          );
-        })}
-      </div>
 
-      <ul className="mt-6 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
-        {visible.map((agent) => {
-          const href = agent.chatHref ?? (agent.installSlug ? `#${agent.installSlug}` : agent.profileHref);
-          const building = agent.availability !== "ready";
-          const body = (
-            <>
-              {agent.image && agent.kind === "person" ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={agent.image}
-                  alt=""
-                  width={48}
-                  height={48}
-                  loading="lazy"
-                  className="h-12 w-12 shrink-0 rounded-full object-cover object-top grayscale"
+      {people.length > 0 && (
+        <ul className="mt-10 grid grid-cols-2 gap-x-5 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          {people.map((agent, i) => {
+            const slug = agent.id.replace(/^person:/, "");
+            const href = agent.chatHref ?? agent.profileHref ?? "#";
+            const building = agent.availability !== "ready";
+            return (
+              <li key={agent.id}>
+                <GuideNiche
+                  href={href}
+                  name={agent.name}
+                  line={building ? "Being prepared" : lines[slug] ?? agent.description}
+                  portrait={agent.image}
+                  priority={i < 6}
                 />
-              ) : (
-                <span
-                  aria-hidden
-                  className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-moon/[0.06] font-serif text-sm text-mist"
-                >
-                  {initials(agent.name)}
-                </span>
-              )}
-              <span className="min-w-0">
-                <span className="block truncate font-serif text-lg leading-tight text-moon">{agent.name}</span>
-                <span className="mt-1 line-clamp-2 text-sm leading-snug text-mist">
-                  {building ? "In onboarding. " : ""}
-                  {agent.description}
-                </span>
-              </span>
-            </>
-          );
-          return (
-            <li key={agent.id} className="min-w-0">
-              {!href ? (
-                <div className={`${cardClass} opacity-60`}>{body}</div>
-              ) : href.startsWith("#") ? (
-                <a href={href} className={liveClass}>{body}</a>
-              ) : (
-                <Link href={href} className={liveClass}>{body}</Link>
-              )}
-            </li>
-          );
-        })}
-      </ul>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+
+      {sources.length > 0 && (
+        <section aria-labelledby="sources" className="mt-20">
+          <h2 id="sources" className="font-serif text-3xl font-medium sm:text-4xl">Books and channels</h2>
+          <p className="mt-2 max-w-[62ch] text-[15px] text-mist">Ask a single source directly. Answers stay inside what that book or channel says.</p>
+          <ul className="mt-6 grid gap-x-12 border-t border-edge sm:grid-cols-2">
+            {sources.map((agent) => {
+              const href = agent.chatHref ?? (agent.installSlug ? `#${agent.installSlug}` : agent.profileHref);
+              const row = (
+                <>
+                  <span className="block font-serif text-xl leading-tight text-moon group-hover:text-lapis">{agent.name}</span>
+                  <span className="mt-1 line-clamp-1 block text-[14px] text-mist">{agent.byline || agent.description}</span>
+                </>
+              );
+              return (
+                <li key={agent.id} className="border-b border-edge">
+                  {href ? (
+                    <Link href={href} className="group block py-4">{row}</Link>
+                  ) : (
+                    <div className="py-4 opacity-60">{row}</div>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
 
       {!visible.length && (
-        <p className="py-12 text-center text-sm text-mist">
+        <p className="py-12 text-[15px] text-mist">
           No guide matches that yet.{" "}
-          <a href="#request-guide" className="text-gold-500 underline underline-offset-4">
-            Request one
-          </a>
+          <a href="#request-guide" className="text-lapis underline underline-offset-4">Request one</a>
         </p>
       )}
     </div>

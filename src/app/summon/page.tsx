@@ -4,6 +4,8 @@ import GuideAgentRoster from "@/components/GuideAgentRoster";
 import GuideRequestPanel from "@/components/GuideRequestPanel";
 import { guideAgentSummaries } from "@/lib/guideAgents";
 import type { Metadata } from "next";
+import SiteHeader from "@/components/SiteHeader";
+import { GUIDE_LINES } from "@/lib/curated";
 
 export const metadata: Metadata = {
   title: "Guides | summon.guide",
@@ -21,14 +23,13 @@ const packs = [
 export default function SummonPacks() {
   return (
     <main className="min-h-screen bg-night text-moon">
-      <div className="mx-auto max-w-5xl px-5 pb-24 sm:px-6">
-        <header className="flex items-center justify-between py-4">
-          <Link href="/" className="font-display inline-flex min-h-11 items-center text-xs uppercase tracking-[0.32em] text-mist hover:text-moon">summon.guide</Link>
-          <a href="#request-guide" className="inline-flex min-h-11 items-center text-sm text-mist hover:text-moon">Request a guide</a>
-        </header>
-
-        <h1 className="mb-6 mt-8 font-serif text-4xl font-medium tracking-tight sm:mt-14 sm:text-5xl">Guides</h1>
-        <GuideAgentRoster agents={guideAgentSummaries.filter((agent) => agent.availability !== "archived")} />
+      <SiteHeader current="/summon" />
+      <div className="mx-auto max-w-6xl px-5 pb-24 sm:px-8">
+        <h1 className="mt-8 font-serif text-5xl font-medium leading-none sm:mt-12 sm:text-7xl">The guides</h1>
+        <p className="mb-8 mt-4 max-w-[62ch] text-[17px] leading-relaxed text-mist">
+          Hand-picked people whose lives answer real problems. Each is an AI guide built from their public work, not the person.
+        </p>
+        <GuideAgentRoster agents={guideAgentSummaries.filter((agent) => agent.availability !== "archived")} lines={GUIDE_LINES} />
 
         <div className="mt-24">
           <GuideRequestPanel />

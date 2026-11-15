@@ -37,8 +37,8 @@ export default function ChatComposer({
     <div
       className={
         dark
-          ? "rounded-full border border-edge bg-raised/95 p-2 shadow-[0_8px_30px_rgba(35,33,29,0.08)] backdrop-blur-md"
-          : "rounded-2xl border border-warm-200 bg-raised/90 p-2 backdrop-blur-md"
+          ? "rounded-[3px] border border-moon/70 bg-raised p-2 shadow-[0_1px_0_var(--color-moon)] focus-within:border-lapis focus-within:shadow-[0_1px_0_var(--color-lapis)]"
+          : "rounded-[3px] border border-moon/70 bg-raised p-2 shadow-[0_1px_0_var(--color-moon)] focus-within:border-lapis focus-within:shadow-[0_1px_0_var(--color-lapis)]"
       }
     >
       <div className="flex items-end gap-2">
@@ -54,8 +54,8 @@ export default function ChatComposer({
           disabled={disabled}
           className={
             dark
-              ? "max-h-36 min-h-12 min-w-0 flex-1 resize-none border-0 bg-transparent px-3 py-3 text-base leading-normal text-moon shadow-none placeholder:text-moon/35 focus-visible:border-0 focus-visible:ring-0"
-              : "max-h-36 min-h-12 min-w-0 flex-1 resize-none border-0 bg-transparent px-3 py-3 text-base leading-normal text-ink-950 shadow-none placeholder:text-warm-400 focus-visible:border-0 focus-visible:ring-0"
+              ? "max-h-36 min-h-12 min-w-0 flex-1 resize-none border-0 bg-transparent px-3 py-3 text-base leading-normal text-[17px] text-moon shadow-none placeholder:text-dim focus-visible:border-0 focus-visible:outline-0 focus-visible:ring-0"
+              : "max-h-36 min-h-12 min-w-0 flex-1 resize-none border-0 bg-transparent px-3 py-3 text-base leading-normal text-[17px] text-moon shadow-none placeholder:text-dim focus-visible:border-0 focus-visible:outline-0 focus-visible:ring-0"
           }
         />
         {voice && <VoiceInput disabled={disabled} onText={(text) => { onChange([value.trim(), text].filter(Boolean).join(" ").slice(0, 8000)); textareaRef.current?.focus(); }} />}
@@ -67,8 +67,8 @@ export default function ChatComposer({
           aria-label={disabled && onStop ? "Stop response" : "Send message"}
           className={
             dark
-              ? "size-12 rounded-full bg-moon text-night hover:bg-moon/85"
-              : "size-12 rounded-full bg-ink-950 text-night hover:bg-ink-800"
+              ? "size-12 rounded-[2px] bg-lapis text-night hover:bg-lapis-deep"
+              : "size-12 rounded-[2px] bg-lapis text-night hover:bg-lapis-deep"
           }
         >
           {disabled && onStop ? <Square className="size-4" /> : <ArrowUp className="size-5" />}

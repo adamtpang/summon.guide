@@ -8,7 +8,7 @@ export const metadata = {
 export default function ConnectPage() {
   return <main className="min-h-screen bg-night text-moon"><div className="max-w-2xl mx-auto px-6 py-10 md:py-20">
     <header className="flex justify-between items-center mb-20"><Link href="/" className="font-display text-dim text-xs tracking-[.25em] uppercase">summon.guide</Link><Link href="/summon" className="text-sm text-dim">Guides</Link></header>
-    <p className="text-blue-800 mb-5 text-3xl" aria-hidden="true">🧙</p>
+    
     <h1 className="font-serif text-4xl md:text-6xl mb-5">Your guides. Any chat.</h1>
     <p className="text-dim text-lg leading-relaxed mb-10">Install once in Codex or Claude Code. Summon the right perspective without leaving your conversation.</p>
     <section className="rounded-2xl border border-moon/10 bg-moon/[.03] p-6 space-y-5">

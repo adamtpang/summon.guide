@@ -13,6 +13,7 @@ import type { Metadata } from "next";
 import { curatedFigures } from "@/lib/curated";
 import { getBiography } from "@/lib/biographies";
 import LifeStory from "@/components/LifeStory";
+import SiteHeader from "@/components/SiteHeader";
 
 export async function generateStaticParams() {
   return figures.map((f) => ({ figure: f.slug }));
@@ -109,51 +110,27 @@ export default async function FigureProfile({
 
   return (
     <main className="min-h-screen bg-night text-moon">
-      <div className="max-w-5xl mx-auto px-6 pt-8 md:pt-12 pb-20">
-        {/* Brand bar */}
-        <header className="flex items-center justify-between mb-8 md:mb-10">
-          <Link
-            href="/"
-            className="text-dim text-xs tracking-[0.3em] uppercase hover:text-moon transition-colors"
-          >
-            summon.guide
-          </Link>
-          <Link
-            href="/"
-            className="text-mist text-xs hover:text-moon transition-colors flex items-center gap-1.5"
-          >
-            <svg
-              className="w-3 h-3"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path d="M19 12H5M12 19l-7-7 7-7" />
-            </svg>
-            All guides
-          </Link>
-        </header>
-
+      <SiteHeader current="/summon" />
+      <div className="mx-auto max-w-6xl px-5 pb-20 pt-6 sm:px-8 md:pt-10">
         {/* Title block + Wikipedia-style infobox */}
         <article className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-8 md:gap-10 mb-10 md:mb-14">
           <div>
-            <h1 className="text-4xl md:text-6xl font-serif font-medium leading-[1.05] tracking-tight mb-4">
+            <h1 className="mb-4 font-serif text-5xl font-medium leading-none md:text-7xl">
               {figure.name}
             </h1>
             <p className="text-mist text-base md:text-lg leading-relaxed mb-5 max-w-2xl">
               {profile.occupation}.
             </p>
-            <p className="text-dim text-xs tracking-[0.2em] uppercase mb-6">
+            <p className="mb-6 text-[15px] text-dim">
               {figure.era}
-              {figure.location ? ` · ${figure.location}` : ""}
+              {figure.location ? `, ${figure.location}` : ""}
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               <Link
                 href={`/${figure.slug}`}
-                className="inline-flex items-center gap-2 bg-moon text-night rounded-full px-6 py-3 text-sm font-medium hover:bg-moon/85 active:scale-[0.98] transition-all"
+                className="inline-flex min-h-11 items-center gap-2 rounded-[2px] bg-lapis px-6 text-[15px] font-medium text-night transition-colors hover:bg-lapis-deep"
               >
-                {figure.members ? `Ask ${figure.name}` : `Summon ${figure.name.split(" ")[0]}`}
+                {figure.members ? `Ask ${figure.name}` : `Talk to ${figure.name.split(" ")[0]}`}
                 <svg
                   className="w-4 h-4"
                   viewBox="0 0 24 24"
@@ -171,7 +148,7 @@ export default async function FigureProfile({
                   href={profile.wikipediaUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-moon/[0.04] border border-edge text-moon rounded-full px-5 py-3 text-sm font-medium hover:border-moon transition-all"
+                  className="inline-flex min-h-11 items-center gap-2 rounded-[2px] border border-moon/40 px-5 text-[15px] font-medium text-moon transition-colors hover:border-lapis hover:text-lapis"
                 >
                   Wikipedia
                   <ExternalIcon />
@@ -182,35 +159,11 @@ export default async function FigureProfile({
               <AiPersonaNotice slug={figure.slug} name={figure.name} />
             </div>
 
-            {/* Per-guide install, the headline copy-paste block */}
-            {figureSkills.length > 0 ? (
-            <CopyableInstall
-              commands={installCommands}
-              label={`Install ${figure.name.split(" ")[0]}'s frameworks in Claude Code`}
-              footnote={
-                <>
-                  Installs {figureSkills.length} skill
-                  {figureSkills.length === 1 ? "" : "s"} from{" "}
-                  {figure.name.split(" ")[0]}, plus the rest of summon.guide.
-                  Source on{" "}
-                  <a
-                    href="https://github.com/adamtpang/summon.guide/tree/main/skills"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline hover:text-moon"
-                  >
-                    GitHub
-                  </a>
-                  .
-                </>
-              }
-            />
-            ) : null}
           </div>
 
           {/* Wikipedia-style infobox */}
           <aside>
-            <div className="bg-moon/[0.04] border border-edge rounded-2xl overflow-hidden md:sticky md:top-6">
+            <div className="overflow-hidden rounded-[3px] border border-edge bg-raised md:sticky md:top-6">
               <div className="relative aspect-[3/4] bg-moon/10">
                 {!figure.portrait && (
                   <div
@@ -245,7 +198,7 @@ export default async function FigureProfile({
                       key={i}
                       className="border-b border-warm-100 last:border-b-0"
                     >
-                      <th className="text-left align-top text-mist text-[11px] tracking-wider uppercase font-medium px-4 py-3 w-[42%]">
+                      <th className="w-[40%] px-4 py-3 text-left align-top text-[13px] font-medium text-dim">
                         {row.label}
                       </th>
                       <td className="align-top text-moon px-4 py-3 leading-snug">
@@ -270,18 +223,15 @@ export default async function FigureProfile({
         {/* Table of contents, Wikipedia mini-TOC */}
         <nav
           aria-label="Contents"
-          className="bg-moon/[0.04] border border-edge rounded-xl p-5 mb-10 md:mb-14 max-w-md"
+          className="mb-10 max-w-md border-l-2 border-gilt py-1 pl-5 md:mb-14"
         >
-          <p className="text-mist text-[11px] tracking-[0.2em] uppercase mb-3">
+          <p className="mb-3 font-serif text-xl font-medium text-moon">
             Contents
           </p>
           <ol className="space-y-1.5 text-sm">
-            {tocSections.map((s, i) => (
-              <li key={s.id} className="flex gap-2">
-                <span className="text-dim font-mono text-[11px] mt-0.5">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                <a
+            {tocSections.map((s) => (
+              <li key={s.id} className="flex gap-2 text-[15px]">
+                                <a
                   href={`#${s.id}`}
                   className="text-moon hover:underline underline-offset-2"
                 >
@@ -435,7 +385,7 @@ export default async function FigureProfile({
 
         {/* Other guides */}
         <section className="mt-20 md:mt-28 pt-12 border-t border-edge">
-          <p className="text-dim text-xs tracking-[0.2em] uppercase mb-6">
+          <p className="mb-6 text-[15px] text-dim">
             Other guides
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">

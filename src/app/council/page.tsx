@@ -1,6 +1,6 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import CouncilRoom from "@/components/CouncilRoom";
+import SiteHeader from "@/components/SiteHeader";
 
 export const metadata: Metadata = {
   title: "The Council | summon.guide",
@@ -15,20 +15,11 @@ export const metadata: Metadata = {
 export default function CouncilPage() {
   return (
     <main className="min-h-screen bg-night text-moon">
-      <div className="mx-auto max-w-4xl px-5 pb-20 pt-8 sm:px-8 md:pt-12">
-        <header className="mb-10 flex items-center justify-between gap-4">
-          <Link href="/" className="text-xs uppercase tracking-[0.3em] text-mist transition-colors hover:text-moon">
-            summon.guide
-          </Link>
-          <nav className="flex items-center gap-4 text-sm text-mist">
-            <Link href="/summon" className="transition-colors hover:text-moon">Roster</Link>
-            <Link href="/skills" className="hidden transition-colors hover:text-moon sm:inline">Skills</Link>
-          </nav>
-        </header>
+      <SiteHeader current="/council" />
+      <div className="mx-auto max-w-6xl px-5 pb-20 pt-8 sm:px-8 md:pt-12">
 
         <section className="mb-10 max-w-2xl">
-          <p className="font-display mb-4 text-xs uppercase tracking-[0.24em] text-mist">The council</p>
-          <h1 className="font-serif text-4xl leading-[1.02] tracking-tight md:text-5xl">
+          <h1 className="font-serif text-5xl font-medium leading-none md:text-7xl">
             Your heroes. Your real life.
           </h1>
           <p className="mt-5 text-base leading-relaxed text-mist md:text-lg">

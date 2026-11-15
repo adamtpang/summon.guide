@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowUp, LoaderCircle } from "lucide-react";
+import { LoaderCircle } from "lucide-react";
 
 // The homepage's one action: say what is stuck, get routed to the guide whose
 // documented life fits it. Same /api/match route and session-storage handoff
@@ -16,16 +16,10 @@ const EXAMPLES = [
 
 export type GuideOption = { slug: string; name: string; path: string };
 
-export default function StuckBox({ guides }: { guides: GuideOption[] }) {
+export default function StuckBox({}: { guides?: GuideOption[] }) {
   const router = useRouter();
   const [text, setText] = useState("");
   const [busy, setBusy] = useState(false);
-  const [naming, setNaming] = useState(false);
-  const [name, setName] = useState("");
-  const guideMatches = name.trim().length
-    ? guides.filter((g) => g.name.toLowerCase().includes(name.trim().toLowerCase())).slice(0, 5)
-    : [];
-  const openGuide = (g: GuideOption) => router.push(g.path);
   const [error, setError] = useState("");
   // An honest answer when no guide fits, or when the message signals danger.
   const [notice, setNotice] = useState<null | { kind: "no_fit" | "crisis"; text: string; links: { label: string; href: string }[] }>(null);
@@ -73,10 +67,10 @@ export default function StuckBox({ guides }: { guides: GuideOption[] }) {
   };
 
   return (
-    <div className="flex w-full max-w-[640px] flex-col items-center gap-4">
+    <div className="flex w-full max-w-[680px] flex-col items-center gap-4">
       <form
         onSubmit={(e) => { e.preventDefault(); void send(text); }}
-        className="flex w-full items-center gap-2 rounded-full border border-edge bg-raised/95 py-1.5 pl-3 pr-1.5 shadow-[0_10px_40px_rgba(35,33,29,0.10)] backdrop-blur-md focus-within:border-moon/30"
+        className="flex w-full items-end gap-2 rounded-[3px] border border-moon/70 bg-raised p-2 shadow-[0_1px_0_var(--color-moon)] focus-within:border-lapis focus-within:shadow-[0_1px_0_var(--color-lapis)]"
       >
         <label htmlFor="stuck" className="sr-only">What is stuck</label>
         <textarea
@@ -84,24 +78,24 @@ export default function StuckBox({ guides }: { guides: GuideOption[] }) {
           value={text}
           onChange={(e) => setText(e.target.value)}
           onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); void send(text); } }}
-          rows={1}
+          rows={2}
           autoFocus
           disabled={busy}
-          placeholder="Say what is in your way."
-          className="min-h-11 flex-1 resize-none bg-transparent px-3 py-2.5 font-serif text-lg leading-snug text-moon outline-none placeholder:italic placeholder:text-dim"
+          placeholder="Say what is in your way, in your own words."
+          className="min-h-[3.25rem] flex-1 resize-none bg-transparent px-2.5 py-2 text-[17px] leading-snug text-moon outline-0 placeholder:text-dim focus-visible:outline-0"
         />
         <button
           type="submit"
           disabled={busy || !text.trim()}
           aria-label="Find my guide"
-          className="flex size-11 shrink-0 items-center justify-center rounded-full bg-moon text-night transition-opacity disabled:opacity-30"
+          className="flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-[2px] bg-lapis px-4 text-[15px] font-medium text-night transition-colors hover:bg-lapis-deep disabled:bg-moon/25"
         >
-          {busy ? <LoaderCircle className="size-5 animate-spin" /> : <ArrowUp className="size-5" />}
+          {busy ? <LoaderCircle className="size-4 animate-spin" /> : null}{busy ? "Finding" : "Find my guide"}
         </button>
       </form>
       {error && <p role="alert" className="text-sm text-mist">{error}</p>}
       {notice && (
-        <div role={notice.kind === "crisis" ? "alert" : "status"} className={`w-full rounded-2xl border px-4 py-3 text-left text-sm leading-relaxed ${notice.kind === "crisis" ? "border-gold-500/50 bg-raised text-moon" : "border-edge bg-raised/90 text-mist"}`}>
+        <div role={notice.kind === "crisis" ? "alert" : "status"} className={`w-full rounded-[3px] border px-4 py-3 text-left text-[15px] leading-relaxed ${notice.kind === "crisis" ? "border-lapis bg-raised text-moon" : "border-edge bg-raised text-mist"}`}>
           <p>{notice.text}</p>
           <div className="mt-2 flex flex-wrap gap-x-4">
             {notice.links.map((link) => (
@@ -112,46 +106,19 @@ export default function StuckBox({ guides }: { guides: GuideOption[] }) {
           </div>
         </div>
       )}
-      <div className="flex flex-wrap justify-center gap-2">
+      <div className="flex flex-wrap justify-center gap-x-5 gap-y-0">
         {EXAMPLES.map((example) => (
           <button
             key={example}
             type="button"
             disabled={busy}
             onClick={() => { setText(example); void send(example); }}
-            className="min-h-10 rounded-full border border-edge bg-raised/80 px-3.5 font-serif text-[15px] italic text-mist backdrop-blur-sm transition-colors hover:border-moon/30 hover:text-moon"
+            className="min-h-11 text-[15px] text-mist underline decoration-edge decoration-1 underline-offset-[5px] transition-colors hover:text-lapis hover:decoration-lapis"
           >
             {example}
           </button>
         ))}
       </div>
-      {naming ? (
-        <div className="relative w-full max-w-xs">
-          <label htmlFor="guide-name" className="sr-only">Name a guide</label>
-          <input
-            id="guide-name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            onKeyDown={(e) => { if (e.key === "Enter" && guideMatches[0]) { e.preventDefault(); openGuide(guideMatches[0]); } if (e.key === "Escape") setNaming(false); }}
-            autoFocus
-            placeholder="Franklin, Buffett, Seneca..."
-            className="min-h-11 w-full rounded-full border border-edge bg-raised/90 px-4 text-center text-sm text-moon outline-none placeholder:text-moon/30 focus:border-moon/25"
-          />
-          {guideMatches.length > 0 && (
-            <ul className="absolute left-0 right-0 top-full z-10 mt-2 overflow-hidden rounded-2xl border border-edge bg-raised text-left shadow-xl">
-              {guideMatches.map((g) => (
-                <li key={g.slug}>
-                  <button type="button" onClick={() => openGuide(g)} className="block min-h-11 w-full px-4 text-left text-sm text-moon/85 hover:bg-moon/10">{g.name}</button>
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-      ) : (
-        <button type="button" onClick={() => setNaming(true)} className="min-h-11 text-sm text-mist underline underline-offset-4 hover:text-moon">
-          or name a guide
-        </button>
-      )}
     </div>
   );
 }

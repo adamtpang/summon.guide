@@ -23,7 +23,7 @@ export default function LifeStory({
 
       {biography.chapters.map((chapter, index) => (
         <section key={chapter.id} id={chapter.id} className="scroll-mt-8">
-          <p className="text-dim text-[11px] tracking-[0.25em] uppercase mb-2">{chapter.years}</p>
+          <p className="mb-1 text-[15px] text-dim">{chapter.years}</p>
           <h2 className="text-2xl md:text-3xl font-serif font-medium text-moon mb-5 pb-3 border-b border-edge">
             {chapter.title}
           </h2>
@@ -73,11 +73,11 @@ export default function LifeStory({
         <p className="text-moon/85 text-base md:text-[17px] leading-[1.75] mb-6">{biography.library}</p>
         <Link
           href={`/${slug}`}
-          className="inline-flex min-h-11 items-center gap-2 bg-moon text-night rounded-full px-6 py-3 text-sm font-medium hover:bg-moon/85 transition-colors"
+          className="inline-flex min-h-11 items-center gap-2 rounded-[2px] bg-lapis px-6 text-[15px] font-medium text-night transition-colors hover:bg-lapis-deep"
         >
           Talk to {first}
         </Link>
-        <h3 className="text-mist text-[11px] tracking-[0.2em] uppercase mt-9 mb-3">Further reading</h3>
+        <h3 className="mb-3 mt-10 font-serif text-2xl font-medium text-moon">Further reading</h3>
         <ul className="space-y-3">
           {biography.furtherReading.map((item) => (
             <li key={item.url}>
@@ -110,7 +110,7 @@ function Plate({ image, side }: { image: BioImage; side: "left" | "right" }) {
         height={image.height}
         alt={image.alt}
         sizes="(max-width: 768px) 100vw, 420px"
-        className="w-full h-auto rounded-lg border border-edge"
+        className="h-auto w-full rounded-[3px] border border-edge"
       />
       <figcaption className="mt-2.5 text-mist text-[13px] leading-snug">
         {image.caption}{" "}

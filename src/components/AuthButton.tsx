@@ -2,41 +2,29 @@
 
 import { useSession, signIn, signOut } from "next-auth/react";
 
-export default function AuthButton({ dark = false }: { dark?: boolean }) {
+// `dark` is accepted for older callers and ignored: the site has one theme.
+export default function AuthButton({}: { dark?: boolean }) {
   const { data: session, status } = useSession();
 
   if (status === "loading") {
-    return (
-      <div
-        className={`w-8 h-8 rounded-full animate-pulse ${dark ? "bg-moon/10" : "bg-warm-200"}`}
-      />
-    );
+    return <div className="h-9 w-9 animate-pulse rounded-full bg-moon/10" />;
   }
 
   if (session?.user) {
     return (
       <button
         onClick={() => signOut()}
-        className={`flex min-h-11 items-center gap-2 px-1 text-sm transition-colors ${
-          dark
-            ? "text-warm-400 hover:text-warm-50"
-            : "text-warm-400 hover:text-ink-950"
-        }`}
+        aria-label="Sign out"
+        title="Sign out"
+        className="flex min-h-11 items-center px-1"
       >
         {session.user.image ? (
-          <img
-            src={session.user.image}
-            alt=""
-            className="w-8 h-8 rounded-full"
-          />
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={session.user.image} alt="" className="h-9 w-9 rounded-full" />
         ) : (
-          <div
-            className={`w-8 h-8 rounded-full flex items-center justify-center text-xs text-moon font-medium ${
-              dark ? "bg-moon/15" : "bg-warm-300"
-            }`}
-          >
+          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-moon/10 text-sm font-medium text-moon">
             {session.user.name?.[0] || "?"}
-          </div>
+          </span>
         )}
       </button>
     );
@@ -45,11 +33,7 @@ export default function AuthButton({ dark = false }: { dark?: boolean }) {
   return (
     <button
       onClick={() => signIn("google")}
-      className={`min-h-11 text-sm transition-colors border rounded-full px-4 py-2 ${
-        dark
-          ? "text-warm-400 border-moon/15 hover:text-warm-50 hover:border-gold-500/60"
-          : "text-warm-500 border-warm-300 hover:text-ink-950 hover:border-ink-950"
-      }`}
+      className="min-h-11 rounded-[3px] border border-moon/25 px-4 text-[15px] text-moon transition-colors hover:border-lapis hover:bg-lapis hover:text-night"
     >
       Sign in
     </button>

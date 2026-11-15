@@ -28,21 +28,25 @@
   --color-ink-900: #1a1816;
   --color-ink-950: #0f0e0c;
 
-  --color-gold-400: #a8874a;
-  --color-gold-500: #7d622c;
-  --color-gold-600: #7a5f2a;
-  --color-gold-700: #5f4920;
+  --color-gold-400: #3a5a9c;
+  --color-gold-500: #1f3d7a;
+  --color-gold-600: #1f3d7a;
+  --color-gold-700: #162c5a;
 
-  /* Marble palette: graphite ink on ivory paper, after the pencil-sketch
-     classical scenes. Token names predate it (night was the dark canvas);
-     they keep their roles: night = page, raised = surface, edge = rule,
-     moon = primary ink, mist and dim = secondary ink. */
-  --color-night: #f7f5f0;
-  --color-raised: #fffdf9;
-  --color-edge: #e2ddd2;
-  --color-moon: #23211d;
-  --color-mist: #5c574e;
-  --color-dim: #6e685e;
+  /* Marble, ink, lapis and gilt. One page color, one ink, one accent (lapis
+     for anything you can act on), and gilt for small ornament only.
+     Token names predate this palette and keep their roles:
+     night = page, raised = surface, edge = rule, moon = ink,
+     mist and dim = secondary ink. Rules are in DESIGN.md. */
+  --color-night: #f3f0e8;
+  --color-raised: #fbfaf6;
+  --color-edge: #d6d0c2;
+  --color-moon: #14171f;
+  --color-mist: #454953;
+  --color-dim: #666a73;
+  --color-lapis: #1f3d7a;
+  --color-lapis-deep: #162c5a;
+  --color-gilt: #c29a45;
   --font-display: var(--font-cinzel);
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -87,7 +91,7 @@
 
 /* Selection color */
 ::selection {
-  background: rgba(138, 109, 50, 0.18);
+  background: rgba(31, 61, 122, 0.16);
   color: var(--color-moon);
 }
 
@@ -344,4 +348,51 @@ html {
   font-weight: 500;
   letter-spacing: .03em;
   font-size: inherit;
+}
+
+/* The niche: an arched frame, like a statue niche in a hall. Every guide
+   portrait sits in one. Width sets the arch, so keep a fixed aspect ratio. */
+.niche {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  border-radius: 999px 999px 3px 3px;
+  background: var(--color-edge);
+  box-shadow: 0 0 0 1px var(--color-edge);
+}
+.niche img {
+  filter: grayscale(1) contrast(1.05);
+  transition: filter 0.35s ease, transform 0.6s ease;
+}
+a:hover > .niche img,
+a:focus-visible > .niche img,
+.niche.is-lit img {
+  filter: none;
+}
+a:hover > .niche,
+a:focus-visible > .niche {
+  box-shadow: 0 0 0 1px var(--color-gilt), 0 0 0 4px rgba(194, 154, 69, 0.18);
+}
+@media (prefers-reduced-motion: reduce) {
+  .niche img { transition: none; }
+}
+
+/* Keyboard focus, one treatment everywhere. In the base layer so a component
+   that draws its own focus state (the ask box) can switch it off. */
+@layer base {
+  :where(a, button, input, textarea, select, [tabindex]):focus-visible {
+    outline: 2px solid var(--color-lapis);
+    outline-offset: 2px;
+  }
+}
+
+.guide-portrait-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--color-mist);
 }

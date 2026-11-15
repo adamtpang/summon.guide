@@ -16,6 +16,7 @@ import ChatComposer from "@/components/ChatComposer";
 import "../../public/design/sage-magic.css";
 import { ArrowLeft, Plus, MoreHorizontal, Trash2 } from "lucide-react";
 import styles from "./SageConversation.module.css";
+import SummonMark from "@/components/SummonMark";
 
 type Message = { role: "user" | "assistant"; content: string };
 type Conversation = { id: string; title: string; messages: Message[] };
@@ -178,7 +179,7 @@ export default function SageConversation({ episodes }: { episodes: SourceEpisode
     {/* Call interface intentionally disabled. GuideCall.tsx is retained. */}
     <header className={styles.header}>
       <Link href="/" className={styles.icon} aria-label="All guides" title="All guides"><ArrowLeft size={18} /></Link>
-      {hasConversation && <span className={styles.identity}><span className="sage-wizard-small" aria-hidden="true">🧙</span>Sage</span>}
+      {hasConversation && <span className={styles.identity}><SummonMark size={22} />Sage</span>}
       <div className={styles.headerActions}>
         {hasConversation && <button className={styles.icon} onClick={() => openConversation()} disabled={busy} aria-label="New conversation" title="New conversation"><Plus size={19} /></button>}
         <details ref={menu} className={styles.menu} onKeyDown={(event) => { if (event.key === "Escape") { event.currentTarget.open = false; event.currentTarget.querySelector("summary")?.focus(); } }}>
@@ -195,11 +196,12 @@ export default function SageConversation({ episodes }: { episodes: SourceEpisode
         </details>
       </div>
     </header>
-    {hasConversation && <div className="flex shrink-0 flex-col items-center gap-1 py-2" aria-label="Sage portrait"><span className="text-7xl" role="img" aria-label="Sage the wizard">🧙</span><span className="text-[11px] text-dim">AI guide · Synthetic voice</span></div>}
+    {hasConversation && <div className="flex shrink-0 flex-col items-center gap-1 py-2" aria-label="Sage portrait"><SummonMark size={56} /><span className="text-[13px] text-dim">Sage, an AI guide</span></div>}
     <div ref={feed} className={styles.feed} onScroll={() => { const el = feed.current; if (el) nearBottom.current = el.scrollHeight - el.scrollTop - el.clientHeight < 100; }}>
       {!hasConversation ? <div className={styles.empty}>
-        <span className="sage-wizard" role="img" aria-label="Sage the wizard">🧙</span>
+        <SummonMark size={88} />
         <h1>Sage</h1>
+        <p className="mt-3 max-w-sm text-center text-[17px] leading-relaxed text-mist">Ask one question across every Founders podcast episode at once.</p>
       </div> : <div className={styles.messages} aria-label="Conversation">
         {messages.map((message, i) => <article key={i} className={message.role === "user" ? styles.question : styles.answer} aria-label={message.role === "user" ? "You" : "Sage"}>
           {message.role === "user" ? <p>{message.content}</p> : <><Answer text={message.content} episodes={episodes} /><ListenButton text={message.content} guide="sage" /></>}

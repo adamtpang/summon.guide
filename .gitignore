@@ -64,3 +64,4 @@ next-env.d.ts
 
 # Eve package build caches are regenerated; never commit them.
 eve-guides/**/node_modules/
+.design-review/
