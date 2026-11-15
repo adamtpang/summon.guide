@@ -5,6 +5,7 @@ import { getFigureSources } from "./figureSources";
 import { sourceCorpus, type SourceEpisode } from "./sourceCorpus";
 import { applySourceRuntimePolicy } from "./sourcePolicy";
 import { retrieveSourceEpisodes } from "./sourceRetrieval";
+import { buildPassageGrounding } from "./passages";
 
 /** Only published synthesis registries; never read private transcript files. */
 export function getGuideEpisodes(slug: string): SourceEpisode[] {
@@ -22,18 +23,21 @@ export function getGuideEpisodes(slug: string): SourceEpisode[] {
 
 export function buildGuideGrounding(slug: string, query: string): string {
   const episodes = getGuideEpisodes(slug);
+  // A guide with a passage library gets their own words first, then our notes.
+  const passages = buildPassageGrounding(slug, query);
+  if (!episodes.length && passages) return passages;
   if (!episodes.length) return "SOURCE COVERAGE: No retrievable corpus is connected for this guide. Be explicit about this if asked. Do not claim to have searched transcripts or invent source citations.";
   const members = DUO_SOURCE_MEMBERS[slug] || [];
   const pools = members.map(member => retrieveSourceEpisodes(getGuideEpisodes(member), query, 8));
   const selected = pools.length
     ? Array.from({ length: 8 }, (_, i) => pools.flatMap(pool => pool[i] ? [pool[i]] : [])).flat()
     : retrieveSourceEpisodes(episodes, query, 16);
-  let result = "## Retrieved source notes\nThese are original syntheses, not full transcripts. Use relevant evidence; cite supported claims with the exact citation below. Do not force irrelevant evidence, invent quotations, or imply access to the person's private thoughts. Distinguish your inference from documented evidence. If these notes do not answer the question, say so.\n";
+  let result = (passages ? `${passages}\n` : "") + "## Retrieved source notes\nThese are original syntheses, not full transcripts. Use relevant evidence; cite supported claims with the exact citation below. Do not force irrelevant evidence, invent quotations, or imply access to the person's private thoughts. Distinguish your inference from documented evidence. If these notes do not answer the question, say so.\n";
   for (const { episode } of selected) {
     const title = episode.title.replace(/["\r\n]/g, " ");
     const block = `\n### ${title}\nCite as: [Source: "${title}"]\nPrinciple: ${episode.principle}\n${episode.keyLessons.map(lesson => `- ${lesson}`).join("\n")}\n`;
     // Preserve complete chunks and citations. Skip long entries, never cut mid-evidence.
-    if (result.length + block.length <= 24000) result += block;
+    if (result.length + block.length <= 24000 + passages.length) result += block;
   }
   return result;
 }

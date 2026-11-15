@@ -1,9 +1,11 @@
 import { FOLLOWUP_RULE } from "@/lib/guidePrompts";
 import { SAFETY_RULES } from "@/lib/crisis";
-import { PERSON_GUIDE_RULES, personVoiceRules } from "@/lib/guideContract";
+import { PERSON_GUIDE_RULES, personVoiceRules } from "@/lib/guideContract";
+
 import { auth } from "@/auth";
 import type { ChatMessageInput } from "@/lib/aiTypes";
 import { buildGuideGrounding } from "@/lib/guideRetrieval";
+import { styleBlock } from "@/lib/guideStyle";
 import { AI_CONFIG, getFigure } from "@/lib/figures";
 import {
   authenticateMcpToken,
@@ -47,6 +49,7 @@ export async function POST(req: NextRequest) {
   );
   const systemText = [
     figure.systemPrompt,
+    styleBlock(figure.slug),
     `EVIDENCE: Ground substantive advice and biographical claims in relevant retrieved notes with exact source citations. Distinguish what you actually said or did from how you apply it to the user's situation. Only use quotation marks for exact words that appear in the provided notes, never for paraphrases or generated advice. If the notes do not support the answer, say so plainly and ask a useful clarifying question instead of inventing a position. If no retrieved corpus is connected, say that your sources here are limited. Never use em dashes or en dashes; use commas, periods, or parentheses.`,
     grounding,
     PERSON_GUIDE_RULES,

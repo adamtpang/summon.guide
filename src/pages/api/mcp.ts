@@ -17,9 +17,9 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { z } from "zod";
 import { researchedGuideInput, summonMatchInput } from "@/lib/summonMatch";
-import { figures } from "@/lib/figures";
 import { books } from "@/lib/books";
 import { authenticateMcpToken } from "@/lib/membership";
+import { curatedFigures } from "@/lib/curated";
 
 const SITE_URL = "https://summon.guide";
 
@@ -79,7 +79,7 @@ function buildServer(authorization?: string): McpServer {
       annotations: { title: "List guides", readOnlyHint: true },
     },
     async () => {
-      const list = figures.map((f) => ({
+      const list = curatedFigures.map((f) => ({
         slug: f.slug,
         name: f.name,
         era: f.era,

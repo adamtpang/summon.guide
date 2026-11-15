@@ -2,7 +2,7 @@
   {
     "id": "person:abraham-lincoln",
     "name": "Abraham Lincoln",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-abraham-lincoln",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -12,7 +12,7 @@
   {
     "id": "person:adam-neumann",
     "name": "Adam Neumann",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-adam-neumann",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -29,7 +29,7 @@
   {
     "id": "person:albert-einstein",
     "name": "Albert Einstein",
-    "availability": "building",
+    "availability": "archived",
     "directory": "person-albert-einstein",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -56,7 +56,7 @@
   {
     "id": "person:alysa-liu",
     "name": "Alysa Liu",
-    "availability": "building",
+    "availability": "archived",
     "directory": "person-alysa-liu",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -66,7 +66,7 @@
   {
     "id": "person:annie-duke",
     "name": "Annie Duke",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-annie-duke",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -104,7 +104,7 @@
   {
     "id": "person:bill-wilson",
     "name": "Bill Wilson",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-bill-wilson",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -134,7 +134,7 @@
   {
     "id": "person:brian-armstrong",
     "name": "Brian Armstrong",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-brian-armstrong",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -144,7 +144,7 @@
   {
     "id": "person:buffettmunger",
     "name": "Buffett & Munger",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-buffettmunger",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -154,7 +154,7 @@
   {
     "id": "person:cs-lewis",
     "name": "C.S. Lewis",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-cs-lewis",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -164,7 +164,7 @@
   {
     "id": "person:cal-newport",
     "name": "Cal Newport",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-cal-newport",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -176,7 +176,7 @@
   {
     "id": "person:carol-dweck",
     "name": "Carol Dweck",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-carol-dweck",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -188,7 +188,7 @@
   {
     "id": "person:charlie-munger",
     "name": "Charlie Munger",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-charlie-munger",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -207,7 +207,7 @@
   {
     "id": "person:daniel-ek",
     "name": "Daniel Ek",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-daniel-ek",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -217,7 +217,7 @@
   {
     "id": "person:dave-ramsey",
     "name": "Dave Ramsey",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-dave-ramsey",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -256,7 +256,7 @@
   {
     "id": "person:senra",
     "name": "David Senra",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-senra",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -302,7 +302,7 @@
   {
     "id": "person:evan-spiegel",
     "name": "Evan Spiegel",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-evan-spiegel",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -312,7 +312,7 @@
   {
     "id": "person:henry-kissinger",
     "name": "Henry Kissinger",
-    "availability": "building",
+    "availability": "archived",
     "directory": "person-henry-kissinger",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -322,7 +322,7 @@
   {
     "id": "person:hesse",
     "name": "Hermann Hesse",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-hesse",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -334,7 +334,7 @@
   {
     "id": "person:james-clear",
     "name": "James Clear",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-james-clear",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -346,7 +346,7 @@
   {
     "id": "person:james-dyson",
     "name": "James Dyson",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-james-dyson",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -356,7 +356,7 @@
   {
     "id": "person:jeff-bezos",
     "name": "Jeff Bezos",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-jeff-bezos",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -368,7 +368,7 @@
   {
     "id": "person:jennifer-doudna",
     "name": "Jennifer Doudna",
-    "availability": "building",
+    "availability": "archived",
     "directory": "person-jennifer-doudna",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -378,7 +378,7 @@
   {
     "id": "person:jensen-huang",
     "name": "Jensen Huang",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-jensen-huang",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -390,7 +390,7 @@
   {
     "id": "person:jimmy-iovine",
     "name": "Jimmy Iovine",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-jimmy-iovine",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -400,7 +400,7 @@
   {
     "id": "person:rockefeller",
     "name": "John D. Rockefeller",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-rockefeller",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -415,7 +415,7 @@
   {
     "id": "person:john-mackey",
     "name": "John Mackey",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-john-mackey",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -425,7 +425,7 @@
   {
     "id": "person:vervaeke",
     "name": "John Vervaeke",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-vervaeke",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -442,7 +442,7 @@
   {
     "id": "person:josh-kushner",
     "name": "Josh Kushner",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-josh-kushner",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -479,7 +479,7 @@
   {
     "id": "person:seneca",
     "name": "Lucius Annaeus Seneca",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-seneca",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -497,7 +497,7 @@
   {
     "id": "person:luigi-cornaro",
     "name": "Luigi Cornaro",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-luigi-cornaro",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -519,7 +519,7 @@
   {
     "id": "person:marc-andreessen",
     "name": "Marc Andreessen",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-marc-andreessen",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -537,7 +537,7 @@
   {
     "id": "person:marcus-aurelius",
     "name": "Marcus Aurelius",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-marcus-aurelius",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -553,7 +553,7 @@
   {
     "id": "person:maria-montessori",
     "name": "Maria Montessori",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-maria-montessori",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -563,7 +563,7 @@
   {
     "id": "person:marie-curie",
     "name": "Marie Curie",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-marie-curie",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -573,7 +573,7 @@
   {
     "id": "person:naoufal-fillali",
     "name": "Naoufal Fillali",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-naoufal-fillali",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -583,7 +583,7 @@
   {
     "id": "person:napoleon-hill",
     "name": "Napoleon Hill",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-napoleon-hill",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -629,7 +629,7 @@
   {
     "id": "person:naval-ravikant",
     "name": "Naval Ravikant",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-naval-ravikant",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -639,7 +639,7 @@
   {
     "id": "person:paul-graham",
     "name": "Paul Graham",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-paul-graham",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -657,7 +657,7 @@
   {
     "id": "person:paul-millerd",
     "name": "Paul Millerd",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-paul-millerd",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -669,7 +669,7 @@
   {
     "id": "person:pendleton-ward",
     "name": "Pendleton Ward",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-pendleton-ward",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -685,7 +685,7 @@
   {
     "id": "person:peter-thiel",
     "name": "Peter Thiel",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-peter-thiel",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -697,7 +697,7 @@
   {
     "id": "person:ray-dalio",
     "name": "Ray Dalio",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-ray-dalio",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -710,7 +710,7 @@
   {
     "id": "person:rick-rubin",
     "name": "Rick Rubin",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-rick-rubin",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -720,7 +720,7 @@
   {
     "id": "person:ricky-gervais",
     "name": "Ricky Gervais",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-ricky-gervais",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -730,7 +730,7 @@
   {
     "id": "person:rose-blumkin",
     "name": "Rose Blumkin",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-rose-blumkin",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -740,7 +740,7 @@
   {
     "id": "person:sam-walton",
     "name": "Sam Walton",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-sam-walton",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -750,7 +750,7 @@
   {
     "id": "person:steve-jobs",
     "name": "Steve Jobs",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-steve-jobs",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -762,7 +762,7 @@
   {
     "id": "person:pressfield",
     "name": "Steven Pressfield",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-pressfield",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -774,7 +774,7 @@
   {
     "id": "person:gottmans",
     "name": "The Gottmans",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-gottmans",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -784,7 +784,7 @@
   {
     "id": "person:tim-ferriss",
     "name": "Tim Ferriss",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-tim-ferriss",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -797,7 +797,7 @@
   {
     "id": "person:tobi-lutke",
     "name": "Tobi Lütke",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-tobi-lutke",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -807,7 +807,7 @@
   {
     "id": "person:todd-graves",
     "name": "Todd Graves",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-todd-graves",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -829,7 +829,7 @@
   {
     "id": "person:vivek-murthy",
     "name": "Vivek Murthy",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-vivek-murthy",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -839,7 +839,7 @@
   {
     "id": "person:warren-buffett",
     "name": "Warren Buffett",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-warren-buffett",
     "framework": "eve",
     "runtimeEnabled": false,

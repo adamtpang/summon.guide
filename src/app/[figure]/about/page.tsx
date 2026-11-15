@@ -10,6 +10,9 @@ import Image from "next/image";
 import Link from "next/link";
 import AiPersonaNotice from "@/components/AiPersonaNotice";
 import type { Metadata } from "next";
+import { curatedFigures } from "@/lib/curated";
+import { getBiography } from "@/lib/biographies";
+import LifeStory from "@/components/LifeStory";
 
 export async function generateStaticParams() {
   return figures.map((f) => ({ figure: f.slug }));
@@ -66,7 +69,7 @@ export default async function FigureProfile({
   if (!profile) return <GuideBrief figure={figure} />;
 
 
-  const otherFigures = figures.filter((f) => f.slug !== figure.slug).slice(0, 6);
+  const otherFigures = curatedFigures.filter((f) => f.slug !== figure.slug).slice(0, 6);
   const allQuotes = [figure.signatureQuote, ...profile.notableQuotes].filter(
     (q, i, arr) => arr.indexOf(q) === i
   );
@@ -81,11 +84,21 @@ export default async function FigureProfile({
   // to summon into their Claude chats.
   const installCommands = pluginInstallCommands(figure.slug);
 
+  const biography = getBiography(figure.slug);
+
   // Sections that show up in the Table of Contents
   const tocSections = [
-    { id: "early-life", label: "Early life and education" },
-    { id: "career", label: "Career" },
-    profile.legacy ? { id: "legacy", label: "Legacy and death" } : null,
+    ...(biography
+      ? [
+          ...biography.chapters.map((c) => ({ id: c.id, label: `${c.title} (${c.years})` })),
+          { id: "timeline", label: "Timeline" },
+          { id: "library", label: "What this guide draws on" },
+        ]
+      : [
+          { id: "early-life", label: "Early life and education" },
+          { id: "career", label: "Career" },
+          profile.legacy ? { id: "legacy", label: "Legacy and death" } : null,
+        ]),
     figureSkills.length > 0
       ? { id: "skills", label: "Claude Code skills" }
       : null,
@@ -281,6 +294,10 @@ export default async function FigureProfile({
 
         {/* Body */}
         <div className="max-w-3xl space-y-12 md:space-y-14">
+          {biography ? (
+            <LifeStory biography={biography} name={figure.name} slug={figure.slug} accent={figure.color} />
+          ) : (
+            <>
           <Section id="early-life" title="Early life and education">
             <BodyParagraph>{profile.earlyLife}</BodyParagraph>
           </Section>
@@ -294,6 +311,8 @@ export default async function FigureProfile({
               <BodyParagraph>{profile.legacy}</BodyParagraph>
             </Section>
           ) : null}
+            </>
+          )}
 
           {figureSkills.length > 0 ? (
             <Section id="skills" title="Claude Code skills">

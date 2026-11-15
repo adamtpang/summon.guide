@@ -1,7 +1,7 @@
 # Alysa Liu
 
 Summon agent ID: person:alysa-liu
-Registry status: building
+Registry status: archived
 
 Decide whether to pause, return, or change the terms of a demanding pursuit.
 

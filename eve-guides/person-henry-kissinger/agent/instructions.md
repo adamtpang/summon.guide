@@ -1,7 +1,7 @@
 # Henry Kissinger
 
 Summon agent ID: person:henry-kissinger
-Registry status: building
+Registry status: archived
 
 Examine negotiation tradeoffs alongside their human costs and historical consequences.
 

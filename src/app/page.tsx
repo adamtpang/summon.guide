@@ -3,15 +3,15 @@ import Link from "next/link";
 import AuthButton from "@/components/AuthButton";
 import PurchaseSuccessModal from "@/components/PurchaseSuccessModal";
 import StuckBox from "@/components/StuckBox";
-import { figures } from "@/lib/figures";
 import { guidePath } from "@/lib/guideUrls";
+import { curatedFigures } from "@/lib/curated";
 
 // Server Component on purpose: the raw first response carries the real
 // headline for crawlers. The only interactive piece, the box, is a client
 // island. The scenes are public-domain drawings (Piranesi's Paestum, Stuart
 // and Revett's Parthenon), faded to graphite; sources are on /credits.
 const HALLS = [
-  { href: "/summon", label: "The guides", note: `${figures.length} lives, each grounded in their own words.` },
+  { href: "/summon", label: "The guides", note: `${curatedFigures.length} lives, each grounded in their own words.` },
   { href: "/sage", label: "Sage", note: "Ask across every Founders episode at once." },
   { href: "/council", label: "The council", note: "Seat three guides around one decision." },
 ];
@@ -53,7 +53,7 @@ export default function Home() {
         </div>
 
         <div className="relative flex justify-center px-4 pb-10 sm:pb-14">
-          <StuckBox guides={figures.map((f) => ({ slug: f.slug, name: f.name, path: guidePath(f.slug) }))} />
+          <StuckBox guides={curatedFigures.map((f) => ({ slug: f.slug, name: f.name, path: guidePath(f.slug) }))} />
         </div>
       </section>
 
@@ -100,7 +100,7 @@ export default function Home() {
             recorded life. The guides do not give personalized legal, medical, or financial advice.
           </p>
           <p className="mt-5">
-            The summon.guide library has three halls. The guides hall lists all {figures.length} guides. Sage answers one question across every Founders podcast episode at once. The council seats three
+            The summon.guide library has three halls. The guides hall lists all {curatedFigures.length} guides. Sage answers one question across every Founders podcast episode at once. The council seats three
             guides with different perspectives around a single decision, so the trade-offs show up before you choose.
           </p>
           <p className="mt-5">

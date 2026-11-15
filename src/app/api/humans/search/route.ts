@@ -1,5 +1,5 @@
-import { figures } from "@/lib/figures";
 import { NextRequest } from "next/server";
+import { curatedFigures } from "@/lib/curated";
 
 // Search the index of ALL humans, backed by Wikidata (~12M humans with
 // P31=Q5), so any person with a Wikipedia presence is findable. Results are
@@ -34,7 +34,7 @@ function normalize(s: string): string {
 function platformSlugFor(label: string): string | null {
   const n = normalize(label);
   if (LABEL_ALIASES[n]) return LABEL_ALIASES[n];
-  const hit = figures.find((f) => normalize(f.name) === n);
+  const hit = curatedFigures.find((f) => normalize(f.name) === n);
   return hit ? hit.slug : null;
 }
 

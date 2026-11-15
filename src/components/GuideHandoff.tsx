@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { figures } from '@/lib/figures';
 import { guidePath } from '@/lib/guideUrls';
+import { curatedFigures } from "@/lib/curated";
 
 export default function GuideHandoff() {
   const router = useRouter();
@@ -26,7 +27,7 @@ export default function GuideHandoff() {
       if (mode === 'match') {
         const response = await fetch('/api/match', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: context }) });
         const result = await response.json();
-        if (!response.ok || result.type !== 'matched' || !figures.some(f => f.slug === result.slug)) throw new Error(result.message || result.reason || 'Could not find a guide. Choose one and try again.');
+        if (!response.ok || result.type !== 'matched' || !curatedFigures.some(f => f.slug === result.slug)) throw new Error(result.message || result.reason || 'Could not find a guide. Choose one and try again.');
         chosen = result.slug;
       }
       sessionStorage.setItem('summon_intake', context);
