@@ -8,11 +8,6 @@ import { LoaderCircle } from "lucide-react";
 // documented life fits it. Same /api/match route and session-storage handoff
 // as the old HumanSearch, so nothing personal touches a URL.
 
-const EXAMPLES = [
-  "I know what to do, but I keep avoiding it.",
-  "I need to decide what to build next.",
-  "My money feels out of control.",
-];
 
 export type GuideOption = { slug: string; name: string; path: string };
 
@@ -81,7 +76,7 @@ export default function StuckBox({}: { guides?: GuideOption[] }) {
           rows={2}
           autoFocus
           disabled={busy}
-          placeholder="Say what is in your way, in your own words."
+          placeholder="What's stuck?"
           className="min-h-[3.25rem] flex-1 resize-none bg-transparent px-2.5 py-2 text-[17px] leading-snug text-moon outline-0 placeholder:text-dim focus-visible:outline-0"
         />
         <button
@@ -106,19 +101,6 @@ export default function StuckBox({}: { guides?: GuideOption[] }) {
           </div>
         </div>
       )}
-      <div className="flex flex-wrap gap-x-5 gap-y-0">
-        {EXAMPLES.map((example) => (
-          <button
-            key={example}
-            type="button"
-            disabled={busy}
-            onClick={() => { setText(example); void send(example); }}
-            className="min-h-11 text-[15px] text-mist underline decoration-edge decoration-1 underline-offset-[5px] transition-colors hover:text-lapis hover:decoration-lapis"
-          >
-            {example}
-          </button>
-        ))}
-      </div>
     </div>
   );
 }
