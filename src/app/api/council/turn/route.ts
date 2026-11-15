@@ -10,6 +10,7 @@ import {
 } from "@/lib/councilThread";
 import { AI_CONFIG, getFigure } from "@/lib/figures";
 import { buildGuideGrounding } from "@/lib/guideRetrieval";
+import { styleBlock } from "@/lib/guideStyle";
 import { isLifeContextBrief, LIFE_CONTEXT_RULES, MAX_LIFE_CONTEXT_CHARS } from "@/lib/lifeContext";
 import { authenticateMcpToken, consumeGuideSession, licenseError } from "@/lib/membership";
 import { streamOpenRouter } from "@/lib/openrouter";
@@ -84,6 +85,7 @@ export async function POST(req: NextRequest) {
   const query = thread.filter((e) => e.kind === "user").slice(-2).map((e) => e.content).concat(brief).join("\n").slice(-8000);
   const system = [
     figure.systemPrompt,
+    styleBlock(figure.slug),
     buildGuideGrounding(figure.slug, query),
     LIFE_CONTEXT_RULES,
     buildCouncilTurnRules(member, members, speakersThisRound(thread)),

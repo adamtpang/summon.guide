@@ -1080,3 +1080,13 @@ production deployment, transcript upload success, or routing change to public Sa
 - Isolated release from origin/main in .worktrees/summon-rickrubin; committed only four files as ec48b1653bc80d6e031dffae8631f6ddbda2c3b8. Existing uncommitted Rose/standardization work was not deployed.
 - Focused lint, production webpack build, local HTTP page/alias/retrieval checks pass. Vercel dpl_4iRf52UypwMPkGsRYHVNCFAoF8rL is READY. Public /rickrubin returns 200 and includes Rick Rubin.
 - Main working checkout retains the same Rick changes and regenerated 116-guide local standard/Eve/handle artifacts. Main branch pointer still predates production; preserve its dirty work when reconciling.
+
+## Curated roster and Franklin as the test piece (2026-11-15)
+
+- Adam hand-picked 13 guides (`src/lib/curated.ts`): Alexander, Franklin, Bob Marley, Lee Kuan Yew, Balaji, Brad Jacobs, Elon, Deutsch, Sivers, Lulie Tanett, Taleb, Visakan, da Vinci (still building). Every other person is `archived`: hidden from the homepage, roster, matching, council, sitemap and MCP list, files kept, direct URLs still work. Books, channels and Sage are untouched (not decided yet).
+- Rule from Adam: nail one guide fully before scaling. Franklin is that one. The recipe has three parts:
+  1. Passage library: `scripts/build_passages_franklin.py` builds `src/data/passages/franklin.json` from Gutenberg 148 and 40236 (780 passages, about 147,000 words, only his own text). `src/lib/passages.ts` searches it per question (BM25 plus a modern-to-period word map) and `buildGuideGrounding` puts those passages ahead of our summary notes, each with a `[Source: "title"]` line.
+  2. Style file: `content/style/franklin.md`, measured and quoted from his text. `npm run styles:generate` writes `src/lib/guideStylesGenerated.ts`; the chat and council routes add it to the prompt. His old prompt (unverified signature phrases, invented first-person "knowledge base") was replaced.
+  3. Life story: `src/lib/biographies.ts` plus `src/components/LifeStory.tsx` render eight chapters, a timeline, seven public domain Commons images with credits, and a plain note on what he can draw on, at /franklin/about.
+- Verified: four live answers (unfinished projects, arguing with a cofounder, slavery, "are you real") cite his own passages, admit his slaveholding plainly and disclose being an AI. tsc, eslint, guides:check, guides:test 13/13 and a local production build pass. Desktop and 375px checked in the browser.
+- Known gaps: his political papers and anti-slavery writings are not in the library yet; retrieval is lexical, not semantic; the other 12 curated guides still have the old treatment.
