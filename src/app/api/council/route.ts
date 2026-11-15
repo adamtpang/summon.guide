@@ -7,12 +7,12 @@ import {
   type CouncilSeat,
   type CouncilSource,
 } from "@/lib/council";
-import { figures } from "@/lib/figures";
 import { canReadLifeContext, isLifeContextBrief, MAX_LIFE_CONTEXT_CHARS, readLifeContextNotice } from "@/lib/lifeContext";
 import { authenticateMcpToken } from "@/lib/membership";
 import { completeOpenRouter } from "@/lib/openrouter";
 import { skills, skillCatalogForRouting } from "@/lib/skills";
 import { NextRequest } from "next/server";
+import { curatedFigures } from "@/lib/curated";
 
 // POST /api/council
 //
@@ -100,12 +100,12 @@ export async function POST(req: NextRequest) {
 
   try {
     const response = await completeOpenRouter({
-      system: buildCouncilPrompt(figures, skillCatalogForRouting()),
+      system: buildCouncilPrompt(curatedFigures, skillCatalogForRouting()),
       messages: [{ role: "user", content: brief }],
       maxTokens: 1200,
       temperature: 0.2,
     });
-    const council = parseCouncilResponse(response.text, brief, figures, skills);
+    const council = parseCouncilResponse(response.text, brief, curatedFigures, skills);
     const payload: CouncilResponse = {
       brief,
       source,
@@ -119,7 +119,7 @@ export async function POST(req: NextRequest) {
     const payload: CouncilResponse = {
       brief,
       source,
-      council: councilByDomains(brief, figures),
+      council: councilByDomains(brief, curatedFigures),
       seatedBy: "domains",
     };
     return Response.json(payload, { headers: privateHeaders });

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { figures } from "@/lib/figures";
+import { curatedFigures } from "@/lib/curated";
 
 export const metadata: Metadata = {
   title: "About | summon.guide",
@@ -22,7 +22,7 @@ export default function AboutPage() {
 
         <div className="space-y-8 text-sm leading-relaxed text-mist [&_a]:text-blue-600 [&_a]:underline [&_a]:underline-offset-2 [&_h2]:mb-3 [&_h2]:mt-10 [&_h2]:font-serif [&_h2]:text-lg [&_h2]:font-medium [&_h2]:text-moon">
           <p>
-            summon.guide is a mentorship site built on AI guides. Each of the {figures.length} guides is modeled on a
+            summon.guide is a mentorship site built on AI guides. Each of the {curatedFigures.length} guides is modeled on a
             real person, book, or channel and grounded in that source&apos;s public work, such as biographies, letters,
             essays, and interviews. A visitor describes what is stuck, and summon.guide matches the problem to the guide
             best suited to it.

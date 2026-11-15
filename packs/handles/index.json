@@ -6,7 +6,7 @@
       "slug": "abraham-lincoln",
       "kind": "person",
       "name": "Abraham Lincoln",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -14,7 +14,7 @@
       "slug": "adam-neumann",
       "kind": "person",
       "name": "Adam Neumann",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -22,7 +22,7 @@
       "slug": "albert-einstein",
       "kind": "person",
       "name": "Albert Einstein",
-      "availability": "building",
+      "availability": "archived",
       "runtime": "pending",
       "tool": "none"
     },
@@ -38,7 +38,7 @@
       "slug": "alysa-liu",
       "kind": "person",
       "name": "Alysa Liu",
-      "availability": "building",
+      "availability": "archived",
       "runtime": "pending",
       "tool": "none"
     },
@@ -46,7 +46,7 @@
       "slug": "annie-duke",
       "kind": "person",
       "name": "Annie Duke",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -62,7 +62,7 @@
       "slug": "bill-wilson",
       "kind": "person",
       "name": "Bill Wilson",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -86,7 +86,7 @@
       "slug": "brian-armstrong",
       "kind": "person",
       "name": "Brian Armstrong",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -94,7 +94,7 @@
       "slug": "buffettmunger",
       "kind": "person",
       "name": "Buffett & Munger",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -102,7 +102,7 @@
       "slug": "cal-newport",
       "kind": "person",
       "name": "Cal Newport",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -110,7 +110,7 @@
       "slug": "carol-dweck",
       "kind": "person",
       "name": "Carol Dweck",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -118,7 +118,7 @@
       "slug": "charlie-munger",
       "kind": "person",
       "name": "Charlie Munger",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -126,7 +126,7 @@
       "slug": "cs-lewis",
       "kind": "person",
       "name": "C.S. Lewis",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -134,7 +134,7 @@
       "slug": "daniel-ek",
       "kind": "person",
       "name": "Daniel Ek",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -142,7 +142,7 @@
       "slug": "dave-ramsey",
       "kind": "person",
       "name": "Dave Ramsey",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "pack",
       "tool": "none"
     },
@@ -166,7 +166,7 @@
       "slug": "evan-spiegel",
       "kind": "person",
       "name": "Evan Spiegel",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -182,7 +182,7 @@
       "slug": "gottmans",
       "kind": "person",
       "name": "The Gottmans",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -190,7 +190,7 @@
       "slug": "henry-kissinger",
       "kind": "person",
       "name": "Henry Kissinger",
-      "availability": "building",
+      "availability": "archived",
       "runtime": "pending",
       "tool": "none"
     },
@@ -198,7 +198,7 @@
       "slug": "hesse",
       "kind": "person",
       "name": "Hermann Hesse",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -206,7 +206,7 @@
       "slug": "james-clear",
       "kind": "person",
       "name": "James Clear",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -214,7 +214,7 @@
       "slug": "james-dyson",
       "kind": "person",
       "name": "James Dyson",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -222,7 +222,7 @@
       "slug": "jeff-bezos",
       "kind": "person",
       "name": "Jeff Bezos",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -230,7 +230,7 @@
       "slug": "jennifer-doudna",
       "kind": "person",
       "name": "Jennifer Doudna",
-      "availability": "building",
+      "availability": "archived",
       "runtime": "pending",
       "tool": "none"
     },
@@ -238,7 +238,7 @@
       "slug": "jensen-huang",
       "kind": "person",
       "name": "Jensen Huang",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -246,7 +246,7 @@
       "slug": "jimmy-iovine",
       "kind": "person",
       "name": "Jimmy Iovine",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -254,7 +254,7 @@
       "slug": "john-mackey",
       "kind": "person",
       "name": "John Mackey",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -262,7 +262,7 @@
       "slug": "josh-kushner",
       "kind": "person",
       "name": "Josh Kushner",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -286,7 +286,7 @@
       "slug": "luigi-cornaro",
       "kind": "person",
       "name": "Luigi Cornaro",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -302,7 +302,7 @@
       "slug": "marc-andreessen",
       "kind": "person",
       "name": "Marc Andreessen",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -310,7 +310,7 @@
       "slug": "marcus-aurelius",
       "kind": "person",
       "name": "Marcus Aurelius",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -318,7 +318,7 @@
       "slug": "maria-montessori",
       "kind": "person",
       "name": "Maria Montessori",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -326,7 +326,7 @@
       "slug": "marie-curie",
       "kind": "person",
       "name": "Marie Curie",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -334,7 +334,7 @@
       "slug": "naoufal-fillali",
       "kind": "person",
       "name": "Naoufal Fillali",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -342,7 +342,7 @@
       "slug": "napoleon-hill",
       "kind": "person",
       "name": "Napoleon Hill",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -358,7 +358,7 @@
       "slug": "naval-ravikant",
       "kind": "person",
       "name": "Naval Ravikant",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -366,7 +366,7 @@
       "slug": "paul-graham",
       "kind": "person",
       "name": "Paul Graham",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -374,7 +374,7 @@
       "slug": "paul-millerd",
       "kind": "person",
       "name": "Paul Millerd",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -382,7 +382,7 @@
       "slug": "pendleton-ward",
       "kind": "person",
       "name": "Pendleton Ward",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -390,7 +390,7 @@
       "slug": "peter-thiel",
       "kind": "person",
       "name": "Peter Thiel",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -398,7 +398,7 @@
       "slug": "pressfield",
       "kind": "person",
       "name": "Steven Pressfield",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -406,7 +406,7 @@
       "slug": "ray-dalio",
       "kind": "person",
       "name": "Ray Dalio",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -414,7 +414,7 @@
       "slug": "rick-rubin",
       "kind": "person",
       "name": "Rick Rubin",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -422,7 +422,7 @@
       "slug": "ricky-gervais",
       "kind": "person",
       "name": "Ricky Gervais",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -430,7 +430,7 @@
       "slug": "rockefeller",
       "kind": "person",
       "name": "John D. Rockefeller",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -438,7 +438,7 @@
       "slug": "rose-blumkin",
       "kind": "person",
       "name": "Rose Blumkin",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -446,7 +446,7 @@
       "slug": "sam-walton",
       "kind": "person",
       "name": "Sam Walton",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -454,7 +454,7 @@
       "slug": "seneca",
       "kind": "person",
       "name": "Lucius Annaeus Seneca",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -462,7 +462,7 @@
       "slug": "senra",
       "kind": "person",
       "name": "David Senra",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -478,7 +478,7 @@
       "slug": "steve-jobs",
       "kind": "person",
       "name": "Steve Jobs",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -486,7 +486,7 @@
       "slug": "tim-ferriss",
       "kind": "person",
       "name": "Tim Ferriss",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -494,7 +494,7 @@
       "slug": "tobi-lutke",
       "kind": "person",
       "name": "Tobi Lütke",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -502,7 +502,7 @@
       "slug": "todd-graves",
       "kind": "person",
       "name": "Todd Graves",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -510,7 +510,7 @@
       "slug": "vervaeke",
       "kind": "person",
       "name": "John Vervaeke",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -526,7 +526,7 @@
       "slug": "vivek-murthy",
       "kind": "person",
       "name": "Vivek Murthy",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -534,7 +534,7 @@
       "slug": "warren-buffett",
       "kind": "person",
       "name": "Warren Buffett",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },

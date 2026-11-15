@@ -12,7 +12,7 @@ export function publicGuideEpisodes(id: string) {
   return (guide.kind === "person" ? getGuideEpisodes(guide.slug) : applySourceRuntimePolicy(guide.slug, sourceCorpus[guide.slug]?.episodes || [])).filter(isPublishableNote);
 }
 
-export const publicGuideCatalog = guideAgentSummaries.map(guide => ({
+export const publicGuideCatalog = guideAgentSummaries.filter(guide => guide.availability !== "archived").map(guide => ({
   // Coverage describes what is publicly served: staged notes for a guide still in onboarding do not count.
   category: guide.category, coverage: (publicGuideEpisodes(guide.id)?.length ? guide.coverage : "missing"),
   members: guide.members,

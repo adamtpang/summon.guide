@@ -1,9 +1,9 @@
-import { figures } from "@/lib/figures";
 import { CRISIS_RESPONSE, isCrisisMessage } from "@/lib/crisis";
 import { extractJsonObject } from "@/lib/jsonExtract";
 import { completeOpenRouter } from "@/lib/openrouter";
 import { skills, skillCatalogForRouting } from "@/lib/skills";
 import { NextRequest } from "next/server";
+import { curatedFigures } from "@/lib/curated";
 
 // The router has three jobs now:
 //
@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
     return Response.json({ error: "Message required" }, { status: 400 });
   }
 
-  const catalog = figures
+  const catalog = curatedFigures
     .map(
       (f) =>
         `- ${f.slug}: ${f.name} (${f.era}), domains: ${f.domains.join(", ")}. ${f.knownFor}`
@@ -122,11 +122,11 @@ Rules:
     // "marcus-aurelius", "elon" exact match, "seneca" exact match), try a
     // prefix/contains fallback before giving up.
     const proposed = String(parsed.slug || "").toLowerCase();
-    let valid = figures.find((f) => f.slug === proposed);
+    let valid = curatedFigures.find((f) => f.slug === proposed);
     if (!valid && proposed) {
       valid =
-        figures.find((f) => f.slug.startsWith(proposed + "-")) ||
-        figures.find((f) => f.slug.includes(proposed)) ||
+        curatedFigures.find((f) => f.slug.startsWith(proposed + "-")) ||
+        curatedFigures.find((f) => f.slug.includes(proposed)) ||
         undefined;
     }
     if (!valid) {
@@ -134,7 +134,7 @@ Rules:
         "[match] no figure for slug:",
         proposed,
         "available:",
-        figures.map((f) => f.slug).join(",")
+        curatedFigures.map((f) => f.slug).join(",")
       );
       throw new Error(`Invalid slug "${proposed}"`);
     }

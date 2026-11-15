@@ -5,19 +5,19 @@
       "slug": "abraham-lincoln",
       "name": "Abraham Lincoln",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "adam-neumann",
       "name": "Adam Neumann",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "albert-einstein",
       "name": "Albert Einstein",
       "kind": "person",
-      "availability": "building"
+      "availability": "archived"
     },
     {
       "slug": "alexander",
@@ -29,13 +29,13 @@
       "slug": "alysa-liu",
       "name": "Alysa Liu",
       "kind": "person",
-      "availability": "building"
+      "availability": "archived"
     },
     {
       "slug": "annie-duke",
       "name": "Annie Duke",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "balaji-srinivasan",
@@ -53,7 +53,7 @@
       "slug": "bill-wilson",
       "name": "Bill Wilson",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "bob-marley",
@@ -71,49 +71,49 @@
       "slug": "brian-armstrong",
       "name": "Brian Armstrong",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "buffettmunger",
       "name": "Buffett & Munger",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "cs-lewis",
       "name": "C.S. Lewis",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "cal-newport",
       "name": "Cal Newport",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "carol-dweck",
       "name": "Carol Dweck",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "charlie-munger",
       "name": "Charlie Munger",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "daniel-ek",
       "name": "Daniel Ek",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "dave-ramsey",
       "name": "Dave Ramsey",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "deutsch",
@@ -125,7 +125,7 @@
       "slug": "senra",
       "name": "David Senra",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "sivers",
@@ -143,79 +143,79 @@
       "slug": "evan-spiegel",
       "name": "Evan Spiegel",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "henry-kissinger",
       "name": "Henry Kissinger",
       "kind": "person",
-      "availability": "building"
+      "availability": "archived"
     },
     {
       "slug": "hesse",
       "name": "Hermann Hesse",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "james-clear",
       "name": "James Clear",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "james-dyson",
       "name": "James Dyson",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "jeff-bezos",
       "name": "Jeff Bezos",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "jennifer-doudna",
       "name": "Jennifer Doudna",
       "kind": "person",
-      "availability": "building"
+      "availability": "archived"
     },
     {
       "slug": "jensen-huang",
       "name": "Jensen Huang",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "jimmy-iovine",
       "name": "Jimmy Iovine",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "rockefeller",
       "name": "John D. Rockefeller",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "john-mackey",
       "name": "John Mackey",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "vervaeke",
       "name": "John Vervaeke",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "josh-kushner",
       "name": "Josh Kushner",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "lee-kuan-yew",
@@ -233,13 +233,13 @@
       "slug": "seneca",
       "name": "Lucius Annaeus Seneca",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "luigi-cornaro",
       "name": "Luigi Cornaro",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "lulie-tanett",
@@ -251,37 +251,37 @@
       "slug": "marc-andreessen",
       "name": "Marc Andreessen",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "marcus-aurelius",
       "name": "Marcus Aurelius",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "maria-montessori",
       "name": "Maria Montessori",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "marie-curie",
       "name": "Marie Curie",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "naoufal-fillali",
       "name": "Naoufal Fillali",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "napoleon-hill",
       "name": "Napoleon Hill",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "nassim-taleb",
@@ -293,97 +293,97 @@
       "slug": "naval-ravikant",
       "name": "Naval Ravikant",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "paul-graham",
       "name": "Paul Graham",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "paul-millerd",
       "name": "Paul Millerd",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "pendleton-ward",
       "name": "Pendleton Ward",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "peter-thiel",
       "name": "Peter Thiel",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "ray-dalio",
       "name": "Ray Dalio",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "rick-rubin",
       "name": "Rick Rubin",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "ricky-gervais",
       "name": "Ricky Gervais",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "rose-blumkin",
       "name": "Rose Blumkin",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "sam-walton",
       "name": "Sam Walton",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "steve-jobs",
       "name": "Steve Jobs",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "pressfield",
       "name": "Steven Pressfield",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "gottmans",
       "name": "The Gottmans",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "tim-ferriss",
       "name": "Tim Ferriss",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "tobi-lutke",
       "name": "Tobi Lütke",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "todd-graves",
       "name": "Todd Graves",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "visakan",
@@ -395,13 +395,13 @@
       "slug": "vivek-murthy",
       "name": "Vivek Murthy",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "warren-buffett",
       "name": "Warren Buffett",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "adventure-time-art-of-ooo",

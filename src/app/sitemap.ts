@@ -1,8 +1,8 @@
 import { guidePath } from "@/lib/guideUrls";
-﻿import { figures } from "@/lib/figures";
 import { books } from "@/lib/books";
 import { series } from "@/lib/episodes";
 import type { MetadataRoute } from "next";
+import { curatedFigures } from "@/lib/curated";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://summon.guide";
@@ -73,7 +73,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
-    ...figures.flatMap((figure) => [
+    ...curatedFigures.flatMap((figure) => [
       {
         url: `${baseUrl}${guidePath(figure.slug)}`,
         lastModified: new Date(),

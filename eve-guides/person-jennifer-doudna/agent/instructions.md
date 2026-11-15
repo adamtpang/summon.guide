@@ -1,7 +1,7 @@
 # Jennifer Doudna
 
 Summon agent ID: person:jennifer-doudna
-Registry status: building
+Registry status: archived
 
 Frame an uncertain research question and examine the responsibilities that come with a discovery.
 

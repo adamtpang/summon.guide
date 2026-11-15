@@ -10,6 +10,7 @@ import Image from "next/image";
 import Link from "next/link";
 import AiPersonaNotice from "@/components/AiPersonaNotice";
 import type { Metadata } from "next";
+import { curatedFigures } from "@/lib/curated";
 
 export async function generateStaticParams() {
   return figures.map((f) => ({ figure: f.slug }));
@@ -66,7 +67,7 @@ export default async function FigureProfile({
   if (!profile) return <GuideBrief figure={figure} />;
 
 
-  const otherFigures = figures.filter((f) => f.slug !== figure.slug).slice(0, 6);
+  const otherFigures = curatedFigures.filter((f) => f.slug !== figure.slug).slice(0, 6);
   const allQuotes = [figure.signatureQuote, ...profile.notableQuotes].filter(
     (q, i, arr) => arr.indexOf(q) === i
   );

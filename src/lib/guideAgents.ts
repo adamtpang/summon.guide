@@ -6,6 +6,7 @@ import { guidePath } from "@/lib/guideUrls";
 import { books } from "@/lib/books";
 import { figures } from "@/lib/figures";
 import guideIntake from "../../data/guide-intake.json";
+import { isCurated } from "@/lib/curated";
 
 export const GUIDE_AGENT_KINDS = ["person", "book", "channel"] as const;
 
@@ -45,7 +46,7 @@ export interface GuideAgent {
   sourceSlugs: string[];
   skillSlugs: string[];
   capabilities: GuideAgentCapability[];
-  availability: "ready" | "building";
+  availability: "ready" | "building" | "archived";
   runtime: GuideAgentRuntime;
   chatHref?: string;
   profileHref?: string;
@@ -114,7 +115,7 @@ const personAgents: GuideAgent[] = figures.map((figure) => {
     sourceSlugs: sources.map((book) => book.slug),
     skillSlugs,
     capabilities,
-    availability: "ready",
+    availability: isCurated(figure.slug) ? "ready" : "archived",
     runtime: { kind: "figure", figureSlug: figure.slug },
     chatHref: guidePath(figure.slug),
     profileHref: `${guidePath(figure.slug)}/about`,
@@ -142,7 +143,7 @@ const packOnlyAgents: GuideAgent[] = figures.some((figure) => figure.slug === "d
         sourceSlugs: [],
         skillSlugs: ["zero-based-budget", "debt-snowball", "emergency-fund-triage"],
         capabilities: ["install", "skills"],
-        availability: "ready",
+        availability: "archived",
         runtime: { kind: "pack", packSlug: "dave-ramsey" },
         installSlug: "dave-ramsey",
         assignmentScope: "cross-project",
@@ -166,7 +167,7 @@ const pendingPersonAgents: GuideAgent[] = guideIntake
     sourceSlugs: [],
     skillSlugs: [],
     capabilities: [],
-    availability: "building",
+    availability: isCurated(candidate.slug) ? "building" : "archived",
     runtime: { kind: "pending" },
     profileHref: `/onboarding#${candidate.slug}`,
     assignmentScope: "cross-project",

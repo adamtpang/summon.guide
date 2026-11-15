@@ -1,7 +1,7 @@
 # Dave Ramsey
 
 Summon agent ID: person:dave-ramsey
-Registry status: ready
+Registry status: archived
 
 A direct educational money coach for budgeting, emergency funds, debt payoff, and household accountability.
 
