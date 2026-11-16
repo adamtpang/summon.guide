@@ -5,6 +5,807 @@
   "coverage": "partial",
   "sources": [
     {
+      "id": "0a3258db4a29f6f6",
+      "title": "Chapter 1: The Network State Defined",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/001-network-state-definition.md",
+      "contentHash": "d03a36f473485e504bc34693e39a1ca44c6bc7a3731c6ee96b989955e527a3de",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7c91e868eb30175b",
+      "title": "Chapter 1: Seven Steps, Cloud First, Land Last",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/002-seven-steps-cloud-first-land-last.md",
+      "contentHash": "da90ef78a15c5d32772a16be1216370923ad8c6f5fb08de6f132006a54d3cfd4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b3c0828c87df8b88",
+      "title": "Chapter 1: Seven Ways to Start a Country",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/003-seven-ways-to-start-a-country.md",
+      "contentHash": "b0fd936d1eecd96a86b6da543922478599c52b9873b92d868465f9bdda3caf8c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4ba3703bd8b1141a",
+      "title": "Chapter 1: What Counts as a New Country",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/004-what-counts-as-a-new-country.md",
+      "contentHash": "8716055c6f575a9e0cd5d82a5c1936a029378f963f9cf53825dcbde7045e86e2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "099aa24e43840a38",
+      "title": "Chapter 2: Why History Is Crucial for Startup Societies",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/005-why-history-is-crucial.md",
+      "contentHash": "522c97e4a539e523b43850bfe5c063b5f2d3a07d1bd6c9ffdd5581f5b1d727f5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "25726756ca32073c",
+      "title": "Chapter 2: The Roadmap and the One Commandment Preview",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/006-roadmap-of-chapter-two-and-one-commandment-preview.md",
+      "contentHash": "d6444230cd9816f37b258e06d7a0b2e233715ed949ea18761bcbc87ec0b00e0f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dda3e2a1528912e9",
+      "title": "Chapter 2: Society as a Service and the Moral Critique",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/007-society-as-a-service-and-moral-critique.md",
+      "contentHash": "e2c6d7e6d876c064b3fb1ec2d5d5d58f94bc341712507d894cadfd16fddc349e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7a1f4af50ee7aee5",
+      "title": "Chapter 2: Microhistory and Macrohistory",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/008-microhistory-and-macrohistory.md",
+      "contentHash": "e9b70c8598e9828678ab3bc4f23a4a4c7700d7cd085f3014a94552be8faa2814",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e3098b7004f131af",
+      "title": "Chapter 2: Bitcoin and Cryptohistory",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/009-bitcoin-and-cryptohistory.md",
+      "contentHash": "d7118256d3e776dce520d1fcf96f02c4c29e886d5f0f38087581f9e214719a52",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d43e4fff21ca437d",
+      "title": "Chapter 2: Political Power as the Writer of History",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/010-political-power-writes-history.md",
+      "contentHash": "a3bf8e1b39a19b4974a07d652c22ff7b6e40d9b360f3290a601b4503785b917f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f57c8e3e82801c7b",
+      "title": "Chapter 2: Technological Models of History",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/011-technological-models-of-history.md",
+      "contentHash": "3863a7b5b372e3ad2d2f606466902d90e0d3f2e92d4943c2ebe606491e24a212",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "96fc2ebb8cbceda2",
+      "title": "Chapter 2: Political Power versus Technological Truth",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/012-political-power-versus-technological-truth.md",
+      "contentHash": "d52559fff01ecabbeee8b5fb266f5fc38c9923eefa7f2bd1fa2f7302f52b8f79",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1695daaecf4cd0ad",
+      "title": "Chapter 2: God, State, Network, Three Leviathans",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/013-god-state-network-three-leviathans.md",
+      "contentHash": "d27cbaa7cf058d80e694b548fdcdbe9906cccfc65aa82a9134f41ea239a096ab",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3c6f1df00ffe4e2b",
+      "title": "Chapter 2: Ten Ways the Network Beats the State",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/014-ten-ways-network-beats-state.md",
+      "contentHash": "7f6ec37c177f06a250df18e537e4dbc355e5a898d04a0380705f7e8bf27c2a49",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bf148ede378ab811",
+      "title": "Chapter 2: When the State Beats the Network",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/015-when-the-state-beats-the-network.md",
+      "contentHash": "14abfe42241436e9efc87ca1a5bfc135fcf64c8076af9e1e586dbf36cc628e44",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "35a7df95d73969c5",
+      "title": "Chapter 2: Syntheses of God, State, and Network",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/016-syntheses-of-god-state-and-network.md",
+      "contentHash": "94e05b8c489ff15c66d5d6b06d93e00871824e5a5970589e1c0c7a5a4a04123b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8d5c20c59a01111f",
+      "title": "Chapter 2: The Blue Tribe Split",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/017-blue-tribe-left-authoritarians-and-left-libertarians.md",
+      "contentHash": "5c272e1c2dc51c4099be301ae644c5b83f970a9db4de0464be81e244642cc8ad",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "035c421bde34df07",
+      "title": "Chapter 2: The Red Tribe and the China Argument",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/018-red-tribe-and-the-china-argument.md",
+      "contentHash": "37f399d9bef60cf0ef1afc0fe37b11f744df7a0504e728a58ef2fa185773fc30",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "85138c8a14e565f9",
+      "title": "Chapter 2: Red Network and the Realignment",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/019-red-network-and-the-realignment.md",
+      "contentHash": "410fe872124c59ab9d6dcdd7ee443493600e67669cf6a6b3ac7317270590dd31",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2deefe39a57d554b",
+      "title": "Chapter 2: Tech versus Media and the Enormous State",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/020-tech-versus-media-and-the-enormous-state.md",
+      "contentHash": "ffc88134b21a05ee9ac0783c49d96a0e1726cd47e8c994774ea17cef7314c0c7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3be07514421ac03d",
+      "title": "Chapter 2: Base-Raters and the Distortion of the Present",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/021-base-raters-and-the-fake-news-of-the-present.md",
+      "contentHash": "ab6beeeacd3c897e46d314effa655c6465d09337a03e2469b1107859a9f0d0c2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6af9607d6fe18d42",
+      "title": "Chapter 2: Distortion of the Past and Jurassic Ballpark",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/022-distortion-of-the-past-and-jurassic-ballpark.md",
+      "contentHash": "8114462bf589584aa1d5c88f98935f37f9cb76633840c2a7f98f9b1584fa9829",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "31cbd5f6ae41d35d",
+      "title": "Chapter 2: New Stories, Fragmentation and the Frontier",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/023-new-stories-fragmentation-and-the-frontier.md",
+      "contentHash": "5c3b568da754faa9e5987bf4daa41689714beb89405c61d9e448baf27944e0f3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "deffb7afe72f282a",
+      "title": "Chapter 2: The Fourth Turning and the Future Is Our Past",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/024-fourth-turning-and-future-is-our-past.md",
+      "contentHash": "b690ef82949e96c0bcb27c4b9f664d6096666dcf22ff2f967834a96a961d9dc8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3baec0ac4ecb512d",
+      "title": "Chapter 2: Moral Innovation and Political Arbitrage",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/025-moral-innovation-and-political-arbitrage.md",
+      "contentHash": "cc3cbd6824d097b734fda4cc9b7039e30bce435f9783af06d8a00e72e213fafb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7ff061fa51260972",
+      "title": "Chapter 2: Left and Right as Tactics, and the Frontier",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/026-left-and-right-as-tactics-and-the-frontier.md",
+      "contentHash": "537cae6edb8895b84d7bdfa971d248db612f59840733ff9722e6a4b343d5727a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "eea3945132d8ca7f",
+      "title": "Chapter 2: The Left, Right and Libertarian Cycles",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/027-the-left-right-and-libertarian-cycles.md",
+      "contentHash": "043b94890799c7cbaa832b88bdf87b24b7c2152f4d3b0488b611c3aaca65573f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4f9e0f91b24fbcb8",
+      "title": "Chapter 2: Holy War and the Proletarian Flippening",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/028-holy-war-and-the-proletarian-flippening.md",
+      "contentHash": "4e21619a696d03d0ed4b3d519d97a4c8fcf559e8898b1cfd4bedb86798061c32",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1695ffb71a551d1a",
+      "title": "Chapter 2: Wokeness as the Decentralized Left",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/029-wokeness-as-decentralized-left.md",
+      "contentHash": "f64a0291c31853b8fe8541c1cd1af4003c3f42735d1e5988af35f28bf8d17bac",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b1ab226aa6f83eee",
+      "title": "Chapter 2: The American Flippening",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/030-the-american-flippening.md",
+      "contentHash": "799e347170bc4a7b95b341d4932feafb9e48cc13c6499a2dffd3b058e10647c8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f7c7fb715d85e4c5",
+      "title": "Chapter 2: The Global and Historical Flippenings",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/031-global-and-historical-flippenings.md",
+      "contentHash": "dd468bada0b8719825d63d9224243cead2e78e872d6d5e1c1743b2fb786f77b5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e4119551b1a1e644",
+      "title": "Chapter 2: The One Commandment and Example Parallel Societies",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/032-the-one-commandment-and-example-societies.md",
+      "contentHash": "c9c693232a73cfff65fea53855b1fdf298c63977b314e6d9bd92ceb2da918791",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6b84ff2f4c173708",
+      "title": "Chapter 2: Why One Commandment and Parallel Systems",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/033-why-one-commandment-and-parallel-systems.md",
+      "contentHash": "dd35214c1f7d85b219042b1a4403076c70b435e1bc200d69101bab8302245cc1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "06678771c756266d",
+      "title": "Chapter 3: The Tripolar Triangle, NYT, CCP, BTC",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/034-the-tripolar-triangle-nyt-ccp-btc.md",
+      "contentHash": "277b2e53b62c321574896374d637461d236c5381fe3e35e9571244ff5930f21d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d5a32216ea744601",
+      "title": "Chapter 3: Moral Power, Martial Power, Money Power",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/035-moral-martial-and-money-power.md",
+      "contentHash": "02fd4e3837194c04ae54d061c33323c80770bce5e5b43de406105daf3c5f1df6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "caa324f37d31839c",
+      "title": "Chapter 3: Submission, Sympathy, Sovereignty and Shifting Alliances",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/036-submission-sympathy-sovereignty-and-alliances.md",
+      "contentHash": "bc726f28480b1f1a6731015e5e575ec4282b665e19b6ff757ff5202ea98b9b11",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "df8ec3d9979d7092",
+      "title": "Chapter 4: The Possible Futures and the International Intermediate",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/037-possible-futures-and-the-international-intermediate.md",
+      "contentHash": "18324865b6c86a3fc96b19607ed0b7ef306a942534787942a8524584fea3136b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e1e5b651b49cfb52",
+      "title": "Chapter 4: Sociopolitical Axes, International Indians, Transhumanism and the Identity Stack",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/038-sociopolitical-axes-indians-transhumanism-identity-stack.md",
+      "contentHash": "a1f3ec634403d271bc20e42d54798d302049b2f6959b1dc3b89b68d735e575ce",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f2507bae01488750",
+      "title": "Chapter 4: The Internet Increases Variance",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/039-the-internet-increases-variance.md",
+      "contentHash": "19d7123a90afc7ec005b4996fe350c0e57cc1f94d76e78819999953201c3432b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ab39e4d7c0c3bb4f",
+      "title": "Chapter 4: Natively Digital, the Productivity Mystery and Network Defects",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/040-natively-digital-productivity-and-network-defects.md",
+      "contentHash": "0506eebf8637f6ea7780ca3865e588c2b3dde2c8186fc4c17a72bb9929f60274",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a2f8552ddb0ab9c9",
+      "title": "Chapter 4: Foreseeable Futures, AR Glasses and Experimental Macroeconomics",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/041-foreseeable-futures-ar-glasses-and-experimental-macroeconomics.md",
+      "contentHash": "8a27304c76b672324566fdadabcf814368aaa2fcc52db38094bdeb5ebe4d925c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ee8efbb5126daf61",
+      "title": "Chapter 4: American Anarchy, Maximalist versus Woke",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/042-american-anarchy-maximalist-versus-woke.md",
+      "contentHash": "8245505d018df8cffe4c6d1855389efeeefdd719e3581bc29b86184521843c43",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8fa3f4fae97c7e88",
+      "title": "Chapter 4: How America Builds Toward Conflict",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/043-how-america-builds-toward-conflict.md",
+      "contentHash": "4d80d1e7dde4d44b7b85b2d096b10ec629d6f88b601419f825c8704f45a72d80",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "44758e58ac104f67",
+      "title": "Chapter 4: The War Between the Networks",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/044-war-between-the-networks.md",
+      "contentHash": "04b77257b487776decaa656ec2f28b49ba37c5f7c5b1cd5b7db2cf3a244d7cb4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b976fe6696a7d122",
+      "title": "Chapter 4: The Chinese Control Scenario",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/045-chinese-control-scenario.md",
+      "contentHash": "b1d404869327f7aa023f50509a33e16aa6edb46766aaa4eb560fb45c3b100fb0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5d0d94ef7e9ebe26",
+      "title": "Chapter 4: The China Caveat and the International Intermediate",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/046-china-caveat-and-the-international-intermediate.md",
+      "contentHash": "d86855834aefab244ace20ee70a44780e94bb4397f58e74af13c0413745328c9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "070784fecb1b1df6",
+      "title": "Chapter 4: Victory Conditions and Surprise Endings",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/047-victory-conditions-and-surprise-endings.md",
+      "contentHash": "21d184ee09bcc2079af782fcf9a4c7ac1eac07cff2bbecdc2e911db930789caa",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e8f5ad071f18350d",
+      "title": "Chapter 4: Towards a Recentralized Center",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/048-towards-a-recentralized-center.md",
+      "contentHash": "a1896c2ae773b566371316528f7f2eafb48ca00365c7bfac991db6d6c7ac04ae",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0c09b2f0fa78ba71",
+      "title": "Chapter 5: The Nation State System and Its Assumptions",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/049-the-nation-state-system.md",
+      "contentHash": "36aa89e88aadfb00ae29fc904d3e7a87d0fb68d9da52ec8a347c09571b859e4b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a5746231aa1efb88",
+      "title": "Chapter 5: Nation Versus State and What Is a Nation",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/050-what-is-a-nation.md",
+      "contentHash": "221600f944ae7005d30631dd1a1081ac4566ccab70aaa4d4c81d4b11cf1b5829",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c995b7b90d2f04f5",
+      "title": "Chapter 5: What Is a State and Statecraft Strategies",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/051-what-is-a-state-and-statecraft-strategies.md",
+      "contentHash": "0461bb31d7e48b4713e9f681d78d4ccde940b2d4f2c943048a439730554aaee0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "84c08902ca895650",
+      "title": "Chapter 5: How Nation States Were Founded, and What Is Not One",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/052-how-nation-states-were-founded-and-what-they-are-not.md",
+      "contentHash": "ff5e16574a46720d4c572191e1e7ca8f26b6a050b2cfd21d4f13db58eaf119e2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d5e701e361526f60",
+      "title": "Chapter 5: The Definition of a Network State, Part One",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/053-network-state-definition-part-one.md",
+      "contentHash": "fe25547ca1650e4d6263883b29770018ac0e5737898cef466d059f9ad7e45d89",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a159ab4715210864",
+      "title": "Chapter 5: The Definition of a Network State, Part Two",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/054-network-state-definition-part-two-crypto-territory-and-social-smart-contract.md",
+      "contentHash": "3253d872cbdcf7369b1ba04e6e4d02c6358d9513e5ba5cabd273bd642e94345a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "453618089be500f5",
+      "title": "Chapter 5: The Definition of a Network State, Part Three",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/055-network-state-definition-part-three-capital-census-recognition.md",
+      "contentHash": "0f6fa3314e1f56e1bd4cc043dfeecabcb6c1b90a2d5480640d027b5ec9ce3472",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5219845528f7c8db",
+      "title": "Chapter 5: Breaking the Definition and Why Recognition Matters",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/056-breaking-the-definition-and-why-recognition-matters.md",
+      "contentHash": "16c5de909b41f33c934bd79ca68a91cb50a92e51fd817a045d208cf7767e5f9e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "914d67b909ffe3e3",
+      "title": "Chapter 5: The Network State System",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/057-the-network-state-system.md",
+      "contentHash": "92bc40929442cfb84fd4f6faf7b5ef4ef0eaa39fc578c1b065800efdc28b3b66",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "73c7cbbb8212184a",
+      "title": "Chapter 5: The Term Network State, Micronetworks and Multinetworks",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/058-network-state-as-a-term-and-micronetworks.md",
+      "contentHash": "6167a31846edec678a515ee0ad8d9cc3908d78118fa05b8be7ab89e322e6271d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "51553f5811de4c72",
+      "title": "Chapter 5: A Computational Definition of a Nation and Network State Maps",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/059-a-computational-nation-and-network-state-maps.md",
+      "contentHash": "52276b3a9dab509d00a97785841ee3a849cb3e9c81ed0c75e66710c605a3af5d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a3c7803dc53c597b",
+      "title": "Chapter 5: Founding a Startup Society and the Network Union",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/060-founding-a-startup-society-and-the-network-union.md",
+      "contentHash": "663cf2f4859e1202a69184245849205105bdaae07a46f984c1917ea9b8a15395",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f12ad640081fadc5",
+      "title": "Chapter 5: The Path, the Bootstrap Recognizer and Why Recognition",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/061-path-recognizer-civil-society-and-recognition.md",
+      "contentHash": "a242c62f1d595a08bea3e131135ed7f8c308558524054889dc906da26dd56cb8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1b22c0846ffdadfb",
+      "title": "Chapter 5: Why Found a Network State",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/062-why-found-a-network-state.md",
+      "contentHash": "de0139ad3615b6140b521b77019e99c04fb0dd20213731564c16518213d56dab",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "deafa39d06a58a49",
+      "title": "Chapter 5: Expansion and What Is Not a Network State",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/063-expansion-and-what-is-not-a-network-state.md",
+      "contentHash": "49143f46c704c4959b278e149e7b52ae2f83bb21f7ca8648219c3ccdad618356",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d2fc237b0b37ab53",
+      "title": "Chapter 5: What Enables Network States Now",
+      "url": null,
+      "synthesis": "content/knowledge/the-network-state/064-what-enables-network-states-now.md",
+      "contentHash": "da6b1d1eff20164fd092acb8aac85137f84ac88bf1d587f346eeb1eaa1e6a71e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "baec3a062624df65",
+      "title": "Introduction and Background",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/001-introduction-and-background.md",
+      "contentHash": "988bad1b59d2554118b875cd8b176854abf6744b0ce1827f503b3c916c6076bf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8f28a226fda1ac2d",
+      "title": "Building What Money Cannot Buy",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/002-building-what-money-cant-buy.md",
+      "contentHash": "c8bfdf29f973855ff911fc99d529bba6b621c97a88a9da9511650601f341fc53",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f97db4d6ab9c8d54",
+      "title": "Regulation, Progress, and Falling Prices",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/003-regulation-progress-and-prices.md",
+      "contentHash": "11a401339375ac2e57eb0ec51f09ee01b47a93f244014b4166ac59cfbfdd01d7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6d0f97c372261bc8",
+      "title": "Technology, Politics, and Decentralization",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/004-technology-politics-and-decentralization.md",
+      "contentHash": "b42fc40260ca8812a9e03002c3bed6f5429f816cb1b21ddd8b1f05e683d8bc80",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8ee42044bf2b804d",
+      "title": "The Digital Frontier and Native Digital",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/005-digital-frontier-and-native-digital.md",
+      "contentHash": "df58041c8e7bddebfe196e09f44588193229e7f5f605f90366cb038ae75c2371",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "249486331d27bec0",
+      "title": "Blockchain, Property Rights, and Alignment",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/006-blockchain-property-and-alignment.md",
+      "contentHash": "23f87a18d68ab6f99536ef8c1812a35e010f1ecd49320fa2cf489ed03e87a601",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6417679ce32cd9e9",
+      "title": "Automation, Drones, and Self-Measurement",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/007-automation-and-self-measurement.md",
+      "contentHash": "2d3665fcf3de8297470659392c0b11e7116c3e33356ab59b56140a42a9ae7706",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "60be7d546424b8c9",
+      "title": "Youth Extension and Transhumanism",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/008-youth-extension-and-transhumanism.md",
+      "contentHash": "a4ab697ca2395d7d487c4535776bbc6f53b147989b3d0573ea0897947b6af0ea",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d88e3101c50b60d8",
+      "title": "The Types of Truth: Scientific and Technical",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/009-types-of-truth.md",
+      "contentHash": "826ed8c0abe27d8458e386b51a2b215fc964a307b3006b15474a561f550846d9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "31f10cd3ed14e8b4",
+      "title": "Political and Economic Truth",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/010-political-and-economic-truth.md",
+      "contentHash": "8f624f1bef9ce19966bedcf74f71af3abcbbe3770869f9f8b7db4802aab83dc3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ba276027b37745c9",
+      "title": "Cryptographic Truth and Protecting the Truth",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/011-cryptographic-truth.md",
+      "contentHash": "0a16161b0b86dfb06925afab7d5b88659a67947993657e09534eccdf75f01395",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9eecc0c1d8ab7e8d",
+      "title": "Modern Media Is Misaligned With Truth",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/012-media-misaligned-with-truth.md",
+      "contentHash": "d6b3eec156e2fa3be710858f38263c370d798095936a076f6678315f19ea2628",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fc93b56d3a69407c",
+      "title": "How to Realign Media",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/013-realigning-media.md",
+      "contentHash": "c9b1b101abbb940a4c96cf94936d5064f210c5d6a1dbf2315f37bfba5fce4f04",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "079a9a1acadcae01",
+      "title": "Building a Better Truth Machine",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/014-building-a-better-truth-machine.md",
+      "contentHash": "ba8cb182611bc565e3ef6a3a1b6a2b889274ca83370d2bb6b78e0f0c5e453770",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ce05507eb11112fa",
+      "title": "Citizen Journalists and Dollowers",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/015-citizen-journalists-and-dollowers.md",
+      "contentHash": "9de4edf4314faa66a66151f1f1b55ca2507dc968884129aae37c6a56d10a3e8a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2386169e46bf94b7",
+      "title": "Believing: Abundance, Wealth Creation, and Independence",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/016-believing-abundance-and-wealth.md",
+      "contentHash": "6e78c555ca3a6cdf4a21e299c6cd6aa55e6b1b7babd402bf2fa617f8bfd16386",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7c8fcc63013a53f9",
+      "title": "Starting Small, Finding a Frontier, and Building Instead of Arguing",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/017-frontiers-leaders-and-building.md",
+      "contentHash": "f634ae98fbf5aab37a9541c0b1c82bbcc2b3720b7d7f49e290218071ab9f0413",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b01395648946517a",
+      "title": "Founding and Researching the Idea Maze",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/018-founders-and-researching.md",
+      "contentHash": "49713b94b6b6f4b3df83bbed7b1fd699011d7e20bf2fd07fa19fc89743e417fe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "57a3dcf691a58fc6",
+      "title": "Ideating: Scanned Versions, Billion-Dollar Functions, and Full Stack",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/019-ideating.md",
+      "contentHash": "5bf186fb59347bee0c5591bc84f71e103c52e312775c74a45837057300cbb367",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "21666d62ab40ac80",
+      "title": "Validating: Economies of Scale and Market Size",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/020-validating.md",
+      "contentHash": "e1ba11732498a6b142a862a41d8a3a8087ba4a91a38b7cf9118555b21f74d0c3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "05a8e8cc731aaeca",
+      "title": "Engineering and Launching",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/021-engineering-and-launching.md",
+      "contentHash": "fa47fc9dd31c5864f28e5710d00b7167079a00c413b0bcf81f8ea8184b14d7f6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e522db3d804b0981",
+      "title": "Hiring and Managing",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/022-hiring-and-managing.md",
+      "contentHash": "f5ff9b4eddc6b80143881996eb208ef2200123e61dcf8f6ce577a4c8b1808919",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "027686c39aa83c17",
+      "title": "Growing, Executing, and Surviving",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/023-growing-executing-surviving.md",
+      "contentHash": "9755b04fae94c8facd59db01f99dd9d7f47fc292674756bfa105fe8bacef6894",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "db86eb33ecb09ba2",
+      "title": "Productivity and Learning to Learn",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/024-productivity-and-learning.md",
+      "contentHash": "20d85162dd6a4cd711e4bf82f2dabb4950bd31f6982fcf420b62e77c0b1f7349",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "be9c06104d1326a2",
+      "title": "Broad Skills and Investing in the Future",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/025-skills-and-investing.md",
+      "contentHash": "540b9d5373bf8c43713e9c7500f509e3017243dda92b3b393844532e25fe3413",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
       "id": "77f4da7e36a0be9c",
       "title": "Startups, Small Businesses and the Execution Mindset, Stanford Startup Engineering lecture notes, 2013",
       "url": "https://spark-public.s3.amazonaws.com/startup/lecture_slides/lecture5-market-wireframing-design.pdf",

@@ -1,0 +1,21 @@
+# Leonardo da Vinci
+
+ID: book:leonardo-da-vinci-isaacson
+
+Owner: bookbox.ink
+
+Coverage: partial, 35 synthesis records.
+
+Distillation: Blocked on sources
+
+Workflow: packs/guide-workflows/book-leonardo-da-vinci-isaacson/SKILL.md
+
+Release: not certified. A uniform package is not a completed deep corpus.
+
+## Remaining evidence
+
+- Bookbox: canonical distillation missing
+- Independent corpus/provenance review
+- Generated-answer evaluation for these fixtures
+- Eve runtime activation and isolation verification
+- Production and real-audio verification

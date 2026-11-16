@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "guideId": "book:hard-truths-to-keep-singapore-going",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "a2d04a6da37db6e7",
+      "title": "Chapter 1: An 80-storey Building On Marshy Land (Why Singapore Is Not a Normal Country)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/001-vulnerability-80-storey-building-part-1.md",
+      "contentHash": "4ae95817ac1723c16b1442928f5f619b641f09b943a1053eabf7f05856972b24",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "da18ce5c9d1e3156",
+      "title": "Chapter 1: An 80-storey Building On Marshy Land (Neighbours, Economy and Talent)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/002-vulnerability-80-storey-building-part-2.md",
+      "contentHash": "e82ce6918a0bfc6507d57673d9d2ac513b7f1b17a38fafd323ca74be664e5eec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "510adb5c47c779b3",
+      "title": "Chapter 2: Will the PAP Last? (The System and Doubts About Democracy)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/003-will-the-pap-last-system-and-democracy.md",
+      "contentHash": "fa74bde3589fc6f1fec3ce08fd2fa90486715330b1653917193443665b40dea2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "871a08f87ac88cfa",
+      "title": "Chapter 2: Will the PAP Last? (Opposition, Talent and Succession)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/004-will-the-pap-last-opposition-and-succession.md",
+      "contentHash": "c5c175588c0b95b8a20f6d3602f5802fca5a29b6fb6b1dc98279e0b044f81ae3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "227fc987d558bd3c",
+      "title": "Chapter 2: Will the PAP Last? (Media, Defamation and Home Ownership)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/005-will-the-pap-last-media-and-home-ownership.md",
+      "contentHash": "4fe9fac147e213b9821a538f3bdaf042825ef172bd67aca4c6e0df325813b941",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ce5cccf603d973eb",
+      "title": "Chapter 3: The Cream On Top (Finding and Testing Leaders)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/006-the-cream-on-top-finding-leaders.md",
+      "contentHash": "96191b5123c3f140e085f1c2afd3282b615bfd1ad2722bbd7feac202398a34ee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "039b1cfe046577ac",
+      "title": "Chapter 3: The Cream On Top (Ministerial Pay and the Generation Gap)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/007-the-cream-on-top-ministerial-pay.md",
+      "contentHash": "0d87d4a0493c11fe388375d62911da9095969b6bc10df451bce6b366dfd8ae94",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8545ecedf7b9c4fb",
+      "title": "Chapter 4: Keeping the Economic Miracle Alive (Size, MNCs and Niches)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/008-economic-miracle-size-mncs-and-niches.md",
+      "contentHash": "7e7c95dcdeb1930226764da497434b8121baa68b5af3e6c87ef29e7d8f14b30b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "51671baca3b9f30b",
+      "title": "Chapter 4: Keeping the Economic Miracle Alive (Growth, Foreign Labour and Inequality)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/009-economic-miracle-growth-foreigners-inequality.md",
+      "contentHash": "d300c28a0ab0b219b81cdc3ddab0e379c152172652d61afaf1b60de89227f04d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6309703eff939701",
+      "title": "Chapter 5: Tough Love (Genes, Intelligence and Inequality)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/010-tough-love-genes-and-inequality.md",
+      "contentHash": "6962958c24fb6b6cd72bc734bd4d720a40d7ee2557abe1e48ca9782b9a66bb46",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "04ac149a30486a29",
+      "title": "Chapter 5: Tough Love (Welfare, Stakes and Special Needs)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/011-tough-love-welfare-stake-and-special-needs.md",
+      "contentHash": "45d01751a59a7b59d0028b7bf1ce3e750bf48ab7d239525e9b30f688be15ef9b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "aa1dafa12e4610fd",
+      "title": "Chapter 6: Regarding Race, Language and Religion (Islam, Religion and Integration)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/012-race-language-religion-islam-and-integration.md",
+      "contentHash": "aad387a4dcc796efc6878f53395a3d05ba472967a5eaf468ce957bc07c7f1797",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ec9ce4158aa61315",
+      "title": "Chapter 6: Regarding Race, Language and Religion (Bilingualism, English and China)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/013-race-language-religion-bilingualism-and-china.md",
+      "contentHash": "8fa22f501adbecb67b7cc1edb8f0e3fb0cb7b250b9663481b28e18a88078dc0d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d8aae1aa1f7cbeb1",
+      "title": "Chapter 7: From Strangers to Singaporeans (Population, Ageing and Foreigners)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/014-strangers-to-singaporeans-population-and-foreigners.md",
+      "contentHash": "6deddb0cefc184a5bbded6545b65052de02ae34568b4a06ce7075c5ad828b9de",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "edeff8967c271ab9",
+      "title": "Chapter 7: From Strangers to Singaporeans (Nation, Identity and Being Singaporean)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/015-strangers-to-singaporeans-nation-and-identity.md",
+      "contentHash": "faeceae197224434e7ed3a91df19f461c5069162eeeeec6d412a28bb37719a50",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6627351fe5d6a0d1",
+      "title": "Chapter 8: Standing Among Giants (Worldview, America and China)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/016-standing-among-giants-worldview-and-us-china.md",
+      "contentHash": "bafcb778f8c36fdea0a97129673e5358605e414dc4e2d36d6a9129093bc4572c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f08d1eebbff6d63f",
+      "title": "Chapter 8: Standing Among Giants (India, the Region and Being Chinese)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/017-standing-among-giants-india-region-and-being-chinese.md",
+      "contentHash": "2e26e1000802ec0621067afb40fc7dce7384d8d295eed4aefeffa94f2390aa41",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fc372d0003ac4e63",
+      "title": "Chapter 9: Singapore Greening (Environment, Climate and a Thrifty Life)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/018-singapore-greening-environment-and-climate.md",
+      "contentHash": "70de99e3187a6b07fb77104e84c7188f42fcb6754e5e0ebde65b7e40766fbc42",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8e06be7a69dfaee8",
+      "title": "Chapter 10: Not Your Average Grandad (Youth, Comfort and Pragmatism)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/019-not-your-average-grandad-youth-and-pragmatism.md",
+      "contentHash": "129a6169e7a42a179f3bfa5f765bcec7b60316cce3bd06b1fa9fdc8ce565b0d0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "34860b85d95c8827",
+      "title": "Chapter 10: Not Your Average Grandad (Homosexuality, Love, Subcultures and Admired Leaders)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/020-not-your-average-grandad-homosexuality-love-and-statesmen.md",
+      "contentHash": "c039ee29b25be050c12ab9a3743c2bb9486caf013423a278b69bc91919a438dd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c24ca8c1b05a3a9f",
+      "title": "Chapter 11: Husband, Father, Grandfather, Friend (Wife, Illness, Health and Meditation)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/021-husband-father-wife-illness-health-and-meditation.md",
+      "contentHash": "37bde3dbbbd9a6b9bb7fb80c087335d49e5b25f2441de56de8c2ce7d106f87cf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f91ded47e52f0c98",
+      "title": "Chapter 11: Husband, Father, Grandfather, Friend (Children, Grandchildren and Family Values)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/022-husband-father-children-grandchildren-and-values.md",
+      "contentHash": "08a9693463c12b8a03fc52e7c31aceeb869250c073b68e9ffdab9d67d7abefa1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ce38e3abd88c04c4",
+      "title": "Chapter 11: Husband, Father, Grandfather, Friend (The Prime Minister, Succession, Friends and the Love Story)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/023-husband-father-pm-succession-friends-and-love-story.md",
+      "contentHash": "2031610024dd770ef8489d2c32c67b33f76b844f32e08061a92be50471bf12b0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

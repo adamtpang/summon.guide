@@ -4,7 +4,7 @@ ID: person:visakan
 
 Owner: summon.guide
 
-Coverage: partial, 17 synthesis records.
+Coverage: partial, 66 synthesis records.
 
 Distillation: content/distilled/visakan.md
 

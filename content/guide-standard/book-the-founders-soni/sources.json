@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "guideId": "book:the-founders-soni",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "3710d62c01d775e7",
+      "title": "Introduction: The Attic",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/001-introduction.md",
+      "contentHash": "97471cef45d7e0dba85d9a9ab6da90df0ce5b89674e1d2bef597968465b5571c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "93dfcb19f607a2c1",
+      "title": "Chapter 1: Building Blocks",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/002-building-blocks.md",
+      "contentHash": "ee1e294bedbb9fde922333ebf46f8a9eb4c8169f229fd4116ce017db084dd645",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6c8704a59dc92c3b",
+      "title": "Chapter 2: The Pitch",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/003-the-pitch.md",
+      "contentHash": "d4434bcc6b8916090534211e48d4e5b201c2753dd62f84f36afe4ce6932247c9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6da17635b516bc46",
+      "title": "Chapter 3: The Right Questions",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/004-the-right-questions.md",
+      "contentHash": "a2a92bee8b8b7cb56c137ff1e031006e089db628f98a0b9a139270281819ea3b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c929bdc318af03c0",
+      "title": "Chapter 4: What Matters to Me Is Winning",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/005-what-matters-to-me-is-winning.md",
+      "contentHash": "43c4f26b3f243492bf1f820ce5bb3c9b9f5ffba219ede70d392a329b9d1b1188",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ee165f4c674b4a09",
+      "title": "Chapter 5: The Beamers",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/006-the-beamers.md",
+      "contentHash": "298accd7239d94daa25268729eee89f34544495e78e614558f58c5ab13536b25",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "599da497d4cbb5f7",
+      "title": "Chapter 6: Hosed",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/007-hosed.md",
+      "contentHash": "51986dbdc0b245a1c7640f647b03747aeb495231e12cdb81d2bf839517a87adf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "471889c60b7bf849",
+      "title": "Chapter 7: Money Talks",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/008-money-talks.md",
+      "contentHash": "3aa8074dc699f72440f921072bf43b6b2059f5305df2d39e0750c443a32dd9ca",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "00863e15aa6fcb19",
+      "title": "Chapter 8: If You Build It",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/009-if-you-build-it.md",
+      "contentHash": "e86b805a972429ec165f90c8d1abd381cd44d43889794bd49f7c0da7e13947e8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "067f148adf5ca46d",
+      "title": "Chapter 9: The Widget Wars",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/010-the-widget-wars.md",
+      "contentHash": "6763a1c6d4b3f3866647d01cf8bb4cf0ed4e9c6ebe083f58b87b4eabb916a275",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5d69e8b0d31f450b",
+      "title": "Chapter 10: Crash",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/011-crash.md",
+      "contentHash": "5222020ff46c8e53dac308f88e808a3cac026bbe9eb46a253f4b87447e69df2e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9787145cee84e024",
+      "title": "Chapter 11: The Nut House Coup",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/012-the-nut-house-coup.md",
+      "contentHash": "3164fb83aae560866c1e1c53bcd463c099c0fb6af66f2924849f954fd32376a2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1fea4511df7defc0",
+      "title": "Chapter 12: Buttoned-Up",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/013-buttoned-up.md",
+      "contentHash": "d46169c6a3315983a9992b3ff72a16febe82144087675da664d355da5772e144",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3ef4b6097f04c6d0",
+      "title": "Chapter 13: The Sword",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/014-the-sword.md",
+      "contentHash": "57dd73cb50a8da25d5fc23a8b2008ab79f3410ae3aa8ce7d885bcc548ecce99c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ec1844e90f5c08ec",
+      "title": "Chapter 14: Ambition's Debt",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/015-ambitions-debt.md",
+      "contentHash": "1d2fef7880dfa29ac4897d3dbaa94e5bfe39ef2e773755f7acf7ea2daa3eb05e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3f136f011e786e7c",
+      "title": "Chapter 15: Igor",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/016-igor.md",
+      "contentHash": "92f9b7c2690e686c08a6faccb13bd3ffb4b323b54abb1a421d31fe3a9282986e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "63703bcbe931f08a",
+      "title": "Chapter 16: Use the Force",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/017-use-the-force.md",
+      "contentHash": "debdb37f71a3d4f73d77a5c63df7fdc3283783847f939ae77c918e6291e76636",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7f41cf5de4507924",
+      "title": "Chapter 17: Crime in Progress",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/018-crime-in-progress.md",
+      "contentHash": "60ec9a47e1e2768ad875f53945f08337a0d055c931e9187ea3006b6eae652331",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f12d6f7bb178ec7a",
+      "title": "Chapter 18: Guerrillas",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/019-guerrillas.md",
+      "contentHash": "541d19a4a1f79052ca779c69acef210bbb889927288dc4de1bc572e899373313",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2d80ef0b9bde0fc0",
+      "title": "Chapter 19: World Domination",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/020-world-domination.md",
+      "contentHash": "d08ab604f6e8e113782d14af5be6312e3000e1780c5f6a6480b0f73f36bd90b1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "bf19f21359989ce4",
+      "title": "Chapter 20: Blindsided",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/021-blindsided.md",
+      "contentHash": "6468bc827959ee2242817ac4284247f85c6e438dfa0775e55c896d6270e5d580",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5faac5f640504cca",
+      "title": "Chapter 21: Outlaws",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/022-outlaws.md",
+      "contentHash": "1a95aa9427058741fe3be540f8cd822317e404b23a82dfccfc468caf72cc25c4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0cce351e96c6f61d",
+      "title": "Chapter 22: And All I Got Was a T-Shirt",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/023-and-all-i-got-was-a-t-shirt.md",
+      "contentHash": "e82070fec716a82fdddaabbfd9693bc702139161e111f626ca0b2ffff614582f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6cbb246efaa3d877",
+      "title": "Conclusion: The Floor",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/024-conclusion-the-floor.md",
+      "contentHash": "c6eab5cb0861d8d5091fd8da7c7fb0ef672af4b6820ac22b7e09d41e28ecb771",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3536b3e0c2f23b4a",
+      "title": "Epilogue: The PayPal Mafia Behind Bars",
+      "url": null,
+      "synthesis": "content/knowledge/the-founders-soni/025-epilogue.md",
+      "contentHash": "c209c92f7442b07b9329b38dbd831e3b31ebefea1defd7db57be3bddfc9b181c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

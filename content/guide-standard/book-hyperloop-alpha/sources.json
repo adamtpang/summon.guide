@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "guideId": "book:hyperloop-alpha",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "d537abb2b7a07f6a",
+      "title": "Why a Fifth Mode of Transport",
+      "url": null,
+      "synthesis": "content/knowledge/hyperloop-alpha/001-why-a-fifth-mode-of-transport.md",
+      "contentHash": "cb883e7ca9efc21775f947a2ca02e2a8a2afa4ac1d3f144ac2a2e0a6a3eeda11",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f93d2534475ef1a1",
+      "title": "The Tube, the Kantrowitz Limit and the Onboard Compressor",
+      "url": null,
+      "synthesis": "content/knowledge/hyperloop-alpha/002-the-tube-kantrowitz-limit-and-compressor.md",
+      "contentHash": "f9fd34b5593e628a2e22a1bb6d473721f82c36749b87a19d4ecf8b6e953e9ff7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d1881519a840eb7f",
+      "title": "Capsule Design and Air Bearing Suspension",
+      "url": null,
+      "synthesis": "content/knowledge/hyperloop-alpha/003-capsule-design-and-air-bearings.md",
+      "contentHash": "b92d00f23587a22d5ba794abed63659c1df9220ab5e4c4f73714071cba455dba",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "95bfd60def0a2639",
+      "title": "Tube, Pylons and Stations",
+      "url": null,
+      "synthesis": "content/knowledge/hyperloop-alpha/004-tube-pylons-and-stations.md",
+      "contentHash": "390ca4ee226c668809369aa6039052d250c03aa88fda47740184b75850eb34c3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0200edaac29c16d7",
+      "title": "Propulsion and Self-Powering",
+      "url": null,
+      "synthesis": "content/knowledge/hyperloop-alpha/005-propulsion-and-self-powering.md",
+      "contentHash": "26a29b9c1d5fdc6a0b86d5adabc03b4af946a5b1582f4749be0195b6b6348b96",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f74a89d87446cf67",
+      "title": "The Route and Station Locations",
+      "url": null,
+      "synthesis": "content/knowledge/hyperloop-alpha/006-route-and-station-locations.md",
+      "contentHash": "0b72b62058886bd1e0137cd0241a8fa5a7d24e6ff4a4c8b91386158ed6984242",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ae6acf1aaf54e8ed",
+      "title": "Safety and Reliability",
+      "url": null,
+      "synthesis": "content/knowledge/hyperloop-alpha/007-safety-and-reliability.md",
+      "contentHash": "4689b55e12be77713edc5ccbde702ea09751b87d473ed2f1a33488a02267dead",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b486f1f2a7b33c37",
+      "title": "Cost, Economics and the Open Source Call",
+      "url": null,
+      "synthesis": "content/knowledge/hyperloop-alpha/008-cost-economics-and-open-source-call.md",
+      "contentHash": "2cf29f8dbcff6e3eabdfa30262e4b8cb1c4864cb4b8c923726275cb8ce954da1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

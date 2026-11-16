@@ -4,7 +4,7 @@ ID: person:brad-jacobs
 
 Owner: summon.guide
 
-Coverage: partial, 1 synthesis records.
+Coverage: partial, 9 synthesis records.
 
 Distillation: content/distilled/brad-jacobs.md
 

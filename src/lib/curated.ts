@@ -1,14 +1,12 @@
 import { figures } from "@/lib/figures";
 
-// The curated roster, hand-picked by Adam on 2026-11-14. Every other person
+// The curated roster, hand-picked by Adam on 2026-11-14 (Alexander and Bob Marley removed 2026-11-16). Every other person
 // guide is archived: its files, sources and page stay in the codebase and its
 // direct link still works, but it is left out of the roster, matching, the
 // council, search, the sitemap and the public catalog. To bring a guide back,
 // add its slug here.
 export const CURATED_PEOPLE = [
-  "alexander",
   "franklin",
-  "bob-marley",
   "lee-kuan-yew",
   "balaji-srinivasan",
   "brad-jacobs",

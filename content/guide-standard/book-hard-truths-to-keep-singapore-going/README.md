@@ -1,0 +1,21 @@
+# Hard Truths to Keep Singapore Going
+
+ID: book:hard-truths-to-keep-singapore-going
+
+Owner: bookbox.ink
+
+Coverage: partial, 23 synthesis records.
+
+Distillation: Blocked on sources
+
+Workflow: packs/guide-workflows/book-hard-truths-to-keep-singapore-going/SKILL.md
+
+Release: not certified. A uniform package is not a completed deep corpus.
+
+## Remaining evidence
+
+- Bookbox: canonical distillation missing
+- Independent corpus/provenance review
+- Generated-answer evaluation for these fixtures
+- Eve runtime activation and isolation verification
+- Production and real-audio verification

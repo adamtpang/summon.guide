@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "guideId": "book:poor-richards-almanack",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "363cf6d4f3dbb8f4",
+      "title": "Industry and Diligence",
+      "url": null,
+      "synthesis": "content/knowledge/poor-richards-almanack/001-industry-and-diligence.md",
+      "contentHash": "1244f13d6737185d4e79d7092bc96f8f94ed0302012f75b222e5eeb574031775",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ffaf08f48a213f43",
+      "title": "Time and Procrastination",
+      "url": null,
+      "synthesis": "content/knowledge/poor-richards-almanack/002-time-and-procrastination.md",
+      "contentHash": "ea32701225eba2b3fd99daf609c8b3098947a41cd99271b9d8f372ecc08da178",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4380a89db0399590",
+      "title": "Money, Thrift and Debt",
+      "url": null,
+      "synthesis": "content/knowledge/poor-richards-almanack/003-money-thrift-and-debt.md",
+      "contentHash": "89831522fa8f92f92053516e19d364c9a980379cf6764678d42ab33d40dd0c97",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4df2d18bd720f06c",
+      "title": "Contentment, Wealth and Greed",
+      "url": null,
+      "synthesis": "content/knowledge/poor-richards-almanack/004-contentment-wealth-and-greed.md",
+      "contentHash": "f2e672125ea062e460a83397e660b5d3c835923a61fd52429231dbebf5539428",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "47b7dfe2a76426fb",
+      "title": "Friendship, Flattery and Neighbors",
+      "url": null,
+      "synthesis": "content/knowledge/poor-richards-almanack/005-friendship-and-neighbors.md",
+      "contentHash": "8d4404fc870640119325fd24f95bf8fbd6df52db5531b278c232c6f7a48ce233",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "67a1e74c300dbbbe",
+      "title": "Speech, Silence and Secrets",
+      "url": null,
+      "synthesis": "content/knowledge/poor-richards-almanack/006-speech-silence-and-secrets.md",
+      "contentHash": "68dc067e5a7501f77e66548728de1e12f522795876d9365e014b22619fad0094",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7606d40112db78d3",
+      "title": "Pride, Vanity and Self-Knowledge",
+      "url": null,
+      "synthesis": "content/knowledge/poor-richards-almanack/007-pride-vanity-and-self-knowledge.md",
+      "contentHash": "98ebbab7bbb43d924ebbc9a6963f2795cee4e9a4555867aff46ce88d8c358d63",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3f8489cd53c5dddd",
+      "title": "Health, Temperance and Self-Command",
+      "url": null,
+      "synthesis": "content/knowledge/poor-richards-almanack/008-health-temperance-and-self-command.md",
+      "contentHash": "44a084d2553e32ea612c192c005f1709b74ab103ea0e097dedd3368b88461c10",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8974414878641cff",
+      "title": "Prudence, Learning and Character",
+      "url": null,
+      "synthesis": "content/knowledge/poor-richards-almanack/009-prudence-learning-and-character.md",
+      "contentHash": "3115e68c74ea8cf6618a1fb5ed4abd5762590722e717a2a4bc99be95eba56c1c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}

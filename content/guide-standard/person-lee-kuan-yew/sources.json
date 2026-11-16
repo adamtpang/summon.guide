@@ -5,6 +5,213 @@
   "coverage": "partial",
   "sources": [
     {
+      "id": "a2d04a6da37db6e7",
+      "title": "Chapter 1: An 80-storey Building On Marshy Land (Why Singapore Is Not a Normal Country)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/001-vulnerability-80-storey-building-part-1.md",
+      "contentHash": "4ae95817ac1723c16b1442928f5f619b641f09b943a1053eabf7f05856972b24",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "da18ce5c9d1e3156",
+      "title": "Chapter 1: An 80-storey Building On Marshy Land (Neighbours, Economy and Talent)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/002-vulnerability-80-storey-building-part-2.md",
+      "contentHash": "e82ce6918a0bfc6507d57673d9d2ac513b7f1b17a38fafd323ca74be664e5eec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "510adb5c47c779b3",
+      "title": "Chapter 2: Will the PAP Last? (The System and Doubts About Democracy)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/003-will-the-pap-last-system-and-democracy.md",
+      "contentHash": "fa74bde3589fc6f1fec3ce08fd2fa90486715330b1653917193443665b40dea2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "871a08f87ac88cfa",
+      "title": "Chapter 2: Will the PAP Last? (Opposition, Talent and Succession)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/004-will-the-pap-last-opposition-and-succession.md",
+      "contentHash": "c5c175588c0b95b8a20f6d3602f5802fca5a29b6fb6b1dc98279e0b044f81ae3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "227fc987d558bd3c",
+      "title": "Chapter 2: Will the PAP Last? (Media, Defamation and Home Ownership)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/005-will-the-pap-last-media-and-home-ownership.md",
+      "contentHash": "4fe9fac147e213b9821a538f3bdaf042825ef172bd67aca4c6e0df325813b941",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ce5cccf603d973eb",
+      "title": "Chapter 3: The Cream On Top (Finding and Testing Leaders)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/006-the-cream-on-top-finding-leaders.md",
+      "contentHash": "96191b5123c3f140e085f1c2afd3282b615bfd1ad2722bbd7feac202398a34ee",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "039b1cfe046577ac",
+      "title": "Chapter 3: The Cream On Top (Ministerial Pay and the Generation Gap)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/007-the-cream-on-top-ministerial-pay.md",
+      "contentHash": "0d87d4a0493c11fe388375d62911da9095969b6bc10df451bce6b366dfd8ae94",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8545ecedf7b9c4fb",
+      "title": "Chapter 4: Keeping the Economic Miracle Alive (Size, MNCs and Niches)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/008-economic-miracle-size-mncs-and-niches.md",
+      "contentHash": "7e7c95dcdeb1930226764da497434b8121baa68b5af3e6c87ef29e7d8f14b30b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "51671baca3b9f30b",
+      "title": "Chapter 4: Keeping the Economic Miracle Alive (Growth, Foreign Labour and Inequality)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/009-economic-miracle-growth-foreigners-inequality.md",
+      "contentHash": "d300c28a0ab0b219b81cdc3ddab0e379c152172652d61afaf1b60de89227f04d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6309703eff939701",
+      "title": "Chapter 5: Tough Love (Genes, Intelligence and Inequality)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/010-tough-love-genes-and-inequality.md",
+      "contentHash": "6962958c24fb6b6cd72bc734bd4d720a40d7ee2557abe1e48ca9782b9a66bb46",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "04ac149a30486a29",
+      "title": "Chapter 5: Tough Love (Welfare, Stakes and Special Needs)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/011-tough-love-welfare-stake-and-special-needs.md",
+      "contentHash": "45d01751a59a7b59d0028b7bf1ce3e750bf48ab7d239525e9b30f688be15ef9b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "aa1dafa12e4610fd",
+      "title": "Chapter 6: Regarding Race, Language and Religion (Islam, Religion and Integration)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/012-race-language-religion-islam-and-integration.md",
+      "contentHash": "aad387a4dcc796efc6878f53395a3d05ba472967a5eaf468ce957bc07c7f1797",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ec9ce4158aa61315",
+      "title": "Chapter 6: Regarding Race, Language and Religion (Bilingualism, English and China)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/013-race-language-religion-bilingualism-and-china.md",
+      "contentHash": "8fa22f501adbecb67b7cc1edb8f0e3fb0cb7b250b9663481b28e18a88078dc0d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d8aae1aa1f7cbeb1",
+      "title": "Chapter 7: From Strangers to Singaporeans (Population, Ageing and Foreigners)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/014-strangers-to-singaporeans-population-and-foreigners.md",
+      "contentHash": "6deddb0cefc184a5bbded6545b65052de02ae34568b4a06ce7075c5ad828b9de",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "edeff8967c271ab9",
+      "title": "Chapter 7: From Strangers to Singaporeans (Nation, Identity and Being Singaporean)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/015-strangers-to-singaporeans-nation-and-identity.md",
+      "contentHash": "faeceae197224434e7ed3a91df19f461c5069162eeeeec6d412a28bb37719a50",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6627351fe5d6a0d1",
+      "title": "Chapter 8: Standing Among Giants (Worldview, America and China)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/016-standing-among-giants-worldview-and-us-china.md",
+      "contentHash": "bafcb778f8c36fdea0a97129673e5358605e414dc4e2d36d6a9129093bc4572c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f08d1eebbff6d63f",
+      "title": "Chapter 8: Standing Among Giants (India, the Region and Being Chinese)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/017-standing-among-giants-india-region-and-being-chinese.md",
+      "contentHash": "2e26e1000802ec0621067afb40fc7dce7384d8d295eed4aefeffa94f2390aa41",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fc372d0003ac4e63",
+      "title": "Chapter 9: Singapore Greening (Environment, Climate and a Thrifty Life)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/018-singapore-greening-environment-and-climate.md",
+      "contentHash": "70de99e3187a6b07fb77104e84c7188f42fcb6754e5e0ebde65b7e40766fbc42",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8e06be7a69dfaee8",
+      "title": "Chapter 10: Not Your Average Grandad (Youth, Comfort and Pragmatism)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/019-not-your-average-grandad-youth-and-pragmatism.md",
+      "contentHash": "129a6169e7a42a179f3bfa5f765bcec7b60316cce3bd06b1fa9fdc8ce565b0d0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "34860b85d95c8827",
+      "title": "Chapter 10: Not Your Average Grandad (Homosexuality, Love, Subcultures and Admired Leaders)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/020-not-your-average-grandad-homosexuality-love-and-statesmen.md",
+      "contentHash": "c039ee29b25be050c12ab9a3743c2bb9486caf013423a278b69bc91919a438dd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c24ca8c1b05a3a9f",
+      "title": "Chapter 11: Husband, Father, Grandfather, Friend (Wife, Illness, Health and Meditation)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/021-husband-father-wife-illness-health-and-meditation.md",
+      "contentHash": "37bde3dbbbd9a6b9bb7fb80c087335d49e5b25f2441de56de8c2ce7d106f87cf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f91ded47e52f0c98",
+      "title": "Chapter 11: Husband, Father, Grandfather, Friend (Children, Grandchildren and Family Values)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/022-husband-father-children-grandchildren-and-values.md",
+      "contentHash": "08a9693463c12b8a03fc52e7c31aceeb869250c073b68e9ffdab9d67d7abefa1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ce38e3abd88c04c4",
+      "title": "Chapter 11: Husband, Father, Grandfather, Friend (The Prime Minister, Succession, Friends and the Love Story)",
+      "url": null,
+      "synthesis": "content/knowledge/hard-truths-to-keep-singapore-going/023-husband-father-pm-succession-friends-and-love-story.md",
+      "contentHash": "2031610024dd770ef8489d2c32c67b33f76b844f32e08061a92be50471bf12b0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
       "id": "0e4ac3313af83a6e",
       "title": "Going It Alone",
       "url": null,
@@ -388,6 +595,231 @@
       "url": null,
       "synthesis": "content/knowledge/from-third-world-to-first/043-epilogue.md",
       "contentHash": "5f5b4d0291d5658e27a16287f96ec95b7d8d9550546493806fca72bc22acc207",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4660b35b2037b05c",
+      "title": "Chapter 1: China and the Strong Centre",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/001-china-a-strong-centre.md",
+      "contentHash": "4d328a57bebf90b139080b975d2c718d93f61f7c066b67a0b93ef93ec95beba3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1898a73d592a9301",
+      "title": "Chapter 1: China's Leaders and the Quiet Rise",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/002-china-leaders-and-quiet-rise.md",
+      "contentHash": "53acd1268599da1fc1041ce4db5df6d17f85e688db0d298fb11e5c6ba45f082d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cf64d62db30076f3",
+      "title": "Chapter 1: The New China, People and Economy",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/003-china-society-and-economy.md",
+      "contentHash": "652df6ba3cb0a2b97d17216f70acf009a48a4a2fbe3c6929b4dd1b88e7d59d9f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "919ecfdaed236972",
+      "title": "Chapter 1: The Pacific Balance and Singapore's Position",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/004-pacific-balance-and-singapore-position.md",
+      "contentHash": "8a70b2408821cd35d7a6112676fae9cf573886728ececa9f881ec56cf273ab41",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "44960ff1e78da7e5",
+      "title": "Chapter 2: America's Dynamism and the Final Contest",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/005-america-dynamism-and-final-contest.md",
+      "contentHash": "fff2059b5993a053b515aa73cbedb958bd3f7dae75da1455a98a33e77c3ea2ad",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d41ac2b3757d8943",
+      "title": "Chapter 2: America's Debt, Schools and Foreign Policy Errors",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/006-america-debt-education-and-foreign-policy.md",
+      "contentHash": "4f986a2a9568c68899dfd2a345c2f6dd3c8de5f7d480142bbeac49912b74fd8d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6a129384c7330caa",
+      "title": "Chapter 3: Europe and the Flawed Euro",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/007-europe-the-euro-flaw.md",
+      "contentHash": "64c46865e592f632554ff7d40e04929cdf109ff4e719ec59d0d40f11ce0128b0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "018463013b37af5b",
+      "title": "Chapter 3: Europe's Welfare State, Immigration and Decline",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/008-europe-welfare-immigration-and-place-in-world.md",
+      "contentHash": "37e35bf47b38c306991f81dd38b8b7a5faba8fbe6a42f1ab7c4e31c44b69a72e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "36afdde1c316af3f",
+      "title": "Chapter 4: Japan, Strolling into Mediocrity",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/009-japan-strolling-into-mediocrity.md",
+      "contentHash": "96e7fb1cce395f9454e0ef480e195c7acf7edab8d62dcd003954caeb21eebf23",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e9fb780c4de1539b",
+      "title": "Chapter 4: The Korean Peninsula, a Grand Hoax and a Tough South",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/010-korea-north-hoax-and-south-strength.md",
+      "contentHash": "c28ad287545a8efdc9d2e1c680fbe9c828aaa2c15d864cbe8600470851f0b8db",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "505586c95861d29c",
+      "title": "Chapter 4: India, In the Grip of Caste",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/011-india-in-the-grip-of-caste.md",
+      "contentHash": "67030b33c140397bd77a6749d1cda176c3c8a55d97fd4a06a599ef3bf9eb2f06",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "88e17baca782698a",
+      "title": "Chapter 5: Malaysia, A Different Path",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/012-malaysia-a-different-path.md",
+      "contentHash": "b06969e44edd961afa5c694eb6135415be8428eea1e79335075ceffbd4dc5215",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d2655105cee03f92",
+      "title": "Chapter 5: Indonesia Decentralises, Thailand's Underclass Stirs",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/013-indonesia-and-thailand.md",
+      "contentHash": "c0dccbb55ab891f02c4859fb0649020d8ad17756e36ae6cd204533e8021a1408",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c9cc0155af6fb1f9",
+      "title": "Chapter 5: Vietnam's Socialist Mindset and Myanmar's Change of Course",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/014-vietnam-and-myanmar.md",
+      "contentHash": "284c6663236d9e2827d01f6ba19e7a510a7b175f7ba8b85635e6084236f59bcf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3b15aca3cd6f481b",
+      "title": "Chapter 6: Singapore Politics, the 2011 Election and the Talent Problem",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/015-singapore-politics-and-talent.md",
+      "contentHash": "2aded405f230f8543990a8c4176d7f44ab7b9ce2201a8e88a4e51305e7bb7ca9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1884eeddf5c178c3",
+      "title": "Chapter 6: Singapore's Population, Fertility and Immigration",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/016-singapore-population-and-immigration.md",
+      "contentHash": "9ad617f2e101f7419c1c051fa851907988c5944d57577ae543d7cf931a2258c2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "77aaee9441d1d475",
+      "title": "Chapter 6: Singapore's Open Economy and the Income Gap",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/017-singapore-economy-and-income-gap.md",
+      "contentHash": "2264738a72158b106732a2337d12c2d35df2774db06051fbe30cba7de3c9abaf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "21c6ad5079aeb968",
+      "title": "Chapter 7: The Middle East, A Spring Without a Summer",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/018-middle-east-a-spring-without-a-summer.md",
+      "contentHash": "ed1e4c7c64ace867e3db74ad5665d67d2235164f3fbee5d037ec1af0dbde99bd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e17974f288fdcd9e",
+      "title": "Chapter 8: The Global Economy, Capitalism, Reserve Currency and Trade",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/019-global-economy-capitalism-and-money.md",
+      "contentHash": "398001ef2875269183f968159b547ba748e8da07428920744c2aac3d731479af",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3242ad64ad88cfe0",
+      "title": "Chapter 8: The Pacific Shift, Technology and the Limits of Globalisation",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/020-global-economy-pacific-shift-and-globalisation.md",
+      "contentHash": "5124794b4274517f5a46ce7757df5aeb20a4cb0b0ec5879551faa057323660cc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5725fc4dbcfac6c8",
+      "title": "Chapter 9: Energy and Climate Change, Preparing for the Worst",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/021-energy-and-climate-change-preparing-for-the-worst.md",
+      "contentHash": "c3b4947791ca8ee6a5d0d8ee8bf6d3cc767518098e6fbdc4f60544b6f2fca342",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d04184850e11e5f8",
+      "title": "Chapter 10: Personal Life, Choosing When to Go",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/022-personal-life-choosing-when-to-go.md",
+      "contentHash": "b7e0b3687f62f4e9dd6801e77b45cc6c873818ae657e658bfea649fde644a17a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8c64e499b0af9239",
+      "title": "Chapter 11: Conversations with Helmut Schmidt, Lessons on Leadership",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/023-conversations-lessons-on-leadership.md",
+      "contentHash": "0fd47ebba377e64ccaa58cc3a75f940df1cc2f34b7f12318dfaa836d2e4e89c1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9e3dcc488b3d4e31",
+      "title": "Chapter 11: Conversations with Helmut Schmidt, The European Vision and Parting",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/024-conversations-the-european-vision-and-parting.md",
+      "contentHash": "2858e97c5cacbbc03ea523f30d2dc2f92b6930b910cb925d5c3eae8baf04f3fd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "251bb978116c7ff6",
+      "title": "Postscript: Looking Back at the Interviews and Predictions",
+      "url": null,
+      "synthesis": "content/knowledge/one-mans-view-of-the-world/025-postscript-looking-back-at-the-predictions.md",
+      "contentHash": "84c8f8778ea7f1dc6500cb64460b2f05529a1854ad6ff36f4da6ed1e33699578",
       "rightsReview": "not-certified",
       "kind": "published-synthesis"
     },

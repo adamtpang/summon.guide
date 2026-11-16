@@ -4,7 +4,7 @@ ID: person:balaji-srinivasan
 
 Owner: summon.guide
 
-Coverage: partial, 8 synthesis records.
+Coverage: partial, 97 synthesis records.
 
 Distillation: content/distilled/balaji-srinivasan.md
 

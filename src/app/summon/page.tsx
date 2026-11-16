@@ -29,7 +29,7 @@ export default function SummonPacks() {
         <p className="mb-8 mt-4 max-w-[62ch] text-[17px] leading-relaxed text-mist">
           Hand-picked people whose lives answer real problems. Each is an AI guide built from their public work, not the person.
         </p>
-        <GuideAgentRoster agents={guideAgentSummaries.filter((agent) => agent.availability !== "archived")} lines={GUIDE_LINES} />
+        <GuideAgentRoster agents={guideAgentSummaries.filter((agent) => agent.availability !== "archived" && (agent.kind === "person" || Boolean(agent.chatHref)))} lines={GUIDE_LINES} />
 
         <div className="mt-24">
           <GuideRequestPanel />

@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "guideId": "book:leonardo-da-vinci-isaacson",
+  "rawTextPublished": false,
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "5aadf100976124f1",
+      "title": "Introduction: I Can Also Paint",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/001-introduction-i-can-also-paint.md",
+      "contentHash": "c65e532708ed5cb41e7ba24b0b71f1a6f0535c023f625d4353faf4497ea6cc9a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9ec771a10e8cdeb2",
+      "title": "Chapter 1: Childhood",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/002-childhood.md",
+      "contentHash": "b4ea85929354bafc4005fa811db204354531c7cb262578bca823d5913deb6716",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ea5b44dae1543404",
+      "title": "Chapter 2: Apprentice",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/003-apprentice.md",
+      "contentHash": "5625da8ce62fb4e56537ece4271ad4de0520e5eda76901e9ea87aeab1ea2c26d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8f0e6798d03fa58c",
+      "title": "Chapter 3: On His Own",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/004-on-his-own.md",
+      "contentHash": "705c7fc065ecc35118cb331910179f987b606a74998c184536be332d3e1298bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5ee5a9a088a37e45",
+      "title": "Chapter 4: Milan",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/005-milan.md",
+      "contentHash": "bb5156b611935f326d8ca7b52d5a90d2957c5f21d4d0062a4ba48043e3b12373",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d4ae438e11f859df",
+      "title": "Chapter 5: Leonardo's Notebooks",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/006-leonardos-notebooks.md",
+      "contentHash": "7f26fe5e8b9a2be52258b6d2bf5c7701642f1c6cf2dd5dacde8b53faaad3b6bc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3f291bea1808ec09",
+      "title": "Chapter 6: Court Entertainer",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/007-court-entertainer.md",
+      "contentHash": "9a253fbade92d5937ef1b093ebd9bff6825338cf576b516360abe7f90780ddcb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "24ee7154ade57748",
+      "title": "Chapter 7: Personal Life",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/008-personal-life.md",
+      "contentHash": "1c2e02fd1c52ac6122eb7c539def3d26fe1dbcb815cf87051e7b9fc71d6cffe7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b98b5adfc1b5fa4d",
+      "title": "Chapter 8: Vitruvian Man",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/009-vitruvian-man.md",
+      "contentHash": "81d5dc275a30a5a2ba62e5bfb9c7cc9679ffadbcd8b3bce8e2a85ed15dd33dc3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c083b8237b4341d2",
+      "title": "Chapter 9: The Horse Monument",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/010-the-horse-monument.md",
+      "contentHash": "10f94da4890071ba757b719eab15dceab4fd1791a61aa621757e6e4b8d641662",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "43579c5ea27b2b38",
+      "title": "Chapter 10: Scientist",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/011-scientist.md",
+      "contentHash": "13a5534d1e14f93ac2e2cc6652e282cfcce78cb356522d503e48ec14b708d63a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b8303105c86589af",
+      "title": "Chapter 11: Birds and Flight",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/012-birds-and-flight.md",
+      "contentHash": "02df7530e9ce3b814fd189dcb70c7d04e2c9f9bdc1bea47c3853a8d3ce6cb245",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e13363366cd6912c",
+      "title": "Chapter 12: The Mechanical Arts",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/013-the-mechanical-arts.md",
+      "contentHash": "bef8aa14895065e9bff506ff6135edf78d1a92c3996710853f7c8f0212a02d34",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e0e64608adbc76e5",
+      "title": "Chapter 13: Math",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/014-math.md",
+      "contentHash": "337963352569f81890d116129399ba2dc19047dadc18db576d8458509b926a70",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5adbc5c6403fe08f",
+      "title": "Chapter 14: The Nature of Man",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/015-the-nature-of-man.md",
+      "contentHash": "9b134823f0cd4f4d2d5c6f01537faf633b30bc62ab9213abd9e7ae61f8243363",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0f685f06886f0ca8",
+      "title": "Chapter 15: Virgin of the Rocks",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/016-virgin-of-the-rocks.md",
+      "contentHash": "83fb17188d39f71c08361fbd65066c05dc948db110cb1c17810729fa66796e75",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "579a3693fa229d35",
+      "title": "Chapter 16: The Milan Portraits",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/017-the-milan-portraits.md",
+      "contentHash": "01bfed01f4d61922955e77d1b20a104a630b04a707f59ea4c3ee09bacbee2b2a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f8c3114ee508a235",
+      "title": "Chapter 17: The Science of Art",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/018-the-science-of-art.md",
+      "contentHash": "63cc5a9984adc8c1ae2d0cf51c47ac84eec913ffc7dc1b8609189c17a9bdb75d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e2aaefb39a6de24c",
+      "title": "Chapter 18: The Last Supper",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/019-the-last-supper.md",
+      "contentHash": "d3e81f11d85cb9a50b37cec0b302b929ec4f5f11a05f6cdf30c0d87039870722",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b26d947d8e60ca28",
+      "title": "Chapter 19: Personal Turmoil",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/020-personal-turmoil.md",
+      "contentHash": "59f3e1e1bf21949a72022f76600eeafdc84e38b3be45efe1c898b19c104d7eb3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8631b543e58487fb",
+      "title": "Chapter 20: Florence Again",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/021-florence-again.md",
+      "contentHash": "d117b5a703a9edaac9529d3b2ec53c5b987082957572fe9cd1753e3e8deede76",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f2f6f7037adec55d",
+      "title": "Chapter 21: Saint Anne",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/022-saint-anne.md",
+      "contentHash": "5c7a8590b770a3f5dbf8e97459c2dcac1e09d8fbc53daeafb2dbf4acd01d86ba",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c5e94aed0da02402",
+      "title": "Chapter 22: Paintings Lost and Found",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/023-paintings-lost-and-found.md",
+      "contentHash": "3651b0275ae09abf5304f2fb703755f4139e86f9fd76ed88232d3afd9069902f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "39c1ab78c1734ba4",
+      "title": "Chapter 23: Cesare Borgia",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/024-cesare-borgia.md",
+      "contentHash": "27129fd6227798abacf724e401bd55712ba14c291c4f7d22051feec0789a5604",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "04a9230730da7008",
+      "title": "Chapter 24: Hydraulic Engineer",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/025-hydraulic-engineer.md",
+      "contentHash": "fedb23e7c9a0c3ffcead2d1ef512774b9db707481da5d01173f6d7d95418d89f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7a006296fc228fb7",
+      "title": "Chapter 25: Michelangelo and the Lost Battles",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/026-michelangelo-and-the-lost-battles.md",
+      "contentHash": "fbdca1fd9a01c20f258c51077d3a8b249a870acf1fd06fb2a31fdbd0867f8a9b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c6684459781e2e9f",
+      "title": "Chapter 26: Return to Milan",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/027-return-to-milan.md",
+      "contentHash": "72d3f16b503975113c0f0bcd6a248659fcd13ada0cfec7d5756ceced799babbe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8459cabc13f462a4",
+      "title": "Chapter 27: Anatomy, Round Two",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/028-anatomy-round-two.md",
+      "contentHash": "bedd5838f1508da09f509f019ad5a304517c6203f02c0fe17c0c3f4e251bd4c7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9be29afbbbef21b8",
+      "title": "Chapter 28: The World and Its Waters",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/029-the-world-and-its-waters.md",
+      "contentHash": "b32f2ec59e96a45af79722223d02f8b0ad76fc1bce973ee218d9d5a307e503fd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "eec9f562b036a7f0",
+      "title": "Chapter 29: Rome",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/030-rome.md",
+      "contentHash": "574d90728f340019630fb3880259ee1e1ca32dc7d17a60106f6a5eb67e80ca46",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5c29b450690ff712",
+      "title": "Chapter 30: Pointing the Way",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/031-pointing-the-way.md",
+      "contentHash": "3d0d2dd770484ca8b9c50f5c79e30f6bd37b6e6ac4d0c3b311a2daa85b180008",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7b2afb014b4a05f9",
+      "title": "Chapter 31: The Mona Lisa",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/032-the-mona-lisa.md",
+      "contentHash": "8b496241ad632435d7ea4afc464d100674673868c8fc68c7624d65c8435d36ec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "71105254aba0fb5c",
+      "title": "Chapter 32: France",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/033-france.md",
+      "contentHash": "e4c6415e17c6e0b840ab38de2ddf1e801a24c6f9d8374f701f42ef47222b33e7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "43a200d8e32f7ed8",
+      "title": "Chapter 33: Conclusion, Genius",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/034-conclusion-genius.md",
+      "contentHash": "16f983b8b35b296cf1509eb5104e64a7ece1750f46d8b6e259a1227d7fbc659d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7b5a3404208655d3",
+      "title": "Chapter 33: Conclusion, Learning from Leonardo",
+      "url": null,
+      "synthesis": "content/knowledge/leonardo-da-vinci-isaacson/035-conclusion-learning-from-leonardo.md",
+      "contentHash": "1e81db6df4baf590feba9247d6316094a356244163ed1241051546fca474c2a4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
+}
