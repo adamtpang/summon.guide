@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, type ReactNode } from "react";
 
-export type Hero = { slug: string; name: string; href: string; portrait?: string };
+export type Hero = { slug: string; name: string; href: string; portrait?: string; line: string };
 
 // The whole landing page: say what is stuck, or pick a face. Pointing at a
 // face puts that guide on the stage; clicking it goes to them. `intro` is the
@@ -30,12 +30,13 @@ export default function HeroSelect({ heroes, intro }: { heroes: Hero[]; intro: R
                 fill
                 priority
                 sizes="(max-width: 1024px) 80vw, 400px"
-                className="hero-enter object-cover object-top"
+                className="hero-enter object-cover grayscale"
               />
             ) : null}
             </span>
           </span>
           <span className="hero-name relative mt-4 block font-display text-moon group-hover:text-lapis">{hero.name}</span>
+          <span className="mt-1.5 block font-serif text-lg leading-snug text-mist">{hero.line}</span>
         </Link>
       </div>
 
@@ -56,7 +57,7 @@ export default function HeroSelect({ heroes, intro }: { heroes: Hero[]; intro: R
                     alt=""
                     fill
                     sizes="(max-width: 640px) 76px, 110px"
-                    className={`object-cover object-top transition-[filter] duration-200 ${i === shown ? "" : "saturate-[0.3]"}`}
+                    className={`object-cover grayscale transition-opacity duration-200 ${i === shown ? "" : "opacity-70 hover:opacity-100"}`}
                   />
                 ) : null}
               </span>

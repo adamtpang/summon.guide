@@ -5,7 +5,7 @@ import AuthButton from "@/components/AuthButton";
 import SummonMark from "@/components/SummonMark";
 import StuckBox from "@/components/StuckBox";
 import { guidePath } from "@/lib/guideUrls";
-import { curatedFigures } from "@/lib/curated";
+import { curatedFigures, GUIDE_LINES } from "@/lib/curated";
 
 // Server Component on purpose: the raw first response carries the real
 // headline and every guide's name for crawlers. The only interactive piece,
@@ -14,7 +14,7 @@ import { curatedFigures } from "@/lib/curated";
 export default function Home() {
   const heroes: Hero[] = [...curatedFigures]
     .sort((a, b) => a.name.localeCompare(b.name))
-    .map((f) => ({ slug: f.slug, name: f.name, href: guidePath(f.slug), portrait: f.portrait }));
+    .map((f) => ({ slug: f.slug, name: f.name, href: guidePath(f.slug), portrait: `/portraits/matched/${f.slug}.webp`, line: GUIDE_LINES[f.slug] ?? f.knownFor }));
   return (
     <main className="flex min-h-[100dvh] flex-col bg-night text-moon">
       <header className="mx-auto flex w-full max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
