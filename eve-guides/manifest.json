@@ -1077,7 +1077,7 @@
   {
     "id": "book:hard-truths-to-keep-singapore-going",
     "name": "Hard Truths to Keep Singapore Going",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-hard-truths-to-keep-singapore-going",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1113,7 +1113,7 @@
   {
     "id": "book:how-to-make-a-few-billion-dollars",
     "name": "How to Make a Few Billion Dollars",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-how-to-make-a-few-billion-dollars",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1125,7 +1125,7 @@
   {
     "id": "book:hyperloop-alpha",
     "name": "Hyperloop Alpha",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-hyperloop-alpha",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1137,7 +1137,7 @@
   {
     "id": "book:introspect",
     "name": "Introspect",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-introspect",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1163,12 +1163,24 @@
   {
     "id": "book:leonardo-da-vinci-isaacson",
     "name": "Leonardo da Vinci",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-leonardo-da-vinci-isaacson",
     "framework": "eve",
     "runtimeEnabled": false,
     "sourceSlugs": [
       "leonardo-da-vinci-isaacson"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:notebooks-of-leonardo-da-vinci",
+    "name": "Leonardo's Notebooks: Writing and Art of the Great Master",
+    "availability": "ready",
+    "directory": "book-notebooks-of-leonardo-da-vinci",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "notebooks-of-leonardo-da-vinci"
     ],
     "skillSlugs": []
   },
@@ -1271,7 +1283,7 @@
   {
     "id": "book:one-mans-view-of-the-world",
     "name": "One Man's View of the World",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-one-mans-view-of-the-world",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1335,7 +1347,7 @@
   {
     "id": "book:poor-richards-almanack",
     "name": "Poor Richard's Almanack",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-poor-richards-almanack",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1438,7 +1450,7 @@
   {
     "id": "book:the-anthology-of-balaji",
     "name": "The Anthology of Balaji",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-the-anthology-of-balaji",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1585,7 +1597,7 @@
   {
     "id": "book:the-founders-soni",
     "name": "The Founders: The Story of PayPal and the Entrepreneurs Who Shaped Silicon Valley",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-the-founders-soni",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -1597,24 +1609,12 @@
   {
     "id": "book:the-network-state",
     "name": "The Network State: How to Start a New Country",
-    "availability": "building",
+    "availability": "ready",
     "directory": "book-the-network-state",
     "framework": "eve",
     "runtimeEnabled": false,
     "sourceSlugs": [
       "the-network-state"
-    ],
-    "skillSlugs": []
-  },
-  {
-    "id": "book:notebooks-of-leonardo-da-vinci",
-    "name": "The Notebooks of Leonardo da Vinci",
-    "availability": "building",
-    "directory": "book-notebooks-of-leonardo-da-vinci",
-    "framework": "eve",
-    "runtimeEnabled": false,
-    "sourceSlugs": [
-      "notebooks-of-leonardo-da-vinci"
     ],
     "skillSlugs": []
   },

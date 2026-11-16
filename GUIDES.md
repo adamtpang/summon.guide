@@ -38,11 +38,11 @@ A guide is a person defined in `src/lib/figures.ts`. Source counts come from `sr
 | [Adam Neumann](https://summon.guide/adam-neumann) | `adam-neumann` | 2 | 0 | 1 | yes |
 | [Alexander the Great](https://summon.guide/alexander) | `alexander` | 3 | 25 | 2 | yes |
 | [Annie Duke](https://summon.guide/annie-duke) | `annie-duke` | 1 | 7 | 2 | no |
-| [Balaji Srinivasan](https://summon.guide/balaji-srinivasan) | `balaji-srinivasan` | 2 | 0 | 1 | no |
-| [Benjamin Franklin](https://summon.guide/franklin) | `franklin` | 4 | 20 | 2 | yes |
+| [Balaji Srinivasan](https://summon.guide/balaji-srinivasan) | `balaji-srinivasan` | 2 | 89 | 1 | no |
+| [Benjamin Franklin](https://summon.guide/franklin) | `franklin` | 4 | 29 | 2 | yes |
 | [Bill Wilson](https://summon.guide/bill-wilson) | `bill-wilson` | 0 | 0 | 1 | no |
 | [Bob Marley](https://summon.guide/bob-marley) | `bob-marley` | 0 | 0 | 1 | yes |
-| [Brad Jacobs](https://summon.guide/brad-jacobs) | `brad-jacobs` | 1 | 0 | 1 | yes |
+| [Brad Jacobs](https://summon.guide/brad-jacobs) | `brad-jacobs` | 1 | 8 | 1 | yes |
 | [Brian Armstrong](https://summon.guide/brian-armstrong) | `brian-armstrong` | 0 | 0 | 1 | yes |
 | [Buffett & Munger](https://summon.guide/buffettmunger) | `buffettmunger` | 0 | 0 | 1 | no |
 | [C.S. Lewis](https://summon.guide/cs-lewis) | `cs-lewis` | 0 | 0 | 1 | no |
@@ -53,7 +53,7 @@ A guide is a person defined in `src/lib/figures.ts`. Source counts come from `sr
 | [David Deutsch](https://summon.guide/deutsch) | `deutsch` | 2 | 32 | 3 | yes |
 | [David Senra](https://summon.guide/senra) | `senra` | 1 | 230 | 1 | yes |
 | [Derek Sivers](https://summon.guide/sivers) | `sivers` | 5 | 76 | 5 | yes |
-| [Elon Musk](https://summon.guide/elon) | `elon` | 5 | 30 | 2 | yes |
+| [Elon Musk](https://summon.guide/elon) | `elon` | 5 | 63 | 2 | yes |
 | [Evan Spiegel](https://summon.guide/evan-spiegel) | `evan-spiegel` | 0 | 0 | 1 | yes |
 | [Hermann Hesse](https://summon.guide/hesse) | `hesse` | 1 | 12 | 2 | no |
 | [James Clear](https://summon.guide/james-clear) | `james-clear` | 1 | 22 | 2 | no |
@@ -65,7 +65,7 @@ A guide is a person defined in `src/lib/figures.ts`. Source counts come from `sr
 | [John Mackey](https://summon.guide/john-mackey) | `john-mackey` | 0 | 0 | 1 | yes |
 | [John Vervaeke](https://summon.guide/vervaeke) | `vervaeke` | 1 | 8 | 1 | yes |
 | [Josh Kushner](https://summon.guide/josh-kushner) | `josh-kushner` | 0 | 0 | 1 | no |
-| [Lee Kuan Yew](https://summon.guide/lee-kuan-yew) | `lee-kuan-yew` | 4 | 43 | 1 | yes |
+| [Lee Kuan Yew](https://summon.guide/lee-kuan-yew) | `lee-kuan-yew` | 4 | 91 | 1 | yes |
 | [Lucius Annaeus Seneca](https://summon.guide/seneca) | `seneca` | 3 | 53 | 2 | yes |
 | [Luigi Cornaro](https://summon.guide/luigi-cornaro) | `luigi-cornaro` | 0 | 0 | 1 | no |
 | [Lulie Tanett](https://summon.guide/lulie-tanett) | `lulie-tanett` | 1 | 11 | 2 | no |
@@ -92,7 +92,7 @@ A guide is a person defined in `src/lib/figures.ts`. Source counts come from `sr
 | [Tim Ferriss](https://summon.guide/tim-ferriss) | `tim-ferriss` | 2 | 39 | 3 | no |
 | [Tobi Lütke](https://summon.guide/tobi-lutke) | `tobi-lutke` | 0 | 0 | 1 | yes |
 | [Todd Graves](https://summon.guide/todd-graves) | `todd-graves` | 0 | 0 | 1 | yes |
-| [Visakan Veerasamy](https://summon.guide/visakan) | `visakan` | 2 | 17 | 2 | yes |
+| [Visakan Veerasamy](https://summon.guide/visakan) | `visakan` | 2 | 66 | 2 | yes |
 | [Vivek Murthy](https://summon.guide/vivek-murthy) | `vivek-murthy` | 0 | 0 | 1 | no |
 | [Warren Buffett](https://summon.guide/warren-buffett) | `warren-buffett` | 1 | 36 | 2 | yes |
 
@@ -128,14 +128,15 @@ This includes books, essays, letters, scriptures, and manifestos registered in `
 | [Fooled by Randomness](https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219) | Nassim Nicholas Taleb | [Nassim Nicholas Taleb](https://summon.guide/nassim-taleb) | by | partial | 16 | [view](https://summon.guide/distillations/fooled-by-randomness) | [open](https://summon.guide/chat/source/fooled-by-randomness) |
 | [Friendly Ambitious Nerd](https://visakanv.gumroad.com/l/FANbook) | Visakan Veerasamy | [Visakan Veerasamy](https://summon.guide/visakan) | by | partial | 17 | [view](https://summon.guide/distillations/friendly-ambitious-nerd) | [open](https://summon.guide/chat/source/friendly-ambitious-nerd) |
 | [From Third World to First: The Singapore Story 1965-2000](https://www.amazon.com/Third-World-First-Singapore-1965-2000/dp/0060957514) | Lee Kuan Yew | [Lee Kuan Yew](https://summon.guide/lee-kuan-yew) | by | partial | 43 | no | [open](https://summon.guide/chat/source/from-third-world-to-first) |
-| Hard Truths to Keep Singapore Going | Lee Kuan Yew, interviewed by Han Fook Kwang and others | [Lee Kuan Yew](https://summon.guide/lee-kuan-yew) | by | pending | 0 | no | no |
+| Hard Truths to Keep Singapore Going | Lee Kuan Yew, interviewed by Han Fook Kwang and others | [Lee Kuan Yew](https://summon.guide/lee-kuan-yew) | by | partial | 23 | no | [open](https://summon.guide/chat/source/hard-truths-to-keep-singapore-going) |
 | [Hell Yeah or No](https://sive.rs/n) | Derek Sivers | [Derek Sivers](https://summon.guide/sivers) | by | partial | 13 | [view](https://summon.guide/distillations/hell-yeah-or-no) | [open](https://summon.guide/chat/source/hell-yeah-or-no) |
 | [How to Live](https://sive.rs/h) | Derek Sivers | [Derek Sivers](https://summon.guide/sivers) | by | partial | 28 | [view](https://summon.guide/distillations/how-to-live) | [open](https://summon.guide/chat/source/how-to-live) |
-| How to Make a Few Billion Dollars | Brad Jacobs | [Brad Jacobs](https://summon.guide/brad-jacobs) | by | pending | 0 | no | no |
-| Hyperloop Alpha | Elon Musk | [Elon Musk](https://summon.guide/elon) | by | pending | 0 | no | no |
-| Introspect | Visakan Veerasamy | [Visakan Veerasamy](https://summon.guide/visakan) | by | pending | 0 | no | no |
+| How to Make a Few Billion Dollars | Brad Jacobs | [Brad Jacobs](https://summon.guide/brad-jacobs) | by | partial | 8 | no | [open](https://summon.guide/chat/source/how-to-make-a-few-billion-dollars) |
+| Hyperloop Alpha | Elon Musk | [Elon Musk](https://summon.guide/elon) | by | partial | 8 | no | [open](https://summon.guide/chat/source/hyperloop-alpha) |
+| Introspect | Visakan Veerasamy | [Visakan Veerasamy](https://summon.guide/visakan) | by | partial | 49 | no | [open](https://summon.guide/chat/source/introspect) |
 | [It's Time to Build](https://a16z.com/its-time-to-build/) | Marc Andreessen | [Marc Andreessen](https://summon.guide/marc-andreessen) | by | complete | 5 | [view](https://summon.guide/distillations/its-time-to-build) | [open](https://summon.guide/chat/source/its-time-to-build) |
-| Leonardo da Vinci | Walter Isaacson | leonardo-da-vinci | about | pending | 0 | no | no |
+| Leonardo da Vinci | Walter Isaacson | leonardo-da-vinci | about | partial | 35 | no | [open](https://summon.guide/chat/source/leonardo-da-vinci-isaacson) |
+| Leonardo's Notebooks: Writing and Art of the Great Master | Leonardo da Vinci, edited by H. Anna Suh | leonardo-da-vinci | by | partial | 30 | no | [open](https://summon.guide/chat/source/notebooks-of-leonardo-da-vinci) |
 | [Letters from a Stoic (Epistulae Morales ad Lucilium)](https://www.amazon.com/Letters-Stoic-Penguin-Classics-Seneca/dp/0140442103) | Seneca | [Lucius Annaeus Seneca](https://summon.guide/seneca) | by | partial | 38 | [view](https://summon.guide/distillations/letters-from-a-stoic) | [open](https://summon.guide/chat/source/letters-from-a-stoic) |
 | [Life of Alexander](https://www.gutenberg.org/ebooks/674) | Plutarch | [Alexander the Great](https://summon.guide/alexander) | about | complete | 16 | [view](https://summon.guide/distillations/life-of-alexander-plutarch) | [open](https://summon.guide/chat/source/life-of-alexander-plutarch) |
 | [Meditations](https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255) | Marcus Aurelius | [Marcus Aurelius](https://summon.guide/marcus-aurelius) | by | complete | 12 | [view](https://summon.guide/distillations/meditations) | [open](https://summon.guide/chat/source/meditations) |
@@ -143,11 +144,11 @@ This includes books, essays, letters, scriptures, and manifestos registered in `
 | [Mindset: The New Psychology of Success](https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322) | Carol S. Dweck | [Carol Dweck](https://summon.guide/carol-dweck) | by | partial | 11 | [view](https://summon.guide/distillations/mindset) | [open](https://summon.guide/chat/source/mindset) |
 | [On Anger (De Ira)](https://www.amazon.com/Dialogues-Essays-Oxford-Worlds-Classics/dp/0199552401) | Seneca | [Lucius Annaeus Seneca](https://summon.guide/seneca) | by | partial | 8 | no | [open](https://summon.guide/chat/source/on-anger) |
 | [On the Shortness of Life (De Brevitate Vitae)](https://www.amazon.com/Shortness-Life-Penguin-Great-Ideas/dp/0143036327) | Seneca | [Lucius Annaeus Seneca](https://summon.guide/seneca) | by | partial | 7 | no | [open](https://summon.guide/chat/source/on-the-shortness-of-life) |
-| [One Man's View of the World](https://www.amazon.com/One-Mans-View-World/dp/9814342564) | Lee Kuan Yew | [Lee Kuan Yew](https://summon.guide/lee-kuan-yew) | by | partial | 0 | no | no |
+| [One Man's View of the World](https://www.amazon.com/One-Mans-View-World/dp/9814342564) | Lee Kuan Yew | [Lee Kuan Yew](https://summon.guide/lee-kuan-yew) | by | partial | 25 | no | [open](https://summon.guide/chat/source/one-mans-view-of-the-world) |
 | [Paul Graham: Selected Essays](https://www.paulgraham.com/articles.html) | Paul Graham | [Paul Graham](https://summon.guide/paul-graham) | by | partial | 6 | [view](https://summon.guide/distillations/paul-graham-essays) | [open](https://summon.guide/chat/source/paul-graham-essays) |
 | [Pendleton Ward: Selected Public Interviews](https://www.themarysue.com/pendleton-ward-interview/) | Pendleton Ward, interviewed by Max Eddy, GeekDad, and Rollin Bishop | [Pendleton Ward](https://summon.guide/pendleton-ward) | compiled | partial | 3 | no | [open](https://summon.guide/chat/source/pendleton-ward-selected-interviews) |
 | [Poor Charlie's Almanack](https://www.stripe.press/poor-charlies-almanack) | Charles T. Munger, edited by Peter D. Kaufman | [Charlie Munger](https://summon.guide/charlie-munger) | compiled | partial | 22 | [view](https://summon.guide/distillations/poor-charlies-almanack) | [open](https://summon.guide/chat/source/poor-charlies-almanack) |
-| Poor Richard's Almanack | Benjamin Franklin | [Benjamin Franklin](https://summon.guide/franklin) | by | pending | 0 | no | no |
+| Poor Richard's Almanack | Benjamin Franklin | [Benjamin Franklin](https://summon.guide/franklin) | by | partial | 9 | no | [open](https://summon.guide/chat/source/poor-richards-almanack) |
 | [Principles](https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021) | Ray Dalio | [Ray Dalio](https://summon.guide/ray-dalio) | by | partial | 29 | [view](https://summon.guide/distillations/principles) | [open](https://summon.guide/chat/source/principles) |
 | [Principles for Dealing with the Changing World Order](https://www.amazon.com/Principles-Dealing-Changing-World-Order/dp/1982160272) | Ray Dalio | [Ray Dalio](https://summon.guide/ray-dalio) | by | partial | 7 | [view](https://summon.guide/distillations/principles-for-dealing-with-the-changing-world-order) | [open](https://summon.guide/chat/source/principles-for-dealing-with-the-changing-world-order) |
 | [Reason Is Fun: Selected Essays](https://www.lulie.co.uk/) | Lulie Tanett | [Lulie Tanett](https://summon.guide/lulie-tanett) | by | complete | 11 | [view](https://summon.guide/distillations/reason-is-fun-essays) | [open](https://summon.guide/chat/source/reason-is-fun-essays) |
@@ -155,7 +156,7 @@ This includes books, essays, letters, scriptures, and manifestos registered in `
 | [Skin in the Game](https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/0425284639) | Nassim Nicholas Taleb | [Nassim Nicholas Taleb](https://summon.guide/nassim-taleb) | by | partial | 21 | [view](https://summon.guide/distillations/skin-in-the-game) | [open](https://summon.guide/chat/source/skin-in-the-game) |
 | [Steve Jobs](https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537) | Walter Isaacson | [Steve Jobs](https://summon.guide/steve-jobs) | about | partial | 28 | [view](https://summon.guide/distillations/steve-jobs-isaacson) | [open](https://summon.guide/chat/source/steve-jobs-isaacson) |
 | [Tao Te Ching](https://www.gutenberg.org/ebooks/216) | Laozi | unattributed | by | complete | 17 | [view](https://summon.guide/distillations/tao-te-ching) | [open](https://summon.guide/chat/source/tao-te-ching) |
-| The Anthology of Balaji | Eric Jorgenson | [Balaji Srinivasan](https://summon.guide/balaji-srinivasan) | compiled | pending | 0 | no | no |
+| The Anthology of Balaji | Eric Jorgenson | [Balaji Srinivasan](https://summon.guide/balaji-srinivasan) | compiled | partial | 25 | no | [open](https://summon.guide/chat/source/the-anthology-of-balaji) |
 | [The Autobiography of Benjamin Franklin](https://www.amazon.com/Autobiography-Benjamin-Franklin/dp/0486290735) | Benjamin Franklin | [Benjamin Franklin](https://summon.guide/franklin) | by | partial | 20 | [view](https://summon.guide/distillations/autobiography-of-benjamin-franklin) | [open](https://summon.guide/chat/source/autobiography-of-benjamin-franklin) |
 | The Bed of Procrustes: Philosophical and Practical Aphorisms | Nassim Nicholas Taleb | [Nassim Nicholas Taleb](https://summon.guide/nassim-taleb) | by | pending | 0 | no | no |
 | [The Beginning of Infinity](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359) | David Deutsch | [David Deutsch](https://summon.guide/deutsch) | by | partial | 18 | [view](https://summon.guide/distillations/the-beginning-of-infinity) | [open](https://summon.guide/chat/source/the-beginning-of-infinity) |
@@ -165,9 +166,8 @@ This includes books, essays, letters, scriptures, and manifestos registered in `
 | The Campaigns of Alexander (Anabasis Alexandri) | Arrian | [Alexander the Great](https://summon.guide/alexander) | about | partial | 9 | no | [open](https://summon.guide/chat/source/campaigns-of-alexander-arrian) |
 | [The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion](https://www.amazon.com/Cult-We-WeWork-Neumann-Startup/dp/0593237145) | Eliot Brown and Maureen Farrell | [Adam Neumann](https://summon.guide/adam-neumann) | about | partial | 0 | no | no |
 | [The Fabric of Reality](https://www.amazon.com/Fabric-Reality-Parallel-Universes-Implications/dp/014027541X) | David Deutsch | [David Deutsch](https://summon.guide/deutsch) | by | partial | 14 | [view](https://summon.guide/distillations/the-fabric-of-reality) | [open](https://summon.guide/chat/source/the-fabric-of-reality) |
-| The Founders: The Story of PayPal and the Entrepreneurs Who Shaped Silicon Valley | Jimmy Soni | [Elon Musk](https://summon.guide/elon) | about | pending | 0 | no | no |
-| [The Network State: How to Start a New Country](https://thenetworkstate.com) | Balaji Srinivasan | [Balaji Srinivasan](https://summon.guide/balaji-srinivasan) | by | partial | 0 | no | no |
-| The Notebooks of Leonardo da Vinci | Leonardo da Vinci, translated by Jean Paul Richter | leonardo-da-vinci | by | pending | 0 | no | no |
+| The Founders: The Story of PayPal and the Entrepreneurs Who Shaped Silicon Valley | Jimmy Soni | [Elon Musk](https://summon.guide/elon) | about | partial | 25 | no | [open](https://summon.guide/chat/source/the-founders-soni) |
+| [The Network State: How to Start a New Country](https://thenetworkstate.com) | Balaji Srinivasan | [Balaji Srinivasan](https://summon.guide/balaji-srinivasan) | by | partial | 64 | no | [open](https://summon.guide/chat/source/the-network-state) |
 | [The Nvidia Way](https://www.amazon.com/Nvidia-Way-Jensen-Huangs-Silicon/dp/1324086712) | Tae Kim | [Jensen Huang](https://summon.guide/jensen-huang) | about | complete | 17 | [view](https://summon.guide/distillations/the-nvidia-way) | [open](https://summon.guide/chat/source/the-nvidia-way) |
 | [The Pathless Path](https://www.amazon.com/Pathless-Path-Paul-Millerd/dp/B09KYZ8B4C) | Paul Millerd | [Paul Millerd](https://summon.guide/paul-millerd) | by | partial | 11 | [view](https://summon.guide/distillations/the-pathless-path) | [open](https://summon.guide/chat/source/the-pathless-path) |
 | [The Singapore Story: Memoirs of Lee Kuan Yew](https://www.amazon.com/Singapore-Story-Memoirs-Lee-Kuan/dp/0130208035) | Lee Kuan Yew | [Lee Kuan Yew](https://summon.guide/lee-kuan-yew) | by | partial | 0 | no | no |

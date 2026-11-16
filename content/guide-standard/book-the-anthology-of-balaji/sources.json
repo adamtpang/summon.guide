@@ -2,6 +2,232 @@
   "version": 1,
   "guideId": "book:the-anthology-of-balaji",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "baec3a062624df65",
+      "title": "Introduction and Background",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/001-introduction-and-background.md",
+      "contentHash": "988bad1b59d2554118b875cd8b176854abf6744b0ce1827f503b3c916c6076bf",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8f28a226fda1ac2d",
+      "title": "Building What Money Cannot Buy",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/002-building-what-money-cant-buy.md",
+      "contentHash": "c8bfdf29f973855ff911fc99d529bba6b621c97a88a9da9511650601f341fc53",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f97db4d6ab9c8d54",
+      "title": "Regulation, Progress, and Falling Prices",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/003-regulation-progress-and-prices.md",
+      "contentHash": "11a401339375ac2e57eb0ec51f09ee01b47a93f244014b4166ac59cfbfdd01d7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6d0f97c372261bc8",
+      "title": "Technology, Politics, and Decentralization",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/004-technology-politics-and-decentralization.md",
+      "contentHash": "b42fc40260ca8812a9e03002c3bed6f5429f816cb1b21ddd8b1f05e683d8bc80",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8ee42044bf2b804d",
+      "title": "The Digital Frontier and Native Digital",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/005-digital-frontier-and-native-digital.md",
+      "contentHash": "df58041c8e7bddebfe196e09f44588193229e7f5f605f90366cb038ae75c2371",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "249486331d27bec0",
+      "title": "Blockchain, Property Rights, and Alignment",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/006-blockchain-property-and-alignment.md",
+      "contentHash": "23f87a18d68ab6f99536ef8c1812a35e010f1ecd49320fa2cf489ed03e87a601",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6417679ce32cd9e9",
+      "title": "Automation, Drones, and Self-Measurement",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/007-automation-and-self-measurement.md",
+      "contentHash": "2d3665fcf3de8297470659392c0b11e7116c3e33356ab59b56140a42a9ae7706",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "60be7d546424b8c9",
+      "title": "Youth Extension and Transhumanism",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/008-youth-extension-and-transhumanism.md",
+      "contentHash": "a4ab697ca2395d7d487c4535776bbc6f53b147989b3d0573ea0897947b6af0ea",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d88e3101c50b60d8",
+      "title": "The Types of Truth: Scientific and Technical",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/009-types-of-truth.md",
+      "contentHash": "826ed8c0abe27d8458e386b51a2b215fc964a307b3006b15474a561f550846d9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "31f10cd3ed14e8b4",
+      "title": "Political and Economic Truth",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/010-political-and-economic-truth.md",
+      "contentHash": "8f624f1bef9ce19966bedcf74f71af3abcbbe3770869f9f8b7db4802aab83dc3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ba276027b37745c9",
+      "title": "Cryptographic Truth and Protecting the Truth",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/011-cryptographic-truth.md",
+      "contentHash": "0a16161b0b86dfb06925afab7d5b88659a67947993657e09534eccdf75f01395",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9eecc0c1d8ab7e8d",
+      "title": "Modern Media Is Misaligned With Truth",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/012-media-misaligned-with-truth.md",
+      "contentHash": "d6b3eec156e2fa3be710858f38263c370d798095936a076f6678315f19ea2628",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fc93b56d3a69407c",
+      "title": "How to Realign Media",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/013-realigning-media.md",
+      "contentHash": "c9b1b101abbb940a4c96cf94936d5064f210c5d6a1dbf2315f37bfba5fce4f04",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "079a9a1acadcae01",
+      "title": "Building a Better Truth Machine",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/014-building-a-better-truth-machine.md",
+      "contentHash": "ba8cb182611bc565e3ef6a3a1b6a2b889274ca83370d2bb6b78e0f0c5e453770",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ce05507eb11112fa",
+      "title": "Citizen Journalists and Dollowers",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/015-citizen-journalists-and-dollowers.md",
+      "contentHash": "9de4edf4314faa66a66151f1f1b55ca2507dc968884129aae37c6a56d10a3e8a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2386169e46bf94b7",
+      "title": "Believing: Abundance, Wealth Creation, and Independence",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/016-believing-abundance-and-wealth.md",
+      "contentHash": "6e78c555ca3a6cdf4a21e299c6cd6aa55e6b1b7babd402bf2fa617f8bfd16386",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7c8fcc63013a53f9",
+      "title": "Starting Small, Finding a Frontier, and Building Instead of Arguing",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/017-frontiers-leaders-and-building.md",
+      "contentHash": "f634ae98fbf5aab37a9541c0b1c82bbcc2b3720b7d7f49e290218071ab9f0413",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b01395648946517a",
+      "title": "Founding and Researching the Idea Maze",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/018-founders-and-researching.md",
+      "contentHash": "49713b94b6b6f4b3df83bbed7b1fd699011d7e20bf2fd07fa19fc89743e417fe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "57a3dcf691a58fc6",
+      "title": "Ideating: Scanned Versions, Billion-Dollar Functions, and Full Stack",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/019-ideating.md",
+      "contentHash": "5bf186fb59347bee0c5591bc84f71e103c52e312775c74a45837057300cbb367",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "21666d62ab40ac80",
+      "title": "Validating: Economies of Scale and Market Size",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/020-validating.md",
+      "contentHash": "e1ba11732498a6b142a862a41d8a3a8087ba4a91a38b7cf9118555b21f74d0c3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "05a8e8cc731aaeca",
+      "title": "Engineering and Launching",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/021-engineering-and-launching.md",
+      "contentHash": "fa47fc9dd31c5864f28e5710d00b7167079a00c413b0bcf81f8ea8184b14d7f6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e522db3d804b0981",
+      "title": "Hiring and Managing",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/022-hiring-and-managing.md",
+      "contentHash": "f5ff9b4eddc6b80143881996eb208ef2200123e61dcf8f6ce577a4c8b1808919",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "027686c39aa83c17",
+      "title": "Growing, Executing, and Surviving",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/023-growing-executing-surviving.md",
+      "contentHash": "9755b04fae94c8facd59db01f99dd9d7f47fc292674756bfa105fe8bacef6894",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "db86eb33ecb09ba2",
+      "title": "Productivity and Learning to Learn",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/024-productivity-and-learning.md",
+      "contentHash": "20d85162dd6a4cd711e4bf82f2dabb4950bd31f6982fcf420b62e77c0b1f7349",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "be9c06104d1326a2",
+      "title": "Broad Skills and Investing in the Future",
+      "url": null,
+      "synthesis": "content/knowledge/the-anthology-of-balaji/025-skills-and-investing.md",
+      "contentHash": "540b9d5373bf8c43713e9c7500f509e3017243dda92b3b393844532e25fe3413",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

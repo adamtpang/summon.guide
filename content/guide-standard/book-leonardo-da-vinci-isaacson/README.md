@@ -4,7 +4,7 @@ ID: book:leonardo-da-vinci-isaacson
 
 Owner: bookbox.ink
 
-Coverage: missing, 0 synthesis records.
+Coverage: partial, 35 synthesis records.
 
 Distillation: Blocked on sources
 
@@ -14,7 +14,6 @@ Release: not certified. A uniform package is not a completed deep corpus.
 
 ## Remaining evidence
 
-- Bookbox: authorized edition, rights and original synthesis required
 - Bookbox: canonical distillation missing
 - Independent corpus/provenance review
 - Generated-answer evaluation for these fixtures

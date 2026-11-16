@@ -497,7 +497,7 @@
       "slug": "hard-truths-to-keep-singapore-going",
       "name": "Hard Truths to Keep Singapore Going",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "hell-yeah-or-no",
@@ -515,19 +515,19 @@
       "slug": "how-to-make-a-few-billion-dollars",
       "name": "How to Make a Few Billion Dollars",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "hyperloop-alpha",
       "name": "Hyperloop Alpha",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "introspect",
       "name": "Introspect",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "its-time-to-build",
@@ -539,7 +539,13 @@
       "slug": "leonardo-da-vinci-isaacson",
       "name": "Leonardo da Vinci",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
+    },
+    {
+      "slug": "notebooks-of-leonardo-da-vinci",
+      "name": "Leonardo's Notebooks: Writing and Art of the Great Master",
+      "kind": "book",
+      "availability": "ready"
     },
     {
       "slug": "letters-from-a-stoic",
@@ -587,7 +593,7 @@
       "slug": "one-mans-view-of-the-world",
       "name": "One Man's View of the World",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "paul-graham-essays",
@@ -611,7 +617,7 @@
       "slug": "poor-richards-almanack",
       "name": "Poor Richard's Almanack",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "principles",
@@ -659,7 +665,7 @@
       "slug": "the-anthology-of-balaji",
       "name": "The Anthology of Balaji",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "autobiography-of-benjamin-franklin",
@@ -719,19 +725,13 @@
       "slug": "the-founders-soni",
       "name": "The Founders: The Story of PayPal and the Entrepreneurs Who Shaped Silicon Valley",
       "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "the-network-state",
       "name": "The Network State: How to Start a New Country",
       "kind": "book",
-      "availability": "building"
-    },
-    {
-      "slug": "notebooks-of-leonardo-da-vinci",
-      "name": "The Notebooks of Leonardo da Vinci",
-      "kind": "book",
-      "availability": "building"
+      "availability": "ready"
     },
     {
       "slug": "the-nvidia-way",

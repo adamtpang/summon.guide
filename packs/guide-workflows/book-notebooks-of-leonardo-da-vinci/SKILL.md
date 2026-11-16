@@ -1,9 +1,9 @@
 ---
 name: book-notebooks-of-leonardo-da-vinci-source-guided-decision
-description: Apply The Notebooks of Leonardo da Vinci source notes to a concrete decision. Use for this guide's perspective with explicit evidence limits.
+description: Apply Leonardo's Notebooks Writing and Art of the Great Master source notes to a concrete decision. Use for this guide's perspective with explicit evidence limits.
 ---
 
-# The Notebooks of Leonardo da Vinci: source-guided decision
+# Leonardo's Notebooks: Writing and Art of the Great Master: source-guided decision
 
 A Summon workflow, not a method attributed to the person or author. Guide ID: book:notebooks-of-leonardo-da-vinci.
 

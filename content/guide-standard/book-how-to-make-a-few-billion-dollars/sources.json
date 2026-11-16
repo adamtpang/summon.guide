@@ -2,6 +2,79 @@
   "version": 1,
   "guideId": "book:how-to-make-a-few-billion-dollars",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "e32a69595e0c2419",
+      "title": "Chapter 1: How to Rearrange Your Brain",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-make-a-few-billion-dollars/001-how-to-rearrange-your-brain.md",
+      "contentHash": "208c30e9ddd18ab99925b06a2b070cdcf241ec2933171ffcc6dce6de3a8f03cb",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5a830dd7a82d8c0f",
+      "title": "Chapter 2: How to Get the Major Trend Right",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-make-a-few-billion-dollars/002-how-to-get-the-major-trend-right.md",
+      "contentHash": "75837cdf7e561ce4debffeed6c9156528ccfc3581fb862e20baa6d2281913180",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "516a5b18c3267244",
+      "title": "Chapter 3: How to Do Lots of High-Quality M&A without Imploding",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-make-a-few-billion-dollars/003-how-to-do-lots-of-high-quality-ma-without-imploding.md",
+      "contentHash": "8f78f7df7d4e287a6176787397123fe250b214d45b50d54ea6acf662f95efd42",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f68aed901ac05a25",
+      "title": "Chapter 4: How to Build an Outrageously Talented Team",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-make-a-few-billion-dollars/004-how-to-build-an-outrageously-talented-team.md",
+      "contentHash": "038c79c8ca73367298b81ea73e1b13bcff5507c2bd198e8b2aea10484521a070",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7cfcd4ccf0090a06",
+      "title": "Chapter 5: How to Run Electric Meetings",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-make-a-few-billion-dollars/005-how-to-run-electric-meetings.md",
+      "contentHash": "68dbb4dd00d06d9ee8c56d2ea2df01736d77b1016637d0fd60676d8dfdb2c1c1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "129dc87d9d26fdb5",
+      "title": "Chapter 6: How to Kill the Competition Instead of Killing Each Other",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-make-a-few-billion-dollars/006-how-to-kill-the-competition-instead-of-killing-each-other.md",
+      "contentHash": "bfb65e87b754dd004f6e3d95ef2c814c9413009c196ac69d8eb4974ed54b237d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "46ff8f2a9921b075",
+      "title": "Conclusion: The Entrepreneurial Spirit and Lifelong Enrichment",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-make-a-few-billion-dollars/007-conclusion.md",
+      "contentHash": "3249f385419d135737cebdca462e67c5920007dd91c5bd99d010191378706b79",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ce439262824e1375",
+      "title": "Appendices: Thought Experiments, Interview Questions and Meeting Exercises",
+      "url": null,
+      "synthesis": "content/knowledge/how-to-make-a-few-billion-dollars/008-appendices-tools-and-exercises.md",
+      "contentHash": "24a8eab70f29b6822f5e3b3dd10849506fc0c7c62c9c260e6e0e9c8c138f0639",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }

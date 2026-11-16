@@ -5,6 +5,447 @@
   "coverage": "partial",
   "sources": [
     {
+      "id": "b7e3fb0f666f0726",
+      "title": "Introduction: What Introspect Is About",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/001-introduction-what-introspect-is-about.md",
+      "contentHash": "db0d94ce0766017858b892493e2d676aa79681b81165d09e8e77c11b232d4749",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3c0ab77df2dcd9d4",
+      "title": "Light the Heart-Beacon, Illuminate the Fog",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/002-light-the-heart-beacon-illuminate-the-fog.md",
+      "contentHash": "3c16e19bf876b1e3c6fc99bdcfeb25a21df2261ac9c27512272b4690f609b78c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d394dfa24eeac4a1",
+      "title": "Act I: The Call to Adventure",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/003-act-i-the-call-to-adventure.md",
+      "contentHash": "321bd9e76b91d02456d970880757b7e032151818642de03836ea73719263c1e1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "af64cfdf841938ea",
+      "title": "Face the Desire for Personal Sovereignty",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/004-face-the-desire-for-personal-sovereignty.md",
+      "contentHash": "4e12a9fea8b54b6714166a3c3d2f93b9a65360194a73e00d11fdb09e26a96cb9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cdfeeff9bd8c1d59",
+      "title": "Execute the Jailbreak",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/005-execute-the-jailbreak.md",
+      "contentHash": "b84659f09cc0dbc0697cb3e5260888f0d4713298ba0505038d6e251bd85f597f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "03727bdea6c8220f",
+      "title": "Refusal of the Call: Face Your Inner Conflict",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/006-refusal-of-the-call-face-your-inner-conflict.md",
+      "contentHash": "600cd120f9a117b3693cd01734e0e808e0ec6f4445e8860f5be2b2670ad9e881",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3da886a152f178aa",
+      "title": "Act II: The Sword and the Thread",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/007-act-ii-the-sword-and-the-thread.md",
+      "contentHash": "c10088051a135241dbbf1c5520c89c4ff07a93bb8488d5fe770b548939fa8ae5",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "77a39274bcaeb5e9",
+      "title": "Experiment with Stream-of-Consciousness Journaling",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/008-experiment-with-stream-of-consciousness-journaling.md",
+      "contentHash": "7f8a004409304d8d25de75b3fd29fba3f99da39175e268fe38f154378ba2b82f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "0f257f21c1d1487f",
+      "title": "Learn Storytelling to Encourage Yourself",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/009-learn-storytelling-to-encourage-yourself.md",
+      "contentHash": "dd6a441f4e774d68872515113fd945149a63a843cb39f8d1560464e08a393a44",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a8fb055318674ae5",
+      "title": "Shamanism, Talismans and Meaning-Work",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/010-shamanism-talismans-and-meaning-work.md",
+      "contentHash": "306dd748bc8e6e8f7785b9307676cbb2d014e46b0163c3d216b581d3ea940eb3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2541ede2df55d456",
+      "title": "Experiment with Frames",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/011-experiment-with-frames.md",
+      "contentHash": "99dc04364339057fc4c7fc6b6a4197690a69331fbedc598acba3e8190b0a3d90",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7d5b1e13d8880e48",
+      "title": "Unlearn Catastrophizing",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/012-unlearn-catastrophizing.md",
+      "contentHash": "0834127d1702abe44c58d71a38ac2fa85a20bfc94f2c1f7387ea3e1422be1090",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "70e44d2294430e45",
+      "title": "Learn Project Management",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/013-learn-project-management.md",
+      "contentHash": "1ec1adabe310a536884cc723bba4660ff6cbf2933ed6594326ad61ff25454c0f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "231cfb24a6529bcc",
+      "title": "The MVP Model of Personal Development and the Ex-Boss Questions",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/014-the-mvp-model-and-what-my-ex-boss-taught-me.md",
+      "contentHash": "68246f3af59c8a22bf5c6587c950bf4731ba431109232bdf2383f3922c2ec9f9",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "719cabd9a00f13e5",
+      "title": "Take Baby Steps",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/015-take-baby-steps.md",
+      "contentHash": "02403e244bbc8847a4fb6f5c72b273c0833e555ba0771eb0a3c648d974c59ebd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ab59218bc0a4bd23",
+      "title": "Do 100 Things",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/016-do-100-things.md",
+      "contentHash": "d1cd35ba6f9a1d13cc5cedd04e6be151c89f00d7f94e83968f7b799d12646c4e",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e286e7fc4317241d",
+      "title": "Ask Questions",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/017-ask-questions.md",
+      "contentHash": "780d3d61af4cb3a158c14d99d733057db9b593627fb2122063c97b12dc541201",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "084567f963232762",
+      "title": "Define Problems and Solve Them",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/018-define-problems-and-solve-them.md",
+      "contentHash": "ac52b11792d377ecd7d8e456e3f5e2b5689a5b8386a183754d696fbe3d4b4ea4",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d15967119ab724f4",
+      "title": "Investigate Your Desires",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/019-investigate-your-desires.md",
+      "contentHash": "0e755ae875e648e526833b39411ad2ca292ec81a38fb2c8f9b89a0c6089ca014",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3ca73300480b4db9",
+      "title": "Learn to Ask for Help",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/020-learn-to-ask-for-help.md",
+      "contentHash": "37b6821f7853d06a170547c6a15300f57064fc6161626b3fa97407b44393819c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f8270e200b1a8b8d",
+      "title": "Cultivate a Sense of Humor",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/021-cultivate-a-sense-of-humor.md",
+      "contentHash": "af528d52969df939ed94631dc6e5781e959c16d1c8afa482da8afd3537c06286",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "32447bfd663b89df",
+      "title": "Embrace Your Mistakes",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/022-embrace-your-mistakes.md",
+      "contentHash": "8ac3a808780e5a443dd0aa93a312d632e8a59e610e08f00af2d088f430dd1a91",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "eb97768beb845cc8",
+      "title": "Cultivate Casual Optimism",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/023-cultivate-casual-optimism.md",
+      "contentHash": "c1a823fb114c4dd8e24e91b2e6997d69e86c31de96f9ff9b3f109b7170db17da",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "abf72448f8d83727",
+      "title": "Celebrate Your Wins",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/024-celebrate-your-wins.md",
+      "contentHash": "f66eab74766db0ec5d0cbb1b7cea6aacc0d0280945649fafd8dd376e7b38e2da",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "1cf02b1f630deaea",
+      "title": "Act III: Enter the Labyrinth",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/025-act-iii-enter-the-labyrinth.md",
+      "contentHash": "e14c5586c69f490403922f364cf2866c9e15062f1c047d53cc1b50a21fdba684",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "b979517278c1b731",
+      "title": "Investigate Your Boredom",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/026-investigate-your-boredom.md",
+      "contentHash": "1f0184a6ef4ef22eb92f74086d7454bf15e2a318806f2c5e46836a39c224eafd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "643032bb697cc22f",
+      "title": "Get in Tune with Your Body",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/027-get-in-tune-with-your-body.md",
+      "contentHash": "acfd55303d72e82118a41bd49831ea41bdc9438ce9e032c9ad91485f3521b5fe",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "28821d55df512d61",
+      "title": "Face Your Fears: You Cannot Think Your Way Out of a Courage Deficit",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/028-face-your-fears.md",
+      "contentHash": "2c6d579dcd81efed68e74068a84f112924dfdb491999243bb2fb16f377ea55c0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "e2aa9ac8092bcd00",
+      "title": "Declare Trust Bankruptcy (If You Need To)",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/029-declare-trust-bankruptcy.md",
+      "contentHash": "50b8ad19ebd8c2acc223d82ec583ede5bbf22275c4d8f73f640a74680bcaa7af",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fe5e011191625221",
+      "title": "Uninstall Social Bloatware",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/030-uninstall-social-bloatware.md",
+      "contentHash": "6628415f04c69a26d657cf44a0e24c8bae54ca0fd5132317190057bd3330dc7d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2df012b1d911fb9a",
+      "title": "Investigate Your Copes",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/031-investigate-your-copes.md",
+      "contentHash": "472dfe08c60f5d31a527fa4fa7bfa43f52a8cda4cd4d0433b87faf96b1222b65",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4340a3e563f1c8f1",
+      "title": "Face Your Anger",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/032-face-your-anger.md",
+      "contentHash": "7de239b621f9d324cba3fc7436456088e3763e5cdd233f0b707713b626b81ee3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a56085874fd64fb9",
+      "title": "Be Aware of Exhaustion Funnels",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/033-be-aware-of-exhaustion-funnels.md",
+      "contentHash": "648e0b939452aeb7cfe6c3caed3b77979de5dc091ed98e14bb8146d498504a7f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fdabf18b90cf341e",
+      "title": "More Unedited Rambling: The Resonance of Truth",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/034-more-unedited-rambling-the-resonance-of-truth.md",
+      "contentHash": "8ba0c4af49ec91ff785077a59ee6746169fc0dcb7f5cbaa824127b3180458501",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "f4cea56c4f594aa2",
+      "title": "Act IV: Confront the Minotaur",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/035-act-iv-confront-the-minotaur.md",
+      "contentHash": "9629ef3d973d9f3653ec71cce65cafd57c347eea58bfa91ea9d1cf2abfa306a6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "58372b48b0bd13bf",
+      "title": "Confront the Minotaur: The Bad Manager and Living As Though the Day Were Here",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/036-confront-the-minotaur-essays-bad-manager-and-living-as-though-the-day-were-here.md",
+      "contentHash": "2038aee40e327c9bcf7079d52bbcf2f1aa5c84ed15c4dc084ebe00bc2bf2fcda",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "07ac115ae9a9b482",
+      "title": "Confront the Propaganda Department of the Mind",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/037-confront-the-propaganda-department-of-the-mind.md",
+      "contentHash": "960b081ce0fd3cded83779794c3891466e078ea599a67f0ab096e949a5ecb016",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2a223367f1cc7497",
+      "title": "Face Your Inner Authoritarian-Tyrant",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/038-face-your-inner-authoritarian-tyrant.md",
+      "contentHash": "bc32dcb332178939ccc6b2257ef02c4c2fc2a4044ed6219bf00befb3e2596b90",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "721c0e847232f93f",
+      "title": "Trickster Energy",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/039-trickster-energy.md",
+      "contentHash": "356ab493d30dd63d4a525190b247d60a7bc0fa0b0b9366dd7559af0113bcc9a3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "ca3a9817f6e2053f",
+      "title": "Some Notes on Narcissism, Blame and Sympathy for the Minotaur",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/040-some-notes-on-narcissism-and-blame.md",
+      "contentHash": "62eea8b354de273029123dc4a72d22ba41382a8bd376df2448113bdbd16ea84c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c67dbbf84a93337f",
+      "title": "Put the Gun Down",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/041-put-the-gun-down.md",
+      "contentHash": "e7b8ff5804804230ca73e61f1610b69708797690b85ea77746f4bb07448c242b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9dfb84419e67c1e7",
+      "title": "Death and Rebirth: The Dark Night of the Soul",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/042-death-and-rebirth-the-dark-night-of-the-soul.md",
+      "contentHash": "dda147bc6486a1465b7fea783b08483c62b309d4863e702849e01277425263d2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3a7b84a9e40a48e9",
+      "title": "Act IV Diary Entries and the Decision to Ship",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/043-act-iv-diary-entries-and-the-decision-to-ship.md",
+      "contentHash": "2908e724b7027e4002abf2f34ffc499586e94f59a420588ec8bc9d6ac1ecf496",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "cd12700320218e19",
+      "title": "Act V: Return with the Elixir",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/044-act-v-return-with-the-elixir.md",
+      "contentHash": "795c474dcd72c42e5c23315330850fef1ae2337496df4fc19da7b6171c89a762",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "86c7d1ad7ddd2aed",
+      "title": "Integrate the Shadow",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/045-integrate-the-shadow.md",
+      "contentHash": "986a92266117f9430b29714cb70492d3cea6f5806b7490bb5ffa15c95229934c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "eaef6276141d8a53",
+      "title": "Focus on What You Want to See More Of",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/046-focus-on-what-you-want-to-see-more-of.md",
+      "contentHash": "ef2b6d766aefcb44c93cee8eaaa85f41445929283d89d2477e1b6d01a7e6a4b1",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2ae73191aa43c763",
+      "title": "Show Up, Don't Die, Don't Quit",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/047-show-up-dont-die-dont-quit.md",
+      "contentHash": "8c43770b6817da90388d994d7b23c60d0062ae7c031576c0aeb48176c102f9e2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5f1bf8d2df31a576",
+      "title": "Pay It Forward",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/048-pay-it-forward.md",
+      "contentHash": "927eeb1996a9e82b8be65c12c3d75736eae7b4e5328db2be1c5bd9fead40227b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3594cc533c923d0e",
+      "title": "Appendix: The Heart, Recurring Motifs and What Was Left Out",
+      "url": null,
+      "synthesis": "content/knowledge/introspect/049-appendix-the-heart-recurring-motifs-and-what-was-left-out.md",
+      "contentHash": "ab48784cb66f5e18848bed62b58a4787edc893c4d424aec5bb886f379875500f",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
       "id": "919a5df49d840043",
       "title": "Introduction: About Me, and the One-Page Summary",
       "url": null,

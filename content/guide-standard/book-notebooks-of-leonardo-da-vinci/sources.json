@@ -2,6 +2,277 @@
   "version": 1,
   "guideId": "book:notebooks-of-leonardo-da-vinci",
   "rawTextPublished": false,
-  "coverage": "missing",
-  "sources": []
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "8487a89eedae6a7b",
+      "title": "Introduction and Editor's Note",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/001-introduction-and-editors-note.md",
+      "contentHash": "3df4342df3a63436d5d11465e02e8203a011af5d85a78d2c2efd9c7d7c9a4958",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "6a7978b0aad4ecca",
+      "title": "The Painter's Mind and the Case for Painting",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/002-the-painters-mind-and-the-case-for-painting.md",
+      "contentHash": "5516bde888973314ccca4dc14db058cdcb766d747e6c167577924a53846c3eb8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "2ab81ffe15e8efbe",
+      "title": "Rules of the Painter's Craft",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/003-rules-of-the-painters-craft.md",
+      "contentHash": "ec55155d9ac10b1d506d9340446029f81743ccaab7d981e8a6dd62f26d69a1a6",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "7d24dae70c9fc2c8",
+      "title": "Painting Battles and Tempests",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/004-painting-battles-and-tempests.md",
+      "contentHash": "6b20910d2474df20622a52a194f85cf907285998e694b1d45dc7fe403c600e41",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4339a65b67e6d00c",
+      "title": "Human Proportion",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/005-human-proportion.md",
+      "contentHash": "015fb73120b03de4778c503ed7c90f5dc485fb8ff60b7c75047321d32f86806d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "335aa481865b4ec2",
+      "title": "Human Movement, Balance and Age",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/006-human-movement-balance-and-age.md",
+      "contentHash": "177e362b71dc5e636b7d2db414f51affa0f1bc76c67bcd13269560ff20223b50",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "aeb5385e9dd3b6c3",
+      "title": "Light and Shadow: First Principles",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/007-light-and-shadow-principles.md",
+      "contentHash": "00a98dbd141fbd43c1ead4f101a44ea42db581bd4a9cca5beda6ff40bd0a5339",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "79b7e454bf882e07",
+      "title": "Kinds of Shadow and the Geometry of Light",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/008-kinds-of-shadow-and-the-geometry-of-light.md",
+      "contentHash": "643bde9a3b6588c66908eab8cef235631e78ebb097ef5d3392d3a8b20812bc0c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "d02a3316671ad16a",
+      "title": "Perspective: Foundations",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/009-perspective-foundations.md",
+      "contentHash": "a71ca9aabcbb761a9b806094b3884c3ea62d5670f2cc1b2d6b65fd5fec1c2db0",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "fb4a7522ec04c584",
+      "title": "Aerial Perspective and the Behavior of Color",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/010-aerial-perspective-and-the-behavior-of-color.md",
+      "contentHash": "7ae0a5ab699b0fc9bffc609621419ee2f5792309a1fc2343c626a550d012cb5d",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a64dc5497b07dc6f",
+      "title": "The Eye and How We See",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/011-the-eye-and-how-we-see.md",
+      "contentHash": "3ccc33268549ae3973c14521c38f8564b46cf6ff271ae4d2d6320d37ca130205",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "a536dce9a52a2aee",
+      "title": "Studies and Sketches: Gestures, Allegories and Monsters",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/012-studies-and-sketches-gestures-allegories-and-monsters.md",
+      "contentHash": "30b5091973615a8c8716168558d37ae24aad2de77cf92405f93614b1d1bf1704",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "12891614203409dc",
+      "title": "Anatomy: Method and Dissection",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/013-anatomy-method-and-dissection.md",
+      "contentHash": "6acfdf2ee64c2505ea4bc5d2e95dadacdc90a45fe169cd3c10319ba2a4baee00",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "889789963bd1c2b7",
+      "title": "Anatomy: Animals, the Soul and the Microcosm",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/014-anatomy-animals-the-soul-and-the-microcosm.md",
+      "contentHash": "fa4f48bc7df14932034cedb7c9dcd99f1da9b07d573efa3c2182c670f1ef9e46",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "8fc4e0e1b632ca9c",
+      "title": "Botany: Trees, Leaves and Growth",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/015-botany-trees-leaves-and-growth.md",
+      "contentHash": "4f0e893860277cc63cb56e4549227a5bd378c82499be0970c07fa9f6c6a75bc8",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "4cfe3e2c21b35cde",
+      "title": "Skies, Clouds and Water in Landscape",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/016-skies-clouds-and-water-in-landscape.md",
+      "contentHash": "d24dffb7c63bb0fef9a43eea31a4cd23f9a2e7240692cb479a76f896af5ef4a7",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "3ddd52cf64939572",
+      "title": "Geography: The Living Earth and Rivers",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/017-geography-the-living-earth-and-rivers.md",
+      "contentHash": "ba3518b6b64de23a305107ed4a0cc0ae4a869e93a9fcd022a8e01b7f8c6fd1ec",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "9640a093a3e20b03",
+      "title": "Geography: Fossils, Ancient Seas and the Taurus Letter",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/018-geography-fossils-ancient-seas-and-the-taurus-letter.md",
+      "contentHash": "dc125793b7b67435e7ac03bf0812b94d345f05706b9de6ba3e9acca5a30bd9f2",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "99122fcfbc68df5d",
+      "title": "Force, Motion and Weight",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/019-force-motion-and-weight.md",
+      "contentHash": "aa5c7bed6e3bd649e08fd81a39268a0bddc198a0ddb1780c05a66a07c1ddb695",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "048f13f006afa392",
+      "title": "Sun, Moon, Stars and the Seas",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/020-sun-moon-stars-and-the-seas.md",
+      "contentHash": "71b047e36a99aa9e741714cf2e5ee9dad523e0e1a8294a72a1b754857436c491",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "41ba594c7031e92a",
+      "title": "Architecture: Arches and Structural Stability",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/021-architecture-arches-and-structural-stability.md",
+      "contentHash": "1e89f6160a224b33a7e94f8a9137bb0ace17fb207399717a3a1f7685cbba2a1a",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "57fbc23a1f176509",
+      "title": "Architecture: Cities, Stables and a Water Garden",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/022-architecture-cities-stables-and-a-water-garden.md",
+      "contentHash": "fe75905ec2fdf5eadf2485986ed8e81d918c3f67ccb876c01cc06d9a7309dc0b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "5e08d47335c452e7",
+      "title": "Sculpture and Metalwork",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/023-sculpture-and-metalwork.md",
+      "contentHash": "2c0f7785ac13f68017224cfe3a780e5696d12b019a67a821c476d6c351aac198",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "be331725971fe8e5",
+      "title": "Mechanics and the Engineer's Offer",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/024-mechanics-and-the-engineers-offer.md",
+      "contentHash": "90a662a3217861cffcf03636eec3ee137436285eeccb66db055d21c9c0b944dc",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "c72ea2a9f2aed560",
+      "title": "Studies of Flight",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/025-studies-of-flight.md",
+      "contentHash": "ab4771ad72a1b9b66d720df2ae377e90403bd512931aa43fa29f645b15eb8760",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "dce26b003cd587f0",
+      "title": "Practical Advice: Learning to Draw",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/026-practical-advice-learning-to-draw.md",
+      "contentHash": "2828611911bd214197616fdb4698bc01145173b0ec0fe64509692d82d74ad7bd",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "62bebf9ee7e402ea",
+      "title": "Practical Advice: Studio, Solitude and Criticism",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/027-practical-advice-studio-solitude-and-criticism.md",
+      "contentHash": "d6d55d12c092a68d4d5763ab5d6068a13d7d379ed043f65c4de8f6eb2822b91b",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "58f2e2f4be628220",
+      "title": "Philosophy and Aphorisms",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/028-philosophy-and-aphorisms.md",
+      "contentHash": "bcb6b99fb3de1c7e09f1412e5b540a1ccaa8daba28f5e227b744bcb9350a214c",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "52b253baf0e71950",
+      "title": "Jokes and Fables",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/029-jokes-and-fables.md",
+      "contentHash": "4b1874b417599fbba5687709fe3de0141a17c900f8e70f239925fad662a7eef3",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    },
+    {
+      "id": "76ccc030fd4dedb1",
+      "title": "Virtues, Vices, Time and Usefulness",
+      "url": null,
+      "synthesis": "content/knowledge/notebooks-of-leonardo-da-vinci/030-virtues-vices-time-and-usefulness.md",
+      "contentHash": "0b11d7b4a900413bc1cfa4656083c82c1cab7abca508684ae5b7e4232fa52cce",
+      "rightsReview": "not-certified",
+      "kind": "published-synthesis"
+    }
+  ]
 }
