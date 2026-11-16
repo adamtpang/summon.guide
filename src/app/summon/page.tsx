@@ -28,7 +28,7 @@ export default function SummonPacks() {
         </header>
 
         <h1 className="mb-6 mt-8 font-serif text-4xl font-medium tracking-tight sm:mt-14 sm:text-5xl">Guides</h1>
-        <GuideAgentRoster agents={guideAgentSummaries.filter((agent) => agent.availability !== "archived")} />
+        <GuideAgentRoster agents={guideAgentSummaries.filter((agent) => agent.availability !== "archived" && (agent.kind === "person" || Boolean(agent.chatHref)))} />
 
         <div className="mt-24">
           <GuideRequestPanel />

@@ -1,6 +1,6 @@
 {
   "generated": "scripts/gen-summon-handles.mjs",
-  "count": 128,
+  "count": 141,
   "handles": [
     {
       "slug": "abraham-lincoln",
@@ -30,7 +30,7 @@
       "slug": "alexander",
       "kind": "person",
       "name": "Alexander the Great",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -70,7 +70,7 @@
       "slug": "bob-marley",
       "kind": "person",
       "name": "Bob Marley",
-      "availability": "ready",
+      "availability": "archived",
       "runtime": "figure",
       "tool": "public_notes"
     },
@@ -595,6 +595,14 @@
       "tool": "public_notes"
     },
     {
+      "slug": "antifragile",
+      "kind": "book",
+      "name": "Antifragile: Things That Gain from Disorder",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
+    },
+    {
       "slug": "anything-you-want",
       "kind": "book",
       "name": "Anything You Want",
@@ -707,6 +715,14 @@
       "tool": "public_notes"
     },
     {
+      "slug": "hard-truths-to-keep-singapore-going",
+      "kind": "book",
+      "name": "Hard Truths to Keep Singapore Going",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
+    },
+    {
       "slug": "hell-yeah-or-no",
       "kind": "book",
       "name": "Hell Yeah or No",
@@ -723,12 +739,44 @@
       "tool": "public_notes"
     },
     {
+      "slug": "how-to-make-a-few-billion-dollars",
+      "kind": "book",
+      "name": "How to Make a Few Billion Dollars",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
+    },
+    {
+      "slug": "hyperloop-alpha",
+      "kind": "book",
+      "name": "Hyperloop Alpha",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
+    },
+    {
+      "slug": "introspect",
+      "kind": "book",
+      "name": "Introspect",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
+    },
+    {
       "slug": "its-time-to-build",
       "kind": "book",
       "name": "It's Time to Build",
       "availability": "ready",
       "runtime": "source",
       "tool": "public_notes"
+    },
+    {
+      "slug": "leonardo-da-vinci-isaacson",
+      "kind": "book",
+      "name": "Leonardo da Vinci",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
     },
     {
       "slug": "letters-from-a-stoic",
@@ -755,12 +803,28 @@
       "tool": "public_notes"
     },
     {
+      "slug": "memoirs-of-benjamin-franklin-vol-2",
+      "kind": "book",
+      "name": "Memoirs of Benjamin Franklin, Volume 2: Essays, Letters and Philosophical Papers",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
+    },
+    {
       "slug": "mindset",
       "kind": "book",
       "name": "Mindset: The New Psychology of Success",
       "availability": "ready",
       "runtime": "source",
       "tool": "public_notes"
+    },
+    {
+      "slug": "notebooks-of-leonardo-da-vinci",
+      "kind": "book",
+      "name": "The Notebooks of Leonardo da Vinci",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
     },
     {
       "slug": "on-anger",
@@ -809,6 +873,14 @@
       "availability": "ready",
       "runtime": "source",
       "tool": "public_notes"
+    },
+    {
+      "slug": "poor-richards-almanack",
+      "kind": "book",
+      "name": "Poor Richard's Almanack",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
     },
     {
       "slug": "principles",
@@ -875,6 +947,22 @@
       "tool": "public_notes"
     },
     {
+      "slug": "the-anthology-of-balaji",
+      "kind": "book",
+      "name": "The Anthology of Balaji",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
+    },
+    {
+      "slug": "the-bed-of-procrustes",
+      "kind": "book",
+      "name": "The Bed of Procrustes: Philosophical and Practical Aphorisms",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
+    },
+    {
       "slug": "the-beginning-of-infinity",
       "kind": "book",
       "name": "The Beginning of Infinity",
@@ -913,6 +1001,22 @@
       "availability": "ready",
       "runtime": "source",
       "tool": "public_notes"
+    },
+    {
+      "slug": "the-founders-soni",
+      "kind": "book",
+      "name": "The Founders: The Story of PayPal and the Entrepreneurs Who Shaped Silicon Valley",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
+    },
+    {
+      "slug": "the-network-state",
+      "kind": "book",
+      "name": "The Network State: How to Start a New Country",
+      "availability": "building",
+      "runtime": "source",
+      "tool": "none"
     },
     {
       "slug": "the-nvidia-way",

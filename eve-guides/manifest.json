@@ -39,7 +39,7 @@
   {
     "id": "person:alexander",
     "name": "Alexander the Great",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-alexander",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -82,7 +82,10 @@
     "directory": "person-balaji-srinivasan",
     "framework": "eve",
     "runtimeEnabled": false,
-    "sourceSlugs": [],
+    "sourceSlugs": [
+      "the-network-state",
+      "the-anthology-of-balaji"
+    ],
     "skillSlugs": []
   },
   {
@@ -93,6 +96,8 @@
     "framework": "eve",
     "runtimeEnabled": false,
     "sourceSlugs": [
+      "memoirs-of-benjamin-franklin-vol-2",
+      "poor-richards-almanack",
       "autobiography-of-benjamin-franklin",
       "benjamin-franklin-an-american-life"
     ],
@@ -114,7 +119,7 @@
   {
     "id": "person:bob-marley",
     "name": "Bob Marley",
-    "availability": "ready",
+    "availability": "archived",
     "directory": "person-bob-marley",
     "framework": "eve",
     "runtimeEnabled": false,
@@ -128,7 +133,9 @@
     "directory": "person-brad-jacobs",
     "framework": "eve",
     "runtimeEnabled": false,
-    "sourceSlugs": [],
+    "sourceSlugs": [
+      "how-to-make-a-few-billion-dollars"
+    ],
     "skillSlugs": []
   },
   {
@@ -289,6 +296,8 @@
     "framework": "eve",
     "runtimeEnabled": false,
     "sourceSlugs": [
+      "hyperloop-alpha",
+      "the-founders-soni",
       "elon-musk-isaacson",
       "elon-musk-vance",
       "the-book-of-elon"
@@ -457,6 +466,7 @@
     "framework": "eve",
     "runtimeEnabled": false,
     "sourceSlugs": [
+      "hard-truths-to-keep-singapore-going",
       "the-singapore-story",
       "from-third-world-to-first",
       "one-mans-view-of-the-world"
@@ -600,6 +610,8 @@
     "framework": "eve",
     "runtimeEnabled": false,
     "sourceSlugs": [
+      "antifragile",
+      "the-bed-of-procrustes",
       "fooled-by-randomness",
       "the-black-swan",
       "skin-in-the-game"
@@ -822,6 +834,7 @@
     "framework": "eve",
     "runtimeEnabled": false,
     "sourceSlugs": [
+      "introspect",
       "friendly-ambitious-nerd"
     ],
     "skillSlugs": []
@@ -888,6 +901,18 @@
     "runtimeEnabled": false,
     "sourceSlugs": [
       "amazon-shareholder-letters"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:antifragile",
+    "name": "Antifragile: Things That Gain from Disorder",
+    "availability": "building",
+    "directory": "book-antifragile",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "antifragile"
     ],
     "skillSlugs": []
   },
@@ -1050,6 +1075,18 @@
     ]
   },
   {
+    "id": "book:hard-truths-to-keep-singapore-going",
+    "name": "Hard Truths to Keep Singapore Going",
+    "availability": "building",
+    "directory": "book-hard-truths-to-keep-singapore-going",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "hard-truths-to-keep-singapore-going"
+    ],
+    "skillSlugs": []
+  },
+  {
     "id": "book:hell-yeah-or-no",
     "name": "Hell Yeah or No",
     "availability": "ready",
@@ -1074,6 +1111,42 @@
     "skillSlugs": []
   },
   {
+    "id": "book:how-to-make-a-few-billion-dollars",
+    "name": "How to Make a Few Billion Dollars",
+    "availability": "building",
+    "directory": "book-how-to-make-a-few-billion-dollars",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "how-to-make-a-few-billion-dollars"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:hyperloop-alpha",
+    "name": "Hyperloop Alpha",
+    "availability": "building",
+    "directory": "book-hyperloop-alpha",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "hyperloop-alpha"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:introspect",
+    "name": "Introspect",
+    "availability": "building",
+    "directory": "book-introspect",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "introspect"
+    ],
+    "skillSlugs": []
+  },
+  {
     "id": "book:its-time-to-build",
     "name": "It's Time to Build",
     "availability": "ready",
@@ -1086,6 +1159,18 @@
     "skillSlugs": [
       "its-time-to-build"
     ]
+  },
+  {
+    "id": "book:leonardo-da-vinci-isaacson",
+    "name": "Leonardo da Vinci",
+    "availability": "building",
+    "directory": "book-leonardo-da-vinci-isaacson",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "leonardo-da-vinci-isaacson"
+    ],
+    "skillSlugs": []
   },
   {
     "id": "book:letters-from-a-stoic",
@@ -1130,6 +1215,18 @@
       "view-from-above",
       "memento-mori"
     ]
+  },
+  {
+    "id": "book:memoirs-of-benjamin-franklin-vol-2",
+    "name": "Memoirs of Benjamin Franklin, Volume 2: Essays, Letters and Philosophical Papers",
+    "availability": "building",
+    "directory": "book-memoirs-of-benjamin-franklin-vol-2",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "memoirs-of-benjamin-franklin-vol-2"
+    ],
+    "skillSlugs": []
   },
   {
     "id": "book:mindset",
@@ -1236,6 +1333,18 @@
     ]
   },
   {
+    "id": "book:poor-richards-almanack",
+    "name": "Poor Richard's Almanack",
+    "availability": "building",
+    "directory": "book-poor-richards-almanack",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "poor-richards-almanack"
+    ],
+    "skillSlugs": []
+  },
+  {
     "id": "book:principles",
     "name": "Principles",
     "availability": "ready",
@@ -1327,6 +1436,18 @@
     "skillSlugs": []
   },
   {
+    "id": "book:the-anthology-of-balaji",
+    "name": "The Anthology of Balaji",
+    "availability": "building",
+    "directory": "book-the-anthology-of-balaji",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-anthology-of-balaji"
+    ],
+    "skillSlugs": []
+  },
+  {
     "id": "book:autobiography-of-benjamin-franklin",
     "name": "The Autobiography of Benjamin Franklin",
     "availability": "ready",
@@ -1339,6 +1460,18 @@
     "skillSlugs": [
       "thirteen-virtues"
     ]
+  },
+  {
+    "id": "book:the-bed-of-procrustes",
+    "name": "The Bed of Procrustes: Philosophical and Practical Aphorisms",
+    "availability": "building",
+    "directory": "book-the-bed-of-procrustes",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-bed-of-procrustes"
+    ],
+    "skillSlugs": []
   },
   {
     "id": "book:the-beginning-of-infinity",
@@ -1448,6 +1581,42 @@
       "certainty-audit",
       "seminar-room-rule"
     ]
+  },
+  {
+    "id": "book:the-founders-soni",
+    "name": "The Founders: The Story of PayPal and the Entrepreneurs Who Shaped Silicon Valley",
+    "availability": "building",
+    "directory": "book-the-founders-soni",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-founders-soni"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:the-network-state",
+    "name": "The Network State: How to Start a New Country",
+    "availability": "building",
+    "directory": "book-the-network-state",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "the-network-state"
+    ],
+    "skillSlugs": []
+  },
+  {
+    "id": "book:notebooks-of-leonardo-da-vinci",
+    "name": "The Notebooks of Leonardo da Vinci",
+    "availability": "building",
+    "directory": "book-notebooks-of-leonardo-da-vinci",
+    "framework": "eve",
+    "runtimeEnabled": false,
+    "sourceSlugs": [
+      "notebooks-of-leonardo-da-vinci"
+    ],
+    "skillSlugs": []
   },
   {
     "id": "book:the-nvidia-way",
