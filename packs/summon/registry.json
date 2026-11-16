@@ -23,7 +23,7 @@
       "slug": "alexander",
       "name": "Alexander the Great",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "alysa-liu",
@@ -59,7 +59,7 @@
       "slug": "bob-marley",
       "name": "Bob Marley",
       "kind": "person",
-      "availability": "ready"
+      "availability": "archived"
     },
     {
       "slug": "brad-jacobs",
@@ -422,6 +422,12 @@
       "availability": "ready"
     },
     {
+      "slug": "antifragile",
+      "name": "Antifragile: Things That Gain from Disorder",
+      "kind": "book",
+      "availability": "building"
+    },
+    {
       "slug": "anything-you-want",
       "name": "Anything You Want",
       "kind": "book",
@@ -488,6 +494,12 @@
       "availability": "ready"
     },
     {
+      "slug": "hard-truths-to-keep-singapore-going",
+      "name": "Hard Truths to Keep Singapore Going",
+      "kind": "book",
+      "availability": "building"
+    },
+    {
       "slug": "hell-yeah-or-no",
       "name": "Hell Yeah or No",
       "kind": "book",
@@ -500,10 +512,34 @@
       "availability": "ready"
     },
     {
+      "slug": "how-to-make-a-few-billion-dollars",
+      "name": "How to Make a Few Billion Dollars",
+      "kind": "book",
+      "availability": "building"
+    },
+    {
+      "slug": "hyperloop-alpha",
+      "name": "Hyperloop Alpha",
+      "kind": "book",
+      "availability": "building"
+    },
+    {
+      "slug": "introspect",
+      "name": "Introspect",
+      "kind": "book",
+      "availability": "building"
+    },
+    {
       "slug": "its-time-to-build",
       "name": "It's Time to Build",
       "kind": "book",
       "availability": "ready"
+    },
+    {
+      "slug": "leonardo-da-vinci-isaacson",
+      "name": "Leonardo da Vinci",
+      "kind": "book",
+      "availability": "building"
     },
     {
       "slug": "letters-from-a-stoic",
@@ -522,6 +558,12 @@
       "name": "Meditations",
       "kind": "book",
       "availability": "ready"
+    },
+    {
+      "slug": "memoirs-of-benjamin-franklin-vol-2",
+      "name": "Memoirs of Benjamin Franklin, Volume 2: Essays, Letters and Philosophical Papers",
+      "kind": "book",
+      "availability": "building"
     },
     {
       "slug": "mindset",
@@ -566,6 +608,12 @@
       "availability": "ready"
     },
     {
+      "slug": "poor-richards-almanack",
+      "name": "Poor Richard's Almanack",
+      "kind": "book",
+      "availability": "building"
+    },
+    {
       "slug": "principles",
       "name": "Principles",
       "kind": "book",
@@ -608,10 +656,22 @@
       "availability": "ready"
     },
     {
+      "slug": "the-anthology-of-balaji",
+      "name": "The Anthology of Balaji",
+      "kind": "book",
+      "availability": "building"
+    },
+    {
       "slug": "autobiography-of-benjamin-franklin",
       "name": "The Autobiography of Benjamin Franklin",
       "kind": "book",
       "availability": "ready"
+    },
+    {
+      "slug": "the-bed-of-procrustes",
+      "name": "The Bed of Procrustes: Philosophical and Practical Aphorisms",
+      "kind": "book",
+      "availability": "building"
     },
     {
       "slug": "the-beginning-of-infinity",
@@ -654,6 +714,24 @@
       "name": "The Fabric of Reality",
       "kind": "book",
       "availability": "ready"
+    },
+    {
+      "slug": "the-founders-soni",
+      "name": "The Founders: The Story of PayPal and the Entrepreneurs Who Shaped Silicon Valley",
+      "kind": "book",
+      "availability": "building"
+    },
+    {
+      "slug": "the-network-state",
+      "name": "The Network State: How to Start a New Country",
+      "kind": "book",
+      "availability": "building"
+    },
+    {
+      "slug": "notebooks-of-leonardo-da-vinci",
+      "name": "The Notebooks of Leonardo da Vinci",
+      "kind": "book",
+      "availability": "building"
     },
     {
       "slug": "the-nvidia-way",
