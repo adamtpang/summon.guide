@@ -1,9 +1,9 @@
 ---
 name: notebooks-of-leonardo-da-vinci
-description: "Use The Notebooks of Leonardo da Vinci's documented source notes when the user asks to summon The Notebooks of Leonardo da Vinci or uses /notebooks-of-leonardo-da-vinci. Fetch public retrieval without login or MCP; keep personal context in this chat."
+description: "Use Leonardo's Notebooks: Writing and Art of the Great Master's documented source notes when the user asks to summon Leonardo's Notebooks: Writing and Art of the Great Master or uses /notebooks-of-leonardo-da-vinci. Fetch public retrieval without login or MCP; keep personal context in this chat."
 ---
 
-# The Notebooks of Leonardo da Vinci: source-guided decision
+# Leonardo's Notebooks: Writing and Art of the Great Master: source-guided decision
 
 A Summon workflow, not a method attributed to the person or author. Guide ID: book:notebooks-of-leonardo-da-vinci.
 

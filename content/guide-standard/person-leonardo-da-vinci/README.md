@@ -4,7 +4,7 @@ ID: person:leonardo-da-vinci
 
 Owner: summon.guide
 
-Coverage: partial, 8 synthesis records.
+Coverage: partial, 73 synthesis records.
 
 Distillation: content/distilled/leonardo-da-vinci.md
 

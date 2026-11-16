@@ -1,7 +1,7 @@
 {
   "version": 1,
   "guideId": "book:notebooks-of-leonardo-da-vinci",
-  "sourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "sourceHash": "35e382430732e88e702439a15c0833f9f053687343e3a56c8f67f9b1f7d149c0",
   "cases": [
     {
       "id": "identity",
@@ -15,8 +15,9 @@
       "id": "grounding",
       "prompt": "Help me apply a documented idea about this source to one small reversible decision.",
       "requires": [
-        "explicit missing evidence",
-        "no invented citation"
+        "supported citation",
+        "distinguish application",
+        "concrete next action"
       ]
     },
     {

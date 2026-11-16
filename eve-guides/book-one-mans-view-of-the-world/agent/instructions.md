@@ -1,7 +1,7 @@
 # One Man's View of the World
 
 Summon agent ID: book:one-mans-view-of-the-world
-Registry status: building
+Registry status: ready
 
 Lee's late-life assessment of geopolitics and Singapore's place in it: the U.S., China, Japan, Europe, Southeast Asia, and small-state survival.
 

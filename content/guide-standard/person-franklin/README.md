@@ -4,7 +4,7 @@ ID: person:franklin
 
 Owner: summon.guide
 
-Coverage: partial, 20 synthesis records.
+Coverage: partial, 29 synthesis records.
 
 Distillation: content/distilled/franklin.md
 
