@@ -1,16 +1,40 @@
 import { ImageResponse } from "next/og";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 
-// Next.js file convention: auto-generates the homepage's og:image (and,
-// absent a separate twitter-image.tsx, its twitter:image too) and wires
-// the resulting <meta> tags into the page head automatically. Added
-// because the lightmark.app AI-visibility audit flagged og:image as
-// missing on the homepage; content mirrors the real h1/tagline in
-// src/app/page.tsx rather than inventing separate marketing copy.
+// The homepage's og:image (and twitter:image): the homepage moment, a
+// question and a row of guides from history ready to answer it. Fonts are
+// the site's own (Cinzel, Cormorant Garamond) as TTF, because ImageResponse
+// cannot read woff2. Portraits are public domain only (no living people, so
+// no implied endorsement); sources are in public/og/CREDITS.md.
 
+export const alt = 'summon.guide: portraits of guides from history under the question "What\'s stuck?"';
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-export default function OpengraphImage() {
+const GUIDES = [
+  { file: "marcus-aurelius.jpg", name: "Marcus Aurelius" },
+  { file: "leonardo-da-vinci.jpg", name: "Leonardo" },
+  { file: "benjamin-franklin.jpg", name: "Ben Franklin" },
+  { file: "abraham-lincoln.jpg", name: "Abraham Lincoln" },
+  { file: "marie-curie.jpg", name: "Marie Curie" },
+];
+
+const NIGHT = "#f7f5f0";
+const RAISED = "#fffdf9";
+const EDGE = "#e2ddd2";
+const MOON = "#23211d";
+const MIST = "#5c574e";
+
+export default async function OpengraphImage() {
+  const root = process.cwd();
+  const [cinzel, cormorantItalic, cormorant, ...portraits] = await Promise.all([
+    readFile(join(root, "src/app/fonts/cinzel-400.ttf")),
+    readFile(join(root, "src/app/fonts/cormorant-garamond-500-italic.ttf")),
+    readFile(join(root, "src/app/fonts/cormorant-garamond-500.ttf")),
+    ...GUIDES.map((g) => readFile(join(root, "public/og", g.file))),
+  ]);
+
   return new ImageResponse(
     (
       <div
@@ -19,58 +43,68 @@ export default function OpengraphImage() {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",
-          backgroundColor: "#ffffff",
-          padding: "80px 90px",
-          fontFamily: "Georgia, serif",
+          alignItems: "center",
+          backgroundColor: NIGHT,
+          padding: "52px 64px 56px",
+          fontFamily: "Cormorant",
+          color: MOON,
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            fontSize: 20,
-            letterSpacing: 6,
-            textTransform: "uppercase" as const,
-            color: "#2563eb",
-            fontFamily: "system-ui, sans-serif",
-            fontWeight: 600,
-            marginBottom: 28,
-          }}
-        >
-          summon.guide
+        <div style={{ display: "flex", fontFamily: "Cinzel", fontSize: 26, letterSpacing: 7, color: MIST }}>
+          SUMMON.GUIDE
         </div>
         <div
           style={{
             display: "flex",
-            flexDirection: "column",
-            fontSize: 66,
-            lineHeight: 1.12,
-            color: "#0f172a",
-            fontWeight: 500,
-            maxWidth: 980,
+            marginTop: 40,
+            fontFamily: "Cinzel",
+            fontSize: 92,
+            lineHeight: 1,
+            letterSpacing: 13,
+            color: MOON,
           }}
         >
-          <span>Every legend who ever lived,</span>
-          <span style={{ color: "#2563eb", fontStyle: "italic" }}>
-            on call.
-          </span>
+          WHAT&apos;S STUCK?
         </div>
-        <div
-          style={{
-            display: "flex",
-            marginTop: 36,
-            fontSize: 24,
-            color: "#64748b",
-            fontFamily: "system-ui, sans-serif",
-            maxWidth: 760,
-            lineHeight: 1.5,
-          }}
-        >
-          Search any great human in history, or describe what you&apos;re
-          facing, and summon the mind best suited to walk you through it.
+        <div style={{ display: "flex", marginTop: 20, fontSize: 42, fontStyle: "italic", color: MIST }}>
+          Ask the ones who walked the road before you.
+        </div>
+        <div style={{ display: "flex", marginTop: "auto", gap: 22 }}>
+          {GUIDES.map((g, i) => (
+            <div key={g.file} style={{ display: "flex", flexDirection: "column", alignItems: "center", width: 190 }}>
+              <div
+                style={{
+                  display: "flex",
+                  width: 146,
+                  height: 146,
+                  borderRadius: 73,
+                  border: `2px solid ${EDGE}`,
+                  backgroundColor: RAISED,
+                  overflow: "hidden",
+                }}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  alt=""
+                  width={142}
+                  height={142}
+                  src={`data:image/jpeg;base64,${portraits[i].toString("base64")}`}
+                  style={{ width: 142, height: 142, borderRadius: 71, objectFit: "cover" }}
+                />
+              </div>
+              <div style={{ display: "flex", marginTop: 12, fontSize: 25, color: MOON, whiteSpace: "nowrap" }}>{g.name}</div>
+            </div>
+          ))}
         </div>
       </div>
     ),
-    { ...size }
+    {
+      ...size,
+      fonts: [
+        { name: "Cinzel", data: cinzel, style: "normal", weight: 400 },
+        { name: "Cormorant", data: cormorant, style: "normal", weight: 500 },
+        { name: "Cormorant", data: cormorantItalic, style: "italic", weight: 500 },
+      ],
+    },
   );
 }
